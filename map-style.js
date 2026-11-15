@@ -1,7 +1,7 @@
 'use strict';
 const markerSymbols=['circle','diamond','triangle','square','cross','ring','star'];
 const markerPalette=['#527b51','#a47550','#477b91','#8b7197','#aa8b36','#4e8980','#9b625e'];
-const themeGlyphs={nature:['leaf','mountain','tree','wave','wave','mountain','leaf','mountain'],culture:['temple','house','temple','pillar','temple','gate','pillar'],gorges:['house','gate','house'],parks:['mountain','wave','tree','mountain','tree','mountain'],tea:['leaf','gate','mountain','temple','house'],silk:['gate','temple','house','wave','mountain'],polo:['ship','book','temple','gate','book']};
+const themeGlyphs={xu:['book','mountain'],kumano:['tree','temple','house'],camino:['temple','house','gate'],nature:['leaf','mountain','tree','wave','wave','mountain','leaf','mountain'],culture:['temple','house','temple','pillar','temple','gate','pillar'],gorges:['house','gate','house'],parks:['mountain','wave','tree','mountain','tree','mountain'],tea:['leaf','gate','mountain','temple','house'],silk:['gate','temple','house','wave','mountain'],polo:['ship','book','temple','gate','book']};
 function markerStyle(p){const t=themes[activeTheme],i=Math.max(0,t.filters.indexOf(p.type));return {shape:themeGlyphs[t.id][i%themeGlyphs[t.id].length],color:markerPalette[i%markerPalette.length]}}
 function pictogram(shape,x,y,s){ctx.beginPath();const line=(a,b,c,d)=>{ctx.moveTo(x+a*s,y+b*s);ctx.lineTo(x+c*s,y+d*s)};
 if(shape==='leaf'){ctx.ellipse(x,y,s*.55,s*1.2,.65,0,Math.PI*2);line(-.65,1,.65,-1)}
@@ -32,7 +32,7 @@ function drawThemedMarker(p,x,y,size){
  if(id==='culture'&&(p===selected||drawPointCount<12)){ctx.font='9px Georgia';ctx.fillStyle='#946b48';ctx.fillText('UNESCO · '+(p.facts['列入年份']||''),x+13,y+18)}
  if(previewStops){const n=previewStops.indexOf(p);if(n>=0){ctx.beginPath();ctx.arc(x,y-18,8,0,Math.PI*2);ctx.fillStyle=themes[activeTheme].colors.accent;ctx.fill();ctx.fillStyle='#fff';ctx.font='bold 10px sans-serif';ctx.textAlign='center';ctx.fillText(n+1,x,y-14)}}ctx.restore();
 }
-function renderSceneIdentity(){let el=document.querySelector('#scene-identity');if(!el){el=document.createElement('div');el.id='scene-identity';document.querySelector('.map').append(el)}const id=themes[activeTheme].id;const data={nature:['自然观察册','山地 · 森林 · 水域','◉'],culture:['文明档案馆','建筑 · 考古 · 文化景观','文'],parks:['NATIONAL PARKS','荒野野外指南 / 63 PARKS','△'],gorges:['长江行旅图','沿江聚落 · 盐运记忆','江'],tea:['茶路驿站图','川滇茶源 → 藏地 → 南亚','茶'],silk:['绿洲文明图','陆海商路 · 城市交汇','◇'],polo:['东方见闻录','去程 · 城市 · 归程 · 旁述','✦']}[id];el.innerHTML=`<b>${data[2]}</b><div><strong>${data[0]}</strong><small>${data[1]}</small></div>`;}
+function renderSceneIdentity(){let el=document.querySelector('#scene-identity');if(!el){el=document.createElement('div');el.id='scene-identity';document.querySelector('.map').append(el)}const id=themes[activeTheme].id;const data={xu:['山川游记','历年足迹 · 滇西游历精选','霞'],kumano:['熊野山行','中边路 · 参诣道站点','森'],camino:['朝圣行旅','法国之路 · 西班牙段','✧'],nature:['自然观察册','山地 · 森林 · 水域','◉'],culture:['文明档案馆','建筑 · 考古 · 文化景观','文'],parks:['NATIONAL PARKS','荒野野外指南 / 63 PARKS','△'],gorges:['长江行旅图','沿江聚落 · 盐运记忆','江'],tea:['茶路驿站图','川滇茶源 → 藏地 → 南亚','茶'],silk:['绿洲文明图','陆海商路 · 城市交汇','◇'],polo:['东方见闻录','去程 · 城市 · 归程 · 旁述','✦']}[id];el.innerHTML=`<b>${data[2]}</b><div><strong>${data[0]}</strong><small>${data[1]}</small></div>`;}
 
 // Printed cartographic treatments: ornamental textures, never elevation data.
 function cartographicWater(cx,cy){const id=themes[activeTheme].id;ctx.save();ctx.strokeStyle=themes[activeTheme].colors.accent+'20';ctx.lineWidth=.7;

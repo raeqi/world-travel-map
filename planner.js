@@ -73,3 +73,16 @@ historicalCircuit('polo-china','polo','从大都到江南：城市阅读长线',
 historicalCircuit('polo-hexi','polo','沙州与甘州：绿洲见闻',['dunhuang','zhangye'],7,[5,6,7,8,9,10],'用两处住宿基地慢读河西篇章，夏季把户外安排在清晨与傍晚。');
 historicalCircuit('polo-italy','polo','威尼斯与热那亚：从出发到成书',['venice','genoa'],8,[3,4,5,6,9,10,11],'两座海港城市分别承接出发与成书背景，加入档案馆与博物馆参观日。');
 historicalCircuit('polo-winter','polo','冬季江南游记文化之旅',['yangzhou','suzhou','hangzhou'],8,[1,2,12],'以城市博物馆和街区为主，江南冬季湿冷，留出室内活动与天气调整空间。');
+
+// Researched cultural walking collections. Days/months are editorial suggestions,
+// not historical journey durations, verified daily stages or accessibility promises.
+function walkingPlan(id,theme,name,stations,days,months,transport,reason){planTemplates.push({id,theme,name,ids:stations.map(x=>theme+'-'+x),days,months,transport,reason,climate:walkingSources[theme]})}
+walkingPlan('xu-west-yunnan','xu','徐霞客 · 1639 滇西游历精选',['jizu','lijiang','jianchuan','eryuan','dali','baoshan','tengchong'],18,[3,4,5,10,11],'当代分段交通 + 景区步行','选取滇西游历中的七个区域节点，省略沿途小站和回访，不是完整历史轨迹。18 天是当代探访草案，非徐霞客所用时间；不可全程按地图连线徒步。');
+walkingPlan('xu-zhejiang','xu','徐霞客 · 天台与雁荡阅读之旅',['tiantai','yandang'],6,[4,5,9,10,11],'城际接驳 + 景区步行','以 1613 年游历的两座浙江名山为线索。现代六日建议不复原古路，具体登山路线、门票和天气需另查。');
+walkingPlan('xu-mountains','xu','徐霞客 · 黄山与武夷山足迹',['huangshan','wuyi'],8,[4,5,9,10,11],'城际接驳 + 山地步行','阅读 1616 年名山游历的两个节点；此为现代分段探访，不把黄山至武夷山的连线作为步道。山区天气与登山开放需核实。');
+walkingPlan('kumano-nakahechi','kumano','熊野古道 · 中边路本宫线',['takijiri','takahara','chikatsuyu','tsugizakura','hosshinmon','hongu'],5,[3,4,5,10,11],'多日山地徒步 + 起终点公交接驳','从泷尻王子到本宫的精选站点。继樱至发心门间省略多个中间节点，不能将每条地图连线视为一个日程。五天是含接驳的初步安排，按官方步道地图、体力和住宿细分，留意雨雪、台风和临时绕行。');
+walkingPlan('kumano-villages','kumano','熊野古道 · 高原与近露山村段',['takijiri','takahara','chikatsuyu','tsugizakura'],3,[3,4,5,10,11],'分日徒步 + 公交接驳','把山村与王子社安排成前半程体验，不必一次走完中边路。每日步行距离、爬升、住宿和返程班次须用官方地图确认。');
+walkingPlan('kumano-hongu','kumano','熊野古道 · 发心门至本宫',['hosshinmon','hongu'],1,[3,4,5,10,11],'末段步行 + 公交接驳','适合只选本宫前末段的体验。地图仅连接起终点，不提供真实步道里程、导航或当天可通行保证；先查看官方地图与天气。');
+walkingPlan('camino-frances','camino','朝圣之路 · 法国之路西班牙段',walkingNodes.camino.map(x=>x[0]),35,[4,5,6,9,10],'长距离分日徒步 · 多处住宿','从龙塞斯瓦列斯到圣地亚哥的主要城镇概览，省略了许多每日住宿点。约五周为编辑建议，需按体能、休息日和天气细化。直线合计不是实际徒步里程；法国境内及越境段不在本路线内。');
+walkingPlan('camino-leon','camino','朝圣之路 · 莱昂向西',['leon','astorga','ponferrada','cebreiro','sarria','portomarin','palas','melide','arzua','santiago'],16,[4,5,6,9,10],'长距离分日徒步 · 山地与城镇','选取法国之路西段主要节点，山地需单独考虑爬升与天气。16 天为初步体验窗口，地图连线不是每天行程；请另查官方逐段路线与住宿。');
+walkingPlan('camino-sarria','camino','朝圣之路 · 萨里亚至圣地亚哥',['sarria','portomarin','palas','melide','arzua','santiago'],7,[4,5,6,9,10],'分日徒步 + 起终点接驳','以法国之路末段作一周体验，梅利德可途经或停留，阿尔苏阿到终点之间还需安排中间停留。按实际步道而非直线估算；此图不保证任何证书资格，申请前核实官方距离、印章与规则。');

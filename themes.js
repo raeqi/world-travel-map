@@ -10,6 +10,7 @@ const themes=[
 ,{id:'polo',name:'马可波罗游记',title:'翻开游记，<br>驶向东方的想象',story:'从威尼斯到刺桐港，按篇章探索城市、海路与书中见闻。',scope:'游记主题策展 · 23 个节点 · 区分记述与旁述',filters:[],view:{lon:77,lat:28,zoom:1.5},symbol:'star',colors:{accent:'#4b7283',ocean:'#d5e5e6',land:'#c8c6a7',edge:'#839d9866',point:'#577b8f',route:'#b08254',wash:'#edf1ea'},fields:['原书地名','篇章线索','记述性质']}
 
 ];
+themes.push(...[{"id": "xu", "name": "徐霞客游历", "title": "跟着游记，<br>走进山川深处", "story": "分清不同年份的游历，以滇西足迹与名山阅读徐霞客。", "scope": "历史足迹精选 · 非完整生平路线 · 非连续徒步轨迹", "filters": [], "view": {"lon": 104, "lat": 27, "zoom": 3}, "symbol": "diamond", "colors": {"accent": "#687b58", "ocean": "#e1e9e4", "land": "#c5cdb3", "edge": "#687b5866", "point": "#687b58", "route": "#687b58", "wash": "#f0f1e8"}, "fields": ["路线线索", "地点性质", "阅读提示"], "introduction": "徐霞客的游历跨越多年。这里区分不同年份的名山足迹与 1639 年滇西游历精选，不把一生去过的地点串成一次旅行。推荐天数是当代分段探访建议，连线仅表示站点顺序，不是考证后的精确古道。"}, {"id": "kumano", "name": "熊野古道", "title": "穿过杉林，<br>走向熊野本宫", "story": "沿中边路，从泷尻王子逐站认识山村与参诣道。", "scope": "中边路精选 · 站点示意 · 非步道导航", "filters": [], "view": {"lon": 135.62, "lat": 33.83, "zoom": 55}, "symbol": "diamond", "colors": {"accent": "#3d766b", "ocean": "#e1e9e4", "land": "#c5cdb3", "edge": "#3d766b66", "point": "#3d766b", "route": "#3d766b", "wash": "#f0f1e8"}, "fields": ["路线线索", "地点性质", "阅读提示"], "introduction": "熊野古道是一组参诣路线，而非一条路。本图选择中边路的泷尻王子至熊野本宫大社段，包含高原、近露、继樱王子与发心门王子。路线连线不沿真实步道；请使用官方地图核实每日距离、海拔、关闭路段和住宿。"}, {"id": "camino", "name": "圣地亚哥朝圣之路", "title": "循着贝壳，<br>走向圣地亚哥", "story": "选择法国之路西班牙段，也可从萨里亚开始分段体验。", "scope": "法国之路西班牙段 · 精选城镇 · 非逐日徒步轨迹", "filters": [], "view": {"lon": -4.2, "lat": 42.7, "zoom": 8}, "symbol": "diamond", "colors": {"accent": "#ad8250", "ocean": "#e1e9e4", "land": "#c5cdb3", "edge": "#ad825066", "point": "#ad8250", "route": "#ad8250", "wash": "#f0f1e8"}, "fields": ["路线线索", "地点性质", "阅读提示"], "introduction": "圣地亚哥朝圣之路有多条线路。本图选择法国之路的西班牙段，从龙塞斯瓦列斯到圣地亚哥，并提供萨里亚末段体验。法国圣让出发的越境段不在本图内。连线连接主要站点，不是实际步道，距离不能用于导航或认证资格判断。"}]);
 for(const theme of themes)theme.filters=[...new Set(places.filter(p=>p.themes.includes(theme.id)).map(p=>p.type))].sort();
 
 const themeIntroductions={
@@ -20,4 +21,4 @@ parks:'一本美国国家公园的野外旅行指南，收录 63 个国家公园
 tea:'从川滇茶源出发，沿历史贸易网络认识藏地与南亚的驿站城市。地图包含中国、尼泊尔和印度的相关节点，用茶叶、山口与聚落串起交流故事。历史线路用于文化阅读，旅行建议以分段探访为主。',
 silk:'丝绸之路是一组相互交织的交流网络。以绿洲、商贸城市与海港为节点，阅读沿途的建筑、信仰和日常生活；从一段区域行程开始，再逐步拼出横贯东西的文明地图。',
 polo:'跟随《马可波罗游记》的章节翻开东方见闻。从威尼斯、波斯到中国城市，地图把书中地点与现代地名相对照，并区分游历、转述与存疑线索。推荐路线是当代旅行组合，适合带着文本逐站阅读。'
-};for(const theme of themes)theme.introduction=themeIntroductions[theme.id];
+};for(const theme of themes)theme.introduction=theme.introduction||themeIntroductions[theme.id];

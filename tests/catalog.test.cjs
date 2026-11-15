@@ -1,7 +1,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
-const context=vm.createContext({});for(const file of ['catalog.js','tea.js','historical.js','themes.js','planner.js'])vm.runInContext(fs.readFileSync(file,'utf8'),context);
+const context=vm.createContext({});for(const file of ['catalog.js','tea.js','historical.js','walking.js','themes.js','planner.js'])vm.runInContext(fs.readFileSync(file,'utf8'),context);
 vm.runInContext(`
-if(themes.length!==7)throw Error('Seven themes');
+if(themes.length!==10)throw Error('Ten themes');
 const ids=new Set(places.map(p=>p.id));if(ids.size!==places.length)throw Error('Duplicate point IDs');
 if(places.filter(p=>p.themes.includes('parks')).length!==63)throw Error('NPS coverage');
 if(places.filter(p=>p.id.startsWith('wh-')).length!==catalogMeta.unesco)throw Error('UNESCO coverage');
@@ -13,4 +13,4 @@ if(buildPlans('culture',10).find(p=>p.id==='beijing').totalKm>80)throw Error('Se
 if(!places.some(p=>p.themes.includes('tea')&&p.country==='尼泊尔')||!places.some(p=>p.themes.includes('tea')&&p.country==='印度'))throw Error('Himalayan extensions');
 if(!buildPlans('culture',0).some(p=>p.stops.length>=7))throw Error('Long circuits');
 if(Math.abs(distanceKm({lat:0,lon:179},{lat:0,lon:-179})-222.39)>1)throw Error('Antimeridian distance');
-`,context);console.log('PASS: official coverage, source links, coordinate bounds, seven themes, expanded circuits, month filtering, duration filter, serial-property and antimeridian distances');
+`,context);console.log('PASS: official coverage, source links, coordinate bounds, ten themes, expanded circuits, month filtering, duration filter, serial-property and antimeridian distances');

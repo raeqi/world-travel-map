@@ -138,3 +138,34 @@ work on the local test machine; they are not an end-to-end frame-rate guarantee.
 地图集返回入口位于侧栏标题上方。七张地图有独立介绍，行程详情直接显示旅行思路与建议月份。主题采用不同的点位图形、边界与水域印刷样式；装饰纹理不代表真实地形。缺少官方坐标的地点可以收藏并持久保存，以“待补坐标”标识，地图连线与播放只使用有坐标的地点。
 
 回归检查：`node scripts/check-unlocated.cjs` 验证无坐标收藏、刷新恢复、混合行程播放和顶部导航；`node scripts/check-browser.cjs` 验证七主题、季节筛选、路线与手机视图。
+
+## 步行与游历主题（2026-11-15）
+
+新增三个独立主题，保留原有七主题。`walking.js` 收录 38 个代表地点，
+`planner.js` 新增 9 条全段／分段体验建议，共 62 条路线：
+
+- **徐霞客游历**：13 个地点；1639 年滇西精选为鸡足山 → 丽江 → 剑川 →
+  洱源 → 大理 → 保山 → 腾冲。另列天台、雁荡、黄山、武夷、嵩山、华山等
+  不同年份足迹，不把一生游历拼成一次连续步行。推荐天数为当代探访建议。
+- **熊野古道**：选择中边路的泷尻王子 → 高原 → 近露 → 继樱王子 →
+  发心门王子 → 熊野本宫大社，提供全段、山村前段、发心门末段三种体验。
+- **圣地亚哥朝圣之路**：选择法国之路西班牙段，从龙塞斯瓦列斯到圣地亚哥
+  的 19 个主要节点；提供全段、莱昂向西、萨里亚末段建议。
+
+这些是站点连线示意，不是 GPX 或步道导航。球面直线不等于真实徒步距离，
+中间省略的住宿站不能理解为一天可走完。季节和天数是编辑建议；出发前须
+核实实际路线、爬升、天气、关闭、住宿及接驳。证书资格不由地图判断。
+
+来源（也随地点保留）：
+- 徐霞客滇西：https://yn.yunnan.cn/system/2021/05/30/031482898.shtml
+- 游历年表：https://cnxxk.com.cn/list_24/1457.html
+- 中边路：https://www.tb-kumano.jp/en/kumano-kodo/nakahechi/
+- 熊野官方步道地图：https://www.tb-kumano.jp/en/kumano-kodo/maps/
+- 法国之路：https://www.spain.info/en/camino-santiago/french-way-camino-santiago/
+
+新主题封面为 `assets/illustrations/` 中的原创 SVG 示意插画，明确标记非实景，
+不挪用其他目的地照片。无需新依赖或地图 API key。
+
+检查：`node tests/catalog.test.cjs`、`node tests/walking.test.cjs`。
+浏览器回归：`node scripts/check-browser.cjs`、`node scripts/check-walking.cjs`。
+两者支持 `PLAYWRIGHT_MODULE` 和 `CHROME_PATH` 环境变量（默认系统 Chromium）。
