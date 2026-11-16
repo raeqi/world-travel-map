@@ -1,0 +1,38 @@
+/* Atlas: quiet white interface, slate cartography, unfiltered destination photography. */
+:root{--ink:#25323e;--muted:#65717d;--line:#dde2e6;--surface:#fff;--canvas:#edf1f4}
+body{background:#fff;color:var(--ink)}
+header,body[data-view=catalog] header{background:#fff;border-color:var(--line)}
+.brand>span{color:#426b86}.brand small{color:var(--muted)}
+body[data-view=catalog] main,body[data-view=catalog] aside{background:#fff}
+body[data-view=catalog] aside{padding-top:48px}
+body[data-view=catalog] h1{font-size:clamp(30px,3.5vw,52px);font-weight:650;letter-spacing:-1.2px;color:var(--ink)}
+h1 span{color:inherit!important}.eyebrow{color:var(--muted);letter-spacing:1.5px}
+.intro,.collection-heading,.theme-card p,.footnote{color:var(--muted)}
+.theme-grid{gap:32px 24px}
+.theme-card,.theme-card[data-theme=polo]{border:0!important;border-radius:0!important;box-shadow:none!important;background:white!important;transform:none!important}
+.theme-card:hover{box-shadow:none!important}.theme-card:hover strong{text-decoration:underline;text-underline-offset:5px}
+.theme-card .card-art,.theme-card[data-theme=polo] .card-art{border-radius:4px;filter:none;background:#e8edf0}
+.theme-card .card-art:after,.theme-card .card-art:before{display:none!important}
+.theme-card .card-art img{filter:none!important;opacity:1!important;mix-blend-mode:normal!important;transform:none!important}
+.card-seal{display:none}.card-number{background:#ffffffed!important;color:#334654!important;border:0!important;letter-spacing:1px}
+.card-copy,.theme-card[data-theme=polo] .card-copy{padding:20px 0 12px!important;background:#fff!important}
+.theme-card strong{color:var(--ink)!important;font-weight:650}.card-copy>small{color:var(--muted)!important;letter-spacing:1px}
+.theme-card-bottom,.theme-card[data-theme=polo] .theme-card-bottom{color:var(--muted)!important;border-color:var(--line)!important}.theme-card-bottom>span{color:var(--ink)}
+body[data-view=map] aside{background:#fff;border-color:var(--line)}
+body[data-view=map] .map{background:#edf1f4!important}
+body[data-view=map] h1{color:var(--ink)}
+#scene-art{display:none!important}#scene-identity{background:#ffffffef!important;border:1px solid var(--line)!important;border-radius:5px!important;box-shadow:none!important;color:var(--ink)!important}#scene-identity>b{display:none}
+#scene-identity strong{color:var(--ink)!important}#scene-identity small{color:var(--muted)!important}
+.map-label,.coordinates,.hint,.legend,#status{color:#536675!important}.live{background:#426b86!important;box-shadow:none!important}
+#art-toggle{display:none}
+.browse-tabs{background:#f1f4f6!important;border-color:var(--line)!important}.browse-tabs button{color:var(--muted)!important}.browse-tabs button.active,.browse-tabs button[aria-selected=true]{background:#fff!important;color:var(--ink)!important;box-shadow:0 1px 3px #25323e15!important}
+input,#region-filter{background:#fff!important;color:var(--ink)!important;border-color:var(--line)!important}
+.place{background:#fff!important;border-color:var(--line)!important}.place:hover{background:#f5f7f9!important}.place.active{background:#eef3f7!important;border-color:#91a9b9!important}
+#detail,#playback,.map-tools button,#clear-route{background:#fffffff5!important;color:var(--ink)!important;border-color:var(--line)!important;box-shadow:0 3px 14px #25323e12!important}
+#detail h2,.place strong{color:var(--ink)!important}.facts div{border-color:var(--line)!important}
+#site-footer{background:#fff!important;color:var(--muted);border-color:var(--line)!important}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,canvas:focus-visible{outline:3px solid #3977a5;outline-offset:3px}
+@media(max-width:760px){body[data-view=catalog] aside{padding-top:30px}.theme-grid{gap:24px}.card-copy{padding:16px 0!important}body[data-view=catalog] h1{line-height:1.35;letter-spacing:-.5px}.map-label{max-width:65%;font-size:9px}.map-label small{display:none}}
+/* The theme title already appears in the sidebar; avoid duplicate map overlays. */
+#scene-identity{display:none!important}
+#detail h2,.route-introduction h2,.route-heading h2{color:var(--ink)!important}

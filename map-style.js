@@ -30,12 +30,12 @@ function drawThemedMarker(p,x,y,size){
  }else if(id==='gorges'){ctx.beginPath();ctx.moveTo(x-7,y+size+4);ctx.lineTo(x+7,y+size+4);ctx.moveTo(x,y+size);ctx.lineTo(x,y+size+7);ctx.stroke();}
  if(id==='culture'){ctx.fillStyle='#fff9e9';ctx.fillRect(x-size-3,y-size-3,size*2+6,size*2+6);ctx.strokeRect(x-size-3,y-size-3,size*2+6,size*2+6)}if(id==='silk'){ctx.save();ctx.translate(x,y);ctx.rotate(Math.PI/4);ctx.fillStyle='#fff1d0';ctx.fillRect(-size-3,-size-3,size*2+6,size*2+6);ctx.strokeRect(-size-3,-size-3,size*2+6,size*2+6);ctx.restore()}if(id==='polo'){ctx.beginPath();ctx.arc(x,y,size+5,0,Math.PI*2);ctx.fillStyle='#f4f4e9';ctx.fill();ctx.stroke()}pictogram(st.shape,x,y,Math.max(size,4.5));
  if(id==='culture'&&(p===selected||drawPointCount<12)){ctx.font='9px Georgia';ctx.fillStyle='#946b48';ctx.fillText('UNESCO · '+(p.facts['列入年份']||''),x+13,y+18)}
- if(previewStops){const n=previewStops.indexOf(p);if(n>=0){ctx.beginPath();ctx.arc(x,y-18,8,0,Math.PI*2);ctx.fillStyle=themes[activeTheme].colors.accent;ctx.fill();ctx.fillStyle='#fff';ctx.font='bold 10px sans-serif';ctx.textAlign='center';ctx.fillText(n+1,x,y-14)}}ctx.restore();
+ ctx.restore();
 }
 function renderSceneIdentity(){let el=document.querySelector('#scene-identity');if(!el){el=document.createElement('div');el.id='scene-identity';document.querySelector('.map').append(el)}const id=themes[activeTheme].id;const data={xu:['山川游记','全国足迹 · 按年份分段','霞'],kumano:['熊野山行','中边路 · 参诣道站点','森'],camino:['朝圣行旅','法国之路 · 法国至西班牙','✧'],nature:['自然观察册','山地 · 森林 · 水域','◉'],culture:['文明档案馆','建筑 · 考古 · 文化景观','文'],parks:['NATIONAL PARKS','荒野野外指南 / 63 PARKS','△'],gorges:['长江行旅图','沿江聚落 · 盐运记忆','江'],tea:['茶路驿站图','川滇茶源 → 藏地 → 南亚','茶'],silk:['绿洲文明图','陆海商路 · 城市交汇','◇'],polo:['东方见闻录','去程 · 城市 · 归程 · 旁述','✦']}[id];el.innerHTML=`<b>${data[2]}</b><div><strong>${data[0]}</strong><small>${data[1]}</small></div>`;}
 
 // Printed cartographic treatments: ornamental textures, never elevation data.
-function cartographicWater(cx,cy){const id=themes[activeTheme].id;ctx.save();ctx.strokeStyle=themes[activeTheme].colors.accent+'20';ctx.lineWidth=.7;
+function cartographicWater(cx,cy){return;const id=themes[activeTheme].id;ctx.save();ctx.strokeStyle=themes[activeTheme].colors.accent+'20';ctx.lineWidth=.7;
 if(['polo','gorges'].includes(id)){for(let y=12;y<h;y+=id==='polo'?24:17){ctx.beginPath();for(let x=0;x<w;x+=8){const yy=y+Math.sin(x/24+y)*2;x?ctx.lineTo(x,yy):ctx.moveTo(x,yy)}ctx.stroke()}}
 if(id==='polo'){ctx.translate(cx,cy);ctx.strokeStyle='#496f8255';for(let i=0;i<16;i++){const a=i*Math.PI/8;ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(Math.cos(a)*r*2,Math.sin(a)*r*2);ctx.stroke()}}
 if(['culture','silk','tea'].includes(id)){ctx.setLineDash(id==='culture'?[1,5]:[7,5]);for(const line of gridLines)pathLine(line,themes[activeTheme].colors.accent+'35');ctx.setLineDash([])}ctx.restore()}

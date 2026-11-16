@@ -22,3 +22,6 @@ tea:'从川滇茶源出发，沿历史贸易网络认识藏地与南亚的驿站
 silk:'丝绸之路是一组相互交织的交流网络。以绿洲、商贸城市与海港为节点，阅读沿途的建筑、信仰和日常生活；从一段区域行程开始，再逐步拼出横贯东西的文明地图。',
 polo:'跟随《马可波罗游记》的章节翻开东方见闻。从威尼斯、波斯到中国城市，地图把书中地点与现代地名相对照，并区分游历、转述与存疑线索。推荐路线是当代旅行组合，适合带着文本逐站阅读。'
 };for(const theme of themes)theme.introduction=theme.introduction||themeIntroductions[theme.id];
+
+// Shared neutral basemap keeps destination colors legible without tinting the UI.
+for(const theme of themes){Object.assign(theme.colors,{ocean:"#edf2f6",land:"#d5dce1",edge:"#aab7c2",wash:"#ffffff"});}
