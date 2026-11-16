@@ -83,9 +83,11 @@ walkingPlan('xu-mountains','xu','徐霞客 · 1616 皖闽：齐云、黄山与�
 walkingPlan('kumano-nakahechi','kumano','熊野古道 · 中边路本宫线',['takijiri','takahara','chikatsuyu','tsugizakura','hosshinmon','hongu'],5,[3,4,5,10,11],'多日山地徒步 + 起终点公交接驳','从泷尻王子到本宫的精选站点。继樱至发心门间省略多个中间节点，不能将每条地图连线视为一个日程。五天是含接驳的初步安排，按官方步道地图、体力和住宿细分，留意雨雪、台风和临时绕行。');
 walkingPlan('kumano-villages','kumano','熊野古道 · 高原与近露山村段',['takijiri','takahara','chikatsuyu','tsugizakura'],3,[3,4,5,10,11],'分日徒步 + 公交接驳','把山村与王子社安排成前半程体验，不必一次走完中边路。每日步行距离、爬升、住宿和返程班次须用官方地图确认。');
 walkingPlan('kumano-hongu','kumano','熊野古道 · 发心门至本宫',['hosshinmon','hongu'],1,[3,4,5,10,11],'末段步行 + 公交接驳','适合只选本宫前末段的体验。地图仅连接起终点，不提供真实步道里程、导航或当天可通行保证；先查看官方地图与天气。');
-walkingPlan('camino-frances','camino','朝圣之路 · 法国之路西班牙段',walkingNodes.camino.map(x=>x[0]),35,[4,5,6,9,10],'长距离分日徒步 · 多处住宿','从龙塞斯瓦列斯到圣地亚哥的主要城镇概览，省略了许多每日住宿点。约五周为编辑建议，需按体能、休息日和天气细化。直线合计不是实际徒步里程；法国境内及越境段不在本路线内。');
-walkingPlan('camino-leon','camino','朝圣之路 · 莱昂向西',['leon','astorga','ponferrada','cebreiro','sarria','portomarin','palas','melide','arzua','santiago'],16,[4,5,6,9,10],'长距离分日徒步 · 山地与城镇','选取法国之路西段主要节点，山地需单独考虑爬升与天气。16 天为初步体验窗口，地图连线不是每天行程；请另查官方逐段路线与住宿。');
-walkingPlan('camino-sarria','camino','朝圣之路 · 萨里亚至圣地亚哥',['sarria','portomarin','palas','melide','arzua','santiago'],7,[4,5,6,9,10],'分日徒步 + 起终点接驳','以法国之路末段作一周体验，梅利德可途经或停留，阿尔苏阿到终点之间还需安排中间停留。按实际步道而非直线估算；此图不保证任何证书资格，申请前核实官方距离、印章与规则。');
+// Main corridor includes common stage towns, not every hamlet or alternative.
+const caminoFrom=id=>caminoMainOrder.slice(caminoMainOrder.indexOf(id));
+walkingPlan('camino-frances','camino','朝圣之路 · 法国之路完整主线',caminoMainOrder,38,[4,5,6,9,10],'法西跨境 · 分日徒步 · 多处住宿','从法国圣让皮耶德波尔越过比利牛斯山，经纳瓦拉、拉里奥哈、卡斯蒂利亚-莱昂与加利西亚到圣地亚哥。覆盖完整起终点走廊与常见分段城镇，并非所有村落、支线或逐日导航。约五至六周为编辑建议；直线合计不是实际徒步里程。越境高线与 Valcarlos 谷线二选一，冬季高线关闭时走谷线并核对官方通告；Triacastela 后选择 San Xil，不把 Samos 支线串入。');
+walkingPlan('camino-leon','camino','朝圣之路 · 莱昂向西',caminoFrom('leon'),16,[4,5,6,9,10],'长距离分日徒步 · 山地与城镇','沿完整主线从莱昂截取西段，含拉瓦纳尔、丰塞瓦东、比埃尔索自由镇与特里亚卡斯特拉。地图连线不是每天行程；16 天仅为初步窗口，爬升、天气与住宿须逐段核实。');
+walkingPlan('camino-sarria','camino','朝圣之路 · 萨里亚至圣地亚哥',caminoFrom('sarria'),7,[4,5,6,9,10],'分日徒步 + 起终点接驳','完整保留末段城镇顺序，包括阿尔苏阿后的 O Pedrouzo。七天为含余量的体验建议，不代表每个节点都住一晚。按实际步道而非直线估算；证书资格与印章要求应另查官方规则。');
 
 // Each collection is a separate dated journey, never a single lifetime route.
 walkingPlan('xu-jiangxi-anhui','xu','徐霞客 · 1618 赣皖：庐山与再游黄山',['lushan','huangshan'],8,[4,5,9,10,11],'城际交通 + 分段山地游览','按 1618 年先庐山、后黄山的次序选取两处名山，与 1616 年旅次分开。连线仅是顺序示意，八天为现代探访草案而非日记时长；须另查交通、天气和景区开放。');

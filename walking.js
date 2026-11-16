@@ -1,6 +1,9 @@
 'use strict';
 // Editorial station coordinates, rounded to landmark/town scale. Not GPS tracks.
 const walkingSources={xu:'https://yn.yunnan.cn/system/2021/05/30/031482898.shtml',xuChronology:'https://cnxxk.com.cn/list_24/1457.html',xuSongshan:'https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx',xuOverview:'https://bm.cugb.edu.cn/geoscience/c/2019/06/26/583271.shtml',kumano:'https://www.tb-kumano.jp/en/kumano-kodo/nakahechi/',kumanoMaps:'https://www.tb-kumano.jp/en/kumano-kodo/maps/',camino:'https://www.spain.info/en/camino-santiago/french-way-camino-santiago/'};
+walkingSources.caminoPyrenees='https://www.visitnavarra.es/en/detalle-tramo/-/t/french-route-st-jean-pied-de-port-to-roncesvalles';
+walkingSources.caminoCastile='https://www.turismocastillayleon.com/es/lasedades2024.ficheros/382439-web_Apertura%20Monumentos%20Camino%20Franc%C3%A9s%202024.pdf';
+walkingSources.caminoGalicia='https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-san-xil';
 const walkingNodes={
  xu:[
  ['jizu','鸡足山',100.39,25.96,'云南','1639 滇西精选','名山','滇西游历的重要节点；本图省略沿途小站及回访，不代表完整日记轨迹。'],
@@ -37,7 +40,31 @@ const walkingNodes={
  ['hongu','熊野本宫大社',135.77,33.84,'和歌山县','中边路','大社','Kumano Hongu Taisha；本图所选中边路段的终点，不等于熊野古道全部路线。']
  ],
  camino:[
- ['roncesvalles','龙塞斯瓦列斯',-1.32,43.01,'纳瓦拉','法国之路西班牙段','山地村镇','Roncesvalles；本图从西班牙境内开始，不包含法国圣让的越境段。'],
+ ["saint-jean", "圣让皮耶德波尔", -1.237, 43.164, "法国巴斯克地区", "法国之路完整主线", "城镇", "Saint-Jean-Pied-de-Port；本图完整主线的起点。到龙塞斯瓦列斯有拿破仑高线与 Valcarlos 谷线，不能当作两段串行路线。",walkingSources.caminoPyrenees],
+ ["zubiri", "苏维里", -1.505, 42.93, "纳瓦拉", "法国之路完整主线", "城镇", "Zubiri；龙塞斯瓦列斯与潘普洛纳之间的常用分段节点。",walkingSources.camino],
+ ["los-arcos", "洛斯阿尔科斯", -2.193, 42.57, "纳瓦拉", "法国之路完整主线", "城镇", "Los Arcos；埃斯特利亚至洛格罗尼奥之间的分段城镇。",walkingSources.camino],
+ ["viana", "维亚纳", -2.372, 42.515, "纳瓦拉", "法国之路完整主线", "城镇", "Viana；接近拉里奥哈边界的历史城镇。",walkingSources.camino],
+ ["navarrete", "纳瓦雷特", -2.561, 42.43, "拉里奥哈", "法国之路完整主线", "城镇", "Navarrete；洛格罗尼奥至纳赫拉途中的节点。",walkingSources.camino],
+ ["belorado", "贝洛拉多", -3.191, 42.42, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "Belorado；进入布尔戈斯省后的常用分段城镇。",walkingSources.caminoCastile],
+ ["ortega", "圣胡安-德奥尔特加", -3.436, 42.376, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "San Juan de Ortega；途经蒙特斯德奥卡山区后的节点。",walkingSources.caminoCastile],
+ ["atapuerca", "阿塔普埃尔卡", -3.508, 42.377, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "Atapuerca；圣胡安-德奥尔特加至布尔戈斯之间的村落。",walkingSources.caminoCastile],
+ ["hornillos", "奥尔尼略斯-德尔卡米诺", -3.925, 42.338, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "Hornillos del Camino；布尔戈斯以西的高原分段节点。",walkingSources.caminoCastile],
+ ["castrojeriz", "卡斯特罗赫里斯", -4.139, 42.289, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "Castrojeriz；高原城镇，之后继续前往弗罗米斯塔。",walkingSources.caminoCastile],
+ ["carrion", "卡里翁-德洛斯孔德斯", -4.601, 42.339, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "Carrión de los Condes；高原步行段的重要服务节点。",walkingSources.caminoCastile],
+ ["terradillos", "特拉迪略斯-德洛斯滕普拉里奥斯", -4.89, 42.365, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "Terradillos de los Templarios；卡里翁与萨阿贡之间的常用停留地。",walkingSources.caminoCastile],
+ ["sahagun", "萨阿贡", -5.029, 42.371, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "Sahagún；本图随后选经 El Burgo Ranero 的主线，不叠加其他并行支线。",walkingSources.caminoCastile],
+ ["burgo-ranero", "埃尔布尔戈拉内罗", -5.22, 42.422, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "El Burgo Ranero；高原分段节点，向曼西利亚继续行进。",walkingSources.caminoCastile],
+ ["mansilla", "曼西利亚-德拉斯穆拉斯", -5.417, 42.499, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "Mansilla de las Mulas；抵达莱昂前的常用停留地。",walkingSources.caminoCastile],
+ ["san-martin", "圣马丁-德尔卡米诺", -5.808, 42.496, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "San Martín del Camino；本图采用经此地与奥尔维戈的走向，不把 Mazarife 支线串入。",walkingSources.caminoCastile],
+ ["orbigo", "奥尔维戈医院镇", -5.883, 42.463, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "Hospital de Órbigo；莱昂与阿斯托尔加之间的历史桥镇。",walkingSources.caminoCastile],
+ ["rabanal", "拉瓦纳尔-德尔卡米诺", -6.285, 42.481, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "Rabanal del Camino；向山地攀升前的分段停留地。",walkingSources.caminoCastile],
+ ["foncebadon", "丰塞瓦东", -6.342, 42.491, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "Foncebadón；山地节点，之后经铁十字一带下降，须另核实高山天气。",walkingSources.caminoCastile],
+ ["molinaseca", "莫利纳塞卡", -6.519, 42.538, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "Molinaseca；山地下行后、蓬费拉达之前的桥镇。",walkingSources.caminoCastile],
+ ["villafranca", "比埃尔索自由镇", -6.811, 42.607, "卡斯蒂利亚-莱昂", "法国之路完整主线", "城镇", "Villafranca del Bierzo；向 O Cebreiro 进山前的重要分段节点。",walkingSources.caminoCastile],
+ ["triacastela", "特里亚卡斯特拉", -7.24, 42.756, "加利西亚", "法国之路完整主线", "城镇", "Triacastela；本图选经 San Xil 通往萨里亚，Samos 为另一条可选支线，不在主线中混连。",walkingSources.caminoGalicia],
+ ["san-xil", "圣希尔", -7.28, 42.779, "加利西亚", "法国之路完整主线", "城镇", "San Xil；特里亚卡斯特拉至萨里亚所选线路的途经村落。",walkingSources.caminoGalicia],
+ ["pedrouzo", "奥佩德罗乌索", -8.362, 42.905, "加利西亚", "法国之路完整主线", "城镇", "O Pedrouzo；阿尔苏阿与圣地亚哥之间的常用末段停留地。",walkingSources.caminoGalicia],
+ ['roncesvalles','龙塞斯瓦列斯',-1.32,43.01,'纳瓦拉','法国之路西班牙段','山地村镇','Roncesvalles；从法国越过比利牛斯山后进入西班牙的主要停留点。'],
  ['pamplona','潘普洛纳',-1.64,42.82,'纳瓦拉','法国之路西班牙段','城市','Pamplona；法国之路西班牙段的重要城市。'],
  ['puente','王后桥镇',-1.81,42.67,'纳瓦拉','法国之路西班牙段','城镇','Puente la Reina；朝圣路线汇合的历史城镇。'],
  ['estella','埃斯特利亚',-2.03,42.67,'纳瓦拉','法国之路西班牙段','城镇','Estella-Lizarra，纳瓦拉段的主要站点。'],
@@ -46,7 +73,7 @@ const walkingNodes={
  ['domingo','圣多明各-德拉卡尔萨达',-2.95,42.44,'拉里奥哈','法国之路西班牙段','城镇','Santo Domingo de la Calzada；朝圣传统与城镇历史相连。'],
  ['burgos','布尔戈斯',-3.70,42.34,'卡斯蒂利亚-莱昂','法国之路西班牙段','城市','Burgos；长线中可留出休整的城市，实际住宿按分段计划安排。'],
  ['fromista','弗罗米斯塔',-4.41,42.27,'卡斯蒂利亚-莱昂','法国之路西班牙段','城镇','Frómista；高原段主要节点之一。'],
- ['leon','莱昂',-5.57,42.60,'卡斯蒂利亚-莱昂','法国之路西班牙段','城市','León；与前后站间省略了许多每日停留点，不能一天走完地图上的每段。'],
+ ['leon','莱昂',-5.57,42.60,'卡斯蒂利亚-莱昂','法国之路西班牙段','城市','León；高原段的重要城市，可按个人计划留出休整时间。'],
  ['astorga','阿斯托尔加',-6.05,42.46,'卡斯蒂利亚-莱昂','法国之路西班牙段','城镇','Astorga；朝圣之路的重要历史城镇。'],
  ['ponferrada','蓬费拉达',-6.59,42.55,'卡斯蒂利亚-莱昂','法国之路西班牙段','城市','Ponferrada；向加利西亚山地前进的区域节点。'],
  ['cebreiro','奥塞夫雷罗',-7.04,42.71,'加利西亚','法国之路西班牙段','山地村镇','O Cebreiro；山地天气与低海拔不同，应提前核实风雪和步道状况。'],
@@ -54,11 +81,13 @@ const walkingNodes={
  ['portomarin','波尔托马林',-7.62,42.81,'加利西亚','法国之路末段','城镇','Portomarín；从萨里亚继续西行的主要停留点。'],
  ['palas','帕拉斯-德雷伊',-7.87,42.87,'加利西亚','法国之路末段','城镇','Palas de Rei；末段的主要城镇。'],
  ['melide','梅利德',-8.01,42.92,'加利西亚','法国之路末段','城镇','Melide；按体力可作为住宿或途经节点，并非每个节点都对应一天。'],
- ['arzua','阿尔苏阿',-8.16,42.93,'加利西亚','法国之路末段','城镇','Arzúa；到圣地亚哥之间仍须安排中间停留，图上省略了部分小镇。'],
+ ['arzua','阿尔苏阿',-8.16,42.93,'加利西亚','法国之路末段','城镇','Arzúa；经 O Pedrouzo 继续前往圣地亚哥，日程按体力与住宿安排。'],
  ['santiago','圣地亚哥-德孔波斯特拉',-8.54,42.88,'加利西亚','法国之路末段','城市','Santiago de Compostela；本路线终点，代表坐标在主教座堂附近。']
  ]
 };
+const caminoMainOrder=["saint-jean", "roncesvalles", "zubiri", "pamplona", "puente", "estella", "los-arcos", "viana", "logrono", "navarrete", "najera", "domingo", "belorado", "ortega", "atapuerca", "burgos", "hornillos", "castrojeriz", "fromista", "carrion", "terradillos", "sahagun", "burgo-ranero", "mansilla", "leon", "san-martin", "orbigo", "astorga", "rabanal", "foncebadon", "molinaseca", "ponferrada", "villafranca", "cebreiro", "triacastela", "san-xil", "sarria", "portomarin", "palas", "melide", "arzua", "pedrouzo", "santiago"];
+walkingNodes.camino.sort((a,b)=>caminoMainOrder.indexOf(a[0])-caminoMainOrder.indexOf(b[0]));
 // Browse the dated national journeys before the western-Yunnan chapter.
 const xuBrowseOrder=['tiantai','yandang','qiyun','huangshan','wuyi','lushan','kaifeng','zhengzhou','xinmi','songshan','shaolin','longmen','huashan','wudang','beijing','wutai','hengshan','jizu','lijiang','jianchuan','eryuan','dali','baoshan','tengchong'];
 walkingNodes.xu.sort((a,b)=>xuBrowseOrder.indexOf(a[0])-xuBrowseOrder.indexOf(b[0]));
-for(const [theme,rows] of Object.entries(walkingNodes))for(const [id,name,lon,lat,region,route,type,desc,sourceOverride] of rows)places.push({id:theme+'-'+id,name,lon,lat,region,country:theme==='xu'?'中国':theme==='kumano'?'日本':'西班牙',type,desc,themes:[theme],icon:'◇',facts:{'路线线索':route,'地点性质':type,'阅读提示':'站点示意，非步道导航；详情与开放情况请查来源'},source:sourceOverride||(theme==='xu'&&route!=='1639 滇西精选'?walkingSources.xuChronology:walkingSources[theme]),sourceLabel:theme==='xu'?'游历背景与年表':theme==='kumano'?'田边市熊野旅游局':'西班牙官方旅游门户',coordinateNote:'城镇或景区代表坐标，非入口、精确古路或逐步导航轨迹。'});
+for(const [theme,rows] of Object.entries(walkingNodes))for(const [id,name,lon,lat,region,route,type,desc,sourceOverride] of rows)places.push({id:theme+'-'+id,name,lon,lat,region,country:theme==='xu'?'中国':theme==='kumano'?'日本':id==='saint-jean'?'法国':'西班牙',type,desc,themes:[theme],icon:'◇',facts:{'路线线索':route,'地点性质':type,'阅读提示':'站点示意，非步道导航；详情与开放情况请查来源'},source:sourceOverride||(theme==='xu'&&route!=='1639 滇西精选'?walkingSources.xuChronology:walkingSources[theme]),sourceLabel:theme==='xu'?'游历背景与年表':theme==='kumano'?'田边市熊野旅游局':'官方旅游与路线资料',coordinateNote:'城镇或景区代表坐标，非入口、精确古路或逐步导航轨迹。'});

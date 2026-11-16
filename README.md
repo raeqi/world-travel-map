@@ -149,8 +149,8 @@ work on the local test machine; they are not an end-to-end frame-rate guarantee.
   不同年份足迹，不把一生游历拼成一次连续步行。推荐天数为当代探访建议。
 - **熊野古道**：选择中边路的泷尻王子 → 高原 → 近露 → 继樱王子 →
   发心门王子 → 熊野本宫大社，提供全段、山村前段、发心门末段三种体验。
-- **圣地亚哥朝圣之路**：选择法国之路西班牙段，从龙塞斯瓦列斯到圣地亚哥
-  的 19 个主要节点；提供全段、莱昂向西、萨里亚末段建议。
+- **圣地亚哥朝圣之路**：现已扩展为从法国圣让皮耶德波尔至圣地亚哥的
+  43 个站点；提供完整主线、莱昂向西、萨里亚末段建议，详见下方更新记录。
 
 这些是站点连线示意，不是 GPX 或步道导航。球面直线不等于真实徒步距离，
 中间省略的住宿站不能理解为一天可走完。季节和天数是编辑建议；出发前须
@@ -184,3 +184,24 @@ work on the local test machine; they are not an end-to-end frame-rate guarantee.
 中国地质大学（北京）博物馆概述：https://bm.cugb.edu.cn/geoscience/c/2019/06/26/583271.shtml
 
 中原原文：《游嵩山日记》https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx
+
+## 法国之路完整主线（2026-11-16）
+
+法国之路由原西班牙段扩展为圣让皮耶德波尔（法国）至圣地亚哥的完整起终点走廊，
+共 43 个站点，补齐常用分段城镇。完整主线约五至六周仅为编辑建议，不是固定日程；
+不是每村清单，也不包括 Somport/Jaca 等其他分支。莱昂和萨里亚子路线沿用同一站点顺序。
+
+路线：
+圣让皮耶德波尔 → 龙塞斯瓦列斯 → 苏维里 → 潘普洛纳 → 王后桥镇 → 埃斯特利亚 → 洛斯阿尔科斯 → 维亚纳 → 洛格罗尼奥 → 纳瓦雷特 → 纳赫拉 → 圣多明各-德拉卡尔萨达 → 贝洛拉多 → 圣胡安-德奥尔特加 → 阿塔普埃尔卡 → 布尔戈斯 → 奥尔尼略斯-德尔卡米诺 → 卡斯特罗赫里斯 → 弗罗米斯塔 → 卡里翁-德洛斯孔德斯 → 特拉迪略斯-德洛斯滕普拉里奥斯 → 萨阿贡 → 埃尔布尔戈拉内罗 → 曼西利亚-德拉斯穆拉斯 → 莱昂 → 圣马丁-德尔卡米诺 → 奥尔维戈医院镇 → 阿斯托尔加 → 拉瓦纳尔-德尔卡米诺 → 丰塞瓦东 → 莫利纳塞卡 → 蓬费拉达 → 比埃尔索自由镇 → 奥塞夫雷罗 → 特里亚卡斯特拉 → 圣希尔 → 萨里亚 → 波尔托马林 → 帕拉斯-德雷伊 → 梅利德 → 阿尔苏阿 → 奥佩德罗乌索 → 圣地亚哥-德孔波斯特拉
+
+比利牛斯越境有拿破仑高线与 Valcarlos 谷线，二者不可连续串行。
+纳瓦拉官方提示 11 月 1 日至 3 月 31 日须走谷线；其他日期仍应查天气和临时关闭。
+Triacastela 至 Sarria 本图选 San Xil，Samos 为另一路径。地图不提供 GPX、精确步道距离或证书判断。
+
+来源：
+- 纳瓦拉官方越境路线与安全提示：https://www.visitnavarra.es/en/detalle-tramo/-/t/french-route-st-jean-pied-de-port-to-roncesvalles
+- 卡斯蒂利亚-莱昂官方线路图：https://www.turismocastillayleon.com/es/lasedades2024.ficheros/382439-web_Apertura%20Monumentos%20Camino%20Franc%C3%A9s%202024.pdf
+- 加利西亚官方 San Xil 段：https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-san-xil
+- 西班牙朝圣协会联合会中段：https://www.caminosantiago.org/cpperegrino/etapas/burgoscarrion.asp
+
+镇级代表坐标是编辑取点，并非精确步道定位。
