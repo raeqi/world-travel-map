@@ -23,5 +23,21 @@ silk:'丝绸之路是一组相互交织的交流网络。以绿洲、商贸城�
 polo:'跟随《马可波罗游记》的章节翻开东方见闻。从威尼斯、波斯到中国城市，地图把书中地点与现代地名相对照，并区分游历、转述与存疑线索。推荐路线是当代旅行组合，适合带着文本逐站阅读。'
 };for(const theme of themes)theme.introduction=theme.introduction||themeIntroductions[theme.id];
 
-// Shared neutral basemap keeps destination colors legible without tinting the UI.
-for(const theme of themes){Object.assign(theme.colors,{ocean:"#edf2f6",land:"#d5dce1",edge:"#aab7c2",wash:"#ffffff"});}
+
+// Art direction is independent of travel data. Lines remain schematic, never navigation.
+const themeDesigns={
+ nature:{mode:'field',ocean:'#e5eff2',land:'#d3dfcf',edge:'#8fa692',accent:'#35634b',route:'#416f5c',dash:[3,5],width:1.7,lens:'按景观观察',note:'从山地、森林到水域，先看自然环境，再选择季节。',line:'地点组合 · 非实地轨迹'},
+ culture:{mode:'archive',ocean:'#f3f0eb',land:'#e1d8ca',edge:'#b6a99a',accent:'#905441',route:'#905441',dash:[2,4],width:1.6,lens:'按文明阅读',note:'从名录类别、年代与遴选标准，阅读一处地方的价值。',line:'文化探访组合 · 非交通线路'},
+ gorges:{mode:'river',ocean:'#daeaf1',land:'#e4e9e2',edge:'#a4babf',accent:'#27647e',route:'#27647e',dash:[],width:2.5,lens:'沿江看聚落',note:'区分原址与迁建聚落，从江流、支流和盐运理解地方。',line:'聚落连线 · 非航道或船班'},
+ parks:{mode:'fieldguide',ocean:'#e8edf0',land:'#dce3d4',edge:'#94a28b',accent:'#405b39',route:'#b07a30',dash:[7,4],width:2.2,lens:'按区域进荒野',note:'把园内停留与公路转场分开考虑，结合月份挑选环线。',line:'公园串联 · 非步道轨迹'},
+ tea:{mode:'caravan',ocean:'#f0ece4',land:'#dfd5c1',edge:'#b3a28a',accent:'#79593c',route:'#8e643e',dash:[5,4],width:2,lens:'从驿站读贸易',note:'区分茶源、山口与贸易城市，沿支线理解交流网络。',line:'历史通道示意 · 非复原古道'},
+ silk:{mode:'network',ocean:'#e9eff1',land:'#eee0c4',edge:'#c1aa81',accent:'#9c602e',route:'#a56634',dash:[8,4,2,4],width:1.8,lens:'看陆海交汇',note:'从绿洲、商贸城市到海港，读一张网络，而非单一长路。',line:'历史网络示意 · 非复原商路'},
+ polo:{mode:'voyage',ocean:'#dbe9ef',land:'#e2dfcf',edge:'#a0acac',accent:'#315f78',route:'#315f78',dash:[9,5],width:1.7,lens:'带着文本远行',note:'对照原书地名与现代城市，留意游历、转述与存疑线索。',line:'篇章地点连线 · 非确证全程'},
+ xu:{mode:'journal',ocean:'#eeede8',land:'#deded4',edge:'#9caaa0',accent:'#675445',route:'#53675b',dash:[2,5],width:2,lens:'按旅次翻游记',note:'六个年份分段阅读，不把不同年代拼成一次连续旅行。',line:'旅次足迹示意 · 非古道复原'},
+ kumano:{mode:'trail',ocean:'#e9eee9',land:'#cbd9cb',edge:'#93aa9a',accent:'#285646',route:'#bd6745',dash:[3,4],width:2.4,lens:'逐站认识参诣道',note:'由王子社、山村走向本宫；每日距离与高差须查官方步道图。',line:'中边路站点示意 · 非步道导航'},
+ camino:{mode:'waymark',ocean:'#e6edf1',land:'#e9dfc9',edge:'#baac90',accent:'#284f73',route:'#bd8736',dash:[8,3],width:2.5,lens:'从法国走向终点',note:'完整主线与分段体验分开看，过山路段先核对季节开放。',line:'朝圣站点顺序 · 非步道导航'}
+};
+for(const theme of themes){const d=themeDesigns[theme.id];Object.assign(theme.colors,{accent:d.accent,ocean:d.ocean,land:d.land,edge:d.edge,route:d.route,wash:'#fff'});}
+
+// Local trail uses geographic station positions without pretending the world coastline is a trail basemap.
+themes.find(t=>t.id==='kumano').view.zoom=300;

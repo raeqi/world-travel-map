@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600"><rect width="1000" height="600" fill="#f0eddf"/><circle cx="780" cy="130" r="70" fill="#d8ba7d"/><path d="M0 450L190 180 360 400 550 100 850 440 1000 230V600H0Z" fill="#687b58" opacity=".35"/><path d="M0 540L250 300 500 510 700 250 1000 500V600H0Z" fill="#687b58" opacity=".7"/><path d="M100 600Q150 450 360 480T700 330 900 230" fill="none" stroke="#fff7db" stroke-width="7" stroke-dasharray="12 10"/><g fill="#fff7db"><circle cx="130" cy="540" r="10"/><circle cx="360" cy="480" r="10"/><circle cx="600" cy="440" r="10"/><circle cx="740" cy="300" r="10"/><circle cx="900" cy="230" r="10"/></g><text x="55" y="110" fill="#687b58" font-family="serif" font-size="44">徐霞客游历</text><text x="58" y="150" fill="#687b58" font-family="sans-serif" font-size="15" letter-spacing="5">JOURNEYS ON FOOT · ILLUSTRATION</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+<title id="title">山川游记</title><desc id="desc">原创册页式山水插画。淡墨山脊、江流、细小舟影与朱红书签，不表示具体地形或真实古道。</desc>
+<rect width="1000" height="600" fill="#f4f1e8"/>
+<path d="M36 0V600M48 0V600" stroke="#d1c9b5" stroke-width="1"/>
+<path d="M76 414Q138 388 199 413T332 394T483 410T645 390T843 405T1000 379V600H76Z" fill="#dce1dc"/>
+<path d="M319 368L354 301 372 314 403 238 421 251 459 177 484 228 509 216 547 293 577 282 601 337 642 327 681 374Z" fill="#a4b0a7"/>
+<path d="M518 378L553 327 578 343 615 263 644 285 681 190 706 239 729 226 752 283 777 264 809 338 843 321 897 385Z" fill="#788e85"/>
+<path d="M666 342L683 211 706 253M701 336L728 245 747 296M572 345L614 285 629 320M407 325L459 194 475 261M372 345L402 256" fill="none" stroke="#f4f1e8" stroke-width="3" opacity=".75"/>
+<path d="M140 449Q245 421 352 447T576 441T794 461T1000 433M251 477Q341 453 430 476T625 478M535 519Q666 490 787 513T1000 494" fill="none" stroke="#a4b5ad" stroke-width="2"/>
+<path d="M0 539L60 499 108 519 156 486 197 521 238 511 288 549 348 534 404 569 463 548 529 600H0Z" fill="#304d45"/>
+<g stroke="#304d45" fill="none" stroke-width="3"><path d="M135 500V391M135 415L111 398M135 437L157 415M135 462L103 448"/><path d="M87 519V437M87 459L68 450M87 483L104 471"/></g>
+<path d="M655 457Q678 468 705 456L699 466H664Z" fill="#304d45"/><path d="M682 456V425L704 453Z" fill="#677e72"/>
+<g fill="#33493f" font-family="serif"><text x="126" y="113" font-size="48" letter-spacing="10">山川游记</text><text x="128" y="152" font-size="18" letter-spacing="3">循着徐霞客的文字，分段读山河</text></g>
+<path d="M874 0V158L895 141 916 158V0Z" fill="#a84b3e"/>
+<text x="895" y="56" fill="#fff8e9" font-family="serif" font-size="20" text-anchor="middle"><tspan x="895">游</tspan><tspan x="895" dy="29">记</tspan></text>
+</svg>

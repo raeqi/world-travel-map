@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600"><rect width="1000" height="600" fill="#f0eddf"/><circle cx="780" cy="130" r="70" fill="#d8ba7d"/><path d="M0 450L190 180 360 400 550 100 850 440 1000 230V600H0Z" fill="#3d766b" opacity=".35"/><path d="M0 540L250 300 500 510 700 250 1000 500V600H0Z" fill="#3d766b" opacity=".7"/><path d="M100 600Q150 450 360 480T700 330 900 230" fill="none" stroke="#fff7db" stroke-width="7" stroke-dasharray="12 10"/><g fill="#fff7db"><circle cx="130" cy="540" r="10"/><circle cx="360" cy="480" r="10"/><circle cx="600" cy="440" r="10"/><circle cx="740" cy="300" r="10"/><circle cx="900" cy="230" r="10"/></g><text x="55" y="110" fill="#3d766b" font-family="serif" font-size="44">熊野古道</text><text x="58" y="150" fill="#3d766b" font-family="sans-serif" font-size="15" letter-spacing="5">JOURNEYS ON FOOT · ILLUSTRATION</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+<title id="title">熊野山行</title><desc id="desc">原创杉林参诣道插画。垂直杉树、林间石阶与远处鸟居构成纵深，不是路线导航或真实地貌。</desc>
+<defs><linearGradient id="mist" x2="0" y2="1"><stop stop-color="#dce9df"/><stop offset="1" stop-color="#9fb5a5"/></linearGradient><g id="cedar"><path d="M0-280L-50-190H-26L-65-118H-36L-82-35H82L36-118H65L26-190H50Z"/><path d="M-6-65H6V100H-6Z"/></g></defs>
+<rect width="1000" height="600" fill="url(#mist)"/>
+<path d="M0 359Q139 256 255 314T489 274T755 306T1000 246V600H0Z" fill="#769181" opacity=".35"/>
+<g fill="#6a8c77" opacity=".42"><use href="#cedar" transform="translate(375 340) scale(.55)"/><use href="#cedar" transform="translate(485 319) scale(.45)"/><use href="#cedar" transform="translate(629 335) scale(.6)"/><use href="#cedar" transform="translate(711 338) scale(.5)"/></g>
+<path d="M430 600Q438 518 519 477T564 360H593Q635 453 573 501T584 600Z" fill="#d1cbb7"/>
+<g fill="none" stroke="#9a9f89" stroke-width="3"><path d="M434 571L574 560M442 547L562 537M458 523L558 518M480 503L570 499M514 483L588 478M544 464L602 459M561 445L605 439M568 422L603 417M570 402L598 399M568 384L594 382"/></g>
+<g stroke="#a7604b" fill="none"><path d="M553 360V310M605 360V310" stroke-width="8"/><path d="M544 307Q580 316 615 307M546 325H613" stroke-width="7"/></g>
+<g fill="#385b49"><use href="#cedar" transform="translate(178 465) scale(1.15)"/><use href="#cedar" transform="translate(825 467) scale(1.45)"/><use href="#cedar" transform="translate(316 420) scale(.9)"/></g>
+<g fill="#173d30"><use href="#cedar" transform="translate(45 511) scale(1.9)"/><use href="#cedar" transform="translate(995 477) scale(2.1)"/></g>
+<path d="M0 579Q144 526 275 567L419 600H0ZM596 600Q713 532 808 549T1000 518V600Z" fill="#254a38"/>
+<rect x="356" y="38" width="348" height="136" rx="1" fill="#f3f5ec" opacity=".94"/>
+<text x="530" y="97" fill="#244f3b" font-family="serif" font-size="42" text-anchor="middle" letter-spacing="9">熊野山行</text><text x="530" y="138" fill="#42634d" font-family="sans-serif" font-size="15" text-anchor="middle" letter-spacing="4">中边路 · 林间的参诣道</text>
+</svg>

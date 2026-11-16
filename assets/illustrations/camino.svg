@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600"><rect width="1000" height="600" fill="#f0eddf"/><circle cx="780" cy="130" r="70" fill="#d8ba7d"/><path d="M0 450L190 180 360 400 550 100 850 440 1000 230V600H0Z" fill="#ad8250" opacity=".35"/><path d="M0 540L250 300 500 510 700 250 1000 500V600H0Z" fill="#ad8250" opacity=".7"/><path d="M100 600Q150 450 360 480T700 330 900 230" fill="none" stroke="#fff7db" stroke-width="7" stroke-dasharray="12 10"/><g fill="#fff7db"><circle cx="130" cy="540" r="10"/><circle cx="360" cy="480" r="10"/><circle cx="600" cy="440" r="10"/><circle cx="740" cy="300" r="10"/><circle cx="900" cy="230" r="10"/></g><text x="55" y="110" fill="#ad8250" font-family="serif" font-size="44">圣地亚哥朝圣之路</text><text x="58" y="150" fill="#ad8250" font-family="sans-serif" font-size="15" letter-spacing="5">JOURNEYS ON FOOT · ILLUSTRATION</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+<title id="title">循着贝壳，走向圣地亚哥</title><desc id="desc">原创朝圣行旅插画。开阔天空、麦田地平线、延伸的道路与贝壳路标，表现行走体验，不代表具体路段。</desc>
+<rect width="1000" height="600" fill="#dce9ed"/>
+<circle cx="789" cy="120" r="48" fill="#fff8db"/>
+<path d="M0 318Q145 299 285 321T558 307T804 313T1000 301V600H0Z" fill="#bdac6a"/>
+<path d="M0 361L453 329 1000 385V600H0Z" fill="#d6be73"/>
+<path d="M0 438L463 329 1000 447V600H0Z" fill="#b6944b"/>
+<g stroke="#e6cf8e" stroke-width="4"><path d="M0 483L458 329M43 600L466 329M252 600L472 329M652 600L484 329M841 600L491 329M1000 520L497 329"/></g>
+<path d="M300 600Q406 482 457 423T479 328H489Q516 381 493 424T511 600Z" fill="#eee4c4"/>
+<path d="M379 600Q445 490 472 437T485 329" fill="none" stroke="#dacb9f" stroke-width="3"/>
+<g fill="#6e775d"><path d="M488 324V290H499V277H505V291H516V324Z"/><path d="M504 325V300H532V325Z"/><path d="M484 292L494 282 503 292Z"/></g>
+<g transform="translate(757 323)"><path d="M-13 46H18V277H-13Z" fill="#5a6055"/><path d="M-63 0H62L75 104H-76Z" fill="#255873"/><g fill="none" stroke="#edcf59" stroke-width="5" stroke-linecap="round"><path d="M0 83L-47 34M0 83L-32 21M0 83L-15 14M0 83L3 13M0 83L21 19M0 83L38 29M0 83L51 44"/><path d="M-47 34Q-31 3 3 13Q37 13 51 44"/></g></g>
+<text x="72" y="105" fill="#254c62" font-family="sans-serif" font-size="22" letter-spacing="5">CAMINO DE SANTIAGO</text>
+<text x="68" y="171" fill="#254c62" font-family="serif" font-size="43">路很长，慢慢走。</text>
+<text x="72" y="211" fill="#536d75" font-family="sans-serif" font-size="17" letter-spacing="2">从法国圣让，到圣地亚哥</text>
+</svg>

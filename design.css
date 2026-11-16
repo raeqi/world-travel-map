@@ -36,3 +36,52 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,ca
 /* The theme title already appears in the sidebar; avoid duplicate map overlays. */
 #scene-identity{display:none!important}
 #detail h2,.route-introduction h2,.route-heading h2{color:var(--ink)!important}
+
+/* Regional editions share navigation, but use distinct reading and map languages. */
+body[data-view=map] .map{background:var(--ocean)!important}
+#theme-hero{height:142px;border-radius:0;background:transparent}
+#theme-hero img{filter:none;mask-image:none}
+#theme-hero span{font-size:11px;line-height:1.4;letter-spacing:.5px}
+#theme-reading{padding:0 0 16px;margin-bottom:14px;border-bottom:1px solid var(--line)}
+#theme-reading strong{font-size:12px;color:var(--accent)}
+#theme-reading p{margin:6px 0 0;font-size:11px;line-height:1.7;color:var(--muted)}
+.route-map-key{flex-basis:100%;display:block;margin-top:6px;font-size:10px;color:#43535c}
+.legend{max-width:calc(100% - 100px);flex-wrap:wrap;gap:8px}
+body[data-view=map] .browse-tabs button[aria-selected=true]{box-shadow:inset 0 -2px var(--accent)!important}
+body[data-view=map] .route-heading{border-left-color:var(--accent)}
+/* Journal: restrained book typography and a chronological margin. */
+body[data-map-style=journal] aside>h1{font-family:"Songti SC","Noto Serif CJK SC",serif;font-weight:500;letter-spacing:2px}
+body[data-map-style=journal] #theme-hero{height:160px;border:1px solid #dad5c8}
+body[data-map-style=journal] .route-stops{border-left:1px solid #b9b7a9;margin-left:12px;padding-left:12px}
+body[data-map-style=journal] .route-stops b{font-family:Georgia,serif;background:transparent;color:#675445;border-radius:0}
+body[data-map-style=journal] .route-heading h3{font-family:"Songti SC",serif;letter-spacing:1px}
+/* Forest trail: upright scene, clear station rhythm; no invented contour data. */
+body[data-map-style=trail] #theme-hero{height:170px}
+body[data-map-style=trail] .route-stops{border-left:2px dotted #93aa9a;padding-left:12px;margin-left:12px}
+body[data-map-style=trail] .route-stops b{border-radius:50%;background:#285646;color:#fff}
+body[data-map-style=trail] #theme-reading{border-left:3px solid #bd6745;padding-left:12px}
+/* Camino: blue wayfinding and ochre road, with a horizontal journey emphasis. */
+body[data-map-style=waymark] #theme-hero{height:150px}
+body[data-map-style=waymark] #theme-reading{border-top:3px solid #bd8736;padding-top:12px}
+body[data-map-style=waymark] .route-stops b{border-radius:3px;background:#284f73;color:#fff}
+body[data-map-style=waymark] .route-stops i{color:#bd8736;font-style:normal}
+/* Archival pages, a river panorama, field guides, trade networks, and a voyage log. */
+body[data-map-style=archive] aside>h1,body[data-map-style=voyage] aside>h1{font-family:Georgia,"Songti SC",serif;font-weight:500}
+body[data-map-style=archive] #theme-hero{padding:7px;border:1px solid #d4c7b7;height:150px}
+body[data-map-style=archive] .route-stops button{border-radius:0;border-bottom:1px solid #e1d8ca}
+body[data-map-style=river] #theme-hero{height:115px}
+body[data-map-style=river] .route-stops{border-left:3px solid #9fc8d8;padding-left:12px;margin-left:12px}
+body[data-map-style=fieldguide] #theme-reading{background:#405b39;color:#fff;padding:12px;border:0}
+body[data-map-style=fieldguide] #theme-reading strong,body[data-map-style=fieldguide] #theme-reading p{color:#fff}
+body[data-map-style=fieldguide] .route-stops b{border-radius:3px 3px 12px 12px;background:#405b39;color:white}
+body[data-map-style=field] #theme-hero{height:160px}
+body[data-map-style=field] #theme-reading{border-left:3px solid #35634b;padding-left:12px}
+body[data-map-style=caravan] .route-stops b{background:#79593c;color:white;border-radius:0}
+body[data-map-style=caravan] #theme-reading{border-top:1px dashed #b3a28a;padding-top:12px}
+body[data-map-style=network] #theme-hero{height:135px;border-bottom:4px solid #9c602e}
+body[data-map-style=network] .route-stops{border-left:1px dashed #c1aa81;padding-left:12px;margin-left:12px}
+body[data-map-style=voyage] #theme-hero{height:145px}
+body[data-map-style=voyage] #theme-reading{border-top:3px double #a0acac;padding-top:12px}
+body[data-map-style=voyage] .route-stops b{font-family:Georgia,serif;color:#315f78;background:#e5eef2;border-radius:0}
+@media(max-width:760px){#theme-reading{padding:0 0 10px;margin-bottom:10px}#theme-reading p{font-size:10px}.route-map-key{font-size:9px;max-width:220px}.legend{bottom:31px!important;gap:4px!important}body[data-view=map] #theme-hero{display:block!important;height:110px!important}.map-label{max-width:75%}}
+body[data-view=map] #globe{filter:none!important}
