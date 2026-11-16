@@ -3,7 +3,7 @@ const context=vm.createContext({document:{querySelector:()=>({innerHTML:''})}});
 for(const file of ['catalog.js','tea.js','historical.js','walking.js','media.js','themes.js','planner.js','map-style.js'])vm.runInContext(fs.readFileSync(file,'utf8'),context);
 vm.runInContext(`
 let activeTheme=0;
-for(const [id,count] of [['xu',13],['kumano',6],['camino',19]]){
+for(const [id,count] of [['xu',24],['kumano',6],['camino',19]]){
  activeTheme=themes.findIndex(t=>t.id===id);
  if(places.filter(p=>p.themes.includes(id)).length!==count)throw Error('Walking coverage '+id);
  renderSceneIdentity();
@@ -11,6 +11,11 @@ for(const [id,count] of [['xu',13],['kumano',6],['camino',19]]){
  if(!themeMedia[id]||!photoLibrary[id].illustration||!themes[activeTheme].introduction)throw Error('Theme presentation missing');
  for(const plan of buildPlans(id,0))if(!plan.reason.includes('直线')&&!plan.reason.includes('地图')&&!plan.reason.includes('古路')&&!plan.reason.includes('连线'))throw Error('Route caveat missing');
 }
+const xuPlans=buildPlans('xu',0);
+if(xuPlans.length!==6)throw Error('Six distinct Xu journeys');
+if(xuPlans.map(p=>p.historicalYear).join(',')!=='1613,1616,1618,1623,1633,1639')throw Error('Chronological journey groups');
+for(const [id,expected] of [['xu-central','xu-kaifeng,xu-zhengzhou,xu-xinmi,xu-songshan,xu-shaolin,xu-longmen,xu-huashan,xu-wudang'],['xu-north','xu-beijing,xu-wutai,xu-hengshan'],['xu-jiangxi-anhui','xu-lushan,xu-huangshan'],['xu-mountains','xu-qiyun,xu-huangshan,xu-wuyi']]){const p=xuPlans.find(p=>p.id===id);if(p.ids.join(',')!==expected)throw Error('Incorrect historical sequence '+id);if(p.climate!==(id==='xu-central'?walkingSources.xuSongshan:walkingSources.xuChronology))throw Error('Wrong journey source');}
+if(places.find(p=>p.id==='xu-huangshan').facts['路线线索']!=='1616 / 1618 皖南游历')throw Error('Repeat visit lost');
 const allIds=planTemplates.map(p=>p.id);if(new Set(allIds).size!==allIds.length)throw Error('Duplicate plan ID');
 if(buildPlans('camino',0,30).some(p=>p.id==='camino-frances'))throw Error('Long route incorrectly fits 30 days');
 if(buildPlans('kumano',0,1).length!==1)throw Error('One-day route filter');

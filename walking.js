@@ -1,6 +1,6 @@
 'use strict';
 // Editorial station coordinates, rounded to landmark/town scale. Not GPS tracks.
-const walkingSources={xu:'https://yn.yunnan.cn/system/2021/05/30/031482898.shtml',xuChronology:'https://cnxxk.com.cn/list_24/1457.html',kumano:'https://www.tb-kumano.jp/en/kumano-kodo/nakahechi/',kumanoMaps:'https://www.tb-kumano.jp/en/kumano-kodo/maps/',camino:'https://www.spain.info/en/camino-santiago/french-way-camino-santiago/'};
+const walkingSources={xu:'https://yn.yunnan.cn/system/2021/05/30/031482898.shtml',xuChronology:'https://cnxxk.com.cn/list_24/1457.html',xuSongshan:'https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx',xuOverview:'https://bm.cugb.edu.cn/geoscience/c/2019/06/26/583271.shtml',kumano:'https://www.tb-kumano.jp/en/kumano-kodo/nakahechi/',kumanoMaps:'https://www.tb-kumano.jp/en/kumano-kodo/maps/',camino:'https://www.spain.info/en/camino-santiago/french-way-camino-santiago/'};
 const walkingNodes={
  xu:[
  ['jizu','鸡足山',100.39,25.96,'云南','1639 滇西精选','名山','滇西游历的重要节点；本图省略沿途小站及回访，不代表完整日记轨迹。'],
@@ -10,12 +10,23 @@ const walkingNodes={
  ['dali','大理',100.16,25.70,'云南','1639 滇西精选','城镇','苍山洱海区域的考察节点，图中定位古城区域。'],
  ['baoshan','保山',99.17,25.12,'云南','1639 滇西精选','城镇','滇西向西旅行的区域节点，省略途中驿站与支线。'],
  ['tengchong','腾冲',98.49,25.02,'云南','1639 滇西精选','城镇','徐霞客考察滇西山川、地热的区域；此处为城镇示意点。'],
- ['tiantai','天台山',121.10,29.25,'浙江','历年名山足迹','名山','1613 年游天台山；与其他名山分属不同旅次，不连成一次徒步。'],
- ['yandang','雁荡山',121.07,28.37,'浙江','历年名山足迹','名山','1613 年游雁荡山；图中为山地区域代表位置。'],
- ['huangshan','黄山',118.16,30.14,'安徽','历年名山足迹','名山','1616 年及 1618 年两游黄山；此点仅记录足迹，不复原登山轨迹。'],
- ['wuyi','武夷山',117.96,27.66,'福建','历年名山足迹','名山','1616 年游武夷山；与滇西游历相隔多年。'],
- ['songshan','嵩山',113.02,34.48,'河南','历年名山足迹','名山','1623 年游嵩山，随后游华山；点位是山地区域代表坐标。'],
- ['huashan','华山',110.08,34.48,'陕西','历年名山足迹','名山','1623 年游华山；不把本图站点连线作为古代山路或当代登山路线。']
+ ['tiantai','天台山',121.10,29.25,'浙江','1613 浙东游历','名山','1613 年游天台山；与其他名山分属不同旅次，不连成一次徒步。'],
+ ['yandang','雁荡山',121.07,28.37,'浙江','1613 浙东游历','名山','1613 年游雁荡山；图中为山地区域代表位置。'],
+ ['huangshan','黄山',118.16,30.14,'安徽','1616 / 1618 皖南游历','名山','1616 年及 1618 年两游黄山；此点仅记录足迹，不复原登山轨迹。'],
+ ['wuyi','武夷山',117.96,27.66,'福建','1616 皖闽游历','名山','1616 年游武夷山；与滇西游历相隔多年。'],
+ ['songshan','嵩山',113.02,34.48,'河南','1623 中原·关中·鄂西','名山','1623 年游嵩山，随后游华山；点位是山地区域代表坐标。'],
+ ['huashan','华山',110.08,34.48,'陕西','1623 中原·关中·鄂西','名山','1623 年游华山，随后游武当山；不把本图连线作为古代山路或当代登山路线。'],
+ ['kaifeng','开封',114.31,34.80,'河南','1623 中原·关中·鄂西','城市','《游嵩山日记》自汴城（今开封）西行写起，以现代城市中心标识出发区域。',walkingSources.xuSongshan],
+ ['zhengzhou','郑州',113.63,34.75,'河南','1623 中原·关中·鄂西','城市','1623 年嵩山行前途经郑州；使用现代城市代表位置，不复原旧驿路。',walkingSources.xuSongshan],
+ ['xinmi','新密',113.39,34.54,'河南','1623 中原·关中·鄂西','城镇','日记中的密县，今新密；从郑州向嵩山行进的途经区域。',walkingSources.xuSongshan],
+ ['shaolin','少林寺与少室山',112.94,34.51,'河南','1623 中原·关中·鄂西','名山','游嵩山期间到少林寺、少室山，地点合并为一处区域标记；不表示单一登山入口。',walkingSources.xuSongshan],
+ ['longmen','洛阳龙门',112.48,34.56,'河南','1623 中原·关中·鄂西','山水古迹','《游嵩山日记》记赴洛阳并游龙门；使用龙门区域代表坐标，非旧路轨迹。',walkingSources.xuSongshan],
+ ['wudang','武当山',111.00,32.40,'湖北','1623 中原·关中·鄂西','名山','1623 年继嵩山、华山后游太和山，即今武当山。省略其间经过的地点。'],
+ ['qiyun','齐云山',118.03,29.81,'安徽','1616 皖闽游历','名山','1616 年游白岳，即齐云山，之后游黄山、武夷山；山地代表点并非具体登山入口。'],
+ ['lushan','庐山',115.97,29.55,'江西','1618 赣皖游历','名山','1618 年先游庐山，随后再次登黄山；与 1616 年首游黄山分开呈现。'],
+ ['beijing','北京',116.40,39.90,'北京','1633 北游·晋北名山','城市','1633 年北游先至北京，再赴五台山、恒山；此点表示现代北京城市区域，不推定具体旧居或景点。'],
+ ['wutai','五台山',113.59,39.01,'山西','1633 北游·晋北名山','名山','1633 年北游的重要节点，位于北京之后、恒山之前；各台顶路线未在图中复原。'],
+ ['hengshan','恒山',113.74,39.67,'山西','1633 北游·晋北名山','名山','1633 年游五台山后赴恒山，记于《游恒山日记》；图上是景区代表位置。']
  ],
  kumano:[
  ['takijiri','泷尻王子',135.51,33.79,'和歌山县','中边路','王子社','中边路山地段的经典起点 Takijiri-oji。'],
@@ -47,4 +58,7 @@ const walkingNodes={
  ['santiago','圣地亚哥-德孔波斯特拉',-8.54,42.88,'加利西亚','法国之路末段','城市','Santiago de Compostela；本路线终点，代表坐标在主教座堂附近。']
  ]
 };
-for(const [theme,rows] of Object.entries(walkingNodes))for(const [id,name,lon,lat,region,route,type,desc] of rows)places.push({id:theme+'-'+id,name,lon,lat,region,country:theme==='xu'?'中国':theme==='kumano'?'日本':'西班牙',type,desc,themes:[theme],icon:'◇',facts:{'路线线索':route,'地点性质':type,'阅读提示':'站点示意，非步道导航；详情与开放情况请查来源'},source:theme==='xu'&&route==='历年名山足迹'?walkingSources.xuChronology:walkingSources[theme],sourceLabel:theme==='xu'?'游历背景与年表':theme==='kumano'?'田边市熊野旅游局':'西班牙官方旅游门户',coordinateNote:'城镇或景区代表坐标，非入口、精确古路或逐步导航轨迹。'});
+// Browse the dated national journeys before the western-Yunnan chapter.
+const xuBrowseOrder=['tiantai','yandang','qiyun','huangshan','wuyi','lushan','kaifeng','zhengzhou','xinmi','songshan','shaolin','longmen','huashan','wudang','beijing','wutai','hengshan','jizu','lijiang','jianchuan','eryuan','dali','baoshan','tengchong'];
+walkingNodes.xu.sort((a,b)=>xuBrowseOrder.indexOf(a[0])-xuBrowseOrder.indexOf(b[0]));
+for(const [theme,rows] of Object.entries(walkingNodes))for(const [id,name,lon,lat,region,route,type,desc,sourceOverride] of rows)places.push({id:theme+'-'+id,name,lon,lat,region,country:theme==='xu'?'中国':theme==='kumano'?'日本':'西班牙',type,desc,themes:[theme],icon:'◇',facts:{'路线线索':route,'地点性质':type,'阅读提示':'站点示意，非步道导航；详情与开放情况请查来源'},source:sourceOverride||(theme==='xu'&&route!=='1639 滇西精选'?walkingSources.xuChronology:walkingSources[theme]),sourceLabel:theme==='xu'?'游历背景与年表':theme==='kumano'?'田边市熊野旅游局':'西班牙官方旅游门户',coordinateNote:'城镇或景区代表坐标，非入口、精确古路或逐步导航轨迹。'});

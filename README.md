@@ -169,3 +169,18 @@ work on the local test machine; they are not an end-to-end frame-rate guarantee.
 检查：`node tests/catalog.test.cjs`、`node tests/walking.test.cjs`。
 浏览器回归：`node scripts/check-browser.cjs`、`node scripts/check-walking.cjs`。
 两者支持 `PLAYWRIGHT_MODULE` 和 `CHROME_PATH` 环境变量（默认系统 Chromium）。
+
+## 徐霞客全国游踪扩展（2026-11-16）
+
+徐霞客主题现有 24 个代表地点、6 个独立旅次精选，默认按历史年份显示：
+1613 天台—雁荡；1616 齐云—黄山—武夷；1618 庐山—黄山；
+1623 开封—郑州—新密—嵩山—少林—洛阳龙门—华山—武当；1633 北京—五台—恒山；1639 滇西七站。
+新增开封、郑州、新密、少林、洛阳龙门、齐云山、庐山、武当山、北京、五台山、恒山；中原不再只是地图上的零散点。
+全国游踪仍为精选，并非所有省份、所有路段或日记停留点的完整复原。黄山
+在两次旅程中共用地点 ID，保留不同年份；不同旅次不会自动拼成连续徒步线路。
+现代建议天数不等于历史时长，跨省路线需城际接驳。地图继续保留 10 个主题；
+步行与游历主题现共 49 个地点、12 条路线，全部主题共 65 条推荐。
+年表来源：https://cnxxk.com.cn/list_24/1457.html
+中国地质大学（北京）博物馆概述：https://bm.cugb.edu.cn/geoscience/c/2019/06/26/583271.shtml
+
+中原原文：《游嵩山日记》https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx

@@ -22,7 +22,7 @@ const planTemplates=[
 ];
 function validLocation(p){return p&&Number.isFinite(p.lon)&&Number.isFinite(p.lat)}
 function distanceKm(a,b){if(!validLocation(a)||!validLocation(b))return null;const rad=Math.PI/180,dlat=(b.lat-a.lat)*rad,dlon=(b.lon-a.lon)*rad,x=Math.sin(dlat/2)**2+Math.cos(a.lat*rad)*Math.cos(b.lat*rad)*Math.sin(dlon/2)**2;return 6371*2*Math.atan2(Math.sqrt(x),Math.sqrt(Math.max(0,1-x)))}
-function buildPlans(theme,month,maxDays=0){return planTemplates.filter(p=>p.theme===theme&&(!month||p.months.includes(month))&&(!maxDays||p.days<=maxDays)).map(p=>{const stops=p.ids.map(id=>places.find(x=>x.id===id));if(stops.some(x=>!validLocation(x)||!x.themes.includes(theme)))return null;const legs=stops.slice(1).map((stop,i)=>({from:stops[i],to:stop,km:distanceKm(stops[i],stop)}));return {...p,stops,legs,totalKm:Math.round(legs.reduce((s,x)=>s+x.km,0)),seasonMatch:!month||p.months.includes(month)}}).filter(Boolean).sort((a,b)=>Number(b.seasonMatch)-Number(a.seasonMatch)||b.stops.length-a.stops.length||a.totalKm-b.totalKm)}
+function buildPlans(theme,month,maxDays=0){return planTemplates.filter(p=>p.theme===theme&&(!month||p.months.includes(month))&&(!maxDays||p.days<=maxDays)).map(p=>{const stops=p.ids.map(id=>places.find(x=>x.id===id));if(stops.some(x=>!validLocation(x)||!x.themes.includes(theme)))return null;const legs=stops.slice(1).map((stop,i)=>({from:stops[i],to:stop,km:distanceKm(stops[i],stop)}));return {...p,stops,legs,totalKm:Math.round(legs.reduce((s,x)=>s+x.km,0)),seasonMatch:!month||p.months.includes(month)}}).filter(Boolean).sort((a,b)=>(theme==='xu'?(a.historicalYear||0)-(b.historicalYear||0):0)||Number(b.seasonMatch)-Number(a.seasonMatch)||b.stops.length-a.stops.length||a.totalKm-b.totalKm)}
 
 // Longer regional circuits use official catalogue coordinates. Nearest-neighbour
 // ordering is a draft for review, not a road routing or access calculation.
@@ -78,11 +78,18 @@ historicalCircuit('polo-winter','polo','冬季江南游记文化之旅',['yangzh
 // not historical journey durations, verified daily stages or accessibility promises.
 function walkingPlan(id,theme,name,stations,days,months,transport,reason){planTemplates.push({id,theme,name,ids:stations.map(x=>theme+'-'+x),days,months,transport,reason,climate:walkingSources[theme]})}
 walkingPlan('xu-west-yunnan','xu','徐霞客 · 1639 滇西游历精选',['jizu','lijiang','jianchuan','eryuan','dali','baoshan','tengchong'],18,[3,4,5,10,11],'当代分段交通 + 景区步行','选取滇西游历中的七个区域节点，省略沿途小站和回访，不是完整历史轨迹。18 天是当代探访草案，非徐霞客所用时间；不可全程按地图连线徒步。');
-walkingPlan('xu-zhejiang','xu','徐霞客 · 天台与雁荡阅读之旅',['tiantai','yandang'],6,[4,5,9,10,11],'城际接驳 + 景区步行','以 1613 年游历的两座浙江名山为线索。现代六日建议不复原古路，具体登山路线、门票和天气需另查。');
-walkingPlan('xu-mountains','xu','徐霞客 · 黄山与武夷山足迹',['huangshan','wuyi'],8,[4,5,9,10,11],'城际接驳 + 山地步行','阅读 1616 年名山游历的两个节点；此为现代分段探访，不把黄山至武夷山的连线作为步道。山区天气与登山开放需核实。');
+walkingPlan('xu-zhejiang','xu','徐霞客 · 1613 浙东：天台与雁荡',['tiantai','yandang'],6,[4,5,9,10,11],'城际接驳 + 景区步行','以 1613 年游历的两座浙江名山为线索。现代六日建议不复原古路，具体登山路线、门票和天气需另查。');
+walkingPlan('xu-mountains','xu','徐霞客 · 1616 皖闽：齐云、黄山与武夷',['qiyun','huangshan','wuyi'],10,[4,5,9,10,11],'城际接驳 + 山地步行','阅读 1616 年白岳（齐云山）、黄山、武夷山的三个节点；此为现代分段探访，不把黄山至武夷山的连线作为步道。山区天气与登山开放需核实。');
 walkingPlan('kumano-nakahechi','kumano','熊野古道 · 中边路本宫线',['takijiri','takahara','chikatsuyu','tsugizakura','hosshinmon','hongu'],5,[3,4,5,10,11],'多日山地徒步 + 起终点公交接驳','从泷尻王子到本宫的精选站点。继樱至发心门间省略多个中间节点，不能将每条地图连线视为一个日程。五天是含接驳的初步安排，按官方步道地图、体力和住宿细分，留意雨雪、台风和临时绕行。');
 walkingPlan('kumano-villages','kumano','熊野古道 · 高原与近露山村段',['takijiri','takahara','chikatsuyu','tsugizakura'],3,[3,4,5,10,11],'分日徒步 + 公交接驳','把山村与王子社安排成前半程体验，不必一次走完中边路。每日步行距离、爬升、住宿和返程班次须用官方地图确认。');
 walkingPlan('kumano-hongu','kumano','熊野古道 · 发心门至本宫',['hosshinmon','hongu'],1,[3,4,5,10,11],'末段步行 + 公交接驳','适合只选本宫前末段的体验。地图仅连接起终点，不提供真实步道里程、导航或当天可通行保证；先查看官方地图与天气。');
 walkingPlan('camino-frances','camino','朝圣之路 · 法国之路西班牙段',walkingNodes.camino.map(x=>x[0]),35,[4,5,6,9,10],'长距离分日徒步 · 多处住宿','从龙塞斯瓦列斯到圣地亚哥的主要城镇概览，省略了许多每日住宿点。约五周为编辑建议，需按体能、休息日和天气细化。直线合计不是实际徒步里程；法国境内及越境段不在本路线内。');
 walkingPlan('camino-leon','camino','朝圣之路 · 莱昂向西',['leon','astorga','ponferrada','cebreiro','sarria','portomarin','palas','melide','arzua','santiago'],16,[4,5,6,9,10],'长距离分日徒步 · 山地与城镇','选取法国之路西段主要节点，山地需单独考虑爬升与天气。16 天为初步体验窗口，地图连线不是每天行程；请另查官方逐段路线与住宿。');
 walkingPlan('camino-sarria','camino','朝圣之路 · 萨里亚至圣地亚哥',['sarria','portomarin','palas','melide','arzua','santiago'],7,[4,5,6,9,10],'分日徒步 + 起终点接驳','以法国之路末段作一周体验，梅利德可途经或停留，阿尔苏阿到终点之间还需安排中间停留。按实际步道而非直线估算；此图不保证任何证书资格，申请前核实官方距离、印章与规则。');
+
+// Each collection is a separate dated journey, never a single lifetime route.
+walkingPlan('xu-jiangxi-anhui','xu','徐霞客 · 1618 赣皖：庐山与再游黄山',['lushan','huangshan'],8,[4,5,9,10,11],'城际交通 + 分段山地游览','按 1618 年先庐山、后黄山的次序选取两处名山，与 1616 年旅次分开。连线仅是顺序示意，八天为现代探访草案而非日记时长；须另查交通、天气和景区开放。');
+walkingPlan('xu-central','xu','徐霞客 · 1623 中原、关中与鄂西',['kaifeng','zhengzhou','xinmi','songshan','shaolin','longmen','huashan','wudang'],16,[4,5,9,10],'跨省城际交通 + 分段山地游览','按《游嵩山日记》补入开封、郑州、密县（今新密）、嵩山与少林、洛阳龙门，再续华山、武当山的旅次精选；中原、关中与鄂西是不同区域，不将三者统称中原。省略途中地点，地图连线不是连续徒步路线，十六天仅为现代分段探访建议。');
+walkingPlan('xu-north','xu','徐霞客 · 1633 北游：北京、五台与恒山',['beijing','wutai','hengshan'],9,[5,6,9,10],'城际交通 + 晋北山地游览','按 1633 年先北京、再五台山、后恒山的主要节点编排。与 1623 年中原旅次分开，连线不复原古路；九天是现代探访草案，高山低温与开放情况须另行核实。');
+const xuJourneyYears={'xu-zhejiang':1613,'xu-mountains':1616,'xu-jiangxi-anhui':1618,'xu-central':1623,'xu-north':1633,'xu-west-yunnan':1639};
+for(const plan of planTemplates.filter(p=>p.theme==='xu')){plan.historicalYear=xuJourneyYears[plan.id];if(plan.id!=='xu-west-yunnan')plan.climate=plan.id==='xu-central'?walkingSources.xuSongshan:walkingSources.xuChronology;}
