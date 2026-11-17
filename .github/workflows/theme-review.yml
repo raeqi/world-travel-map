@@ -23,16 +23,18 @@ jobs:
           node-version: '22'
       - run: node --test tests/*.test.cjs
       - run: node scripts/audit-theme-preservation.cjs
+      - run: node scripts/audit-regional-expansion.cjs
       - run: |
           npm install --no-save --no-package-lock playwright
           npx playwright install --with-deps chromium
       - name: Exercise recovery and old links in actual desktop and mobile Chromium
-        run: node scripts/run-browser-suite.cjs check-theme-discoverability.cjs check-short-theme-review.cjs check-cultural-theme-maps.cjs check-cultural-atlas-browser.cjs
+        run: node scripts/run-browser-suite.cjs check-theme-discoverability.cjs check-short-theme-review.cjs check-regional-expansion.cjs check-cultural-theme-maps.cjs check-cultural-atlas-browser.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: theme-review-browser
           path: |
+            qa/regional-expansion-browser/
             qa/theme-review/
             qa/cultural-theme-maps/
             qa/cultural-atlas-browser/

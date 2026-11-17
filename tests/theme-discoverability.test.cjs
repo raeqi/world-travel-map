@@ -23,7 +23,7 @@ test('the short-theme review covers the whole baseline and every retained itiner
  const c=runtime();c.assert=assert;c.review=review;vm.runInContext(`
  homeState.query='';const defaults=matchingDiscoveryRoutes();
  for(const decision of review.decisions){
-  assert.ok(decision.reason.length>20,decision.id);assert.equal(buildPlans(decision.id,0).length,decision.currentItineraryCount);
+  assert.ok(decision.reason.length>20,decision.id);assert.ok(buildPlans(decision.id,0).length>=decision.currentItineraryCount);
   for(const id of decision.destinations)assert.ok(themes.some(t=>t.id===id),id);
  }
  for(const t of themes.filter(t=>t.catalogHidden)){

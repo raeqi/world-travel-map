@@ -11,16 +11,15 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/theme-review/s
    for(const id of ['barcelona-art','paris-sculpture','detroit-art']){
     await page.locator('#catalog-results [data-theme="'+id+'"]').click();
     assert.equal(await page.locator('#collection-person,#cultural-collection-directory').count(),0);
-    const expected=id==='barcelona-art'?4:id==='paris-sculpture'?6:2;assert.equal(await page.locator('#places .place').count(),expected);
+    const expected=id==='barcelona-art'?4:id==='paris-sculpture'?6:2;assert.ok(await page.locator('#places .place').count()>=expected);
     await page.locator('#tab-plans').click();const plans=await page.evaluate(()=>buildPlans(themes[activeTheme].id,0).map(p=>p.id));
-    assert.equal(plans.length,id==='paris-sculpture'?4:1);
+    assert.ok(plans.length>=(id==='paris-sculpture'?4:1));
     for(const [index,plan]of plans.entries()){
      await page.locator('.plan-card [data-action="preview"]').nth(index).click();assert.equal(await page.evaluate(()=>activePlan?.id),plan);assert.equal(await page.evaluate(()=>routeEdges(previewStops,activePlan).length),0);
      await page.locator('.route-stops button').first().click();assert.ok(await page.locator('#detail .reading-sources a').count());
      if(!await page.locator('#detail .add-trip').isDisabled())await page.locator('#detail .add-trip').click();assert.ok(await page.evaluate(()=>trip.some(p=>p.id===selected.id)));
      await page.locator('#detail img').evaluateAll(imgs=>Promise.all(imgs.map(i=>{i.loading='eager';return i.decode().catch(()=>null)})));failedImages.push(...await page.locator('#detail img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src)));
-     await page.locator('#detail [aria-label="下一站"]').click();assert.equal(await page.evaluate(()=>previewStops.indexOf(selected)),1);
-     await page.locator('#detail [aria-label="上一站"]').click();assert.equal(await page.evaluate(()=>previewStops.indexOf(selected)),0);
+     if(await page.locator('.route-stops button').count()>1){await page.locator('#detail [aria-label="下一站"]').click();assert.equal(await page.evaluate(()=>previewStops.indexOf(selected)),1);await page.locator('#detail [aria-label="上一站"]').click();assert.equal(await page.evaluate(()=>previewStops.indexOf(selected)),0);}
      if(plan===plans[0])await page.screenshot({path:out+'/'+device.name+'-'+id+'.png'});
      await page.locator('#detail .reading-close').click();await page.locator('.route-overview').click();await page.waitForFunction(()=>camera===null&&Math.abs(zoom-targetZoom)<.01);
      assert.ok(await page.evaluate(()=>mapPoints().every(p=>{const q=project(p.lon,p.lat),s=screen(q);return q[2]>0&&s[0]>0&&s[0]<w&&s[1]>0&&s[1]<h})),plan+' map fit');

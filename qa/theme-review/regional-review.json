@@ -1,0 +1,4410 @@
+{
+  "baseline": "125c988f086c95b523be88683a12635a6d61d3f4",
+  "before": {
+    "visible": 98,
+    "themes": 121,
+    "itineraries": 244,
+    "oneItineraryThemes": 77,
+    "visibleOneItineraryThemes": 54
+  },
+  "after": {
+    "visible": 89,
+    "themes": 123,
+    "itineraries": 259,
+    "visibleOneItineraryThemes": 45
+  },
+  "decisions": [
+    {
+      "id": "gaudi",
+      "name": "高迪的建筑世界",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "barcelona-art"
+      ],
+      "reason": "古埃尔、巴特罗、圣家堂三处及人物上下文全在巴塞罗那；默认去重，原主题与原方案继续可搜可打开。",
+      "points": [
+        {
+          "id": "atlas-park-guell",
+          "name": "古埃尔公园",
+          "source": "https://whc.unesco.org/en/list/320/",
+          "sha256": "129962b6ebbda951dab3dd89ccff064247a949dfa8d6bbf521ccb6c4242a9730",
+          "legacyHash": "#theme=gaudi&place=atlas-park-guell",
+          "destinations": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-casa-batllo",
+          "name": "巴特罗之家",
+          "source": "https://whc.unesco.org/en/list/320/",
+          "sha256": "05318ba7642fe3326977b88667b90ecd21cf6d1934b5b723d63dc3341c6fc2ef",
+          "legacyHash": "#theme=gaudi&place=atlas-casa-batllo",
+          "destinations": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-sagrada-familia",
+          "name": "圣家堂",
+          "source": "https://whc.unesco.org/en/list/320/",
+          "sha256": "a43b78a65488b149fedde813f2db799545d603e1223ad59a900c71eea4c47ac3",
+          "legacyHash": "#theme=gaudi&place=atlas-sagrada-familia",
+          "destinations": [
+            "barcelona-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-gaudi-places",
+          "name": "高迪的建筑世界 · 地点精选",
+          "sha256": "a7557955a93e4142c855c2c2941e217f7d3580a5e72120798b301937172076bd",
+          "legacyHash": "#theme=gaudi&view=plans&route=atlas-gaudi-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "wright",
+      "name": "赖特的乡野与沙漠",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "modern-architecture",
+        "american-west-art"
+      ],
+      "reason": "两处塔里埃森已由现代建筑地图完整承接；保留原地点精选方案，默认入口去重。",
+      "points": [
+        {
+          "id": "atlas-taliesin",
+          "name": "塔里埃森",
+          "source": "https://www.taliesinpreservation.org/",
+          "sha256": "cca39a308bc17b874464d46bb59a019d6e31df00e12a2f0a9c93fd2dc24e7d0b",
+          "legacyHash": "#theme=wright&place=atlas-taliesin",
+          "destinations": [
+            "modern-architecture"
+          ]
+        },
+        {
+          "id": "atlas-taliesin-west",
+          "name": "西塔里埃森",
+          "source": "https://franklloydwright.org/taliesin-west/",
+          "sha256": "9bb555f217bef097df6cc0e5d206de619941e92bdabf5e21a9d9bbdb2ea493bd",
+          "legacyHash": "#theme=wright&place=atlas-taliesin-west",
+          "destinations": [
+            "modern-architecture",
+            "american-west-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-wright-places",
+          "name": "赖特的乡野与沙漠 · 地点精选",
+          "sha256": "8db224c7556907ebd7ef94f9615252fa1a313aab709acd19643de8355ccf7ec3",
+          "legacyHash": "#theme=wright&view=plans&route=atlas-wright-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "le-corbusier",
+      "name": "勒·柯布西耶的跨国建筑",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "modern-architecture",
+        "setouchi-art"
+      ],
+      "reason": "法国两建筑及东京国立西洋美术馆全部在现代建筑地图；原跨国方案可搜索，避免重复默认主题。",
+      "points": [
+        {
+          "id": "atlas-villa-savoye",
+          "name": "萨伏伊别墅",
+          "source": "https://whc.unesco.org/en/list/1321/",
+          "sha256": "74bab71e7e8ee123a7cfb84a866f5fcaeb67e5a894cb298dddc4607002dc56ca",
+          "legacyHash": "#theme=le-corbusier&place=atlas-villa-savoye",
+          "destinations": [
+            "modern-architecture"
+          ]
+        },
+        {
+          "id": "atlas-unite-marseille",
+          "name": "马赛公寓",
+          "source": "https://whc.unesco.org/en/list/1321/",
+          "sha256": "5079a7305dd768c93cf39a34f2d67e1d24a5225d5a1a0c972e3e1e351fe21d55",
+          "legacyHash": "#theme=le-corbusier&place=atlas-unite-marseille",
+          "destinations": [
+            "modern-architecture"
+          ]
+        },
+        {
+          "id": "atlas-tokyo-western-art",
+          "name": "国立西洋美术馆",
+          "source": "https://whc.unesco.org/en/list/1321/",
+          "sha256": "b4eda5112958aca981c8d5e24dfd3eae7dc0cc3444da4bbb29c704e1528a1459",
+          "legacyHash": "#theme=le-corbusier&place=atlas-tokyo-western-art",
+          "destinations": [
+            "modern-architecture",
+            "setouchi-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-le-corbusier-places",
+          "name": "勒·柯布西耶的跨国建筑 · 地点精选",
+          "sha256": "895a76f247e3866139efe3a9d819214cf7b805d5aa5742d558ebb0d589d71f1e",
+          "legacyHash": "#theme=le-corbusier&view=plans&route=atlas-le-corbusier-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "aalto",
+      "name": "阿尔瓦·阿尔托建筑路线",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "modern-architecture"
+      ],
+      "reason": "自宅、帕伊米奥和塞于奈察洛在现代建筑芬兰探访中全部可发现；原网络保留。",
+      "points": [
+        {
+          "id": "atlas-aalto-house",
+          "name": "阿尔托自宅",
+          "source": "https://www.alvaraalto.fi/en/location/the-aalto-house/",
+          "sha256": "70e56fc9183c8ba182f87262e9d32349b3aa8e853003529ebbcf4d17c9732fc2",
+          "legacyHash": "#theme=aalto&place=atlas-aalto-house",
+          "destinations": [
+            "modern-architecture"
+          ]
+        },
+        {
+          "id": "atlas-saynatsalo",
+          "name": "塞于奈察洛市政厅",
+          "source": "https://visit.alvaraalto.fi/en/",
+          "sha256": "86faabd71c9fadd630be69fd2c897737dbfa99c2aa5b9d5ec304e646181e554f",
+          "legacyHash": "#theme=aalto&place=atlas-saynatsalo",
+          "destinations": [
+            "modern-architecture"
+          ]
+        },
+        {
+          "id": "atlas-paimio",
+          "name": "帕伊米奥疗养院",
+          "source": "https://visit.alvaraalto.fi/en/",
+          "sha256": "16dedf9492ddb8bc1a4b2ed2b2720e762cf8da6ebe036afd44ec2e3e0a6499a3",
+          "legacyHash": "#theme=aalto&place=atlas-paimio",
+          "destinations": [
+            "modern-architecture"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-aalto-places",
+          "name": "阿尔瓦·阿尔托建筑路线 · 地点精选",
+          "sha256": "5d5275dff36dd44f39454a5cf9885d513ff4694078068f835518065e604a6c31",
+          "legacyHash": "#theme=aalto&view=plans&route=atlas-aalto-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "ando",
+      "name": "安藤忠雄的直岛",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "setouchi-art"
+      ],
+      "reason": "直岛三处建筑全部进入濑户内地图并分本村、南部方案；原方案与作者资料保留。",
+      "points": [
+        {
+          "id": "atlas-ando-museum",
+          "name": "安藤博物馆",
+          "source": "https://benesse-artsite.jp/en/art/ando-museum.html",
+          "sha256": "d41bc05f5ab2129e3fb1e6f3177d710fcf082c56630f82859ca0b979acefbba9",
+          "legacyHash": "#theme=ando&place=atlas-ando-museum",
+          "destinations": [
+            "setouchi-art"
+          ]
+        },
+        {
+          "id": "atlas-benesse-house",
+          "name": "倍乐生之家美术馆",
+          "source": "https://benesse-artsite.jp/en/art/benessehouse-museum.html",
+          "sha256": "9adcdb959f98b301a11866730aa59b23c8d76af7985f78bff9a56c94dc2b6c4c",
+          "legacyHash": "#theme=ando&place=atlas-benesse-house",
+          "destinations": [
+            "setouchi-art"
+          ]
+        },
+        {
+          "id": "atlas-chichu",
+          "name": "地中美术馆",
+          "source": "https://benesse-artsite.jp/en/art/chichu.html",
+          "sha256": "77fc8d9e2e65fcb4dad2609a74c40cb3bbb46c8b09090988cbf3635ae44faa60",
+          "legacyHash": "#theme=ando&place=atlas-chichu",
+          "destinations": [
+            "setouchi-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-ando-places",
+          "name": "安藤忠雄的直岛 · 地点精选",
+          "sha256": "c860788e00bc58aff8d5fe9d80a8783aa2f460c84a0cf6b5609cdf953808acac",
+          "legacyHash": "#theme=ando&view=plans&route=atlas-ando-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "rodin",
+      "name": "罗丹的工作室与花园",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "paris-sculpture"
+      ],
+      "reason": "巴黎和默东两处、工作室花园上下文完整纳入巴黎地图；原方案与来源保留。",
+      "points": [
+        {
+          "id": "atlas-rodin-paris",
+          "name": "巴黎罗丹博物馆",
+          "source": "https://www.musee-rodin.fr/en",
+          "sha256": "483ed05909bf66d8ddaa3a56a43474313c63f0bcff1901da0b4ab657a1740053",
+          "legacyHash": "#theme=rodin&place=atlas-rodin-paris",
+          "destinations": [
+            "paris-sculpture"
+          ]
+        },
+        {
+          "id": "atlas-rodin-meudon",
+          "name": "默东罗丹故居与工作室",
+          "source": "https://www.musee-rodin.fr/en/musee-rodin-meudon",
+          "sha256": "4ffd8d1326af0c3802a915afdc35fdd594363ef0324d7a1a63ce439d5693efaf",
+          "legacyHash": "#theme=rodin&place=atlas-rodin-meudon",
+          "destinations": [
+            "paris-sculpture"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-rodin-places",
+          "name": "罗丹的工作室与花园 · 地点精选",
+          "sha256": "bc15d81bf8116e2f3376e11d9b3f2c3cb5f5ebdd19f9cb18099c1900f3ceba47",
+          "legacyHash": "#theme=rodin&view=plans&route=atlas-rodin-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "brancusi",
+      "name": "布朗库西的城市雕塑与工作室",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "brancusi"
+      ],
+      "reason": "巴黎只承接工作室收藏，特尔古日乌雕塑群未被地域地图覆盖；恢复独立，不把罗马尼亚塞入巴黎。",
+      "points": [
+        {
+          "id": "atlas-brancusi-ensemble",
+          "name": "特尔古日乌雕塑群",
+          "source": "https://whc.unesco.org/en/list/1473/",
+          "sha256": "4585c882e2451792f2b40f6156d452bb4694fb48f1c089313d56eb0c024857d2",
+          "legacyHash": "#theme=brancusi&place=atlas-brancusi-ensemble",
+          "destinations": [
+            "brancusi"
+          ]
+        },
+        {
+          "id": "atlas-brancusi-paris",
+          "name": "巴黎布朗库西工作室收藏",
+          "source": "https://www.centrepompidou.fr/en/collection/atelier-brancusi",
+          "sha256": "3aaf4dec30460374bef3585d918963ab9aacf0a0f3e2c75a51bcb1ba0e9bf69b",
+          "legacyHash": "#theme=brancusi&place=atlas-brancusi-paris",
+          "destinations": [
+            "brancusi"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-brancusi-places",
+          "name": "布朗库西的城市雕塑与工作室 · 地点精选",
+          "sha256": "f5ef5dd8675af3a80663ac6c35dc72a5b84e48ab27503c2bd9a128db11d91a51",
+          "legacyHash": "#theme=brancusi&view=plans&route=atlas-brancusi-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "hepworth",
+      "name": "赫普沃斯的圣艾夫斯",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "hepworth"
+      ],
+      "reason": "圣艾夫斯两处雕塑空间是紧凑地方叙事；摩尔的赫特福德与利兹相距远且无本地联游关系。",
+      "points": [
+        {
+          "id": "atlas-hepworth-garden",
+          "name": "赫普沃斯博物馆与雕塑花园",
+          "source": "https://www.tate.org.uk/visit/tate-st-ives/barbara-hepworth-museum-and-sculpture-garden",
+          "sha256": "63941d539ef8eaab20a43c045d9cd1720b321d4641efed3d2c72fb3c94d06ace",
+          "legacyHash": "#theme=hepworth&place=atlas-hepworth-garden",
+          "destinations": [
+            "hepworth"
+          ]
+        },
+        {
+          "id": "atlas-tate-st-ives",
+          "name": "泰特圣艾夫斯",
+          "source": "https://www.tate.org.uk/visit/tate-st-ives",
+          "sha256": "18320baccb7ed98385f19b6ca42f9adb94b5259efb1b5f2a800185e9d7c989e2",
+          "legacyHash": "#theme=hepworth&place=atlas-tate-st-ives",
+          "destinations": [
+            "hepworth"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-hepworth-places",
+          "name": "赫普沃斯的圣艾夫斯 · 地点精选",
+          "sha256": "ffae8e9f5a00cfa0b6eefd551b34fa080e289c4c19197ba3e1d65fb09127cca6",
+          "legacyHash": "#theme=hepworth&view=plans&route=atlas-hepworth-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "noguchi",
+      "name": "野口勇的雕塑与庭园",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": false,
+      "action": "integrated",
+      "destinations": [
+        "east-coast-art",
+        "setouchi-art"
+      ],
+      "reason": "牟礼由日本图承接，纽约庭园由美国东岸图承接，并新增札幌公园。",
+      "points": [
+        {
+          "id": "atlas-noguchi-new-york",
+          "name": "纽约野口勇博物馆",
+          "source": "https://www.noguchi.org/",
+          "sha256": "20686b3a23d6c3ac21b816483445fb86c065053ae77729208c9b6b78565b2179",
+          "legacyHash": "#theme=noguchi&place=atlas-noguchi-new-york",
+          "destinations": [
+            "east-coast-art"
+          ]
+        },
+        {
+          "id": "atlas-noguchi-mure",
+          "name": "野口勇庭园美术馆",
+          "source": "https://www.isamunoguchi.or.jp/",
+          "sha256": "488099597769ba422042b36bf75a840f221f74b01a0027a1c449f634853e220c",
+          "legacyHash": "#theme=noguchi&place=atlas-noguchi-mure",
+          "destinations": [
+            "setouchi-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-noguchi-places",
+          "name": "野口勇的雕塑与庭园 · 地点精选",
+          "sha256": "16e02f2e08a3ed08dd885d7f407ad2ffa498329126086fd4bdc3aa8ae43f7011",
+          "legacyHash": "#theme=noguchi&view=plans&route=atlas-noguchi-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "giacometti",
+      "name": "贾科梅蒂的山谷与巴黎",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "giacometti"
+      ],
+      "reason": "巴黎仅承接研究院，斯坦帕与布雷加利亚山谷不能被巴黎覆盖；独立入口保留。",
+      "points": [
+        {
+          "id": "atlas-stampa",
+          "name": "斯坦帕与布雷加利亚山谷",
+          "source": "https://www.fondation-giacometti.fr/en/biography",
+          "sha256": "6e0c78d8600c04e648563fac15c07340603d3cba16924d4e7f6859b60bfacc69",
+          "legacyHash": "#theme=giacometti&place=atlas-stampa",
+          "destinations": [
+            "giacometti"
+          ]
+        },
+        {
+          "id": "atlas-giacometti-institut",
+          "name": "巴黎贾科梅蒂研究院",
+          "source": "https://www.fondation-giacometti.fr/en",
+          "sha256": "e85a9f12f538c90ee03ab2a64a4925de57a214e63992df76cd941007667cb194",
+          "legacyHash": "#theme=giacometti&place=atlas-giacometti-institut",
+          "destinations": [
+            "giacometti"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-giacometti-places",
+          "name": "贾科梅蒂的山谷与巴黎 · 地点精选",
+          "sha256": "8d873b244f86e963be41ea9c87da1490ff07a1fdc5d77e64a836ff81ef706e66",
+          "legacyHash": "#theme=giacometti&view=plans&route=atlas-giacometti-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "henry-moore",
+      "name": "亨利·摩尔的雕塑景观",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "henry-moore"
+      ],
+      "reason": "工作室花园和利兹研究机构具有同一艺术家资料关系；赫普沃斯圣艾夫斯不应硬接为英国总路线。",
+      "points": [
+        {
+          "id": "atlas-perry-green",
+          "name": "亨利·摩尔工作室与花园",
+          "source": "https://henry-moore.org/",
+          "sha256": "9239307f586f99104d51a98c0c6c37f8f1dbe44496ed34e53e967bf33775d561",
+          "legacyHash": "#theme=henry-moore&place=atlas-perry-green",
+          "destinations": [
+            "henry-moore"
+          ]
+        },
+        {
+          "id": "atlas-moore-institute",
+          "name": "利兹亨利·摩尔研究所",
+          "source": "https://henry-moore.org/",
+          "sha256": "7552774da3056be86352a0e94f918ad1e1b343dcbd6b52cebe03cb333f8beff9",
+          "legacyHash": "#theme=henry-moore&place=atlas-moore-institute",
+          "destinations": [
+            "henry-moore"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-henry-moore-places",
+          "name": "亨利·摩尔的雕塑景观 · 地点精选",
+          "sha256": "ec7dbdfd2f3c5fc7249156f8401a049fac56224eae165743f675caa8334049f0",
+          "legacyHash": "#theme=henry-moore&view=plans&route=atlas-henry-moore-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "utah-land-art",
+      "name": "犹他大地艺术：史密森与霍尔特",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": false,
+      "action": "integrated",
+      "destinations": [
+        "american-west-art"
+      ],
+      "reason": "两件犹他地景作品在美国西部艺术图完整承接，保留偏远道路限制与独立三日方案。",
+      "points": [
+        {
+          "id": "atlas-spiral-jetty",
+          "name": "螺旋防波堤",
+          "source": "https://holtsmithsonfoundation.org/spiral-jetty",
+          "sha256": "0a395f13c007e1edeef2dc14e4bf370505f3541b55ee1cf267ece85879742ef8",
+          "legacyHash": "#theme=utah-land-art&place=atlas-spiral-jetty",
+          "destinations": [
+            "american-west-art"
+          ]
+        },
+        {
+          "id": "atlas-sun-tunnels",
+          "name": "太阳隧道",
+          "source": "https://diaart.org/visit/visit-our-locations-sites/nancy-holt-sun-tunnels/main/spiraljetty",
+          "sha256": "402863a5293c15f7d6593bcb58b435581bc68633589cd9def61364fdebc3d704",
+          "legacyHash": "#theme=utah-land-art&place=atlas-sun-tunnels",
+          "destinations": [
+            "american-west-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-utah-land-art-places",
+          "name": "犹他大地艺术：史密森与霍尔特 · 地点精选",
+          "sha256": "90c51a58f2791dd8228b545a535194d42cc1a9fe7011fec47d4004ea4b5d0de0",
+          "legacyHash": "#theme=utah-land-art&view=plans&route=atlas-utah-land-art-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "turner",
+      "name": "透纳的意大利旅行",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "italian-art-journeys"
+      ],
+      "reason": "威尼斯、罗马、那不勒斯全部由意大利艺术地图承接；不同年代旅行继续以地点网络阅读。",
+      "points": [
+        {
+          "id": "silk-venice",
+          "name": "威尼斯",
+          "source": "https://www.tate.org.uk/art/research-publications/jmw-turner/1819-1829-italy-and-after-r1130131",
+          "sha256": "39f4868622410db46bd0622f2abf389e4709b5bb48c347844b1359e9ced770a3",
+          "legacyHash": "#theme=turner&place=silk-venice",
+          "destinations": [
+            "italian-art-journeys"
+          ]
+        },
+        {
+          "id": "francigena-rome",
+          "name": "罗马",
+          "source": "https://www.tate.org.uk/art/research-publications/jmw-turner/1819-1829-italy-and-after-r1130131",
+          "sha256": "845c90c2f8ba07c1040b3e09cc0a1e8da7e5756b0508d51f3fd61fbae67d411c",
+          "legacyHash": "#theme=turner&place=francigena-rome",
+          "destinations": [
+            "italian-art-journeys"
+          ]
+        },
+        {
+          "id": "atlas-naples",
+          "name": "那不勒斯",
+          "source": "https://www.tate.org.uk/art/research-publications/jmw-turner/1819-1829-italy-and-after-r1130131",
+          "sha256": "59036578c74dd728c748f61f1a87ad1e902bdd64db1ac1f1e0987c9288ad6308",
+          "legacyHash": "#theme=turner&place=atlas-naples",
+          "destinations": [
+            "italian-art-journeys"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-turner-places",
+          "name": "透纳的意大利旅行 · 地点精选",
+          "sha256": "c689d3bd66f2cc62c57e39704b662e29440e72ea3424280642dfdf28b0754514",
+          "legacyHash": "#theme=turner&view=plans&route=atlas-turner-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "cezanne",
+      "name": "塞尚的普罗旺斯",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "southern-france-painters"
+      ],
+      "reason": "画室、采石场与圣维克多山完整纳入南法及艾克斯方案；原三点方案保持可发现。",
+      "points": [
+        {
+          "id": "atlas-cezanne-studio",
+          "name": "洛夫画室",
+          "source": "https://www.cezanne-en-provence.com/les-sites-de-cezanne/",
+          "sha256": "4c15677ad1be01443f85b1c79934c252a7cb3acf3dfc758039efb40ccbe5a35d",
+          "legacyHash": "#theme=cezanne&place=atlas-cezanne-studio",
+          "destinations": [
+            "southern-france-painters"
+          ]
+        },
+        {
+          "id": "atlas-bibemus",
+          "name": "比贝米采石场",
+          "source": "https://www.cezanne-en-provence.com/les-sites-de-cezanne/",
+          "sha256": "054843ad00a67159fc56fe6044abe5fa555ae138ced181cd8488c46d42ba1497",
+          "legacyHash": "#theme=cezanne&place=atlas-bibemus",
+          "destinations": [
+            "southern-france-painters"
+          ]
+        },
+        {
+          "id": "atlas-sainte-victoire",
+          "name": "圣维克多山",
+          "source": "https://www.cezanne-en-provence.com/les-sites-de-cezanne/",
+          "sha256": "432322474eb3fbed40e3012cefc13bce8c5ec0f43f2897690e3950aec95fce1e",
+          "legacyHash": "#theme=cezanne&place=atlas-sainte-victoire",
+          "destinations": [
+            "southern-france-painters"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-cezanne-places",
+          "name": "塞尚的普罗旺斯 · 地点精选",
+          "sha256": "adc3b7803f5b06c6d8a74ae9962a954b533450b7200dfbbcb7b8d7370dc9e892",
+          "legacyHash": "#theme=cezanne&view=plans&route=atlas-cezanne-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "dali",
+      "name": "达利三角",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": false,
+      "action": "integrated",
+      "destinations": [
+        "barcelona-art"
+      ],
+      "reason": "三座机构在西班牙艺术图完整承接，增加克雷乌斯角环境观察和独立地区方案。",
+      "points": [
+        {
+          "id": "atlas-dali-theatre",
+          "name": "达利剧院博物馆",
+          "source": "https://costabrava.org/en/blog/the-dali-triangle/",
+          "sha256": "499042cc09b94806a9ab992a734d53c7792c3263b493c2b0538f47c2a24206bf",
+          "legacyHash": "#theme=dali&place=atlas-dali-theatre",
+          "destinations": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-portlligat",
+          "name": "波特利加特达利故居",
+          "source": "https://costabrava.org/en/blog/the-dali-triangle/",
+          "sha256": "aca3a1fe28c03003fdbaf66ba80676fc47e7cdc193b194296d91ef941138bef6",
+          "legacyHash": "#theme=dali&place=atlas-portlligat",
+          "destinations": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-pubol",
+          "name": "普波尔加拉·达利城堡",
+          "source": "https://costabrava.org/en/blog/the-dali-triangle/",
+          "sha256": "279b359a38bbebb251d86ad1402f15cdfaf49a9ad4fa30f250524571446cb38b",
+          "legacyHash": "#theme=dali&place=atlas-pubol",
+          "destinations": [
+            "barcelona-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-dali-places",
+          "name": "达利三角 · 地点精选",
+          "sha256": "a7586212db5478d8661410a296888e342d4d30652a758369daa724a4932dd2a0",
+          "legacyHash": "#theme=dali&view=plans&route=atlas-dali-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "matisse",
+      "name": "马蒂斯的尼斯与旺斯",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "southern-france-painters"
+      ],
+      "reason": "尼斯和旺斯两处完整纳入南法色彩方案；原人物网络保留并默认去重。",
+      "points": [
+        {
+          "id": "atlas-matisse-nice",
+          "name": "尼斯马蒂斯博物馆",
+          "source": "https://www.musee-matisse-nice.org/fr/lartiste/matisse-et-nice/",
+          "sha256": "6c0e58f83e667d8387c93384c9c9637b4db57cf425902efa770ba30a1b90208c",
+          "legacyHash": "#theme=matisse&place=atlas-matisse-nice",
+          "destinations": [
+            "southern-france-painters"
+          ]
+        },
+        {
+          "id": "atlas-matisse-vence",
+          "name": "旺斯玫瑰经礼拜堂",
+          "source": "https://www.chapellematisse.com/",
+          "sha256": "761c12205565c21e12b2fcbbacce2c8b21f839f2abe414165d6146c6f3225467",
+          "legacyHash": "#theme=matisse&place=atlas-matisse-vence",
+          "destinations": [
+            "southern-france-painters"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-matisse-places",
+          "name": "马蒂斯的尼斯与旺斯 · 地点精选",
+          "sha256": "1afa0e444918e9053bd888b9f42b90e959048acfe65092c7c1ec05ae052845c0",
+          "legacyHash": "#theme=matisse&view=plans&route=atlas-matisse-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "munch",
+      "name": "蒙克的海岸与居所",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "munch"
+      ],
+      "reason": "奥斯戈斯特兰与奥斯陆的海岸居住和收藏关系完整；与卑尔根格里格相距远且主题不同。",
+      "points": [
+        {
+          "id": "atlas-asgardstrand",
+          "name": "奥斯戈斯特兰",
+          "source": "https://www.munch.no/edvard-munch/asgardstrand/",
+          "sha256": "d5280a852505985c1dd6d3c581a25f1a14c77898b9efdc05bbd74325fa68482d",
+          "legacyHash": "#theme=munch&place=atlas-asgardstrand",
+          "destinations": [
+            "munch"
+          ]
+        },
+        {
+          "id": "atlas-munch-oslo",
+          "name": "奥斯陆蒙克博物馆",
+          "source": "https://www.munch.no/en/",
+          "sha256": "da92e515075986288dfc09c9b8aaf637e5b207aaaa959368e1cbd43aa2d087a4",
+          "legacyHash": "#theme=munch&place=atlas-munch-oslo",
+          "destinations": [
+            "munch"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-munch-places",
+          "name": "蒙克的海岸与居所 · 地点精选",
+          "sha256": "8249a6efe15331ea7f7f315fa3364ee15a8102cf7999fa23e61a4947dc8949f2",
+          "legacyHash": "#theme=munch&view=plans&route=atlas-munch-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "okeeffe",
+      "name": "奥姬芙的新墨西哥",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": false,
+      "action": "integrated",
+      "destinations": [
+        "american-west-art"
+      ],
+      "reason": "阿比丘和幽灵牧场与新增圣菲馆藏构成新墨西哥章节，加入美国西部艺术图。",
+      "points": [
+        {
+          "id": "atlas-ghost-ranch",
+          "name": "幽灵牧场",
+          "source": "https://www.okeeffemuseum.org/",
+          "sha256": "602bcf1a88d1ab59be80dbe6aba522763cf823e93e2d5d154b1162557efd51fb",
+          "legacyHash": "#theme=okeeffe&place=atlas-ghost-ranch",
+          "destinations": [
+            "american-west-art"
+          ]
+        },
+        {
+          "id": "atlas-abiquiu",
+          "name": "阿比丘",
+          "source": "https://www.okeeffemuseum.org/",
+          "sha256": "1ce1c273de821833c38572065da18f027acae1dcd3efdde501bc7900f772a535",
+          "legacyHash": "#theme=okeeffe&place=atlas-abiquiu",
+          "destinations": [
+            "american-west-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-okeeffe-places",
+          "name": "奥姬芙的新墨西哥 · 地点精选",
+          "sha256": "33121d062f1a4478360293eac1196869ae8c4f09cf8aa5435afc84c6c11317e5",
+          "legacyHash": "#theme=okeeffe&view=plans&route=atlas-okeeffe-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "hiroshige",
+      "name": "广重的东海道",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "fuji-tokaido"
+      ],
+      "reason": "日本桥与由比全部进入富士东海道；原广重作品、休馆说明和原方案继续保留。",
+      "points": [
+        {
+          "id": "atlas-nihonbashi-atlas",
+          "name": "日本桥",
+          "source": "https://tokaido-hiroshige.jp/en/outline/",
+          "sha256": "5d28349be47d51a43f7a1b89e35cc23a921530c35efce92edb3d50f49c61a6a0",
+          "legacyHash": "#theme=hiroshige&place=atlas-nihonbashi-atlas",
+          "destinations": [
+            "fuji-tokaido"
+          ]
+        },
+        {
+          "id": "atlas-yui",
+          "name": "由比与广重美术馆",
+          "source": "https://tokaido-hiroshige.jp/whatsnew/2026/05/post-316.html",
+          "sha256": "ed867dab3d3bb02ec2b5cbb9ccb4cae0c809580f2cc64a74e4e6064d55c82d4f",
+          "legacyHash": "#theme=hiroshige&place=atlas-yui",
+          "destinations": [
+            "fuji-tokaido"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-hiroshige-places",
+          "name": "广重的东海道 · 地点精选",
+          "sha256": "c3364247b1a52a910da67222b571d533c31506671a15b820b97763005a21491e",
+          "legacyHash": "#theme=hiroshige&view=plans&route=atlas-hiroshige-places"
+        }
+      ],
+      "artworks": [
+        {
+          "key": "atlas-yui",
+          "sha256": "346cc66b42dba05df67625f013766d041bfef85c975b8c3545074bdbda4b17b1"
+        }
+      ]
+    },
+    {
+      "id": "gauguin",
+      "name": "高更的跨洋迁居",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "gauguin"
+      ],
+      "reason": "蓬塔旺与塔希提迁居是独特跨洋关系；南法或法国画家地图都无法承接大洋洲阶段。",
+      "points": [
+        {
+          "id": "atlas-pont-aven",
+          "name": "蓬塔旺",
+          "source": "https://www.museepontaven.fr/",
+          "sha256": "e01eee65418b419f7be522e305a7c50c9860bfb9b413fc6475fbd80bace6b16b",
+          "legacyHash": "#theme=gauguin&place=atlas-pont-aven",
+          "destinations": [
+            "gauguin"
+          ]
+        },
+        {
+          "id": "atlas-tahiti",
+          "name": "塔希提岛",
+          "source": "https://www.nga.gov/stories/videos/gauguin-maker-myth-part-4",
+          "sha256": "aa9a753378594df3b4db2a17683e68553a9fa0a63ea5d17ba5fd2d4145630285",
+          "legacyHash": "#theme=gauguin&place=atlas-tahiti",
+          "destinations": [
+            "gauguin"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-gauguin-places",
+          "name": "高更的跨洋迁居 · 地点精选",
+          "sha256": "914f7561adabb7a497bb24834414bf432b912535fb6b1c1b19774fe4757aa6a9",
+          "legacyHash": "#theme=gauguin&view=plans&route=atlas-gauguin-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "chagall",
+      "name": "夏加尔的故乡与南法",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "chagall"
+      ],
+      "reason": "尼斯和圣保罗可由南法承接，维捷布斯克未覆盖；独立地图恢复，避免丢失白俄罗斯地域发现。",
+      "points": [
+        {
+          "id": "atlas-vitebsk",
+          "name": "维捷布斯克",
+          "source": "https://www.saint-pauldevence.com/en/history/celebrities/marc-chagall-vitebsk-saint-paul-de-vence/",
+          "sha256": "400d32c7eec6032dc0eb544c84b989699e5a633f0f0ec80164fc61c03428a2b3",
+          "legacyHash": "#theme=chagall&place=atlas-vitebsk",
+          "destinations": [
+            "chagall"
+          ]
+        },
+        {
+          "id": "atlas-saint-paul-vence",
+          "name": "圣保罗德旺斯",
+          "source": "https://www.saint-pauldevence.com/en/history/celebrities/marc-chagall-vitebsk-saint-paul-de-vence/",
+          "sha256": "af9c2fd8bda98fddc564f6c27829465cc0e0dc2d6a4b1622eb54470ed1c5e81f",
+          "legacyHash": "#theme=chagall&place=atlas-saint-paul-vence",
+          "destinations": [
+            "chagall"
+          ]
+        },
+        {
+          "id": "atlas-chagall-nice",
+          "name": "尼斯国立夏加尔博物馆",
+          "source": "https://musees-nationaux-alpesmaritimes.fr/chagall/en/practical-information",
+          "sha256": "8e5c0830b770a289db3eeca221dc6a5c3512608d9bc85aa75c4e8f6d28613656",
+          "legacyHash": "#theme=chagall&place=atlas-chagall-nice",
+          "destinations": [
+            "chagall"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-chagall-places",
+          "name": "夏加尔的故乡与南法 · 地点精选",
+          "sha256": "b827a6f99773d5e0060fe3009209caf87a665cceed22e8011375af326b013ab5",
+          "legacyHash": "#theme=chagall&view=plans&route=atlas-chagall-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "sorolla",
+      "name": "索罗亚的西班牙",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": false,
+      "action": "integrated",
+      "destinations": [
+        "barcelona-art",
+        "east-coast-art"
+      ],
+      "reason": "瓦伦西亚在西班牙图，纽约馆藏在美国东岸图；增加瓦伦西亚与普拉多的收藏阅读。",
+      "points": [
+        {
+          "id": "atlas-valencia",
+          "name": "瓦伦西亚",
+          "source": "https://www.cultura.gob.es/msorolla/en/",
+          "sha256": "f88f7ec3a8e55d92c35f1065fa1b481770d93f9ca40baa501b3a700e4730d01d",
+          "legacyHash": "#theme=sorolla&place=atlas-valencia",
+          "destinations": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-hispanic-society",
+          "name": "纽约西班牙裔协会博物馆",
+          "source": "https://hispanicsociety.org/exhibition/joaquin-sorollas-vision-of-spain/",
+          "sha256": "4ce676a431eb50fad3dc042d305d8c404fd115df3c649cf8cf84669df48ee206",
+          "legacyHash": "#theme=sorolla&place=atlas-hispanic-society",
+          "destinations": [
+            "east-coast-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-sorolla-places",
+          "name": "索罗亚的西班牙 · 地点精选",
+          "sha256": "664c341459fd07659be0ce3f7f44e3bcaaa392896473c6fe1bfffac6dd09e6a9",
+          "legacyHash": "#theme=sorolla&view=plans&route=atlas-sorolla-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "constable",
+      "name": "康斯太勃尔乡野",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "constable"
+      ],
+      "reason": "弗拉特福德与迪德姆是萨福克地方地景；华兹华斯湖区并不相邻，保持独立。",
+      "points": [
+        {
+          "id": "atlas-flatford",
+          "name": "弗拉特福德",
+          "source": "https://www.nationaltrust.org.uk/visit/suffolk/flatford/flatford-and-constable-country-walk",
+          "sha256": "56556c0f4d5caef9d587a6d0a1faba2bd7893df715b971504a1a0d9f5429a2bd",
+          "legacyHash": "#theme=constable&place=atlas-flatford",
+          "destinations": [
+            "constable"
+          ]
+        },
+        {
+          "id": "atlas-dedham",
+          "name": "迪德姆",
+          "source": "https://www.nationaltrust.org.uk/visit/suffolk/flatford/flatford-and-constable-country-walk",
+          "sha256": "8c75435fc92cf790e0cedecab721f6a9897926bcdfe51aefee351fc3bbe33814",
+          "legacyHash": "#theme=constable&place=atlas-dedham",
+          "destinations": [
+            "constable"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-constable-places",
+          "name": "康斯太勃尔乡野 · 地点精选",
+          "sha256": "9dd653b873b664355200d6a73700b027f05866bcc29d206caedd906aa6ec9ff6",
+          "legacyHash": "#theme=constable&view=plans&route=atlas-constable-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "zhang-daqian",
+      "name": "张大千的游历与园林",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "zhang-daqian"
+      ],
+      "reason": "莫高窟与摩耶精舍涉及敦煌及台湾两阶段，江南地图地理上不覆盖；保留独立。",
+      "points": [
+        {
+          "id": "wh-440",
+          "name": "莫高窟",
+          "source": "https://www.npm.edu.tw/exh96/dai-chien/index.html",
+          "sha256": "8173c02372c36ef09d93ce68599f88b8e04ebbeff32a1630ccf032ba783cd6c8",
+          "legacyHash": "#theme=zhang-daqian&place=wh-440",
+          "destinations": [
+            "zhang-daqian"
+          ]
+        },
+        {
+          "id": "atlas-chang-dai-chien-house",
+          "name": "摩耶精舍",
+          "source": "https://www.npm.edu.tw/exh96/dai-chien/index.html",
+          "sha256": "f146e49024cd202d4991773b6952481950e087ce91d82d0ef513c99bf1668a41",
+          "legacyHash": "#theme=zhang-daqian&place=atlas-chang-dai-chien-house",
+          "destinations": [
+            "zhang-daqian"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-zhang-daqian-places",
+          "name": "张大千的游历与园林 · 地点精选",
+          "sha256": "83255950b13519971a73c7564c80398a8165ba619f6df8fe1a5fcaf04ba01e85",
+          "legacyHash": "#theme=zhang-daqian&view=plans&route=atlas-zhang-daqian-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "picasso",
+      "name": "毕加索的城市生活",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "barcelona-art",
+        "paris-sculpture"
+      ],
+      "reason": "巴塞罗那和巴黎两个收藏地点分别进入对应城市地图，原跨城上下文与方案保持可搜；全覆盖后默认去重。",
+      "points": [
+        {
+          "id": "atlas-picasso-barcelona",
+          "name": "巴塞罗那毕加索博物馆",
+          "source": "https://museupicassobcn.cat/en/picasso-and-barcelona/picasso-connection-with-barcelona",
+          "sha256": "07d83aa2266d5ecbf0d45f6203b10a2359cedfbd2fdf586d544274ecba1b0c9e",
+          "legacyHash": "#theme=picasso&place=atlas-picasso-barcelona",
+          "destinations": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-picasso-paris",
+          "name": "巴黎毕加索博物馆",
+          "source": "https://www.museepicassoparis.fr/en/",
+          "sha256": "b27d7f85644e406c5c209025b9588d0bd2671618bdcc9b3ee251cbb7b8986148",
+          "legacyHash": "#theme=picasso&place=atlas-picasso-paris",
+          "destinations": [
+            "paris-sculpture"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-picasso-places",
+          "name": "毕加索的城市生活 · 地点精选",
+          "sha256": "1cf821155fced03280c6cd02f1d089d290ada78a5837c6ade124246ccde3021d",
+          "legacyHash": "#theme=picasso&view=plans&route=atlas-picasso-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "frida",
+      "name": "弗里达的墨西哥与美国",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "mexico-city-art",
+        "detroit-art"
+      ],
+      "reason": "墨西哥生活空间进入墨西哥城，底特律城市经历进入同城艺术图；两阶段都有普通地图后默认去重。",
+      "points": [
+        {
+          "id": "atlas-frida-blue-house",
+          "name": "弗里达蓝屋",
+          "source": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2022/08/Biografias-Frida-Kahlo-ingles.pdf",
+          "sha256": "8676ccd3644715d832728a9c3ed410ff79f1168c285ddb58841e18f7d2340db5",
+          "legacyHash": "#theme=frida&place=atlas-frida-blue-house",
+          "destinations": [
+            "mexico-city-art"
+          ]
+        },
+        {
+          "id": "atlas-detroit",
+          "name": "底特律",
+          "source": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2022/08/Biografias-Frida-Kahlo-ingles.pdf",
+          "sha256": "c9ab56fd4d7c50976a4f93b138bc8915408409a7eb617b94297187094f7d7565",
+          "legacyHash": "#theme=frida&place=atlas-detroit",
+          "destinations": [
+            "detroit-art"
+          ]
+        },
+        {
+          "id": "atlas-frida-rivera-studio",
+          "name": "圣安赫尔 · 里维拉与弗里达工作室",
+          "source": "https://sic.gob.mx/ficha.php?table=museo&table_id=805",
+          "sha256": "34c23bc6d256d00c0855633f16bbd4ecca32b795810820bade5804d5649b3d3a",
+          "legacyHash": "#theme=frida&place=atlas-frida-rivera-studio",
+          "destinations": [
+            "mexico-city-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-frida-places",
+          "name": "弗里达的墨西哥与美国 · 地点精选",
+          "sha256": "79a88cea2619c8ba977f15efb3d290f6f737b7fa13354c4152b3de97a2d0aeae",
+          "legacyHash": "#theme=frida&view=plans&route=atlas-frida-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "wu-guanzhong",
+      "name": "吴冠中的游历与写生",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "jiangnan-painting",
+        "paris-sculpture"
+      ],
+      "reason": "宜兴、杭州由江南承接，巴黎画院加入巴黎学习与工作空间；全覆盖后默认去重，求学与描绘关系分清。",
+      "points": [
+        {
+          "id": "atlas-yixing",
+          "name": "宜兴",
+          "source": "https://www.tsinghua.edu.cn/info/1844/73915.htm",
+          "sha256": "98d9262c1b091a783a294d69da49e86270ac49d7820a050a7f9a34de6f127331",
+          "legacyHash": "#theme=wu-guanzhong&place=atlas-yixing",
+          "destinations": [
+            "jiangnan-painting"
+          ]
+        },
+        {
+          "id": "atlas-beaux-arts-paris",
+          "name": "巴黎国立高等美术学院",
+          "source": "https://www.tsinghua.edu.cn/info/1844/73915.htm",
+          "sha256": "ad89235274f858ca1912825dcecfe8b795bd4ea87c0a636716b6a38668672a99",
+          "legacyHash": "#theme=wu-guanzhong&place=atlas-beaux-arts-paris",
+          "destinations": [
+            "paris-sculpture"
+          ]
+        },
+        {
+          "id": "atlas-hangzhou-art-school",
+          "name": "杭州 · 南山路画院与西湖",
+          "source": "https://gmfz.caa.edu.cn/info/1024/1313.htm",
+          "sha256": "5ccd842790447fef6f661d7450d1b1897a92ad203db10d15498eb40ab4d28a47",
+          "legacyHash": "#theme=wu-guanzhong&place=atlas-hangzhou-art-school",
+          "destinations": [
+            "jiangnan-painting"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-wu-guanzhong-places",
+          "name": "吴冠中的游历与写生 · 地点精选",
+          "sha256": "991d5b1f7941f2552ca09871f7ed5f4a4144db749e45dfe7252b391296fa02cd",
+          "legacyHash": "#theme=wu-guanzhong&view=plans&route=atlas-wu-guanzhong-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "qi-baishi",
+      "name": "齐白石的五出五归",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "qi-baishi"
+      ],
+      "reason": "湘潭与北京形成乡居和城市艺术生活的迁移关系；不能并入江南水乡或张大千敦煌主题。",
+      "points": [
+        {
+          "id": "atlas-xiangtan",
+          "name": "湘潭",
+          "source": "https://www.bjaa.com.cn/artist.html?artist=319&clg=82&hcs=1",
+          "sha256": "aeedad288e56e8165346bce6917b109302bf3630000b029aeb1e33aaca8d84b0",
+          "legacyHash": "#theme=qi-baishi&place=atlas-xiangtan",
+          "destinations": [
+            "qi-baishi"
+          ]
+        },
+        {
+          "id": "atlas-qi-baishi-beijing",
+          "name": "北京齐白石故居",
+          "source": "https://www.bjaa.com.cn/artist.html?artist=319&clg=82&hcs=1",
+          "sha256": "b8ef9da058a447a782671ed65940623bc5925518efda1126cc7e44e1ebe4ea05",
+          "legacyHash": "#theme=qi-baishi&place=atlas-qi-baishi-beijing",
+          "destinations": [
+            "qi-baishi"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-qi-baishi-places",
+          "name": "齐白石的五出五归 · 地点精选",
+          "sha256": "0b81792a5d7a4be97558aeea2729423f6f450121133fdd4caa0299ed3efa8c6c",
+          "legacyHash": "#theme=qi-baishi&view=plans&route=atlas-qi-baishi-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "huang-binhong",
+      "name": "黄宾虹的山水纪游",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "jiangnan-painting"
+      ],
+      "reason": "黄山与杭州原点、资料与五日对读方案都在江南地图；原人物方案保留并默认去重。",
+      "points": [
+        {
+          "id": "wh-547",
+          "name": "黄山",
+          "source": "https://lib.caa.edu.cn/info/1046/1221.htm",
+          "sha256": "bef0a14aebb436d8d593f72d760cb69e519f10fe1e41e2e74cccbb101db932e6",
+          "legacyHash": "#theme=huang-binhong&place=wh-547",
+          "destinations": [
+            "jiangnan-painting"
+          ]
+        },
+        {
+          "id": "silk-hangzhou",
+          "name": "杭州",
+          "source": "https://lib.caa.edu.cn/info/1046/1221.htm",
+          "sha256": "bde166244ba7bff003ccbe17b4dbfdef79a3c91ac4cb4b9d0a0207845e062c76",
+          "legacyHash": "#theme=huang-binhong&place=silk-hangzhou",
+          "destinations": [
+            "jiangnan-painting"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-huang-binhong-places",
+          "name": "黄宾虹的山水纪游 · 地点精选",
+          "sha256": "3ddcae1489e8c0875985f60694cdc120b9cecbee5b96c4f400cb4e15bbb07bb2",
+          "legacyHash": "#theme=huang-binhong&view=plans&route=atlas-huang-binhong-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "feng-zikai",
+      "name": "丰子恺的生活与迁徙",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "feng-zikai"
+      ],
+      "reason": "石门和上海在江南，重庆迁居未被覆盖；恢复完整地图，不用地域去重隐藏重庆。",
+      "points": [
+        {
+          "id": "atlas-yuanyuantang",
+          "name": "石门缘缘堂",
+          "source": "https://www.zjskw.gov.cn/art/2022/1/17/art_1229514868_44595.html",
+          "sha256": "685bac572d59378a91d9975c986862c5a98aceb521fe0962a22d4a10c7c2fa2f",
+          "legacyHash": "#theme=feng-zikai&place=atlas-yuanyuantang",
+          "destinations": [
+            "feng-zikai"
+          ]
+        },
+        {
+          "id": "atlas-chongqing",
+          "name": "重庆",
+          "source": "https://www.zjskw.gov.cn/art/2022/1/17/art_1229514868_44595.html",
+          "sha256": "3078d2be96515a0e111cbcc5ffc1799bae62a0a0266af3f956479286af299f58",
+          "legacyHash": "#theme=feng-zikai&place=atlas-chongqing",
+          "destinations": [
+            "feng-zikai"
+          ]
+        },
+        {
+          "id": "atlas-riyuelou",
+          "name": "上海 · 丰子恺日月楼街区",
+          "source": "https://www.shhuangpu.gov.cn/fw/003001/20231129/0af41720-0301-46b4-8af4-5d6139bbf72e.html",
+          "sha256": "15b2af52c059a05a9bdd47958bb9e2d1dbdafba7404b9b3ac6e543b0988da4b1",
+          "legacyHash": "#theme=feng-zikai&place=atlas-riyuelou",
+          "destinations": [
+            "feng-zikai"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-feng-zikai-places",
+          "name": "丰子恺的生活与迁徙 · 地点精选",
+          "sha256": "be8935d2c66fce3a07a0da0b533023ff46d279716477ce21ca5235943f64e1dc",
+          "legacyHash": "#theme=feng-zikai&view=plans&route=atlas-feng-zikai-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "higashiyama",
+      "name": "东山魁夷的风景旅行",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "higashiyama"
+      ],
+      "reason": "长野与奈良对应收藏和障壁画两种关系；与富士东海道版画主题不同，不因日本绘画硬并。",
+      "points": [
+        {
+          "id": "atlas-nagano-art",
+          "name": "长野县立美术馆东山魁夷馆",
+          "source": "https://nagano.art.museum/higashiyama_kaii_gallery",
+          "sha256": "ef6f3b1b44dd7f28e8db79727522f32afef2437911f9e5b0728475fdd9694822",
+          "legacyHash": "#theme=higashiyama&place=atlas-nagano-art",
+          "destinations": [
+            "higashiyama"
+          ]
+        },
+        {
+          "id": "atlas-toshodaiji",
+          "name": "唐招提寺",
+          "source": "https://www.toshodaiji.jp/",
+          "sha256": "5159e7b50fd55eaf6b72c97565811f241bdd2c209b91bd3b27507b6976b6a923",
+          "legacyHash": "#theme=higashiyama&place=atlas-toshodaiji",
+          "destinations": [
+            "higashiyama"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-higashiyama-places",
+          "name": "东山魁夷的风景旅行 · 地点精选",
+          "sha256": "104cc05e410a6109cb3829da048b2c2b816ed56509ba17979601406368b5ef9d",
+          "legacyHash": "#theme=higashiyama&view=plans&route=atlas-higashiyama-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "rivera",
+      "name": "里维拉的壁画地理",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "mexico-city-art",
+        "detroit-art"
+      ],
+      "reason": "墨西哥壁画、收藏与双工作室由墨西哥城承接，底特律原址壁画由底特律新图承接；全覆盖后默认去重。",
+      "points": [
+        {
+          "id": "atlas-frida-rivera-studio",
+          "name": "圣安赫尔 · 里维拉与弗里达工作室",
+          "source": "https://sic.gob.mx/ficha.php?table=museo&table_id=805",
+          "sha256": "8cb65729640b1e69450504bb1b81dbd5603625298fc715f60035664020991b1b",
+          "legacyHash": "#theme=rivera&place=atlas-frida-rivera-studio",
+          "destinations": [
+            "mexico-city-art"
+          ]
+        },
+        {
+          "id": "atlas-dia-detroit",
+          "name": "底特律美术馆",
+          "source": "https://dia.org/collection/detroit-industry-south-wall/58539",
+          "sha256": "ecd5525a4a696d9be4716a52b5cac01d973978d1c647ea35daf685afe8635d9c",
+          "legacyHash": "#theme=rivera&place=atlas-dia-detroit",
+          "destinations": [
+            "detroit-art"
+          ]
+        },
+        {
+          "id": "atlas-mexico-palace",
+          "name": "墨西哥国民宫",
+          "source": "https://www.gob.mx/hacienda",
+          "sha256": "92dfd6a2cd5423de6168c991530dcfc626d1dca126d7ae35f02cc2e3d50e0622",
+          "legacyHash": "#theme=rivera&place=atlas-mexico-palace",
+          "destinations": [
+            "mexico-city-art"
+          ]
+        },
+        {
+          "id": "atlas-anahuacalli",
+          "name": "阿纳瓦卡利博物馆",
+          "source": "https://museoanahuacalli.org.mx/coleccion/",
+          "sha256": "df6bf585307ea49133caabb6bb38c54fe370575f67b08718b7cd535332947970",
+          "legacyHash": "#theme=rivera&place=atlas-anahuacalli",
+          "destinations": [
+            "mexico-city-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-rivera-places",
+          "name": "里维拉的壁画地理 · 地点精选",
+          "sha256": "99077024b2d1e9b10594e9abf1f3da786add7d91fe77fdeddc8646fc5f17cd90",
+          "legacyHash": "#theme=rivera&view=plans&route=atlas-rivera-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "ansel-adams",
+      "name": "安塞尔·亚当斯的国家公园摄影",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": false,
+      "action": "integrated",
+      "destinations": [
+        "american-west-art"
+      ],
+      "reason": "优胜美地的摄影场所加入美国西部地貌与艺术图，并补实际画廊及分区探访。",
+      "points": [
+        {
+          "id": "atlas-yosemite-valley",
+          "name": "优胜美地山谷",
+          "source": "https://www.nps.gov/yose/learn/historyculture/ansel-adams.htm",
+          "sha256": "5df99694dd60e14619cc79b74a11a022a71dc6dd0b6f6589a3e48e02cc64da4f",
+          "legacyHash": "#theme=ansel-adams&place=atlas-yosemite-valley",
+          "destinations": [
+            "american-west-art"
+          ]
+        },
+        {
+          "id": "atlas-glacier-point",
+          "name": "冰川点",
+          "source": "https://www.nps.gov/yose/planyourvisit/glacierpoint.htm",
+          "sha256": "c93cbdc39a13c6b748b8d10f2d1e83a56e1a0439a104ca7a514dfee76b5b67ca",
+          "legacyHash": "#theme=ansel-adams&place=atlas-glacier-point",
+          "destinations": [
+            "american-west-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-ansel-adams-places",
+          "name": "安塞尔·亚当斯的国家公园摄影 · 地点精选",
+          "sha256": "dd951c7350b8f700ac933b15a81389de7bcaae61b4a52c5c2e32f57b085d6b57",
+          "legacyHash": "#theme=ansel-adams&view=plans&route=atlas-ansel-adams-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "cartier-bresson",
+      "name": "布列松的城市摄影",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "cartier-bresson"
+      ],
+      "reason": "北京上海以摄影观察与年代相连；与江南绘画或中国遗产按城市重叠合并会丢掉摄影语境。",
+      "points": [
+        {
+          "id": "polo-beijing",
+          "name": "北京",
+          "source": "https://www.henricartierbresson.org/en/expositions/henri-cartier-bresson-chine-1948-1949-1958/",
+          "sha256": "0dae5022d8f479a128171345582ebdfd50cbae378d3e8de35765a0c2af168e68",
+          "legacyHash": "#theme=cartier-bresson&place=polo-beijing",
+          "destinations": [
+            "cartier-bresson"
+          ]
+        },
+        {
+          "id": "atlas-shanghai",
+          "name": "上海",
+          "source": "https://www.henricartierbresson.org/en/expositions/henri-cartier-bresson-chine-1948-1949-1958/",
+          "sha256": "367e80f34ab5e59d2c27c8d3adf092f8562614f1a17e19a611558613c823a342",
+          "legacyHash": "#theme=cartier-bresson&place=atlas-shanghai",
+          "destinations": [
+            "cartier-bresson"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-cartier-bresson-places",
+          "name": "布列松的城市摄影 · 地点精选",
+          "sha256": "51ae3ea5c728c067a399c9747b98c4848f1231818ba52c380de408315479bb1b",
+          "legacyHash": "#theme=cartier-bresson&view=plans&route=atlas-cartier-bresson-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "lee-miller",
+      "name": "李·米勒的摄影与旅居",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "lee-miller"
+      ],
+      "reason": "开罗与英国法利农舍是不同生活阶段；只有埃及点与马哈福兹同区，不足以覆盖摄影和英国内容。",
+      "points": [
+        {
+          "id": "atlas-cairo",
+          "name": "开罗",
+          "source": "https://www.farleyshouseandgallery.co.uk/event/lee-miller-petrie-egypt/",
+          "sha256": "79142f0be077089b6fb53dd50e67036391aee476720449315513fd1c835bc71a",
+          "legacyHash": "#theme=lee-miller&place=atlas-cairo",
+          "destinations": [
+            "lee-miller"
+          ]
+        },
+        {
+          "id": "atlas-farleys",
+          "name": "法利农舍",
+          "source": "https://www.farleyshouseandgallery.co.uk/",
+          "sha256": "e3a25e5376959e278bca8448926aaa3d83313e8fd1f584b7273d3cdb17d33a5e",
+          "legacyHash": "#theme=lee-miller&place=atlas-farleys",
+          "destinations": [
+            "lee-miller"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-lee-miller-places",
+          "name": "李·米勒的摄影与旅居 · 地点精选",
+          "sha256": "66552350819921c0d8a6ac39f6f71ab6c337171b10bbfab1c0df86a7330b6f6e",
+          "legacyHash": "#theme=lee-miller&view=plans&route=atlas-lee-miller-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "sugimoto",
+      "name": "杉本博司的观看与空间",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": false,
+      "action": "integrated",
+      "destinations": [
+        "setouchi-art"
+      ],
+      "reason": "直岛与江之浦均进入日本光与空间图，关东另设独立探访，不再遗漏小田原。",
+      "points": [
+        {
+          "id": "atlas-enoura",
+          "name": "江之浦测候所",
+          "source": "https://www.sugimotohiroshi.com/enoura-observatory",
+          "sha256": "39f24d34ab604dacb0ea46841112a0410341a25191c39337d564ca951d74ba5f",
+          "legacyHash": "#theme=sugimoto&place=atlas-enoura",
+          "destinations": [
+            "setouchi-art"
+          ]
+        },
+        {
+          "id": "atlas-sugimoto-glass",
+          "name": "直岛护王神社",
+          "source": "https://benesse-artsite.jp/en/art/arthouse.html",
+          "sha256": "fc4a460ab015844a725793636086f4b6a3d1d0739542795a2872e30945556c88",
+          "legacyHash": "#theme=sugimoto&place=atlas-sugimoto-glass",
+          "destinations": [
+            "setouchi-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-sugimoto-places",
+          "name": "杉本博司的观看与空间 · 地点精选",
+          "sha256": "8fff2b9df3e336b6dcf3301aed7df9a1a0c4c9c7df4cbc8ff1e420402c6162e3",
+          "legacyHash": "#theme=sugimoto&view=plans&route=atlas-sugimoto-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "christo-jeanneclaude",
+      "name": "克里斯托与珍妮-克劳德的临时作品",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "christo-jeanneclaude"
+      ],
+      "reason": "柏林和伊塞奥湖都是已结束的临时作品；与常设建筑主题合并易误导可访问性，保持独立。",
+      "points": [
+        {
+          "id": "atlas-reichstag",
+          "name": "柏林国会大厦",
+          "source": "https://christojeanneclaude.net/artworks/realized-projects/",
+          "sha256": "05e48b90f924e9e728ca26f569208dae6587cedba3bd548a61ef8c4cd9e20a16",
+          "legacyHash": "#theme=christo-jeanneclaude&place=atlas-reichstag",
+          "destinations": [
+            "christo-jeanneclaude"
+          ]
+        },
+        {
+          "id": "atlas-lake-iseo",
+          "name": "伊塞奥湖",
+          "source": "https://christojeanneclaude.net/artworks/realized-projects/",
+          "sha256": "0abfb7704d510418b8732dca08b783c5c3a40c046b436f836d13047df26629fa",
+          "legacyHash": "#theme=christo-jeanneclaude&place=atlas-lake-iseo",
+          "destinations": [
+            "christo-jeanneclaude"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-christo-jeanneclaude-places",
+          "name": "克里斯托与珍妮-克劳德的临时作品 · 地点精选",
+          "sha256": "783266bf1bb4b09a27b4e42382cee40c1cb7a73e05abef05da2fa853f2906e4c",
+          "legacyHash": "#theme=christo-jeanneclaude&view=plans&route=atlas-christo-jeanneclaude-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "turrell",
+      "name": "特瑞尔的光与天空",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": false,
+      "action": "integrated",
+      "destinations": [
+        "setouchi-art",
+        "american-west-art"
+      ],
+      "reason": "直岛由日本空间图承接、罗登火山口由美国西部图保留受限项目阅读；新增ASU天空空间。",
+      "points": [
+        {
+          "id": "atlas-minamidera",
+          "name": "直岛南寺",
+          "source": "https://benesse-artsite.jp/en/art/arthouse.html",
+          "sha256": "d0eaf15a0d1971f6d87084946bcfe7a6c5d1a2211694b923d779d1b3961f29bf",
+          "legacyHash": "#theme=turrell&place=atlas-minamidera",
+          "destinations": [
+            "setouchi-art"
+          ]
+        },
+        {
+          "id": "atlas-roden-crater",
+          "name": "罗登火山口",
+          "source": "https://rodencrater.com/",
+          "sha256": "f4996bc1ee28cd567cc8ad4fddfd6bd719f4dcac37b4265890decbb3cdd4f239",
+          "legacyHash": "#theme=turrell&place=atlas-roden-crater",
+          "destinations": [
+            "american-west-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-turrell-places",
+          "name": "特瑞尔的光与天空 · 地点精选",
+          "sha256": "f0a8a349df644ba350b1e7a6d2cba810d9d01db789e34f0a50634442b7d355c0",
+          "legacyHash": "#theme=turrell&view=plans&route=atlas-turrell-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "beethoven",
+      "name": "贝多芬的居住地图",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "波恩和海利根施塔特完整纳入音乐城市图；保留原两点网络但不重复默认入口。",
+      "points": [
+        {
+          "id": "atlas-beethoven-bonn",
+          "name": "波恩贝多芬故居",
+          "source": "https://internet.beethoven.de/pdf-sonderausstellung/Von-der-Bonngasse-ins-Schwarzspanierhaus-Brief-Guide.pdf",
+          "sha256": "1569b7263794064c4b2026d92f02a9ba9b5d3cfdb1802564b792a49d6cbb6e5b",
+          "legacyHash": "#theme=beethoven&place=atlas-beethoven-bonn",
+          "destinations": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "atlas-beethoven-heiligenstadt",
+          "name": "维也纳海利根施塔特",
+          "source": "https://www.wienmuseum.at/beethoven_museum",
+          "sha256": "4346a0e67a63d7d5bcde8a2717c116ef54ab9ccec2569518c94c9bda69f4adf6",
+          "legacyHash": "#theme=beethoven&place=atlas-beethoven-heiligenstadt",
+          "destinations": [
+            "european-music-cities"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-beethoven-places",
+          "name": "贝多芬的居住地图 · 地点精选",
+          "sha256": "795491f55ab6a9783dad51369b9c7d798e149811f6b85d1d9ec98532547c65a4",
+          "legacyHash": "#theme=beethoven&view=plans&route=atlas-beethoven-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "chopin",
+      "name": "肖邦与乔治·桑",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "chopin"
+      ],
+      "reason": "诺昂与瓦尔德莫萨由肖邦、乔治桑关系连结；中德音乐城市不覆盖法国与马略卡内容。",
+      "points": [
+        {
+          "id": "atlas-nohant",
+          "name": "诺昂乔治·桑故居",
+          "source": "https://www.chopin.pl/france.en.html",
+          "sha256": "fb468f919efb9c2590c098a4ffbb5f998cef563bbb5e531084dd7ba26f2a59ef",
+          "legacyHash": "#theme=chopin&place=atlas-nohant",
+          "destinations": [
+            "chopin"
+          ]
+        },
+        {
+          "id": "atlas-valldemossa",
+          "name": "瓦尔德莫萨",
+          "source": "https://www.chopin.pl/france.en.html",
+          "sha256": "a1b1a103c25afc25258450fd9f0d8cd968b7839f344d209ed8f21d780bb75cba",
+          "legacyHash": "#theme=chopin&place=atlas-valldemossa",
+          "destinations": [
+            "chopin"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-chopin-places",
+          "name": "肖邦与乔治·桑 · 地点精选",
+          "sha256": "b004d96f58065624a5288421959f86bf092c507260604a12a3dc3dc5fc2ee653",
+          "legacyHash": "#theme=chopin&view=plans&route=atlas-chopin-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "liszt",
+      "name": "李斯特的欧洲居所",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "赖丁和魏玛全部进入欧洲音乐城市；原方案与不同生活阶段保留，默认去重。",
+      "points": [
+        {
+          "id": "atlas-liszt-raiding",
+          "name": "雷丁李斯特出生地",
+          "source": "https://lisztmuseum.hu/liszt_houses/liszt-houses-124130",
+          "sha256": "4962a3a95c50d7d476dbd0de32430a7a422782f3865c7e9d970a1e54d69490e4",
+          "legacyHash": "#theme=liszt&place=atlas-liszt-raiding",
+          "destinations": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "atlas-liszt-weimar",
+          "name": "魏玛李斯特故居",
+          "source": "https://www.klassik-stiftung.de/en/liszt-house/",
+          "sha256": "9764090197643497f30c9484a20b370ebc05da0f653898d38806721e9b33054d",
+          "legacyHash": "#theme=liszt&place=atlas-liszt-weimar",
+          "destinations": [
+            "european-music-cities"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-liszt-places",
+          "name": "李斯特的欧洲居所 · 地点精选",
+          "sha256": "d118eb130a7b322f44ede11b338b4c01c5ea5f46ea75cb51f8ec57f6d5f8fb42",
+          "legacyHash": "#theme=liszt&view=plans&route=atlas-liszt-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "schumanns",
+      "name": "克拉拉与罗伯特·舒曼",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "莱比锡和杜塞尔多夫完整进入音乐城市，分别在同城方案和莱茵方案呈现；原方案保留。",
+      "points": [
+        {
+          "id": "atlas-schumann-leipzig",
+          "name": "莱比锡舒曼故居",
+          "source": "https://www.schumannhaus.de/en/",
+          "sha256": "b397fc43ec33fc00f6689878e8bf324efdeb6703aea1638e37500b354ef83d47",
+          "legacyHash": "#theme=schumanns&place=atlas-schumann-leipzig",
+          "destinations": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "atlas-dusseldorf",
+          "name": "杜塞尔多夫",
+          "source": "https://www.schumann-portal.de/duesseldorf.html",
+          "sha256": "b1a7ed7233dbc3b74fb960d543420ca95da2fa87f3e919ea264ac10fba3103d1",
+          "legacyHash": "#theme=schumanns&place=atlas-dusseldorf",
+          "destinations": [
+            "european-music-cities"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-schumanns-places",
+          "name": "克拉拉与罗伯特·舒曼 · 地点精选",
+          "sha256": "cc914ce90a1a0620fc9373b7baf642629ee4c40f741803db86d67c1815702888",
+          "legacyHash": "#theme=schumanns&view=plans&route=atlas-schumanns-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "wagner",
+      "name": "瓦格纳的琉森与拜罗伊特",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "琉森和拜罗伊特完整进入音乐城市；两地独立工作语境与原方案保留，默认入口去重。",
+      "points": [
+        {
+          "id": "atlas-tribschen",
+          "name": "特里布申瓦格纳博物馆",
+          "source": "https://www.richard-wagner-museum.ch/",
+          "sha256": "26c3842d19f8d8cc8617b89cafc5253acb2f15ad3678a6537c3a37f540c653b3",
+          "legacyHash": "#theme=wagner&place=atlas-tribschen",
+          "destinations": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "atlas-bayreuth-festspielhaus",
+          "name": "拜罗伊特节日剧院",
+          "source": "https://www.bayreuther-festspiele.de/en/",
+          "sha256": "1077c22b4a3ffcf578e5d910ac07f5aaa42820e2980f6f73cbe2281b88a10594",
+          "legacyHash": "#theme=wagner&place=atlas-bayreuth-festspielhaus",
+          "destinations": [
+            "european-music-cities"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-wagner-places",
+          "name": "瓦格纳的琉森与拜罗伊特 · 地点精选",
+          "sha256": "d3ecc11368f457d4ae5ee7b9757c77cce18b72dde1ab40ee52ecb42d2070e6a9",
+          "legacyHash": "#theme=wagner&view=plans&route=atlas-wagner-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "mahler",
+      "name": "马勒的作曲小屋",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "阿特湖、多比亚科和五日两基地方案都在音乐城市；不画两小屋间步行线，保留原网。",
+      "points": [
+        {
+          "id": "atlas-mahler-attersee",
+          "name": "阿特湖作曲小屋",
+          "source": "https://mahler-steinbach.at/",
+          "sha256": "6673cea7f682f71ab03dea8452218a221d37cd9a7559f6a78489303a5d38980d",
+          "legacyHash": "#theme=mahler&place=atlas-mahler-attersee",
+          "destinations": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "atlas-mahler-dobbiaco",
+          "name": "多比亚科作曲小屋",
+          "source": "https://www.gustav-mahler.it/",
+          "sha256": "0e3f8530912b30d784c3db33d36971229084217e53a92b10e497648abe440385",
+          "legacyHash": "#theme=mahler&place=atlas-mahler-dobbiaco",
+          "destinations": [
+            "european-music-cities"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-mahler-places",
+          "name": "马勒的作曲小屋 · 地点精选",
+          "sha256": "8f99685ac65c2bb72a10484fbdd2d4f40be3946b5e416edad927b6803c2579fe",
+          "legacyHash": "#theme=mahler&view=plans&route=atlas-mahler-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "dvorak",
+      "name": "德沃夏克的美国经历",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "dvorak"
+      ],
+      "reason": "音乐城市只承接布拉格，艾奥瓦斯皮尔维尔未覆盖；恢复独立，不能把美国经历藏在欧洲标题里。",
+      "points": [
+        {
+          "id": "atlas-dvorak-prague",
+          "name": "布拉格德沃夏克博物馆",
+          "source": "https://www.nm.cz/en/visit-us/buildings/antonin-dvorak-museum",
+          "sha256": "65e9ee90e0400fd1ead551d44c5870d3607d454b20a39fb172ad0324aedce524",
+          "legacyHash": "#theme=dvorak&place=atlas-dvorak-prague",
+          "destinations": [
+            "dvorak"
+          ]
+        },
+        {
+          "id": "atlas-spillville",
+          "name": "斯皮尔维尔",
+          "source": "https://www.dvoraknyc.org/bio",
+          "sha256": "73fda12bac681d71270067d9f0496248437c3b69a09d4245e88699d585180318",
+          "legacyHash": "#theme=dvorak&place=atlas-spillville",
+          "destinations": [
+            "dvorak"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-dvorak-places",
+          "name": "德沃夏克的美国经历 · 地点精选",
+          "sha256": "eba72577c984907ec9a1924cca6989ccce2cc81e8a8f95cf866777a41c7ab991",
+          "legacyHash": "#theme=dvorak&view=plans&route=atlas-dvorak-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "sibelius",
+      "name": "西贝柳斯的芬兰",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "sibelius"
+      ],
+      "reason": "艾诺拉与赫尔辛基形成芬兰地域叙事；与格里格卑尔根隔国隔海，不做北欧音乐大合并。",
+      "points": [
+        {
+          "id": "atlas-ainola",
+          "name": "艾诺拉",
+          "source": "https://www.ainola.fi/en/",
+          "sha256": "46df37467dd753b228a52dcf61d87fa0d933787951a77f598bb14d6b6dbca4b1",
+          "legacyHash": "#theme=sibelius&place=atlas-ainola",
+          "destinations": [
+            "sibelius"
+          ]
+        },
+        {
+          "id": "atlas-helsinki",
+          "name": "赫尔辛基",
+          "source": "https://sibelius.fi/en/",
+          "sha256": "5c1d7b581d69f908898ee1b5ea159e7b9adefcbe643ef919ec1d5bf735f48207",
+          "legacyHash": "#theme=sibelius&place=atlas-helsinki",
+          "destinations": [
+            "sibelius"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-sibelius-places",
+          "name": "西贝柳斯的芬兰 · 地点精选",
+          "sha256": "266caa3fe1ff135fd9135f20d50c6e2f9768623b5efd39db7d91b3202d579114",
+          "legacyHash": "#theme=sibelius&view=plans&route=atlas-sibelius-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "grieg",
+      "name": "格里格的卑尔根与峡湾",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "grieg"
+      ],
+      "reason": "特罗尔豪根与卑尔根是紧凑城市和峡湾故事；不与西贝柳斯芬兰硬串。",
+      "points": [
+        {
+          "id": "atlas-troldhaugen",
+          "name": "特罗尔豪根",
+          "source": "https://www.kodebergen.no/en/museums/edvard-grieg-museum-troldhaugen",
+          "sha256": "a3d266b3cad69b1c52279338e0d27b17245a2263488156d48d2973ff1152431d",
+          "legacyHash": "#theme=grieg&place=atlas-troldhaugen",
+          "destinations": [
+            "grieg"
+          ]
+        },
+        {
+          "id": "atlas-bergen",
+          "name": "卑尔根",
+          "source": "https://www.kodebergen.no/en/museums/troldhaugen",
+          "sha256": "9bc669f652b656809554ad26ecd382d00175756816a170e1db563415a98f52cb",
+          "legacyHash": "#theme=grieg&place=atlas-bergen",
+          "destinations": [
+            "grieg"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-grieg-places",
+          "name": "格里格的卑尔根与峡湾 · 地点精选",
+          "sha256": "a0a25713513e7d01ba76c556fd15ee53b631713991943d52e42a32366e3b3c39",
+          "legacyHash": "#theme=grieg&view=plans&route=atlas-grieg-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "mendelssohn",
+      "name": "门德尔松：莱比锡与苏格兰",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "mendelssohn"
+      ],
+      "reason": "莱比锡由音乐城市承接，荷里路德和斯塔法岛另属苏格兰旅行；恢复独立，不把两国写成单次路线。",
+      "points": [
+        {
+          "id": "atlas-holyrood",
+          "name": "荷里路德修道院",
+          "source": "https://www.mendelssohninscotland.com/",
+          "sha256": "13453842d773f1c42754ff602e4f570607d825f031b2fc7a49c396679ee95b5b",
+          "legacyHash": "#theme=mendelssohn&place=atlas-holyrood",
+          "destinations": [
+            "mendelssohn"
+          ]
+        },
+        {
+          "id": "atlas-staffa",
+          "name": "斯塔法岛与芬格尔洞",
+          "source": "https://www.nts.org.uk/visit/places/staffa",
+          "sha256": "a8893dbcf1c751cb49beee8ff3752dcaf19f806ddc4a2861d7cf2b529fc26050",
+          "legacyHash": "#theme=mendelssohn&place=atlas-staffa",
+          "destinations": [
+            "mendelssohn"
+          ]
+        },
+        {
+          "id": "atlas-mendelssohn-leipzig",
+          "name": "莱比锡门德尔松故居",
+          "source": "https://www.mendelssohn-stiftung.de/en/museum",
+          "sha256": "2c442d60b31d18d7c7a5abd1985e8718b945c838a215510cc871ff4977eae90a",
+          "legacyHash": "#theme=mendelssohn&place=atlas-mendelssohn-leipzig",
+          "destinations": [
+            "mendelssohn"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-mendelssohn-places",
+          "name": "门德尔松：莱比锡与苏格兰 · 地点精选",
+          "sha256": "432d5e28592aa8f685a134a9fabc2b2a354167a4da71a8d3152adf88c75c7677",
+          "legacyHash": "#theme=mendelssohn&view=plans&route=atlas-mendelssohn-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "puccini",
+      "name": "普契尼的托斯卡纳",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "puccini"
+      ],
+      "reason": "卢卡与托雷德尔拉戈构成托斯卡纳本地音乐关系；不是透纳和歌德的旅行目光，保持独立。",
+      "points": [
+        {
+          "id": "atlas-puccini-lucca",
+          "name": "卢卡普契尼故居",
+          "source": "https://www.puccinimuseum.org/en/",
+          "sha256": "0da71e2f06eb39c9e8202fe8c0de505d1d3986cfc29b50090dd319153a1573c6",
+          "legacyHash": "#theme=puccini&place=atlas-puccini-lucca",
+          "destinations": [
+            "puccini"
+          ]
+        },
+        {
+          "id": "atlas-torre-del-lago",
+          "name": "托雷德尔拉戈",
+          "source": "https://www.puccinimuseum.org/en/",
+          "sha256": "64b57f3fbc374502baa5b713955796de9500b46ed45fdf2057bd025ec46c32af",
+          "legacyHash": "#theme=puccini&place=atlas-torre-del-lago",
+          "destinations": [
+            "puccini"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-puccini-places",
+          "name": "普契尼的托斯卡纳 · 地点精选",
+          "sha256": "65f0e7158aa361b632d3673bde3e7f962409f4769bb0eb5a7bfda19db003c962",
+          "legacyHash": "#theme=puccini&view=plans&route=atlas-puccini-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "handel",
+      "name": "亨德尔的音乐城市",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "handel"
+      ],
+      "reason": "哈雷在音乐城市，伦敦故居不被现有地图覆盖；恢复独立，避免伦敦地域检索缺失。",
+      "points": [
+        {
+          "id": "atlas-handel-halle",
+          "name": "哈雷亨德尔故居",
+          "source": "https://haendelhaus.de/en/hh/handel-life-music",
+          "sha256": "1026b390631dac286537e6c2bb2edba25a5967589069545be826b1fc249564e8",
+          "legacyHash": "#theme=handel&place=atlas-handel-halle",
+          "destinations": [
+            "handel"
+          ]
+        },
+        {
+          "id": "atlas-handel-london",
+          "name": "伦敦亨德尔故居",
+          "source": "https://handelhendrix.org/",
+          "sha256": "daf75949773e1dae611bf902468340c0841cafab1cbef4d7a2ae5b5156024a34",
+          "legacyHash": "#theme=handel&place=atlas-handel-london",
+          "destinations": [
+            "handel"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-handel-places",
+          "name": "亨德尔的音乐城市 · 地点精选",
+          "sha256": "4cc9ec3e0d44517c74ce74a515251cb32416b369fb0c4d5e40bc6232010804ea",
+          "legacyHash": "#theme=handel&view=plans&route=atlas-handel-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "su-shi",
+      "name": "苏轼的任职与贬谪",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "su-shi"
+      ],
+      "reason": "黄州和儋州对应任职贬谪的文学叙事；江南诗路不覆盖两地，不因诗人同类合并。",
+      "points": [
+        {
+          "id": "atlas-huangzhou",
+          "name": "黄州",
+          "source": "https://ccdijl.gov.cn/ztjc/ljwh/202106/t20210629_8121411.html",
+          "sha256": "378ed7cb455c129ac4bcdd780915f505f9e76e84dd502cb44c973661c4c29bc8",
+          "legacyHash": "#theme=su-shi&place=atlas-huangzhou",
+          "destinations": [
+            "su-shi"
+          ]
+        },
+        {
+          "id": "atlas-danzhou",
+          "name": "儋州",
+          "source": "https://ccdijl.gov.cn/ztjc/ljwh/202106/t20210629_8121411.html",
+          "sha256": "d7c4b40976c56651c9cc0c07b8551e2eae591172fe72a883c06f855b4a6f0e51",
+          "legacyHash": "#theme=su-shi&place=atlas-danzhou",
+          "destinations": [
+            "su-shi"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-su-shi-places",
+          "name": "苏轼的任职与贬谪 · 地点精选",
+          "sha256": "ec216b9d11fcfdce742d437ebb94ee611025c1a8351fcdfc888f4e45baca1128",
+          "legacyHash": "#theme=su-shi&view=plans&route=atlas-su-shi-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "li-bai",
+      "name": "李白的山川游历",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "jiangnan-poetry"
+      ],
+      "reason": "敬亭山与桃花潭完整进入江南诗路，原山川关系、来源与方案保留并默认去重。",
+      "points": [
+        {
+          "id": "atlas-jingting",
+          "name": "敬亭山",
+          "source": "https://www.xinhuanet.com/photo/20250602/c9a5651a7b494c89b008330546030730/c.html",
+          "sha256": "5382ed5bed4d4387f2c9e9ac2c1d8032f0c0a227f049ddad7ed150210526304b",
+          "legacyHash": "#theme=li-bai&place=atlas-jingting",
+          "destinations": [
+            "jiangnan-poetry"
+          ]
+        },
+        {
+          "id": "atlas-taohuatan",
+          "name": "桃花潭",
+          "source": "https://www.xinhuanet.com/photo/20250602/c9a5651a7b494c89b008330546030730/c.html",
+          "sha256": "7528f9ffa419e631b4ddfb5621b445d439516809bdbfeae5550241701d6ff69c",
+          "legacyHash": "#theme=li-bai&place=atlas-taohuatan",
+          "destinations": [
+            "jiangnan-poetry"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-li-bai-places",
+          "name": "李白的山川游历 · 地点精选",
+          "sha256": "5ffe30bb21d738bbbe27424dbd504d5760d58779b3e60e95e977e8433a792fc3",
+          "legacyHash": "#theme=li-bai&view=plans&route=atlas-li-bai-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "du-fu",
+      "name": "杜甫的漂泊",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "du-fu"
+      ],
+      "reason": "成都草堂与岳阳楼属于漂泊的两地阅读；湘西沈从文和江南诗路都不完整覆盖。",
+      "points": [
+        {
+          "id": "atlas-dufu-cottage",
+          "name": "成都杜甫草堂",
+          "source": "https://www.cddfct.cn/",
+          "sha256": "a751ece499c5c7fcfa9505f70c0170ce4267670d6715a86772ce21f611fc8d25",
+          "legacyHash": "#theme=du-fu&place=atlas-dufu-cottage",
+          "destinations": [
+            "du-fu"
+          ]
+        },
+        {
+          "id": "atlas-yueyang-tower",
+          "name": "岳阳楼",
+          "source": "https://yueyang.gov.cn/",
+          "sha256": "dbca503fe8caa9667fb38279bb6b7cabed83e5fef610a6a9d76e6f9ebfcdd394",
+          "legacyHash": "#theme=du-fu&place=atlas-yueyang-tower",
+          "destinations": [
+            "du-fu"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-du-fu-places",
+          "name": "杜甫的漂泊 · 地点精选",
+          "sha256": "4ae56c3c75215f18d5d9a2a131b0ea782c331282b09985674560d7375e6546cd",
+          "legacyHash": "#theme=du-fu&view=plans&route=atlas-du-fu-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "wang-wei",
+      "name": "王维的山水与辋川",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "wang-wei"
+      ],
+      "reason": "蓝田辋川与终南山自成关中山水故事；不能与江南诗歌仅因山水题材合并。",
+      "points": [
+        {
+          "id": "atlas-lantian",
+          "name": "蓝田辋川区域",
+          "source": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_16a.pdf",
+          "sha256": "524538320293496d4cb30cd11c73166ca7bc7db4607bf410c7376d4f8595fd78",
+          "legacyHash": "#theme=wang-wei&place=atlas-lantian",
+          "destinations": [
+            "wang-wei"
+          ]
+        },
+        {
+          "id": "atlas-zhongnan",
+          "name": "终南山",
+          "source": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_16a.pdf",
+          "sha256": "bb4dc28c561e929fc9cd44a02e3d31610263cc82172e2412982dde6174491e52",
+          "legacyHash": "#theme=wang-wei&place=atlas-zhongnan",
+          "destinations": [
+            "wang-wei"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-wang-wei-places",
+          "name": "王维的山水与辋川 · 地点精选",
+          "sha256": "a473c499760cefe82162c9261ef8efd0eee7dab445a4cbddb6be9b55c8d36f9a",
+          "legacyHash": "#theme=wang-wei&view=plans&route=atlas-wang-wei-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "bai-juyi",
+      "name": "白居易的城市与山水",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "jiangnan-poetry"
+      ],
+      "reason": "杭州和苏州的作者上下文完整进入江南诗路；共享物理地点保留白居易专属阅读，默认去重。",
+      "points": [
+        {
+          "id": "silk-hangzhou",
+          "name": "杭州",
+          "source": "https://www.hzarchives.org.cn/info/4733",
+          "sha256": "c40eba31a2934b0971982e3e40368155091353075a012fbc3f8299a1b6350f3a",
+          "legacyHash": "#theme=bai-juyi&place=silk-hangzhou",
+          "destinations": [
+            "jiangnan-poetry"
+          ]
+        },
+        {
+          "id": "polo-suzhou",
+          "name": "苏州",
+          "source": "https://www.suzhou.gov.cn/",
+          "sha256": "b23b8cf55aa368545fd768be8c31a65a2ea049a7b8cbebbcec91d5602246f1d7",
+          "legacyHash": "#theme=bai-juyi&place=polo-suzhou",
+          "destinations": [
+            "jiangnan-poetry"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-bai-juyi-places",
+          "name": "白居易的城市与山水 · 地点精选",
+          "sha256": "316b003d3066d14fbd7a9c56bd3f1985a6385a55b72c7c00e7fd7a5359be9c8a",
+          "legacyHash": "#theme=bai-juyi&view=plans&route=atlas-bai-juyi-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "lu-you",
+      "name": "陆游《入蜀记》",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "lu-you"
+      ],
+      "reason": "绍兴在江南，奉节夔州未覆盖；恢复独立，不将《入蜀记》缩成江南起点。",
+      "points": [
+        {
+          "id": "atlas-shaoxing",
+          "name": "绍兴",
+          "source": "https://ctext.org/wiki.pl?if=gb&remap=gb&res=210837",
+          "sha256": "c34b2771a01c3f8a872eb59810ebbebef4f050fb659a99acb16205195c576297",
+          "legacyHash": "#theme=lu-you&place=atlas-shaoxing",
+          "destinations": [
+            "lu-you"
+          ]
+        },
+        {
+          "id": "atlas-fengjie",
+          "name": "奉节与夔州区域",
+          "source": "https://ctext.org/wiki.pl?if=gb&remap=gb&res=210837",
+          "sha256": "378261cf2070b65302fb25236d6d5d28dfd2a7ba78498238595e95ec7de6e7da",
+          "legacyHash": "#theme=lu-you&place=atlas-fengjie",
+          "destinations": [
+            "lu-you"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-lu-you-places",
+          "name": "陆游《入蜀记》 · 地点精选",
+          "sha256": "77588dd57ded130fe6e89a791e785f43408072fe24927b0c0d81d810a068d5fb",
+          "legacyHash": "#theme=lu-you&view=plans&route=atlas-lu-you-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "basho",
+      "name": "芭蕉《奥之细道》",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "basho"
+      ],
+      "reason": "松岛和山寺是《奥之细道》精选；夏目漱石与川端的地点、时代、文本均不同。",
+      "points": [
+        {
+          "id": "atlas-matsushima",
+          "name": "松岛",
+          "source": "https://www.mlit.go.jp/tagengo-db/en/R3-00494.html",
+          "sha256": "6e0f262b5df387716e8972c7d01d3d574096c3a86113c6d1b92080dcec01648a",
+          "legacyHash": "#theme=basho&place=atlas-matsushima",
+          "destinations": [
+            "basho"
+          ]
+        },
+        {
+          "id": "atlas-yamadera",
+          "name": "山寺立石寺",
+          "source": "https://www.mlit.go.jp/tagengo-db/en/R3-00494.html",
+          "sha256": "2cb8a08ab67d91c80a7c5763200b0e37713dc1e71b9447f8c53f9f1010cb79ba",
+          "legacyHash": "#theme=basho&place=atlas-yamadera",
+          "destinations": [
+            "basho"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-basho-places",
+          "name": "芭蕉《奥之细道》 · 地点精选",
+          "sha256": "a7449d5854caa546d9aa91e1fc8a511909fa39ec7f08ba61af80c0910619adf9",
+          "legacyHash": "#theme=basho&view=plans&route=atlas-basho-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "kawabata",
+      "name": "川端康成的文学地景",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "kawabata"
+      ],
+      "reason": "伊豆山地与越后汤泽对应独立文学地景；富士版画与芭蕉奥州不能代替小说语境。",
+      "points": [
+        {
+          "id": "atlas-amagi",
+          "name": "天城山与伊豆山地",
+          "source": "https://amagigoe.jp/bungaku/",
+          "sha256": "1f8dfaeb2cd97da3d5e71aed0f56eb551a185e44760fd4dbc314e9f440888046",
+          "legacyHash": "#theme=kawabata&place=atlas-amagi",
+          "destinations": [
+            "kawabata"
+          ]
+        },
+        {
+          "id": "atlas-echigo-yuzawa",
+          "name": "越后汤泽",
+          "source": "https://www.e-yuzawa.gr.jp/",
+          "sha256": "167a475b8ee8f97c51479da4aeefb528015bf4bfeee454e25ccb8dfc41943845",
+          "legacyHash": "#theme=kawabata&place=atlas-echigo-yuzawa",
+          "destinations": [
+            "kawabata"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-kawabata-places",
+          "name": "川端康成的文学地景 · 地点精选",
+          "sha256": "616f2d6510b32f47c29632b23cc6f763a1851d14f1ac149570c3481bd43c2f23",
+          "legacyHash": "#theme=kawabata&view=plans&route=atlas-kawabata-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "soseki",
+      "name": "夏目漱石的迁居与留学",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "soseki"
+      ],
+      "reason": "伦敦、松山、东京对应留学任教写作三个阶段；日本其他文学主题不能覆盖伦敦。",
+      "points": [
+        {
+          "id": "mozart-london",
+          "name": "伦敦",
+          "source": "https://www.edo-tokyo-museum.or.jp/s-exhibition/soseki/",
+          "sha256": "46a9ad8cbc1eb440c32602e822ae104906b526b63b4ca07ce8b546ff89c34391",
+          "legacyHash": "#theme=soseki&place=mozart-london",
+          "destinations": [
+            "soseki"
+          ]
+        },
+        {
+          "id": "atlas-matsuyama",
+          "name": "松山",
+          "source": "https://www.edo-tokyo-museum.or.jp/s-exhibition/soseki/",
+          "sha256": "2ef9ba6e3f946bc379ed8ed4231aa2f1771596265b731a916af44a65884634ef",
+          "legacyHash": "#theme=soseki&place=atlas-matsuyama",
+          "destinations": [
+            "soseki"
+          ]
+        },
+        {
+          "id": "atlas-soseki-sanbo",
+          "name": "东京 · 漱石山房纪念馆",
+          "source": "https://soseki-museum.jp/eng/soseki-natsume/soseki-and-shinjuku/",
+          "sha256": "d5e6bdd78ae6d78b9c9566c2e8e2e3c7fd9c5c6909fa64d38f919c22cd620a29",
+          "legacyHash": "#theme=soseki&place=atlas-soseki-sanbo",
+          "destinations": [
+            "soseki"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-soseki-places",
+          "name": "夏目漱石的迁居与留学 · 地点精选",
+          "sha256": "51ccff230a20ee1895c10fac6fa7744d0dbbcdb2f038499b9dc78a3f4768cc0e",
+          "legacyHash": "#theme=soseki&view=plans&route=atlas-soseki-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "goethe",
+      "name": "歌德《意大利游记》",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": false,
+      "afterVisible": false,
+      "action": "already-integrated",
+      "destinations": [
+        "italian-art-journeys"
+      ],
+      "reason": "罗马歌德之家与那不勒斯全部进入意大利艺术图，保留歌德资料与共享地点独立上下文。",
+      "points": [
+        {
+          "id": "atlas-naples",
+          "name": "那不勒斯",
+          "source": "https://casadigoethe.it/en/",
+          "sha256": "501c87440331528cd93471aa87b2429e6d2000da5125309f638ada70058496c8",
+          "legacyHash": "#theme=goethe&place=atlas-naples",
+          "destinations": [
+            "italian-art-journeys"
+          ]
+        },
+        {
+          "id": "atlas-goethe-rome",
+          "name": "罗马歌德之家",
+          "source": "https://casadigoethe.it/en/",
+          "sha256": "07cf9bfe3d6e2e425dbe4685a233a65483503c0ee792ce1f0f396dc2c8a7a322",
+          "legacyHash": "#theme=goethe&place=atlas-goethe-rome",
+          "destinations": [
+            "italian-art-journeys"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-goethe-places",
+          "name": "歌德《意大利游记》 · 地点精选",
+          "sha256": "efb9b48ce4d88506149d007e59467986766e8db9c2008da1a92267f84dd856b4",
+          "legacyHash": "#theme=goethe&view=plans&route=atlas-goethe-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "hugo",
+      "name": "雨果的巴黎与流亡",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "hugo"
+      ],
+      "reason": "巴黎和根西欧特维尔故居有流亡叙事；巴黎地图不能完整覆盖海峡群岛，不按作家分类硬并。",
+      "points": [
+        {
+          "id": "atlas-hugo-paris",
+          "name": "巴黎雨果故居",
+          "source": "https://www.maisonsvictorhugo.paris.fr/en/paris",
+          "sha256": "ebc0470a2f4cf286db9ffda0a5ee56081bdb91ec8b2eb66c368ea28a9d38f235",
+          "legacyHash": "#theme=hugo&place=atlas-hugo-paris",
+          "destinations": [
+            "hugo"
+          ]
+        },
+        {
+          "id": "atlas-hauteville",
+          "name": "欧特维尔故居",
+          "source": "https://www.maisonsvictorhugo.paris.fr/en/guernesey/house",
+          "sha256": "72bc77443cda8260a63ffcd0fc08231590ff35d1c71cb2317bd82db363154351",
+          "legacyHash": "#theme=hugo&place=atlas-hauteville",
+          "destinations": [
+            "hugo"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-hugo-places",
+          "name": "雨果的巴黎与流亡 · 地点精选",
+          "sha256": "f56c4ce6e071f2b2c3bd7ce72d7059cce23e537eee1345dfaafda63c76e70976",
+          "legacyHash": "#theme=hugo&view=plans&route=atlas-hugo-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "byron",
+      "name": "拜伦的湖畔与希腊",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "byron"
+      ],
+      "reason": "希永和米索隆吉是瑞士与希腊两种经历；现有音乐湖畔或英国文学主题无法完整承接。",
+      "points": [
+        {
+          "id": "atlas-chillon",
+          "name": "希永城堡",
+          "source": "https://www.chillon.ch/en/exposition/1816-2016-byron-is-back/",
+          "sha256": "dbfd89bf0363d90164e1123259141ae4ad41adffebefdf859aea3a4d91765207",
+          "legacyHash": "#theme=byron&place=atlas-chillon",
+          "destinations": [
+            "byron"
+          ]
+        },
+        {
+          "id": "atlas-missolonghi",
+          "name": "米索隆吉",
+          "source": "https://www.byronsociety.org/",
+          "sha256": "f87bef5969ba0f1fee49f7d296900a1f1e48c52f766211213c66f33daeb2bb83",
+          "legacyHash": "#theme=byron&place=atlas-missolonghi",
+          "destinations": [
+            "byron"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-byron-places",
+          "name": "拜伦的湖畔与希腊 · 地点精选",
+          "sha256": "b89e86ea4782db2b77aa37982cd09a4a1c2a62a33840949c89f521adab96b5a8",
+          "legacyHash": "#theme=byron&view=plans&route=atlas-byron-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "wordsworth",
+      "name": "华兹华斯的湖区",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "wordsworth"
+      ],
+      "reason": "鸽舍和莱德尔山庄构成英国湖区紧凑故事；不与康斯太勃尔萨福克乡野跨区硬并。",
+      "points": [
+        {
+          "id": "atlas-dove-cottage",
+          "name": "鸽舍",
+          "source": "https://wordsworth.org.uk/",
+          "sha256": "31bb77cf3a0db514cfcd7886c647a866d5f61632545aa79be40865dbc7dde8c7",
+          "legacyHash": "#theme=wordsworth&place=atlas-dove-cottage",
+          "destinations": [
+            "wordsworth"
+          ]
+        },
+        {
+          "id": "atlas-rydal-mount",
+          "name": "莱德尔山庄",
+          "source": "https://www.rydalmount.co.uk/",
+          "sha256": "3187860d14b22a676618ed9162b16efce6248279badb0d97f1c5b03e01b1253c",
+          "legacyHash": "#theme=wordsworth&place=atlas-rydal-mount",
+          "destinations": [
+            "wordsworth"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-wordsworth-places",
+          "name": "华兹华斯的湖区 · 地点精选",
+          "sha256": "92b3ecdbff66d8c1103daab5a8e15c32d92d80654900f576f761f1d06a2ac4f7",
+          "legacyHash": "#theme=wordsworth&view=plans&route=atlas-wordsworth-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "dickens",
+      "name": "狄更斯的英国",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "dickens"
+      ],
+      "reason": "伦敦与布罗德斯泰斯对应英国城市和海岸生活；与奥斯汀西南英格兰无完整区域承接。",
+      "points": [
+        {
+          "id": "atlas-dickens-london",
+          "name": "伦敦狄更斯博物馆",
+          "source": "https://dickensmuseum.com/",
+          "sha256": "149a19fde16988b09e65cb61995dc48213dd6edb9508a9b2ad2789861c5e6dcd",
+          "legacyHash": "#theme=dickens&place=atlas-dickens-london",
+          "destinations": [
+            "dickens"
+          ]
+        },
+        {
+          "id": "atlas-dickens-broadstairs",
+          "name": "布罗德斯泰斯",
+          "source": "https://dickensmuseum.com/pages/links",
+          "sha256": "fe7b423700c9c8769be3ef1ba191550496eb23c491d7296b51f961118bcf5391",
+          "legacyHash": "#theme=dickens&place=atlas-dickens-broadstairs",
+          "destinations": [
+            "dickens"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-dickens-places",
+          "name": "狄更斯的英国 · 地点精选",
+          "sha256": "4ce320843733be6c9a2090ebec6304bcb9730966142b83c61c419aa70c43bf77",
+          "legacyHash": "#theme=dickens&view=plans&route=atlas-dickens-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "kafka",
+      "name": "卡夫卡的城市与生活",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "kafka"
+      ],
+      "reason": "布拉格与基尔灵对应生活与晚年；乔伊斯的都柏林和的里雅斯特不是同一城市网络。",
+      "points": [
+        {
+          "id": "mozart-prague",
+          "name": "布拉格",
+          "source": "https://www.goethe.de/prj/zei/en/art/25237193.html",
+          "sha256": "56fc317038f8a20d241d1e5706337dd6e7bed94c3f016aa3fa68b96aaddf0965",
+          "legacyHash": "#theme=kafka&place=mozart-prague",
+          "destinations": [
+            "kafka"
+          ]
+        },
+        {
+          "id": "atlas-kierling",
+          "name": "克洛斯特新堡基尔灵",
+          "source": "https://www.kafka-gesellschaft.at/",
+          "sha256": "e3166ec540b4b112ab90d7a9e758a2397af1e10d851f8d0359d7a41fe8f3df73",
+          "legacyHash": "#theme=kafka&place=atlas-kierling",
+          "destinations": [
+            "kafka"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-kafka-places",
+          "name": "卡夫卡的城市与生活 · 地点精选",
+          "sha256": "e37a7ba61ad0963ee279d798c88ead1e889b3d7faa035ec9cda8dc0b21ce7328",
+          "legacyHash": "#theme=kafka&view=plans&route=atlas-kafka-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "joyce",
+      "name": "乔伊斯的城市网络",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "joyce"
+      ],
+      "reason": "都柏林与的里雅斯特是个人写作迁居关系；不与卡夫卡仅凭现代文学身份合并。",
+      "points": [
+        {
+          "id": "atlas-joyce-dublin",
+          "name": "都柏林乔伊斯中心",
+          "source": "https://jamesjoyce.ie/james-joyce/",
+          "sha256": "314d4f26ebf79d2ac70382fff9b828c943fd7b1cff0582f6d81747d4f8405633",
+          "legacyHash": "#theme=joyce&place=atlas-joyce-dublin",
+          "destinations": [
+            "joyce"
+          ]
+        },
+        {
+          "id": "atlas-trieste",
+          "name": "的里雅斯特",
+          "source": "https://jamesjoyce.ie/james-joyce/",
+          "sha256": "7c5d61847296cca74cc019504c0f844084f2abb3a9a614bb59472c5cfb8d8167",
+          "legacyHash": "#theme=joyce&place=atlas-trieste",
+          "destinations": [
+            "joyce"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-joyce-places",
+          "name": "乔伊斯的城市网络 · 地点精选",
+          "sha256": "3e3bf640ae3929660be6a574c53ba4f04d88924c46d153a43e48eb4c06580385",
+          "legacyHash": "#theme=joyce&view=plans&route=atlas-joyce-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "proust",
+      "name": "普鲁斯特的记忆地景",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "proust"
+      ],
+      "reason": "伊利耶贡布雷和卡堡构成记忆地景；巴黎艺术地图无法承接这两个地方。",
+      "points": [
+        {
+          "id": "atlas-illiers",
+          "name": "伊利耶-贡布雷",
+          "source": "https://illiers-combray.com/marcel-proust-et-illiers-combray/musee-marcel-proust-maison-de-tante-leonie/",
+          "sha256": "a8223bfec1fd480b8905fbb3bd0eebf103ad9572828b776a7f510639573d9f79",
+          "legacyHash": "#theme=proust&place=atlas-illiers",
+          "destinations": [
+            "proust"
+          ]
+        },
+        {
+          "id": "atlas-cabourg",
+          "name": "卡堡",
+          "source": "https://www.cabourg-tourisme.fr/",
+          "sha256": "d96a637437031483c19f94c6a85b3696f12ba1c17e3ac137902c9168f35349c2",
+          "legacyHash": "#theme=proust&place=atlas-cabourg",
+          "destinations": [
+            "proust"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-proust-places",
+          "name": "普鲁斯特的记忆地景 · 地点精选",
+          "sha256": "ee53efb5950d439316119520ee21d55f4a10e79091d1a517409b1da824a0ce9d",
+          "legacyHash": "#theme=proust&view=plans&route=atlas-proust-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "hemingway",
+      "name": "海明威的跨国生活",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "hemingway"
+      ],
+      "reason": "基韦斯特与古巴瞭望庄园是不同居住阶段；不并入美国公路而隐去古巴。",
+      "points": [
+        {
+          "id": "atlas-hemingway-keywest",
+          "name": "基韦斯特海明威故居",
+          "source": "https://www.hemingwayhome.com/his-life",
+          "sha256": "9cd1a41aeb9a161e415c3b4308f2e4fc6d5e6e9f7ef728648b40e5257b5915b7",
+          "legacyHash": "#theme=hemingway&place=atlas-hemingway-keywest",
+          "destinations": [
+            "hemingway"
+          ]
+        },
+        {
+          "id": "atlas-finca-vigia",
+          "name": "瞭望庄园",
+          "source": "https://www.hemingwayfinca.org/",
+          "sha256": "585eab26601e07e3cbef3f7e95cfe23977f60a05be36f7d06cf69a1bc317ff3b",
+          "legacyHash": "#theme=hemingway&place=atlas-finca-vigia",
+          "destinations": [
+            "hemingway"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-hemingway-places",
+          "name": "海明威的跨国生活 · 地点精选",
+          "sha256": "764b5d434cbf21ce400372fddec6d60c1154af7ad2194b9e3da296eca163abd3",
+          "legacyHash": "#theme=hemingway&view=plans&route=atlas-hemingway-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "steinbeck",
+      "name": "斯坦贝克的加州与公路",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "steinbeck"
+      ],
+      "reason": "萨利纳斯与蒙特雷是加州地方叙事；北美公路地图不具备文学场景阅读，不按美国标签并入。",
+      "points": [
+        {
+          "id": "atlas-steinbeck-salinas",
+          "name": "萨利纳斯国家斯坦贝克中心",
+          "source": "https://steinbeck.org/",
+          "sha256": "ec7e8103d7da886c830979dfef71c9c01a05114bdc6322dfb1c52db803a57de3",
+          "legacyHash": "#theme=steinbeck&place=atlas-steinbeck-salinas",
+          "destinations": [
+            "steinbeck"
+          ]
+        },
+        {
+          "id": "atlas-cannery-row",
+          "name": "蒙特雷罐头厂街",
+          "source": "https://steinbeck.org/virtual-members/diary-of-a-book-travels-with-charley-part-one/",
+          "sha256": "c8231cd69861add17f1bf40cf54be61e419c647010ccbc3bd554fc2f933d94de",
+          "legacyHash": "#theme=steinbeck&place=atlas-cannery-row",
+          "destinations": [
+            "steinbeck"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-steinbeck-places",
+          "name": "斯坦贝克的加州与公路 · 地点精选",
+          "sha256": "46335b7dcefc078e04d54353a42a380c87263aca438a6ccb3faf8764118f3be8",
+          "legacyHash": "#theme=steinbeck&view=plans&route=atlas-steinbeck-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "mark-twain",
+      "name": "马克·吐温的密西西比河",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "mark-twain"
+      ],
+      "reason": "汉尼拔与哈特福德是童年与写作居所；66号公路不经过并承接这两点故事，独立保留。",
+      "points": [
+        {
+          "id": "atlas-hannibal",
+          "name": "汉尼拔马克·吐温童年故居",
+          "source": "https://marktwainmuseum.org/exhibits-programs-events/exhibits/",
+          "sha256": "47867b5448f78d24390f90ceeae9bfbd6a55791542d21abb9be36a81a1fd271a",
+          "legacyHash": "#theme=mark-twain&place=atlas-hannibal",
+          "destinations": [
+            "mark-twain"
+          ]
+        },
+        {
+          "id": "atlas-twain-hartford",
+          "name": "哈特福德马克·吐温故居",
+          "source": "https://marktwainhouse.org/",
+          "sha256": "f3fe453d7764e0ac68329c7a67f429def8863b74843f27e00ac5030739803e3d",
+          "legacyHash": "#theme=mark-twain&place=atlas-twain-hartford",
+          "destinations": [
+            "mark-twain"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-mark-twain-places",
+          "name": "马克·吐温的密西西比河 · 地点精选",
+          "sha256": "538e3b4b830261aed183530959b4cf02c9465ea53b7fe2c9dfd575f079549a2e",
+          "legacyHash": "#theme=mark-twain&view=plans&route=atlas-mark-twain-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "neruda",
+      "name": "聂鲁达的三座房子",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "neruda"
+      ],
+      "reason": "圣地亚哥、瓦尔帕莱索和黑岛三居构成智利住宅文学故事；泛美公路不能替代家屋阅读。",
+      "points": [
+        {
+          "id": "atlas-la-chascona",
+          "name": "圣地亚哥拉查斯科纳",
+          "source": "https://fundacionneruda.org/en/",
+          "sha256": "5e0b5777b993fc70ecac5c091661cff24e420ebe6d85913831bc6d7517919c24",
+          "legacyHash": "#theme=neruda&place=atlas-la-chascona",
+          "destinations": [
+            "neruda"
+          ]
+        },
+        {
+          "id": "atlas-la-sebastiana",
+          "name": "瓦尔帕莱索拉塞巴斯蒂亚纳",
+          "source": "https://fundacionneruda.org/en/",
+          "sha256": "88fccc4f6bb583618ddfa3b5921d16503231ee629fe3ad982908a702b8bc0f1a",
+          "legacyHash": "#theme=neruda&place=atlas-la-sebastiana",
+          "destinations": [
+            "neruda"
+          ]
+        },
+        {
+          "id": "atlas-isla-negra",
+          "name": "黑岛故居",
+          "source": "https://fundacionneruda.org/en/",
+          "sha256": "d0e9480bf71e465806294ddb49a18342940c43f68edc3ae62f1bb7a9c9ce39f4",
+          "legacyHash": "#theme=neruda&place=atlas-isla-negra",
+          "destinations": [
+            "neruda"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-neruda-places",
+          "name": "聂鲁达的三座房子 · 地点精选",
+          "sha256": "4d685b08b0763d39331ef9382593d076d1dc6e3a69392370ed1186e95be3b799",
+          "legacyHash": "#theme=neruda&view=plans&route=atlas-neruda-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "marquez",
+      "name": "马尔克斯的加勒比",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "marquez"
+      ],
+      "reason": "阿拉卡塔卡与卡塔赫纳有哥伦比亚加勒比地方联系；不与智利聂鲁达泛称拉美文学合并。",
+      "points": [
+        {
+          "id": "atlas-aracataca",
+          "name": "阿拉卡塔卡",
+          "source": "https://colombia.travel/en/blog/explore-route-garcia-marquez-in-colombian-caribbean",
+          "sha256": "e529a32a879a33a5c173401348522907b78bf5eb0f9aadac7e1be60bb7c8a1f7",
+          "legacyHash": "#theme=marquez&place=atlas-aracataca",
+          "destinations": [
+            "marquez"
+          ]
+        },
+        {
+          "id": "atlas-cartagena",
+          "name": "卡塔赫纳",
+          "source": "https://colombia.travel/en/blog/explore-route-garcia-marquez-in-colombian-caribbean",
+          "sha256": "6edc9d46b12dfaf1c67d2af70d53de15f8a05987fdb76eac68bec23549622313",
+          "legacyHash": "#theme=marquez&place=atlas-cartagena",
+          "destinations": [
+            "marquez"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-marquez-places",
+          "name": "马尔克斯的加勒比 · 地点精选",
+          "sha256": "5451c0aeb4cefd9a0761f8ad845fdb48e9bf4cfad6ba7acf04a303b0c1e06bdc",
+          "legacyHash": "#theme=marquez&view=plans&route=atlas-marquez-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "tagore",
+      "name": "泰戈尔的孟加拉世界",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "tagore"
+      ],
+      "reason": "桑地尼克坦与乔拉桑科是孟加拉教育和生活空间；佛教圣地或印度遗产只同国而非同叙事。",
+      "points": [
+        {
+          "id": "wh-1375",
+          "name": "桑地尼克坦",
+          "source": "https://whc.unesco.org/en/list/1375/",
+          "sha256": "f42c2ccb2538ef67b2747a928895b3ef32e3b8bcfd40f13ebd76508ae740cb06",
+          "legacyHash": "#theme=tagore&place=wh-1375",
+          "destinations": [
+            "tagore"
+          ]
+        },
+        {
+          "id": "atlas-jorasanko",
+          "name": "加尔各答乔拉桑科故居",
+          "source": "https://rbu.ac.in/",
+          "sha256": "08c137d9afa6378419f740306fc9623d30f8f7641f4afe44cb6201d71f5c8ef0",
+          "legacyHash": "#theme=tagore&place=atlas-jorasanko",
+          "destinations": [
+            "tagore"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-tagore-places",
+          "name": "泰戈尔的孟加拉世界 · 地点精选",
+          "sha256": "f5088b3c7bb6c8653cafd861d516818304af8159f29e23b2514a701afbc978ca",
+          "legacyHash": "#theme=tagore&view=plans&route=atlas-tagore-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "mahfouz",
+      "name": "马哈福兹的开罗",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "mahfouz"
+      ],
+      "reason": "老开罗与纪念馆构成可分区探索的同城文学主题；李米勒仅有一个开罗点且另一点在英国。",
+      "points": [
+        {
+          "id": "atlas-khan-khalili",
+          "name": "汗哈利利与老开罗",
+          "source": "https://www.mahfouzmuseum.gov.eg/",
+          "sha256": "5dc1ed0f649fd4826afcb2e40c7dfe8634f688f08c36e478a4006d5401b1c0ee",
+          "legacyHash": "#theme=mahfouz&place=atlas-khan-khalili",
+          "destinations": [
+            "mahfouz"
+          ]
+        },
+        {
+          "id": "atlas-mahfouz-museum",
+          "name": "马哈福兹博物馆",
+          "source": "https://www.mahfouzmuseum.gov.eg/",
+          "sha256": "9974b0f3787af3a8f8ff28b674cdc5f3f51775c3470e2e65dfc778bc8ef40940",
+          "legacyHash": "#theme=mahfouz&place=atlas-mahfouz-museum",
+          "destinations": [
+            "mahfouz"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "atlas-mahfouz-places",
+          "name": "马哈福兹的开罗 · 地点精选",
+          "sha256": "feca59201669d5032a0c96403ce0855c59684bb7c0b8a0dd1563d13b153c0911",
+          "legacyHash": "#theme=mahfouz&view=plans&route=atlas-mahfouz-places"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "barcelona-art",
+      "name": "巴塞罗那：高迪建筑与毕加索的城市",
+      "beforeItineraries": 1,
+      "afterItineraries": 5,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "expanded",
+      "destinations": [
+        "barcelona-art"
+      ],
+      "reason": "由单条城市方案扩为西班牙分区艺术图；保留巴塞罗那原方案，新增住宅、达利海岸与索罗亚馆藏章节。",
+      "points": [
+        {
+          "id": "atlas-park-guell",
+          "name": "古埃尔公园",
+          "source": "https://whc.unesco.org/en/list/320/",
+          "sha256": "6e9915566891f7b9684a8b9be0b4e45dc976423e9cea72bd6b4152c1c73d1108",
+          "legacyHash": "#theme=barcelona-art&place=atlas-park-guell",
+          "destinations": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-casa-batllo",
+          "name": "巴特罗之家",
+          "source": "https://whc.unesco.org/en/list/320/",
+          "sha256": "44fe6166e0dbd92db08a0ebdb5dfd006f53f5072de2204acf84767d22fe1f2c4",
+          "legacyHash": "#theme=barcelona-art&place=atlas-casa-batllo",
+          "destinations": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-sagrada-familia",
+          "name": "圣家堂",
+          "source": "https://whc.unesco.org/en/list/320/",
+          "sha256": "8fa095973480bfe3d7e2cef50bdad7445d0d965e28787bdb231a9e00ac78171d",
+          "legacyHash": "#theme=barcelona-art&place=atlas-sagrada-familia",
+          "destinations": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-picasso-barcelona",
+          "name": "巴塞罗那毕加索博物馆",
+          "source": "https://museupicassobcn.cat/en/picasso-and-barcelona/picasso-connection-with-barcelona",
+          "sha256": "13ff998a97c969ccf96e7870fc7504ae291d373beb6e5267bc53de1c5fa45d9c",
+          "legacyHash": "#theme=barcelona-art&place=atlas-picasso-barcelona",
+          "destinations": [
+            "barcelona-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "barcelona-modern",
+          "name": "巴塞罗那 · 老城到现代主义街区",
+          "sha256": "cb8cea93ce87ba4b5ca2468c66fc83bb22f34a4eafee162d4075fdc60641ef72",
+          "legacyHash": "#theme=barcelona-art&view=plans&route=barcelona-modern"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "detroit-art",
+      "name": "底特律：弗里达、里维拉与工业城市",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "detroit-art"
+      ],
+      "reason": "现有同城艺术图保留，后续补充分区现场资料。",
+      "points": [
+        {
+          "id": "atlas-detroit",
+          "name": "底特律",
+          "source": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2022/08/Biografias-Frida-Kahlo-ingles.pdf",
+          "sha256": "02819bda003dc0882e90b7e2a62afc49b38285f148fb15f3e48d27b3bbb043f8",
+          "legacyHash": "#theme=detroit-art&place=atlas-detroit",
+          "destinations": [
+            "detroit-art"
+          ]
+        },
+        {
+          "id": "atlas-dia-detroit",
+          "name": "底特律美术馆",
+          "source": "https://dia.org/collection/detroit-industry-south-wall/58539",
+          "sha256": "cc59369669cb2ff34dccb922ab3eb0dc2b9552e0ae151aa1e26dae65d1b418fe",
+          "legacyHash": "#theme=detroit-art&place=atlas-dia-detroit",
+          "destinations": [
+            "detroit-art"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "detroit-industry-art",
+          "name": "底特律 · 城市背景与工业壁画",
+          "sha256": "22be3f91fc562da8648d36f91b5b784fea4af34bc0d6d96640e5746f5aeab5b1",
+          "legacyHash": "#theme=detroit-art&view=plans&route=detroit-industry-art"
+        }
+      ],
+      "artworks": []
+    },
+    {
+      "id": "italian-art-journeys",
+      "name": "意大利：透纳与歌德的旅行目光",
+      "beforeItineraries": 1,
+      "afterItineraries": 1,
+      "beforeVisible": true,
+      "afterVisible": true,
+      "action": "retained",
+      "destinations": [
+        "italian-art-journeys"
+      ],
+      "reason": "威尼斯、罗马、那不勒斯的透纳与歌德目光可对读，年代和作者上下文分开；不再并入托斯卡纳音乐。",
+      "points": [
+        {
+          "id": "silk-venice",
+          "name": "威尼斯",
+          "source": "https://www.tate.org.uk/art/research-publications/jmw-turner/1819-1829-italy-and-after-r1130131",
+          "sha256": "925ce1c786fb4a60fe6596e7bb4b618bcf0976675629d74e4a49cf9117c07eb7",
+          "legacyHash": "#theme=italian-art-journeys&place=silk-venice",
+          "destinations": [
+            "italian-art-journeys"
+          ]
+        },
+        {
+          "id": "francigena-rome",
+          "name": "罗马",
+          "source": "https://www.tate.org.uk/art/research-publications/jmw-turner/1819-1829-italy-and-after-r1130131",
+          "sha256": "d52c4b0ca0ffd7b4fc57432167a70dcc23d5a908891de9c5cb3f5509e6eb5fa3",
+          "legacyHash": "#theme=italian-art-journeys&place=francigena-rome",
+          "destinations": [
+            "italian-art-journeys"
+          ]
+        },
+        {
+          "id": "atlas-naples",
+          "name": "那不勒斯",
+          "source": "https://www.tate.org.uk/art/research-publications/jmw-turner/1819-1829-italy-and-after-r1130131",
+          "sha256": "3d550cbc6674d0c0ded48a3efe64e1eb23c9bde53d51183ad63035c7bf9f8630",
+          "legacyHash": "#theme=italian-art-journeys&place=atlas-naples",
+          "destinations": [
+            "italian-art-journeys"
+          ]
+        },
+        {
+          "id": "atlas-goethe-rome",
+          "name": "罗马歌德之家",
+          "source": "https://casadigoethe.it/en/",
+          "sha256": "2f192af62c716bab509ccb404c638cf3ad30c781ed37cad712439fdac9edeb2f",
+          "legacyHash": "#theme=italian-art-journeys&place=atlas-goethe-rome",
+          "destinations": [
+            "italian-art-journeys"
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "italy-rome-naples",
+          "name": "罗马与那不勒斯 · 文字与风景",
+          "sha256": "c8cf1f7060673c73c728418b1f6a801b63672dc0be391f85780f7703fc9b9298",
+          "legacyHash": "#theme=italian-art-journeys&view=plans&route=italy-rome-naples"
+        }
+      ],
+      "artworks": []
+    }
+  ],
+  "newPlaces": [
+    {
+      "id": "regional-okeeffe-santa-fe",
+      "name": "圣菲 · 乔治亚·奥姬芙博物馆",
+      "source": "https://www.okeeffemuseum.org/visit/",
+      "wiki": "Georgia O'Keeffe Museum"
+    },
+    {
+      "id": "regional-ansel-gallery",
+      "name": "优胜美地村 · 安塞尔·亚当斯画廊",
+      "source": "https://www.anseladams.com/pages/yosemite-about-the-gallery",
+      "wiki": "Ansel Adams Gallery"
+    },
+    {
+      "id": "regional-asu-skyspace",
+      "name": "坦佩 · Air Apparent 天空空间",
+      "source": "https://cfo.asu.edu/skyspace",
+      "wiki": null
+    },
+    {
+      "id": "regional-moerenuma",
+      "name": "札幌 · 莫埃来沼公园",
+      "source": "https://moerenumapark.jp/english/",
+      "wiki": "Moerenuma Park"
+    },
+    {
+      "id": "regional-kanazawa-sky",
+      "name": "金泽21世纪美术馆 · Blue Planet Sky",
+      "source": "https://www.kanazawa21.jp/data_list.php?d=4&g=30&lng=e",
+      "wiki": "21st Century Museum of Contemporary Art, Kanazawa"
+    },
+    {
+      "id": "regional-suzuki-museum",
+      "name": "金泽 · 铃木大拙馆",
+      "source": "https://www.kanazawa-museum.jp/daisetz/english/about.html",
+      "wiki": "D. T. Suzuki Museum"
+    },
+    {
+      "id": "regional-casa-mila",
+      "name": "巴塞罗那 · 米拉之家",
+      "source": "https://www.lapedrera.com/en/",
+      "wiki": "Casa Milà"
+    },
+    {
+      "id": "regional-cap-creus",
+      "name": "克雷乌斯角 · 海岬与岩岸",
+      "source": "https://www.spain.info/en/nature/cap-creus-natural-park/",
+      "wiki": "Cap de Creus"
+    },
+    {
+      "id": "regional-valencia-fine-arts",
+      "name": "瓦伦西亚美术馆",
+      "source": "https://museobellasartesvalencia.gva.es/documents/169021322/169031716/Sorolla%2Band%2BHis%2BTime_Exhibition%2Bbrochure/854f6108-bb8a-470c-a197-c8cfd714bfdd",
+      "wiki": "Museo de Bellas Artes de Valencia"
+    },
+    {
+      "id": "regional-prado",
+      "name": "马德里 · 普拉多博物馆",
+      "source": "https://www.museodelprado.es/coleccion/obra-de-arte/chicos-en-la-playa/edd7a202-c069-49f1-a3f4-eacf9b4022c2",
+      "wiki": "Museo del Prado"
+    },
+    {
+      "id": "regional-met-cloisters",
+      "name": "纽约 · 大都会修道院分馆",
+      "source": "https://www.metmuseum.org/plan-your-visit/met-cloisters",
+      "wiki": "The Cloisters"
+    }
+  ],
+  "coverage": [
+    {
+      "id": "vangogh",
+      "points": [
+        {
+          "id": "impressionism-nga",
+          "maps": [
+            "east-coast-art"
+          ]
+        },
+        {
+          "id": "impressionism-met",
+          "maps": [
+            "east-coast-art"
+          ]
+        },
+        {
+          "id": "vangogh-paris",
+          "maps": [
+            "paris-sculpture"
+          ]
+        },
+        {
+          "id": "vangogh-arles",
+          "maps": [
+            "southern-france-painters"
+          ]
+        },
+        {
+          "id": "vangogh-saintremy",
+          "maps": [
+            "southern-france-painters"
+          ]
+        },
+        {
+          "id": "vangogh-auvers",
+          "maps": [
+            "paris-sculpture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hokusai",
+      "points": [
+        {
+          "id": "nakasendo-tokyo",
+          "maps": [
+            "fuji-tokaido"
+          ]
+        },
+        {
+          "id": "impressionism-met",
+          "maps": [
+            "east-coast-art"
+          ]
+        },
+        {
+          "id": "hokusai-enoshima",
+          "maps": [
+            "fuji-tokaido"
+          ]
+        },
+        {
+          "id": "hokusai-suwa",
+          "maps": [
+            "fuji-tokaido"
+          ]
+        },
+        {
+          "id": "hokusai-kawaguchi",
+          "maps": [
+            "fuji-tokaido"
+          ]
+        },
+        {
+          "id": "hokusai-ejiri",
+          "maps": [
+            "fuji-tokaido"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bach",
+      "points": [
+        {
+          "id": "bach-eisenach",
+          "maps": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "bach-arnstadt",
+          "maps": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "bach-weimar",
+          "maps": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "bach-kothen",
+          "maps": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "bach-thomaskirche",
+          "maps": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "bach-museum",
+          "maps": [
+            "european-music-cities"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaudi",
+      "points": [
+        {
+          "id": "atlas-park-guell",
+          "maps": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-casa-batllo",
+          "maps": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-sagrada-familia",
+          "maps": [
+            "barcelona-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wright",
+      "points": [
+        {
+          "id": "atlas-taliesin",
+          "maps": [
+            "modern-architecture"
+          ]
+        },
+        {
+          "id": "atlas-taliesin-west",
+          "maps": [
+            "modern-architecture",
+            "american-west-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "le-corbusier",
+      "points": [
+        {
+          "id": "atlas-villa-savoye",
+          "maps": [
+            "modern-architecture"
+          ]
+        },
+        {
+          "id": "atlas-unite-marseille",
+          "maps": [
+            "modern-architecture"
+          ]
+        },
+        {
+          "id": "atlas-tokyo-western-art",
+          "maps": [
+            "modern-architecture",
+            "setouchi-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aalto",
+      "points": [
+        {
+          "id": "atlas-aalto-house",
+          "maps": [
+            "modern-architecture"
+          ]
+        },
+        {
+          "id": "atlas-saynatsalo",
+          "maps": [
+            "modern-architecture"
+          ]
+        },
+        {
+          "id": "atlas-paimio",
+          "maps": [
+            "modern-architecture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ando",
+      "points": [
+        {
+          "id": "atlas-ando-museum",
+          "maps": [
+            "setouchi-art"
+          ]
+        },
+        {
+          "id": "atlas-benesse-house",
+          "maps": [
+            "setouchi-art"
+          ]
+        },
+        {
+          "id": "atlas-chichu",
+          "maps": [
+            "setouchi-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rodin",
+      "points": [
+        {
+          "id": "atlas-rodin-paris",
+          "maps": [
+            "paris-sculpture"
+          ]
+        },
+        {
+          "id": "atlas-rodin-meudon",
+          "maps": [
+            "paris-sculpture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noguchi",
+      "points": [
+        {
+          "id": "atlas-noguchi-new-york",
+          "maps": [
+            "east-coast-art"
+          ]
+        },
+        {
+          "id": "atlas-noguchi-mure",
+          "maps": [
+            "setouchi-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "utah-land-art",
+      "points": [
+        {
+          "id": "atlas-spiral-jetty",
+          "maps": [
+            "american-west-art"
+          ]
+        },
+        {
+          "id": "atlas-sun-tunnels",
+          "maps": [
+            "american-west-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turner",
+      "points": [
+        {
+          "id": "silk-venice",
+          "maps": [
+            "italian-art-journeys"
+          ]
+        },
+        {
+          "id": "francigena-rome",
+          "maps": [
+            "italian-art-journeys"
+          ]
+        },
+        {
+          "id": "atlas-naples",
+          "maps": [
+            "italian-art-journeys"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cezanne",
+      "points": [
+        {
+          "id": "atlas-cezanne-studio",
+          "maps": [
+            "southern-france-painters"
+          ]
+        },
+        {
+          "id": "atlas-bibemus",
+          "maps": [
+            "southern-france-painters"
+          ]
+        },
+        {
+          "id": "atlas-sainte-victoire",
+          "maps": [
+            "southern-france-painters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dali",
+      "points": [
+        {
+          "id": "atlas-dali-theatre",
+          "maps": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-portlligat",
+          "maps": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-pubol",
+          "maps": [
+            "barcelona-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matisse",
+      "points": [
+        {
+          "id": "atlas-matisse-nice",
+          "maps": [
+            "southern-france-painters"
+          ]
+        },
+        {
+          "id": "atlas-matisse-vence",
+          "maps": [
+            "southern-france-painters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "okeeffe",
+      "points": [
+        {
+          "id": "atlas-ghost-ranch",
+          "maps": [
+            "american-west-art"
+          ]
+        },
+        {
+          "id": "atlas-abiquiu",
+          "maps": [
+            "american-west-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hiroshige",
+      "points": [
+        {
+          "id": "atlas-nihonbashi-atlas",
+          "maps": [
+            "fuji-tokaido"
+          ]
+        },
+        {
+          "id": "atlas-yui",
+          "maps": [
+            "fuji-tokaido"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sorolla",
+      "points": [
+        {
+          "id": "atlas-valencia",
+          "maps": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-hispanic-society",
+          "maps": [
+            "east-coast-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "picasso",
+      "points": [
+        {
+          "id": "atlas-picasso-barcelona",
+          "maps": [
+            "barcelona-art"
+          ]
+        },
+        {
+          "id": "atlas-picasso-paris",
+          "maps": [
+            "paris-sculpture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frida",
+      "points": [
+        {
+          "id": "atlas-frida-blue-house",
+          "maps": [
+            "mexico-city-art"
+          ]
+        },
+        {
+          "id": "atlas-detroit",
+          "maps": [
+            "detroit-art"
+          ]
+        },
+        {
+          "id": "atlas-frida-rivera-studio",
+          "maps": [
+            "mexico-city-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wu-guanzhong",
+      "points": [
+        {
+          "id": "atlas-yixing",
+          "maps": [
+            "jiangnan-painting"
+          ]
+        },
+        {
+          "id": "atlas-beaux-arts-paris",
+          "maps": [
+            "paris-sculpture"
+          ]
+        },
+        {
+          "id": "atlas-hangzhou-art-school",
+          "maps": [
+            "jiangnan-painting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huang-binhong",
+      "points": [
+        {
+          "id": "wh-547",
+          "maps": [
+            "jiangnan-painting"
+          ]
+        },
+        {
+          "id": "silk-hangzhou",
+          "maps": [
+            "jiangnan-painting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rivera",
+      "points": [
+        {
+          "id": "atlas-frida-rivera-studio",
+          "maps": [
+            "mexico-city-art"
+          ]
+        },
+        {
+          "id": "atlas-dia-detroit",
+          "maps": [
+            "detroit-art"
+          ]
+        },
+        {
+          "id": "atlas-mexico-palace",
+          "maps": [
+            "mexico-city-art"
+          ]
+        },
+        {
+          "id": "atlas-anahuacalli",
+          "maps": [
+            "mexico-city-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ansel-adams",
+      "points": [
+        {
+          "id": "atlas-yosemite-valley",
+          "maps": [
+            "american-west-art"
+          ]
+        },
+        {
+          "id": "atlas-glacier-point",
+          "maps": [
+            "american-west-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sugimoto",
+      "points": [
+        {
+          "id": "atlas-enoura",
+          "maps": [
+            "setouchi-art"
+          ]
+        },
+        {
+          "id": "atlas-sugimoto-glass",
+          "maps": [
+            "setouchi-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turrell",
+      "points": [
+        {
+          "id": "atlas-minamidera",
+          "maps": [
+            "setouchi-art"
+          ]
+        },
+        {
+          "id": "atlas-roden-crater",
+          "maps": [
+            "american-west-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beethoven",
+      "points": [
+        {
+          "id": "atlas-beethoven-bonn",
+          "maps": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "atlas-beethoven-heiligenstadt",
+          "maps": [
+            "european-music-cities"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liszt",
+      "points": [
+        {
+          "id": "atlas-liszt-raiding",
+          "maps": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "atlas-liszt-weimar",
+          "maps": [
+            "european-music-cities"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schumanns",
+      "points": [
+        {
+          "id": "atlas-schumann-leipzig",
+          "maps": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "atlas-dusseldorf",
+          "maps": [
+            "european-music-cities"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wagner",
+      "points": [
+        {
+          "id": "atlas-tribschen",
+          "maps": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "atlas-bayreuth-festspielhaus",
+          "maps": [
+            "european-music-cities"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mahler",
+      "points": [
+        {
+          "id": "atlas-mahler-attersee",
+          "maps": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "atlas-mahler-dobbiaco",
+          "maps": [
+            "european-music-cities"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-bai",
+      "points": [
+        {
+          "id": "atlas-jingting",
+          "maps": [
+            "jiangnan-poetry"
+          ]
+        },
+        {
+          "id": "atlas-taohuatan",
+          "maps": [
+            "jiangnan-poetry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bai-juyi",
+      "points": [
+        {
+          "id": "silk-hangzhou",
+          "maps": [
+            "jiangnan-poetry"
+          ]
+        },
+        {
+          "id": "polo-suzhou",
+          "maps": [
+            "jiangnan-poetry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goethe",
+      "points": [
+        {
+          "id": "atlas-naples",
+          "maps": [
+            "italian-art-journeys"
+          ]
+        },
+        {
+          "id": "atlas-goethe-rome",
+          "maps": [
+            "italian-art-journeys"
+          ]
+        }
+      ]
+    }
+  ]
+}

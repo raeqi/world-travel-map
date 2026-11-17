@@ -1,0 +1,10 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto');const {runtime}=require('../scripts/theme-audit-runtime.cjs');
+test('regional consolidation covers every source place and adds concrete sourced places without directories',()=>{const c=runtime();c.assert=assert;vm.runInContext(`
+ assert.equal(visibleCatalogueThemes().length,89);
+ for(const id of regionalConsolidatedSources){assert.ok(themes.find(t=>t.id===id).catalogHidden);assert.ok(culturalSourceCoverage(id).every(p=>p.maps.length),id);}
+ for(const p of regionalExpansionData.points){const place=places.find(x=>x.id===p.id);assert.ok(place.themes.some(id=>!themes.find(t=>t.id===id).catalogHidden),p.id);assert.ok(p.desc.length>50&&p.observe.length>30);assert.ok(placeEssays[p.id].sources.some(s=>s.url===p.source));homeState.query=p.name;assert.ok(matchingDiscovery().some(x=>x.nodes.some(n=>n.id===p.id)),p.id+' search');}
+ assert.ok(worksForTheme('fuji-tokaido').length>=5);assert.ok(worksForTheme('southern-france-painters').length);homeState.query='鸢尾花';assert.ok(matchingDiscovery().some(x=>x.theme.id==='southern-france-painters'));
+ for(const id of ['american-west-art','east-coast-art']){assert.ok(buildPlans(id,0).length>=3);for(const p of buildPlans(id,0)){assert.equal(p.topology,'network');assert.equal(p.legs.length,0);assert.ok(!p.ids.includes('atlas-roden-crater'));}}
+ `,c);});
+test('new local photographs retain per-file provenance and never use a portrait or locator as a site photo',()=>{const c=runtime();const media=JSON.parse(vm.runInContext('JSON.stringify(regionalExpansionMedia)',c));for(const [id,p]of Object.entries(media)){assert.equal(p.placeId,id);assert.ok(p.author&&p.source&&p.license&&p.licenseUrl,id);assert.ok(!/Ansel_Adams_and_camera|Localitzaci/i.test(p.source),id+' rejected image');assert.equal(crypto.createHash('sha256').update(fs.readFileSync(p.path)).digest('hex'),p.sha256);}});

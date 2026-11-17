@@ -24,7 +24,7 @@ artWorks.push({key:'atlas-yui',theme:'hiroshige',title:'东海道五十三次 ·
 // justifies a merge (e.g. Hulan and Xiangxi, or Finland and Bergen).
 for(const source of culturalAtlasPack.themes){const t=themes.find(t=>t.id===source.id);Object.assign(t,{catalogHidden:false,maxZoom:4000,view:culturalMapView(places.filter(p=>p.themes.includes(source.id)))});}
 for(const definition of culturalMapDefinitions){
- const members=culturalMapMembers(definition),nodes=[...new Set(members.flatMap(culturalMemberPlaces))],sources=members.map(m=>themes.find(t=>t.id===m.id));
+ const members=culturalMapMembers(definition),nodes=[...new Set([...members.flatMap(culturalMemberPlaces),...(definition.extraPlaces||[]).map(culturalPlaceRef)])],sources=members.map(m=>themes.find(t=>t.id===m.id));
  if(!nodes.length||sources.some(t=>!t))throw Error('Invalid cultural map '+definition.id);
  const first=sources[0],id=definition.id;
  culturalThemeMaps.set(id,definition);atlasThemePlaceIds.set(id,nodes.map(p=>p.id));
@@ -33,7 +33,7 @@ for(const definition of culturalMapDefinitions){
   const contexts=culturalMapContexts(atlasContextByPlace.get(p.id)||{place:p,contexts:new Map()},id);
   return contexts.length?atlasRelationNames[contexts[0].relation]:p.type;
  }))];
- themes.push({id,maxZoom:4000,name:definition.name,title:definition.name,story:definition.intro,introduction:definition.intro,scope:'主题地点与区域探访',disciplines:[...new Set(sources.flatMap(themeDisciplines))],filters,fields:['地点关系','现场观察'],view:culturalMapView(nodes),symbol:first.symbol,colors:{...first.colors},artThemes:definition.artThemes||[]});
+ themes.push({id,maxZoom:40000,name:definition.name,title:definition.name,story:definition.intro,introduction:definition.intro,scope:'主题地点与区域探访',disciplines:[...new Set(sources.flatMap(themeDisciplines))],filters,fields:['地点关系','现场观察'],view:culturalMapView(nodes),symbol:first.symbol,colors:{...first.colors},artThemes:definition.artThemes||[]});
  themeDesigns[id]={...themeDesigns[first.id],lens:definition.lens,note:definition.intro,line:'区域探访 · 地点关系图'};
  themeGlyphs[id]=themeGlyphs[first.id];
  // Reuse only an image tied to a place actually on this map, retaining its credit.
@@ -102,3 +102,5 @@ function migrateCulturalMapHash(hash){
  q.set('theme',id);q.delete('person');return '#'+q.toString();
 }
 discoveryIndex=null;readingPlans=null;
+
+applyRegionalConsolidation();

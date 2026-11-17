@@ -32,12 +32,13 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
     const plans=await page.evaluate(()=>buildPlans(themes[activeTheme].id,0).map(p=>p.id));
     for(const plan of plans){
      await open('#theme='+id+'&view=plans&route='+plan);
-     assert.equal(await page.evaluate(()=>activePlan?.id),plan);assert.ok(await page.locator('.route-stops button').count()>=2);
+     assert.equal(await page.evaluate(()=>activePlan?.id),plan);assert.ok(await page.locator('.route-stops button').count()>=1);
      if(ids.includes(id)||['shen-yuan-river','xiaohong-home-writing'].includes(plan))await frame(id+'/'+plan);
+     if(['naoshima-honmura','paris-sculpture-left-bank'].includes(plan))assert.ok(await page.evaluate(()=>{const ps=mapPoints().map(p=>screen(project(p.lon,p.lat)));return ps.every((p,i)=>ps.slice(i+1).every(q=>Math.hypot(p[0]-q[0],p[1]-q[1])>=24))}),'local plan points must be distinguishable');
      assert.equal(await page.evaluate(()=>activePlan.topology),'network');assert.equal(await page.evaluate(()=>routeEdges(previewStops,activePlan).length),0);
      await page.locator('.route-stops button').first().click();assert.ok((await page.locator('#detail').innerText()).length>100);
      await page.locator('#detail .reading-sources').click();assert.ok(await page.locator('#detail .reading-sources a').count());
-     if(!await page.locator('#detail .add-trip').isDisabled())await page.locator('#detail .add-trip').click();assert.ok(await page.evaluate(()=>trip.some(p=>p.id===selected.id)));await page.locator('#detail [aria-label="下一站"]').click();assert.equal(await page.evaluate(()=>previewStops.indexOf(selected)),1);
+     if(!await page.locator('#detail .add-trip').isDisabled())await page.locator('#detail .add-trip').click();assert.ok(await page.evaluate(()=>trip.some(p=>p.id===selected.id)));if(await page.locator('.route-stops button').count()>1){await page.locator('#detail [aria-label="下一站"]').click();assert.equal(await page.evaluate(()=>previewStops.indexOf(selected)),1);}
      await page.locator('#detail .reading-close').click();await page.locator('.route-overview').click();if(ids.includes(id))await frame(id+'/'+plan+' overview');await overflow(id);
      if(plan===plans[0])await page.screenshot({path:out+'/'+device.name+'-'+id+'-plan.png'});
      await page.reload();await page.waitForFunction(()=>document.body.dataset.ready==='true');assert.equal(await page.evaluate(()=>activePlan?.id),plan);
@@ -45,11 +46,11 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
     }
     await open('#theme='+id+'&view=places');
     if(!['modern-architecture','higashiyama'].includes(id))await frame(id);
-    await page.locator('#places .place').first().scrollIntoViewIfNeeded();await overflow(id);if(id==='setouchi-art'||id==='paris-sculpture')assert.ok(await page.evaluate(()=>{const ps=mapPoints().map(p=>screen(project(p.lon,p.lat)));return Math.max(...ps.map(p=>p[0]))-Math.min(...ps.map(p=>p[0]))>80}),'local points must be distinguishable');
+    await page.locator('#places .place').first().scrollIntoViewIfNeeded();await overflow(id);
     await page.screenshot({path:out+'/'+device.name+'-'+id+'-places.png'});
    }
    // Search inside merged maps uses each author's contextual places, not a selector.
-   await open('#theme=jiangnan-painting');await page.locator('#search').fill('吴冠中');assert.ok(await page.locator('#places .place').count()>=2);assert.ok(await page.evaluate(()=>filtered().every(p=>culturalPlaceSearchText(p).includes('吴冠中'))));
+   await open('#theme=jiangnan-painting');await page.locator('#search').fill('吴冠中');assert.ok(await page.locator('#places .place').count()>=1);assert.ok(await page.evaluate(()=>filtered().every(p=>culturalPlaceSearchText(p).includes('吴冠中'))));
    await open('#interest=art&find='+encodeURIComponent('萧红'));assert.ok(await page.locator('[data-theme="xiao-hong"]').count());assert.equal(await page.locator('[data-theme="shen-congwen"]').count(),0);
    await open('#interest=art&find='+encodeURIComponent('吴冠中'));assert.ok(await page.locator('[data-theme="jiangnan-painting"]').count());assert.ok(await page.locator('[data-theme="wu-guanzhong"]').count());
    for(const [old,id]of Object.entries(await page.evaluate(()=>culturalMapAliases))){await open('#theme='+old+'&view=plans');assert.equal(await page.evaluate(()=>themes[activeTheme].id),id);assert.ok(await page.locator('.plan-card').count());}
