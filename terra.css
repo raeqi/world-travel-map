@@ -354,3 +354,8 @@ body[data-brand] .credits-button{color:var(--tm-brand)}
  body[data-brand] .discovery-feature .hero-visual>img,body[data-brand] .catalog-cover>img{transition:transform .35s ease}
  body[data-brand] .discovery-feature:hover .hero-visual>img,body[data-brand] .theme-card:hover .catalog-cover>img{transform:scale(1.025)}
 }
+
+/* Scenic-road guides share the same reading surface and action language. */
+body[data-brand] .road-route-guide{background:var(--tm-card);border-color:var(--tm-line);border-radius:9px;padding:15px;font-size:13px;line-height:1.9}
+body[data-brand] .road-route-guide summary,body[data-brand] .road-route-guide a{color:var(--tm-brand)}
+body[data-brand] .road-route-guide .road-reviewed{color:var(--tm-muted);font-size:11px}

@@ -19,7 +19,7 @@ const origin=process.env.SITE_URL||'http://127.0.0.1:8000';
  async function media(){
   await page.evaluate(async()=>{
    const imgs=[...document.images].filter(img=>img.closest('.brand,.hero-slide:not([hidden]),.catalog-cover,.curated-link,#theme-hero,#detail'));
-   await Promise.allSettled(imgs.map(async img=>{img.loading='eager';if(img.decode)await img.decode()}));
+   await Promise.allSettled(imgs.map(async img=>{img.loading='eager';if(img.decode)await Promise.race([img.decode(),new Promise(resolve=>setTimeout(resolve,12000))])}));
   });
  }
  async function noOverflow(label){

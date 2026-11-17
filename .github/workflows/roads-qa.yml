@@ -1,0 +1,45 @@
+name: Scenic roads browser QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'roads.js'
+      - 'roads.css'
+      - 'index.html'
+      - 'scripts/check-roads.cjs'
+      - 'tests/roads.test.cjs'
+      - '.github/workflows/roads-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: roads-qa-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  roads-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate road registrations
+        run: node --test tests/roads.test.cjs
+      - name: Install browser tooling without changing the project
+        run: |
+          npm install --no-save --package-lock=false playwright
+          npx playwright install --with-deps chromium
+      - name: Exercise roads on desktop and mobile
+        run: |
+          python3 -m http.server 8000 --bind 127.0.0.1 > /tmp/roads-server.log 2>&1 &
+          node scripts/check-roads.cjs
+      - name: Save screenshots and server log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scenic-roads-browser
+          path: |
+            qa/roads-browser/
+            /tmp/roads-server.log
+          retention-days: 14
