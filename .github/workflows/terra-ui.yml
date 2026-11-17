@@ -32,7 +32,10 @@ jobs:
       - name: Install isolated test tools
         run: npm install --no-save --no-package-lock jsdom@26.1.0 playwright@1.56.1
       - name: Check carousel behaviour
-        run: node scripts/check-carousel.cjs
+        run: |
+          node scripts/check-carousel.cjs
+          node scripts/check-dom.cjs
+          node scripts/check-cultural-dom.cjs
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Start static site
