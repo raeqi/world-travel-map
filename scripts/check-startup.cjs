@@ -22,7 +22,7 @@ const types={'.html':'text/html; charset=utf-8','.js':'application/javascript; c
   await page.goto(url);await ready(page);assert.ok(await page.locator('#places .place').count()>=2);assert.ok(await page.locator('#globe').isVisible());
   await page.locator('#tab-plans').click();assert.ok(await page.locator('.plan-card').count());await page.locator('[data-action=preview]').first().click();await page.locator('.route-stops button').first().click();assert.ok(await page.locator('#detail').isVisible());
   await page.screenshot({path:path.join(out,label+'.png')});await page.locator('#detail .reading-close').click();await page.locator('#back-themes').click();
-  await page.locator('[data-theme="fuji-tokaido"]').click();assert.equal(await page.evaluate(()=>document.body.dataset.theme),'fuji-tokaido');
+  await page.locator('.theme-card[data-theme="fuji-tokaido"]').click();assert.equal(await page.evaluate(()=>document.body.dataset.theme),'fuji-tokaido');
   await page.reload();await ready(page);assert.deepEqual(errors,[],label);page.off('pageerror',listener);
  }
  try{
@@ -43,7 +43,7 @@ const types={'.html':'text/html; charset=utf-8','.js':'application/javascript; c
   if(process.env.SITE_URL)for(const device of [{name:'desktop',width:1440,height:1000},{name:'mobile',width:390,height:844}]){
    const context=await browser.newContext({viewport:device}),page=await context.newPage(),site=process.env.SITE_URL.replace(/\/$/,'')+'/';
    await page.goto(site);await ready(page);assert.ok(await page.locator('.theme-card').count()>50);assert.ok(await page.locator('meta[name=terra-release]').count(),'public HTML uses immutable assets');
-   await page.locator('[data-theme="fuji-tokaido"]').click();assert.equal(await page.evaluate(()=>document.body.dataset.theme),'fuji-tokaido');
+   await page.locator('.theme-card[data-theme="fuji-tokaido"]').click();assert.equal(await page.evaluate(()=>document.body.dataset.theme),'fuji-tokaido');
    await exercise(page,site+'#theme=fuji-tokaido',device.name+'-LIVE-direct');
    await page.goto(site);await ready(page);await page.screenshot({path:path.join(out,device.name+'-LIVE-home.png')});
    const scripts=await page.locator('script[src]').evaluateAll(nodes=>nodes.map(n=>n.getAttribute('src')));assert.ok(scripts.length&&scripts.every(src=>/\.[a-f0-9]{16}\.js$/.test(src)));
