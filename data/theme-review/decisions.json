@@ -1,0 +1,1194 @@
+{
+  "baseline": "e5050a499ab4f648d97ec58082e53e430afa8ad3",
+  "count": 107,
+  "decisions": [
+    {
+      "id": "kumano",
+      "name": "熊野古道",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "kumano"
+      ],
+      "reason": "熊野中边路有独立宗教语境和分段步道；不能与中山道按日本标签并成路线。"
+    },
+    {
+      "id": "camino",
+      "name": "圣地亚哥朝圣之路",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "camino"
+      ],
+      "reason": "法国之路43站与全线、莱昂、萨里亚三个尺度互相补充；与Via Francigena目的地和路径不同。"
+    },
+    {
+      "id": "nakasendo",
+      "name": "中山道",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "nakasendo"
+      ],
+      "reason": "京都至江户走廊和木曾宿场有完整地方叙事；与富士版画或熊野合并会混淆真实路线。"
+    },
+    {
+      "id": "francigena",
+      "name": "弗兰奇杰纳之路",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "francigena"
+      ],
+      "reason": "坎特伯雷至罗马有独立跨境朝圣历史与分段；不与西班牙法国之路混接。"
+    },
+    {
+      "id": "andes",
+      "name": "安第斯道路网",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "andes"
+      ],
+      "reason": "六国安第斯道路网具有自己的遗产范围和区域探访；不等于泛美现代公路。"
+    },
+    {
+      "id": "buddhist",
+      "name": "佛教四大圣地",
+      "itineraryCount": 2,
+      "currentItineraryCount": 2,
+      "action": "retain",
+      "destinations": [
+        "buddhist"
+      ],
+      "reason": "四大圣地以佛陀生平关联，跨印度与尼泊尔；与商道只有地区重叠而非相同叙事。"
+    },
+    {
+      "id": "canal",
+      "name": "中国大运河",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "canal"
+      ],
+      "reason": "京杭运河11城及水运叙事独立；丝路和江南诗歌仅在少数城市重叠。"
+    },
+    {
+      "id": "viking",
+      "name": "维京文化网络",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "viking"
+      ],
+      "reason": "贸易定居遗址分布北大西洋，文化网络自成线索；不与北欧公路或音乐家合并。"
+    },
+    {
+      "id": "impressionism",
+      "name": "印象派的足迹",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "impressionism"
+      ],
+      "reason": "已有8件作品、画中区域与海外馆藏定位；南法地图不能完整承接塞纳河与海岸故事。"
+    },
+    {
+      "id": "mozart",
+      "name": "莫扎特的欧洲之旅",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "mozart"
+      ],
+      "reason": "多次欧洲旅行与音乐工作、亲笔谱构成独立网络；不能缩为中德音乐城市。"
+    },
+    {
+      "id": "route66",
+      "name": "美国 66 号公路",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "route66"
+      ],
+      "reason": "完整美国66号历史道路走廊和三种分段；北美区域公路仅同洲，不能据此并成总行程。"
+    },
+    {
+      "id": "nc500",
+      "name": "苏格兰北海岸 500",
+      "itineraryCount": 2,
+      "currentItineraryCount": 2,
+      "action": "retain",
+      "destinations": [
+        "nc500"
+      ],
+      "reason": "苏格兰闭环、阿普尔克罗斯等真实公路结构独立；与挪威和冰岛公路不接续。"
+    },
+    {
+      "id": "vangogh",
+      "name": "梵高在法国",
+      "itineraryCount": 2,
+      "currentItineraryCount": 2,
+      "action": "retain",
+      "destinations": [
+        "vangogh"
+      ],
+      "reason": "南法只承接阿尔勒和圣雷米；巴黎、欧韦与美国作品馆藏仍需原有绘画地图和作品阅读。"
+    },
+    {
+      "id": "hokusai",
+      "name": "北斋 · 富士山的多种看法",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "hokusai"
+      ],
+      "reason": "富士东海道承接日本风景；纽约原作馆藏、独立三方案及作品按钮仍有完整版本的用途。"
+    },
+    {
+      "id": "vermeer",
+      "name": "维米尔 · 代尔夫特的光与日常",
+      "itineraryCount": 2,
+      "currentItineraryCount": 2,
+      "action": "retain",
+      "destinations": [
+        "vermeer"
+      ],
+      "reason": "代尔夫特画中地点、海牙与阿姆斯特丹收藏形成完整关系；不与法国印象派按画家标签合并。"
+    },
+    {
+      "id": "bach",
+      "name": "巴赫 · 中德音乐地景",
+      "itineraryCount": 2,
+      "currentItineraryCount": 2,
+      "action": "retain",
+      "destinations": [
+        "bach"
+      ],
+      "reason": "欧洲音乐城市选入部分巴赫地点，未完整承接莱比锡博物馆与原有两方案；保留中德音乐叙事。"
+    },
+    {
+      "id": "austen",
+      "name": "简·奥斯汀 · 生活与小说地景",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "austen"
+      ],
+      "reason": "生活地和小说地景、三条分区探访自成一体；不能和英国湖区或狄更斯按国籍合并。"
+    },
+    {
+      "id": "drive-europe",
+      "name": "欧洲海岸与环岛公路",
+      "itineraryCount": 2,
+      "currentItineraryCount": 2,
+      "action": "retain",
+      "destinations": [
+        "drive-europe"
+      ],
+      "reason": "已将挪威大西洋路、冰岛环岛路归入普通多方案地图；两路保持独立，不再扩成全欧洲自驾。"
+    },
+    {
+      "id": "drive-southern",
+      "name": "南半球海岸与峡湾",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "drive-southern"
+      ],
+      "reason": "已含澳、新、南非三个独立公路方案；米尔福德公路与Great Walk步道交通语义不同。"
+    },
+    {
+      "id": "gaudi",
+      "name": "高迪的建筑世界",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "barcelona-art"
+      ],
+      "reason": "古埃尔、巴特罗、圣家堂三处及人物上下文全在巴塞罗那；默认去重，原主题与原方案继续可搜可打开。"
+    },
+    {
+      "id": "wright",
+      "name": "赖特的乡野与沙漠",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "modern-architecture"
+      ],
+      "reason": "两处塔里埃森已由现代建筑地图完整承接；保留原地点精选方案，默认入口去重。"
+    },
+    {
+      "id": "le-corbusier",
+      "name": "勒·柯布西耶的跨国建筑",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "modern-architecture"
+      ],
+      "reason": "法国两建筑及东京国立西洋美术馆全部在现代建筑地图；原跨国方案可搜索，避免重复默认主题。"
+    },
+    {
+      "id": "aalto",
+      "name": "阿尔瓦·阿尔托建筑路线",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "modern-architecture"
+      ],
+      "reason": "自宅、帕伊米奥和塞于奈察洛在现代建筑芬兰探访中全部可发现；原网络保留。"
+    },
+    {
+      "id": "ando",
+      "name": "安藤忠雄的直岛",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "setouchi-art"
+      ],
+      "reason": "直岛三处建筑全部进入濑户内地图并分本村、南部方案；原方案与作者资料保留。"
+    },
+    {
+      "id": "rodin",
+      "name": "罗丹的工作室与花园",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "paris-sculpture"
+      ],
+      "reason": "巴黎和默东两处、工作室花园上下文完整纳入巴黎地图；原方案与来源保留。"
+    },
+    {
+      "id": "brancusi",
+      "name": "布朗库西的城市雕塑与工作室",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "brancusi"
+      ],
+      "reason": "巴黎只承接工作室收藏，特尔古日乌雕塑群未被地域地图覆盖；恢复独立，不把罗马尼亚塞入巴黎。"
+    },
+    {
+      "id": "hepworth",
+      "name": "赫普沃斯的圣艾夫斯",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "hepworth"
+      ],
+      "reason": "圣艾夫斯两处雕塑空间是紧凑地方叙事；摩尔的赫特福德与利兹相距远且无本地联游关系。"
+    },
+    {
+      "id": "noguchi",
+      "name": "野口勇的雕塑与庭园",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "noguchi"
+      ],
+      "reason": "牟礼可入濑户内，但纽约馆仍是独立旧内容；保留跨地作品对读地图，不并入直岛。"
+    },
+    {
+      "id": "giacometti",
+      "name": "贾科梅蒂的山谷与巴黎",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "giacometti"
+      ],
+      "reason": "巴黎仅承接研究院，斯坦帕与布雷加利亚山谷不能被巴黎覆盖；独立入口保留。"
+    },
+    {
+      "id": "henry-moore",
+      "name": "亨利·摩尔的雕塑景观",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "henry-moore"
+      ],
+      "reason": "工作室花园和利兹研究机构具有同一艺术家资料关系；赫普沃斯圣艾夫斯不应硬接为英国总路线。"
+    },
+    {
+      "id": "utah-land-art",
+      "name": "犹他大地艺术：史密森与霍尔特",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "utah-land-art"
+      ],
+      "reason": "螺旋防波堤和太阳隧道同属犹他大地艺术，已有明确共同叙事；与国家公园自然保护范围不同。"
+    },
+    {
+      "id": "turner",
+      "name": "透纳的意大利旅行",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "italian-art-journeys"
+      ],
+      "reason": "威尼斯、罗马、那不勒斯全部由意大利艺术地图承接；不同年代旅行继续以地点网络阅读。"
+    },
+    {
+      "id": "cezanne",
+      "name": "塞尚的普罗旺斯",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "southern-france-painters"
+      ],
+      "reason": "画室、采石场与圣维克多山完整纳入南法及艾克斯方案；原三点方案保持可发现。"
+    },
+    {
+      "id": "dali",
+      "name": "达利三角",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "dali"
+      ],
+      "reason": "菲格雷斯、波特利加特、普波尔组成达利三角；不与巴塞罗那街区硬并。"
+    },
+    {
+      "id": "matisse",
+      "name": "马蒂斯的尼斯与旺斯",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "southern-france-painters"
+      ],
+      "reason": "尼斯和旺斯两处完整纳入南法色彩方案；原人物网络保留并默认去重。"
+    },
+    {
+      "id": "munch",
+      "name": "蒙克的海岸与居所",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "munch"
+      ],
+      "reason": "奥斯戈斯特兰与奥斯陆的海岸居住和收藏关系完整；与卑尔根格里格相距远且主题不同。"
+    },
+    {
+      "id": "okeeffe",
+      "name": "奥姬芙的新墨西哥",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "okeeffe"
+      ],
+      "reason": "幽灵牧场和阿比丘共同展开新墨西哥的生活与艺术；不能与亚利桑那受限的罗登火山口硬接。"
+    },
+    {
+      "id": "hiroshige",
+      "name": "广重的东海道",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "fuji-tokaido"
+      ],
+      "reason": "日本桥与由比全部进入富士东海道；原广重作品、休馆说明和原方案继续保留。"
+    },
+    {
+      "id": "gauguin",
+      "name": "高更的跨洋迁居",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "gauguin"
+      ],
+      "reason": "蓬塔旺与塔希提迁居是独特跨洋关系；南法或法国画家地图都无法承接大洋洲阶段。"
+    },
+    {
+      "id": "chagall",
+      "name": "夏加尔的故乡与南法",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "chagall"
+      ],
+      "reason": "尼斯和圣保罗可由南法承接，维捷布斯克未覆盖；独立地图恢复，避免丢失白俄罗斯地域发现。"
+    },
+    {
+      "id": "sorolla",
+      "name": "索罗亚的西班牙",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "sorolla"
+      ],
+      "reason": "瓦伦西亚与纽约西班牙裔协会承担生活和收藏的不同关系；不能只凭西班牙画家身份并入巴塞罗那。"
+    },
+    {
+      "id": "constable",
+      "name": "康斯太勃尔乡野",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "constable"
+      ],
+      "reason": "弗拉特福德与迪德姆是萨福克地方地景；华兹华斯湖区并不相邻，保持独立。"
+    },
+    {
+      "id": "zhang-daqian",
+      "name": "张大千的游历与园林",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "zhang-daqian"
+      ],
+      "reason": "莫高窟与摩耶精舍涉及敦煌及台湾两阶段，江南地图地理上不覆盖；保留独立。"
+    },
+    {
+      "id": "picasso",
+      "name": "毕加索的城市生活",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "barcelona-art",
+        "paris-sculpture"
+      ],
+      "reason": "巴塞罗那和巴黎两个收藏地点分别进入对应城市地图，原跨城上下文与方案保持可搜；全覆盖后默认去重。"
+    },
+    {
+      "id": "frida",
+      "name": "弗里达的墨西哥与美国",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "mexico-city-art",
+        "detroit-art"
+      ],
+      "reason": "墨西哥生活空间进入墨西哥城，底特律城市经历进入同城艺术图；两阶段都有普通地图后默认去重。"
+    },
+    {
+      "id": "wu-guanzhong",
+      "name": "吴冠中的游历与写生",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "jiangnan-painting",
+        "paris-sculpture"
+      ],
+      "reason": "宜兴、杭州由江南承接，巴黎画院加入巴黎学习与工作空间；全覆盖后默认去重，求学与描绘关系分清。"
+    },
+    {
+      "id": "qi-baishi",
+      "name": "齐白石的五出五归",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "qi-baishi"
+      ],
+      "reason": "湘潭与北京形成乡居和城市艺术生活的迁移关系；不能并入江南水乡或张大千敦煌主题。"
+    },
+    {
+      "id": "huang-binhong",
+      "name": "黄宾虹的山水纪游",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "jiangnan-painting"
+      ],
+      "reason": "黄山与杭州原点、资料与五日对读方案都在江南地图；原人物方案保留并默认去重。"
+    },
+    {
+      "id": "feng-zikai",
+      "name": "丰子恺的生活与迁徙",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "feng-zikai"
+      ],
+      "reason": "石门和上海在江南，重庆迁居未被覆盖；恢复完整地图，不用地域去重隐藏重庆。"
+    },
+    {
+      "id": "higashiyama",
+      "name": "东山魁夷的风景旅行",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "higashiyama"
+      ],
+      "reason": "长野与奈良对应收藏和障壁画两种关系；与富士东海道版画主题不同，不因日本绘画硬并。"
+    },
+    {
+      "id": "rivera",
+      "name": "里维拉的壁画地理",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "mexico-city-art",
+        "detroit-art"
+      ],
+      "reason": "墨西哥壁画、收藏与双工作室由墨西哥城承接，底特律原址壁画由底特律新图承接；全覆盖后默认去重。"
+    },
+    {
+      "id": "ansel-adams",
+      "name": "安塞尔·亚当斯的国家公园摄影",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "ansel-adams"
+      ],
+      "reason": "优胜美地山谷和冰川点具有摄影观看叙事；国家公园总名录无法替代作者视角、细点和影像关系。"
+    },
+    {
+      "id": "cartier-bresson",
+      "name": "布列松的城市摄影",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "cartier-bresson"
+      ],
+      "reason": "北京上海以摄影观察与年代相连；与江南绘画或中国遗产按城市重叠合并会丢掉摄影语境。"
+    },
+    {
+      "id": "lee-miller",
+      "name": "李·米勒的摄影与旅居",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "lee-miller"
+      ],
+      "reason": "开罗与英国法利农舍是不同生活阶段；只有埃及点与马哈福兹同区，不足以覆盖摄影和英国内容。"
+    },
+    {
+      "id": "sugimoto",
+      "name": "杉本博司的观看与空间",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "sugimoto"
+      ],
+      "reason": "护王神社已在直岛，江之浦测候所在小田原；保留独立入口，不能把两地伪作同岛探访。"
+    },
+    {
+      "id": "christo-jeanneclaude",
+      "name": "克里斯托与珍妮-克劳德的临时作品",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "christo-jeanneclaude"
+      ],
+      "reason": "柏林和伊塞奥湖都是已结束的临时作品；与常设建筑主题合并易误导可访问性，保持独立。"
+    },
+    {
+      "id": "turrell",
+      "name": "特瑞尔的光与天空",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "turrell"
+      ],
+      "reason": "南寺进入直岛，罗登火山口是美国受限项目；独立地图保留该阅读和访问边界。"
+    },
+    {
+      "id": "beethoven",
+      "name": "贝多芬的居住地图",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "波恩和海利根施塔特完整纳入音乐城市图；保留原两点网络但不重复默认入口。"
+    },
+    {
+      "id": "chopin",
+      "name": "肖邦与乔治·桑",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "chopin"
+      ],
+      "reason": "诺昂与瓦尔德莫萨由肖邦、乔治桑关系连结；中德音乐城市不覆盖法国与马略卡内容。"
+    },
+    {
+      "id": "liszt",
+      "name": "李斯特的欧洲居所",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "赖丁和魏玛全部进入欧洲音乐城市；原方案与不同生活阶段保留，默认去重。"
+    },
+    {
+      "id": "schumanns",
+      "name": "克拉拉与罗伯特·舒曼",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "莱比锡和杜塞尔多夫完整进入音乐城市，分别在同城方案和莱茵方案呈现；原方案保留。"
+    },
+    {
+      "id": "wagner",
+      "name": "瓦格纳的琉森与拜罗伊特",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "琉森和拜罗伊特完整进入音乐城市；两地独立工作语境与原方案保留，默认入口去重。"
+    },
+    {
+      "id": "mahler",
+      "name": "马勒的作曲小屋",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "阿特湖、多比亚科和五日两基地方案都在音乐城市；不画两小屋间步行线，保留原网。"
+    },
+    {
+      "id": "dvorak",
+      "name": "德沃夏克的美国经历",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "dvorak"
+      ],
+      "reason": "音乐城市只承接布拉格，艾奥瓦斯皮尔维尔未覆盖；恢复独立，不能把美国经历藏在欧洲标题里。"
+    },
+    {
+      "id": "sibelius",
+      "name": "西贝柳斯的芬兰",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "sibelius"
+      ],
+      "reason": "艾诺拉与赫尔辛基形成芬兰地域叙事；与格里格卑尔根隔国隔海，不做北欧音乐大合并。"
+    },
+    {
+      "id": "grieg",
+      "name": "格里格的卑尔根与峡湾",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "grieg"
+      ],
+      "reason": "特罗尔豪根与卑尔根是紧凑城市和峡湾故事；不与西贝柳斯芬兰硬串。"
+    },
+    {
+      "id": "mendelssohn",
+      "name": "门德尔松：莱比锡与苏格兰",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "mendelssohn"
+      ],
+      "reason": "莱比锡由音乐城市承接，荷里路德和斯塔法岛另属苏格兰旅行；恢复独立，不把两国写成单次路线。"
+    },
+    {
+      "id": "puccini",
+      "name": "普契尼的托斯卡纳",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "puccini"
+      ],
+      "reason": "卢卡与托雷德尔拉戈构成托斯卡纳本地音乐关系；不是透纳和歌德的旅行目光，保持独立。"
+    },
+    {
+      "id": "handel",
+      "name": "亨德尔的音乐城市",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "handel"
+      ],
+      "reason": "哈雷在音乐城市，伦敦故居不被现有地图覆盖；恢复独立，避免伦敦地域检索缺失。"
+    },
+    {
+      "id": "su-shi",
+      "name": "苏轼的任职与贬谪",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "su-shi"
+      ],
+      "reason": "黄州和儋州对应任职贬谪的文学叙事；江南诗路不覆盖两地，不因诗人同类合并。"
+    },
+    {
+      "id": "li-bai",
+      "name": "李白的山川游历",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "jiangnan-poetry"
+      ],
+      "reason": "敬亭山与桃花潭完整进入江南诗路，原山川关系、来源与方案保留并默认去重。"
+    },
+    {
+      "id": "du-fu",
+      "name": "杜甫的漂泊",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "du-fu"
+      ],
+      "reason": "成都草堂与岳阳楼属于漂泊的两地阅读；湘西沈从文和江南诗路都不完整覆盖。"
+    },
+    {
+      "id": "wang-wei",
+      "name": "王维的山水与辋川",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "wang-wei"
+      ],
+      "reason": "蓝田辋川与终南山自成关中山水故事；不能与江南诗歌仅因山水题材合并。"
+    },
+    {
+      "id": "bai-juyi",
+      "name": "白居易的城市与山水",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "jiangnan-poetry"
+      ],
+      "reason": "杭州和苏州的作者上下文完整进入江南诗路；共享物理地点保留白居易专属阅读，默认去重。"
+    },
+    {
+      "id": "lu-you",
+      "name": "陆游《入蜀记》",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "lu-you"
+      ],
+      "reason": "绍兴在江南，奉节夔州未覆盖；恢复独立，不将《入蜀记》缩成江南起点。"
+    },
+    {
+      "id": "shen-congwen",
+      "name": "湘西：沿沅水读沈从文",
+      "itineraryCount": 2,
+      "currentItineraryCount": 2,
+      "action": "retain",
+      "destinations": [
+        "shen-congwen"
+      ],
+      "reason": "沅水常德、桃源、浦市和凤凰构成湘西阅读，已有两方案；呼兰哈尔滨不应与之合并。"
+    },
+    {
+      "id": "xiao-hong",
+      "name": "呼兰与哈尔滨：萧红的生活与写作",
+      "itineraryCount": 2,
+      "currentItineraryCount": 2,
+      "action": "retain",
+      "destinations": [
+        "xiao-hong"
+      ],
+      "reason": "呼兰故居后园与哈尔滨商市街形成东北本地生活写作，已有两方案；不与湘西文学硬并。"
+    },
+    {
+      "id": "basho",
+      "name": "芭蕉《奥之细道》",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "basho"
+      ],
+      "reason": "松岛和山寺是《奥之细道》精选；夏目漱石与川端的地点、时代、文本均不同。"
+    },
+    {
+      "id": "kawabata",
+      "name": "川端康成的文学地景",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "kawabata"
+      ],
+      "reason": "伊豆山地与越后汤泽对应独立文学地景；富士版画与芭蕉奥州不能代替小说语境。"
+    },
+    {
+      "id": "soseki",
+      "name": "夏目漱石的迁居与留学",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "soseki"
+      ],
+      "reason": "伦敦、松山、东京对应留学任教写作三个阶段；日本其他文学主题不能覆盖伦敦。"
+    },
+    {
+      "id": "goethe",
+      "name": "歌德《意大利游记》",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "integrated",
+      "destinations": [
+        "italian-art-journeys"
+      ],
+      "reason": "罗马歌德之家与那不勒斯全部进入意大利艺术图，保留歌德资料与共享地点独立上下文。"
+    },
+    {
+      "id": "hugo",
+      "name": "雨果的巴黎与流亡",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "hugo"
+      ],
+      "reason": "巴黎和根西欧特维尔故居有流亡叙事；巴黎地图不能完整覆盖海峡群岛，不按作家分类硬并。"
+    },
+    {
+      "id": "byron",
+      "name": "拜伦的湖畔与希腊",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "byron"
+      ],
+      "reason": "希永和米索隆吉是瑞士与希腊两种经历；现有音乐湖畔或英国文学主题无法完整承接。"
+    },
+    {
+      "id": "wordsworth",
+      "name": "华兹华斯的湖区",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "wordsworth"
+      ],
+      "reason": "鸽舍和莱德尔山庄构成英国湖区紧凑故事；不与康斯太勃尔萨福克乡野跨区硬并。"
+    },
+    {
+      "id": "dickens",
+      "name": "狄更斯的英国",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "dickens"
+      ],
+      "reason": "伦敦与布罗德斯泰斯对应英国城市和海岸生活；与奥斯汀西南英格兰无完整区域承接。"
+    },
+    {
+      "id": "kafka",
+      "name": "卡夫卡的城市与生活",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "kafka"
+      ],
+      "reason": "布拉格与基尔灵对应生活与晚年；乔伊斯的都柏林和的里雅斯特不是同一城市网络。"
+    },
+    {
+      "id": "joyce",
+      "name": "乔伊斯的城市网络",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "joyce"
+      ],
+      "reason": "都柏林与的里雅斯特是个人写作迁居关系；不与卡夫卡仅凭现代文学身份合并。"
+    },
+    {
+      "id": "proust",
+      "name": "普鲁斯特的记忆地景",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "proust"
+      ],
+      "reason": "伊利耶贡布雷和卡堡构成记忆地景；巴黎艺术地图无法承接这两个地方。"
+    },
+    {
+      "id": "hemingway",
+      "name": "海明威的跨国生活",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "hemingway"
+      ],
+      "reason": "基韦斯特与古巴瞭望庄园是不同居住阶段；不并入美国公路而隐去古巴。"
+    },
+    {
+      "id": "steinbeck",
+      "name": "斯坦贝克的加州与公路",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "steinbeck"
+      ],
+      "reason": "萨利纳斯与蒙特雷是加州地方叙事；北美公路地图不具备文学场景阅读，不按美国标签并入。"
+    },
+    {
+      "id": "mark-twain",
+      "name": "马克·吐温的密西西比河",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "mark-twain"
+      ],
+      "reason": "汉尼拔与哈特福德是童年与写作居所；66号公路不经过并承接这两点故事，独立保留。"
+    },
+    {
+      "id": "neruda",
+      "name": "聂鲁达的三座房子",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "neruda"
+      ],
+      "reason": "圣地亚哥、瓦尔帕莱索和黑岛三居构成智利住宅文学故事；泛美公路不能替代家屋阅读。"
+    },
+    {
+      "id": "marquez",
+      "name": "马尔克斯的加勒比",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "marquez"
+      ],
+      "reason": "阿拉卡塔卡与卡塔赫纳有哥伦比亚加勒比地方联系；不与智利聂鲁达泛称拉美文学合并。"
+    },
+    {
+      "id": "tagore",
+      "name": "泰戈尔的孟加拉世界",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "tagore"
+      ],
+      "reason": "桑地尼克坦与乔拉桑科是孟加拉教育和生活空间；佛教圣地或印度遗产只同国而非同叙事。"
+    },
+    {
+      "id": "mahfouz",
+      "name": "马哈福兹的开罗",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "mahfouz"
+      ],
+      "reason": "老开罗与纪念馆构成可分区探索的同城文学主题；李米勒仅有一个开罗点且另一点在英国。"
+    },
+    {
+      "id": "modern-architecture",
+      "name": "现代建筑：居住与地景",
+      "itineraryCount": 2,
+      "currentItineraryCount": 2,
+      "action": "retain",
+      "destinations": [
+        "modern-architecture"
+      ],
+      "reason": "既有跨地区建筑比较已完整承接赖特、柯布西耶、阿尔托，法国和芬兰方案独立；不再扩成建筑目录。"
+    },
+    {
+      "id": "setouchi-art",
+      "name": "濑户内：直岛的光、建筑与雕塑",
+      "itineraryCount": 2,
+      "currentItineraryCount": 2,
+      "action": "retain",
+      "destinations": [
+        "setouchi-art"
+      ],
+      "reason": "直岛与牟礼以建筑光和石材展开地域探索，岛内两方案独立；不硬塞小田原、纽约和美国受限项目。"
+    },
+    {
+      "id": "paris-sculpture",
+      "name": "巴黎：雕塑家的房间与花园",
+      "itineraryCount": 2,
+      "currentItineraryCount": 4,
+      "action": "expanded",
+      "destinations": [
+        "paris-sculpture"
+      ],
+      "reason": "保留原雕塑工作室与花园全部文字和来源，补入同城毕加索收藏、吴冠中画院与两条本地方案。"
+    },
+    {
+      "id": "southern-france-painters",
+      "name": "南法画境：从普罗旺斯到蔚蓝海岸",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "southern-france-painters"
+      ],
+      "reason": "普罗旺斯至尼斯旺斯按三基地形成普通艺术地图；不扩到夏加尔白俄罗斯或梵高海外馆藏。"
+    },
+    {
+      "id": "barcelona-art",
+      "name": "巴塞罗那：高迪建筑与毕加索的城市",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "barcelona-art"
+      ],
+      "reason": "高迪三建筑与毕加索早期收藏在同城完整展示；覆盖高迪旧主题后取消重复默认入口，保留旧方案搜索。"
+    },
+    {
+      "id": "fuji-tokaido",
+      "name": "富士与东海道：北斋、广重的风景",
+      "itineraryCount": 2,
+      "currentItineraryCount": 2,
+      "action": "retain",
+      "destinations": [
+        "fuji-tokaido"
+      ],
+      "reason": "富士周边与东海道版画有明确风景线索；保留作品与馆藏按钮，不将东山魁夷塞入江户版画。"
+    },
+    {
+      "id": "jiangnan-painting",
+      "name": "江南画家：水乡、山水与日常",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "jiangnan-painting"
+      ],
+      "reason": "水乡、杭州、黄山与上海分区探访已有三方案；巴黎求学移入巴黎，重庆迁居仍靠独立丰子恺图发现。"
+    },
+    {
+      "id": "mexico-city-art",
+      "name": "墨西哥城：弗里达与里维拉",
+      "itineraryCount": 2,
+      "currentItineraryCount": 2,
+      "action": "retain",
+      "destinations": [
+        "mexico-city-art"
+      ],
+      "reason": "蓝屋、双工作室、国民宫和阿纳瓦卡利是同城分区；底特律另成地图，避免把跨国阶段画成连续旅行。"
+    },
+    {
+      "id": "italian-art-journeys",
+      "name": "意大利：透纳与歌德的旅行目光",
+      "itineraryCount": 1,
+      "currentItineraryCount": 1,
+      "action": "retain",
+      "destinations": [
+        "italian-art-journeys"
+      ],
+      "reason": "威尼斯、罗马、那不勒斯的透纳与歌德目光可对读，年代和作者上下文分开；不再并入托斯卡纳音乐。"
+    },
+    {
+      "id": "jiangnan-poetry",
+      "name": "江南诗路：水城与山川",
+      "itineraryCount": 2,
+      "currentItineraryCount": 2,
+      "action": "retain",
+      "destinations": [
+        "jiangnan-poetry"
+      ],
+      "reason": "李白、白居易、陆游的江南节点形成水城山川叙事；奉节入蜀终点保留在陆游独立地图。"
+    },
+    {
+      "id": "canadian-rockies",
+      "name": "加拿大落基山",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "canadian-rockies"
+      ],
+      "reason": "冰原大道湖泊、冰川和接驳节点已有三方案；北美区域公路不替代预约接驳与山地观察。"
+    },
+    {
+      "id": "nz-great-walks",
+      "name": "新西兰南岛 · 三条 Great Walks",
+      "itineraryCount": 3,
+      "currentItineraryCount": 3,
+      "action": "retain",
+      "destinations": [
+        "nz-great-walks"
+      ],
+      "reason": "Milford、Routeburn、Kepler三条真实步道独立，不与米尔福德公路虚接为一条总线。"
+    }
+  ],
+  "newMaps": [
+    {
+      "id": "detroit-art",
+      "itineraryCount": 1,
+      "reason": "同城的弗里达经历与里维拉原址壁画；两处旧点组成普通地图，未增加虚构地点。"
+    }
+  ]
+}

@@ -69,8 +69,8 @@ for(const source of culturalAtlasPack.themes){
  const theme=themes.find(t=>t.id===source.id);
  if(theme.catalogHidden&&culturalSourceCoverage(source.id).some(row=>!row.maps.length))theme.catalogHidden=false;
 }
-// Keep the established edition until the short-theme review is complete.
-themes.find(t=>t.id==='gaudi').catalogHidden=false;
+// Gaudí's three places and contexts are fully covered by Barcelona. The old
+// edition and its itinerary remain available through search and existing links.
 // The rejected Xiangxi + Northeast merge becomes two independent, useful maps.
 for(const [id,name,intro,months,days] of [
  ['shen-congwen','湘西：沿沅水读沈从文','常德、桃源、浦市与凤凰，分别对应返乡的出发、登舟、水路终点与故乡。从码头、街巷与劳动生活读《湘行散记》，不把今天的公路连线称作历史水路。',[3,4,5,9,10,11],5],
