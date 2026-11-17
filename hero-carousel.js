@@ -16,37 +16,36 @@ function mountHeroCarousel(){
  destroyHeroCarousel();const root=document.querySelector('.hero-carousel');if(!root)return;
  const motion=window.matchMedia?window.matchMedia('(prefers-reduced-motion: reduce)'):{matches:false};
  const slides=[...root.querySelectorAll('.hero-slide')],dots=[...root.querySelectorAll('[data-hero-dot]')],play=root.querySelector('.hero-play');
- let timer=null,hovered=false,onscreen=true,disposed=false,playPointerPaused=null;
- if(motion.matches)heroPreferences.paused=true;
+ let timer=null,hovered=false,onscreen=true,disposed=false,keyboardFocus=false,lastInput="keyboard";
  function cancel(){if(timer!==null){clearTimeout(timer);timer=null}}
- function schedule(){cancel();if(!disposed&&!heroPreferences.paused&&!motion.matches&&!hovered&&onscreen&&!document.hidden&&document.body.dataset.view==='catalog')timer=setTimeout(()=>{timer=null;show(heroPreferences.index+1,false)},8000)}
+ function schedule(){cancel();if(!disposed&&!heroPreferences.paused&&!motion.matches&&!hovered&&!keyboardFocus&&onscreen&&!document.hidden&&document.body.dataset.view==='catalog')timer=setTimeout(()=>{timer=null;show(heroPreferences.index+1,false)},8000)}
  function update(){
   // Warm the current and following image before the next automatic change.
   for(const index of [heroPreferences.index,(heroPreferences.index+1)%slides.length])slides[index].querySelectorAll('img').forEach(img=>{img.loading='eager'});
-  root.dataset.autoplay=motion.matches?'reduced':heroPreferences.paused?'paused':hovered?'hover-paused':'playing';
+  root.dataset.autoplay=motion.matches?'reduced':heroPreferences.paused?'paused':hovered?'hover-paused':keyboardFocus?'focus-paused':'playing';
   play.disabled=motion.matches;play.textContent=heroPreferences.paused?'▷':'Ⅱ';play.setAttribute('aria-label',motion.matches?'系统已设置减少动态效果，自动播放已关闭':heroPreferences.paused?'播放自动轮播':'暂停自动播放');
  }
  function announce(text){root.querySelector('.hero-announcement').textContent=text}
  function show(index,manual){
   heroPreferences.index=(index+slides.length)%slides.length;
-  if(manual)heroPreferences.paused=true;
   slides.forEach((s,i)=>s.hidden=i!==heroPreferences.index);dots.forEach((d,i)=>{if(i===heroPreferences.index)d.setAttribute('aria-current','true');else d.removeAttribute('aria-current')});
   if(manual)announce(`第 ${heroPreferences.index+1} 项，共 ${slides.length} 项：${heroSlides[heroPreferences.index].title}`);
   update();schedule();
  }
  root.onclick=e=>{
   const b=e.target.closest('button');if(!b)return;
-  if(b===play){heroPreferences.paused=!(playPointerPaused===null?heroPreferences.paused:playPointerPaused);playPointerPaused=null;announce(heroPreferences.paused?'自动播放已暂停':'自动播放已开启');update();schedule()}
+  if(b===play){heroPreferences.paused=!heroPreferences.paused;keyboardFocus=false;announce(heroPreferences.paused?'自动播放已暂停':'自动播放已开启');update();schedule()}
   if(b.dataset.heroStep)show(heroPreferences.index+Number(b.dataset.heroStep),true);
   if(b.dataset.heroDot!==undefined)show(Number(b.dataset.heroDot),true);
-  if(b.dataset.heroOpen!==undefined){heroPreferences.paused=true;const s=heroSlides[Number(b.dataset.heroOpen)];openDiscoveryTheme(s.theme);if(s.route){const plan=buildPlans(s.theme,0).find(p=>p.id===s.route);if(plan)openPlan(plan)}}
+  if(b.dataset.heroOpen!==undefined){const s=heroSlides[Number(b.dataset.heroOpen)];openDiscoveryTheme(s.theme);if(s.route){const plan=buildPlans(s.theme,0).find(p=>p.id===s.route);if(plan)openPlan(plan)}}
  };
- root.onkeydown=e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();show(e.key==='Home'?0:e.key==='End'?slides.length-1:heroPreferences.index+(e.key==='ArrowRight'?1:-1),true)}};
+ root.onkeydown=e=>{lastInput='keyboard';keyboardFocus=true;if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();show(e.key==='Home'?0:e.key==='End'?slides.length-1:heroPreferences.index+(e.key==='ArrowRight'?1:-1),true)}};
  root.onmouseenter=()=>{hovered=true;update();schedule()};root.onmouseleave=()=>{hovered=false;update();schedule()};
- // Keyboard entry stops rotation until the user explicitly presses Play.
- root.addEventListener('focusin',()=>{heroPreferences.paused=true;update();cancel()});
- root.addEventListener('pointerdown',e=>{playPointerPaused=e.target.closest('button')===play?heroPreferences.paused:null});
- const visibility=()=>schedule(),changedMotion=()=>{if(motion.matches)heroPreferences.paused=true;update();schedule()};
+ // Keyboard focus pauses rotation; pointer selection resumes after hover ends.
+ root.addEventListener('focusin',()=>{keyboardFocus=lastInput!=='pointer';update();schedule()});
+ root.addEventListener('focusout',e=>{if(!root.contains(e.relatedTarget)){keyboardFocus=false;lastInput='keyboard';update();schedule()}});
+ root.addEventListener('pointerdown',()=>{lastInput='pointer';keyboardFocus=false;update();schedule()});
+ const visibility=()=>schedule(),changedMotion=()=>{update();schedule()};
  document.addEventListener('visibilitychange',visibility);motion.addEventListener?.('change',changedMotion);
  const observer=typeof IntersectionObserver==='function'?new IntersectionObserver(entries=>{onscreen=entries[0].isIntersecting;schedule()}):null;observer?.observe(root);
  heroCleanup=()=>{disposed=true;cancel();observer?.disconnect();document.removeEventListener('visibilitychange',visibility);motion.removeEventListener?.('change',changedMotion)};
