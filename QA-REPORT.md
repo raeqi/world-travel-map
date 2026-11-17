@@ -213,3 +213,102 @@ were used. Browser log inspection showed extension metadata errors from
 Latest user instruction authorizes completing this follow-up and merging PR #2
 into main after checking its final diff and remote status. The final reply records
 actual publication and merge SHAs after those operations are verified.
+
+
+## Sidebar, route-media and content corrections — 2026-11-17
+
+Base main: `2369d66fa2fcbd7f0ef1a7bb8a6a2bd8d56b8930`.
+Independent branch: `fix/sidebar-layout`. Existing worktrees and commits preserved.
+All actions remained in the selected Dot cloud computer.
+
+### User-reported causes and corrections
+
+- Place buttons inherited full borders while having zero inter-card spacing.
+  Their list now uses 10px desktop / 8px mobile gaps; text can wrap, while icons
+  and arrows retain their widths. No negative card margins or clipping were used.
+- A real separator between sidebar and map supports pointer drag, arrows,
+  Shift+arrows, Home/End and double-click/Enter reset. Width is persisted locally.
+  Bounds preserve at least 440px of desktop map space; narrower desktop map panes
+  use a proportionate reading drawer. Mobile hides the separator.
+- Home route cards used `discoveryCover(theme)`, so every cultural itinerary
+  inherited Kyoto's photograph. `routeCover(plan)` now admits only imagery tied
+  to an actual stop, retains a location/work caption, and otherwise renders a
+  neutral card. It never falls back to another theme image. Existing licences
+  and original files remain unchanged; no new image assets were added.
+- All six interest tabs and both theme/route views were audited. The 95 routes
+  have 33 matched covers and 62 neutral covers. Kyoto images occur only in routes
+  containing Kyoto. Search no longer promotes every route from a broad theme;
+  exact country search and itinerary-region filtering use actual stop countries.
+  Searching Japan gives eight Japanese itineraries, not the French itinerary
+  whose painting happens to be titled The Japanese Footbridge.
+- Playback explanation text was removed from the homepage, preserving default
+  autoplay, hover pause, direct controls and accessible names.
+
+### Content audit and bounded research
+
+Reproducible command: `node scripts/audit-content.cjs --write`.
+Machine-readable result: `qa/content-audit.json`.
+
+- Scanned 1,595 records, all 95 plan memberships, and all 345 unique planned stops.
+- Before corrections: two empty descriptions, two identical park descriptions,
+  283 descriptions below 70 characters. After: zero empty descriptions, zero
+  identical descriptions, 271 short-description review candidates (214 planned).
+  Length is only a triage signal, not proof of error or poor content.
+- Raw fields are preserved, but redundant region/type values and generic reading
+  prompts are omitted in the detail table. This affects 1,532 records; the audit
+  detects zero such fields still rendered through `meaningfulFacts`.
+- Updated 14 descriptions: ten Andes points, Yellowstone, Sebastia, Sequoia and
+  Kings Canyon. Added ten two-part Andes readings, bringing the atlas to 35
+  selected essays / 61 contextual paragraphs. Original source links are retained
+  alongside new specific primary references.
+- Actual plan memberships provide useful direct related-itinerary links for all
+  345 planned records. These are current editorial trip positions, not assertions
+  about historical travel order.
+- Desaguadero–Titijoni and Tiwanacu remain explicitly listed for further site-level
+  research. Their distinct catalogue objects are clarified, but detailed surviving
+  structures were not invented. The full 1,595 sources were not re-fetched or
+  independently fact-checked in this pass.
+
+Research references include Colombia Ministry of Culture resolutions 3317/2013
+and 1593/2006 (Rumichaca), Ecuador INPC's Ingapirca site-museum description,
+Peru Ministry of Culture's Huánuco Pampa storage study, UNESCO Cuzco / Sebastia /
+Qhapaq Ñan maps, Argentina's Tastil entry, Mendoza's Ranchillos project record,
+and NPS park-specific Sequoia / Kings Canyon / Yellowstone descriptions. Colombia
+and Chile direct pages sometimes returned 403 in the web parser; official indexed
+text and available official documents were used, not browser bypasses. No current
+opening hours, border permissions or transport schedules were inferred.
+
+### Passed verification
+
+- Seven unit-test files; every JS/CJS syntax check; all four CSS files parsed;
+  `git diff --check`.
+- Existing DOM regression, carousel regression, and new sidebar/cover/content
+  regression. New checks cover pointer and keyboard resize, bounds, persistence,
+  reset, mobile visibility, all95 cover-to-stop relations, image-error neutral
+  fallback, quiet carousel, meaningful facts and related-route opening.
+- Real cloud Chromium through Sites managed preview: native pointer drag from
+  390px to 580px sidebar. Map CSS width AND actual canvas pixel width became
+  848px. Refresh restored a keyboard-set 406px width. Home/End/Enter bounds/reset
+  worked; cards had 10px gaps and no text overflow even at 280px sidebar width.
+- Real 900×800 CSS viewport: max sidebar 448px, map 440px, reading drawer 281px,
+  within viewport. Real 390×844: separator hidden, 8px card gaps, no overflow,
+  drawer left10/right380/bottom834, usable close and preserved route context.
+- All six interest tabs, theme and itinerary views at desktop and mobile:
+  counts 21/95 total; art5/19, paths6/17, exchange6/37, nature2/17, drives2/5.
+  No fully loaded broken cover images observed. Exact Japan search and Europe
+  region filtering were tested in the actual browser.
+- Actual Rumichaca details show natural stone bridge / Carchi river / heritage
+  context, without the old generic facts table. Huánuco Pampa retains both the
+  original UNESCO map and specific research link. Related-route opening and
+  Escape close passed. Mobile Van Gogh art viewer opened and closed while
+  retaining the detail panel.
+- Real screenshots of separated cards, corrected cover grid, revised Rumichaca
+  and widened sidebar were captured and displayed in the browser tool. The live
+  tab was marked for review; this pass claims no new persistent screenshot file
+  or Library ID.
+
+Limits remain: targeted live-browser verification rather than the complete CLI
+browser suite; responsive CSS viewports rather than physical phones; structural
+content audit rather than exhaustive historical verification; dense map labels
+can still overlap. Neutral covers are deliberate until matching reusable images
+are acquired and verified.
