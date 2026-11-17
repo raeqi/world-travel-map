@@ -30,7 +30,7 @@
   const gap=await page.locator('.discovery-browser').evaluate(el=>el.getBoundingClientRect().top-document.querySelector('.discovery-hero').getBoundingClientRect().bottom);
   assert.ok(gap>=24&&gap<=65,label+' hero/discovery gap: '+gap);
   assert.equal(await page.locator('.hero-controls,.hero-play,[data-hero-step],[data-hero-dot]').count(),0);
-  for(const id of ['parks','impressionism','canal','collection-european-classical-music'])assert.ok(await page.locator('.theme-card[data-theme="'+id+'"]').count(),id+' remains discoverable');
+  for(const id of ['parks','impressionism','canal','european-music-cities'])assert.ok(await page.locator('.theme-card[data-theme="'+id+'"]').count(),id+' remains discoverable');
   await page.locator('[data-interest="nature"]').click();
   assert.equal(await page.locator('.theme-card').count(),2);
   assert.deepEqual((await page.locator('.nature-route-discovery [data-home-plan]').evaluateAll(nodes=>nodes.map(n=>n.dataset.homePlan))).sort(),expected);

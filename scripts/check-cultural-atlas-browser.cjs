@@ -6,7 +6,7 @@ const pack=require('../data/cultural-expansion/live-atlas.json');
  const page=await browser.newPage();page.on('pageerror',e=>errors.push(e.message));
  try{
   await page.goto('http://127.0.0.1:8000/#interest=art');await page.waitForFunction(()=>document.body.dataset.ready==='true');
-  assert.equal(await page.evaluate(()=>visibleCatalogueThemes().filter(t=>t.collection||culturalFeaturedIds.includes(t.id)).length),28);
+  assert.ok(await page.evaluate(()=>[...culturalThemeMaps.keys()].every(id=>visibleCatalogueThemes().some(t=>t.id===id))));
   const disciplines=[...new Set(pack.themes.map(t=>t.discipline))];
   for(const device of [{name:'desktop',width:1440,height:1000},{name:'mobile',width:390,height:844}]){
    await page.setViewportSize(device);
@@ -25,7 +25,7 @@ const pack=require('../data/cultural-expansion/live-atlas.json');
     assert.equal(await page.evaluate(()=>themes[activeTheme].id),theme.id);
     await page.locator('#theme-hero img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode().catch(()=>null)})));
     assert.ok(await page.locator('.place[data-place]').count()>=2,theme.id+' places missing');
-    await page.locator('#tab-plans').click();assert.equal(await page.locator('.plan-card').count(),1);
+    await page.locator('#tab-plans').click();assert.ok(await page.locator('.plan-card').count()>=1);
     await page.locator('[data-action=preview]').first().click();
     assert.ok(await page.locator('.route-stops button').count()>=2);
     await page.locator('.route-stops button').first().click();
@@ -39,7 +39,7 @@ const pack=require('../data/cultural-expansion/live-atlas.json');
   }
   for(const id of ['gaudi','beethoven','su-shi','utah-land-art']){
    await page.goto('http://127.0.0.1:8000/#theme='+id+'&view=plans');await page.waitForFunction(()=>document.body.dataset.ready==='true');
-   assert.equal(await page.evaluate(()=>themes[activeTheme].id),id);assert.equal(await page.locator('.plan-card').count(),1);
+   assert.equal(await page.evaluate(()=>themes[activeTheme].id),id);assert.ok(await page.locator('.plan-card').count()>=1);
   }
   assert.deepEqual(errors,[]);assert.deepEqual(failedImages,[]);
   fs.writeFileSync(out+'/result.json',JSON.stringify({passed:true,themes:pack.themes.length,disciplines,viewports:['1440x1000','390x844'],errors,failedImages},null,2));

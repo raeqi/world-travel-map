@@ -72,7 +72,7 @@ const origin=process.env.SITE_URL||'http://127.0.0.1:8000';
    await page.waitForFunction(id=>document.body.dataset.theme===id&&w>0&&h>0,id);
    assert.equal(await page.locator('#discover-panel').isVisible(),true,id);
    await page.locator('#tab-plans').click();
-   if(id.startsWith('collection-'))assert.ok(await page.locator('.collection-member').count(),id+' has no person sublines');else assert.ok(await page.locator('.plan-card').count(),id+' has no routes');
+   assert.ok(await page.locator('.plan-card').count(),id+' has no routes');
    if(['parks','impressionism','canal'].includes(id))await capture('desktop-'+id);
    checkedThemes.push(id);
    await page.locator('#back-themes').click();
