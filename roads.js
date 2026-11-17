@@ -1671,6 +1671,231 @@ const scenicRoadPhotos=[
   }
 ];
 
+
+const scenicRoadThemes=[
+  {
+    "id": "drive-g219",
+    "name": "G219 · 西部沿边",
+    "roads": [
+      "g219",
+      "g219-ngari"
+    ],
+    "photo": "kanas",
+    "en": "G219 · WESTERN FRONTIER",
+    "story": "从喀纳斯到东兴认识西部沿边走廊，再进入阿里高原与札达支线。",
+    "headline": "穿过高原，<br>读西部边地",
+    "area": "亚洲",
+    "mode": "caravan",
+    "accent": "#825d3f",
+    "ocean": "#e7edf0",
+    "land": "#e4d9c3",
+    "note": "全国总览与阿里区域行程分开阅读；高原、边境管理和补给条件逐段核实。",
+    "keywords": "中国 新疆 西藏 云南 广西 G219 环中国 沿边 札达 阿里"
+  },
+  {
+    "id": "drive-g331",
+    "name": "G331 · 北境界江",
+    "roads": [
+      "g331",
+      "g331-yalu"
+    ],
+    "photo": "dandong",
+    "en": "G331 · RIVERS AND FRONTIERS",
+    "story": "沿界江、森林与草原看中国北境，也可以只选一周鸭绿江慢行。",
+    "headline": "沿着界江，<br>走进北境",
+    "area": "亚洲",
+    "mode": "fieldguide",
+    "accent": "#47604c",
+    "ocean": "#e5edf0",
+    "land": "#dae1d1",
+    "note": "北境总览不连成虚构全程；鸭绿江区域路线按城镇与开放道路探访。",
+    "keywords": "中国 G331 东北 吉林 辽宁 黑龙江 内蒙古 新疆 鸭绿江 漠河 北境"
+  },
+  {
+    "id": "drive-g228",
+    "name": "G228 · 大陆海岸",
+    "roads": [
+      "g228",
+      "g228-shandong"
+    ],
+    "photo": "qingdao",
+    "en": "G228 · CHINA COAST",
+    "story": "从大陆沿海港口看海洋与城市，再以胶东山海作为一段具体旅行。",
+    "headline": "向着海岸，<br>在城市间停留",
+    "area": "亚洲",
+    "mode": "roadside",
+    "accent": "#376777",
+    "ocean": "#dceaf0",
+    "land": "#e2e3d5",
+    "note": "全国海岸与胶东区域分别展示，沿海国道和城市滨海支路不是同一种道路。",
+    "keywords": "中国 G228 沿海 山东 胶东 青岛 威海 乳山 荣成 海阳 环中国"
+  },
+  {
+    "id": "drive-california",
+    "name": "加州 1 号公路",
+    "roads": [
+      "california1"
+    ],
+    "photo": "bixby",
+    "en": "CALIFORNIA · STATE ROUTE 1",
+    "story": "蒙特雷湾、混凝土拱桥、红杉与海雾，串起 Big Sur 海岸的不同尺度。",
+    "headline": "从海湾，<br>驶向悬崖与红杉",
+    "area": "美洲",
+    "mode": "roadside",
+    "accent": "#9b5841",
+    "ocean": "#dce8ee",
+    "land": "#e2dfd1",
+    "note": "这里是加州 SR1 的中部章节；Big Sur 滑坡和维修可能影响南北贯通。",
+    "keywords": "美国一号公路 美国 加州 加利福尼亚 California SR1 Highway 1 Monterey Big Sur 蒙特雷"
+  },
+  {
+    "id": "drive-florida",
+    "name": "佛罗里达海外公路",
+    "roads": [
+      "overseas"
+    ],
+    "photo": "sevenmile",
+    "en": "FLORIDA KEYS · U.S. ROUTE 1",
+    "story": "跨海桥连接岛屿、海洋生活与基韦斯特的文学记忆。",
+    "headline": "一座座岛，<br>一段跨海的路",
+    "area": "美洲",
+    "mode": "voyage",
+    "accent": "#2d6c75",
+    "ocean": "#d9ebee",
+    "land": "#e8e0cb",
+    "note": "美国东岸 US1 的群岛段，与加州 SR1 分开；旧桥步行设施不等于现行车道。",
+    "keywords": "美国一号公路 美国 佛罗里达 US1 Florida Overseas Highway Keys 七英里 基韦斯特 海明威"
+  },
+  {
+    "id": "drive-utah",
+    "name": "犹他 · 红岩风景道",
+    "roads": [
+      "utah12",
+      "utah5"
+    ],
+    "photo": "bryce",
+    "en": "UTAH · SCENIC BYWAYS",
+    "story": "可以慢读 SR12 的红岩与高原森林，也可以把五座国家公园串成一次长旅。",
+    "headline": "在红岩之间，<br>选择自己的节奏",
+    "area": "美洲",
+    "mode": "fieldguide",
+    "accent": "#9d5b3d",
+    "ocean": "#e7edf0",
+    "land": "#ead8be",
+    "note": "SR12 风景道与 Mighty 5 多路组合分别列出，不把五座公园当作一条公路。",
+    "keywords": "美国 犹他 Utah Mighty 5 Highway 12 SR12 国家公园 布莱斯 锡安 拱门 峡谷地"
+  },
+  {
+    "id": "drive-arctic",
+    "name": "加拿大 · 北冰洋公路",
+    "roads": [
+      "arctic"
+    ],
+    "photo": "tombstone",
+    "en": "DEMPSTER · ARCTIC OCEAN",
+    "story": "穿过苔原、北极圈与河渡口，接续另一条公路走向北冰洋社区。",
+    "headline": "越过北极圈，<br>走到海边",
+    "area": "美洲",
+    "mode": "field",
+    "accent": "#4a626a",
+    "ocean": "#dee9ef",
+    "land": "#e0e1d5",
+    "note": "Dempster 接 Inuvik–Tuktoyaktuk；春秋渡口转换可能中断穿越，这不是 Yonge Street。",
+    "keywords": "加拿大 北冰洋 北极圈 Dempster Dawson Inuvik Tuktoyaktuk 育空 Yukon"
+  },
+  {
+    "id": "drive-atlantic",
+    "name": "挪威 · 大西洋之路",
+    "roads": [
+      "atlantic"
+    ],
+    "photo": "storseisund",
+    "en": "NORWAY · ATLANTIC ROAD",
+    "story": "渔村、岛礁、桥群与设计过的观景设施，共同构成一段短而值得慢走的海岸。",
+    "headline": "越过岛礁，<br>与海风同行",
+    "area": "欧洲",
+    "mode": "voyage",
+    "accent": "#385d72",
+    "ocean": "#d9e7ee",
+    "land": "#dce1d5",
+    "note": "以 Bud—Kårvåg 官方风景路线为范围，不与桥群短段或城际延伸混为一谈。",
+    "keywords": "挪威 大西洋之路 Atlantic Road Atlanterhavsvegen Bud Kårvåg"
+  },
+  {
+    "id": "drive-iceland",
+    "name": "冰岛 · 1 号环岛公路",
+    "roads": [
+      "iceland1"
+    ],
+    "photo": "jokulsarlon",
+    "en": "ICELAND · RING ROAD",
+    "story": "从南岸冰川湖到北部火山湖区，用一圈公路认识岛屿的变化。",
+    "headline": "绕岛一圈，<br>看冰与火的边界",
+    "area": "欧洲",
+    "mode": "fieldguide",
+    "accent": "#536774",
+    "ocean": "#dce8ef",
+    "land": "#e0e2d7",
+    "note": "Route 1 为环岛骨架，不含所有半岛与高地 F 路；天气和火山事件仍可能断路。",
+    "keywords": "冰岛 一环 一号公路 Ring Road Route 1 冰川 火山 雷克雅未克"
+  },
+  {
+    "id": "drive-greatocean",
+    "name": "澳大利亚 · 大洋路",
+    "roads": [
+      "greatocean"
+    ],
+    "photo": "apostles",
+    "en": "AUSTRALIA · GREAT OCEAN ROAD",
+    "story": "从冲浪海岸与小镇到森林、灯塔和石灰岩海岸，给十二门徒之外也留时间。",
+    "headline": "沿海慢行，<br>不止十二门徒",
+    "area": "大洋洲",
+    "mode": "roadside",
+    "accent": "#856447",
+    "ocean": "#dde9ed",
+    "land": "#e5ddc9",
+    "note": "Torquay—Allansford 主线含景观支线；历史影像不代表当前岩柱数量或开放状态。",
+    "keywords": "澳大利亚 维多利亚 大洋路 Great Ocean Road 十二门徒 墨尔本 Apollo Bay"
+  },
+  {
+    "id": "drive-milford",
+    "name": "新西兰 · 米尔福德公路",
+    "roads": [
+      "milford"
+    ],
+    "photo": "eglinton",
+    "en": "NEW ZEALAND · MILFORD ROAD",
+    "story": "从湖畔基地走进冰川谷地，经过镜湖和高山隧道，抵达 Piopiotahi。",
+    "headline": "穿过山谷，<br>抵达峡湾尽端",
+    "area": "大洋洲",
+    "mode": "fieldguide",
+    "accent": "#3c6557",
+    "ocean": "#ddebef",
+    "land": "#d6e0d2",
+    "note": "SH94 这里展示单向去程，仍需原路返回；隧道、雪崩控制与步道开放分别确认。",
+    "keywords": "新西兰 米尔福德 峡湾 SH94 Milford Sound Piopiotahi Te Anau 镜湖"
+  },
+  {
+    "id": "drive-garden",
+    "name": "南非 · 花园大道",
+    "roads": [
+      "garden"
+    ],
+    "photo": "storms",
+    "en": "SOUTH AFRICA · GARDEN ROUTE",
+    "story": "在森林、泻湖、海湾与河口之间慢切换，认识道路两侧的生活。",
+    "headline": "从森林，<br>一路走向河海相遇",
+    "area": "非洲",
+    "mode": "field",
+    "accent": "#4d6950",
+    "ocean": "#dfebeb",
+    "land": "#dbe1cf",
+    "note": "N2 走廊与景观支线组合；国家公园的不同片区、步道和海况分别核实。",
+    "keywords": "南非 花园大道 Garden Route N2 Knysna Storms River Mossel Bay"
+  }
+];
+const scenicRoadThemeIds=new Set(scenicRoadThemes.map(t=>t.id));
+const scenicRoadThemeFor=new Map(scenicRoadThemes.flatMap(t=>t.roads.map(id=>[id,t.id])));
 for(const image of scenicRoadPhotos){
  const key='road-photo-'+image.id;
  photoLibrary[key]={...image};
@@ -1681,6 +1906,8 @@ editorialPlacePhotos['road-arches']='np-arch';
 
 const scenicRoadPlaceMap=new Map();
 for(const road of scenicRoads){
+ const themeId=scenicRoadThemeFor.get(road.id);
+ if(!themeId)throw new Error('Unassigned road: '+road.id);
  const sources=road.sources.map(([title,url])=>({title,url}));
  for(const [slug,name,lon,lat,region,type,desc,detail,source] of road.stops){
   const id='road-'+slug;
@@ -1688,9 +1915,11 @@ for(const road of scenicRoads){
    const existing=scenicRoadPlaceMap.get(id);
    if(existing.lon!==lon||existing.lat!==lat)throw new Error('Conflicting road location: '+id);
    existing.roadIds.push(road.id);
+   if(!existing.themes.includes(themeId))existing.themes.push(themeId);
+   for(const s of sources)if(!existing.additionalSources.some(x=>x.url===s.url))existing.additionalSources.push(s);
    continue;
   }
-  const p={id,name,lon,lat,country:road.country,region,type,desc,themes:['roads'],icon:'◇',
+  const p={id,name,lon,lat,country:road.country,region,type,desc,themes:[themeId],icon:'◇',
    roadIds:[road.id],facts:{'观看线索':type,'道路关系':road.scope},
    source:source||road.sources[0][1],sourceLabel:source?'地点管理与文化资料':road.sources[0][0],
    additionalSources:sources,
@@ -1702,7 +1931,7 @@ for(const road of scenicRoads){
 }
 places.push(...scenicRoadPlaceMap.values());
 const scenicRoadPlans=scenicRoads.map(road=>({
- id:'roads-'+road.id,theme:'roads',name:road.name,ids:road.stops.map(s=>'road-'+s[0]),
+ id:'roads-'+road.id,theme:scenicRoadThemeFor.get(road.id),name:road.name,ids:road.stops.map(s=>'road-'+s[0]),
  days:road.days,months:road.months,transport:'自驾分段 + 景区支路与步行',
  topology:road.topology||(road.id==='iceland1'?'loop':'route'),
  reason:road.reason+' '+road.status,climate:road.sources[0][1],
@@ -1710,27 +1939,45 @@ const scenicRoadPlans=scenicRoads.map(road=>({
  sources:road.sources.map(([title,url])=>({title,url})),verifiedOn:'2026-11-17'
 }));
 planTemplates.push(...scenicRoadPlans);
-themes.push({
- id:'roads',name:'世界特色公路',title:'沿着公路，<br>读地形与生活',
- story:'从中国沿边沿海，到北冰洋、峡湾与红岩高原，在道路、自然和人类创造之间停留。',
- scope:'16 条公路行程 · 代表节点 · 非驾驶导航',
- introduction:'收录三条中国沿边沿海国道与世界特色公路。中国长线以分区地点网络呈现，另有阿里、鸭绿江和胶东区域行程；总览不是已验证可连续行驶的全程攻略；其他线路也区分单一道路、多路组合与景点支线。可从推荐行程选一段，逐站读地点，再查看官方道路状态。加拿大北冰洋路线不是 Yonge Street；加州 SR1 与东岸 US1 分开呈现。',
- filters:[...new Set([...scenicRoadPlaceMap.values()].map(p=>p.type))].sort(),
- view:{lon:0,lat:28,zoom:1},symbol:'diamond',
- colors:{accent:'#8d543d',ocean:'#e5ebef',land:'#e5ddcd',edge:'#ad9c85',point:'#8d543d',route:'#a2583f',wash:'#fff'},
- fields:['观看线索','道路关系']
-});
-themeDesigns.roads={mode:'roadside',accent:'#8d543d',ocean:'#e5ebef',land:'#e5ddcd',edge:'#ad9c85',route:'#a2583f',dash:[9,4],width:2.4,
- lens:'把公路读成地貌与生活',note:'区分道路、景点支线与区域基地；开放、过河设施和天气须在出发前重新核实。',line:'站点走廊示意 · 非驾驶导航'};
-themeGlyphs.roads=['mountain','wave','house','gate','tree'];
-themeMedia.roads={photo:'road-photo-bixby',en:'ROADS · LANDSCAPES · LIVES',edition:'公路地理册',motif:'道路 / 自然 / 生活',symbol:'↝'};
-discoveryMeta.roads=['drives',['亚洲','欧洲','美洲','非洲','大洋洲'],
- '自驾 公路 风景道 中国 沿边 环中国 G219 G331 G228 美国一号公路 加州 SR1 US1 佛罗里达 犹他 Mighty 5 Highway 12 Dempster Inuvik Tuktoyaktuk 北冰洋 挪威 大西洋之路 冰岛 大洋路 新西兰 南非 花园大道'];
+for(const def of scenicRoadThemes){
+ const nodes=[...scenicRoadPlaceMap.values()].filter(p=>p.themes.includes(def.id));
+ const longitudes=nodes.map(p=>p.lon),latitudes=nodes.map(p=>p.lat);
+ const west=Math.min(...longitudes),east=Math.max(...longitudes),south=Math.min(...latitudes),north=Math.max(...latitudes);
+ const lat=(north+south)/2,span=Math.max(north-south,(east-west)*Math.cos(lat*Math.PI/180),.3);
+ const zoom=Math.max(1,Math.min(300,90/span));
+ const plans=scenicRoadPlans.filter(p=>p.theme===def.id);
+ themes.push({
+  id:def.id,name:def.name,title:def.headline,story:def.story,
+  scope:plans.length+' 个行程方案 · '+nodes.length+' 个地点 · 非驾驶导航',
+  introduction:def.story+' '+def.note,
+  filters:[...new Set(nodes.map(p=>p.type))].sort(),
+  view:{lon:(west+east)/2,lat,zoom},symbol:'diamond',
+  colors:{accent:def.accent,ocean:def.ocean,land:def.land,edge:'#ad9c85',point:def.accent,route:def.accent,wash:'#fff'},
+  fields:['观看线索','道路关系']
+ });
+ themeDesigns[def.id]={mode:def.mode,accent:def.accent,ocean:def.ocean,land:def.land,edge:'#ad9c85',route:def.accent,dash:[9,4],width:2.4,
+  lens:def.name,note:def.note,line:'站点走廊示意 · 非驾驶导航'};
+ themeGlyphs[def.id]=['mountain','wave','house','gate','tree'];
+ themeMedia[def.id]={photo:'road-photo-'+def.photo,en:def.en,edition:def.name,motif:'道路 / 自然 / 生活',symbol:'↝'};
+ discoveryMeta[def.id]=['drives',[def.area],def.keywords];
+}
 for(const [area,names] of Object.entries({'欧洲':['挪威'],'非洲':['南非'],'大洋洲':['新西兰']}))
  itineraryAreas[area]=[...new Set([...itineraryAreas[area],...names])];
 const arcticStart=places.find(p=>p.id==='road-dawson');
 arcticStart.additionalSources.push({title:'安大略文物信托 · Yonge Street 与 Highway 11 的历史',url:'https://www.heritagetrust.on.ca/plaques/yonge-street'});
-// All registrations happen before the first catalogue/reading index is built.
+// Stable place and route IDs preserve saved trips. Old aggregate links resolve to
+// the matching theme or to the homepage's road-travel collection.
+function migrateScenicRoadHash(hash){
+ const q=new URLSearchParams(hash.replace(/^#/,''));if(q.get('theme')!=='roads')return null;
+ const plan=scenicRoadPlans.find(p=>p.id===q.get('route'));
+ const place=scenicRoadPlaceMap.get(q.get('place'));
+ const target=plan?.theme||place?.themes.find(id=>scenicRoadThemeIds.has(id));
+ if(target){q.set('theme',target);return '#'+q.toString()}
+ const next=new URLSearchParams();next.set('interest','drives');
+ next.set('show',q.get('view')==='plans'?'routes':'themes');
+ const search=q.get('q')||q.get('find');if(search)next.set('find',search);
+ return '#'+next.toString();
+}
 discoveryIndex=null;
 readingPlans=null;
 
@@ -1738,7 +1985,7 @@ document.addEventListener('DOMContentLoaded',()=>{
  const panel=document.querySelector('#route-panel');
  if(!panel)return;
  const update=()=>{
-  if(typeof activePlan==='undefined'||activePlan?.theme!=='roads'||panel.querySelector('.road-route-guide'))return;
+  if(typeof activePlan==='undefined'||!scenicRoadThemeIds.has(activePlan?.theme)||panel.querySelector('.road-route-guide'))return;
   const p=activePlan,guide=document.createElement('details');
   guide.className='road-route-guide';
   guide.innerHTML='<summary>道路范围与出发前核对</summary><p>'+escapeHTML(p.roadScope)+'</p><p>'+escapeHTML(p.accessNote)+'</p><a href="'+p.statusUrl+'" target="_blank" rel="noopener noreferrer">道路状态与当地通告 ↗</a><p class="road-reviewed">背景资料核对：'+p.verifiedOn+'。这里没有实时路况数据。</p>';
