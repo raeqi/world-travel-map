@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+<title id="title">Terra Mosaic · 经纬万象</title>
+<desc id="desc">展开的三折地图，山川与城市由一条路线连接。</desc>
+<rect width="128" height="128" rx="28" fill="#245A69"/>
+<defs><clipPath id="map"><path d="M20 34 49 24 79 34 108 24V94L79 104 49 94 20 104Z"/></clipPath></defs>
+<path d="M20 34 49 24 79 34 108 24V94L79 104 49 94 20 104Z" fill="#F7F6F2"/>
+<g clip-path="url(#map)">
+<path d="M17 66 37 43 47 54 53 48 70 65Z" fill="#245A69"/>
+<path d="M83 78V59H91V51H101V59H111V79Z" fill="#245A69"/>
+<path d="M65 63C91 75 42 75 58 85S91 80 112 79" fill="none" stroke="#B7553D" stroke-width="6" stroke-linecap="round"/>
+<path d="M49 24V94M79 34V104" fill="none" stroke="#245A69" stroke-width="1.5" opacity=".35"/>
+</g>
+</svg>

@@ -1,0 +1,7 @@
+
+/* Road guides use the atlas' existing spacing and typography. */
+.road-route-guide{margin:0 0 18px;padding:13px 15px;border:1px solid #ded8cf;background:#faf8f4;border-radius:4px;font-size:13px;line-height:1.7}
+.road-route-guide summary{cursor:pointer;font-weight:600;color:#684932}
+.road-route-guide p{margin:10px 0}
+.road-route-guide a{display:inline-block;color:#684932;text-underline-offset:3px}
+.road-route-guide .road-reviewed{font-size:11px;color:#706b64}

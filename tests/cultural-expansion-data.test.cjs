@@ -12,6 +12,7 @@ test('rejects missing locations, sources and false materialized-asset claims', (
   broken.plans[0].placeIds.push('missing-stop');
   broken.places[0].sourceIds = [];
   broken.media[0].status.downloaded = true;
+  broken.media[0].status.hash = null;
   const errors = validateCulturalPack(broken);
   assert.ok(errors.some(x => x.includes('unknown stop')));
   assert.ok(errors.some(x => x.includes('evidence required')));

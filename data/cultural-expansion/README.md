@@ -102,3 +102,11 @@
 ## GitHub Actions 后续验证
 
 [工作流 44051350746](https://github.com/raeqi/world-travel-map/actions/runs/44051350746) 已在 Node.js 22 完成现有项目和新增数据的检查：10项测试通过、0失败，JavaScript语法检查和站点打包准备通过。PR不会执行部署。该结果仍不等于素材已下载或新主题已接入界面；本地执行器与浏览器验收尚不可用。
+
+## Page integration (2026-11-17)
+
+`cultural-routes.js` now registers four themes, ten plans, twenty new locations (Nihonbashi reuses the existing Tokyo node), seven paintings/prints, and place-level essays. Bach musical work and Austen novels are linked as reading context, not fabricated audio or paintings. Museum and depicted-place links remain distinct.
+
+Sixteen actual WebP images are supplied in `assets/cultural-routes/`; the original Bach/Austen building photo evidence and licences are in `photograph-sources.json`. The Bath Royal Crescent photo is **not** attached to the Assembly Rooms node. Optional low-resolution Bach portrait and Persuasion illustration remain unbundled. The contact sheet was inspected; browser layout must still be checked on the managed cloud preview before merging. Local Chromium is blocked by the execution environment's socket restriction.
+
+Validation: `node --test tests/*.test.cjs` (10 passing); `JSDOM_MODULE=/tmp/atlas-dom-tools/node_modules/jsdom node scripts/check-cultural-dom.cjs` (four themes, plans, next/previous location and artwork navigation). DOM checks do not substitute for browser layout/image decoding QA.

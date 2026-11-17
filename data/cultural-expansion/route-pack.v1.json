@@ -175,6 +175,14 @@
       "type": "media-record",
       "checked": "page-opened-rights-read",
       "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "hokusaiMisakaInterpretation",
+      "url": "https://www.metmuseum.org/art/collection/search/54868",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17",
+      "note": "同题另一馆藏版本的两季解释；仅作为构图解读来源，不替换本包36495版本的图像及馆藏编号。"
     }
   ],
   "themes": [
@@ -338,7 +346,8 @@
       "desc": "《甲州三坂水面》中山体与倒影并不完全相同：水中的富士山带有积雪，画面上方的山却没有。馆方将其解释为可能把两个季节放进同一幅画面的视觉处理。",
       "lookFor": "先比较山与倒影的差别，再看湖面和渔船怎样形成安静的节奏。地图只标湖区，不宣称确定了北斋站立的机位。",
       "sourceIds": [
-        "hokusaiMisaka"
+        "hokusaiMisaka",
+        "hokusaiMisakaInterpretation"
       ],
       "coordinateStatus": "editorial-representative-not-navigation",
       "precision": "lake-area",
@@ -399,7 +408,7 @@
     {
       "id": "vermeer-mauritshuis",
       "theme": "vermeer",
-      "name": "海牙 · 玛丽皇家美术馆 Mauritshuis",
+      "name": "海牙 · 莫瑞泰斯皇家美术馆 Mauritshuis",
       "lon": 4.314,
       "lat": 52.08,
       "country": "荷兰",
@@ -1255,9 +1264,9 @@
       "status": {
         "rightsPageChecked": true,
         "downloadLinkResolved": true,
-        "downloaded": false,
-        "visualChecked": false,
-        "hash": null
+        "downloaded": true,
+        "visualChecked": true,
+        "hash": "00420144b3bdd18de781c131e490dca0436ea18ed75b45f07749fda68c2df595"
       },
       "use": "作品全幅阅读与对应地景卡面；不得称作现代实景摄影。"
     },
@@ -1276,9 +1285,9 @@
       "status": {
         "rightsPageChecked": true,
         "downloadLinkResolved": true,
-        "downloaded": false,
-        "visualChecked": false,
-        "hash": null
+        "downloaded": true,
+        "visualChecked": true,
+        "hash": "c2d947d0202302eb79c444756cdb754e720f04af6abb2dd1e5fce1001c1541ff"
       },
       "use": "作品全幅阅读与对应地景卡面；不得称作现代实景摄影。"
     },
@@ -1297,9 +1306,9 @@
       "status": {
         "rightsPageChecked": true,
         "downloadLinkResolved": true,
-        "downloaded": false,
-        "visualChecked": false,
-        "hash": null
+        "downloaded": true,
+        "visualChecked": true,
+        "hash": "5097563522a4ec310340912b53c7622cbe0dcd4a315e2951fd6860a87f071eb7"
       },
       "use": "作品全幅阅读与对应地景卡面；不得称作现代实景摄影。"
     },
@@ -1318,9 +1327,9 @@
       "status": {
         "rightsPageChecked": true,
         "downloadLinkResolved": true,
-        "downloaded": false,
-        "visualChecked": false,
-        "hash": null
+        "downloaded": true,
+        "visualChecked": true,
+        "hash": "fa9af140afc8e16a5fa4a0c4b4cfe7ee251421372d4fa29029d1ab8ad8132948"
       },
       "use": "作品全幅阅读与对应地景卡面；不得称作现代实景摄影。"
     },
@@ -1339,9 +1348,9 @@
       "status": {
         "rightsPageChecked": true,
         "downloadLinkResolved": true,
-        "downloaded": false,
-        "visualChecked": false,
-        "hash": null
+        "downloaded": true,
+        "visualChecked": true,
+        "hash": "886dd1df3f153cd28830564c332d4d60049258e50a5d9e5bf2616e2c59d94c3f"
       },
       "use": "作品全幅阅读与对应地景卡面；不得称作现代实景摄影。"
     },
@@ -1364,9 +1373,9 @@
       "status": {
         "rightsPageChecked": true,
         "downloadLinkResolved": true,
-        "downloaded": false,
-        "visualChecked": false,
-        "hash": null
+        "downloaded": true,
+        "visualChecked": true,
+        "hash": "41ca7efcc5e568b6eda8ed91ffca72583574cf11f41070a5e0908c67c9e840c9"
       },
       "use": "与代尔夫特具体描绘地点绑定；馆藏卡必须标明现藏机构，不能让用户误认创作地。"
     },
@@ -1389,9 +1398,9 @@
       "status": {
         "rightsPageChecked": true,
         "downloadLinkResolved": true,
-        "downloaded": false,
-        "visualChecked": false,
-        "hash": null
+        "downloaded": true,
+        "visualChecked": true,
+        "hash": "81b9dfdf9dffe1eb996a47928b866f070c664459b3aaf69a8983d459c5559677"
       },
       "use": "与代尔夫特具体描绘地点绑定；馆藏卡必须标明现藏机构，不能让用户误认创作地。"
     },
@@ -1457,9 +1466,9 @@
       "status": {
         "rightsPageChecked": true,
         "downloadLinkResolved": true,
-        "downloaded": false,
-        "visualChecked": false,
-        "hash": null
+        "downloaded": true,
+        "visualChecked": true,
+        "hash": "546e57e004abc2ec7c7e7e258fb9e9504ea38379494eda3321b1c944786ce641"
       },
       "attribution": "Jane Austen's House Museum, Chawton — Simon Burchell, CC BY-SA 4.0；处理时注明缩放/压缩/裁切，处理版本保留原许可。",
       "use": "可作查顿点位、包含查顿的行程及奥斯汀主题代表影像；不冒充巴斯或莱姆的照片。"
@@ -1481,7 +1490,7 @@
     "notes": [
       "本包单独保存；由主任务在图片与点位布局稳定后统一接入。",
       "复用 nakasendo-tokyo 和 impressionism-met，避免同一地点重复建点。",
-      "新主题需在首页地域、兴趣和关键词索引中注册；音乐和文学不能都归入绘画。",
+      "现有首页“艺术与人物”筛选涵盖绘画、音乐与文学；本批沿用此分类，并通过主题名称与关键词区别，不宣称已有独立音乐或文学筛选。",
       "图片在下载、压缩、哈希与视觉核验前不能当作生产资源；原作全幅应可读，封面裁切另作CSS。"
     ]
   },
