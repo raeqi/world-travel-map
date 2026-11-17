@@ -1,0 +1,48 @@
+name: Verify published natural maps
+on:
+  push:
+    branches: [qa/natural-live-20261117]
+permissions:
+  contents: read
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compare live code and all natural photos
+        env:
+          SITE_URL: https://raeqi.github.io/world-travel-map
+        run: |
+          node <<'NODE'
+          const fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto');
+          (async()=>{
+            const media=vm.runInNewContext(fs.readFileSync('natural-atlas-media.js','utf8')+';naturalAtlasMedia');
+            const files=['index.html','app.js','flow.js','terra.css','discovery.js','natural-atlas.js','natural-atlas-media.js',...Object.values(media).map(m=>m.path)];
+            for(const file of files){
+              const response=await fetch(process.env.SITE_URL+'/'+file+'?verified='+process.env.GITHUB_SHA,{cache:'no-store'});
+              if(!response.ok)throw Error(file+' HTTP '+response.status);
+              const actual=Buffer.from(await response.arrayBuffer()),expected=fs.readFileSync(file);
+              if(!actual.equals(expected))throw Error(file+' differs from main');
+            }
+            console.log('LIVE_NATURAL_HASH_REPORT '+JSON.stringify({files:files.length,photos:Object.keys(media).length,allMatch:true}));
+          })().catch(e=>{console.error(e);process.exitCode=1});
+          NODE
+      - run: npm install --no-save --no-package-lock playwright@1.56.1
+      - run: npx playwright install --with-deps chromium
+      - name: Exercise published desktop and mobile maps
+        env:
+          SITE_URL: https://raeqi.github.io/world-travel-map
+          INLINE_SCREENSHOTS: '1'
+        run: node scripts/check-nature-discovery.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: published-natural-maps
+          path: qa/nature-discovery/
+          retention-days: 14
