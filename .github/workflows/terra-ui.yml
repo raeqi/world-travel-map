@@ -11,6 +11,7 @@ on:
       - 'scripts/check-terra-ui.cjs'
       - 'scripts/check-carousel.cjs'
       - 'scripts/check-nature-discovery.cjs'
+      - 'scripts/check-media-presentation.cjs'
       - '.github/workflows/terra-ui.yml'
   workflow_dispatch:
 
@@ -31,7 +32,7 @@ jobs:
         with:
           node-version: '22'
       - name: Install isolated test tools
-        run: npm install --no-save --no-package-lock jsdom@26.1.0 playwright@1.56.1
+        run: npm install --no-save --no-package-lock jsdom@26.1.0 playwright@1.56.1 axe-core
       - name: Check carousel behaviour
         run: |
           node scripts/check-carousel.cjs
@@ -51,7 +52,9 @@ jobs:
       - name: Check desktop and mobile UI
         env:
           INLINE_SCREENSHOTS: '1'
-        run: node scripts/check-terra-ui.cjs
+        run: |
+          node scripts/check-media-presentation.cjs
+          node scripts/check-terra-ui.cjs
       - name: Check nature discovery and real carousel timing
         env:
           INLINE_SCREENSHOTS: '1'
@@ -63,6 +66,7 @@ jobs:
           name: terra-mosaic-browser
           path: |
             qa/terra-mosaic/
+            qa/media-presentation/
             qa/nature-discovery/
           if-no-files-found: ignore
           retention-days: 14
