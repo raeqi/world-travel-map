@@ -1,0 +1,42 @@
+name: Published startup and cache checks
+on:
+  pull_request:
+    branches: [main]
+    paths: ['index.html','startup-guard.js','scripts/build-site.cjs','scripts/check-startup.cjs','tests/startup-build.test.cjs','tests/fixtures/legacy-app-377a6a9.js','.github/workflows/pages.yml','.github/workflows/startup-qa.yml']
+  workflow_run:
+    workflows: ['Test and deploy travel map']
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  startup:
+    if: github.event_name != 'workflow_run' || (github.event.workflow_run.event == 'push' && github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --no-package-lock playwright@1.56.1
+      - run: npx playwright install --with-deps chromium
+      - name: Real HTTP cache regression
+        if: github.event_name != 'workflow_run'
+        run: node scripts/check-startup.cjs
+      - name: Verify the actual deployed homepage and deep links
+        if: github.event_name == 'workflow_run'
+        env:
+          SITE_URL: https://raeqi.github.io/world-travel-map/
+          LIVE_ONLY: '1'
+        run: node scripts/check-startup.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: startup-browser
+          path: |
+            qa/startup/*.png
+            qa/startup/result.json
+          retention-days: 14
