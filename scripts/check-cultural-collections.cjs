@@ -44,6 +44,13 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-colle
    await open('#theme=collection-setouchi-art&view=places');
    assert.equal(await page.evaluate(()=>filtered().every(p=>p.country==='日本'&&p.lon>133&&p.lon<135&&p.lat>34&&p.lat<35)),true);
    await page.locator('#back-themes').click();assert.equal(await page.locator('#cultural-collection-directory').count(),0);
+   // Switching from Hunan to Heilongjiang must move the map as well as the list.
+   await open('#theme=collection-modern-chinese-literature&view=places');
+   await page.locator('#collection-person').selectOption('xiao-hong');
+   const checkFrame=async()=>{await page.waitForFunction(()=>camera===null&&Math.abs(zoom-targetZoom)<.01);assert.ok(await page.evaluate(()=>filtered().every(p=>{const q=project(p.lon,p.lat),s=screen(q);return q[2]>0&&s[0]>0&&s[0]<w&&s[1]>0&&s[1]<h})));assert.equal(await page.evaluate(()=>previewStops),null)};
+   await checkFrame();await page.reload();await page.waitForFunction(()=>document.body.dataset.ready==='true');await checkFrame();
+   await page.screenshot({path:out+'/'+device.name+'-filtered-map.png'});
+   await open('#theme=collection-modern-architecture&view=places');await page.locator('#collection-region').selectOption('日本');await checkFrame();
   }
   assert.deepEqual(errors,[]);assert.deepEqual(failedImages,[]);
   fs.writeFileSync(out+'/result.json',JSON.stringify({passed:true,collections:18,featured:10,retainedPersonThemes:76,viewports:['1440x1000','390x844'],errors,failedImages},null,2));

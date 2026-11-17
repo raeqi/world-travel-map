@@ -26,13 +26,19 @@ let collectionPerson='';
 function collectionMembers(collection){return collection.members.map(m=>typeof m==='string'?{id:m}:m)}
 function collectionMemberPlaces(member){const ids=atlasThemePlaceIds.get(member.id);return (ids||places.filter(p=>p.themes.includes(member.id)).map(p=>p.id)).map(id=>places.find(p=>p.id===id)).filter(p=>!member.keys||member.keys.some(key=>atlasContextByPlace.get(p.id)?.contexts.get(member.id)?.key===key))}
 function collectionContexts(record,id){const collection=culturalCollections.get(id);return collection?collectionMembers(collection).filter(m=>collectionMemberPlaces(m).some(p=>p.id===record.place.id)).map(m=>record.contexts.get(m.id)).filter(Boolean):[]}
+function culturalCollectionView(nodes){
+ const reference=nodes[0].lon,lons=nodes.map(p=>reference+((p.lon-reference+540)%360)-180),lats=nodes.map(p=>p.lat);
+ const lon=((Math.min(...lons)+Math.max(...lons))/2+540)%360-180,lat=(Math.min(...lats)+Math.max(...lats))/2;
+ const radius=Math.max(1,...nodes.map(p=>distanceKm({lon,lat},p)));
+ return {lon,lat,zoom:Math.max(.8,Math.min(60,.72/Math.sin(Math.min(Math.PI/2,radius/6371))))};
+}
 for(const definition of culturalCollectionDefinitions){
  const id='collection-'+definition.id,collection={...definition,id};culturalCollections.set(id,collection);
  const members=collectionMembers(collection),sources=members.map(m=>themes.find(t=>t.id===m.id)),nodes=[...new Set(members.flatMap(collectionMemberPlaces))];
  if(sources.some(t=>!t)||!nodes.length)throw Error('Invalid cultural collection: '+id);
  for(const p of nodes)if(!p.themes.includes(id))p.themes.push(id);
  const first=sources[0],disciplines=[...new Set(sources.flatMap(themeDisciplines))],intro=definition.note+' 这是关联合集；进入人物子线后分别安排探访。当前内容仍是首批精选，未因合并而补齐生平或全部作品。';
- themes.push({id,name:definition.name,title:definition.name,story:definition.note,introduction:intro,scope:'关联合集 · 按地区与人物分读 · 无总路线',collection:true,disciplines,filters:[],fields:['地点关系','现场观察'],view:definition.id==='setouchi-art'?{lon:134.04,lat:34.4,zoom:80}:first.view,symbol:first.symbol,colors:{...first.colors}});
+ themes.push({id,name:definition.name,title:definition.name,story:definition.note,introduction:intro,scope:'关联合集 · 按地区与人物分读 · 无总路线',collection:true,disciplines,filters:[],fields:['地点关系','现场观察'],view:culturalCollectionView(nodes),symbol:first.symbol,colors:{...first.colors}});
  themeDesigns[id]={...themeDesigns[first.id],lens:'专题合集 · 先选地区或人物',note:'各子线独立探索，不设跨地区顺序、总天数或全年适游承诺。',line:'合集地点分布 · 无连续路线'};
  themeGlyphs[id]=themeGlyphs[first.id];themeMedia[id]={...themeMedia[first.id],en:'CULTURAL COLLECTION',edition:definition.name,motif:'关联合集 · 地区与人物索引'};
  const firstStory=editionStories[first.id];if(firstStory)editionStories[id]={...firstStory,headline:definition.name,body:intro,tag:'专题合集'};
@@ -64,8 +70,8 @@ function renderCulturalCollectionDirectory(){
  section.innerHTML=collection?`<h2>按地区与人物找子线</h2>${collectionDirectoryHTML(collection)}`:`<p>所属专题合集</p>${parents.map(c=>`<a href="#theme=${c.id}&view=places" data-collection-theme="${c.id}">${escapeHTML(c.name)} ↗</a>`).join('')}`;
  document.querySelector('#theme-reading').after(section);bindCollectionThemeLinks(section);
  if(!collection)return;
- renderCollectionMembers(collection);
- section.querySelector('#collection-person').onchange=e=>{collectionPerson=e.target.value;leaveRoute(false);selected=null;document.querySelector('#detail').hidden=true;filterCacheKey='';renderList();renderCollectionMembers(collection);writeNavigation(true)};
- section.querySelector('#collection-region').onchange=e=>{document.querySelector('#region-filter').value=e.target.value;leaveRoute(false);selected=null;document.querySelector('#detail').hidden=true;filterCacheKey='';renderList();renderCollectionMembers(collection);writeNavigation(true)};
+ renderCollectionMembers(collection);fitRoute(filtered());
+ section.querySelector('#collection-person').onchange=e=>{collectionPerson=e.target.value;leaveRoute(false);selected=null;document.querySelector('#detail').hidden=true;filterCacheKey='';renderList();renderCollectionMembers(collection);fitRoute(filtered());writeNavigation(true)};
+ section.querySelector('#collection-region').onchange=e=>{document.querySelector('#region-filter').value=e.target.value;leaveRoute(false);selected=null;document.querySelector('#detail').hidden=true;filterCacheKey='';renderList();renderCollectionMembers(collection);fitRoute(filtered());writeNavigation(true)};
 }
 discoveryIndex=null;readingPlans=null;

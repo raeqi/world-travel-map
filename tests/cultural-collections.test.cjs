@@ -28,3 +28,10 @@ test('person search returns collections; route search retains all original plans
  const naples=buildPlans('turner',0)[0].stops.find(p=>p.name==='那不勒斯'),essay=placeEssays[naples.id];assert.ok(essay.paragraphs.some(p=>p.heading.includes('透纳')));assert.ok(essay.paragraphs.some(p=>p.heading.includes('歌德')));assert.ok(essay.sources.length>=2);
  activeTheme=themes.findIndex(t=>t.id==='goethe');assert.ok(naples.desc.includes('歌德'));assert.ok(!naples.desc.includes('透纳'));
 `,runtime()));
+
+test('collection default framing covers the full regional membership',()=>vm.runInContext(`
+ const view=themes.find(t=>t.id==='collection-modern-chinese-literature').view;
+ assert.ok(view.lat>35&&view.lat<42);assert.ok(view.zoom<6);
+ const globalView=themes.find(t=>t.id==='collection-modern-architecture').view;assert.ok(globalView.zoom<1.5);
+ const wrapped=culturalCollectionView([{lon:179,lat:30},{lon:-179,lat:32}]);assert.ok(Math.abs(wrapped.lon)>175);assert.ok(wrapped.zoom>5);
+`,runtime()));
