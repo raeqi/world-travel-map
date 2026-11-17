@@ -9,17 +9,21 @@ const fs=require('node:fs'),assert=require('node:assert/strict');
   for(const [device,width,height] of [['desktop',1440,1000],['mobile',390,844]]){
    await page.setViewportSize({width,height});
 
+   const added=require('../data/cultural-expansion/live-atlas.json').themes;
+   const music=['bach','mozart',...added.filter(t=>t.discipline==='music').map(t=>t.id)].sort();
+   const paintingAsia=['hokusai',...added.filter(t=>t.discipline==='painting'&&t.stops.some(s=>s.country==='日本'||s.country==='中国')).map(t=>t.id)].sort();
+   const shown=async()=>(await page.locator('.discovery-card').evaluateAll(cards=>cards.map(x=>x.dataset.theme))).sort();
    await page.goto('http://127.0.0.1:8000/#interest=art&discipline=music');
    await page.waitForFunction(()=>document.body.dataset.ready==='true');
    assert.equal(await page.locator('#catalog-discipline').inputValue(),'music');
-   assert.deepEqual((await page.locator('.discovery-card').evaluateAll(cards=>cards.map(x=>x.dataset.theme))).sort(),['bach','mozart']);
+   assert.deepEqual(await shown(),music);
    await page.locator('#catalog-discipline').selectOption('painting');
    await page.locator('#catalog-area').selectOption('亚洲');
-   assert.deepEqual(await page.locator('.discovery-card').evaluateAll(cards=>cards.map(x=>x.dataset.theme)),['hokusai']);
+   assert.deepEqual(await shown(),paintingAsia);
    await page.reload();
    await page.waitForFunction(()=>document.body.dataset.ready==='true');
    assert.equal(await page.locator('#catalog-discipline').inputValue(),'painting');
-   assert.deepEqual(await page.locator('.discovery-card').evaluateAll(cards=>cards.map(x=>x.dataset.theme)),['hokusai']);
+   assert.deepEqual(await shown(),paintingAsia);
    await page.screenshot({path:`${output}/cultural-discovery-${device}.png`});
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),true,`discovery/${device} horizontal overflow`);
    await page.locator('[data-interest="paths"]').click();

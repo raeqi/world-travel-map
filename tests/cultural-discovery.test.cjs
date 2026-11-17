@@ -31,7 +31,7 @@ test('discipline is restored from shared URLs and ignored outside art discovery'
   location.hash='#interest=art&discipline=unknown';readHomeState();assert.equal(homeState.discipline,'all');
  `,c);
 });
-test('planning catalogue does not register unfinished themes or unverified coordinates',()=>{
+test('catalogue keeps original research candidates distinct from implemented selections',()=>{
  const pack=require('../data/cultural-expansion/catalogue.json'),c=app();
  assert.equal(pack.entries.length,76);assert.equal(new Set(pack.entries.map(e=>e.id)).size,76);
  assert.equal(pack.scope.discussionTotal,80);
@@ -40,7 +40,7 @@ test('planning catalogue does not register unfinished themes or unverified coord
   assert.ok(e.sources.length,e.id);assert.ok(e.candidatePlaces.length,e.id);
   assert.ok(e.sources.every(s=>s.url.startsWith('https://')),e.id);
   assert.ok(e.candidatePlaces.every(p=>p.coordinate===null&&p.coordinateStatus==='pending'),e.id);
-  assert.equal(e.status,'research');assert.equal(e.readiness.interface,false);
+  assert.equal(e.status,'integrated-selected-places');assert.equal(e.readiness.interface,true);assert.ok(e.selectedPlaces.length>=2);assert.ok(e.selectedPlaces.every(p=>Number.isFinite(p.lon)&&Number.isFinite(p.lat)));
  }
  c.candidateIds=pack.entries.map(e=>e.id);
  vm.runInContext('assert.ok(candidateIds.every(id=>!themes.some(t=>t.id===id)))',c);

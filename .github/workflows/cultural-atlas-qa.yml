@@ -1,0 +1,38 @@
+name: Cultural atlas 76-theme browser checks
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'cultural-atlas*.js'
+      - 'data/cultural-expansion/live-atlas.json'
+      - 'assets/cultural-atlas/**'
+      - 'scripts/check-cultural-atlas-browser.cjs'
+      - '.github/workflows/cultural-atlas-qa.yml'
+      - 'index.html'
+permissions:
+  contents: read
+jobs:
+  atlas-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/*.test.cjs
+      - run: |
+          npm install --no-save --package-lock=false playwright
+          npx playwright install --with-deps chromium
+      - name: Open all 76 cultural themes on desktop and mobile
+        run: |
+          python3 -m http.server 8000 --bind 127.0.0.1 >/tmp/cultural-atlas-server.log 2>&1 &
+          node scripts/check-cultural-atlas-browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cultural-atlas-browser
+          path: |
+            qa/cultural-atlas-browser/
+            /tmp/cultural-atlas-server.log
+          retention-days: 14
