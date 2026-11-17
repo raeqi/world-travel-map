@@ -4,7 +4,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 for(const viewport of [{width:1440,height:1000},{width:390,height:844}]){
  const page=await browser.newPage({viewport});const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('http://localhost:8000');await page.waitForFunction(()=>typeof flowReady!=='undefined'&&flowReady);
- for(const [theme,count,route] of [['xu',24,'xu-zhejiang'],['kumano',6,'kumano-nakahechi'],['camino',19,'camino-frances']]){
+ for(const [theme,count,route] of [['xu',24,'xu-zhejiang'],['kumano',6,'kumano-nakahechi'],['camino',43,'camino-frances']]){
   await page.locator(`.theme-card[data-theme=${theme}]`).click();await page.waitForFunction(()=>land.length>0);
   assert.equal(await page.locator('#count').textContent(),count+' 个地点');
   await page.locator('#tab-plans').click();assert.equal(await page.locator('.plan-card').count(),theme==='xu'?6:3);

@@ -1,0 +1,134 @@
+/* Source-led cultural editions. Controls retain the atlas' familiar geography. */
+.cultural-heading{grid-column:1/-1;margin:34px 0 0;padding-top:30px;border-top:1px solid #dce2e7}
+.cultural-heading h2{font:500 31px/1.45 'Noto Serif CJK SC','Songti SC',serif;letter-spacing:1px;margin:0 0 12px}
+.cultural-heading p{font-size:13px;color:#65717d;margin:0 0 10px}
+.theme-card.cultural-card{align-self:start}
+.cultural-card .card-copy>small{font-size:11px;letter-spacing:.8px!important}
+.cultural-card strong{font-family:'Noto Serif CJK SC','Songti SC',serif;font-size:25px;font-weight:500!important}
+.cultural-card .card-art{height:260px;border-radius:0!important;overflow:visible}
+.cultural-card .art-caption{position:static;display:block;min-height:38px;padding:9px 0;color:#65717d;font-size:10px;letter-spacing:0;line-height:1.65}
+.cultural-card .card-copy{padding-top:45px!important}
+.cultural-card .card-copy p{font-size:12px;line-height:1.9;min-height:46px}
+.cultural-card .card-number{display:none}
+.edition-cover{height:100%;width:100%;position:relative;overflow:hidden;background:#e8edf0}
+.edition-cover img{display:block;width:100%;height:100%;object-fit:cover;filter:none!important;mask-image:none!important}
+.cover-nakasendo{display:grid;grid-template-columns:70% 30%;background:#e4e4d7;gap:5px;padding:10px}
+.print-panel,.street-panel{min-width:0;min-height:0;position:relative}
+.print-panel img{object-fit:contain;background:#dedfd0}
+.street-panel img{object-position:50% 60%}
+.street-panel span{position:absolute;bottom:0;left:0;right:0;background:#263c32dc;color:white;text-align:center;font:11px/1.8 'Noto Serif CJK SC',serif;padding:6px}
+.cover-francigena img{object-position:50% 65%}
+.cover-andes{background:#dbe3e5}
+.cover-andes>img{object-position:50% 45%}
+.document-inset{position:absolute;left:18px;bottom:16px;width:76px;height:118px;border:4px solid white;box-shadow:0 2px 15px #0002}
+.document-inset img{object-fit:contain;background:white}
+.cover-note{position:absolute;right:18px;bottom:16px;color:white;text-shadow:0 1px 5px #1e3544;font:17px/1.7 'Noto Serif CJK SC',serif;text-align:right}
+.cover-buddhist{padding-bottom:32px;background:#ece7db}
+.life-events{position:absolute;bottom:0;left:0;right:0;color:#72582e;text-align:center;font:12px/32px 'Noto Serif CJK SC',serif;letter-spacing:2px}
+.cover-canal img{object-position:50% 55%}
+.cover-viking{display:flex;background:#233e4e;align-items:center;justify-content:space-between;padding:18px 20px;color:#f2f5f3}
+.cover-viking>img{width:48%!important;object-fit:contain!important}
+.object-title{font:25px/1.7 'Noto Serif CJK SC','Songti SC',serif;letter-spacing:3px}
+.object-title small{display:block;font:10px/1.6 sans-serif;letter-spacing:1px;margin-top:23px;color:#c5d5de}
+.cover-impressionism{display:grid;grid-template-columns:62% 38%;gap:9px;background:#f0f1f4;padding:12px}
+.painting-main,.painting-second{min-width:0;height:100%;overflow:hidden}
+.cover-impressionism img{object-fit:contain!important}
+.painting-second{display:flex;align-items:center;background:#e5e8eb}
+.cover-mozart{background:#ede8d5;padding:14px 32px}
+.cover-mozart>img{object-fit:contain!important}
+.score-label{position:absolute;right:14px;bottom:15px;padding:12px 16px;background:#f9f8efef;color:#514b3c;font:32px/1.1 Georgia,serif}
+.score-label small{display:block;font:10px/1.7 sans-serif;margin-top:5px}
+.cover-route66{background:#c9d7dd}
+.cover-route66>img{object-position:40% 50%}
+.road-sign{position:absolute;right:17px;top:18px;width:68px;height:94px;box-shadow:0 4px 10px #0003}
+.road-sign img{object-fit:contain!important}
+.cover-nc500 img{object-position:50% 58%}
+body[data-view=map] #theme-hero:has(.edition-cover){height:215px;margin:18px 0 14px;border:0;background:transparent}
+body[data-view=map] #theme-hero:has(.edition-cover):after{display:none}
+#theme-hero .read-plate{position:absolute;right:10px;top:auto;bottom:10px;z-index:2;border:1px solid #fff9;border-radius:3px;padding:7px 10px;background:#ffffffed;color:#25323e;font-size:10px;letter-spacing:0;text-decoration:none;box-shadow:0 1px 6px #0001}
+#theme-hero .street-panel span{position:absolute;bottom:0;left:0;letter-spacing:0;font-size:10px;line-height:1.8}
+#theme-hero .cover-note{position:absolute;right:14px;bottom:50px;left:auto;font-size:13px;letter-spacing:0}
+#theme-hero .life-events{position:absolute;bottom:0;left:0;line-height:32px;letter-spacing:1px;color:#72582e}
+#theme-hero:has(.life-events) .read-plate{bottom:42px}
+#theme-hero .score-label{position:absolute;right:12px;bottom:45px;left:auto;color:#514b3c;font:24px/1.1 Georgia,serif;letter-spacing:0}
+#theme-hero .score-label small{font-size:9px}
+#theme-hero .object-title{font-size:23px}
+body[data-map-style=gallery] #theme-hero:has(.edition-cover){height:235px}
+body[data-map-style=gallery] .intro{max-width:320px}
+body[data-map-style=gallery] #theme-reading{border:0;padding-bottom:5px}
+body[data-map-style=score] #theme-reading{border-top:0}
+#theme-reading .plate-caption{font-size:10px;line-height:1.8;margin-top:12px;color:#53606b}
+.edition-source{background:none;border:0;padding:0;font-size:10px;color:#4e6679;text-decoration:underline;text-underline-offset:3px;margin-top:8px}
+#edition-exhibit{margin:0 0 26px}
+.exhibit-heading h3{font:500 20px/1.6 'Noto Serif CJK SC',serif;margin:4px 0 8px}
+.exhibit-heading>p{font-size:11px;line-height:1.9;color:#65717d;margin:0 0 20px}
+.artwork-grid{display:grid;gap:28px}
+.artwork-card{margin:0}
+.artwork-image{display:block;width:100%;height:215px;padding:12px;border:0;background:#eef0f3}
+.artwork-image img{height:100%;width:100%;object-fit:contain}
+.artwork-card figcaption{padding:12px 0 0}
+.artwork-date{float:right;font:13px Georgia,serif;color:#65717d}
+.artwork-card h4{font:500 16px/1.7 'Noto Serif CJK SC',serif;margin:0 45px 5px 0}
+.artwork-card p{font-size:11px;color:#53606b;margin:0 0 10px}
+.artwork-card dl,.work-locations{font-size:11px;line-height:1.7;margin:10px 0 12px}
+.artwork-card dl>div,.work-locations>div{display:grid;grid-template-columns:65px 1fr;margin-top:5px;gap:10px}
+.artwork-card dt,.work-locations dt{color:#65717d}.artwork-card dd,.work-locations dd{margin:0}
+.artwork-actions{display:flex;gap:8px;flex-wrap:wrap}
+.artwork-actions button{font-size:11px;border:1px solid #bcc7d1;background:white;padding:8px 10px;border-radius:3px;color:#354e65}
+.artwork-actions button:first-child{background:#354e65;color:white;border-color:#354e65}
+.station-art{width:62px;height:58px;flex-shrink:0;background:#eef0f3;padding:4px}
+.station-art img{width:100%;height:100%;object-fit:contain}
+body[data-map-style=gallery] .network-stops li{border:0;border-bottom:1px solid #d8dde4;box-shadow:none;padding:0;margin-bottom:12px}
+body[data-map-style=gallery] .network-stops button{gap:10px;padding:10px 0}
+body[data-map-style=gallery] .network-stops button>b{display:none}
+.artwork-detail{background:#eef0f3}
+#detail .artwork-detail>button{float:none;display:block;width:100%;padding:12px;border-radius:0;background:#eef0f3}
+#detail .artwork-detail img{object-fit:contain;height:155px}
+#detail .artwork-detail figcaption{padding:9px 12px 12px;line-height:1.7;color:#53606b;background:white}
+.artwork-detail figcaption strong,.artwork-detail figcaption span{display:block}
+.artwork-detail figcaption strong{font-size:12px;color:#25323e}
+.artwork-detail figcaption span{margin:3px 0;font-size:10px}
+#detail .artwork-detail figcaption a{font-size:8px}
+#image-room{width:min(1200px,94vw);max-width:1200px;max-height:92dvh;padding:0;border:0;border-radius:4px;background:#fff;color:#25323e;overflow:auto;box-shadow:0 20px 100px #17222b40}
+#image-room[open]{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(280px,1fr)}
+#image-room::backdrop{background:#17222bba;backdrop-filter:blur(3px)}
+#image-room .room-close{position:absolute;right:12px;top:10px;z-index:2;float:none;border:1px solid #cbd4da;border-radius:50%;height:34px;width:34px;font-size:25px;background:#fff;color:#25323e}
+.room-image{display:flex;align-items:center;justify-content:center;min-height:540px;padding:34px;background:#e8ebef}
+.room-image img{max-width:100%;width:auto;height:auto;max-height:76dvh;object-fit:contain}
+.room-copy{padding:58px 28px 28px;min-width:0}
+#image-room h2{font:500 24px/1.6 'Noto Serif CJK SC','Songti SC',serif;margin:0 0 12px}
+#image-room p{font-size:12px;line-height:1.9;color:#53606b}
+.room-byline{margin-bottom:25px}.room-byline span{font-family:Georgia,serif;font-size:13px}
+.work-locations{margin:24px 0;font-size:12px}
+.record-link{display:inline-block;margin-top:18px;font-size:11px;color:#354e65}
+.room-credit{margin-top:28px;padding-top:18px;border-top:1px solid #dce2e7;font-size:10px;line-height:1.9}
+.room-credit a{color:#53606b}.room-credit p{font-size:10px!important}
+.media-unavailable{display:grid;align-items:center;justify-content:center;width:100%;height:100%;min-height:80px;padding:20px;background:#e7edf1;color:#536675;font:12px/1.8 sans-serif;text-align:center;white-space:normal}
+.room-image .media-unavailable{min-height:340px}
+@media(min-width:1001px){
+ .theme-card[data-theme=impressionism]{grid-column:span 2;display:grid;grid-template-columns:1.25fr 1fr;gap:24px;background:#f0f1f4!important;padding:22px!important}
+ .theme-card[data-theme=impressionism] .card-art{height:300px!important}
+ .theme-card[data-theme=impressionism] .card-copy{padding:15px 0 0!important;background:transparent!important;display:flex;flex-direction:column;justify-content:center}
+ .theme-card[data-theme=impressionism] .edition-cover{background:#e2e5eb}
+ .theme-card[data-theme=impressionism] strong{font-size:31px}
+ .theme-card[data-theme=impressionism] .card-copy p{min-height:0}
+ .theme-card[data-theme=impressionism] .theme-card-bottom{font-size:10px;gap:9px}
+ .theme-card[data-theme=mozart] .card-art{height:300px}
+ .theme-card[data-theme=canal] .card-art{height:220px}
+ .theme-card[data-theme=nc500] .card-art{height:285px}
+}
+@media(max-width:760px){
+ .cultural-heading{margin:22px 0 0;padding-top:26px}.cultural-heading h2{font-size:25px}.cultural-heading p{font-size:11px;line-height:1.8}
+ .theme-grid{gap:30px}.cultural-card .card-art{height:250px}.cultural-card .card-copy{padding-top:44px!important}
+ body[data-view=map] #theme-hero:has(.edition-cover){height:155px!important;margin:12px 0}
+ body[data-map-style=gallery] #theme-hero:has(.edition-cover){height:170px!important}
+ #theme-hero .object-title{font-size:20px}.cover-viking{padding:10px 22px}.object-title small{margin-top:12px}
+ #theme-hero .cover-note{font-size:11px}#theme-hero .document-inset{width:55px;height:85px;left:10px;bottom:10px}
+ #image-room[open]{display:block;width:94vw;max-height:92dvh}
+ .room-image{min-height:220px;height:38dvh;padding:18px 38px}.room-image img{max-height:100%;max-width:100%}
+ .room-copy{padding:24px 22px}#image-room h2{font-size:21px}.room-credit{margin-top:20px}.work-locations{margin:16px 0}
+ .artwork-image{height:200px}.artwork-card h4{font-size:16px}
+ #detail .artwork-detail img{height:125px}.artwork-detail figcaption{font-size:9px}
+}
+@media(prefers-reduced-motion:reduce){.edition-cover img{transition:none}}
+@media(min-width:1001px){.theme-card[data-theme=impressionism] .card-art{height:340px!important}.theme-card[data-theme=impressionism] .edition-cover{height:300px}}

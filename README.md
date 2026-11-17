@@ -205,3 +205,24 @@ Triacastela 至 Sarria 本图选 San Xil，Samos 为另一路径。地图不提�
 - 西班牙朝圣协会联合会中段：https://www.caminosantiago.org/cpperegrino/etapas/burgoscarrion.asp
 
 镇级代表坐标是编辑取点，并非精确步道定位。
+
+## 真实影像文化编辑版（2026-11-17）
+
+十个新增主题采用 16 项明确可复用的真实摄影、画作、符文石与亲笔文献。
+各主题以题材自己的构图展开：中山道版画/街景对读、运河全景、维京器物展签、
+莫扎特亲笔谱、公路/路牌拼贴，以及可分别定位作品描绘地与馆藏地的印象派画廊。
+完整图像阅览支持键盘 Escape 关闭，图片失败时保留来源、文字与操作。
+
+`editorial.js` / `editorial.css` 管理编辑展示；`assets/editorial/README.md` 与
+`sources.json` 保留逐项作者、原始地址、许可、处理说明、核验日期及压缩文件哈希。
+图片保留完整构图与原色，卡面只作 CSS 裁切，阅览室可看完整图像。
+新增素材约 3.86 MB，无运行时 CDN 依赖。
+
+印象派四幅作品为莫奈《印象·日出》（1872）、《鲁昂主教座堂，西立面》（1894）、
+《日本桥》（1899）与毕沙罗《冬日早晨的蒙马特大道》（1897）。
+画中地点和现藏机构是分别定位的真实地点；艺术网络不画虚构的共同旅行线。
+采用 NGA 的《日本桥》，未使用当前未提供开放图像的 Met 437127。
+
+检查：`node --test tests/*.test.cjs`；`node scripts/run-browser-suite.cjs` 在同一
+预览进程运行所有浏览器回归（需可运行 Chromium/Playwright，可配置 `CHROME_PATH`）。
+`qa/preview.html` 提供真实 iframe 的 1440×1000 与 390×844 响应检查入口，仍需通过 HTTP 打开。

@@ -1,0 +1,1444 @@
+{
+  "nakasendo-print": {
+    "title": "妻笼宿 / 木曾街道六十九次",
+    "author": "Utagawa Hiroshige",
+    "source": "https://commons.wikimedia.org/wiki/File:Kisokaido42_Tsumago.jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/7/78/Kisokaido42_Tsumago.jpg",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2007-10-24 06:14:00",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Kisokaido42 Tsumago",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "The Sixty-nine Stations of the Kiso-kaidō|PD-Art (PD-old-100)|CC-PD-Mark|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Tsumago-juku in ukiyo-e",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Tsumago on the Kisokaido, <a href=\"//commons.wikimedia.org/wiki/Ukiyo-e\" class=\"mw-redirect\" title=\"Ukiyo-e\">ukiyo-e</a> prints by <a href=\"//commons.wikimedia.org/wiki/Hiroshige\" class=\"mw-redirect\" title=\"Hiroshige\">Hiroshige</a>",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "The Sixty-Nine Stations of the Kisokaido",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hiroshige\" class=\"extiw\" title=\"w:en:Hiroshige\"><span title=\"Japanese ukiyo-e artist (1797–1858)\">Utagawa Hiroshige</span></a></bdi>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Copyrighted": {
+        "value": "False",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "pd",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "path": "assets/editorial/nakasendo-print.webp",
+    "width": 860,
+    "height": 579,
+    "bytes": 129800,
+    "originalDimensions": [
+      860,
+      579
+    ],
+    "sha256": "d5b39c1efee8e75080c7659fc72ff7c6f44db2a945dd0090a3a504bb91a9668e",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "nakasendo-photo": {
+    "title": "妻笼宿今日街景",
+    "author": "おにく",
+    "source": "https://commons.wikimedia.org/wiki/File:Tsumago-juku.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/0/04/Tsumago-juku.jpg",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2026-10-26 07:16:24",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Tsumago-juku",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "CC-Zero|Self-published work|Terashita, Tsumago-juku",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "妻籠宿、寺下から江戸見附方向の伊勢山（長野県木曽郡南木曽町）",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2026-10-13 11:37:35",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E3%81%8A%E3%81%AB%E3%81%8F\" title=\"User:おにく\">おにく</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Zero, Public Domain Dedication",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "path": "assets/editorial/nakasendo-photo.webp",
+    "width": 1440,
+    "height": 960,
+    "bytes": 207252,
+    "originalDimensions": [
+      3961,
+      2641
+    ],
+    "sha256": "52df54325ab124943ab558b61920e9944d1cf8643eaaee97b062aecfb19083da",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "viking-stone": {
+    "title": "海泽比博物馆符文石（投影突出铭文）",
+    "author": "Szilas",
+    "source": "https://commons.wikimedia.org/wiki/File:Hedeby_Museum%2C_rune_stone.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/2/24/Hedeby_Museum%2C_rune_stone.jpg",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2015-08-07 14:28:41",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Hedeby Museum, rune stone",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "CC-Zero|Hedeby stones|Interior of Wikinger Museum Haithabu|Self-published work|Uploaded with Commonist",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Hedeby, viking rúnakő</i></div></div><div style=\"display: none;\">label QS:Len,\"Hedeby, viking rúnakő\"</div><div style=\"display: none;\">label QS:Lhu,\"Hedeby, viking rúnakő, vetítéssel kiemelt szöveggel\"</div>",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2015-07-26",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>, photo by Szilas in the Wikinger Museum Haithabu",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Szilas\" title=\"User:Szilas\">Szilas</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Zero, Public Domain Dedication",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "path": "assets/editorial/viking-stone.webp",
+    "width": 742,
+    "height": 1200,
+    "bytes": 335082,
+    "originalDimensions": [
+      2354,
+      3806
+    ],
+    "sha256": "27a38fd37195f4f356e4669dd041f72628329c4468cbf829c782769cf12f72cb",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "buddhist-temple": {
+    "title": "菩提伽耶 / 摩诃菩提寺",
+    "author": "Ineb-2553",
+    "source": "https://commons.wikimedia.org/wiki/File:Mahabodhi_temple.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mahabodhi_temple.jpg",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2011-11-26 16:14:54",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Mahabodhi temple",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Canon PowerShot A610|CC-Zero|Self-published work|Photographs taken on 2008-01-03|Exterior of the Mahabodhi Temple|19th Nyingma Monlam Chenmo, Bodh Gaya (2008)",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Mahabodhi temple, Bodhgaya, Bihar, India during the 19th Nyingma Monlam Chenmo International World Peace Ceremony",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "October 2011 (3 January 2008, 17:48, according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ineb-2553&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ineb-2553 (page does not exist)\">Ineb-2553</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Zero, Public Domain Dedication",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "path": "assets/editorial/buddhist-temple.webp",
+    "width": 1440,
+    "height": 1080,
+    "bytes": 318978,
+    "originalDimensions": [
+      2592,
+      1944
+    ],
+    "sha256": "ce816587c261f288ec1e56872aba8bac642497ee73e495e6a37101c30c52095c",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "nc500-pass": {
+    "title": "Bealach na Bà / 向卡伦湖眺望",
+    "author": "Jooniur",
+    "source": "https://commons.wikimedia.org/wiki/File:Bealach_na_ba.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Bealach_na_ba.jpg",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2021-05-18 23:25:23",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Bealach na ba",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Bealach na Bà|Self-published work|Files with coordinates missing SDC location of creation",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "57.411690",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "-5.701715",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "View towards Loch Carron from the Bealach na ba",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2014-04-20 17:20:38",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jooniur&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jooniur (page does not exist)\">Jooniur</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "path": "assets/editorial/nc500-pass.webp",
+    "width": 1440,
+    "height": 1080,
+    "bytes": 342892,
+    "originalDimensions": [
+      4000,
+      3000
+    ],
+    "sha256": "3da56a42f7f5871ceb6e51e205e1eba08cd78a0334ed3a29a08a47ee5e3e7676",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "francigena-valley": {
+    "title": "奥尔恰谷 / San Quirico 至 Radicofani 之间",
+    "author": "JP Vets",
+    "source": "https://commons.wikimedia.org/wiki/File:Via_Francigena_in_Val_d%27Orcia.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Via_Francigena_in_Val_d%27Orcia.jpg",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2019-09-04 09:49:18",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Via Francigena in Val d'Orcia",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Val d'Orcia|Images from Wiki Loves Monuments 2019|Self-published work|Images from Wiki Loves Monuments 2019 in Italy|Uploaded via Campaign:wlm-it|Files with coordinates missing SDC location of creation|Italy photographs taken on 2019-07-30|Images from Wiki Loves Monuments missing SDC location of creation|Via Francigena - Stages 4IT05 Tuscany",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "43.062700",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "11.558900",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Between San Quirico d'Orcia and Radicofani",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2019-07-30 12:06:33",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:JP_Vets\" title=\"User:JP Vets\">JP Vets</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "path": "assets/editorial/francigena-valley.webp",
+    "width": 1440,
+    "height": 917,
+    "bytes": 423010,
+    "originalDimensions": [
+      4413,
+      2810
+    ],
+    "sha256": "ef58c9bce98c95b822df7870c51aed1fd4a0d6ee09b45a8e2dfb770ba2dbcdd8",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "canal-bridge": {
+    "title": "杭州 / 拱宸桥",
+    "author": "Zhangzhugang",
+    "source": "https://commons.wikimedia.org/wiki/File:Hangzhou_Gongchen_Qiao_2015.08.01_07-28-03.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/3/36/Hangzhou_Gongchen_Qiao_2015.08.01_07-28-03.jpg",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2015-10-26 12:50:32",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Hangzhou Gongchen Qiao 2015.08.01 07-28-03",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "GFDL|Gongchen Bridge|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Files with coordinates missing SDC location of creation",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "30.320217",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "120.134963",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "<p>杭州拱宸桥\n</p>\n东南侧",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2015-08-01 07:28:03",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Zhangzhugang\" title=\"User:Zhangzhugang\">Zhangzhugang</a>",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "You may select the license of your choice.",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "path": "assets/editorial/canal-bridge.webp",
+    "width": 1440,
+    "height": 960,
+    "bytes": 170252,
+    "originalDimensions": [
+      5472,
+      3648
+    ],
+    "sha256": "f7c36be1d43e6bea03527f2146493e767f7748906370273ae71169a10444f8f6",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "mozart-score": {
+    "title": "莫扎特 / 教堂奏鸣曲 K.329 亲笔谱首页，1779",
+    "author": "Wolfgang Amadeus Mozart",
+    "source": "https://commons.wikimedia.org/wiki/File:Mozart_-_Church_sonata_K._329_-_autograph%2C_Staatsbibliothek_zu_Berlin%2C_f._1r.png",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Mozart_-_Church_sonata_K._329_-_autograph%2C_Staatsbibliothek_zu_Berlin%2C_f._1r.png",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2026-10-03 18:19:20",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Church sonata in C major, K. 329 (317a)</i></div></div><div style=\"display: none;\">label QS:Len,\"Church sonata in C major, K. 329 (317a)\"</div><div style=\"display: none;\">label QS:Lfr,\"Sonate d'église en ut majeur K. 329 (317a)\"</div><div style=\"display: none;\">label QS:Lde,\"Kirchensonate C-Dur KV 329 (317a)\"</div></div>",
+        "source": "commons-desc-page"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Staatsbibliothek zu Berlin|Artworks without Wikidata item|PD-old-100-expired|PD-scan (PD-old-100-expired)|Artworks with known accession number|CC-PD-Mark|Musical autographs of Wolfgang Amadeus Mozart|PD-old missing SDC copyright status",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Artist": {
+        "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Wolfgang_Amadeus_Mozart\" class=\"extiw\" title=\"w:en:Wolfgang Amadeus Mozart\"><span title=\"Austrian composer of the Classical period (1756–1791)\">Wolfgang Amadeus Mozart</span></a></bdi>",
+        "source": "commons-desc-page"
+      },
+      "ImageDescription": {
+        "value": "First page of the autograph, f. 1r. At the head, the caption title \"<i>Sonata</i>\", struck through by <a href=\"https://en.wikipedia.org/wiki/Georg_Nikolaus_von_Nissen\" class=\"extiw\" title=\"en:Georg Nikolaus von Nissen\">Georg Nikolaus von Nissen</a> and replaced by \"<i>Sinfonia mit Begleitung einer Orgel</i>\". Score for two violins, cello, bass, two oboes, two horns, two trumpets, timpani and organ.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "1779<div style=\"display: none;\">date QS:P571,+1779-00-00T00:00:00Z/9</div>",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, Musikabteilung, Mus.ms.autogr. Mozart, W. A. 329, f. 1r. <a rel=\"nofollow\" class=\"external free\" href=\"https://resolver.staatsbibliothek-berlin.de/SBB0003686900000000\">https://resolver.staatsbibliothek-berlin.de/SBB0003686900000000</a>",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "Public Domain Mark 1.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Copyrighted": {
+        "value": "False",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "pd",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "path": "assets/editorial/mozart-score.webp",
+    "width": 1440,
+    "height": 1055,
+    "bytes": 235384,
+    "originalDimensions": [
+      2923,
+      2142
+    ],
+    "sha256": "19a32ca07d2b348f010e70a502435dbd43ebc22a891383bc6b90df9291308cab",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "andes-document": {
+    "title": "Guaman Poma de Ayala / 王家道路管理者，约 1615–1616",
+    "author": "Felipe Guaman Poma de Ayala",
+    "source": "https://commons.wikimedia.org/wiki/File:Qhapaq_%C3%91an_Poma_de_Ayala.jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/6/69/Qhapaq_%C3%91an_Poma_de_Ayala.jpg",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2009-05-24 11:17:16",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Qhapaq Ñan Poma de Ayala",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Nueva corónica y buen gobierno|Inca road system|Author died more than 100 years ago public domain images|CC-PD-Mark|PD-old missing SDC copyright status",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Dessin du Qhapaq Ñan de Felipe Guaman Poma de Ayala dans \"El primer nueva corónica y buen gobierno\" (1615/1616)",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "1615",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "\"El primer nueva corónica y buen gobierno\" (1615/1616)",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Felipe Guaman Poma de Ayala",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Copyrighted": {
+        "value": "False",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "pd",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "path": "assets/editorial/andes-document.webp",
+    "width": 293,
+    "height": 456,
+    "bytes": 47268,
+    "originalDimensions": [
+      293,
+      456
+    ],
+    "sha256": "0f3c2b5fdd2023fc64cd073837e4b5c68882a28c6b6a193fbcbf438c92bafa16",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "route66-road": {
+    "title": "新墨西哥州 Cuervo / 历史 66 号公路",
+    "author": "Ammodramus",
+    "source": "https://commons.wikimedia.org/wiki/File:Route_66_in_Cuervo%2C_NM_from_W_1.JPG",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/3/38/Route_66_in_Cuervo%2C_NM_from_W_1.JPG",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2015-03-28 17:48:05",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Route 66 in Cuervo, NM from W 1",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "CC-Zero|Cuervo, New Mexico|Self-published work|Pictures by Ammodramus|U.S. Route 66, Cuervo to Montoya, New Mexico",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Route 66, now frontage road running parallel to along north side of Interstate 40, at Cuervo, New Mexico.  Camera is facing generally eastward.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2015-03-25 13:36:24",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ammodramus\" title=\"User:Ammodramus\">Ammodramus</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Zero, Public Domain Dedication",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "path": "assets/editorial/route66-road.webp",
+    "width": 1440,
+    "height": 602,
+    "bytes": 113640,
+    "originalDimensions": [
+      2524,
+      1055
+    ],
+    "sha256": "ff6bcdc03b8b5667e748fc39ac82c872181cb222955d4ddd28cb249f87490b09",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "route66-sign": {
+    "title": "俄克拉何马 / 历史 66 号公路标志",
+    "author": "William Jones",
+    "source": "https://commons.wikimedia.org/wiki/File:HISTORIC_OKLAHOMA_ROUTE_66.png",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/8/8b/HISTORIC_OKLAHOMA_ROUTE_66.png",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2012-07-21 04:43:56",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "HISTORIC OKLAHOMA ROUTE 66",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "CC-Zero|U.S. Route 66 in Oklahoma|Self-published work|Diagrams of road signs of Oklahoma|Diagrams of U.S. Route 66 markers|Diagrams of historic U.S. Route shields",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "HISTORIC OKLAHOMA ROUTE 66",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2011-07-20",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "William Jones",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "William Jones",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Zero, Public Domain Dedication",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "path": "assets/editorial/route66-sign.webp",
+    "width": 900,
+    "height": 1200,
+    "bytes": 38002,
+    "originalDimensions": [
+      2002,
+      2669
+    ],
+    "sha256": "0df592efa8f1f2e623552600eeaff94f760d6996c82eb569098db00d001aa61f",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "monet-sunrise": {
+    "title": "克洛德·莫奈 / 印象·日出，1872",
+    "author": "Claude Monet",
+    "source": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression%2C_Sunrise.jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/5/59/Monet_-_Impression%2C_Sunrise.jpg",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2013-10-23 15:50:32",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Impression, Sunrise <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q328523#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Impression, Sunrise <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q328523#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"Impression, Sunrise <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q328523#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Impresión, sol naciente\"</div><div style=\"display: none;\">label QS:Lms,\"Impression, soleil levant\"</div><div style=\"display: none;\">label QS:Len-gb,\"Impression, Sunrise\"</div><div style=\"display: none;\">label QS:Lmzn,\"امپرسیون، روجا\"</div><div style=\"display: none;\">label QS:Lbg,\"Импресия, Изгряващо слънце\"</div><div style=\"display: none;\">label QS:Ltr,\"İzlenim: Gün Doğumu\"</div><div style=\"display: none;\">label QS:Lzh-hk,\"印象·日出\"</div><div style=\"display: none;\">label QS:Lsv,\"Impression. Soluppgång\"</div><div style=\"display: none;\">label QS:Luk,\"Враження. Схід сонця\"</div><div style=\"display: none;\">label QS:Lzh-hant,\"印象·日出\"</div><div style=\"display: none;\">label QS:Lzh-cn,\"印象·日出\"</div><div style=\"display: none;\">label QS:Luz,\"Taassurot. Quyoshning chiqishi\"</div><div style=\"display: none;\">label QS:Leo,\"Impreso, Sunleviĝo\"</div><div style=\"display: none;\">label QS:Lcs,\"Imprese, východ slunce\"</div><div style=\"display: none;\">label QS:Lfr,\"Impression, Soleil levant\"</div><div style=\"display: none;\">label QS:Lhr,\"Impresija\"</div><div style=\"display: none;\">label QS:Lvi,\"Ấn tượng, Mặt trời mọc\"</div><div style=\"display: none;\">label QS:Llv,\"Impresija. Saullēkts\"</div><div style=\"display: none;\">label QS:Lsr,\"Импресија\"</div><div style=\"display: none;\">label QS:Lpt-br,\"Impressão, nascer do sol\"</div><div style=\"display: none;\">label QS:Lzh-sg,\"印象·日出\"</div><div style=\"display: none;\">label QS:Llb,\"Impression, soleil levant\"</div><div style=\"display: none;\">label QS:Lnan,\"Ìn-siōng, ji̍t-chhut\"</div><div style=\"display: none;\">label QS:Laz,\"Təəssürat, günəşin doğuşu\"</div><div style=\"display: none;\">label QS:Lar,\"انطباع، شروق الشمس\"</div><div style=\"display: none;\">label QS:Lbr,\"Santad da sav-heol\"</div><div style=\"display: none;\">label QS:Lyue,\"日出印象\"</div><div style=\"display: none;\">label QS:Lhu,\"Impresszió, a felkelő nap\"</div><div style=\"display: none;\">label QS:Leu,\"Inpresioa, eguzki atera berria\"</div><div style=\"display: none;\">label QS:Lca,\"Impressió, sol naixent\"</div><div style=\"display: none;\">label QS:Lde-ch,\"Impression, Sonnenaufgang\"</div><div style=\"display: none;\">label QS:Lcy,\"Impression, soleil levant\"</div><div style=\"display: none;\">label QS:Lhy,\"Տպավորություն, Արևածագ\"</div><div style=\"display: none;\">label QS:Lzh,\"印象·日出\"</div><div style=\"display: none;\">label QS:Lda,\"Indtryk. Solopgang\"</div><div style=\"display: none;\">label QS:Lka,\"შთაბეჭდილება, მზის ამოსვლა\"</div><div style=\"display: none;\">label QS:Lja,\"印象・日の出\"</div><div style=\"display: none;\">label QS:Lha,\"Zanen Ra'ayi, fitowar rana\"</div><div style=\"display: none;\">label QS:Larz,\"الانطباع\"</div><div style=\"display: none;\">label QS:Lhe,\"התרשמות, זריחה\"</div><div style=\"display: none;\">label QS:Lhi,\"इम्प्रेशन, सनराइज\"</div><div style=\"display: none;\">label QS:Lfi,\"Impressio\"</div><div style=\"display: none;\">label QS:Lhyw,\"Տպաւորութիւն, Արեւածագ\"</div><div style=\"display: none;\">label QS:Len-ca,\"Impression, Sunrise\"</div><div style=\"display: none;\">label QS:Lta,\"உணர்வுப்பதிவு\"</div><div style=\"display: none;\">label QS:Lit,\"Impressione. Levar del sole\"</div><div style=\"display: none;\">label QS:Lht,\"Enpresyon, solèy k ap leve\"</div><div style=\"display: none;\">label QS:Let,\"Impression, soleil levant\"</div><div style=\"display: none;\">label QS:Lko,\"인상, 해돋이\"</div><div style=\"display: none;\">label QS:Lscn,\"Mprissioni, suli nascenti\"</div><div style=\"display: none;\">label QS:Lpt,\"Impressão, nascer do sol\"</div><div style=\"display: none;\">label QS:Lsr-ec,\"Импресија, рађање сунца\"</div><div style=\"display: none;\">label QS:Lru,\"Впечатление. Восходящее солнце\"</div><div style=\"display: none;\">label QS:Llt,\"Įspūdis, saulėtekis\"</div><div style=\"display: none;\">label QS:Lsl,\"Impresija, vzhajajoče sonce\"</div><div style=\"display: none;\">label QS:Lth,\"ความประทับใจของพระอาทิตย์ขึ้น\"</div><div style=\"display: none;\">label QS:Lde,\"Impression, Sonnenaufgang\"</div><div style=\"display: none;\">label QS:Lfa,\"دریافتی از طلوع آفتاب\"</div><div style=\"display: none;\">label QS:Lid,\"Impression, soleil levant\"</div><div style=\"display: none;\">label QS:Lpl,\"Impresja, wschód słońca\"</div><div style=\"display: none;\">label QS:Lpnb,\"امپریشن، سورج چڑھنا\"</div><div style=\"display: none;\">label QS:Lzh-tw,\"印象·日出\"</div><div style=\"display: none;\">label QS:Lnl,\"Impression, soleil levant\"</div><div style=\"display: none;\">label QS:Lro,\"Impression, soleil levant\"</div><div style=\"display: none;\">label QS:Lmk,\"Импресија, изгрејсонце\"</div><div style=\"display: none;\">label QS:Lsh,\"Impresija\"</div><div style=\"display: none;\">label QS:Lgl,\"Impresión, sol nacente\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"印象·日出\"</div><div style=\"display: none;\">label QS:Lel,\"Εντύπωση, Ανατολή\"</div></div>",
+        "source": "commons-desc-page"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Impression, soleil levant by Claude Monet|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|PD-old-95-1996|Artworks digital representation of 2D work|1873 paintings by Claude Monet",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "valued",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Artist": {
+        "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Claude_Monet\" class=\"extiw\" title=\"w:en:Claude Monet\"><span title=\"French painter (1840–1926)\">Claude Monet</span></a></bdi>",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "1872<div style=\"display: none;\">date QS:P571,+1872-00-00T00:00:00Z/9</div>",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "art database",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Copyrighted": {
+        "value": "False",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "pd",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "path": "assets/editorial/monet-sunrise.webp",
+    "width": 1440,
+    "height": 1117,
+    "bytes": 168268,
+    "originalDimensions": [
+      5773,
+      4478
+    ],
+    "sha256": "084987a3807adba84222bcceceec99e0bb4de251182c20ed03c04af45cd00129",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "monet-rouen": {
+    "title": "克洛德·莫奈 / 鲁昂主教座堂，西立面，1894",
+    "author": "Claude Monet / National Gallery of Art, Washington",
+    "source": "https://www.nga.gov/artworks/46524-rouen-cathedral-west-facade",
+    "license": "Public domain",
+    "licenseUrl": "https://www.nga.gov/terms-and-notices",
+    "download": "https://api.nga.gov/iiif/413faf9b-5d86-468a-8363-eea43c7fe9ba/full/!1440,1200/0/default.jpg",
+    "verified": "2026-11-17",
+    "verification": "Object page explicitly states media is free and in the public domain.",
+    "path": "assets/editorial/monet-rouen.webp",
+    "width": 776,
+    "height": 1200,
+    "bytes": 274610,
+    "originalDimensions": [
+      776,
+      1200
+    ],
+    "sha256": "bc90308a23164e4312079d9b90af10b7676b4bd8b35525a06de097cd812fcdd8",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "monet-bridge": {
+    "title": "克洛德·莫奈 / 日本桥，1899",
+    "author": "Claude Monet / National Gallery of Art, Washington",
+    "source": "https://www.nga.gov/artworks/74796-japanese-footbridge",
+    "license": "Public domain",
+    "licenseUrl": "https://www.nga.gov/terms-and-notices",
+    "download": "https://api.nga.gov/iiif/0b9cefb5-1ee4-401a-8154-8d4039191a28/full/!1440,1200/0/default.jpg",
+    "verified": "2026-11-17",
+    "verification": "Object page explicitly states media is free and in the public domain.",
+    "path": "assets/editorial/monet-bridge.webp",
+    "width": 1440,
+    "height": 1161,
+    "bytes": 486474,
+    "originalDimensions": [
+      1440,
+      1161
+    ],
+    "sha256": "b754adb7e68bbdad1e4cec5f9a655f16dac1a4ee44028613da409650a6de0410",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "pissarro-paris": {
+    "title": "卡米耶·毕沙罗 / 冬日早晨的蒙马特大道，1897",
+    "author": "Camille Pissarro / The Metropolitan Museum of Art",
+    "source": "https://www.metmuseum.org/art/collection/search/437310",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "download": "https://images.metmuseum.org/CRDImages/ep/original/DP-21959-001.jpg",
+    "verified": "2026-11-17",
+    "verification": "Met API isPublicDomain=true; Met Open Access CC0 policy.",
+    "providerMetadata": {
+      "objectID": 437310,
+      "isHighlight": false,
+      "accessionNumber": "60.174",
+      "accessionYear": "1960",
+      "isPublicDomain": true,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-21959-001.jpg",
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-21959-001.jpg",
+      "additionalImages": [],
+      "constituents": [
+        {
+          "constituentID": 162257,
+          "role": "Artist",
+          "name": "Camille Pissarro",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500001924",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q134741",
+          "gender": ""
+        }
+      ],
+      "department": "European Paintings",
+      "objectName": "Painting",
+      "title": "The Boulevard Montmartre on a Winter Morning",
+      "culture": "",
+      "period": "",
+      "dynasty": "",
+      "reign": "",
+      "portfolio": "",
+      "artistRole": "Artist",
+      "artistPrefix": "",
+      "artistDisplayName": "Camille Pissarro",
+      "artistDisplayBio": "French, Charlotte Amalie, Saint Thomas 1830–1903 Paris",
+      "artistSuffix": "",
+      "artistAlphaSort": "Pissarro, Camille",
+      "artistNationality": "French",
+      "artistBeginDate": "1830",
+      "artistEndDate": "1903",
+      "artistGender": "",
+      "artistWikidata_URL": "https://www.wikidata.org/wiki/Q134741",
+      "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500001924",
+      "objectDate": "1897",
+      "objectBeginDate": 1897,
+      "objectEndDate": 1897,
+      "medium": "Oil on canvas",
+      "dimensions": "25 1/2 x 32 in. (64.8 x 81.3 cm)",
+      "measurements": [
+        {
+          "elementName": "Overall",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Height": 64.8,
+            "Width": 81.3
+          }
+        },
+        {
+          "elementName": "Framed",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Depth": 8.255,
+            "Height": 88.9002,
+            "Width": 105.4102
+          }
+        }
+      ],
+      "creditLine": "Gift of Katrin S. Vietor, in loving memory of Ernest G. Vietor, 1960",
+      "geographyType": "",
+      "city": "",
+      "state": "",
+      "county": "",
+      "country": "",
+      "region": "",
+      "subregion": "",
+      "locale": "",
+      "locus": "",
+      "excavation": "",
+      "river": "",
+      "classification": "Paintings",
+      "rightsAndReproduction": "",
+      "linkResource": "",
+      "metadataDate": "2026-10-21T04:58:17.613Z",
+      "repository": "Metropolitan Museum of Art, New York, NY",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/437310",
+      "tags": [
+        {
+          "term": "Buildings",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300004789",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q41176"
+        },
+        {
+          "term": "Cities",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300008389",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q515"
+        },
+        {
+          "term": "Roads",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300008217",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q34442"
+        },
+        {
+          "term": "Streets",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300008247",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q79007"
+        },
+        {
+          "term": "Winter",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300133101",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q1311"
+        },
+        {
+          "term": "Carriages",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300185335",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q235356"
+        },
+        {
+          "term": "Paris",
+          "AAT_URL": "http://vocab.getty.edu/page/tgn/7008038",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q90"
+        }
+      ],
+      "objectWikidata_URL": "https://www.wikidata.org/wiki/Q18616822",
+      "isTimelineWork": false,
+      "GalleryNumber": "820"
+    },
+    "path": "assets/editorial/pissarro-paris.webp",
+    "width": 1440,
+    "height": 1163,
+    "bytes": 479434,
+    "originalDimensions": [
+      4000,
+      3230
+    ],
+    "sha256": "47718b262296a5160a49dabe4aac0abdd9d37baac06f85c7fa545d1e22972826",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "andes-trail": {
+    "title": "秘鲁 / 印加步道山景",
+    "author": "Cédric Servay cservay",
+    "source": "https://commons.wikimedia.org/wiki/File:Inca%20Trail%20mountain%20%28Unsplash%29.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Inca_Trail_mountain_%28Unsplash%29.jpg",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2017-08-23 22:38:54",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Inca Trail mountain (Unsplash)",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "CC-Zero|Images uploaded by Fæ|Images from Unsplash|Images from Unsplash (review needed)|Uploads by Fæ with linkrot|Files with coordinates missing SDC location of creation|Urubamba Valley",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "-13.233194",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "-72.416092",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Inca Trail, Peru",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2016-09-06",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/oindvZ-5K3o\">https://unsplash.com/photos/oindvZ-5K3o</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Cédric Servay <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@cservay\">cservay</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Zero, Public Domain Dedication",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "path": "assets/editorial/andes-trail.webp",
+    "width": 1440,
+    "height": 960,
+    "bytes": 89926,
+    "originalDimensions": [
+      6000,
+      4000
+    ],
+    "sha256": "babce692d57a74a429c6890632fd8aacb8f1213a225a285aa67ae4874611b7da",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  }
+}

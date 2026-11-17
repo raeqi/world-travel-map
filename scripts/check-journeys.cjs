@@ -4,11 +4,11 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 (async()=>{const browser=await chromium.launch({executablePath:process.env.CHROME_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});try{
 const output=process.env.SCREENSHOT_DIR||'/tmp/atlas-journeys';fs.mkdirSync(output,{recursive:true});
 const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
-await page.goto(process.env.ATLAS_URL||'http://localhost:8765',{waitUntil:'load'});await page.waitForFunction(()=>document.body.dataset.ready==='true');
+await page.goto(process.env.ATLAS_URL||'http://localhost:8000',{waitUntil:'load'});await page.waitForFunction(()=>document.body.dataset.ready==='true');
 assert.equal(await page.locator('.theme-card').count(),20);
 const ids=['nakasendo','francigena','andes','buddhist','canal','viking','impressionism','mozart','route66','nc500'];
 for(const id of ids){
- await page.locator('.theme-card[data-theme='+id+']').click();await page.waitForFunction(()=>land.length>0&&w>0);await page.locator('#theme-hero img').evaluate(img=>img.decode());
+ await page.locator('.theme-card[data-theme='+id+']').click();await page.waitForFunction(()=>land.length>0&&w>0);await page.locator('#theme-hero img').evaluateAll(imgs=>Promise.all(imgs.map(img=>img.decode())));
  assert.ok(await page.locator('#places .place').count());await page.locator('#tab-plans').click();assert.ok(await page.locator('.plan-card').count());
  await page.locator('[data-action=preview]').first().click();assert.ok(await page.locator('#route-panel').isVisible());
  await page.waitForFunction(()=>camera===null);await page.screenshot({path:output+'/'+id+'-desktop.png'});
