@@ -1,6 +1,6 @@
 'use strict';
 // Place-specific cultural contexts share physical places; no lifetime travel routes are inferred.
-const atlasRelationNames={work:'原址作品',depicted:'作品关联地','life':'生活地点','life-work':'生活与创作',collection:'收藏与研究','life-memorial':'生活与纪念',temporary:'已结束的临时作品',restricted:'限制访问项目','fiction-life':'文学与生活','life-fiction':'生活与文学',restricted:'限制访问项目','fiction-life':'文学与生活','life-fiction':'生活与文学'};
+const atlasRelationNames={work:'原址作品',depicted:'作品关联地','life':'生活地点','life-work':'生活与创作',collection:'收藏与研究','life-memorial':'生活与纪念',temporary:'已结束的临时作品',restricted:'限制访问项目','fiction-life':'文学与生活','life-fiction':'生活与文学',memorial:'纪念与研究',restricted:'限制访问项目','fiction-life':'文学与生活','life-fiction':'生活与文学',restricted:'限制访问项目','fiction-life':'文学与生活','life-fiction':'生活与文学'};
 const atlasAreas={'中国':'亚洲','日本':'亚洲','印度':'亚洲','法国':'欧洲','西班牙':'欧洲','英国':'欧洲','挪威':'欧洲','德国':'欧洲','奥地利':'欧洲','瑞士':'欧洲','意大利':'欧洲','芬兰':'欧洲','爱尔兰':'欧洲','捷克':'欧洲','白俄罗斯':'欧洲','罗马尼亚':'欧洲','希腊':'欧洲','根西岛':'欧洲','美国':'美洲','墨西哥':'美洲','古巴':'美洲','智利':'美洲','哥伦比亚':'美洲','埃及':'非洲','法属波利尼西亚':'大洋洲','法属波利尼西亚':'大洋洲'};
 const atlasColors={painting:['#586c78','#e6ebed','#dedfda','gallery'],music:['#735a4d','#e9e7e2','#dfdacf','score'],literature:['#64715c','#e8ece5','#dedfd5','manuscript'],sculpture:['#6e675d','#e9e9e5','#dedcd6','gallery'],architecture:['#856448','#e9e8e2','#dfd9ce','gallery'],photography:['#4d646a','#e5ebec','#dce1dc','gallery'],installation:['#716180','#e9e7ee','#dfdce5','gallery'],'land-art':['#936a43','#e7e9e6','#e3d9c8','gallery']};
 Object.assign(photoLibrary,culturalAtlasMedia);
@@ -37,7 +37,7 @@ for(const [id,record] of atlasContextByPlace){
  Object.defineProperty(record.place,'sourceLabel',{enumerable:true,configurable:true,get(){return current()?'人物、作品与地点资料':base.sourceLabel}});
  Object.defineProperty(record.place,'facts',{enumerable:true,configurable:true,get(){const c=current();return c?{'地点关系':atlasRelationNames[c.relation],'现场观察':c.observe}:base.facts}});
  Object.defineProperty(placeEssays,id,{enumerable:true,configurable:true,get(){
-  const c=current();if(!c)return base.essay||{title:'人物与地方',paragraphs:[...record.contexts.values()].map(x=>({heading:x.themeName,text:x.summary+' '+x.observe})),sources:[...record.contexts.values()].map(x=>({title:x.themeName+' · 机构资料',url:x.source})),related:[]};
+  const c=current()||(!base.essay?record.contexts.values().next().value:null);if(!c)return base.essay||{title:'人物与地方',paragraphs:[...record.contexts.values()].map(x=>({heading:x.themeName,text:x.summary+' '+x.observe})),sources:[...record.contexts.values()].map(x=>({title:x.themeName+' · 机构资料',url:x.source})),related:[]};
   return {title:c.themeName,paragraphs:[{heading:'这里与人物或作品的关系',text:c.summary},{heading:'到现场看什么',text:c.observe}],sources:[{title:'人物、作品与地点资料',url:c.source}],related:(atlasThemePlaceIds.get(atlasActiveId())||[]).filter(x=>x!==id).slice(0,4)};
  }});
 }

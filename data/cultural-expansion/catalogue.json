@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "title": "文化地图扩充总目录",
   "updatedOn": "2026-11-17",
-  "status": "planning-only-not-live-routes",
+  "status": "all-directions-integrated-selected-places",
   "scope": {
     "newlyDiscussed": 76,
     "previousBatch": 4,
@@ -15,7 +15,7 @@
   "policies": {
     "noFakeCompletion": true,
     "noPlaceholderThemes": true,
-    "noRuntimeRegistration": true,
+    "noRuntimeRegistration": false,
     "allSourceLinksAreResearchEntrypoints": true,
     "pointCoordinatesRequireReview": true,
     "sharedPlacesMustReuseStableIds": true,
@@ -74,14 +74,46 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "turner",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=turner",
+      "livePlanId": "atlas-turner-places",
+      "selectedPlaces": [
+        {
+          "key": "venice",
+          "name": "威尼斯",
+          "lon": 12.335,
+          "lat": 45.434,
+          "relationship": "life-work",
+          "source": "https://www.tate.org.uk/art/research-publications/jmw-turner/1819-1829-italy-and-after-r1130131",
+          "hasLocalImage": true
+        },
+        {
+          "key": "rome",
+          "name": "罗马",
+          "lon": 12.483,
+          "lat": 41.893,
+          "relationship": "life-work",
+          "source": "https://www.tate.org.uk/art/research-publications/jmw-turner/1819-1829-italy-and-after-r1130131",
+          "hasLocalImage": true
+        },
+        {
+          "key": "naples",
+          "name": "那不勒斯",
+          "lon": 14.258,
+          "lat": 40.852,
+          "relationship": "life-work",
+          "source": "https://www.tate.org.uk/art/research-publications/jmw-turner/1819-1829-italy-and-after-r1130131",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "cezanne",
@@ -129,14 +161,46 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "cezanne",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=cezanne",
+      "livePlanId": "atlas-cezanne-places",
+      "selectedPlaces": [
+        {
+          "key": "cezanne-studio",
+          "name": "洛夫画室",
+          "lon": 5.446,
+          "lat": 43.5395,
+          "relationship": "life-work",
+          "source": "https://www.cezanne-en-provence.com/les-sites-de-cezanne/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "bibemus",
+          "name": "比贝米采石场",
+          "lon": 5.506,
+          "lat": 43.533,
+          "relationship": "depicted",
+          "source": "https://www.cezanne-en-provence.com/les-sites-de-cezanne/",
+          "hasLocalImage": false
+        },
+        {
+          "key": "sainte-victoire",
+          "name": "圣维克多山",
+          "lon": 5.612,
+          "lat": 43.531,
+          "relationship": "depicted",
+          "source": "https://www.cezanne-en-provence.com/les-sites-de-cezanne/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "dali",
@@ -177,14 +241,46 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "dali",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=dali",
+      "livePlanId": "atlas-dali-places",
+      "selectedPlaces": [
+        {
+          "key": "dali-theatre",
+          "name": "达利剧院博物馆",
+          "lon": 2.9597,
+          "lat": 42.2673,
+          "relationship": "collection",
+          "source": "https://costabrava.org/en/blog/the-dali-triangle/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "portlligat",
+          "name": "波特利加特达利故居",
+          "lon": 3.2867,
+          "lat": 42.2937,
+          "relationship": "life-work",
+          "source": "https://costabrava.org/en/blog/the-dali-triangle/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "pubol",
+          "name": "普波尔加拉·达利城堡",
+          "lon": 2.982,
+          "lat": 42.014,
+          "relationship": "life-work",
+          "source": "https://costabrava.org/en/blog/the-dali-triangle/",
+          "hasLocalImage": false
+        }
+      ]
     },
     {
       "id": "matisse",
@@ -218,14 +314,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "matisse",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=matisse",
+      "livePlanId": "atlas-matisse-places",
+      "selectedPlaces": [
+        {
+          "key": "matisse-nice",
+          "name": "尼斯马蒂斯博物馆",
+          "lon": 7.2778,
+          "lat": 43.7194,
+          "relationship": "collection",
+          "source": "https://www.musee-matisse-nice.org/fr/lartiste/matisse-et-nice/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "matisse-vence",
+          "name": "旺斯玫瑰经礼拜堂",
+          "lon": 7.1133,
+          "lat": 43.7266,
+          "relationship": "work",
+          "source": "https://www.chapellematisse.com/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "munch",
@@ -266,14 +385,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "munch",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=munch",
+      "livePlanId": "atlas-munch-places",
+      "selectedPlaces": [
+        {
+          "key": "asgardstrand",
+          "name": "奥斯戈斯特兰",
+          "lon": 10.469,
+          "lat": 59.348,
+          "relationship": "life-work",
+          "source": "https://www.munch.no/edvard-munch/asgardstrand/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "munch-oslo",
+          "name": "奥斯陆蒙克博物馆",
+          "lon": 10.755,
+          "lat": 59.906,
+          "relationship": "collection",
+          "source": "https://www.munch.no/en/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "okeeffe",
@@ -314,14 +456,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "okeeffe",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=okeeffe",
+      "livePlanId": "atlas-okeeffe-places",
+      "selectedPlaces": [
+        {
+          "key": "ghost-ranch",
+          "name": "幽灵牧场",
+          "lon": -106.473,
+          "lat": 36.329,
+          "relationship": "life-work",
+          "source": "https://www.okeeffemuseum.org/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "abiquiu",
+          "name": "阿比丘",
+          "lon": -106.318,
+          "lat": 36.207,
+          "relationship": "life-work",
+          "source": "https://www.okeeffemuseum.org/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "hiroshige",
@@ -369,14 +534,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "hiroshige",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=hiroshige",
+      "livePlanId": "atlas-hiroshige-places",
+      "selectedPlaces": [
+        {
+          "key": "nihonbashi-atlas",
+          "name": "日本桥",
+          "lon": 139.774,
+          "lat": 35.684,
+          "relationship": "depicted",
+          "source": "https://tokaido-hiroshige.jp/en/outline/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "yui",
+          "name": "由比与广重美术馆",
+          "lon": 138.56,
+          "lat": 35.1,
+          "relationship": "depicted",
+          "source": "https://tokaido-hiroshige.jp/en/outline/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "gauguin",
@@ -418,14 +606,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "gauguin",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=gauguin",
+      "livePlanId": "atlas-gauguin-places",
+      "selectedPlaces": [
+        {
+          "key": "pont-aven",
+          "name": "蓬塔旺",
+          "lon": -3.746,
+          "lat": 47.855,
+          "relationship": "life-work",
+          "source": "https://www.museepontaven.fr/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "tahiti",
+          "name": "塔希提岛",
+          "lon": -149.425,
+          "lat": -17.651,
+          "relationship": "life-work",
+          "source": "https://www.nga.gov/stories/videos/gauguin-maker-myth-part-4",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "chagall",
@@ -467,14 +678,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "chagall",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=chagall",
+      "livePlanId": "atlas-chagall-places",
+      "selectedPlaces": [
+        {
+          "key": "vitebsk",
+          "name": "维捷布斯克",
+          "lon": 30.204,
+          "lat": 55.19,
+          "relationship": "life",
+          "source": "https://www.saint-pauldevence.com/en/history/celebrities/marc-chagall-vitebsk-saint-paul-de-vence/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "saint-paul-vence",
+          "name": "圣保罗德旺斯",
+          "lon": 7.122,
+          "lat": 43.697,
+          "relationship": "life-work",
+          "source": "https://www.saint-pauldevence.com/en/history/celebrities/marc-chagall-vitebsk-saint-paul-de-vence/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "sorolla",
@@ -523,14 +757,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "sorolla",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=sorolla",
+      "livePlanId": "atlas-sorolla-places",
+      "selectedPlaces": [
+        {
+          "key": "valencia",
+          "name": "瓦伦西亚",
+          "lon": -0.376,
+          "lat": 39.47,
+          "relationship": "life-work",
+          "source": "https://www.cultura.gob.es/msorolla/en/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "hispanic-society",
+          "name": "纽约西班牙裔协会博物馆",
+          "lon": -73.9464,
+          "lat": 40.8337,
+          "relationship": "collection",
+          "source": "https://hispanicsociety.org/exhibition/joaquin-sorollas-vision-of-spain/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "constable",
@@ -571,14 +828,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "constable",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=constable",
+      "livePlanId": "atlas-constable-places",
+      "selectedPlaces": [
+        {
+          "key": "flatford",
+          "name": "弗拉特福德",
+          "lon": 1.021,
+          "lat": 51.958,
+          "relationship": "depicted",
+          "source": "https://www.nationaltrust.org.uk/visit/suffolk/flatford/flatford-and-constable-country-walk",
+          "hasLocalImage": true
+        },
+        {
+          "key": "dedham",
+          "name": "迪德姆",
+          "lon": 0.993,
+          "lat": 51.959,
+          "relationship": "depicted",
+          "source": "https://www.nationaltrust.org.uk/visit/suffolk/flatford/flatford-and-constable-country-walk",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "zhang-daqian",
@@ -636,14 +916,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "zhang-daqian",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=zhang-daqian",
+      "livePlanId": "atlas-zhang-daqian-places",
+      "selectedPlaces": [
+        {
+          "key": "mogao",
+          "name": "莫高窟",
+          "lon": 94.815,
+          "lat": 40.041,
+          "relationship": "life-work",
+          "source": "https://www.npm.edu.tw/exh96/dai-chien/index.html",
+          "hasLocalImage": true
+        },
+        {
+          "key": "chang-dai-chien-house",
+          "name": "摩耶精舍",
+          "lon": 121.551,
+          "lat": 25.106,
+          "relationship": "life-work",
+          "source": "https://www.npm.edu.tw/exh96/dai-chien/index.html",
+          "hasLocalImage": false
+        }
+      ]
     },
     {
       "id": "picasso",
@@ -685,14 +988,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "picasso",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=picasso",
+      "livePlanId": "atlas-picasso-places",
+      "selectedPlaces": [
+        {
+          "key": "picasso-barcelona",
+          "name": "巴塞罗那毕加索博物馆",
+          "lon": 2.181,
+          "lat": 41.3853,
+          "relationship": "collection",
+          "source": "https://museupicassobcn.cat/en/picasso-and-barcelona/picasso-connection-with-barcelona",
+          "hasLocalImage": true
+        },
+        {
+          "key": "picasso-paris",
+          "name": "巴黎毕加索博物馆",
+          "lon": 2.3625,
+          "lat": 48.8599,
+          "relationship": "collection",
+          "source": "https://www.museepicassoparis.fr/en/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "frida",
@@ -741,14 +1067,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "frida",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=frida",
+      "livePlanId": "atlas-frida-places",
+      "selectedPlaces": [
+        {
+          "key": "frida-blue-house",
+          "name": "弗里达蓝屋",
+          "lon": -99.1624,
+          "lat": 19.3552,
+          "relationship": "life-work",
+          "source": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2022/08/Biografias-Frida-Kahlo-ingles.pdf",
+          "hasLocalImage": true
+        },
+        {
+          "key": "detroit",
+          "name": "底特律",
+          "lon": -83.046,
+          "lat": 42.331,
+          "relationship": "life",
+          "source": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2022/08/Biografias-Frida-Kahlo-ingles.pdf",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "beethoven",
@@ -797,14 +1146,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "beethoven",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=beethoven",
+      "livePlanId": "atlas-beethoven-places",
+      "selectedPlaces": [
+        {
+          "key": "beethoven-bonn",
+          "name": "波恩贝多芬故居",
+          "lon": 7.1005,
+          "lat": 50.737,
+          "relationship": "life",
+          "source": "https://internet.beethoven.de/pdf-sonderausstellung/Von-der-Bonngasse-ins-Schwarzspanierhaus-Brief-Guide.pdf",
+          "hasLocalImage": true
+        },
+        {
+          "key": "beethoven-heiligenstadt",
+          "name": "维也纳海利根施塔特",
+          "lon": 16.3605,
+          "lat": 48.2563,
+          "relationship": "life-work",
+          "source": "https://www.wienmuseum.at/beethoven_museum",
+          "hasLocalImage": false
+        }
+      ]
     },
     {
       "id": "chopin",
@@ -846,14 +1218,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "chopin",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=chopin",
+      "livePlanId": "atlas-chopin-places",
+      "selectedPlaces": [
+        {
+          "key": "nohant",
+          "name": "诺昂乔治·桑故居",
+          "lon": 1.9755,
+          "lat": 46.625,
+          "relationship": "life-work",
+          "source": "https://www.chopin.pl/france.en.html",
+          "hasLocalImage": true
+        },
+        {
+          "key": "valldemossa",
+          "name": "瓦尔德莫萨",
+          "lon": 2.623,
+          "lat": 39.711,
+          "relationship": "life-work",
+          "source": "https://www.chopin.pl/france.en.html",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "liszt",
@@ -896,14 +1291,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "liszt",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=liszt",
+      "livePlanId": "atlas-liszt-places",
+      "selectedPlaces": [
+        {
+          "key": "liszt-raiding",
+          "name": "雷丁李斯特出生地",
+          "lon": 16.5304,
+          "lat": 47.5657,
+          "relationship": "life",
+          "source": "https://lisztmuseum.hu/liszt_houses/liszt-houses-124130",
+          "hasLocalImage": false
+        },
+        {
+          "key": "liszt-weimar",
+          "name": "魏玛李斯特故居",
+          "lon": 11.3287,
+          "lat": 50.9738,
+          "relationship": "life-work",
+          "source": "https://www.klassik-stiftung.de/en/liszt-house/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "schumanns",
@@ -951,14 +1369,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "schumanns",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=schumanns",
+      "livePlanId": "atlas-schumanns-places",
+      "selectedPlaces": [
+        {
+          "key": "schumann-leipzig",
+          "name": "莱比锡舒曼故居",
+          "lon": 12.3938,
+          "lat": 51.3388,
+          "relationship": "life-work",
+          "source": "https://www.schumannhaus.de/en/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "dusseldorf",
+          "name": "杜塞尔多夫",
+          "lon": 6.774,
+          "lat": 51.227,
+          "relationship": "life-work",
+          "source": "https://www.schumann-portal.de/duesseldorf.html",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "wagner",
@@ -993,14 +1434,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "wagner",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=wagner",
+      "livePlanId": "atlas-wagner-places",
+      "selectedPlaces": [
+        {
+          "key": "tribschen",
+          "name": "特里布申瓦格纳博物馆",
+          "lon": 8.3297,
+          "lat": 47.04,
+          "relationship": "life-work",
+          "source": "https://www.richard-wagner-museum.ch/",
+          "hasLocalImage": false
+        },
+        {
+          "key": "bayreuth-festspielhaus",
+          "name": "拜罗伊特节日剧院",
+          "lon": 11.579,
+          "lat": 49.9606,
+          "relationship": "work",
+          "source": "https://www.bayreuther-festspiele.de/en/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "mahler",
@@ -1042,14 +1506,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "mahler",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=mahler",
+      "livePlanId": "atlas-mahler-places",
+      "selectedPlaces": [
+        {
+          "key": "mahler-attersee",
+          "name": "阿特湖作曲小屋",
+          "lon": 13.538,
+          "lat": 47.831,
+          "relationship": "life-work",
+          "source": "https://mahler-steinbach.at/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "mahler-dobbiaco",
+          "name": "多比亚科作曲小屋",
+          "lon": 12.201,
+          "lat": 46.733,
+          "relationship": "life-work",
+          "source": "https://www.gustav-mahler.it/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "dvorak",
@@ -1091,14 +1578,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "dvorak",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=dvorak",
+      "livePlanId": "atlas-dvorak-places",
+      "selectedPlaces": [
+        {
+          "key": "dvorak-prague",
+          "name": "布拉格德沃夏克博物馆",
+          "lon": 14.426,
+          "lat": 50.0732,
+          "relationship": "collection",
+          "source": "https://www.nm.cz/en/visit-us/buildings/antonin-dvorak-museum",
+          "hasLocalImage": true
+        },
+        {
+          "key": "spillville",
+          "name": "斯皮尔维尔",
+          "lon": -91.95,
+          "lat": 43.203,
+          "relationship": "life-work",
+          "source": "https://www.dvoraknyc.org/bio",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "sibelius",
@@ -1139,14 +1649,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "sibelius",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=sibelius",
+      "livePlanId": "atlas-sibelius-places",
+      "selectedPlaces": [
+        {
+          "key": "ainola",
+          "name": "艾诺拉",
+          "lon": 25.0904,
+          "lat": 60.4537,
+          "relationship": "life-work",
+          "source": "https://www.ainola.fi/en/",
+          "hasLocalImage": false
+        },
+        {
+          "key": "helsinki",
+          "name": "赫尔辛基",
+          "lon": 24.938,
+          "lat": 60.169,
+          "relationship": "life-work",
+          "source": "https://sibelius.fi/en/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "grieg",
@@ -1187,14 +1720,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "grieg",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=grieg",
+      "livePlanId": "atlas-grieg-places",
+      "selectedPlaces": [
+        {
+          "key": "troldhaugen",
+          "name": "特罗尔豪根",
+          "lon": 5.329,
+          "lat": 60.319,
+          "relationship": "life-work",
+          "source": "https://www.kodebergen.no/en/museums/edvard-grieg-museum-troldhaugen",
+          "hasLocalImage": true
+        },
+        {
+          "key": "bergen",
+          "name": "卑尔根",
+          "lon": 5.325,
+          "lat": 60.392,
+          "relationship": "life",
+          "source": "https://www.kodebergen.no/en/museums/troldhaugen",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "mendelssohn",
@@ -1242,14 +1798,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "mendelssohn",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=mendelssohn",
+      "livePlanId": "atlas-mendelssohn-places",
+      "selectedPlaces": [
+        {
+          "key": "holyrood",
+          "name": "荷里路德修道院",
+          "lon": -3.17,
+          "lat": 55.9525,
+          "relationship": "life-work",
+          "source": "https://www.mendelssohninscotland.com/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "staffa",
+          "name": "斯塔法岛与芬格尔洞",
+          "lon": -6.34,
+          "lat": 56.435,
+          "relationship": "life-work",
+          "source": "https://www.nts.org.uk/visit/places/staffa",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "puccini",
@@ -1290,14 +1869,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "puccini",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=puccini",
+      "livePlanId": "atlas-puccini-places",
+      "selectedPlaces": [
+        {
+          "key": "puccini-lucca",
+          "name": "卢卡普契尼故居",
+          "lon": 10.5015,
+          "lat": 43.8425,
+          "relationship": "life",
+          "source": "https://www.puccinimuseum.org/en/",
+          "hasLocalImage": false
+        },
+        {
+          "key": "torre-del-lago",
+          "name": "托雷德尔拉戈",
+          "lon": 10.293,
+          "lat": 43.828,
+          "relationship": "life-work",
+          "source": "https://www.puccinimuseum.org/en/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "handel",
@@ -1347,14 +1949,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "handel",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=handel",
+      "livePlanId": "atlas-handel-places",
+      "selectedPlaces": [
+        {
+          "key": "handel-halle",
+          "name": "哈雷亨德尔故居",
+          "lon": 11.967,
+          "lat": 51.484,
+          "relationship": "life",
+          "source": "https://haendelhaus.de/en/hh/handel-life-music",
+          "hasLocalImage": true
+        },
+        {
+          "key": "handel-london",
+          "name": "伦敦亨德尔故居",
+          "lon": -0.1478,
+          "lat": 51.5138,
+          "relationship": "life-work",
+          "source": "https://handelhendrix.org/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "su-shi",
@@ -1416,14 +2041,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "su-shi",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=su-shi",
+      "livePlanId": "atlas-su-shi-places",
+      "selectedPlaces": [
+        {
+          "key": "huangzhou",
+          "name": "黄州",
+          "lon": 114.88,
+          "lat": 30.454,
+          "relationship": "life-work",
+          "source": "https://ccdijl.gov.cn/ztjc/ljwh/202106/t20210629_8121411.html",
+          "hasLocalImage": true
+        },
+        {
+          "key": "danzhou",
+          "name": "儋州",
+          "lon": 109.58,
+          "lat": 19.52,
+          "relationship": "life-work",
+          "source": "https://ccdijl.gov.cn/ztjc/ljwh/202106/t20210629_8121411.html",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "li-bai",
@@ -1485,14 +2133,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "li-bai",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=li-bai",
+      "livePlanId": "atlas-li-bai-places",
+      "selectedPlaces": [
+        {
+          "key": "jingting",
+          "name": "敬亭山",
+          "lon": 118.735,
+          "lat": 30.986,
+          "relationship": "depicted",
+          "source": "https://www.xinhuanet.com/photo/20250602/c9a5651a7b494c89b008330546030730/c.html",
+          "hasLocalImage": false
+        },
+        {
+          "key": "taohuatan",
+          "name": "桃花潭",
+          "lon": 118.135,
+          "lat": 30.481,
+          "relationship": "depicted",
+          "source": "https://www.xinhuanet.com/photo/20250602/c9a5651a7b494c89b008330546030730/c.html",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "du-fu",
@@ -1554,14 +2225,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "du-fu",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=du-fu",
+      "livePlanId": "atlas-du-fu-places",
+      "selectedPlaces": [
+        {
+          "key": "dufu-cottage",
+          "name": "成都杜甫草堂",
+          "lon": 104.028,
+          "lat": 30.66,
+          "relationship": "life-memorial",
+          "source": "https://www.cddfct.cn/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "yueyang-tower",
+          "name": "岳阳楼",
+          "lon": 113.088,
+          "lat": 29.381,
+          "relationship": "depicted",
+          "source": "https://yueyang.gov.cn/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "wang-wei",
@@ -1602,14 +2296,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "wang-wei",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=wang-wei",
+      "livePlanId": "atlas-wang-wei-places",
+      "selectedPlaces": [
+        {
+          "key": "lantian",
+          "name": "蓝田辋川区域",
+          "lon": 109.323,
+          "lat": 34.153,
+          "relationship": "life-work",
+          "source": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_16a.pdf",
+          "hasLocalImage": true
+        },
+        {
+          "key": "zhongnan",
+          "name": "终南山",
+          "lon": 108.9,
+          "lat": 33.95,
+          "relationship": "depicted",
+          "source": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_16a.pdf",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "bai-juyi",
@@ -1657,14 +2374,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "bai-juyi",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=bai-juyi",
+      "livePlanId": "atlas-bai-juyi-places",
+      "selectedPlaces": [
+        {
+          "key": "hangzhou",
+          "name": "杭州",
+          "lon": 120.15,
+          "lat": 30.25,
+          "relationship": "life-work",
+          "source": "https://www.hzarchives.org.cn/info/4733",
+          "hasLocalImage": true
+        },
+        {
+          "key": "suzhou",
+          "name": "苏州",
+          "lon": 120.585,
+          "lat": 31.299,
+          "relationship": "life-work",
+          "source": "https://www.suzhou.gov.cn/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "lu-you",
@@ -1712,14 +2452,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "lu-you",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=lu-you",
+      "livePlanId": "atlas-lu-you-places",
+      "selectedPlaces": [
+        {
+          "key": "shaoxing",
+          "name": "绍兴",
+          "lon": 120.582,
+          "lat": 29.997,
+          "relationship": "life",
+          "source": "https://ctext.org/wiki.pl?if=gb&remap=gb&res=210837",
+          "hasLocalImage": true
+        },
+        {
+          "key": "fengjie",
+          "name": "奉节与夔州区域",
+          "lon": 109.464,
+          "lat": 31.019,
+          "relationship": "life-work",
+          "source": "https://ctext.org/wiki.pl?if=gb&remap=gb&res=210837",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "shen-congwen",
@@ -1774,14 +2537,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "shen-congwen",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=shen-congwen",
+      "livePlanId": "atlas-shen-congwen-places",
+      "selectedPlaces": [
+        {
+          "key": "fenghuang",
+          "name": "凤凰古城",
+          "lon": 109.6,
+          "lat": 27.948,
+          "relationship": "life",
+          "source": "https://www.chinawriter.com.cn/n1/2020/0730/c419384-31803389.html",
+          "hasLocalImage": true
+        },
+        {
+          "key": "changde",
+          "name": "常德",
+          "lon": 111.699,
+          "lat": 29.032,
+          "relationship": "life-work",
+          "source": "https://www.chinawriter.com.cn/n1/2020/0730/c419384-31803389.html",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "xiao-hong",
@@ -1851,14 +2637,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "xiao-hong",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=xiao-hong",
+      "livePlanId": "atlas-xiao-hong-places",
+      "selectedPlaces": [
+        {
+          "key": "hulan",
+          "name": "呼兰",
+          "lon": 126.59,
+          "lat": 45.89,
+          "relationship": "life",
+          "source": "https://www.xinhuanet.com/politics/20260423/8c88d7cdfd064821b454a44dcf3f1495/c.html",
+          "hasLocalImage": true
+        },
+        {
+          "key": "harbin",
+          "name": "哈尔滨",
+          "lon": 126.642,
+          "lat": 45.757,
+          "relationship": "life-work",
+          "source": "https://www.xinhuanet.com/politics/20260423/8c88d7cdfd064821b454a44dcf3f1495/c.html",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "basho",
@@ -1913,14 +2722,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "basho",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=basho",
+      "livePlanId": "atlas-basho-places",
+      "selectedPlaces": [
+        {
+          "key": "matsushima",
+          "name": "松岛",
+          "lon": 141.063,
+          "lat": 38.37,
+          "relationship": "life-work",
+          "source": "https://www.mlit.go.jp/tagengo-db/en/R3-00494.html",
+          "hasLocalImage": true
+        },
+        {
+          "key": "yamadera",
+          "name": "山寺立石寺",
+          "lon": 140.437,
+          "lat": 38.312,
+          "relationship": "life-work",
+          "source": "https://www.mlit.go.jp/tagengo-db/en/R3-00494.html",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "kawabata",
@@ -1968,14 +2800,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "kawabata",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=kawabata",
+      "livePlanId": "atlas-kawabata-places",
+      "selectedPlaces": [
+        {
+          "key": "amagi",
+          "name": "天城山与伊豆山地",
+          "lon": 139.001,
+          "lat": 34.863,
+          "relationship": "fiction-life",
+          "source": "https://amagigoe.jp/bungaku/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "echigo-yuzawa",
+          "name": "越后汤泽",
+          "lon": 138.818,
+          "lat": 36.934,
+          "relationship": "fiction-life",
+          "source": "https://www.e-yuzawa.gr.jp/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "soseki",
@@ -2024,14 +2879,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "soseki",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=soseki",
+      "livePlanId": "atlas-soseki-places",
+      "selectedPlaces": [
+        {
+          "key": "matsuyama",
+          "name": "松山",
+          "lon": 132.766,
+          "lat": 33.84,
+          "relationship": "life-work",
+          "source": "https://www.edo-tokyo-museum.or.jp/s-exhibition/soseki/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "london",
+          "name": "伦敦",
+          "lon": -0.128,
+          "lat": 51.507,
+          "relationship": "life-work",
+          "source": "https://www.edo-tokyo-museum.or.jp/s-exhibition/soseki/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "goethe",
@@ -2072,14 +2950,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "goethe",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=goethe",
+      "livePlanId": "atlas-goethe-places",
+      "selectedPlaces": [
+        {
+          "key": "goethe-rome",
+          "name": "罗马歌德之家",
+          "lon": 12.4782,
+          "lat": 41.9092,
+          "relationship": "life-work",
+          "source": "https://casadigoethe.it/en/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "naples",
+          "name": "那不勒斯",
+          "lon": 14.258,
+          "lat": 40.852,
+          "relationship": "life-work",
+          "source": "https://casadigoethe.it/en/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "hugo",
@@ -2114,14 +3015,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "hugo",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=hugo",
+      "livePlanId": "atlas-hugo-places",
+      "selectedPlaces": [
+        {
+          "key": "hugo-paris",
+          "name": "巴黎雨果故居",
+          "lon": 2.366,
+          "lat": 48.855,
+          "relationship": "life-memorial",
+          "source": "https://www.maisonsvictorhugo.paris.fr/en/paris",
+          "hasLocalImage": true
+        },
+        {
+          "key": "hauteville",
+          "name": "欧特维尔故居",
+          "lon": -2.535,
+          "lat": 49.451,
+          "relationship": "life-work",
+          "source": "https://www.maisonsvictorhugo.paris.fr/en/guernesey/house",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "byron",
@@ -2163,14 +3087,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "byron",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=byron",
+      "livePlanId": "atlas-byron-places",
+      "selectedPlaces": [
+        {
+          "key": "chillon",
+          "name": "希永城堡",
+          "lon": 6.927,
+          "lat": 46.414,
+          "relationship": "life-work",
+          "source": "https://www.chillon.ch/en/exposition/1816-2016-byron-is-back/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "missolonghi",
+          "name": "米索隆吉",
+          "lon": 21.429,
+          "lat": 38.369,
+          "relationship": "life",
+          "source": "https://www.byronsociety.org/",
+          "hasLocalImage": false
+        }
+      ]
     },
     {
       "id": "wordsworth",
@@ -2211,14 +3158,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "wordsworth",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=wordsworth",
+      "livePlanId": "atlas-wordsworth-places",
+      "selectedPlaces": [
+        {
+          "key": "dove-cottage",
+          "name": "鸽舍",
+          "lon": -3.018,
+          "lat": 54.453,
+          "relationship": "life-work",
+          "source": "https://wordsworth.org.uk/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "rydal-mount",
+          "name": "莱德尔山庄",
+          "lon": -2.982,
+          "lat": 54.448,
+          "relationship": "life-work",
+          "source": "https://www.rydalmount.co.uk/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "dickens",
@@ -2259,14 +3229,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "dickens",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=dickens",
+      "livePlanId": "atlas-dickens-places",
+      "selectedPlaces": [
+        {
+          "key": "dickens-london",
+          "name": "伦敦狄更斯博物馆",
+          "lon": -0.1167,
+          "lat": 51.5234,
+          "relationship": "life-work",
+          "source": "https://dickensmuseum.com/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "dickens-broadstairs",
+          "name": "布罗德斯泰斯",
+          "lon": 1.441,
+          "lat": 51.359,
+          "relationship": "life-work",
+          "source": "https://dickensmuseum.com/pages/links",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "kafka",
@@ -2301,14 +3294,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "kafka",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=kafka",
+      "livePlanId": "atlas-kafka-places",
+      "selectedPlaces": [
+        {
+          "key": "prague",
+          "name": "布拉格",
+          "lon": 14.421,
+          "lat": 50.087,
+          "relationship": "life-work",
+          "source": "https://www.goethe.de/prj/zei/en/art/25237193.html",
+          "hasLocalImage": true
+        },
+        {
+          "key": "kierling",
+          "name": "克洛斯特新堡基尔灵",
+          "lon": 16.27,
+          "lat": 48.31,
+          "relationship": "life-memorial",
+          "source": "https://www.kafka-gesellschaft.at/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "joyce",
@@ -2359,14 +3375,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "joyce",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=joyce",
+      "livePlanId": "atlas-joyce-places",
+      "selectedPlaces": [
+        {
+          "key": "joyce-dublin",
+          "name": "都柏林乔伊斯中心",
+          "lon": -6.26,
+          "lat": 53.356,
+          "relationship": "memorial",
+          "source": "https://jamesjoyce.ie/james-joyce/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "trieste",
+          "name": "的里雅斯特",
+          "lon": 13.77,
+          "lat": 45.65,
+          "relationship": "life-work",
+          "source": "https://jamesjoyce.ie/james-joyce/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "proust",
@@ -2407,14 +3446,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "proust",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=proust",
+      "livePlanId": "atlas-proust-places",
+      "selectedPlaces": [
+        {
+          "key": "illiers",
+          "name": "伊利耶-贡布雷",
+          "lon": 1.245,
+          "lat": 48.3,
+          "relationship": "life-fiction",
+          "source": "https://illiers-combray.com/marcel-proust-et-illiers-combray/musee-marcel-proust-maison-de-tante-leonie/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "cabourg",
+          "name": "卡堡",
+          "lon": -0.115,
+          "lat": 49.289,
+          "relationship": "life-fiction",
+          "source": "https://www.cabourg-tourisme.fr/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "hemingway",
@@ -2457,14 +3519,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "hemingway",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=hemingway",
+      "livePlanId": "atlas-hemingway-places",
+      "selectedPlaces": [
+        {
+          "key": "hemingway-keywest",
+          "name": "基韦斯特海明威故居",
+          "lon": -81.8009,
+          "lat": 24.551,
+          "relationship": "life-work",
+          "source": "https://www.hemingwayhome.com/his-life",
+          "hasLocalImage": true
+        },
+        {
+          "key": "finca-vigia",
+          "name": "瞭望庄园",
+          "lon": -82.296,
+          "lat": 23.067,
+          "relationship": "life-work",
+          "source": "https://www.hemingwayfinca.org/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "steinbeck",
@@ -2505,14 +3590,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "steinbeck",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=steinbeck",
+      "livePlanId": "atlas-steinbeck-places",
+      "selectedPlaces": [
+        {
+          "key": "steinbeck-salinas",
+          "name": "萨利纳斯国家斯坦贝克中心",
+          "lon": -121.655,
+          "lat": 36.678,
+          "relationship": "memorial",
+          "source": "https://steinbeck.org/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "cannery-row",
+          "name": "蒙特雷罐头厂街",
+          "lon": -121.898,
+          "lat": 36.615,
+          "relationship": "fiction-life",
+          "source": "https://steinbeck.org/virtual-members/diary-of-a-book-travels-with-charley-part-one/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "mark-twain",
@@ -2553,14 +3661,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "mark-twain",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=mark-twain",
+      "livePlanId": "atlas-mark-twain-places",
+      "selectedPlaces": [
+        {
+          "key": "hannibal",
+          "name": "汉尼拔马克·吐温童年故居",
+          "lon": -91.358,
+          "lat": 39.712,
+          "relationship": "life-fiction",
+          "source": "https://marktwainmuseum.org/exhibits-programs-events/exhibits/",
+          "hasLocalImage": false
+        },
+        {
+          "key": "twain-hartford",
+          "name": "哈特福德马克·吐温故居",
+          "lon": -72.701,
+          "lat": 41.767,
+          "relationship": "life-work",
+          "source": "https://marktwainhouse.org/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "neruda",
@@ -2601,14 +3732,46 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "neruda",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=neruda",
+      "livePlanId": "atlas-neruda-places",
+      "selectedPlaces": [
+        {
+          "key": "la-chascona",
+          "name": "圣地亚哥拉查斯科纳",
+          "lon": -70.634,
+          "lat": -33.431,
+          "relationship": "life-work",
+          "source": "https://fundacionneruda.org/en/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "la-sebastiana",
+          "name": "瓦尔帕莱索拉塞巴斯蒂亚纳",
+          "lon": -71.622,
+          "lat": -33.055,
+          "relationship": "life-work",
+          "source": "https://fundacionneruda.org/en/",
+          "hasLocalImage": false
+        },
+        {
+          "key": "isla-negra",
+          "name": "黑岛故居",
+          "lon": -71.683,
+          "lat": -33.426,
+          "relationship": "life-work",
+          "source": "https://fundacionneruda.org/en/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "marquez",
@@ -2656,14 +3819,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "marquez",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=marquez",
+      "livePlanId": "atlas-marquez-places",
+      "selectedPlaces": [
+        {
+          "key": "aracataca",
+          "name": "阿拉卡塔卡",
+          "lon": -74.189,
+          "lat": 10.592,
+          "relationship": "life-fiction",
+          "source": "https://colombia.travel/en/blog/explore-route-garcia-marquez-in-colombian-caribbean",
+          "hasLocalImage": true
+        },
+        {
+          "key": "cartagena",
+          "name": "卡塔赫纳",
+          "lon": -75.55,
+          "lat": 10.423,
+          "relationship": "life-work",
+          "source": "https://colombia.travel/en/blog/explore-route-garcia-marquez-in-colombian-caribbean",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "tagore",
@@ -2697,14 +3883,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "tagore",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=tagore",
+      "livePlanId": "atlas-tagore-places",
+      "selectedPlaces": [
+        {
+          "key": "jorasanko",
+          "name": "加尔各答乔拉桑科故居",
+          "lon": 88.359,
+          "lat": 22.585,
+          "relationship": "life",
+          "source": "https://rbu.ac.in/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "santiniketan",
+          "name": "圣蒂尼克坦",
+          "lon": 87.686,
+          "lat": 23.681,
+          "relationship": "life-work",
+          "source": "https://whc.unesco.org/en/list/1375/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "mahfouz",
@@ -2745,14 +3954,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "mahfouz",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=mahfouz",
+      "livePlanId": "atlas-mahfouz-places",
+      "selectedPlaces": [
+        {
+          "key": "khan-khalili",
+          "name": "汗哈利利与老开罗",
+          "lon": 31.262,
+          "lat": 30.047,
+          "relationship": "fiction-life",
+          "source": "https://www.mahfouzmuseum.gov.eg/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "mahfouz-museum",
+          "name": "马哈福兹博物馆",
+          "lon": 31.26,
+          "lat": 30.043,
+          "relationship": "memorial",
+          "source": "https://www.mahfouzmuseum.gov.eg/",
+          "hasLocalImage": false
+        }
+      ]
     },
     {
       "id": "wu-guanzhong",
@@ -2801,14 +4033,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "wu-guanzhong",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=wu-guanzhong",
+      "livePlanId": "atlas-wu-guanzhong-places",
+      "selectedPlaces": [
+        {
+          "key": "yixing",
+          "name": "宜兴",
+          "lon": 119.823,
+          "lat": 31.337,
+          "relationship": "life",
+          "source": "https://www.tsinghua.edu.cn/info/1844/73915.htm",
+          "hasLocalImage": true
+        },
+        {
+          "key": "beaux-arts-paris",
+          "name": "巴黎国立高等美术学院",
+          "lon": 2.3335,
+          "lat": 48.8576,
+          "relationship": "life-work",
+          "source": "https://www.tsinghua.edu.cn/info/1844/73915.htm",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "qi-baishi",
@@ -2870,14 +4125,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "qi-baishi",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=qi-baishi",
+      "livePlanId": "atlas-qi-baishi-places",
+      "selectedPlaces": [
+        {
+          "key": "xiangtan",
+          "name": "湘潭",
+          "lon": 112.944,
+          "lat": 27.831,
+          "relationship": "life",
+          "source": "https://www.bjaa.com.cn/artist.html?artist=319&clg=82&hcs=1",
+          "hasLocalImage": true
+        },
+        {
+          "key": "qi-baishi-beijing",
+          "name": "北京齐白石故居",
+          "lon": 116.375,
+          "lat": 39.929,
+          "relationship": "life-work",
+          "source": "https://www.bjaa.com.cn/artist.html?artist=319&clg=82&hcs=1",
+          "hasLocalImage": false
+        }
+      ]
     },
     {
       "id": "huang-binhong",
@@ -2925,14 +4203,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "huang-binhong",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=huang-binhong",
+      "livePlanId": "atlas-huang-binhong-places",
+      "selectedPlaces": [
+        {
+          "key": "huangshan",
+          "name": "黄山",
+          "lon": 118.167,
+          "lat": 30.133,
+          "relationship": "depicted",
+          "source": "https://lib.caa.edu.cn/info/1046/1221.htm",
+          "hasLocalImage": true
+        },
+        {
+          "key": "hangzhou",
+          "name": "杭州",
+          "lon": 120.15,
+          "lat": 30.25,
+          "relationship": "life-work",
+          "source": "https://lib.caa.edu.cn/info/1046/1221.htm",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "feng-zikai",
@@ -2987,14 +4288,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "feng-zikai",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=feng-zikai",
+      "livePlanId": "atlas-feng-zikai-places",
+      "selectedPlaces": [
+        {
+          "key": "yuanyuantang",
+          "name": "石门缘缘堂",
+          "lon": 120.447,
+          "lat": 30.634,
+          "relationship": "life-work",
+          "source": "https://www.zjskw.gov.cn/art/2022/1/17/art_1229514868_44595.html",
+          "hasLocalImage": false
+        },
+        {
+          "key": "chongqing",
+          "name": "重庆",
+          "lon": 106.552,
+          "lat": 29.563,
+          "relationship": "life",
+          "source": "https://www.zjskw.gov.cn/art/2022/1/17/art_1229514868_44595.html",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "higashiyama",
@@ -3037,14 +4361,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "higashiyama",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=higashiyama",
+      "livePlanId": "atlas-higashiyama-places",
+      "selectedPlaces": [
+        {
+          "key": "nagano-art",
+          "name": "长野县立美术馆东山魁夷馆",
+          "lon": 138.188,
+          "lat": 36.663,
+          "relationship": "collection",
+          "source": "https://nagano.art.museum/higashiyama_kaii_gallery",
+          "hasLocalImage": true
+        },
+        {
+          "key": "toshodaiji",
+          "name": "唐招提寺",
+          "lon": 135.784,
+          "lat": 34.676,
+          "relationship": "work",
+          "source": "https://www.toshodaiji.jp/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "rivera",
@@ -3079,14 +4426,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "rivera",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=rivera",
+      "livePlanId": "atlas-rivera-places",
+      "selectedPlaces": [
+        {
+          "key": "dia-detroit",
+          "name": "底特律美术馆",
+          "lon": -83.0652,
+          "lat": 42.3593,
+          "relationship": "work",
+          "source": "https://dia.org/collection/detroit-industry-south-wall/58539",
+          "hasLocalImage": true
+        },
+        {
+          "key": "mexico-palace",
+          "name": "墨西哥国民宫",
+          "lon": -99.131,
+          "lat": 19.432,
+          "relationship": "work",
+          "source": "https://www.gob.mx/hacienda",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "rodin",
@@ -3120,14 +4490,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "rodin",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=rodin",
+      "livePlanId": "atlas-rodin-places",
+      "selectedPlaces": [
+        {
+          "key": "rodin-paris",
+          "name": "巴黎罗丹博物馆",
+          "lon": 2.3158,
+          "lat": 48.8556,
+          "relationship": "collection",
+          "source": "https://www.musee-rodin.fr/en",
+          "hasLocalImage": true
+        },
+        {
+          "key": "rodin-meudon",
+          "name": "默东罗丹故居与工作室",
+          "lon": 2.2506,
+          "lat": 48.8208,
+          "relationship": "life-work",
+          "source": "https://www.musee-rodin.fr/en/musee-rodin-meudon",
+          "hasLocalImage": false
+        }
+      ]
     },
     {
       "id": "brancusi",
@@ -3162,14 +4555,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "brancusi",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=brancusi",
+      "livePlanId": "atlas-brancusi-places",
+      "selectedPlaces": [
+        {
+          "key": "brancusi-ensemble",
+          "name": "特尔古日乌雕塑群",
+          "lon": 23.274,
+          "lat": 45.034,
+          "relationship": "work",
+          "source": "https://whc.unesco.org/en/list/1473/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "brancusi-paris",
+          "name": "巴黎布朗库西工作室收藏",
+          "lon": 2.3518,
+          "lat": 48.8611,
+          "relationship": "collection",
+          "source": "https://www.centrepompidou.fr/en/collection/atelier-brancusi",
+          "hasLocalImage": false
+        }
+      ]
     },
     {
       "id": "hepworth",
@@ -3210,14 +4626,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "hepworth",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=hepworth",
+      "livePlanId": "atlas-hepworth-places",
+      "selectedPlaces": [
+        {
+          "key": "hepworth-garden",
+          "name": "赫普沃斯博物馆与雕塑花园",
+          "lon": -5.4806,
+          "lat": 50.2122,
+          "relationship": "life-work",
+          "source": "https://www.tate.org.uk/visit/tate-st-ives/barbara-hepworth-museum-and-sculpture-garden",
+          "hasLocalImage": true
+        },
+        {
+          "key": "tate-st-ives",
+          "name": "泰特圣艾夫斯",
+          "lon": -5.4824,
+          "lat": 50.2143,
+          "relationship": "collection",
+          "source": "https://www.tate.org.uk/visit/tate-st-ives",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "noguchi",
@@ -3252,14 +4691,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "noguchi",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=noguchi",
+      "livePlanId": "atlas-noguchi-places",
+      "selectedPlaces": [
+        {
+          "key": "noguchi-new-york",
+          "name": "纽约野口勇博物馆",
+          "lon": -73.9397,
+          "lat": 40.7667,
+          "relationship": "collection",
+          "source": "https://www.noguchi.org/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "noguchi-mure",
+          "name": "野口勇庭园美术馆",
+          "lon": 134.135,
+          "lat": 34.3535,
+          "relationship": "life-work",
+          "source": "https://www.isamunoguchi.or.jp/",
+          "hasLocalImage": false
+        }
+      ]
     },
     {
       "id": "giacometti",
@@ -3294,14 +4756,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "giacometti",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=giacometti",
+      "livePlanId": "atlas-giacometti-places",
+      "selectedPlaces": [
+        {
+          "key": "stampa",
+          "name": "斯坦帕与布雷加利亚山谷",
+          "lon": 9.589,
+          "lat": 46.343,
+          "relationship": "life",
+          "source": "https://www.fondation-giacometti.fr/en/biography",
+          "hasLocalImage": true
+        },
+        {
+          "key": "giacometti-institut",
+          "name": "巴黎贾科梅蒂研究院",
+          "lon": 2.3291,
+          "lat": 48.8349,
+          "relationship": "collection",
+          "source": "https://www.fondation-giacometti.fr/en",
+          "hasLocalImage": false
+        }
+      ]
     },
     {
       "id": "henry-moore",
@@ -3342,14 +4827,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "henry-moore",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=henry-moore",
+      "livePlanId": "atlas-henry-moore-places",
+      "selectedPlaces": [
+        {
+          "key": "perry-green",
+          "name": "亨利·摩尔工作室与花园",
+          "lon": 0.0816,
+          "lat": 51.8377,
+          "relationship": "life-work",
+          "source": "https://henry-moore.org/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "moore-institute",
+          "name": "利兹亨利·摩尔研究所",
+          "lon": -1.547,
+          "lat": 53.8006,
+          "relationship": "collection",
+          "source": "https://henry-moore.org/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "gaudi",
@@ -3383,14 +4891,46 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "gaudi",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=gaudi",
+      "livePlanId": "atlas-gaudi-places",
+      "selectedPlaces": [
+        {
+          "key": "park-guell",
+          "name": "古埃尔公园",
+          "lon": 2.1528,
+          "lat": 41.4145,
+          "relationship": "work",
+          "source": "https://whc.unesco.org/en/list/320/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "casa-batllo",
+          "name": "巴特罗之家",
+          "lon": 2.165,
+          "lat": 41.3916,
+          "relationship": "work",
+          "source": "https://whc.unesco.org/en/list/320/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "sagrada-familia",
+          "name": "圣家堂",
+          "lon": 2.1744,
+          "lat": 41.4036,
+          "relationship": "work",
+          "source": "https://whc.unesco.org/en/list/320/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "wright",
@@ -3424,14 +4964,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "wright",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=wright",
+      "livePlanId": "atlas-wright-places",
+      "selectedPlaces": [
+        {
+          "key": "taliesin",
+          "name": "塔里埃森",
+          "lon": -90.0708,
+          "lat": 43.1414,
+          "relationship": "life-work",
+          "source": "https://www.taliesinpreservation.org/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "taliesin-west",
+          "name": "西塔里埃森",
+          "lon": -111.845,
+          "lat": 33.6064,
+          "relationship": "life-work",
+          "source": "https://franklloydwright.org/taliesin-west/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "le-corbusier",
@@ -3482,14 +5045,46 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "le-corbusier",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=le-corbusier",
+      "livePlanId": "atlas-le-corbusier-places",
+      "selectedPlaces": [
+        {
+          "key": "villa-savoye",
+          "name": "萨伏伊别墅",
+          "lon": 2.0283,
+          "lat": 48.9244,
+          "relationship": "work",
+          "source": "https://whc.unesco.org/en/list/1321/",
+          "hasLocalImage": false
+        },
+        {
+          "key": "unite-marseille",
+          "name": "马赛公寓",
+          "lon": 5.3964,
+          "lat": 43.2614,
+          "relationship": "work",
+          "source": "https://whc.unesco.org/en/list/1321/",
+          "hasLocalImage": false
+        },
+        {
+          "key": "tokyo-western-art",
+          "name": "国立西洋美术馆",
+          "lon": 139.7758,
+          "lat": 35.7155,
+          "relationship": "work",
+          "source": "https://whc.unesco.org/en/list/1321/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "aalto",
@@ -3537,14 +5132,46 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "aalto",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=aalto",
+      "livePlanId": "atlas-aalto-places",
+      "selectedPlaces": [
+        {
+          "key": "aalto-house",
+          "name": "阿尔托自宅",
+          "lon": 24.8764,
+          "lat": 60.1961,
+          "relationship": "life-work",
+          "source": "https://www.alvaraalto.fi/en/location/the-aalto-house/",
+          "hasLocalImage": false
+        },
+        {
+          "key": "saynatsalo",
+          "name": "塞于奈察洛市政厅",
+          "lon": 25.7693,
+          "lat": 62.1408,
+          "relationship": "work",
+          "source": "https://visit.alvaraalto.fi/en/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "paimio",
+          "name": "帕伊米奥疗养院",
+          "lon": 22.6883,
+          "lat": 60.4667,
+          "relationship": "work",
+          "source": "https://visit.alvaraalto.fi/en/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "ando",
@@ -3585,14 +5212,46 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "ando",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=ando",
+      "livePlanId": "atlas-ando-places",
+      "selectedPlaces": [
+        {
+          "key": "ando-museum",
+          "name": "安藤博物馆",
+          "lon": 133.998,
+          "lat": 34.4176,
+          "relationship": "work",
+          "source": "https://benesse-artsite.jp/en/art/ando-museum.html",
+          "hasLocalImage": true
+        },
+        {
+          "key": "benesse-house",
+          "name": "倍乐生之家美术馆",
+          "lon": 133.9816,
+          "lat": 34.4074,
+          "relationship": "work",
+          "source": "https://benesse-artsite.jp/en/art/benessehouse-museum.html",
+          "hasLocalImage": true
+        },
+        {
+          "key": "chichu",
+          "name": "地中美术馆",
+          "lon": 133.976,
+          "lat": 34.4106,
+          "relationship": "work",
+          "source": "https://benesse-artsite.jp/en/art/chichu.html",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "ansel-adams",
@@ -3633,14 +5292,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "ansel-adams",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=ansel-adams",
+      "livePlanId": "atlas-ansel-adams-places",
+      "selectedPlaces": [
+        {
+          "key": "yosemite-valley",
+          "name": "优胜美地山谷",
+          "lon": -119.593,
+          "lat": 37.745,
+          "relationship": "depicted",
+          "source": "https://www.nps.gov/yose/learn/historyculture/ansel-adams.htm",
+          "hasLocalImage": true
+        },
+        {
+          "key": "glacier-point",
+          "name": "冰川点",
+          "lon": -119.574,
+          "lat": 37.727,
+          "relationship": "depicted",
+          "source": "https://www.nps.gov/yose/planyourvisit/glacierpoint.htm",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "cartier-bresson",
@@ -3682,14 +5364,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "cartier-bresson",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=cartier-bresson",
+      "livePlanId": "atlas-cartier-bresson-places",
+      "selectedPlaces": [
+        {
+          "key": "beijing",
+          "name": "北京",
+          "lon": 116.397,
+          "lat": 39.905,
+          "relationship": "life-work",
+          "source": "https://www.henricartierbresson.org/en/expositions/henri-cartier-bresson-chine-1948-1949-1958/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "shanghai",
+          "name": "上海",
+          "lon": 121.474,
+          "lat": 31.23,
+          "relationship": "life-work",
+          "source": "https://www.henricartierbresson.org/en/expositions/henri-cartier-bresson-chine-1948-1949-1958/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "lee-miller",
@@ -3732,14 +5437,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "lee-miller",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=lee-miller",
+      "livePlanId": "atlas-lee-miller-places",
+      "selectedPlaces": [
+        {
+          "key": "cairo",
+          "name": "开罗",
+          "lon": 31.236,
+          "lat": 30.044,
+          "relationship": "life-work",
+          "source": "https://www.farleyshouseandgallery.co.uk/event/lee-miller-petrie-egypt/",
+          "hasLocalImage": true
+        },
+        {
+          "key": "farleys",
+          "name": "法利农舍",
+          "lon": 0.163,
+          "lat": 50.915,
+          "relationship": "life-work",
+          "source": "https://www.farleyshouseandgallery.co.uk/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "sugimoto",
@@ -3773,14 +5501,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "sugimoto",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=sugimoto",
+      "livePlanId": "atlas-sugimoto-places",
+      "selectedPlaces": [
+        {
+          "key": "enoura",
+          "name": "江之浦测候所",
+          "lon": 139.135,
+          "lat": 35.202,
+          "relationship": "work",
+          "source": "https://www.sugimotohiroshi.com/enoura-observatory",
+          "hasLocalImage": true
+        },
+        {
+          "key": "sugimoto-glass",
+          "name": "直岛护王神社",
+          "lon": 133.998,
+          "lat": 34.415,
+          "relationship": "work",
+          "source": "https://benesse-artsite.jp/en/art/arthouse.html",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "christo-jeanneclaude",
@@ -3831,14 +5582,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "christo-jeanneclaude",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=christo-jeanneclaude",
+      "livePlanId": "atlas-christo-jeanneclaude-places",
+      "selectedPlaces": [
+        {
+          "key": "reichstag",
+          "name": "柏林国会大厦",
+          "lon": 13.3762,
+          "lat": 52.5186,
+          "relationship": "temporary",
+          "source": "https://christojeanneclaude.net/artworks/realized-projects/",
+          "hasLocalImage": false
+        },
+        {
+          "key": "lake-iseo",
+          "name": "伊塞奥湖",
+          "lon": 10.073,
+          "lat": 45.721,
+          "relationship": "temporary",
+          "source": "https://christojeanneclaude.net/artworks/realized-projects/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "turrell",
@@ -3873,14 +5647,37 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "turrell",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=turrell",
+      "livePlanId": "atlas-turrell-places",
+      "selectedPlaces": [
+        {
+          "key": "minamidera",
+          "name": "直岛南寺",
+          "lon": 133.996,
+          "lat": 34.416,
+          "relationship": "work",
+          "source": "https://benesse-artsite.jp/en/art/arthouse.html",
+          "hasLocalImage": false
+        },
+        {
+          "key": "roden-crater",
+          "name": "罗登火山口",
+          "lon": -111.258,
+          "lat": 35.426,
+          "relationship": "restricted",
+          "source": "https://rodencrater.com/",
+          "hasLocalImage": true
+        }
+      ]
     },
     {
       "id": "utah-land-art",
@@ -3914,14 +5711,46 @@
           "verification": "found-in-research-not-point-complete"
         }
       ],
-      "status": "research",
+      "status": "integrated-selected-places",
       "readiness": {
-        "pointEvidence": false,
-        "mediaRights": false,
-        "localAssets": false,
-        "interface": false,
+        "pointEvidence": true,
+        "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
+        "localAssets": "partial-place-coverage",
+        "interface": true,
         "browserVerified": false
-      }
+      },
+      "liveThemeId": "utah-land-art",
+      "liveUrl": "https://raeqi.github.io/world-travel-map/#theme=utah-land-art",
+      "livePlanId": "atlas-utah-land-art-places",
+      "selectedPlaces": [
+        {
+          "key": "spiral-jetty",
+          "name": "螺旋防波堤",
+          "lon": -112.6716,
+          "lat": 41.4381,
+          "relationship": "work",
+          "source": "https://holtsmithsonfoundation.org/spiral-jetty",
+          "hasLocalImage": true
+        },
+        {
+          "key": "sun-tunnels",
+          "name": "太阳隧道",
+          "lon": -113.8637,
+          "lat": 41.3035,
+          "relationship": "work",
+          "source": "https://diaart.org/visit/visit-our-locations-sites/nancy-holt-sun-tunnels/main/spiraljetty",
+          "hasLocalImage": true
+        }
+      ]
     }
-  ]
+  ],
+  "integration": {
+    "module": "cultural-atlas.js",
+    "data": "live-atlas.json",
+    "themes": 76,
+    "selectedPlaceContexts": 160,
+    "distinctSelectedPlaceKeys": 158,
+    "materializedImages": 134,
+    "note": "每个方向接入首批精选地点；不代表完整生平、全部作品或所有研究候选均已接入。"
+  }
 }
