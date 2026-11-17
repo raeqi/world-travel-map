@@ -1,7 +1,7 @@
 {
   "natural-louise": {
     "path": "assets/natural-atlas/natural-louise.webp",
-    "title": "路易斯湖 · 1 lake louise pano 2019",
+    "title": "路易斯湖 · 从蜂巢山俯瞰（2019）",
     "author": "Chensiyuan",
     "source": "https://commons.wikimedia.org/wiki/File:1%20lake%20louise%20pano%202019.jpg",
     "license": "CC BY-SA 4.0",
@@ -15,7 +15,7 @@
   },
   "natural-moraine": {
     "path": "assets/natural-atlas/natural-moraine.webp",
-    "title": "梦莲湖 · Moraine Lake 17092005",
+    "title": "梦莲湖与十峰山谷（2005）",
     "author": "Gorgo",
     "source": "https://commons.wikimedia.org/wiki/File:Moraine%20Lake%2017092005.jpg",
     "license": "Public domain",
@@ -29,21 +29,21 @@
   },
   "natural-bow": {
     "path": "assets/natural-atlas/natural-bow.webp",
-    "title": "弓湖 · Bow Lake beim Icefields Parkway",
-    "author": "Florian Fuchs",
-    "source": "https://commons.wikimedia.org/wiki/File:Bow%20Lake%20beim%20Icefields%20Parkway.jpg",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "title": "弓湖 · 湖岸步道起点（2015）",
+    "author": "Philippe Cabot",
+    "source": "https://commons.wikimedia.org/wiki/File:Bow%20Lake%20in%20Banff%20National%20Park.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "changes": "等比例缩小与 WebP 压缩，文件保留全幅；界面封面可能裁切，未重绘或调色，衍生图保留原许可。",
     "placeKey": "bow",
-    "providerDescription": "Bow Lake near Icefields Parkway and Crowfoot Mountain, Alberta, Canada",
+    "providerDescription": "Early morning view of the Bow Lake from the beginning of the trail.",
     "width": 1280,
-    "height": 720,
-    "sha256": "1363eaf8452d07eadd10ddaffcf82da210e505c419d7e897d6584480614191c2"
+    "height": 560,
+    "sha256": "3ef549aad1b11d938b341cc808d08a735694d04195f68b8e3af7f9fd689620c6"
   },
   "natural-peyto": {
     "path": "assets/natural-atlas/natural-peyto.webp",
-    "title": "佩投湖 · Panorama of Peyto Lake, Banff National Park, Alberta, Canada",
+    "title": "佩投湖 · 从 Bow Summit 眺望",
     "author": "Ethan Sahagun",
     "source": "https://commons.wikimedia.org/wiki/File:Panorama%20of%20Peyto%20Lake%2C%20Banff%20National%20Park%2C%20Alberta%2C%20Canada.jpg",
     "license": "CC BY 4.0",
@@ -57,7 +57,7 @@
   },
   "natural-athabasca-glacier": {
     "path": "assets/natural-atlas/natural-athabasca-glacier.webp",
-    "title": "阿萨巴斯卡冰川 · Athabasca Glacier from the valley floor, Jasper National Park, Alberta, Canada",
+    "title": "阿萨巴斯卡冰川 · 从谷地观看冰舌",
     "author": "Ethan Sahagun",
     "source": "https://commons.wikimedia.org/wiki/File:Athabasca%20Glacier%20from%20the%20valley%20floor%2C%20Jasper%20National%20Park%2C%20Alberta%2C%20Canada.jpg",
     "license": "CC BY 4.0",
@@ -71,7 +71,7 @@
   },
   "natural-sunwapta": {
     "path": "assets/natural-atlas/natural-sunwapta.webp",
-    "title": "桑瓦普塔瀑布 · Pdphoto canada 1 bg 062104",
+    "title": "桑瓦普塔瀑布",
     "author": "Jon Sullivan",
     "source": "https://commons.wikimedia.org/wiki/File:Pdphoto%20canada%201%20bg%20062104.jpg",
     "license": "Public domain",
@@ -85,7 +85,7 @@
   },
   "natural-athabasca-falls": {
     "path": "assets/natural-atlas/natural-athabasca-falls.webp",
-    "title": "阿萨巴斯卡瀑布 · Athabasca Falls - Jasper",
+    "title": "阿萨巴斯卡瀑布 · 积雪时的峡谷",
     "author": "Jakub Fryš",
     "source": "https://commons.wikimedia.org/wiki/File:Athabasca%20Falls%20-%20Jasper.jpg",
     "license": "CC BY-SA 4.0",
@@ -99,7 +99,7 @@
   },
   "natural-jasper": {
     "path": "assets/natural-atlas/natural-jasper.webp",
-    "title": "贾斯珀 · Jasper from the Jasper Tramway 2008",
+    "title": "贾斯珀镇 · 从缆车方向俯瞰（2008）",
     "author": "Harvey Barrison from Massapequa, NY, USA",
     "source": "https://commons.wikimedia.org/wiki/File:Jasper%20from%20the%20Jasper%20Tramway%202008.jpg",
     "license": "CC BY-SA 2.0",
@@ -113,7 +113,7 @@
   },
   "natural-mackinnon-pass": {
     "path": "assets/natural-atlas/natural-mackinnon-pass.webp",
-    "title": "麦金农山口 · Milford Track Mackinnon Pass",
+    "title": "麦金农山口 · Milford 步道沿线实景",
     "author": "AlasdairW",
     "source": "https://commons.wikimedia.org/wiki/File:Milford%20Track%20Mackinnon%20Pass.jpg",
     "license": "CC BY-SA 3.0",
@@ -127,7 +127,7 @@
   },
   "natural-clinton-hut": {
     "path": "assets/natural-atlas/natural-clinton-hut.webp",
-    "title": "克林顿山屋 · Clinton Hut heli pad",
+    "title": "克林顿山屋周边 · 河谷与停机坪",
     "author": "Sarang",
     "source": "https://commons.wikimedia.org/wiki/File:Clinton%20Hut%20heli%20pad.jpg",
     "license": "Public domain",
@@ -141,7 +141,7 @@
   },
   "natural-dumpling-hut": {
     "path": "assets/natural-atlas/natural-dumpling-hut.webp",
-    "title": "丹普林山屋 · Dumpling Hut 8",
+    "title": "丹普林山屋 · 生活空间",
     "author": "Sarang",
     "source": "https://commons.wikimedia.org/wiki/File:Dumpling%20Hut%208.jpg",
     "license": "Public domain",
@@ -155,21 +155,21 @@
   },
   "natural-routeburn-falls": {
     "path": "assets/natural-atlas/natural-routeburn-falls.webp",
-    "title": "鲁特本瀑布山屋 · 67-12 Routeburn Falls Hut 3 New Zealand 1967 (51206795173)",
-    "author": "wilford peloquin",
-    "source": "https://commons.wikimedia.org/wiki/File:67-12%20Routeburn%20Falls%20Hut%203%20New%20Zealand%201967%20%2851206795173%29.jpg",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "title": "鲁特本瀑布山屋（1999 年影像）",
+    "author": "Steffen Sledz (Zone42)",
+    "source": "https://commons.wikimedia.org/wiki/File:RouteburnFallsHut.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "changes": "等比例缩小与 WebP 压缩，文件保留全幅；界面封面可能裁切，未重绘或调色，衍生图保留原许可。",
     "placeKey": "routeburn-falls",
-    "providerDescription": "67-12 Routeburn Falls Hut 3 New Zealand 1967",
-    "width": 778,
-    "height": 1000,
-    "sha256": "29d5a87aa5afcc06c3620b7bbef80cb444efd1f90ed8543764d9890dd0a2daa1"
+    "providerDescription": "Routeburn Falls Hut, Routeburn Track, New Zealand.",
+    "width": 1280,
+    "height": 834,
+    "sha256": "47d4afb1ea447f9e146faea2b908073511e1ca5c374dc8dd3bc41f340e00de35"
   },
   "natural-lake-mackenzie": {
     "path": "assets/natural-atlas/natural-lake-mackenzie.webp",
-    "title": "麦肯齐湖 · Lake Mackenzie Hut view over Lake Mackenzie",
+    "title": "麦肯齐湖 · 从山屋望向湖岸",
     "author": "Sarang",
     "source": "https://commons.wikimedia.org/wiki/File:Lake%20Mackenzie%20Hut%20view%20over%20Lake%20Mackenzie.jpg",
     "license": "Public domain",
@@ -183,21 +183,21 @@
   },
   "natural-luxmore": {
     "path": "assets/natural-atlas/natural-luxmore.webp",
-    "title": "勒克斯莫尔山屋 · ZK-HZO at Luxmore hut helipad 2006",
-    "author": "Dabbelju",
-    "source": "https://commons.wikimedia.org/wiki/File:ZK-HZO%20at%20Luxmore%20hut%20helipad%202006.jpg",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "勒克斯莫尔山屋 · Luxmore Hut, Kepler Track, New Zealand (23)",
+    "author": "Michal Klajban",
+    "source": "https://commons.wikimedia.org/wiki/File:Luxmore%20Hut%2C%20Kepler%20Track%2C%20New%20Zealand%20%2823%29.JPG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "changes": "等比例缩小与 WebP 压缩，文件保留全幅；界面封面可能裁切，未重绘或调色，衍生图保留原许可。",
     "placeKey": "luxmore",
-    "providerDescription": "Helicopter ZK-HZO of type Eurocopter AS 350 at the helipad of Luxmore hut, Kepler track.",
+    "providerDescription": "Kepler Track, South Island, New Zealand",
     "width": 1280,
-    "height": 951,
-    "sha256": "79095f41455bd6e9dcb801330021b829252ffe28127f4e83152a26048049e716"
+    "height": 795,
+    "sha256": "ca4cda5d55541e2a9b2e9f38ac87d7727ab6e9d5034722dbc908c7e362d0216f"
   },
   "natural-iris-burn": {
     "path": "assets/natural-atlas/natural-iris-burn.webp",
-    "title": "艾里斯伯恩山屋 · Iris Burn Hut Stevage",
+    "title": "艾里斯伯恩山屋与林地",
     "author": "Stevage",
     "source": "https://commons.wikimedia.org/wiki/File:Iris%20Burn%20Hut%20Stevage.jpg",
     "license": "CC BY-SA 4.0",
@@ -225,7 +225,7 @@
   },
   "natural-moreno": {
     "path": "assets/natural-atlas/natural-moreno.webp",
-    "title": "佩里托莫雷诺冰川 · Perito Moreno Glacier 2023",
+    "title": "佩里托莫雷诺冰川 · 冰舌前缘（2023）",
     "author": "Fernando",
     "source": "https://commons.wikimedia.org/wiki/File:Perito%20Moreno%20Glacier%202023.jpg",
     "license": "CC BY-SA 4.0",
@@ -239,7 +239,7 @@
   },
   "natural-capri": {
     "path": "assets/natural-atlas/natural-capri.webp",
-    "title": "卡普里湖 · Fitz Roy group - Laguna Capri - 01",
+    "title": "卡普里湖与菲茨罗伊山群",
     "author": "Gagea",
     "source": "https://commons.wikimedia.org/wiki/File:Fitz%20Roy%20group%20-%20Laguna%20Capri%20-%2001.JPG",
     "license": "CC BY-SA 3.0",
@@ -253,7 +253,7 @@
   },
   "natural-los-tres": {
     "path": "assets/natural-atlas/natural-los-tres.webp",
-    "title": "三峰湖 · Laguna de los Tres color",
+    "title": "三峰湖与冰川山壁",
     "author": "Almonroth",
     "source": "https://commons.wikimedia.org/wiki/File:Laguna%20de%20los%20Tres%20color.jpg",
     "license": "CC BY-SA 3.0",
@@ -267,7 +267,7 @@
   },
   "natural-torre": {
     "path": "assets/natural-atlas/natural-torre.webp",
-    "title": "托雷湖 · Cerro Torre (east face) and Laguna Torre",
+    "title": "托雷湖、冰川与花岗岩峰",
     "author": "Gagea",
     "source": "https://commons.wikimedia.org/wiki/File:Cerro%20Torre%20%28east%20face%29%20and%20Laguna%20Torre.JPG",
     "license": "CC BY-SA 3.0",
@@ -281,7 +281,7 @@
   },
   "natural-torres-base": {
     "path": "assets/natural-atlas/natural-torres-base.webp",
-    "title": "百内三塔湖 · Base Torres del Paine",
+    "title": "百内三塔 · 山脚冰碛湖",
     "author": "MARIA JOSE VARELA",
     "source": "https://commons.wikimedia.org/wiki/File:Base%20Torres%20del%20Paine.jpg",
     "license": "CC BY-SA 4.0",
@@ -295,7 +295,7 @@
   },
   "natural-chileno": {
     "path": "assets/natural-atlas/natural-chileno.webp",
-    "title": "奇莱诺营地 · 090115 Refugio Chileno Torrres del Paine",
+    "title": "奇莱诺山屋与营地区域",
     "author": "Ted Wakabayashi",
     "source": "https://commons.wikimedia.org/wiki/File:090115%20Refugio%20Chileno%20Torrres%20del%20Paine.jpg",
     "license": "CC BY-SA 4.0",
@@ -309,7 +309,7 @@
   },
   "natural-salto-grande": {
     "path": "assets/natural-atlas/natural-salto-grande.webp",
-    "title": "萨尔托格兰德瀑布 · Mirador Salto Grande - Torres del Paine National Park 38",
+    "title": "萨尔托格兰德瀑布",
     "author": "Thomas Fuhrmann",
     "source": "https://commons.wikimedia.org/wiki/File:Mirador%20Salto%20Grande%20-%20Torres%20del%20Paine%20National%20Park%2038.jpg",
     "license": "CC BY-SA 4.0",
@@ -323,7 +323,7 @@
   },
   "natural-pehoe": {
     "path": "assets/natural-atlas/natural-pehoe.webp",
-    "title": "佩奥埃湖 · Lake Pehoe (5501703508)",
+    "title": "佩奥埃湖与百内山群",
     "author": "Liam Quinn from Canada",
     "source": "https://commons.wikimedia.org/wiki/File:Lake%20Pehoe%20%285501703508%29.jpg",
     "license": "CC BY-SA 2.0",

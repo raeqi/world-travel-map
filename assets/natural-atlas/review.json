@@ -1,137 +1,54 @@
 [
   {
     "id": "louise",
-    "wikiCoordinates": [
-      {
-        "lat": 51.41166667,
-        "lon": -116.22805556,
-        "primary": "",
-        "globe": "earth"
-      }
-    ],
-    "article": "https://en.wikipedia.org/wiki/Lake_Louise_%28Alberta%29",
-    "file": "1 lake louise pano 2019.jpg",
-    "license": "CC BY-SA 4.0",
-    "description": "Lake Louise, Banff Alberta, Canada. Panorama from beehive (2019)"
+    "cached": true
   },
   {
     "id": "moraine",
-    "wikiCoordinates": [
-      {
-        "lat": 51.3225,
-        "lon": -116.18555556,
-        "primary": "",
-        "globe": "earth"
-      }
-    ],
-    "article": "https://en.wikipedia.org/wiki/Moraine_Lake",
-    "file": "Moraine Lake 17092005.jpg",
-    "license": "Public domain",
-    "description": "Valley of the Ten Peaks and Moraine Lake, Banff National Park, Canada. Mountains from left to right: Tonsa (3057 m), Mount Perren (3051 m), Mount Allen (3310 m), Mount Tuzo (3246 m), Deltaform Mountain (3424 m), Neptuak Mountain (3233 m)"
+    "cached": true
   },
   {
     "id": "bow",
-    "wikiCoordinates": [],
-    "article": "https://en.wikipedia.org/wiki/Bow_Lake",
-    "file": "Bow Lake beim Icefields Parkway.jpg",
-    "license": "CC BY 3.0",
-    "description": "Bow Lake near Icefields Parkway and Crowfoot Mountain, Alberta, Canada"
+    "wikiCoordinates": [
+      {
+        "lat": 51.66444444,
+        "lon": -116.44861111,
+        "primary": "",
+        "globe": "earth"
+      }
+    ],
+    "article": "https://en.wikipedia.org/wiki/Bow_Lake_%28Alberta%29",
+    "file": "Bow Lake in Banff National Park.jpg",
+    "license": "CC BY-SA 4.0",
+    "description": "Early morning view of the Bow Lake from the beginning of the trail."
   },
   {
     "id": "peyto",
-    "wikiCoordinates": [
-      {
-        "lat": 51.72694444,
-        "lon": -116.52194444,
-        "primary": "",
-        "globe": "earth"
-      }
-    ],
-    "article": "https://en.wikipedia.org/wiki/Peyto_Lake",
-    "file": "Panorama of Peyto Lake, Banff National Park, Alberta, Canada.jpg",
-    "license": "CC BY 4.0",
-    "description": "Peyto Lake, a glacier-fed lake known for its turquoise colour, seen from Bow Summit, Banff National Park, Alberta, Canada."
+    "cached": true
   },
   {
     "id": "athabasca-glacier",
-    "wikiCoordinates": [
-      {
-        "lat": 52.19861111,
-        "lon": -117.24361111,
-        "primary": "",
-        "globe": "earth"
-      }
-    ],
-    "article": "https://en.wikipedia.org/wiki/Athabasca_Glacier",
-    "file": "Athabasca Glacier from the valley floor, Jasper National Park, Alberta, Canada.jpg",
-    "license": "CC BY 4.0",
-    "description": "The Athabasca Glacier flowing from the Columbia Icefield, flanked by Mount Athabasca and Mount Andromeda, seen from the valley floor. Jasper National Park, Alberta, Canada."
+    "cached": true
   },
   {
     "id": "sunwapta",
-    "wikiCoordinates": [
-      {
-        "lat": 52.5322,
-        "lon": -117.6453,
-        "primary": "",
-        "globe": "earth"
-      }
-    ],
-    "article": "https://en.wikipedia.org/wiki/Sunwapta_Falls",
-    "file": "Pdphoto canada 1 bg 062104.jpg",
-    "license": "Public domain",
-    "description": "Sunwapta Falls in Jasper National Park."
+    "cached": true
   },
   {
     "id": "athabasca-falls",
-    "wikiCoordinates": [
-      {
-        "lat": 52.66416667,
-        "lon": -117.88361111,
-        "primary": "",
-        "globe": "earth"
-      }
-    ],
-    "article": "https://en.wikipedia.org/wiki/Athabasca_Falls",
-    "file": "Athabasca Falls - Jasper.jpg",
-    "license": "CC BY-SA 4.0",
-    "description": "Athabasca Falls in snowy Jasper National Park, Alberta, Canada"
+    "cached": true
   },
   {
     "id": "jasper",
-    "wikiCoordinates": [
-      {
-        "lat": 52.87305556,
-        "lon": -118.08222222,
-        "primary": "",
-        "globe": "earth"
-      }
-    ],
-    "article": "https://en.wikipedia.org/wiki/Jasper%2C_Alberta",
-    "file": "Jasper from the Jasper Tramway 2008.jpg",
-    "license": "CC BY-SA 2.0",
-    "description": "The City of Jasper From the Jasper Tramway"
+    "cached": true
   },
   {
     "id": "mackinnon-pass",
-    "wikiCoordinates": [
-      {
-        "lat": -44.80194444,
-        "lon": 167.76611111,
-        "primary": "",
-        "globe": "earth"
-      }
-    ],
-    "article": "https://en.wikipedia.org/wiki/McKinnon_Pass",
-    "file": "Milford Track Mackinnon Pass.jpg",
-    "license": "CC BY-SA 3.0",
-    "description": "Mackinnon Pass, seen from the Milford Track near the St Quintin Falls."
+    "cached": true
   },
   {
     "id": "clinton-hut",
-    "file": "Clinton Hut heli pad.jpg",
-    "license": "Public domain",
-    "description": "Clinton Hut: the heli pad.",
+    "cached": true,
     "docCoordinates": {
       "lon": 167.908273,
       "lat": -44.905804,
@@ -143,9 +60,7 @@
   },
   {
     "id": "dumpling-hut",
-    "file": "Dumpling Hut 8.jpg",
-    "license": "Public domain",
-    "description": "The Dumpling Hut, the third and last DoC hut on the Milford Track.",
+    "cached": true,
     "docCoordinates": {
       "lon": 167.764389,
       "lat": -44.768698,
@@ -157,9 +72,9 @@
   },
   {
     "id": "routeburn-falls",
-    "file": "67-12 Routeburn Falls Hut 3 New Zealand 1967 (51206795173).jpg",
-    "license": "CC BY 2.0",
-    "description": "67-12 Routeburn Falls Hut 3 New Zealand 1967",
+    "file": "RouteburnFallsHut.jpg",
+    "license": "CC BY-SA 3.0",
+    "description": "Routeburn Falls Hut, Routeburn Track, New Zealand.",
     "docCoordinates": {
       "lon": 168.199511,
       "lat": -44.725455,
@@ -171,17 +86,13 @@
   },
   {
     "id": "lake-mackenzie",
-    "wikiCoordinates": [],
-    "article": "https://en.wikipedia.org/wiki/Lake_Mackenzie",
-    "file": "Lake Mackenzie Hut view over Lake Mackenzie.jpg",
-    "license": "Public domain",
-    "description": "Lake Mackenzie Hut, Routeburn Track, New Zealand. Great Walks hut"
+    "cached": true
   },
   {
     "id": "luxmore",
-    "file": "ZK-HZO at Luxmore hut helipad 2006.jpg",
-    "license": "CC BY-SA 3.0",
-    "description": "Helicopter ZK-HZO of type Eurocopter AS 350 at the helipad of Luxmore hut, Kepler track.",
+    "file": "Luxmore Hut, Kepler Track, New Zealand (23).JPG",
+    "license": "CC BY-SA 4.0",
+    "description": "Kepler Track, South Island, New Zealand",
     "docCoordinates": {
       "lon": 167.619159,
       "lat": -45.385232,
@@ -193,13 +104,11 @@
   },
   {
     "id": "iris-burn",
-    "file": "Iris Burn Hut Stevage.jpg",
-    "license": "CC BY-SA 4.0",
-    "description": "Iris Burn Hut, on the Kepler Track, Fiordland National Park, New Zealand."
+    "cached": true
   },
   {
     "id": "moturau",
-    "error": "No place-specific freely licensed photo",
+    "skipped": true,
     "docCoordinates": {
       "lon": 167.609828,
       "lat": -45.482101,
@@ -211,109 +120,42 @@
   },
   {
     "id": "calafate",
-    "wikiCoordinates": [
-      {
-        "lat": -50.33777778,
-        "lon": -72.26,
-        "primary": "",
-        "globe": "earth"
-      }
-    ],
-    "article": "https://en.wikipedia.org/wiki/El_Calafate",
-    "file": "El Calafate (25825005237).jpg",
-    "license": "CC BY 2.0",
-    "description": "El Calafate"
+    "cached": true
   },
   {
     "id": "moreno",
-    "wikiCoordinates": [
-      {
-        "lat": -50.5,
-        "lon": -73.13333333,
-        "primary": "",
-        "globe": "earth"
-      }
-    ],
-    "article": "https://en.wikipedia.org/wiki/Perito_Moreno_Glacier",
-    "file": "Perito Moreno Glacier 2023.jpg",
-    "license": "CC BY-SA 4.0",
-    "description": "The terminus of the Perito Moreno Glacier, in the Los Glaciares National Park, Argentina."
+    "cached": true
   },
   {
     "id": "capri",
-    "wikiCoordinates": [],
-    "article": "https://en.wikipedia.org/wiki/Laguna_Capri",
-    "file": "Fitz Roy group - Laguna Capri - 01.JPG",
-    "license": "CC BY-SA 3.0",
-    "description": "East face of the Fitz Roy group (Fitz Roy massif, Santa Cruz Province, Argentina) and the Laguna Capri view from the bank of the Laguna Capri, close to the Campamiento Capri"
+    "cached": true
   },
   {
     "id": "poincenot",
-    "error": "No place-specific freely licensed photo"
+    "skipped": true
   },
   {
     "id": "los-tres",
-    "wikiCoordinates": [],
-    "article": "https://en.wikipedia.org/wiki/Laguna_de_los_Tres",
-    "file": "Laguna de los Tres color.jpg",
-    "license": "CC BY-SA 3.0",
-    "description": "Fitz Roy massif, El Chaltén, Patagonia, Argentina"
+    "cached": true
   },
   {
     "id": "torre",
-    "wikiCoordinates": [
-      {
-        "lat": -49.325,
-        "lon": -73.00043,
-        "primary": "",
-        "globe": "earth"
-      }
-    ],
-    "article": "https://en.wikipedia.org/wiki/Laguna_Torre",
-    "file": "Cerro Torre (east face) and Laguna Torre.JPG",
-    "license": "CC BY-SA 3.0",
-    "description": "East face of the en:Cerro Torre, with the Torre glacier and Laguna Torre (including 2 icebergs). Los Glaciares National Park (north part), Santa Cruz province, Argentina."
+    "cached": true
   },
   {
     "id": "torres-base",
-    "file": "Base Torres del Paine.jpg",
-    "license": "CC BY-SA 4.0",
-    "description": "Parque nacional Torres del Paine, circuito base torres con llegada al glaciar."
+    "cached": true
   },
   {
     "id": "chileno",
-    "file": "090115 Refugio Chileno Torrres del Paine.jpg",
-    "license": "CC BY-SA 4.0",
-    "description": "Refugio Chileno (ALB El Chileno) and campground Torres del Paine National Park, Chili."
+    "cached": true
   },
   {
     "id": "salto-grande",
-    "wikiCoordinates": [
-      {
-        "lat": -51.0675,
-        "lon": -73.00777778,
-        "primary": "",
-        "globe": "earth"
-      }
-    ],
-    "article": "https://en.wikipedia.org/wiki/Salto_Grande_%28waterfall%29",
-    "file": "Mirador Salto Grande - Torres del Paine National Park 38.jpg",
-    "license": "CC BY-SA 4.0",
-    "description": "PanAmericana 2017 - the image was taken on an overlanding travel from Ushuaia to Anchorage - taken by Thomas Fuhrmann, SnowmanStudios - see more pictures on / mehr Aufnahmen auf www.snowmanstudios.de"
+    "cached": true
   },
   {
     "id": "pehoe",
-    "wikiCoordinates": [
-      {
-        "lat": -51.1,
-        "lon": -73.06666667,
-        "primary": "",
-        "globe": "earth"
-      }
-    ],
-    "article": "https://en.wikipedia.org/wiki/Lake_Peho%C3%A9",
-    "file": "Lake Pehoe (5501703508).jpg",
-    "license": "CC BY-SA 2.0",
-    "description": "In Torres del Paine National Park, Chile."
+    "cached": true
   }
 ]
