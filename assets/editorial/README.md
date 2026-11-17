@@ -23,6 +23,14 @@ Files preserve the full source aspect ratio and colours, with proportional downs
 | [pissarro-paris.webp](pissarro-paris.webp) | 卡米耶·毕沙罗 / 冬日早晨的蒙马特大道，1897 | Camille Pissarro / The Metropolitan Museum of Art | [source](https://www.metmuseum.org/art/collection/search/437310) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | [andes-trail.webp](andes-trail.webp) | 秘鲁 / 印加步道山景 | Cédric Servay cservay | [source](https://commons.wikimedia.org/wiki/File:Inca%20Trail%20mountain%20%28Unsplash%29.jpg) | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
 
+| [sisley-villeneuve.webp](sisley-villeneuve.webp) | 阿尔弗雷德·西斯莱 / 维尔纳夫拉加雷讷的桥，1872 | Alfred Sisley / The Metropolitan Museum of Art | [source](https://www.metmuseum.org/art/collection/search/437680) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| [pissarro-pontoise.webp](pissarro-pontoise.webp) | 卡米耶·毕沙罗 / 蓬图瓦兹的雅莱山，1867 | Camille Pissarro / The Metropolitan Museum of Art | [source](https://www.metmuseum.org/art/collection/search/437299) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| [manet-argenteuil.webp](manet-argenteuil.webp) | 爱德华·马奈 / 阿让特伊花园中的莫奈一家，1874 | Edouard Manet / The Metropolitan Museum of Art | [source](https://www.metmuseum.org/art/collection/search/436965) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| [vangogh-cypresses.webp](vangogh-cypresses.webp) | 文森特·梵高 / 丝柏，1889 | Vincent van Gogh / The Metropolitan Museum of Art | [source](https://www.metmuseum.org/art/collection/search/437980) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| [vangogh-wheat.webp](vangogh-wheat.webp) | 文森特·梵高 / 丝柏麦田，1889 | Vincent van Gogh / The Metropolitan Museum of Art | [source](https://www.metmuseum.org/art/collection/search/436535) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| [vangogh-auvers.webp](vangogh-auvers.webp) | 文森特·梵高 / 欧韦的绿麦田，1890 | Vincent van Gogh / National Gallery of Art, Washington | [source](https://www.nga.gov/artworks/163323-green-wheat-fields-auvers) | [Public domain](https://www.nga.gov/terms-and-notices) |
+| [monet-london.webp](monet-london.webp) | 克洛德·莫奈 / 国会大厦，日落，1903 | Claude Monet / National Gallery of Art, Washington | [source](https://www.nga.gov/artworks/46523-houses-parliament-sunset) | [Public domain](https://www.nga.gov/terms-and-notices) |
+
 ## Selection notes
 
 - Met 437127 (`Bridge over a Pond of Water Lilies`) was excluded. On verification, its API returned `isPublicDomain: false` and empty image URLs. We use NGA 74796 (`The Japanese Footbridge`, 1899) with a distinct title, accession number and collection instead. No claim is made that they are the same painting.
@@ -33,3 +41,9 @@ Files preserve the full source aspect ratio and colours, with proportional downs
 - Creation / depicted place and current collection are separate fields and separate map records for every painting. Dates follow the linked collection catalogue. No current on-view guarantee or provenance itinerary is inferred.
 
 Reproduction script: `python3 scripts/fetch-editorial.py` (requires Pillow and network access). Re-verifies licensing before writing files.
+
+## Discovery edition additions
+
+The seven added files were checked against official object metadata or NGA public-domain notices on 2026-11-17. Met 437133 was excluded after its API returned `isPublicDomain: false` and no image URL. Met 437135 and 438823 were not downloaded. The 1903 date of Monet’s London painting is the object date; field visits in 1899–1901 are described separately.
+
+Reproduction script for these seven images: `python3 scripts/fetch-art-extension.py`. Every derivative preserves full aspect ratio and source colours; card crops are CSS-only. No image has been generatively altered.

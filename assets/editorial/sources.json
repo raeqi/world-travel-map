@@ -1440,5 +1440,667 @@
     ],
     "sha256": "babce692d57a74a429c6890632fd8aacb8f1213a225a285aa67ae4874611b7da",
     "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "sisley-villeneuve": {
+    "title": "阿尔弗雷德·西斯莱 / 维尔纳夫拉加雷讷的桥，1872",
+    "author": "Alfred Sisley / The Metropolitan Museum of Art",
+    "source": "https://www.metmuseum.org/art/collection/search/437680",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "download": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-041.jpg",
+    "verified": "2026-11-17",
+    "verification": "Met Collection API isPublicDomain=true and a primary image; Met Open Access CC0 policy.",
+    "providerMetadata": {
+      "objectID": 437680,
+      "isHighlight": false,
+      "accessionNumber": "64.287",
+      "accessionYear": "1964",
+      "isPublicDomain": true,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-041.jpg",
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-041.jpg",
+      "additionalImages": [],
+      "constituents": [
+        {
+          "constituentID": 165111,
+          "role": "Artist",
+          "name": "Alfred Sisley",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500027485",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q175130",
+          "gender": ""
+        }
+      ],
+      "department": "European Paintings",
+      "objectName": "Painting",
+      "title": "The Bridge at Villeneuve-la-Garenne",
+      "culture": "",
+      "period": "",
+      "dynasty": "",
+      "reign": "",
+      "portfolio": "",
+      "artistRole": "Artist",
+      "artistPrefix": "",
+      "artistDisplayName": "Alfred Sisley",
+      "artistDisplayBio": "British, Paris 1839–1899 Moret-sur-Loing",
+      "artistSuffix": "",
+      "artistAlphaSort": "Sisley, Alfred",
+      "artistNationality": "British",
+      "artistBeginDate": "1839",
+      "artistEndDate": "1899",
+      "artistGender": "",
+      "artistWikidata_URL": "https://www.wikidata.org/wiki/Q175130",
+      "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500027485",
+      "objectDate": "1872",
+      "objectBeginDate": 1872,
+      "objectEndDate": 1872,
+      "medium": "Oil on canvas",
+      "dimensions": "19 1/2 x 25 3/4 in. (49.5 x 65.4 cm)",
+      "measurements": [
+        {
+          "elementName": "Overall",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Height": 49.5,
+            "Width": 65.4
+          }
+        },
+        {
+          "elementName": "Framed",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Depth": 10.16,
+            "Height": 60.9601,
+            "Width": 90.1702
+          }
+        }
+      ],
+      "creditLine": "Gift of Mr. and Mrs. Henry Ittleson Jr., 1964",
+      "geographyType": "",
+      "city": "",
+      "state": "",
+      "county": "",
+      "country": "",
+      "region": "",
+      "subregion": "",
+      "locale": "",
+      "locus": "",
+      "excavation": "",
+      "river": "",
+      "classification": "Paintings",
+      "rightsAndReproduction": "",
+      "linkResource": "",
+      "metadataDate": "2026-10-06T04:59:37.62Z",
+      "repository": "Metropolitan Museum of Art, New York, NY",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/437680",
+      "tags": [
+        {
+          "term": "Buildings",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300004789",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q41176"
+        },
+        {
+          "term": "Bridges",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300386855",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q12280"
+        },
+        {
+          "term": "Rivers",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300008707",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q4022"
+        },
+        {
+          "term": "Boats",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+        }
+      ],
+      "objectWikidata_URL": "https://www.wikidata.org/wiki/Q6382435",
+      "isTimelineWork": true,
+      "GalleryNumber": "957"
+    },
+    "path": "assets/editorial/sisley-villeneuve.webp",
+    "width": 1440,
+    "height": 1080,
+    "bytes": 291304,
+    "originalDimensions": [
+      4000,
+      3000
+    ],
+    "sha256": "fec3f1c1a89090f781cf932a6f8ae2eaadbfb4be41cb965b31775c5ce8dd9e08",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "pissarro-pontoise": {
+    "title": "卡米耶·毕沙罗 / 蓬图瓦兹的雅莱山，1867",
+    "author": "Camille Pissarro / The Metropolitan Museum of Art",
+    "source": "https://www.metmuseum.org/art/collection/search/437299",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "download": "https://images.metmuseum.org/CRDImages/ep/original/DT1859.jpg",
+    "verified": "2026-11-17",
+    "verification": "Met Collection API isPublicDomain=true and a primary image; Met Open Access CC0 policy.",
+    "providerMetadata": {
+      "objectID": 437299,
+      "isHighlight": true,
+      "accessionNumber": "51.30.2",
+      "accessionYear": "1951",
+      "isPublicDomain": true,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1859.jpg",
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1859.jpg",
+      "additionalImages": [],
+      "constituents": [
+        {
+          "constituentID": 162257,
+          "role": "Artist",
+          "name": "Camille Pissarro",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500001924",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q134741",
+          "gender": ""
+        }
+      ],
+      "department": "European Paintings",
+      "objectName": "Painting",
+      "title": "Jalais Hill, Pontoise",
+      "culture": "",
+      "period": "",
+      "dynasty": "",
+      "reign": "",
+      "portfolio": "",
+      "artistRole": "Artist",
+      "artistPrefix": "",
+      "artistDisplayName": "Camille Pissarro",
+      "artistDisplayBio": "French, Charlotte Amalie, Saint Thomas 1830–1903 Paris",
+      "artistSuffix": "",
+      "artistAlphaSort": "Pissarro, Camille",
+      "artistNationality": "French",
+      "artistBeginDate": "1830",
+      "artistEndDate": "1903",
+      "artistGender": "",
+      "artistWikidata_URL": "https://www.wikidata.org/wiki/Q134741",
+      "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500001924",
+      "objectDate": "1867",
+      "objectBeginDate": 1867,
+      "objectEndDate": 1867,
+      "medium": "Oil on canvas",
+      "dimensions": "34 1/4 x 45 1/4 in. (87 x 114.9 cm)",
+      "measurements": [
+        {
+          "elementName": "Overall",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Height": 87,
+            "Width": 114.9
+          }
+        },
+        {
+          "elementName": "Framed",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Depth": 12.065,
+            "Height": 121.9202,
+            "Width": 151.1303
+          }
+        }
+      ],
+      "creditLine": "Bequest of William Church Osborn, 1951",
+      "geographyType": "",
+      "city": "",
+      "state": "",
+      "county": "",
+      "country": "",
+      "region": "",
+      "subregion": "",
+      "locale": "",
+      "locus": "",
+      "excavation": "",
+      "river": "",
+      "classification": "Paintings",
+      "rightsAndReproduction": "",
+      "linkResource": "",
+      "metadataDate": "2026-07-08T04:50:14.73Z",
+      "repository": "Metropolitan Museum of Art, New York, NY",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/437299",
+      "tags": [
+        {
+          "term": "Farms",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300000206",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q131596"
+        },
+        {
+          "term": "Landscapes",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+        }
+      ],
+      "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19905368",
+      "isTimelineWork": false,
+      "GalleryNumber": ""
+    },
+    "path": "assets/editorial/pissarro-pontoise.webp",
+    "width": 1440,
+    "height": 1098,
+    "bytes": 277408,
+    "originalDimensions": [
+      3811,
+      2907
+    ],
+    "sha256": "db093fb22d73301c9b293363b4d4e18c12ec2d931413196d81273ad489b840df",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "manet-argenteuil": {
+    "title": "爱德华·马奈 / 阿让特伊花园中的莫奈一家，1874",
+    "author": "Edouard Manet / The Metropolitan Museum of Art",
+    "source": "https://www.metmuseum.org/art/collection/search/436965",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "download": "https://images.metmuseum.org/CRDImages/ep/original/DP-25465-001.jpg",
+    "verified": "2026-11-17",
+    "verification": "Met Collection API isPublicDomain=true and a primary image; Met Open Access CC0 policy.",
+    "providerMetadata": {
+      "objectID": 436965,
+      "isHighlight": false,
+      "accessionNumber": "1976.201.14",
+      "accessionYear": "1976",
+      "isPublicDomain": true,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-25465-001.jpg",
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25465-001.jpg",
+      "additionalImages": [],
+      "constituents": [
+        {
+          "constituentID": 162094,
+          "role": "Artist",
+          "name": "Edouard Manet",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500010363",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q40599",
+          "gender": ""
+        }
+      ],
+      "department": "European Paintings",
+      "objectName": "Painting",
+      "title": "The Monet Family in Their Garden at Argenteuil",
+      "culture": "",
+      "period": "",
+      "dynasty": "",
+      "reign": "",
+      "portfolio": "",
+      "artistRole": "Artist",
+      "artistPrefix": "",
+      "artistDisplayName": "Edouard Manet",
+      "artistDisplayBio": "French, Paris 1832–1883 Paris",
+      "artistSuffix": "",
+      "artistAlphaSort": "Manet, Edouard",
+      "artistNationality": "French",
+      "artistBeginDate": "1832",
+      "artistEndDate": "1883",
+      "artistGender": "",
+      "artistWikidata_URL": "https://www.wikidata.org/wiki/Q40599",
+      "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500010363",
+      "objectDate": "1874",
+      "objectBeginDate": 1874,
+      "objectEndDate": 1874,
+      "medium": "Oil on canvas",
+      "dimensions": "24 x 39 1/4 in. (61 x 99.7 cm)",
+      "measurements": [
+        {
+          "elementName": "Overall",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Height": 61,
+            "Width": 99.7
+          }
+        },
+        {
+          "elementName": "Framed",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Depth": 10.477521,
+            "Height": 85.725174,
+            "Width": 123.507744
+          }
+        }
+      ],
+      "creditLine": "Bequest of Joan Whitney Payson, 1975",
+      "geographyType": "",
+      "city": "",
+      "state": "",
+      "county": "",
+      "country": "",
+      "region": "",
+      "subregion": "",
+      "locale": "",
+      "locus": "",
+      "excavation": "",
+      "river": "",
+      "classification": "Paintings",
+      "rightsAndReproduction": "",
+      "linkResource": "",
+      "metadataDate": "2026-10-29T08:26:26.043Z",
+      "repository": "Metropolitan Museum of Art, New York, NY",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/436965",
+      "tags": [
+        {
+          "term": "Gardens",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300008090",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q1107656"
+        },
+        {
+          "term": "Men",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+        },
+        {
+          "term": "Women",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+        },
+        {
+          "term": "Family",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300435378",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q8436"
+        }
+      ],
+      "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19911640",
+      "isTimelineWork": true,
+      "GalleryNumber": ""
+    },
+    "path": "assets/editorial/manet-argenteuil.webp",
+    "width": 1440,
+    "height": 906,
+    "bytes": 179794,
+    "originalDimensions": [
+      4000,
+      2518
+    ],
+    "sha256": "c01d23156d12c34cf7aaa28375ab615a729d8c0bfcb4baac52a9b751e6fc66e2",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "vangogh-cypresses": {
+    "title": "文森特·梵高 / 丝柏，1889",
+    "author": "Vincent van Gogh / The Metropolitan Museum of Art",
+    "source": "https://www.metmuseum.org/art/collection/search/437980",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "download": "https://images.metmuseum.org/CRDImages/ep/original/DP130999.jpg",
+    "verified": "2026-11-17",
+    "verification": "Met Collection API isPublicDomain=true and a primary image; Met Open Access CC0 policy.",
+    "providerMetadata": {
+      "objectID": 437980,
+      "isHighlight": false,
+      "accessionNumber": "49.30",
+      "accessionYear": "1949",
+      "isPublicDomain": true,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP130999.jpg",
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP130999.jpg",
+      "additionalImages": [],
+      "constituents": [
+        {
+          "constituentID": 161947,
+          "role": "Artist",
+          "name": "Vincent van Gogh",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115588",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5582",
+          "gender": ""
+        }
+      ],
+      "department": "European Paintings",
+      "objectName": "Painting",
+      "title": "Cypresses",
+      "culture": "",
+      "period": "",
+      "dynasty": "",
+      "reign": "",
+      "portfolio": "",
+      "artistRole": "Artist",
+      "artistPrefix": "",
+      "artistDisplayName": "Vincent van Gogh",
+      "artistDisplayBio": "Dutch, Zundert 1853–1890 Auvers-sur-Oise",
+      "artistSuffix": "",
+      "artistAlphaSort": "Gogh, Vincent van",
+      "artistNationality": "Dutch",
+      "artistBeginDate": "1853",
+      "artistEndDate": "1890",
+      "artistGender": "",
+      "artistWikidata_URL": "https://www.wikidata.org/wiki/Q5582",
+      "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500115588",
+      "objectDate": "1889",
+      "objectBeginDate": 1889,
+      "objectEndDate": 1889,
+      "medium": "Oil on canvas",
+      "dimensions": "36 3/4 x 29 1/8 in. (93.4 x 74 cm)",
+      "measurements": [
+        {
+          "elementName": "Other",
+          "elementDescription": "glass",
+          "elementMeasurements": {
+            "Height": 94.29769,
+            "Width": 76.517654
+          }
+        },
+        {
+          "elementName": "Overall",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Height": 93.4,
+            "Width": 74
+          }
+        },
+        {
+          "elementName": "Framed",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Depth": 10.795,
+            "Height": 116.2052,
+            "Width": 96.5202
+          }
+        }
+      ],
+      "creditLine": "Rogers Fund, 1949",
+      "geographyType": "",
+      "city": "",
+      "state": "",
+      "county": "",
+      "country": "",
+      "region": "",
+      "subregion": "",
+      "locale": "",
+      "locus": "",
+      "excavation": "",
+      "river": "",
+      "classification": "Paintings",
+      "rightsAndReproduction": "",
+      "linkResource": "",
+      "metadataDate": "2026-11-06T04:53:14.23Z",
+      "repository": "Metropolitan Museum of Art, New York, NY",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/437980",
+      "tags": [
+        {
+          "term": "Landscapes",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+        },
+        {
+          "term": "Cypresses",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300343641",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q146911"
+        }
+      ],
+      "objectWikidata_URL": "https://www.wikidata.org/wiki/Q867510",
+      "isTimelineWork": true,
+      "GalleryNumber": "825"
+    },
+    "path": "assets/editorial/vangogh-cypresses.webp",
+    "width": 952,
+    "height": 1200,
+    "bytes": 383496,
+    "originalDimensions": [
+      1476,
+      1861
+    ],
+    "sha256": "9050fd50fc7fff9822a00d5ec94121792bfc428c9fbb64f19d2e6262218c7ca5",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "vangogh-wheat": {
+    "title": "文森特·梵高 / 丝柏麦田，1889",
+    "author": "Vincent van Gogh / The Metropolitan Museum of Art",
+    "source": "https://www.metmuseum.org/art/collection/search/436535",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "download": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+    "verified": "2026-11-17",
+    "verification": "Met Collection API isPublicDomain=true and a primary image; Met Open Access CC0 policy.",
+    "providerMetadata": {
+      "objectID": 436535,
+      "isHighlight": true,
+      "accessionNumber": "1993.132",
+      "accessionYear": "1993",
+      "isPublicDomain": true,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
+      "additionalImages": [
+        "https://images.metmuseum.org/CRDImages/ep/original/LC-EP_1993_132_suppl_CH-004.jpg",
+        "https://images.metmuseum.org/CRDImages/ep/original/LC-EP_1993_132_suppl_CH-003.jpg",
+        "https://images.metmuseum.org/CRDImages/ep/original/LC-EP_1993_132_suppl_CH-002.jpg",
+        "https://images.metmuseum.org/CRDImages/ep/original/LC-EP_1993_132_suppl_CH-001.jpg"
+      ],
+      "constituents": [
+        {
+          "constituentID": 161947,
+          "role": "Artist",
+          "name": "Vincent van Gogh",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115588",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5582",
+          "gender": ""
+        }
+      ],
+      "department": "European Paintings",
+      "objectName": "Painting",
+      "title": "Wheat Field with Cypresses",
+      "culture": "",
+      "period": "",
+      "dynasty": "",
+      "reign": "",
+      "portfolio": "",
+      "artistRole": "Artist",
+      "artistPrefix": "",
+      "artistDisplayName": "Vincent van Gogh",
+      "artistDisplayBio": "Dutch, Zundert 1853–1890 Auvers-sur-Oise",
+      "artistSuffix": "",
+      "artistAlphaSort": "Gogh, Vincent van",
+      "artistNationality": "Dutch",
+      "artistBeginDate": "1853",
+      "artistEndDate": "1890",
+      "artistGender": "",
+      "artistWikidata_URL": "https://www.wikidata.org/wiki/Q5582",
+      "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500115588",
+      "objectDate": "1889",
+      "objectBeginDate": 1889,
+      "objectEndDate": 1889,
+      "medium": "Oil on canvas",
+      "dimensions": "28 13/16 × 36 3/4 in. (73.2 × 93.4 cm)",
+      "measurements": [
+        {
+          "elementName": "Glazing",
+          "elementDescription": "See Notes in Description",
+          "elementMeasurements": {
+            "Height": 75.24765,
+            "Width": 94.93269
+          }
+        },
+        {
+          "elementName": "Overall",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Height": 73.2,
+            "Width": 93.4
+          }
+        }
+      ],
+      "creditLine": "Purchase, The Annenberg Foundation Gift, 1993",
+      "geographyType": "",
+      "city": "",
+      "state": "",
+      "county": "",
+      "country": "",
+      "region": "",
+      "subregion": "",
+      "locale": "",
+      "locus": "",
+      "excavation": "",
+      "river": "",
+      "classification": "Paintings",
+      "rightsAndReproduction": "",
+      "linkResource": "",
+      "metadataDate": "2026-11-06T04:53:14.23Z",
+      "repository": "Metropolitan Museum of Art, New York, NY",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/436535",
+      "tags": [
+        {
+          "term": "Landscapes",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+        },
+        {
+          "term": "Cypresses",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300343641",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q146911"
+        },
+        {
+          "term": "Summer",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300133099",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q1313"
+        }
+      ],
+      "objectWikidata_URL": "https://www.wikidata.org/wiki/Q18689458",
+      "isTimelineWork": true,
+      "GalleryNumber": "822"
+    },
+    "path": "assets/editorial/vangogh-wheat.webp",
+    "width": 1440,
+    "height": 1146,
+    "bytes": 509962,
+    "originalDimensions": [
+      4000,
+      3184
+    ],
+    "sha256": "952f97d5f666a46e2ab17bd4b6e78f65772f2c22ecea1f82bf86ecaadef9aa60",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "vangogh-auvers": {
+    "title": "文森特·梵高 / 欧韦的绿麦田，1890",
+    "author": "Vincent van Gogh / National Gallery of Art, Washington",
+    "source": "https://www.nga.gov/artworks/163323-green-wheat-fields-auvers",
+    "license": "Public domain",
+    "licenseUrl": "https://www.nga.gov/terms-and-notices",
+    "download": "https://api.nga.gov/iiif/b479275a-4f8a-4702-83c2-9dcc4cbe60ce/full/!1440,1200/0/default.jpg",
+    "verified": "2026-11-17",
+    "verification": "NGA object page explicitly states media is free and in the public domain.",
+    "path": "assets/editorial/vangogh-auvers.webp",
+    "width": 1440,
+    "height": 1130,
+    "bytes": 467708,
+    "originalDimensions": [
+      1440,
+      1130
+    ],
+    "sha256": "a249fa636f77fb212aa74ba182e1c485ddd6527d58385605a7dc491631de975b",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+  },
+  "monet-london": {
+    "title": "克洛德·莫奈 / 国会大厦，日落，1903",
+    "author": "Claude Monet / National Gallery of Art, Washington",
+    "source": "https://www.nga.gov/artworks/46523-houses-parliament-sunset",
+    "license": "Public domain",
+    "licenseUrl": "https://www.nga.gov/terms-and-notices",
+    "download": "https://api.nga.gov/iiif/9eae6258-ec1c-442f-b353-a89cff510113/full/!1440,1200/0/default.jpg",
+    "verified": "2026-11-17",
+    "verification": "NGA object page explicitly states media is free and in the public domain.",
+    "path": "assets/editorial/monet-london.webp",
+    "width": 1359,
+    "height": 1200,
+    "bytes": 242636,
+    "originalDimensions": [
+      1359,
+      1200
+    ],
+    "sha256": "22b95acf6d98f9d02e2abd5df348c46c325a3edee8ddf870db5f3d270eb99d13",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
   }
 }

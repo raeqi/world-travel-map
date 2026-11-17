@@ -1,10 +1,10 @@
 'use strict';
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const context=vm.createContext({document:{addEventListener(){}}});
-for(const file of ['catalog.js','tea.js','historical.js','walking.js','journeys.js','media.js','themes.js','planner.js','journey-plans.js','map-style.js','journey-design.js','editorial.js'])vm.runInContext(fs.readFileSync(file,'utf8'),context);
+for(const file of ['catalog.js','tea.js','historical.js','walking.js','journeys.js','media.js','themes.js','planner.js','journey-plans.js','map-style.js','journey-design.js','editorial.js','art-media.js','art-context.js'])vm.runInContext(fs.readFileSync(file,'utf8'),context);
 const result=vm.runInContext(`({themes,themeDesigns,themeMedia,photoLibrary,places,planTemplates,buildPlans,routeEdges})`,context);
 const {themes,places,planTemplates,buildPlans,routeEdges,themeDesigns,themeMedia,photoLibrary}=result;
-assert.equal(themes.length,20);
+assert.equal(themes.length,21);
 assert.equal(new Set(places.map(p=>p.id)).size,places.length);
 assert.equal(new Set(planTemplates.map(p=>p.id)).size,planTemplates.length);
 for(const t of themes.slice(10)){
@@ -17,10 +17,10 @@ for(const t of themes.slice(10)){
  assert.equal(buildPlans(t.id,0,1).some(p=>p.days>1),false);
  const d=themeDesigns[t.id];assert.ok(d.lens&&d.note&&d.line);assert.match(d.line,/非/);
  const path=photoLibrary[themeMedia[t.id].photo].path;assert.ok(fs.existsSync(path),path);assert.match(path,/\.webp$/);assert.ok(photoLibrary[themeMedia[t.id].photo].licenseUrl);
- assert.ok(fs.readFileSync('design.css','utf8').includes('data-map-style='+d.mode));
+ assert.ok((fs.readFileSync('design.css','utf8')+fs.readFileSync('experience.css','utf8')).includes('data-map-style='+d.mode));
 }
 assert.equal(new Set(places.filter(p=>p.themes.includes('andes')).map(p=>p.country)).size,6,'Andean network spans six countries');
 assert.equal(places.filter(p=>p.themes.includes('buddhist')).length,4);
 const hedeby=places.find(p=>p.themes.includes('viking')&&/海泽比|Hedeby/i.test(p.name+' '+p.desc));assert.ok(hedeby);assert.equal(hedeby.country,'德国');
 assert.ok(buildPlans('nc500',0).some(p=>p.topology==='loop'));
-console.log('PASS: 20 themes; all new nodes, unique IDs, valid plans, network/loop topology, six-country Andes, sources, licensed local images and distinct editions.');
+console.log('PASS: 21 themes; all new nodes, unique IDs, valid plans, network/loop topology, six-country Andes, sources, licensed local images and distinct editions.');

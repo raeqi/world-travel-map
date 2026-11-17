@@ -83,3 +83,133 @@ computer, without using a local user computer or publishing the preview publicly
 
 The Git CLI credential limitation was resolved through the user's connected
 GitHub API, preserving and verifying the complete Git tree before publication.
+
+
+## Discovery and reading upgrade — 2026-11-17
+
+Independent worktree: `world-travel-map-discovery`, branch
+`feat/atlas-discovery-upgrade`, based on latest fetched main
+`bb3a01e21a846b41ff59b7cfc40dea92478336e3`. Other worktrees and their
+uncommitted changes were preserved. Only the selected Dot cloud computer was used.
+
+### Actual coverage
+
+- 21 themes, 1,595 unique records and 95 valid plans: one new Van Gogh theme,
+  eight new place records and three added plans.
+- Eight Impressionist-associated paintings (four added) and three Van Gogh
+  paintings, with separately located depicted places and collection institutions.
+- Seven added reusable images; 23 editorial image files total, 6,212,580 bytes.
+- 25 selected place essays, 41 contextual paragraphs. The shared reading layout
+  applies to all records; this does not claim fresh verification of all 1,595.
+
+### Passed checks in this run
+
+- `node --test tests/*.test.cjs`: all seven test files passed, including unique
+  IDs, source links, plan membership, art geography, licences, dimensions,
+  byte counts and SHA-256 hashes.
+- `node --check`: every root JS and every scripts/tests CJS file.
+- All four CSS files parsed by css-tree without parse errors; `git diff --check`.
+- `JSDOM_MODULE=/tmp/atlas-dom-tools/node_modules/jsdom node scripts/check-dom.cjs`:
+  all 21 theme entries, eleven edition flows, search and result switching,
+  preserved query on return, route/detail/next/back, duplicate saves and storage,
+  eight Impressionist subject/collection pairs and simulated image failure.
+  Canvas/layout/animation/dialog methods are stubbed here; this is state testing.
+- Real cloud Chromium via Sites managed preview, desktop 1440×1000 CSS iframe:
+  all 21 theme entries, nonempty place lists and correct recommendations;
+  keyboard activation and return. Eight route flows: Impressionism, Van Gogh,
+  Nakasendo, Grand Canal, Camino, Viking, NC500 and cultural heritage.
+  Details, facts/sources expansion, next, Escape, route preservation, duplicate
+  saves and return passed. The preview wrapper can scroll outside the host
+  viewport, so keyboard activation was used for the broad 21-theme pass;
+  direct actual-app pointer interactions were checked separately.
+- All eleven paintings opened in the real image viewer and decoded successfully
+  (`complete` and positive `naturalWidth`), with correct depicted-place and
+  institution captions and collection-location navigation.
+- Mobile 390×844 CSS iframe: Van Gogh search, two route results, empty result,
+  interest + Europe combination, clear filters and no horizontal overflow.
+  Six route families (Nakasendo, Canal, Viking, NC500, Impressionism, Van Gogh)
+  exercised detail/next/Escape/repeated saves. Bottom sheets stayed within the
+  viewport; long content scrolls independently. Saint-Rémy drawer measured
+  left 10, right 380, top 260.09, bottom 834. Escape returned focus to the
+  selected route stop. The close button also worked with pointer activation.
+- Direct app URL (outside the QA iframe): refresh restored selected Saint-Rémy
+  and the Provence plan; Back returned to recommendations and Forward restored
+  the route. Pointer activation opened theme, plan, stop and close control.
+- Real screenshots were captured and displayed through the cloud browser tool:
+  desktop home, Van Gogh route/detail, Viking Hedeby detail, mobile home and
+  mobile art drawer. Captures after the camera transition show the selected
+  mobile map label above the drawer. Test-only favourites were cleared through
+  the UI after checks; no pre-existing favourites were present in this preview.
+
+### Remaining limits
+
+- These are targeted real-browser checks, not a claim that the full CLI browser
+  script suite ran. It was not rerun after the earlier Chromium socket failure.
+- Responsive iframe checks are not physical phone or touch-device tests.
+- Dense map labels can still overlap and country-scale geography does not show
+  streets, precise paths, altitude or venue boundaries. Drawer exclusion and
+  selected-place centering reduce obstruction, not all collision cases.
+- Screenshot file delivery is incomplete: `tab.screenshot()` successfully
+  returned actual JPEG bytes and `nodeRepl.emitImage()` displayed the captures,
+  but writing them to the task workspace from the browser runtime returned
+  `EROFS: read-only file system`. No screenshot file was falsely substituted,
+  no Library upload was attempted without a file, and no Library ID is claimed.
+  The live app tab was marked for review. Prepared Library upload helpers are
+  available in the task workspace for a supported screenshot file handoff.
+
+
+## Cross-theme hero carousel — 2026-11-17
+
+Based on published PR #2 head `5db858d33ef80a71deae75ac4ced6b9d7e577a23`.
+The previous equivalent local commit was preserved on
+`feat/atlas-discovery-upgrade-local-preserved`; development continued on the
+original PR branch tracking the published head. No other computer was used.
+
+- Six source-specific recommendations: Nakasendo (Tsumago/Magome), Grand Canal
+  (Jiangnan), Impressionism (theme map), Viking (Germany/Denmark network), NC500
+  (west coast), and US national parks (Utah Five). All use existing licensed local
+  images; no additional assets or content totals were introduced.
+- Eight-second automatic rotation; stable previous/next, six current indicators,
+  pause/play and Arrow/Home/End keyboard controls. Manual selection or focus
+  entry pauses until explicit Play. Hover, hidden document and offscreen states
+  suspend rotation. Reduced-motion preferences disable automatic playback.
+- Automatic content changes have no live announcements and never move focus.
+  Inactive slides are hidden. Manual selections report only the new title and
+  position. This checks semantics, not a claim of testing with a physical screen
+  reader. The current and next image are loaded ahead of automatic changes.
+
+Passed after implementation:
+
+1. All seven existing unit-test files, with added six-slide destination/licence
+   integrity checks; every JS/CJS syntax check; `experience.css` parsing and
+   `git diff --check`.
+2. Existing DOM regression, preserving all 21 themes, 95 plans, image viewer,
+   location/collection distinction, route details, favourites and return flows.
+3. New `scripts/check-carousel.cjs` under jsdom with a controlled clock:
+   7,999/8,000 ms transition, hover/resume, focus/manual/pointer pause,
+   Arrow/Home/End wrap, all six destinations, reduced-motion changes, no
+   automatic live-region content, hidden-page suspension, timer disposal and
+   paused return state. Reduced-motion was exercised through this mocked media
+   preference, not by changing the cloud desktop OS setting.
+4. Real cloud Chromium via the supported Sites managed preview: automatic
+   transition with unchanged height, pointer pause/play, hover pause and resume,
+   keyboard focus pause and wrap, all six correct destination/return flows,
+   and all seven image instances decoded after loading.
+5. Real 1440×1000 iframe stage: carousel height 457 CSS px for every item. Real
+   390×844 iframe: final carousel 339×379, caption 97 px for every item, no
+   horizontal overflow; all nine control buttons measure 44×44. Mobile next,
+   NC500 route/detail/close/home, and Nakasendo route/home passed. Manual pause
+   remained in place during subsequent checks. Mobile checks are responsive
+   browser checks, not physical-device testing.
+6. Actual desktop Nakasendo/canal and mobile Viking screenshots were captured
+   and displayed through the browser tool. This follow-up does not claim new
+   persistent screenshot files or Library IDs; the earlier browser-runtime
+   file-write isolation still limits that handoff.
+
+The full CLI browser suite remains unrun; targeted live-browser checks above
+were used. Browser log inspection showed extension metadata errors from
+`chrome-extension://.../content-script.bundle.js`, not a reported app failure.
+
+Latest user instruction authorizes completing this follow-up and merging PR #2
+into main after checking its final diff and remote status. The final reply records
+actual publication and merge SHAs after those operations are verified.
