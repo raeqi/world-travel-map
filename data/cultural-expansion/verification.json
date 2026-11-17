@@ -1,0 +1,69 @@
+{
+  "checkedOn": "2026-11-17",
+  "environment": "hosted JavaScript integrity validation plus GitHub Actions Node.js 22 regression tests; no local executor",
+  "status": "passed",
+  "checks": {
+    "shapeAndLinks": true,
+    "duplicateIds": true,
+    "placeCoordinates": true,
+    "nonemptySpecificContent": true,
+    "sourceReferences": true,
+    "workCollectionSeparation": true,
+    "perMediaRightsAndAssetState": true,
+    "baseAliases": [
+      "nakasendo-tokyo",
+      "impressionism-met"
+    ],
+    "negativeCases": [
+      {
+        "name": "dangling route stop",
+        "detected": true
+      },
+      {
+        "name": "duplicate point ID",
+        "detected": true
+      },
+      {
+        "name": "missing evidence",
+        "detected": true
+      },
+      {
+        "name": "collection confused with subject",
+        "detected": true
+      },
+      {
+        "name": "wrong artwork/media binding",
+        "detected": true
+      },
+      {
+        "name": "unmaterialized asset claim",
+        "detected": true
+      }
+    ]
+  },
+  "counts": {
+    "themes": 4,
+    "places": 21,
+    "works": 11,
+    "plans": 10,
+    "mediaCandidates": 10
+  },
+  "notRun": [
+    "asset file downloads, checksums and visual identification",
+    "browser desktop/mobile UI checks",
+    "full browser automation suite"
+  ],
+  "liveIntegration": false,
+  "ci": {
+    "url": "https://github.com/raeqi/world-travel-map/actions/runs/44051350746",
+    "commit": "5a6a9bec1fe2142d5b75fac8c03ec508a91b13ba",
+    "testJob": "success",
+    "nodeVersion": "22",
+    "tests": 10,
+    "passed": 10,
+    "failed": 0,
+    "syntaxCheck": "success",
+    "sitePreparation": "success",
+    "deploy": "skipped: pull request"
+  }
+}

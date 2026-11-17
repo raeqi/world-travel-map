@@ -1888,11 +1888,12 @@
       "id": "nakasendo-corridor",
       "name": "中山道 · 东京到京都文化走廊",
       "stops": 9,
-      "layeredReading": 1,
+      "layeredReading": 2,
       "sourceLinks": [
-        "https://www.japan.travel/en/japans-local-treasures/walk-historic-nakasendo-trail/"
+        "https://www.japan.travel/en/japans-local-treasures/walk-historic-nakasendo-trail/",
+        "https://www.metmuseum.org/art/collection/search/55237"
       ],
-      "matchedImages": 1,
+      "matchedImages": 2,
       "hasCover": true,
       "shortDescriptionIds": [
         "nakasendo-tokyo",
@@ -1906,7 +1907,6 @@
         "nakasendo-kyoto"
       ],
       "withoutLayeredReading": [
-        "nakasendo-tokyo",
         "nakasendo-karuizawa",
         "nakasendo-shimosuwa",
         "nakasendo-narai",
@@ -3015,6 +3015,196 @@
         "road-plett",
         "road-storms"
       ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "hokusai",
+      "id": "hokusai-edo-coast",
+      "name": "北斋 · 江户与相模海岸",
+      "stops": 2,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://www.japan.travel/en/japans-local-treasures/walk-historic-nakasendo-trail/",
+        "https://www.metmuseum.org/art/collection/search/55237",
+        "https://www.metmuseum.org/art/collection/search/56996"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "nakasendo-tokyo",
+        "hokusai-enoshima"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "hokusai",
+      "id": "hokusai-water",
+      "name": "北斋 · 湖泊、倒影与远山",
+      "stops": 2,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://www.metmuseum.org/art/collection/search/36495",
+        "https://www.metmuseum.org/art/collection/search/54868",
+        "https://www.metmuseum.org/art/collection/search/39798"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "hokusai-kawaguchi",
+        "hokusai-suwa"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "hokusai",
+      "id": "hokusai-tokaido",
+      "name": "北斋 · 东海道上的城市与风",
+      "stops": 2,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://www.japan.travel/en/japans-local-treasures/walk-historic-nakasendo-trail/",
+        "https://www.metmuseum.org/art/collection/search/55237",
+        "https://www.metmuseum.org/art/collection/search/55735"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "nakasendo-tokyo",
+        "hokusai-ejiri"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "vermeer",
+      "id": "vermeer-place-and-original",
+      "name": "维米尔 · 地景与原作分别看",
+      "stops": 4,
+      "layeredReading": 4,
+      "sourceLinks": [
+        "https://www.mauritshuis.nl/en/our-collection/artworks/92-view-of-delft",
+        "https://www.rijksmuseum.nl/en/collection/object/View-of-Houses-in-Delft-Known-as-The-Little-Street--a7dbf937cbd6f7c30f66f8aca4a0207c"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "vermeer-kolk",
+        "vermeer-mauritshuis"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "vermeer",
+      "id": "vermeer-delft-walk",
+      "name": "维米尔 · 代尔夫特两种城市尺度",
+      "stops": 2,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://www.mauritshuis.nl/en/our-collection/artworks/92-view-of-delft",
+        "https://www.rijksmuseum.nl/en/collection/object/View-of-Houses-in-Delft-Known-as-The-Little-Street--a7dbf937cbd6f7c30f66f8aca4a0207c"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "vermeer-kolk"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "bach",
+      "id": "bach-thuringia",
+      "name": "巴赫 · 图林根的三种音乐生活",
+      "stops": 3,
+      "layeredReading": 3,
+      "sourceLinks": [
+        "https://bachhaus.de/en/home",
+        "https://bachhaus.de/en/museum",
+        "https://www.bach-thueringen.de/en/biographische-stationen",
+        "https://www.bach-thueringen.de/en/w/bach-in-weimar"
+      ],
+      "matchedImages": 3,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "bach",
+      "id": "bach-kothen-leipzig",
+      "name": "巴赫 · 从宫廷工作到城市音乐",
+      "stops": 3,
+      "layeredReading": 3,
+      "sourceLinks": [
+        "https://www.march.es/en/madrid/bach-kothen",
+        "https://oae.co.uk/bachs-brandenburg-concertos/",
+        "https://www.bach-thueringen.de/en/biographische-stationen",
+        "https://www.thomaskirche.org/",
+        "https://www.bachmuseumleipzig.de/en/bach-museum/introducing-leipzig-bach-museum"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "austen",
+      "id": "austen-hampshire",
+      "name": "奥斯汀 · 汉普郡生活与写作",
+      "stops": 3,
+      "layeredReading": 3,
+      "sourceLinks": [
+        "https://janeaustens.house/jane-austen/jane-austen-a-life/",
+        "https://janeaustens.house/the-museum/",
+        "https://janeaustens.house/visit/visitor-info/",
+        "https://www.nationaltrust.org.uk/visit/bath-bristol/bath-assembly-rooms/jane-austen-at-bath-assembly-rooms",
+        "https://www.visit-dorset.com/lyme-regis/explore-discover/history-heritage/jane-austen/",
+        "https://www.visitwinchester.co.uk/blog/how-to-spend-a-weekend-in-jane-austens-winchester"
+      ],
+      "matchedImages": 3,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "austen",
+      "id": "austen-moving-life",
+      "name": "奥斯汀 · 迁居、收入与写作空间",
+      "stops": 3,
+      "layeredReading": 3,
+      "sourceLinks": [
+        "https://www.nationaltrust.org.uk/visit/bath-bristol/bath-assembly-rooms/jane-austen-at-bath-assembly-rooms",
+        "https://www.visit-dorset.com/lyme-regis/explore-discover/history-heritage/jane-austen/",
+        "https://janeaustens.house/the-museum/",
+        "https://janeaustens.house/jane-austen/jane-austen-a-life/",
+        "https://janeaustens.house/visit/visitor-info/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "austen",
+      "id": "austen-persuasion",
+      "name": "《劝导》 · 巴斯与海岸对读",
+      "stops": 2,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://www.nationaltrust.org.uk/visit/bath-bristol/bath-assembly-rooms/jane-austen-at-bath-assembly-rooms",
+        "https://www.visit-dorset.com/lyme-regis/explore-discover/history-heritage/jane-austen/",
+        "https://janeaustens.house/the-museum/"
+      ],
+      "matchedImages": 0,
+      "hasCover": false,
+      "shortDescriptionIds": [],
       "withoutLayeredReading": [],
       "specificResearchPending": []
     }

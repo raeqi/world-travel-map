@@ -1,0 +1,949 @@
+{
+  "bach-eisenach-photo": {
+    "title": "艾森纳赫 / 巴赫故居博物馆花园（非确认出生屋）",
+    "author": "Bachhaus.eisenach",
+    "source": "https://commons.wikimedia.org/wiki/File:8_Bachhaus_Eisenach_Garten.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/f/f0/8_Bachhaus_Eisenach_Garten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalDownload": "https://upload.wikimedia.org/wikipedia/commons/f/f0/8_Bachhaus_Eisenach_Garten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2011-11-19 17:14:15",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "8 Bachhaus Eisenach Garten",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Bachhaus Eisenach|Self-published work|2004 in Eisenach|Bachhaus Eisenach (Garten)",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Bachhaus Eisenach, Garten, 2004",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2004-08-26",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bachhaus.eisenach&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bachhaus.eisenach (page does not exist)\">Bachhaus.eisenach</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "relatedPlaceIds": [
+      "bach-eisenach"
+    ],
+    "verification": "Specific Commons file and description reviewed; licensed image matched to the named place, not to its country or theme.",
+    "path": "assets/cultural-routes/bach-eisenach-photo.webp",
+    "width": 800,
+    "height": 540,
+    "bytes": 156222,
+    "originalDimensions": [
+      800,
+      540
+    ],
+    "sha256": "8bb66ca502e70545b588d81d026cd4aca8a29170ee29b7a1427144b333b52a7e",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence. Integration edition: proportional fit within 1280px and WebP quality 82."
+  },
+  "bach-weimar-photo": {
+    "title": "魏玛 / 纪念巴赫的胸像（当代纪念景观）",
+    "author": "Arcalino",
+    "source": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach_in_Weimar_Bueste.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Johann_Sebastian_Bach_in_Weimar_Bueste.jpg/1920px-Johann_Sebastian_Bach_in_Weimar_Bueste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDownload": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Johann_Sebastian_Bach_in_Weimar_Bueste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2013-02-24 11:51:01",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Johann Sebastian Bach in Weimar Bueste",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Nikon D5000|Self-published work|Information field template with formatting|Johann Sebastian Bach bust in Weimar",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Bust of Johann Sebastian Bach in Weimar",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2010-10-22",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Arcalino\" title=\"User:Arcalino\">Arcalino</a>",
+        "source": "commons-desc-page"
+      },
+      "Attribution": {
+        "value": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Arcalino\" title=\"User:Arcalino\">Arcalino</a> / <a href=\"//commons.wikimedia.org/wiki/Main_Page\" title=\"Main Page\">Wikimedia Commons</a>",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "relatedPlaceIds": [
+      "bach-weimar"
+    ],
+    "verification": "Specific Commons file and description reviewed; licensed image matched to the named place, not to its country or theme.",
+    "path": "assets/cultural-routes/bach-weimar-photo.webp",
+    "width": 797,
+    "height": 1200,
+    "bytes": 128386,
+    "originalDimensions": [
+      1920,
+      2891
+    ],
+    "sha256": "0a4e6f113c49035e43c12e660eab0cc810560c6a1df1713d991b2baa222f3389",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence. Integration edition: proportional fit within 1280px and WebP quality 82."
+  },
+  "bach-kothen-photo": {
+    "title": "克滕 / 宫殿建筑群",
+    "author": "User:Oursana",
+    "source": "https://commons.wikimedia.org/wiki/File:SchlossK%C3%B6then4-2012-2.JPG",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/SchlossK%C3%B6then4-2012-2.JPG/1920px-SchlossK%C3%B6then4-2012-2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDownload": "https://upload.wikimedia.org/wikipedia/commons/1/14/SchlossK%C3%B6then4-2012-2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2013-04-01 20:00:29",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "SchlossKöthen4-2012-2",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Panasonic Lumix DMC-FZ100|PD-user|Images by Oursana|Ferdinandsbau (Schloss Köthen)",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Schloss Köthen, Ferdinandsbau (rechts) und Steinernes Haus",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2012-04-14",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Oursana\" title=\"User:Oursana\">User:Oursana</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Copyrighted": {
+        "value": "False",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "pd",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "relatedPlaceIds": [
+      "bach-kothen"
+    ],
+    "verification": "Specific Commons file and description reviewed; licensed image matched to the named place, not to its country or theme.",
+    "path": "assets/cultural-routes/bach-kothen-photo.webp",
+    "width": 1280,
+    "height": 853,
+    "bytes": 210910,
+    "originalDimensions": [
+      1920,
+      1280
+    ],
+    "sha256": "6e218442fd9008bdd781d18c0e5ba34b7ab92853f4d52a4590dba5d9a8069849",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence. Integration edition: proportional fit within 1280px and WebP quality 82."
+  },
+  "bach-arnstadt-photo": {
+    "title": "阿恩施塔特 / 巴赫教堂外观",
+    "author": "Photo: Andreas Praefcke",
+    "source": "https://commons.wikimedia.org/wiki/File:Arnstadt_Bachkirche_au%C3%9Fen_Chor_03.jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Arnstadt_Bachkirche_au%C3%9Fen_Chor_03.jpg/1920px-Arnstadt_Bachkirche_au%C3%9Fen_Chor_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDownload": "https://upload.wikimedia.org/wikipedia/commons/9/99/Arnstadt_Bachkirche_au%C3%9Fen_Chor_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2012-06-13 11:24:36",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Arnstadt Bachkirche außen Chor 03",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Johann-Sebastian-Bach-Kirche (Arnstadt)|Self-published work|PD-self|Photos by User:AndreasPraefcke|Hopfenbrunnen Arnstadt",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "<p>Arnstadt (Thüringen),\n</p>\nBachkirche",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2012-06",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\">Self-photographed</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Photo: Andreas Praefcke",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Copyrighted": {
+        "value": "False",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "pd",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "relatedPlaceIds": [
+      "bach-arnstadt"
+    ],
+    "verification": "Specific Commons file and description reviewed; licensed image matched to the named place, not to its country or theme.",
+    "path": "assets/cultural-routes/bach-arnstadt-photo.webp",
+    "width": 1122,
+    "height": 1200,
+    "bytes": 294814,
+    "originalDimensions": [
+      1920,
+      2054
+    ],
+    "sha256": "210ae0686c3655e721bb5e58054f4ebfca5cd8f0b534a49dc5574f8b7ba2c349",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence. Integration edition: proportional fit within 1280px and WebP quality 82."
+  },
+  "bach-leipzig-photo": {
+    "title": "莱比锡 / 圣托马斯教堂西立面",
+    "author": "Tuxyso",
+    "source": "https://commons.wikimedia.org/wiki/File:Thomaskirche_Leipzig_Westseite_2013.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Thomaskirche_Leipzig_Westseite_2013.jpg/1920px-Thomaskirche_Leipzig_Westseite_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDownload": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Thomaskirche_Leipzig_Westseite_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2013-12-21 08:18:54",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Thomaskirche Leipzig Westseite 2013",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Nikon D7000|Exterior of Thomaskirche (Leipzig)|Self-published work|Information field template with formatting|Images by Tuxyso|Files with coordinates missing SDC location of creation|Leipzig photographs taken on 2013-12-07",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "51.339488",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "12.374517",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Thomas Church (\"Thomaskirche\"), west fassade",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "Taken on 7 December 2013 10:47:43",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Tuxyso\" title=\"User:Tuxyso\">Tuxyso</a>",
+        "source": "commons-desc-page"
+      },
+      "Attribution": {
+        "value": "Tuxyso / <a href=\"//commons.wikimedia.org/wiki/Main_Page\" title=\"Main Page\">Wikimedia Commons</a>",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "relatedPlaceIds": [
+      "bach-leipzig"
+    ],
+    "verification": "Specific Commons file and description reviewed; licensed image matched to the named place, not to its country or theme.",
+    "path": "assets/cultural-routes/bach-leipzig-photo.webp",
+    "width": 816,
+    "height": 1200,
+    "bytes": 109204,
+    "originalDimensions": [
+      1920,
+      2823
+    ],
+    "sha256": "3887fad49af2d4716aea52d784c4141a55ffd4c41fc1c5a8c6e6553966591237",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence. Integration edition: proportional fit within 1280px and WebP quality 82."
+  },
+  "austen-chawton-photo": {
+    "title": "乔顿 / 简·奥斯汀故居",
+    "author": "Simon Burchell",
+    "source": "https://commons.wikimedia.org/wiki/File:Jane_Austen%27s_House_Museum,_Chawton.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Jane_Austen%27s_House_Museum%2C_Chawton.jpg/1920px-Jane_Austen%27s_House_Museum%2C_Chawton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDownload": "https://upload.wikimedia.org/wikipedia/commons/8/82/Jane_Austen%27s_House_Museum%2C_Chawton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2020-09-30 15:08:18",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Jane Austen's House Museum, Chawton",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Jane Austen's House Museum|Self-published work|Listed buildings in England with known IDs|April 2013 in Hampshire|Uploaded via Campaign:wlm-gb-eng|United Kingdom photographs taken on 2013-04-06|Images from Wiki Loves Monuments 2020|Images from Wiki Loves Monuments 2020 in the United Kingdom|Images from Wiki Loves Monuments 2020 in England|Photos by Simon Burchell|WLM-UK 2020 unfiltered 09-30",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "51.133100",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "-0.989000",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Jane Austen's House Museum, Chawton, Hampshire, England. 18th century, Grade I listed.<br>\n<style data-mw-deduplicate=\"TemplateStyles:r1254222110\">.mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0.9em;padding-inline-end:0;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0;padding-inline-end:0.9em;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}</style><table class=\"plainlinks messagebox mbox-message\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Wikidata-logo.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"30\" height=\"17\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/60px-Wikidata-logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1050\" data-file-height=\"590\"></a></span></td><td class=\"mbox-text\"><a href=\"https://www.wikidata.org/wiki/Wikidata:Main_page\" class=\"extiw\" title=\"wikidata:Wikidata:Main page\">Wikidata</a> has <a href=\"https://www.wikidata.org/wiki/Q3161847\" class=\"extiw\" title=\"d:Q3161847\">entry Jane Austen's House Museum <small>(Q3161847)</small></a> with data related to this item.</td></tr></tbody></table>",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2013-04-06 16:30:49",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Simon_Burchell\" title=\"User:Simon Burchell\">Simon Burchell</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "relatedPlaceIds": [
+      "austen-chawton"
+    ],
+    "verification": "Specific Commons file and description reviewed; licensed image matched to the named place, not to its country or theme.",
+    "path": "assets/cultural-routes/austen-chawton-photo.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 160802,
+    "originalDimensions": [
+      1920,
+      1440
+    ],
+    "sha256": "546e57e004abc2ec7c7e7e258fb9e9504ea38379494eda3321b1c944786ce641",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence. Integration edition: proportional fit within 1280px and WebP quality 82."
+  },
+  "austen-steventon-photo": {
+    "title": "史蒂文顿 / 圣尼古拉教堂（非已拆牧师住宅）",
+    "author": "Dr Neil Clifton",
+    "source": "https://commons.wikimedia.org/wiki/File:Steventon,_St._Nicholas_Church_-_geograph.org.uk_-_2376213.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Steventon%2C_St._Nicholas_Church_-_geograph.org.uk_-_2376213.jpg/1920px-Steventon%2C_St._Nicholas_Church_-_geograph.org.uk_-_2376213.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDownload": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Steventon%2C_St._Nicholas_Church_-_geograph.org.uk_-_2376213.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2021-07-23 03:14:43",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Steventon, St. Nicholas Church - geograph.org.uk - 2376213",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Images from Geograph Britain and Ireland|St Nicholas, Steventon",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "51.221067",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "-1.211116",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Steventon:  St. Nicholas Church <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Steventon,_St._Nicholas_Church_-_geograph.org.uk_-_2376213.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2011-04-24",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/2376213\">Geograph Britain and Ireland</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Steventon,_St._Nicholas_Church_-_geograph.org.uk_-_2376213.jpg#P7482\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/796\">Dr Neil Clifton</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Steventon,_St._Nicholas_Church_-_geograph.org.uk_-_2376213.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 2.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 2.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Attribution": {
+        "value": "<i>Steventon:  St. Nicholas Church</i> by Dr Neil Clifton",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-2.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "relatedPlaceIds": [
+      "austen-steventon"
+    ],
+    "verification": "Specific Commons file and description reviewed; licensed image matched to the named place, not to its country or theme.",
+    "path": "assets/cultural-routes/austen-steventon-photo.webp",
+    "width": 1280,
+    "height": 844,
+    "bytes": 291836,
+    "originalDimensions": [
+      1920,
+      1265
+    ],
+    "sha256": "011e325fe6a418889ebb13a809a1f460cc119871c01a76ac21e9ade12473f192",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence. Integration edition: proportional fit within 1280px and WebP quality 82."
+  },
+  "austen-bath-photo": {
+    "title": "巴斯 / 皇家新月楼（城市背景，非奥斯汀住址）",
+    "author": "Photograph by Mike Peel (www.mikepeel.net).",
+    "source": "https://commons.wikimedia.org/wiki/File:Royal_Crescent,_Bath_2014_10.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Royal_Crescent%2C_Bath_2014_10.jpg/1920px-Royal_Crescent%2C_Bath_2014_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDownload": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Royal_Crescent%2C_Bath_2014_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2023-11-09 17:17:25",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Royal Crescent, Bath 2014 10",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Royal Crescent|Self-published work|Photos by Mike Peel using a Canon EOS 60D",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Royal Crescent, Bath, UK",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2014-12-13",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Photograph by <a href=\"//commons.wikimedia.org/wiki/User:Mike_Peel\" title=\"User:Mike Peel\">Mike Peel</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.mikepeel.net/\">www.mikepeel.net</a>).",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "CC-BY-SA-4.0. Please attribute as per the author line above.",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Attribution": {
+        "value": "Photograph by <a href=\"//commons.wikimedia.org/wiki/User:Mike_Peel\" title=\"User:Mike Peel\">Mike Peel</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.mikepeel.net/\">www.mikepeel.net</a>).",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "relatedPlaceIds": [
+      "austen-bath"
+    ],
+    "verification": "Specific Commons file and description reviewed; licensed image matched to the named place, not to its country or theme.",
+    "path": "assets/cultural-routes/austen-bath-photo.webp",
+    "width": 1280,
+    "height": 853,
+    "bytes": 213806,
+    "originalDimensions": [
+      1920,
+      1280
+    ],
+    "sha256": "f158b9fb09ed51002be9dccb29a24956de64743066b716069cd1aa783b2978a1",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence. Integration edition: proportional fit within 1280px and WebP quality 82."
+  },
+  "austen-winchester-photo": {
+    "title": "温彻斯特主教座堂庭院 / 奥斯汀纪念雕像（Martin Jennings）",
+    "author": "Adamklimowski",
+    "source": "https://commons.wikimedia.org/wiki/File:Jane-austen-monument-winchester-02.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Jane-austen-monument-winchester-02.jpg/1920px-Jane-austen-monument-winchester-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDownload": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Jane-austen-monument-winchester-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "verified": "2026-11-17",
+    "providerMetadata": {
+      "DateTime": {
+        "value": "2026-06-16 19:36:59",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Jane-austen-monument-winchester-02",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Self-published work|Jane Austen statue, Cathedral Close, Winchester",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Sculpture by Martin Jennings. Located in Winchester Cathedral's Inner Close. Unveiled in October 2025.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2026-06-03 12:10:29",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Adamklimowski\" title=\"User:Adamklimowski\">Adamklimowski</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "relatedPlaceIds": [
+      "austen-winchester"
+    ],
+    "verification": "Specific Commons file and description reviewed; licensed image matched to the named place, not to its country or theme.",
+    "path": "assets/cultural-routes/austen-winchester-photo.webp",
+    "width": 1280,
+    "height": 721,
+    "bytes": 356102,
+    "originalDimensions": [
+      1920,
+      1081
+    ],
+    "sha256": "4e2122e4a778228021b4ca69f1b378ccd81e5deed6a82da3e04949175d554eba",
+    "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence. Integration edition: proportional fit within 1280px and WebP quality 82."
+  }
+}

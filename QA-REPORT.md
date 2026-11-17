@@ -340,3 +340,8 @@ Combined-state checks passed:9 Node test files, all three DOM regressions includ
 ### Integration with approved Terra Mosaic and focused road themes
 
 A further three-way merge retains the approved Terra Mosaic name, icon, `terra.css`, homepage composition, `app.js` behaviour, and twelve focused road themes from `78154a1`. The complete inventory is now33 themes,1,683 places and111 plans. Carousel markup remains button-free per the newer user request; the Terra UI assertion checks this state instead of a visually hidden pause button. All9 Node test files and3 DOM regressions pass on the combined tree; current full coverage CSVs were regenerated. No visual screenshot from the pre-brand preview is presented as proof of this combined UI. The existing GitHub UI workflow is the additional combined-state browser check.
+
+
+### Final branch reconciliation with cultural PR #4
+
+The branch retains the independently merged `49e05c8` cultural pack and its16 files, without registering the earlier handoff drafts. Full inventories were regenerated:37 themes,1,703 places,121 plans,453 planned places;114 covers/7 neutral;172 places with expanded reading (the old95-plan batch still contributes63, not all172). The short/no-expanded-reading candidates are226,175 planned. All10 Node test files/12 reported tests pass, along with4 DOM regressions including the independent cultural checker. The new neutral cover is `austen-persuasion`, kept honest rather than borrowing an unrelated photo. Browser screenshots remain the earlier actual batch checks; a full post-integration live browser run was not claimed. No `main` write is made under the newest independent-branch submission instruction.
