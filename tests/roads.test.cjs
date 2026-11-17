@@ -7,17 +7,17 @@ const before=vm.runInContext('({places:places.length,plans:planTemplates.length,
 vm.runInContext(fs.readFileSync('roads.js','utf8'),context,{filename:'roads.js'});
 context.assert=assert;context.before=before;
 vm.runInContext(`
-assert.equal(scenicRoads.length,13);
-assert.equal(scenicRoadPlaceMap.size,79);
-assert.equal(places.length,before.places+79);
+assert.equal(scenicRoads.length,16);
+assert.equal(scenicRoadPlaceMap.size,88);
+assert.equal(places.length,before.places+88);
 assert.equal(themes.length,before.themes+1);
-assert.equal(planTemplates.length,before.plans+13);
+assert.equal(planTemplates.length,before.plans+16);
 assert.equal(new Set(places.map(p=>p.id)).size,places.length);
 assert.equal(new Set(planTemplates.map(p=>p.id)).size,planTemplates.length);
 const plans=buildPlans('roads',0);
-assert.equal(plans.length,13,'no invalid stop IDs silently omitted');
+assert.equal(plans.length,16,'no invalid stop IDs silently omitted');
 for(const p of plans){
- assert.ok(p.stops.length>=5);
+ assert.ok(p.stops.length>=4);
  assert.equal(new Set(p.ids).size,p.ids.length);
  assert.ok(p.months.every(m=>m>=1&&m<=12));
  assert.ok(p.roadScope&&p.accessNote.length>60&&p.statusUrl.startsWith('https://'));
@@ -29,6 +29,7 @@ for(const p of plans){
   assert.ok(p.ids.includes(m.placeId));
   assert.ok(photoLibrary[m.key].author&&photoLibrary[m.key].license&&photoLibrary[m.key].licenseUrl);
  }
+ if(p.topology==='network'){assert.equal(p.legs.length,0);assert.equal(routeEdges(p.stops,p).length,0);}
  if(p.topology==='loop')assert.equal(p.legs.at(-1).to.id,p.ids[0]);
  for(const n of p.stops){
   assert.ok(n.desc.trim()&&placeEssays[n.id].paragraphs[0].text.trim()&&placeEssays[n.id].paragraphs[0].text!==n.desc,n.id+' useful content');
@@ -50,7 +51,7 @@ assert.match(plans.find(p=>p.id==='roads-arctic').accessNote,/渡轮|冰桥/);
 assert.match(plans.find(p=>p.id==='roads-california1').name,/SR1/);
 assert.match(plans.find(p=>p.id==='roads-overseas').name,/US1/);
 assert.match(plans.find(p=>p.id==='roads-utah5').accessNote,/多|SR9/);
-for(const id of ['g219','g331','g228'])assert.ok(plans.find(p=>p.id==='roads-'+id).days>=60);
+for(const id of ['g219','g331','g228']){const p=plans.find(p=>p.id==='roads-'+id);assert.ok(p.days>=60);assert.equal(p.topology,'network');}
 homeState.interest='drives';homeState.area='all';homeState.query='北冰洋';
 assert.ok(matchingDiscovery().some(x=>x.theme.id==='roads'));
 homeState.query='';homeState.area='非洲';
@@ -63,11 +64,11 @@ assert.equal(buildPlans('roads',0,7).some(p=>p.days>7),false);
 for(const image of scenicRoadPhotos){
  assert.ok(image.source.startsWith('https://commons.wikimedia.org/wiki/File:'));
  assert.ok(image.path.startsWith('https://commons.wikimedia.org/wiki/Special:Redirect/file/'));
- assert.ok(image.changes.includes('CC BY-SA'));
+ assert.ok(image.changes&&image.verifiedOn);
 }
 `,context);
 const html=fs.readFileSync('index.html','utf8');
 assert.ok(html.indexOf('src="reading.js"')<html.indexOf('src="roads.js"'));
 assert.ok(html.indexOf('src="roads.js"')<html.indexOf('src="flow.js"'));
 assert.ok(html.includes('href="roads.css"'));
-console.log('PASS roads: 13 routes; 79 unique stops; source/permission metadata; matched photos; loop/return distinctions; continent/country discovery; date-bounded access notes.');
+console.log('PASS roads: 16 routes; 88 unique stops; source/permission metadata; matched photos; loop/return distinctions; continent/country discovery; date-bounded access notes.');

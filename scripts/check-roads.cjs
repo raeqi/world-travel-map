@@ -15,7 +15,7 @@ const {chromium}=require('playwright');
   await page.waitForFunction(()=>land.length>0&&w>0);
   await page.locator('#tab-plans').click();
   await page.locator('#travel-month').selectOption('0');
-  assert.equal(await page.locator('.plan-card').count(),13);
+  assert.equal(await page.locator('.plan-card').count(),16);
   await page.screenshot({path:path.join(out,'road-atlas-desktop.png')});
   const ids=await page.evaluate(()=>scenicRoadPlans.map(p=>p.id));
   for(const viewport of [{width:1440,height:1000},{width:390,height:844}]){
@@ -68,6 +68,6 @@ const {chromium}=require('playwright');
   assert.ok((await page.locator('#catalog-results').textContent()).includes('加拿大'));
   assert.deepEqual(errors,[],'No browser JS exceptions');
   assert.deepEqual(failedImages,[],'Real photographs must decode; no silent missing images');
-  console.log('PASS roads browser: 13 routes × desktop/mobile; first/last stop; guide; search/continent filters; 12 real-image decodes; screenshots '+out);
+  console.log('PASS roads browser: 16 routes × desktop/mobile; first/last stop; guide; search/continent filters; 13 real-image decodes; screenshots '+out);
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
