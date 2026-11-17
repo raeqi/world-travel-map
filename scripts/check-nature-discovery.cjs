@@ -44,7 +44,8 @@
    assert.ok(metadata.nodes>=8);assert.ok(metadata.plans.length>=3);
    await page.locator('#tab-plans').click();
    await page.locator('#travel-month').selectOption('7');
-   if(id==='nz-great-walks')assert.equal(await page.locator('.plan-card .season-other').count(),3,'southern walks disclose July outside priority window');
+   assert.equal(await page.locator('.plan-card').count(),id==='canadian-rockies'?3:0,'July uses each route seasonal window');
+   await page.locator('#travel-month').selectOption('0');
    await page.locator('#travel-days').selectOption('3');
    assert.equal(await page.locator('.plan-card').count(),id==='canadian-rockies'?2:id==='nz-great-walks'?1:5,'day budget filters actual routes');
    await page.locator('#travel-days').selectOption('0');await page.locator('#travel-month').selectOption('0');
