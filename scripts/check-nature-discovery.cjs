@@ -76,7 +76,7 @@
   assert.ok(await page.evaluate(id=>trip.some(p=>p.id===id),place));
   await page.locator('#detail .reading-close').click();await page.locator('#back-themes').click();
   assert.equal(await page.locator('#catalog-search').inputValue(),'冰岛');
-  await page.locator('#catalog-search').fill('冰岛1号');
+  await page.locator('#catalog-search').fill('冰岛 1');
   await page.locator('[data-catalog-view="themes"]').click();
   assert.equal(await page.locator('.theme-card,.catalog-itinerary').count(),0);
   assert.equal(await page.locator('.discovery-empty [data-catalog-view="routes"]').count(),1);
