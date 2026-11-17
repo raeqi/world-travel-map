@@ -98,3 +98,7 @@
 当前可执行的数据检查：`node --test tests/cultural-expansion-data.test.cjs`。这份交付的验证记录在[verification.json](verification.json)。
 
 后续适合继续研究：芭蕉《奥之细道》、苏轼的生活与作品地景、透纳的河流与海岸、塞尚的圣维克多山、文学中的都柏林。它们只是下一批候选，未在此包中虚报为已完成主题。
+
+## GitHub Actions 后续验证
+
+[工作流 44051350746](https://github.com/raeqi/world-travel-map/actions/runs/44051350746) 已在 Node.js 22 完成现有项目和新增数据的检查：10项测试通过、0失败，JavaScript语法检查和站点打包准备通过。PR不会执行部署。该结果仍不等于素材已下载或新主题已接入界面；本地执行器与浏览器验收尚不可用。
