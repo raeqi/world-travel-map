@@ -1,6 +1,6 @@
 'use strict';
-// Source-specific compositions, all using the atlas's existing local licensed media.
-const heroSlides=[
+// Recommendations only reuse registered themes, source images and existing routes.
+const heroDefaultSlides=[
  {theme:'nakasendo',route:'nakasendo-short',photo:'nakasendo-photo',second:'nakasendo-print',label:'古道与宿场',title:'走进木曾的宿场',text:'妻笼与马笼，在版画与今日街道之间',action:'打开两宿行程'},
  {theme:'canal',route:'canal-jiangnan',photo:'canal-bridge',label:'水岸与城市',title:'沿运河，读江南',text:'从拱宸桥出发，认识水路与城市生活',action:'打开江南行程'},
  {theme:'impressionism',photo:'monet-london',label:'画作与风景',title:'光的旅行',text:'从画中地点，到作品的归处',action:'打开印象派地图'},
@@ -8,10 +8,52 @@ const heroSlides=[
  {theme:'nc500',route:'nc500-west',photo:'nc500-pass',label:'山海与公路',title:'在高地海岸停留',text:'山口、海湾与小镇，分段认识西海岸',action:'打开西海岸行程'},
  {theme:'parks',route:'utah-five',photo:'np-zion',label:'自然与地景',title:'走向犹他的红岩',text:'从锡安到峡谷，在国家公园之间慢游',action:'打开五园行程'}
 ];
+const heroSlides=heroDefaultSlides.slice();
+const heroHistoryKey='terra-mosaic-hero-v1';
+let heroSelectionReady=false;
+function heroRecommendationPool(){
+ const curated=new Map(heroDefaultSlides.map(s=>[s.theme,s]));
+ return themes.flatMap(theme=>{
+  const specific=curated.get(theme.id),photo=specific?.photo||themeMedia[theme.id]?.photo,media=photoLibrary[photo];
+  if(!photo||!media?.license||media.illustration)return [];
+  const group=discoveryMeta[theme.id]?.[0]||'exchange';
+  const slide=specific?{...specific}:{
+   theme:theme.id,photo,
+   label:discoveryGroups.find(([id])=>id===group)?.[1]||'探索世界',
+   title:theme.name,text:theme.story,action:'打开主题地图'
+  };
+  if(slide.route&&!buildPlans(theme.id,0).some(p=>p.id===slide.route))delete slide.route;
+  return [{...slide,group,mediaKey:photoPath(photo),artwork:typeof artWorks!=='undefined'&&artWorks.some(w=>w.key===photo)}];
+ });
+}
+function chooseHeroRecommendations(pool,previous=[],limit=6,random=Math.random){
+ const history=Array.isArray(previous)?previous:[],prior=new Set(history),candidates=pool.slice(),chosen=[];
+ for(let i=candidates.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[candidates[i],candidates[j]]=[candidates[j],candidates[i]]}
+ function take(group){
+  const available=candidates.filter(s=>(!group||s.group===group)&&!chosen.some(x=>x.theme===s.theme||(x.mediaKey||x.photo)===(s.mediaKey||s.photo)));
+  const next=available.find(s=>!prior.has(s.theme))||available[0];
+  if(next)chosen.push(next);
+ }
+ for(const group of ['nature','art','paths','exchange','drives']){if(chosen.length<limit)take(group)}
+ while(chosen.length<limit){const count=chosen.length;take();if(chosen.length===count)break}
+ for(let i=chosen.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[chosen[i],chosen[j]]=[chosen[j],chosen[i]]}
+ if(chosen.length>1&&chosen[0].theme===history[0]){[chosen[0],chosen[1]]=[chosen[1],chosen[0]]}
+ return chosen;
+}
+function prepareHeroRecommendations(){
+ if(heroSelectionReady)return;
+ let previous=[];
+ try{const stored=JSON.parse(localStorage.getItem(heroHistoryKey)||'[]');if(Array.isArray(stored))previous=stored.filter(x=>typeof x==='string').slice(0,6)}catch{}
+ const next=chooseHeroRecommendations(heroRecommendationPool(),previous);
+ if(next.length){heroSlides.splice(0,heroSlides.length,...next);heroPreferences.index=0}
+ heroSelectionReady=true;
+ try{localStorage.setItem(heroHistoryKey,JSON.stringify(heroSlides.map(s=>s.theme)))}catch{}
+}
+
 const heroPreferences={index:0,paused:false};
 let heroCleanup=null;
 function destroyHeroCarousel(){if(heroCleanup){heroCleanup();heroCleanup=null}}
-function heroCarouselHTML(){return `<section class="hero-carousel" role="region" aria-roledescription="轮播" tabindex="0" aria-label="不同主题的旅行推荐；空格暂停或恢复，方向键切换"><div class="hero-slides" aria-live="off">${heroSlides.map((s,i)=>`<div class="hero-slide hero-slide-${s.theme}" role="group" aria-roledescription="幻灯片" aria-label="${i+1} / ${heroSlides.length}：${s.title}" ${i===heroPreferences.index?'':'hidden'}><button class="discovery-feature" data-hero-open="${i}" aria-label="${s.action}：${s.title}"><div class="hero-visual">${mediaImage(s.photo,i===heroPreferences.index?'fetchpriority="high"':'loading="lazy"')}${s.second?`<div class="hero-archival">${mediaImage(s.second)}<small>广重笔下的妻笼</small></div>`:''}${s.theme==='viking'?'<span class="hero-object-label" aria-hidden="true">海泽比<br>符文石</span>':''}</div><span class="hero-caption"><small>${s.label}<b>${String(i+1).padStart(2,'0')} / ${String(heroSlides.length).padStart(2,'0')}</b></small><strong>${s.title}</strong><i>${s.text}</i><em>${s.action} ↗</em></span></button></div>`).join('')}</div><span class="hero-announcement sr-only" role="status" aria-live="polite" aria-atomic="true"></span></section>`}
+function heroCarouselHTML(){prepareHeroRecommendations();return `<section class="hero-carousel" role="region" aria-roledescription="轮播" tabindex="0" aria-label="不同主题的旅行推荐；空格暂停或恢复，方向键切换"><div class="hero-slides" aria-live="off">${heroSlides.map((s,i)=>`<div class="hero-slide hero-slide-${s.theme}${s.artwork?' hero-slide-artwork':''}" role="group" aria-roledescription="幻灯片" aria-label="${i+1} / ${heroSlides.length}：${escapeHTML(s.title)}" ${i===heroPreferences.index?'':'hidden'}><button class="discovery-feature" data-hero-open="${i}" aria-label="${escapeHTML(s.action)}：${escapeHTML(s.title)}"><div class="hero-visual">${mediaImage(s.photo,i===heroPreferences.index?'fetchpriority="high"':'loading="lazy"')}${s.second?`<div class="hero-archival">${mediaImage(s.second)}<small>广重笔下的妻笼</small></div>`:''}${s.theme==='viking'?'<span class="hero-object-label" aria-hidden="true">海泽比<br>符文石</span>':''}</div><span class="hero-caption"><small>${escapeHTML(s.label)}<b>${String(i+1).padStart(2,'0')} / ${String(heroSlides.length).padStart(2,'0')}</b></small><strong>${escapeHTML(s.title)}</strong><i>${escapeHTML(s.text)}</i><em>${escapeHTML(s.action)} ↗</em></span></button></div>`).join('')}</div><span class="hero-announcement sr-only" role="status" aria-live="polite" aria-atomic="true"></span></section>`}
 function mountHeroCarousel(){
  destroyHeroCarousel();const root=document.querySelector('.hero-carousel');if(!root)return;
  const motion=window.matchMedia?window.matchMedia('(prefers-reduced-motion: reduce)'):{matches:false};

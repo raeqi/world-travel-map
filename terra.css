@@ -378,3 +378,9 @@ body[data-brand] .room-copy{background:var(--tm-paper);color:var(--tm-ink)}
 body[data-brand] .room-copy h2{font:500 28px/1.5 var(--tm-display);color:var(--tm-ink)}
 body[data-brand] .room-copy>p{font-size:14px;line-height:1.9;color:var(--tm-muted)}
 body[data-brand] .room-copy .record-link,body[data-brand] .room-copy .artwork-actions button{color:var(--tm-brand)}
+
+/* Rotating editorial selections: original art remains uncropped in the hero. */
+body[data-brand] .hero-slide-artwork .hero-visual{bottom:150px;background:#edece7}
+body[data-brand] .hero-slide-artwork .hero-visual>img{object-fit:contain;padding:12px}
+body[data-brand] .hero-caption i{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+@media(max-width:760px){body[data-brand] .hero-slide-artwork .hero-visual{bottom:142px}body[data-brand] .hero-slide-artwork .hero-visual>img{padding:8px}}

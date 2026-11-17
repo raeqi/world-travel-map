@@ -345,3 +345,12 @@ A further three-way merge retains the approved Terra Mosaic name, icon, `terra.c
 ### Final branch reconciliation with cultural PR #4
 
 The branch retains the independently merged `49e05c8` cultural pack and its16 files, without registering the earlier handoff drafts. Full inventories were regenerated:37 themes,1,703 places,121 plans,453 planned places;114 covers/7 neutral;172 places with expanded reading (the old95-plan batch still contributes63, not all172). The short/no-expanded-reading candidates are226,175 planned. All10 Node test files/12 reported tests pass, along with4 DOM regressions including the independent cultural checker. The new neutral cover is `austen-persuasion`, kept honest rather than borrowing an unrelated photo. Browser screenshots remain the earlier actual batch checks; a full post-integration live browser run was not claimed. No `main` write is made under the newest independent-branch submission instruction.
+
+
+### Final merge preparation with rotating recommendations
+
+The branch integrates `main` `6d73416`, retaining balanced recommendations across all37 registered themes, visit-to-visit history, source-image deduplication, artwork framing and the approved Terra Mosaic UI. Conflicts in the carousel, README and UI checker were resolved to keep the requested button-free presentation, keyboard focus/pause operation and the newer recommendation-selection assertions together. Local verification passed16 reported Node tests across11 files, all4 DOM regressions, syntax checks for the changed JavaScript and `git diff --check`.
+
+Before this reconciliation, all4 GitHub Actions checks passed on exact head `8748409`, including actual1440×1000 desktop and390×844 Chromium mobile emulation. The Terra Mosaic artifact contains10 screenshots and an error-free report; the complete ZIP was saved to Library as `libfile_fde3_f-9fe7e1803cf48191aa35eb937a57c3fb_d724c19c5c9c8191918ca4cfc89cd1e1`. These captures document that exact head; renewed CI must validate the reconciled head before merging.
+
+The226 short/no-expanded-reading candidates,175 used in plans,7 neutral covers and two Andes evidence gaps remain open. This merge preparation does not claim further content research. Final merge and deployment status are recorded by the GitHub PR and Actions run, not inferred from a local commit.
