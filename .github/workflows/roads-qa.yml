@@ -4,6 +4,9 @@ on:
     branches: [main]
     paths:
       - 'roads.js'
+      - 'panamerican.js'
+      - 'scripts/check-panamerican.cjs'
+      - 'tests/panamerican.test.cjs'
       - 'roads.css'
       - 'index.html'
       - 'scripts/check-roads.cjs'
@@ -25,7 +28,7 @@ jobs:
         with:
           node-version: '22'
       - name: Validate road registrations
-        run: node --test tests/roads.test.cjs
+        run: node --test tests/roads.test.cjs tests/panamerican.test.cjs
       - name: Install browser tooling without changing the project
         run: |
           npm install --no-save --package-lock=false playwright
@@ -34,6 +37,7 @@ jobs:
         run: |
           python3 -m http.server 8000 --bind 127.0.0.1 > /tmp/roads-server.log 2>&1 &
           node scripts/check-roads.cjs
+          node scripts/check-panamerican.cjs
       - name: Save screenshots and server log
         if: always()
         uses: actions/upload-artifact@v4
