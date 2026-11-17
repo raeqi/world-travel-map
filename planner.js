@@ -22,7 +22,7 @@ const planTemplates=[
 ];
 function validLocation(p){return p&&Number.isFinite(p.lon)&&Number.isFinite(p.lat)}
 function distanceKm(a,b){if(!validLocation(a)||!validLocation(b))return null;const rad=Math.PI/180,dlat=(b.lat-a.lat)*rad,dlon=(b.lon-a.lon)*rad,x=Math.sin(dlat/2)**2+Math.cos(a.lat*rad)*Math.cos(b.lat*rad)*Math.sin(dlon/2)**2;return 6371*2*Math.atan2(Math.sqrt(x),Math.sqrt(Math.max(0,1-x)))}
-function buildPlans(theme,month,maxDays=0){return planTemplates.filter(p=>p.theme===theme&&(!month||p.months.includes(month))&&(!maxDays||p.days<=maxDays)).map(p=>{const stops=p.ids.map(id=>places.find(x=>x.id===id));if(stops.some(x=>!validLocation(x)||!x.themes.includes(theme)))return null;const legs=stops.slice(1).map((stop,i)=>({from:stops[i],to:stop,km:distanceKm(stops[i],stop)}));return {...p,stops,legs,totalKm:Math.round(legs.reduce((s,x)=>s+x.km,0)),seasonMatch:!month||p.months.includes(month)}}).filter(Boolean).sort((a,b)=>(theme==='xu'?(a.historicalYear||0)-(b.historicalYear||0):0)||Number(b.seasonMatch)-Number(a.seasonMatch)||b.stops.length-a.stops.length||a.totalKm-b.totalKm)}
+function buildPlans(theme,month,maxDays=0){return planTemplates.filter(p=>p.theme===theme&&(!month||p.months.includes(month))&&(!maxDays||p.days<=maxDays)).map(p=>{const stops=p.ids.map(id=>places.find(x=>x.id===id));if(stops.some(x=>!validLocation(x)||!x.themes.includes(theme)))return null;const legs=routeEdges(stops,p).map(([from,to])=>({from,to,km:distanceKm(from,to)}));return {...p,stops,legs,totalKm:Math.round(legs.reduce((s,x)=>s+x.km,0)),seasonMatch:!month||p.months.includes(month)}}).filter(Boolean).sort((a,b)=>(theme==='xu'?(a.historicalYear||0)-(b.historicalYear||0):0)||Number(b.seasonMatch)-Number(a.seasonMatch)||b.stops.length-a.stops.length||a.totalKm-b.totalKm)}
 
 // Longer regional circuits use official catalogue coordinates. Nearest-neighbour
 // ordering is a draft for review, not a road routing or access calculation.
@@ -95,3 +95,6 @@ walkingPlan('xu-central','xu','徐霞客 · 1623 中原、关中与鄂西',['kai
 walkingPlan('xu-north','xu','徐霞客 · 1633 北游：北京、五台与恒山',['beijing','wutai','hengshan'],9,[5,6,9,10],'城际交通 + 晋北山地游览','按 1633 年先北京、再五台山、后恒山的主要节点编排。与 1623 年中原旅次分开，连线不复原古路；九天是现代探访草案，高山低温与开放情况须另行核实。');
 const xuJourneyYears={'xu-zhejiang':1613,'xu-mountains':1616,'xu-jiangxi-anhui':1618,'xu-central':1623,'xu-north':1633,'xu-west-yunnan':1639};
 for(const plan of planTemplates.filter(p=>p.theme==='xu')){plan.historicalYear=xuJourneyYears[plan.id];if(plan.id!=='xu-west-yunnan')plan.climate=plan.id==='xu-central'?walkingSources.xuSongshan:walkingSources.xuChronology;}
+
+// A thematic collection has no invented connecting itinerary; loops close explicitly.
+function routeEdges(stops,plan){if(plan?.topology==='network')return [];const edges=stops.slice(1).map((p,i)=>[stops[i],p]);if(plan?.topology==='loop'&&stops.length>2)edges.push([stops.at(-1),stops[0]]);return edges;}
