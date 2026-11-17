@@ -36,16 +36,17 @@ const types={'.html':'text/html; charset=utf-8','.js':'application/javascript; c
    await context.close();
    const clean=await browser.newContext({viewport:device}),cleanPage=await clean.newPage();await exercise(cleanPage,base+'#theme=fuji-tokaido',device.name+'-clean');
    // A missing startup dependency must recover once and then show a real retry UI.
-   await cleanPage.route('**/catalog.*.js',route=>route.abort());await cleanPage.goto(base+'#theme=fuji-tokaido');await cleanPage.locator('.startup-error').waitFor({state:'visible'});assert.ok(new URL(cleanPage.url()).searchParams.has('_fresh'));
+   await cleanPage.route('**/catalog.*.js',route=>route.abort());await cleanPage.goto(base+'?fault=1#theme=fuji-tokaido');await cleanPage.locator('.startup-error').waitFor({state:'visible'});assert.ok(new URL(cleanPage.url()).searchParams.has('_fresh'));
    await cleanPage.unroute('**/catalog.*.js');await cleanPage.locator('.startup-error button').click();await ready(cleanPage);assert.equal(await cleanPage.evaluate(()=>document.body.dataset.theme),'fuji-tokaido');
    await clean.close();results.push({device:device.name,oldHttpCacheReproduced:true,oldCacheRecovered:true,clean:true,missingScriptRecovered:true});
   }
   if(process.env.SITE_URL)for(const device of [{name:'desktop',width:1440,height:1000},{name:'mobile',width:390,height:844}]){
    const context=await browser.newContext({viewport:device}),page=await context.newPage(),site=process.env.SITE_URL.replace(/\/$/,'')+'/';
    await page.goto(site);await ready(page);assert.ok(await page.locator('.theme-card').count()>50);assert.ok(await page.locator('meta[name=terra-release]').count(),'public HTML uses immutable assets');
+   await page.screenshot({path:path.join(out,device.name+'-LIVE-home.png')});
    await page.locator('.theme-card[data-theme="fuji-tokaido"]').click();assert.equal(await page.evaluate(()=>document.body.dataset.theme),'fuji-tokaido');
-   await exercise(page,site+'#theme=fuji-tokaido',device.name+'-LIVE-direct');
-   await page.goto(site);await ready(page);await page.screenshot({path:path.join(out,device.name+'-LIVE-home.png')});
+   const directContext=await browser.newContext({viewport:device}),directPage=await directContext.newPage();
+   await exercise(directPage,site+'#theme=fuji-tokaido',device.name+'-LIVE-direct');await directContext.close();
    const scripts=await page.locator('script[src]').evaluateAll(nodes=>nodes.map(n=>n.getAttribute('src')));assert.ok(scripts.length&&scripts.every(src=>/\.[a-f0-9]{16}\.js$/.test(src)));
    results.push({device:device.name,liveSite:site,liveHome:true,liveDirect:true,liveHomeEntrance:true,warmReload:true,scripts});await context.close();
   }
