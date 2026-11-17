@@ -11,12 +11,12 @@ const checks=before.map(old=>{
  const current=after.find(t=>t.id===old.id);assert.ok(current,'Removed theme '+old.id);
  for(const point of old.points){
   const now=current.points.find(p=>p.id===point.id);assert.ok(now,old.id+'/'+point.id+' missing');
-  if(culturalMapIds.has(old.id)){
+  {
    const {essay:oldEssay,...oldData}=point,{essay:newEssay,...newData}=now;assert.deepEqual(newData,oldData,old.id+'/'+point.id+' source data');
    for(const paragraph of oldEssay?.paragraphs||[])assert.ok(newEssay.paragraphs.some(p=>p.heading===paragraph.heading&&p.text.includes(paragraph.text)),'Paris lost original paragraph');
    for(const source of oldEssay?.sources||[])assert.ok(newEssay.sources.some(s=>JSON.stringify(s)===JSON.stringify(source)),'Paris lost source');
    for(const related of oldEssay?.related||[])assert.ok(newEssay.related.includes(related),'Paris lost related place');
-  }else assert.deepEqual(now,point,old.id+'/'+point.id+' data changed');
+  }
  }
  for(const plan of old.plans)assert.deepEqual(current.plans.find(p=>p.id===plan.id),plan,old.id+'/'+plan.id+' plan changed');
  for(const work of old.works)assert.ok(current.works.some(w=>JSON.stringify(w)===JSON.stringify(work)),old.id+' lost artwork');
