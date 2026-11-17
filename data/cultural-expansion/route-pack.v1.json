@@ -1,0 +1,860 @@
+{
+  "schemaVersion": 1,
+  "title": "文化探索路线扩充 · 第一批 / 画作与地景",
+  "reviewedOn": "2026-11-17",
+  "baseline": {
+    "repo": "raeqi/world-travel-map",
+    "ref": "32c5e46ab4624635d541729996c4fa0eb4b4de94",
+    "existingThemes": 21,
+    "existingPlans": 95
+  },
+  "status": "researched-staging-pack-not-live",
+  "scope": "第六项反馈独立内容包；不修改现有印象派、梵高、大运河、照片绑定或全站点位。",
+  "editorialRules": [
+    "先让用户发现一片地方值得看什么，再通过作品、生活与自然地景建立关联；不强制每个主题都讲一条人物故事。",
+    "depicted-place、life-place、fictional-setting、collection 和 memorial 分别存储；收藏关系不能变成作者亲访或描绘地证明。",
+    "所有坐标是编辑选择的地理代表点，未做实地入口或导航机位核验；标有 existingPlaceId 的地点应复用原记录。",
+    "默认 network 表示无固定顺序的探索地点集；计划中的 route 只是当代访问顺序，不是历史路线复原。",
+    "资料页面可访问与图片已下载、已能在应用中展示是不同状态。未下载的媒体不能直接登记为本地已可用资产。",
+    "作曲版权、乐谱版本和录音版权分别核实；本包不附音频文件，也不默认现代演奏录音可再分发。"
+  ],
+  "sources": [
+    {
+      "id": "hokusaiNihon",
+      "url": "https://www.metmuseum.org/art/collection/search/55237",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "hokusaiEno",
+      "url": "https://www.metmuseum.org/art/collection/search/56996",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "hokusaiSuwa",
+      "url": "https://www.metmuseum.org/art/collection/search/39798",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "hokusaiMisaka",
+      "url": "https://www.metmuseum.org/art/collection/search/36495",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "hokusaiEjiri",
+      "url": "https://www.metmuseum.org/art/collection/search/55735",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "vermeerDelft",
+      "url": "https://www.mauritshuis.nl/en/our-collection/artworks/92-view-of-delft",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "vermeerStreet",
+      "url": "https://www.rijksmuseum.nl/en/collection/object/View-of-Houses-in-Delft-Known-as-The-Little-Street--a7dbf937cbd6f7c30f66f8aca4a0207c",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "bachLife",
+      "url": "https://www.bach-thueringen.de/en/biographische-stationen",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "bachHouse",
+      "url": "https://bachhaus.de/en/museum",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "bachChild",
+      "url": "https://bachhaus.de/en/home",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "bachWeimar",
+      "url": "https://www.bach-thueringen.de/en/w/bach-in-weimar",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "bachLeipzig",
+      "url": "https://www.bachmuseumleipzig.de/en/bach-museum/introducing-leipzig-bach-museum",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "bachMusic",
+      "url": "https://oae.co.uk/bachs-brandenburg-concertos/",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "austenLife",
+      "url": "https://janeaustens.house/jane-austen/jane-austen-a-life/",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "austenHouse",
+      "url": "https://janeaustens.house/the-museum/",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "austenBath",
+      "url": "https://www.nationaltrust.org.uk/visit/bath-bristol/bath-assembly-rooms/jane-austen-at-bath-assembly-rooms",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "austenLyme",
+      "url": "https://www.visit-dorset.com/lyme-regis/explore-discover/history-heritage/jane-austen/",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "austenVisit",
+      "url": "https://janeaustens.house/visit/visitor-info/",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    }
+  ],
+  "themes": [
+    {
+      "id": "hokusai",
+      "name": "北斋 · 富士山的多种看法",
+      "kind": "art-and-landscape",
+      "topology": "network",
+      "tagline": "在桥、海岸和湖泊之间，寻找同一座山。",
+      "introduction": "从《富岳三十六景》中挑选五处可关联的地景，比较城市交通、海岸、湖泊与远山如何进入画面。它是作品描绘地网络，不声称北斋按这个顺序旅行，也不把版画当成精确摄影。",
+      "discoveryTerms": [
+        "北斋",
+        "浮世绘",
+        "富士山",
+        "湖泊",
+        "日本桥",
+        "江之岛"
+      ],
+      "visualDirection": "真实版画与地景说明并置；靛蓝作局部强调，保留原作色彩。先看整张画，再允许聚焦画中的山与人的比例。",
+      "defaultView": {
+        "lon": 138.7,
+        "lat": 35.6,
+        "zoom": 18
+      },
+      "heroMediaId": "hokusai-misaka"
+    },
+    {
+      "id": "vermeer",
+      "name": "维米尔 · 代尔夫特的光与日常",
+      "kind": "art-and-city",
+      "topology": "network",
+      "tagline": "从一座城市的水面，看到一条普通的小街。",
+      "introduction": "将两幅城市题材作品的描绘地，与分别收藏作品的海牙和阿姆斯特丹分开呈现。可先漫步代尔夫特，再选择是否去看原作；不是维米尔在三座城市之间的生平旅行。",
+      "discoveryTerms": [
+        "维米尔",
+        "荷兰",
+        "代尔夫特",
+        "小街",
+        "运河",
+        "绘画"
+      ],
+      "visualDirection": "以《代尔夫特风景》的横向水城与《小街》的纵向砖墙对读；作品不被重度滤色，地图用克制的城市档案风格。",
+      "defaultView": {
+        "lon": 4.55,
+        "lat": 52.2,
+        "zoom": 36
+      },
+      "heroMediaId": "vermeer-delft"
+    }
+  ],
+  "places": [
+    {
+      "id": "hokusai-nihonbashi",
+      "theme": "hokusai",
+      "name": "东京 · 日本桥",
+      "lon": 139.774,
+      "lat": 35.684,
+      "country": "日本",
+      "region": "东京都",
+      "relation": "depicted-place",
+      "desc": "《江户日本桥》把桥上人群推到画面近处，远方的城与富士山则压缩在同一视野中。桥、商贸活动与远山共同构成江户的城市意象，重点不只是寻找一座山。",
+      "lookFor": "对照画中桥面被裁切的方式与今天的桥区，比较人群、交通和城市天际线。画面构图不是现代现场视线证明。",
+      "sourceIds": [
+        "hokusaiNihon"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "existingPlaceId": "nakasendo-tokyo",
+      "precision": "bridge-area"
+    },
+    {
+      "id": "hokusai-enoshima",
+      "theme": "hokusai",
+      "name": "江之岛与相模海岸",
+      "lon": 139.48,
+      "lat": 35.3,
+      "country": "日本",
+      "region": "神奈川县",
+      "relation": "depicted-place",
+      "desc": "北斋以江之岛和海岸活动构成富士山视角之一。同一座山在这里是海岸生活的远景；岛、岸和人在空间里的关系，比单独标注一座名山更值得看。",
+      "lookFor": "先看版画中的岸线和人物，再观察现代岛岸景观。地图标记岛岸区域，不能据此推断画中每一条沙洲今天仍可通行。",
+      "sourceIds": [
+        "hokusaiEno"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "island-and-coast-area"
+    },
+    {
+      "id": "hokusai-suwa",
+      "theme": "hokusai",
+      "name": "诹访湖",
+      "lon": 138.08,
+      "lat": 36.05,
+      "country": "日本",
+      "region": "长野县",
+      "relation": "depicted-place",
+      "desc": "《信州诹访湖》让湖泊与岸边建筑成为画面的主体，富士山被放入更远的背景。这是从高地水域理解富士山的入口，也能与同系列海岸和城市视角对照。",
+      "lookFor": "观察湖面、岸线与远山的尺度关系；把它当作艺术地理阅读，不保证从湖区任一位置都能重现版画构图。",
+      "sourceIds": [
+        "hokusaiSuwa"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "lake-area"
+    },
+    {
+      "id": "hokusai-kawaguchi",
+      "theme": "hokusai",
+      "name": "河口湖 · 御坂视角",
+      "lon": 138.76,
+      "lat": 35.52,
+      "country": "日本",
+      "region": "山梨县",
+      "relation": "depicted-place",
+      "desc": "《甲州三坂水面》中山体与倒影并不完全相同：水中的富士山带有积雪，画面上方的山却没有。馆方将其解释为可能把两个季节放进同一幅画面的视觉处理。",
+      "lookFor": "先比较山与倒影的差别，再看湖面和渔船怎样形成安静的节奏。地图只标湖区，不宣称确定了北斋站立的机位。",
+      "sourceIds": [
+        "hokusaiMisaka"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "lake-area",
+      "confidenceNote": "馆方的两个季节解释是可能性，不写成确定创作意图。"
+    },
+    {
+      "id": "hokusai-ejiri",
+      "theme": "hokusai",
+      "name": "静冈清水 · 江尻地区",
+      "lon": 138.48,
+      "lat": 35.02,
+      "country": "日本",
+      "region": "静冈县",
+      "relation": "depicted-place",
+      "desc": "《骏州江尻》前景的行人与树木被大风搅动，纸张和斗笠飞起，远处富士山却保持静止。它把道路上的天气经验也纳入风景，而不仅描绘地标。",
+      "lookFor": "比较前景的运动与远山的静止；在今天清水地区阅读旧东海道背景。没有足够证据把画中弯道定位为某一条现存街道。",
+      "sourceIds": [
+        "hokusaiEjiri"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "district"
+    },
+    {
+      "id": "vermeer-kolk",
+      "theme": "vermeer",
+      "name": "代尔夫特 · 南侧港池",
+      "lon": 4.361,
+      "lat": 52.004,
+      "country": "荷兰",
+      "region": "南荷兰省",
+      "relation": "depicted-place",
+      "desc": "《代尔夫特风景》从城市南侧的水域观看城墙、城门与教堂。画家通过光线、横向层次和建筑位置调整来组织宁静感，因此它并非未经修改的城市测绘。",
+      "lookFor": "比较水、城市和天空的三个横向层次，以及被照亮的新教堂塔楼。到现场看水城尺度，不把画中每座建筑都当作原位原貌保存。",
+      "sourceIds": [
+        "vermeerDelft"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "harbour-area"
+    },
+    {
+      "id": "vermeer-street",
+      "theme": "vermeer",
+      "name": "代尔夫特 · Vlamingstraat 小街",
+      "lon": 4.363,
+      "lat": 52.014,
+      "country": "荷兰",
+      "region": "南荷兰省",
+      "relation": "depicted-place",
+      "desc": "荷兰国立博物馆把《小街》描绘地点认定在今天 Vlamingstraat 40–42 号一带。画中的砖墙、白灰、门洞和家务活动，使普通住宅而非宏伟纪念物成为作品主体。",
+      "lookFor": "从街边观察住宅立面和运河日常，把画作细节与今日街区对照；私人住宅不是可随意进入的景点，现有建筑也不等于画中房屋完整保存。",
+      "sourceIds": [
+        "vermeerStreet"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "street-area",
+      "confidenceNote": "依馆方研究标注地段；不把代表坐标写为考古级复原位置。"
+    },
+    {
+      "id": "vermeer-mauritshuis",
+      "theme": "vermeer",
+      "name": "海牙 · 玛丽皇家美术馆 Mauritshuis",
+      "lon": 4.314,
+      "lat": 52.08,
+      "country": "荷兰",
+      "region": "南荷兰省",
+      "relation": "collection",
+      "desc": "所选《代尔夫特风景》现归 Mauritshuis 收藏。这里是观看原作及研究著录的入口，地理位置属于海牙，不是画中代尔夫特风景的现场。",
+      "lookFor": "在作品前比较画幅尺度、近处颜料和远处城市的观看差异。出发前查作品当前展出状态；馆藏不等于当日一定在展。",
+      "sourceIds": [
+        "vermeerDelft"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "museum"
+    },
+    {
+      "id": "vermeer-rijksmuseum",
+      "theme": "vermeer",
+      "name": "阿姆斯特丹 · 荷兰国立博物馆",
+      "lon": 4.885,
+      "lat": 52.36,
+      "country": "荷兰",
+      "region": "北荷兰省",
+      "relation": "collection",
+      "desc": "《小街》现藏阿姆斯特丹荷兰国立博物馆，馆藏号 SK-A-2860。把这个点与代尔夫特分开，用户才不会把“看画的城市”误认为“画里描绘的城市”。",
+      "lookFor": "先完整看一幅只有约半米高的画，再放大砖墙和门洞的绘画细节；现场陈列及借展状态以馆方为准。",
+      "sourceIds": [
+        "vermeerStreet"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "museum"
+    }
+  ],
+  "works": [
+    {
+      "id": "hokusai-nihon",
+      "theme": "hokusai",
+      "title": "江户日本桥",
+      "original": "Nihonbashi in Edo",
+      "creator": "葛饰北斋",
+      "date": "约1830–1832",
+      "medium": "木版画",
+      "placeLinks": [
+        {
+          "placeId": "hokusai-nihonbashi",
+          "relation": "depicted-place",
+          "certainty": "named-area-not-exact-viewpoint"
+        }
+      ],
+      "collection": {
+        "name": "大都会艺术博物馆，纽约",
+        "existingPlaceId": "impressionism-met",
+        "objectNumber": "JP1295",
+        "record": "https://www.metmuseum.org/art/collection/search/55237",
+        "displayStatus": "not-guaranteed"
+      },
+      "sourceIds": [
+        "hokusaiNihon"
+      ],
+      "mediaIds": [
+        "hokusai-nihon"
+      ]
+    },
+    {
+      "id": "hokusai-eno",
+      "theme": "hokusai",
+      "title": "相州江之岛",
+      "original": "Enoshima in Sagami Province",
+      "creator": "葛饰北斋",
+      "date": "约1830–1832",
+      "medium": "木版画",
+      "placeLinks": [
+        {
+          "placeId": "hokusai-enoshima",
+          "relation": "depicted-place",
+          "certainty": "named-area-not-exact-viewpoint"
+        }
+      ],
+      "collection": {
+        "name": "大都会艺术博物馆，纽约",
+        "existingPlaceId": "impressionism-met",
+        "objectNumber": "JP2559",
+        "record": "https://www.metmuseum.org/art/collection/search/56996",
+        "displayStatus": "not-guaranteed"
+      },
+      "sourceIds": [
+        "hokusaiEno"
+      ],
+      "mediaIds": [
+        "hokusai-eno"
+      ]
+    },
+    {
+      "id": "hokusai-suwa",
+      "theme": "hokusai",
+      "title": "信州诹访湖",
+      "original": "Lake Suwa in Shinano Province",
+      "creator": "葛饰北斋",
+      "date": "约1830–1832",
+      "medium": "木版画",
+      "placeLinks": [
+        {
+          "placeId": "hokusai-suwa",
+          "relation": "depicted-place",
+          "certainty": "named-area-not-exact-viewpoint"
+        }
+      ],
+      "collection": {
+        "name": "大都会艺术博物馆，纽约",
+        "existingPlaceId": "impressionism-met",
+        "objectNumber": "JP2564",
+        "record": "https://www.metmuseum.org/art/collection/search/39798",
+        "displayStatus": "not-guaranteed"
+      },
+      "sourceIds": [
+        "hokusaiSuwa"
+      ],
+      "mediaIds": [
+        "hokusai-suwa"
+      ]
+    },
+    {
+      "id": "hokusai-misaka",
+      "theme": "hokusai",
+      "title": "甲州三坂水面",
+      "original": "Reflection in Lake at Misaka in Kai Province",
+      "creator": "葛饰北斋",
+      "date": "约1830–1832",
+      "medium": "木版画",
+      "placeLinks": [
+        {
+          "placeId": "hokusai-kawaguchi",
+          "relation": "depicted-place",
+          "certainty": "named-area-not-exact-viewpoint"
+        }
+      ],
+      "collection": {
+        "name": "大都会艺术博物馆，纽约",
+        "existingPlaceId": "impressionism-met",
+        "objectNumber": "JP14",
+        "record": "https://www.metmuseum.org/art/collection/search/36495",
+        "displayStatus": "not-guaranteed"
+      },
+      "sourceIds": [
+        "hokusaiMisaka"
+      ],
+      "mediaIds": [
+        "hokusai-misaka"
+      ]
+    },
+    {
+      "id": "hokusai-ejiri",
+      "theme": "hokusai",
+      "title": "骏州江尻",
+      "original": "Ejiri in Suruga Province",
+      "creator": "葛饰北斋",
+      "date": "约1830–1832",
+      "medium": "木版画",
+      "placeLinks": [
+        {
+          "placeId": "hokusai-ejiri",
+          "relation": "depicted-place",
+          "certainty": "named-area-not-exact-viewpoint"
+        }
+      ],
+      "collection": {
+        "name": "大都会艺术博物馆，纽约",
+        "existingPlaceId": "impressionism-met",
+        "objectNumber": "JP2953",
+        "record": "https://www.metmuseum.org/art/collection/search/55735",
+        "displayStatus": "not-guaranteed"
+      },
+      "sourceIds": [
+        "hokusaiEjiri"
+      ],
+      "mediaIds": [
+        "hokusai-ejiri"
+      ]
+    },
+    {
+      "id": "vermeer-delft",
+      "theme": "vermeer",
+      "title": "代尔夫特风景",
+      "original": "View of Delft",
+      "creator": "约翰内斯·维米尔",
+      "date": "约1660–1661",
+      "medium": "布面油画",
+      "context": "对比水、建筑和天空的水平层次，注意被光线强调的新教堂。",
+      "placeLinks": [
+        {
+          "placeId": "vermeer-kolk",
+          "relation": "depicted-place",
+          "certainty": "area-identified-by-museum"
+        }
+      ],
+      "collection": {
+        "placeId": "vermeer-mauritshuis",
+        "objectNumber": "92",
+        "record": "https://www.mauritshuis.nl/en/our-collection/artworks/92-view-of-delft",
+        "displayStatus": "not-guaranteed"
+      },
+      "sourceIds": [
+        "vermeerDelft"
+      ],
+      "mediaIds": [
+        "vermeer-delft"
+      ]
+    },
+    {
+      "id": "vermeer-street",
+      "theme": "vermeer",
+      "title": "小街",
+      "original": "View of Houses in Delft, Known as ‘The Little Street’",
+      "creator": "约翰内斯·维米尔",
+      "date": "约1658",
+      "medium": "布面油画",
+      "context": "砖墙、白灰、门洞和家务活动值得单独观看，不只是把这幅画当作一张地名封面。",
+      "placeLinks": [
+        {
+          "placeId": "vermeer-street",
+          "relation": "depicted-place",
+          "certainty": "area-identified-by-museum"
+        }
+      ],
+      "collection": {
+        "placeId": "vermeer-rijksmuseum",
+        "objectNumber": "SK-A-2860",
+        "record": "https://www.rijksmuseum.nl/en/collection/object/View-of-Houses-in-Delft-Known-as-The-Little-Street--a7dbf937cbd6f7c30f66f8aca4a0207c",
+        "displayStatus": "not-guaranteed"
+      },
+      "sourceIds": [
+        "vermeerStreet"
+      ],
+      "mediaIds": [
+        "vermeer-street"
+      ]
+    }
+  ],
+  "plans": [
+    {
+      "id": "hokusai-edo-coast",
+      "theme": "hokusai",
+      "name": "北斋 · 江户与相模海岸",
+      "placeIds": [
+        "hokusai-nihonbashi",
+        "hokusai-enoshima"
+      ],
+      "topology": "network",
+      "suggestedDays": 3,
+      "transport": "现代铁路 + 当地步行",
+      "reason": "从城市人群到海岸生活，对比两幅版画里的富士山远景；这不是北斋一次出行的轨迹。",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "seasonNote": "月份为编辑性旅行建议；富士山能见度和天气不能保证。"
+    },
+    {
+      "id": "hokusai-water",
+      "theme": "hokusai",
+      "name": "北斋 · 湖泊、倒影与远山",
+      "placeIds": [
+        "hokusai-kawaguchi",
+        "hokusai-suwa"
+      ],
+      "topology": "network",
+      "suggestedDays": 4,
+      "transport": "城际交通 + 湖区接驳",
+      "reason": "比较两幅湖泊作品中山、湖与人的比例；不假定两湖之间有一条历史步道。",
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "seasonNote": "高地低温与交通需另查；不是实时天气建议。"
+    },
+    {
+      "id": "hokusai-tokaido",
+      "theme": "hokusai",
+      "name": "北斋 · 东海道上的城市与风",
+      "placeIds": [
+        "hokusai-nihonbashi",
+        "hokusai-ejiri"
+      ],
+      "topology": "network",
+      "suggestedDays": 4,
+      "transport": "现代铁路 + 分区步行",
+      "reason": "将出发地的繁忙与江尻版画的风对读，按两处分区探访，不复原东海道全程。",
+      "months": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "seasonNote": "编辑建议，不声称是官方节庆或最佳季节。"
+    },
+    {
+      "id": "vermeer-delft-walk",
+      "theme": "vermeer",
+      "name": "维米尔 · 代尔夫特两种城市尺度",
+      "placeIds": [
+        "vermeer-kolk",
+        "vermeer-street"
+      ],
+      "topology": "network",
+      "suggestedDays": 1,
+      "transport": "城内步行",
+      "reason": "从远看水城到近看住宅立面；两处都是描绘地，不包括外地馆藏机构。",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "seasonNote": "全年可按开放与天气另行安排。"
+    },
+    {
+      "id": "vermeer-place-and-original",
+      "theme": "vermeer",
+      "name": "维米尔 · 地景与原作分别看",
+      "placeIds": [
+        "vermeer-kolk",
+        "vermeer-street",
+        "vermeer-mauritshuis",
+        "vermeer-rijksmuseum"
+      ],
+      "topology": "network",
+      "suggestedDays": 4,
+      "transport": "城际铁路 + 市内交通",
+      "reason": "以代尔夫特、海牙和阿姆斯特丹分区探访。馆藏位置不代表作品一定在展，需在出发前核查借展与预约。",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "seasonNote": "城市与室内探访可全年规划；不是全年无休承诺。"
+    }
+  ],
+  "media": [
+    {
+      "id": "hokusai-nihon",
+      "workId": "hokusai-nihon",
+      "title": "江户日本桥",
+      "creator": "Katsushika Hokusai",
+      "provider": "The Metropolitan Museum of Art",
+      "sourcePage": "https://www.metmuseum.org/art/collection/search/55237",
+      "downloadUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/55237/140151/main-image",
+      "rights": "Public domain / Met Open Access",
+      "rightsUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "rightsEvidence": "所选馆藏页面逐项显示 Public Domain，并提供开放获取说明。",
+      "proposedLocalPath": "assets/cultural-routes/hokusai-nihon.webp",
+      "status": {
+        "rightsPageChecked": true,
+        "downloadLinkResolved": true,
+        "downloaded": false,
+        "visualChecked": false,
+        "hash": null
+      },
+      "use": "作品全幅阅读与对应地景卡面；不得称作现代实景摄影。"
+    },
+    {
+      "id": "hokusai-eno",
+      "workId": "hokusai-eno",
+      "title": "相州江之岛",
+      "creator": "Katsushika Hokusai",
+      "provider": "The Metropolitan Museum of Art",
+      "sourcePage": "https://www.metmuseum.org/art/collection/search/56996",
+      "downloadUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/56996/140183/main-image",
+      "rights": "Public domain / Met Open Access",
+      "rightsUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "rightsEvidence": "所选馆藏页面逐项显示 Public Domain，并提供开放获取说明。",
+      "proposedLocalPath": "assets/cultural-routes/hokusai-eno.webp",
+      "status": {
+        "rightsPageChecked": true,
+        "downloadLinkResolved": true,
+        "downloaded": false,
+        "visualChecked": false,
+        "hash": null
+      },
+      "use": "作品全幅阅读与对应地景卡面；不得称作现代实景摄影。"
+    },
+    {
+      "id": "hokusai-suwa",
+      "workId": "hokusai-suwa",
+      "title": "信州诹访湖",
+      "creator": "Katsushika Hokusai",
+      "provider": "The Metropolitan Museum of Art",
+      "sourcePage": "https://www.metmuseum.org/art/collection/search/39798",
+      "downloadUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/39798/140119/main-image",
+      "rights": "Public domain / Met Open Access",
+      "rightsUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "rightsEvidence": "所选馆藏页面逐项显示 Public Domain，并提供开放获取说明。",
+      "proposedLocalPath": "assets/cultural-routes/hokusai-suwa.webp",
+      "status": {
+        "rightsPageChecked": true,
+        "downloadLinkResolved": true,
+        "downloaded": false,
+        "visualChecked": false,
+        "hash": null
+      },
+      "use": "作品全幅阅读与对应地景卡面；不得称作现代实景摄影。"
+    },
+    {
+      "id": "hokusai-misaka",
+      "workId": "hokusai-misaka",
+      "title": "甲州三坂水面",
+      "creator": "Katsushika Hokusai",
+      "provider": "The Metropolitan Museum of Art",
+      "sourcePage": "https://www.metmuseum.org/art/collection/search/36495",
+      "downloadUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/36495/140141/main-image",
+      "rights": "Public domain / Met Open Access",
+      "rightsUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "rightsEvidence": "所选馆藏页面逐项显示 Public Domain，并提供开放获取说明。",
+      "proposedLocalPath": "assets/cultural-routes/hokusai-misaka.webp",
+      "status": {
+        "rightsPageChecked": true,
+        "downloadLinkResolved": true,
+        "downloaded": false,
+        "visualChecked": false,
+        "hash": null
+      },
+      "use": "作品全幅阅读与对应地景卡面；不得称作现代实景摄影。"
+    },
+    {
+      "id": "hokusai-ejiri",
+      "workId": "hokusai-ejiri",
+      "title": "骏州江尻",
+      "creator": "Katsushika Hokusai",
+      "provider": "The Metropolitan Museum of Art",
+      "sourcePage": "https://www.metmuseum.org/art/collection/search/55735",
+      "downloadUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/55735/140194/main-image",
+      "rights": "Public domain / Met Open Access",
+      "rightsUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "rightsEvidence": "所选馆藏页面逐项显示 Public Domain，并提供开放获取说明。",
+      "proposedLocalPath": "assets/cultural-routes/hokusai-ejiri.webp",
+      "status": {
+        "rightsPageChecked": true,
+        "downloadLinkResolved": true,
+        "downloaded": false,
+        "visualChecked": false,
+        "hash": null
+      },
+      "use": "作品全幅阅读与对应地景卡面；不得称作现代实景摄影。"
+    },
+    {
+      "id": "vermeer-delft",
+      "workId": "vermeer-delft",
+      "title": "代尔夫特风景",
+      "creator": "Johannes Vermeer",
+      "provider": "Mauritshuis via Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_View_of_Delft_-_92_-_Mauritshuis.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Johannes_Vermeer_-_View_of_Delft_-_92_-_Mauritshuis.jpg",
+      "rights": "Public domain / PD-Art",
+      "rightsUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "rightsEvidence": "已读取所选文件页的独立许可区域；不是依据 Commons 全站许可推断。",
+      "sourceDimensions": {
+        "width": 6000,
+        "height": 5002
+      },
+      "proposedLocalPath": "assets/cultural-routes/vermeer-delft.webp",
+      "status": {
+        "rightsPageChecked": true,
+        "downloadLinkResolved": true,
+        "downloaded": false,
+        "visualChecked": false,
+        "hash": null
+      },
+      "use": "与代尔夫特具体描绘地点绑定；馆藏卡必须标明现藏机构，不能让用户误认创作地。"
+    },
+    {
+      "id": "vermeer-street",
+      "workId": "vermeer-street",
+      "title": "小街",
+      "creator": "Johannes Vermeer",
+      "provider": "Rijksmuseum via Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gezicht_op_huizen_in_Delft,_bekend_als_%E2%80%98Het_straatje%E2%80%99_Gezicht_op_huizen_in_Delft,_bekend_als_'Het_straatje',_SK-A-2860.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Gezicht_op_huizen_in_Delft%2C_bekend_als_%E2%80%98Het_straatje%E2%80%99_Gezicht_op_huizen_in_Delft%2C_bekend_als_%27Het_straatje%27%2C_SK-A-2860.jpg",
+      "rights": "CC0 1.0",
+      "rightsUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rightsEvidence": "已读取所选文件页的独立许可区域；不是依据 Commons 全站许可推断。",
+      "sourceDimensions": {
+        "width": 4272,
+        "height": 5254
+      },
+      "proposedLocalPath": "assets/cultural-routes/vermeer-street.webp",
+      "status": {
+        "rightsPageChecked": true,
+        "downloadLinkResolved": true,
+        "downloaded": false,
+        "visualChecked": false,
+        "hash": null
+      },
+      "use": "与代尔夫特具体描绘地点绑定；馆藏卡必须标明现藏机构，不能让用户误认创作地。"
+    }
+  ],
+  "integration": {
+    "live": false,
+    "doNotEdit": [
+      "index.html",
+      "app.js",
+      "themes.js",
+      "journeys.js",
+      "art-context.js",
+      "art-media.js",
+      "route-media.js",
+      "hero-carousel.js",
+      "content-enrichment.js"
+    ],
+    "notes": [
+      "本包单独保存；由主任务在图片与点位布局稳定后统一接入。",
+      "复用 nakasendo-tokyo 和 impressionism-met，避免同一地点重复建点。",
+      "新主题需在首页地域、兴趣和关键词索引中注册；音乐和文学不能都归入绘画。",
+      "图片在下载、压缩、哈希与视觉核验前不能当作生产资源；原作全幅应可读，封面裁切另作CSS。"
+    ]
+  }
+}
