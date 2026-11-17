@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const context=vm.createContext({document:{addEventListener(){}}});
-for(const file of ['catalog.js','tea.js','historical.js','walking.js','journeys.js','media.js','themes.js','planner.js','journey-plans.js','map-style.js','journey-design.js','editorial.js','art-media.js','art-context.js'])vm.runInContext(fs.readFileSync(file,'utf8'),context);
+for(const file of ['catalog.js','tea.js','historical.js','walking.js','journeys.js','media.js','themes.js','planner.js','journey-plans.js','map-style.js','journey-design.js','editorial.js','art-media.js','art-context.js','depth-media.js','depth-context.js','route-photo-media.js'])vm.runInContext(fs.readFileSync(file,'utf8'),context);
 const result=vm.runInContext(`({themes,themeDesigns,themeMedia,photoLibrary,places,planTemplates,buildPlans,routeEdges})`,context);
 const {themes,places,planTemplates,buildPlans,routeEdges,themeDesigns,themeMedia,photoLibrary}=result;
 assert.equal(themes.length,21);

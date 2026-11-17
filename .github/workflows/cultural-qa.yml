@@ -4,6 +4,9 @@ on:
     branches: [main]
     paths:
       - 'cultural-routes.js'
+      - 'discovery.js'
+      - 'data/cultural-expansion/catalogue.json'
+      - 'tests/cultural-discovery.test.cjs'
       - 'assets/cultural-routes/**'
       - 'index.html'
       - 'scripts/check-cultural-browser.cjs'

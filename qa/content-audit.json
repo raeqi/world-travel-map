@@ -4,27 +4,32 @@
     "andes-desaguadero",
     "andes-tiwanacu"
   ],
-  "records": 1595,
-  "plannedRecords": 345,
-  "plans": 95,
-  "deepReadingRecords": 35,
+  "records": 1703,
+  "plannedRecords": 453,
+  "plans": 121,
+  "deepReadingRecords": 172,
   "flagCounts": {
     "missing-source": 0,
     "empty-description": 0,
-    "short-description-review": 271,
+    "short-description-review": 343,
     "duplicate-description-review": 0
   },
-  "recordsWithRedundantFacts": 1532,
+  "recordsWithRedundantFacts": 1640,
   "renderedRedundantFacts": 0,
-  "plannedShortDescriptions": 214,
+  "plannedShortDescriptions": 287,
   "covers": {
-    "matched": 33,
-    "neutral": 62,
+    "matched": 114,
+    "neutral": 7,
     "entries": [
       {
         "id": "cn-south",
         "theme": "nature",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "huanglong-photo",
+            "placeId": "wh-638"
+          }
+        ],
         "stops": [
           "wh-1388",
           "wh-1335",
@@ -38,7 +43,12 @@
       {
         "id": "au-east",
         "theme": "nature",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "bluemountains-photo",
+            "placeId": "wh-917"
+          }
+        ],
         "stops": [
           "wh-167",
           "wh-917",
@@ -51,7 +61,16 @@
       {
         "id": "india-nature",
         "theme": "nature",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "sundarbans-photo",
+            "placeId": "wh-452"
+          },
+          {
+            "key": "khangchendzonga-photo",
+            "placeId": "wh-1513"
+          }
+        ],
         "stops": [
           "wh-452",
           "wh-338",
@@ -84,7 +103,16 @@
       {
         "id": "cn-east",
         "theme": "nature",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "wuyi-photo",
+            "placeId": "wh-911"
+          },
+          {
+            "key": "huangshan-photo",
+            "placeId": "wh-547"
+          }
+        ],
         "stops": [
           "wh-911",
           "wh-1292",
@@ -114,7 +142,16 @@
       {
         "id": "sichuan",
         "theme": "nature",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "jiuzhaigou-photo",
+            "placeId": "wh-637"
+          },
+          {
+            "key": "huanglong-photo",
+            "placeId": "wh-638"
+          }
+        ],
         "stops": [
           "wh-637",
           "wh-638"
@@ -123,7 +160,16 @@
       {
         "id": "alps",
         "theme": "nature",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "dolomites-photo",
+            "placeId": "wh-1237"
+          },
+          {
+            "key": "aletsch-photo",
+            "placeId": "wh-1037"
+          }
+        ],
         "stops": [
           "wh-1237",
           "wh-1037"
@@ -136,6 +182,10 @@
           {
             "key": "francigena-valley",
             "placeId": "wh-1026"
+          },
+          {
+            "key": "florence-photo",
+            "placeId": "wh-174"
           }
         ],
         "stops": [
@@ -172,7 +222,12 @@
       {
         "id": "spain",
         "theme": "culture",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "alhambra-photo",
+            "placeId": "wh-314"
+          }
+        ],
         "stops": [
           "wh-1501",
           "wh-314",
@@ -187,7 +242,12 @@
       {
         "id": "france",
         "theme": "culture",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "carcassonne-photo",
+            "placeId": "wh-345"
+          }
+        ],
         "stops": [
           "wh-345",
           "wh-1337",
@@ -202,7 +262,12 @@
       {
         "id": "mexico",
         "theme": "culture",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "montealban-photo",
+            "placeId": "wh-415"
+          }
+        ],
         "stops": [
           "wh-415",
           "wh-1534",
@@ -235,7 +300,12 @@
       {
         "id": "china",
         "theme": "culture",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "terracotta-photo",
+            "placeId": "wh-441"
+          }
+        ],
         "stops": [
           "wh-441",
           "wh-1003",
@@ -249,7 +319,12 @@
       {
         "id": "egypt",
         "theme": "culture",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "abusimbel-photo",
+            "placeId": "wh-88"
+          }
+        ],
         "stops": [
           "wh-88",
           "wh-87",
@@ -277,7 +352,12 @@
       {
         "id": "beijing",
         "theme": "culture",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "forbidden-photo",
+            "placeId": "wh-439"
+          }
+        ],
         "stops": [
           "wh-439",
           "wh-880",
@@ -287,7 +367,12 @@
       {
         "id": "tuscany",
         "theme": "culture",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "florence-photo",
+            "placeId": "wh-174"
+          }
+        ],
         "stops": [
           "wh-174",
           "wh-395",
@@ -297,7 +382,12 @@
       {
         "id": "gorges-all",
         "theme": "gorges",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "xituo-photo",
+            "placeId": "xituo"
+          }
+        ],
         "stops": [
           "xituo",
           "yunan",
@@ -309,7 +399,12 @@
       {
         "id": "gorges-long",
         "theme": "gorges",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "xituo-photo",
+            "placeId": "xituo"
+          }
+        ],
         "stops": [
           "xituo",
           "yunan",
@@ -320,7 +415,12 @@
       {
         "id": "gorges-winter",
         "theme": "gorges",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "xituo-photo",
+            "placeId": "xituo"
+          }
+        ],
         "stops": [
           "xituo",
           "yunan",
@@ -331,7 +431,12 @@
       {
         "id": "gorges-summer",
         "theme": "gorges",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "xituo-photo",
+            "placeId": "xituo"
+          }
+        ],
         "stops": [
           "xituo",
           "yunan",
@@ -351,7 +456,12 @@
       {
         "id": "salt",
         "theme": "gorges",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "xituo-photo",
+            "placeId": "xituo"
+          }
+        ],
         "stops": [
           "xituo",
           "yunan"
@@ -361,6 +471,10 @@
         "id": "california",
         "theme": "parks",
         "candidates": [
+          {
+            "key": "joshua-photo",
+            "placeId": "np-jotr"
+          },
           {
             "key": "np-yose",
             "placeId": "np-yose"
@@ -397,7 +511,12 @@
       {
         "id": "winter-southwest",
         "theme": "parks",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "joshua-photo",
+            "placeId": "np-jotr"
+          }
+        ],
         "stops": [
           "np-jotr",
           "np-deva",
@@ -431,7 +550,12 @@
       {
         "id": "east",
         "theme": "parks",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "shenandoah-photo",
+            "placeId": "np-shen"
+          }
+        ],
         "stops": [
           "np-shen",
           "np-neri",
@@ -458,7 +582,12 @@
       {
         "id": "pnw",
         "theme": "parks",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "olympic-photo",
+            "placeId": "np-olym"
+          }
+        ],
         "stops": [
           "np-olym",
           "np-mora",
@@ -482,7 +611,12 @@
       {
         "id": "desert",
         "theme": "parks",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "joshua-photo",
+            "placeId": "np-jotr"
+          }
+        ],
         "stops": [
           "np-jotr",
           "np-deva"
@@ -491,7 +625,12 @@
       {
         "id": "tea-sichuan-long",
         "theme": "tea",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "yaan-photo",
+            "placeId": "tea-yaan"
+          }
+        ],
         "stops": [
           "tea-yaan",
           "tea-kangding",
@@ -520,7 +659,12 @@
       {
         "id": "tea-sichuan",
         "theme": "tea",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "yaan-photo",
+            "placeId": "tea-yaan"
+          }
+        ],
         "stops": [
           "tea-yaan",
           "tea-kangding",
@@ -547,7 +691,12 @@
       {
         "id": "tea-india",
         "theme": "tea",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "kalimpong-photo",
+            "placeId": "tea-kalimpong"
+          }
+        ],
         "stops": [
           "tea-kalimpong",
           "tea-gangtok",
@@ -557,7 +706,12 @@
       {
         "id": "tea-nepal",
         "theme": "tea",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "kathmandu-photo",
+            "placeId": "tea-kathmandu"
+          }
+        ],
         "stops": [
           "tea-kathmandu",
           "tea-nuwakot",
@@ -606,7 +760,12 @@
       {
         "id": "silk-hexi",
         "theme": "silk",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "xian-photo",
+            "placeId": "silk-xian"
+          }
+        ],
         "stops": [
           "silk-xian",
           "silk-wuwei",
@@ -634,7 +793,12 @@
       {
         "id": "silk-oasis",
         "theme": "silk",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "jiaohe-photo",
+            "placeId": "silk-turpan"
+          }
+        ],
         "stops": [
           "silk-turpan",
           "silk-kuqa",
@@ -664,7 +828,12 @@
       {
         "id": "polo-china",
         "theme": "polo",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "canal-yangzhou-photo",
+            "placeId": "polo-yangzhou"
+          }
+        ],
         "stops": [
           "polo-beijing",
           "polo-xian",
@@ -677,7 +846,12 @@
       {
         "id": "polo-jiangnan",
         "theme": "polo",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "canal-yangzhou-photo",
+            "placeId": "polo-yangzhou"
+          }
+        ],
         "stops": [
           "polo-yangzhou",
           "polo-suzhou",
@@ -688,7 +862,12 @@
       {
         "id": "polo-winter",
         "theme": "polo",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "canal-yangzhou-photo",
+            "placeId": "polo-yangzhou"
+          }
+        ],
         "stops": [
           "polo-yangzhou",
           "polo-suzhou",
@@ -712,7 +891,12 @@
       {
         "id": "polo-hexi",
         "theme": "polo",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "dunhuang-photo",
+            "placeId": "polo-dunhuang"
+          }
+        ],
         "stops": [
           "polo-dunhuang",
           "polo-zhangye"
@@ -721,7 +905,12 @@
       {
         "id": "xu-zhejiang",
         "theme": "xu",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "tiantai-photo",
+            "placeId": "xu-tiantai"
+          }
+        ],
         "stops": [
           "xu-tiantai",
           "xu-yandang"
@@ -730,7 +919,12 @@
       {
         "id": "xu-mountains",
         "theme": "xu",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "huangshan-photo",
+            "placeId": "xu-huangshan"
+          }
+        ],
         "stops": [
           "xu-qiyun",
           "xu-huangshan",
@@ -740,7 +934,12 @@
       {
         "id": "xu-jiangxi-anhui",
         "theme": "xu",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "huangshan-photo",
+            "placeId": "xu-huangshan"
+          }
+        ],
         "stops": [
           "xu-lushan",
           "xu-huangshan"
@@ -749,7 +948,12 @@
       {
         "id": "xu-central",
         "theme": "xu",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "kaifeng-photo",
+            "placeId": "xu-kaifeng"
+          }
+        ],
         "stops": [
           "xu-kaifeng",
           "xu-zhengzhou",
@@ -764,7 +968,12 @@
       {
         "id": "xu-north",
         "theme": "xu",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "forbidden-photo",
+            "placeId": "xu-beijing"
+          }
+        ],
         "stops": [
           "xu-beijing",
           "xu-wutai",
@@ -774,7 +983,12 @@
       {
         "id": "xu-west-yunnan",
         "theme": "xu",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "jizu-photo",
+            "placeId": "xu-jizu"
+          }
+        ],
         "stops": [
           "xu-jizu",
           "xu-lijiang",
@@ -788,7 +1002,16 @@
       {
         "id": "kumano-nakahechi",
         "theme": "kumano",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "takijiri-photo",
+            "placeId": "kumano-takijiri"
+          },
+          {
+            "key": "hosshinmon-photo",
+            "placeId": "kumano-hosshinmon"
+          }
+        ],
         "stops": [
           "kumano-takijiri",
           "kumano-takahara",
@@ -801,7 +1024,12 @@
       {
         "id": "kumano-villages",
         "theme": "kumano",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "takijiri-photo",
+            "placeId": "kumano-takijiri"
+          }
+        ],
         "stops": [
           "kumano-takijiri",
           "kumano-takahara",
@@ -812,7 +1040,12 @@
       {
         "id": "kumano-hongu",
         "theme": "kumano",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "hosshinmon-photo",
+            "placeId": "kumano-hosshinmon"
+          }
+        ],
         "stops": [
           "kumano-hosshinmon",
           "kumano-hongu"
@@ -821,7 +1054,12 @@
       {
         "id": "camino-frances",
         "theme": "camino",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "sarria-photo",
+            "placeId": "camino-sarria"
+          }
+        ],
         "stops": [
           "camino-saint-jean",
           "camino-roncesvalles",
@@ -871,7 +1109,12 @@
       {
         "id": "camino-leon",
         "theme": "camino",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "sarria-photo",
+            "placeId": "camino-sarria"
+          }
+        ],
         "stops": [
           "camino-leon",
           "camino-san-martin",
@@ -897,7 +1140,12 @@
       {
         "id": "camino-sarria",
         "theme": "camino",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "sarria-photo",
+            "placeId": "camino-sarria"
+          }
+        ],
         "stops": [
           "camino-sarria",
           "camino-portomarin",
@@ -912,6 +1160,10 @@
         "id": "nakasendo-corridor",
         "theme": "nakasendo",
         "candidates": [
+          {
+            "key": "hokusai-nihon",
+            "placeId": "nakasendo-tokyo"
+          },
           {
             "key": "nakasendo-photo",
             "placeId": "nakasendo-tsumago"
@@ -963,7 +1215,16 @@
       {
         "id": "francigena-north",
         "theme": "francigena",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "lausanne-photo",
+            "placeId": "francigena-lausanne"
+          },
+          {
+            "key": "lucca-photo",
+            "placeId": "francigena-lucca"
+          }
+        ],
         "stops": [
           "francigena-canterbury",
           "francigena-dover",
@@ -986,7 +1247,12 @@
       {
         "id": "francigena-alpine",
         "theme": "francigena",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "lausanne-photo",
+            "placeId": "francigena-lausanne"
+          }
+        ],
         "stops": [
           "francigena-lausanne",
           "francigena-martigny",
@@ -997,7 +1263,12 @@
       {
         "id": "francigena-tuscany",
         "theme": "francigena",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "lucca-photo",
+            "placeId": "francigena-lucca"
+          }
+        ],
         "stops": [
           "francigena-lucca",
           "francigena-siena",
@@ -1008,7 +1279,12 @@
       {
         "id": "andes-bolivia",
         "theme": "andes",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "desaguadero-photo",
+            "placeId": "andes-desaguadero"
+          }
+        ],
         "stops": [
           "andes-desaguadero",
           "andes-tiwanacu"
@@ -1017,7 +1293,12 @@
       {
         "id": "andes-chile",
         "theme": "andes",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "socoroma-photo",
+            "placeId": "andes-socoroma"
+          }
+        ],
         "stops": [
           "andes-socoroma",
           "andes-zapahuira"
@@ -1026,7 +1307,12 @@
       {
         "id": "andes-peru",
         "theme": "andes",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "huanuco-photo",
+            "placeId": "andes-huanuco"
+          }
+        ],
         "stops": [
           "andes-huanuco",
           "andes-cusco"
@@ -1068,6 +1354,46 @@
         "theme": "canal",
         "candidates": [
           {
+            "key": "canal-beijing-photo",
+            "placeId": "canal-beijing"
+          },
+          {
+            "key": "canal-tongzhou-photo",
+            "placeId": "canal-tongzhou"
+          },
+          {
+            "key": "canal-tianjin-photo",
+            "placeId": "canal-tianjin"
+          },
+          {
+            "key": "canal-linqing-photo",
+            "placeId": "canal-linqing"
+          },
+          {
+            "key": "canal-jining-photo",
+            "placeId": "canal-jining"
+          },
+          {
+            "key": "canal-huaian-photo",
+            "placeId": "canal-huaian"
+          },
+          {
+            "key": "canal-yangzhou-photo",
+            "placeId": "canal-yangzhou"
+          },
+          {
+            "key": "canal-zhenjiang-photo",
+            "placeId": "canal-zhenjiang"
+          },
+          {
+            "key": "canal-suzhou-photo",
+            "placeId": "canal-suzhou"
+          },
+          {
+            "key": "canal-jiaxing-photo",
+            "placeId": "canal-jiaxing"
+          },
+          {
             "key": "canal-bridge",
             "placeId": "canal-hangzhou"
           }
@@ -1091,6 +1417,22 @@
         "theme": "canal",
         "candidates": [
           {
+            "key": "canal-yangzhou-photo",
+            "placeId": "canal-yangzhou"
+          },
+          {
+            "key": "canal-zhenjiang-photo",
+            "placeId": "canal-zhenjiang"
+          },
+          {
+            "key": "canal-suzhou-photo",
+            "placeId": "canal-suzhou"
+          },
+          {
+            "key": "canal-jiaxing-photo",
+            "placeId": "canal-jiaxing"
+          },
+          {
             "key": "canal-bridge",
             "placeId": "canal-hangzhou"
           }
@@ -1106,7 +1448,20 @@
       {
         "id": "canal-north",
         "theme": "canal",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "canal-beijing-photo",
+            "placeId": "canal-beijing"
+          },
+          {
+            "key": "canal-tongzhou-photo",
+            "placeId": "canal-tongzhou"
+          },
+          {
+            "key": "canal-tianjin-photo",
+            "placeId": "canal-tianjin"
+          }
+        ],
         "stops": [
           "canal-beijing",
           "canal-tongzhou",
@@ -1131,7 +1486,12 @@
       {
         "id": "viking-islands",
         "theme": "viking",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "york-photo",
+            "placeId": "viking-york"
+          }
+        ],
         "stops": [
           "viking-york",
           "viking-dublin"
@@ -1140,7 +1500,12 @@
       {
         "id": "viking-atlantic",
         "theme": "viking",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "thingvellir-photo",
+            "placeId": "viking-thingvellir"
+          }
+        ],
         "stops": [
           "viking-thingvellir",
           "viking-lans"
@@ -1239,7 +1604,16 @@
       {
         "id": "route66-classic",
         "theme": "route66",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "chicago66-photo",
+            "placeId": "route66-chicago"
+          },
+          {
+            "key": "albuquerque-photo",
+            "placeId": "route66-albuquerque"
+          }
+        ],
         "stops": [
           "route66-chicago",
           "route66-springfield",
@@ -1261,7 +1635,12 @@
       {
         "id": "route66-southwest",
         "theme": "route66",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "albuquerque-photo",
+            "placeId": "route66-albuquerque"
+          }
+        ],
         "stops": [
           "route66-albuquerque",
           "route66-gallup",
@@ -1275,7 +1654,12 @@
       {
         "id": "route66-midwest",
         "theme": "route66",
-        "candidates": [],
+        "candidates": [
+          {
+            "key": "chicago66-photo",
+            "placeId": "route66-chicago"
+          }
+        ],
         "stops": [
           "route66-chicago",
           "route66-springfield",
@@ -1330,11 +1714,27 @@
         "theme": "vangogh",
         "candidates": [
           {
+            "key": "vangogh-ginoux",
+            "placeId": "vangogh-arles"
+          },
+          {
+            "key": "vangogh-shoes",
+            "placeId": "vangogh-arles"
+          },
+          {
             "key": "vangogh-cypresses",
             "placeId": "vangogh-saintremy"
           },
           {
             "key": "vangogh-wheat",
+            "placeId": "vangogh-saintremy"
+          },
+          {
+            "key": "vangogh-irises",
+            "placeId": "vangogh-saintremy"
+          },
+          {
+            "key": "vangogh-roses",
             "placeId": "vangogh-saintremy"
           }
         ],
@@ -1348,6 +1748,10 @@
         "theme": "vangogh",
         "candidates": [
           {
+            "key": "vangogh-selfportrait",
+            "placeId": "vangogh-paris"
+          },
+          {
             "key": "vangogh-auvers",
             "placeId": "vangogh-auvers"
           }
@@ -1355,6 +1759,481 @@
         "stops": [
           "vangogh-paris",
           "vangogh-auvers"
+        ]
+      },
+      {
+        "id": "roads-g219",
+        "theme": "drive-g219",
+        "candidates": [
+          {
+            "key": "road-photo-kanas",
+            "placeId": "road-kanas"
+          }
+        ],
+        "stops": [
+          "road-kanas",
+          "road-yining",
+          "road-yecheng",
+          "road-shiquanhe",
+          "road-tengchong",
+          "road-jinghong",
+          "road-dongxing"
+        ]
+      },
+      {
+        "id": "roads-g219-ngari",
+        "theme": "drive-g219",
+        "candidates": [
+          {
+            "key": "road-photo-gar-landscape",
+            "placeId": "road-gar-landscape"
+          }
+        ],
+        "stops": [
+          "road-shiquanhe",
+          "road-gar-landscape",
+          "road-zanda",
+          "road-tholing",
+          "road-darchen"
+        ]
+      },
+      {
+        "id": "roads-g331",
+        "theme": "drive-g331",
+        "candidates": [
+          {
+            "key": "road-photo-dandong",
+            "placeId": "road-dandong"
+          }
+        ],
+        "stops": [
+          "road-dandong",
+          "road-jian",
+          "road-changbai",
+          "road-heihe",
+          "road-mohe",
+          "road-shiwei",
+          "road-habahe"
+        ]
+      },
+      {
+        "id": "roads-g331-yalu",
+        "theme": "drive-g331",
+        "candidates": [
+          {
+            "key": "road-photo-dandong",
+            "placeId": "road-dandong"
+          }
+        ],
+        "stops": [
+          "road-dandong",
+          "road-jian",
+          "road-linjiang",
+          "road-changbai"
+        ]
+      },
+      {
+        "id": "roads-g228",
+        "theme": "drive-g228",
+        "candidates": [
+          {
+            "key": "road-photo-qingdao",
+            "placeId": "road-qingdao"
+          }
+        ],
+        "stops": [
+          "road-dandong-coast",
+          "road-dalian",
+          "road-tianjin",
+          "road-qingdao",
+          "road-ningbo",
+          "road-xiamen",
+          "road-dongxing-coast"
+        ]
+      },
+      {
+        "id": "roads-g228-shandong",
+        "theme": "drive-g228",
+        "candidates": [
+          {
+            "key": "road-photo-qingdao",
+            "placeId": "road-qingdao"
+          }
+        ],
+        "stops": [
+          "road-qingdao",
+          "road-haiyang",
+          "road-rushan",
+          "road-rongcheng",
+          "road-weihai"
+        ]
+      },
+      {
+        "id": "roads-california1",
+        "theme": "drive-california",
+        "candidates": [
+          {
+            "key": "road-photo-bixby",
+            "placeId": "road-bixby"
+          }
+        ],
+        "stops": [
+          "road-monterey",
+          "road-carmel",
+          "road-bixby",
+          "road-bigsur",
+          "road-sansimeon"
+        ]
+      },
+      {
+        "id": "roads-overseas",
+        "theme": "drive-florida",
+        "candidates": [
+          {
+            "key": "road-photo-sevenmile",
+            "placeId": "road-sevenmile"
+          }
+        ],
+        "stops": [
+          "road-keylargo",
+          "road-islamorada",
+          "road-marathon",
+          "road-sevenmile",
+          "road-keywest"
+        ]
+      },
+      {
+        "id": "roads-utah12",
+        "theme": "drive-utah",
+        "candidates": [
+          {
+            "key": "road-photo-bryce",
+            "placeId": "road-bryce"
+          }
+        ],
+        "stops": [
+          "road-redcanyon",
+          "road-bryce",
+          "road-escalante",
+          "road-calfcreek",
+          "road-boulder",
+          "road-torrey"
+        ]
+      },
+      {
+        "id": "roads-utah5",
+        "theme": "drive-utah",
+        "candidates": [
+          {
+            "key": "np-zion",
+            "placeId": "road-zion"
+          },
+          {
+            "key": "road-photo-bryce",
+            "placeId": "road-bryce"
+          },
+          {
+            "key": "np-arch",
+            "placeId": "road-arches"
+          }
+        ],
+        "stops": [
+          "road-zion",
+          "road-bryce",
+          "road-fruita",
+          "road-moab",
+          "road-canyonlands",
+          "road-arches"
+        ]
+      },
+      {
+        "id": "roads-arctic",
+        "theme": "drive-arctic",
+        "candidates": [
+          {
+            "key": "road-photo-tombstone",
+            "placeId": "road-tombstone"
+          }
+        ],
+        "stops": [
+          "road-dawson",
+          "road-tombstone",
+          "road-eagle",
+          "road-circle",
+          "road-mcpherson",
+          "road-inuvik",
+          "road-tuk"
+        ]
+      },
+      {
+        "id": "roads-atlantic",
+        "theme": "drive-atlantic",
+        "candidates": [
+          {
+            "key": "road-photo-storseisund",
+            "placeId": "road-storseisund"
+          }
+        ],
+        "stops": [
+          "road-bud",
+          "road-askevagen",
+          "road-eldhusoya",
+          "road-storseisund",
+          "road-karvag"
+        ]
+      },
+      {
+        "id": "roads-iceland1",
+        "theme": "drive-iceland",
+        "candidates": [
+          {
+            "key": "road-photo-jokulsarlon",
+            "placeId": "road-jokulsarlon"
+          }
+        ],
+        "stops": [
+          "road-reykjavik",
+          "road-vik",
+          "road-jokulsarlon",
+          "road-hofn",
+          "road-egilsstadir",
+          "road-myvatn",
+          "road-akureyri",
+          "road-borgarnes"
+        ]
+      },
+      {
+        "id": "roads-greatocean",
+        "theme": "drive-greatocean",
+        "candidates": [
+          {
+            "key": "road-photo-apostles",
+            "placeId": "road-apostles"
+          }
+        ],
+        "stops": [
+          "road-torquay",
+          "road-lorne",
+          "road-apollobay",
+          "road-otway",
+          "road-apostles",
+          "road-portcampbell",
+          "road-allansford"
+        ]
+      },
+      {
+        "id": "roads-milford",
+        "theme": "drive-milford",
+        "candidates": [
+          {
+            "key": "road-photo-eglinton",
+            "placeId": "road-eglinton"
+          }
+        ],
+        "stops": [
+          "road-teanau",
+          "road-eglinton",
+          "road-mirror",
+          "road-homer",
+          "road-piopiotahi"
+        ]
+      },
+      {
+        "id": "roads-garden",
+        "theme": "drive-garden",
+        "candidates": [
+          {
+            "key": "road-photo-storms",
+            "placeId": "road-storms"
+          }
+        ],
+        "stops": [
+          "road-mosselbay",
+          "road-wilderness",
+          "road-knysna",
+          "road-plett",
+          "road-storms"
+        ]
+      },
+      {
+        "id": "hokusai-edo-coast",
+        "theme": "hokusai",
+        "candidates": [
+          {
+            "key": "hokusai-nihon",
+            "placeId": "nakasendo-tokyo"
+          },
+          {
+            "key": "hokusai-eno",
+            "placeId": "hokusai-enoshima"
+          }
+        ],
+        "stops": [
+          "nakasendo-tokyo",
+          "hokusai-enoshima"
+        ]
+      },
+      {
+        "id": "hokusai-water",
+        "theme": "hokusai",
+        "candidates": [
+          {
+            "key": "hokusai-misaka",
+            "placeId": "hokusai-kawaguchi"
+          },
+          {
+            "key": "hokusai-suwa",
+            "placeId": "hokusai-suwa"
+          }
+        ],
+        "stops": [
+          "hokusai-kawaguchi",
+          "hokusai-suwa"
+        ]
+      },
+      {
+        "id": "hokusai-tokaido",
+        "theme": "hokusai",
+        "candidates": [
+          {
+            "key": "hokusai-nihon",
+            "placeId": "nakasendo-tokyo"
+          },
+          {
+            "key": "hokusai-ejiri",
+            "placeId": "hokusai-ejiri"
+          }
+        ],
+        "stops": [
+          "nakasendo-tokyo",
+          "hokusai-ejiri"
+        ]
+      },
+      {
+        "id": "vermeer-place-and-original",
+        "theme": "vermeer",
+        "candidates": [
+          {
+            "key": "vermeer-delft",
+            "placeId": "vermeer-kolk"
+          },
+          {
+            "key": "vermeer-street",
+            "placeId": "vermeer-street"
+          }
+        ],
+        "stops": [
+          "vermeer-kolk",
+          "vermeer-street",
+          "vermeer-mauritshuis",
+          "vermeer-rijksmuseum"
+        ]
+      },
+      {
+        "id": "vermeer-delft-walk",
+        "theme": "vermeer",
+        "candidates": [
+          {
+            "key": "vermeer-delft",
+            "placeId": "vermeer-kolk"
+          },
+          {
+            "key": "vermeer-street",
+            "placeId": "vermeer-street"
+          }
+        ],
+        "stops": [
+          "vermeer-kolk",
+          "vermeer-street"
+        ]
+      },
+      {
+        "id": "bach-thuringia",
+        "theme": "bach",
+        "candidates": [
+          {
+            "key": "bach-eisenach-photo",
+            "placeId": "bach-eisenach"
+          },
+          {
+            "key": "bach-arnstadt-photo",
+            "placeId": "bach-arnstadt"
+          },
+          {
+            "key": "bach-weimar-photo",
+            "placeId": "bach-weimar"
+          }
+        ],
+        "stops": [
+          "bach-eisenach",
+          "bach-arnstadt",
+          "bach-weimar"
+        ]
+      },
+      {
+        "id": "bach-kothen-leipzig",
+        "theme": "bach",
+        "candidates": [
+          {
+            "key": "bach-kothen-photo",
+            "placeId": "bach-kothen"
+          },
+          {
+            "key": "bach-leipzig-photo",
+            "placeId": "bach-thomaskirche"
+          }
+        ],
+        "stops": [
+          "bach-kothen",
+          "bach-thomaskirche",
+          "bach-museum"
+        ]
+      },
+      {
+        "id": "austen-hampshire",
+        "theme": "austen",
+        "candidates": [
+          {
+            "key": "austen-steventon-photo",
+            "placeId": "austen-steventon"
+          },
+          {
+            "key": "austen-chawton-photo",
+            "placeId": "austen-chawton"
+          },
+          {
+            "key": "austen-winchester-photo",
+            "placeId": "austen-winchester"
+          }
+        ],
+        "stops": [
+          "austen-steventon",
+          "austen-chawton",
+          "austen-winchester"
+        ]
+      },
+      {
+        "id": "austen-moving-life",
+        "theme": "austen",
+        "candidates": [
+          {
+            "key": "austen-chawton-photo",
+            "placeId": "austen-chawton"
+          }
+        ],
+        "stops": [
+          "austen-bath",
+          "austen-southampton",
+          "austen-chawton"
+        ]
+      },
+      {
+        "id": "austen-persuasion",
+        "theme": "austen",
+        "candidates": [],
+        "stops": [
+          "austen-bath",
+          "austen-lyme"
         ]
       }
     ]
@@ -4058,7 +4937,7 @@
       "redundantFacts": [
         "所在区域"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "wh-1510",
@@ -6098,7 +6977,7 @@
       "redundantFacts": [
         "所在区域"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "wh-1269",
@@ -8102,7 +8981,7 @@
       "redundantFacts": [
         "所在区域"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "wh-1021",
@@ -9178,7 +10057,7 @@
       "redundantFacts": [
         "所在区域"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "wh-896",
@@ -12144,7 +13023,7 @@
       "redundantFacts": [
         "所在区域"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "wh-632",
@@ -12204,7 +13083,7 @@
       "redundantFacts": [
         "所在区域"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "wh-604",
@@ -13502,7 +14381,7 @@
       "redundantFacts": [
         "所在区域"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "wh-395",
@@ -17015,12 +17894,12 @@
     {
       "id": "np-jotr",
       "name": "约书亚树国家公园",
-      "source": "https://www.nps.gov/jotr/index.htm",
+      "source": "https://www.nps.gov/jotr/learn/nature/index.htm",
       "descriptionCharacters": 399,
       "inPlans": true,
       "flags": [],
       "redundantFacts": [],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "np-katm",
@@ -17145,12 +18024,12 @@
     {
       "id": "np-olym",
       "name": "奥林匹克国家公园",
-      "source": "https://www.nps.gov/olym/index.htm",
+      "source": "https://www.nps.gov/olym/learn/nature/index.htm",
       "descriptionCharacters": 387,
       "inPlans": true,
       "flags": [],
       "redundantFacts": [],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "np-pefo",
@@ -17480,8 +18359,8 @@
     {
       "id": "tea-yaan",
       "name": "雅安",
-      "source": "https://m.ccdi.gov.cn/content/60/5a/77322.html",
-      "descriptionCharacters": 13,
+      "source": "https://zhuanti.mct.gov.cn/xczgshsh2023/cxyh/detail_cha/3865.html",
+      "descriptionCharacters": 64,
       "inPlans": true,
       "flags": [
         "short-description-review"
@@ -17490,7 +18369,7 @@
         "历史角色",
         "所属支线"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "tea-kangding",
@@ -17885,17 +18764,15 @@
     {
       "id": "silk-turkistan",
       "name": "突厥斯坦",
-      "source": "https://www.unesco.org/en/silk-roads/about-silk-roads",
-      "descriptionCharacters": 17,
+      "source": "https://whc.unesco.org/en/list/1103/",
+      "descriptionCharacters": 77,
       "inPlans": false,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "历史角色",
         "所属区域"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "silk-kashgar",
@@ -18800,8 +19677,8 @@
     {
       "id": "kumano-takijiri",
       "name": "泷尻王子",
-      "source": "https://www.tb-kumano.jp/en/kumano-kodo/nakahechi/",
-      "descriptionCharacters": 25,
+      "source": "https://www.tb-kumano.jp/en/kumano-kodo/history-oji/",
+      "descriptionCharacters": 59,
       "inPlans": true,
       "flags": [
         "short-description-review"
@@ -18810,7 +19687,7 @@
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "kumano-takahara",
@@ -18860,8 +19737,8 @@
     {
       "id": "kumano-hosshinmon",
       "name": "发心门王子",
-      "source": "https://www.tb-kumano.jp/en/kumano-kodo/nakahechi/",
-      "descriptionCharacters": 37,
+      "source": "https://www.tb-kumano.jp/en/kumano-kodo/history-oji/",
+      "descriptionCharacters": 52,
       "inPlans": true,
       "flags": [
         "short-description-review"
@@ -18870,7 +19747,7 @@
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "kumano-hongu",
@@ -19544,7 +20421,7 @@
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "nakasendo-karuizawa",
@@ -20136,172 +21013,150 @@
     {
       "id": "canal-beijing",
       "name": "北京 · 通惠河",
-      "source": "https://whc.unesco.org/en/list/1443/",
-      "descriptionCharacters": 41,
+      "source": "https://whc.unesco.org/en/list/1443/maps/",
+      "descriptionCharacters": 83,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "canal-tongzhou",
       "name": "通州 · 运河起点区域",
-      "source": "https://whc.unesco.org/en/list/1443/",
-      "descriptionCharacters": 28,
+      "source": "https://whc.unesco.org/en/list/1443/maps/",
+      "descriptionCharacters": 81,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "canal-tianjin",
       "name": "天津 · 三岔河口",
-      "source": "https://whc.unesco.org/en/list/1443/",
-      "descriptionCharacters": 37,
+      "source": "https://www.tj.gov.cn/sq/tjgk/tjls/lsyg/",
+      "descriptionCharacters": 81,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "canal-linqing",
       "name": "临清",
-      "source": "https://whc.unesco.org/en/list/1443/",
-      "descriptionCharacters": 27,
+      "source": "https://shandong.chinatax.gov.cn/art/2024/6/6/art_210_1051760.html",
+      "descriptionCharacters": 83,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "canal-jining",
       "name": "济宁",
-      "source": "https://whc.unesco.org/en/list/1443/",
-      "descriptionCharacters": 28,
+      "source": "https://jnsl.jining.gov.cn/art/2026/4/2/art_14544_2708678.html",
+      "descriptionCharacters": 79,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "canal-huaian",
       "name": "淮安 · 清江浦",
-      "source": "https://whc.unesco.org/en/list/1443/",
-      "descriptionCharacters": 33,
+      "source": "https://www.haqjp.gov.cn/col/1052_478757/index.html",
+      "descriptionCharacters": 83,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "canal-yangzhou",
       "name": "扬州",
-      "source": "https://whc.unesco.org/en/list/1443/",
-      "descriptionCharacters": 32,
+      "source": "https://www.ndrc.gov.cn/xwdt/ztzl/dyhgjwhgy/202201/t20220105_1311458.html",
+      "descriptionCharacters": 79,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "canal-zhenjiang",
       "name": "镇江",
-      "source": "https://whc.unesco.org/en/list/1443/",
-      "descriptionCharacters": 35,
+      "source": "https://jsnews.jschina.com.cn/zj/a/202201/t20220102_2923909.shtml",
+      "descriptionCharacters": 90,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "canal-suzhou",
       "name": "苏州",
-      "source": "https://whc.unesco.org/en/list/1443/",
-      "descriptionCharacters": 31,
+      "source": "https://www.suzhou.gov.cn/szwgjyhsj/yhsjjbgk/202110/b7a7f024e4394cf1be9457080c338eb5.shtml",
+      "descriptionCharacters": 83,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "canal-jiaxing",
       "name": "嘉兴",
-      "source": "https://whc.unesco.org/en/list/1443/",
-      "descriptionCharacters": 22,
+      "source": "https://www.jxwwbh.cn/ArticleShow.aspx?id=215",
+      "descriptionCharacters": 70,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "canal-hangzhou",
       "name": "杭州 · 拱宸桥",
-      "source": "https://whc.unesco.org/en/list/1443/",
-      "descriptionCharacters": 44,
+      "source": "https://www.ezhejiang.gov.cn/2018-12/17/c_306275.htm",
+      "descriptionCharacters": 82,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
@@ -20344,8 +21199,8 @@
     {
       "id": "viking-roskilde",
       "name": "罗斯基勒 Roskilde",
-      "source": "https://www.coe.int/en/web/cultural-routes/the-viking-routes",
-      "descriptionCharacters": 38,
+      "source": "https://www.vikingeskibsmuseet.dk/besoeg/udstillinger/de-fem-vikingeskibe/udgravningen",
+      "descriptionCharacters": 65,
       "inPlans": true,
       "flags": [
         "short-description-review"
@@ -20355,7 +21210,7 @@
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "viking-birka",
@@ -20376,18 +21231,16 @@
     {
       "id": "viking-york",
       "name": "约克 · Jorvik",
-      "source": "https://www.coe.int/en/web/cultural-routes/the-viking-routes",
-      "descriptionCharacters": 44,
+      "source": "https://collections.yorkarchaeologicaltrust.co.uk/s/collections/item/24124",
+      "descriptionCharacters": 79,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "viking-dublin",
@@ -20409,7 +21262,7 @@
       "id": "viking-thingvellir",
       "name": "辛格韦德利 Thingvellir",
       "source": "https://whc.unesco.org/en/list/1152/",
-      "descriptionCharacters": 35,
+      "descriptionCharacters": 56,
       "inPlans": true,
       "flags": [
         "short-description-review"
@@ -20419,7 +21272,7 @@
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "viking-lans",
@@ -20808,8 +21661,8 @@
     {
       "id": "route66-albuquerque",
       "name": "阿尔伯克基",
-      "source": "https://www.nps.gov/orgs/1453/route-66-history.htm",
-      "descriptionCharacters": 32,
+      "source": "https://www.nps.gov/places/luna-lodge.htm",
+      "descriptionCharacters": 68,
       "inPlans": true,
       "flags": [
         "short-description-review"
@@ -20819,7 +21672,7 @@
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "route66-gallup",
@@ -20921,7 +21774,7 @@
       "id": "nc500-inverness",
       "name": "因弗内斯",
       "source": "https://www.visitscotland.com/planning/travel-in-scotland/driving-road-trips/north-coast-500",
-      "descriptionCharacters": 41,
+      "descriptionCharacters": 67,
       "inPlans": true,
       "flags": [
         "short-description-review"
@@ -20931,7 +21784,7 @@
         "地点性质",
         "阅读提示"
       ],
-      "deepReading": false
+      "deepReading": true
     },
     {
       "id": "nc500-applecross",
@@ -21225,11 +22078,9 @@
       "id": "vangogh-paris",
       "name": "巴黎 · 蒙马特生涯",
       "source": "https://archive.artic.edu/van-gogh-bedrooms/timeline",
-      "descriptionCharacters": 55,
+      "descriptionCharacters": 82,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
@@ -21241,11 +22092,9 @@
       "id": "vangogh-arles",
       "name": "阿尔勒 Arles",
       "source": "https://archive.artic.edu/van-gogh-bedrooms/timeline",
-      "descriptionCharacters": 59,
+      "descriptionCharacters": 92,
       "inPlans": true,
-      "flags": [
-        "short-description-review"
-      ],
+      "flags": [],
       "redundantFacts": [
         "路线线索",
         "地点性质",
@@ -21282,6 +22131,1476 @@
         "路线线索",
         "地点性质",
         "阅读提示"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-kanas",
+      "name": "喀纳斯湖",
+      "source": "https://www.neac.gov.cn/seac/c100504/201509/1085732.shtml",
+      "descriptionCharacters": 49,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-yining",
+      "name": "伊宁",
+      "source": "https://www.ctnews.com.cn/zt/content/2023-03/10/content_138371.html",
+      "descriptionCharacters": 55,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-yecheng",
+      "name": "叶城",
+      "source": "https://www.xjyc.gov.cn/ycx/c109125/201908/ba22ae36f21e4c37bbcc88c289019bb2.shtml",
+      "descriptionCharacters": 45,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-shiquanhe",
+      "name": "狮泉河",
+      "source": "https://lyfz.al.gov.cn/info/1772/19541.htm",
+      "descriptionCharacters": 57,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-tengchong",
+      "name": "腾冲",
+      "source": "https://www.ctnews.com.cn/zt/content/2023-03/10/content_138371.html",
+      "descriptionCharacters": 66,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-jinghong",
+      "name": "景洪",
+      "source": "https://www.ctnews.com.cn/zt/content/2023-03/10/content_138371.html",
+      "descriptionCharacters": 64,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-dongxing",
+      "name": "东兴",
+      "source": "https://www.ctnews.com.cn/zt/content/2023-03/10/content_138371.html",
+      "descriptionCharacters": 64,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-dandong",
+      "name": "丹东 · 鸭绿江断桥",
+      "source": "https://cpc.people.com.cn/GB/64176/64180/2534588.html",
+      "descriptionCharacters": 62,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-jian",
+      "name": "集安",
+      "source": "https://whc.unesco.org/en/list/1135/",
+      "descriptionCharacters": 58,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-changbai",
+      "name": "长白县城",
+      "source": "https://www.ln.gov.cn/web/ywdt/zymtkln/2026082808323058127/index.shtml",
+      "descriptionCharacters": 46,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-heihe",
+      "name": "黑河",
+      "source": "https://www.ln.gov.cn/web/ywdt/zymtkln/2026082808323058127/index.shtml",
+      "descriptionCharacters": 55,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-mohe",
+      "name": "漠河",
+      "source": "https://www.ln.gov.cn/web/ywdt/zymtkln/2026082808323058127/index.shtml",
+      "descriptionCharacters": 50,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-shiwei",
+      "name": "室韦",
+      "source": "https://www.jl.gov.cn/szfzt/gzlfz/gzdt/202603/t20260307_3593768.html",
+      "descriptionCharacters": 65,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-habahe",
+      "name": "哈巴河县城",
+      "source": "https://www.ln.gov.cn/web/ywdt/zymtkln/2026082808323058127/index.shtml",
+      "descriptionCharacters": 65,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-dandong-coast",
+      "name": "丹东 · 东港",
+      "source": "https://wlt.fujian.gov.cn/wldt/btdt/202412/t20241230_6599855.htm",
+      "descriptionCharacters": 60,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-dalian",
+      "name": "大连",
+      "source": "https://wlt.fujian.gov.cn/wldt/btdt/202412/t20241230_6599855.htm",
+      "descriptionCharacters": 59,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-tianjin",
+      "name": "天津 · 滨海新区",
+      "source": "https://wlt.fujian.gov.cn/wldt/btdt/202412/t20241230_6599855.htm",
+      "descriptionCharacters": 51,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-qingdao",
+      "name": "青岛 · 栈桥海岸",
+      "source": "https://www.qingdao.gov.cn/ywdt/zwyw/202610/t20261006_10746545.shtml",
+      "descriptionCharacters": 48,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-ningbo",
+      "name": "宁波",
+      "source": "https://wlt.fujian.gov.cn/wldt/btdt/202412/t20241230_6599855.htm",
+      "descriptionCharacters": 53,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-xiamen",
+      "name": "厦门",
+      "source": "https://whc.unesco.org/en/list/1541/",
+      "descriptionCharacters": 58,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-dongxing-coast",
+      "name": "东兴 · 北仑河口区域",
+      "source": "https://wlt.fujian.gov.cn/wldt/btdt/202412/t20241230_6599855.htm",
+      "descriptionCharacters": 51,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-monterey",
+      "name": "蒙特雷",
+      "source": "https://www.visitcalifornia.com/experience/highway-ones-most-scenic-stops/",
+      "descriptionCharacters": 62,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-carmel",
+      "name": "卡梅尔",
+      "source": "https://www.visitcalifornia.com/experience/highway-ones-most-scenic-stops/",
+      "descriptionCharacters": 46,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-bixby",
+      "name": "比克斯比溪桥",
+      "source": "https://www.visitcalifornia.com/experience/highway-ones-most-scenic-stops/",
+      "descriptionCharacters": 53,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-bigsur",
+      "name": "Big Sur · 菲佛森林区域",
+      "source": "https://www.visitcalifornia.com/experience/highway-ones-most-scenic-stops/",
+      "descriptionCharacters": 62,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-sansimeon",
+      "name": "圣西蒙",
+      "source": "https://www.visitcalifornia.com/experience/highway-ones-most-scenic-stops/",
+      "descriptionCharacters": 55,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-keylargo",
+      "name": "基拉戈",
+      "source": "https://fla-keys.com/how-to-get-here/",
+      "descriptionCharacters": 56,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-islamorada",
+      "name": "伊斯拉莫拉达",
+      "source": "https://fla-keys.com/how-to-get-here/",
+      "descriptionCharacters": 55,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-marathon",
+      "name": "马拉松",
+      "source": "https://fla-keys.com/how-to-get-here/",
+      "descriptionCharacters": 56,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-sevenmile",
+      "name": "七英里大桥",
+      "source": "https://fla-keys.com/how-to-get-here/",
+      "descriptionCharacters": 54,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-keywest",
+      "name": "基韦斯特",
+      "source": "https://fla-keys.com/how-to-get-here/",
+      "descriptionCharacters": 53,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-redcanyon",
+      "name": "Red Canyon",
+      "source": "https://www.visitutah.com/articles/the-all-american-road-scenic-byway-12",
+      "descriptionCharacters": 78,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-bryce",
+      "name": "布莱斯峡谷 · 圆形剧场",
+      "source": "https://www.nps.gov/brca/planyourvisit/viewpoints.htm",
+      "descriptionCharacters": 66,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-escalante",
+      "name": "埃斯卡兰特",
+      "source": "https://www.visitutah.com/articles/the-all-american-road-scenic-byway-12",
+      "descriptionCharacters": 70,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-calfcreek",
+      "name": "Calf Creek 休憩区",
+      "source": "https://www.visitutah.com/articles/the-all-american-road-scenic-byway-12",
+      "descriptionCharacters": 65,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-boulder",
+      "name": "Boulder",
+      "source": "https://www.visitutah.com/articles/the-all-american-road-scenic-byway-12",
+      "descriptionCharacters": 56,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-torrey",
+      "name": "Torrey",
+      "source": "https://www.visitutah.com/articles/the-all-american-road-scenic-byway-12",
+      "descriptionCharacters": 72,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-zion",
+      "name": "锡安 · 峡谷游客中心",
+      "source": "https://www.nps.gov/zion/index.htm",
+      "descriptionCharacters": 55,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-fruita",
+      "name": "Capitol Reef · Fruita",
+      "source": "https://www.nps.gov/care/planyourvisit/fruita.htm",
+      "descriptionCharacters": 84,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-moab",
+      "name": "Moab",
+      "source": "https://www.visitutah.com/plan-your-trip/recommended-itineraries/salt-lake-through-the-mighty-5",
+      "descriptionCharacters": 60,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-canyonlands",
+      "name": "峡谷地 · Island in the Sky",
+      "source": "https://www.nps.gov/cany/index.htm",
+      "descriptionCharacters": 61,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-arches",
+      "name": "拱门 · Double O Arch",
+      "source": "https://www.nps.gov/arch/index.htm",
+      "descriptionCharacters": 65,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-dawson",
+      "name": "Dawson City",
+      "source": "https://www.travelyukon.com/en/see-and-do/itineraries/dempster-highway-road-trip-itinerary",
+      "descriptionCharacters": 75,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-tombstone",
+      "name": "Tombstone 领地公园",
+      "source": "https://www.travelyukon.com/en/see-and-do/itineraries/dempster-highway-road-trip-itinerary",
+      "descriptionCharacters": 66,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-eagle",
+      "name": "Eagle Plains",
+      "source": "https://www.travelyukon.com/en/see-and-do/itineraries/dempster-highway-road-trip-itinerary",
+      "descriptionCharacters": 57,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-circle",
+      "name": "Dempster 北极圈标志区域",
+      "source": "https://www.travelyukon.com/en/see-and-do/itineraries/dempster-highway-road-trip-itinerary",
+      "descriptionCharacters": 55,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-mcpherson",
+      "name": "Fort McPherson",
+      "source": "https://www.inf.gov.nt.ca/en/ferries",
+      "descriptionCharacters": 67,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-inuvik",
+      "name": "Inuvik",
+      "source": "https://www.inf.gov.nt.ca/en/transportation",
+      "descriptionCharacters": 77,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-tuk",
+      "name": "Tuktoyaktuk",
+      "source": "https://www.inf.gov.nt.ca/en/transportation",
+      "descriptionCharacters": 61,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-bud",
+      "name": "Bud",
+      "source": "https://www.nasjonaleturistveger.no/en/routes/atlanterhavsvegen/",
+      "descriptionCharacters": 50,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-askevagen",
+      "name": "Askevågen",
+      "source": "https://www.nasjonaleturistveger.no/en/routes/atlanterhavsvegen/",
+      "descriptionCharacters": 57,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-eldhusoya",
+      "name": "Eldhusøya",
+      "source": "https://www.nasjonaleturistveger.no/en/routes/atlanterhavsvegen/",
+      "descriptionCharacters": 52,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-storseisund",
+      "name": "Storseisundbrua",
+      "source": "https://www.nasjonaleturistveger.no/en/routes/atlanterhavsvegen/",
+      "descriptionCharacters": 62,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-karvag",
+      "name": "Kårvåg",
+      "source": "https://www.nasjonaleturistveger.no/en/routes/atlanterhavsvegen/",
+      "descriptionCharacters": 63,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-reykjavik",
+      "name": "雷克雅未克",
+      "source": "https://www.visiticeland.com/article/the-ring-road/",
+      "descriptionCharacters": 51,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-vik",
+      "name": "Vík",
+      "source": "https://www.visiticeland.com/article/the-ring-road/",
+      "descriptionCharacters": 49,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-jokulsarlon",
+      "name": "杰古沙龙冰川湖",
+      "source": "https://www.visiticeland.com/article/the-ring-road/",
+      "descriptionCharacters": 53,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-hofn",
+      "name": "Höfn",
+      "source": "https://www.visiticeland.com/article/the-ring-road/",
+      "descriptionCharacters": 54,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-egilsstadir",
+      "name": "Egilsstaðir",
+      "source": "https://www.visiticeland.com/article/the-ring-road/",
+      "descriptionCharacters": 54,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-myvatn",
+      "name": "米湖 · Reykjahlíð",
+      "source": "https://www.visiticeland.com/article/the-ring-road/",
+      "descriptionCharacters": 60,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-akureyri",
+      "name": "阿克雷里",
+      "source": "https://www.visiticeland.com/article/the-ring-road/",
+      "descriptionCharacters": 52,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-borgarnes",
+      "name": "Borgarnes",
+      "source": "https://www.visiticeland.com/article/the-ring-road/",
+      "descriptionCharacters": 61,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-torquay",
+      "name": "Torquay",
+      "source": "https://visitgreatoceanroad.org.au/torquaylife/",
+      "descriptionCharacters": 56,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-lorne",
+      "name": "Lorne",
+      "source": "https://visitgreatoceanroad.org.au/explore/9-smart-travel-tips-for-planning-your-great-ocean-road-adventure/",
+      "descriptionCharacters": 56,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-apollobay",
+      "name": "Apollo Bay",
+      "source": "https://visitgreatoceanroad.org.au/explore/9-smart-travel-tips-for-planning-your-great-ocean-road-adventure/",
+      "descriptionCharacters": 76,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-otway",
+      "name": "Cape Otway 支线",
+      "source": "https://visitgreatoceanroad.org.au/explore/9-smart-travel-tips-for-planning-your-great-ocean-road-adventure/",
+      "descriptionCharacters": 53,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-apostles",
+      "name": "十二门徒岩",
+      "source": "https://visitgreatoceanroad.org.au/explore/9-smart-travel-tips-for-planning-your-great-ocean-road-adventure/",
+      "descriptionCharacters": 47,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-portcampbell",
+      "name": "Port Campbell",
+      "source": "https://visitgreatoceanroad.org.au/explore/9-smart-travel-tips-for-planning-your-great-ocean-road-adventure/",
+      "descriptionCharacters": 52,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-allansford",
+      "name": "Allansford",
+      "source": "https://visitgreatoceanroad.org.au/explore/9-smart-travel-tips-for-planning-your-great-ocean-road-adventure/",
+      "descriptionCharacters": 60,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-teanau",
+      "name": "Te Anau",
+      "source": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/places-to-go/milford-road-milford-sound-area/",
+      "descriptionCharacters": 65,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-eglinton",
+      "name": "Eglinton Valley",
+      "source": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/places-to-go/milford-road-milford-sound-area/",
+      "descriptionCharacters": 64,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-mirror",
+      "name": "Mirror Lakes",
+      "source": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/tracks/mirror-lakes-walk/",
+      "descriptionCharacters": 55,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-homer",
+      "name": "Homer 隧道入口区域",
+      "source": "https://nzta.govt.nz/projects/sh94-milford-road/avalanche-control-programme",
+      "descriptionCharacters": 55,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-piopiotahi",
+      "name": "Milford Sound / Piopiotahi",
+      "source": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/places-to-go/milford-road-milford-sound-area/",
+      "descriptionCharacters": 50,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-mosselbay",
+      "name": "Mossel Bay",
+      "source": "https://www.southafrica.net/gl/en/travel/article/discover-the-garden-route-1",
+      "descriptionCharacters": 50,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-wilderness",
+      "name": "Wilderness",
+      "source": "https://www.sanparks.org/parks/garden-route/travel/maps",
+      "descriptionCharacters": 62,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-knysna",
+      "name": "Knysna",
+      "source": "https://www.southafrica.net/gl/en/travel/article/discover-the-garden-route-1",
+      "descriptionCharacters": 53,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-plett",
+      "name": "Plettenberg Bay",
+      "source": "https://www.southafrica.net/gl/en/travel/article/discover-the-garden-route-1",
+      "descriptionCharacters": 69,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-storms",
+      "name": "Storms River Mouth",
+      "source": "https://www.sanparks.org/parks/garden-route/travel/maps",
+      "descriptionCharacters": 62,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-gar-landscape",
+      "name": "噶尔南段 · G219 高原景观",
+      "source": "https://commons.wikimedia.org/wiki/File:Ngari_Prefecture_IMG_3599.jpg",
+      "descriptionCharacters": 65,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-zanda",
+      "name": "札达盆地",
+      "source": "https://lyfz.al.gov.cn/info/1742/15741.htm",
+      "descriptionCharacters": 57,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-tholing",
+      "name": "托林寺",
+      "source": "https://lyfz.al.gov.cn/info/1742/15741.htm",
+      "descriptionCharacters": 52,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-darchen",
+      "name": "塔钦 · 冈仁波齐区域基地",
+      "source": "https://lyfz.al.gov.cn/info/1742/15741.htm",
+      "descriptionCharacters": 58,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-linjiang",
+      "name": "临江",
+      "source": "https://www.mct.gov.cn/wlbphone/wlbydd/xxfb/qglb/jl/202310/t20231007_947727.html",
+      "descriptionCharacters": 55,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-haiyang",
+      "name": "海阳",
+      "source": "https://jtt.shandong.gov.cn/jssc/homeprojectinfo/tab/P0000000000000004927",
+      "descriptionCharacters": 64,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-rushan",
+      "name": "乳山",
+      "source": "https://www.weihai.gov.cn/art/2025/12/17/art_180018_6023645.html",
+      "descriptionCharacters": 57,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-rongcheng",
+      "name": "荣成",
+      "source": "https://www.qingdao.gov.cn/ywdt/zwyw/202608/t20260821_10705769.shtml",
+      "descriptionCharacters": 51,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "road-weihai",
+      "name": "威海",
+      "source": "https://www.qingdao.gov.cn/ywdt/zwyw/202608/t20260821_10705769.shtml",
+      "descriptionCharacters": 61,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "观看线索"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "hokusai-enoshima",
+      "name": "江之岛与相模海岸",
+      "source": "https://www.metmuseum.org/art/collection/search/56996",
+      "descriptionCharacters": 64,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "hokusai-suwa",
+      "name": "诹访湖",
+      "source": "https://www.metmuseum.org/art/collection/search/39798",
+      "descriptionCharacters": 67,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "hokusai-kawaguchi",
+      "name": "河口湖 · 御坂视角",
+      "source": "https://www.metmuseum.org/art/collection/search/36495",
+      "descriptionCharacters": 69,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "hokusai-ejiri",
+      "name": "静冈清水 · 江尻地区",
+      "source": "https://www.metmuseum.org/art/collection/search/55735",
+      "descriptionCharacters": 63,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "vermeer-kolk",
+      "name": "代尔夫特 · 南侧港池",
+      "source": "https://www.mauritshuis.nl/en/our-collection/artworks/92-view-of-delft",
+      "descriptionCharacters": 67,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "vermeer-street",
+      "name": "代尔夫特 · Vlamingstraat 小街",
+      "source": "https://www.rijksmuseum.nl/en/collection/object/View-of-Houses-in-Delft-Known-as-The-Little-Street--a7dbf937cbd6f7c30f66f8aca4a0207c",
+      "descriptionCharacters": 82,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "vermeer-mauritshuis",
+      "name": "海牙 · 莫瑞泰斯皇家美术馆 Mauritshuis",
+      "source": "https://www.mauritshuis.nl/en/our-collection/artworks/92-view-of-delft",
+      "descriptionCharacters": 67,
+      "inPlans": true,
+      "flags": [
+        "short-description-review"
+      ],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "vermeer-rijksmuseum",
+      "name": "阿姆斯特丹 · 荷兰国立博物馆",
+      "source": "https://www.rijksmuseum.nl/en/collection/object/View-of-Houses-in-Delft-Known-as-The-Little-Street--a7dbf937cbd6f7c30f66f8aca4a0207c",
+      "descriptionCharacters": 71,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "bach-eisenach",
+      "name": "艾森纳赫 · 巴赫之家博物馆",
+      "source": "https://bachhaus.de/en/home",
+      "descriptionCharacters": 86,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "bach-arnstadt",
+      "name": "阿恩施塔特 · 青年管风琴师",
+      "source": "https://www.bach-thueringen.de/en/biographische-stationen",
+      "descriptionCharacters": 77,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "bach-weimar",
+      "name": "魏玛 · 宫廷工作与城市生活",
+      "source": "https://www.bach-thueringen.de/en/w/bach-in-weimar",
+      "descriptionCharacters": 88,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "bach-kothen",
+      "name": "科滕 · 宫廷器乐环境",
+      "source": "https://www.march.es/en/madrid/bach-kothen",
+      "descriptionCharacters": 74,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "bach-thomaskirche",
+      "name": "莱比锡 · 圣托马斯教堂",
+      "source": "https://www.thomaskirche.org/",
+      "descriptionCharacters": 90,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "bach-museum",
+      "name": "莱比锡 · 巴赫博物馆与档案",
+      "source": "https://www.bachmuseumleipzig.de/en/bach-museum/introducing-leipzig-bach-museum",
+      "descriptionCharacters": 85,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "austen-steventon",
+      "name": "斯蒂文顿 · 成长与早期写作",
+      "source": "https://janeaustens.house/jane-austen/jane-austen-a-life/",
+      "descriptionCharacters": 74,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "austen-bath",
+      "name": "巴斯 · 社交空间与小说",
+      "source": "https://www.nationaltrust.org.uk/visit/bath-bristol/bath-assembly-rooms/jane-austen-at-bath-assembly-rooms",
+      "descriptionCharacters": 90,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "austen-southampton",
+      "name": "南安普敦 · 迁居与家庭安排",
+      "source": "https://janeaustens.house/jane-austen/jane-austen-a-life/",
+      "descriptionCharacters": 79,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "austen-chawton",
+      "name": "查顿 · 简·奥斯汀故居",
+      "source": "https://janeaustens.house/the-museum/",
+      "descriptionCharacters": 79,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "austen-lyme",
+      "name": "莱姆里吉斯 · The Cobb 海堤",
+      "source": "https://www.visit-dorset.com/lyme-regis/explore-discover/history-heritage/jane-austen/",
+      "descriptionCharacters": 72,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
+      ],
+      "deepReading": true
+    },
+    {
+      "id": "austen-winchester",
+      "name": "温彻斯特 · 大教堂与纪念",
+      "source": "https://janeaustens.house/jane-austen/jane-austen-a-life/",
+      "descriptionCharacters": 74,
+      "inPlans": true,
+      "flags": [],
+      "redundantFacts": [
+        "地点关系"
       ],
       "deepReading": true
     }

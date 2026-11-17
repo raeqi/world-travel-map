@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const context=vm.createContext({document:{addEventListener(){}},location:{hash:''},URLSearchParams});
-const files=['catalog.js','tea.js','historical.js','walking.js','journeys.js','media.js','themes.js','planner.js','journey-plans.js','map-style.js','journey-design.js','editorial.js','art-media.js','art-context.js','route-media.js','discovery.js','reading.js','content-enrichment.js'];
+const files=["catalog.js","tea.js","historical.js","walking.js","journeys.js","media.js","themes.js","planner.js","journey-plans.js","map-style.js","journey-design.js","editorial.js","art-media.js","art-context.js","depth-media.js","depth-context.js","route-photo-media.js","route-media.js","discovery.js","reading.js","cultural-routes.js","content-enrichment.js","canal-context.js","landscape-context.js"];
 for(const f of files)vm.runInContext(fs.readFileSync(f,'utf8'),context,{filename:f});
 const before=vm.runInContext('({places:places.length,plans:planTemplates.length,themes:themes.length})',context);
 vm.runInContext(fs.readFileSync('roads.js','utf8'),context,{filename:'roads.js'});
