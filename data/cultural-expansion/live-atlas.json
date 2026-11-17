@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "reviewedOn": "2026-11-17",
+  "scope": "76个主题的首批精选地点；非人物全集或完整历史旅行复原",
   "themes": [
     {
       "id": "gaudi",
@@ -511,6 +512,2494 @@
           "observe": "比较筒内与筒外的地平线；现场偏远，需另查道路、补给与管理方访问信息。",
           "source": "https://diaart.org/visit/visit-our-locations-sites/nancy-holt-sun-tunnels/main/spiraljetty",
           "wiki": "Sun Tunnels"
+        }
+      ]
+    },
+    {
+      "id": "turner",
+      "name": "透纳的意大利旅行",
+      "discipline": "painting",
+      "focus": "以不同年份的旅行和速写本分段，对照城市、水面与完成作品；不把画室完成时间当成现场日期。",
+      "tagline": "沿意大利城市读速写，不把画室想象当作现场实录。",
+      "days": 5,
+      "stops": [
+        {
+          "key": "venice",
+          "name": "威尼斯",
+          "en": "Venice",
+          "lon": 12.335,
+          "lat": 45.434,
+          "country": "意大利",
+          "region": "威尼托",
+          "relation": "life-work",
+          "summary": "透纳的意大利旅行留下威尼斯速写，水面、建筑和空气后来又进入完成的水彩与油画。不同年份的观察与画室工作共同塑造了这些城市意象。",
+          "observe": "先对照速写与完成作品的取舍，再观察运河、教堂轮廓和水上交通；不复原某个唯一机位。",
+          "source": "https://www.tate.org.uk/art/research-publications/jmw-turner/1819-1829-italy-and-after-r1130131",
+          "wiki": "Venice"
+        },
+        {
+          "key": "rome",
+          "name": "罗马",
+          "en": "Rome",
+          "lon": 12.483,
+          "lat": 41.893,
+          "country": "意大利",
+          "region": "拉齐奥",
+          "relation": "life-work",
+          "summary": "1819年的意大利旅行把透纳带到罗马。古迹、现代城市生活与远眺视线成为他反复整理的材料，画面往往结合现场观察和后期构思。",
+          "observe": "从古迹与当代街区交叠的尺度入手，比较速写的记录性与完成作品的光线组织。",
+          "source": "https://www.tate.org.uk/art/research-publications/jmw-turner/1819-1829-italy-and-after-r1130131",
+          "wiki": "Rome"
+        },
+        {
+          "key": "naples",
+          "name": "那不勒斯",
+          "en": "Naples",
+          "lon": 14.258,
+          "lat": 40.852,
+          "country": "意大利",
+          "region": "坎帕尼亚",
+          "relation": "life-work",
+          "summary": "那不勒斯与周边海湾、火山构成透纳意大利旅行的南方部分。这里可与威尼斯的潟湖水城对照，认识不同海岸如何进入旅行者视野。",
+          "observe": "从海湾、城市与维苏威火山的空间关系理解题材；标记为城市代表点。",
+          "source": "https://www.tate.org.uk/art/research-publications/jmw-turner/1819-1829-italy-and-after-r1130131",
+          "wiki": "Naples"
+        }
+      ]
+    },
+    {
+      "id": "cezanne",
+      "name": "塞尚的普罗旺斯",
+      "discipline": "painting",
+      "focus": "围绕反复观察的山体、岩石和画室组织短线，具体机位按作品与机构研究确认。",
+      "tagline": "从画室和石场，重新看一座山的体积。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "cezanne-studio",
+          "name": "洛夫画室",
+          "en": "Atelier de Cézanne",
+          "lon": 5.446,
+          "lat": 43.5395,
+          "country": "法国",
+          "region": "艾克斯",
+          "relation": "life-work",
+          "summary": "塞尚晚年的工作室保留了理解静物与创作日常的线索。器物、窗光和房间尺度，为观看他的绘画提供另一种入口。",
+          "observe": "从器物摆放和自然光入手，再看画家如何用色块组织体积。",
+          "source": "https://www.cezanne-en-provence.com/les-sites-de-cezanne/",
+          "wiki": "Atelier de Cézanne"
+        },
+        {
+          "key": "bibemus",
+          "name": "比贝米采石场",
+          "en": "Bibémus Quarries",
+          "lon": 5.506,
+          "lat": 43.533,
+          "country": "法国",
+          "region": "艾克斯近郊",
+          "relation": "depicted",
+          "summary": "赭色岩壁、树干与不规则切面是塞尚风景研究的重要材料。人工开采痕迹，使“自然风景”同时带有劳动留下的几何形状。",
+          "observe": "比较岩石切面、树木和画面中的色块，不把表现性构图视作地形测绘。",
+          "source": "https://www.cezanne-en-provence.com/les-sites-de-cezanne/",
+          "wiki": "Bibémus Quarries"
+        },
+        {
+          "key": "sainte-victoire",
+          "name": "圣维克多山",
+          "en": "Montagne Sainte-Victoire",
+          "lon": 5.612,
+          "lat": 43.531,
+          "country": "法国",
+          "region": "普罗旺斯",
+          "relation": "depicted",
+          "summary": "同一座山在塞尚不同作品中呈现不同距离与结构关系。山体与村庄、树木和天空之间的组织，比寻找一幅画的精确复刻更有趣。",
+          "observe": "从多个公共视角观察山脊轮廓；地图标记山体区域，不是作画机位。",
+          "source": "https://www.cezanne-en-provence.com/les-sites-de-cezanne/",
+          "wiki": "Montagne Sainte-Victoire"
+        }
+      ]
+    },
+    {
+      "id": "dali",
+      "name": "达利三角",
+      "discipline": "painting",
+      "focus": "三座机构及其生活、设计与创作背景；分别核实地点开放和作品版权。",
+      "tagline": "剧场、海边住宅与城堡，三种不同的生活空间。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "dali-theatre",
+          "name": "达利剧院博物馆",
+          "en": "Dalí Theatre and Museum",
+          "lon": 2.9597,
+          "lat": 42.2673,
+          "country": "西班牙",
+          "region": "菲格雷斯",
+          "relation": "collection",
+          "summary": "旧剧院被转化为达利构思的展示空间。建筑、展陈和作品共同制造观看经验，与普通白盒子展厅形成对照。",
+          "observe": "关注空间如何引导视线与尺度错觉；收藏并不等于每件作品都创作于此。",
+          "source": "https://costabrava.org/en/blog/the-dali-triangle/",
+          "wiki": "Dalí Theatre and Museum"
+        },
+        {
+          "key": "portlligat",
+          "name": "波特利加特达利故居",
+          "en": "Salvador Dalí House Museum",
+          "lon": 3.2867,
+          "lat": 42.2937,
+          "country": "西班牙",
+          "region": "卡达克斯",
+          "relation": "life-work",
+          "summary": "由渔民小屋逐步扩展的住宅，把工作室、生活房间和面向海湾的空间连接起来。它呈现达利与加拉长期经营的日常环境。",
+          "observe": "从狭窄通道、窗景与海湾对照，观察住宅如何随时间生长。",
+          "source": "https://costabrava.org/en/blog/the-dali-triangle/",
+          "wiki": "Salvador Dalí House Museum"
+        },
+        {
+          "key": "pubol",
+          "name": "普波尔加拉·达利城堡",
+          "en": "Gala Dalí Castle",
+          "lon": 2.982,
+          "lat": 42.014,
+          "country": "西班牙",
+          "region": "普波尔",
+          "relation": "life-work",
+          "summary": "为加拉营造的城堡空间与海边住宅不同，强调私密、个人象征和既有建筑的再设计。三处地点可分日探访。",
+          "observe": "比较城堡、花园和室内装饰的关系；参观次序只是当代旅行建议。",
+          "source": "https://costabrava.org/en/blog/the-dali-triangle/",
+          "wiki": "Gala Dalí Castle"
+        }
+      ]
+    },
+    {
+      "id": "matisse",
+      "name": "马蒂斯的尼斯与旺斯",
+      "discipline": "painting",
+      "focus": "从生活、工作空间到剪纸和玫瑰经礼拜堂，不要求虚构一条固定游历顺序。",
+      "tagline": "尼斯的光，走向旺斯礼拜堂的色与空间。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "matisse-nice",
+          "name": "尼斯马蒂斯博物馆",
+          "en": "Musée Matisse (Nice)",
+          "lon": 7.2778,
+          "lat": 43.7194,
+          "country": "法国",
+          "region": "尼斯",
+          "relation": "collection",
+          "summary": "西米耶山丘上的博物馆提供绘画、雕塑与剪纸之间的关联线索。尼斯是重要生活环境，博物馆则是后来的收藏展示机构。",
+          "observe": "把作品中的窗、织物和色彩与地中海城市光线对照，区分生活背景和馆藏。",
+          "source": "https://www.musee-matisse-nice.org/fr/lartiste/matisse-et-nice/",
+          "wiki": "Musée Matisse (Nice)"
+        },
+        {
+          "key": "matisse-vence",
+          "name": "旺斯玫瑰经礼拜堂",
+          "en": "Chapelle du Rosaire de Vence",
+          "lon": 7.1133,
+          "lat": 43.7266,
+          "country": "法国",
+          "region": "旺斯",
+          "relation": "work",
+          "summary": "彩色玻璃、白墙和简练线条在礼拜堂里共同作用。马蒂斯参与整体视觉构思，使艺术不再只是悬挂在建筑里的画面。",
+          "observe": "观察彩光如何随日照进入室内，与墙面线条形成不同的观看节奏。",
+          "source": "https://www.chapellematisse.com/",
+          "wiki": "Chapelle du Rosaire de Vence"
+        }
+      ]
+    },
+    {
+      "id": "munch",
+      "name": "蒙克的海岸与居所",
+      "discipline": "painting",
+      "focus": "海岸、树林与人物题材；按不同创作阶段和具体版本关联风景。",
+      "tagline": "海边木屋与奥斯陆的馆藏，分开读生活和作品。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "asgardstrand",
+          "name": "奥斯戈斯特兰",
+          "en": "Åsgårdstrand",
+          "lon": 10.469,
+          "lat": 59.348,
+          "country": "挪威",
+          "region": "韦斯特福尔",
+          "relation": "life-work",
+          "summary": "蒙克在海边小镇度夏并购置木屋，海岸、树木和人物关系反复进入作品。今天仍可通过城镇与保存的居所理解这段生活环境。",
+          "observe": "比较海岸弧线、树干与人物位置；风景区域不等于某幅画的精确机位。",
+          "source": "https://www.munch.no/edvard-munch/asgardstrand/",
+          "wiki": "Åsgårdstrand"
+        },
+        {
+          "key": "munch-oslo",
+          "name": "奥斯陆蒙克博物馆",
+          "en": "Munch Museum",
+          "lon": 10.755,
+          "lat": 59.906,
+          "country": "挪威",
+          "region": "奥斯陆",
+          "relation": "collection",
+          "summary": "博物馆集中展示蒙克的作品与研究，是观看不同版本和不同媒材的入口。奥斯陆馆藏与海岸题材的描绘地点并不是同一关系。",
+          "observe": "通过题名、版本和年代辨认作品，避免把同题《呐喊》或海岸题材当成唯一版本。",
+          "source": "https://www.munch.no/en/",
+          "wiki": "Munch Museum"
+        }
+      ]
+    },
+    {
+      "id": "okeeffe",
+      "name": "奥姬芙的新墨西哥",
+      "discipline": "painting",
+      "focus": "荒漠、岩壁、山与庭院；Ghost Ranch区域和艺术家私人房屋的开放状态分开。",
+      "tagline": "在荒漠与庭院中，看见形状、距离和留白。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "ghost-ranch",
+          "name": "幽灵牧场",
+          "en": "Ghost Ranch",
+          "lon": -106.473,
+          "lat": 36.329,
+          "country": "美国",
+          "region": "新墨西哥州",
+          "relation": "life-work",
+          "summary": "奥姬芙在幽灵牧场周边反复观察岩层、荒漠和山体，风景被简化成强烈的形状与色带。区域访问与艺术家私人住宅要分别理解。",
+          "observe": "比较岩壁的层次、阴影和开阔天空；不要从绘画推出唯一站立位置。",
+          "source": "https://www.okeeffemuseum.org/",
+          "wiki": "Ghost Ranch"
+        },
+        {
+          "key": "abiquiu",
+          "name": "阿比丘",
+          "en": "Abiquiú, New Mexico",
+          "lon": -106.318,
+          "lat": 36.207,
+          "country": "美国",
+          "region": "新墨西哥州",
+          "relation": "life-work",
+          "summary": "阿比丘的家与工作室连接庭院、建筑墙面和周边风景。观看奥姬芙不必只找宏大山景，门、窗与空旷墙面同样是重要线索。",
+          "observe": "观察村落和庭院如何把光切分成形状；故居参访须另查博物馆安排。",
+          "source": "https://www.okeeffemuseum.org/",
+          "wiki": "Abiquiú, New Mexico"
+        }
+      ]
+    },
+    {
+      "id": "hiroshige",
+      "name": "广重的东海道",
+      "discipline": "painting",
+      "focus": "逐幅注明《东海道五十三次》的版本、题名和描绘地点，不能把版画证明成逐站亲访。",
+      "tagline": "从江户桥头到由比海岸，逐幅认识东海道。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "nihonbashi-atlas",
+          "name": "日本桥",
+          "en": "Nihonbashi",
+          "lon": 139.774,
+          "lat": 35.684,
+          "country": "日本",
+          "region": "东京",
+          "relation": "depicted",
+          "summary": "东海道图像常由日本桥开篇，桥面人群、商贸活动和道路起点共同构成江户的城市印象。版画系列不等于已证实的逐站旅行日记。",
+          "observe": "比较画面中的桥、人物与城市交通，并留意不同《东海道五十三次》版本。",
+          "source": "https://tokaido-hiroshige.jp/en/outline/",
+          "wiki": "Nihonbashi"
+        },
+        {
+          "key": "yui",
+          "name": "由比与广重美术馆",
+          "en": "Yui-shuku",
+          "lon": 138.56,
+          "lat": 35.1,
+          "country": "日本",
+          "region": "静冈",
+          "relation": "depicted",
+          "summary": "由比宿的历史与海岸地形，为理解广重东海道版画提供现场线索。当地美术馆保存多个版本，展品会因纸本保护需要轮换。",
+          "observe": "把宿场生活、海岸与远方富士山的关系一起看，作品构图不是道路导航。",
+          "source": "https://tokaido-hiroshige.jp/en/outline/",
+          "wiki": "Yui-shuku"
+        }
+      ]
+    },
+    {
+      "id": "gauguin",
+      "name": "高更的跨洋迁居",
+      "discipline": "painting",
+      "focus": "画中世界与真实地方、殖民社会背景对读，不把想象的异域等同于当地生活实录。",
+      "tagline": "跨洋迁居与被想象的风景，需要一起阅读。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "pont-aven",
+          "name": "蓬塔旺",
+          "en": "Pont-Aven",
+          "lon": -3.746,
+          "lat": 47.855,
+          "country": "法国",
+          "region": "布列塔尼",
+          "relation": "life-work",
+          "summary": "布列塔尼的艺术家聚集地是高更创作的重要环境。地方服饰、宗教生活与简化色面进入绘画，风景同时被艺术家重新组织。",
+          "observe": "从河流、小镇和地方生活入手，区分真实地方与绘画中的象征化处理。",
+          "source": "https://www.museepontaven.fr/",
+          "wiki": "Pont-Aven"
+        },
+        {
+          "key": "tahiti",
+          "name": "塔希提岛",
+          "en": "Tahiti",
+          "lon": -149.425,
+          "lat": -17.651,
+          "country": "法国",
+          "region": "法属波利尼西亚",
+          "relation": "life-work",
+          "summary": "高更在塔希提的生活与创作处在殖民社会背景中。作品常包含想象、改造与借用，不能把画面中的人物和生活当作未经处理的民族志实录。",
+          "observe": "把艺术家的叙述与当地历史并读，地图标记岛屿区域而非某幅画的机位。",
+          "source": "https://www.nga.gov/stories/videos/gauguin-maker-myth-part-4",
+          "wiki": "Tahiti"
+        }
+      ]
+    },
+    {
+      "id": "chagall",
+      "name": "夏加尔的故乡与南法",
+      "discipline": "painting",
+      "focus": "故乡记忆、南法居住与公共艺术；后世纪念作品和作者原作区分。",
+      "tagline": "故乡记忆与南法生活，在作品里不断交会。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "vitebsk",
+          "name": "维捷布斯克",
+          "en": "Vitebsk",
+          "lon": 30.204,
+          "lat": 55.19,
+          "country": "白俄罗斯",
+          "region": "维捷布斯克",
+          "relation": "life",
+          "summary": "夏加尔的故乡提供街道、屋顶与日常生活的记忆，后来常以变形和漂浮的方式回到作品。真实城市与记忆中的故乡需分开阅读。",
+          "observe": "观察街区与河流的尺度，再看画面如何改变人物和建筑的比例。",
+          "source": "https://www.saint-pauldevence.com/en/history/celebrities/marc-chagall-vitebsk-saint-paul-de-vence/",
+          "wiki": "Vitebsk"
+        },
+        {
+          "key": "saint-paul-vence",
+          "name": "圣保罗德旺斯",
+          "en": "Saint-Paul-de-Vence",
+          "lon": 7.122,
+          "lat": 43.697,
+          "country": "法国",
+          "region": "普罗旺斯",
+          "relation": "life-work",
+          "summary": "夏加尔在南法长期生活，村落、地中海环境与公共艺术形成另一组观看线索。这里与故乡记忆共同存在，而不是取代故乡。",
+          "observe": "漫步村落并分辨原作、后世纪念与私人生活空间。",
+          "source": "https://www.saint-pauldevence.com/en/history/celebrities/marc-chagall-vitebsk-saint-paul-de-vence/",
+          "wiki": "Saint-Paul-de-Vence"
+        }
+      ]
+    },
+    {
+      "id": "sorolla",
+      "name": "索罗亚的西班牙",
+      "discipline": "painting",
+      "focus": "按《Vision of Spain》逐幅识别地域与地方活动；纽约只属馆藏，不插入西班牙游历线路。",
+      "tagline": "从地中海家乡，到《西班牙印象》的收藏地。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "valencia",
+          "name": "瓦伦西亚",
+          "en": "Valencia",
+          "lon": -0.376,
+          "lat": 39.47,
+          "country": "西班牙",
+          "region": "瓦伦西亚",
+          "relation": "life-work",
+          "summary": "索罗亚的家乡连接地中海海岸生活与画中的日光。海滩题材并不只表现天气，也包含劳动、身体与地方日常。",
+          "observe": "观察海面反光、帆船与人物活动的关系，不将任意海滩标成确证作画机位。",
+          "source": "https://www.cultura.gob.es/msorolla/en/",
+          "wiki": "Valencia"
+        },
+        {
+          "key": "hispanic-society",
+          "name": "纽约西班牙裔协会博物馆",
+          "en": "Hispanic Society of America",
+          "lon": -73.9464,
+          "lat": 40.8337,
+          "country": "美国",
+          "region": "纽约",
+          "relation": "collection",
+          "summary": "《Vision of Spain》十四幅大型画作描绘西班牙多个地区的服饰与活动，现藏纽约。纽约在本图承担收藏地关系，不被编入西班牙写生路线。",
+          "observe": "先按每幅作品辨认地域与活动，再比较系列如何把地方差异放进同一展厅。",
+          "source": "https://hispanicsociety.org/exhibition/joaquin-sorollas-vision-of-spain/",
+          "wiki": "Hispanic Society of America"
+        }
+      ]
+    },
+    {
+      "id": "constable",
+      "name": "康斯太勃尔乡野",
+      "discipline": "painting",
+      "focus": "磨坊、河道、农舍与画作对照，可参考现有步行线，但不能直接用示意连线导航。",
+      "tagline": "磨坊、河道与农舍，组成可以慢读的乡野。",
+      "days": 2,
+      "stops": [
+        {
+          "key": "flatford",
+          "name": "弗拉特福德",
+          "en": "Flatford",
+          "lon": 1.021,
+          "lat": 51.958,
+          "country": "英国",
+          "region": "萨福克",
+          "relation": "depicted",
+          "summary": "斯陶尔河沿岸的磨坊与农舍进入康斯太勃尔的乡野绘画。这里既有河道和树木，也有运输、耕作与日常劳动的历史。",
+          "observe": "对比河岸、磨坊和农舍位置，画作中的季节与劳动并不等于今天现场。",
+          "source": "https://www.nationaltrust.org.uk/visit/suffolk/flatford/flatford-and-constable-country-walk",
+          "wiki": "Flatford"
+        },
+        {
+          "key": "dedham",
+          "name": "迪德姆",
+          "en": "Dedham, Essex",
+          "lon": 0.993,
+          "lat": 51.959,
+          "country": "英国",
+          "region": "埃塞克斯",
+          "relation": "depicted",
+          "summary": "迪德姆与周边河谷为康斯太勃尔反复观察的地方。开阔草地、远方教堂和天空层次提供理解构图的入口。",
+          "observe": "参考管理方步行资料分段探索；地图上的两点连线不是步道。",
+          "source": "https://www.nationaltrust.org.uk/visit/suffolk/flatford/flatford-and-constable-country-walk",
+          "wiki": "Dedham, Essex"
+        }
+      ]
+    },
+    {
+      "id": "zhang-daqian",
+      "name": "张大千的游历与园林",
+      "discipline": "painting",
+      "focus": "分为敦煌学习、海外迁居与园林生活，故宫开放图像仍需按具体文件注明许可。",
+      "tagline": "临摹石窟与营建园林，是两种不同的观看。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "mogao",
+          "name": "莫高窟",
+          "en": "Mogao Caves",
+          "lon": 94.815,
+          "lat": 40.041,
+          "country": "中国",
+          "region": "甘肃敦煌",
+          "relation": "life-work",
+          "summary": "张大千在敦煌临摹壁画的经历，是其绘画学习与研究的重要部分。石窟、纸本临摹和之后的创作之间，应分别说明关系。",
+          "observe": "关注壁画的线、色和人物组织；张大千的临本不能直接当作洞窟原作图像。",
+          "source": "https://www.npm.edu.tw/exh96/dai-chien/index.html",
+          "wiki": "Mogao Caves"
+        },
+        {
+          "key": "chang-dai-chien-house",
+          "name": "摩耶精舍",
+          "en": "Chang Dai-chien Residence",
+          "lon": 121.551,
+          "lat": 25.106,
+          "country": "中国",
+          "region": "台湾台北",
+          "relation": "life-work",
+          "summary": "张大千亲自参与营建的晚年居所将住宅与中式庭园结合，后来成为纪念馆。园林生活是理解其创作环境的重要线索。",
+          "observe": "从水、植物、书斋和建筑之间的关系阅读居所，开放安排以机构说明为准。",
+          "source": "https://www.npm.edu.tw/exh96/dai-chien/index.html",
+          "wiki": "Chang Dai-chien Residence"
+        }
+      ]
+    },
+    {
+      "id": "picasso",
+      "name": "毕加索的城市生活",
+      "discipline": "painting",
+      "focus": "求学、早期生活与迁居的不同阶段，不把各地现有馆藏全当作作画现场。",
+      "tagline": "巴塞罗那的成长，与巴黎的收藏分别看。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "picasso-barcelona",
+          "name": "巴塞罗那毕加索博物馆",
+          "en": "Museu Picasso",
+          "lon": 2.181,
+          "lat": 41.3853,
+          "country": "西班牙",
+          "region": "巴塞罗那",
+          "relation": "collection",
+          "summary": "毕加索少年时期在巴塞罗那求学，与旧城艺术圈建立长期联系。博物馆尤其适合认识早期学习和艺术交往。",
+          "observe": "把早期作品、旧城和博物馆收藏关系对照，不把馆址视为他全部早期作品的创作现场。",
+          "source": "https://museupicassobcn.cat/en/picasso-and-barcelona/picasso-connection-with-barcelona",
+          "wiki": "Museu Picasso"
+        },
+        {
+          "key": "picasso-paris",
+          "name": "巴黎毕加索博物馆",
+          "en": "Musée Picasso",
+          "lon": 2.3625,
+          "lat": 48.8599,
+          "country": "法国",
+          "region": "巴黎",
+          "relation": "collection",
+          "summary": "巴黎的博物馆提供跨时期作品与档案的观看入口。它承担的是收藏与研究关系，并不是毕加索在巴黎唯一的工作室。",
+          "observe": "比较媒材和年代，结合馆方著录理解同一题材在不同时期如何变化。",
+          "source": "https://www.museepicassoparis.fr/en/",
+          "wiki": "Musée Picasso"
+        }
+      ]
+    },
+    {
+      "id": "frida",
+      "name": "弗里达的墨西哥与美国",
+      "discipline": "painting",
+      "focus": "按有记录的居住与旅行分期，结合具体作品和自述；蓝屋不是所有作品的创作地。",
+      "tagline": "蓝屋的生活，与美国工业城市中的经历。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "frida-blue-house",
+          "name": "弗里达蓝屋",
+          "en": "Frida Kahlo Museum",
+          "lon": -99.1624,
+          "lat": 19.3552,
+          "country": "墨西哥",
+          "region": "墨西哥城",
+          "relation": "life-work",
+          "summary": "科约阿坎的蓝屋是弗里达生活的重要空间，房间、庭院与个人物件构成理解身体经验和创作的入口。并非所有作品都在这里完成。",
+          "observe": "观察家居、衣饰与庭院如何连接个人生活和墨西哥文化线索。",
+          "source": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2022/08/Biografias-Frida-Kahlo-ingles.pdf",
+          "wiki": "Frida Kahlo Museum"
+        },
+        {
+          "key": "detroit",
+          "name": "底特律",
+          "en": "Detroit",
+          "lon": -83.046,
+          "lat": 42.331,
+          "country": "美国",
+          "region": "密歇根州",
+          "relation": "life",
+          "summary": "弗里达在底特律的经历连接里维拉的壁画工作、工业城市与个人身体经验。城市背景与具体作品的创作、收藏地点需要逐件区分。",
+          "observe": "把工业景观、人物经历和作品题材放在一起读；城市坐标不代表某间病房或画室。",
+          "source": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2022/08/Biografias-Frida-Kahlo-ingles.pdf",
+          "wiki": "Detroit"
+        }
+      ]
+    },
+    {
+      "id": "wu-guanzhong",
+      "name": "吴冠中的游历与写生",
+      "discipline": "painting",
+      "focus": "留学与归国生活之外，以具体作品追索写生地；表现性构图不视为精确摄影。",
+      "tagline": "从江南与巴黎，理解写生如何成为自己的语言。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "yixing",
+          "name": "宜兴",
+          "en": "Yixing",
+          "lon": 119.823,
+          "lat": 31.337,
+          "country": "中国",
+          "region": "江苏",
+          "relation": "life",
+          "summary": "吴冠中出生于宜兴，江南水乡与乡土生活是其艺术经历的重要背景。家乡并不是所有江南题材的具体写生地点。",
+          "observe": "从水面、村落和白墙黑瓦的关系入手，再与其作品的线、点和色块对照。",
+          "source": "https://www.tsinghua.edu.cn/info/1844/73915.htm",
+          "wiki": "Yixing"
+        },
+        {
+          "key": "beaux-arts-paris",
+          "name": "巴黎国立高等美术学院",
+          "en": "Beaux-Arts de Paris",
+          "lon": 2.3335,
+          "lat": 48.8576,
+          "country": "法国",
+          "region": "巴黎",
+          "relation": "life-work",
+          "summary": "吴冠中赴巴黎留学，将西方绘画学习与对故乡的思考带回其创作。学院在本主题中属于求学地点，而不是江南风景的描绘地。",
+          "observe": "把学院周边城市环境和留学经历并读，认识艺术语言形成中的跨文化学习。",
+          "source": "https://www.tsinghua.edu.cn/info/1844/73915.htm",
+          "wiki": "Beaux-Arts de Paris"
+        }
+      ]
+    },
+    {
+      "id": "qi-baishi",
+      "name": "齐白石的五出五归",
+      "discipline": "painting",
+      "focus": "五次出游独立成旅次，结合《借山图》等版本；地点按自述与画院资料继续细化。",
+      "tagline": "从乡居到北京，先认识游历前后的生活环境。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "xiangtan",
+          "name": "湘潭",
+          "en": "Xiangtan",
+          "lon": 112.944,
+          "lat": 27.831,
+          "country": "中国",
+          "region": "湖南",
+          "relation": "life",
+          "summary": "齐白石的乡居、工匠经历与早期绘画学习连接湘潭。五出五归是多次不同旅程，不能将所有省份简单拼成一次行走。",
+          "observe": "从乡土生活与手艺经验理解花鸟、草虫和人物题材；此处是城市区域代表点。",
+          "source": "https://www.bjaa.com.cn/artist.html?artist=319&clg=82&hcs=1",
+          "wiki": "Xiangtan"
+        },
+        {
+          "key": "qi-baishi-beijing",
+          "name": "北京齐白石故居",
+          "en": "Qi Baishi Former Residence",
+          "lon": 116.375,
+          "lat": 39.929,
+          "country": "中国",
+          "region": "北京",
+          "relation": "life-work",
+          "summary": "定居北京后的创作、交往与日常生活构成齐白石艺术生涯的另一阶段。故居是生活线索，不等于他所有作品的制作地点。",
+          "observe": "关注院落、工作空间和日常器物，比较乡居经验与城市生活如何共存。",
+          "source": "https://www.bjaa.com.cn/artist.html?artist=319&clg=82&hcs=1",
+          "wiki": "Former Residence of Qi Baishi"
+        }
+      ]
+    },
+    {
+      "id": "huang-binhong",
+      "name": "黄宾虹的山水纪游",
+      "discipline": "painting",
+      "focus": "反复登临、纪游与晚年创作分层，不能用一张山水画推出唯一作画机位。",
+      "tagline": "新安山川与杭州晚年，在笔墨里彼此呼应。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "huangshan",
+          "name": "黄山",
+          "en": "Huangshan",
+          "lon": 118.167,
+          "lat": 30.133,
+          "country": "中国",
+          "region": "安徽",
+          "relation": "depicted",
+          "summary": "黄宾虹对黄山及新安山川的反复观看，与其山水艺术形成紧密关系。纪游经验与后来的笔墨经营共同构成作品。",
+          "observe": "比较山体层次、云气与密集笔墨，不将画中山路视为可直接行走的路线。",
+          "source": "https://lib.caa.edu.cn/info/1046/1221.htm",
+          "wiki": "Huangshan"
+        },
+        {
+          "key": "hangzhou",
+          "name": "杭州",
+          "en": "Hangzhou",
+          "lon": 120.15,
+          "lat": 30.25,
+          "country": "中国",
+          "region": "浙江",
+          "relation": "life-work",
+          "summary": "杭州的晚年生活与创作，为理解黄宾虹成熟山水提供背景。真实风景与画面中的积墨、点染并不是一对一的复制关系。",
+          "observe": "从西湖周边山水的层次入手，再比较作品如何以笔墨重新组织空间。",
+          "source": "https://lib.caa.edu.cn/info/1046/1221.htm",
+          "wiki": "Hangzhou"
+        }
+      ]
+    },
+    {
+      "id": "feng-zikai",
+      "name": "丰子恺的生活与迁徙",
+      "discipline": "painting",
+      "focus": "缘缘堂、漫画与战时迁徙分别组织，家庭生活不只作附属背景。",
+      "tagline": "漫画的日常，从缘缘堂延伸到战时迁徙。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "yuanyuantang",
+          "name": "石门缘缘堂",
+          "en": "Yuanyuan Hall",
+          "lon": 120.447,
+          "lat": 30.634,
+          "country": "中国",
+          "region": "浙江桐乡",
+          "relation": "life-work",
+          "summary": "缘缘堂连接丰子恺的家庭生活、写作与绘画。今日纪念空间承载后来的修复与展示，不能把所有陈设都视作原样留存。",
+          "observe": "从家人、儿童与日常器物的观察，理解漫画如何在普通生活里发现意味。",
+          "source": "https://www.zjskw.gov.cn/art/2022/1/17/art_1229514868_44595.html",
+          "wiki": "Yuanyuan Hall"
+        },
+        {
+          "key": "chongqing",
+          "name": "重庆",
+          "en": "Chongqing",
+          "lon": 106.552,
+          "lat": 29.563,
+          "country": "中国",
+          "region": "重庆",
+          "relation": "life",
+          "summary": "战时迁徙让丰子恺的生活、写作与家庭经历发生变化。重庆是迁徙网络中的区域节点，省略的沿途地点仍需逐段考证。",
+          "observe": "把时代环境和家庭生活一起读，不将城市代表点当作某一历史住址。",
+          "source": "https://www.zjskw.gov.cn/art/2022/1/17/art_1229514868_44595.html",
+          "wiki": "Chongqing"
+        }
+      ]
+    },
+    {
+      "id": "higashiyama",
+      "name": "东山魁夷的风景旅行",
+      "discipline": "painting",
+      "focus": "按馆藏中的北欧、京都、大和等系列建立作品地点，不把长野馆藏所在地当成所有画中地。",
+      "tagline": "看过的风景，与作品被收藏的地方分开。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "nagano-art",
+          "name": "长野县立美术馆东山魁夷馆",
+          "en": "Nagano Prefectural Art Museum",
+          "lon": 138.188,
+          "lat": 36.663,
+          "country": "日本",
+          "region": "长野",
+          "relation": "collection",
+          "summary": "东山魁夷馆保存、研究并轮换展示其作品。这里是馆藏和阅读入口，不意味着北欧、京都等系列都描绘长野。",
+          "observe": "按作品题名与创作资料辨认地点，先看具体画作再决定是否延伸旅行。",
+          "source": "https://nagano.art.museum/higashiyama_kaii_gallery",
+          "wiki": "Nagano Prefectural Art Museum"
+        },
+        {
+          "key": "toshodaiji",
+          "name": "唐招提寺",
+          "en": "Tōshōdai-ji",
+          "lon": 135.784,
+          "lat": 34.676,
+          "country": "日本",
+          "region": "奈良",
+          "relation": "work",
+          "summary": "东山魁夷为唐招提寺御影堂创作障壁画，将山海与精神性空间结合。它们是为特定建筑构思的作品，并非任意风景画的复制。",
+          "observe": "把画面尺度、建筑与纪念鉴真的语境一起理解；实物展示范围另查寺方。",
+          "source": "https://www.toshodaiji.jp/",
+          "wiki": "Tōshōdai-ji"
+        }
+      ]
+    },
+    {
+      "id": "rivera",
+      "name": "里维拉的壁画地理",
+      "discipline": "painting",
+      "focus": "壁画、工业与公共建筑；原址作品、迁移作品与被毁作品需区别。",
+      "tagline": "壁画与建筑、劳动和工业城市共同阅读。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "dia-detroit",
+          "name": "底特律美术馆",
+          "en": "Detroit Institute of Arts",
+          "lon": -83.0652,
+          "lat": 42.3593,
+          "country": "美国",
+          "region": "底特律",
+          "relation": "work",
+          "summary": "《底特律工业》壁画在美术馆庭院中呈现工厂、劳动者与技术系统。建筑空间与整组壁画的观看关系是作品的一部分。",
+          "observe": "比较多面墙之间的对应，将工业细节与人物群体的组织一起看。",
+          "source": "https://dia.org/collection/detroit-industry-south-wall/58539",
+          "wiki": "Detroit Institute of Arts"
+        },
+        {
+          "key": "mexico-palace",
+          "name": "墨西哥国民宫",
+          "en": "National Palace (Mexico)",
+          "lon": -99.131,
+          "lat": 19.432,
+          "country": "墨西哥",
+          "region": "墨西哥城",
+          "relation": "work",
+          "summary": "里维拉在国民宫的壁画将墨西哥历史展开于公共建筑空间。作品的叙事、政治语境与建筑使用需要一起理解。",
+          "observe": "从墙面之间的历史线索入手，分清原址作品和别处馆藏。",
+          "source": "https://www.gob.mx/hacienda",
+          "wiki": "National Palace (Mexico)"
+        }
+      ]
+    },
+    {
+      "id": "ansel-adams",
+      "name": "安塞尔·亚当斯的国家公园摄影",
+      "discipline": "photography",
+      "focus": "照片、具体地形和历史环境对读；不能让用户按历史摄影位置进入封闭区域。",
+      "tagline": "照片中的山谷，与国家公园的真实地形。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "yosemite-valley",
+          "name": "优胜美地山谷",
+          "en": "Yosemite Valley",
+          "lon": -119.593,
+          "lat": 37.745,
+          "country": "美国",
+          "region": "加利福尼亚州",
+          "relation": "depicted",
+          "summary": "亚当斯与优胜美地的长期联系始于少年旅行，后来延伸到摄影和自然保护。山谷的崖壁、河流与季节变化提供持续的观看材料。",
+          "observe": "比较黑白摄影中的明暗关系与现场地形，不把历史影像当作今日通行条件。",
+          "source": "https://www.nps.gov/yose/learn/historyculture/ansel-adams.htm",
+          "wiki": "Yosemite Valley"
+        },
+        {
+          "key": "glacier-point",
+          "name": "冰川点",
+          "en": "Glacier Point",
+          "lon": -119.574,
+          "lat": 37.727,
+          "country": "美国",
+          "region": "优胜美地",
+          "relation": "depicted",
+          "summary": "山谷上方的眺望点把半圆顶与周边高山放入更广阔的地形关系。它可帮助理解摄影中的尺度与取景选择。",
+          "observe": "只在当前开放的观景与步道范围内观看；不为追求历史机位进入封闭地带。",
+          "source": "https://www.nps.gov/yose/planyourvisit/glacierpoint.htm",
+          "wiki": "Glacier Point"
+        }
+      ]
+    },
+    {
+      "id": "cartier-bresson",
+      "name": "布列松的城市摄影",
+      "discipline": "photography",
+      "focus": "不同年份的摄影任务分线，影像、原始说明和城市变化共同阅读。",
+      "tagline": "同一位摄影师，不同时期的中国城市。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "beijing",
+          "name": "北京",
+          "en": "Beijing",
+          "lon": 116.397,
+          "lat": 39.905,
+          "country": "中国",
+          "region": "北京",
+          "relation": "life-work",
+          "summary": "布列松在中国的摄影任务覆盖社会转折时期的城市日常。北京在这里是拍摄活动的城市节点，具体照片仍应按原始图说定位。",
+          "observe": "比较街头空间与人物动作，不能以城市代表坐标声称复原每张照片机位。",
+          "source": "https://www.henricartierbresson.org/en/expositions/henri-cartier-bresson-chine-1948-1949-1958/",
+          "wiki": "Beijing"
+        },
+        {
+          "key": "shanghai",
+          "name": "上海",
+          "en": "Shanghai",
+          "lon": 121.474,
+          "lat": 31.23,
+          "country": "中国",
+          "region": "上海",
+          "relation": "life-work",
+          "summary": "上海的影像记录包含金融、拥挤街头和普通人的生活。不同年份的任务需分开，不把所有照片压缩成同一次行程。",
+          "observe": "结合照片原始说明阅读城市变化；地点影像是当代环境，不冒充布列松原作。",
+          "source": "https://www.henricartierbresson.org/en/expositions/henri-cartier-bresson-chine-1948-1949-1958/",
+          "wiki": "Shanghai"
+        }
+      ]
+    },
+    {
+      "id": "lee-miller",
+      "name": "李·米勒的摄影与旅居",
+      "discipline": "photography",
+      "focus": "超现实主义、旅居与摄影分期，图像人物、现场与作者经历不混淆。",
+      "tagline": "从埃及旅居，到萨塞克斯的生活与收藏。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "cairo",
+          "name": "开罗",
+          "en": "Cairo",
+          "lon": 31.236,
+          "lat": 30.044,
+          "country": "埃及",
+          "region": "开罗",
+          "relation": "life-work",
+          "summary": "李·米勒在埃及旅居期间继续摄影，遗迹、荒漠与超现实主义观看形成联系。这些照片不是单纯的古迹旅游记录。",
+          "observe": "把画面中的空旷、阴影与构图放在一起看；城市坐标不是摄影现场定位。",
+          "source": "https://www.farleyshouseandgallery.co.uk/event/lee-miller-petrie-egypt/",
+          "wiki": "Cairo"
+        },
+        {
+          "key": "farleys",
+          "name": "法利农舍",
+          "en": "Farley Farm House",
+          "lon": 0.163,
+          "lat": 50.915,
+          "country": "英国",
+          "region": "东萨塞克斯",
+          "relation": "life-work",
+          "summary": "法利农舍连接李·米勒、罗兰·彭罗斯的生活与艺术交往。住宅、作品和档案提供认识摄影师晚年生活的入口。",
+          "observe": "比较家居、艺术收藏与摄影档案，区分私人生活现场与对外展览。",
+          "source": "https://www.farleyshouseandgallery.co.uk/",
+          "wiki": "Farley Farm House"
+        }
+      ]
+    },
+    {
+      "id": "sugimoto",
+      "name": "杉本博司的观看与空间",
+      "discipline": "photography",
+      "focus": "摄影、建筑、海景与天文观察；展示空间和所摄海域必须分别定位。",
+      "tagline": "从海面到天文方向，重新组织观看。",
+      "days": 2,
+      "stops": [
+        {
+          "key": "enoura",
+          "name": "江之浦测候所",
+          "en": "Enoura Observatory",
+          "lon": 139.135,
+          "lat": 35.202,
+          "country": "日本",
+          "region": "小田原",
+          "relation": "work",
+          "summary": "杉本博司构思的空间通过海景、长廊与冬夏至日照方向连接艺术和时间。建筑不是海景照片的背景，而是观看本身的装置。",
+          "observe": "比较不同轴线框住的海平面与天空，留意光如何随季节进入空间。",
+          "source": "https://www.sugimotohiroshi.com/enoura-observatory",
+          "wiki": "Enoura Observatory"
+        },
+        {
+          "key": "sugimoto-glass",
+          "name": "直岛护王神社",
+          "en": "Goō Shrine",
+          "lon": 133.998,
+          "lat": 34.415,
+          "country": "日本",
+          "region": "直岛",
+          "relation": "work",
+          "summary": "杉本博司在家计划中改造神社，把玻璃阶梯与地下空间联系起来。这里是特定地点作品，与他在世界各海域拍摄的照片需要分开。",
+          "observe": "观察地上与地下、透明材料与自然光的关系。",
+          "source": "https://benesse-artsite.jp/en/art/arthouse.html",
+          "wiki": "Goō Shrine"
+        }
+      ]
+    },
+    {
+      "id": "christo-jeanneclaude",
+      "name": "克里斯托与珍妮-克劳德的临时作品",
+      "discipline": "installation",
+      "focus": "当年的作品与今天的地点切换，严格标注已拆除、未实现和永久保存的状态。",
+      "tagline": "作品已经拆除，地点仍留下观看的记忆。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "reichstag",
+          "name": "柏林国会大厦",
+          "en": "Reichstag building",
+          "lon": 13.3762,
+          "lat": 52.5186,
+          "country": "德国",
+          "region": "柏林",
+          "relation": "temporary",
+          "summary": "1995年的《包裹国会大厦》以织物暂时改变建筑的轮廓与城市观看方式。项目已结束，今天看到的是建筑本身，而不是仍在展出的包裹作品。",
+          "observe": "将当年项目资料与现在的建筑对照，明确历史影像与当前现场的区别。",
+          "source": "https://christojeanneclaude.net/artworks/realized-projects/",
+          "wiki": "Reichstag building"
+        },
+        {
+          "key": "lake-iseo",
+          "name": "伊塞奥湖",
+          "en": "Lake Iseo",
+          "lon": 10.073,
+          "lat": 45.721,
+          "country": "意大利",
+          "region": "伦巴第",
+          "relation": "temporary",
+          "summary": "2016年的《漂浮码头》让人短暂地行走在湖面构成的通道上。装置已经拆除，湖与村镇仍可探索，不提供重走原装置的承诺。",
+          "observe": "阅读项目图与湖区地形的关系；图片若显示装置，必须标注历史年份。",
+          "source": "https://christojeanneclaude.net/artworks/realized-projects/",
+          "wiki": "Lake Iseo"
+        }
+      ]
+    },
+    {
+      "id": "turrell",
+      "name": "特瑞尔的光与天空",
+      "discipline": "installation",
+      "focus": "光空间与天文地景；项目未开放或需特殊准入时，不给普通旅游可达承诺。",
+      "tagline": "在黑暗中感知光，也在火山地形里理解尺度。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "minamidera",
+          "name": "直岛南寺",
+          "en": "Minamidera",
+          "lon": 133.996,
+          "lat": 34.416,
+          "country": "日本",
+          "region": "直岛",
+          "relation": "work",
+          "summary": "特瑞尔的光作品与安藤忠雄设计的建筑共同构成南寺体验。暗适应与感知变化是核心，建筑作者和艺术作品作者需要分别标注。",
+          "observe": "留意眼睛如何逐渐感知空间；室内拍摄与参观要求依管理方安排。",
+          "source": "https://benesse-artsite.jp/en/art/arthouse.html",
+          "wiki": "Art House Project"
+        },
+        {
+          "key": "roden-crater",
+          "name": "罗登火山口",
+          "en": "Roden Crater",
+          "lon": -111.258,
+          "lat": 35.426,
+          "country": "美国",
+          "region": "亚利桑那州",
+          "relation": "restricted",
+          "summary": "特瑞尔在火山地形中持续进行的项目，将天空、光线与大地尺度联系起来。它不是可随意进入的常规公共景点。",
+          "observe": "通过官方资料理解空间构思；地图定位不表示普通游客可以现场访问。",
+          "source": "https://rodencrater.com/",
+          "wiki": "Roden Crater"
+        }
+      ]
+    },
+    {
+      "id": "beethoven",
+      "name": "贝多芬的居住地图",
+      "discipline": "music",
+      "focus": "居住、工作和郊游分层；具体作品的创作、首演和手稿收藏另立关系。",
+      "tagline": "故乡、迁居与郊野，组成音乐家的生活地图。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "beethoven-bonn",
+          "name": "波恩贝多芬故居",
+          "en": "Beethoven House",
+          "lon": 7.1005,
+          "lat": 50.737,
+          "country": "德国",
+          "region": "波恩",
+          "relation": "life",
+          "summary": "波恩的出生住宅与馆藏提供认识贝多芬家庭、早年学习和后来声望的入口。展览里的手稿收藏不等于都写于这幢房子。",
+          "observe": "从住宅尺度和家庭环境入手，再按手稿著录区分创作时间与现藏地。",
+          "source": "https://internet.beethoven.de/pdf-sonderausstellung/Von-der-Bonngasse-ins-Schwarzspanierhaus-Brief-Guide.pdf",
+          "wiki": "Beethoven House"
+        },
+        {
+          "key": "beethoven-heiligenstadt",
+          "name": "维也纳海利根施塔特",
+          "en": "Beethoven Museum",
+          "lon": 16.3605,
+          "lat": 48.2563,
+          "country": "奥地利",
+          "region": "维也纳",
+          "relation": "life-work",
+          "summary": "海利根施塔特连接贝多芬的郊居、健康处境与著名书信。周边城市与乡野的关系，为理解音乐家的工作环境提供线索。",
+          "observe": "将书信、居所与郊野生活一起读，不从某首作品的情绪推断唯一创作地点。",
+          "source": "https://www.wienmuseum.at/beethoven_museum",
+          "wiki": "Beethoven Museum"
+        }
+      ]
+    },
+    {
+      "id": "chopin",
+      "name": "肖邦与乔治·桑",
+      "discipline": "music",
+      "focus": "城市生活、乡间夏居和马略卡旅居分年份呈现；不提供未授权演奏录音。",
+      "tagline": "巴黎、诺昂与马略卡，需要分不同年份阅读。",
+      "days": 5,
+      "stops": [
+        {
+          "key": "nohant",
+          "name": "诺昂乔治·桑故居",
+          "en": "House of George Sand",
+          "lon": 1.9755,
+          "lat": 46.625,
+          "country": "法国",
+          "region": "诺昂",
+          "relation": "life-work",
+          "summary": "肖邦在诺昂度过的多个夏季连接乔治·桑的生活与写作环境。乡间居所和巴黎城市生活，提供两种不同的工作节奏。",
+          "observe": "关注房间、庭园与家庭生活，具体作品的完成时间按作品资料核对。",
+          "source": "https://www.chopin.pl/france.en.html",
+          "wiki": "House of George Sand"
+        },
+        {
+          "key": "valldemossa",
+          "name": "瓦尔德莫萨",
+          "en": "Valldemossa",
+          "lon": 2.623,
+          "lat": 39.711,
+          "country": "西班牙",
+          "region": "马略卡岛",
+          "relation": "life-work",
+          "summary": "肖邦与乔治·桑的冬季旅居将山中城镇、气候和个人处境联系起来。它是一次特定旅居，不与诺昂的多年夏居混成连续路线。",
+          "observe": "把小镇与山谷环境和旅行文字对读，区分历史居所、纪念展示与后来的旅游叙事。",
+          "source": "https://www.chopin.pl/france.en.html",
+          "wiki": "Valldemossa"
+        }
+      ]
+    },
+    {
+      "id": "liszt",
+      "name": "李斯特的欧洲居所",
+      "discipline": "music",
+      "focus": "以故居机构和教学、居住、创作关系为基础，再补巡演分期。",
+      "tagline": "出生地与欧洲工作基地，读居住、教学与演奏。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "liszt-raiding",
+          "name": "雷丁李斯特出生地",
+          "en": "Franz Liszt Birthplace",
+          "lon": 16.5304,
+          "lat": 47.5657,
+          "country": "奥地利",
+          "region": "布尔根兰州",
+          "relation": "life",
+          "summary": "雷丁的出生地与后世纪念空间提供李斯特早年背景。今日的文化设施与历史家庭住宅不是同一时期的建筑。",
+          "observe": "比较小村环境、纪念馆和现代演出空间，不把纪念活动当成历史现场。",
+          "source": "https://lisztmuseum.hu/liszt_houses/liszt-houses-124130",
+          "wiki": "Raiding"
+        },
+        {
+          "key": "liszt-weimar",
+          "name": "魏玛李斯特故居",
+          "en": "Liszt House Weimar",
+          "lon": 11.3287,
+          "lat": 50.9738,
+          "country": "德国",
+          "region": "魏玛",
+          "relation": "life-work",
+          "summary": "魏玛与李斯特的创作、指挥和教学相连。故居的房间与乐器展示让人接近音乐家作为教师和工作者的日常。",
+          "observe": "从教学空间、钢琴与学生来访关系入手，区分故居时期和早年巡演。",
+          "source": "https://www.klassik-stiftung.de/en/liszt-house/",
+          "wiki": "Liszt House, Weimar"
+        }
+      ]
+    },
+    {
+      "id": "schumanns",
+      "name": "克拉拉与罗伯特·舒曼",
+      "discipline": "music",
+      "focus": "两人的演奏、创作和家庭生活分别建关系，避免女性艺术家变成附属注释。",
+      "tagline": "把克拉拉与罗伯特视作两位音乐家来读。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "schumann-leipzig",
+          "name": "莱比锡舒曼故居",
+          "en": "Schumann House",
+          "lon": 12.3938,
+          "lat": 51.3388,
+          "country": "德国",
+          "region": "莱比锡",
+          "relation": "life-work",
+          "summary": "莱比锡的共同生活连接克拉拉的演奏事业与罗伯特的创作。家庭空间也是音乐交往空间，不能把克拉拉仅当作另一位作曲家的背景。",
+          "observe": "分别关注演奏、作曲与家庭劳动，阅读两人的不同职业轨迹。",
+          "source": "https://www.schumannhaus.de/en/",
+          "wiki": "Schumann House, Leipzig"
+        },
+        {
+          "key": "dusseldorf",
+          "name": "杜塞尔多夫",
+          "en": "Düsseldorf",
+          "lon": 6.774,
+          "lat": 51.227,
+          "country": "德国",
+          "region": "北莱茵-威斯特法伦",
+          "relation": "life-work",
+          "summary": "舒曼一家1850年迁到杜塞尔多夫，罗伯特承担城市音乐职务。当地音乐制度、家庭处境与克拉拉继续演奏的经历共同构成这一阶段。",
+          "observe": "从城市音乐生活和家庭迁居理解环境，不把每个音乐会场所都称为作品首演地。",
+          "source": "https://www.schumann-portal.de/duesseldorf.html",
+          "wiki": "Düsseldorf"
+        }
+      ]
+    },
+    {
+      "id": "wagner",
+      "name": "瓦格纳的琉森与拜罗伊特",
+      "discipline": "music",
+      "focus": "湖畔工作居所与剧院、音乐节城市比较；工作与现今演出信息分开。",
+      "tagline": "湖畔住宅与节庆剧院，构成不同的工作世界。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "tribschen",
+          "name": "特里布申瓦格纳博物馆",
+          "en": "Richard Wagner Museum",
+          "lon": 8.3297,
+          "lat": 47.04,
+          "country": "瑞士",
+          "region": "卢塞恩",
+          "relation": "life-work",
+          "summary": "卢塞恩湖畔的住宅连接瓦格纳生活和创作的一个阶段。故居与今天的博物馆展示，为理解音乐家在湖畔的工作环境提供线索。",
+          "observe": "看居所、湖岸与展陈之间的关系，作品手稿的收藏不自动证明都写于此。",
+          "source": "https://www.richard-wagner-museum.ch/",
+          "wiki": "Richard Wagner Museum"
+        },
+        {
+          "key": "bayreuth-festspielhaus",
+          "name": "拜罗伊特节日剧院",
+          "en": "Bayreuth Festspielhaus",
+          "lon": 11.579,
+          "lat": 49.9606,
+          "country": "德国",
+          "region": "拜罗伊特",
+          "relation": "work",
+          "summary": "为瓦格纳乐剧演出构思的剧院，将舞台、观众席与乐池关系纳入整体设计。建筑和演出制度共同改变了聆听方式。",
+          "observe": "关注视线、乐池和舞台空间，不把今天的节庆安排视为固定历史节目。",
+          "source": "https://www.bayreuther-festspiele.de/en/",
+          "wiki": "Bayreuth Festspielhaus"
+        }
+      ]
+    },
+    {
+      "id": "mahler",
+      "name": "马勒的作曲小屋",
+      "discipline": "music",
+      "focus": "以湖、森林和山地的具体创作小屋关联作品，不把自然景色说成曲目唯一解释。",
+      "tagline": "用城市工作与夏季作曲小屋理解不同节奏。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "mahler-attersee",
+          "name": "阿特湖作曲小屋",
+          "en": "Gustav Mahler composing hut (Attersee)",
+          "lon": 13.538,
+          "lat": 47.831,
+          "country": "奥地利",
+          "region": "施泰因巴赫",
+          "relation": "life-work",
+          "summary": "马勒在阿特湖畔的夏季停留，将日常生活与专注作曲分开。小屋尺度很小，湖泊与山地则构成广阔的环境。",
+          "observe": "比较小屋、湖岸与周边山体，理解工作节奏而非从音乐直接推定风景含义。",
+          "source": "https://mahler-steinbach.at/",
+          "wiki": "Gustav Mahler composing hut (Attersee)"
+        },
+        {
+          "key": "mahler-dobbiaco",
+          "name": "多比亚科作曲小屋",
+          "en": "Gustav Mahler composing hut (Toblach)",
+          "lon": 12.201,
+          "lat": 46.733,
+          "country": "意大利",
+          "region": "南蒂罗尔",
+          "relation": "life-work",
+          "summary": "多比亚科附近的作曲环境属于马勒较晚的夏季阶段。它与阿特湖小屋跨越不同年份，不能当成一次山地旅行。",
+          "observe": "从农庄、树林和工作空间的距离理解生活安排；标记为区域代表点。",
+          "source": "https://www.gustav-mahler.it/",
+          "wiki": "Gustav Mahler composing hut (Toblach)"
+        }
+      ]
+    },
+    {
+      "id": "dvorak",
+      "name": "德沃夏克的美国经历",
+      "discipline": "music",
+      "focus": "任职、跨洋旅行与1893年乡间停留分开，并明确相应音乐作品的关系证据。",
+      "tagline": "跨过大西洋，音乐与移民生活相遇。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "dvorak-prague",
+          "name": "布拉格德沃夏克博物馆",
+          "en": "Antonín Dvořák Museum",
+          "lon": 14.426,
+          "lat": 50.0732,
+          "country": "捷克",
+          "region": "布拉格",
+          "relation": "collection",
+          "summary": "博物馆通过文献、器物和作品资料介绍德沃夏克。展陈提供生平入口，但馆址不能直接替代他在布拉格不同时期的住居。",
+          "observe": "按年代阅读作品与职业变化，再区分收藏、生活与演出关系。",
+          "source": "https://www.nm.cz/en/visit-us/buildings/antonin-dvorak-museum",
+          "wiki": "Antonín Dvořák Museum"
+        },
+        {
+          "key": "spillville",
+          "name": "斯皮尔维尔",
+          "en": "Spillville, Iowa",
+          "lon": -91.95,
+          "lat": 43.203,
+          "country": "美国",
+          "region": "艾奥瓦州",
+          "relation": "life-work",
+          "summary": "德沃夏克在美国期间曾到访捷克移民聚居的斯皮尔维尔。这里把跨洋音乐经历落到小镇与移民社会，而不只停留在纽约。",
+          "observe": "观察小镇、教堂与社区环境，具体作品关系按传记和手稿资料核实。",
+          "source": "https://www.dvoraknyc.org/bio",
+          "wiki": "Spillville, Iowa"
+        }
+      ]
+    },
+    {
+      "id": "sibelius",
+      "name": "西贝柳斯的芬兰",
+      "discipline": "music",
+      "focus": "成长、城市学习与湖区居住；家园、森林和作品的关系不能替代具体著录。",
+      "tagline": "城市生活与湖区家园，一起构成芬兰音乐地景。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "ainola",
+          "name": "艾诺拉",
+          "en": "Ainola",
+          "lon": 25.0904,
+          "lat": 60.4537,
+          "country": "芬兰",
+          "region": "耶尔文佩",
+          "relation": "life-work",
+          "summary": "西贝柳斯与艾诺的家园位于图苏拉湖地区，住宅、花园和周边艺术家社区彼此关联。这里是家庭生活与创作环境。",
+          "observe": "关注住宅与花园的关系，同时保留艾诺经营家园的独立角色。",
+          "source": "https://www.ainola.fi/en/",
+          "wiki": "Ainola"
+        },
+        {
+          "key": "helsinki",
+          "name": "赫尔辛基",
+          "en": "Helsinki",
+          "lon": 24.938,
+          "lat": 60.169,
+          "country": "芬兰",
+          "region": "赫尔辛基",
+          "relation": "life-work",
+          "summary": "西贝柳斯的求学与音乐事业连接芬兰首都。城市中的纪念设施反映后来的公共记忆，需要与作曲家真实活动年代区分。",
+          "observe": "从音乐教育、演出与城市纪念三个层面认识关系，不把雕像当成故居。",
+          "source": "https://sibelius.fi/en/",
+          "wiki": "Helsinki"
+        }
+      ]
+    },
+    {
+      "id": "grieg",
+      "name": "格里格的卑尔根与峡湾",
+      "discipline": "music",
+      "focus": "庭园小屋与峡湾停留对读，演出日程和住宅修缮状态另查。",
+      "tagline": "从卑尔根的城市生活，到湖边的工作小屋。",
+      "days": 2,
+      "stops": [
+        {
+          "key": "troldhaugen",
+          "name": "特罗尔豪根",
+          "en": "Troldhaugen",
+          "lon": 5.329,
+          "lat": 60.319,
+          "country": "挪威",
+          "region": "卑尔根",
+          "relation": "life-work",
+          "summary": "格里格与妮娜的住宅、庭园和作曲小屋共同保留湖畔生活的线索。作曲、演奏与家庭关系在这里交织。",
+          "observe": "比较主屋与小屋尺度，观察湖面、树林和安静工作空间的关系。",
+          "source": "https://www.kodebergen.no/en/museums/edvard-grieg-museum-troldhaugen",
+          "wiki": "Troldhaugen"
+        },
+        {
+          "key": "bergen",
+          "name": "卑尔根",
+          "en": "Bergen",
+          "lon": 5.325,
+          "lat": 60.392,
+          "country": "挪威",
+          "region": "韦斯特兰",
+          "relation": "life",
+          "summary": "卑尔根是格里格成长和音乐生活的重要城市。港口城市的社会环境可与特罗尔豪根的郊居形成对照。",
+          "observe": "将城市音乐生活与湖边住宅分别安排，不把两者合成未经考证的日常步行路线。",
+          "source": "https://www.kodebergen.no/en/museums/troldhaugen",
+          "wiki": "Bergen"
+        }
+      ]
+    },
+    {
+      "id": "mendelssohn",
+      "name": "门德尔松的苏格兰旅行",
+      "discipline": "music",
+      "focus": "按1829年旅行记录核对次序，关联《赫布里底群岛》与《苏格兰交响曲》，作品完成时间另注。",
+      "tagline": "城市古迹与海岛声响，如何进入音乐想象。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "holyrood",
+          "name": "荷里路德修道院",
+          "en": "Holyrood Abbey",
+          "lon": -3.17,
+          "lat": 55.9525,
+          "country": "英国",
+          "region": "爱丁堡",
+          "relation": "life-work",
+          "summary": "门德尔松的苏格兰旅行把他带到爱丁堡的历史建筑。旅行印象与后来的交响曲构思相连，但作品完成并非等同于现场日期。",
+          "observe": "把残存建筑、城市历史和旅行文字对读，区分灵感与完成作品。",
+          "source": "https://www.mendelssohninscotland.com/",
+          "wiki": "Holyrood Abbey"
+        },
+        {
+          "key": "staffa",
+          "name": "斯塔法岛与芬格尔洞",
+          "en": "Staffa",
+          "lon": -6.34,
+          "lat": 56.435,
+          "country": "英国",
+          "region": "内赫布里底群岛",
+          "relation": "life-work",
+          "summary": "海蚀洞与玄武岩柱形成独特的空间和回声，和《赫布里底群岛》序曲的旅行背景相关。海况会影响实际登陆。",
+          "observe": "在管理方允许范围内感受柱状岩壁与声响；现场声音不是乐曲的原样复制。",
+          "source": "https://www.nts.org.uk/visit/places/staffa",
+          "wiki": "Staffa"
+        }
+      ]
+    },
+    {
+      "id": "puccini",
+      "name": "普契尼的托斯卡纳",
+      "discipline": "music",
+      "focus": "出生地、湖畔居所与晚年海滨生活，避免从歌剧异国背景反推作者到访。",
+      "tagline": "出生的城市与湖畔居所，读歌剧家的托斯卡纳。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "puccini-lucca",
+          "name": "卢卡普契尼故居",
+          "en": "Puccini Museum",
+          "lon": 10.5015,
+          "lat": 43.8425,
+          "country": "意大利",
+          "region": "卢卡",
+          "relation": "life",
+          "summary": "卢卡的出生住宅与博物馆展示连接普契尼的家庭和早期音乐环境。城镇、教堂音乐与后来的歌剧职业可以分阶段阅读。",
+          "observe": "从家居、音乐教育和城市空间入手，不把所有歌剧背景当作作者旅行目的地。",
+          "source": "https://www.puccinimuseum.org/en/",
+          "wiki": "Puccini Museum"
+        },
+        {
+          "key": "torre-del-lago",
+          "name": "托雷德尔拉戈",
+          "en": "Torre del Lago",
+          "lon": 10.293,
+          "lat": 43.828,
+          "country": "意大利",
+          "region": "马萨丘科利湖畔",
+          "relation": "life-work",
+          "summary": "湖畔居所连接普契尼的生活与创作。湖面、芦苇和小镇为认识工作环境提供线索，不等于其歌剧故事都发生在这里。",
+          "observe": "比较家屋与湿地景观的关系；实物、墓葬与演出活动分别查馆方安排。",
+          "source": "https://www.puccinimuseum.org/en/",
+          "wiki": "Torre del Lago"
+        }
+      ]
+    },
+    {
+      "id": "handel",
+      "name": "亨德尔的音乐城市",
+      "discipline": "music",
+      "focus": "跨国职业生涯与剧院、居所；意大利具体城市必须补生平与作品资料后再定位。",
+      "tagline": "从哈雷到伦敦，读跨国职业与城市音乐。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "handel-halle",
+          "name": "哈雷亨德尔故居",
+          "en": "Handel House",
+          "lon": 11.967,
+          "lat": 51.484,
+          "country": "德国",
+          "region": "哈雷",
+          "relation": "life",
+          "summary": "亨德尔出生地的博物馆把城市、家庭与早期音乐环境联系起来。展览里的乐器与文献需要按具体年代和来源阅读。",
+          "observe": "先看出生住宅和城市背景，再追踪后来意大利与英国的职业阶段。",
+          "source": "https://haendelhaus.de/en/hh/handel-life-music",
+          "wiki": "Handel House"
+        },
+        {
+          "key": "handel-london",
+          "name": "伦敦亨德尔故居",
+          "en": "Handel & Hendrix in London",
+          "lon": -0.1478,
+          "lat": 51.5138,
+          "country": "英国",
+          "region": "伦敦",
+          "relation": "life-work",
+          "summary": "布鲁克街的住宅连接亨德尔在伦敦的长期创作与工作。与哈雷出生地相比，这里呈现成熟音乐家所处的城市商业音乐环境。",
+          "observe": "从房间、工作和剧场网络理解职业生活，博物馆展陈不是历史演出时间表。",
+          "source": "https://handelhendrix.org/",
+          "wiki": "Handel & Hendrix in London"
+        }
+      ]
+    },
+    {
+      "id": "su-shi",
+      "name": "苏轼的任职与贬谪",
+      "discipline": "literature",
+      "focus": "江南、黄州和岭南分线，诗文、地方生活和水利关系分别说明。",
+      "tagline": "把任职、贬谪与地方生活，放回各自的山水。",
+      "days": 5,
+      "stops": [
+        {
+          "key": "huangzhou",
+          "name": "黄州",
+          "en": "Huangzhou District",
+          "lon": 114.88,
+          "lat": 30.454,
+          "country": "中国",
+          "region": "湖北黄冈",
+          "relation": "life-work",
+          "summary": "黄州时期的苏轼在困顿中经营生活，也写下赤壁题材与日常行旅诗文。文赤壁的文学记忆与三国战场的考证不能混为一谈。",
+          "observe": "从江岸、城镇与日常生活阅读文字，不把文学想象视作战场地图。",
+          "source": "https://ccdijl.gov.cn/ztjc/ljwh/202106/t20210629_8121411.html",
+          "wiki": "Huangzhou District"
+        },
+        {
+          "key": "danzhou",
+          "name": "儋州",
+          "en": "Danzhou",
+          "lon": 109.58,
+          "lat": 19.52,
+          "country": "中国",
+          "region": "海南",
+          "relation": "life-work",
+          "summary": "苏轼在海南的贬谪经历连接写作、教学与地方交往。它与黄州属于不同年代，不应被包装成一次顺畅的度假旅行。",
+          "observe": "结合时代处境看地方生活；城市代表点不替代具体历史住所。",
+          "source": "https://ccdijl.gov.cn/ztjc/ljwh/202106/t20210629_8121411.html",
+          "wiki": "Danzhou"
+        }
+      ]
+    },
+    {
+      "id": "li-bai",
+      "name": "李白的山川游历",
+      "discipline": "literature",
+      "focus": "先以文化城市联盟建立线索，再按旅次和具体诗文考证；联盟成员不等于完整历史路线。",
+      "tagline": "宣城的山与水，分别走进不同诗篇。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "jingting",
+          "name": "敬亭山",
+          "en": "Mount Jingting",
+          "lon": 118.735,
+          "lat": 30.986,
+          "country": "中国",
+          "region": "安徽宣城",
+          "relation": "depicted",
+          "summary": "敬亭山在李白诗中成为可以相对凝视的存在。山林与城市边缘的关系，让读者从具体地景走向诗人的观看方式。",
+          "observe": "从公共游步道感受山形与松风，诗句并不提供唯一观景机位。",
+          "source": "https://www.xinhuanet.com/photo/20250602/c9a5651a7b494c89b008330546030730/c.html",
+          "wiki": "Mount Jingting"
+        },
+        {
+          "key": "taohuatan",
+          "name": "桃花潭",
+          "en": "Taohuatan",
+          "lon": 118.135,
+          "lat": 30.481,
+          "country": "中国",
+          "region": "安徽泾县",
+          "relation": "depicted",
+          "summary": "《赠汪伦》让桃花潭的水与送别情谊共同留在文学记忆中。今天的文化景区与唐代渡岸生活，需要分层认识。",
+          "observe": "从潭水、岸边与渡口意象理解送别，不将后建纪念物当作唐代遗存。",
+          "source": "https://www.xinhuanet.com/photo/20250602/c9a5651a7b494c89b008330546030730/c.html",
+          "wiki": "Taohuatan, Jing County"
+        }
+      ]
+    },
+    {
+      "id": "du-fu",
+      "name": "杜甫的漂泊",
+      "discipline": "literature",
+      "focus": "时代、迁居与长江地景；诗歌题名、写作地和诗中所见分开。",
+      "tagline": "草堂生活与长江漂泊，不能压成同一段日程。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "dufu-cottage",
+          "name": "成都杜甫草堂",
+          "en": "Du Fu Thatched Cottage",
+          "lon": 104.028,
+          "lat": 30.66,
+          "country": "中国",
+          "region": "四川成都",
+          "relation": "life-memorial",
+          "summary": "草堂连接杜甫在成都的生活与诗歌，也经历后世持续修建与纪念。今天的园林与祠宇不是唐代茅屋原封不动地保存。",
+          "observe": "区分诗人生活线索、唐代遗址与后建纪念园林，读建筑与诗歌如何相互塑造。",
+          "source": "https://www.cddfct.cn/",
+          "wiki": "Du Fu Thatched Cottage"
+        },
+        {
+          "key": "yueyang-tower",
+          "name": "岳阳楼",
+          "en": "Yueyang Tower",
+          "lon": 113.088,
+          "lat": 29.381,
+          "country": "中国",
+          "region": "湖南岳阳",
+          "relation": "depicted",
+          "summary": "《登岳阳楼》把洞庭湖的壮阔与诗人的处境放在同一视野中。楼与湖提供阅读入口，今日楼体则有后世重修历史。",
+          "observe": "从湖面、楼阁与远方水天关系理解诗的尺度，不把现有建筑等同于唐代原物。",
+          "source": "https://yueyang.gov.cn/",
+          "wiki": "Yueyang Tower"
+        }
+      ]
+    },
+    {
+      "id": "wang-wei",
+      "name": "王维的山水与辋川",
+      "discipline": "literature",
+      "focus": "诗中景物、历史遗址与后世重建分层，不伪造《辋川集》二十景的精确GPS。",
+      "tagline": "诗中的辋川，与长安附近的山水。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "lantian",
+          "name": "蓝田辋川区域",
+          "en": "Lantian County",
+          "lon": 109.323,
+          "lat": 34.153,
+          "country": "中国",
+          "region": "陕西西安",
+          "relation": "life-work",
+          "summary": "辋川是王维山水诗与生活的重要地理背景。《辋川集》的多个地名涉及历史地景，不能未经考证就落成当代精确景点。",
+          "observe": "以蓝田山水区域阅读诗作，保留旧地名位置的不确定性。",
+          "source": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_16a.pdf",
+          "wiki": "Lantian County"
+        },
+        {
+          "key": "zhongnan",
+          "name": "终南山",
+          "en": "Zhongnan Mountains",
+          "lon": 108.9,
+          "lat": 33.95,
+          "country": "中国",
+          "region": "陕西秦岭北麓",
+          "relation": "depicted",
+          "summary": "终南山在王维诗中既是可感知的山体，也承载居处、远望与隐逸的意义。连绵山地不能缩成一处唯一作诗机位。",
+          "observe": "比较山麓、云气与视线层次；地图为山地代表点，不提供登山路线。",
+          "source": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_16a.pdf",
+          "wiki": "Zhongnan Mountains"
+        }
+      ]
+    },
+    {
+      "id": "bai-juyi",
+      "name": "白居易的城市与山水",
+      "discipline": "literature",
+      "focus": "任职、湖泊和晚年生活分别与具体诗文关联，避免把今日景点名直接等同唐代位置。",
+      "tagline": "杭州与苏州，两座水城的任职和诗歌。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "hangzhou",
+          "name": "杭州",
+          "en": "Hangzhou",
+          "lon": 120.15,
+          "lat": 30.25,
+          "country": "中国",
+          "region": "浙江",
+          "relation": "life-work",
+          "summary": "白居易任职杭州的经历连接诗歌、城市水利与西湖生活。文学记忆与后世地名沿用之间，仍需区分历史时期。",
+          "observe": "把湖岸、城市和水利关系一起读，不以今天景区名称证明所有唐代传说。",
+          "source": "https://www.hzarchives.org.cn/info/4733",
+          "wiki": "Hangzhou"
+        },
+        {
+          "key": "suzhou",
+          "name": "苏州",
+          "en": "Suzhou",
+          "lon": 120.585,
+          "lat": 31.299,
+          "country": "中国",
+          "region": "江苏",
+          "relation": "life-work",
+          "summary": "苏州任职是白居易生涯的另一阶段。水路、街巷与城市日常可与杭州对照，但不把两次任职当作一次游船行程。",
+          "observe": "从城河、桥与街区的关系理解诗文里的生活尺度。",
+          "source": "https://www.suzhou.gov.cn/",
+          "wiki": "Suzhou"
+        }
+      ]
+    },
+    {
+      "id": "lu-you",
+      "name": "陆游《入蜀记》",
+      "discipline": "literature",
+      "focus": "以原文逐日核对1170年水路旅程，再转成现代可探索的分段行程。",
+      "tagline": "《入蜀记》是一段旅程，也是一份观察地方的文本。",
+      "days": 5,
+      "stops": [
+        {
+          "key": "shaoxing",
+          "name": "绍兴",
+          "en": "Shaoxing",
+          "lon": 120.582,
+          "lat": 29.997,
+          "country": "中国",
+          "region": "浙江",
+          "relation": "life",
+          "summary": "陆游的家乡与出行背景连接绍兴。《入蜀记》从具体日期和沿途见闻展开，完整旅次仍需逐日对照原文，不能仅用起终点代替。",
+          "observe": "从水乡、家居与旅行准备理解出发背景；这里只标区域节点。",
+          "source": "https://ctext.org/wiki.pl?if=gb&remap=gb&res=210837",
+          "wiki": "Shaoxing"
+        },
+        {
+          "key": "fengjie",
+          "name": "奉节与夔州区域",
+          "en": "Fengjie County",
+          "lon": 109.464,
+          "lat": 31.019,
+          "country": "中国",
+          "region": "重庆",
+          "relation": "life-work",
+          "summary": "赴夔州任职的旅程把陆游带入长江峡谷世界。古今城址、水位与交通发生过变化，现代访问线不能直接称作原样重走。",
+          "observe": "结合日记看山川、城镇与行旅条件，另查当代沿江交通。",
+          "source": "https://ctext.org/wiki.pl?if=gb&remap=gb&res=210837",
+          "wiki": "Fengjie County"
+        }
+      ]
+    },
+    {
+      "id": "shen-congwen",
+      "name": "沈从文《湘行散记》",
+      "discipline": "literature",
+      "focus": "1934年归乡水路、书信和散文分读，《边城》的小说地景另作子线。",
+      "tagline": "湘西的故乡，与沿沅水观察地方的文字。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "fenghuang",
+          "name": "凤凰古城",
+          "en": "Fenghuang County",
+          "lon": 109.6,
+          "lat": 27.948,
+          "country": "中国",
+          "region": "湖南",
+          "relation": "life",
+          "summary": "凤凰连接沈从文的成长经验与后来对湘西的写作。真实城镇与小说中的地方世界相关，但不是每个小说人物都能在古城找到原型。",
+          "observe": "从河流、街巷和地方生活阅读文字，分清故乡经验与虚构叙事。",
+          "source": "https://www.chinawriter.com.cn/n1/2020/0730/c419384-31803389.html",
+          "wiki": "Fenghuang County"
+        },
+        {
+          "key": "changde",
+          "name": "常德",
+          "en": "Changde",
+          "lon": 111.699,
+          "lat": 29.032,
+          "country": "中国",
+          "region": "湖南",
+          "relation": "life-work",
+          "summary": "沅水流域的往返与观察进入《湘行散记》。常德是理解区域水路和地方生活的入口，不能代替书中所有沿岸小站。",
+          "observe": "把渡口、河岸与文本中的劳动和人物一起看，保留沿途细化空间。",
+          "source": "https://www.chinawriter.com.cn/n1/2020/0730/c419384-31803389.html",
+          "wiki": "Changde"
+        }
+      ]
+    },
+    {
+      "id": "xiao-hong",
+      "name": "萧红的流动人生",
+      "discipline": "literature",
+      "focus": "记忆地、迁居地和写作地分别显示，不把《呼兰河传》的成书地放回呼兰。",
+      "tagline": "从呼兰的记忆，到哈尔滨的生活与写作。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "hulan",
+          "name": "呼兰",
+          "en": "Hulan District",
+          "lon": 126.59,
+          "lat": 45.89,
+          "country": "中国",
+          "region": "黑龙江哈尔滨",
+          "relation": "life",
+          "summary": "呼兰的童年经验后来进入萧红的文学世界。《呼兰河传》的叙述带有记忆与艺术组织，不能当作逐户可核对的旅游指南。",
+          "observe": "从小城、庭院与季节感理解记忆中的地方，不将小说人物等同于历史居民。",
+          "source": "https://www.xinhuanet.com/politics/20260423/8c88d7cdfd064821b454a44dcf3f1495/c.html",
+          "wiki": "Hulan District"
+        },
+        {
+          "key": "harbin",
+          "name": "哈尔滨",
+          "en": "Harbin",
+          "lon": 126.642,
+          "lat": 45.757,
+          "country": "中国",
+          "region": "黑龙江",
+          "relation": "life-work",
+          "summary": "哈尔滨的生活、交往与早期创作属于萧红人生的重要阶段。它和童年呼兰、之后的多次迁居分别处于不同时间。",
+          "observe": "把城市街区与早期写作背景并读；区域代表点不冒充具体住址。",
+          "source": "https://www.xinhuanet.com/politics/20260423/8c88d7cdfd064821b454a44dcf3f1495/c.html",
+          "wiki": "Harbin"
+        }
+      ]
+    },
+    {
+      "id": "basho",
+      "name": "芭蕉《奥之细道》",
+      "discipline": "literature",
+      "focus": "按旅次、俳句和当代地方资料核对，文学整理时间不等于旅行日期。",
+      "tagline": "《奥之细道》中的山海与古迹，先从代表节点读起。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "matsushima",
+          "name": "松岛",
+          "en": "Matsushima",
+          "lon": 141.063,
+          "lat": 38.37,
+          "country": "日本",
+          "region": "宫城县",
+          "relation": "life-work",
+          "summary": "松岛的岛屿、水面与远近层次进入芭蕉旅行的文学观看。文字中的感受与地理景观相连，却不是逐步导航。",
+          "observe": "从海湾多层岛影阅读旅行文字，分清当代交通与历史旅程。",
+          "source": "https://www.mlit.go.jp/tagengo-db/en/R3-00494.html",
+          "wiki": "Matsushima"
+        },
+        {
+          "key": "yamadera",
+          "name": "山寺立石寺",
+          "en": "Yamadera",
+          "lon": 140.437,
+          "lat": 38.312,
+          "country": "日本",
+          "region": "山形县",
+          "relation": "life-work",
+          "summary": "山寺的岩壁、寺院与山林为理解芭蕉旅途中关于静与声的感知提供入口。名句的文学空间不能只化为一个拍照机位。",
+          "observe": "沿正式参道观察山体与建筑的关系，聆听环境声而非寻找固定诗意模板。",
+          "source": "https://www.mlit.go.jp/tagengo-db/en/R3-00494.html",
+          "wiki": "Yamadera"
+        }
+      ]
+    },
+    {
+      "id": "kawabata",
+      "name": "川端康成的文学地景",
+      "discipline": "literature",
+      "focus": "《伊豆的舞女》《雪国》与真实居所分别建子线，不跨作品拼接人物行程。",
+      "tagline": "伊豆与越后汤泽属于不同作品的文学地景。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "amagi",
+          "name": "天城山与伊豆山地",
+          "en": "Mount Amagi",
+          "lon": 139.001,
+          "lat": 34.863,
+          "country": "日本",
+          "region": "静冈县",
+          "relation": "fiction-life",
+          "summary": "《伊豆的舞女》的旅行叙事与伊豆山地有关。人物的遭遇是小说世界，真实山路与作者经历可以对读，但不能画等号。",
+          "observe": "比较山口、聚落与道路的空间关系，不把小说行程直接当作现行步道。",
+          "source": "https://amagigoe.jp/bungaku/",
+          "wiki": "Mount Amagi"
+        },
+        {
+          "key": "echigo-yuzawa",
+          "name": "越后汤泽",
+          "en": "Yuzawa, Niigata",
+          "lon": 138.818,
+          "lat": 36.934,
+          "country": "日本",
+          "region": "新潟县",
+          "relation": "fiction-life",
+          "summary": "《雪国》让越后汤泽的山地、降雪与温泉生活成为文学入口。作品中的人物关系和当代温泉街属于不同层面的现实。",
+          "observe": "从山地季节和城镇尺度理解小说氛围，区分文学叙事与旅游展示。",
+          "source": "https://www.e-yuzawa.gr.jp/",
+          "wiki": "Yuzawa, Niigata"
+        }
+      ]
+    },
+    {
+      "id": "soseki",
+      "name": "夏目漱石的迁居与留学",
+      "discipline": "literature",
+      "focus": "教学、留学和回国创作分期；小说故事与作者真实经历对读但不画等号。",
+      "tagline": "教学城市与伦敦留学，各自塑造不同的观看。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "matsuyama",
+          "name": "松山",
+          "en": "Matsuyama",
+          "lon": 132.766,
+          "lat": 33.84,
+          "country": "日本",
+          "region": "爱媛县",
+          "relation": "life-work",
+          "summary": "漱石在松山的教学经历与《少爷》的阅读常被并置。小说并非学校经历的逐字记录，人物也不直接等于真实同事。",
+          "observe": "把城镇、学校与温泉生活作为背景，保留虚构与亲历之间的距离。",
+          "source": "https://www.edo-tokyo-museum.or.jp/s-exhibition/soseki/",
+          "wiki": "Matsuyama"
+        },
+        {
+          "key": "london",
+          "name": "伦敦",
+          "en": "London",
+          "lon": -0.128,
+          "lat": 51.507,
+          "country": "英国",
+          "region": "伦敦",
+          "relation": "life-work",
+          "summary": "伦敦留学是漱石人生中独特的跨文化阶段。城市规模、阅读与孤独经验提供理解其回国后写作的背景。",
+          "observe": "从留学生活与阅读环境理解城市关系；代表坐标不是故居地址。",
+          "source": "https://www.edo-tokyo-museum.or.jp/s-exhibition/soseki/",
+          "wiki": "London"
+        }
+      ]
+    },
+    {
+      "id": "goethe",
+      "name": "歌德《意大利游记》",
+      "discipline": "literature",
+      "focus": "旅行文字、速写和古典遗址，先复核书中次序再绘制历史旅次。",
+      "tagline": "从罗马的生活，走向南方的旅行观察。",
+      "days": 5,
+      "stops": [
+        {
+          "key": "goethe-rome",
+          "name": "罗马歌德之家",
+          "en": "Casa di Goethe",
+          "lon": 12.4782,
+          "lat": 41.9092,
+          "country": "意大利",
+          "region": "罗马",
+          "relation": "life-work",
+          "summary": "罗马住所与《意大利游记》的阅读相连，提供歌德研究古典艺术、观察城市与结交艺术家的线索。今天的机构同时承担纪念与研究。",
+          "observe": "结合文字、速写和城市古迹，看旅行者如何重新理解艺术与自身。",
+          "source": "https://casadigoethe.it/en/",
+          "wiki": "Casa di Goethe"
+        },
+        {
+          "key": "naples",
+          "name": "那不勒斯",
+          "en": "Naples",
+          "lon": 14.258,
+          "lat": 40.852,
+          "country": "意大利",
+          "region": "坎帕尼亚",
+          "relation": "life-work",
+          "summary": "歌德的南方旅行将城市、海湾与自然观察结合。它与罗马的生活构成不同经验，具体次序应依据游记，地图不冒充完整历史轨迹。",
+          "observe": "把城市生活、海岸与火山放入同一地理关系，再对读旅行文字。",
+          "source": "https://casadigoethe.it/en/",
+          "wiki": "Naples"
+        }
+      ]
+    },
+    {
+      "id": "hugo",
+      "name": "雨果的巴黎与流亡",
+      "discipline": "literature",
+      "focus": "城市与海岛居所、流亡写作和室内设计；根西岛不是法国或英国本土节点。",
+      "tagline": "巴黎的生活空间，与根西岛的流亡写作。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "hugo-paris",
+          "name": "巴黎雨果故居",
+          "en": "Maison de Victor Hugo",
+          "lon": 2.366,
+          "lat": 48.855,
+          "country": "法国",
+          "region": "巴黎",
+          "relation": "life-memorial",
+          "summary": "孚日广场的居所连接雨果在巴黎的生活与公共形象。后来的纪念展陈会整合不同年代材料，需要与实际居住阶段区分。",
+          "observe": "从室内设计、家庭和写作线索阅读故居，不把小说中的巴黎全定位于此。",
+          "source": "https://www.maisonsvictorhugo.paris.fr/en/paris",
+          "wiki": "Maison de Victor Hugo"
+        },
+        {
+          "key": "hauteville",
+          "name": "欧特维尔故居",
+          "en": "Hauteville House",
+          "lon": -2.535,
+          "lat": 49.451,
+          "country": "根西岛",
+          "region": "圣彼得港",
+          "relation": "life-work",
+          "summary": "雨果在根西岛流亡期间的住宅兼具生活、设计与写作空间。岛屿与法国本土不同，跨海生活也与政治处境相连。",
+          "observe": "观察室内陈设与面向海面的空间，理解作家如何塑造自己的居住世界。",
+          "source": "https://www.maisonsvictorhugo.paris.fr/en/guernesey/house",
+          "wiki": "Hauteville House"
+        }
+      ]
+    },
+    {
+      "id": "byron",
+      "name": "拜伦的湖畔与希腊",
+      "discipline": "literature",
+      "focus": "1816年瑞士旅程与后期希腊经历分组；诗中人物经历不冒充作者亲历。",
+      "tagline": "湖畔的文学想象，与希腊的晚年经历分开。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "chillon",
+          "name": "希永城堡",
+          "en": "Chillon Castle",
+          "lon": 6.927,
+          "lat": 46.414,
+          "country": "瑞士",
+          "region": "日内瓦湖畔",
+          "relation": "life-work",
+          "summary": "拜伦的瑞士旅行与《希永的囚徒》相连，但诗中囚徒的经历并非拜伦本人被囚的自传。城堡、历史人物与文学改写应分别阅读。",
+          "observe": "从地牢、湖面和建筑位置理解文本中的空间，不把叙述者视为作者本人。",
+          "source": "https://www.chillon.ch/en/exposition/1816-2016-byron-is-back/",
+          "wiki": "Chillon Castle"
+        },
+        {
+          "key": "missolonghi",
+          "name": "米索隆吉",
+          "en": "Missolonghi",
+          "lon": 21.429,
+          "lat": 38.369,
+          "country": "希腊",
+          "region": "西希腊",
+          "relation": "life",
+          "summary": "拜伦晚年的希腊经历与独立运动相连，与1816年的瑞士旅程相隔多年。地方纪念空间反映其后来的公共记忆。",
+          "observe": "把政治历史、城市与纪念设施并读，分清生平事件与后世纪念。",
+          "source": "https://www.byronsociety.org/",
+          "wiki": "Missolonghi"
+        }
+      ]
+    },
+    {
+      "id": "wordsworth",
+      "name": "华兹华斯的湖区",
+      "discipline": "literature",
+      "focus": "诗歌、日记与步行景观；明确威廉和多萝西的不同作者关系。",
+      "tagline": "从鸽舍到莱德尔，诗歌与家庭日常彼此交织。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "dove-cottage",
+          "name": "鸽舍",
+          "en": "Dove Cottage",
+          "lon": -3.018,
+          "lat": 54.453,
+          "country": "英国",
+          "region": "湖区格拉斯米尔",
+          "relation": "life-work",
+          "summary": "威廉与多萝西在鸽舍的生活连接诗歌、日记、家务与步行。两人的写作各有作者身份，不能把日记的观察全部转归威廉。",
+          "observe": "从小住宅与周边步行环境入手，同时阅读诗与多萝西的日记。",
+          "source": "https://wordsworth.org.uk/",
+          "wiki": "Dove Cottage"
+        },
+        {
+          "key": "rydal-mount",
+          "name": "莱德尔山庄",
+          "en": "Rydal Mount",
+          "lon": -2.982,
+          "lat": 54.448,
+          "country": "英国",
+          "region": "湖区",
+          "relation": "life-work",
+          "summary": "较晚的住宅与庭园呈现华兹华斯家庭生活的另一阶段。它与鸽舍共享湖区环境，却不能压缩为同一时期的生活。",
+          "observe": "比较住宅、庭园和山湖视线，留意不同生命阶段的居住变化。",
+          "source": "https://www.rydalmount.co.uk/",
+          "wiki": "Rydal Mount"
+        }
+      ]
+    },
+    {
+      "id": "dickens",
+      "name": "狄更斯的英国",
+      "discipline": "literature",
+      "focus": "作家生活、写作地点与小说中的真实街区分开，影视取景另标。",
+      "tagline": "伦敦的写作生活，与海边的另一段日常。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "dickens-london",
+          "name": "伦敦狄更斯博物馆",
+          "en": "Charles Dickens Museum",
+          "lon": -0.1167,
+          "lat": 51.5234,
+          "country": "英国",
+          "region": "伦敦",
+          "relation": "life-work",
+          "summary": "道蒂街住宅连接狄更斯早期成功时期的家庭与写作。博物馆里的作品、器物和展示分别属于不同来源与年代。",
+          "observe": "从居所尺度与城市生活理解写作条件，不把所有伦敦小说情节当作亲历。",
+          "source": "https://dickensmuseum.com/",
+          "wiki": "Charles Dickens Museum"
+        },
+        {
+          "key": "dickens-broadstairs",
+          "name": "布罗德斯泰斯",
+          "en": "Broadstairs",
+          "lon": 1.441,
+          "lat": 51.359,
+          "country": "英国",
+          "region": "肯特郡",
+          "relation": "life-work",
+          "summary": "海边小镇与狄更斯的停留、写作和后世纪念相关。真实住宅、小说联想与旅游命名需要分别核对。",
+          "observe": "把海湾、住宅与城镇日常结合阅读，避免从后来的馆名反推唯一小说原型。",
+          "source": "https://dickensmuseum.com/pages/links",
+          "wiki": "Broadstairs"
+        }
+      ]
+    },
+    {
+      "id": "kafka",
+      "name": "卡夫卡的城市与生活",
+      "discipline": "literature",
+      "focus": "真实生活与纪念空间，小说《城堡》等不擅自定位为某座真实建筑。",
+      "tagline": "真实生活地点，与不能被轻易定位的小说世界。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "prague",
+          "name": "布拉格",
+          "en": "Prague",
+          "lon": 14.421,
+          "lat": 50.087,
+          "country": "捷克",
+          "region": "布拉格",
+          "relation": "life-work",
+          "summary": "卡夫卡的家庭、工作与写作深深连接布拉格。城市中的纪念路线可提供入口，但《城堡》等虚构空间不能直接认定为某座真实建筑。",
+          "observe": "从工作、居住和语言环境理解城市关系，区分真实地址与文学投射。",
+          "source": "https://www.goethe.de/prj/zei/en/art/25237193.html",
+          "wiki": "Prague"
+        },
+        {
+          "key": "kierling",
+          "name": "克洛斯特新堡基尔灵",
+          "en": "Kierling",
+          "lon": 16.27,
+          "lat": 48.31,
+          "country": "奥地利",
+          "region": "下奥地利州",
+          "relation": "life-memorial",
+          "summary": "基尔灵与卡夫卡生命最后阶段的疗养经历相连。纪念空间记录的是具体生平关系，不是小说中疾病与异化的唯一解释。",
+          "observe": "结合生平资料认识疗养地点，不把文学主题简化为某一事件的直接写照。",
+          "source": "https://www.kafka-gesellschaft.at/",
+          "wiki": "Kierling"
+        }
+      ]
+    },
+    {
+      "id": "joyce",
+      "name": "乔伊斯的城市网络",
+      "discipline": "literature",
+      "focus": "生平迁居网络与《尤利西斯》一日都柏林分成不同图层。",
+      "tagline": "把真实迁居与《尤利西斯》的一日都柏林分开。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "joyce-dublin",
+          "name": "都柏林乔伊斯中心",
+          "en": "James Joyce Centre",
+          "lon": -6.26,
+          "lat": 53.356,
+          "country": "爱尔兰",
+          "region": "都柏林",
+          "relation": "memorial",
+          "summary": "中心为理解乔伊斯与都柏林的关系提供资料入口。《尤利西斯》中的一日城市旅程，属于小说人物的行动而非作者一次真实散步。",
+          "observe": "先看作品时间、人物与地名，再决定是否沿小说地点步行。",
+          "source": "https://jamesjoyce.ie/james-joyce/",
+          "wiki": "James Joyce Centre"
+        },
+        {
+          "key": "trieste",
+          "name": "的里雅斯特",
+          "en": "Trieste",
+          "lon": 13.77,
+          "lat": 45.65,
+          "country": "意大利",
+          "region": "弗留利-威尼斯朱利亚",
+          "relation": "life-work",
+          "summary": "乔伊斯在的里雅斯特的工作与写作连接多语港口城市的生活。这里属于生平迁居网络，与都柏林小说地景承担不同关系。",
+          "observe": "从港口、语言和日常职业理解写作背景，不把作品中都柏林场景移到这里。",
+          "source": "https://jamesjoyce.ie/james-joyce/",
+          "wiki": "Trieste"
+        }
+      ]
+    },
+    {
+      "id": "proust",
+      "name": "普鲁斯特的记忆地景",
+      "discipline": "literature",
+      "focus": "童年、城市与海滨度假地；现实地名与小说原型的关系逐项说明。",
+      "tagline": "记忆的房间与海滨度假，需要与小说原型保持距离。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "illiers",
+          "name": "伊利耶-贡布雷",
+          "en": "Illiers-Combray",
+          "lon": 1.245,
+          "lat": 48.3,
+          "country": "法国",
+          "region": "厄尔-卢瓦尔省",
+          "relation": "life-fiction",
+          "summary": "童年停留与姨妈故居为普鲁斯特的记忆写作提供背景。真实小镇与小说中的贡布雷有关联，但文学空间经过重新组织。",
+          "observe": "从房间、花园与小镇行走阅读记忆，保留现实地名与小说地名的差别。",
+          "source": "https://illiers-combray.com/marcel-proust-et-illiers-combray/musee-marcel-proust-maison-de-tante-leonie/",
+          "wiki": "Illiers-Combray"
+        },
+        {
+          "key": "cabourg",
+          "name": "卡堡",
+          "en": "Cabourg",
+          "lon": -0.115,
+          "lat": 49.289,
+          "country": "法国",
+          "region": "诺曼底",
+          "relation": "life-fiction",
+          "summary": "海滨度假生活常与普鲁斯特笔下的巴尔贝克对读。小说综合了观察与想象，不能将卡堡所有建筑都视为唯一原型。",
+          "observe": "比较海滨步道、旅馆与社交空间，区分作者停留和人物情节。",
+          "source": "https://www.cabourg-tourisme.fr/",
+          "wiki": "Cabourg"
+        }
+      ]
+    },
+    {
+      "id": "hemingway",
+      "name": "海明威的跨国生活",
+      "discipline": "literature",
+      "focus": "按年份的写作、居住与海洋生活分区，不在世界图上虚构一次旅行。",
+      "tagline": "跨国生活与写作，在不同房屋里留下不同线索。",
+      "days": 5,
+      "stops": [
+        {
+          "key": "hemingway-keywest",
+          "name": "基韦斯特海明威故居",
+          "en": "Ernest Hemingway House",
+          "lon": -81.8009,
+          "lat": 24.551,
+          "country": "美国",
+          "region": "佛罗里达州",
+          "relation": "life-work",
+          "summary": "基韦斯特住宅连接海明威的一段家庭生活与创作。庭园、工作空间和海岛环境共同构成阅读生平的入口。",
+          "observe": "把房屋与港口生活联系起来，具体作品创作年份按著录核对。",
+          "source": "https://www.hemingwayhome.com/his-life",
+          "wiki": "Ernest Hemingway House"
+        },
+        {
+          "key": "finca-vigia",
+          "name": "瞭望庄园",
+          "en": "Finca Vigía",
+          "lon": -82.296,
+          "lat": 23.067,
+          "country": "古巴",
+          "region": "哈瓦那近郊",
+          "relation": "life-work",
+          "summary": "海明威在古巴的长期生活与写作连接瞭望庄园及周边海洋环境。庄园与小说中的渔村、人物经历并不完全重合。",
+          "observe": "从藏书、工作和生活空间理解写作日常，区分小说场景与真实居所。",
+          "source": "https://www.hemingwayfinca.org/",
+          "wiki": "Finca Vigía"
+        }
+      ]
+    },
+    {
+      "id": "steinbeck",
+      "name": "斯坦贝克的加州与公路",
+      "discipline": "literature",
+      "focus": "地方小说线与1960年美国旅行另建两组，书中叙述仍需其他材料核验。",
+      "tagline": "加州乡野与蒙特雷海岸，读小说里的劳动与地方。",
+      "days": 3,
+      "stops": [
+        {
+          "key": "steinbeck-salinas",
+          "name": "萨利纳斯国家斯坦贝克中心",
+          "en": "National Steinbeck Center",
+          "lon": -121.655,
+          "lat": 36.678,
+          "country": "美国",
+          "region": "加利福尼亚州",
+          "relation": "memorial",
+          "summary": "斯坦贝克的故乡与萨利纳斯谷地连接农业、迁徙劳动和小说世界。中心提供文本与地方历史的阅读入口。",
+          "observe": "从谷地、农业与人物处境一起理解作品，不把小说情节全当作地方案卷。",
+          "source": "https://steinbeck.org/",
+          "wiki": "National Steinbeck Center"
+        },
+        {
+          "key": "cannery-row",
+          "name": "蒙特雷罐头厂街",
+          "en": "Cannery Row",
+          "lon": -121.898,
+          "lat": 36.615,
+          "country": "美国",
+          "region": "加利福尼亚州",
+          "relation": "fiction-life",
+          "summary": "渔业与罐头工业历史塑造了这片海岸街区，也进入斯坦贝克作品。今天的商业街景与小说所处的劳动环境有所不同。",
+          "observe": "观察旧工业建筑和海岸的关系，对照文本与地方历史，避免只沿今日店招读小说。",
+          "source": "https://steinbeck.org/virtual-members/diary-of-a-book-travels-with-charley-part-one/",
+          "wiki": "Cannery Row"
+        }
+      ]
+    },
+    {
+      "id": "mark-twain",
+      "name": "马克·吐温的密西西比河",
+      "discipline": "literature",
+      "focus": "童年河岸、河运经验、小说地景与成年写作分层。",
+      "tagline": "童年的河岸与成年写作空间，是两种不同关系。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "hannibal",
+          "name": "汉尼拔马克·吐温童年故居",
+          "en": "Mark Twain Boyhood Home & Museum",
+          "lon": -91.358,
+          "lat": 39.712,
+          "country": "美国",
+          "region": "密苏里州",
+          "relation": "life-fiction",
+          "summary": "汉尼拔与马克·吐温的童年和密西西比河经验相连。小说中的圣彼得堡借鉴地方生活，却不是城镇居民与街巷的逐项翻版。",
+          "observe": "从河岸、少年生活与小说叙事对读，区分纪念命名与作者时代的历史。",
+          "source": "https://marktwainmuseum.org/exhibits-programs-events/exhibits/",
+          "wiki": "Mark Twain Boyhood Home & Museum"
+        },
+        {
+          "key": "twain-hartford",
+          "name": "哈特福德马克·吐温故居",
+          "en": "Mark Twain House",
+          "lon": -72.701,
+          "lat": 41.767,
+          "country": "美国",
+          "region": "康涅狄格州",
+          "relation": "life-work",
+          "summary": "哈特福德的住宅连接马克·吐温的家庭与成熟写作。这里可以看写作条件，却不是密西西比河小说故事的发生地。",
+          "observe": "比较家庭空间与河岸童年记忆如何进入成年创作。",
+          "source": "https://marktwainhouse.org/",
+          "wiki": "Mark Twain House"
+        }
+      ]
+    },
+    {
+      "id": "neruda",
+      "name": "聂鲁达的三座房子",
+      "discipline": "literature",
+      "focus": "城市、港口与海岸居所及收藏空间，三处机构可以构成区域旅行。",
+      "tagline": "城市、港口和海岸，各有一座不同性格的房子。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "la-chascona",
+          "name": "圣地亚哥拉查斯科纳",
+          "en": "La Chascona",
+          "lon": -70.634,
+          "lat": -33.431,
+          "country": "智利",
+          "region": "圣地亚哥",
+          "relation": "life-work",
+          "summary": "山脚住宅把聂鲁达的生活、收藏和个性化空间组织结合起来。它不是单纯的作家生平展厅，房间本身就是观看线索。",
+          "observe": "留意狭窄通道、物件与面向城市的关系，将私人收藏和诗歌分开阅读。",
+          "source": "https://fundacionneruda.org/en/",
+          "wiki": "La Chascona"
+        },
+        {
+          "key": "la-sebastiana",
+          "name": "瓦尔帕莱索拉塞巴斯蒂亚纳",
+          "en": "La Sebastiana",
+          "lon": -71.622,
+          "lat": -33.055,
+          "country": "智利",
+          "region": "瓦尔帕莱索",
+          "relation": "life-work",
+          "summary": "坡地上的住宅与港口城市视野相连，呈现聂鲁达另一种生活空间。海、城与收藏共同组成房屋体验。",
+          "observe": "看房间如何借取港口景观，比较与圣地亚哥住宅的不同尺度。",
+          "source": "https://fundacionneruda.org/en/",
+          "wiki": "La Sebastiana"
+        },
+        {
+          "key": "isla-negra",
+          "name": "黑岛故居",
+          "en": "Isla Negra",
+          "lon": -71.683,
+          "lat": -33.426,
+          "country": "智利",
+          "region": "中部海岸",
+          "relation": "life-work",
+          "summary": "海岸住宅中的航海物件、收藏与面向太平洋的视线相互呼应。这里与前两所城市住宅构成三种不同居住环境。",
+          "observe": "将收藏物件与真实海景对照，不把物件都解释为某首诗的唯一来源。",
+          "source": "https://fundacionneruda.org/en/",
+          "wiki": "Isla Negra"
+        }
+      ]
+    },
+    {
+      "id": "marquez",
+      "name": "马尔克斯的加勒比",
+      "discipline": "literature",
+      "focus": "官方文化路线与真实地方、小说世界对读；马孔多不等同于单个旅游景点。",
+      "tagline": "真实加勒比城镇，与小说中的马孔多互相映照。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "aracataca",
+          "name": "阿拉卡塔卡",
+          "en": "Aracataca",
+          "lon": -74.189,
+          "lat": 10.592,
+          "country": "哥伦比亚",
+          "region": "马格达莱纳省",
+          "relation": "life-fiction",
+          "summary": "马尔克斯的童年与阿拉卡塔卡相连，为其文学记忆提供材料。马孔多属于小说创造，不能与一个现实小镇完全等同。",
+          "observe": "从铁路、家居和地方叙事理解背景，区分真实历史与魔幻的艺术组织。",
+          "source": "https://colombia.travel/en/blog/explore-route-garcia-marquez-in-colombian-caribbean",
+          "wiki": "Aracataca"
+        },
+        {
+          "key": "cartagena",
+          "name": "卡塔赫纳",
+          "en": "Cartagena, Colombia",
+          "lon": -75.55,
+          "lat": 10.423,
+          "country": "哥伦比亚",
+          "region": "加勒比海岸",
+          "relation": "life-work",
+          "summary": "卡塔赫纳连接马尔克斯的学习、新闻工作与城市观察。它与故乡、巴兰基亚等地构成不同年份的生活网络。",
+          "observe": "把港口城市、报业和日常生活放在一起看，不从旅游路线反推完整生平。",
+          "source": "https://colombia.travel/en/blog/explore-route-garcia-marquez-in-colombian-caribbean",
+          "wiki": "Cartagena, Colombia"
+        }
+      ]
+    },
+    {
+      "id": "tagore",
+      "name": "泰戈尔的孟加拉世界",
+      "discipline": "literature",
+      "focus": "文学、教育、艺术和校园景观，先做区域探索再扩展国际访问。",
+      "tagline": "城市家园与圣蒂尼克坦，连接文学、教育和艺术。",
+      "days": 4,
+      "stops": [
+        {
+          "key": "jorasanko",
+          "name": "加尔各答乔拉桑科故居",
+          "en": "Jorasanko Thakur Bari",
+          "lon": 88.359,
+          "lat": 22.585,
+          "country": "印度",
+          "region": "西孟加拉邦",
+          "relation": "life",
+          "summary": "泰戈尔家族住宅连接其成长与加尔各答的文化生活。故居是家庭与社会网络的入口，不把所有创作都归为一间房的产物。",
+          "observe": "关注家族生活、语言与艺术交往，区分后设博物馆与原有生活空间。",
+          "source": "https://rbu.ac.in/",
+          "wiki": "Jorasanko Thakur Bari"
+        },
+        {
+          "key": "santiniketan",
+          "name": "圣蒂尼克坦",
+          "en": "Santiniketan",
+          "lon": 87.686,
+          "lat": 23.681,
+          "country": "印度",
+          "region": "西孟加拉邦",
+          "relation": "life-work",
+          "summary": "泰戈尔的教育理想在圣蒂尼克坦形成具体校园与文化实践。树木、开放教学空间、艺术和跨文化交流共同组织这里的生活。",
+          "observe": "把自然环境与学习方式一起看，尊重仍在运作的教育空间。",
+          "source": "https://whc.unesco.org/en/list/1375/",
+          "wiki": "Santiniketan"
+        }
+      ]
+    },
+    {
+      "id": "mahfouz",
+      "name": "马哈福兹的开罗",
+      "discipline": "literature",
+      "focus": "城市内部的文学地图；小说地点与作家生平、后设纪念馆分开。",
+      "tagline": "在开罗内部，把生活、小说与纪念空间分开读。",
+      "days": 2,
+      "stops": [
+        {
+          "key": "khan-khalili",
+          "name": "汗哈利利与老开罗",
+          "en": "Khan el-Khalili",
+          "lon": 31.262,
+          "lat": 30.047,
+          "country": "埃及",
+          "region": "开罗",
+          "relation": "fiction-life",
+          "summary": "马哈福兹的城市小说让老开罗的街巷、商业和社会关系成为阅读入口。真实街区与小说中的人物命运相关，却不能逐户对号入座。",
+          "observe": "关注街巷、店铺与公共生活，保留虚构叙事和居民现实之间的差别。",
+          "source": "https://www.mahfouzmuseum.gov.eg/",
+          "wiki": "Khan el-Khalili"
+        },
+        {
+          "key": "mahfouz-museum",
+          "name": "马哈福兹博物馆",
+          "en": "Naguib Mahfouz Museum",
+          "lon": 31.26,
+          "lat": 30.043,
+          "country": "埃及",
+          "region": "开罗",
+          "relation": "memorial",
+          "summary": "纪念馆通过文献与个人物件介绍马哈福兹的写作人生。它是后设的收藏展示空间，不是小说所有故事发生的住居。",
+          "observe": "按作品年代与资料认识作家，再把小说地名带回真实城市慢读。",
+          "source": "https://www.mahfouzmuseum.gov.eg/",
+          "wiki": "Naguib Mahfouz Museum"
         }
       ]
     }
