@@ -156,3 +156,60 @@ uncommitted changes were preserved. Only the selected Dot cloud computer was use
   no Library upload was attempted without a file, and no Library ID is claimed.
   The live app tab was marked for review. Prepared Library upload helpers are
   available in the task workspace for a supported screenshot file handoff.
+
+
+## Cross-theme hero carousel — 2026-11-17
+
+Based on published PR #2 head `5db858d33ef80a71deae75ac4ced6b9d7e577a23`.
+The previous equivalent local commit was preserved on
+`feat/atlas-discovery-upgrade-local-preserved`; development continued on the
+original PR branch tracking the published head. No other computer was used.
+
+- Six source-specific recommendations: Nakasendo (Tsumago/Magome), Grand Canal
+  (Jiangnan), Impressionism (theme map), Viking (Germany/Denmark network), NC500
+  (west coast), and US national parks (Utah Five). All use existing licensed local
+  images; no additional assets or content totals were introduced.
+- Eight-second automatic rotation; stable previous/next, six current indicators,
+  pause/play and Arrow/Home/End keyboard controls. Manual selection or focus
+  entry pauses until explicit Play. Hover, hidden document and offscreen states
+  suspend rotation. Reduced-motion preferences disable automatic playback.
+- Automatic content changes have no live announcements and never move focus.
+  Inactive slides are hidden. Manual selections report only the new title and
+  position. This checks semantics, not a claim of testing with a physical screen
+  reader. The current and next image are loaded ahead of automatic changes.
+
+Passed after implementation:
+
+1. All seven existing unit-test files, with added six-slide destination/licence
+   integrity checks; every JS/CJS syntax check; `experience.css` parsing and
+   `git diff --check`.
+2. Existing DOM regression, preserving all 21 themes, 95 plans, image viewer,
+   location/collection distinction, route details, favourites and return flows.
+3. New `scripts/check-carousel.cjs` under jsdom with a controlled clock:
+   7,999/8,000 ms transition, hover/resume, focus/manual/pointer pause,
+   Arrow/Home/End wrap, all six destinations, reduced-motion changes, no
+   automatic live-region content, hidden-page suspension, timer disposal and
+   paused return state. Reduced-motion was exercised through this mocked media
+   preference, not by changing the cloud desktop OS setting.
+4. Real cloud Chromium via the supported Sites managed preview: automatic
+   transition with unchanged height, pointer pause/play, hover pause and resume,
+   keyboard focus pause and wrap, all six correct destination/return flows,
+   and all seven image instances decoded after loading.
+5. Real 1440×1000 iframe stage: carousel height 457 CSS px for every item. Real
+   390×844 iframe: final carousel 339×379, caption 97 px for every item, no
+   horizontal overflow; all nine control buttons measure 44×44. Mobile next,
+   NC500 route/detail/close/home, and Nakasendo route/home passed. Manual pause
+   remained in place during subsequent checks. Mobile checks are responsive
+   browser checks, not physical-device testing.
+6. Actual desktop Nakasendo/canal and mobile Viking screenshots were captured
+   and displayed through the browser tool. This follow-up does not claim new
+   persistent screenshot files or Library IDs; the earlier browser-runtime
+   file-write isolation still limits that handoff.
+
+The full CLI browser suite remains unrun; targeted live-browser checks above
+were used. Browser log inspection showed extension metadata errors from
+`chrome-extension://.../content-script.bundle.js`, not a reported app failure.
+
+Latest user instruction authorizes completing this follow-up and merging PR #2
+into main after checking its final diff and remote status. The final reply records
+actual publication and merge SHAs after those operations are verified.

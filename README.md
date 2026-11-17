@@ -54,7 +54,7 @@ python3 -m http.server 8000
 
 ## 怎么使用
 
-1. 在首页搜索主题、地点、画家或行程；组合文化兴趣与地域筛选，在“主题地图”与“精选行程”之间切换。
+1. 首页推荐轮播覆盖中山道、大运河、印象派、维京、NC500 与美国国家公园，点击进入对应主题或行程。在首页搜索主题、地点、画家或行程；组合文化兴趣与地域筛选，在“主题地图”与“精选行程”之间切换。
 2. 打开主题，进入“地图探索”“推荐行程”或“我的旅程”。
 3. 搜索地点，按分类、区域或国家筛选；点击列表、地图点位或文字标签阅读详情。
 4. 选择月份和可用天数，预览推荐行程，再逐站查看；关闭详情会保留当前路线。
@@ -63,6 +63,12 @@ python3 -m http.server 8000
 拖拽旋转地球，滚轮、双指或按钮缩放；键盘方向键旋转，`+` / `-` 缩放。预览行程时地图仅展示该行程的地点，可返回主题全图。
 
 主题、面板、行程、地点和筛选条件保存在 URL 片段中，支持刷新及浏览器前进、后退。收藏按稳定地点 ID 保存在当前浏览器的 localStorage，重复加入会去重，预览不会覆盖收藏。无坐标地点仍可搜索、阅读和收藏，以“待补坐标”标识，不参与地图连线和播放。
+
+### 首页推荐轮播
+
+轮播每 8 秒自动切换，可用前后按钮、六个指示按钮或方向键切换，`Home` / `End` 到首尾。手动切换、键盘进入或打开推荐后保持暂停；点击播放可重新开启。悬停、页面隐藏或轮播滚出视野时暂缓，系统启用 `prefers-reduced-motion` 时关闭自动播放，保留全部手动操作。
+
+各项采用同高画面，预加载下一项图片；自动切换不触发读屏播报、不移动焦点。仅手动切换简短报告当前项。手机控制按钮均为 44×44 CSS 像素。
 
 ## 真实影像与文化编辑
 
@@ -143,7 +149,7 @@ UNESCO 描述保留官方资料内容，沿用原有 CC BY-SA IGO 3.0 来源条�
 | `themes.js`、`journey-design.js`、`map-style.js` | 主题定义、视觉语言及地图符号 |
 | `planner.js`、`journey-plans.js` | 推荐行程、筛选、距离与路线拓扑 |
 | `media.js`、`editorial.js`、`art-media.js`、`art-context.js` | 影像元数据、完整图像阅览及作品地理关系 |
-| `discovery.js`、`reading.js` | 首页发现、分层阅读和精选资料 |
+| `discovery.js`、`hero-carousel.js`、`reading.js` | 首页发现、跨主题推荐轮播、分层阅读和精选资料 |
 | `style.css`、`design.css`、`editorial.css`、`experience.css` | 基础与各主题响应式布局 |
 | `assets/`、`data/` | 本地素材、许可记录与原始数据 |
 | `tests/`、`scripts/`、`qa/` | 单元检查、交互检查及响应式预览入口 |
@@ -176,6 +182,7 @@ node scripts/run-browser-suite.cjs
 ```sh
 node scripts/run-browser-suite.cjs check-editorial.cjs
 node scripts/check-dom.cjs
+node scripts/check-carousel.cjs
 ```
 
 `qa/preview.html` 可在 HTTP 预览中切换 1440×1000 与 390×844 的真实 iframe CSS 视口。这是响应式浏览器检查，不是手机实机测试。
