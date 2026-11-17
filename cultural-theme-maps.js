@@ -33,7 +33,7 @@ for(const definition of culturalMapDefinitions){
   const contexts=culturalMapContexts(atlasContextByPlace.get(p.id)||{place:p,contexts:new Map()},id);
   return contexts.length?atlasRelationNames[contexts[0].relation]:p.type;
  }))];
- themes.push({id,maxZoom:4000,name:definition.name,title:definition.name,story:definition.intro,introduction:definition.intro,scope:'主题地点与区域探访',disciplines:[...new Set(sources.flatMap(themeDisciplines))],filters,fields:['地点关系','现场观察'],view:culturalMapView(nodes),symbol:first.symbol,colors:{...first.colors},artThemes:definition.artThemes||[]});
+ themes.push({id,maxZoom:40000,name:definition.name,title:definition.name,story:definition.intro,introduction:definition.intro,scope:'主题地点与区域探访',disciplines:[...new Set(sources.flatMap(themeDisciplines))],filters,fields:['地点关系','现场观察'],view:culturalMapView(nodes),symbol:first.symbol,colors:{...first.colors},artThemes:definition.artThemes||[]});
  themeDesigns[id]={...themeDesigns[first.id],lens:definition.lens,note:definition.intro,line:'区域探访 · 地点关系图'};
  themeGlyphs[id]=themeGlyphs[first.id];
  // Reuse only an image tied to a place actually on this map, retaining its credit.
