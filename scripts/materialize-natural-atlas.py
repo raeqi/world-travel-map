@@ -21,15 +21,15 @@ def candidate(info,page):
  meta=info.get('extmetadata',{}); license=clean(meta.get('LicenseShortName',{}).get('value',''))
  if not re.match(r'^(Public domain|CC0|CC BY(?:-SA)? (?:[1-4]\.0|2\.5)(?: [a-z]{2})?|CC-BY(?:-SA)?-[1-4]\.0)$',license):return None
  title=page['title'].removeprefix('File:')
- if any(t in title.lower() for t in ['.svg','.pdf','logo','signature','coat of arms','map of','locator','flag of','painting','lithograph','diagram','map.png','map.jpg']):return None
+ if any(t in title.lower() for t in ['.svg','.pdf','logo','signature','coat of arms','map of','locator','flag of','painting','1967','helipad','interior','lithograph','diagram','map.png','map.jpg']):return None
  if min(info.get('width',0),info.get('height',0))<400:return None
  return title,license,meta
 existing=json.loads((OUT/'sources.json').read_text()) if (OUT/'sources.json').exists() else {}
 def image(seed):
  key='natural-'+seed['id']
  if seed.get('skipImage'):return key,None,{'id':seed['id'],'skipped':True}
- if key in existing and (ROOT/existing[key]['path']).exists() and not seed.get('file'):
-  return key,existing[key],{'id':seed['id'],'cached':True}
+ if key in existing and (ROOT/existing[key]['path']).exists() and not seed.get('file') and not seed.get('refresh'):
+  item=dict(existing[key]);item['title']=seed.get('caption',item['title']);return key,item,{'id':seed['id'],'cached':True}
  record={'id':seed['id']}
  try:
   file=seed.get('file')
@@ -56,7 +56,7 @@ def image(seed):
   if min(im.size)<300:raise ValueError('Downloaded image too small')
   im.thumbnail((1280,1000),Image.Resampling.LANCZOS)
   path=OUT/(key+'.webp');im.save(path,'WEBP',quality=84,method=6)
-  item={'path':str(path.relative_to(ROOT)),'title':seed['name']+' · '+file.rsplit('.',1)[0].replace('_',' '),'author':clean(meta.get('Artist',{}).get('value','Wikimedia Commons contributor')),'source':'https://commons.wikimedia.org/wiki/File:'+urllib.parse.quote(file),'license':license,'licenseUrl':meta.get('LicenseUrl',{}).get('value','https://commons.wikimedia.org/wiki/Commons:Public_domain'),'changes':'等比例缩小与 WebP 压缩，文件保留全幅；界面封面可能裁切，未重绘或调色，衍生图保留原许可。','placeKey':seed['id'],'providerDescription':clean(meta.get('ImageDescription',{}).get('value','')),'width':im.width,'height':im.height,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()}
+  item={'path':str(path.relative_to(ROOT)),'title':seed.get('caption',seed['name']+' · '+file.rsplit('.',1)[0].replace('_',' ')),'author':clean(meta.get('Artist',{}).get('value','Wikimedia Commons contributor')),'source':'https://commons.wikimedia.org/wiki/File:'+urllib.parse.quote(file),'license':license,'licenseUrl':meta.get('LicenseUrl',{}).get('value','https://commons.wikimedia.org/wiki/Commons:Public_domain'),'changes':'等比例缩小与 WebP 压缩，文件保留全幅；界面封面可能裁切，未重绘或调色，衍生图保留原许可。','placeKey':seed['id'],'providerDescription':clean(meta.get('ImageDescription',{}).get('value','')),'width':im.width,'height':im.height,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()}
   record.update({'file':file,'license':license,'description':item['providerDescription'][:700]})
   return key,item,record
  except Exception as error:
@@ -69,18 +69,33 @@ for seed in SEEDS:
   lon,lat=transform.transform(*seed['nztm'])
   next(r for r in records if r['id']==seed['id'])['docCoordinates']={'lon':round(lon,6),'lat':round(lat,6),'nztm':seed['nztm']}
 # Primary OSM objects are used only to review named trailheads; no route geometry is inferred.
+import xml.etree.ElementTree as ET
 queries=[
-('fiordland','[out:json][timeout:25];nwr["name"~"Glade|Sandfly|Routeburn Shelter|The Divide|Control Gates|Brod Bay|Rainbow Reach|Harris Saddle|Iris Burn Hut|Lake Mackenzie Hut"](-45.6,167.3,-44.4,168.5);out center;'),
-('patagonia','[out:json][timeout:25];nwr["name"~"Chileno|Base Torres|Central|Suspiros|Bajo.*Sombras|Poincenot|Laguna Capri|Laguna Torre|Los Tres"](-51.3,-73.3,-49.1,-72.7);out center;')]
-for label,query in queries:
+ ('glade',(167.91,-44.95,167.96,-44.91)),
+ ('routeburn',(168.26,-44.73,168.29,-44.71)),
+ ('divide',(168.11,-44.83,168.13,-44.81)),
+ ('iris',(167.49,-45.41,167.53,-45.39)),
+ ('torres',(-72.99,-51.01,-72.93,-50.93)),
+ ('cuernos',(-73.03,-51.08,-72.99,-51.03)),
+ ('moreno',(-73.07,-50.51,-72.98,-50.45)),
+ ('chalten',(-73.02,-49.35,-72.87,-49.26))]
+for label,box in queries:
  try:
-  raw=json.loads(get('https://overpass-api.de/api/interpreter?data='+urllib.parse.quote(query)))
-  points=[]
-  for obj in raw.get('elements',[]):
-   pos=obj.get('center',obj);tags=obj.get('tags',{})
-   if 'lat' in pos:points.append({'id':obj['id'],'type':obj['type'],'name':tags.get('name'),'lat':pos['lat'],'lon':pos['lon'],'tags':{k:v for k,v in tags.items() if k in ['tourism','natural','highway','amenity','shelter_type','name:en']}})
-  print('GEO_REVIEW '+label+' '+json.dumps(points,ensure_ascii=False),flush=True)
+  tree=ET.fromstring(get('https://api.openstreetmap.org/api/0.6/map?bbox='+','.join(map(str,box))))
+  nodes={n.attrib['id']:{'lat':float(n.attrib['lat']),'lon':float(n.attrib['lon'])} for n in tree.findall('node')}
+  result=[]
+  for obj in list(tree.findall('node'))+list(tree.findall('way')):
+   tags={t.attrib['k']:t.attrib['v'] for t in obj.findall('tag')};name=tags.get('name','')
+   if not name or not re.search('Glade|Sandfly|Routeburn|Divide|Iris|Torres|Chileno|Central|Moreno|Suspiros|Capri|Tres|Torre|Poincenot|Cuernos|Pudeto',name,re.I):continue
+   refs=[nodes[x.attrib['ref']] for x in obj.findall('nd') if x.attrib['ref'] in nodes]
+   point=nodes.get(obj.attrib['id']) if obj.tag=='node' else ({k:sum(p[k] for p in refs)/len(refs) for k in ['lat','lon']} if refs else None)
+   if point:result.append({'id':obj.attrib['id'],'type':obj.tag,'name':name,**point,'tags':{k:v for k,v in tags.items() if k in ['tourism','natural','highway','amenity','shelter_type']}})
+  print('GEO_REVIEW '+label+' '+json.dumps(result,ensure_ascii=False),flush=True)
  except Exception as error:print('GEO_REVIEW_ERROR '+label+' '+str(error),flush=True)
+print('MINTARO_COORDINATES '+json.dumps(transform.transform(1187277,5025130)),flush=True)
+for title in ['Kepler Track','Milford Track']:
+ try:print('MEDIA_OPTIONS '+title+' '+json.dumps(api('en.wikipedia.org',{'action':'parse','page':title,'prop':'images'})['parse']['images']),flush=True)
+ except Exception as error:print('MEDIA_OPTIONS_ERROR '+str(error),flush=True)
 (OUT/'sources.json').write_text(json.dumps(media,ensure_ascii=False,indent=2)+'\n')
 (OUT/'review.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
 (ROOT/'natural-atlas-media.js').write_text("'use strict';\nconst naturalAtlasMedia="+json.dumps(media,ensure_ascii=False,separators=(',',':'))+";\n")
