@@ -327,6 +327,7 @@ const scenicRoads=[
   },
   {
     "id": "california1",
+    "interests": ["nature"],
     "name": "加州 SR1 · 蒙特雷到圣西蒙",
     "country": "美国",
     "region": "加利福尼亚州",
@@ -490,6 +491,7 @@ const scenicRoads=[
   },
   {
     "id": "utah12",
+    "interests": ["nature"],
     "name": "犹他 12 号风景道 · 红岩到高原森林",
     "country": "美国",
     "region": "犹他州",
@@ -585,6 +587,7 @@ const scenicRoads=[
   },
   {
     "id": "utah5",
+    "interests": ["nature"],
     "name": "犹他 Mighty 5 · 用风景道连接五园",
     "country": "美国",
     "region": "犹他州",
@@ -687,6 +690,7 @@ const scenicRoads=[
   },
   {
     "id": "arctic",
+    "interests": ["nature"],
     "name": "加拿大 · 开往北冰洋",
     "country": "加拿大",
     "region": "育空 / 西北地区",
@@ -793,6 +797,7 @@ const scenicRoads=[
   },
   {
     "id": "atlantic",
+    "interests": ["nature"],
     "name": "挪威 · 大西洋之路",
     "country": "挪威",
     "region": "默勒-鲁姆斯达尔",
@@ -873,6 +878,7 @@ const scenicRoads=[
   },
   {
     "id": "iceland1",
+    "interests": ["nature"],
     "name": "冰岛 1 号公路 · 火山与冰川环岛",
     "country": "冰岛",
     "region": "环岛走廊",
@@ -986,6 +992,7 @@ const scenicRoads=[
   },
   {
     "id": "greatocean",
+    "interests": ["nature"],
     "name": "澳大利亚 · 大洋路慢行",
     "country": "澳大利亚",
     "region": "维多利亚州",
@@ -1093,6 +1100,7 @@ const scenicRoads=[
   },
   {
     "id": "milford",
+    "interests": ["nature"],
     "name": "新西兰 SH94 · 开往米尔福德峡湾",
     "country": "新西兰",
     "region": "南地 / 峡湾国家公园",
@@ -1180,6 +1188,7 @@ const scenicRoads=[
   },
   {
     "id": "garden",
+    "interests": ["nature"],
     "name": "南非花园大道 · 森林、泻湖与海岸",
     "country": "南非",
     "region": "西开普 / 东开普",
@@ -1802,7 +1811,7 @@ const scenicRoadPlans=scenicRoads.map(road=>({
  days:road.days,months:road.months,transport:'自驾分段 + 景区支路与步行',
  topology:road.topology||(road.id==='iceland1'?'loop':'route'),
  reason:road.reason+' '+road.status,climate:road.sources[0][1],
- roadScope:road.scope,accessNote:road.status,statusUrl:road.check,
+ interests:road.interests||[],roadScope:road.scope,accessNote:road.status,statusUrl:road.check,
  sources:road.sources.map(([title,url])=>({title,url})),verifiedOn:'2026-11-17'
 }));
 planTemplates.push(...scenicRoadPlans);

@@ -585,6 +585,7 @@ const journeyPlans=[
   },
   {
     "id": "nc500-full",
+    "interests": ["nature"],
     "theme": "nc500",
     "name": "NC500 · 苏格兰北海岸环线",
     "ids": [
@@ -615,6 +616,7 @@ const journeyPlans=[
   },
   {
     "id": "nc500-west",
+    "interests": ["nature"],
     "theme": "nc500",
     "name": "NC500 · 西海岸山海精选",
     "ids": [
