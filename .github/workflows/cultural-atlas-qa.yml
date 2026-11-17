@@ -27,7 +27,7 @@ jobs:
           node-version: '22'
       - run: node --test tests/*.test.cjs
       - run: |
-          npm install --no-save --package-lock=false playwright
+          npm install --no-save --package-lock=false playwright axe-core
           npx playwright install --with-deps chromium
       - name: Open all 76 cultural themes on desktop and mobile
         run: |

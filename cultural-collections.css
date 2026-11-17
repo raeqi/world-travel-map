@@ -1,2 +1,38 @@
-.cultural-collection-directory{margin:20px 0;padding:20px;border:1px solid #d9ded6;border-radius:12px;background:#f7f8f3;color:#283b3e}
-.cultural-collection-directory h2{font-size:20px;margin:0 0 12px}.collection-intro{font-size:14px;line-height:1.8}.collection-controls{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}.collection-controls label{display:flex;flex-direction:column;gap:8px;font-size:13px}.collection-controls select{width:100%;min-width:0;padding:10px;border:1px solid #c4cec5;border-radius:6px;background:white;color:inherit}.collection-member{padding:16px 0;border-top:1px solid #d9ded6}.collection-member h3{font-size:17px;margin:0 0 8px}.collection-member p{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.collection-member button{padding:8px 10px;border:1px solid #ccd6ce;border-radius:6px;text-align:left;background:white;color:#283b3e;cursor:pointer}.collection-member button small{display:block;color:#566768;margin-top:4px}.collection-member>small{display:block;line-height:1.7;color:#566768}.cultural-collection-directory a{display:block;color:#245a69;font-size:14px;line-height:1.7;padding:10px 0;text-underline-offset:3px}.collection-related{border-top:1px solid #d9ded6;padding-top:14px}.cultural-collection-directory button:focus-visible,.cultural-collection-directory a:focus-visible{outline:3px solid #c08b3c;outline-offset:3px}@media(max-width:760px){.cultural-collection-directory{padding:16px;margin:16px 0}.collection-controls{grid-template-columns:1fr}}
+/* Collections start with people and places; optional tools stay out of the way. */
+body[data-brand][data-view=map][data-collection=true] :is(#theme-hero,#theme-reading,#tab-plans){display:none!important}
+body[data-brand][data-view=map][data-collection=true] #discover-panel>:is(.panel-guide,.search,#filters,.region-filter,.section-label,#places,#edition-exhibit){display:none!important}
+body[data-brand][data-view=map][data-collection=true] aside>.intro{font-size:12px;line-height:1.85;margin:8px 0 14px}
+.cultural-collection-directory{margin:0 0 22px;padding:0;background:transparent;color:var(--tm-ink,#283b3e)}
+.collection-topline{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:0 12px;margin:0 0 4px;color:var(--tm-muted,#606c6d);font-size:11px}
+.collection-find{max-width:100%;margin-left:auto}
+.collection-find>summary{min-height:40px;padding:9px 0;color:var(--tm-brand,#245a69);cursor:pointer;font-size:12px;list-style:none}
+.collection-find>summary::-webkit-details-marker{display:none}.collection-find>summary::before{content:'＋';margin-right:5px}
+.collection-find[open]{flex:1 0 100%;margin:0}.collection-find[open]>summary::before{content:'−'}
+.collection-controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;padding:10px 0 16px}
+.collection-controls label{display:flex;flex-direction:column;gap:7px;font-size:12px}
+.collection-controls select{width:100%;min-width:0;min-height:44px;padding:10px;border:1px solid #bdceca;border-radius:6px;background:white;color:inherit;font:12px/1.6 var(--tm-font,sans-serif)}
+.collection-active-filter{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:11px;color:var(--tm-muted);padding:6px 0 10px}
+body[data-brand] .collection-active-filter button{padding:5px 8px;min-height:36px;background:var(--tm-soft);color:var(--tm-brand);border:1px solid var(--tm-line);border-radius:5px;font-size:11px}
+.collection-member{padding:18px 0;border-top:1px solid var(--tm-line,#d9ded6)}
+.collection-member h3{font:500 18px/1.6 var(--tm-display,serif);margin:0 0 10px;color:var(--tm-ink)}
+.collection-person-content{display:flex;align-items:flex-start;gap:13px}.collection-person-content>div:last-child{min-width:0;flex:1}
+.collection-person-image{flex:0 0 78px;width:78px}
+body[data-brand] .collection-person-image .media-open{width:78px;height:86px;border-radius:5px;overflow:hidden}
+.collection-person-image img{width:100%;height:100%;object-fit:cover;display:block}
+.collection-person-story{margin:0 0 9px;font-size:12px;line-height:1.8;color:var(--tm-muted)}
+.collection-place-links{display:flex;flex-wrap:wrap;gap:6px}
+body[data-brand] .cultural-collection-directory .collection-place-links button{padding:6px 8px;min-height:40px;border:1px solid var(--tm-line);border-radius:5px;background:var(--tm-card);color:var(--tm-brand);font:12px/1.6 var(--tm-font,sans-serif);text-align:left;cursor:pointer;box-shadow:none}
+.collection-place-links button small{display:block;color:var(--tm-muted);font-size:10px}
+.cultural-collection-directory .collection-person-map{display:inline-block;min-height:36px;padding:8px 0;color:var(--tm-brand);font-size:12px;text-underline-offset:3px}
+.collection-photo-credit{margin:0 0 0 91px}.collection-photo-credit .media-caption-title{font-size:10px;line-height:1.7;margin:0 0 2px;color:var(--tm-muted)}
+.collection-photo-credit .media-byline{font-size:10px}.collection-photo-credit .media-caption-tools{margin:0}.collection-photo-credit .media-source>summary{font-size:10px;min-height:30px;padding:3px 0}
+.collection-parent-label,.collection-related>span{display:block;font-size:11px;color:var(--tm-muted);margin:0 0 7px}
+.collection-related{border-top:1px solid var(--tm-line);padding-top:16px;margin-top:3px}
+.collection-related a,.cultural-collection-directory>a{display:block;color:var(--tm-brand);font-size:12px;line-height:1.8;padding:6px 0;text-underline-offset:3px}
+.collection-empty{font-size:12px;line-height:1.8;color:var(--tm-muted)}
+.collection-cover-images{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px;height:100%;background:var(--tm-soft,#edf3f3)}
+.collection-cover-tile{min-width:0;height:100%;display:flex;flex-direction:column;overflow:hidden}
+.collection-cover-tile>img,.collection-cover-tile>.media-open{display:block;flex:1;min-height:0;height:calc(100% - 44px)!important;width:100%;object-fit:cover}
+.collection-cover-tile>span{display:block;position:static;padding:5px 8px;background:var(--tm-soft,#edf3f3);color:var(--tm-brand,#245a69);font:11px/1.55 var(--tm-font,sans-serif);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.collection-cover-tile>span>small{display:block;color:var(--tm-muted);font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media(max-width:760px){.collection-member{padding:16px 0}.collection-member h3{font-size:18px}.collection-topline{font-size:11px}.collection-find>summary{min-height:44px}.collection-controls{grid-template-columns:1fr}.collection-photo-credit .media-source>summary{min-height:44px}.collection-active-filter button{min-height:44px}.cultural-collection-directory .collection-person-map{min-height:44px}.collection-place-links button{min-height:44px!important}}

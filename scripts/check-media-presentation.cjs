@@ -14,7 +14,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/media-presenta
   for(const id of ids){await theme(id);const result=await page.evaluate(()=>{const hero=document.querySelector('#theme-hero'),keys=editionCoverKeys(themes[activeTheme].id);return {keys,buttons:[...hero.querySelectorAll('[data-read-image]')].map(b=>b.dataset.readImage),credits:[...document.querySelectorAll('#theme-reading [data-credit-key]')].map(e=>e.dataset.creditKey),nested:hero.querySelectorAll('button button').length,images:[...hero.querySelectorAll('img')].every(i=>!!i.closest('button[data-read-image]'))}});assert.deepEqual([...new Set(result.buttons)].sort(),result.keys.slice().sort(),id);assert.deepEqual(result.credits.sort(),result.keys.slice().sort(),id);assert.equal(result.nested,0);assert.equal(result.images,true)}
   for(const device of [{name:'desktop',width:1440,height:1000},{name:'mobile',width:390,height:844}]){
    await page.setViewportSize(device);
-   for(const id of ['vangogh','impressionism','nakasendo','viking','mozart','parks','xu','collection-modern-architecture']){
+   for(const id of ['vangogh','impressionism','nakasendo','viking','mozart','parks','xu']){
     await theme(id);const button=page.locator('#theme-hero [data-read-image]').first();await button.scrollIntoViewIfNeeded();
     await page.locator('#theme-hero img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
     const layout=await button.evaluate(b=>{const c=getComputedStyle(b),r=b.getBoundingClientRect();return {position:c.position,bg:c.backgroundColor,width:r.width,height:r.height,label:b.getAttribute('aria-label'),popup:b.getAttribute('aria-haspopup')}});

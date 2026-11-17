@@ -180,9 +180,9 @@ const editorialPlacePhotos={
 function mediaImage(key,extra=''){
  const m=photoLibrary[key];return `<img src="${photoPath(key)}" alt="${m.title}" decoding="async" ${extra||'loading="lazy"'}>`;
 }
-function editionCoverKeys(id){const story=editionStories[id];return [...new Set([themeMedia[id].photo,...(story?.second&&['nakasendo','andes','impressionism','route66'].includes(id)?[story.second]:[])])]}
+function editionCoverKeys(id){const story=editionStories[id];if(typeof culturalCollections!=='undefined'&&culturalCollections.has(id)&&culturalCollections.get(id).covers.length)return culturalCollections.get(id).covers.map(c=>c.key);return [...new Set([themeMedia[id].photo,...(story?.second&&['nakasendo','andes','impressionism','route66'].includes(id)?[story.second]:[])])]}
 function editionCoverHTML(id,interactive=false){
- const s=editionStories[id];if(!s)return '';
+ const s=editionStories[id];if(!s)return '';if(typeof culturalCollections!=='undefined'&&culturalCollections.has(id)&&culturalCollections.get(id).covers.length)return collectionCoverHTML(id,interactive);
  const image=key=>interactive?mediaOpenHTML(key,mediaImage(key),key===s.photo?'read-plate':'secondary-image-open'):mediaImage(key);
  const primary=image(s.photo),secondary=s.second?image(s.second):'';
  let content=primary;
