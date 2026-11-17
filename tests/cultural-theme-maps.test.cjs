@@ -29,7 +29,7 @@ test('shared sites retain each author, evidence and related regional context',()
  globalThis.activeTheme=themes.findIndex(t=>t.id==='italian-art-journeys');const naples=culturalPlaceRef('naples'),essay=placeEssays[naples.id];
  assert.ok(essay.paragraphs.some(p=>p.heading.includes('透纳')));assert.ok(essay.paragraphs.some(p=>p.heading.includes('歌德')));assert.ok(essay.sources.length>=2);
  activeTheme=themes.findIndex(t=>t.id==='goethe');assert.ok(naples.desc.includes('歌德'));assert.ok(!naples.desc.includes('透纳'));
- activeTheme=themes.findIndex(t=>t.id==='mexico-city-art');const studio=culturalPlaceRef('frida-rivera-studio');assert.equal(culturalMapContexts(atlasContextByPlace.get(studio.id),'mexico-city-art').length,2);assert.ok(placeEssays[studio.id].sources.length>=2);
+ activeTheme=themes.findIndex(t=>t.id==='mexico-city-art');const studio=culturalPlaceRef('frida-rivera-studio');assert.equal(culturalMapContexts(atlasContextByPlace.get(studio.id),'mexico-city-art').length,2);assert.ok(placeEssays[studio.id].sources.length>=2);assert.ok(placeEssays[studio.id].related.length);assert.ok(placeEssays[studio.id].related.every(id=>places.find(p=>p.id===id).themes.includes('mexico-city-art')));
  for(const p of culturalPlaceAdditions){const record=atlasContextByPlace.get(culturalPlaceRef(p.key).id);assert.ok(record.contexts.get(p.theme).observe);assert.ok(record.contexts.get(p.theme).source===p.source);}
 `,runtime()));
 test('all old directory URLs resolve, preserving more specific person, place and route links',()=>vm.runInContext(`

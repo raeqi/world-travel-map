@@ -27,7 +27,7 @@ for(const definition of culturalMapDefinitions){
  const members=culturalMapMembers(definition),nodes=[...new Set(members.flatMap(culturalMemberPlaces))],sources=members.map(m=>themes.find(t=>t.id===m.id));
  if(!nodes.length||sources.some(t=>!t))throw Error('Invalid cultural map '+definition.id);
  const first=sources[0],id=definition.id;
- culturalThemeMaps.set(id,definition);
+ culturalThemeMaps.set(id,definition);atlasThemePlaceIds.set(id,nodes.map(p=>p.id));
  for(const place of nodes)if(!place.themes.includes(id))place.themes.push(id);
  const filters=[...new Set(nodes.map(p=>{
   const contexts=culturalMapContexts(atlasContextByPlace.get(p.id)||{place:p,contexts:new Map()},id);
@@ -68,7 +68,7 @@ for(const [id,name,intro,months,days] of [
  Object.assign(t,{name,title:name,story:intro,introduction:intro,view:culturalMapView(nodes)});
  Object.assign(themeDesigns[id],{lens:name,note:intro});Object.assign(themeMedia[id],{edition:name,motif:intro});
  Object.assign(editionStories[id],{headline:name,body:intro,detail:'从作品中的地方，走向可以观察的真实空间。'});
- discoveryMeta[id][2]+=' '+name+' '+intro;
+ discoveryMeta[id][2]+=' 中国现代文学 '+name+' '+intro;
  const plan=planTemplates.find(p=>p.id==='atlas-'+id+'-places');
  Object.assign(plan,{name,ids:nodes.map(p=>p.id),days,months,transport:'区域公共交通 / 当地接驳 + 分区步行',reason:intro+' 天数为当代探访参考；入室访问、交通与展览安排向当地机构确认。'});
 }
