@@ -78,7 +78,15 @@ queries=[
  ('torres',(-72.99,-51.01,-72.93,-50.93)),
  ('cuernos',(-73.03,-51.08,-72.99,-51.03)),
  ('moreno',(-73.07,-50.51,-72.98,-50.45)),
- ('chalten',(-73.02,-49.35,-72.87,-49.26))]
+ ('chalten',(-73.02,-49.35,-72.87,-49.26)),
+ ('chalten-start',(-72.900,-49.325,-72.886,-49.315)),
+ ('torres-start',(-72.96,-51.01,-72.86,-50.94)),
+ ('mackinnon',(167.75,-44.815,167.79,-44.79)),
+ ('louise',(-116.23,51.40,-116.20,51.43)),
+ ('moraine',(-116.20,51.315,-116.17,51.335)),
+ ('bow',(-116.48,51.66,-116.43,51.69)),
+ ('peyto',(-116.52,51.70,-116.49,51.73)),
+ ('icefield',(-117.24,52.21,-117.21,52.23))]
 for label,box in queries:
  try:
   tree=ET.fromstring(get('https://api.openstreetmap.org/api/0.6/map?bbox='+','.join(map(str,box))))
@@ -86,7 +94,7 @@ for label,box in queries:
   result=[]
   for obj in list(tree.findall('node'))+list(tree.findall('way')):
    tags={t.attrib['k']:t.attrib['v'] for t in obj.findall('tag')};name=tags.get('name','')
-   if not name or not re.search('Glade|Sandfly|Routeburn|Divide|Iris|Torres|Chileno|Central|Moreno|Suspiros|Capri|Tres|Torre|Poincenot|Cuernos|Pudeto',name,re.I):continue
+   if not (re.search('Glade|Sandfly|Routeburn|Divide|Iris|Torres|Chileno|Central|Moreno|Suspiros|Capri|Tres|Torre|Poincenot|Cuernos|Pudeto|Fitz|Icefield|Glacier|Peyto|Louise|Bow|Moraine|Mackinnon|McKinnon|Pass|Memorial',name,re.I) or tags.get('tourism')=='viewpoint' or tags.get('highway')=='trailhead'):continue
    refs=[nodes[x.attrib['ref']] for x in obj.findall('nd') if x.attrib['ref'] in nodes]
    point=nodes.get(obj.attrib['id']) if obj.tag=='node' else ({k:sum(p[k] for p in refs)/len(refs) for k in ['lat','lon']} if refs else None)
    if point:result.append({'id':obj.attrib['id'],'type':obj.tag,'name':name,**point,'tags':{k:v for k,v in tags.items() if k in ['tourism','natural','highway','amenity','shelter_type']}})

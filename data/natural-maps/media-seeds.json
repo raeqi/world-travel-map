@@ -175,5 +175,17 @@
     "name": "佩奥埃湖",
     "wiki": "Pehoé Lake",
     "caption": "佩奥埃湖与百内山群"
+  },
+  {
+    "id": "glade-wharf",
+    "name": "Glade Wharf",
+    "file": "Glade Wharf - 2013.04 - panoramio.jpg",
+    "caption": "Glade Wharf · Milford 步道的湖上抵达点（2013）"
+  },
+  {
+    "id": "sandfly-point",
+    "name": "Sandfly Point",
+    "file": "Abandoned Hiking Boots At Milford Track End.jpg",
+    "caption": "Sandfly Point · Milford 步道终点标牌与旧登山靴"
   }
 ]
