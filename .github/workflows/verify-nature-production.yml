@@ -1,0 +1,54 @@
+name: Verify nature production
+
+on:
+  push:
+    branches: [codex/nature-discovery-carousel-20261117]
+    paths: [.github/workflows/verify-nature-production.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  production:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      SITE_URL: https://raeqi.github.io/world-travel-map
+      INLINE_SCREENSHOTS: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify deployed files match checked-out main
+        run: |
+          node <<'JS'
+          const fs=require('node:fs'),crypto=require('node:crypto');
+          (async()=>{
+            console.log('CHECKOUT_MAIN '+require('node:child_process').execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim());
+            for(const file of ['index.html','discovery.js','hero-carousel.js','flow.js','roads.js','journey-plans.js','terra.css']){
+              const response=await fetch(process.env.SITE_URL+'/'+file+'?verify='+Date.now(),{cache:'no-store'});
+              if(!response.ok)throw Error(file+' HTTP '+response.status);
+              const actual=Buffer.from(await response.arrayBuffer()),expected=fs.readFileSync(file);
+              const hash=value=>crypto.createHash('sha256').update(value).digest('hex');
+              if(hash(actual)!==hash(expected))throw Error(file+' differs from main');
+              console.log('PRODUCTION_MATCH '+file+' '+hash(actual)+' '+actual.length+' bytes');
+            }
+          })().catch(error=>{console.error(error);process.exitCode=1});
+          JS
+      - name: Install isolated browser tools
+        run: npm install --no-save --no-package-lock playwright@1.56.1
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Verify deployed desktop and mobile behaviour
+        run: node scripts/check-nature-discovery.cjs
+      - name: Upload production screenshots and timing report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nature-production-browser
+          path: qa/nature-discovery/
+          if-no-files-found: ignore
+          retention-days: 14
