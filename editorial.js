@@ -196,18 +196,21 @@ function editionCoverHTML(id){
 function artworkHTML(work){return `<figure class="artwork-card"><button class="artwork-image" data-read-image="${work.key}" aria-label="查看《${work.title}》完整画作">${mediaImage(work.key,'loading="lazy"')}</button><figcaption><span class="artwork-date">${work.year}</span><h4>${work.title}</h4><p>${work.artist}</p><dl><div><dt>画中地点</dt><dd>${work.subject}</dd></div><div><dt>现藏</dt><dd>${work.collection}</dd></div></dl><div class="artwork-actions"><button data-art-place="${work.key}">定位画中地点</button><button data-art-museum="${work.key}">定位馆藏地</button></div></figcaption></figure>`}
 function renderEditionExhibit(){
  let el=document.querySelector('#edition-exhibit');if(!el){el=document.createElement('section');el.id='edition-exhibit';document.querySelector('#discover-panel .panel-guide').after(el)}
- const id=themes[activeTheme].id;el.hidden=id!=='impressionism';
- el.innerHTML=id==='impressionism'?`<div class="exhibit-heading"><h3>从一幅画出发</h3><p>四幅作品，分别定位画中地点与馆藏地。地图保留独立地点，不连成一次共同旅程。</p></div><div class="artwork-grid">${impressionistWorks.map(artworkHTML).join('')}</div>`:'';
+ const id=themes[activeTheme].id,works=worksForTheme(id);el.hidden=!works.length;
+ if(!works.length){el.innerHTML='';return}
+ const artists=[...new Set(works.map(w=>w.artist))];
+ el.innerHTML=`<div class="exhibit-heading"><h3>从一幅画出发</h3><p>${works.length} 幅作品，分别定位画中地点与馆藏地。</p><label>画家<select id="art-artist"><option value="all">全部画家</option>${artists.map(a=>'<option>'+a+'</option>').join('')}</select></label></div><div class="artwork-grid"></div>`;
+ const render=()=>{const artist=el.querySelector('select').value;el.querySelector('.artwork-grid').innerHTML=works.filter(w=>artist==='all'||w.artist===artist).map(artworkHTML).join('')};el.querySelector('select').onchange=render;render();
 }
 function openImageRoom(key){
  const m=photoLibrary[key];if(!m)return;
  let dialog=document.querySelector('#image-room');if(!dialog){dialog=document.createElement('dialog');dialog.id='image-room';dialog.setAttribute('aria-labelledby','image-room-title');document.body.append(dialog);dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()})}
- const work=impressionistWorks.find(w=>w.key===key),story=Object.values(editionStories).find(s=>s.photo===key||s.second===key);
+ const work=artWorks.find(w=>w.key===key),story=Object.values(editionStories).find(s=>s.photo===key||s.second===key);
  dialog.innerHTML=`<button class="room-close" aria-label="关闭影像阅览">×</button><div class="room-image">${mediaImage(key)}</div><div class="room-copy"><h2 id="image-room-title">${work?work.title:m.title}</h2>${work?`<p class="room-byline">${work.artist}，${work.year}<br><span lang="en">${work.original}</span></p><p>${work.context}</p><dl class="work-locations"><div><dt>画中地点</dt><dd>${work.subject}</dd></div><div><dt>现藏机构</dt><dd>${work.collection}</dd></div></dl><div class="artwork-actions"><button data-art-place="${key}">在地图上看画中地点</button><button data-art-museum="${key}">在地图上看馆藏地</button></div><a class="record-link" href="${work.record}" target="_blank" rel="noopener noreferrer">作品官方著录</a>`:`<p>${story?.body||''}</p><p>${story?.detail||''}</p>`}<div class="room-credit">${photoCredit(key)}<p>${m.changes||'项目原有图像，界面中按比例缩放与裁切。'}</p></div></div>`;
  dialog.querySelector('.room-close').onclick=()=>dialog.close();if(!dialog.open)dialog.showModal();
 }
 function locateArtwork(key,role){
- const work=impressionistWorks.find(w=>w.key===key);if(!work)return;
+ const work=artWorks.find(w=>w.key===key);if(!work)return;
  document.querySelector('#image-room')?.close();const p=places.find(p=>p.id===(role==='museum'?work.museumId:work.placeId));select(p);
 }
 document.addEventListener('click',e=>{
