@@ -13,3 +13,7 @@ Critique: replacing twenty buttons with twenty identical poster tiles would reta
 Data: extend Impressionism from four to eight licensed paintings; add one focused Van Gogh theme with three paintings and four biography locations. Creation/depiction and collection remain separate. Restricted Met 437133 is excluded after API verification. The London painting's 1903 date is not described as a date of field painting.
 
 Carousel: fixed stage dimensions and instant content changes avoid slide motion or layout shifts. Automatic updates remain outside live announcements. Focus entry and manual selection stop rotation until explicitly restarted; hover, hidden-page and offscreen states suspend timers. Reduced-motion preferences disable automatic rotation. Mobile controls use 44-pixel targets in two rows.
+
+Sidebar correction: independent 10px desktop / 8px mobile place-card spacing, fixed icon/arrow widths, wrapping names, and a persistent vertical splitter. The splitter is pointer- and keyboard-operable; the map canvas resizes with it, and narrow map panes use a smaller reading drawer. Mobile keeps the stacked layout.
+
+Image correction: theme identity is distinct from itinerary evidence. Route media is selected only from a stop present in that route; other routes use a neutral typographic location card. No country receives a generic Kyoto fallback. Carousel controls remain visible without explanatory playback text.
