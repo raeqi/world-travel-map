@@ -2,18 +2,18 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{chromium}=require('playwright');
 const pack=require('../data/cultural-expansion/live-atlas.json');
 (async()=>{
- const out='qa/cultural-atlas-browser';fs.mkdirSync(out,{recursive:true});const browser=await chromium.launch({headless:true}),errors=[],failedImages=[];
+ const out='qa/cultural-atlas-browser';fs.mkdirSync(out,{recursive:true});const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{}),args:['--no-sandbox']}),errors=[],failedImages=[];
  const page=await browser.newPage();page.on('pageerror',e=>errors.push(e.message));
  try{
   await page.goto('http://127.0.0.1:8000/#interest=art');await page.waitForFunction(()=>document.body.dataset.ready==='true');
-  assert.ok(await page.locator('.discovery-card').count()>=76);
+  assert.equal(await page.evaluate(()=>visibleCatalogueThemes().filter(t=>t.collection||culturalFeaturedIds.includes(t.id)).length),28);
   const disciplines=[...new Set(pack.themes.map(t=>t.discipline))];
   for(const device of [{name:'desktop',width:1440,height:1000},{name:'mobile',width:390,height:844}]){
    await page.setViewportSize(device);
    for(const discipline of disciplines){
     await page.goto('http://127.0.0.1:8000/#interest=art&discipline='+discipline);
     await page.waitForFunction(()=>document.body.dataset.ready==='true');
-    const expected=pack.themes.filter(t=>t.discipline===discipline).map(t=>t.id);
+    const expected=await page.evaluate(d=>visibleCatalogueThemes().filter(t=>themeDisciplines(t).includes(d)).map(t=>t.id),discipline);
     const shown=await page.locator('.discovery-card').evaluateAll(cards=>cards.map(c=>c.dataset.theme));
     assert.ok(expected.every(id=>shown.includes(id)),discipline+' missing from discovery');
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),true,'home overflow '+device.name+'/'+discipline);

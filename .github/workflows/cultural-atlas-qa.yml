@@ -1,9 +1,14 @@
-name: Cultural atlas 76-theme browser checks
+name: Cultural atlas and collection browser checks
 on:
   pull_request:
     branches: [main]
     paths:
       - 'cultural-atlas*.js'
+      - 'cultural-collections*'
+      - 'discovery.js'
+      - 'flow.js'
+      - 'app.js'
+      - 'scripts/check-cultural-collections.cjs'
       - 'data/cultural-expansion/live-atlas.json'
       - 'assets/cultural-atlas/**'
       - 'scripts/check-cultural-atlas-browser.cjs'
@@ -27,6 +32,7 @@ jobs:
       - name: Open all 76 cultural themes on desktop and mobile
         run: |
           python3 -m http.server 8000 --bind 127.0.0.1 >/tmp/cultural-atlas-server.log 2>&1 &
+          node scripts/check-cultural-collections.cjs
           node scripts/check-cultural-atlas-browser.cjs
       - uses: actions/upload-artifact@v4
         if: always()
@@ -34,5 +40,6 @@ jobs:
           name: cultural-atlas-browser
           path: |
             qa/cultural-atlas-browser/
+            qa/cultural-collections-browser/
             /tmp/cultural-atlas-server.log
           retention-days: 14

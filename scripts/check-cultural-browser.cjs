@@ -10,8 +10,8 @@ const fs=require('node:fs'),assert=require('node:assert/strict');
    await page.setViewportSize({width,height});
 
    const added=require('../data/cultural-expansion/live-atlas.json').themes;
-   const music=['bach','mozart',...added.filter(t=>t.discipline==='music').map(t=>t.id)].sort();
-   const paintingAsia=['hokusai',...added.filter(t=>t.discipline==='painting'&&t.stops.some(s=>s.country==='日本'||s.country==='中国')).map(t=>t.id)].sort();
+   const music=['bach','mozart','collection-european-classical-music','collection-nordic-music'].sort();
+   const paintingAsia=['hokusai','collection-japanese-painting','collection-chinese-painting'].sort();
    const shown=async()=>(await page.locator('.discovery-card').evaluateAll(cards=>cards.map(x=>x.dataset.theme))).sort();
    await page.goto('http://127.0.0.1:8000/#interest=art&discipline=music');
    await page.waitForFunction(()=>document.body.dataset.ready==='true');

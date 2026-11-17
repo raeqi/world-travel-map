@@ -13,7 +13,7 @@ const heroHistoryKey='terra-mosaic-hero-v1';
 let heroSelectionReady=false;
 function heroRecommendationPool(){
  const curated=new Map(heroDefaultSlides.map(s=>[s.theme,s]));
- return themes.flatMap(theme=>{
+ return themes.filter(t=>!t.catalogHidden).flatMap(theme=>{
   const specific=curated.get(theme.id),photo=specific?.photo||themeMedia[theme.id]?.photo,media=photoLibrary[photo];
   if(!photo||!media?.license||media.illustration)return [];
   const group=discoveryMeta[theme.id]?.[0]||'exchange';
