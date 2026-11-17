@@ -10,7 +10,7 @@
   },
   "baseline": {
     "branch": "main",
-    "commit": "78154a1fb7d30aa8d57bae219e771bb979286f34"
+    "commit": "49e05c8e1492b226a201cd9f5f19b2553c41cf4d"
   },
   "policies": {
     "noFakeCompletion": true,
@@ -25,13 +25,14 @@
   "existingBatch": {
     "pullRequest": 4,
     "url": "https://github.com/raeqi/world-travel-map/pull/4",
-    "status": "integration-in-review",
+    "status": "merged",
     "themeIds": [
       "hokusai",
       "vermeer",
       "bach",
       "austen"
-    ]
+    ],
+    "mergeCommit": "49e05c8e1492b226a201cd9f5f19b2553c41cf4d"
   },
   "entries": [
     {
