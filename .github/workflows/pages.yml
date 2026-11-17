@@ -28,11 +28,7 @@ jobs:
       - name: Run project tests
         run: node --test tests/*.test.cjs
       - name: Prepare public site
-        run: |
-          mkdir -p _site
-          cp index.html *.css *.js countries.geo.json _site/
-          cp -R assets _site/assets
-          touch _site/.nojekyll
+        run: node scripts/build-site.cjs
       - name: Upload public site
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
