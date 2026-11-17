@@ -101,7 +101,9 @@
       "url": "https://www.bachmuseumleipzig.de/en/bach-museum/introducing-leipzig-bach-museum",
       "type": "primary-institution",
       "checked": "web-search-or-open",
-      "checkedOn": "2026-11-17"
+      "checkedOn": "2026-11-17",
+      "canonicalUrl": "https://www.bachinleipzig.de/en/bach-museum/",
+      "accessNote": "旧地址会重定向；已直接打开当前英文页面。"
     },
     {
       "id": "bachMusic",
@@ -156,14 +158,22 @@
       "id": "bachKothen",
       "url": "https://www.march.es/en/madrid/bach-kothen",
       "type": "primary-institution",
-      "checked": "web-search-or-open",
-      "checkedOn": "2026-11-17"
+      "checked": "search-index-only;direct-open-403",
+      "checkedOn": "2026-11-17",
+      "accessNote": "搜索索引可读；直接打开返回403。任职时间同时由bachLife资料支持，不能称此页已完整访问。"
     },
     {
       "id": "austenGrave",
       "url": "https://www.visitwinchester.co.uk/blog/how-to-spend-a-weekend-in-jane-austens-winchester",
       "type": "primary-institution",
       "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "bachPortraitRights",
+      "url": "https://commons.wikimedia.org/wiki/File:Bach.jpg",
+      "type": "media-record",
+      "checked": "page-opened-rights-read",
       "checkedOn": "2026-11-17"
     }
   ],
@@ -953,7 +963,9 @@
         "displayStatus": "not-guaranteed"
       },
       "context": "这是人物肖像，不是城市风景；馆藏归属不保证在指定展厅陈列。低分辨率候选图只适合小像，不应拉伸为整屏封面。",
-      "sourceIds": [],
+      "sourceIds": [
+        "bachPortraitRights"
+      ],
       "mediaIds": [
         "bach-portrait"
       ]
@@ -1472,5 +1484,23 @@
       "新主题需在首页地域、兴趣和关键词索引中注册；音乐和文学不能都归入绘画。",
       "图片在下载、压缩、哈希与视觉核验前不能当作生产资源；原作全幅应可读，封面裁切另作CSS。"
     ]
-  }
+  },
+  "unusedSources": [
+    {
+      "url": "https://www.bach-leipzig.de/de/node/3231",
+      "reason": "搜索仍可发现，但直接打开404，未作为本包依赖。"
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/105",
+      "reason": "直接打开503；未作为已验证可用阅读入口。"
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/1342",
+      "reason": "读取超时；未作为已验证可用阅读入口。"
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/55237",
+      "reason": "结构化API在本工具中无法读取；改用逐幅官方页面与其图像链接，未声称API响应已核验。"
+    }
+  ]
 }
