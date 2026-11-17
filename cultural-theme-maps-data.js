@@ -18,6 +18,8 @@ for(const addition of culturalPlaceAdditions){
  const {theme,also=[],...stop}=addition;
  for(const id of [theme,...also])culturalAtlasPack.themes.find(t=>t.id===id).stops.push({...stop});
 }
+const mendelssohnProfile=culturalAtlasPack.themes.find(t=>t.id==='mendelssohn');
+Object.assign(mendelssohnProfile,{name:'门德尔松：莱比锡与苏格兰',tagline:'从城市工作空间，听见旅行中的山海。',focus:'莱比锡的晚年居所，与苏格兰荷里路德和斯塔法岛的旅行印象，属于不同的生活阶段。音乐城市与海岛分别探访，不将它们复原成一次旅程。'});
 const culturalMapDefinitions=[
  {id:'modern-architecture',name:'现代建筑：居住与地景',lens:'从住宅的尺度，看现代建筑如何回应地方',members:['wright','le-corbusier','aalto'],intro:'草原与沙漠中的工作室、法国的住宅实验、芬兰的公共建筑，呈现现代建筑对居住、材料与地形的不同回答。先从法国或芬兰的一组建筑开始探访，再对照其他地区的作品。',plans:[
   ['architecture-france','法国 · 别墅与集合住宅',['villa-savoye','unite-marseille'],5,[4,5,6,9,10],'城际铁路 + 当地公交','萨伏伊别墅与马赛公寓对读独栋住宅和集体居住。两地之间安排现代交通，属于建筑比较，不复原建筑师一次旅程。'],

@@ -9,7 +9,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
  const overflow=async id=>assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),id+' overflow');
  const frame=async id=>{
   await page.waitForFunction(()=>camera===null&&Math.abs(zoom-targetZoom)<.01);
-  const result=await page.evaluate(()=>({w,h,points:filtered().map(p=>{const q=project(p.lon,p.lat),s=screen(q);return {id:p.id,z:q[2],x:s[0],y:s[1]}})}));
+  const result=await page.evaluate(()=>({w,h,points:mapPoints().map(p=>{const q=project(p.lon,p.lat),s=screen(q);return {id:p.id,z:q[2],x:s[0],y:s[1]}})}));
   // Global comparison maps need more than one hemisphere. Local maps and plans fit.
   assert.ok(result.points.every(p=>p.z>0&&p.x>0&&p.x<result.w&&p.y>0&&p.y<result.h),id+' framing '+JSON.stringify(result));
  };

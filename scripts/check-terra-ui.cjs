@@ -63,7 +63,7 @@ const origin=process.env.SITE_URL||'http://127.0.0.1:8000';
   assert.ok(await page.locator('.theme-card[data-theme="impressionism"]').count());
   await page.locator('#catalog-search').fill('');
   await page.locator('[data-catalog-view="routes"]').click();
-  assert.equal(await page.locator('.catalog-itinerary').count(),await page.evaluate(()=>planTemplates.length));
+  assert.equal(await page.locator('.catalog-itinerary').count(),await page.evaluate(()=>matchingDiscoveryRoutes().length));
   await capture('desktop-route-discovery',true);
   await page.locator('[data-catalog-view="themes"]').click();
   // Every theme retains its actual map, route list and return navigation.

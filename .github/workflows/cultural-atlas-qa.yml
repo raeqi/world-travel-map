@@ -1,4 +1,4 @@
-name: Cultural atlas and collection browser checks
+name: Cultural theme maps browser checks
 on:
   pull_request:
     branches: [main]

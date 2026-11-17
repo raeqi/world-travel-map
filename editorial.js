@@ -216,7 +216,12 @@ function openImageRoom(key,trigger=document.activeElement){
 }
 function locateArtwork(key,role){
  const work=artWorks.find(w=>w.key===key);if(!work)return;
- imageRoomReturnFocus=null;document.querySelector('#image-room')?.close();const p=places.find(p=>p.id===(role==='museum'?work.museumId:work.placeId));select(p);
+ imageRoomReturnFocus=null;document.querySelector('#image-room')?.close();const p=places.find(p=>p.id===(role==='museum'?work.museumId:work.placeId));
+ if(p&&!p.themes.includes(themes[activeTheme].id)){
+  const id=work.theme||'impressionism',index=themes.findIndex(t=>t.id===id&&p.themes.includes(id));
+  if(index>=0)enterTheme(index);
+ }
+ select(p);
 }
 document.addEventListener('click',e=>{
  const read=e.target.closest('[data-read-image]');if(read){openImageRoom(read.dataset.readImage,read);return}
