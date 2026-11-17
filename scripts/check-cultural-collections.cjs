@@ -47,7 +47,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-colle
    // Switching from Hunan to Heilongjiang must move the map as well as the list.
    await open('#theme=collection-modern-chinese-literature&view=places');
    await page.locator('#collection-person').selectOption('xiao-hong');
-   const checkFrame=async()=>{await page.waitForFunction(()=>camera===null&&Math.abs(zoom-targetZoom)<.01);assert.ok(await page.evaluate(()=>filtered().every(p=>{const q=project(p.lon,p.lat),s=screen(q);return q[2]>0&&s[0]>0&&s[0]<w&&s[1]>0&&s[1]<h})));assert.equal(await page.evaluate(()=>previewStops),null)};
+   const checkFrame=async()=>{await page.waitForFunction(()=>camera===null&&Math.abs(zoom-targetZoom)<.01);const frame=await page.evaluate(()=>({lon,lat,zoom,w,h,points:filtered().map(p=>{const q=project(p.lon,p.lat),s=screen(q);return {id:p.id,z:q[2],x:s[0],y:s[1]}})}));assert.ok(frame.points.length&&frame.points.every(p=>p.z>0&&p.x>0&&p.x<frame.w&&p.y>0&&p.y<frame.h),JSON.stringify(frame));assert.equal(await page.evaluate(()=>previewStops),null)};
    await checkFrame();await page.reload();await page.waitForFunction(()=>document.body.dataset.ready==='true');await checkFrame();
    await page.screenshot({path:out+'/'+device.name+'-filtered-map.png'});
    await open('#theme=collection-modern-architecture&view=places');await page.locator('#collection-region').selectOption('日本');await checkFrame();
