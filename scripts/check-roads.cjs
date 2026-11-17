@@ -11,17 +11,32 @@ const {chromium}=require('playwright');
   page.on('pageerror',e=>errors.push(e.message));
   await page.goto('http://127.0.0.1:8000',{waitUntil:'load'});
   await page.waitForFunction(()=>document.body.dataset.ready==='true');
-  await page.locator('.theme-card[data-theme="roads"]').click();
-  await page.waitForFunction(()=>land.length>0&&w>0);
-  await page.locator('#tab-plans').click();
-  await page.locator('#travel-month').selectOption('0');
-  assert.equal(await page.locator('.plan-card').count(),16);
-  await page.screenshot({path:path.join(out,'road-atlas-desktop.png')});
+  
+  await page.locator('[data-interest="drives"]').click();
+  assert.equal(await page.locator('.theme-card[data-theme^="drive-"]').count(),12);
+  assert.equal(await page.locator('.theme-card[data-theme="roads"]').count(),0);
+  await page.screenshot({path:path.join(out,'road-collection-desktop.png'),fullPage:true});
+  const themeIds=await page.evaluate(()=>scenicRoadThemes.map(t=>t.id));
+  for(const themeId of themeIds){
+   await page.locator('.theme-card[data-theme="'+themeId+'"]').click();
+   await page.waitForFunction(()=>land.length>0&&w>0&&camera===null);
+   assert.equal(await page.evaluate(()=>mapPoints().every(p=>p.themes.includes(themes[activeTheme].id))),true);
+   const expected=await page.evaluate(()=>scenicRoadThemes.find(t=>t.id===themes[activeTheme].id).roads.length);
+   await page.locator('#tab-plans').click();
+   await page.locator('#travel-month').selectOption('0');
+   assert.equal(await page.locator('.plan-card').count(),expected,themeId+' own routes only');
+   await page.screenshot({path:path.join(out,themeId+'-overview-desktop.png')});
+   await page.locator('#back-themes').click();
+  }
   const ids=await page.evaluate(()=>scenicRoadPlans.map(p=>p.id));
   for(const viewport of [{width:1440,height:1000},{width:390,height:844}]){
    await page.setViewportSize(viewport);
    for(const id of ids){
-    await page.evaluate(id=>openPlan(buildPlans('roads',0).find(p=>p.id===id)),id);
+    await page.evaluate(id=>{
+     const own=scenicRoadPlans.find(p=>p.id===id);
+     if(!inTheme||themes[activeTheme].id!==own.theme)enterTheme(themes.findIndex(t=>t.id===own.theme));
+     openPlan(buildPlans(own.theme,0).find(p=>p.id===id));
+    },id);
     await page.waitForFunction(()=>camera===null);
     await page.locator('.road-route-guide').waitFor();
     assert.equal(await page.locator('.route-stops button').count(),await page.evaluate(()=>activePlan.ids.length));
@@ -55,7 +70,7 @@ const {chromium}=require('playwright');
   await page.setViewportSize({width:1440,height:1000});
   await page.locator('#back-themes').click();
   await page.locator('[data-interest="drives"]').click();
-  assert.equal(await page.locator('.theme-card[data-theme="roads"]').count(),1);
+  assert.equal(await page.locator('.theme-card[data-theme^="drive-"]').count(),12);
   await page.locator('[data-catalog-view="routes"]').click();
   await page.locator('#catalog-area').selectOption('非洲');
   assert.ok((await page.locator('#catalog-results').textContent()).includes('南非花园大道'));
@@ -66,8 +81,25 @@ const {chromium}=require('playwright');
   await page.screenshot({path:path.join(out,'road-discovery-country.png')});
   await page.locator('#catalog-search').fill('北冰洋');
   assert.ok((await page.locator('#catalog-results').textContent()).includes('加拿大'));
+  
+  // Legacy bookmarks land on a collection, or their exact new theme.
+  await page.goto('http://127.0.0.1:8000/#theme=roads&view=places',{waitUntil:'load'});
+  await page.waitForFunction(()=>document.body.dataset.ready==='true');
+  assert.equal(await page.locator('.theme-card[data-theme^="drive-"]').count(),12);
+  assert.ok(page.url().includes('interest=drives'));
+  await page.goto('http://127.0.0.1:8000/#theme=roads&view=plans&route=roads-arctic',{waitUntil:'load'});
+  await page.waitForFunction(()=>document.body.dataset.ready==='true'&&camera===null);
+  assert.equal(await page.evaluate(()=>themes[activeTheme].id),'drive-arctic');
+  assert.equal(await page.evaluate(()=>activePlan.id),'roads-arctic');
+  await page.reload({waitUntil:'load'});
+  await page.waitForFunction(()=>document.body.dataset.ready==='true'&&camera===null);
+  assert.equal(await page.evaluate(()=>activePlan.id),'roads-arctic');
+  await page.goto('http://127.0.0.1:8000/#theme=roads&place=road-bixby',{waitUntil:'load'});
+  await page.waitForFunction(()=>document.body.dataset.ready==='true'&&camera===null);
+  assert.equal(await page.evaluate(()=>selected.id),'road-bixby');
+  assert.equal(await page.evaluate(()=>themes[activeTheme].id),'drive-california');
   assert.deepEqual(errors,[],'No browser JS exceptions');
   assert.deepEqual(failedImages,[],'Real photographs must decode; no silent missing images');
-  console.log('PASS roads browser: 16 routes × desktop/mobile; first/last stop; guide; search/continent filters; 13 real-image decodes; screenshots '+out);
+  console.log('PASS roads browser: 12 themes and legacy bookmarks; 16 routes × desktop/mobile; first/last stop; guide; search/continent filters; 13 real-image decodes; screenshots '+out);
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
