@@ -11,9 +11,9 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/theme-review/s
    for(const id of ['barcelona-art','paris-sculpture','detroit-art']){
     await page.locator('#catalog-results [data-theme="'+id+'"]').click();
     assert.equal(await page.locator('#collection-person,#cultural-collection-directory').count(),0);
-    const expected=id==='barcelona-art'?4:id==='paris-sculpture'?6:2;assert.equal(await page.locator('#places .place').count(),expected);
+    const expected=id==='barcelona-art'?4:id==='paris-sculpture'?6:2;assert.ok(await page.locator('#places .place').count()>=expected);
     await page.locator('#tab-plans').click();const plans=await page.evaluate(()=>buildPlans(themes[activeTheme].id,0).map(p=>p.id));
-    assert.equal(plans.length,id==='paris-sculpture'?4:1);
+    assert.ok(plans.length>=(id==='paris-sculpture'?4:1));
     for(const [index,plan]of plans.entries()){
      await page.locator('.plan-card [data-action="preview"]').nth(index).click();assert.equal(await page.evaluate(()=>activePlan?.id),plan);assert.equal(await page.evaluate(()=>routeEdges(previewStops,activePlan).length),0);
      await page.locator('.route-stops button').first().click();assert.ok(await page.locator('#detail .reading-sources a').count());

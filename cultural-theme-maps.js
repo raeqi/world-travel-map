@@ -24,7 +24,7 @@ artWorks.push({key:'atlas-yui',theme:'hiroshige',title:'东海道五十三次 ·
 // justifies a merge (e.g. Hulan and Xiangxi, or Finland and Bergen).
 for(const source of culturalAtlasPack.themes){const t=themes.find(t=>t.id===source.id);Object.assign(t,{catalogHidden:false,maxZoom:4000,view:culturalMapView(places.filter(p=>p.themes.includes(source.id)))});}
 for(const definition of culturalMapDefinitions){
- const members=culturalMapMembers(definition),nodes=[...new Set(members.flatMap(culturalMemberPlaces))],sources=members.map(m=>themes.find(t=>t.id===m.id));
+ const members=culturalMapMembers(definition),nodes=[...new Set([...members.flatMap(culturalMemberPlaces),...(definition.extraPlaces||[]).map(culturalPlaceRef)])],sources=members.map(m=>themes.find(t=>t.id===m.id));
  if(!nodes.length||sources.some(t=>!t))throw Error('Invalid cultural map '+definition.id);
  const first=sources[0],id=definition.id;
  culturalThemeMaps.set(id,definition);atlasThemePlaceIds.set(id,nodes.map(p=>p.id));
@@ -102,3 +102,5 @@ function migrateCulturalMapHash(hash){
  q.set('theme',id);q.delete('person');return '#'+q.toString();
 }
 discoveryIndex=null;readingPlans=null;
+
+applyRegionalConsolidation();
