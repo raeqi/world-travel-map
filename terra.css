@@ -422,3 +422,7 @@ body[data-brand] .artwork-card .media-caption,body[data-brand] .reading-work .me
 body[data-brand] .place-photo figcaption>.media-caption{padding:0}
 body[data-brand] #detail .media-caption a{font-size:11px}
 @media(max-width:760px){body[data-brand] .media-source>summary{min-height:44px}body[data-brand] .media-caption-tools{gap:0 12px}body[data-brand] .media-byline a{display:inline-block;min-height:24px}body[data-brand] #theme-reading .media-caption .media-caption-title{font-size:12px}}
+
+body[data-brand] .room-copy .artwork-actions button{min-height:40px;background:var(--tm-card);color:var(--tm-brand);border:1px solid #b6c8cc;border-radius:6px}
+body[data-brand] .room-copy .artwork-actions button:first-child{background:var(--tm-brand);color:#fff;border-color:var(--tm-brand)}
+body[data-brand] .media-source[open]{flex:1 0 100%}

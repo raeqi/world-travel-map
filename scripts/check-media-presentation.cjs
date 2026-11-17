@@ -20,6 +20,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/media-presenta
     const layout=await button.evaluate(b=>{const c=getComputedStyle(b),r=b.getBoundingClientRect();return {position:c.position,bg:c.backgroundColor,width:r.width,height:r.height,label:b.getAttribute('aria-label'),popup:b.getAttribute('aria-haspopup')}});
     assert.equal(layout.position,'relative');assert.ok(layout.width>40&&layout.height>40);assert.ok(layout.label.includes('查看完整图像'));assert.equal(layout.popup,'dialog');
     if(id==='vangogh'){assert.equal(await button.innerText(),'');assert.ok(await button.evaluate(b=>Math.abs(b.getBoundingClientRect().width-document.querySelector('#theme-hero').getBoundingClientRect().width)<2));}
+    if(id==='vangogh'){await button.locator('img').click({position:{x:8,y:8}});await page.locator('#image-room').waitFor({state:'visible'});await page.keyboard.press('Escape');}
     await overflow(id);await axe('#theme-hero');await axe('#theme-reading');
     await page.screenshot({path:out+'/'+device.name+'-'+id+'.png'});
     const key=await button.getAttribute('data-read-image');await button.focus();await page.keyboard.press('Enter');await page.locator('#image-room').waitFor({state:'visible'});
@@ -36,6 +37,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/media-presenta
    // A place photograph uses the same full-image control and local credit caption.
    await theme('parks');await page.evaluate(()=>select(placesById.get('np-yell')));const detailButton=page.locator('#detail .place-photo .media-open');assert.equal(await detailButton.count(),1);await detailButton.click();await page.locator('#image-room').waitFor({state:'visible'});await page.keyboard.press('Escape');assert.equal(await detailButton.evaluate(b=>document.activeElement===b),true);await axe('#detail .place-photo');await overflow(device.name+' place photo');
   }
+  await page.locator('#back-themes').click();await page.locator('#site-footer .credits-button').click();await page.locator('#credits').waitFor({state:'visible'});assert.equal(await page.locator('#credit-list figure').count(),await page.evaluate(()=>Object.keys(photoLibrary).length));await page.locator('#close-credits').click();
   assert.deepEqual(errors,[]);fs.writeFileSync(out+'/result.json',JSON.stringify({passed:true,themes:ids.length,viewports:['1440x1000','390x844'],keyboard:['Enter','Space','Escape','focus return'],axe:axeResults,errors},null,2));
  }catch(e){await page.screenshot({path:out+'/failure.png'}).catch(()=>{});throw e}finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exitCode=1});
