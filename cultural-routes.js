@@ -10,12 +10,12 @@ for(const p of culturalRoutePack.places){
  const id=culturalIds[p.id];let place=places.find(x=>x.id===id);
  if(!place){place={id,name:p.name,lon:p.lon,lat:p.lat,country:p.country,region:p.region,type:culturalTypes[p.relation]||'人物与作品',desc:p.desc,themes:[],icon:'◇',source:culturalSources[p.sourceIds[0]],sourceLabel:'机构与作品资料',coordinateNote:'建筑、街区或地景代表坐标，不是具体历史视点或导航入口。',facts:{'地点关系':culturalTypes[p.relation]||'人物与作品','现场观察':p.lookFor}};places.push(place)}
  if(!place.themes.includes(p.theme))place.themes.push(p.theme);
- const culturalEssay={title:'在地点与作品之间',paragraphs:[{heading:'为什么来到这里',text:p.desc},{heading:'到现场看什么',text:p.lookFor}],sources:p.sourceIds.map(s=>({title:'机构资料 · '+s,url:culturalSources[s]})),related:[]};
+ const culturalEssay={title:'在地点与作品之间',paragraphs:[{heading:'到现场看什么',text:p.lookFor}],sources:p.sourceIds.map(s=>({title:'机构资料 · '+s,url:culturalSources[s]})),related:[]};
  if(p.id==='hokusai-nihonbashi'){
   // The shared Nihonbashi point remains a road origin as well as an artwork subject.
   const prior=placeEssays[id];
   place.facts={...(place.facts||{}),'地点关系':'中山道与江户五街道起点 · 北斋画中地点'};
-  placeEssays[id]={...(prior||{}),title:'日本桥：古道起点与北斋画中城市',paragraphs:[...(prior?.paragraphs||[{heading:'道路起点',text:place.desc}]),...culturalEssay.paragraphs],sources:[...(prior?.sources||[]),...culturalEssay.sources],related:prior?.related||[]};
+  placeEssays[id]={...(prior||{}),title:'日本桥：古道起点与北斋画中城市',paragraphs:[...(prior?.paragraphs||[]),{heading:'北斋画中的日本桥',text:p.desc},...culturalEssay.paragraphs],sources:[...(prior?.sources||[]),...culturalEssay.sources],related:prior?.related||[]};
  }else placeEssays[id]=culturalEssay;
  const photo=(p.id==='bach-thomaskirche'?'bach-leipzig':p.id)+'-photo';if(p.id!=='austen-bath'&&photoLibrary[photo])editorialPlacePhotos[id]=photo;
 }
