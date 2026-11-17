@@ -28,10 +28,10 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/media-presenta
     const expected=await page.evaluate(key=>photoLibrary[key],key);assert.ok((await page.locator('#image-room .room-credit').innerText()).includes(expected.author));assert.ok((await page.locator('#image-room .room-credit').innerText()).includes(expected.license));
     await axe('#image-room');await page.keyboard.press('Escape');await page.locator('#image-room').waitFor({state:'hidden'});assert.equal(await button.evaluate(b=>document.activeElement===b),true);
     await page.keyboard.press('Space');await page.locator('#image-room').waitFor({state:'visible'});await page.locator('#image-room .room-close').click();await page.locator('#image-room').waitFor({state:'hidden'});assert.equal(await button.evaluate(b=>document.activeElement===b),true);
-    const summary=page.locator('#theme-reading .media-source summary');await summary.focus();await page.keyboard.press('Enter');assert.equal(await page.locator('#theme-reading .media-source').getAttribute('open'),'');
+    const summary=page.locator('#theme-reading .media-source summary');await summary.focus();assert.ok(await summary.evaluate(el=>document.activeElement===el),id+' source summary focus');await summary.press('Enter');await page.waitForFunction(()=>document.querySelector('#theme-reading .media-source').open);
     for(const creditKey of await page.evaluate(()=>editionCoverKeys(themes[activeTheme].id))){const m=await page.evaluate(k=>photoLibrary[k],creditKey),links=page.locator('#theme-reading [data-source-key="'+creditKey+'"] a');assert.equal(await links.nth(0).getAttribute('href'),m.source);assert.equal(await links.nth(1).getAttribute('href'),m.licenseUrl);}
     await overflow(id+' credits');if(id==='vangogh')await page.screenshot({path:out+'/'+device.name+'-vangogh-sources.png'});
-    await summary.click();
+    await summary.click();await page.waitForFunction(()=>!document.querySelector('#theme-reading .media-source').open);
     const secondary=page.locator('#theme-hero .secondary-image-open');if(await secondary.count()){const sk=await secondary.first().getAttribute('data-read-image');await secondary.first().click();assert.equal(await page.locator('#image-room img').getAttribute('src'),await page.evaluate(k=>photoPath(k),sk));await page.keyboard.press('Escape');}
    }
    // A place photograph uses the same full-image control and local credit caption.

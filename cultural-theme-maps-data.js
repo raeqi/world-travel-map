@@ -18,6 +18,10 @@ for(const addition of culturalPlaceAdditions){
  const {theme,also=[],...stop}=addition;
  for(const id of [theme,...also])culturalAtlasPack.themes.find(t=>t.id===id).stops.push({...stop});
 }
+const yuiProfile=culturalAtlasPack.themes.find(t=>t.id==='hiroshige').stops.find(s=>s.key==='yui');
+yuiProfile.summary+=' 2026年11月核查：广重美术馆自2026年6月1日起休馆，官网计划2027年4月初重开；期间由比宿交流馆提供卫星展示，展品包括复刻版画。';
+yuiProfile.observe+=' 当前探访应先核实休馆与交流馆安排，不将复刻展示称为江户原摺。';
+yuiProfile.source='https://tokaido-hiroshige.jp/whatsnew/2026/05/post-316.html';
 const mendelssohnProfile=culturalAtlasPack.themes.find(t=>t.id==='mendelssohn');
 Object.assign(mendelssohnProfile,{name:'门德尔松：莱比锡与苏格兰',tagline:'从城市工作空间，听见旅行中的山海。',focus:'莱比锡的晚年居所，与苏格兰荷里路德和斯塔法岛的旅行印象，属于不同的生活阶段。音乐城市与海岛分别探访，不将它们复原成一次旅程。'});
 const culturalMapDefinitions=[
@@ -41,8 +45,8 @@ const culturalMapDefinitions=[
  {id:'barcelona-art',name:'巴塞罗那：高迪建筑与毕加索的城市',lens:'看街区、建筑与艺术如何共同塑造一座城',members:['gaudi',{id:'picasso',keys:['picasso-barcelona']}],intro:'从老城的毕加索博物馆到扩展区的住宅与圣家堂，再到山坡上的古埃尔公园，用同一座城市的街区尺度理解两种艺术语言。巴黎馆藏留在毕加索的跨城地图。',plans:[
   ['barcelona-modern','巴塞罗那 · 老城到现代主义街区',['picasso-barcelona','casa-batllo','sagrada-familia','park-guell'],3,[3,4,5,6,9,10,11],'地铁 / 公交 + 分区步行','一天读老城与毕加索，另两天分别安排扩展区建筑和古埃尔公园。三天为当代城市探访参考，各馆与建筑门票独立预约。']
  ]},
- {id:'fuji-tokaido',name:'富士与东海道：北斋、广重的风景',lens:'从江户的桥，到骏河海岸的富士',members:[{id:'hokusai',country:'日本'},'hiroshige'],intro:'日本桥的行旅、江尻的风、由比的山海与三坂水面的倒影，把北斋和广重的版画放回关东与富士周边。地点表示题名区域或美术馆，不能当作复原机位；纽约的原作收藏通过作品卡另行定位。',artThemes:['hokusai'],plans:[
-  ['fuji-suruga','骏河海岸 · 江尻与由比',['hokusai-ejiri','yui'],2,[3,4,5,10,11],'区域铁路 + 当地接驳','以静冈和清水一带为基地，对读北斋《骏州江尻》与广重的由比图像，并向由比的广重美术馆查询轮换展览。风景代表点不标作古代作画位置，海岸天气与交通另查。'],
+ {id:'fuji-tokaido',name:'富士与东海道：北斋、广重的风景',lens:'从江户的桥，到骏河海岸的富士',members:[{id:'hokusai',country:'日本'},'hiroshige'],intro:'日本桥的行旅、江尻的风、由比的山海与三坂水面的倒影，把北斋和广重的版画放回关东与富士周边。地点表示题名区域或美术馆，不能当作复原机位；纽约的原作收藏通过作品卡另行定位。',artThemes:['hokusai','hiroshige'],plans:[
+  ['fuji-suruga','骏河海岸 · 江尻与由比',['hokusai-ejiri','yui'],2,[3,4,5,10,11],'区域铁路 + 当地接驳','以静冈和清水一带为基地，对读北斋《骏州江尻》与广重的由比图像，由比广重美术馆2026年6月起休馆，官方计划2027年4月初重开；期间可向由比宿交流馆查询复刻版画展示，不能按原馆正常开放安排。风景代表点不标作古代作画位置，海岸天气与交通另查。'],
   ['fuji-views','富士北麓与诹访湖 · 水面的两种构图',['hokusai-kawaguchi','hokusai-suwa'],4,[4,5,10,11],'两地住宿 + 区域铁路 / 当地接驳','从御坂题名区域的倒影到诹访湖的远景，比较北斋怎样安排水面与山体。两地需安排转场；这里是画中区域，非具体历史机位，天气与山路开放另查。']
  ]},
  {id:'jiangnan-painting',name:'江南画家：水乡、山水与日常',lens:'从家乡与画院，看山水怎样进入日常',members:[{id:'wu-guanzhong',country:'中国'},'huang-binhong',{id:'feng-zikai',keys:['yuanyuantang','riyuelou']}],intro:'吴冠中的宜兴与杭州求学、黄宾虹的黄山与杭州生活、丰子恺的石门乡居和上海日月楼，放在江南共同的水乡与城市环境中对看。可以从杭州或石门出发，黄山另留山地行程；巴黎求学和重庆迁居各自保留在人物地图。',plans:[

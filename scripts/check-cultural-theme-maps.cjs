@@ -37,7 +37,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
      assert.equal(await page.evaluate(()=>activePlan.topology),'network');assert.equal(await page.evaluate(()=>routeEdges(previewStops,activePlan).length),0);
      await page.locator('.route-stops button').first().click();assert.ok((await page.locator('#detail').innerText()).length>100);
      await page.locator('#detail .reading-sources').click();assert.ok(await page.locator('#detail .reading-sources a').count());
-     await page.locator('#detail .add-trip').click();await page.locator('#detail [aria-label="下一站"]').click();assert.equal(await page.evaluate(()=>previewStops.indexOf(selected)),1);
+     if(!await page.locator('#detail .add-trip').isDisabled())await page.locator('#detail .add-trip').click();assert.ok(await page.evaluate(()=>trip.some(p=>p.id===selected.id)));await page.locator('#detail [aria-label="下一站"]').click();assert.equal(await page.evaluate(()=>previewStops.indexOf(selected)),1);
      await page.locator('#detail .reading-close').click();await overflow(id);
      if(plan===plans[0])await page.screenshot({path:out+'/'+device.name+'-'+id+'-plan.png'});
      await page.reload();await page.waitForFunction(()=>document.body.dataset.ready==='true');assert.equal(await page.evaluate(()=>activePlan?.id),plan);
@@ -55,7 +55,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
    for(const [old,id]of Object.entries(await page.evaluate(()=>culturalMapAliases))){await open('#theme='+old+'&view=plans');assert.equal(await page.evaluate(()=>themes[activeTheme].id),id);assert.ok(await page.locator('.plan-card').count());}
    await open('#theme=collection-modern-chinese-literature&person=xiao-hong&view=plans&route=atlas-xiao-hong-places');assert.equal(await page.evaluate(()=>activePlan?.theme),'xiao-hong');
    await open('#theme=collection-chinese-painting&place=wh-440');assert.equal(await page.evaluate(()=>selected?.id),'wh-440');
-   await open('#theme=fuji-tokaido');await page.locator('#discover-panel [data-art-museum]').first().click();assert.equal(await page.evaluate(()=>selected?.id),'impressionism-met');assert.equal(await page.evaluate(()=>themes[activeTheme].id),'hokusai');
+   await open('#theme=fuji-tokaido');assert.ok(await page.locator('.artwork-card').count()>=5);assert.equal(await page.locator('[data-art-museum="atlas-yui"]').count(),0);await page.locator('#discover-panel [data-art-museum]').first().click();assert.equal(await page.evaluate(()=>selected?.id),'impressionism-met');assert.equal(await page.evaluate(()=>themes[activeTheme].id),'hokusai');
   }
   assert.deepEqual(errors,[]);assert.deepEqual(images,[]);
   fs.writeFileSync(out+'/result.json',JSON.stringify({passed:true,maps:ids,viewports:['1440x1000','390x844'],legacyAliases:18,retainedPersonThemes:76,errors,failedImages:images},null,2));console.log('PASS cultural theme maps: direct places, regional plans, detail, save, next/back, URL restoration, person search, image credits and legacy links on desktop/mobile.');
