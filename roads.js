@@ -1,0 +1,1491 @@
+'use strict';
+// Independent road-travel expansion. Sources checked 2026-11-17.
+// Town/landmark-scale coordinates and schematic lines; never navigation tracks.
+// Loaded after reading/discovery, before flow/app builds its lookup maps.
+const scenicRoads=[
+  {
+    "id": "g219",
+    "name": "G219 · 从喀纳斯到东兴",
+    "country": "中国",
+    "region": "新疆 / 西藏 / 云南 / 广西",
+    "days": 75,
+    "months": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "scope": "全国走廊总览，须拆段实施",
+    "status": "这是一条跨气候带的规划骨架，不是已核验可连续驾车的全程攻略。高原段须单独留出适应时间；雨季、冬季、边境管理和施工可能改变走法。所列月份只供分段选时，不适用于整条国道。",
+    "sources": [
+      [
+        "中国旅游报 · 国之大道 G219",
+        "https://www.ctnews.com.cn/zt/content/2023-03/10/content_138371.html"
+      ],
+      [
+        "交通运输部 · 精品自驾旅游公路",
+        "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202608/t20260817_4222428.html"
+      ],
+      [
+        "阿里文旅 · 沿 G219 认识噶尔",
+        "https://lyfz.al.gov.cn/info/1772/19541.htm"
+      ]
+    ],
+    "check": "https://www.mot.gov.cn/",
+    "reason": "从阿尔泰森林到伊犁河谷，再进入阿里高原和西南边地，最后抵达北部湾。这里用七个区域节点帮助选择分段，省略大量中间道路；75 天只是长途慢游的编辑预算，不代表能按图连续通行。",
+    "stops": [
+      [
+        "kanas",
+        "喀纳斯湖",
+        87.04,
+        48.82,
+        "新疆",
+        "湖泊与森林",
+        "阿尔泰山中的湖泊与针叶林，是理解 G219 北端景观的入口。不要把景区游览车路线当作国道自驾车道。",
+        "沿湖看森林与河谷的关系，出景区后再接续公路。若只想体验北疆，可以把这一站与布尔津的住宿安排成独立短程。",
+        "https://www.neac.gov.cn/seac/c100504/201509/1085732.shtml"
+      ],
+      [
+        "yining",
+        "伊宁",
+        81.32,
+        43.92,
+        "新疆",
+        "河谷城市",
+        "伊犁河谷把跨境贸易、绿洲生活与天山环境放在同一张图上。伊宁作为住宿和补给基地，与沿边国道之间需要现行道路接驳。",
+        "先看城市街区与伊犁河，再选择向南的山地路段；不要为了贴着国道编号而忽略适合休整的城市。"
+      ],
+      [
+        "yecheng",
+        "叶城",
+        77.42,
+        37.88,
+        "新疆",
+        "高原进山门户",
+        "叶城是传统新藏公路的北端门户。这里之后的地形和海拔变化，与伊犁和阿勒泰的旅行节奏完全不同。",
+        "叶城至阿里要作为单独高原行程准备，不把从低地快速上升安排成打卡竞速。下一站只表示区域顺序，途中仍需多日停留。",
+        "https://www.xjyc.gov.cn/ycx/c109125/201908/ba22ae36f21e4c37bbcc88c289019bb2.shtml"
+      ],
+      [
+        "shiquanhe",
+        "狮泉河",
+        80.1,
+        32.5,
+        "西藏",
+        "高原城镇",
+        "狮泉河是阿里地区的行政与交通中心，G219 贯穿噶尔。它的价值首先是长途高原旅行中的补给和休整，而不只是一个路牌。",
+        "以城镇为基地核实后续路段，再安排日土、札达等支线。支线的可访问范围与主路不同，不能从地图线条推断开放。",
+        "https://lyfz.al.gov.cn/info/1772/19541.htm"
+      ],
+      [
+        "tengchong",
+        "腾冲",
+        98.49,
+        25.02,
+        "云南",
+        "火山与边城",
+        "高原向西南山地过渡后，腾冲提供火山地貌与边地城市生活的另一种观看尺度。它是走廊中的探访基地，不代表所有景点都直接在 G219 路边。",
+        "把地质景观与城市停留分开安排；进入景区的接驳、山地道路与长途国道行驶是三种不同时间成本。"
+      ],
+      [
+        "jinghong",
+        "景洪",
+        100.8,
+        22,
+        "云南",
+        "热带河谷",
+        "西双版纳的热带河谷与阿里的高寒环境形成鲜明对比。景洪是区域基地，G219 的边地走向需要按具体路段规划，不能沿图中直线穿越山区。",
+        "适合把热带雨林、河谷与社区参访单独安排为一章，不把全线统一套用同一套旺季判断。"
+      ],
+      [
+        "dongxing",
+        "东兴",
+        107.97,
+        21.55,
+        "广西",
+        "边海交汇",
+        "东兴处在中越边境与北部湾交会区域，也是 G219 和 G228 相接的城市。抵达这里，西部沿边走廊与大陆沿海走廊才在地理上汇合。",
+        "本行程止于中国境内城市，不包含出境；北仑河口、海岸和城市探访需各自核实开放范围。"
+      ]
+    ]
+  },
+  {
+    "id": "g331",
+    "name": "G331 · 从界江到北境草原",
+    "country": "中国",
+    "region": "辽宁 / 吉林 / 黑龙江 / 内蒙古 / 新疆",
+    "days": 60,
+    "months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "scope": "丹东—阿勒泰地区走廊精选",
+    "status": "这是沿边走廊的代表节点，不是完整道路清单。不同省段有新老线、施工与边境管理差异；最后以哈巴河县城作旅行基地，不进入口岸禁限区域。草原和北疆须另查风雪与防火管制。",
+    "sources": [
+      [
+        "辽宁省政府 · G331 与 G228 交会",
+        "https://www.ln.gov.cn/web/ywdt/zymtkln/2026082808323058127/index.shtml"
+      ],
+      [
+        "吉林省政府 · 北疆沿边文化",
+        "https://www.jl.gov.cn/szfzt/gzlfz/gzdt/202603/t20260307_3593768.html"
+      ],
+      [
+        "新华社 · 吉林 G331 主线",
+        "https://www.jl.xinhuanet.com/20250925/1e85d8bae2284eca95bc622bab255b17/c.html"
+      ]
+    ],
+    "check": "https://www.mot.gov.cn/",
+    "reason": "先沿鸭绿江认识丹东、集安和长白，再把黑龙江、额尔古纳与阿勒泰作为不同章节。60 天是跨区域分段旅行预算；地图省略中间站、甘肃及新疆大量路段，不保证整线可连续驾驶。",
+    "stops": [
+      [
+        "dandong",
+        "丹东 · 鸭绿江断桥",
+        124.392,
+        40.115,
+        "辽宁",
+        "界江与工业遗产",
+        "鸭绿江断桥保留中方一侧桥段，可把桥梁工程、战争历史与今天的界江城市放在一起理解。它是丹东的探访点，不是 G331 公里零点。",
+        "辨认断桥与仍承担交通的桥梁，留意原桥可旋转开闭的结构；参观只在开放游览区域内，不意味着可以跨境。",
+        "https://cpc.people.com.cn/GB/64176/64180/2534588.html"
+      ],
+      [
+        "jian",
+        "集安",
+        126.19,
+        41.13,
+        "吉林",
+        "历史城镇",
+        "鸭绿江畔的集安不仅是沿江自驾停靠城市，也有高句丽王城、王陵与贵族墓葬的遗产线索。把道路风景与考古参观安排成两种节奏。",
+        "可以先了解遗址的分散分布，再选择具体开放点；城市坐标不等于所有墓葬的入口。",
+        "https://whc.unesco.org/en/list/1135/"
+      ],
+      [
+        "changbai",
+        "长白县城",
+        128.2,
+        41.42,
+        "吉林",
+        "界江城镇",
+        "长白县城以鸭绿江和朝鲜族生活文化为线索。这里是长白朝鲜族自治县，并不是长白山天池的公园入口。",
+        "可把沿江步行和城镇饮食作为休整日；若想上长白山，需要另行核实景区入口、预约和长途接驳。"
+      ],
+      [
+        "heihe",
+        "黑河",
+        127.5,
+        50.25,
+        "黑龙江",
+        "黑龙江口岸城市",
+        "黑河让行程从鸭绿江转向黑龙江流域。城市滨江空间适合读两岸城市的地理关系，不应把地图上的跨江距离当成出入境许可。",
+        "用滨江公共空间理解界江与城市，再在中国境内继续北行；过境活动必须另做旅行安排。"
+      ],
+      [
+        "mohe",
+        "漠河",
+        122.54,
+        52.97,
+        "黑龙江",
+        "高纬城镇",
+        "漠河县城可作为大兴安岭北段的补给基地。北极村等旅行点需另接支路；北方夏季长日照不等于保证能看到极光。",
+        "安排至少一个不赶路的停留日，认识森林与城镇的尺度；不要按地图直线估算林区道路用时。"
+      ],
+      [
+        "shiwei",
+        "室韦",
+        119.9,
+        51.34,
+        "内蒙古",
+        "界河聚落",
+        "额尔古纳河沿岸的室韦提供草原、界江和社区文化的相遇。G331 沿线还可以分段访问恩和、黑山头等地，不能把所有支路都当作同一条主路。",
+        "适合慢住并观察聚落与河谷的关系；参访应尊重居民日常，摄影和停车遵从现场范围。",
+        "https://www.jl.gov.cn/szfzt/gzlfz/gzdt/202603/t20260307_3593768.html"
+      ],
+      [
+        "habahe",
+        "哈巴河县城",
+        86.42,
+        48.06,
+        "新疆",
+        "北疆旅行基地",
+        "哈巴河位于阿勒泰地区，是 G331 西端区域的城镇停留基地。这里用县城代表旅行落点，不把边境口岸或国界当成游客可以自由进入的终点。",
+        "从额尔古纳到北疆之间仍有很长的内蒙古、甘肃和新疆道路；地图压缩了中间章节，不能一口气按连线驶完。"
+      ]
+    ]
+  },
+  {
+    "id": "g228",
+    "name": "G228 · 大陆海岸的城市与港口",
+    "country": "中国",
+    "region": "大陆沿海",
+    "days": 60,
+    "months": [
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "scope": "丹东—东兴沿海走廊精选",
+    "status": "沿海 G228 不是每一米都贴着海水，也不是所有景点的滨海观光路。城市需经支路接入；不同河口、桥隧与施工段要另查。南北气候差异很大，所列月份用于挑分段，不意味着全国统一最佳季节。",
+    "sources": [
+      [
+        "福建省文旅厅 · G228 沿海联盟",
+        "https://wlt.fujian.gov.cn/wldt/btdt/202412/t20241230_6599855.htm"
+      ],
+      [
+        "青岛市政府 · G228 走廊",
+        "https://www.qingdao.gov.cn/ywdt/zwyw/202608/t20260821_10705769.shtml"
+      ],
+      [
+        "辽宁省政府 · 中国最北海岸",
+        "https://www.ln.gov.cn/web/ywdt/zymtkln/2025011309104974325/index.shtml"
+      ]
+    ],
+    "check": "https://www.mot.gov.cn/",
+    "reason": "沿大陆海岸，从辽东城市、渤海湾到山东港口，再转向福建与北部湾。七站是选段入口，不是把中国海岸压成七天；60 天仅为慢游预算。路线不含海岛轮渡，也不假定规划通道已全线无缝贯通。",
+    "stops": [
+      [
+        "dandong-coast",
+        "丹东 · 东港",
+        124.15,
+        39.88,
+        "辽宁",
+        "河海交界",
+        "丹东沿海一带把鸭绿江流域、渔港和黄海海岸接在一起。它与 G331 的沿江章节相邻，但探索对象已从界江转成海岸生产与生活。",
+        "可以以东港为基地观察港口与滩涂；潮汐和养殖作业区域不等于游客可以任意进入的开放海滩。"
+      ],
+      [
+        "dalian",
+        "大连",
+        121.61,
+        38.91,
+        "辽宁",
+        "港口城市",
+        "辽东半岛的港湾、城市街区和海岸地形值得分别停留。这里把大连作为沿海走廊的城市基地，不把市内所有滨海路都称为 G228。",
+        "城市停留与半岛公路分开安排；选择公共滨海空间认识港口，不追求在道路上随停拍摄。"
+      ],
+      [
+        "tianjin",
+        "天津 · 滨海新区",
+        117.7,
+        39,
+        "天津",
+        "渤海湾城市",
+        "滨海新区是理解渤海湾港口、河口与工业海岸的窗口。市区历史建筑和滨海片区并非一个地点，需要单独安排交通。",
+        "把河海关系作为主题，而不是把这里当成只剩过路的中转站；地图的区域坐标不定位到港区作业空间。"
+      ],
+      [
+        "qingdao",
+        "青岛 · 栈桥海岸",
+        120.315,
+        36.061,
+        "山东",
+        "历史海岸城市",
+        "栈桥把近代港口建设与今天的城市海岸联系起来。回澜阁属于文物，保护维修会影响登阁和临海区域的参观。",
+        "可从开放的海岸公共空间看老城与海湾。2026 年官方已发布栈桥及回澜阁修缮安排，出行前核对最新通告，不按旧照片判断可进入。",
+        "https://www.qingdao.gov.cn/ywdt/zwyw/202610/t20261006_10746545.shtml"
+      ],
+      [
+        "ningbo",
+        "宁波",
+        121.55,
+        29.87,
+        "浙江",
+        "港口与海贸城市",
+        "宁波是中国大陆沿海长线中认识海贸城市的一站。老城、港口与近海岛屿对应不同空间，不能靠一条地图连线全部涵盖。",
+        "先选城市文化还是近海风景，再安排支路和住宿；本行程不包含舟山群岛的桥梁或渡轮线路。"
+      ],
+      [
+        "xiamen",
+        "厦门",
+        118.09,
+        24.48,
+        "福建",
+        "海峡沿岸城市",
+        "厦门以海港城市的生活尺度连接福建海岸。鼓浪屿是需要另行组织船运的岛屿，不属于可以沿 G228 直接把车开到的停靠点。",
+        "把城市步行与自驾转场分开；如要去鼓浪屿，应另外查船票、码头和岛上步行安排。",
+        "https://whc.unesco.org/en/list/1541/"
+      ],
+      [
+        "dongxing-coast",
+        "东兴 · 北仑河口区域",
+        108.08,
+        21.52,
+        "广西",
+        "边海交汇",
+        "沿海走廊在东兴与西南沿边国道相接。北部湾的海岸、北仑河口和边城生活，是这条长线结尾三个不同的阅读角度。",
+        "本点是区域示意，不是 G228 终点路牌或河口保护地入口；沿开放道路和公共游览空间探访。"
+      ]
+    ]
+  },
+  {
+    "id": "california1",
+    "name": "加州 SR1 · 蒙特雷到圣西蒙",
+    "country": "美国",
+    "region": "加利福尼亚州",
+    "days": 5,
+    "months": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "scope": "加州 1 号州道的 Big Sur 精华段",
+    "status": "滑坡、暴雨、维修可能切断 Big Sur 南北贯通。出发当天查 Caltrans；封路时两端分别进出或走 US101 绕行，不尝试沿图中连线穿越关闭路段。不得在桥面或无合法停车空间的路肩停车。",
+    "sources": [
+      [
+        "加州旅游局 · 1 号公路风景站",
+        "https://www.visitcalifornia.com/experience/highway-ones-most-scenic-stops/"
+      ],
+      [
+        "加州旅游局 · 圣克鲁兹至 Big Sur",
+        "https://www.visitcalifornia.com/now/road-trip-highway-1-santa-cruz-to-big-sur/"
+      ]
+    ],
+    "check": "https://roads.dot.ca.gov/",
+    "reason": "以蒙特雷湾为开头，沿卡梅尔、比克斯比桥与 Big Sur 海岸，向圣西蒙延伸。这只是加州 SR1 的中部章节，不是东岸 US1，也不是整条太平洋海岸线；是否能南北贯通必须临行核实。",
+    "stops": [
+      [
+        "monterey",
+        "蒙特雷",
+        -121.894,
+        36.6,
+        "加利福尼亚州",
+        "海湾城市",
+        "蒙特雷湾的海洋生态、旧码头与罐头厂街让海岸公路有了城市前奏。这里适合作为停留基地，再向南进入较少服务设施的 Big Sur。",
+        "先给海湾和城镇留时间，别把离开城市后的每个弯道都当成停车点。"
+      ],
+      [
+        "carmel",
+        "卡梅尔",
+        -121.922,
+        36.555,
+        "加利福尼亚州",
+        "海岸小镇",
+        "卡梅尔是蒙特雷半岛南缘的小镇，适合步行看低矮街区与海岸。它与后续陡峭海岸形成旅行尺度的转换。",
+        "可在镇内解决补给，再核对南向道路状态；半岛观景支路不是全部属于 SR1。"
+      ],
+      [
+        "bixby",
+        "比克斯比溪桥",
+        -121.902,
+        36.372,
+        "加利福尼亚州",
+        "海岸桥梁",
+        "混凝土拱桥跨过陡峭溪谷，是 SR1 工程与海岸地形相遇的具体地点。照片里的观景方向不意味着现场有停车许可。",
+        "从合法开放区域观察桥拱与谷地的关系；不横穿公路，不占桥面或居民出入口拍照。"
+      ],
+      [
+        "bigsur",
+        "Big Sur · 菲佛森林区域",
+        -121.777,
+        36.249,
+        "加利福尼亚州",
+        "红杉与海岸",
+        "Big Sur 不只是一座桥：海雾、红杉河谷和悬崖分别构成不同景观。这里选择菲佛大苏尔一带作为区域点，不冒充所有海滩的入口。",
+        "把森林步行与海岸观景拆开安排。公园步道、海滩支路与国道会有各自的关闭情况。"
+      ],
+      [
+        "sansimeon",
+        "圣西蒙",
+        -121.19,
+        35.644,
+        "加利福尼亚州",
+        "海岸历史聚落",
+        "圣西蒙把海岸野生动物观察与赫氏城堡一带的建筑历史联系起来。南端停留可以独立成立，不必在北段封路时冒险赶通全线。",
+        "城堡参访、海象观察与长途驾驶分别预留时间；具体参观班次以经营和管理机构为准。"
+      ]
+    ]
+  },
+  {
+    "id": "overseas",
+    "name": "美国 US1 · 佛罗里达海外公路",
+    "country": "美国",
+    "region": "佛罗里达州",
+    "days": 5,
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ],
+    "scope": "Key Largo—Key West 海岛公路",
+    "status": "这是美国东岸 US1 的佛罗里达群岛段，不是加州 SR1。飓风、风暴潮与强风可能关闭桥梁并触发疏散；以 Florida 511 与当地通告为准。旧桥步行段不等于机动车行车桥。",
+    "sources": [
+      [
+        "佛罗里达群岛旅游局 · 抵达方式",
+        "https://fla-keys.com/how-to-get-here/"
+      ],
+      [
+        "佛罗里达群岛旅游局",
+        "https://fla-keys.com/"
+      ]
+    ],
+    "check": "https://fl511.com/",
+    "reason": "跨过 Keys 的岛链，把海洋生态、桥梁工程和基韦斯特的文学遗产串联。五天是多地停留参考，不包含整个 US1 北上美东的长线；单一主路容易受风暴和拥堵影响，返程须留余量。",
+    "stops": [
+      [
+        "keylargo",
+        "基拉戈",
+        -80.447,
+        25.086,
+        "佛罗里达州",
+        "海岛门户",
+        "Key Largo 是从佛罗里达大陆进入群岛的重要门户。看似连续的公路背后，是浅海、珊瑚礁与岛屿之间的生态联系。",
+        "水上活动与驾驶不是同一套日程；先按海况与运营安排选项目，再决定在哪一座岛过夜。"
+      ],
+      [
+        "islamorada",
+        "伊斯拉莫拉达",
+        -80.64,
+        24.925,
+        "佛罗里达州",
+        "群岛聚落",
+        "伊斯拉莫拉达的多岛聚落把休闲、渔业和海边生活带到路线中段。这里不是单一海滩，也不能靠公路编号推断每处岸线开放。",
+        "适合安排慢住，选择合法公共入口看海；别把私有码头和住宿岸线当作随处可停的观景台。"
+      ],
+      [
+        "marathon",
+        "马拉松",
+        -81.09,
+        24.714,
+        "佛罗里达州",
+        "中段补给城镇",
+        "Marathon 位于群岛中段，是去往七英里大桥前的旅行基地。它的实际作用是把桥梁观景、生活补给和岛屿停留分开。",
+        "将游览安排在城镇和开放设施内，不在跨海桥上停靠；可以据住宿位置决定新旧桥的观看方式。"
+      ],
+      [
+        "sevenmile",
+        "七英里大桥",
+        -81.155,
+        24.702,
+        "佛罗里达州",
+        "跨海工程",
+        "新旧七英里桥并置，让铁路时代与汽车时代的跨海工程可被直接对读。图片展示的是桥梁走廊，不表示旧桥全线都能步行。",
+        "使用正式开放的步行设施；当代车道、旧铁路桥和封闭结构是三个不同对象。"
+      ],
+      [
+        "keywest",
+        "基韦斯特",
+        -81.8,
+        24.555,
+        "佛罗里达州",
+        "文学与海港",
+        "Key West 让公路终点接入海港街区和海明威的居住故事。文学地点位于城内，可把车停下后用步行慢慢探索。",
+        "这座城市是 US1 的南端旅行目的地，不是美国所有领土的最南点；博物馆参访另查开放与票务。"
+      ]
+    ]
+  },
+  {
+    "id": "utah12",
+    "name": "犹他 12 号风景道 · 红岩到高原森林",
+    "country": "美国",
+    "region": "犹他州",
+    "days": 5,
+    "months": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "scope": "Panguitch 附近 US89—Torrey 附近 SR24",
+    "status": "SR12 经过高原，春秋仍可能下雪；夏季炎热，峡谷可能有山洪。徒步支路和未铺装小路不能由主路通行状态推断。出发查 Utah 511，徒步另查管理机构。",
+    "sources": [
+      [
+        "犹他旅游局 · 12 号风景道",
+        "https://www.visitutah.com/articles/the-all-american-road-scenic-byway-12"
+      ],
+      [
+        "犹他旅游局 · Escalante—Boulder",
+        "https://www.visitutah.com/articles/cycling-scenic-byway-12-escalante-to-boulder"
+      ],
+      [
+        "NPS · 布莱斯观景点",
+        "https://www.nps.gov/brca/planyourvisit/viewpoints.htm"
+      ]
+    ],
+    "check": "https://www.udottraffic.utah.gov/",
+    "reason": "按 Red Canyon、布莱斯支线、Escalante、Boulder 与 Torrey 的顺序，看同一条公路如何穿过红岩、峡谷与高原森林。布莱斯园内道路是支线，五座国家公园长线另列，不把整段联游都叫 SR12。",
+    "stops": [
+      [
+        "redcanyon",
+        "Red Canyon",
+        -112.32,
+        37.744,
+        "犹他州",
+        "红岩公路",
+        "进入 12 号风景道后，红色岩壁与公路尺度靠得很近。这里是 Dixie National Forest 的 Red Canyon，不能与其他州同名峡谷混淆。",
+        "适合用短停理解红岩与道路的关系，步道选择另查林务部门。不要把路边隧洞或车道当拍照场地。"
+      ],
+      [
+        "bryce",
+        "布莱斯峡谷 · 圆形剧场",
+        -112.166,
+        37.628,
+        "犹他州",
+        "岩柱与高原",
+        "布莱斯圆形剧场中的 hoodoo 岩柱，是高原边缘风化侵蚀的视觉密度。主要观景点与园内南北向道路相连，而不是直接全在 SR12 上。",
+        "从 12 号道接支线进入公园；先看崖缘，再按天气和体力决定是否下到岩柱间。",
+        "https://www.nps.gov/brca/planyourvisit/viewpoints.htm"
+      ],
+      [
+        "escalante",
+        "埃斯卡兰特",
+        -111.602,
+        37.77,
+        "犹他州",
+        "峡谷门户",
+        "Escalante 是进入 Grand Staircase–Escalante 区域的城镇门户。大片保护区不等于随便一条岔路都适合普通租车。",
+        "可以在镇上补给、了解展陈与步道状态，再挑一个具体峡谷目标；避免沿地图直线钻入荒野。"
+      ],
+      [
+        "calfcreek",
+        "Calf Creek 休憩区",
+        -111.42,
+        37.794,
+        "犹他州",
+        "溪谷支线",
+        "从公路转入 Calf Creek，可以观察干旱高原里溪水形成的局部绿意。通往瀑布的步行需要独立时间，不是一脚油门到达的道路观景点。",
+        "把停车、步行、饮水和回程作为一段完整活动；不把本点代表坐标当作瀑布位置。"
+      ],
+      [
+        "boulder",
+        "Boulder",
+        -111.423,
+        37.908,
+        "犹他州",
+        "高原小镇",
+        "Boulder 夹在峡谷地形与高原林地之间，给风景道增加了社区与生活的尺度。附近还有解读区域古代生活的文化设施。",
+        "把小镇停留与山地驾驶分开；从此向 Torrey 的路段明显升高，不能只参考沙漠城镇的温度。"
+      ],
+      [
+        "torrey",
+        "Torrey",
+        -111.419,
+        38.299,
+        "犹他州",
+        "公园门户",
+        "12 号风景道在 Torrey 附近接入 24 号公路，向东可再进入 Capitol Reef。它是两条道路的接续基地，不是所有公园景点的统称。",
+        "若继续去 Fruita，另留公园游览时间；在这里结束风景道，也可以把长线接上五园行程。"
+      ]
+    ]
+  },
+  {
+    "id": "utah5",
+    "name": "犹他 Mighty 5 · 用风景道连接五园",
+    "country": "美国",
+    "region": "犹他州",
+    "days": 12,
+    "months": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "scope": "多条公路组合，非单一风景道",
+    "status": "本线由 SR9、US89、SR12、SR24、US191 等走廊及园区支路组合。锡安接驳车、预约、沙漠高温、高原积雪和山洪须逐园核对；峡谷地不同分区不能当作园内互通。",
+    "sources": [
+      [
+        "犹他旅游局 · Mighty 5 行程",
+        "https://www.visitutah.com/plan-your-trip/recommended-itineraries/salt-lake-through-the-mighty-5"
+      ],
+      [
+        "NPS · Fruita",
+        "https://www.nps.gov/care/planyourvisit/fruita.htm"
+      ],
+      [
+        "NPS · 峡谷地",
+        "https://www.nps.gov/cany/index.htm"
+      ],
+      [
+        "NPS · 拱门",
+        "https://www.nps.gov/arch/index.htm"
+      ]
+    ],
+    "check": "https://www.udottraffic.utah.gov/",
+    "reason": "从锡安与布莱斯向东北，通过 12 号和 24 号公路到 Capitol Reef，再赴 Moab 访问峡谷地与拱门。十二天把园内活动与长距离转场分开，不把五园当成五个驾车打卡点；本线不是闭环。",
+    "stops": [
+      [
+        "zion",
+        "锡安 · 峡谷游客中心",
+        -112.987,
+        37.2,
+        "犹他州",
+        "砂岩峡谷",
+        "锡安峡谷的砂岩壁、河流与谷底交通共同决定游览方式。代表点在游客中心一带，不能理解成车可以直接开到所有峡谷步道。",
+        "先按当日接驳车与道路规则安排入谷；Narrows 等活动需要单独评估水情，不是公路行程自动包含的项目。",
+        "https://www.nps.gov/zion/index.htm"
+      ],
+      [
+        "bryce",
+        "布莱斯峡谷 · 圆形剧场",
+        -112.166,
+        37.628,
+        "犹他州",
+        "岩柱与高原",
+        "高原崖缘与成群 hoodoo 岩柱，使布莱斯和锡安形成鲜明差异。地点与 12 号道主题共用真实地理位置，不虚构第二座公园。",
+        "高海拔天气与低谷不同，早春深秋先查积雪和步道；不以晴朗沙漠天气推断这里的路面状况。",
+        "https://www.nps.gov/brca/planyourvisit/viewpoints.htm"
+      ],
+      [
+        "fruita",
+        "Capitol Reef · Fruita",
+        -111.243,
+        38.286,
+        "犹他州",
+        "果园与地质",
+        "Fruita 的历史果园、校舍与岩画让 Capitol Reef 不只剩红色山体。它位于 Waterpocket Fold 形成的山地环境里，适合同时读地质与人类生活。",
+        "可先看公路可达的历史区，再选园内步道；采果、商店与道路各有季节安排，不能默认全年相同。",
+        "https://www.nps.gov/care/planyourvisit/fruita.htm"
+      ],
+      [
+        "moab",
+        "Moab",
+        -109.55,
+        38.573,
+        "犹他州",
+        "双园住宿基地",
+        "Moab 为拱门和峡谷地 Sky 区提供共同基地。城镇看起来离两园都近，但公园道路尺度很大，不适合只按直线距离塞满一天。",
+        "至少留出不同园区的独立日程；是否需要预约及园区道路变化要分别查看官方信息。"
+      ],
+      [
+        "canyonlands",
+        "峡谷地 · Island in the Sky",
+        -109.821,
+        38.46,
+        "犹他州",
+        "高原峡谷",
+        "Island in the Sky 以高台地视角看河流切出的层层峡谷。它与 Needles 等分区不能在园内开车直接互通。",
+        "以这一个分区安排完整参访；如果还想去其他分区，重新计算外部公路转场，而不是连一条园内直线。",
+        "https://www.nps.gov/cany/index.htm"
+      ],
+      [
+        "arches",
+        "拱门 · Double O Arch",
+        -109.626,
+        38.799,
+        "犹他州",
+        "砂岩拱门",
+        "Double O Arch 是拱门公园里的具体岩体，项目已有照片也对应这里。它需要步道抵达，不能把图片当成在道路旁停车即到的景观。",
+        "可按体力改看其他易达景观；Double O 的徒步距离、暴晒与路况另查，不将整条路线默认成轻松驾车。",
+        "https://www.nps.gov/arch/index.htm"
+      ]
+    ]
+  },
+  {
+    "id": "arctic",
+    "name": "加拿大 · 开往北冰洋",
+    "country": "加拿大",
+    "region": "育空 / 西北地区",
+    "days": 9,
+    "months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "scope": "Dempster + Inuvik–Tuktoyaktuk Highway",
+    "status": "两条公路连接北冰洋，但 Dempster 过河依赖渡轮或冰桥；春季融冰和秋季封冻会中断穿越。碎石、补给间距和租车限制必须先核实。并非全年任意日期都能连续通行。",
+    "sources": [
+      [
+        "育空旅游局 · Dempster 行程",
+        "https://www.travelyukon.com/en/see-and-do/itineraries/dempster-highway-road-trip-itinerary"
+      ],
+      [
+        "西北地区政府 · 交通道路",
+        "https://www.inf.gov.nt.ca/en/transportation"
+      ],
+      [
+        "西北地区公园 · Dempster",
+        "https://www.nwtparks.ca/plan-your-trip/road-trips/dempster-highway"
+      ]
+    ],
+    "check": "https://www.inf.gov.nt.ca/en/ferries",
+    "reason": "从 Dawson 区域转入 Dempster，穿过 Tombstone、北极圈和河渡口，到 Inuvik 后接 10 号公路抵达 Tuktoyaktuk。它才是加拿大公路网通向北冰洋的路线；Yonge Street 及安大略 11 号公路不是这条路。",
+    "stops": [
+      [
+        "dawson",
+        "Dawson City",
+        -139.432,
+        64.06,
+        "育空",
+        "历史城镇",
+        "Dawson 是进入 Dempster 前的区域基地；Dempster 的实际岔口在城外 Klondike Highway 上，并非从市中心直接开始。",
+        "出发前安排车辆、燃油与补给检查；把淘金城的文化停留和长途碎石路驾驶分成两天更从容。"
+      ],
+      [
+        "tombstone",
+        "Tombstone 领地公园",
+        -138.314,
+        64.506,
+        "育空",
+        "苔原与山地",
+        "Dempster 穿越 Tombstone 一带的山地与苔原环境。照片表现的是道路所在的真实区域，不等于已经包含深入山地的背包线路。",
+        "可以从公园解说设施和正式短程活动了解地貌，再决定是否需要另做徒步计划。"
+      ],
+      [
+        "eagle",
+        "Eagle Plains",
+        -136.683,
+        66.37,
+        "育空",
+        "偏远补给节点",
+        "Eagle Plains 是长距离碎石公路上的重要补给落点。它的价值不是城市景点密度，而是在偏远路段提供行程缓冲。",
+        "提前核实燃油、住宿及营业状态，不能把地图上有一个点理解成任何时刻都有服务。"
+      ],
+      [
+        "circle",
+        "Dempster 北极圈标志区域",
+        -136.469,
+        66.56,
+        "育空",
+        "纬度地标",
+        "穿过北极圈是一种地理体验：日照、植被与地面环境随纬度改变。标志只是方便停留的位置，不是固定不变的精密天文边界。",
+        "在正式停车区域停留；不将一张北极圈照片等同于已经抵达北冰洋海岸。"
+      ],
+      [
+        "mcpherson",
+        "Fort McPherson",
+        -134.883,
+        67.407,
+        "西北地区",
+        "河渡与社区",
+        "这一带进入 Peel 河流域和 Gwich’in 社区的生活空间。渡河设施随季节转换，不能仅凭整条公路被称为全天候道路来判断能否过河。",
+        "先看 Peel 与 Mackenzie 两处过河设施的实时信息；春秋交替时段应预留等待或取消的可能。",
+        "https://www.inf.gov.nt.ca/en/ferries"
+      ],
+      [
+        "inuvik",
+        "Inuvik",
+        -133.724,
+        68.361,
+        "西北地区",
+        "北方城镇",
+        "Dempster 抵达 Inuvik 后，继续去北冰洋的是另一条编号道路：Inuvik–Tuktoyaktuk Highway，即西北地区 10 号公路。",
+        "在此再次补给、确认海岸段路况；不要把抵达 Inuvik 写成已经把车开到海边。",
+        "https://www.inf.gov.nt.ca/en/transportation"
+      ],
+      [
+        "tuk",
+        "Tuktoyaktuk",
+        -133.038,
+        69.442,
+        "西北地区",
+        "北冰洋海岸社区",
+        "Tuktoyaktuk 位于北冰洋岸边和 Inuvialuit 定居区域。它是有居民的社区，不只是一个给旅行者打卡的尽头。",
+        "先了解社区指引，在允许的海岸公共空间停留；冰丘保护地、船行和地面通行需另行安排。",
+        "https://www.inf.gov.nt.ca/en/transportation"
+      ]
+    ]
+  },
+  {
+    "id": "atlantic",
+    "name": "挪威 · 大西洋之路",
+    "country": "挪威",
+    "region": "默勒-鲁姆斯达尔",
+    "days": 2,
+    "months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "scope": "Bud—Kårvåg 官方风景路线",
+    "status": "官方国家风景路线约 36 公里，不能与最著名的桥群短段、或 Kristiansund—Molde 城际行程混为一谈。大风、海浪与冬季结冰会影响出行；桥面不停车，观海使用正式设施。",
+    "sources": [
+      [
+        "挪威公路局 · 大西洋风景路线",
+        "https://www.nasjonaleturistveger.no/en/routes/atlanterhavsvegen/"
+      ],
+      [
+        "挪威旅游局 · 大西洋之路",
+        "https://www.visitnorway.com/listings/norwegian-scenic-routes-the-atlantic-road/26864/"
+      ]
+    ],
+    "check": "https://www.vegvesen.no/trafikk",
+    "reason": "以 Bud 至 Kårvåg 的官方风景路线为范围，把渔村、海岸观景设施与 Storseisund 桥群放在一起读。两天让桥梁之外的海岸生活也有停留空间；沿线支路和停车按现场指引选择。",
+    "stops": [
+      [
+        "bud",
+        "Bud",
+        6.914241,
+        62.907265,
+        "默勒-鲁姆斯达尔",
+        "海岸渔村",
+        "Bud 是官方大西洋风景路线的一端。与桥群相比，渔村与沿岸步行空间更能呈现人与海长期相处的生活尺度。",
+        "先在村里步行，再驶向礁岸。地图采用公路局发布的端点坐标，不把整个村庄看成一个停车场。"
+      ],
+      [
+        "askevagen",
+        "Askevågen",
+        6.967,
+        62.951,
+        "默勒-鲁姆斯达尔",
+        "海岸观景设施",
+        "Askevågen 的观景设施把身体放在接近海面和礁岸的位置。它是经过设计的停留点，与随便站到临海公路上观浪不同。",
+        "从正式设施观察海岸尺度，风暴中不以照片里的开放视野判断现场安全。"
+      ],
+      [
+        "eldhusoya",
+        "Eldhusøya",
+        7.349,
+        63.016,
+        "默勒-鲁姆斯达尔",
+        "岛屿步行环线",
+        "Eldhusøya 有围绕岛屿设置的高架步行设施，把海岸观景与道路停车分开，是理解风景道设计的具体例子。",
+        "可以停车后步行，再观察桥群如何跨过岛礁；这是观景步行设施，不是跨桥驾车道。"
+      ],
+      [
+        "storseisund",
+        "Storseisundbrua",
+        7.3396,
+        63.0153,
+        "默勒-鲁姆斯达尔",
+        "岛链桥梁",
+        "Storseisund 桥的曲线随观看角度改变，形成大西洋之路最鲜明的工程意象。它连接的是岛礁，不是海上悬空的任意拍照平台。",
+        "在开放观景点看桥面转折与海岸地形，不在车道上停留或步行。"
+      ],
+      [
+        "karvag",
+        "Kårvåg",
+        7.425009,
+        63.011625,
+        "默勒-鲁姆斯达尔",
+        "岛屿门户",
+        "Kårvåg 是官方 36 公里风景路线另一端。继续去 Kristiansund 属于行程延伸，而不是把官方风景路线本身加长。",
+        "可以在这里结束短线，再按住宿和渡海计划延伸；端点采用公路局坐标。"
+      ]
+    ]
+  },
+  {
+    "id": "iceland1",
+    "name": "冰岛 1 号公路 · 火山与冰川环岛",
+    "country": "冰岛",
+    "region": "环岛走廊",
+    "days": 12,
+    "months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "scope": "Route 1 环岛主要停留点",
+    "status": "1 号公路可作环岛主线，但风、冰雪、洪水与火山事件可临时断路。这里不含高地 F 路、西峡湾或所有海岸支路。每天查询路况与 SafeTravel；季节窗口不构成全线开放承诺。",
+    "sources": [
+      [
+        "冰岛旅游局 · Ring Road",
+        "https://www.visiticeland.com/article/the-ring-road/"
+      ],
+      [
+        "冰岛旅游局 · 驾车指引",
+        "https://www.visiticeland.com/article/driving-in-iceland/"
+      ],
+      [
+        "冰岛旅游局 · 城镇",
+        "https://www.visiticeland.com/icelandic-towns-and-villages/"
+      ]
+    ],
+    "check": "https://www.road.is/",
+    "reason": "从雷克雅未克顺时针或反向均可；这里先南岸，再东部和北部，最后返回首都。冰川湖与城镇是精选停留点，环线最后一段会闭合；十二天不包含所有半岛、冰川活动或高地探险。",
+    "stops": [
+      [
+        "reykjavik",
+        "雷克雅未克",
+        -21.942,
+        64.147,
+        "首都区",
+        "城市起终点",
+        "首都是补给、文化参访与环岛前后休整的基地。城市街道不等于公路编号的精确起点，本图用市中心代表旅行落点。",
+        "先为城市和长途驾驶分别留时间；环岛结束回到这里，才构成行程闭环。"
+      ],
+      [
+        "vik",
+        "Vík",
+        -19.008,
+        63.419,
+        "南部",
+        "海岸村镇",
+        "Vík 位于冰川与北大西洋之间，是南岸住宿基地。附近黑沙滩很有辨识度，但海浪风险不能靠风景照判断。",
+        "以村镇补给和住宿为主，海滩支路单独查现场管制；不把黑沙滩当作普通安全游泳海滩。"
+      ],
+      [
+        "jokulsarlon",
+        "杰古沙龙冰川湖",
+        -16.18,
+        64.048,
+        "东南部",
+        "冰川湖",
+        "冰川融水湖中的浮冰，把冰川与海岸连接在短距离内。它是 1 号公路边可识别的地点，但不包含冰川上行走的许可。",
+        "沿正式岸边路径观看，不踏浮冰；若参加船游或冰川活动，另看运营与天气。"
+      ],
+      [
+        "hofn",
+        "Höfn",
+        -15.208,
+        64.253,
+        "东南部",
+        "海港城镇",
+        "Höfn 为东南海岸提供餐饮与住宿，给南岸密集风景之后留下生活尺度。它不只是从冰川湖赶往东部的路上一个名字。",
+        "在港口公共空间和城镇停留后，再安排东部海岸的较长驾驶。"
+      ],
+      [
+        "egilsstadir",
+        "Egilsstaðir",
+        -14.395,
+        65.267,
+        "东部",
+        "东部基地",
+        "Egilsstaðir 位于东部内陆交通节点，可作住宿补给基地。东峡湾与其他港镇通常需要离开环岛主线接支路。",
+        "按时间只选少数支线；不要因为地图把几座城连在一起，就认为每个峡湾都已顺路包含。"
+      ],
+      [
+        "myvatn",
+        "米湖 · Reykjahlíð",
+        -16.913,
+        65.642,
+        "北部",
+        "火山湖区",
+        "米湖区域以火山、湖泊与湿地构成北部景观。本点在 Reykjahlíð，代表住宿与探索基地，不是温泉或全部火山步道的入口。",
+        "分别安排湖区观察和具体地热场参访；地热设施、火山区域和道路有不同开放条件。"
+      ],
+      [
+        "akureyri",
+        "阿克雷里",
+        -18.091,
+        65.683,
+        "北部",
+        "峡湾城市",
+        "阿克雷里位于北部峡湾内侧，适合用城市休整调节环岛节奏。北部还可延伸观鲸等活动，但那些不自动包括在主线上。",
+        "可把城镇参访作为不赶路的一天，再驶向西部；海上活动单独核实港口、海况和班次。"
+      ],
+      [
+        "borgarnes",
+        "Borgarnes",
+        -21.921,
+        64.538,
+        "西部",
+        "西部城镇",
+        "Borgarnes 是回到首都前的西部停留基地。斯奈山半岛等支线不在这条环岛主线中，不会因为西部有一个点就被算作已经游完。",
+        "在此决定直返首都还是另加半岛章节；返程仍查风况与交通信息。"
+      ]
+    ]
+  },
+  {
+    "id": "greatocean",
+    "name": "澳大利亚 · 大洋路慢行",
+    "country": "澳大利亚",
+    "region": "维多利亚州",
+    "days": 5,
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+    ],
+    "scope": "Torquay—Allansford，含景观支线",
+    "status": "海岸山路会受滑坡、山火和强风影响；观景台、海滩与道路各自有开放状态。不要默认老照片中的岩柱数量、票务和设施仍相同。大洋路不等于墨尔本市区到所有海岸目的地的统称。",
+    "sources": [
+      [
+        "大洋路旅游局 · 旅行准备",
+        "https://visitgreatoceanroad.org.au/explore/9-smart-travel-tips-for-planning-your-great-ocean-road-adventure/"
+      ],
+      [
+        "大洋路旅游局 · 经典分日行程",
+        "https://visitgreatoceanroad.org.au/Itineraries/the-must-see-places-of-the-great-ocean-road-region/"
+      ],
+      [
+        "大洋路旅游局 · 地区景点",
+        "https://visitgreatoceanroad.org.au/discover-the-region/big-nature/13-must-see-places-across-the-great-ocean-road-region/"
+      ]
+    ],
+    "check": "https://traffic.transport.vic.gov.au/",
+    "reason": "从 Torquay 的冲浪海岸，经 Lorne 与 Apollo Bay，进入奥特威森林，再到石灰岩海岸与 Allansford。五天给不同地貌各留一段时间；十二门徒只是一个章节，不把整条海岸压成一天往返。",
+    "stops": [
+      [
+        "torquay",
+        "Torquay",
+        144.326,
+        -38.33,
+        "维多利亚州",
+        "冲浪海岸",
+        "Torquay 是大洋路东端的海岸门户，冲浪文化与海边城镇生活构成行程开场。这里不等于墨尔本，机场接驳需要另算。",
+        "可先在城镇及开放海岸停留，再开始弯道较多的海岸驾驶。",
+        "https://visitgreatoceanroad.org.au/torquaylife/"
+      ],
+      [
+        "lorne",
+        "Lorne",
+        143.975,
+        -38.541,
+        "维多利亚州",
+        "海岸小镇",
+        "Lorne 把海岸弯道、海滩和奥特威丘陵联系起来。镇上慢住与山区瀑布支线可以组合，但不能把每处支线都当路边随停。",
+        "看清住宿基地与目标步道之间的距离，给停车与短步行留余量。"
+      ],
+      [
+        "apollobay",
+        "Apollo Bay",
+        143.668,
+        -38.755,
+        "维多利亚州",
+        "海湾基地",
+        "Apollo Bay 适合在海岸与奥特威森林之间换一种节奏。Marriners Lookout 等观景点需额外支路和步行，不是公路车窗里自动出现的视角。",
+        "选择一个实际可达的观景点，余下时间留给海港和小镇，不追求每个观景台都停车。"
+      ],
+      [
+        "otway",
+        "Cape Otway 支线",
+        143.511,
+        -38.856,
+        "维多利亚州",
+        "森林与灯塔海角",
+        "奥特威海角从大洋路主线接出支路，将森林与海角航海历史联系起来。它明确是支线，不把去灯塔的道路说成整段主路。",
+        "单独安排海角停留，核实设施开放；野生动物出现与否不能靠旅游照片保证。"
+      ],
+      [
+        "apostles",
+        "十二门徒岩",
+        143.104,
+        -38.664,
+        "维多利亚州",
+        "石灰岩海岸",
+        "海浪侵蚀使石灰岩海岸形成海蚀柱、拱洞与崖壁，地貌仍在变化。名称不代表今天一定能看见十二根岩柱。",
+        "从正式观景平台看海岸，预订与收费政策查看最新官方安排；不越过围栏追逐旧照片机位。"
+      ],
+      [
+        "portcampbell",
+        "Port Campbell",
+        142.996,
+        -38.618,
+        "维多利亚州",
+        "海岸住宿基地",
+        "Port Campbell 让十二门徒和附近海岸从匆忙打卡变成可分日探访。镇子本身也提供补给和海湾生活。",
+        "以小镇为基地分别查看不同海岸步道的开放，避免傍晚看完风景后疲劳长驾。"
+      ],
+      [
+        "allansford",
+        "Allansford",
+        142.593,
+        -38.386,
+        "维多利亚州",
+        "大洋路西端",
+        "Allansford 靠近 Warrnambool，是大洋路西端的地理落点。继续去阿德莱德或向内陆返回，属于下一段行程。",
+        "可以结束海岸慢游再分配返程，不把整条大洋路等同于必须原路折返。"
+      ]
+    ]
+  },
+  {
+    "id": "milford",
+    "name": "新西兰 SH94 · 开往米尔福德峡湾",
+    "country": "新西兰",
+    "region": "南地 / 峡湾国家公园",
+    "days": 3,
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ],
+    "scope": "Te Anau—Milford Sound，原路返回",
+    "status": "这是尽端公路，本行程只画单向去程，返程需另留时间。Homer 隧道、雪崩控制、风雨和停车限制会影响出行；查 NZTA 当天信息。不要把道路开着等同于所有步道都开着。",
+    "sources": [
+      [
+        "DOC · Milford Road 区域",
+        "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/places-to-go/milford-road-milford-sound-area/"
+      ],
+      [
+        "DOC · Mirror Lakes",
+        "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/tracks/mirror-lakes-walk/"
+      ],
+      [
+        "NZTA · 雪崩控制",
+        "https://nzta.govt.nz/projects/sh94-milford-road/avalanche-control-programme"
+      ]
+    ],
+    "check": "https://www.nzta.govt.nz/projects/sh94-milford-road/sh94-milford-road-status",
+    "reason": "以 Te Anau 为基地，沿 Eglinton 谷地与镜湖，穿过 Homer 隧道抵达 Piopiotahi。三天包含去返与短停余量；峡湾游船、长线徒步和从皇后镇接入都需另外安排，不把五个点等同于一条环线。",
+    "stops": [
+      [
+        "teanau",
+        "Te Anau",
+        167.719,
+        -45.414,
+        "南地",
+        "湖畔基地",
+        "Te Anau 是进入 Milford Road 前的重要湖畔基地。它适合完成补给、了解国家公园信息，并将长途接入与峡湾公路分开。",
+        "出发前查道路和天气，在城镇处理燃油与食物，避免把峡湾尽端当成随时有服务的城市。"
+      ],
+      [
+        "eglinton",
+        "Eglinton Valley",
+        168.014,
+        -45.04,
+        "峡湾国家公园",
+        "冰川谷地",
+        "开阔谷底与两侧陡壁让冰川塑造地形的尺度可被看见。图像来自 Milford Road 的 Eglinton 谷地，不冒充峡湾海面。",
+        "在正式停车点走出车厢看谷地，不在狭窄车道上停留；谷内步道和露营另查 DOC。"
+      ],
+      [
+        "mirror",
+        "Mirror Lakes",
+        168.011,
+        -45.029,
+        "峡湾国家公园",
+        "湿地与倒影",
+        "小湖在平静天气映出 Earl 山脉，同时也是水鸟和湿地植物的环境。倒影依赖风和水面，不是任何天气都与照片相同。",
+        "DOC 列为短程无障碍步行，适合途中伸展；具体施工和开放仍以当日通知为准。",
+        "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/tracks/mirror-lakes-walk/"
+      ],
+      [
+        "homer",
+        "Homer 隧道入口区域",
+        168,
+        -44.765,
+        "峡湾国家公园",
+        "高山道路工程",
+        "Homer 隧道穿过山体，连接内陆山谷与下降到峡湾的道路。这里是交通设施，不把入口坐标当成可以任意停车的景点。",
+        "按信号和现场指示通行；高山道路可能因雪崩风险短时关闭，不在隧道内步行观景。",
+        "https://nzta.govt.nz/projects/sh94-milford-road/avalanche-control-programme"
+      ],
+      [
+        "piopiotahi",
+        "Milford Sound / Piopiotahi",
+        167.925,
+        -44.671,
+        "峡湾国家公园",
+        "峡湾尽端",
+        "道路在峡湾尽端汇入游客设施与码头。山体、降水和海水共同构成景观，抵达公路终点不等于已经包括船行体验。",
+        "游船出发时间与停车另作安排，保留原路返回的驾驶和休息时间。"
+      ]
+    ]
+  },
+  {
+    "id": "garden",
+    "name": "南非花园大道 · 森林、泻湖与海岸",
+    "country": "南非",
+    "region": "西开普 / 东开普",
+    "days": 7,
+    "months": [
+      2,
+      3,
+      4,
+      9,
+      10,
+      11
+    ],
+    "scope": "Mossel Bay—Storms River，N2 与支线",
+    "status": "花园大道是一条地区旅行走廊，不是一条全部沿海贴岸的专用公路。国家公园各片区、步道和社区道路分别核实开放；暴雨、火灾和海况会改变活动。本线不包含开普敦至 Mossel Bay 的长途接入。",
+    "sources": [
+      [
+        "南非旅游局 · 花园大道",
+        "https://www.southafrica.net/gl/en/travel/article/discover-the-garden-route-1"
+      ],
+      [
+        "SANParks · 花园大道地图",
+        "https://www.sanparks.org/parks/garden-route/travel/maps"
+      ],
+      [
+        "SANParks · 营地与区域",
+        "https://www.sanparks.org/parks/garden-route/accommodation"
+      ]
+    ],
+    "check": "https://www.sanparks.org/parks/garden-route",
+    "reason": "从 Mossel Bay 沿 N2 走廊，通过 Wilderness、Knysna 和 Plettenberg Bay，再接 Storms River 河口支线。七天用来在森林、水域和海岸之间慢切换；不宣称 N2 本身就是每段步行和观景道路。",
+    "stops": [
+      [
+        "mosselbay",
+        "Mossel Bay",
+        22.138,
+        -34.181,
+        "西开普",
+        "海湾城市",
+        "Mossel Bay 是花园大道西段的常见旅行入口。它把海岸城市生活与后续的森林、泻湖章节衔接起来。",
+        "先选城市和海岸参访，再决定向东的驾驶节奏；从开普敦到这里仍需单独安排。"
+      ],
+      [
+        "wilderness",
+        "Wilderness",
+        22.58,
+        -33.993,
+        "西开普",
+        "河湖与湿地",
+        "Wilderness 的河流、湖泊与海岸构成连续但不相同的生态环境。国家公园片区不是一个统一收费入口，具体活动需选清楚地点。",
+        "可把水上活动与森林短步行组合成一天；河口海浪和内陆水域的条件分别核实。",
+        "https://www.sanparks.org/parks/garden-route/travel/maps"
+      ],
+      [
+        "knysna",
+        "Knysna",
+        23.048,
+        -34.036,
+        "西开普",
+        "泻湖与森林",
+        "Knysna 的泻湖和周边森林让花园大道的魅力不只在远海。城镇、泻湖出海口与林区各有不同的观看和交通方式。",
+        "在镇上留宿后只挑少数目标，避免把驾车、游船和森林长线都挤进一个下午。"
+      ],
+      [
+        "plett",
+        "Plettenberg Bay",
+        23.372,
+        -34.053,
+        "西开普",
+        "海湾基地",
+        "Plettenberg Bay 适合作为东段海岸的住宿基地。附近半岛与海岸步道可以单独探索，不意味着从 N2 可以直接驶进每个自然保护区。",
+        "将海滩休息和保护区活动分开；根据天气和体力选具体路径。"
+      ],
+      [
+        "storms",
+        "Storms River Mouth",
+        23.903,
+        -34.02,
+        "东开普",
+        "森林与河口",
+        "Storms River 河口的吊桥把河流切开的峡谷和印度洋海岸放在同一视野。这里不是 N2 上的公路拱桥，也不是同名村镇。",
+        "从开放营地或步道接近河口；长距离 Otter Trail 不包含在普通吊桥短程参观里。",
+        "https://www.sanparks.org/parks/garden-route/travel/maps"
+      ]
+    ]
+  }
+];
+
+const scenicRoadPhotos=[
+  {
+    "id": "kanas",
+    "file": "LakeKanas.jpg",
+    "title": "喀纳斯湖 · 北疆森林与湖泊",
+    "author": "Fanghong",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:LakeKanas.jpg",
+    "path": "https://commons.wikimedia.org/wiki/Special:Redirect/file/LakeKanas.jpg?width=1280",
+    "changes": "Wikimedia 提供的等比例缩略图；界面可能裁切。未修改色彩；CC BY-SA 图像及裁切呈现保留原许可。",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "dandong",
+    "file": "Broken Bridge on Yalu River.jpg",
+    "title": "丹东 · 鸭绿江断桥",
+    "author": "Jack Upland; contrast revision Magnolia677",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Broken_Bridge_on_Yalu_River.jpg",
+    "path": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Broken_Bridge_on_Yalu_River.jpg?width=1280",
+    "changes": "Wikimedia 提供的等比例缩略图；界面可能裁切。未修改色彩；CC BY-SA 图像及裁切呈现保留原许可。",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "qingdao",
+    "file": "20240729 Zhanqiao 01.jpg",
+    "title": "青岛 · 栈桥海岸",
+    "author": "Windmemories",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:20240729_Zhanqiao_01.jpg",
+    "path": "https://commons.wikimedia.org/wiki/Special:Redirect/file/20240729_Zhanqiao_01.jpg?width=1280",
+    "changes": "Wikimedia 提供的等比例缩略图；界面可能裁切。未修改色彩；CC BY-SA 图像及裁切呈现保留原许可。",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "bixby",
+    "file": "Bixby Creek Bridge, Monterey, United States (Unsplash).jpg",
+    "title": "Big Sur · 比克斯比溪桥",
+    "author": "Ian Schneider",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Bixby_Creek_Bridge,_Monterey,_United_States_(Unsplash).jpg",
+    "path": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bixby_Creek_Bridge%2C_Monterey%2C_United_States_(Unsplash).jpg?width=1280",
+    "changes": "Wikimedia 提供的等比例缩略图；界面可能裁切。未修改色彩；CC BY-SA 图像及裁切呈现保留原许可。",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "sevenmile",
+    "file": "Seven Mile Bridge, Florida.jpg",
+    "title": "佛罗里达 · 七英里大桥",
+    "author": "SimonMGC",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Seven_Mile_Bridge,_Florida.jpg",
+    "path": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Seven_Mile_Bridge%2C_Florida.jpg?width=1280",
+    "changes": "Wikimedia 提供的等比例缩略图；界面可能裁切。未修改色彩；CC BY-SA 图像及裁切呈现保留原许可。",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "bryce",
+    "file": "Bryce Canyon National Park - top view.jpeg",
+    "title": "布莱斯峡谷 · 岩柱地形",
+    "author": "Tracy Zhang",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Bryce_Canyon_National_Park_-_top_view.jpeg",
+    "path": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bryce_Canyon_National_Park_-_top_view.jpeg?width=1280",
+    "changes": "Wikimedia 提供的等比例缩略图；界面可能裁切。未修改色彩；CC BY-SA 图像及裁切呈现保留原许可。",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "tombstone",
+    "file": "Dempster Highway in Tombstone Territorial Park.jpg",
+    "title": "Dempster 公路 · Tombstone 领地公园",
+    "author": "Murray Foubister",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Dempster_Highway_in_Tombstone_Territorial_Park.jpg",
+    "path": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dempster_Highway_in_Tombstone_Territorial_Park.jpg?width=1280",
+    "changes": "Wikimedia 提供的等比例缩略图；界面可能裁切。未修改色彩；CC BY-SA 图像及裁切呈现保留原许可。",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "storseisund",
+    "file": "Atlanterhavsveien, Norway 20170531 140337.jpg",
+    "title": "挪威 · 大西洋之路桥群与步行设施",
+    "author": "dconvertini",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Atlanterhavsveien,_Norway_20170531_140337.jpg",
+    "path": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Atlanterhavsveien%2C_Norway_20170531_140337.jpg?width=1280",
+    "changes": "Wikimedia 提供的等比例缩略图；界面可能裁切。未修改色彩；CC BY-SA 图像及裁切呈现保留原许可。",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "jokulsarlon",
+    "file": "Jokulsarlon (Unsplash).jpg",
+    "title": "冰岛 · 杰古沙龙冰川湖",
+    "author": "Matt Palmer",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Jokulsarlon_(Unsplash).jpg",
+    "path": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jokulsarlon_(Unsplash).jpg?width=1280",
+    "changes": "Wikimedia 提供的等比例缩略图；界面可能裁切。未修改色彩；CC BY-SA 图像及裁切呈现保留原许可。",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "apostles",
+    "file": "The Twelve Apostles Victoria Australia.jpg",
+    "title": "澳大利亚 · 十二门徒岩历史影像",
+    "author": "Diceman~commonswiki",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Twelve_Apostles_Victoria_Australia.jpg",
+    "path": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_Twelve_Apostles_Victoria_Australia.jpg?width=1280",
+    "changes": "Wikimedia 提供的等比例缩略图；界面可能裁切。未修改色彩；CC BY-SA 图像及裁切呈现保留原许可。",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "eglinton",
+    "file": "Eglinton Valley, Fiordland.jpg",
+    "title": "新西兰 · Eglinton 谷地",
+    "author": "Ingolfson",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Eglinton_Valley,_Fiordland.jpg",
+    "path": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Eglinton_Valley%2C_Fiordland.jpg?width=1280",
+    "changes": "Wikimedia 提供的等比例缩略图；界面可能裁切。未修改色彩；CC BY-SA 图像及裁切呈现保留原许可。",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "storms",
+    "file": "StormsRiverSuspensionBridge2013.jpg",
+    "title": "南非 · Storms River 河口吊桥",
+    "author": "Stephan Schulz",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:StormsRiverSuspensionBridge2013.jpg",
+    "path": "https://commons.wikimedia.org/wiki/Special:Redirect/file/StormsRiverSuspensionBridge2013.jpg?width=1280",
+    "changes": "Wikimedia 提供的等比例缩略图；界面可能裁切。未修改色彩；CC BY-SA 图像及裁切呈现保留原许可。",
+    "verifiedOn": "2026-11-17"
+  }
+];
+
+for(const image of scenicRoadPhotos){
+ const key='road-photo-'+image.id;
+ photoLibrary[key]={...image};
+ editorialPlacePhotos['road-'+image.id]=key;
+}
+editorialPlacePhotos['road-zion']='np-zion';
+editorialPlacePhotos['road-arches']='np-arch';
+
+const scenicRoadPlaceMap=new Map();
+for(const road of scenicRoads){
+ const sources=road.sources.map(([title,url])=>({title,url}));
+ for(const [slug,name,lon,lat,region,type,desc,detail,source] of road.stops){
+  const id='road-'+slug;
+  if(scenicRoadPlaceMap.has(id)){
+   const existing=scenicRoadPlaceMap.get(id);
+   if(existing.lon!==lon||existing.lat!==lat)throw new Error('Conflicting road location: '+id);
+   existing.roadIds.push(road.id);
+   continue;
+  }
+  const p={id,name,lon,lat,country:road.country,region,type,desc,themes:['roads'],icon:'◇',
+   roadIds:[road.id],facts:{'观看线索':type,'道路关系':road.scope},
+   source:source||road.sources[0][1],sourceLabel:source?'地点管理与文化资料':road.sources[0][0],
+   additionalSources:sources,
+   coordinateNote:'城镇、景观或设施的代表坐标，非停车位、出入口或精确道路轨迹；地图直线不能用来估算驾车距离和时间。'};
+  scenicRoadPlaceMap.set(id,p);
+  placeEssays[id]={title:'在这里停下来',paragraphs:[{heading:'看什么，怎样安排',text:detail}],
+   sources:[{title:p.sourceLabel,url:p.source},...sources],related:[]};
+ }
+}
+places.push(...scenicRoadPlaceMap.values());
+const scenicRoadPlans=scenicRoads.map(road=>({
+ id:'roads-'+road.id,theme:'roads',name:road.name,ids:road.stops.map(s=>'road-'+s[0]),
+ days:road.days,months:road.months,transport:'自驾分段 + 景区支路与步行',
+ topology:road.id==='iceland1'?'loop':'route',
+ reason:road.reason+' '+road.status,climate:road.sources[0][1],
+ roadScope:road.scope,accessNote:road.status,statusUrl:road.check,
+ sources:road.sources.map(([title,url])=>({title,url})),verifiedOn:'2026-11-17'
+}));
+planTemplates.push(...scenicRoadPlans);
+themes.push({
+ id:'roads',name:'世界特色公路',title:'沿着公路，<br>读地形与生活',
+ story:'从中国沿边沿海，到北冰洋、峡湾与红岩高原，在道路、自然和人类创造之间停留。',
+ scope:'13 条公路行程 · 代表节点 · 非驾驶导航',
+ introduction:'收录三条中国沿边沿海国道与世界特色公路。中国长线是分段探索总览，不是已验证可连续行驶的全程攻略；其他线路也区分单一道路、多路组合与景点支线。可从推荐行程选一段，逐站读地点，再查看官方道路状态。加拿大北冰洋路线不是 Yonge Street；加州 SR1 与东岸 US1 分开呈现。',
+ filters:[...new Set([...scenicRoadPlaceMap.values()].map(p=>p.type))].sort(),
+ view:{lon:0,lat:28,zoom:1},symbol:'diamond',
+ colors:{accent:'#8d543d',ocean:'#e5ebef',land:'#e5ddcd',edge:'#ad9c85',point:'#8d543d',route:'#a2583f',wash:'#fff'},
+ fields:['观看线索','道路关系']
+});
+themeDesigns.roads={mode:'roadside',accent:'#8d543d',ocean:'#e5ebef',land:'#e5ddcd',edge:'#ad9c85',route:'#a2583f',dash:[9,4],width:2.4,
+ lens:'把公路读成地貌与生活',note:'区分道路、景点支线与区域基地；开放、过河设施和天气须在出发前重新核实。',line:'站点走廊示意 · 非驾驶导航'};
+themeGlyphs.roads=['mountain','wave','house','gate','tree'];
+themeMedia.roads={photo:'road-photo-bixby',en:'ROADS · LANDSCAPES · LIVES',edition:'公路地理册',motif:'道路 / 自然 / 生活',symbol:'↝'};
+discoveryMeta.roads=['drives',['亚洲','欧洲','美洲','非洲','大洋洲'],
+ '自驾 公路 风景道 中国 沿边 环中国 G219 G331 G228 美国一号公路 加州 SR1 US1 佛罗里达 犹他 Mighty 5 Highway 12 Dempster Inuvik Tuktoyaktuk 北冰洋 挪威 大西洋之路 冰岛 大洋路 新西兰 南非 花园大道'];
+for(const [area,names] of Object.entries({'欧洲':['挪威'],'非洲':['南非'],'大洋洲':['新西兰']}))
+ itineraryAreas[area]=[...new Set([...itineraryAreas[area],...names])];
+const arcticStart=places.find(p=>p.id==='road-dawson');
+arcticStart.additionalSources.push({title:'安大略文物信托 · Yonge Street 与 Highway 11 的历史',url:'https://www.heritagetrust.on.ca/plaques/yonge-street'});
+// All registrations happen before the first catalogue/reading index is built.
+discoveryIndex=null;
+readingPlans=null;
+
+document.addEventListener('DOMContentLoaded',()=>{
+ const panel=document.querySelector('#route-panel');
+ if(!panel)return;
+ const update=()=>{
+  if(typeof activePlan==='undefined'||activePlan?.theme!=='roads'||panel.querySelector('.road-route-guide'))return;
+  const p=activePlan,guide=document.createElement('details');
+  guide.className='road-route-guide';
+  guide.innerHTML='<summary>道路范围与出发前核对</summary><p>'+escapeHTML(p.roadScope)+'</p><p>'+escapeHTML(p.accessNote)+'</p><a href="'+p.statusUrl+'" target="_blank" rel="noopener noreferrer">道路状态与当地通告 ↗</a><p class="road-reviewed">背景资料核对：'+p.verifiedOn+'。这里没有实时路况数据。</p>';
+  panel.querySelector('.route-introduction')?.after(guide);
+  const metric=panel.querySelector('.route-heading > p');
+  if(metric)metric.textContent=p.days+' 天编辑预算 · 站点示意，非实驾里程';
+ };
+ new MutationObserver(update).observe(panel,{childList:true,subtree:true});
+ update();
+});
