@@ -1,0 +1,3022 @@
+{
+  "reviewDate": "2026-11-17",
+  "scope": "First content batch; complete inventory including independently merged scenic roads, not a full fact check",
+  "canal": [
+    {
+      "id": "canal-beijing",
+      "source": "https://whc.unesco.org/en/list/1443/maps/"
+    },
+    {
+      "id": "canal-tongzhou",
+      "source": "https://whc.unesco.org/en/list/1443/maps/"
+    },
+    {
+      "id": "canal-tianjin",
+      "source": "https://www.tj.gov.cn/sq/tjgk/tjls/lsyg/"
+    },
+    {
+      "id": "canal-linqing",
+      "source": "https://shandong.chinatax.gov.cn/art/2024/6/6/art_210_1051760.html"
+    },
+    {
+      "id": "canal-jining",
+      "source": "https://jnsl.jining.gov.cn/art/2026/4/2/art_14544_2708678.html"
+    },
+    {
+      "id": "canal-huaian",
+      "source": "https://www.haqjp.gov.cn/col/1052_478757/index.html"
+    },
+    {
+      "id": "canal-yangzhou",
+      "source": "https://www.ndrc.gov.cn/xwdt/ztzl/dyhgjwhgy/202201/t20220105_1311458.html"
+    },
+    {
+      "id": "canal-zhenjiang",
+      "source": "https://jsnews.jschina.com.cn/zj/a/202201/t20220102_2923909.shtml"
+    },
+    {
+      "id": "canal-suzhou",
+      "source": "https://www.suzhou.gov.cn/szwgjyhsj/yhsjjbgk/202110/b7a7f024e4394cf1be9457080c338eb5.shtml"
+    },
+    {
+      "id": "canal-jiaxing",
+      "source": "https://www.jxwwbh.cn/ArticleShow.aspx?id=215"
+    },
+    {
+      "id": "canal-hangzhou",
+      "source": "https://www.ezhejiang.gov.cn/2018-12/17/c_306275.htm"
+    }
+  ],
+  "crossTheme": [
+    {
+      "id": "wh-637",
+      "source": "https://whc.unesco.org/en/list/637/"
+    },
+    {
+      "id": "wh-638",
+      "source": "https://whc.unesco.org/en/list/638/"
+    },
+    {
+      "id": "wh-911",
+      "source": "https://whc.unesco.org/en/list/911/"
+    },
+    {
+      "id": "wh-1237",
+      "source": "https://whc.unesco.org/en/list/1237/"
+    },
+    {
+      "id": "wh-1037",
+      "source": "https://whc.unesco.org/en/list/1037/"
+    },
+    {
+      "id": "wh-1513",
+      "source": "https://whc.unesco.org/en/list/1513/"
+    },
+    {
+      "id": "wh-452",
+      "source": "https://whc.unesco.org/en/list/452/"
+    },
+    {
+      "id": "np-olym",
+      "source": "https://www.nps.gov/olym/learn/nature/index.htm"
+    },
+    {
+      "id": "np-jotr",
+      "source": "https://www.nps.gov/jotr/learn/nature/index.htm"
+    },
+    {
+      "id": "silk-turkistan",
+      "source": "https://whc.unesco.org/en/list/1103/"
+    },
+    {
+      "id": "tea-yaan",
+      "source": "https://zhuanti.mct.gov.cn/xczgshsh2023/cxyh/detail_cha/3865.html"
+    },
+    {
+      "id": "kumano-takijiri",
+      "source": "https://www.tb-kumano.jp/en/kumano-kodo/history-oji/"
+    },
+    {
+      "id": "kumano-hosshinmon",
+      "source": "https://www.tb-kumano.jp/en/kumano-kodo/history-oji/"
+    },
+    {
+      "id": "viking-york",
+      "source": "https://collections.yorkarchaeologicaltrust.co.uk/s/collections/item/24124"
+    },
+    {
+      "id": "viking-thingvellir",
+      "source": "https://whc.unesco.org/en/list/1152/"
+    },
+    {
+      "id": "viking-roskilde",
+      "source": "https://www.vikingeskibsmuseet.dk/besoeg/udstillinger/de-fem-vikingeskibe/udgravningen"
+    },
+    {
+      "id": "route66-albuquerque",
+      "source": "https://www.nps.gov/places/luna-lodge.htm"
+    },
+    {
+      "id": "nc500-inverness",
+      "source": "https://www.visitscotland.com/planning/travel-in-scotland/driving-road-trips/north-coast-500"
+    }
+  ],
+  "vanGogh": [
+    {
+      "key": "vangogh-selfportrait",
+      "placeId": "vangogh-paris",
+      "source": "https://www.metmuseum.org/art/collection/search/436532"
+    },
+    {
+      "key": "vangogh-ginoux",
+      "placeId": "vangogh-arles",
+      "source": "https://www.metmuseum.org/art/collection/search/436529"
+    },
+    {
+      "key": "vangogh-shoes",
+      "placeId": "vangogh-arles",
+      "source": "https://www.metmuseum.org/art/collection/search/436533"
+    },
+    {
+      "key": "vangogh-irises",
+      "placeId": "vangogh-saintremy",
+      "source": "https://www.metmuseum.org/art/collection/search/436528"
+    },
+    {
+      "key": "vangogh-roses",
+      "placeId": "vangogh-saintremy",
+      "source": "https://www.metmuseum.org/art/collection/search/436534"
+    }
+  ],
+  "remaining": [
+    "andes-desaguadero",
+    "andes-tiwanacu"
+  ],
+  "routes": [
+    {
+      "theme": "nature",
+      "id": "cn-south",
+      "name": "中国西南山水与喀斯特",
+      "stops": 7,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/1388/",
+        "https://whc.unesco.org/en/list/1335/",
+        "https://whc.unesco.org/en/list/779/",
+        "https://whc.unesco.org/en/list/1213/",
+        "https://whc.unesco.org/en/list/638/",
+        "https://whc.unesco.org/en/list/1509/",
+        "https://whc.unesco.org/en/list/640/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-1388",
+        "wh-1335",
+        "wh-779",
+        "wh-1213",
+        "wh-1509",
+        "wh-640"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "nature",
+      "id": "au-east",
+      "name": "澳大利亚东岸雨林与海洋",
+      "stops": 6,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/167/",
+        "https://whc.unesco.org/en/list/917/",
+        "https://whc.unesco.org/en/list/368/",
+        "https://whc.unesco.org/en/list/630/",
+        "https://whc.unesco.org/en/list/154/",
+        "https://whc.unesco.org/en/list/486/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-167",
+        "wh-917",
+        "wh-368",
+        "wh-630",
+        "wh-154",
+        "wh-486"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "nature",
+      "id": "india-nature",
+      "name": "印度自然保护区冬季探索",
+      "stops": 5,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/452/",
+        "https://whc.unesco.org/en/list/338/",
+        "https://whc.unesco.org/en/list/337/",
+        "https://whc.unesco.org/en/list/1513/",
+        "https://whc.unesco.org/en/list/340/"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-338",
+        "wh-337",
+        "wh-340"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "nature",
+      "id": "us-nature",
+      "name": "美国西部遗产大环线",
+      "stops": 5,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/75/",
+        "https://whc.unesco.org/en/list/308/",
+        "https://whc.unesco.org/en/list/134/",
+        "https://whc.unesco.org/en/list/151/",
+        "https://whc.unesco.org/en/list/28/"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-75",
+        "wh-308",
+        "wh-134",
+        "wh-151",
+        "wh-28"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "nature",
+      "id": "cn-east",
+      "name": "中国东南名山长线",
+      "stops": 4,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/911/",
+        "https://whc.unesco.org/en/list/1292/",
+        "https://whc.unesco.org/en/list/547/",
+        "https://whc.unesco.org/en/list/1606/"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-1292",
+        "wh-547",
+        "wh-1606"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "nature",
+      "id": "western-wh",
+      "name": "美国西部自然遗产长线",
+      "stops": 3,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/75/",
+        "https://whc.unesco.org/en/list/308/",
+        "https://whc.unesco.org/en/list/134/"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-75",
+        "wh-308",
+        "wh-134"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "nature",
+      "id": "sichuan",
+      "name": "川北彩池与高山",
+      "stops": 2,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/637/",
+        "https://whc.unesco.org/en/list/638/"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "nature",
+      "id": "alps",
+      "name": "阿尔卑斯山地之旅",
+      "stops": 2,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/1237/",
+        "https://whc.unesco.org/en/list/1037/"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "culture",
+      "id": "italy",
+      "name": "意大利古城与文艺复兴长线",
+      "stops": 8,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/907/",
+        "https://whc.unesco.org/en/list/1025/",
+        "https://whc.unesco.org/en/list/1158/",
+        "https://whc.unesco.org/en/list/789/",
+        "https://whc.unesco.org/en/list/1026/",
+        "https://whc.unesco.org/en/list/717/",
+        "https://whc.unesco.org/en/list/550/",
+        "https://whc.unesco.org/en/list/174/"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-907",
+        "wh-1025",
+        "wh-1158",
+        "wh-789",
+        "wh-1026",
+        "wh-717",
+        "wh-550",
+        "wh-174"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "culture",
+      "id": "japan",
+      "name": "日本古都与历史聚落纵贯",
+      "stops": 8,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/1142/",
+        "https://whc.unesco.org/en/list/1593/",
+        "https://whc.unesco.org/en/list/660/",
+        "https://whc.unesco.org/en/list/870/",
+        "https://whc.unesco.org/en/list/688/",
+        "https://whc.unesco.org/en/list/661/",
+        "https://whc.unesco.org/en/list/1246/",
+        "https://whc.unesco.org/en/list/775/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-1142",
+        "wh-1593",
+        "wh-660",
+        "wh-870",
+        "wh-688",
+        "wh-661",
+        "wh-1246",
+        "wh-775"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "culture",
+      "id": "spain",
+      "name": "西班牙文明交汇之旅",
+      "stops": 8,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/1501/",
+        "https://whc.unesco.org/en/list/314/",
+        "https://whc.unesco.org/en/list/522/",
+        "https://whc.unesco.org/en/list/313/",
+        "https://whc.unesco.org/en/list/1560/",
+        "https://whc.unesco.org/en/list/383/",
+        "https://whc.unesco.org/en/list/664/",
+        "https://whc.unesco.org/en/list/384/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-1501",
+        "wh-314",
+        "wh-522",
+        "wh-313",
+        "wh-1560",
+        "wh-383",
+        "wh-664",
+        "wh-384"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "culture",
+      "id": "france",
+      "name": "法国历史城市与建筑",
+      "stops": 8,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/345/",
+        "https://whc.unesco.org/en/list/1337/",
+        "https://whc.unesco.org/en/list/770/",
+        "https://whc.unesco.org/en/list/85/",
+        "https://whc.unesco.org/en/list/932/",
+        "https://whc.unesco.org/en/list/1256/",
+        "https://whc.unesco.org/en/list/1625/",
+        "https://whc.unesco.org/en/list/230/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "wh-230"
+      ],
+      "withoutLayeredReading": [
+        "wh-345",
+        "wh-1337",
+        "wh-770",
+        "wh-85",
+        "wh-932",
+        "wh-1256",
+        "wh-1625",
+        "wh-230"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "culture",
+      "id": "mexico",
+      "name": "墨西哥高原古城",
+      "stops": 7,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/415/",
+        "https://whc.unesco.org/en/list/1534/",
+        "https://whc.unesco.org/en/list/416/",
+        "https://whc.unesco.org/en/list/702/",
+        "https://whc.unesco.org/en/list/939/",
+        "https://whc.unesco.org/en/list/1250/",
+        "https://whc.unesco.org/en/list/1136/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-415",
+        "wh-1534",
+        "wh-416",
+        "wh-702",
+        "wh-939",
+        "wh-1250",
+        "wh-1136"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "culture",
+      "id": "india",
+      "name": "印度北部历史城市",
+      "stops": 7,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/1056/",
+        "https://whc.unesco.org/en/list/240/",
+        "https://whc.unesco.org/en/list/252/",
+        "https://whc.unesco.org/en/list/251/",
+        "https://whc.unesco.org/en/list/255/",
+        "https://whc.unesco.org/en/list/233/",
+        "https://whc.unesco.org/en/list/232/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-1056",
+        "wh-240",
+        "wh-252",
+        "wh-251",
+        "wh-255",
+        "wh-233",
+        "wh-232"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "culture",
+      "id": "china",
+      "name": "华北古都与建筑长线",
+      "stops": 7,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/441/",
+        "https://whc.unesco.org/en/list/1003/",
+        "https://whc.unesco.org/en/list/1443/",
+        "https://whc.unesco.org/en/list/1305/",
+        "https://whc.unesco.org/en/list/1114/",
+        "https://whc.unesco.org/en/list/812/",
+        "https://whc.unesco.org/en/list/1279/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-441",
+        "wh-1003",
+        "wh-1443",
+        "wh-1305",
+        "wh-1114",
+        "wh-812",
+        "wh-1279"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "culture",
+      "id": "egypt",
+      "name": "埃及文明沿线",
+      "stops": 6,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/88/",
+        "https://whc.unesco.org/en/list/87/",
+        "https://whc.unesco.org/en/list/954/",
+        "https://whc.unesco.org/en/list/89/",
+        "https://whc.unesco.org/en/list/86/",
+        "https://whc.unesco.org/en/list/90/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "wh-86"
+      ],
+      "withoutLayeredReading": [
+        "wh-88",
+        "wh-87",
+        "wh-954",
+        "wh-89",
+        "wh-86",
+        "wh-90"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "culture",
+      "id": "kansai",
+      "name": "关西古都与寺院",
+      "stops": 3,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/688/",
+        "https://whc.unesco.org/en/list/870/",
+        "https://whc.unesco.org/en/list/660/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-688",
+        "wh-870",
+        "wh-660"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "culture",
+      "id": "beijing",
+      "name": "北京皇家建筑与园林",
+      "stops": 3,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/439/",
+        "https://whc.unesco.org/en/list/880/",
+        "https://whc.unesco.org/en/list/881/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-439",
+        "wh-880",
+        "wh-881"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "culture",
+      "id": "tuscany",
+      "name": "托斯卡纳古城慢游",
+      "stops": 3,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/174/",
+        "https://whc.unesco.org/en/list/395/",
+        "https://whc.unesco.org/en/list/550/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "wh-174",
+        "wh-395",
+        "wh-550"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "gorges",
+      "id": "gorges-all",
+      "name": "三峡古镇与大宁河全景",
+      "stops": 5,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whlyw.cq.gov.cn/zjwl/yzq/cqwlzy/zqlswhmjmz/201303/t20130312_3706094.html",
+        "https://www.yunyang.gov.cn/zjyy_257/yyxq/xzjdmp/202210/t20221010_11174937.html",
+        "https://mzj.cq.gov.cn/sy_218/bmdt/mzyw/202405/t20240514_13203070.html",
+        "https://mzj.cq.gov.cn/sy_218/bmdt/mzyw/202407/t20240715_13370821.html",
+        "https://zjt.hubei.gov.cn/bmdt/dtyw/mtjj/201910/t20191028_99896.shtml"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "xituo",
+        "yunan",
+        "ningchang",
+        "dachang",
+        "guizhou"
+      ],
+      "withoutLayeredReading": [
+        "xituo",
+        "yunan",
+        "ningchang",
+        "dachang",
+        "guizhou"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "gorges",
+      "id": "gorges-long",
+      "name": "三峡古镇分段长线",
+      "stops": 4,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whlyw.cq.gov.cn/zjwl/yzq/cqwlzy/zqlswhmjmz/201303/t20130312_3706094.html",
+        "https://www.yunyang.gov.cn/zjyy_257/yyxq/xzjdmp/202210/t20221010_11174937.html",
+        "https://mzj.cq.gov.cn/sy_218/bmdt/mzyw/202407/t20240715_13370821.html",
+        "https://zjt.hubei.gov.cn/bmdt/dtyw/mtjj/201910/t20191028_99896.shtml"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "xituo",
+        "yunan",
+        "dachang",
+        "guizhou"
+      ],
+      "withoutLayeredReading": [
+        "xituo",
+        "yunan",
+        "dachang",
+        "guizhou"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "gorges",
+      "id": "gorges-winter",
+      "name": "冬日沿江古镇文化停留",
+      "stops": 4,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whlyw.cq.gov.cn/zjwl/yzq/cqwlzy/zqlswhmjmz/201303/t20130312_3706094.html",
+        "https://www.yunyang.gov.cn/zjyy_257/yyxq/xzjdmp/202210/t20221010_11174937.html",
+        "https://mzj.cq.gov.cn/sy_218/bmdt/mzyw/202407/t20240715_13370821.html",
+        "https://zjt.hubei.gov.cn/bmdt/dtyw/mtjj/201910/t20191028_99896.shtml"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "xituo",
+        "yunan",
+        "dachang",
+        "guizhou"
+      ],
+      "withoutLayeredReading": [
+        "xituo",
+        "yunan",
+        "dachang",
+        "guizhou"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "gorges",
+      "id": "gorges-summer",
+      "name": "夏季古镇避暑慢游",
+      "stops": 4,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whlyw.cq.gov.cn/zjwl/yzq/cqwlzy/zqlswhmjmz/201303/t20130312_3706094.html",
+        "https://www.yunyang.gov.cn/zjyy_257/yyxq/xzjdmp/202210/t20221010_11174937.html",
+        "https://mzj.cq.gov.cn/sy_218/bmdt/mzyw/202407/t20240715_13370821.html",
+        "https://zjt.hubei.gov.cn/bmdt/dtyw/mtjj/201910/t20191028_99896.shtml"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "xituo",
+        "yunan",
+        "dachang",
+        "guizhou"
+      ],
+      "withoutLayeredReading": [
+        "xituo",
+        "yunan",
+        "dachang",
+        "guizhou"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "gorges",
+      "id": "daning",
+      "name": "大宁河古镇与盐业",
+      "stops": 2,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://mzj.cq.gov.cn/sy_218/bmdt/mzyw/202407/t20240715_13370821.html",
+        "https://mzj.cq.gov.cn/sy_218/bmdt/mzyw/202405/t20240514_13203070.html"
+      ],
+      "matchedImages": 0,
+      "hasCover": false,
+      "shortDescriptionIds": [
+        "dachang",
+        "ningchang"
+      ],
+      "withoutLayeredReading": [
+        "dachang",
+        "ningchang"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "gorges",
+      "id": "salt",
+      "name": "库区盐运记忆",
+      "stops": 2,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://whlyw.cq.gov.cn/zjwl/yzq/cqwlzy/zqlswhmjmz/201303/t20130312_3706094.html",
+        "https://www.yunyang.gov.cn/zjyy_257/yyxq/xzjdmp/202210/t20221010_11174937.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "xituo",
+        "yunan"
+      ],
+      "withoutLayeredReading": [
+        "xituo",
+        "yunan"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "parks",
+      "id": "california",
+      "name": "加州七园山海长线",
+      "stops": 7,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://www.nps.gov/jotr/learn/nature/index.htm",
+        "https://www.nps.gov/chis/index.htm",
+        "https://www.nps.gov/pinn/index.htm",
+        "https://www.nps.gov/seki/planyourvisit/sequoia-national-park.htm",
+        "https://www.nps.gov/seki/planyourvisit/basicinfo.htm",
+        "https://www.nps.gov/yose/index.htm",
+        "https://www.nps.gov/redw/index.htm"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "np-chis",
+        "np-pinn",
+        "np-seki",
+        "np-kica",
+        "np-yose",
+        "np-redw"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "parks",
+      "id": "rockies",
+      "name": "落基山与科罗拉多高原",
+      "stops": 6,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.nps.gov/grca/index.htm",
+        "https://www.nps.gov/pefo/index.htm",
+        "https://www.nps.gov/meve/index.htm",
+        "https://www.nps.gov/blca/index.htm",
+        "https://www.nps.gov/grsa/index.htm",
+        "https://www.nps.gov/romo/index.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "np-grca",
+        "np-pefo",
+        "np-meve",
+        "np-blca",
+        "np-grsa",
+        "np-romo"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "parks",
+      "id": "winter-southwest",
+      "name": "冬日西南荒漠六园",
+      "stops": 6,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://www.nps.gov/jotr/learn/nature/index.htm",
+        "https://www.nps.gov/deva/index.htm",
+        "https://www.nps.gov/sagu/index.htm",
+        "https://www.nps.gov/whsa/index.htm",
+        "https://www.nps.gov/gumo/index.htm",
+        "https://www.nps.gov/cave/index.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "np-deva",
+        "np-sagu",
+        "np-whsa",
+        "np-gumo",
+        "np-cave"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "parks",
+      "id": "utah-five",
+      "name": "犹他五大国家公园环线",
+      "stops": 5,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.nps.gov/zion/index.htm",
+        "https://www.nps.gov/brca/index.htm",
+        "https://www.nps.gov/care/index.htm",
+        "https://www.nps.gov/cany/index.htm",
+        "https://www.nps.gov/arch/index.htm"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "np-zion",
+        "np-brca",
+        "np-care",
+        "np-cany",
+        "np-arch"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "parks",
+      "id": "east",
+      "name": "阿巴拉契亚与东部森林",
+      "stops": 5,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.nps.gov/shen/index.htm",
+        "https://www.nps.gov/neri/index.htm",
+        "https://www.nps.gov/grsm/index.htm",
+        "https://www.nps.gov/maca/index.htm",
+        "https://www.nps.gov/cong/index.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "np-shen",
+        "np-neri",
+        "np-grsm",
+        "np-maca",
+        "np-cong"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "parks",
+      "id": "utah",
+      "name": "犹他红岩三园",
+      "stops": 3,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.nps.gov/zion/index.htm",
+        "https://www.nps.gov/brca/index.htm",
+        "https://www.nps.gov/care/index.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "np-zion",
+        "np-brca",
+        "np-care"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "parks",
+      "id": "pnw",
+      "name": "太平洋西北山海",
+      "stops": 3,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://www.nps.gov/olym/learn/nature/index.htm",
+        "https://www.nps.gov/mora/index.htm",
+        "https://www.nps.gov/noca/index.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "np-mora",
+        "np-noca"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "parks",
+      "id": "wyoming",
+      "name": "黄石与大提顿",
+      "stops": 2,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.nps.gov/grte/index.htm",
+        "https://www.nps.gov/yell/index.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "np-grte",
+        "np-yell"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "parks",
+      "id": "desert",
+      "name": "冬季荒漠双园",
+      "stops": 2,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://www.nps.gov/jotr/learn/nature/index.htm",
+        "https://www.nps.gov/deva/index.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [
+        "np-deva"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "tea",
+      "id": "tea-sichuan-long",
+      "name": "川藏马帮文化长线",
+      "stops": 5,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://zhuanti.mct.gov.cn/xczgshsh2023/cxyh/detail_cha/3865.html",
+        "https://m.ccdi.gov.cn/content/60/5a/77322.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "tea-yaan",
+        "tea-kangding",
+        "tea-litang",
+        "tea-batang",
+        "tea-changdu"
+      ],
+      "withoutLayeredReading": [
+        "tea-kangding",
+        "tea-litang",
+        "tea-batang",
+        "tea-changdu"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "tea",
+      "id": "tea-yunnan-long",
+      "name": "从普洱茶源到滇西北",
+      "stops": 5,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://m.ccdi.gov.cn/content/60/5a/77322.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "tea-puer",
+        "tea-nanjian",
+        "tea-dali",
+        "tea-lijiang",
+        "tea-deqin"
+      ],
+      "withoutLayeredReading": [
+        "tea-puer",
+        "tea-nanjian",
+        "tea-dali",
+        "tea-lijiang",
+        "tea-deqin"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "tea",
+      "id": "tea-sichuan",
+      "name": "川藏茶路前段",
+      "stops": 4,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://zhuanti.mct.gov.cn/xczgshsh2023/cxyh/detail_cha/3865.html",
+        "https://m.ccdi.gov.cn/content/60/5a/77322.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "tea-yaan",
+        "tea-kangding",
+        "tea-litang",
+        "tea-batang"
+      ],
+      "withoutLayeredReading": [
+        "tea-kangding",
+        "tea-litang",
+        "tea-batang"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "tea",
+      "id": "tea-winter",
+      "name": "冬日滇西茶源与古城",
+      "stops": 4,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://m.ccdi.gov.cn/content/60/5a/77322.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "tea-puer",
+        "tea-nanjian",
+        "tea-dali",
+        "tea-lijiang"
+      ],
+      "withoutLayeredReading": [
+        "tea-puer",
+        "tea-nanjian",
+        "tea-dali",
+        "tea-lijiang"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "tea",
+      "id": "tea-india",
+      "name": "噶伦堡与锡金商贸记忆",
+      "stops": 3,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://in.china-embassy.gov.cn/sgxw/201906/t20190604_1674011.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "tea-kalimpong",
+        "tea-gangtok",
+        "tea-nathula"
+      ],
+      "withoutLayeredReading": [
+        "tea-kalimpong",
+        "tea-gangtok",
+        "tea-nathula"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "tea",
+      "id": "tea-nepal",
+      "name": "尼泊尔古商路文化探索",
+      "stops": 3,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://giwmscdntwo.gov.np/media/pdf_upload/History%20of%20Nepal%20Customs%20English%20Final%20printed_2020-03-11-20-40-18_jdjs7lz.pdf"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "tea-kathmandu",
+        "tea-nuwakot",
+        "tea-rasuwa"
+      ],
+      "withoutLayeredReading": [
+        "tea-kathmandu",
+        "tea-nuwakot",
+        "tea-rasuwa"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "tea",
+      "id": "tea-summer",
+      "name": "夏季滇西古城慢住",
+      "stops": 3,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://m.ccdi.gov.cn/content/60/5a/77322.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "tea-nanjian",
+        "tea-dali",
+        "tea-lijiang"
+      ],
+      "withoutLayeredReading": [
+        "tea-nanjian",
+        "tea-dali",
+        "tea-lijiang"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "tea",
+      "id": "tea-source",
+      "name": "从茶源到滇西",
+      "stops": 3,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://m.ccdi.gov.cn/content/60/5a/77322.html"
+      ],
+      "matchedImages": 0,
+      "hasCover": false,
+      "shortDescriptionIds": [
+        "tea-puer",
+        "tea-nanjian",
+        "tea-dali"
+      ],
+      "withoutLayeredReading": [
+        "tea-puer",
+        "tea-nanjian",
+        "tea-dali"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "tea",
+      "id": "tea-yunnan",
+      "name": "滇西古城与马帮",
+      "stops": 2,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://m.ccdi.gov.cn/content/60/5a/77322.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "tea-dali",
+        "tea-lijiang"
+      ],
+      "withoutLayeredReading": [
+        "tea-dali",
+        "tea-lijiang"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "silk",
+      "id": "silk-hexi",
+      "name": "长安至河西：关城与绿洲",
+      "stops": 5,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.unesco.org/en/silk-roads/about-silk-roads"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "silk-xian",
+        "silk-wuwei",
+        "silk-zhangye",
+        "silk-jiayuguan",
+        "silk-dunhuang"
+      ],
+      "withoutLayeredReading": [
+        "silk-xian",
+        "silk-wuwei",
+        "silk-zhangye",
+        "silk-jiayuguan",
+        "silk-dunhuang"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "silk",
+      "id": "silk-uzbek",
+      "name": "乌兹别克斯坦四城慢游",
+      "stops": 4,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.unesco.org/en/silk-roads/about-silk-roads"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "silk-tashkent",
+        "silk-samarkand",
+        "silk-bukhara",
+        "silk-khiva"
+      ],
+      "withoutLayeredReading": [
+        "silk-tashkent",
+        "silk-samarkand",
+        "silk-bukhara",
+        "silk-khiva"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "silk",
+      "id": "silk-oasis",
+      "name": "新疆绿洲与石窟文化",
+      "stops": 4,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.unesco.org/en/silk-roads/about-silk-roads"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "silk-turpan",
+        "silk-kuqa",
+        "silk-kashgar",
+        "silk-hotan"
+      ],
+      "withoutLayeredReading": [
+        "silk-turpan",
+        "silk-kuqa",
+        "silk-kashgar",
+        "silk-hotan"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "silk",
+      "id": "silk-coast",
+      "name": "东南海港与运河城市",
+      "stops": 3,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.unesco.org/en/silk-roads/about-silk-roads"
+      ],
+      "matchedImages": 0,
+      "hasCover": false,
+      "shortDescriptionIds": [
+        "silk-hangzhou",
+        "silk-quanzhou",
+        "silk-guangzhou"
+      ],
+      "withoutLayeredReading": [
+        "silk-hangzhou",
+        "silk-quanzhou",
+        "silk-guangzhou"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "silk",
+      "id": "silk-winter",
+      "name": "冬日海上丝路港市",
+      "stops": 2,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.unesco.org/en/silk-roads/about-silk-roads"
+      ],
+      "matchedImages": 0,
+      "hasCover": false,
+      "shortDescriptionIds": [
+        "silk-quanzhou",
+        "silk-guangzhou"
+      ],
+      "withoutLayeredReading": [
+        "silk-quanzhou",
+        "silk-guangzhou"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "polo",
+      "id": "polo-china",
+      "name": "从大都到江南：城市阅读长线",
+      "stops": 6,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.gutenberg.org/files/10636/10636-h/10636-h.htm",
+        "https://www.gutenberg.org/files/12410/12410-h/12410-h.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "polo-beijing",
+        "polo-xian",
+        "polo-yangzhou",
+        "polo-suzhou",
+        "polo-hangzhou",
+        "polo-quanzhou"
+      ],
+      "withoutLayeredReading": [
+        "polo-beijing",
+        "polo-xian",
+        "polo-yangzhou",
+        "polo-suzhou",
+        "polo-hangzhou",
+        "polo-quanzhou"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "polo",
+      "id": "polo-jiangnan",
+      "name": "游记中的江南与刺桐",
+      "stops": 4,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.gutenberg.org/files/12410/12410-h/12410-h.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "polo-yangzhou",
+        "polo-suzhou",
+        "polo-hangzhou",
+        "polo-quanzhou"
+      ],
+      "withoutLayeredReading": [
+        "polo-yangzhou",
+        "polo-suzhou",
+        "polo-hangzhou",
+        "polo-quanzhou"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "polo",
+      "id": "polo-winter",
+      "name": "冬季江南游记文化之旅",
+      "stops": 3,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.gutenberg.org/files/12410/12410-h/12410-h.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "polo-yangzhou",
+        "polo-suzhou",
+        "polo-hangzhou"
+      ],
+      "withoutLayeredReading": [
+        "polo-yangzhou",
+        "polo-suzhou",
+        "polo-hangzhou"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "polo",
+      "id": "polo-italy",
+      "name": "威尼斯与热那亚：从出发到成书",
+      "stops": 2,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.gutenberg.org/files/10636/10636-h/10636-h.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "polo-venice",
+        "polo-genoa"
+      ],
+      "withoutLayeredReading": [
+        "polo-venice",
+        "polo-genoa"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "polo",
+      "id": "polo-hexi",
+      "name": "沙州与甘州：绿洲见闻",
+      "stops": 2,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.gutenberg.org/files/10636/10636-h/10636-h.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "polo-dunhuang",
+        "polo-zhangye"
+      ],
+      "withoutLayeredReading": [
+        "polo-dunhuang",
+        "polo-zhangye"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "xu",
+      "id": "xu-zhejiang",
+      "name": "徐霞客 · 1613 浙东：天台与雁荡",
+      "stops": 2,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "xu-tiantai",
+        "xu-yandang"
+      ],
+      "withoutLayeredReading": [
+        "xu-tiantai",
+        "xu-yandang"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "xu",
+      "id": "xu-mountains",
+      "name": "徐霞客 · 1616 皖闽：齐云、黄山与武夷",
+      "stops": 3,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "xu-qiyun",
+        "xu-huangshan",
+        "xu-wuyi"
+      ],
+      "withoutLayeredReading": [
+        "xu-qiyun",
+        "xu-huangshan",
+        "xu-wuyi"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "xu",
+      "id": "xu-jiangxi-anhui",
+      "name": "徐霞客 · 1618 赣皖：庐山与再游黄山",
+      "stops": 2,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "xu-lushan",
+        "xu-huangshan"
+      ],
+      "withoutLayeredReading": [
+        "xu-lushan",
+        "xu-huangshan"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "xu",
+      "id": "xu-central",
+      "name": "徐霞客 · 1623 中原、关中与鄂西",
+      "stops": 8,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "xu-kaifeng",
+        "xu-zhengzhou",
+        "xu-xinmi",
+        "xu-songshan",
+        "xu-shaolin",
+        "xu-longmen",
+        "xu-huashan",
+        "xu-wudang"
+      ],
+      "withoutLayeredReading": [
+        "xu-kaifeng",
+        "xu-zhengzhou",
+        "xu-xinmi",
+        "xu-songshan",
+        "xu-shaolin",
+        "xu-longmen",
+        "xu-huashan",
+        "xu-wudang"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "xu",
+      "id": "xu-north",
+      "name": "徐霞客 · 1633 北游：北京、五台与恒山",
+      "stops": 3,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "xu-beijing",
+        "xu-wutai",
+        "xu-hengshan"
+      ],
+      "withoutLayeredReading": [
+        "xu-beijing",
+        "xu-wutai",
+        "xu-hengshan"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "xu",
+      "id": "xu-west-yunnan",
+      "name": "徐霞客 · 1639 滇西游历精选",
+      "stops": 7,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://yn.yunnan.cn/system/2021/05/30/031482898.shtml"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "xu-jizu",
+        "xu-lijiang",
+        "xu-jianchuan",
+        "xu-eryuan",
+        "xu-dali",
+        "xu-baoshan",
+        "xu-tengchong"
+      ],
+      "withoutLayeredReading": [
+        "xu-jizu",
+        "xu-lijiang",
+        "xu-jianchuan",
+        "xu-eryuan",
+        "xu-dali",
+        "xu-baoshan",
+        "xu-tengchong"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "kumano",
+      "id": "kumano-nakahechi",
+      "name": "熊野古道 · 中边路本宫线",
+      "stops": 6,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://www.tb-kumano.jp/en/kumano-kodo/history-oji/",
+        "https://www.tb-kumano.jp/en/kumano-kodo/nakahechi/"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "kumano-takijiri",
+        "kumano-takahara",
+        "kumano-chikatsuyu",
+        "kumano-tsugizakura",
+        "kumano-hosshinmon",
+        "kumano-hongu"
+      ],
+      "withoutLayeredReading": [
+        "kumano-takahara",
+        "kumano-chikatsuyu",
+        "kumano-tsugizakura",
+        "kumano-hongu"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "kumano",
+      "id": "kumano-villages",
+      "name": "熊野古道 · 高原与近露山村段",
+      "stops": 4,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://www.tb-kumano.jp/en/kumano-kodo/history-oji/",
+        "https://www.tb-kumano.jp/en/kumano-kodo/nakahechi/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "kumano-takijiri",
+        "kumano-takahara",
+        "kumano-chikatsuyu",
+        "kumano-tsugizakura"
+      ],
+      "withoutLayeredReading": [
+        "kumano-takahara",
+        "kumano-chikatsuyu",
+        "kumano-tsugizakura"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "kumano",
+      "id": "kumano-hongu",
+      "name": "熊野古道 · 发心门至本宫",
+      "stops": 2,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://www.tb-kumano.jp/en/kumano-kodo/history-oji/",
+        "https://www.tb-kumano.jp/en/kumano-kodo/nakahechi/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "kumano-hosshinmon",
+        "kumano-hongu"
+      ],
+      "withoutLayeredReading": [
+        "kumano-hongu"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "camino",
+      "id": "camino-frances",
+      "name": "朝圣之路 · 法国之路完整主线",
+      "stops": 43,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.visitnavarra.es/en/detalle-tramo/-/t/french-route-st-jean-pied-de-port-to-roncesvalles",
+        "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/",
+        "https://www.turismocastillayleon.com/es/lasedades2024.ficheros/382439-web_Apertura%20Monumentos%20Camino%20Franc%C3%A9s%202024.pdf",
+        "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-san-xil"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "camino-roncesvalles",
+        "camino-zubiri",
+        "camino-pamplona",
+        "camino-puente",
+        "camino-estella",
+        "camino-los-arcos",
+        "camino-viana",
+        "camino-logrono",
+        "camino-navarrete",
+        "camino-najera",
+        "camino-domingo",
+        "camino-belorado",
+        "camino-ortega",
+        "camino-atapuerca",
+        "camino-burgos",
+        "camino-hornillos",
+        "camino-castrojeriz",
+        "camino-fromista",
+        "camino-carrion",
+        "camino-terradillos",
+        "camino-sahagun",
+        "camino-burgo-ranero",
+        "camino-mansilla",
+        "camino-leon",
+        "camino-san-martin",
+        "camino-orbigo",
+        "camino-astorga",
+        "camino-rabanal",
+        "camino-foncebadon",
+        "camino-molinaseca",
+        "camino-ponferrada",
+        "camino-villafranca",
+        "camino-cebreiro",
+        "camino-triacastela",
+        "camino-san-xil",
+        "camino-sarria",
+        "camino-portomarin",
+        "camino-palas",
+        "camino-melide",
+        "camino-arzua",
+        "camino-pedrouzo",
+        "camino-santiago"
+      ],
+      "withoutLayeredReading": [
+        "camino-saint-jean",
+        "camino-roncesvalles",
+        "camino-zubiri",
+        "camino-pamplona",
+        "camino-puente",
+        "camino-estella",
+        "camino-los-arcos",
+        "camino-viana",
+        "camino-logrono",
+        "camino-navarrete",
+        "camino-najera",
+        "camino-domingo",
+        "camino-belorado",
+        "camino-ortega",
+        "camino-atapuerca",
+        "camino-burgos",
+        "camino-hornillos",
+        "camino-castrojeriz",
+        "camino-fromista",
+        "camino-carrion",
+        "camino-terradillos",
+        "camino-sahagun",
+        "camino-burgo-ranero",
+        "camino-mansilla",
+        "camino-leon",
+        "camino-san-martin",
+        "camino-orbigo",
+        "camino-astorga",
+        "camino-rabanal",
+        "camino-foncebadon",
+        "camino-molinaseca",
+        "camino-ponferrada",
+        "camino-villafranca",
+        "camino-cebreiro",
+        "camino-triacastela",
+        "camino-san-xil",
+        "camino-sarria",
+        "camino-portomarin",
+        "camino-palas",
+        "camino-melide",
+        "camino-arzua",
+        "camino-pedrouzo",
+        "camino-santiago"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "camino",
+      "id": "camino-leon",
+      "name": "朝圣之路 · 莱昂向西",
+      "stops": 19,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/",
+        "https://www.turismocastillayleon.com/es/lasedades2024.ficheros/382439-web_Apertura%20Monumentos%20Camino%20Franc%C3%A9s%202024.pdf",
+        "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-san-xil"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "camino-leon",
+        "camino-san-martin",
+        "camino-orbigo",
+        "camino-astorga",
+        "camino-rabanal",
+        "camino-foncebadon",
+        "camino-molinaseca",
+        "camino-ponferrada",
+        "camino-villafranca",
+        "camino-cebreiro",
+        "camino-triacastela",
+        "camino-san-xil",
+        "camino-sarria",
+        "camino-portomarin",
+        "camino-palas",
+        "camino-melide",
+        "camino-arzua",
+        "camino-pedrouzo",
+        "camino-santiago"
+      ],
+      "withoutLayeredReading": [
+        "camino-leon",
+        "camino-san-martin",
+        "camino-orbigo",
+        "camino-astorga",
+        "camino-rabanal",
+        "camino-foncebadon",
+        "camino-molinaseca",
+        "camino-ponferrada",
+        "camino-villafranca",
+        "camino-cebreiro",
+        "camino-triacastela",
+        "camino-san-xil",
+        "camino-sarria",
+        "camino-portomarin",
+        "camino-palas",
+        "camino-melide",
+        "camino-arzua",
+        "camino-pedrouzo",
+        "camino-santiago"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "camino",
+      "id": "camino-sarria",
+      "name": "朝圣之路 · 萨里亚至圣地亚哥",
+      "stops": 7,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/",
+        "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-san-xil"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "camino-sarria",
+        "camino-portomarin",
+        "camino-palas",
+        "camino-melide",
+        "camino-arzua",
+        "camino-pedrouzo",
+        "camino-santiago"
+      ],
+      "withoutLayeredReading": [
+        "camino-sarria",
+        "camino-portomarin",
+        "camino-palas",
+        "camino-melide",
+        "camino-arzua",
+        "camino-pedrouzo",
+        "camino-santiago"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "nakasendo",
+      "id": "nakasendo-corridor",
+      "name": "中山道 · 东京到京都文化走廊",
+      "stops": 9,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://www.japan.travel/en/japans-local-treasures/walk-historic-nakasendo-trail/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "nakasendo-tokyo",
+        "nakasendo-karuizawa",
+        "nakasendo-shimosuwa",
+        "nakasendo-narai",
+        "nakasendo-fukushima",
+        "nakasendo-suhara",
+        "nakasendo-tsumago",
+        "nakasendo-magome",
+        "nakasendo-kyoto"
+      ],
+      "withoutLayeredReading": [
+        "nakasendo-tokyo",
+        "nakasendo-karuizawa",
+        "nakasendo-shimosuwa",
+        "nakasendo-narai",
+        "nakasendo-fukushima",
+        "nakasendo-suhara",
+        "nakasendo-magome",
+        "nakasendo-kyoto"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "nakasendo",
+      "id": "nakasendo-kiso",
+      "name": "中山道 · 木曾五宿精选",
+      "stops": 5,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://www.japan.travel/en/japans-local-treasures/walk-historic-nakasendo-trail/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "nakasendo-narai",
+        "nakasendo-fukushima",
+        "nakasendo-suhara",
+        "nakasendo-tsumago",
+        "nakasendo-magome"
+      ],
+      "withoutLayeredReading": [
+        "nakasendo-narai",
+        "nakasendo-fukushima",
+        "nakasendo-suhara",
+        "nakasendo-magome"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "nakasendo",
+      "id": "nakasendo-short",
+      "name": "中山道 · 妻笼与马笼",
+      "stops": 2,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://www.japan.travel/en/japans-local-treasures/walk-historic-nakasendo-trail/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "nakasendo-tsumago",
+        "nakasendo-magome"
+      ],
+      "withoutLayeredReading": [
+        "nakasendo-magome"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-north",
+      "name": "弗兰奇杰纳 · 坎特伯雷至罗马走廊",
+      "stops": 16,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.coe.int/en/web/cultural-routes/the-via-francigena"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "francigena-canterbury",
+        "francigena-dover",
+        "francigena-calais",
+        "francigena-arras",
+        "francigena-reims",
+        "francigena-langres",
+        "francigena-besancon",
+        "francigena-lausanne",
+        "francigena-martigny",
+        "francigena-bernard",
+        "francigena-aosta",
+        "francigena-pavia",
+        "francigena-lucca",
+        "francigena-siena",
+        "francigena-viterbo",
+        "francigena-rome"
+      ],
+      "withoutLayeredReading": [
+        "francigena-canterbury",
+        "francigena-dover",
+        "francigena-calais",
+        "francigena-arras",
+        "francigena-reims",
+        "francigena-langres",
+        "francigena-besancon",
+        "francigena-lausanne",
+        "francigena-martigny",
+        "francigena-bernard",
+        "francigena-aosta",
+        "francigena-pavia",
+        "francigena-lucca",
+        "francigena-siena",
+        "francigena-viterbo",
+        "francigena-rome"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-alpine",
+      "name": "弗兰奇杰纳 · 阿尔卑斯山口篇",
+      "stops": 4,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.coe.int/en/web/cultural-routes/the-via-francigena"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "francigena-lausanne",
+        "francigena-martigny",
+        "francigena-bernard",
+        "francigena-aosta"
+      ],
+      "withoutLayeredReading": [
+        "francigena-lausanne",
+        "francigena-martigny",
+        "francigena-bernard",
+        "francigena-aosta"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-tuscany",
+      "name": "弗兰奇杰纳 · 托斯卡纳至罗马城市篇",
+      "stops": 4,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.coe.int/en/web/cultural-routes/the-via-francigena"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "francigena-lucca",
+        "francigena-siena",
+        "francigena-viterbo",
+        "francigena-rome"
+      ],
+      "withoutLayeredReading": [
+        "francigena-lucca",
+        "francigena-siena",
+        "francigena-viterbo",
+        "francigena-rome"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "andes",
+      "id": "andes-bolivia",
+      "name": "安第斯路网 · 玻利维亚高原阅读",
+      "stops": 2,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/1459/maps/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [],
+      "specificResearchPending": [
+        "andes-desaguadero",
+        "andes-tiwanacu"
+      ]
+    },
+    {
+      "theme": "andes",
+      "id": "andes-chile",
+      "name": "安第斯路网 · 智利北部路段",
+      "stops": 2,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/1459/maps/",
+        "https://www.monumentos.gob.cl/sites/default/files/2025-04/Tambo%20de%20Zapahuira.pdf"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "andes",
+      "id": "andes-peru",
+      "name": "安第斯路网 · 秘鲁行政中心与古都",
+      "stops": 2,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://qhapaqnan.cultura.pe/sites/default/files/articulos/179094598-Nuevos-Centros-de-Almacenamiento-Inca-en-Huanuco-Pampa.pdf",
+        "https://whc.unesco.org/en/list/273/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "buddhist",
+      "id": "buddhist-four",
+      "name": "佛教四圣地 · 生平阅读图",
+      "stops": 4,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/666/",
+        "https://whc.unesco.org/en/list/1056/",
+        "https://whc.unesco.org/en/list/927/",
+        "https://whc.unesco.org/document/185683"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "buddhist-lumbini",
+        "buddhist-bodhgaya",
+        "buddhist-sarnath",
+        "buddhist-kushinagar"
+      ],
+      "withoutLayeredReading": [
+        "buddhist-lumbini",
+        "buddhist-sarnath",
+        "buddhist-kushinagar"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "buddhist",
+      "id": "buddhist-india",
+      "name": "佛教圣地 · 印度三地探访",
+      "stops": 3,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/1056/",
+        "https://whc.unesco.org/en/list/927/",
+        "https://whc.unesco.org/document/185683"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "buddhist-bodhgaya",
+        "buddhist-sarnath",
+        "buddhist-kushinagar"
+      ],
+      "withoutLayeredReading": [
+        "buddhist-sarnath",
+        "buddhist-kushinagar"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "canal",
+      "id": "canal-jinghang",
+      "name": "大运河 · 京杭城市精选",
+      "stops": 11,
+      "layeredReading": 11,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/1443/maps/",
+        "https://www.tj.gov.cn/sq/tjgk/tjls/lsyg/",
+        "https://shandong.chinatax.gov.cn/art/2024/6/6/art_210_1051760.html",
+        "https://jnsl.jining.gov.cn/art/2026/4/2/art_14544_2708678.html",
+        "https://www.haqjp.gov.cn/col/1052_478757/index.html",
+        "https://www.ndrc.gov.cn/xwdt/ztzl/dyhgjwhgy/202201/t20220105_1311458.html",
+        "https://jsnews.jschina.com.cn/zj/a/202201/t20220102_2923909.shtml",
+        "https://www.suzhou.gov.cn/szwgjyhsj/yhsjjbgk/202110/b7a7f024e4394cf1be9457080c338eb5.shtml",
+        "https://www.jxwwbh.cn/ArticleShow.aspx?id=215",
+        "https://www.ezhejiang.gov.cn/2018-12/17/c_306275.htm"
+      ],
+      "matchedImages": 11,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "canal",
+      "id": "canal-jiangnan",
+      "name": "大运河 · 江南水城慢游",
+      "stops": 5,
+      "layeredReading": 5,
+      "sourceLinks": [
+        "https://www.ndrc.gov.cn/xwdt/ztzl/dyhgjwhgy/202201/t20220105_1311458.html",
+        "https://whc.unesco.org/en/list/1443/maps/",
+        "https://jsnews.jschina.com.cn/zj/a/202201/t20220102_2923909.shtml",
+        "https://www.suzhou.gov.cn/szwgjyhsj/yhsjjbgk/202110/b7a7f024e4394cf1be9457080c338eb5.shtml",
+        "https://www.jxwwbh.cn/ArticleShow.aspx?id=215",
+        "https://www.ezhejiang.gov.cn/2018-12/17/c_306275.htm"
+      ],
+      "matchedImages": 5,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "canal",
+      "id": "canal-north",
+      "name": "大运河 · 都城与北方漕运",
+      "stops": 3,
+      "layeredReading": 3,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/1443/maps/",
+        "https://www.tj.gov.cn/sq/tjgk/tjls/lsyg/"
+      ],
+      "matchedImages": 3,
+      "hasCover": true,
+      "shortDescriptionIds": [],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "viking",
+      "id": "viking-northsea",
+      "name": "维京遗产 · 德国与丹麦精选",
+      "stops": 3,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/1553/",
+        "https://www.coe.int/en/web/cultural-routes/the-viking-routes",
+        "https://www.vikingeskibsmuseet.dk/besoeg/udstillinger/de-fem-vikingeskibe/udgravningen"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "viking-hedeby",
+        "viking-ribe",
+        "viking-roskilde"
+      ],
+      "withoutLayeredReading": [
+        "viking-ribe"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "viking",
+      "id": "viking-islands",
+      "name": "维京遗产 · 约克与都柏林",
+      "stops": 2,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://collections.yorkarchaeologicaltrust.co.uk/s/collections/item/24124",
+        "https://www.coe.int/en/web/cultural-routes/the-viking-routes"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "viking-dublin"
+      ],
+      "withoutLayeredReading": [
+        "viking-dublin"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "viking",
+      "id": "viking-atlantic",
+      "name": "维京遗产 · 冰岛与纽芬兰两地",
+      "stops": 2,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://whc.unesco.org/en/list/1152/",
+        "https://whc.unesco.org/en/list/4/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "viking-thingvellir",
+        "viking-lans"
+      ],
+      "withoutLayeredReading": [
+        "viking-lans"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "impressionism",
+      "id": "impressionism-seine",
+      "name": "印象派 · 从巴黎到塞纳河畔",
+      "stops": 4,
+      "layeredReading": 4,
+      "sourceLinks": [
+        "https://www.musee-orsay.fr/en",
+        "https://www.seine-saintgermain.fr/les-belles-echappees/votre-plus-belle-seine/se-faire-une-toile/",
+        "https://fondation-monet.com/en/",
+        "https://www.nga.gov/artworks/74796-japanese-footbridge",
+        "https://www.coe.int/en/web/cultural-routes/impressionisms-routes",
+        "https://www.nga.gov/artworks/46524-rouen-cathedral-west-facade"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "impressionism-paris",
+        "impressionism-chatou",
+        "impressionism-giverny",
+        "impressionism-rouen"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "impressionism",
+      "id": "impressionism-coast",
+      "name": "印象派 · 诺曼底海岸画境",
+      "stops": 3,
+      "layeredReading": 3,
+      "sourceLinks": [
+        "https://www.coe.int/en/web/cultural-routes/impressionisms-routes",
+        "https://www.marmottan.fr/en/notice/4014/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "impressionism-honfleur",
+        "impressionism-lehavre",
+        "impressionism-etretat"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "impressionism",
+      "id": "impressionism-suburbs",
+      "name": "塞纳河郊区 · 田野、桥与花园",
+      "stops": 3,
+      "layeredReading": 3,
+      "sourceLinks": [
+        "https://www.metmuseum.org/art/collection/search/437299",
+        "https://www.metmuseum.org/art/collection/search/437680",
+        "https://www.metmuseum.org/art/collection/search/436965"
+      ],
+      "matchedImages": 3,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "impressionism-pontoise",
+        "impressionism-villeneuve",
+        "impressionism-argenteuil"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "mozart",
+      "id": "mozart-early",
+      "name": "莫扎特 · 早年萨尔茨堡与慕尼黑",
+      "stops": 2,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://www.coe.int/en/web/cultural-routes/european-mozart-ways"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "mozart-salzburg",
+        "mozart-munich"
+      ],
+      "withoutLayeredReading": [
+        "mozart-munich"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "mozart",
+      "id": "mozart-viennaprague",
+      "name": "莫扎特 · 维也纳与布拉格",
+      "stops": 2,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.coe.int/en/web/cultural-routes/european-mozart-ways"
+      ],
+      "matchedImages": 0,
+      "hasCover": false,
+      "shortDescriptionIds": [
+        "mozart-vienna",
+        "mozart-prague"
+      ],
+      "withoutLayeredReading": [
+        "mozart-vienna",
+        "mozart-prague"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "mozart",
+      "id": "mozart-western",
+      "name": "莫扎特 · 巴黎与伦敦的童年巡演记忆",
+      "stops": 2,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.coe.int/en/web/cultural-routes/european-mozart-ways"
+      ],
+      "matchedImages": 0,
+      "hasCover": false,
+      "shortDescriptionIds": [
+        "mozart-paris",
+        "mozart-london"
+      ],
+      "withoutLayeredReading": [
+        "mozart-paris",
+        "mozart-london"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "route66",
+      "id": "route66-classic",
+      "name": "66号公路 · 八州经典走廊",
+      "stops": 15,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://www.nps.gov/orgs/1453/route-66-history.htm",
+        "https://www.nps.gov/places/luna-lodge.htm"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "route66-chicago",
+        "route66-springfield",
+        "route66-stlouis",
+        "route66-joplin",
+        "route66-galena",
+        "route66-tulsa",
+        "route66-okc",
+        "route66-amarillo",
+        "route66-albuquerque",
+        "route66-gallup",
+        "route66-flagstaff",
+        "route66-kingman",
+        "route66-barstow",
+        "route66-losangeles",
+        "route66-santamonica"
+      ],
+      "withoutLayeredReading": [
+        "route66-chicago",
+        "route66-springfield",
+        "route66-stlouis",
+        "route66-joplin",
+        "route66-galena",
+        "route66-tulsa",
+        "route66-okc",
+        "route66-amarillo",
+        "route66-gallup",
+        "route66-flagstaff",
+        "route66-kingman",
+        "route66-barstow",
+        "route66-losangeles",
+        "route66-santamonica"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "route66",
+      "id": "route66-southwest",
+      "name": "66号公路 · 西南高原到太平洋",
+      "stops": 7,
+      "layeredReading": 1,
+      "sourceLinks": [
+        "https://www.nps.gov/places/luna-lodge.htm",
+        "https://www.nps.gov/orgs/1453/route-66-history.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "route66-albuquerque",
+        "route66-gallup",
+        "route66-flagstaff",
+        "route66-kingman",
+        "route66-barstow",
+        "route66-losangeles",
+        "route66-santamonica"
+      ],
+      "withoutLayeredReading": [
+        "route66-gallup",
+        "route66-flagstaff",
+        "route66-kingman",
+        "route66-barstow",
+        "route66-losangeles",
+        "route66-santamonica"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "route66",
+      "id": "route66-midwest",
+      "name": "66号公路 · 中西部城镇篇",
+      "stops": 6,
+      "layeredReading": 0,
+      "sourceLinks": [
+        "https://www.nps.gov/orgs/1453/route-66-history.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "route66-chicago",
+        "route66-springfield",
+        "route66-stlouis",
+        "route66-joplin",
+        "route66-galena",
+        "route66-tulsa"
+      ],
+      "withoutLayeredReading": [
+        "route66-chicago",
+        "route66-springfield",
+        "route66-stlouis",
+        "route66-joplin",
+        "route66-galena",
+        "route66-tulsa"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "nc500",
+      "id": "nc500-full",
+      "name": "NC500 · 苏格兰北海岸环线",
+      "stops": 11,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://www.visitscotland.com/planning/travel-in-scotland/driving-road-trips/north-coast-500"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "nc500-inverness",
+        "nc500-applecross",
+        "nc500-torridon",
+        "nc500-gairloch",
+        "nc500-ullapool",
+        "nc500-lochinver",
+        "nc500-durness",
+        "nc500-tongue",
+        "nc500-johnogroats",
+        "nc500-wick",
+        "nc500-dornoch"
+      ],
+      "withoutLayeredReading": [
+        "nc500-torridon",
+        "nc500-gairloch",
+        "nc500-ullapool",
+        "nc500-lochinver",
+        "nc500-durness",
+        "nc500-tongue",
+        "nc500-johnogroats",
+        "nc500-wick",
+        "nc500-dornoch"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "nc500",
+      "id": "nc500-west",
+      "name": "NC500 · 西海岸山海精选",
+      "stops": 5,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://www.visitscotland.com/planning/travel-in-scotland/driving-road-trips/north-coast-500"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "nc500-inverness",
+        "nc500-applecross",
+        "nc500-torridon",
+        "nc500-gairloch",
+        "nc500-ullapool"
+      ],
+      "withoutLayeredReading": [
+        "nc500-torridon",
+        "nc500-gairloch",
+        "nc500-ullapool"
+      ],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "vangogh",
+      "id": "vangogh-provence",
+      "name": "普罗旺斯 · 阿尔勒与圣雷米",
+      "stops": 2,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://archive.artic.edu/van-gogh-bedrooms/timeline",
+        "https://www.metmuseum.org/art/collection/search/437980",
+        "https://www.metmuseum.org/art/collection/search/436535",
+        "https://www.metmuseum.org/art/collection/search/436528",
+        "https://www.metmuseum.org/art/collection/search/436534"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "vangogh-saintremy"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "vangogh",
+      "id": "vangogh-paris-auvers",
+      "name": "巴黎与欧韦 · 两段不同年份的生活",
+      "stops": 2,
+      "layeredReading": 2,
+      "sourceLinks": [
+        "https://archive.artic.edu/van-gogh-bedrooms/timeline",
+        "https://www.vangoghmuseum.nl/en/art-and-stories/stories/the-last-days-of-vincent-van-gogh",
+        "https://www.nga.gov/artworks/163323-green-wheat-fields-auvers"
+      ],
+      "matchedImages": 2,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "vangogh-auvers"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-iceland1",
+      "name": "冰岛 1 号公路 · 火山与冰川环岛",
+      "stops": 8,
+      "layeredReading": 8,
+      "sourceLinks": [
+        "https://www.visiticeland.com/article/the-ring-road/",
+        "https://www.visiticeland.com/article/driving-in-iceland/",
+        "https://www.visiticeland.com/icelandic-towns-and-villages/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-reykjavik",
+        "road-vik",
+        "road-jokulsarlon",
+        "road-hofn",
+        "road-egilsstadir",
+        "road-myvatn",
+        "road-akureyri",
+        "road-borgarnes"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-g219",
+      "name": "G219 · 从喀纳斯到东兴 · 分区总览",
+      "stops": 7,
+      "layeredReading": 7,
+      "sourceLinks": [
+        "https://www.neac.gov.cn/seac/c100504/201509/1085732.shtml",
+        "https://www.ctnews.com.cn/zt/content/2023-03/10/content_138371.html",
+        "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202608/t20260817_4222428.html",
+        "https://lyfz.al.gov.cn/info/1772/19541.htm",
+        "https://www.xjyc.gov.cn/ycx/c109125/201908/ba22ae36f21e4c37bbcc88c289019bb2.shtml"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-kanas",
+        "road-yining",
+        "road-yecheng",
+        "road-shiquanhe",
+        "road-tengchong",
+        "road-jinghong",
+        "road-dongxing"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-g331",
+      "name": "G331 · 从界江到北境草原 · 分区总览",
+      "stops": 7,
+      "layeredReading": 7,
+      "sourceLinks": [
+        "https://cpc.people.com.cn/GB/64176/64180/2534588.html",
+        "https://www.ln.gov.cn/web/ywdt/zymtkln/2026082808323058127/index.shtml",
+        "https://www.jl.gov.cn/szfzt/gzlfz/gzdt/202603/t20260307_3593768.html",
+        "https://www.jl.xinhuanet.com/20250925/1e85d8bae2284eca95bc622bab255b17/c.html",
+        "https://whc.unesco.org/en/list/1135/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-dandong",
+        "road-jian",
+        "road-changbai",
+        "road-heihe",
+        "road-mohe",
+        "road-shiwei",
+        "road-habahe"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-g228",
+      "name": "G228 · 大陆海岸的城市与港口 · 分区总览",
+      "stops": 7,
+      "layeredReading": 7,
+      "sourceLinks": [
+        "https://wlt.fujian.gov.cn/wldt/btdt/202412/t20241230_6599855.htm",
+        "https://www.qingdao.gov.cn/ywdt/zwyw/202608/t20260821_10705769.shtml",
+        "https://www.ln.gov.cn/web/ywdt/zymtkln/2025011309104974325/index.shtml",
+        "https://www.qingdao.gov.cn/ywdt/zwyw/202610/t20261006_10746545.shtml",
+        "https://whc.unesco.org/en/list/1541/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-dandong-coast",
+        "road-dalian",
+        "road-tianjin",
+        "road-qingdao",
+        "road-ningbo",
+        "road-xiamen",
+        "road-dongxing-coast"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-greatocean",
+      "name": "澳大利亚 · 大洋路慢行",
+      "stops": 7,
+      "layeredReading": 7,
+      "sourceLinks": [
+        "https://visitgreatoceanroad.org.au/torquaylife/",
+        "https://visitgreatoceanroad.org.au/explore/9-smart-travel-tips-for-planning-your-great-ocean-road-adventure/",
+        "https://visitgreatoceanroad.org.au/Itineraries/the-must-see-places-of-the-great-ocean-road-region/",
+        "https://visitgreatoceanroad.org.au/discover-the-region/big-nature/13-must-see-places-across-the-great-ocean-road-region/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-torquay",
+        "road-lorne",
+        "road-otway",
+        "road-apostles",
+        "road-portcampbell",
+        "road-allansford"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-arctic",
+      "name": "加拿大 · 开往北冰洋",
+      "stops": 7,
+      "layeredReading": 7,
+      "sourceLinks": [
+        "https://www.travelyukon.com/en/see-and-do/itineraries/dempster-highway-road-trip-itinerary",
+        "https://www.inf.gov.nt.ca/en/transportation",
+        "https://www.nwtparks.ca/plan-your-trip/road-trips/dempster-highway",
+        "https://www.inf.gov.nt.ca/en/ferries"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-tombstone",
+        "road-eagle",
+        "road-circle",
+        "road-mcpherson",
+        "road-tuk"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-utah12",
+      "name": "犹他 12 号风景道 · 红岩到高原森林",
+      "stops": 6,
+      "layeredReading": 6,
+      "sourceLinks": [
+        "https://www.visitutah.com/articles/the-all-american-road-scenic-byway-12",
+        "https://www.visitutah.com/articles/cycling-scenic-byway-12-escalante-to-boulder",
+        "https://www.nps.gov/brca/planyourvisit/viewpoints.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-bryce",
+        "road-calfcreek",
+        "road-boulder"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-utah5",
+      "name": "犹他 Mighty 5 · 用风景道连接五园",
+      "stops": 6,
+      "layeredReading": 6,
+      "sourceLinks": [
+        "https://www.nps.gov/zion/index.htm",
+        "https://www.visitutah.com/plan-your-trip/recommended-itineraries/salt-lake-through-the-mighty-5",
+        "https://www.nps.gov/care/planyourvisit/fruita.htm",
+        "https://www.nps.gov/cany/index.htm",
+        "https://www.nps.gov/arch/index.htm",
+        "https://www.nps.gov/brca/planyourvisit/viewpoints.htm",
+        "https://www.visitutah.com/articles/the-all-american-road-scenic-byway-12",
+        "https://www.visitutah.com/articles/cycling-scenic-byway-12-escalante-to-boulder"
+      ],
+      "matchedImages": 3,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-zion",
+        "road-bryce",
+        "road-moab",
+        "road-canyonlands",
+        "road-arches"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-atlantic",
+      "name": "挪威 · 大西洋之路",
+      "stops": 5,
+      "layeredReading": 5,
+      "sourceLinks": [
+        "https://www.nasjonaleturistveger.no/en/routes/atlanterhavsvegen/",
+        "https://www.visitnorway.com/listings/norwegian-scenic-routes-the-atlantic-road/26864/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-bud",
+        "road-askevagen",
+        "road-eldhusoya",
+        "road-storseisund",
+        "road-karvag"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-milford",
+      "name": "新西兰 SH94 · 开往米尔福德峡湾",
+      "stops": 5,
+      "layeredReading": 5,
+      "sourceLinks": [
+        "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/places-to-go/milford-road-milford-sound-area/",
+        "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/tracks/mirror-lakes-walk/",
+        "https://nzta.govt.nz/projects/sh94-milford-road/avalanche-control-programme"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-teanau",
+        "road-eglinton",
+        "road-mirror",
+        "road-homer",
+        "road-piopiotahi"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-california1",
+      "name": "加州 SR1 · 蒙特雷到圣西蒙",
+      "stops": 5,
+      "layeredReading": 5,
+      "sourceLinks": [
+        "https://www.visitcalifornia.com/experience/highway-ones-most-scenic-stops/",
+        "https://www.visitcalifornia.com/now/road-trip-highway-1-santa-cruz-to-big-sur/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-monterey",
+        "road-carmel",
+        "road-bixby",
+        "road-bigsur",
+        "road-sansimeon"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-overseas",
+      "name": "美国 US1 · 佛罗里达海外公路",
+      "stops": 5,
+      "layeredReading": 5,
+      "sourceLinks": [
+        "https://fla-keys.com/how-to-get-here/",
+        "https://fla-keys.com/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-keylargo",
+        "road-islamorada",
+        "road-marathon",
+        "road-sevenmile",
+        "road-keywest"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-garden",
+      "name": "南非花园大道 · 森林、泻湖与海岸",
+      "stops": 5,
+      "layeredReading": 5,
+      "sourceLinks": [
+        "https://www.southafrica.net/gl/en/travel/article/discover-the-garden-route-1",
+        "https://www.sanparks.org/parks/garden-route/travel/maps",
+        "https://www.sanparks.org/parks/garden-route/accommodation"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-mosselbay",
+        "road-wilderness",
+        "road-knysna",
+        "road-plett",
+        "road-storms"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-g219-ngari",
+      "name": "G219 · 阿里高原与札达支线",
+      "stops": 5,
+      "layeredReading": 5,
+      "sourceLinks": [
+        "https://lyfz.al.gov.cn/info/1772/19541.htm",
+        "https://www.ctnews.com.cn/zt/content/2023-03/10/content_138371.html",
+        "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202608/t20260817_4222428.html",
+        "https://commons.wikimedia.org/wiki/File:Ngari_Prefecture_IMG_3599.jpg",
+        "https://lyfz.al.gov.cn/info/1742/15741.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-shiquanhe",
+        "road-gar-landscape",
+        "road-zanda",
+        "road-tholing",
+        "road-darchen"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-g228-shandong",
+      "name": "G228 · 胶东山海与城市支线",
+      "stops": 5,
+      "layeredReading": 5,
+      "sourceLinks": [
+        "https://www.qingdao.gov.cn/ywdt/zwyw/202610/t20261006_10746545.shtml",
+        "https://wlt.fujian.gov.cn/wldt/btdt/202412/t20241230_6599855.htm",
+        "https://www.qingdao.gov.cn/ywdt/zwyw/202608/t20260821_10705769.shtml",
+        "https://www.ln.gov.cn/web/ywdt/zymtkln/2025011309104974325/index.shtml",
+        "https://jtt.shandong.gov.cn/jssc/homeprojectinfo/tab/P0000000000000004927",
+        "https://www.weihai.gov.cn/art/2025/12/17/art_180018_6023645.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-qingdao",
+        "road-haiyang",
+        "road-rushan",
+        "road-rongcheng",
+        "road-weihai"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "roads",
+      "id": "roads-g331-yalu",
+      "name": "G331 · 鸭绿江城镇慢行",
+      "stops": 4,
+      "layeredReading": 4,
+      "sourceLinks": [
+        "https://cpc.people.com.cn/GB/64176/64180/2534588.html",
+        "https://www.ln.gov.cn/web/ywdt/zymtkln/2026082808323058127/index.shtml",
+        "https://www.jl.gov.cn/szfzt/gzlfz/gzdt/202603/t20260307_3593768.html",
+        "https://www.jl.xinhuanet.com/20250925/1e85d8bae2284eca95bc622bab255b17/c.html",
+        "https://whc.unesco.org/en/list/1135/",
+        "https://www.mct.gov.cn/wlbphone/wlbydd/xxfb/qglb/jl/202310/t20231007_947727.html",
+        "https://www.jl.gov.cn/yaowen/202509/t20250920_3499865.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-dandong",
+        "road-jian",
+        "road-linjiang",
+        "road-changbai"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    }
+  ]
+}

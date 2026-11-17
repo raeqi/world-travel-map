@@ -11,41 +11,38 @@ const heroSlides=[
 const heroPreferences={index:0,paused:false};
 let heroCleanup=null;
 function destroyHeroCarousel(){if(heroCleanup){heroCleanup();heroCleanup=null}}
-function heroCarouselHTML(){return `<section class="hero-carousel" role="region" aria-roledescription="轮播" aria-label="不同主题的旅行推荐"><div class="hero-slides" aria-live="off">${heroSlides.map((s,i)=>`<div class="hero-slide hero-slide-${s.theme}" role="group" aria-roledescription="幻灯片" aria-label="${i+1} / ${heroSlides.length}：${s.title}" ${i===heroPreferences.index?'':'hidden'}><button class="discovery-feature" data-hero-open="${i}" aria-label="${s.action}：${s.title}"><div class="hero-visual">${mediaImage(s.photo,i===heroPreferences.index?'fetchpriority="high"':'loading="lazy"')}${s.second?`<div class="hero-archival">${mediaImage(s.second)}<small>广重笔下的妻笼</small></div>`:''}${s.theme==='viking'?'<span class="hero-object-label" aria-hidden="true">海泽比<br>符文石</span>':''}</div><span class="hero-caption"><small>${s.label}<b>${String(i+1).padStart(2,'0')} / ${String(heroSlides.length).padStart(2,'0')}</b></small><strong>${s.title}</strong><i>${s.text}</i><em>${s.action} ↗</em></span></button></div>`).join('')}</div><div class="hero-controls"><button class="hero-play" type="button" aria-label="暂停自动播放">Ⅱ</button><div class="hero-dots" role="group" aria-label="选择推荐">${heroSlides.map((s,i)=>`<button type="button" data-hero-dot="${i}" aria-label="显示第 ${i+1} 项：${s.title}" ${i===heroPreferences.index?'aria-current="true"':''}><span></span></button>`).join('')}</div><div class="hero-arrows"><button type="button" data-hero-step="-1" aria-label="上一项推荐">←</button><button type="button" data-hero-step="1" aria-label="下一项推荐">→</button></div></div><span class="hero-announcement sr-only" role="status" aria-live="polite" aria-atomic="true"></span></section>`}
+function heroCarouselHTML(){return `<section class="hero-carousel" role="region" aria-roledescription="轮播" tabindex="0" aria-label="不同主题的旅行推荐；空格暂停或恢复，方向键切换"><div class="hero-slides" aria-live="off">${heroSlides.map((s,i)=>`<div class="hero-slide hero-slide-${s.theme}" role="group" aria-roledescription="幻灯片" aria-label="${i+1} / ${heroSlides.length}：${s.title}" ${i===heroPreferences.index?'':'hidden'}><button class="discovery-feature" data-hero-open="${i}" aria-label="${s.action}：${s.title}"><div class="hero-visual">${mediaImage(s.photo,i===heroPreferences.index?'fetchpriority="high"':'loading="lazy"')}${s.second?`<div class="hero-archival">${mediaImage(s.second)}<small>广重笔下的妻笼</small></div>`:''}${s.theme==='viking'?'<span class="hero-object-label" aria-hidden="true">海泽比<br>符文石</span>':''}</div><span class="hero-caption"><small>${s.label}<b>${String(i+1).padStart(2,'0')} / ${String(heroSlides.length).padStart(2,'0')}</b></small><strong>${s.title}</strong><i>${s.text}</i><em>${s.action} ↗</em></span></button></div>`).join('')}</div><span class="hero-announcement sr-only" role="status" aria-live="polite" aria-atomic="true"></span></section>`}
 function mountHeroCarousel(){
  destroyHeroCarousel();const root=document.querySelector('.hero-carousel');if(!root)return;
  const motion=window.matchMedia?window.matchMedia('(prefers-reduced-motion: reduce)'):{matches:false};
- const slides=[...root.querySelectorAll('.hero-slide')],dots=[...root.querySelectorAll('[data-hero-dot]')],play=root.querySelector('.hero-play');
- let timer=null,hovered=false,onscreen=true,disposed=false,playPointerPaused=null;
+ const slides=[...root.querySelectorAll('.hero-slide')];
+ let timer=null,hovered=false,onscreen=true,disposed=false,focused=false;
  if(motion.matches)heroPreferences.paused=true;
  function cancel(){if(timer!==null){clearTimeout(timer);timer=null}}
- function schedule(){cancel();if(!disposed&&!heroPreferences.paused&&!motion.matches&&!hovered&&onscreen&&!document.hidden&&document.body.dataset.view==='catalog')timer=setTimeout(()=>{timer=null;show(heroPreferences.index+1,false)},8000)}
+ function schedule(){cancel();if(!disposed&&!heroPreferences.paused&&!motion.matches&&!hovered&&!focused&&onscreen&&!document.hidden&&document.body.dataset.view==='catalog')timer=setTimeout(()=>{timer=null;show(heroPreferences.index+1,false)},8000)}
  function update(){
   // Warm the current and following image before the next automatic change.
   for(const index of [heroPreferences.index,(heroPreferences.index+1)%slides.length])slides[index].querySelectorAll('img').forEach(img=>{img.loading='eager'});
-  root.dataset.autoplay=motion.matches?'reduced':heroPreferences.paused?'paused':hovered?'hover-paused':'playing';
-  play.disabled=motion.matches;play.textContent=heroPreferences.paused?'▷':'Ⅱ';play.setAttribute('aria-label',motion.matches?'系统已设置减少动态效果，自动播放已关闭':heroPreferences.paused?'播放自动轮播':'暂停自动播放');
+  root.dataset.autoplay=motion.matches?'reduced':heroPreferences.paused?'paused':hovered?'hover-paused':focused?'focus-paused':'playing';
+
  }
  function announce(text){root.querySelector('.hero-announcement').textContent=text}
  function show(index,manual){
   heroPreferences.index=(index+slides.length)%slides.length;
   if(manual)heroPreferences.paused=true;
-  slides.forEach((s,i)=>s.hidden=i!==heroPreferences.index);dots.forEach((d,i)=>{if(i===heroPreferences.index)d.setAttribute('aria-current','true');else d.removeAttribute('aria-current')});
+  slides.forEach((s,i)=>s.hidden=i!==heroPreferences.index);
   if(manual)announce(`第 ${heroPreferences.index+1} 项，共 ${slides.length} 项：${heroSlides[heroPreferences.index].title}`);
   update();schedule();
  }
  root.onclick=e=>{
   const b=e.target.closest('button');if(!b)return;
-  if(b===play){heroPreferences.paused=!(playPointerPaused===null?heroPreferences.paused:playPointerPaused);playPointerPaused=null;announce(heroPreferences.paused?'自动播放已暂停':'自动播放已开启');update();schedule()}
-  if(b.dataset.heroStep)show(heroPreferences.index+Number(b.dataset.heroStep),true);
-  if(b.dataset.heroDot!==undefined)show(Number(b.dataset.heroDot),true);
-  if(b.dataset.heroOpen!==undefined){heroPreferences.paused=true;const s=heroSlides[Number(b.dataset.heroOpen)];openDiscoveryTheme(s.theme);if(s.route){const plan=buildPlans(s.theme,0).find(p=>p.id===s.route);if(plan)openPlan(plan)}}
+  if(b.dataset.heroOpen!==undefined){const s=heroSlides[Number(b.dataset.heroOpen)];openDiscoveryTheme(s.theme);if(s.route){const plan=buildPlans(s.theme,0).find(p=>p.id===s.route);if(plan)openPlan(plan)}}
  };
- root.onkeydown=e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();show(e.key==='Home'?0:e.key==='End'?slides.length-1:heroPreferences.index+(e.key==='ArrowRight'?1:-1),true)}};
+ root.onkeydown=e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();show(e.key==='Home'?0:e.key==='End'?slides.length-1:heroPreferences.index+(e.key==='ArrowRight'?1:-1),true)}else if(e.key===' '&&e.target===root){e.preventDefault();heroPreferences.paused=!heroPreferences.paused;announce(heroPreferences.paused?'自动播放已暂停':'自动播放已开启');update();schedule()}else if(e.key==='Escape'){heroPreferences.paused=true;update();cancel()}};
  root.onmouseenter=()=>{hovered=true;update();schedule()};root.onmouseleave=()=>{hovered=false;update();schedule()};
- // Keyboard entry stops rotation until the user explicitly presses Play.
- root.addEventListener('focusin',()=>{heroPreferences.paused=true;update();cancel()});
- root.addEventListener('pointerdown',e=>{playPointerPaused=e.target.closest('button')===play?heroPreferences.paused:null});
+ // Focus holds the image stable while its destination is being read.
+ root.addEventListener('focusin',()=>{focused=true;update();cancel()});
+ root.addEventListener('focusout',e=>{if(!root.contains(e.relatedTarget)){focused=false;update();schedule()}});
  const visibility=()=>schedule(),changedMotion=()=>{if(motion.matches)heroPreferences.paused=true;update();schedule()};
  document.addEventListener('visibilitychange',visibility);motion.addEventListener?.('change',changedMotion);
  const observer=typeof IntersectionObserver==='function'?new IntersectionObserver(entries=>{onscreen=entries[0].isIntersecting;schedule()}):null;observer?.observe(root);

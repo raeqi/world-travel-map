@@ -312,3 +312,26 @@ browser suite; responsive CSS viewports rather than physical phones; structural
 content audit rather than exhaustive historical verification; dense map labels
 can still overlap. Neutral covers are deliberate until matching reusable images
 are acquired and verified.
+
+
+## 2026-11-17 · Matched imagery and first reading batch
+
+Scope: 21 existing themes, 95 existing plans, 1,595 records retained. New-route drafts are excluded to avoid overlap with the separate cultural-route task; branding and deployment are unchanged by this batch.
+
+- 57 new local WebP files: 52 exact-place photographs and 5 Met CC0 Van Gogh works. All 80 editorial assets pass byte-count, SHA-256, dimensions, local path and licence/source consistency checks. Images were inspected in contact sheets; signboard-heavy placeholders were replaced with actual forest/shrine photographs. Original theme files and original illustrations remain available.
+- Route covers: 89 matched to an actual stop, 6 honest neutral cards. Choice spreads multiple available stop images across overlapping itineraries. No country/theme-wide photo fallback.
+- Content: all 11 canal cities have a specific description, two expandable reading sections, place imagery and primary/local heritage references. Eighteen more researched places cover natural processes and existing theme sites. Total layered reading: 63 places. All 95 plans appear in `reading-coverage.csv`, including missing deep reading and short-description IDs; 38 plans contain at least one layered reading place. This is the first batch, not a complete historical check of every place.
+- Van Gogh: 8 works, including Paris self-portrait, Arles portrait/shoes and Saint-Rémy flower still lifes. Creation associations are labeled separately from depicted scenery; all five new works point to the Met in New York for collections.
+- Checks passed: 8 Node test files; JavaScript syntax; four CSS parsers; Python source compilation without bytecode; DOM route/sidebar checks; controlled-clock carousel tests (no visible navigation buttons, autoplay, hover/focus pause, keyboard, reduced motion, silent changes, hidden-page suspension).
+- Real cloud Chromium via Sites managed preview: all six interest tabs rendered correct plan/photo/neutral counts; 95/89/6 total, nature 17/17/0 and paths 17/17/0. Every canal detail was opened and checked for its ID, image and two reading sections. The final Hangzhou item was activated by keyboard because the oversized QA iframe clipped its native pointer target in the outer browser viewport.
+- Real UI: Van Gogh eight-card exhibit, self-portrait image decoding, Paris association jump, Ginoux New York collection jump, Roses label, mobile Provence route, first-stop detail, close/back and repeated save (2 remained 2). At 900px the sidebar clamped to448px; at390px the Suzhou drawer stayed within x10–380 and there was no horizontal overflow. The mobile separator was hidden. Default autoplay was observed playing; reduced-motion and hover details were verified with controlled DOM tests, not native OS setting emulation.
+- Actual screenshots shown in the cloud browser: desktop Suzhou expanded reading, mobile Van Gogh, nature itinerary grid. No Library screenshot file/ID was created; the earlier cross-runtime file-write limitation remains. These screenshots are distinct from a full 95-route visual inspection. The complete CLI Chromium suite was not run in this restricted environment.
+- Remaining: 6 neutral covers (`daning`, `tea-source`, `silk-coast`, `silk-winter`, `mozart-viennaprague`, `mozart-western`); 200 short descriptions in recommended places and 256 across the full catalogue. `andes-desaguadero` and `andes-tiwanacu` still need deeper site-specific research. Long original descriptions and a source link are not treated as proof of fresh research.
+
+
+### Integration on latest scenic-road main
+
+The batch was rebased by three-way merge onto `da7cbff`, retaining `roads.js`, `roads.css`, the 16 independently merged scenic-road plans, its workflow, sources and README evidence. `index.html` keeps both road registration and the new content/media scripts. The complete inventory now has22 themes,1,683 records,111 plans and433 unique planned places; route covers are105 matched/6 neutral. Existing-batch counts remain95 plans/89 matched and63 layered readings; the scenic-road task contributes88 already-existing expanded place readings, not research performed by this batch. Full backlog and coverage reports include both. Browser screenshots above were taken before this integration; the combined index receives a fresh DOM regression, while live preview port4173 has been released to the other task. Scenic-road remote media limitations remain unchanged.
+
+
+Combined-state checks passed:9 Node test files, all three DOM regressions including the111-plan image binding check. The latest structural audit flags337 short summaries, but110 already have expanded reading;227 have a short summary and no layered reading,176 of those are used in plans. These are review candidates, not automatic factual-error labels. The full CSV distinguishes these states and retains specific evidence gaps separately.

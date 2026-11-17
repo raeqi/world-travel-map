@@ -7,12 +7,12 @@ for(const work of artWorks){
 }
 function addEssay(id,title,paragraphs,related=[]){const p=places.find(p=>p.id===id);if(!p)return;placeEssays[id]={title,paragraphs:paragraphs.map(([heading,text])=>({heading,text})),sources:[{title:p.sourceLabel||'地点背景资料',url:p.source}],related}}
 addEssay('vangogh-paris','在巴黎改变观看的方式',[
- ['生涯里的巴黎','1886 年梵高来到巴黎，与提奥共同生活。蒙马特在这里首先是一段生活与学习的环境，不是本主题所选三幅法国田野画的发生地点。'],
+ ['生涯里的巴黎','1886 年梵高来到巴黎，与提奥共同生活。蒙马特在这里首先是一段生活与学习的环境，本主题《戴草帽的自画像》可与这一阶段对照；它是一幅人物画，不是蒙马特街景。'],
  ['沿着城市读人物','可以把住居街区与艺术交往作为阅读入口，再比较南方与欧韦阶段的风景。这里标的是街区代表点，不判断某一幢建筑当日是否开放，也不把之后的不同年份压缩成一次巡游。']
 ],['vangogh-arles','vangogh-auvers']);
 addEssay('vangogh-arles','南方的光与共同生活的理想',[
  ['1888 年的南方阶段','梵高于 1888 年从巴黎来到阿尔勒。黄房子与画室生活成为这段生涯的重要线索；理解城市的意义，也要看到居住与人与人相处的具体处境。'],
- ['作品与现场的距离','地图以阿尔勒城市为代表点。黄房子的历史图像、其他画室题材和今天的城市景观需要分开看；本主题实际采用的三幅画作分别关联圣雷米与欧韦，不把它们误放在阿尔勒。']
+ ['作品与现场的距离','地图以阿尔勒城市为代表点。黄房子的历史图像、其他画室题材和今天的城市景观需要分开看；本主题的《阿尔勒女人》和《鞋》分别呈现当地人物与室内线索，可与南方风景和花束静物对读。']
 ],['vangogh-saintremy','vangogh-paris']);
 for(const id of ['impressionism-met','impressionism-nga','impressionism-marmottan'])addEssay(id,'在馆藏地继续读作品',[
  ['馆藏不是画中地点','博物馆把不同地方、不同年份的作品带到同一座城市。本图的“现藏机构”表示收藏关系，不把作品中的欧洲风景移到美国，也不据此推断画家曾到访这座馆藏城市。'],
@@ -60,7 +60,7 @@ addEssay('nc500-applecross','山口之后，海湾之前',[
 ],['nc500-inverness']);
 let detailReturnFocus=null;
 function rememberDetailFocus(){if(!selected||document.querySelector('#detail').hidden){const a=document.activeElement;if(a&&!document.querySelector('#detail').contains(a))detailReturnFocus=a}}
-function relatedArtHTML(p){const works=artWorks.filter(w=>w.placeId===p.id||w.museumId===p.id);if(!works.length)return '';return `<details class="reading-works" ${works.length<4?'open':''}><summary>相关作品 <span>${works.length} 幅</span></summary><div>${works.map(work=>`<div class="reading-work"><button data-read-image="${work.key}" aria-label="查看《${work.title}》完整画作">${mediaImage(work.key,'loading="lazy"')}</button><div><strong>${work.title}</strong><small>${work.artist}，${work.year}</small><p>描绘地：${work.subject}<br>现藏：${work.collection}</p><button data-art-place="${work.key}">画中地点</button><button data-art-museum="${work.key}">馆藏地</button></div></div>`).join('')}</div></details>`}
+function relatedArtHTML(p){const works=artWorks.filter(w=>w.placeId===p.id||w.museumId===p.id);if(!works.length)return '';return `<details class="reading-works" ${works.length<4?'open':''}><summary>相关作品 <span>${works.length} 幅</span></summary><div>${works.map(work=>`<div class="reading-work"><button data-read-image="${work.key}" aria-label="查看《${work.title}》完整画作">${mediaImage(work.key,'loading="lazy"')}</button><div><strong>${work.title}</strong><small>${work.artist}，${work.year}</small><p>${work.locationLabel||'描绘地'}：${work.subject}<br>现藏：${work.collection}</p><button data-art-place="${work.key}">${work.locationLabel?'关联地点':'画中地点'}</button><button data-art-museum="${work.key}">馆藏地</button></div></div>`).join('')}</div></details>`}
 function meaningfulFacts(p){return Object.entries(p.facts||{}).filter(([key,value])=>value&&!['阅读提示'].includes(key)&&![p.type,p.region,p.country].includes(value))}
 function placeFactsHTML(p){const facts=meaningfulFacts(p);return facts.length?`<details class="reading-facts"><summary>地点资料</summary><dl class="facts">${facts.map(([k,v])=>`<div><dt>${escapeHTML(k)}</dt><dd>${escapeHTML(v)}</dd></div>`).join('')}</dl>${p.weather?'<p>'+escapeHTML(p.weather)+'</p>':''}</details>`:''}
 let readingPlans=null;
