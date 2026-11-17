@@ -57,7 +57,19 @@ for(const definition of culturalMapDefinitions){
   }
  }
 }
-// Keep established multi-plan editions as first-class maps.
+// A source map may leave the default catalogue only after *every* source
+// context has a discoverable home. A name-only search or a valid old URL is
+// insufficient: regional selections deliberately omit some distant places.
+function culturalSourceCoverage(id){
+ const nodes=places.filter(p=>p.themes.includes(id));
+ const maps=[...culturalThemeMaps.values()].filter(d=>culturalMapMembers(d).some(m=>m.id===id));
+ return nodes.map(place=>({place,maps:maps.filter(d=>culturalMapMembers(d).some(m=>m.id===id&&culturalMemberPlaces(m).includes(place))).map(d=>d.id)}));
+}
+for(const source of culturalAtlasPack.themes){
+ const theme=themes.find(t=>t.id===source.id);
+ if(theme.catalogHidden&&culturalSourceCoverage(source.id).some(row=>!row.maps.length))theme.catalogHidden=false;
+}
+// Keep the established edition until the short-theme review is complete.
 themes.find(t=>t.id==='gaudi').catalogHidden=false;
 // The rejected Xiangxi + Northeast merge becomes two independent, useful maps.
 for(const [id,name,intro,months,days] of [
