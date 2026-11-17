@@ -42,9 +42,15 @@
    assert.equal(await page.evaluate(()=>activePlan),null,'overview starts without invented route');
    const metadata=await page.evaluate(id=>({nodes:places.filter(p=>p.themes.includes(id)).length,plans:buildPlans(id,0).map(p=>p.id)}),id);
    assert.ok(metadata.nodes>=8);assert.ok(metadata.plans.length>=3);
-   await page.evaluate(()=>switchPanel('plans',false));
-   const planId=metadata.plans[0];await page.evaluate(id=>openPlan(buildPlans(themes[activeTheme].id,0).find(p=>p.id===id)),planId);
-   await page.waitForFunction(id=>activePlan?.id===id,planId);
+   await page.locator('#tab-plans').click();
+   await page.locator('#travel-month').selectOption('7');
+   if(id==='nz-great-walks')assert.equal(await page.locator('.plan-card .season-other').count(),3,'southern walks disclose July outside priority window');
+   await page.locator('#travel-days').selectOption('3');
+   assert.equal(await page.locator('.plan-card').count(),id==='canadian-rockies'?2:id==='nz-great-walks'?1:5,'day budget filters actual routes');
+   await page.locator('#travel-days').selectOption('0');await page.locator('#travel-month').selectOption('0');
+   await page.locator('.plan-actions [data-action="preview"]').first().click();
+   await page.waitForFunction(()=>activePlan!==null);
+   assert.ok(metadata.plans.includes(await page.evaluate(()=>activePlan.id)));
    await page.locator('.route-stops button').first().click();
    await page.waitForFunction(()=>selected!==null&&camera===null);
    assert.ok(await page.locator('#detail').isVisible());
@@ -70,6 +76,7 @@
   assert.ok(await page.evaluate(id=>trip.some(p=>p.id===id),place));
   await page.locator('#detail .reading-close').click();await page.locator('#back-themes').click();
   assert.equal(await page.locator('#catalog-search').inputValue(),'冰岛');
+  await page.locator('#catalog-search').fill('冰岛1号');
   await page.locator('[data-catalog-view="themes"]').click();
   assert.equal(await page.locator('.theme-card,.catalog-itinerary').count(),0);
   assert.equal(await page.locator('.discovery-empty [data-catalog-view="routes"]').count(),1);
