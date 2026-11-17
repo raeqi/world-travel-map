@@ -1,14 +1,14 @@
-name: Cultural atlas and collection browser checks
+name: Cultural theme maps browser checks
 on:
   pull_request:
     branches: [main]
     paths:
       - 'cultural-atlas*.js'
-      - 'cultural-collections*'
+      - 'cultural-theme-maps*'
       - 'discovery.js'
       - 'flow.js'
       - 'app.js'
-      - 'scripts/check-cultural-collections.cjs'
+      - 'scripts/check-cultural-theme-maps.cjs'
       - 'data/cultural-expansion/live-atlas.json'
       - 'assets/cultural-atlas/**'
       - 'scripts/check-cultural-atlas-browser.cjs'
@@ -29,10 +29,10 @@ jobs:
       - run: |
           npm install --no-save --package-lock=false playwright
           npx playwright install --with-deps chromium
-      - name: Open all 76 cultural themes on desktop and mobile
+      - name: Check cultural maps, regional plans and retained person links
         run: |
           python3 -m http.server 8000 --bind 127.0.0.1 >/tmp/cultural-atlas-server.log 2>&1 &
-          node scripts/check-cultural-collections.cjs
+          node scripts/check-cultural-theme-maps.cjs
           node scripts/check-cultural-atlas-browser.cjs
       - uses: actions/upload-artifact@v4
         if: always()
@@ -40,6 +40,6 @@ jobs:
           name: cultural-atlas-browser
           path: |
             qa/cultural-atlas-browser/
-            qa/cultural-collections-browser/
+            qa/cultural-theme-maps/
             /tmp/cultural-atlas-server.log
           retention-days: 14

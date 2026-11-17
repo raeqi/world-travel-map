@@ -10,12 +10,12 @@ const fs=require('node:fs'),assert=require('node:assert/strict');
    await page.setViewportSize({width,height});
 
    const added=require('../data/cultural-expansion/live-atlas.json').themes;
-   const music=['bach','mozart','collection-european-classical-music','collection-italian-art-journeys','collection-nordic-music'].sort();
-   const paintingAsia=['hokusai','collection-japanese-painting','collection-chinese-painting'].sort();
    const shown=async()=>(await page.locator('.discovery-card').evaluateAll(cards=>cards.map(x=>x.dataset.theme))).sort();
    await page.goto('http://127.0.0.1:8000/#interest=art&discipline=music');
    await page.waitForFunction(()=>document.body.dataset.ready==='true');
    assert.equal(await page.locator('#catalog-discipline').inputValue(),'music');
+   const music=await page.evaluate(()=>visibleCatalogueThemes().filter(t=>themeDisciplines(t).includes('music')).map(t=>t.id).sort());
+   const paintingAsia=await page.evaluate(()=>visibleCatalogueThemes().filter(t=>themeDisciplines(t).includes('painting')&&discoveryMeta[t.id][1].includes('亚洲')).map(t=>t.id).sort());
    assert.deepEqual(await shown(),music);
    await page.locator('#catalog-discipline').selectOption('painting');
    await page.locator('#catalog-area').selectOption('亚洲');

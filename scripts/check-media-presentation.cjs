@@ -14,7 +14,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/media-presenta
   for(const id of ids){await theme(id);const result=await page.evaluate(()=>{const hero=document.querySelector('#theme-hero'),keys=editionCoverKeys(themes[activeTheme].id);return {keys,buttons:[...hero.querySelectorAll('[data-read-image]')].map(b=>b.dataset.readImage),credits:[...document.querySelectorAll('#theme-reading [data-credit-key]')].map(e=>e.dataset.creditKey),nested:hero.querySelectorAll('button button').length,images:[...hero.querySelectorAll('img')].every(i=>!!i.closest('button[data-read-image]'))}});assert.deepEqual([...new Set(result.buttons)].sort(),result.keys.slice().sort(),id);assert.deepEqual(result.credits.sort(),result.keys.slice().sort(),id);assert.equal(result.nested,0);assert.equal(result.images,true)}
   for(const device of [{name:'desktop',width:1440,height:1000},{name:'mobile',width:390,height:844}]){
    await page.setViewportSize(device);
-   for(const id of ['vangogh','impressionism','nakasendo','viking','mozart','parks','xu','collection-modern-architecture']){
+   for(const id of ['vangogh','impressionism','nakasendo','viking','mozart','parks','xu','modern-architecture']){
     await theme(id);const button=page.locator('#theme-hero [data-read-image]').first();await button.scrollIntoViewIfNeeded();
     await page.locator('#theme-hero img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
     const layout=await button.evaluate(b=>{const c=getComputedStyle(b),r=b.getBoundingClientRect();return {position:c.position,bg:c.backgroundColor,width:r.width,height:r.height,label:b.getAttribute('aria-label'),popup:b.getAttribute('aria-haspopup')}});
@@ -26,12 +26,12 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/media-presenta
     const key=await button.getAttribute('data-read-image');await button.focus();await page.keyboard.press('Enter');await page.locator('#image-room').waitFor({state:'visible'});
     assert.equal(await page.locator('#image-room img').getAttribute('src'),await page.evaluate(key=>photoPath(key),key));
     const expected=await page.evaluate(key=>photoLibrary[key],key);assert.ok((await page.locator('#image-room .room-credit').innerText()).includes(expected.author));assert.ok((await page.locator('#image-room .room-credit').innerText()).includes(expected.license));
-    await axe('#image-room');await page.keyboard.press('Escape');await page.locator('#image-room').waitFor({state:'hidden'});assert.equal(await button.evaluate(b=>document.activeElement===b),true);
-    await page.keyboard.press('Space');await page.locator('#image-room').waitFor({state:'visible'});await page.locator('#image-room .room-close').click();await page.locator('#image-room').waitFor({state:'hidden'});assert.equal(await button.evaluate(b=>document.activeElement===b),true);
-    const summary=page.locator('#theme-reading .media-source summary');await summary.focus();await page.keyboard.press('Enter');assert.equal(await page.locator('#theme-reading .media-source').getAttribute('open'),'');
+    await axe('#image-room');await page.keyboard.press('Escape');await page.locator('#image-room').waitFor({state:'hidden'});await page.waitForFunction(()=>imageRoomReturnFocus===null);assert.equal(await button.evaluate(b=>document.activeElement===b),true);
+    await page.keyboard.press('Space');await page.locator('#image-room').waitFor({state:'visible'});await page.locator('#image-room .room-close').click();await page.locator('#image-room').waitFor({state:'hidden'});await page.waitForFunction(()=>imageRoomReturnFocus===null);assert.equal(await button.evaluate(b=>document.activeElement===b),true);
+    const summary=page.locator('#theme-reading .media-source summary');await summary.focus();assert.ok(await summary.evaluate(el=>document.activeElement===el),id+' source summary focus');await summary.press('Enter');await page.waitForFunction(()=>document.querySelector('#theme-reading .media-source').open);
     for(const creditKey of await page.evaluate(()=>editionCoverKeys(themes[activeTheme].id))){const m=await page.evaluate(k=>photoLibrary[k],creditKey),links=page.locator('#theme-reading [data-source-key="'+creditKey+'"] a');assert.equal(await links.nth(0).getAttribute('href'),m.source);assert.equal(await links.nth(1).getAttribute('href'),m.licenseUrl);}
     await overflow(id+' credits');if(id==='vangogh')await page.screenshot({path:out+'/'+device.name+'-vangogh-sources.png'});
-    await summary.click();
+    await summary.click();await page.waitForFunction(()=>!document.querySelector('#theme-reading .media-source').open);
     const secondary=page.locator('#theme-hero .secondary-image-open');if(await secondary.count()){const sk=await secondary.first().getAttribute('data-read-image');await secondary.first().click();assert.equal(await page.locator('#image-room img').getAttribute('src'),await page.evaluate(k=>photoPath(k),sk));await page.keyboard.press('Escape');}
    }
    // A place photograph uses the same full-image control and local credit caption.

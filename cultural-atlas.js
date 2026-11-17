@@ -6,7 +6,7 @@ const atlasColors={painting:['#586c78','#e6ebed','#dedfda','gallery'],music:['#7
 Object.assign(photoLibrary,culturalAtlasMedia);
 const atlasContextByPlace=new Map(),atlasThemePlaceIds=new Map();
 function atlasActiveId(){try{return typeof activeTheme==='number'?themes[activeTheme]?.id:null}catch{return null}}
-function atlasCurrentContext(record){const direct=record.contexts.get(atlasActiveId());if(direct)return direct;const contexts=typeof collectionContexts==='function'?collectionContexts(record,atlasActiveId()):[];if(contexts.length===1)return contexts[0];if(contexts.length)return {...contexts[0],themeName:contexts.map(c=>c.themeName).join(' / '),summary:contexts.map(c=>c.themeName+'：'+c.summary).join(' '),observe:contexts.map(c=>c.themeName+'：'+c.observe).join(' ')};}
+function atlasCurrentContext(record){const direct=record.contexts.get(atlasActiveId());if(direct)return direct;const contexts=typeof culturalMapContexts==='function'?culturalMapContexts(record,atlasActiveId()):[];if(contexts.length===1)return contexts[0];if(contexts.length)return {...contexts[0],themeName:contexts.map(c=>c.themeName).join(' / '),summary:contexts.map(c=>c.themeName+'：'+c.summary).join(' '),observe:contexts.map(c=>c.themeName+'：'+c.observe).join(' ')};}
 function atlasContext(placeId){const record=atlasContextByPlace.get(placeId);return record&&atlasCurrentContext(record)||record?.contexts.values().next().value}
 function atlasNormalizedName(value){return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9\u3400-\u9fff]+/g,'')}
 function atlasSharedPlace(stop){
@@ -38,9 +38,9 @@ for(const [id,record] of atlasContextByPlace){
  Object.defineProperty(record.place,'sourceLabel',{enumerable:true,configurable:true,get(){return current()?'人物、作品与地点资料':base.sourceLabel}});
  Object.defineProperty(record.place,'facts',{enumerable:true,configurable:true,get(){const c=current();return c?{'地点关系':atlasRelationNames[c.relation],'现场观察':c.observe}:base.facts}});
  Object.defineProperty(placeEssays,id,{enumerable:true,configurable:true,get(){
-  const contexts=typeof collectionContexts==='function'?collectionContexts(record,atlasActiveId()):[];if(contexts.length>1)return {title:'人物与地方 · 多重关系',paragraphs:contexts.map(c=>({heading:c.themeName,text:c.summary+' '+c.observe})),sources:contexts.map(c=>({title:c.themeName+' · 机构资料',url:c.source})),related:[]};
+  const contexts=typeof culturalMapContexts==='function'?culturalMapContexts(record,atlasActiveId()):[];if(contexts.length>1)return {title:'人物与地方 · 多重关系',paragraphs:contexts.map(c=>({heading:c.themeName,text:c.summary+' '+c.observe})),sources:contexts.map(c=>({title:c.themeName+' · 机构资料',url:c.source})),related:(atlasThemePlaceIds.get(atlasActiveId())||[]).filter(x=>x!==id).slice(0,4)};
   const c=current()||(!base.essay?record.contexts.values().next().value:null);if(!c)return base.essay||{title:'人物与地方',paragraphs:[...record.contexts.values()].map(x=>({heading:x.themeName,text:x.summary+' '+x.observe})),sources:[...record.contexts.values()].map(x=>({title:x.themeName+' · 机构资料',url:x.source})),related:[]};
-  return {title:c.themeName,paragraphs:[{heading:'到现场看什么',text:c.themeName+'：'+c.observe},{heading:'与其他地点怎样对读',text:culturalAtlasPack.themes.find(t=>t.id===atlasActiveId())?.focus||c.summary}],sources:[{title:'人物、作品与地点资料',url:c.source}],related:(atlasThemePlaceIds.get(atlasActiveId())||[]).filter(x=>x!==id).slice(0,4)};
+  return {title:c.themeName,paragraphs:[{heading:'到现场看什么',text:c.themeName+'：'+c.observe},{heading:'与其他地点怎样对读',text:culturalAtlasPack.themes.find(t=>t.id===atlasActiveId())?.focus||themes.find(t=>t.id===atlasActiveId())?.introduction||c.summary}],sources:[{title:'人物、作品与地点资料',url:c.source}],related:(atlasThemePlaceIds.get(atlasActiveId())||[]).filter(x=>x!==id).slice(0,4)};
  }});
 }
 for(const t of culturalAtlasPack.themes){

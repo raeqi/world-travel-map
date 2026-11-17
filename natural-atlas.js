@@ -1098,7 +1098,7 @@ for(const stop of naturalAtlasPack.points){
  placeEssays[id]={title:'在自然现场看什么',paragraphs:[{heading:'地形与观看',text:stop.reading},{heading:'怎样抵达',text:stop.access}],sources:[source,...(stop.geoSource?[{title:'代表点坐标 · '+(stop.geoSource.includes('openstreetmap')?'© OpenStreetMap contributors · ODbL':'地点地理资料'),url:stop.geoSource}]:[])],related:[]};
 }
 for(const definition of naturalAtlasPack.themes){
- const nodes=places.filter(p=>p.themes.includes(definition.id)),first=themes.find(t=>t.id==='nature'),view=culturalCollectionView(nodes);
+ const nodes=places.filter(p=>p.themes.includes(definition.id)),first=themes.find(t=>t.id==='nature'),view=culturalMapView(nodes,60);
  themes.push({id:definition.id,name:definition.name,title:definition.title,story:definition.story,introduction:definition.intro,scope:definition.scope,filters:[...new Set(nodes.map(p=>p.type))],fields:['所在分区','访问方式'],view,maxZoom:1200,localDetail:true,symbol:'circle',colors:{...first.colors}});
  themeMedia[definition.id]={photo:definition.photo,en:definition.en,edition:definition.name,motif:definition.story,symbol:'◇'};
  themeDesigns[definition.id]={...themeDesigns.nature,lens:definition.scope,note:definition.intro,line:'先选独立行程；连线仅表示节点顺序'};
