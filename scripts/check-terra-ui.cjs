@@ -31,6 +31,7 @@ const origin=process.env.SITE_URL||'http://127.0.0.1:8000';
   await noOverflow(name);
   await page.screenshot({path:path.join(output,name+'.jpg'),type:'jpeg',quality:82,fullPage});
   captures.push(name+'.jpg');
+  if(process.env.INLINE_SCREENSHOTS==='1'&&name==='desktop-home')console.log('TERRA_PREVIEW_DESKTOP:'+((await page.screenshot({type:'jpeg',quality:60})).toString('base64')));
  }
  try{
   await page.goto(origin,{waitUntil:'load'});await ready();
@@ -95,6 +96,7 @@ const origin=process.env.SITE_URL||'http://127.0.0.1:8000';
    assert.ok(size.width<=size.viewport+1,name+' overflows: '+JSON.stringify(size));
    await mobilePage.screenshot({path:path.join(output,name+'.jpg'),type:'jpeg',quality:82,fullPage:name==='mobile-home'});
    captures.push(name+'.jpg');
+   if(process.env.INLINE_SCREENSHOTS==='1'&&name==='mobile-home')console.log('TERRA_PREVIEW_MOBILE:'+((await mobilePage.screenshot({type:'jpeg',quality:60})).toString('base64')));
   }
   await mobileCapture('mobile-home');
   await mobilePage.locator('.theme-card[data-theme="impressionism"]').click();

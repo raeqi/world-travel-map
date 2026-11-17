@@ -45,6 +45,8 @@ jobs:
           cat /tmp/terra-http.log
           exit 1
       - name: Check desktop and mobile UI
+        env:
+          INLINE_SCREENSHOTS: '1'
         run: node scripts/check-terra-ui.cjs
       - name: Upload real browser screenshots
         if: always()
