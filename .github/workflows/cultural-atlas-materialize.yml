@@ -1,0 +1,36 @@
+name: Materialize cultural atlas media
+on:
+  push:
+    branches: [content/cultural-atlas-live]
+    paths:
+      - 'data/cultural-expansion/live-atlas.json'
+      - 'scripts/fetch-cultural-atlas.py'
+      - '.github/workflows/cultural-atlas-materialize.yml'
+permissions:
+  contents: write
+concurrency:
+  group: cultural-atlas-assets
+  cancel-in-progress: false
+jobs:
+  assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/cultural-atlas-live
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow
+      - name: Download exact-place freely licensed media
+        run: python scripts/fetch-cultural-atlas.py
+      - name: Commit materialized assets on the working branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/cultural-atlas cultural-atlas-data.js cultural-atlas-media.js
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Materialize cultural atlas images with source and licence records"
+          git pull --rebase origin content/cultural-atlas-live
+          git push origin HEAD:content/cultural-atlas-live
