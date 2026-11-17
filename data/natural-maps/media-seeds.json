@@ -1,0 +1,191 @@
+[
+  {
+    "id": "louise",
+    "name": "路易斯湖",
+    "wiki": "Lake Louise (Alberta)",
+    "caption": "路易斯湖 · 从蜂巢山俯瞰（2019）"
+  },
+  {
+    "id": "moraine",
+    "name": "梦莲湖",
+    "wiki": "Moraine Lake",
+    "caption": "梦莲湖与十峰山谷（2005）"
+  },
+  {
+    "id": "bow",
+    "name": "弓湖",
+    "wiki": "Bow Lake (Alberta)",
+    "file": "Bow Lake in Banff National Park.jpg",
+    "caption": "弓湖 · 湖岸步道起点（2015）"
+  },
+  {
+    "id": "peyto",
+    "name": "佩投湖",
+    "wiki": "Peyto Lake",
+    "caption": "佩投湖 · 从 Bow Summit 眺望"
+  },
+  {
+    "id": "athabasca-glacier",
+    "name": "阿萨巴斯卡冰川",
+    "wiki": "Athabasca Glacier",
+    "caption": "阿萨巴斯卡冰川 · 从谷地观看冰舌"
+  },
+  {
+    "id": "sunwapta",
+    "name": "桑瓦普塔瀑布",
+    "wiki": "Sunwapta Falls",
+    "caption": "桑瓦普塔瀑布"
+  },
+  {
+    "id": "athabasca-falls",
+    "name": "阿萨巴斯卡瀑布",
+    "wiki": "Athabasca Falls",
+    "caption": "阿萨巴斯卡瀑布 · 积雪时的峡谷"
+  },
+  {
+    "id": "jasper",
+    "name": "贾斯珀",
+    "wiki": "Jasper, Alberta",
+    "caption": "贾斯珀镇 · 从缆车方向俯瞰（2008）"
+  },
+  {
+    "id": "mackinnon-pass",
+    "name": "麦金农山口",
+    "wiki": "Mackinnon Pass",
+    "caption": "麦金农山口 · Milford 步道沿线实景"
+  },
+  {
+    "id": "clinton-hut",
+    "name": "克林顿山屋",
+    "search": "Clinton Hut",
+    "nztm": [
+      1198035,
+      5014888
+    ],
+    "caption": "克林顿山屋周边 · 河谷与停机坪"
+  },
+  {
+    "id": "dumpling-hut",
+    "name": "丹普林山屋",
+    "search": "Dumpling Hut",
+    "nztm": [
+      1185692,
+      5029394
+    ],
+    "caption": "丹普林山屋 · 生活空间"
+  },
+  {
+    "id": "routeburn-falls",
+    "name": "鲁特本瀑布山屋",
+    "search": "Routeburn Falls Hut",
+    "nztm": [
+      1219841,
+      5036327
+    ],
+    "file": "RouteburnFallsHut.jpg",
+    "caption": "鲁特本瀑布山屋（1999 年影像）"
+  },
+  {
+    "id": "lake-mackenzie",
+    "name": "麦肯齐湖",
+    "wiki": "Lake Mackenzie",
+    "caption": "麦肯齐湖 · 从山屋望向湖岸"
+  },
+  {
+    "id": "luxmore",
+    "name": "勒克斯莫尔山屋",
+    "search": "Luxmore Hut",
+    "nztm": [
+      1178767,
+      4960153
+    ],
+    "refresh": true
+  },
+  {
+    "id": "iris-burn",
+    "name": "艾里斯伯恩山屋",
+    "search": "Iris Burn Hut",
+    "caption": "艾里斯伯恩山屋与林地"
+  },
+  {
+    "id": "moturau",
+    "name": "莫图劳山屋",
+    "search": "Moturau Hut",
+    "nztm": [
+      1178760,
+      4949343
+    ],
+    "skipImage": true
+  },
+  {
+    "id": "calafate",
+    "name": "埃尔卡拉法特",
+    "wiki": "El Calafate"
+  },
+  {
+    "id": "moreno",
+    "name": "佩里托莫雷诺冰川",
+    "wiki": "Perito Moreno Glacier",
+    "caption": "佩里托莫雷诺冰川 · 冰舌前缘（2023）"
+  },
+  {
+    "id": "capri",
+    "name": "卡普里湖",
+    "wiki": "Laguna Capri",
+    "caption": "卡普里湖与菲茨罗伊山群"
+  },
+  {
+    "id": "poincenot",
+    "name": "波因塞诺特营地",
+    "search": "Poincenot camp",
+    "skipImage": true
+  },
+  {
+    "id": "los-tres",
+    "name": "三峰湖",
+    "wiki": "Laguna de los Tres",
+    "caption": "三峰湖与冰川山壁"
+  },
+  {
+    "id": "torre",
+    "name": "托雷湖",
+    "wiki": "Laguna Torre",
+    "caption": "托雷湖、冰川与花岗岩峰"
+  },
+  {
+    "id": "torres-base",
+    "name": "百内三塔湖",
+    "search": "Base Torres",
+    "caption": "百内三塔 · 山脚冰碛湖"
+  },
+  {
+    "id": "chileno",
+    "name": "奇莱诺营地",
+    "search": "Refugio Chileno",
+    "caption": "奇莱诺山屋与营地区域"
+  },
+  {
+    "id": "salto-grande",
+    "name": "萨尔托格兰德瀑布",
+    "wiki": "Salto Grande, Chile",
+    "caption": "萨尔托格兰德瀑布"
+  },
+  {
+    "id": "pehoe",
+    "name": "佩奥埃湖",
+    "wiki": "Pehoé Lake",
+    "caption": "佩奥埃湖与百内山群"
+  },
+  {
+    "id": "glade-wharf",
+    "name": "Glade Wharf",
+    "file": "Glade Wharf - 2013.04 - panoramio.jpg",
+    "caption": "Glade Wharf · Milford 步道的湖上抵达点（2013）"
+  },
+  {
+    "id": "sandfly-point",
+    "name": "Sandfly Point",
+    "file": "Abandoned Hiking Boots At Milford Track End.jpg",
+    "caption": "Sandfly Point · Milford 步道终点标牌与旧登山靴"
+  }
+]

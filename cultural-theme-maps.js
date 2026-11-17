@@ -10,11 +10,11 @@ function culturalMapContexts(record,id){
  const map=culturalThemeMaps.get(id);
  return map?culturalMapMembers(map).filter(m=>culturalMemberPlaces(m).includes(record.place)).map(m=>record.contexts.get(m.id)).filter(Boolean):[];
 }
-function culturalMapView(nodes){
+function culturalMapView(nodes,maxZoom=4000){
  const reference=nodes[0].lon,lons=nodes.map(p=>reference+((p.lon-reference+540)%360)-180),lats=nodes.map(p=>p.lat);
  const lon=((Math.min(...lons)+Math.max(...lons))/2+540)%360-180,lat=(Math.min(...lats)+Math.max(...lats))/2;
  const radius=Math.max(1,...nodes.map(p=>distanceKm({lon,lat},p)));
- return {lon,lat,zoom:Math.max(.8,Math.min(4000,.72/Math.sin(Math.min(Math.PI/2,radius/6371))))};
+ return {lon,lat,zoom:Math.max(.8,Math.min(maxZoom,.72/Math.sin(Math.min(Math.PI/2,radius/6371))))};
 }
 function culturalPlaceRef(ref){return places.find(p=>p.id===ref)||[...atlasContextByPlace.values()].find(r=>[...r.contexts.values()].some(c=>c.key===ref))?.place}
 // The existing full-width Hiroshige image has a verified creator and licence,
