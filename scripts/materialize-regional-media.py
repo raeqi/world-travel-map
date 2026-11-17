@@ -18,14 +18,14 @@ existing=json.loads((OUT/'sources.json').read_text()) if (OUT/'sources.json').ex
 media={};pending={}
 for row in PACK['points']:
  key=row['id'];wiki=row.get('wiki')
- if key in existing and (ROOT/existing[key]['path']).exists():media[key]=existing[key];continue
+ if key in existing and (ROOT/existing[key]['path']).exists() and (not row.get('mediaFile') or urllib.parse.unquote(existing[key]['source'].split('File:')[-1]).replace('_',' ')==row['mediaFile'].replace('_',' ')):media[key]=existing[key];continue
  if not wiki:pending[key]='No cleared image; retain sourced text without borrowing another location';continue
  try:
-  page=next(iter(api('en.wikipedia.org',{'action':'query','prop':'pageimages','titles':wiki,'piprop':'name','redirects':1})['query']['pages'].values()));file=page.get('pageimage')
-  if not file or any(t in file.lower() for t in ['logo','signature','map.svg','coat of arms','flag of']):raise ValueError('No suitable exact-place lead photograph')
+  page=next(iter(api('en.wikipedia.org',{'action':'query','prop':'pageimages','titles':wiki,'piprop':'name','redirects':1})['query']['pages'].values()));file=row.get('mediaFile') or page.get('pageimage')
+  if not file or any(t in file.lower() for t in ['logo','signature','map.svg','coat of arms','flag of','localitzaci','portrait']):raise ValueError('No suitable exact-place lead photograph')
   raw=api('commons.wikimedia.org',{'action':'query','prop':'imageinfo','titles':'File:'+file,'iiprop':'url|size|extmetadata','iiurlwidth':1440})
   info=next(iter(raw['query']['pages'].values()))['imageinfo'][0];meta=info['extmetadata'];license=clean(meta.get('LicenseShortName',{}).get('value',''))
-  if not re.match(r'^(Public domain|CC0|CC BY(?:-SA)? (?:[1-4]\.0|2\.5)(?: [a-z]{2})?|CC-BY(?:-SA)?-[1-4]\.0)$',license):raise ValueError('Unreviewed licence '+license)
+  if not re.match(r'^(Public domain|CC0|CC BY(?:-SA)? (?:[1-4]\.0|2\.5|2\.1)(?: [a-z]{2})?|CC-BY(?:-SA)?-[1-4]\.0)$',license):raise ValueError('Unreviewed licence '+license)
   image=ImageOps.exif_transpose(Image.open(io.BytesIO(get(info.get('thumburl') or info['url'])))).convert('RGB');image.thumbnail((1440,1200),Image.Resampling.LANCZOS)
   if min(image.size)<200:raise ValueError('Image too small')
   path=OUT/(key+'.webp');image.save(path,'WEBP',quality=83,method=6)

@@ -13,7 +13,8 @@
       "desc": "圣菲的博物馆以作品、文献与生平资料展开奥姬芙的艺术。它与阿比丘住居、幽灵牧场地景承担不同关系：馆藏地点不能反推每幅画的取景位置。",
       "observe": "先辨认画面中的轮廓、负空间和尺度，再到阿比丘与牧场分别观察；不承诺某件作品当前展出。",
       "source": "https://www.okeeffemuseum.org/visit/",
-      "wiki": "Georgia O'Keeffe Museum"
+      "wiki": "Georgia O'Keeffe Museum",
+      "mediaFile": "Georgia O'Keeffe Museum, Santa Fe NM.jpg"
     },
     {
       "id": "regional-ansel-gallery",
@@ -27,7 +28,8 @@
       "desc": "画廊位于优胜美地村，是认识亚当斯摄影、印相与山谷观看方式的具体入口。它不是所有照片的拍摄地点，也不把展陈作品当作窗外的同一视角。",
       "observe": "先阅读照片的构图与印相信息，再比较山谷和冰川点的真实地形；冰川点道路与天气单独确认。",
       "source": "https://www.anseladams.com/pages/yosemite-about-the-gallery",
-      "wiki": "Ansel Adams Gallery"
+      "wiki": "Ansel Adams Gallery",
+      "mediaFile": "Ansel Adams Gallery.jpeg"
     },
     {
       "id": "regional-asu-skyspace",
@@ -83,7 +85,8 @@
       "desc": "铃木大拙馆以文献、学习和自我省思认识这位出生于金泽的佛教思想家。与21世纪美术馆对读时，重点是空间如何使人停留、阅读和感受环境，不将哲学家与特瑞尔的创作混为一谈。",
       "observe": "分别阅读资料区与沉思空间，观察庭园、水面和建筑的界面；馆内行为及开放以机构安排为准。",
       "source": "https://www.kanazawa-museum.jp/daisetz/english/about.html",
-      "wiki": "D. T. Suzuki Museum"
+      "wiki": "D. T. Suzuki Museum",
+      "mediaFile": "D.T.Suzuki Museum 02.jpg"
     },
     {
       "id": "regional-casa-mila",
@@ -111,7 +114,8 @@
       "desc": "克雷乌斯角的岩岸与海岬为认识卡达克斯、波特利加特周边的地中海环境提供真实地景。这里不把某一块岩石直接认定为达利某幅画的唯一原型。",
       "observe": "按自然公园允许路线观察风、岩层和海岸线；强风、火险与车辆准入可能限制访问，需使用公园资料，不按地图直线越野。",
       "source": "https://www.spain.info/en/nature/cap-creus-natural-park/",
-      "wiki": "Cap de Creus"
+      "wiki": "Cap de Creus",
+      "mediaFile": "Far de cap de Creus.jpg"
     },
     {
       "id": "regional-valencia-fine-arts",
