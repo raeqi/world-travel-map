@@ -22,7 +22,7 @@ function culturalPlaceRef(ref){return places.find(p=>p.id===ref)||[...atlasConte
 artWorks.push({key:'atlas-yui',theme:'hiroshige',title:'东海道五十三次 · 由井 薩埵嶺',original:'Tōkaidō Gojūsan-tsugi: Yui, Satta Pass',artist:'歌川广重',year:'约1833–1834',placeId:culturalPlaceRef('yui').id,subject:'由比与萨埵岭一带',context:'广重以近处山坡、旅人、海湾和远处富士形成层层展开的风景，可与北斋《骏州江尻》的风势与留白对读。地图按由比区域定位，图片是历史版画。Commons文件页没有确立图示摺本的现藏机构，不把它归入由比美术馆或其他馆藏。',museumId:null,collection:'图示摺本的现藏机构尚未核实',record:'https://commons.wikimedia.org/wiki/File:Tokaido16_Yui.jpg',recordLabel:'图像文件与版本资料'});
 // Independent maps are visible again when no strong regional/story connection
 // justifies a merge (e.g. Hulan and Xiangxi, or Finland and Bergen).
-for(const source of culturalAtlasPack.themes)themes.find(t=>t.id===source.id).catalogHidden=false;
+for(const source of culturalAtlasPack.themes){const t=themes.find(t=>t.id===source.id);Object.assign(t,{catalogHidden:false,maxZoom:4000,view:culturalMapView(places.filter(p=>p.themes.includes(source.id)))});}
 for(const definition of culturalMapDefinitions){
  const members=culturalMapMembers(definition),nodes=[...new Set(members.flatMap(culturalMemberPlaces))],sources=members.map(m=>themes.find(t=>t.id===m.id));
  if(!nodes.length||sources.some(t=>!t))throw Error('Invalid cultural map '+definition.id);
