@@ -1,0 +1,3926 @@
+{
+  "schemaVersion": 1,
+  "title": "文化地图扩充总目录",
+  "updatedOn": "2026-11-17",
+  "status": "planning-only-not-live-routes",
+  "scope": {
+    "newlyDiscussed": 76,
+    "previousBatch": 4,
+    "discussionTotal": 80
+  },
+  "baseline": {
+    "branch": "main",
+    "commit": "78154a1fb7d30aa8d57bae219e771bb979286f34"
+  },
+  "policies": {
+    "noFakeCompletion": true,
+    "noPlaceholderThemes": true,
+    "noRuntimeRegistration": true,
+    "allSourceLinksAreResearchEntrypoints": true,
+    "pointCoordinatesRequireReview": true,
+    "sharedPlacesMustReuseStableIds": true,
+    "collectionsDoNotImplyDepiction": true,
+    "noBundledAudioByDefault": true
+  },
+  "existingBatch": {
+    "pullRequest": 4,
+    "url": "https://github.com/raeqi/world-travel-map/pull/4",
+    "status": "integration-in-review",
+    "themeIds": [
+      "hokusai",
+      "vermeer",
+      "bach",
+      "austen"
+    ]
+  },
+  "entries": [
+    {
+      "id": "turner",
+      "name": "透纳的意大利旅行",
+      "discipline": "painting",
+      "kind": "documented-journey",
+      "countries": [
+        "意大利"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "意大利",
+          "label": "威尼斯",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "意大利",
+          "label": "罗马",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "意大利",
+          "label": "那不勒斯",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "以不同年份的旅行和速写本分段，对照城市、水面与完成作品；不把画室完成时间当成现场日期。",
+      "sources": [
+        {
+          "url": "https://www.tate.org.uk/art/research-publications/jmw-turner/1819-1829-italy-and-after-r1130131",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "cezanne",
+      "name": "塞尚的普罗旺斯",
+      "discipline": "painting",
+      "kind": "landscape-network",
+      "countries": [
+        "法国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "法国",
+          "label": "艾克斯",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "比贝米采石场",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "洛夫画室",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "圣维克多山相关视角",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "围绕反复观察的山体、岩石和画室组织短线，具体机位按作品与机构研究确认。",
+      "sources": [
+        {
+          "url": "https://www.cezanne-en-provence.com/les-sites-de-cezanne/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "dali",
+      "name": "达利三角",
+      "discipline": "painting",
+      "kind": "life-and-work-network",
+      "countries": [
+        "西班牙"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "西班牙",
+          "label": "菲格雷斯",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "西班牙",
+          "label": "波特利加特",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "西班牙",
+          "label": "普博尔",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "三座机构及其生活、设计与创作背景；分别核实地点开放和作品版权。",
+      "sources": [
+        {
+          "url": "https://costabrava.org/en/blog/the-dali-triangle/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "matisse",
+      "name": "马蒂斯的尼斯与旺斯",
+      "discipline": "painting",
+      "kind": "life-and-work-network",
+      "countries": [
+        "法国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "法国",
+          "label": "尼斯",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "旺斯",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "从生活、工作空间到剪纸和玫瑰经礼拜堂，不要求虚构一条固定游历顺序。",
+      "sources": [
+        {
+          "url": "https://www.musee-matisse-nice.org/fr/lartiste/matisse-et-nice/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "munch",
+      "name": "蒙克的海岸与居所",
+      "discipline": "painting",
+      "kind": "landscape-network",
+      "countries": [
+        "挪威"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "挪威",
+          "label": "奥斯高斯特兰",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "挪威",
+          "label": "埃克利",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "挪威",
+          "label": "克拉格勒",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "海岸、树林与人物题材；按不同创作阶段和具体版本关联风景。",
+      "sources": [
+        {
+          "url": "https://www.munch.no/edvard-munch/asgardstrand/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "okeeffe",
+      "name": "奥姬芙的新墨西哥",
+      "discipline": "painting",
+      "kind": "landscape-network",
+      "countries": [
+        "美国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "美国",
+          "label": "阿比丘",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "Ghost Ranch",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "佩德纳尔山相关视角",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "荒漠、岩壁、山与庭院；Ghost Ranch区域和艺术家私人房屋的开放状态分开。",
+      "sources": [
+        {
+          "url": "https://prints.okeeffemuseum.org/search/collection/abiquiu-ghost%2Branch",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "hiroshige",
+      "name": "广重的东海道",
+      "discipline": "painting",
+      "kind": "depicted-place-network",
+      "countries": [
+        "日本"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "日本",
+          "label": "日本桥",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "箱根",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "由比",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "京都",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "逐幅注明《东海道五十三次》的版本、题名和描绘地点，不能把版画证明成逐站亲访。",
+      "sources": [
+        {
+          "url": "https://tokaido-hiroshige.jp/en/outline/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "gauguin",
+      "name": "高更的跨洋迁居",
+      "discipline": "painting",
+      "kind": "life-and-work-network",
+      "countries": [
+        "法国",
+        "法属波利尼西亚"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "法国",
+          "label": "布列塔尼",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "马提尼克",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法属波利尼西亚",
+          "label": "大溪地",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "画中世界与真实地方、殖民社会背景对读，不把想象的异域等同于当地生活实录。",
+      "sources": [
+        {
+          "url": "https://www.nga.gov/stories/videos/gauguin-maker-myth-part-4",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "chagall",
+      "name": "夏加尔的故乡与南法",
+      "discipline": "painting",
+      "kind": "life-and-work-network",
+      "countries": [
+        "白俄罗斯",
+        "法国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "白俄罗斯",
+          "label": "维捷布斯克",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "尼斯",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "圣保罗德旺斯",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "故乡记忆、南法居住与公共艺术；后世纪念作品和作者原作区分。",
+      "sources": [
+        {
+          "url": "https://www.saint-pauldevence.com/en/history/celebrities/marc-chagall-vitebsk-saint-paul-de-vence/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "sorolla",
+      "name": "索罗亚的西班牙",
+      "discipline": "painting",
+      "kind": "depicted-place-network",
+      "countries": [
+        "西班牙",
+        "美国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "西班牙",
+          "label": "瓦伦西亚",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "西班牙",
+          "label": "西班牙各地域题材地点",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "西班牙",
+          "label": "马德里",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "纽约Hispanic Society馆藏",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "按《Vision of Spain》逐幅识别地域与地方活动；纽约只属馆藏，不插入西班牙游历线路。",
+      "sources": [
+        {
+          "url": "https://hispanicsociety.org/exhibition/joaquin-sorollas-vision-of-spain/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "constable",
+      "name": "康斯太勃尔乡野",
+      "discipline": "painting",
+      "kind": "landscape-network",
+      "countries": [
+        "英国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "英国",
+          "label": "弗拉特福德",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "迪德姆",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "斯陶尔河谷",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "磨坊、河道、农舍与画作对照，可参考现有步行线，但不能直接用示意连线导航。",
+      "sources": [
+        {
+          "url": "https://www.nationaltrust.org.uk/visit/suffolk/flatford/flatford-and-constable-country-walk",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "zhang-daqian",
+      "name": "张大千的游历与园林",
+      "discipline": "painting",
+      "kind": "life-and-work-network",
+      "countries": [
+        "中国",
+        "巴西",
+        "美国",
+        "中国台湾"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "四川旧居",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "敦煌",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "巴西",
+          "label": "八德园",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "旧居待定位",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国台湾",
+          "label": "台北摩耶精舍",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "分为敦煌学习、海外迁居与园林生活，故宫开放图像仍需按具体文件注明许可。",
+      "sources": [
+        {
+          "url": "https://www.npm.edu.tw/exh96/dai-chien/index.html",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "picasso",
+      "name": "毕加索的城市生活",
+      "discipline": "painting",
+      "kind": "life-and-work-network",
+      "countries": [
+        "西班牙",
+        "法国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "西班牙",
+          "label": "马拉加",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "西班牙",
+          "label": "巴塞罗那",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "巴黎",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "求学、早期生活与迁居的不同阶段，不把各地现有馆藏全当作作画现场。",
+      "sources": [
+        {
+          "url": "https://museupicassobcn.cat/en/picasso-and-barcelona/picasso-connection-with-barcelona",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "frida",
+      "name": "弗里达的墨西哥与美国",
+      "discipline": "painting",
+      "kind": "life-and-work-network",
+      "countries": [
+        "墨西哥",
+        "美国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "墨西哥",
+          "label": "墨西哥城",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "旧金山",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "底特律",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "纽约",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "按有记录的居住与旅行分期，结合具体作品和自述；蓝屋不是所有作品的创作地。",
+      "sources": [
+        {
+          "url": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2022/08/Biografias-Frida-Kahlo-ingles.pdf",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "beethoven",
+      "name": "贝多芬的居住地图",
+      "discipline": "music",
+      "kind": "life-and-work-network",
+      "countries": [
+        "德国",
+        "奥地利"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "德国",
+          "label": "波恩",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "奥地利",
+          "label": "维也纳",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "奥地利",
+          "label": "默德灵",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "奥地利",
+          "label": "巴登",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "居住、工作和郊游分层；具体作品的创作、首演和手稿收藏另立关系。",
+      "sources": [
+        {
+          "url": "https://internet.beethoven.de/pdf-sonderausstellung/Von-der-Bonngasse-ins-Schwarzspanierhaus-Brief-Guide.pdf",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "chopin",
+      "name": "肖邦与乔治·桑",
+      "discipline": "music",
+      "kind": "life-and-work-network",
+      "countries": [
+        "法国",
+        "西班牙"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "法国",
+          "label": "巴黎",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "诺昂",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "西班牙",
+          "label": "瓦尔德莫萨",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "城市生活、乡间夏居和马略卡旅居分年份呈现；不提供未授权演奏录音。",
+      "sources": [
+        {
+          "url": "https://www.chopin.pl/france.en.html",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "liszt",
+      "name": "李斯特的欧洲居所",
+      "discipline": "music",
+      "kind": "life-and-work-network",
+      "countries": [
+        "奥地利",
+        "德国",
+        "匈牙利"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "奥地利",
+          "label": "雷丁",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "德国",
+          "label": "魏玛",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "匈牙利",
+          "label": "布达佩斯",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "以故居机构和教学、居住、创作关系为基础，再补巡演分期。",
+      "sources": [
+        {
+          "url": "https://lisztmuseum.hu/liszt_houses/liszt-houses-124130",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "schumanns",
+      "name": "克拉拉与罗伯特·舒曼",
+      "discipline": "music",
+      "kind": "life-and-work-network",
+      "countries": [
+        "德国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "德国",
+          "label": "茨维考",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "德国",
+          "label": "莱比锡",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "德国",
+          "label": "德累斯顿",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "德国",
+          "label": "杜塞尔多夫",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "两人的演奏、创作和家庭生活分别建关系，避免女性艺术家变成附属注释。",
+      "sources": [
+        {
+          "url": "https://www.schumann-portal.de/initiatoren_und_Ziele.html",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "wagner",
+      "name": "瓦格纳的琉森与拜罗伊特",
+      "discipline": "music",
+      "kind": "life-and-work-network",
+      "countries": [
+        "瑞士",
+        "德国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "瑞士",
+          "label": "琉森特里布申",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "德国",
+          "label": "拜罗伊特",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "湖畔工作居所与剧院、音乐节城市比较；工作与现今演出信息分开。",
+      "sources": [
+        {
+          "url": "https://www.richard-wagner-museum.ch/en/museum/history/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "mahler",
+      "name": "马勒的作曲小屋",
+      "discipline": "music",
+      "kind": "life-and-work-network",
+      "countries": [
+        "奥地利",
+        "意大利"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "奥地利",
+          "label": "阿特湖畔施泰因巴赫",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "奥地利",
+          "label": "迈尔尼格",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "意大利",
+          "label": "多比亚科",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "以湖、森林和山地的具体创作小屋关联作品，不把自然景色说成曲目唯一解释。",
+      "sources": [
+        {
+          "url": "https://mahlerfoundation.org/toblach/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "dvorak",
+      "name": "德沃夏克的美国经历",
+      "discipline": "music",
+      "kind": "documented-journey",
+      "countries": [
+        "捷克",
+        "美国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "捷克",
+          "label": "布拉格",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "纽约",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "斯皮尔维尔",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "任职、跨洋旅行与1893年乡间停留分开，并明确相应音乐作品的关系证据。",
+      "sources": [
+        {
+          "url": "https://www.dvoraknyc.org/bio",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "sibelius",
+      "name": "西贝柳斯的芬兰",
+      "discipline": "music",
+      "kind": "life-and-work-network",
+      "countries": [
+        "芬兰"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "芬兰",
+          "label": "海门林纳",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "芬兰",
+          "label": "赫尔辛基",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "芬兰",
+          "label": "艾诺拉",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "成长、城市学习与湖区居住；家园、森林和作品的关系不能替代具体著录。",
+      "sources": [
+        {
+          "url": "https://www.ainola.fi/jean-sibeliuksen-elamanvaiheet/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "grieg",
+      "name": "格里格的卑尔根与峡湾",
+      "discipline": "music",
+      "kind": "life-and-work-network",
+      "countries": [
+        "挪威"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "挪威",
+          "label": "卑尔根",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "挪威",
+          "label": "特罗尔豪根",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "挪威",
+          "label": "洛夫特胡斯",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "庭园小屋与峡湾停留对读，演出日程和住宅修缮状态另查。",
+      "sources": [
+        {
+          "url": "https://www.kodebergen.no/en/museums/troldhaugen",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "mendelssohn",
+      "name": "门德尔松的苏格兰旅行",
+      "discipline": "music",
+      "kind": "documented-journey",
+      "countries": [
+        "英国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "英国",
+          "label": "爱丁堡",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "苏格兰高地",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "斯塔法岛",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "爱奥那岛",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "按1829年旅行记录核对次序，关联《赫布里底群岛》与《苏格兰交响曲》，作品完成时间另注。",
+      "sources": [
+        {
+          "url": "https://www.mendelssohninscotland.com/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "puccini",
+      "name": "普契尼的托斯卡纳",
+      "discipline": "music",
+      "kind": "life-and-work-network",
+      "countries": [
+        "意大利"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "意大利",
+          "label": "卢卡",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "意大利",
+          "label": "托雷德尔拉戈",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "意大利",
+          "label": "维亚雷焦",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "出生地、湖畔居所与晚年海滨生活，避免从歌剧异国背景反推作者到访。",
+      "sources": [
+        {
+          "url": "https://www.puccinimuseum.org/en/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "handel",
+      "name": "亨德尔的音乐城市",
+      "discipline": "music",
+      "kind": "life-and-work-network",
+      "countries": [
+        "德国",
+        "意大利",
+        "英国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "德国",
+          "label": "哈雷",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "德国",
+          "label": "汉堡",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "意大利",
+          "label": "城市待逐站确认",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "伦敦",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "跨国职业生涯与剧院、居所；意大利具体城市必须补生平与作品资料后再定位。",
+      "sources": [
+        {
+          "url": "https://haendelhaus.de/en/hh/handel-life-music",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "su-shi",
+      "name": "苏轼的任职与贬谪",
+      "discipline": "literature",
+      "kind": "life-and-work-network",
+      "countries": [
+        "中国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "眉山",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "杭州",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "黄州",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "惠州",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "儋州",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "常州",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "江南、黄州和岭南分线，诗文、地方生活和水利关系分别说明。",
+      "sources": [
+        {
+          "url": "https://fzg.changzhou.gov.cn/html/fzg/2016/POBKOFQN_0628/32399.html",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "li-bai",
+      "name": "李白的山川游历",
+      "discipline": "literature",
+      "kind": "documented-journey",
+      "countries": [
+        "中国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "江油",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "奉节",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "安陆",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "宣城",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "池州",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "马鞍山",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "先以文化城市联盟建立线索，再按旅次和具体诗文考证；联盟成员不等于完整历史路线。",
+      "sources": [
+        {
+          "url": "https://wlj.xuancheng.gov.cn/News/show/1588243.html",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "du-fu",
+      "name": "杜甫的漂泊",
+      "discipline": "literature",
+      "kind": "life-and-work-network",
+      "countries": [
+        "中国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "巩义",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "西安",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "成都",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "奉节",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "江陵",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "岳阳",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "时代、迁居与长江地景；诗歌题名、写作地和诗中所见分开。",
+      "sources": [
+        {
+          "url": "https://yueyang.gov.cn/yyts/mr/content_2141224.html",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "wang-wei",
+      "name": "王维的山水与辋川",
+      "discipline": "literature",
+      "kind": "landscape-network",
+      "countries": [
+        "中国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "西安",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "蓝田辋川",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "终南山",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "诗中景物、历史遗址与后世重建分层，不伪造《辋川集》二十景的精确GPS。",
+      "sources": [
+        {
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_16a.pdf",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "bai-juyi",
+      "name": "白居易的城市与山水",
+      "discipline": "literature",
+      "kind": "life-and-work-network",
+      "countries": [
+        "中国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "九江",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "杭州",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "苏州",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "洛阳",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "任职、湖泊和晚年生活分别与具体诗文关联，避免把今日景点名直接等同唐代位置。",
+      "sources": [
+        {
+          "url": "https://www.hzarchives.org.cn/info/4733",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "lu-you",
+      "name": "陆游《入蜀记》",
+      "discipline": "literature",
+      "kind": "documented-journey",
+      "countries": [
+        "中国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "绍兴",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "运河沿线",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "长江沿线",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "奉节",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "以原文逐日核对1170年水路旅程，再转成现代可探索的分段行程。",
+      "sources": [
+        {
+          "url": "https://ctext.org/wiki.pl?if=gb&remap=gb&res=210837",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "shen-congwen",
+      "name": "沈从文《湘行散记》",
+      "discipline": "literature",
+      "kind": "documented-journey",
+      "countries": [
+        "中国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "常德",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "桃源",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "沅江沿线",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "浦市",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "凤凰",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "1934年归乡水路、书信和散文分读，《边城》的小说地景另作子线。",
+      "sources": [
+        {
+          "url": "https://www.chinawriter.com.cn/n1/2020/0730/c419384-31803389.html",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "xiao-hong",
+      "name": "萧红的流动人生",
+      "discipline": "literature",
+      "kind": "life-and-work-network",
+      "countries": [
+        "中国",
+        "中国香港"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "呼兰",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "哈尔滨",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "青岛",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "上海",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "武汉",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "重庆",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国香港",
+          "label": "香港",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "记忆地、迁居地和写作地分别显示，不把《呼兰河传》的成书地放回呼兰。",
+      "sources": [
+        {
+          "url": "https://www.xinhuanet.com/politics/20260423/8c88d7cdfd064821b454a44dcf3f1495/c.html",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "basho",
+      "name": "芭蕉《奥之细道》",
+      "discipline": "literature",
+      "kind": "documented-journey",
+      "countries": [
+        "日本"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "日本",
+          "label": "江户",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "松岛",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "平泉",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "山寺",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "北陆沿途待分站",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "按旅次、俳句和当代地方资料核对，文学整理时间不等于旅行日期。",
+      "sources": [
+        {
+          "url": "https://www.mlit.go.jp/tagengo-db/en/R3-00494.html",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "kawabata",
+      "name": "川端康成的文学地景",
+      "discipline": "literature",
+      "kind": "fiction-and-life-network",
+      "countries": [
+        "日本"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "日本",
+          "label": "伊豆天城",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "汤岛",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "越后汤泽",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "镰仓",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "《伊豆的舞女》《雪国》与真实居所分别建子线，不跨作品拼接人物行程。",
+      "sources": [
+        {
+          "url": "https://amagigoe.jp/bungaku/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "soseki",
+      "name": "夏目漱石的迁居与留学",
+      "discipline": "literature",
+      "kind": "life-and-work-network",
+      "countries": [
+        "日本",
+        "英国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "日本",
+          "label": "东京",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "松山",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "熊本",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "伦敦",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "教学、留学和回国创作分期；小说故事与作者真实经历对读但不画等号。",
+      "sources": [
+        {
+          "url": "https://www.edo-tokyo-museum.or.jp/s-exhibition/soseki/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "goethe",
+      "name": "歌德《意大利游记》",
+      "discipline": "literature",
+      "kind": "documented-journey",
+      "countries": [
+        "意大利"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "意大利",
+          "label": "罗马",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "意大利",
+          "label": "那不勒斯",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "意大利",
+          "label": "西西里",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "旅行文字、速写和古典遗址，先复核书中次序再绘制历史旅次。",
+      "sources": [
+        {
+          "url": "https://casadigoethe.it/en/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "hugo",
+      "name": "雨果的巴黎与流亡",
+      "discipline": "literature",
+      "kind": "life-and-work-network",
+      "countries": [
+        "法国",
+        "根西岛"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "法国",
+          "label": "巴黎",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "根西岛",
+          "label": "Hauteville House",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "城市与海岛居所、流亡写作和室内设计；根西岛不是法国或英国本土节点。",
+      "sources": [
+        {
+          "url": "https://www.maisonsvictorhugo.paris.fr/en/guernesey/house",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "byron",
+      "name": "拜伦的湖畔与希腊",
+      "discipline": "literature",
+      "kind": "documented-journey",
+      "countries": [
+        "瑞士",
+        "希腊"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "瑞士",
+          "label": "日内瓦湖",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "瑞士",
+          "label": "希永城堡",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "希腊",
+          "label": "米索隆吉",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "1816年瑞士旅程与后期希腊经历分组；诗中人物经历不冒充作者亲历。",
+      "sources": [
+        {
+          "url": "https://www.chillon.ch/en/exposition/1816-2016-byron-is-back/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "wordsworth",
+      "name": "华兹华斯的湖区",
+      "discipline": "literature",
+      "kind": "landscape-network",
+      "countries": [
+        "英国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "英国",
+          "label": "格拉斯米尔",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "鸽舍",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "莱德尔山庄",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "诗歌、日记与步行景观；明确威廉和多萝西的不同作者关系。",
+      "sources": [
+        {
+          "url": "https://wordsworth.org.uk/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "dickens",
+      "name": "狄更斯的英国",
+      "discipline": "literature",
+      "kind": "fiction-and-life-network",
+      "countries": [
+        "英国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "英国",
+          "label": "伦敦",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "布罗德斯泰斯",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "罗切斯特",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "作家生活、写作地点与小说中的真实街区分开，影视取景另标。",
+      "sources": [
+        {
+          "url": "https://dickensmuseum.com/pages/links",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "kafka",
+      "name": "卡夫卡的城市与生活",
+      "discipline": "literature",
+      "kind": "life-and-work-network",
+      "countries": [
+        "捷克",
+        "奥地利"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "捷克",
+          "label": "布拉格",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "奥地利",
+          "label": "柯灵",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "真实生活与纪念空间，小说《城堡》等不擅自定位为某座真实建筑。",
+      "sources": [
+        {
+          "url": "https://www.goethe.de/prj/zei/en/art/25237193.html",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "joyce",
+      "name": "乔伊斯的城市网络",
+      "discipline": "literature",
+      "kind": "fiction-and-life-network",
+      "countries": [
+        "爱尔兰",
+        "意大利",
+        "瑞士",
+        "法国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "爱尔兰",
+          "label": "都柏林",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "意大利",
+          "label": "的里雅斯特",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "瑞士",
+          "label": "苏黎世",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "巴黎",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "生平迁居网络与《尤利西斯》一日都柏林分成不同图层。",
+      "sources": [
+        {
+          "url": "https://jamesjoyce.ie/james-joyce/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "proust",
+      "name": "普鲁斯特的记忆地景",
+      "discipline": "literature",
+      "kind": "fiction-and-life-network",
+      "countries": [
+        "法国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "法国",
+          "label": "伊利耶-贡布雷",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "巴黎",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "卡堡",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "童年、城市与海滨度假地；现实地名与小说原型的关系逐项说明。",
+      "sources": [
+        {
+          "url": "https://illiers-combray.com/marcel-proust-et-illiers-combray/musee-marcel-proust-maison-de-tante-leonie/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "hemingway",
+      "name": "海明威的跨国生活",
+      "discipline": "literature",
+      "kind": "life-and-work-network",
+      "countries": [
+        "法国",
+        "美国",
+        "古巴"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "法国",
+          "label": "巴黎",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "基韦斯特",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "古巴",
+          "label": "哈瓦那",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "按年份的写作、居住与海洋生活分区，不在世界图上虚构一次旅行。",
+      "sources": [
+        {
+          "url": "https://www.hemingwayhome.com/his-life",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "steinbeck",
+      "name": "斯坦贝克的加州与公路",
+      "discipline": "literature",
+      "kind": "fiction-and-life-network",
+      "countries": [
+        "美国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "美国",
+          "label": "萨利纳斯",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "蒙特雷",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "《与查理同行》分站待核",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "地方小说线与1960年美国旅行另建两组，书中叙述仍需其他材料核验。",
+      "sources": [
+        {
+          "url": "https://steinbeck.org/virtual-members/diary-of-a-book-travels-with-charley-part-one/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "mark-twain",
+      "name": "马克·吐温的密西西比河",
+      "discipline": "literature",
+      "kind": "fiction-and-life-network",
+      "countries": [
+        "美国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "美国",
+          "label": "汉尼拔",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "密西西比河相关点待核",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "哈特福德",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "童年河岸、河运经验、小说地景与成年写作分层。",
+      "sources": [
+        {
+          "url": "https://marktwainmuseum.org/exhibits-programs-events/exhibits/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "neruda",
+      "name": "聂鲁达的三座房子",
+      "discipline": "literature",
+      "kind": "life-and-work-network",
+      "countries": [
+        "智利"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "智利",
+          "label": "圣地亚哥La Chascona",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "智利",
+          "label": "瓦尔帕莱索La Sebastiana",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "智利",
+          "label": "黑岛",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "城市、港口与海岸居所及收藏空间，三处机构可以构成区域旅行。",
+      "sources": [
+        {
+          "url": "https://fundacionneruda.org/en/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "marquez",
+      "name": "马尔克斯的加勒比",
+      "discipline": "literature",
+      "kind": "fiction-and-life-network",
+      "countries": [
+        "哥伦比亚"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "哥伦比亚",
+          "label": "阿拉卡塔卡",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "哥伦比亚",
+          "label": "巴兰基亚",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "哥伦比亚",
+          "label": "卡塔赫纳",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "哥伦比亚",
+          "label": "圣玛尔塔",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "官方文化路线与真实地方、小说世界对读；马孔多不等同于单个旅游景点。",
+      "sources": [
+        {
+          "url": "https://colombia.travel/en/blog/explore-route-garcia-marquez-in-colombian-caribbean",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "tagore",
+      "name": "泰戈尔的孟加拉世界",
+      "discipline": "literature",
+      "kind": "life-and-work-network",
+      "countries": [
+        "印度"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "印度",
+          "label": "加尔各答",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "印度",
+          "label": "圣蒂尼克坦",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "文学、教育、艺术和校园景观，先做区域探索再扩展国际访问。",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/literature/1913/tagore/biographical/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "mahfouz",
+      "name": "马哈福兹的开罗",
+      "discipline": "literature",
+      "kind": "fiction-and-life-network",
+      "countries": [
+        "埃及"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "埃及",
+          "label": "开罗老城",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "埃及",
+          "label": "相关小说街巷待核",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "埃及",
+          "label": "马哈福兹博物馆",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "城市内部的文学地图；小说地点与作家生平、后设纪念馆分开。",
+      "sources": [
+        {
+          "url": "https://www.mahfouzmuseum.gov.eg/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "wu-guanzhong",
+      "name": "吴冠中的游历与写生",
+      "discipline": "painting",
+      "kind": "life-and-work-network",
+      "countries": [
+        "中国",
+        "法国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "宜兴",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "巴黎",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "北京",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "江南写生地待逐画确认",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "留学与归国生活之外，以具体作品追索写生地；表现性构图不视为精确摄影。",
+      "sources": [
+        {
+          "url": "https://www.tsinghua.edu.cn/info/1844/73915.htm",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "qi-baishi",
+      "name": "齐白石的五出五归",
+      "discipline": "painting",
+      "kind": "documented-journey",
+      "countries": [
+        "中国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "湖南",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "陕西",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "北京",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "江西",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "广东",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "广西",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "五次出游独立成旅次，结合《借山图》等版本；地点按自述与画院资料继续细化。",
+      "sources": [
+        {
+          "url": "https://www.bjaa.com.cn/artist.html?artist=319&clg=82&hcs=1",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "huang-binhong",
+      "name": "黄宾虹的山水纪游",
+      "discipline": "painting",
+      "kind": "landscape-network",
+      "countries": [
+        "中国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "黄山",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "新安地区",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "上海",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "杭州",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "反复登临、纪游与晚年创作分层，不能用一张山水画推出唯一作画机位。",
+      "sources": [
+        {
+          "url": "https://lib.caa.edu.cn/info/1046/1221.htm",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "feng-zikai",
+      "name": "丰子恺的生活与迁徙",
+      "discipline": "painting",
+      "kind": "documented-journey",
+      "countries": [
+        "中国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "桐乡石门",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "杭州",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "浙赣沿线待分站",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "长沙",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "重庆",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "缘缘堂、漫画与战时迁徙分别组织，家庭生活不只作附属背景。",
+      "sources": [
+        {
+          "url": "https://www.zjskw.gov.cn/art/2022/1/17/art_1229514868_44595.html",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "higashiyama",
+      "name": "东山魁夷的风景旅行",
+      "discipline": "painting",
+      "kind": "depicted-place-network",
+      "countries": [
+        "日本",
+        "德国",
+        "北欧"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "日本",
+          "label": "日本风景分站待逐画确认",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "德国",
+          "label": "欧洲写生分站待确认",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "北欧",
+          "label": "北欧写生分站待确认",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "按馆藏中的北欧、京都、大和等系列建立作品地点，不把长野馆藏所在地当成所有画中地。",
+      "sources": [
+        {
+          "url": "https://nagano.art.museum/higashiyama_kaii_gallery",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "rivera",
+      "name": "里维拉的壁画地理",
+      "discipline": "painting",
+      "kind": "work-location-network",
+      "countries": [
+        "墨西哥",
+        "美国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "墨西哥",
+          "label": "墨西哥城",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "底特律",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "壁画、工业与公共建筑；原址作品、迁移作品与被毁作品需区别。",
+      "sources": [
+        {
+          "url": "https://dia.org/collection/detroit-industry-south-wall/58539",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "rodin",
+      "name": "罗丹的工作室与花园",
+      "discipline": "sculpture",
+      "kind": "life-and-work-network",
+      "countries": [
+        "法国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "法国",
+          "label": "巴黎",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "默东",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "住宅、工作室与花园中的雕塑；同题铸本分别注明版本，不能默认唯一原作。",
+      "sources": [
+        {
+          "url": "https://www.musee-rodin.fr/en",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "brancusi",
+      "name": "布朗库西的城市雕塑与工作室",
+      "discipline": "sculpture",
+      "kind": "work-location-network",
+      "countries": [
+        "罗马尼亚",
+        "法国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "罗马尼亚",
+          "label": "特尔古日乌",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "巴黎",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "城市纪念轴线与巴黎工作室分层；工作室复原不冒充未经变动的历史原址。",
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1473/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "hepworth",
+      "name": "赫普沃斯的圣艾夫斯",
+      "discipline": "sculpture",
+      "kind": "landscape-network",
+      "countries": [
+        "英国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "英国",
+          "label": "圣艾夫斯Trewyn工作室",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "雕塑花园",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "周边海岸",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "雕塑、孔洞、植物和海岸环境；明确哪些作品原为花园环境创作。",
+      "sources": [
+        {
+          "url": "https://www.tate.org.uk/visit/tate-st-ives/barbara-hepworth-museum-and-sculpture-garden",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "noguchi",
+      "name": "野口勇的雕塑与庭园",
+      "discipline": "sculpture",
+      "kind": "life-and-work-network",
+      "countries": [
+        "美国",
+        "日本"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "美国",
+          "label": "纽约",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "香川牟礼",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "纽约生活项目地图与日本工作室分别研究，可再扩展公共景观、家具和石材。",
+      "sources": [
+        {
+          "url": "https://www.noguchi.org/museum/exhibitions/view/noguchis-new-york/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "giacometti",
+      "name": "贾科梅蒂的山谷与巴黎",
+      "discipline": "sculpture",
+      "kind": "life-and-work-network",
+      "countries": [
+        "瑞士",
+        "法国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "瑞士",
+          "label": "斯坦帕",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "法国",
+          "label": "巴黎",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "故乡风景、工作室和人物雕塑对读，馆藏地与创作地分别记录。",
+      "sources": [
+        {
+          "url": "https://www.fondation-giacometti.fr/en",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "henry-moore",
+      "name": "亨利·摩尔的雕塑景观",
+      "discipline": "sculpture",
+      "kind": "work-location-network",
+      "countries": [
+        "英国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "英国",
+          "label": "佩里格林",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "利兹",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "公共雕塑点待逐件核验",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "草地、树林、城市公共空间及研究收藏；常设作品与临时展览分开。",
+      "sources": [
+        {
+          "url": "https://henry-moore.org/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "gaudi",
+      "name": "高迪的建筑世界",
+      "discipline": "architecture",
+      "kind": "work-location-network",
+      "countries": [
+        "西班牙"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "西班牙",
+          "label": "巴塞罗那",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "西班牙",
+          "label": "古埃尔聚落",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "公园、住宅、教堂与聚落；优先复用UNESCO现有地点，再扩展到单栋建筑。",
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/320/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "wright",
+      "name": "赖特的乡野与沙漠",
+      "discipline": "architecture",
+      "kind": "work-location-network",
+      "countries": [
+        "美国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "美国",
+          "label": "威斯康星塔里埃森",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "亚利桑那西塔里埃森",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "两个基地怎样回应地形、气候与居住教学；下一批再引入其他经核实建筑。",
+      "sources": [
+        {
+          "url": "https://franklloydwright.org/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "le-corbusier",
+      "name": "勒·柯布西耶的跨国建筑",
+      "discipline": "architecture",
+      "kind": "work-location-network",
+      "countries": [
+        "法国",
+        "瑞士",
+        "印度",
+        "日本"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "法国",
+          "label": "系列建筑待逐项展开",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "瑞士",
+          "label": "系列建筑待逐项展开",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "印度",
+          "label": "昌迪加尔",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "东京",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "按UNESCO七国十七处组成部分逐项登记，不能用一个代表坐标覆盖整座城市或系列遗产。",
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1321/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "aalto",
+      "name": "阿尔瓦·阿尔托建筑路线",
+      "discipline": "architecture",
+      "kind": "work-location-network",
+      "countries": [
+        "芬兰"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "芬兰",
+          "label": "赫尔辛基",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "芬兰",
+          "label": "于韦斯屈莱",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "芬兰",
+          "label": "塞于奈察洛",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "芬兰",
+          "label": "帕伊米奥",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "住宅、市政和医疗建筑；参考现成机构路线，但开放和交通另核。",
+      "sources": [
+        {
+          "url": "https://visit.alvaraalto.fi/en/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "ando",
+      "name": "安藤忠雄的直岛",
+      "discipline": "architecture",
+      "kind": "work-location-network",
+      "countries": [
+        "日本"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "日本",
+          "label": "直岛安藤博物馆",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "直岛倍乐生之家",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "直岛南寺",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "光、混凝土、旧住宅与岛屿景观，从岛内可探索网络开始，不把他人艺术作品归给建筑师。",
+      "sources": [
+        {
+          "url": "https://benesse-artsite.jp/en/art/ando-museum.html",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "ansel-adams",
+      "name": "安塞尔·亚当斯的国家公园摄影",
+      "discipline": "photography",
+      "kind": "depicted-place-network",
+      "countries": [
+        "美国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "美国",
+          "label": "优胜美地山谷",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "优胜美地冰川点",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "其他国家公园待逐照核对",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "照片、具体地形和历史环境对读；不能让用户按历史摄影位置进入封闭区域。",
+      "sources": [
+        {
+          "url": "https://www.nps.gov/yose/learn/historyculture/ansel-adams.htm",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "cartier-bresson",
+      "name": "布列松的城市摄影",
+      "discipline": "photography",
+      "kind": "documented-journey",
+      "countries": [
+        "中国",
+        "墨西哥"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "中国",
+          "label": "北京",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "中国",
+          "label": "上海",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "墨西哥",
+          "label": "墨西哥拍摄地待逐照确认",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "不同年份的摄影任务分线，影像、原始说明和城市变化共同阅读。",
+      "sources": [
+        {
+          "url": "https://www.henricartierbresson.org/en/expositions/henri-cartier-bresson-chine-1948-1949-1958/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "lee-miller",
+      "name": "李·米勒的摄影与旅居",
+      "discipline": "photography",
+      "kind": "life-and-work-network",
+      "countries": [
+        "法国",
+        "埃及",
+        "英国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "法国",
+          "label": "巴黎",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "埃及",
+          "label": "拍摄地待逐照确认",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "英国",
+          "label": "萨塞克斯Farleys",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "超现实主义、旅居与摄影分期，图像人物、现场与作者经历不混淆。",
+      "sources": [
+        {
+          "url": "https://www.farleyshouseandgallery.co.uk/event/lee-miller-petrie-egypt/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "sugimoto",
+      "name": "杉本博司的观看与空间",
+      "discipline": "photography",
+      "kind": "work-location-network",
+      "countries": [
+        "日本"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "日本",
+          "label": "小田原江之浦",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "日本",
+          "label": "直岛相关项目待逐件核验",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "摄影、建筑、海景与天文观察；展示空间和所摄海域必须分别定位。",
+      "sources": [
+        {
+          "url": "https://www.sugimotohiroshi.com/enoura-observatory",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "christo-jeanneclaude",
+      "name": "克里斯托与珍妮-克劳德的临时作品",
+      "discipline": "installation",
+      "kind": "temporary-work-network",
+      "countries": [
+        "法国",
+        "德国",
+        "美国",
+        "意大利"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "法国",
+          "label": "巴黎",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "德国",
+          "label": "柏林",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "纽约",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "意大利",
+          "label": "伊塞奥湖",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "当年的作品与今天的地点切换，严格标注已拆除、未实现和永久保存的状态。",
+      "sources": [
+        {
+          "url": "https://christojeanneclaude.net/artworks/realized-projects/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "turrell",
+      "name": "特瑞尔的光与天空",
+      "discipline": "installation",
+      "kind": "work-location-network",
+      "countries": [
+        "日本",
+        "美国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "日本",
+          "label": "直岛南寺",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "亚利桑那罗登火山口",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "光空间与天文地景；项目未开放或需特殊准入时，不给普通旅游可达承诺。",
+      "sources": [
+        {
+          "url": "https://benesse-artsite.jp/en/art/arthouse.html",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    },
+    {
+      "id": "utah-land-art",
+      "name": "犹他大地艺术：史密森与霍尔特",
+      "discipline": "land-art",
+      "kind": "work-location-network",
+      "countries": [
+        "美国"
+      ],
+      "candidatePlaces": [
+        {
+          "country": "美国",
+          "label": "大盐湖Spiral Jetty",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        },
+        {
+          "country": "美国",
+          "label": "大盆地沙漠Sun Tunnels",
+          "coordinate": null,
+          "coordinateStatus": "pending",
+          "relationshipStatus": "candidate-needs-point-evidence"
+        }
+      ],
+      "focus": "盐湖、地貌和日照与作品共同阅读，可关联公路主题但不把两点直线当驾驶路线。",
+      "sources": [
+        {
+          "url": "https://www.diaart.org/visit/visit-our-locations-sites/nancy-holt-sun-tunnels/",
+          "role": "research-entry",
+          "verification": "found-in-research-not-point-complete"
+        }
+      ],
+      "status": "research",
+      "readiness": {
+        "pointEvidence": false,
+        "mediaRights": false,
+        "localAssets": false,
+        "interface": false,
+        "browserVerified": false
+      }
+    }
+  ]
+}
