@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "title": "文化探索路线扩充 · 第一批 / 画作与地景",
+  "title": "文化探索路线扩充 · 画作、音乐与文学 / 第一批",
   "reviewedOn": "2026-11-17",
   "baseline": {
     "repo": "raeqi/world-travel-map",
@@ -144,6 +144,27 @@
       "type": "primary-institution",
       "checked": "web-search-or-open",
       "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "bachChurch",
+      "url": "https://www.thomaskirche.org/",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "bachKothen",
+      "url": "https://www.march.es/en/madrid/bach-kothen",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "id": "austenGrave",
+      "url": "https://www.visitwinchester.co.uk/blog/how-to-spend-a-weekend-in-jane-austens-winchester",
+      "type": "primary-institution",
+      "checked": "web-search-or-open",
+      "checkedOn": "2026-11-17"
     }
   ],
   "themes": [
@@ -192,6 +213,54 @@
         "zoom": 36
       },
       "heroMediaId": "vermeer-delft"
+    },
+    {
+      "id": "bach",
+      "name": "巴赫 · 中德音乐地景",
+      "kind": "music-and-life",
+      "topology": "network",
+      "tagline": "同一个作曲家，如何在不同城市以音乐为业。",
+      "introduction": "通过童年城市、宫廷任职与莱比锡的市民音乐生活，认识巴赫作品背后的工作环境。城市网络跨越不同年份；莱比锡博物馆另作收藏与研究入口，不把每座城市都称为某首名曲的确定首演地。",
+      "discoveryTerms": [
+        "巴赫",
+        "古典音乐",
+        "管风琴",
+        "德国",
+        "莱比锡",
+        "魏玛",
+        "科滕"
+      ],
+      "visualDirection": "以可核验的谱页、建筑与人物小像组成音乐阅读。需要有来源的手稿图，避免拿任意五线谱伪装巴赫原稿。",
+      "defaultView": {
+        "lon": 11.5,
+        "lat": 51.1,
+        "zoom": 18
+      },
+      "heroMediaId": null
+    },
+    {
+      "id": "austen",
+      "name": "简·奥斯汀 · 生活与小说地景",
+      "kind": "literature-and-place",
+      "topology": "network",
+      "tagline": "从写作的房间，走到小说中的海岸和社交空间。",
+      "introduction": "把奥斯汀真实生活地、小说出现的真实地方与后世纪念机构区分开。以查顿和汉普郡为生活线，以巴斯和莱姆里吉斯为小说地景线，不把影视取景豪宅直接称作小说原型。",
+      "discoveryTerms": [
+        "奥斯汀",
+        "英国",
+        "文学",
+        "傲慢与偏见",
+        "劝导",
+        "巴斯",
+        "查顿"
+      ],
+      "visualDirection": "真实故居摄影、旧版书页与沿海地景混排；插图标清插画家与版次，不把后世插图当作作者所见现场。",
+      "defaultView": {
+        "lon": -1.8,
+        "lat": 51.1,
+        "zoom": 20
+      },
+      "heroMediaId": "austen-chawton-photo"
     }
   ],
   "places": [
@@ -350,6 +419,227 @@
       ],
       "coordinateStatus": "editorial-representative-not-navigation",
       "precision": "museum"
+    },
+    {
+      "id": "bach-eisenach",
+      "theme": "bach",
+      "name": "艾森纳赫 · 巴赫之家博物馆",
+      "lon": 10.323,
+      "lat": 50.971,
+      "country": "德国",
+      "region": "图林根州",
+      "relation": "memorial",
+      "desc": "巴赫于1685年生于艾森纳赫，童年在当地学习音乐并参与唱诗。今天的巴赫之家博物馆提供认识那个音乐世界的入口；应把城市生平和后设博物馆分开，而非把馆名直接当作出生房屋的证据。",
+      "lookFor": "关注早期乐器和家庭音乐环境。博物馆成立于1907年；参观者听到的现代演示，不等于馆内一直保留着巴赫本人的演出。",
+      "sourceIds": [
+        "bachChild",
+        "bachHouse"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "museum",
+      "period": "童年1685–1695；纪念馆1907年成立"
+    },
+    {
+      "id": "bach-arnstadt",
+      "theme": "bach",
+      "name": "阿恩施塔特 · 青年管风琴师",
+      "lon": 10.949,
+      "lat": 50.834,
+      "country": "德国",
+      "region": "图林根州",
+      "relation": "life",
+      "desc": "阿恩施塔特是巴赫青年任职网络中的一站，1703年他在这里开启管风琴师工作的一个阶段。与后来的宫廷和城市职位对读，可以看到音乐家的工作地点并不是同一种制度。",
+      "lookFor": "以城市为单位理解教堂、乐器和职位，不把所有巴赫家族遗存都归给约翰·塞巴斯蒂安本人，也不把今日管风琴自动认作他当年所用。",
+      "sourceIds": [
+        "bachLife"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "town-area",
+      "period": "1703–1707"
+    },
+    {
+      "id": "bach-weimar",
+      "theme": "bach",
+      "name": "魏玛 · 宫廷工作与城市生活",
+      "lon": 11.329,
+      "lat": 50.98,
+      "country": "德国",
+      "region": "图林根州",
+      "relation": "life",
+      "desc": "巴赫先在1703年短暂来到魏玛，1708年又返回并停留到1717年。当地资料把宫廷任职和 Markt 16 号附近的家庭生活联系起来；这提供了从工作与家庭两面理解作曲家的机会。",
+      "lookFor": "在老城和宫廷周边比较音乐工作、居住和教学空间。点位按街区代表，不把现在的房屋或展览空间称作完整保留的巴赫原工作室。",
+      "sourceIds": [
+        "bachWeimar",
+        "bachLife"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "old-town-area",
+      "period": "1703；1708–1717"
+    },
+    {
+      "id": "bach-kothen",
+      "theme": "bach",
+      "name": "科滕 · 宫廷器乐环境",
+      "lon": 11.981,
+      "lat": 51.753,
+      "country": "德国",
+      "region": "萨克森-安哈尔特州",
+      "relation": "life",
+      "desc": "巴赫于1717至1723年在科滕宫廷任职。器乐创作可以从这里的赞助和演奏环境读起；《勃兰登堡协奏曲》的名称却不能直接理解为六首作品全在勃兰登堡写成。",
+      "lookFor": "将城市、雇佣关系和作品版本分开看：作品献给谁、在哪里整理、各乐章何时形成，是不同问题。本点不宣称已定位每一首作品的作曲房间。",
+      "sourceIds": [
+        "bachKothen",
+        "bachMusic",
+        "bachLife"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "town-area",
+      "period": "1717–1723"
+    },
+    {
+      "id": "bach-thomaskirche",
+      "theme": "bach",
+      "name": "莱比锡 · 圣托马斯教堂",
+      "lon": 12.373,
+      "lat": 51.339,
+      "country": "德国",
+      "region": "萨克森州",
+      "relation": "life-and-memorial",
+      "desc": "巴赫于1723至1750年担任圣托马斯领唱。今天教堂也保存他的墓葬，墓于1950年迁至祭坛区域；这里连接的是历史任职、当代音乐活动与后来的纪念，不是每一首莱比锡作品都曾在这里首演。",
+      "lookFor": "把建筑空间与听音乐的方式放在一起观察。若安排音乐会，需另查日期与节目；地图不承诺到场就能听到某一部作品。",
+      "sourceIds": [
+        "bachChurch"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "church",
+      "period": "任职1723–1750；墓葬1950年迁入"
+    },
+    {
+      "id": "bach-museum",
+      "theme": "bach",
+      "name": "莱比锡 · 巴赫博物馆与档案",
+      "lon": 12.373,
+      "lat": 51.338,
+      "country": "德国",
+      "region": "萨克森州",
+      "relation": "collection-and-research",
+      "desc": "巴赫博物馆位于 Thomaskirchhof 的 Bosehaus，以生平、家庭、作品与研究为展陈线索。它适合与对面的教堂一起访问，但研究收藏地不等于每件手稿的创作地点。",
+      "lookFor": "先看著录与版本如何证明一项说法，再看手稿或展品本身。展品轮换和手稿保存条件会影响能看到什么，不能把数字记录视作永久实物陈列。",
+      "sourceIds": [
+        "bachLeipzig"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "museum"
+    },
+    {
+      "id": "austen-steventon",
+      "theme": "austen",
+      "name": "斯蒂文顿 · 成长与早期写作",
+      "lon": -1.219,
+      "lat": 51.229,
+      "country": "英国",
+      "region": "汉普郡",
+      "relation": "life",
+      "desc": "奥斯汀在汉普郡斯蒂文顿出生并成长。家庭阅读和早期写作构成后来的小说基础；这里适合讨论写作如何在乡村日常中形成，不必强行给每个虚构村庄找一个现实原型。",
+      "lookFor": "从村庄尺度认识生活环境，结合早期小说稿的写作阶段阅读。本标记不是出生房间，也不承诺存在可随时参观的原住宅。",
+      "sourceIds": [
+        "austenLife"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "village-area",
+      "period": "1775年出生；1801年前主要成长地"
+    },
+    {
+      "id": "austen-bath",
+      "theme": "austen",
+      "name": "巴斯 · 社交空间与小说",
+      "lon": -2.361,
+      "lat": 51.386,
+      "country": "英国",
+      "region": "萨默塞特",
+      "relation": "life-and-fictional-setting",
+      "desc": "奥斯汀在1801年搬到巴斯；Assembly Rooms既与她参加舞会的经历有关，也出现在《诺桑觉寺》和《劝导》的城市世界里。生活证据和小说叙事可以相互对读，但不等于两者逐场对应。",
+      "lookFor": "观察聚会建筑如何组织舞会、交往与观看。把小说中的礼仪和社会判断带回空间，不把影视拍摄镜头当成作者的亲历证据。",
+      "sourceIds": [
+        "austenBath"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "assembly-rooms-area",
+      "period": "1801年起的巴斯生活；小说中的城市空间"
+    },
+    {
+      "id": "austen-southampton",
+      "theme": "austen",
+      "name": "南安普敦 · 迁居与家庭安排",
+      "lon": -1.405,
+      "lat": 50.899,
+      "country": "英国",
+      "region": "汉普郡",
+      "relation": "life",
+      "desc": "父亲去世后，奥斯汀母女的居住与收入条件发生变化，后来来到南安普敦，与亲友组成共同生活的家庭。这一站让路线不仅追逐名作，也能阅读作家在写作之外的经济和家庭处境。",
+      "lookFor": "从迁居和家庭关系理解生活阶段。这里使用旧城区域代表点，不将任何一栋未核实建筑指定为写作原址，也不把《劝导》的海军人物直接等同于真人。",
+      "sourceIds": [
+        "austenLife"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "old-town-area",
+      "period": "巴斯之后、查顿之前的迁居阶段"
+    },
+    {
+      "id": "austen-chawton",
+      "theme": "austen",
+      "name": "查顿 · 简·奥斯汀故居",
+      "lon": -0.988,
+      "lat": 51.134,
+      "country": "英国",
+      "region": "汉普郡",
+      "relation": "life-and-writing",
+      "desc": "1809年起，查顿为奥斯汀提供了较稳定的生活与写作空间。她在此写作、修订并推动小说出版，今天故居保存相关物件与早期版本；早期草稿和查顿修订不是同一个创作阶段。",
+      "lookFor": "对照写作桌、书信和版本，认识一部书如何从草稿走到出版。不要把相邻的 Chawton House 与这座故居博物馆当作同一个机构。",
+      "sourceIds": [
+        "austenHouse",
+        "austenVisit"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "museum",
+      "period": "1809–1817"
+    },
+    {
+      "id": "austen-lyme",
+      "theme": "austen",
+      "name": "莱姆里吉斯 · The Cobb 海堤",
+      "lon": -2.935,
+      "lat": 50.72,
+      "country": "英国",
+      "region": "多塞特",
+      "relation": "life-and-fictional-setting",
+      "desc": "奥斯汀已知在1803和1804年到过莱姆里吉斯，后来《劝导》把这里的海岸与港湾纳入情节。可以先读相关章节，再到海堤理解人物行动与海滨空间的关系。",
+      "lookFor": "小说中的跌落情节与真实海堤是文学关系，不提供确定的跌落台阶。可读港湾、岸边步道和旧版插图，不应照着小说模仿危险动作。",
+      "sourceIds": [
+        "austenLyme"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "harbour-and-breakwater-area",
+      "period": "到访1803、1804；小说写作1815–1816"
+    },
+    {
+      "id": "austen-winchester",
+      "theme": "austen",
+      "name": "温彻斯特 · 大教堂与纪念",
+      "lon": -1.313,
+      "lat": 51.061,
+      "country": "英国",
+      "region": "汉普郡",
+      "relation": "memorial",
+      "desc": "1817年奥斯汀到温彻斯特求医，并在这一年去世、安葬于大教堂。这是生平与后世纪念的一站，不是她小说中某座教堂的确定原型，也不同于伦敦诗人角的纪念牌。",
+      "lookFor": "观察墓碑与后来的纪念如何介绍一位作家。墓地、最后居所和纪念牌分属不同地点，不将一座城市的纪念全部压在同一个点上。",
+      "sourceIds": [
+        "austenLife",
+        "austenGrave"
+      ],
+      "coordinateStatus": "editorial-representative-not-navigation",
+      "precision": "cathedral",
+      "period": "1817"
     }
   ],
   "works": [
@@ -555,6 +845,118 @@
       "mediaIds": [
         "vermeer-street"
       ]
+    },
+    {
+      "id": "bach-brandenburg",
+      "theme": "bach",
+      "title": "勃兰登堡协奏曲",
+      "original": "Brandenburg Concertos, BWV 1046–1051",
+      "creator": "约翰·塞巴斯蒂安·巴赫",
+      "date": "1721年题献；各曲形成时间不等同",
+      "medium": "器乐作品集",
+      "placeLinks": [
+        {
+          "placeId": "bach-kothen",
+          "relation": "work-context",
+          "certainty": "employment-context-not-every-movement-composed-here"
+        }
+      ],
+      "collection": null,
+      "context": "通过科滕的宫廷器乐环境理解这部作品集；题献、整理、早期乐章素材和后世演奏应分别介绍，不把作品名当作地理定位。",
+      "sourceIds": [
+        "bachMusic",
+        "bachKothen"
+      ],
+      "mediaIds": [],
+      "audio": {
+        "bundled": false,
+        "reason": "未核实任何具体录音的再分发许可；只关联作品资料。"
+      }
+    },
+    {
+      "id": "austen-pride",
+      "theme": "austen",
+      "title": "傲慢与偏见",
+      "original": "Pride and Prejudice",
+      "creator": "简·奥斯汀",
+      "date": "1813年出版；早稿更早",
+      "medium": "小说",
+      "placeLinks": [
+        {
+          "placeId": "austen-steventon",
+          "relation": "early-draft-context",
+          "certainty": "biographical"
+        },
+        {
+          "placeId": "austen-chawton",
+          "relation": "revision-and-publication-context",
+          "certainty": "biographical"
+        }
+      ],
+      "collection": null,
+      "context": "区分早稿 First Impressions 与后来在查顿修订、出版的阶段；不将拍摄 Pemberley 的现代影视地点认定为唯一现实原型。",
+      "sourceIds": [
+        "austenLife",
+        "austenHouse"
+      ],
+      "mediaIds": []
+    },
+    {
+      "id": "austen-persuasion",
+      "theme": "austen",
+      "title": "劝导",
+      "original": "Persuasion",
+      "creator": "简·奥斯汀",
+      "date": "1815–1816年写作；身后出版",
+      "medium": "小说",
+      "placeLinks": [
+        {
+          "placeId": "austen-bath",
+          "relation": "fictional-setting",
+          "certainty": "real-city-in-fiction"
+        },
+        {
+          "placeId": "austen-lyme",
+          "relation": "fictional-setting",
+          "certainty": "real-place-in-fiction"
+        },
+        {
+          "placeId": "austen-chawton",
+          "relation": "writing-context",
+          "certainty": "biographical"
+        }
+      ],
+      "collection": null,
+      "context": "巴斯与莱姆里吉斯可以并置为小说中的真实地景；情节人物不因此成为历史旅行者。现代译本和有声书未随包提供。",
+      "sourceIds": [
+        "austenBath",
+        "austenLyme",
+        "austenHouse"
+      ],
+      "mediaIds": [
+        "austen-persuasion-illustration"
+      ]
+    },
+    {
+      "id": "bach-haussmann",
+      "theme": "bach",
+      "title": "约翰·塞巴斯蒂安·巴赫肖像",
+      "original": "Portrait of Johann Sebastian Bach",
+      "creator": "Elias Gottlob Haussmann",
+      "date": "1748",
+      "medium": "布面油画",
+      "placeLinks": [],
+      "collection": {
+        "name": "Bach-Archiv Leipzig",
+        "placeId": "bach-museum",
+        "record": "https://commons.wikimedia.org/wiki/File:Bach.jpg",
+        "displayStatus": "not-guaranteed"
+      },
+      "context": "这是人物肖像，不是城市风景；馆藏归属不保证在指定展厅陈列。低分辨率候选图只适合小像，不应拉伸为整屏封面。",
+      "sourceIds": [],
+      "mediaIds": [
+        "bach-portrait"
+      ]
     }
   ],
   "plans": [
@@ -678,6 +1080,151 @@
         12
       ],
       "seasonNote": "城市与室内探访可全年规划；不是全年无休承诺。"
+    },
+    {
+      "id": "bach-thuringia",
+      "theme": "bach",
+      "name": "巴赫 · 图林根的三种音乐生活",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "transport": "区域铁路与城内步行",
+      "topology": "network",
+      "reason": "将童年城市、青年任职与魏玛宫廷阶段分区阅读。顺序是当代探访建议，不是连续历史旅程；音乐会、展览和接驳单独查询。",
+      "sourceIds": [
+        "bachLife",
+        "bachHouse",
+        "bachWeimar"
+      ],
+      "placeIds": [
+        "bach-eisenach",
+        "bach-arnstadt",
+        "bach-weimar"
+      ],
+      "suggestedDays": 4,
+      "seasonNote": "月份和天数为编辑建议；不是实时开放、交通或天气承诺。"
+    },
+    {
+      "id": "bach-kothen-leipzig",
+      "theme": "bach",
+      "name": "巴赫 · 从宫廷工作到城市音乐",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "transport": "城际铁路 + 市内步行",
+      "topology": "route",
+      "reason": "从科滕的宫廷环境到莱比锡任职与研究收藏；路线是三天当代探访建议，不把1723年的迁移道路复原为今日交通线。",
+      "sourceIds": [
+        "bachKothen",
+        "bachChurch",
+        "bachLeipzig"
+      ],
+      "placeIds": [
+        "bach-kothen",
+        "bach-thomaskirche",
+        "bach-museum"
+      ],
+      "suggestedDays": 3,
+      "seasonNote": "月份和天数为编辑建议；不是实时开放、交通或天气承诺。"
+    },
+    {
+      "id": "austen-hampshire",
+      "theme": "austen",
+      "name": "奥斯汀 · 汉普郡生活与写作",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "transport": "城际和乡村接驳 + 分区步行",
+      "topology": "network",
+      "reason": "成长、写作和纪念分开看。汉普郡乡村公共交通不能按地图直线推断，出发前单独核查；三天是留出停留的参考。",
+      "sourceIds": [
+        "austenLife",
+        "austenHouse",
+        "austenGrave"
+      ],
+      "placeIds": [
+        "austen-steventon",
+        "austen-chawton",
+        "austen-winchester"
+      ],
+      "suggestedDays": 3,
+      "seasonNote": "月份和天数为编辑建议；不是实时开放、交通或天气承诺。"
+    },
+    {
+      "id": "austen-persuasion",
+      "theme": "austen",
+      "name": "《劝导》 · 巴斯与海岸对读",
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "区域交通 + 城市与海岸步行",
+      "topology": "network",
+      "reason": "以小说中的社交空间和海滨事件组织两地探访，不把虚构人物行程当作奥斯汀本人的旅行顺序。两地之间需要实际交通规划。",
+      "sourceIds": [
+        "austenBath",
+        "austenLyme"
+      ],
+      "placeIds": [
+        "austen-bath",
+        "austen-lyme"
+      ],
+      "suggestedDays": 4,
+      "seasonNote": "月份和天数为编辑建议；不是实时开放、交通或天气承诺。"
+    },
+    {
+      "id": "austen-moving-life",
+      "theme": "austen",
+      "name": "奥斯汀 · 迁居、收入与写作空间",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "transport": "区域铁路 + 分区步行",
+      "topology": "network",
+      "reason": "围绕生活安排如何影响写作来阅读，不只追逐小说地标。是跨年份生活阶段的当代组合，未包含中间所有暂住地点。",
+      "sourceIds": [
+        "austenLife",
+        "austenHouse"
+      ],
+      "placeIds": [
+        "austen-bath",
+        "austen-southampton",
+        "austen-chawton"
+      ],
+      "suggestedDays": 5,
+      "seasonNote": "月份和天数为编辑建议；不是实时开放、交通或天气承诺。"
     }
   ],
   "media": [
@@ -835,6 +1382,75 @@
         "hash": null
       },
       "use": "与代尔夫特具体描绘地点绑定；馆藏卡必须标明现藏机构，不能让用户误认创作地。"
+    },
+    {
+      "id": "bach-portrait",
+      "workId": "bach-haussmann",
+      "title": "巴赫肖像，1748",
+      "creator": "Elias Gottlob Haussmann",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bach.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Bach.jpg",
+      "rights": "Public domain / PD-Art",
+      "rightsUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "rightsEvidence": "Commons 所选文件标明作者卒于1774、PD-Art，馆藏归属为 Bach-Archiv。",
+      "width": 441,
+      "height": 533,
+      "proposedLocalPath": "assets/cultural-routes/bach-portrait.webp",
+      "status": {
+        "rightsPageChecked": true,
+        "downloadLinkResolved": true,
+        "downloaded": false,
+        "visualChecked": false,
+        "hash": null
+      },
+      "use": "仅人物小像；尺寸不足以作大幅hero。需要另找对应建筑实景或开放手稿作主视觉。"
+    },
+    {
+      "id": "austen-persuasion-illustration",
+      "workId": "austen-persuasion",
+      "title": "《劝导》第一章插图",
+      "creator": "Hugh Thomson (1860–1920)",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Persuasion_Illustration_Chapter_1.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Persuasion_Illustration_Chapter_1.jpg",
+      "rights": "Public domain / PD-Art",
+      "rightsUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "rightsEvidence": "所选文件页面标明作者与公有领域；不从这个宽泛日期字段推断确切印刷年。",
+      "width": 404,
+      "height": 579,
+      "proposedLocalPath": "assets/cultural-routes/austen-persuasion-illustration.webp",
+      "status": {
+        "rightsPageChecked": true,
+        "downloadLinkResolved": true,
+        "downloaded": false,
+        "visualChecked": false,
+        "hash": null
+      },
+      "use": "小幅文学阅读插图；不是奥斯汀亲绘，也不是莱姆海堤实景。不得用作该点的取景照片。"
+    },
+    {
+      "id": "austen-chawton-photo",
+      "title": "查顿简·奥斯汀故居，2013",
+      "creator": "Simon Burchell",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jane_Austen%27s_House_Museum,_Chawton.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Jane_Austen%27s_House_Museum%2C_Chawton.jpg",
+      "rights": "CC BY-SA 4.0",
+      "rightsUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsEvidence": "文件页逐项标明作者、拍摄日期和CC BY-SA 4.0许可。",
+      "placeIds": [
+        "austen-chawton"
+      ],
+      "width": 2816,
+      "height": 2112,
+      "proposedLocalPath": "assets/cultural-routes/austen-chawton-photo.webp",
+      "status": {
+        "rightsPageChecked": true,
+        "downloadLinkResolved": true,
+        "downloaded": false,
+        "visualChecked": false,
+        "hash": null
+      },
+      "attribution": "Jane Austen's House Museum, Chawton — Simon Burchell, CC BY-SA 4.0；处理时注明缩放/压缩/裁切，处理版本保留原许可。",
+      "use": "可作查顿点位、包含查顿的行程及奥斯汀主题代表影像；不冒充巴斯或莱姆的照片。"
     }
   ],
   "integration": {
