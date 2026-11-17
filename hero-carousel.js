@@ -57,16 +57,14 @@ function heroCarouselHTML(){prepareHeroRecommendations();return `<section class=
 function mountHeroCarousel(){
  destroyHeroCarousel();const root=document.querySelector('.hero-carousel');if(!root)return;
  const motion=window.matchMedia?window.matchMedia('(prefers-reduced-motion: reduce)'):{matches:false};
- const slides=[...root.querySelectorAll('.hero-slide')];
- let timer=null,hovered=false,onscreen=true,disposed=false,focused=false;
- if(motion.matches)heroPreferences.paused=true;
+ const slides=[...root.querySelectorAll('.hero-slide')];if(!slides.length)return;
+ // Pause preferences belong to the user. Motion, hover, focus and visibility are temporary gates.
+ let timer=null,hovered=root.matches(':hover'),onscreen=true,disposed=false,focused=root.contains(document.activeElement),windowBlurred=false;
  function cancel(){if(timer!==null){clearTimeout(timer);timer=null}}
- function schedule(){cancel();if(!disposed&&!heroPreferences.paused&&!motion.matches&&!hovered&&!focused&&onscreen&&!document.hidden&&document.body.dataset.view==='catalog')timer=setTimeout(()=>{timer=null;show(heroPreferences.index+1,false)},8000)}
+ function schedule(){cancel();if(!disposed&&!heroPreferences.paused&&!motion.matches&&!hovered&&!focused&&!windowBlurred&&onscreen&&!document.hidden&&document.body.dataset.view==='catalog')timer=setTimeout(()=>{timer=null;show(heroPreferences.index+1,false)},8000)}
  function update(){
-  // Warm the current and following image before the next automatic change.
   for(const index of [heroPreferences.index,(heroPreferences.index+1)%slides.length])slides[index].querySelectorAll('img').forEach(img=>{img.loading='eager'});
-  root.dataset.autoplay=motion.matches?'reduced':heroPreferences.paused?'paused':hovered?'hover-paused':focused?'focus-paused':'playing';
-
+  root.dataset.autoplay=motion.matches?'reduced':heroPreferences.paused?'paused':document.hidden?'hidden':windowBlurred?'window-paused':hovered?'hover-paused':focused?'focus-paused':!onscreen?'offscreen':'playing';
  }
  function announce(text){root.querySelector('.hero-announcement').textContent=text}
  function show(index,manual){
@@ -82,12 +80,13 @@ function mountHeroCarousel(){
  };
  root.onkeydown=e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();show(e.key==='Home'?0:e.key==='End'?slides.length-1:heroPreferences.index+(e.key==='ArrowRight'?1:-1),true)}else if(e.key===' '&&e.target===root){e.preventDefault();heroPreferences.paused=!heroPreferences.paused;announce(heroPreferences.paused?'自动播放已暂停':'自动播放已开启');update();schedule()}else if(e.key==='Escape'){heroPreferences.paused=true;update();cancel()}};
  root.onmouseenter=()=>{hovered=true;update();schedule()};root.onmouseleave=()=>{hovered=false;update();schedule()};
- // Focus holds the image stable while its destination is being read.
  root.addEventListener('focusin',()=>{focused=true;update();cancel()});
  root.addEventListener('focusout',e=>{if(!root.contains(e.relatedTarget)){focused=false;update();schedule()}});
- const visibility=()=>schedule(),changedMotion=()=>{if(motion.matches)heroPreferences.paused=true;update();schedule()};
+ const visibility=()=>{update();schedule()},changedMotion=()=>{update();schedule()};
+ const blurred=()=>{windowBlurred=true;update();schedule()},gained=()=>{windowBlurred=false;focused=root.contains(document.activeElement);update();schedule()};
  document.addEventListener('visibilitychange',visibility);motion.addEventListener?.('change',changedMotion);
- const observer=typeof IntersectionObserver==='function'?new IntersectionObserver(entries=>{onscreen=entries[0].isIntersecting;schedule()}):null;observer?.observe(root);
- heroCleanup=()=>{disposed=true;cancel();observer?.disconnect();document.removeEventListener('visibilitychange',visibility);motion.removeEventListener?.('change',changedMotion)};
+ window.addEventListener('blur',blurred);window.addEventListener('focus',gained);
+ const observer=typeof IntersectionObserver==='function'?new IntersectionObserver(entries=>{if(disposed)return;onscreen=entries[0].isIntersecting;update();schedule()}):null;observer?.observe(root);
+ heroCleanup=()=>{disposed=true;cancel();observer?.disconnect();document.removeEventListener('visibilitychange',visibility);motion.removeEventListener?.('change',changedMotion);window.removeEventListener('blur',blurred);window.removeEventListener('focus',gained)};
  update();schedule();
 }

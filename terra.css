@@ -81,7 +81,7 @@ body[data-brand] .curated-link small{color:var(--tm-brand);font-size:11px}
 body[data-brand] .curated-link strong{font:500 18px/1.6 var(--tm-display);color:var(--tm-ink)}
 body[data-brand] .curated-link p{font-size:12px;line-height:1.8;color:var(--tm-muted)}
 body[data-brand] .curated-link:hover strong{text-decoration:underline;text-underline-offset:4px}
-body[data-brand] .discovery-browser{margin:0 0 64px;scroll-margin-top:24px}
+body[data-brand] .discovery-browser{margin:42px 0 64px;scroll-margin-top:24px}
 body[data-brand] .discovery-browser-head{align-items:flex-end}
 body[data-brand] .discovery-browser-head p{font-size:13px;color:var(--tm-muted);margin:8px 0 0}
 body[data-brand] .discovery-area{color:var(--tm-muted);font-size:12px}
@@ -293,7 +293,7 @@ body[data-brand] .credits-button{color:var(--tm-brand)}
  body[data-brand] .curated-link>div{height:110px}
  body[data-brand] .curated-link strong{font-size:18px}
  body[data-brand] .curated-link p{font-size:12px}
- body[data-brand] .discovery-browser{margin-bottom:40px}
+ body[data-brand] .discovery-browser{margin:28px 0 40px}
  body[data-brand] .discovery-browser-head{align-items:flex-start;gap:15px}
  body[data-brand] .discovery-browser-head p{font-size:12px;line-height:1.85}
  body[data-brand] .discovery-area{font-size:11px;flex-shrink:0}
@@ -384,3 +384,11 @@ body[data-brand] .hero-slide-artwork .hero-visual{bottom:150px;background:#edece
 body[data-brand] .hero-slide-artwork .hero-visual>img{object-fit:contain;padding:12px}
 body[data-brand] .hero-caption i{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 @media(max-width:760px){body[data-brand] .hero-slide-artwork .hero-visual{bottom:142px}body[data-brand] .hero-slide-artwork .hero-visual>img{padding:8px}}
+
+/* Selected landscape itineraries share the discovery card design. */
+body[data-brand] .nature-route-discovery{margin-top:36px}
+body[data-brand] .nature-route-discovery:first-child{margin-top:0}
+body[data-brand] .nature-route-heading{margin-bottom:20px}
+body[data-brand] .nature-route-heading h3{font:500 23px/1.5 var(--tm-display);color:var(--tm-ink);margin:0 0 6px}
+body[data-brand] .nature-route-heading p{font-size:13px;line-height:1.8;color:var(--tm-muted);margin:0}
+@media(max-width:760px){body[data-brand] .nature-route-discovery{margin-top:28px}body[data-brand] .nature-route-heading h3{font-size:21px}}
