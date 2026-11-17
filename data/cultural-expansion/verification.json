@@ -1,6 +1,6 @@
 {
   "checkedOn": "2026-11-17",
-  "environment": "hosted JavaScript via functions.exec; no filesystem/executor",
+  "environment": "hosted JavaScript integrity validation plus GitHub Actions Node.js 22 regression tests; no local executor",
   "status": "passed",
   "checks": {
     "shapeAndLinks": true,
@@ -49,10 +49,21 @@
     "mediaCandidates": 10
   },
   "notRun": [
-    "Node.js test runner (executor unavailable)",
-    "full project regression tests",
     "asset file downloads, checksums and visual identification",
-    "browser desktop/mobile UI checks"
+    "browser desktop/mobile UI checks",
+    "full browser automation suite"
   ],
-  "liveIntegration": false
+  "liveIntegration": false,
+  "ci": {
+    "url": "https://github.com/raeqi/world-travel-map/actions/runs/44051350746",
+    "commit": "5a6a9bec1fe2142d5b75fac8c03ec508a91b13ba",
+    "testJob": "success",
+    "nodeVersion": "22",
+    "tests": 10,
+    "passed": 10,
+    "failed": 0,
+    "syntaxCheck": "success",
+    "sitePreparation": "success",
+    "deploy": "skipped: pull request"
+  }
 }
