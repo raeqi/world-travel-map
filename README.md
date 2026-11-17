@@ -273,3 +273,15 @@ PR #4 已独立合并并提供 `cultural-routes.js` 与 `assets/cultural-routes/
 验证：`node --test tests/*.test.cjs`；`node scripts/run-browser-suite.cjs check-cultural-collections.cjs check-cultural-atlas-browser.cjs`。
 浏览器检查覆盖18个合集及76个原主题在1440×1000和390×844视口下的入口、子线、筛选、
 刷新、返回、地点深读与影像解码；截图和结果由文化主题CI任务留存。
+
+
+### 图片阅览与署名呈现
+
+主题详情封面、画作卡片、关联作品和地点照片使用 `mediaOpenHTML` 提供整幅图像的原生按钮，
+支持 Enter / Space 打开、Escape 关闭和关闭后焦点返回。多图封面逐图打开对应原图，首页
+导航卡片仍保留自己的主题导航，不嵌套图片按钮。图像下的 `mediaCaptionHTML` 持续显示作者
+与许可链接，“图像资料”展开完整来源及图像处理说明；全站影像来源目录和阅览室署名保留。
+
+`node scripts/check-media-presentation.cjs` 检查全部主题封面、桌面和手机样式、键盘与焦点、
+复合封面的对应原图、逐图来源，以及更新区域的 axe WCAG 2 A/AA 与 2.1 A/AA 自动检查。
+这不等同于完整的辅助技术人工审计。

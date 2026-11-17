@@ -384,3 +384,41 @@ body[data-brand] .hero-slide-artwork .hero-visual{bottom:150px;background:#edece
 body[data-brand] .hero-slide-artwork .hero-visual>img{object-fit:contain;padding:12px}
 body[data-brand] .hero-caption i{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 @media(max-width:760px){body[data-brand] .hero-slide-artwork .hero-visual{bottom:142px}body[data-brand] .hero-slide-artwork .hero-visual>img{padding:8px}}
+
+/* Images open as a whole; attribution belongs to the caption, never over the art. */
+body[data-brand] .media-open{appearance:none;display:block;position:relative;max-width:100%;margin:0;padding:0;border:0;border-radius:inherit;background:transparent;color:inherit;box-shadow:none;cursor:zoom-in;line-height:normal;text-align:inherit}
+body[data-brand] .media-open:focus-visible{outline:3px solid var(--tm-clay);outline-offset:-3px;z-index:2}
+body[data-brand] #theme-hero::after{display:none}
+body[data-brand] #theme-hero button.media-open{position:relative;inset:auto;display:block;width:100%;height:100%;min-height:44px;padding:0;margin:0;border:0;border-radius:0;background:transparent;box-shadow:none;transform:none}
+body[data-brand] #theme-hero .edition-cover .media-open{min-width:0;min-height:0}
+body[data-brand] #theme-hero .edition-cover :is(.object-title,.cover-note,.score-label,.life-events,.street-panel>span){pointer-events:none}
+body[data-brand] #theme-hero .cover-andes>.media-open img{object-position:50% 45%}
+body[data-brand] #theme-hero .cover-impressionism{grid-template-columns:minmax(0,1.63fr) minmax(0,1fr)}
+body[data-brand] #theme-hero .cover-viking>.media-open{min-width:0;flex:0 0 48%;width:48%}
+body[data-brand] #theme-hero .cover-viking>.media-open img,body[data-brand] #theme-hero .cover-mozart>.media-open img{object-fit:contain!important}
+body[data-brand] #theme-hero .cover-route66>.media-open img{object-position:40% 50%}
+body[data-brand] #detail .media-open{float:none;width:100%;min-height:44px;padding:0;border:0;border-radius:7px;background:transparent;box-shadow:none}
+body[data-brand] .place-photo .media-open img{display:block;width:100%}
+body[data-brand] .reading-work>.media-open{align-self:start;overflow:hidden}
+body[data-brand] .media-caption{min-width:0;margin:0;padding:0;color:var(--tm-muted);font:11px/1.8 var(--tm-font);text-align:left;overflow-wrap:anywhere}
+body[data-brand] #theme-reading .media-caption .media-caption-title{font:12px/1.7 var(--tm-font);color:var(--tm-ink)!important;margin:0 0 5px}
+body[data-brand] .media-byline{display:flex;flex-direction:column;gap:3px;font-size:11px;line-height:1.8}
+body[data-brand] .media-byline>span{position:static;display:block;color:var(--tm-muted);font:inherit;letter-spacing:0}
+body[data-brand] .media-caption a{color:var(--tm-muted);text-decoration:underline;text-decoration-color:#aab6b5;text-underline-offset:3px}
+body[data-brand] .media-caption a:hover{color:var(--tm-brand);text-decoration-color:currentColor}
+body[data-brand] .media-caption-tools{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 16px;margin-top:3px}
+body[data-brand] .media-view-hint{position:static;display:block;font:11px/1.8 var(--tm-font);color:var(--tm-muted);letter-spacing:0}
+body[data-brand] .media-source{min-width:0;max-width:100%;margin:0;font:11px/1.8 var(--tm-font)}
+body[data-brand] .media-source>summary{display:flex;align-items:center;gap:6px;min-height:36px;width:fit-content;max-width:100%;padding:5px 0;border:0;border-radius:0;background:transparent;color:var(--tm-brand);font:500 11px/1.8 var(--tm-font);list-style:none;cursor:pointer;box-shadow:none}
+body[data-brand] .media-source>summary::-webkit-details-marker{display:none}
+body[data-brand] .media-source>summary::before{content:'+';font-size:14px;line-height:1}
+body[data-brand] .media-source[open]>summary::before{content:'−'}
+body[data-brand] .media-source-content{padding:10px 12px;margin:0 0 8px;border-left:2px solid var(--tm-line);background:var(--tm-soft);font:11px/1.8 var(--tm-font);overflow-wrap:anywhere}
+body[data-brand] .media-source-content>div+div{border-top:1px solid var(--tm-line);padding-top:10px;margin-top:10px}
+body[data-brand] #theme-reading .media-source-content p,body[data-brand] .media-source-content p{font:11px/1.8 var(--tm-font);margin:6px 0 0;color:var(--tm-muted)!important}
+body[data-brand] .theme-reading-guide{padding-top:12px;margin-top:9px;border-top:1px solid var(--tm-line)}
+body[data-brand] .theme-reading-guide p{margin-bottom:0}
+body[data-brand] .artwork-card .media-caption,body[data-brand] .reading-work .media-caption{margin:10px 0}
+body[data-brand] .place-photo figcaption>.media-caption{padding:0}
+body[data-brand] #detail .media-caption a{font-size:11px}
+@media(max-width:760px){body[data-brand] .media-source>summary{min-height:44px}body[data-brand] .media-caption-tools{gap:0 12px}body[data-brand] .media-byline a{display:inline-block;min-height:24px}body[data-brand] #theme-reading .media-caption .media-caption-title{font-size:12px}}

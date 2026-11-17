@@ -180,9 +180,11 @@ const editorialPlacePhotos={
 function mediaImage(key,extra=''){
  const m=photoLibrary[key];return `<img src="${photoPath(key)}" alt="${m.title}" decoding="async" ${extra||'loading="lazy"'}>`;
 }
-function editionCoverHTML(id){
+function editionCoverKeys(id){const story=editionStories[id];return [...new Set([themeMedia[id].photo,...(story?.second&&['nakasendo','andes','impressionism','route66'].includes(id)?[story.second]:[])])]}
+function editionCoverHTML(id,interactive=false){
  const s=editionStories[id];if(!s)return '';
- const primary=mediaImage(s.photo),secondary=s.second?mediaImage(s.second,'loading="lazy"'):'';
+ const image=key=>interactive?mediaOpenHTML(key,mediaImage(key),key===s.photo?'read-plate':'secondary-image-open'):mediaImage(key);
+ const primary=image(s.photo),secondary=s.second?image(s.second):'';
  let content=primary;
  if(id==='nakasendo')content=`<div class="print-panel">${primary}</div><div class="street-panel">${secondary}<span>今日妻笼</span></div>`;
  if(id==='andes')content=`${primary}<div class="document-inset">${secondary}</div><span class="cover-note">Qhapaq Ñan<br>六国道路网络</span>`;
@@ -193,7 +195,7 @@ function editionCoverHTML(id){
  if(id==='buddhist')content+=`<span class="life-events">出生　成道　说法　涅槃</span>`;
  return `<div class="edition-cover cover-${id}">${content}</div>`;
 }
-function artworkHTML(work){return `<figure class="artwork-card"><button class="artwork-image" data-read-image="${work.key}" aria-label="查看《${work.title}》完整画作">${mediaImage(work.key,'loading="lazy"')}</button><figcaption><span class="artwork-date">${work.year}</span><h4>${work.title}</h4><p>${work.artist}</p><dl><div><dt>${work.locationLabel||'画中地点'}</dt><dd>${work.subject}</dd></div><div><dt>现藏</dt><dd>${work.collection}</dd></div></dl><div class="artwork-actions"><button data-art-place="${work.key}">定位${work.locationLabel?'关联地点':'画中地点'}</button><button data-art-museum="${work.key}">定位馆藏地</button></div></figcaption></figure>`}
+function artworkHTML(work){return `<figure class="artwork-card">${mediaOpenHTML(work.key,mediaImage(work.key,'loading="lazy"'),'artwork-image')}<figcaption><span class="artwork-date">${work.year}</span><h4>${work.title}</h4><p>${work.artist}</p><dl><div><dt>${work.locationLabel||'画中地点'}</dt><dd>${work.subject}</dd></div><div><dt>现藏</dt><dd>${work.collection}</dd></div></dl>${mediaCaptionHTML([work.key],'',false)}<div class="artwork-actions"><button data-art-place="${work.key}">定位${work.locationLabel?'关联地点':'画中地点'}</button><button data-art-museum="${work.key}">定位馆藏地</button></div></figcaption></figure>`}
 function renderEditionExhibit(){
  let el=document.querySelector('#edition-exhibit');if(!el){el=document.createElement('section');el.id='edition-exhibit';document.querySelector('#discover-panel .panel-guide').after(el)}
  const id=themes[activeTheme].id,works=worksForTheme(id);el.hidden=!works.length;
@@ -202,19 +204,22 @@ function renderEditionExhibit(){
  el.innerHTML=`<div class="exhibit-heading"><h3>从一幅画出发</h3><p>${works.length} 幅作品，分别定位描绘或创作关联地与馆藏地。</p><label>画家<select id="art-artist"><option value="all">全部画家</option>${artists.map(a=>'<option>'+a+'</option>').join('')}</select></label></div><div class="artwork-grid"></div>`;
  const render=()=>{const artist=el.querySelector('select').value;el.querySelector('.artwork-grid').innerHTML=works.filter(w=>artist==='all'||w.artist===artist).map(artworkHTML).join('')};el.querySelector('select').onchange=render;render();
 }
-function openImageRoom(key){
+let imageRoomReturnFocus=null;
+function openImageRoom(key,trigger=document.activeElement){
  const m=photoLibrary[key];if(!m)return;
  let dialog=document.querySelector('#image-room');if(!dialog){dialog=document.createElement('dialog');dialog.id='image-room';dialog.setAttribute('aria-labelledby','image-room-title');document.body.append(dialog);dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()})}
+ imageRoomReturnFocus=trigger?.closest?.('[data-read-image]')||trigger;
+ if(!dialog.dataset.focusReturnBound){dialog.dataset.focusReturnBound='true';dialog.addEventListener('close',()=>{if(imageRoomReturnFocus?.isConnected)imageRoomReturnFocus.focus({preventScroll:true});imageRoomReturnFocus=null})}
  const work=artWorks.find(w=>w.key===key),story=Object.values(editionStories).find(s=>s.photo===key||s.second===key);
  dialog.innerHTML=`<button class="room-close" aria-label="关闭影像阅览">×</button><div class="room-image">${mediaImage(key)}</div><div class="room-copy"><h2 id="image-room-title">${work?work.title:m.title}</h2>${work?`<p class="room-byline">${work.artist}，${work.year}<br><span lang="en">${work.original}</span></p><p>${work.context}</p><dl class="work-locations"><div><dt>${work.locationLabel||'画中地点'}</dt><dd>${work.subject}</dd></div><div><dt>现藏机构</dt><dd>${work.collection}</dd></div></dl><div class="artwork-actions"><button data-art-place="${key}">在地图上看${work.locationLabel?'关联地点':'画中地点'}</button><button data-art-museum="${key}">在地图上看馆藏地</button></div><a class="record-link" href="${work.record}" target="_blank" rel="noopener noreferrer">作品官方著录</a>`:`<p>${story?.body||''}</p><p>${story?.detail||''}</p>`}<div class="room-credit">${photoCredit(key)}<p>${m.changes||'项目原有图像，界面中按比例缩放与裁切。'}</p></div></div>`;
  dialog.querySelector('.room-close').onclick=()=>dialog.close();if(!dialog.open)dialog.showModal();
 }
 function locateArtwork(key,role){
  const work=artWorks.find(w=>w.key===key);if(!work)return;
- document.querySelector('#image-room')?.close();const p=places.find(p=>p.id===(role==='museum'?work.museumId:work.placeId));select(p);
+ imageRoomReturnFocus=null;document.querySelector('#image-room')?.close();const p=places.find(p=>p.id===(role==='museum'?work.museumId:work.placeId));select(p);
 }
 document.addEventListener('click',e=>{
- const read=e.target.closest('[data-read-image]');if(read){openImageRoom(read.dataset.readImage);return}
+ const read=e.target.closest('[data-read-image]');if(read){openImageRoom(read.dataset.readImage,read);return}
  const subject=e.target.closest('[data-art-place]');if(subject){locateArtwork(subject.dataset.artPlace,'subject');return}
  const museum=e.target.closest('[data-art-museum]');if(museum)locateArtwork(museum.dataset.artMuseum,'museum');
 });

@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: '22'
       - name: Install isolated test tools
-        run: npm install --no-save --no-package-lock jsdom@26.1.0 playwright@1.56.1
+        run: npm install --no-save --no-package-lock jsdom@26.1.0 playwright@1.56.1 axe-core
       - name: Check carousel behaviour
         run: |
           node scripts/check-carousel.cjs
@@ -50,12 +50,16 @@ jobs:
       - name: Check desktop and mobile UI
         env:
           INLINE_SCREENSHOTS: '1'
-        run: node scripts/check-terra-ui.cjs
+        run: |
+          node scripts/check-media-presentation.cjs
+          node scripts/check-terra-ui.cjs
       - name: Upload real browser screenshots
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: terra-mosaic-browser
-          path: qa/terra-mosaic/
+          path: |
+            qa/terra-mosaic/
+            qa/media-presentation/
           if-no-files-found: ignore
           retention-days: 14
