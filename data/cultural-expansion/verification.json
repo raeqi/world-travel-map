@@ -1,0 +1,58 @@
+{
+  "checkedOn": "2026-11-17",
+  "environment": "hosted JavaScript via functions.exec; no filesystem/executor",
+  "status": "passed",
+  "checks": {
+    "shapeAndLinks": true,
+    "duplicateIds": true,
+    "placeCoordinates": true,
+    "nonemptySpecificContent": true,
+    "sourceReferences": true,
+    "workCollectionSeparation": true,
+    "perMediaRightsAndAssetState": true,
+    "baseAliases": [
+      "nakasendo-tokyo",
+      "impressionism-met"
+    ],
+    "negativeCases": [
+      {
+        "name": "dangling route stop",
+        "detected": true
+      },
+      {
+        "name": "duplicate point ID",
+        "detected": true
+      },
+      {
+        "name": "missing evidence",
+        "detected": true
+      },
+      {
+        "name": "collection confused with subject",
+        "detected": true
+      },
+      {
+        "name": "wrong artwork/media binding",
+        "detected": true
+      },
+      {
+        "name": "unmaterialized asset claim",
+        "detected": true
+      }
+    ]
+  },
+  "counts": {
+    "themes": 4,
+    "places": 21,
+    "works": 11,
+    "plans": 10,
+    "mediaCandidates": 10
+  },
+  "notRun": [
+    "Node.js test runner (executor unavailable)",
+    "full project regression tests",
+    "asset file downloads, checksums and visual identification",
+    "browser desktop/mobile UI checks"
+  ],
+  "liveIntegration": false
+}
