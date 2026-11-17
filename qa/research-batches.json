@@ -2625,33 +2625,7 @@
       "specificResearchPending": []
     },
     {
-      "theme": "roads",
-      "id": "roads-iceland1",
-      "name": "冰岛 1 号公路 · 火山与冰川环岛",
-      "stops": 8,
-      "layeredReading": 8,
-      "sourceLinks": [
-        "https://www.visiticeland.com/article/the-ring-road/",
-        "https://www.visiticeland.com/article/driving-in-iceland/",
-        "https://www.visiticeland.com/icelandic-towns-and-villages/"
-      ],
-      "matchedImages": 1,
-      "hasCover": true,
-      "shortDescriptionIds": [
-        "road-reykjavik",
-        "road-vik",
-        "road-jokulsarlon",
-        "road-hofn",
-        "road-egilsstadir",
-        "road-myvatn",
-        "road-akureyri",
-        "road-borgarnes"
-      ],
-      "withoutLayeredReading": [],
-      "specificResearchPending": []
-    },
-    {
-      "theme": "roads",
+      "theme": "drive-g219",
       "id": "roads-g219",
       "name": "G219 · 从喀纳斯到东兴 · 分区总览",
       "stops": 7,
@@ -2678,7 +2652,32 @@
       "specificResearchPending": []
     },
     {
-      "theme": "roads",
+      "theme": "drive-g219",
+      "id": "roads-g219-ngari",
+      "name": "G219 · 阿里高原与札达支线",
+      "stops": 5,
+      "layeredReading": 5,
+      "sourceLinks": [
+        "https://lyfz.al.gov.cn/info/1772/19541.htm",
+        "https://www.ctnews.com.cn/zt/content/2023-03/10/content_138371.html",
+        "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202608/t20260817_4222428.html",
+        "https://commons.wikimedia.org/wiki/File:Ngari_Prefecture_IMG_3599.jpg",
+        "https://lyfz.al.gov.cn/info/1742/15741.htm"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-shiquanhe",
+        "road-gar-landscape",
+        "road-zanda",
+        "road-tholing",
+        "road-darchen"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "drive-g331",
       "id": "roads-g331",
       "name": "G331 · 从界江到北境草原 · 分区总览",
       "stops": 7,
@@ -2705,7 +2704,33 @@
       "specificResearchPending": []
     },
     {
-      "theme": "roads",
+      "theme": "drive-g331",
+      "id": "roads-g331-yalu",
+      "name": "G331 · 鸭绿江城镇慢行",
+      "stops": 4,
+      "layeredReading": 4,
+      "sourceLinks": [
+        "https://cpc.people.com.cn/GB/64176/64180/2534588.html",
+        "https://www.ln.gov.cn/web/ywdt/zymtkln/2026082808323058127/index.shtml",
+        "https://www.jl.gov.cn/szfzt/gzlfz/gzdt/202603/t20260307_3593768.html",
+        "https://www.jl.xinhuanet.com/20250925/1e85d8bae2284eca95bc622bab255b17/c.html",
+        "https://whc.unesco.org/en/list/1135/",
+        "https://www.mct.gov.cn/wlbphone/wlbydd/xxfb/qglb/jl/202310/t20231007_947727.html",
+        "https://www.jl.gov.cn/yaowen/202509/t20250920_3499865.html"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-dandong",
+        "road-jian",
+        "road-linjiang",
+        "road-changbai"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "drive-g228",
       "id": "roads-g228",
       "name": "G228 · 大陆海岸的城市与港口 · 分区总览",
       "stops": 7,
@@ -2732,56 +2757,77 @@
       "specificResearchPending": []
     },
     {
-      "theme": "roads",
-      "id": "roads-greatocean",
-      "name": "澳大利亚 · 大洋路慢行",
-      "stops": 7,
-      "layeredReading": 7,
+      "theme": "drive-g228",
+      "id": "roads-g228-shandong",
+      "name": "G228 · 胶东山海与城市支线",
+      "stops": 5,
+      "layeredReading": 5,
       "sourceLinks": [
-        "https://visitgreatoceanroad.org.au/torquaylife/",
-        "https://visitgreatoceanroad.org.au/explore/9-smart-travel-tips-for-planning-your-great-ocean-road-adventure/",
-        "https://visitgreatoceanroad.org.au/Itineraries/the-must-see-places-of-the-great-ocean-road-region/",
-        "https://visitgreatoceanroad.org.au/discover-the-region/big-nature/13-must-see-places-across-the-great-ocean-road-region/"
+        "https://www.qingdao.gov.cn/ywdt/zwyw/202610/t20261006_10746545.shtml",
+        "https://wlt.fujian.gov.cn/wldt/btdt/202412/t20241230_6599855.htm",
+        "https://www.qingdao.gov.cn/ywdt/zwyw/202608/t20260821_10705769.shtml",
+        "https://www.ln.gov.cn/web/ywdt/zymtkln/2025011309104974325/index.shtml",
+        "https://jtt.shandong.gov.cn/jssc/homeprojectinfo/tab/P0000000000000004927",
+        "https://www.weihai.gov.cn/art/2025/12/17/art_180018_6023645.html"
       ],
       "matchedImages": 1,
       "hasCover": true,
       "shortDescriptionIds": [
-        "road-torquay",
-        "road-lorne",
-        "road-otway",
-        "road-apostles",
-        "road-portcampbell",
-        "road-allansford"
+        "road-qingdao",
+        "road-haiyang",
+        "road-rushan",
+        "road-rongcheng",
+        "road-weihai"
       ],
       "withoutLayeredReading": [],
       "specificResearchPending": []
     },
     {
-      "theme": "roads",
-      "id": "roads-arctic",
-      "name": "加拿大 · 开往北冰洋",
-      "stops": 7,
-      "layeredReading": 7,
+      "theme": "drive-california",
+      "id": "roads-california1",
+      "name": "加州 SR1 · 蒙特雷到圣西蒙",
+      "stops": 5,
+      "layeredReading": 5,
       "sourceLinks": [
-        "https://www.travelyukon.com/en/see-and-do/itineraries/dempster-highway-road-trip-itinerary",
-        "https://www.inf.gov.nt.ca/en/transportation",
-        "https://www.nwtparks.ca/plan-your-trip/road-trips/dempster-highway",
-        "https://www.inf.gov.nt.ca/en/ferries"
+        "https://www.visitcalifornia.com/experience/highway-ones-most-scenic-stops/",
+        "https://www.visitcalifornia.com/now/road-trip-highway-1-santa-cruz-to-big-sur/"
       ],
       "matchedImages": 1,
       "hasCover": true,
       "shortDescriptionIds": [
-        "road-tombstone",
-        "road-eagle",
-        "road-circle",
-        "road-mcpherson",
-        "road-tuk"
+        "road-monterey",
+        "road-carmel",
+        "road-bixby",
+        "road-bigsur",
+        "road-sansimeon"
       ],
       "withoutLayeredReading": [],
       "specificResearchPending": []
     },
     {
-      "theme": "roads",
+      "theme": "drive-florida",
+      "id": "roads-overseas",
+      "name": "美国 US1 · 佛罗里达海外公路",
+      "stops": 5,
+      "layeredReading": 5,
+      "sourceLinks": [
+        "https://fla-keys.com/how-to-get-here/",
+        "https://fla-keys.com/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-keylargo",
+        "road-islamorada",
+        "road-marathon",
+        "road-sevenmile",
+        "road-keywest"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "drive-utah",
       "id": "roads-utah12",
       "name": "犹他 12 号风景道 · 红岩到高原森林",
       "stops": 6,
@@ -2802,7 +2848,7 @@
       "specificResearchPending": []
     },
     {
-      "theme": "roads",
+      "theme": "drive-utah",
       "id": "roads-utah5",
       "name": "犹他 Mighty 5 · 用风景道连接五园",
       "stops": 6,
@@ -2830,7 +2876,31 @@
       "specificResearchPending": []
     },
     {
-      "theme": "roads",
+      "theme": "drive-arctic",
+      "id": "roads-arctic",
+      "name": "加拿大 · 开往北冰洋",
+      "stops": 7,
+      "layeredReading": 7,
+      "sourceLinks": [
+        "https://www.travelyukon.com/en/see-and-do/itineraries/dempster-highway-road-trip-itinerary",
+        "https://www.inf.gov.nt.ca/en/transportation",
+        "https://www.nwtparks.ca/plan-your-trip/road-trips/dempster-highway",
+        "https://www.inf.gov.nt.ca/en/ferries"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-tombstone",
+        "road-eagle",
+        "road-circle",
+        "road-mcpherson",
+        "road-tuk"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "drive-atlantic",
       "id": "roads-atlantic",
       "name": "挪威 · 大西洋之路",
       "stops": 5,
@@ -2852,7 +2922,58 @@
       "specificResearchPending": []
     },
     {
-      "theme": "roads",
+      "theme": "drive-iceland",
+      "id": "roads-iceland1",
+      "name": "冰岛 1 号公路 · 火山与冰川环岛",
+      "stops": 8,
+      "layeredReading": 8,
+      "sourceLinks": [
+        "https://www.visiticeland.com/article/the-ring-road/",
+        "https://www.visiticeland.com/article/driving-in-iceland/",
+        "https://www.visiticeland.com/icelandic-towns-and-villages/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-reykjavik",
+        "road-vik",
+        "road-jokulsarlon",
+        "road-hofn",
+        "road-egilsstadir",
+        "road-myvatn",
+        "road-akureyri",
+        "road-borgarnes"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "drive-greatocean",
+      "id": "roads-greatocean",
+      "name": "澳大利亚 · 大洋路慢行",
+      "stops": 7,
+      "layeredReading": 7,
+      "sourceLinks": [
+        "https://visitgreatoceanroad.org.au/torquaylife/",
+        "https://visitgreatoceanroad.org.au/explore/9-smart-travel-tips-for-planning-your-great-ocean-road-adventure/",
+        "https://visitgreatoceanroad.org.au/Itineraries/the-must-see-places-of-the-great-ocean-road-region/",
+        "https://visitgreatoceanroad.org.au/discover-the-region/big-nature/13-must-see-places-across-the-great-ocean-road-region/"
+      ],
+      "matchedImages": 1,
+      "hasCover": true,
+      "shortDescriptionIds": [
+        "road-torquay",
+        "road-lorne",
+        "road-otway",
+        "road-apostles",
+        "road-portcampbell",
+        "road-allansford"
+      ],
+      "withoutLayeredReading": [],
+      "specificResearchPending": []
+    },
+    {
+      "theme": "drive-milford",
       "id": "roads-milford",
       "name": "新西兰 SH94 · 开往米尔福德峡湾",
       "stops": 5,
@@ -2875,51 +2996,7 @@
       "specificResearchPending": []
     },
     {
-      "theme": "roads",
-      "id": "roads-california1",
-      "name": "加州 SR1 · 蒙特雷到圣西蒙",
-      "stops": 5,
-      "layeredReading": 5,
-      "sourceLinks": [
-        "https://www.visitcalifornia.com/experience/highway-ones-most-scenic-stops/",
-        "https://www.visitcalifornia.com/now/road-trip-highway-1-santa-cruz-to-big-sur/"
-      ],
-      "matchedImages": 1,
-      "hasCover": true,
-      "shortDescriptionIds": [
-        "road-monterey",
-        "road-carmel",
-        "road-bixby",
-        "road-bigsur",
-        "road-sansimeon"
-      ],
-      "withoutLayeredReading": [],
-      "specificResearchPending": []
-    },
-    {
-      "theme": "roads",
-      "id": "roads-overseas",
-      "name": "美国 US1 · 佛罗里达海外公路",
-      "stops": 5,
-      "layeredReading": 5,
-      "sourceLinks": [
-        "https://fla-keys.com/how-to-get-here/",
-        "https://fla-keys.com/"
-      ],
-      "matchedImages": 1,
-      "hasCover": true,
-      "shortDescriptionIds": [
-        "road-keylargo",
-        "road-islamorada",
-        "road-marathon",
-        "road-sevenmile",
-        "road-keywest"
-      ],
-      "withoutLayeredReading": [],
-      "specificResearchPending": []
-    },
-    {
-      "theme": "roads",
+      "theme": "drive-garden",
       "id": "roads-garden",
       "name": "南非花园大道 · 森林、泻湖与海岸",
       "stops": 5,
@@ -2937,83 +3014,6 @@
         "road-knysna",
         "road-plett",
         "road-storms"
-      ],
-      "withoutLayeredReading": [],
-      "specificResearchPending": []
-    },
-    {
-      "theme": "roads",
-      "id": "roads-g219-ngari",
-      "name": "G219 · 阿里高原与札达支线",
-      "stops": 5,
-      "layeredReading": 5,
-      "sourceLinks": [
-        "https://lyfz.al.gov.cn/info/1772/19541.htm",
-        "https://www.ctnews.com.cn/zt/content/2023-03/10/content_138371.html",
-        "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202608/t20260817_4222428.html",
-        "https://commons.wikimedia.org/wiki/File:Ngari_Prefecture_IMG_3599.jpg",
-        "https://lyfz.al.gov.cn/info/1742/15741.htm"
-      ],
-      "matchedImages": 1,
-      "hasCover": true,
-      "shortDescriptionIds": [
-        "road-shiquanhe",
-        "road-gar-landscape",
-        "road-zanda",
-        "road-tholing",
-        "road-darchen"
-      ],
-      "withoutLayeredReading": [],
-      "specificResearchPending": []
-    },
-    {
-      "theme": "roads",
-      "id": "roads-g228-shandong",
-      "name": "G228 · 胶东山海与城市支线",
-      "stops": 5,
-      "layeredReading": 5,
-      "sourceLinks": [
-        "https://www.qingdao.gov.cn/ywdt/zwyw/202610/t20261006_10746545.shtml",
-        "https://wlt.fujian.gov.cn/wldt/btdt/202412/t20241230_6599855.htm",
-        "https://www.qingdao.gov.cn/ywdt/zwyw/202608/t20260821_10705769.shtml",
-        "https://www.ln.gov.cn/web/ywdt/zymtkln/2025011309104974325/index.shtml",
-        "https://jtt.shandong.gov.cn/jssc/homeprojectinfo/tab/P0000000000000004927",
-        "https://www.weihai.gov.cn/art/2025/12/17/art_180018_6023645.html"
-      ],
-      "matchedImages": 1,
-      "hasCover": true,
-      "shortDescriptionIds": [
-        "road-qingdao",
-        "road-haiyang",
-        "road-rushan",
-        "road-rongcheng",
-        "road-weihai"
-      ],
-      "withoutLayeredReading": [],
-      "specificResearchPending": []
-    },
-    {
-      "theme": "roads",
-      "id": "roads-g331-yalu",
-      "name": "G331 · 鸭绿江城镇慢行",
-      "stops": 4,
-      "layeredReading": 4,
-      "sourceLinks": [
-        "https://cpc.people.com.cn/GB/64176/64180/2534588.html",
-        "https://www.ln.gov.cn/web/ywdt/zymtkln/2026082808323058127/index.shtml",
-        "https://www.jl.gov.cn/szfzt/gzlfz/gzdt/202603/t20260307_3593768.html",
-        "https://www.jl.xinhuanet.com/20250925/1e85d8bae2284eca95bc622bab255b17/c.html",
-        "https://whc.unesco.org/en/list/1135/",
-        "https://www.mct.gov.cn/wlbphone/wlbydd/xxfb/qglb/jl/202310/t20231007_947727.html",
-        "https://www.jl.gov.cn/yaowen/202509/t20250920_3499865.html"
-      ],
-      "matchedImages": 1,
-      "hasCover": true,
-      "shortDescriptionIds": [
-        "road-dandong",
-        "road-jian",
-        "road-linjiang",
-        "road-changbai"
       ],
       "withoutLayeredReading": [],
       "specificResearchPending": []

@@ -10,11 +10,11 @@ vm.runInContext(`
 assert.equal(scenicRoads.length,16);
 assert.equal(scenicRoadPlaceMap.size,88);
 assert.equal(places.length,before.places+88);
-assert.equal(themes.length,before.themes+1);
+assert.equal(themes.length,before.themes+12);
 assert.equal(planTemplates.length,before.plans+16);
 assert.equal(new Set(places.map(p=>p.id)).size,places.length);
 assert.equal(new Set(planTemplates.map(p=>p.id)).size,planTemplates.length);
-const plans=buildPlans('roads',0);
+const plans=scenicRoadThemes.flatMap(t=>buildPlans(t.id,0));
 assert.equal(plans.length,16,'no invalid stop IDs silently omitted');
 for(const p of plans){
  assert.ok(p.stops.length>=4);
@@ -53,14 +53,43 @@ assert.match(plans.find(p=>p.id==='roads-overseas').name,/US1/);
 assert.match(plans.find(p=>p.id==='roads-utah5').accessNote,/多|SR9/);
 for(const id of ['g219','g331','g228']){const p=plans.find(p=>p.id==='roads-'+id);assert.ok(p.days>=60);assert.equal(p.topology,'network');}
 homeState.interest='drives';homeState.area='all';homeState.query='北冰洋';
-assert.ok(matchingDiscovery().some(x=>x.theme.id==='roads'));
+assert.ok(matchingDiscovery().some(x=>x.theme.id==='drive-arctic'));
 homeState.query='';homeState.area='非洲';
-assert.ok(matchingDiscovery().some(x=>x.theme.id==='roads'));
-const theme=themes.find(t=>t.id==='roads');
+assert.ok(matchingDiscovery().some(x=>x.theme.id==='drive-garden'));
+const theme=themes.find(t=>t.id==='drive-milford');
 homeState.query='新西兰';homeState.area='all';
 assert.ok(discoveryRouteMatches({plan:plans.find(p=>p.id==='roads-milford'),theme}));
 assert.ok(!discoveryRouteMatches({plan:plans.find(p=>p.id==='roads-arctic'),theme}));
-assert.equal(buildPlans('roads',0,7).some(p=>p.days>7),false);
+assert.equal(scenicRoadThemes.flatMap(t=>buildPlans(t.id,0,7)).some(p=>p.days>7),false);
+
+assert.equal(scenicRoadThemes.length,12);
+assert.ok(!themes.some(t=>t.id==='roads'),'no all-world catch-all theme');
+assert.ok([...scenicRoadPlaceMap.values()].every(p=>!p.themes.includes('roads')));
+const memberships=scenicRoadThemes.flatMap(t=>t.roads);
+assert.equal(memberships.length,16);
+assert.equal(new Set(memberships).size,16,'every road has exactly one home');
+for(const def of scenicRoadThemes){
+ const theme=themes.find(t=>t.id===def.id);
+ const nodes=[...scenicRoadPlaceMap.values()].filter(p=>p.themes.includes(def.id));
+ assert.equal(buildPlans(def.id,0).length,def.roads.length);
+ assert.ok(nodes.length);
+ assert.ok(theme.view.zoom>1&&Number.isFinite(theme.view.lon)&&Number.isFinite(theme.view.lat));
+ assert.ok(nodes.some(p=>editorialPlacePhotos[p.id]===themeMedia[def.id].photo),'cover belongs to '+def.id);
+ for(const plan of buildPlans(def.id,0))assert.ok(plan.stops.every(p=>p.themes.includes(def.id)));
+}
+assert.equal(buildPlans('drive-utah',0).length,2);
+assert.ok(!places.filter(p=>p.themes.includes('drive-utah')).some(p=>p.country!=='美国'));
+const old=migrateScenicRoadHash('#theme=roads&view=places');
+assert.ok(old.includes('interest=drives')&&!old.includes('theme=roads'));
+assert.match(migrateScenicRoadHash('#theme=roads&view=plans&route=roads-arctic'),/theme=drive-arctic/);
+assert.match(migrateScenicRoadHash('#theme=roads&place=road-bixby'),/theme=drive-california/);
+assert.equal(migrateScenicRoadHash('#theme=camino'),null);
+homeState.query='';homeState.interest='drives';homeState.area='美洲';
+const american=matchingDiscovery().filter(x=>scenicRoadThemeIds.has(x.theme.id));
+assert.equal(american.length,4);
+assert.ok(american.every(x=>x.areas.length===1&&x.areas[0]==='美洲'));
+homeState.query='';homeState.area='欧洲';
+assert.equal(matchingDiscovery().filter(x=>scenicRoadThemeIds.has(x.theme.id)).length,2);
 for(const image of scenicRoadPhotos){
  assert.ok(image.source.startsWith('https://commons.wikimedia.org/wiki/File:'));
  assert.ok(image.path.startsWith('https://commons.wikimedia.org/wiki/Special:Redirect/file/'));
@@ -71,4 +100,4 @@ const html=fs.readFileSync('index.html','utf8');
 assert.ok(html.indexOf('src="reading.js"')<html.indexOf('src="roads.js"'));
 assert.ok(html.indexOf('src="roads.js"')<html.indexOf('src="flow.js"'));
 assert.ok(html.includes('href="roads.css"'));
-console.log('PASS roads: 16 routes; 88 unique stops; source/permission metadata; matched photos; loop/return distinctions; continent/country discovery; date-bounded access notes.');
+console.log('PASS roads: 12 independent themes; 16 routes; 88 unique stops; source/permission metadata; matched photos; loop/return distinctions; continent/country discovery; date-bounded access notes.');

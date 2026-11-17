@@ -335,3 +335,8 @@ The batch was rebased by three-way merge onto `da7cbff`, retaining `roads.js`, `
 
 
 Combined-state checks passed:9 Node test files, all three DOM regressions including the111-plan image binding check. The latest structural audit flags337 short summaries, but110 already have expanded reading;227 have a short summary and no layered reading,176 of those are used in plans. These are review candidates, not automatic factual-error labels. The full CSV distinguishes these states and retains specific evidence gaps separately.
+
+
+### Integration with approved Terra Mosaic and focused road themes
+
+A further three-way merge retains the approved Terra Mosaic name, icon, `terra.css`, homepage composition, `app.js` behaviour, and twelve focused road themes from `78154a1`. The complete inventory is now33 themes,1,683 places and111 plans. Carousel markup remains button-free per the newer user request; the Terra UI assertion checks this state instead of a visually hidden pause button. All9 Node test files and3 DOM regressions pass on the combined tree; current full coverage CSVs were regenerated. No visual screenshot from the pre-brand preview is presented as proof of this combined UI. The existing GitHub UI workflow is the additional combined-state browser check.

@@ -1758,28 +1758,8 @@
         ]
       },
       {
-        "id": "roads-iceland1",
-        "theme": "roads",
-        "candidates": [
-          {
-            "key": "road-photo-jokulsarlon",
-            "placeId": "road-jokulsarlon"
-          }
-        ],
-        "stops": [
-          "road-reykjavik",
-          "road-vik",
-          "road-jokulsarlon",
-          "road-hofn",
-          "road-egilsstadir",
-          "road-myvatn",
-          "road-akureyri",
-          "road-borgarnes"
-        ]
-      },
-      {
         "id": "roads-g219",
-        "theme": "roads",
+        "theme": "drive-g219",
         "candidates": [
           {
             "key": "road-photo-kanas",
@@ -1797,8 +1777,25 @@
         ]
       },
       {
+        "id": "roads-g219-ngari",
+        "theme": "drive-g219",
+        "candidates": [
+          {
+            "key": "road-photo-gar-landscape",
+            "placeId": "road-gar-landscape"
+          }
+        ],
+        "stops": [
+          "road-shiquanhe",
+          "road-gar-landscape",
+          "road-zanda",
+          "road-tholing",
+          "road-darchen"
+        ]
+      },
+      {
         "id": "roads-g331",
-        "theme": "roads",
+        "theme": "drive-g331",
         "candidates": [
           {
             "key": "road-photo-dandong",
@@ -1816,8 +1813,24 @@
         ]
       },
       {
+        "id": "roads-g331-yalu",
+        "theme": "drive-g331",
+        "candidates": [
+          {
+            "key": "road-photo-dandong",
+            "placeId": "road-dandong"
+          }
+        ],
+        "stops": [
+          "road-dandong",
+          "road-jian",
+          "road-linjiang",
+          "road-changbai"
+        ]
+      },
+      {
         "id": "roads-g228",
-        "theme": "roads",
+        "theme": "drive-g228",
         "candidates": [
           {
             "key": "road-photo-qingdao",
@@ -1835,46 +1848,59 @@
         ]
       },
       {
-        "id": "roads-greatocean",
-        "theme": "roads",
+        "id": "roads-g228-shandong",
+        "theme": "drive-g228",
         "candidates": [
           {
-            "key": "road-photo-apostles",
-            "placeId": "road-apostles"
+            "key": "road-photo-qingdao",
+            "placeId": "road-qingdao"
           }
         ],
         "stops": [
-          "road-torquay",
-          "road-lorne",
-          "road-apollobay",
-          "road-otway",
-          "road-apostles",
-          "road-portcampbell",
-          "road-allansford"
+          "road-qingdao",
+          "road-haiyang",
+          "road-rushan",
+          "road-rongcheng",
+          "road-weihai"
         ]
       },
       {
-        "id": "roads-arctic",
-        "theme": "roads",
+        "id": "roads-california1",
+        "theme": "drive-california",
         "candidates": [
           {
-            "key": "road-photo-tombstone",
-            "placeId": "road-tombstone"
+            "key": "road-photo-bixby",
+            "placeId": "road-bixby"
           }
         ],
         "stops": [
-          "road-dawson",
-          "road-tombstone",
-          "road-eagle",
-          "road-circle",
-          "road-mcpherson",
-          "road-inuvik",
-          "road-tuk"
+          "road-monterey",
+          "road-carmel",
+          "road-bixby",
+          "road-bigsur",
+          "road-sansimeon"
+        ]
+      },
+      {
+        "id": "roads-overseas",
+        "theme": "drive-florida",
+        "candidates": [
+          {
+            "key": "road-photo-sevenmile",
+            "placeId": "road-sevenmile"
+          }
+        ],
+        "stops": [
+          "road-keylargo",
+          "road-islamorada",
+          "road-marathon",
+          "road-sevenmile",
+          "road-keywest"
         ]
       },
       {
         "id": "roads-utah12",
-        "theme": "roads",
+        "theme": "drive-utah",
         "candidates": [
           {
             "key": "road-photo-bryce",
@@ -1892,7 +1918,7 @@
       },
       {
         "id": "roads-utah5",
-        "theme": "roads",
+        "theme": "drive-utah",
         "candidates": [
           {
             "key": "np-zion",
@@ -1917,8 +1943,27 @@
         ]
       },
       {
+        "id": "roads-arctic",
+        "theme": "drive-arctic",
+        "candidates": [
+          {
+            "key": "road-photo-tombstone",
+            "placeId": "road-tombstone"
+          }
+        ],
+        "stops": [
+          "road-dawson",
+          "road-tombstone",
+          "road-eagle",
+          "road-circle",
+          "road-mcpherson",
+          "road-inuvik",
+          "road-tuk"
+        ]
+      },
+      {
         "id": "roads-atlantic",
-        "theme": "roads",
+        "theme": "drive-atlantic",
         "candidates": [
           {
             "key": "road-photo-storseisund",
@@ -1934,8 +1979,47 @@
         ]
       },
       {
+        "id": "roads-iceland1",
+        "theme": "drive-iceland",
+        "candidates": [
+          {
+            "key": "road-photo-jokulsarlon",
+            "placeId": "road-jokulsarlon"
+          }
+        ],
+        "stops": [
+          "road-reykjavik",
+          "road-vik",
+          "road-jokulsarlon",
+          "road-hofn",
+          "road-egilsstadir",
+          "road-myvatn",
+          "road-akureyri",
+          "road-borgarnes"
+        ]
+      },
+      {
+        "id": "roads-greatocean",
+        "theme": "drive-greatocean",
+        "candidates": [
+          {
+            "key": "road-photo-apostles",
+            "placeId": "road-apostles"
+          }
+        ],
+        "stops": [
+          "road-torquay",
+          "road-lorne",
+          "road-apollobay",
+          "road-otway",
+          "road-apostles",
+          "road-portcampbell",
+          "road-allansford"
+        ]
+      },
+      {
         "id": "roads-milford",
-        "theme": "roads",
+        "theme": "drive-milford",
         "candidates": [
           {
             "key": "road-photo-eglinton",
@@ -1951,42 +2035,8 @@
         ]
       },
       {
-        "id": "roads-california1",
-        "theme": "roads",
-        "candidates": [
-          {
-            "key": "road-photo-bixby",
-            "placeId": "road-bixby"
-          }
-        ],
-        "stops": [
-          "road-monterey",
-          "road-carmel",
-          "road-bixby",
-          "road-bigsur",
-          "road-sansimeon"
-        ]
-      },
-      {
-        "id": "roads-overseas",
-        "theme": "roads",
-        "candidates": [
-          {
-            "key": "road-photo-sevenmile",
-            "placeId": "road-sevenmile"
-          }
-        ],
-        "stops": [
-          "road-keylargo",
-          "road-islamorada",
-          "road-marathon",
-          "road-sevenmile",
-          "road-keywest"
-        ]
-      },
-      {
         "id": "roads-garden",
-        "theme": "roads",
+        "theme": "drive-garden",
         "candidates": [
           {
             "key": "road-photo-storms",
@@ -1999,56 +2049,6 @@
           "road-knysna",
           "road-plett",
           "road-storms"
-        ]
-      },
-      {
-        "id": "roads-g219-ngari",
-        "theme": "roads",
-        "candidates": [
-          {
-            "key": "road-photo-gar-landscape",
-            "placeId": "road-gar-landscape"
-          }
-        ],
-        "stops": [
-          "road-shiquanhe",
-          "road-gar-landscape",
-          "road-zanda",
-          "road-tholing",
-          "road-darchen"
-        ]
-      },
-      {
-        "id": "roads-g228-shandong",
-        "theme": "roads",
-        "candidates": [
-          {
-            "key": "road-photo-qingdao",
-            "placeId": "road-qingdao"
-          }
-        ],
-        "stops": [
-          "road-qingdao",
-          "road-haiyang",
-          "road-rushan",
-          "road-rongcheng",
-          "road-weihai"
-        ]
-      },
-      {
-        "id": "roads-g331-yalu",
-        "theme": "roads",
-        "candidates": [
-          {
-            "key": "road-photo-dandong",
-            "placeId": "road-dandong"
-          }
-        ],
-        "stops": [
-          "road-dandong",
-          "road-jian",
-          "road-linjiang",
-          "road-changbai"
         ]
       }
     ]
