@@ -359,3 +359,22 @@ body[data-brand] .credits-button{color:var(--tm-brand)}
 body[data-brand] .road-route-guide{background:var(--tm-card);border-color:var(--tm-line);border-radius:9px;padding:15px;font-size:13px;line-height:1.9}
 body[data-brand] .road-route-guide summary,body[data-brand] .road-route-guide a{color:var(--tm-brand)}
 body[data-brand] .road-route-guide .road-reviewed{color:var(--tm-muted);font-size:11px}
+
+/* Small art covers use one legible artwork; complete works stay in the viewer. */
+body[data-brand] .catalog-cover .edition-cover{height:100%!important;min-height:0}
+body[data-brand] .curated-link .cover-impressionism{display:block;padding:0;background:var(--tm-soft)}
+body[data-brand] .curated-link .painting-main{width:100%;height:100%}
+body[data-brand] .curated-link .painting-second{display:none}
+body[data-brand] .curated-link .cover-impressionism img{object-fit:cover!important}
+body[data-brand] .exhibit-heading h3{font:500 21px/1.6 var(--tm-display);color:var(--tm-ink)}
+body[data-brand] .exhibit-heading>p{font-size:12px;line-height:1.8;color:var(--tm-muted)}
+body[data-brand] .exhibit-heading label,body[data-brand] .exhibit-heading select{font-size:12px;color:var(--tm-muted)}
+body[data-brand] .exhibit-heading select{min-height:40px;border:1px solid var(--tm-line);border-radius:6px;background:var(--tm-card);color:var(--tm-ink)}
+body[data-brand] .artwork-image{background:var(--tm-soft);border-radius:6px}
+body[data-brand] .artwork-card h4{font-size:14px;line-height:1.6;color:var(--tm-ink)}
+body[data-brand] .artwork-card p,body[data-brand] .artwork-card dl{font-size:11px;line-height:1.8;color:var(--tm-muted)}
+body[data-brand] .artwork-card .artwork-actions button{font-size:11px;min-height:40px;border:1px solid #b6c8cc;border-radius:5px;color:var(--tm-brand);background:var(--tm-card)}
+body[data-brand] .room-copy{background:var(--tm-paper);color:var(--tm-ink)}
+body[data-brand] .room-copy h2{font:500 28px/1.5 var(--tm-display);color:var(--tm-ink)}
+body[data-brand] .room-copy>p{font-size:14px;line-height:1.9;color:var(--tm-muted)}
+body[data-brand] .room-copy .record-link,body[data-brand] .room-copy .artwork-actions button{color:var(--tm-brand)}

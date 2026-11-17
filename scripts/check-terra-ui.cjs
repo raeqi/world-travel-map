@@ -18,7 +18,7 @@ const origin=process.env.SITE_URL||'http://127.0.0.1:8000';
  }
  async function media(){
   await page.evaluate(async()=>{
-   const imgs=[...document.images].filter(img=>img.closest('.brand,.hero-slide:not([hidden]),.catalog-cover,.curated-link,#theme-hero,#detail'));
+   const imgs=[...document.images].filter(img=>img.closest('.brand,.hero-slide:not([hidden]),.catalog-cover,.curated-link,.itinerary-image,#theme-hero,#detail'));
    await Promise.allSettled(imgs.map(async img=>{img.loading='eager';if(img.decode)await Promise.race([img.decode(),new Promise(resolve=>setTimeout(resolve,12000))])}));
   });
  }
@@ -31,7 +31,7 @@ const origin=process.env.SITE_URL||'http://127.0.0.1:8000';
   await noOverflow(name);
   await page.screenshot({path:path.join(output,name+'.jpg'),type:'jpeg',quality:82,fullPage});
   captures.push(name+'.jpg');
-  if(process.env.INLINE_SCREENSHOTS==='1'&&name==='desktop-home')console.log('TERRA_PREVIEW_DESKTOP:'+((await page.screenshot({type:'jpeg',quality:60})).toString('base64')));
+  if(process.env.INLINE_SCREENSHOTS==='1'&&['desktop-home','desktop-discovery','desktop-impressionism','desktop-place'].includes(name))console.log('TERRA_PREVIEW_'+name.toUpperCase().replaceAll('-','_')+':'+((await page.screenshot({type:'jpeg',quality:60})).toString('base64')));
  }
  try{
   await page.goto(origin,{waitUntil:'load'});await ready();
@@ -44,6 +44,8 @@ const origin=process.env.SITE_URL||'http://127.0.0.1:8000';
   assert.ok(await page.locator('.curated-discovery').evaluate(el=>el.nextElementSibling.classList.contains('discovery-browser')));
   assert.equal(await page.locator('.hero-play').evaluate(el=>getComputedStyle(el).clipPath),'inset(50%)');
   await capture('desktop-home',true);
+  await page.locator('.discovery-browser').scrollIntoViewIfNeeded();
+  await capture('desktop-discovery');
   await page.locator('[data-interest="nature"]').click();
   assert.ok(await page.locator('.theme-card').count()>0);
   assert.ok(await page.evaluate(()=>matchingDiscovery().every(x=>x.group==='nature')));
@@ -96,7 +98,7 @@ const origin=process.env.SITE_URL||'http://127.0.0.1:8000';
    assert.ok(size.width<=size.viewport+1,name+' overflows: '+JSON.stringify(size));
    await mobilePage.screenshot({path:path.join(output,name+'.jpg'),type:'jpeg',quality:82,fullPage:name==='mobile-home'});
    captures.push(name+'.jpg');
-   if(process.env.INLINE_SCREENSHOTS==='1'&&name==='mobile-home')console.log('TERRA_PREVIEW_MOBILE:'+((await mobilePage.screenshot({type:'jpeg',quality:60})).toString('base64')));
+   if(process.env.INLINE_SCREENSHOTS==='1'&&['mobile-home','mobile-place'].includes(name))console.log('TERRA_PREVIEW_'+name.toUpperCase().replaceAll('-','_')+':'+((await mobilePage.screenshot({type:'jpeg',quality:60})).toString('base64')));
   }
   await mobileCapture('mobile-home');
   await mobilePage.locator('.theme-card[data-theme="impressionism"]').click();
