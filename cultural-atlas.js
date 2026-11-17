@@ -38,7 +38,7 @@ for(const [id,record] of atlasContextByPlace){
  Object.defineProperty(record.place,'facts',{enumerable:true,configurable:true,get(){const c=current();return c?{'地点关系':atlasRelationNames[c.relation],'现场观察':c.observe}:base.facts}});
  Object.defineProperty(placeEssays,id,{enumerable:true,configurable:true,get(){
   const c=current()||(!base.essay?record.contexts.values().next().value:null);if(!c)return base.essay||{title:'人物与地方',paragraphs:[...record.contexts.values()].map(x=>({heading:x.themeName,text:x.summary+' '+x.observe})),sources:[...record.contexts.values()].map(x=>({title:x.themeName+' · 机构资料',url:x.source})),related:[]};
-  return {title:c.themeName,paragraphs:[{heading:'这里与人物或作品的关系',text:c.summary},{heading:'到现场看什么',text:c.observe}],sources:[{title:'人物、作品与地点资料',url:c.source}],related:(atlasThemePlaceIds.get(atlasActiveId())||[]).filter(x=>x!==id).slice(0,4)};
+  return {title:c.themeName,paragraphs:[{heading:'到现场看什么',text:c.themeName+'：'+c.observe},{heading:'与其他地点怎样对读',text:culturalAtlasPack.themes.find(t=>t.id===atlasActiveId())?.focus||c.summary}],sources:[{title:'人物、作品与地点资料',url:c.source}],related:(atlasThemePlaceIds.get(atlasActiveId())||[]).filter(x=>x!==id).slice(0,4)};
  }});
 }
 for(const t of culturalAtlasPack.themes){
@@ -52,7 +52,7 @@ for(const t of culturalAtlasPack.themes){
  themeGlyphs[t.id]=t.discipline==='music'?['book','temple']:t.discipline==='architecture'?['house','pillar']:['house','leaf','mountain'];
  if(hero){
   themeMedia[t.id]={photo:hero,en:t.id.toUpperCase().replaceAll('-',' '),edition:t.name,motif:t.tagline,symbol:t.discipline==='music'?'♪':'◇'};
-  editionStories[t.id]={photo:hero,second:candidates[1]||hero,tag:'地方与作品',headline:t.tagline,caption:photoLibrary[hero].title,body:t.focus,detail:'影像按具体地点绑定；当前照片不是艺术家本人拍摄的原作，除非来源另有明确说明。'};
+  editionStories[t.id]={photo:hero,second:candidates[1]||hero,tag:'地方与作品',headline:t.tagline,caption:photoLibrary[hero].title,body:t.focus,detail:'影像按具体地点绑定；原作、历史影像与当代照片在图注中区分。'};
  }else{
   // A dated media gap stays explicit; no unrelated image is borrowed.
   const key='atlas-cover-'+t.id;

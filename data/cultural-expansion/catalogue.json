@@ -78,7 +78,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -165,7 +165,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -245,7 +245,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -318,7 +318,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -389,7 +389,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -460,7 +460,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -538,7 +538,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -610,7 +610,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -682,7 +682,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -761,7 +761,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -832,7 +832,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -920,7 +920,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -992,7 +992,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -1071,7 +1071,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -1150,7 +1150,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -1222,7 +1222,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -1295,7 +1295,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -1373,7 +1373,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -1438,7 +1438,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -1510,7 +1510,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -1582,7 +1582,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -1653,7 +1653,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -1724,7 +1724,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -1802,7 +1802,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -1873,7 +1873,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -1953,7 +1953,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -2045,7 +2045,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -2060,7 +2060,7 @@
           "lat": 30.454,
           "relationship": "life-work",
           "source": "https://ccdijl.gov.cn/ztjc/ljwh/202106/t20210629_8121411.html",
-          "hasLocalImage": true
+          "hasLocalImage": false
         },
         {
           "key": "danzhou",
@@ -2137,7 +2137,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -2229,7 +2229,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -2300,7 +2300,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -2315,7 +2315,7 @@
           "lat": 34.153,
           "relationship": "life-work",
           "source": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_16a.pdf",
-          "hasLocalImage": true
+          "hasLocalImage": false
         },
         {
           "key": "zhongnan",
@@ -2378,7 +2378,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -2456,7 +2456,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -2541,7 +2541,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -2641,7 +2641,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -2726,7 +2726,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -2804,7 +2804,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -2883,7 +2883,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -2954,7 +2954,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3019,7 +3019,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3091,7 +3091,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3162,7 +3162,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3233,7 +3233,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3298,7 +3298,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3379,7 +3379,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3450,7 +3450,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3523,7 +3523,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3594,7 +3594,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3665,7 +3665,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3736,7 +3736,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3823,7 +3823,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3887,7 +3887,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -3958,7 +3958,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4037,7 +4037,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4129,7 +4129,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4207,7 +4207,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4292,7 +4292,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4365,7 +4365,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4430,7 +4430,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4494,7 +4494,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4559,7 +4559,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4630,7 +4630,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4695,7 +4695,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4760,7 +4760,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4831,7 +4831,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4895,7 +4895,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -4968,7 +4968,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -5049,7 +5049,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -5136,7 +5136,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -5216,7 +5216,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -5296,7 +5296,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -5368,7 +5368,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -5441,7 +5441,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -5505,7 +5505,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -5586,7 +5586,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -5651,7 +5651,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "partial-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -5715,7 +5715,7 @@
       "readiness": {
         "pointEvidence": true,
         "mediaRights": "per-file metadata in assets/cultural-atlas/sources.json; gaps explicit",
-        "localAssets": "partial-place-coverage",
+        "localAssets": "complete-selected-place-coverage",
         "interface": true,
         "browserVerified": false
       },
@@ -5750,7 +5750,7 @@
     "themes": 76,
     "selectedPlaceContexts": 160,
     "distinctSelectedPlaceKeys": 158,
-    "materializedImages": 134,
+    "materializedImages": 132,
     "note": "每个方向接入首批精选地点；不代表完整生平、全部作品或所有研究候选均已接入。"
   }
 }
