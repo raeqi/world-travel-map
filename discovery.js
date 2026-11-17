@@ -34,7 +34,7 @@ function discoveryThemeCard(x){
  return `<button class="theme-card discovery-card" data-theme="${t.id}" data-open-theme="${t.id}"><div class="catalog-cover">${discoveryCover(t.id)}</div><div class="catalog-card-copy"><small>${discoveryGroups.find(g=>g[0]===x.group)?.[1]} <span>${x.areas.length>3?'全球':(['impressionism','vangogh'].includes(t.id)?'欧洲 / 海外馆藏':x.areas.join(' / '))}</span></small><strong>${t.name}</strong><p>${t.story}</p><span class="catalog-card-bottom">${x.nodes.length} 个地点 <i>${t.collection?culturalCollections.get(t.id).members.length+' 组人物子线':x.plans.length+' 条行程'}</i><b>${t.collection?'打开合集':'打开地图'}</b></span></div></button>`;
 }
 function discoveryItineraryHTML({plan:p,theme:t}){
- return `<article class="catalog-itinerary" data-route-id="${p.id}"><div class="itinerary-image">${routeCover(p)}</div><div><small>${t.name} · ${p.topology==='network'?'主题地点精选':p.topology==='loop'?'闭环探访':'精选走廊'}</small><h3>${escapeHTML(p.name)}</h3><p>${p.stops.map(s=>escapeHTML(s.name)).join(p.topology==='network'?' · ':' → ')}</p><span>${p.days} 天参考 · ${p.stops.length} 站</span><button data-home-plan="${p.id}" data-plan-theme="${t.id}">查看行程</button></div></article>`;
+ return `<article class="catalog-itinerary" data-route-id="${p.id}"><div class="itinerary-image">${routeCover(p)}</div><div><small>${t.name} · ${escapeHTML(p.routeLabel||(p.topology==='network'?'主题地点精选':p.topology==='loop'?'闭环探访':'精选走廊'))}</small><h3>${escapeHTML(p.name)}</h3><p>${p.stops.map(s=>escapeHTML(s.name)).join(p.topology==='network'?' · ':' → ')}</p><span>${p.days} 天参考 · ${p.stops.length} 站</span><button data-home-plan="${p.id}" data-plan-theme="${t.id}">查看行程</button></div></article>`;
 }
 function bindDiscoveryPlans(el){
  el.querySelectorAll('[data-home-plan]').forEach(b=>b.onclick=()=>{
@@ -70,25 +70,18 @@ function renderDiscoveryResults(){
  const disciplineFilter=document.querySelector('#cultural-discipline-filter');
  if(disciplineFilter){const visible=homeState.interest==='art';disciplineFilter.hidden=!visible;disciplineFilter.style.display=visible?'':'none'}
  const matched=matchingDiscovery(),el=document.querySelector('#catalog-results');if(!el)return;
- const routeResults=matchingDiscoveryRoutes();
- // Only selected routes cross interests; their whole parent theme keeps its original category.
- const scenicRoutes=homeState.interest==='nature'?routeResults.filter(x=>discoveryMeta[x.theme.id]?.[0]!=='nature'):[];
- const themesView=homeState.view==='themes',count=themesView?matched.length:routeResults.length;
+ const routeResults=matchingDiscoveryRoutes(),themesView=homeState.view==='themes',count=themesView?matched.length:routeResults.length;
  const feedback=document.querySelector('#search-feedback');
  if(feedback)feedback.textContent=homeState.query?`找到 ${matched.length} 张地图 / ${routeResults.length} 条行程`:'例如 国家公园、京都、莫奈';
- document.querySelector('#catalog-result-count').textContent=(themesView?`${count} 张主题地图${scenicRoutes.length?' · '+scenicRoutes.length+' 条风景行程':''}`:`${count} 条精选行程`)+(homeState.query?' · “'+homeState.query+'”':'');
- el.className='';
- if(!count&&!(themesView&&scenicRoutes.length)){el.innerHTML='<div class="discovery-empty"><h3>还没有符合这些条件的内容</h3><p>试试更短的关键词，或清除地域与兴趣筛选。</p><button class="reset-discovery">清除筛选</button></div>';return}
- if(themesView){
-  const cards=matched.map(discoveryThemeCard).join('');
-  if(scenicRoutes.length){
-   el.className='discovery-results';
-   el.innerHTML=(cards?`<div class="discovery-theme-grid">${cards}</div>`:'')+`<section class="nature-route-discovery" aria-labelledby="nature-routes-title"><div class="nature-route-heading"><h3 id="nature-routes-title">沿着路线看风景</h3><p>海岸、冰川与山野，也可以沿路慢慢看。</p></div><div class="discovery-route-grid">${scenicRoutes.map(discoveryItineraryHTML).join('')}</div></section>`;
-   bindDiscoveryPlans(el);
-  }else{el.className='discovery-theme-grid';el.innerHTML=cards}
- }else{
-  el.className='discovery-route-grid';el.innerHTML=routeResults.map(discoveryItineraryHTML).join('');bindDiscoveryPlans(el);
+ document.querySelector('#catalog-result-count').textContent=`${count} ${themesView?'张主题地图':'条精选行程'}`+(homeState.query?' · “'+homeState.query+'”':'');
+ el.className=themesView?'discovery-theme-grid':'discovery-route-grid';
+ if(!count){
+  el.className='';
+  el.innerHTML=`<div class="discovery-empty"><h3>还没有符合这些条件的${themesView?'地图':'行程'}</h3><p>${themesView&&routeResults.length?'有 '+routeResults.length+' 条相关行程，可切换到精选行程查看。':'试试更短的关键词，或清除地域与兴趣筛选。'}</p>${themesView&&routeResults.length?'<button data-catalog-view="routes">查看精选行程</button>':''}<button class="reset-discovery">清除筛选</button></div>`;
+  return;
  }
+ if(themesView)el.innerHTML=matched.map(discoveryThemeCard).join('');
+ else{el.innerHTML=routeResults.map(discoveryItineraryHTML).join('');bindDiscoveryPlans(el)}
 }
 function openDiscoveryTheme(id){const i=themes.findIndex(t=>t.id===id);if(i<0)return;enterTheme(i);writeNavigation()}
 function worksForTheme(id){return artWorks.filter(w=>(w.theme||'impressionism')===id)}

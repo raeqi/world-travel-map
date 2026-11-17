@@ -1,0 +1,43 @@
+name: Materialize natural atlas media
+on:
+  push:
+    branches: [content/natural-maps-20261117]
+    paths:
+      - 'data/natural-maps/media-seeds.json'
+      - 'scripts/materialize-natural-atlas.py'
+      - '.github/workflows/natural-atlas-materialize.yml'
+permissions:
+  contents: write
+concurrency:
+  group: natural-atlas-assets
+  cancel-in-progress: false
+jobs:
+  assets:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/natural-maps-20261117
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow pyproj
+      - name: Download source photographs and prepare review evidence
+        run: python scripts/materialize-natural-atlas.py
+      - name: Commit attributed images on the working branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/natural-atlas natural-atlas-media.js
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Materialize natural atlas photographs and source records"
+          git pull --rebase origin content/natural-maps-20261117
+          git push origin HEAD:content/natural-maps-20261117
+      - uses: actions/upload-artifact@v4
+        with:
+          name: natural-atlas-media-review
+          path: |
+            assets/natural-atlas/review-contact.jpg
+            assets/natural-atlas/review.json
+          retention-days: 14

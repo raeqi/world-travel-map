@@ -1,0 +1,173 @@
+[
+  {
+    "id": "louise",
+    "cached": true
+  },
+  {
+    "id": "moraine",
+    "cached": true
+  },
+  {
+    "id": "bow",
+    "wikiCoordinates": [
+      {
+        "lat": 51.66444444,
+        "lon": -116.44861111,
+        "primary": "",
+        "globe": "earth"
+      }
+    ],
+    "article": "https://en.wikipedia.org/wiki/Bow_Lake_%28Alberta%29",
+    "file": "Bow Lake in Banff National Park.jpg",
+    "license": "CC BY-SA 4.0",
+    "description": "Early morning view of the Bow Lake from the beginning of the trail."
+  },
+  {
+    "id": "peyto",
+    "cached": true
+  },
+  {
+    "id": "athabasca-glacier",
+    "cached": true
+  },
+  {
+    "id": "sunwapta",
+    "cached": true
+  },
+  {
+    "id": "athabasca-falls",
+    "cached": true
+  },
+  {
+    "id": "jasper",
+    "cached": true
+  },
+  {
+    "id": "mackinnon-pass",
+    "cached": true
+  },
+  {
+    "id": "clinton-hut",
+    "cached": true,
+    "docCoordinates": {
+      "lon": 167.908273,
+      "lat": -44.905804,
+      "nztm": [
+        1198035,
+        5014888
+      ]
+    }
+  },
+  {
+    "id": "dumpling-hut",
+    "cached": true,
+    "docCoordinates": {
+      "lon": 167.764389,
+      "lat": -44.768698,
+      "nztm": [
+        1185692,
+        5029394
+      ]
+    }
+  },
+  {
+    "id": "routeburn-falls",
+    "file": "RouteburnFallsHut.jpg",
+    "license": "CC BY-SA 3.0",
+    "description": "Routeburn Falls Hut, Routeburn Track, New Zealand.",
+    "docCoordinates": {
+      "lon": 168.199511,
+      "lat": -44.725455,
+      "nztm": [
+        1219841,
+        5036327
+      ]
+    }
+  },
+  {
+    "id": "lake-mackenzie",
+    "cached": true
+  },
+  {
+    "id": "luxmore",
+    "file": "Luxmore Hut, Kepler Track, New Zealand (23).JPG",
+    "license": "CC BY-SA 4.0",
+    "description": "Kepler Track, South Island, New Zealand",
+    "docCoordinates": {
+      "lon": 167.619159,
+      "lat": -45.385232,
+      "nztm": [
+        1178767,
+        4960153
+      ]
+    }
+  },
+  {
+    "id": "iris-burn",
+    "cached": true
+  },
+  {
+    "id": "moturau",
+    "skipped": true,
+    "docCoordinates": {
+      "lon": 167.609828,
+      "lat": -45.482101,
+      "nztm": [
+        1178760,
+        4949343
+      ]
+    }
+  },
+  {
+    "id": "calafate",
+    "cached": true
+  },
+  {
+    "id": "moreno",
+    "cached": true
+  },
+  {
+    "id": "capri",
+    "cached": true
+  },
+  {
+    "id": "poincenot",
+    "skipped": true
+  },
+  {
+    "id": "los-tres",
+    "cached": true
+  },
+  {
+    "id": "torre",
+    "cached": true
+  },
+  {
+    "id": "torres-base",
+    "cached": true
+  },
+  {
+    "id": "chileno",
+    "cached": true
+  },
+  {
+    "id": "salto-grande",
+    "cached": true
+  },
+  {
+    "id": "pehoe",
+    "cached": true
+  },
+  {
+    "id": "glade-wharf",
+    "file": "Glade Wharf - 2013.04 - panoramio.jpg",
+    "license": "CC BY 3.0",
+    "description": "Glade Wharf - 2013.04"
+  },
+  {
+    "id": "sandfly-point",
+    "file": "Abandoned Hiking Boots At Milford Track End.jpg",
+    "license": "Public domain",
+    "description": "Abandoned (and often damaged) hiking boots at the end of the Milford Track, New Zealand. The track is not really THAT strenous, but a tradition of casting away your shoewear afterwards seems to have established itself nonetheless!"
+  }
+]
