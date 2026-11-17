@@ -10,6 +10,8 @@ on:
       - 'assets/brand/**'
       - 'scripts/check-terra-ui.cjs'
       - 'scripts/check-carousel.cjs'
+      - 'scripts/check-nature-discovery.cjs'
+      - 'scripts/check-media-presentation.cjs'
       - '.github/workflows/terra-ui.yml'
   workflow_dispatch:
 
@@ -53,6 +55,10 @@ jobs:
         run: |
           node scripts/check-media-presentation.cjs
           node scripts/check-terra-ui.cjs
+      - name: Check nature discovery and real carousel timing
+        env:
+          INLINE_SCREENSHOTS: '1'
+        run: node scripts/check-nature-discovery.cjs
       - name: Upload real browser screenshots
         if: always()
         uses: actions/upload-artifact@v4
@@ -61,5 +67,6 @@ jobs:
           path: |
             qa/terra-mosaic/
             qa/media-presentation/
+            qa/nature-discovery/
           if-no-files-found: ignore
           retention-days: 14

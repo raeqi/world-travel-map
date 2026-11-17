@@ -21,8 +21,21 @@ const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));
  carousel().dispatchEvent(new w.KeyboardEvent('keydown',{key:'End',bubbles:true}));assert.equal(index(),5);assert.match($('.hero-announcement').textContent,/第 6 项/);advance(16000);assert.equal(index(),5);carousel().dispatchEvent(new w.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));assert.equal(index(),0);
  carousel().dispatchEvent(new w.KeyboardEvent('keydown',{key:' ',bubbles:true}));advance(8000);assert.equal(index(),1);carousel().dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));advance(16000);assert.equal(index(),1);
  motion.matches=true;motion.dispatchEvent(new w.Event('change'));assert.equal(carousel().dataset.autoplay,'reduced');advance(16000);assert.equal(index(),1);motion.matches=false;motion.dispatchEvent(new w.Event('change'));assert.equal(carousel().dataset.autoplay,'paused');
+ // Reduced motion must not become a sticky user pause.
+ carousel().dispatchEvent(new w.KeyboardEvent('keydown',{key:' ',bubbles:true}));
+ assert.equal(w.eval('heroPreferences.paused'),false);
+ motion.matches=true;motion.dispatchEvent(new w.Event('change'));advance(16000);assert.equal(index(),1);
+ assert.equal(w.eval('heroPreferences.paused'),false);
+ motion.matches=false;motion.dispatchEvent(new w.Event('change'));advance(8000);assert.equal(index(),2);
+ carousel().dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));
  const slides=w.eval('heroSlides.map(s=>({theme:s.theme,route:s.route}))');
  for(let i=0;i<slides.length;i++){carousel().dispatchEvent(new w.KeyboardEvent('keydown',{key:'Home',bubbles:true}));for(let n=0;n<i;n++)carousel().dispatchEvent(new w.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));$('[data-hero-open="'+i+'"]').click();assert.equal(d.body.dataset.theme,slides[i].theme);if(slides[i].route)assert.equal(w.eval('activePlan.id'),slides[i].route);const before=w.eval('heroPreferences.index');advance(16000);assert.equal(w.eval('heroPreferences.index'),before);$('#back-themes').click();assert.equal(index(),i)}
  let pageHidden=false;Object.defineProperty(d,'hidden',{configurable:true,get:()=>pageHidden});carousel().dispatchEvent(new w.KeyboardEvent('keydown',{key:' ',bubbles:true}));pageHidden=true;d.dispatchEvent(new w.Event('visibilitychange'));advance(16000);assert.equal(index(),5);pageHidden=false;d.dispatchEvent(new w.Event('visibilitychange'));advance(8000);assert.equal(index(),0);
+ w.dispatchEvent(new w.Event('blur'));assert.equal(carousel().dataset.autoplay,'window-paused');advance(16000);assert.equal(index(),0);
+ w.dispatchEvent(new w.Event('focus'));advance(8000);assert.equal(index(),1);
+ w.eval('renderDiscoveryCatalog()');advance(8000);assert.equal(index(),2);
+ // Mounting with reduced motion enabled must also recover without reloading.
+ motion.matches=true;w.eval('renderDiscoveryCatalog()');assert.equal(carousel().dataset.autoplay,'reduced');
+ advance(16000);assert.equal(index(),2);motion.matches=false;motion.dispatchEvent(new w.Event('change'));advance(8000);assert.equal(index(),3);
  assert.deepEqual(errors,[]);dom.window.close();console.log('PASS carousel DOM/state: button-free UI, default autoplay, hover pause/resume, focus pause/resume, keyboard navigation/pause, reduced motion, silent automatic updates, hidden-page suspension and all six destinations.');
 })().catch(e=>{console.error(e);process.exit(1)});
