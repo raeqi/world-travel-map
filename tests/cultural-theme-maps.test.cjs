@@ -4,10 +4,10 @@ function runtime(){const c=vm.createContext({document:{addEventListener(){}},loc
 test('regional maps own real, source-backed places and working plans instead of person directories',()=>vm.runInContext(`
  for(const [id,map] of culturalThemeMaps){
   const t=themes.find(t=>t.id===id),nodes=places.filter(p=>p.themes.includes(id)),plans=buildPlans(id,0);
-  assert.ok(nodes.length>=3,id);assert.equal(plans.length,map.plans.length);assert.ok(plans.length);
+  assert.ok(nodes.length>=2,id);assert.equal(plans.length,map.plans.length);assert.ok(plans.length);
   assert.ok(!t.collection);assert.ok(t.filters.length);assert.ok(t.maxZoom>=4000);assert.ok(!/合集|子线|先选/.test(themeDesigns[id].lens));
   assert.ok(nodes.every(p=>p.source?.startsWith('https://')));assert.ok(nodes.some(p=>editorialPlacePhotos[p.id]===themeMedia[id].photo));
-  for(const p of plans){assert.ok(p.stops.length>=2);assert.equal(p.topology,'network');assert.equal(p.legs.length,0);assert.ok(p.months.length<12);assert.ok(p.stops.every(p=>p.themes.includes(id)));assert.ok(!p.stops.some(p=>p.country==='美国')||id==='modern-architecture');}
+  for(const p of plans){assert.ok(p.stops.length>=2);assert.equal(p.topology,'network');assert.equal(p.legs.length,0);assert.ok(p.months.length<12);assert.ok(p.stops.every(p=>p.themes.includes(id)));assert.ok(!p.stops.some(p=>p.country==='美国')||['modern-architecture','detroit-art'].includes(id));}
  }
  assert.equal(new Set(places.map(p=>p.id)).size,places.length);
  for(const t of culturalAtlasPack.themes){assert.ok(themes.some(x=>x.id===t.id));assert.ok(buildPlans(t.id,0).some(p=>p.id==='atlas-'+t.id+'-places'));}

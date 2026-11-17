@@ -1,6 +1,6 @@
 'use strict';
 const fs=require('node:fs'),assert=require('node:assert/strict'),{chromium}=require('playwright');
-const audit=require('../qa/theme-review/preservation.json');
+const audit=require('../qa/theme-review/recovery.json');
 const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/theme-review/browser';
 (async()=>{
  fs.mkdirSync(out,{recursive:true});const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{}),args:['--no-sandbox']});
@@ -14,7 +14,8 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/theme-review/b
    await page.setViewportSize(device);
    for(const {theme,point}of missing){
     await open('#interest=art');await page.locator('#catalog-search').fill(point.name);
-    const card=page.locator('#catalog-results [data-theme="'+theme.id+'"]');assert.equal(await card.count(),1,point.name+' catalogue search');await card.click();
+    const destination=await page.evaluate(({id,point})=>{const t=themes.find(t=>t.id===id);return !t.catalogHidden?id:culturalSourceCoverage(id).find(r=>r.place.id===point).maps[0]}, {id:theme.id,point:point.id});
+    const card=page.locator('#catalog-results [data-theme="'+destination+'"]');assert.equal(await card.count(),1,point.name+' catalogue search');await card.click();
     await page.locator('#search').fill(point.name);assert.ok(await page.locator('#places [data-place="'+point.id+'"]').count(),point.name+' map list');await page.locator('#places [data-place="'+point.id+'"]').click();
     assert.equal(await page.evaluate(()=>selected?.id),point.id);assert.ok((await page.locator('#detail').innerText()).length>100);assert.ok(await page.locator('#detail .reading-sources a').count());await images();
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
@@ -22,7 +23,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/theme-review/b
     if(['atlas-enoura','atlas-picasso-paris','atlas-detroit'].includes(point.id))await page.screenshot({path:out+'/'+device.name+'-'+point.id+'.png'});
     await page.reload();await page.waitForFunction(()=>document.body.dataset.ready==='true');assert.equal(await page.evaluate(()=>selected?.id),point.id);
     await open('#area='+encodeURIComponent(point.country==='美国'?'美洲':point.country==='日本'||point.country==='中国'?'亚洲':'欧洲'));
-    assert.ok(await page.locator('#catalog-results [data-theme="'+theme.id+'"]').count(),point.name+' region browse');
+    assert.ok(await page.locator('#catalog-results [data-theme="'+destination+'"]').count(),point.name+' region browse');
     checks.push({device:device.name,theme:theme.id,place:point.id,search:true,region:true,detail:true,map:true,refresh:true});
    }
    for(const t of audit.themes.filter(t=>t.hiddenBefore)){

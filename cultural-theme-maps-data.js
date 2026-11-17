@@ -33,7 +33,9 @@ const culturalMapDefinitions=[
   ['naoshima-honmura','直岛本村 · 暗室、神社与建筑',['ando-museum','minamidera','sugimoto-glass'],1,[3,4,5,6,9,10,11],'本村步行 + 岛内巴士','以本村聚落为基地，对照安藤博物馆、特瑞尔《南寺》与护王神社。建筑、艺术与改造作者分别阅读；特殊作品的预约和入场时段向倍乐生艺术站确认。'],
   ['naoshima-south','直岛南部 · 地下采光与海边美术馆',['chichu','benesse-house'],1,[3,4,5,6,9,10,11],'岛内巴士 + 美术馆步行','比较地中美术馆引入自然光的方式与倍乐生之家在海岸的展开。可与本村篇合成两天；牟礼需另行安排渡船与陆地交通，不画成跨海步行。']
  ]},
- {id:'paris-sculpture',name:'巴黎：雕塑家的房间与花园',lens:'从工作室的尺度，走向雕塑与身体',members:['rodin',{id:'brancusi',keys:['brancusi-paris']},{id:'giacometti',keys:['giacometti-institut']}],intro:'罗丹的花园与默东工作室、贾科梅蒂的工作空间、布朗库西留给巴黎的工作室收藏，让雕塑从展台回到制作、摆放与观看的环境。收藏与复原陈列各有开放安排，先选巴黎南岸，再安排默东。',plans:[
+ {id:'paris-sculpture',name:'巴黎：艺术家的工作室、画院与收藏',lens:'从工作室的尺度，走向雕塑与身体，再对读画院与收藏',members:['rodin',{id:'brancusi',keys:['brancusi-paris']},{id:'giacometti',keys:['giacometti-institut']},{id:'picasso',keys:['picasso-paris']},{id:'wu-guanzhong',keys:['beaux-arts-paris']}],intro:'罗丹的花园与默东工作室、贾科梅蒂的工作空间、布朗库西留给巴黎的工作室收藏，让雕塑从展台回到制作、摆放与观看的环境。收藏与复原陈列各有开放安排，先选巴黎南岸，再安排默东。毕加索博物馆的作品与档案、吴冠中求学的美术学院，补充同一城市里收藏、学习与制作的不同关系；不把几位艺术家写成同期同行。',plans:[
+  ['paris-art-collections','巴黎两馆 · 从绘画到雕塑',['picasso-paris','rodin-paris'],2,[3,4,5,6,9,10,11],'地铁 + 馆内步行','分两天阅读毕加索博物馆的作品与档案、罗丹博物馆的雕塑和花园。它们是收藏、研究与展陈地点，不等于艺术家同一次旅行或全部作品的制作现场。'],
+  ['paris-art-learning','巴黎左岸 · 画院与雕塑工作空间',['beaux-arts-paris','rodin-paris','giacometti-institut'],2,[3,4,5,6,9,10,11],'地铁 + 分街区步行','以吴冠中的巴黎求学为起点，对读罗丹与贾科梅蒂的工作空间。学院周边可以作为城市观察范围，校园与室内展览的访问按校方安排；几位艺术家的经历属于不同年代。'],
   ['paris-sculpture-left-bank','巴黎左岸 · 花园与工作室',['rodin-paris','giacometti-institut'],2,[3,4,5,6,9,10,11],'地铁 + 街区步行','比较罗丹花园中雕塑与户外空间的关系，以及贾科梅蒂工作室陈列的紧密尺度。两天留给预约与细看，布朗库西收藏另查蓬皮杜中心的迁移与开放信息。'],
   ['rodin-paris-meudon','罗丹 · 巴黎与默东两种生活空间',['rodin-paris','rodin-meudon'],2,[4,5,6,9,10],'市郊铁路 / 公交 + 园内步行','巴黎的展陈花园与默东的居住、制作和纪念空间互相补充。默东的参访日程独立确认，不按地图直线当作步行路线。']
  ]},
@@ -57,6 +59,9 @@ const culturalMapDefinitions=[
  {id:'mexico-city-art',name:'墨西哥城：弗里达与里维拉',lens:'从房间里的生活，走向城市里的壁画',members:[{id:'frida',country:'墨西哥'},{id:'rivera',country:'墨西哥'}],intro:'科约阿坎蓝屋、圣安赫尔双工作室、里维拉的古代艺术收藏与国民宫壁画，构成墨西哥城可以分区探索的艺术地图。住宅、收藏和原址壁画各有自己的观看方式；底特律另保留美国阶段的资料。',plans:[
   ['mexico-homes','墨西哥城南部 · 蓝屋、双工作室与收藏',['frida-blue-house','frida-rivera-studio','anahuacalli'],3,[2,3,4,10,11],'市内交通 + 各馆步行','三个不同城区的艺术空间分别安排停留，比较弗里达的生活物件、双工作室的建筑与里维拉的收藏。三天为预留交通和预约的建议，不设三馆步行直达线。'],
   ['mexico-murals','墨西哥城 · 从蓝屋看向国民宫壁画',['frida-blue-house','mexico-palace'],2,[2,3,4,10,11],'市内交通 + 预约参访','把个人生活空间与里维拉的公共历史叙事并读。国民宫的参访安排需单独确认；若不可入内，先通过官方资料读壁画，不承诺现场开放。']
+ ]},
+ {id:'detroit-art',name:'底特律：弗里达、里维拉与工业城市',lens:'从城市经历，到庭院里的工业壁画',members:[{id:'frida',keys:['detroit']},{id:'rivera',keys:['dia-detroit']}],intro:'弗里达的底特律经历与里维拉在美术馆的《底特律工业》壁画属于同一城市的艺术故事。城市代表点提供生活背景，美术馆是原址作品，两者不能混作同一间画室或病房；墨西哥时期通过墨西哥城地图另读。',plans:[
+  ['detroit-industry-art','底特律 · 城市背景与工业壁画',['detroit','dia-detroit'],2,[5,6,7,8,9,10],'市内交通 + 美术馆步行','第一天从底特律的城市背景读弗里达的经历，第二天细看美术馆庭院的多面壁画。城市点是范围示意，不能导航到历史病房或私人住所；不承诺任何特定作品当下展出，开放与预约向机构确认。']
  ]},
  {id:'european-music-cities',name:'欧洲音乐城市：房间、舞台与创作',lens:'选一座音乐城市，从真实空间开始聆听',members:['beethoven','liszt','schumanns','wagner','mahler',{id:'dvorak',country:'捷克'},{id:'mendelssohn',keys:['mendelssohn-leipzig']},{id:'handel',country:'德国'},{id:'bach',places:['bach-thomaskirche','bach-eisenach','bach-weimar','bach-kothen','bach-arnstadt']}],intro:'莱比锡的故居与教堂、魏玛的工作房间、波恩与杜塞尔多夫的城市生活，再到湖畔作曲小屋，让音乐史落到可以参访的地方。地图按本地探访安排，肖邦、北欧和苏格兰保留独立的地域故事。',plans:[
   ['music-leipzig','莱比锡 · 巴赫、舒曼与门德尔松',['bach-thomaskirche','schumann-leipzig','mendelssohn-leipzig'],2,[4,5,6,9,10],'市内交通 + 故居与教堂步行','在同一座城对读教会工作、家庭生活和音乐职业。三处属于不同音乐家与年代，音乐会节目和故居开放须分别查询。'],
