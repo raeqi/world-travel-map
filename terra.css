@@ -427,10 +427,3 @@ body[data-brand] .room-copy .artwork-actions button{min-height:40px;background:v
 body[data-brand] .room-copy .artwork-actions button:first-child{background:var(--tm-brand);color:#fff;border-color:var(--tm-brand)}
 body[data-brand] .media-source[open]{flex:1 0 100%}
 
-/* Selected landscape itineraries share the discovery card design. */
-body[data-brand] .nature-route-discovery{margin-top:36px}
-body[data-brand] .nature-route-discovery:first-child{margin-top:0}
-body[data-brand] .nature-route-heading{margin-bottom:20px}
-body[data-brand] .nature-route-heading h3{font:500 23px/1.5 var(--tm-display);color:var(--tm-ink);margin:0 0 6px}
-body[data-brand] .nature-route-heading p{font-size:13px;line-height:1.8;color:var(--tm-muted);margin:0}
-@media(max-width:760px){body[data-brand] .nature-route-discovery{margin-top:28px}body[data-brand] .nature-route-heading h3{font-size:21px}}
