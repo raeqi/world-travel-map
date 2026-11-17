@@ -334,5 +334,33 @@
     "width": 1280,
     "height": 853,
     "sha256": "79f0a1db5fa8c3b448eac6b4f2ac46fb1cf33b7003bcb0b4f885cb647f5fd029"
+  },
+  "natural-glade-wharf": {
+    "path": "assets/natural-atlas/natural-glade-wharf.webp",
+    "title": "Glade Wharf · Milford 步道的湖上抵达点（2013）",
+    "author": "rheins",
+    "source": "https://commons.wikimedia.org/wiki/File:Glade%20Wharf%20-%202013.04%20-%20panoramio.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "changes": "等比例缩小与 WebP 压缩，文件保留全幅；界面封面可能裁切，未重绘或调色，衍生图保留原许可。",
+    "placeKey": "glade-wharf",
+    "providerDescription": "Glade Wharf - 2013.04",
+    "width": 1280,
+    "height": 960,
+    "sha256": "518a717835d796ffa1daab4dbdaac16192a2b056b1a2a76076076ab2253676b1"
+  },
+  "natural-sandfly-point": {
+    "path": "assets/natural-atlas/natural-sandfly-point.webp",
+    "title": "Sandfly Point · Milford 步道终点标牌与旧登山靴",
+    "author": "Mark Oliver Dittrich. Released into public domain on his behalf.",
+    "source": "https://commons.wikimedia.org/wiki/File:Abandoned%20Hiking%20Boots%20At%20Milford%20Track%20End.jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "changes": "等比例缩小与 WebP 压缩，文件保留全幅；界面封面可能裁切，未重绘或调色，衍生图保留原许可。",
+    "placeKey": "sandfly-point",
+    "providerDescription": "Abandoned (and often damaged) hiking boots at the end of the Milford Track, New Zealand. The track is not really THAT strenous, but a tradition of casting away your shoewear afterwards seems to have established itself nonetheless!",
+    "width": 667,
+    "height": 1000,
+    "sha256": "2eaa24012e218a769aa4941fabbbae9db80d4bb0d3cb5adc254724a402ba4d9b"
   }
 }

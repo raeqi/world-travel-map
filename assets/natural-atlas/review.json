@@ -157,5 +157,17 @@
   {
     "id": "pehoe",
     "cached": true
+  },
+  {
+    "id": "glade-wharf",
+    "file": "Glade Wharf - 2013.04 - panoramio.jpg",
+    "license": "CC BY 3.0",
+    "description": "Glade Wharf - 2013.04"
+  },
+  {
+    "id": "sandfly-point",
+    "file": "Abandoned Hiking Boots At Milford Track End.jpg",
+    "license": "Public domain",
+    "description": "Abandoned (and often damaged) hiking boots at the end of the Milford Track, New Zealand. The track is not really THAT strenous, but a tradition of casting away your shoewear afterwards seems to have established itself nonetheless!"
   }
 ]
