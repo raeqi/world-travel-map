@@ -14,7 +14,7 @@ function culturalMapView(nodes){
  const reference=nodes[0].lon,lons=nodes.map(p=>reference+((p.lon-reference+540)%360)-180),lats=nodes.map(p=>p.lat);
  const lon=((Math.min(...lons)+Math.max(...lons))/2+540)%360-180,lat=(Math.min(...lats)+Math.max(...lats))/2;
  const radius=Math.max(1,...nodes.map(p=>distanceKm({lon,lat},p)));
- return {lon,lat,zoom:Math.max(.8,Math.min(60,.72/Math.sin(Math.min(Math.PI/2,radius/6371))))};
+ return {lon,lat,zoom:Math.max(.8,Math.min(4000,.72/Math.sin(Math.min(Math.PI/2,radius/6371))))};
 }
 function culturalPlaceRef(ref){return places.find(p=>p.id===ref)||[...atlasContextByPlace.values()].find(r=>[...r.contexts.values()].some(c=>c.key===ref))?.place}
 // The existing full-width Hiroshige image has a verified creator and licence,
@@ -33,7 +33,7 @@ for(const definition of culturalMapDefinitions){
   const contexts=culturalMapContexts(atlasContextByPlace.get(p.id)||{place:p,contexts:new Map()},id);
   return contexts.length?atlasRelationNames[contexts[0].relation]:p.type;
  }))];
- themes.push({id,name:definition.name,title:definition.name,story:definition.intro,introduction:definition.intro,scope:'主题地点与区域探访',disciplines:[...new Set(sources.flatMap(themeDisciplines))],filters,fields:['地点关系','现场观察'],view:culturalMapView(nodes),symbol:first.symbol,colors:{...first.colors},artThemes:definition.artThemes||[]});
+ themes.push({id,maxZoom:4000,name:definition.name,title:definition.name,story:definition.intro,introduction:definition.intro,scope:'主题地点与区域探访',disciplines:[...new Set(sources.flatMap(themeDisciplines))],filters,fields:['地点关系','现场观察'],view:culturalMapView(nodes),symbol:first.symbol,colors:{...first.colors},artThemes:definition.artThemes||[]});
  themeDesigns[id]={...themeDesigns[first.id],lens:definition.lens,note:definition.intro,line:'区域探访 · 地点关系图'};
  themeGlyphs[id]=themeGlyphs[first.id];
  // Reuse only an image tied to a place actually on this map, retaining its credit.

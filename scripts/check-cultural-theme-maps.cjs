@@ -38,14 +38,14 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
      await page.locator('.route-stops button').first().click();assert.ok((await page.locator('#detail').innerText()).length>100);
      await page.locator('#detail .reading-sources').click();assert.ok(await page.locator('#detail .reading-sources a').count());
      if(!await page.locator('#detail .add-trip').isDisabled())await page.locator('#detail .add-trip').click();assert.ok(await page.evaluate(()=>trip.some(p=>p.id===selected.id)));await page.locator('#detail [aria-label="下一站"]').click();assert.equal(await page.evaluate(()=>previewStops.indexOf(selected)),1);
-     await page.locator('#detail .reading-close').click();await overflow(id);
+     await page.locator('#detail .reading-close').click();await page.locator('.route-overview').click();if(ids.includes(id))await frame(id+'/'+plan+' overview');await overflow(id);
      if(plan===plans[0])await page.screenshot({path:out+'/'+device.name+'-'+id+'-plan.png'});
      await page.reload();await page.waitForFunction(()=>document.body.dataset.ready==='true');assert.equal(await page.evaluate(()=>activePlan?.id),plan);
      await page.locator('.route-back').click();assert.ok(await page.locator('#plans-panel').isVisible());
     }
     await open('#theme='+id+'&view=places');
     if(!['modern-architecture','higashiyama'].includes(id))await frame(id);
-    await page.locator('#places .place').first().scrollIntoViewIfNeeded();await overflow(id);
+    await page.locator('#places .place').first().scrollIntoViewIfNeeded();await overflow(id);if(id==='setouchi-art'||id==='paris-sculpture')assert.ok(await page.evaluate(()=>{const ps=mapPoints().map(p=>screen(project(p.lon,p.lat)));return Math.max(...ps.map(p=>p[0]))-Math.min(...ps.map(p=>p[0]))>80}),'local points must be distinguishable');
     await page.screenshot({path:out+'/'+device.name+'-'+id+'-places.png'});
    }
    // Search inside merged maps uses each author's contextual places, not a selector.

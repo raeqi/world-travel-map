@@ -5,7 +5,7 @@ test('regional maps own real, source-backed places and working plans instead of 
  for(const [id,map] of culturalThemeMaps){
   const t=themes.find(t=>t.id===id),nodes=places.filter(p=>p.themes.includes(id)),plans=buildPlans(id,0);
   assert.ok(nodes.length>=3,id);assert.equal(plans.length,map.plans.length);assert.ok(plans.length);
-  assert.ok(!t.collection);assert.ok(t.filters.length);assert.ok(!/合集|子线|先选/.test(themeDesigns[id].lens));
+  assert.ok(!t.collection);assert.ok(t.filters.length);assert.ok(t.maxZoom>=4000);assert.ok(!/合集|子线|先选/.test(themeDesigns[id].lens));
   assert.ok(nodes.every(p=>p.source?.startsWith('https://')));assert.ok(nodes.some(p=>editorialPlacePhotos[p.id]===themeMedia[id].photo));
   for(const p of plans){assert.ok(p.stops.length>=2);assert.equal(p.topology,'network');assert.equal(p.legs.length,0);assert.ok(p.months.length<12);assert.ok(p.stops.every(p=>p.themes.includes(id)));assert.ok(!p.stops.some(p=>p.country==='美国')||id==='modern-architecture');}
  }
@@ -16,7 +16,7 @@ test('merges follow geography, while unrelated stories remain independent and se
  const nodes=id=>places.filter(p=>p.themes.includes(id));
  assert.ok(nodes('setouchi-art').every(p=>p.country==='日本'&&p.lon>133&&p.lon<135&&p.lat>34&&p.lat<35));
  assert.ok(nodes('southern-france-painters').every(p=>p.country==='法国'&&p.lat<45));
- assert.ok(nodes('fuji-tokaido').every(p=>p.country==='日本'));assert.ok(worksForTheme('fuji-tokaido').length>=4);
+ assert.ok(nodes('fuji-tokaido').every(p=>p.country==='日本'));assert.ok(worksForTheme('fuji-tokaido').length>=5);assert.ok(worksForTheme('fuji-tokaido').some(w=>w.artist==='歌川广重'));assert.equal(artWorks.find(w=>w.key==='atlas-yui').museumId,null);assert.ok(culturalPlaceRef('yui').desc.includes('休馆'));
  assert.ok(nodes('jiangnan-painting').every(p=>(countrySearchNames[p.country]||p.country)==='中国'&&p.lon>117&&p.lon<123&&p.lat>29&&p.lat<33));
  assert.ok(nodes('mexico-city-art').every(p=>p.country==='墨西哥'));
  assert.ok(nodes('shen-congwen').every(p=>p.region==='湖南'));assert.ok(nodes('xiao-hong').every(p=>p.country==='中国'&&p.lat>45));
