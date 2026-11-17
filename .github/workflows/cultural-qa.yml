@@ -1,0 +1,39 @@
+name: Cultural routes browser QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'cultural-routes.js'
+      - 'assets/cultural-routes/**'
+      - 'index.html'
+      - 'scripts/check-cultural-browser.cjs'
+      - '.github/workflows/cultural-qa.yml'
+permissions:
+  contents: read
+jobs:
+  cultural-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/*.test.cjs
+      - name: Install browser tooling without modifying package files
+        run: |
+          npm install --no-save --package-lock=false playwright
+          npx playwright install --with-deps chromium
+      - name: Verify cultural routes and capture desktop/mobile screenshots
+        run: |
+          python3 -m http.server 8000 --bind 127.0.0.1 > /tmp/cultural-server.log 2>&1 &
+          node scripts/check-cultural-browser.cjs
+      - name: Preserve review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cultural-routes-browser
+          path: |
+            qa/cultural-browser/
+            /tmp/cultural-server.log
+          retention-days: 14
