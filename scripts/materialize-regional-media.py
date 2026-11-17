@@ -22,6 +22,7 @@ for row in PACK['points']:
  if not wiki:pending[key]='No cleared image; retain sourced text without borrowing another location';continue
  try:
   page=next(iter(api('en.wikipedia.org',{'action':'query','prop':'pageimages','titles':wiki,'piprop':'name','redirects':1})['query']['pages'].values()));file=row.get('mediaFile') or page.get('pageimage')
+  if not row.get('mediaFile') and re.sub(r'[^a-z0-9]','',page.get('title','').lower())!=re.sub(r'[^a-z0-9]','',wiki.lower()):raise ValueError('Article redirected to a different subject; exact-place image required')
   if not file or any(t in file.lower() for t in ['logo','signature','map.svg','coat of arms','flag of','localitzaci','portrait']):raise ValueError('No suitable exact-place lead photograph')
   raw=api('commons.wikimedia.org',{'action':'query','prop':'imageinfo','titles':'File:'+file,'iiprop':'url|size|extmetadata','iiurlwidth':1440})
   info=next(iter(raw['query']['pages'].values()))['imageinfo'][0];meta=info['extmetadata'];license=clean(meta.get('LicenseShortName',{}).get('value',''))

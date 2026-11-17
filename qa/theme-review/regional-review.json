@@ -8,10 +8,10 @@
     "visibleOneItineraryThemes": 54
   },
   "after": {
-    "visible": 89,
-    "themes": 123,
-    "itineraries": 259,
-    "visibleOneItineraryThemes": 45
+    "visible": 82,
+    "themes": 128,
+    "itineraries": 276,
+    "visibleOneItineraryThemes": 30
   },
   "decisions": [
     {
@@ -372,12 +372,12 @@
       "beforeItineraries": 1,
       "afterItineraries": 1,
       "beforeVisible": true,
-      "afterVisible": true,
-      "action": "retained",
+      "afterVisible": false,
+      "action": "integrated",
       "destinations": [
-        "hepworth"
+        "british-sculpture"
       ],
-      "reason": "圣艾夫斯两处雕塑空间是紧凑地方叙事；摩尔的赫特福德与利兹相距远且无本地联游关系。",
+      "reason": "与摩尔共享约克郡成长背景；圣艾夫斯两点和新增韦克菲尔德、雕塑公园由英国雕塑图完整承接。",
       "points": [
         {
           "id": "atlas-hepworth-garden",
@@ -386,7 +386,7 @@
           "sha256": "63941d539ef8eaab20a43c045d9cd1720b321d4641efed3d2c72fb3c94d06ace",
           "legacyHash": "#theme=hepworth&place=atlas-hepworth-garden",
           "destinations": [
-            "hepworth"
+            "british-sculpture"
           ]
         },
         {
@@ -396,7 +396,7 @@
           "sha256": "18320baccb7ed98385f19b6ca42f9adb94b5259efb1b5f2a800185e9d7c989e2",
           "legacyHash": "#theme=hepworth&place=atlas-tate-st-ives",
           "destinations": [
-            "hepworth"
+            "british-sculpture"
           ]
         }
       ],
@@ -505,12 +505,12 @@
       "beforeItineraries": 1,
       "afterItineraries": 1,
       "beforeVisible": true,
-      "afterVisible": true,
-      "action": "retained",
+      "afterVisible": false,
+      "action": "integrated",
       "destinations": [
-        "henry-moore"
+        "british-sculpture"
       ],
-      "reason": "工作室花园和利兹研究机构具有同一艺术家资料关系；赫普沃斯圣艾夫斯不应硬接为英国总路线。",
+      "reason": "佩里格林和利兹完整进入英国雕塑地图，分约克郡、工作室园区与海岸方案。",
       "points": [
         {
           "id": "atlas-perry-green",
@@ -519,7 +519,7 @@
           "sha256": "9239307f586f99104d51a98c0c6c37f8f1dbe44496ed34e53e967bf33775d561",
           "legacyHash": "#theme=henry-moore&place=atlas-perry-green",
           "destinations": [
-            "henry-moore"
+            "british-sculpture"
           ]
         },
         {
@@ -529,7 +529,7 @@
           "sha256": "7552774da3056be86352a0e94f918ad1e1b343dcbd6b52cebe03cb333f8beff9",
           "legacyHash": "#theme=henry-moore&place=atlas-moore-institute",
           "destinations": [
-            "henry-moore"
+            "british-sculpture"
           ]
         }
       ],
@@ -797,14 +797,14 @@
       "id": "munch",
       "name": "蒙克的海岸与居所",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
+      "afterItineraries": 2,
       "beforeVisible": true,
       "afterVisible": true,
-      "action": "retained",
+      "action": "expanded",
       "destinations": [
         "munch"
       ],
-      "reason": "奥斯戈斯特兰与奥斯陆的海岸居住和收藏关系完整；与卑尔根格里格相距远且主题不同。",
+      "reason": "保留挪威独立故事，增加有机构资料的埃克利画室园地与奥斯陆分区方案，区分当代驻留和历史生活。",
       "points": [
         {
           "id": "atlas-asgardstrand",
@@ -1410,12 +1410,13 @@
       "beforeItineraries": 1,
       "afterItineraries": 1,
       "beforeVisible": true,
-      "afterVisible": true,
-      "action": "retained",
+      "afterVisible": false,
+      "action": "integrated",
       "destinations": [
-        "feng-zikai"
+        "jiangnan-painting",
+        "yangtze-writing"
       ],
-      "reason": "石门和上海在江南，重庆迁居未被覆盖；恢复完整地图，不用地域去重隐藏重庆。",
+      "reason": "石门与上海由江南画家图承接、重庆迁居由长江写作图承接；三地点完整保全。",
       "points": [
         {
           "id": "atlas-yuanyuantang",
@@ -1424,7 +1425,7 @@
           "sha256": "685bac572d59378a91d9975c986862c5a98aceb521fe0962a22d4a10c7c2fa2f",
           "legacyHash": "#theme=feng-zikai&place=atlas-yuanyuantang",
           "destinations": [
-            "feng-zikai"
+            "jiangnan-painting"
           ]
         },
         {
@@ -1434,7 +1435,7 @@
           "sha256": "3078d2be96515a0e111cbcc5ffc1799bae62a0a0266af3f956479286af299f58",
           "legacyHash": "#theme=feng-zikai&place=atlas-chongqing",
           "destinations": [
-            "feng-zikai"
+            "yangtze-writing"
           ]
         },
         {
@@ -1444,7 +1445,7 @@
           "sha256": "15b2af52c059a05a9bdd47958bb9e2d1dbdafba7404b9b3ac6e543b0988da4b1",
           "legacyHash": "#theme=feng-zikai&place=atlas-riyuelou",
           "destinations": [
-            "feng-zikai"
+            "jiangnan-painting"
           ]
         }
       ],
@@ -1661,12 +1662,13 @@
       "beforeItineraries": 1,
       "afterItineraries": 1,
       "beforeVisible": true,
-      "afterVisible": true,
-      "action": "retained",
+      "afterVisible": false,
+      "action": "integrated",
       "destinations": [
-        "lee-miller"
+        "cairo-city-stories",
+        "southeast-england-creative"
       ],
-      "reason": "开罗与英国法利农舍是不同生活阶段；只有埃及点与马哈福兹同区，不足以覆盖摄影和英国内容。",
+      "reason": "萨塞克斯住宅在英格兰图、埃及城市背景在开罗图，两段生活全部可发现后去重。",
       "points": [
         {
           "id": "atlas-cairo",
@@ -1675,7 +1677,7 @@
           "sha256": "79142f0be077089b6fb53dd50e67036391aee476720449315513fd1c835bc71a",
           "legacyHash": "#theme=lee-miller&place=atlas-cairo",
           "destinations": [
-            "lee-miller"
+            "cairo-city-stories"
           ]
         },
         {
@@ -1685,7 +1687,7 @@
           "sha256": "e3a25e5376959e278bca8448926aaa3d83313e8fd1f584b7273d3cdb17d33a5e",
           "legacyHash": "#theme=lee-miller&place=atlas-farleys",
           "destinations": [
-            "lee-miller"
+            "southeast-england-creative"
           ]
         }
       ],
@@ -2144,14 +2146,14 @@
       "id": "sibelius",
       "name": "西贝柳斯的芬兰",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
+      "afterItineraries": 2,
       "beforeVisible": true,
       "afterVisible": true,
-      "action": "retained",
+      "action": "expanded",
       "destinations": [
         "sibelius"
       ],
-      "reason": "艾诺拉与赫尔辛基形成芬兰地域叙事；与格里格卑尔根隔国隔海，不做北欧音乐大合并。",
+      "reason": "保留芬兰独立故事，新增海门林纳出生地博物馆及与艾诺拉分期阅读，不和挪威音乐家硬拼。",
       "points": [
         {
           "id": "atlas-ainola",
@@ -2332,12 +2334,13 @@
       "beforeItineraries": 1,
       "afterItineraries": 1,
       "beforeVisible": true,
-      "afterVisible": true,
-      "action": "retained",
+      "afterVisible": false,
+      "action": "integrated",
       "destinations": [
-        "handel"
+        "european-music-cities",
+        "southeast-england-creative"
       ],
-      "reason": "哈雷在音乐城市，伦敦故居不被现有地图覆盖；恢复独立，避免伦敦地域检索缺失。",
+      "reason": "哈雷在欧洲音乐图、伦敦故居在英格兰东南图；跨国原方案继续可搜，全点覆盖后去重。",
       "points": [
         {
           "id": "atlas-handel-halle",
@@ -2346,7 +2349,7 @@
           "sha256": "1026b390631dac286537e6c2bb2edba25a5967589069545be826b1fc249564e8",
           "legacyHash": "#theme=handel&place=atlas-handel-halle",
           "destinations": [
-            "handel"
+            "european-music-cities"
           ]
         },
         {
@@ -2356,7 +2359,7 @@
           "sha256": "daf75949773e1dae611bf902468340c0841cafab1cbef4d7a2ae5b5156024a34",
           "legacyHash": "#theme=handel&place=atlas-handel-london",
           "destinations": [
-            "handel"
+            "southeast-england-creative"
           ]
         }
       ],
@@ -2464,12 +2467,12 @@
       "beforeItineraries": 1,
       "afterItineraries": 1,
       "beforeVisible": true,
-      "afterVisible": true,
-      "action": "retained",
+      "afterVisible": false,
+      "action": "integrated",
       "destinations": [
-        "du-fu"
+        "yangtze-writing"
       ],
-      "reason": "成都草堂与岳阳楼属于漂泊的两地阅读；湘西沈从文和江南诗路都不完整覆盖。",
+      "reason": "成都和岳阳在长江及支流城市文学图完整承接，分地住宿与历史阶段分清。",
       "points": [
         {
           "id": "atlas-dufu-cottage",
@@ -2478,7 +2481,7 @@
           "sha256": "a751ece499c5c7fcfa9505f70c0170ce4267670d6715a86772ce21f611fc8d25",
           "legacyHash": "#theme=du-fu&place=atlas-dufu-cottage",
           "destinations": [
-            "du-fu"
+            "yangtze-writing"
           ]
         },
         {
@@ -2488,7 +2491,7 @@
           "sha256": "dbca503fe8caa9667fb38279bb6b7cabed83e5fef610a6a9d76e6f9ebfcdd394",
           "legacyHash": "#theme=du-fu&place=atlas-yueyang-tower",
           "destinations": [
-            "du-fu"
+            "yangtze-writing"
           ]
         }
       ],
@@ -2596,12 +2599,13 @@
       "beforeItineraries": 1,
       "afterItineraries": 1,
       "beforeVisible": true,
-      "afterVisible": true,
-      "action": "retained",
+      "afterVisible": false,
+      "action": "integrated",
       "destinations": [
-        "lu-you"
+        "jiangnan-poetry",
+        "yangtze-writing"
       ],
-      "reason": "绍兴在江南，奉节夔州未覆盖；恢复独立，不将《入蜀记》缩成江南起点。",
+      "reason": "绍兴由江南图承接、奉节由入蜀与长江图承接，不再因江南筛选隐藏夔州。",
       "points": [
         {
           "id": "atlas-shaoxing",
@@ -2610,7 +2614,7 @@
           "sha256": "c34b2771a01c3f8a872eb59810ebbebef4f050fb659a99acb16205195c576297",
           "legacyHash": "#theme=lu-you&place=atlas-shaoxing",
           "destinations": [
-            "lu-you"
+            "jiangnan-poetry"
           ]
         },
         {
@@ -2620,7 +2624,7 @@
           "sha256": "378261cf2070b65302fb25236d6d5d28dfd2a7ba78498238595e95ec7de6e7da",
           "legacyHash": "#theme=lu-you&place=atlas-fengjie",
           "destinations": [
-            "lu-you"
+            "yangtze-writing"
           ]
         }
       ],
@@ -2640,12 +2644,12 @@
       "beforeItineraries": 1,
       "afterItineraries": 1,
       "beforeVisible": true,
-      "afterVisible": true,
-      "action": "retained",
+      "afterVisible": false,
+      "action": "integrated",
       "destinations": [
-        "basho"
+        "japan-literary-landscapes"
       ],
-      "reason": "松岛和山寺是《奥之细道》精选；夏目漱石与川端的地点、时代、文本均不同。",
+      "reason": "松岛与山寺完整进入日本文学图，保持东北山海独立探访和作品年代区别。",
       "points": [
         {
           "id": "atlas-matsushima",
@@ -2654,7 +2658,7 @@
           "sha256": "6e0f262b5df387716e8972c7d01d3d574096c3a86113c6d1b92080dcec01648a",
           "legacyHash": "#theme=basho&place=atlas-matsushima",
           "destinations": [
-            "basho"
+            "japan-literary-landscapes"
           ]
         },
         {
@@ -2664,7 +2668,7 @@
           "sha256": "2cb8a08ab67d91c80a7c5763200b0e37713dc1e71b9447f8c53f9f1010cb79ba",
           "legacyHash": "#theme=basho&place=atlas-yamadera",
           "destinations": [
-            "basho"
+            "japan-literary-landscapes"
           ]
         }
       ],
@@ -2684,12 +2688,12 @@
       "beforeItineraries": 1,
       "afterItineraries": 1,
       "beforeVisible": true,
-      "afterVisible": true,
-      "action": "retained",
+      "afterVisible": false,
+      "action": "integrated",
       "destinations": [
-        "kawabata"
+        "japan-literary-landscapes"
       ],
-      "reason": "伊豆山地与越后汤泽对应独立文学地景；富士版画与芭蕉奥州不能代替小说语境。",
+      "reason": "伊豆与越后汤泽由日本文学图直接呈现，原作品地景与原方案保留。",
       "points": [
         {
           "id": "atlas-amagi",
@@ -2698,7 +2702,7 @@
           "sha256": "1f8dfaeb2cd97da3d5e71aed0f56eb551a185e44760fd4dbc314e9f440888046",
           "legacyHash": "#theme=kawabata&place=atlas-amagi",
           "destinations": [
-            "kawabata"
+            "japan-literary-landscapes"
           ]
         },
         {
@@ -2708,7 +2712,7 @@
           "sha256": "167a475b8ee8f97c51479da4aeefb528015bf4bfeee454e25ccb8dfc41943845",
           "legacyHash": "#theme=kawabata&place=atlas-echigo-yuzawa",
           "destinations": [
-            "kawabata"
+            "japan-literary-landscapes"
           ]
         }
       ],
@@ -2728,12 +2732,13 @@
       "beforeItineraries": 1,
       "afterItineraries": 1,
       "beforeVisible": true,
-      "afterVisible": true,
-      "action": "retained",
+      "afterVisible": false,
+      "action": "integrated",
       "destinations": [
-        "soseki"
+        "southeast-england-creative",
+        "japan-literary-landscapes"
       ],
-      "reason": "伦敦、松山、东京对应留学任教写作三个阶段；日本其他文学主题不能覆盖伦敦。",
+      "reason": "松山、东京由日本文学图承接，伦敦由英格兰东南图承接，并新增温泉与疗养纪念资料。",
       "points": [
         {
           "id": "mozart-london",
@@ -2742,7 +2747,7 @@
           "sha256": "46a9ad8cbc1eb440c32602e822ae104906b526b63b4ca07ce8b546ff89c34391",
           "legacyHash": "#theme=soseki&place=mozart-london",
           "destinations": [
-            "soseki"
+            "southeast-england-creative"
           ]
         },
         {
@@ -2752,7 +2757,7 @@
           "sha256": "2ef9ba6e3f946bc379ed8ed4231aa2f1771596265b731a916af44a65884634ef",
           "legacyHash": "#theme=soseki&place=atlas-matsuyama",
           "destinations": [
-            "soseki"
+            "japan-literary-landscapes"
           ]
         },
         {
@@ -2762,7 +2767,7 @@
           "sha256": "d5e6bdd78ae6d78b9c9566c2e8e2e3c7fd9c5c6909fa64d38f919c22cd620a29",
           "legacyHash": "#theme=soseki&place=atlas-soseki-sanbo",
           "destinations": [
-            "soseki"
+            "japan-literary-landscapes"
           ]
         }
       ],
@@ -2958,12 +2963,12 @@
       "beforeItineraries": 1,
       "afterItineraries": 1,
       "beforeVisible": true,
-      "afterVisible": true,
-      "action": "retained",
+      "afterVisible": false,
+      "action": "integrated",
       "destinations": [
-        "dickens"
+        "southeast-england-creative"
       ],
-      "reason": "伦敦与布罗德斯泰斯对应英国城市和海岸生活；与奥斯汀西南英格兰无完整区域承接。",
+      "reason": "伦敦与布罗德斯泰斯由英格兰东南创作图完整承接，城市与肯特海岸各自探访。",
       "points": [
         {
           "id": "atlas-dickens-london",
@@ -2972,7 +2977,7 @@
           "sha256": "149a19fde16988b09e65cb61995dc48213dd6edb9508a9b2ad2789861c5e6dcd",
           "legacyHash": "#theme=dickens&place=atlas-dickens-london",
           "destinations": [
-            "dickens"
+            "southeast-england-creative"
           ]
         },
         {
@@ -2982,7 +2987,7 @@
           "sha256": "fe7b423700c9c8769be3ef1ba191550496eb23c491d7296b51f961118bcf5391",
           "legacyHash": "#theme=dickens&place=atlas-dickens-broadstairs",
           "destinations": [
-            "dickens"
+            "southeast-england-creative"
           ]
         }
       ],
@@ -3408,12 +3413,12 @@
       "beforeItineraries": 1,
       "afterItineraries": 1,
       "beforeVisible": true,
-      "afterVisible": true,
-      "action": "retained",
+      "afterVisible": false,
+      "action": "integrated",
       "destinations": [
-        "mahfouz"
+        "cairo-city-stories"
       ],
-      "reason": "老开罗与纪念馆构成可分区探索的同城文学主题；李米勒仅有一个开罗点且另一点在英国。",
+      "reason": "老开罗和纪念馆完整进入开罗街巷、小说与摄影图，补住宅空间资料，但不臆定小说地址。",
       "points": [
         {
           "id": "atlas-khan-khalili",
@@ -3422,7 +3427,7 @@
           "sha256": "5dc1ed0f649fd4826afcb2e40c7dfe8634f688f08c36e478a4006d5401b1c0ee",
           "legacyHash": "#theme=mahfouz&place=atlas-khan-khalili",
           "destinations": [
-            "mahfouz"
+            "cairo-city-stories"
           ]
         },
         {
@@ -3432,7 +3437,7 @@
           "sha256": "9974b0f3787af3a8f8ff28b674cdc5f3f51775c3470e2e65dfc778bc8ef40940",
           "legacyHash": "#theme=mahfouz&place=atlas-mahfouz-museum",
           "destinations": [
-            "mahfouz"
+            "cairo-city-stories"
           ]
         }
       ],
@@ -3514,14 +3519,14 @@
       "id": "detroit-art",
       "name": "底特律：弗里达、里维拉与工业城市",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
+      "afterItineraries": 2,
       "beforeVisible": true,
       "afterVisible": true,
-      "action": "retained",
+      "action": "expanded",
       "destinations": [
         "detroit-art"
       ],
-      "reason": "现有同城艺术图保留，后续补充分区现场资料。",
+      "reason": "新增鲁日工厂参访，与壁画原址分地对读；历史生产与现代工厂分清，采用正规接驳。",
       "points": [
         {
           "id": "atlas-detroit",
@@ -3685,6 +3690,78 @@
       "name": "纽约 · 大都会修道院分馆",
       "source": "https://www.metmuseum.org/plan-your-visit/met-cloisters",
       "wiki": "The Cloisters"
+    },
+    {
+      "id": "regional-ysp",
+      "name": "约克郡雕塑公园",
+      "source": "https://ysp.org.uk/about-ysp",
+      "wiki": "Yorkshire Sculpture Park"
+    },
+    {
+      "id": "regional-hepworth-wakefield",
+      "name": "韦克菲尔德 · 赫普沃斯美术馆",
+      "source": "https://hepworthwakefield.org/your-visit/",
+      "wiki": "The Hepworth Wakefield"
+    },
+    {
+      "id": "regional-monks-house",
+      "name": "罗德梅尔 · 僧侣之家",
+      "source": "https://www.nationaltrust.org.uk/visit/sussex/monks-house",
+      "wiki": "Monk's House"
+    },
+    {
+      "id": "regional-sissinghurst",
+      "name": "肯特 · 西辛赫斯特城堡花园",
+      "source": "https://www.nationaltrust.org.uk/visit/kent/sissinghurst-castle-garden",
+      "wiki": "Sissinghurst Castle Garden"
+    },
+    {
+      "id": "regional-dogo",
+      "name": "松山 · 道后温泉本馆",
+      "source": "https://dogo.jp/onsen/honkan",
+      "wiki": "Dōgo Onsen"
+    },
+    {
+      "id": "regional-shuzenji-soseki",
+      "name": "修善寺虹之乡 · 夏目漱石纪念馆",
+      "source": "https://www.nijinosato.com/park/natsume-memorialhall/",
+      "wiki": null
+    },
+    {
+      "id": "regional-gayer-anderson",
+      "name": "开罗 · 盖耶安德森博物馆",
+      "source": "https://egymonuments.gov.eg/en/museums/gayer-anderson-museum",
+      "wiki": "Gayer-Anderson Museum"
+    },
+    {
+      "id": "regional-baidicheng",
+      "name": "奉节 · 白帝城与夔门观看",
+      "source": "https://jda.cq.gov.cn/web/article/1464346337456713728/web/content_1464346337456713728.html",
+      "wiki": "Baidicheng"
+    },
+    {
+      "id": "regional-laoshe-beibei",
+      "name": "重庆北碚 · 老舍旧居街区",
+      "source": "https://dangshi.people.com.cn/n/2014/0723/c85037-25329469.html",
+      "wiki": null
+    },
+    {
+      "id": "regional-rouge",
+      "name": "迪尔伯恩 · 福特鲁日工厂参访",
+      "source": "https://www.detroithistorical.org/learn/online-research/encyclopedia-of-detroit/ford-rouge-complex",
+      "wiki": "Ford River Rouge Complex"
+    },
+    {
+      "id": "regional-ekely",
+      "name": "奥斯陆 · 埃克利画室与庭园",
+      "source": "https://www.munch.no/en/edvard-munch/ekely/visit-munchs-studio-at-ekely/",
+      "wiki": "Ekely"
+    },
+    {
+      "id": "regional-sibelius-birthplace",
+      "name": "海门林纳 · 西贝柳斯出生地博物馆",
+      "source": "https://hmlmuseo.fi/en/home/museums/birthplace-of-jean-sibelius/",
+      "wiki": null
     }
   ],
   "coverage": [
@@ -3940,6 +4017,23 @@
       ]
     },
     {
+      "id": "hepworth",
+      "points": [
+        {
+          "id": "atlas-hepworth-garden",
+          "maps": [
+            "british-sculpture"
+          ]
+        },
+        {
+          "id": "atlas-tate-st-ives",
+          "maps": [
+            "british-sculpture"
+          ]
+        }
+      ]
+    },
+    {
       "id": "noguchi",
       "points": [
         {
@@ -3952,6 +4046,23 @@
           "id": "atlas-noguchi-mure",
           "maps": [
             "setouchi-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "henry-moore",
+      "points": [
+        {
+          "id": "atlas-perry-green",
+          "maps": [
+            "british-sculpture"
+          ]
+        },
+        {
+          "id": "atlas-moore-institute",
+          "maps": [
+            "british-sculpture"
           ]
         }
       ]
@@ -4191,6 +4302,29 @@
       ]
     },
     {
+      "id": "feng-zikai",
+      "points": [
+        {
+          "id": "atlas-yuanyuantang",
+          "maps": [
+            "jiangnan-painting"
+          ]
+        },
+        {
+          "id": "atlas-chongqing",
+          "maps": [
+            "yangtze-writing"
+          ]
+        },
+        {
+          "id": "atlas-riyuelou",
+          "maps": [
+            "jiangnan-painting"
+          ]
+        }
+      ]
+    },
+    {
       "id": "rivera",
       "points": [
         {
@@ -4232,6 +4366,23 @@
           "id": "atlas-glacier-point",
           "maps": [
             "american-west-art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lee-miller",
+      "points": [
+        {
+          "id": "atlas-cairo",
+          "maps": [
+            "cairo-city-stories"
+          ]
+        },
+        {
+          "id": "atlas-farleys",
+          "maps": [
+            "southeast-england-creative"
           ]
         }
       ]
@@ -4356,6 +4507,23 @@
       ]
     },
     {
+      "id": "handel",
+      "points": [
+        {
+          "id": "atlas-handel-halle",
+          "maps": [
+            "european-music-cities"
+          ]
+        },
+        {
+          "id": "atlas-handel-london",
+          "maps": [
+            "southeast-england-creative"
+          ]
+        }
+      ]
+    },
+    {
       "id": "li-bai",
       "points": [
         {
@@ -4368,6 +4536,23 @@
           "id": "atlas-taohuatan",
           "maps": [
             "jiangnan-poetry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "du-fu",
+      "points": [
+        {
+          "id": "atlas-dufu-cottage",
+          "maps": [
+            "yangtze-writing"
+          ]
+        },
+        {
+          "id": "atlas-yueyang-tower",
+          "maps": [
+            "yangtze-writing"
           ]
         }
       ]
@@ -4390,6 +4575,80 @@
       ]
     },
     {
+      "id": "lu-you",
+      "points": [
+        {
+          "id": "atlas-shaoxing",
+          "maps": [
+            "jiangnan-poetry"
+          ]
+        },
+        {
+          "id": "atlas-fengjie",
+          "maps": [
+            "yangtze-writing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basho",
+      "points": [
+        {
+          "id": "atlas-matsushima",
+          "maps": [
+            "japan-literary-landscapes"
+          ]
+        },
+        {
+          "id": "atlas-yamadera",
+          "maps": [
+            "japan-literary-landscapes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kawabata",
+      "points": [
+        {
+          "id": "atlas-amagi",
+          "maps": [
+            "japan-literary-landscapes"
+          ]
+        },
+        {
+          "id": "atlas-echigo-yuzawa",
+          "maps": [
+            "japan-literary-landscapes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soseki",
+      "points": [
+        {
+          "id": "mozart-london",
+          "maps": [
+            "southeast-england-creative"
+          ]
+        },
+        {
+          "id": "atlas-matsuyama",
+          "maps": [
+            "japan-literary-landscapes"
+          ]
+        },
+        {
+          "id": "atlas-soseki-sanbo",
+          "maps": [
+            "japan-literary-landscapes"
+          ]
+        }
+      ]
+    },
+    {
       "id": "goethe",
       "points": [
         {
@@ -4402,6 +4661,40 @@
           "id": "atlas-goethe-rome",
           "maps": [
             "italian-art-journeys"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dickens",
+      "points": [
+        {
+          "id": "atlas-dickens-london",
+          "maps": [
+            "southeast-england-creative"
+          ]
+        },
+        {
+          "id": "atlas-dickens-broadstairs",
+          "maps": [
+            "southeast-england-creative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mahfouz",
+      "points": [
+        {
+          "id": "atlas-khan-khalili",
+          "maps": [
+            "cairo-city-stories"
+          ]
+        },
+        {
+          "id": "atlas-mahfouz-museum",
+          "maps": [
+            "cairo-city-stories"
           ]
         }
       ]

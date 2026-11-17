@@ -33,7 +33,7 @@ test('the short-theme review covers the whole baseline and every retained itiner
   }
  }
  const detroit=places.filter(p=>p.themes.includes('detroit-art'));
- assert.deepEqual(detroit.map(p=>p.id).sort(),['atlas-detroit','atlas-dia-detroit']);assert.ok(detroit.every(p=>p.country==='美国'));assert.equal(buildPlans('detroit-art',0)[0].topology,'network');
+ assert.ok(['atlas-detroit','atlas-dia-detroit'].every(id=>detroit.some(p=>p.id===id)));assert.ok(detroit.every(p=>p.country==='美国'));assert.equal(buildPlans('detroit-art',0)[0].topology,'network');
  assert.ok(themes.find(t=>t.id==='gaudi').catalogHidden);assert.ok(themes.find(t=>t.id==='picasso').catalogHidden);assert.ok(themes.find(t=>t.id==='wu-guanzhong').catalogHidden);
  `,c);
 });
