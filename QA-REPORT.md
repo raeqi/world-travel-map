@@ -66,3 +66,20 @@ final action result and remote SHA must be verified separately.
 Browser validation remains outstanding: an allowed Chromium / HTTP preview
 runtime is still needed to run `node scripts/run-browser-suite.cjs` and inspect
 the real desktop/mobile screenshots. DOM checks are not visual acceptance.
+
+## Follow-up cloud preview verification (2026-11-17)
+
+The original blockers above describe the first implementation run. A later
+verification used the supported Sites managed preview in the same Dot cloud
+computer, without using a local user computer or publishing the preview publicly.
+
+- Actual Chromium UI: ten new themes at 1440 and 390 CSS-pixel viewport widths.
+- No horizontal page overflow or failed fully loaded images were observed.
+- Impressionist full-art viewer, depicted-place navigation, curated route,
+  Giverny detail, next stop Rouen, close and return were exercised successfully.
+- Mobile checks used a real browser iframe CSS viewport, not a physical phone.
+- Some dense map labels still overlap; this is a known visual polish limitation.
+- These are targeted UI checks, not a claim that the entire browser script suite ran.
+
+The Git CLI credential limitation was resolved through the user's connected
+GitHub API, preserving and verifying the complete Git tree before publication.
