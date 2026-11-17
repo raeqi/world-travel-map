@@ -52,8 +52,9 @@
    await page.locator('.plan-actions [data-action="preview"]').first().click();
    await page.waitForFunction(()=>activePlan!==null);
    assert.ok(metadata.plans.includes(await page.evaluate(()=>activePlan.id)));
+   if(id!=='canadian-rockies')assert.ok(await page.evaluate(()=>targetZoom>60),'local trail route fits beyond the old global zoom cap');
    await page.locator('.route-stops button').first().click();
-   await page.waitForFunction(()=>selected!==null&&camera===null);
+   await page.waitForFunction(()=>selected!==null&&camera===null&&Math.abs(zoom-targetZoom)<.01);
    assert.ok(await page.locator('#detail').isVisible());
    const images=await page.locator('#detail img').count();if(images)await page.locator('#detail img').first().evaluate(img=>img.decode());
    await capture(page,label+'-'+id);

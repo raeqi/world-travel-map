@@ -1099,7 +1099,7 @@ for(const stop of naturalAtlasPack.points){
 }
 for(const definition of naturalAtlasPack.themes){
  const nodes=places.filter(p=>p.themes.includes(definition.id)),first=themes.find(t=>t.id==='nature'),view=culturalCollectionView(nodes);
- themes.push({id:definition.id,name:definition.name,title:definition.title,story:definition.story,introduction:definition.intro,scope:definition.scope,filters:[...new Set(nodes.map(p=>p.type))],fields:['所在分区','访问方式'],view,symbol:'circle',colors:{...first.colors}});
+ themes.push({id:definition.id,name:definition.name,title:definition.title,story:definition.story,introduction:definition.intro,scope:definition.scope,filters:[...new Set(nodes.map(p=>p.type))],fields:['所在分区','访问方式'],view,maxZoom:1200,localDetail:true,symbol:'circle',colors:{...first.colors}});
  themeMedia[definition.id]={photo:definition.photo,en:definition.en,edition:definition.name,motif:definition.story,symbol:'◇'};
  themeDesigns[definition.id]={...themeDesigns.nature,lens:definition.scope,note:definition.intro,line:'先选独立行程；连线仅表示节点顺序'};
  themeGlyphs[definition.id]=['mountain','leaf'];
