@@ -11,7 +11,7 @@ const pack=require('./content-quality-packs.cjs').combinedPack(),base=process.en
    await open('#theme='+row.theme+'&place='+row.id);assert.equal(await page.evaluate(()=>selected?.id),row.id);assert.equal(await page.locator('#detail .place-summary').innerText(),row.summary);
    assert.ok((await page.locator('#detail .reading-essay').innerText()).includes(row.paragraphs[0].text));
    const second=page.locator('#detail .reading-essay details').nth(1);if(await second.getAttribute('open')===null)await second.locator('summary').click();assert.ok((await second.innerText()).includes(row.paragraphs[1].text));
-   await page.locator('#detail .reading-sources summary').click();for(const key of row.sourceKeys)assert.ok(await page.locator('#detail .reading-sources a').evaluateAll((nodes,url)=>nodes.some(a=>a.href===url),pack.sources[key].url));
+   await page.locator('#detail .reading-sources summary').click();for(const key of row.sourceKeys)assert.ok(await page.locator('#detail .reading-sources a').evaluateAll((nodes,url)=>nodes.some(a=>a.href===new URL(url).href),pack.sources[key].url),row.id+' source '+key);
    assert.ok(await page.locator('#detail .reading-sources a').evaluateAll(nodes=>nodes.some(a=>a.href===selected.source)));
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
    if(['xituo','kumano-hongu','buddhist-sarnath','nc500-gairloch','tea-lijiang','tea-kalimpong'].includes(row.id)){await page.locator('#detail .reading-sources summary').click();await page.locator('#detail').evaluate(el=>el.scrollTop=0);await page.screenshot({path:out+'/'+device.name+'-'+row.id+'.png'});}
