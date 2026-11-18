@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-22",
+  "baseline": "b9dd89266fb1a70ecaae58ebb66ac191a72aca4a",
+  "checked": "2026-11-18",
+  "scope": "Ten existing visible culture itinerary contexts: Egypt4 and India6, previously without expanded reading. Selected UNESCO OUV/description passages plus ASI interpretation support observable architectural, urban, pilgrimage and modern relocation relationships. Preserve original catalogue, links, media, repaired coordinates, saved IDs and plans. Not all-site verification or current access assurance.",
+  "sources": {
+    "cq22-thebes": {
+      "title": "UNESCO：底比斯两岸神庙、墓地与工匠",
+      "url": "https://whc.unesco.org/en/list/87/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read Karnak hall, Luxor, West Bank necropolis and Hatshepsut terraces. Omit questionable family relationships, visitor access, precise totals and current tomb-opening list."
+    },
+    "cq22-nubia": {
+      "title": "UNESCO：努比亚古迹、迁建与采石技术",
+      "url": "https://whc.unesco.org/en/list/88/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read moved first five components vs other Aswan antiquities, Agilkia/Philae and unfinished obelisk. Page equinox solar-date assertion and late Isis-cult chronology not adopted; not every component moved."
+    },
+    "cq22-cairo": {
+      "title": "UNESCO：历史开罗街巷、公共建筑与王朝层次",
+      "url": "https://whc.unesco.org/en/list/89/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read city gates, Al-Muizz street, Ibn Tulun and sabil/kuttab/bimaristan integration. Do not claim all public-service buildings retain historic functions or all Cairo was built in one year."
+    },
+    "cq22-abumena": {
+      "title": "UNESCO：阿布米那朝圣与生活建筑遗构",
+      "url": "https://whc.unesco.org/en/list/90/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read tomb/church/baptistery, hostels/baths/cisterns/presses/kilns, surviving lower walls and nearby living monastery. Saint from Alexandria is not from Alexander the Great's era (Chinese translation error). No miracle factual endorsement, current access or hydrological status claim."
+    },
+    "cq22-humayun": {
+      "title": "UNESCO：胡马雍陵四分园、平台与穹顶",
+      "url": "https://whc.unesco.org/en/list/232/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read pools/channels, octagonal chamber, sandstone/marble and multiple later tombs. Avoid disputed patron shorthand, completion-date mismatch, first-ever superlatives and fixed public access."
+    },
+    "cq22-qutb": {
+      "title": "UNESCO：顾特卜建筑群、再用石材与不同营建",
+      "url": "https://whc.unesco.org/en/list/233/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read fluting/inscription bands, reused temple pillars, arched screen, Alai Darwaza and incomplete Alai Minar. Iron pillar predates surrounding mosque but exact age/metallurgy not asserted from this page. Omit inconsistent construction endpoints and tower climbing."
+    },
+    "cq22-khajuraho": {
+      "title": "UNESCO：卡杰拉霍轴线、峰塔与石雕",
+      "url": "https://whc.unesco.org/en/list/240/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read jagati/mandapa/sanctum and shikhara, sacred/secular musicians and household scenes, Hindu/Jain context. Source temple counts vary20/22/23; omit totals and simplistic destruction or erotic-only story."
+    },
+    "cq22-agra": {
+      "title": "UNESCO：阿格拉堡的城防与宫廷空间",
+      "url": "https://whc.unesco.org/en/list/251/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read red sandstone enclosure and palace/audience-hall ensemble. Brief multilingual descriptions have patron attribution variations; cross-read ASI, do not call all current buildings Akbar's work."
+    },
+    "cq22-agra-asi": {
+      "title": "印度考古局：阿格拉堡的多期材料与改建",
+      "url": "https://asi.nic.in/pages/WorldHeritageAgraFort",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read Akbar sandstone renovation, Shah Jahan marble replacement and British barracks losses. Omit improbable5000-buildings quotation, fees/opening times and dramatic court anecdotes."
+    },
+    "cq22-taj": {
+      "title": "UNESCO：泰姬陵轴线、工艺与象征性棺椁",
+      "url": "https://whc.unesco.org/en/list/252/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read river-end garden placement, inlay/relief/latticework, cenotaphs vs actual graves and flanking buildings. Omit disputed single construction-start year and any access/camera guarantee."
+    },
+    "cq22-fatehpur": {
+      "title": "UNESCO：法泰普尔西克里的地形、庭院和水工",
+      "url": "https://whc.unesco.org/en/list/255/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read planned administrative/residential/religious spaces, drainage, Panch Mahal, Anup Talao and carved screens. Popular palace names not secure proof of original occupant/function; omit single-cause water-shortage abandonment and capital duration mismatch."
+    }
+  },
+  "readings": [
+    {
+      "id": "wh-87",
+      "theme": "culture",
+      "title": "底比斯：在尼罗河两岸读神庙与墓地",
+      "summary": "古底比斯遗产包含尼罗河东岸的卡纳克、卢克索神庙，以及西岸的墓地与葬祭建筑。柱厅、庭院、墓室图像和工匠生活遗迹保存不同用途，适合把仪式、王权和营建劳动一起阅读。",
+      "catalogueDescription": "古底比斯遗产包含尼罗河东岸的卡纳克、卢克索神庙，以及西岸的墓地与葬祭建筑。柱厅、庭院、墓室图像和工匠生活遗迹保存不同用途，适合把仪式、王权和营建劳动一起阅读。",
+      "paragraphs": [
+        {
+          "heading": "先用柱厅和院落理解神庙空间",
+          "text": "卡纳克多柱厅经历不同统治者续建，柱列与高度组织出巨大室内空间；卢克索又有自身的建筑次序。观察碑铭和增建关系，可以认识这些神庙长时间累积的历史，而非想成同一次工程。",
+          "sourceKeys": [
+            "cq22-thebes"
+          ]
+        },
+        {
+          "heading": "西岸也有建筑、绘画与人的工作",
+          "text": "王家谷、王后谷的墓葬与哈特谢普苏特层叠平台式葬祭庙提供不同观看对象，工匠聚落又使人想到制作这些作品的生活。两岸与各遗址需分别规划，遗产代表点不等于单一入口或当前全开放清单。",
+          "sourceKeys": [
+            "cq22-thebes"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq22-thebes"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-88",
+      "theme": "culture",
+      "title": "努比亚古迹：石刻、采石与现代迁建",
+      "summary": "阿布辛拜勒至菲莱的努比亚古迹是一组跨阿斯旺和南部尼罗河区域的遗产。部分神庙因大坝蓄水威胁而迁建，另有采石场、墓地与聚落仍提供不同原址线索，古代营建与现代保护需要分开读。",
+      "catalogueDescription": "阿布辛拜勒至菲莱的努比亚古迹是一组跨阿斯旺和南部尼罗河区域的遗产。部分神庙因大坝蓄水威胁而迁建，另有采石场、墓地与聚落仍提供不同原址线索，古代营建与现代保护需要分开读。",
+      "paragraphs": [
+        {
+          "heading": "在阿布辛拜勒与菲莱看两段历史",
+          "text": "岩凿神庙和伊西斯圣所呈现不同年代的宗教与王权表达。1960至1980年的国际保护行动使部分建筑获得新位置，菲莱建筑群迁至Agilkia岛；今日周围地形并非全部原始环境。",
+          "sourceKeys": [
+            "cq22-nubia"
+          ]
+        },
+        {
+          "heading": "未完成方尖碑把目光转向工艺",
+          "text": "阿斯旺采石场中的未完成方尖碑，有助理解巨大石作如何从岩床取材。把采石痕迹与神庙成品对读，能认识材料和劳动；系列里的古迹并非全部迁过，也不是一段可沿河连续步行的参观线。",
+          "sourceKeys": [
+            "cq22-nubia"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq22-nubia"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-89",
+      "theme": "culture",
+      "title": "历史开罗：沿街巷看公共生活的建筑",
+      "summary": "历史开罗的价值不仅在清真寺，也在城门、街巷、学校、供水和医疗建筑与居住区相连的城市肌理。法蒂玛、阿尤布、马穆鲁克及后来时代的营建交叠，今天仍需把它当作有人生活的城区来读。",
+      "catalogueDescription": "历史开罗的价值不仅在清真寺，也在城门、街巷、学校、供水和医疗建筑与居住区相连的城市肌理。法蒂玛、阿尤布、马穆鲁克及后来时代的营建交叠，今天仍需把它当作有人生活的城区来读。",
+      "paragraphs": [
+        {
+          "heading": "从城门与Al-Muizz街看城市骨架",
+          "text": "Bab al-Futuh、Bab al-Nasr和Bab Zuwayla联系旧城墙，南北向Al-Muizz街串起街区与重要建筑。看主街和支巷怎样转入住宅、手工业与市场，可把单体纪念物放回城市网络。",
+          "sourceKeys": [
+            "cq22-cairo"
+          ]
+        },
+        {
+          "heading": "看建筑如何曾经服务街区",
+          "text": "供水设施sabil、经书学校kuttab、宗教学校与医院等类型反映不同公共职能。伊本·图伦清真寺的庭院与拱廊，马穆鲁克建筑的立面、宣礼塔和石作，又提供对比；历史用途不等于每栋今天仍以原方式使用。",
+          "sourceKeys": [
+            "cq22-cairo"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq22-cairo"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-90",
+      "theme": "culture",
+      "title": "阿布米那：从朝圣核心读到饮食和住宿",
+      "summary": "阿布米那在亚历山大城以南，围绕圣米那墓形成早期基督教朝圣与修道聚落。教堂、洗礼设施、旅舍、浴室、水池和作坊遗构共同说明宗教活动需要怎样的日常支持，不能只把它看成一座孤立教堂。",
+      "catalogueDescription": "阿布米那在亚历山大城以南，围绕圣米那墓形成早期基督教朝圣与修道聚落。教堂、洗礼设施、旅舍、浴室、水池和作坊遗构共同说明宗教活动需要怎样的日常支持，不能只把它看成一座孤立教堂。",
+      "paragraphs": [
+        {
+          "heading": "先读建筑基址间的关系",
+          "text": "墓堂、朝圣教堂与洗礼设施组成核心，遗存主要通过低墙、基础和平面来呈现。比较入口、房间与相邻建筑的联系，有助从不完整的立面想象原有使用，而不把今天遗址说成整座古城原样站立。",
+          "sourceKeys": [
+            "cq22-abumena"
+          ]
+        },
+        {
+          "heading": "作坊和水设施记录朝圣经济",
+          "text": "陶窑、压榨设施、储水池、旅舍与公共浴室说明大量访客背后的生产和供给。附近现今修道社区又使圣米那的宗教关联延续，可以将古城遗构与今日修道院分别理解，按当期安排探访。",
+          "sourceKeys": [
+            "cq22-abumena"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq22-abumena"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-232",
+      "theme": "culture",
+      "title": "胡马雍陵：在庭园水轴中看纪念建筑",
+      "summary": "胡马雍陵是16世纪莫卧儿园陵建筑的重要实例。四分庭园以水渠和水池组织空间，高平台、八角形墓室、红砂岩与大理石穹顶相互配合；周围其他墓园也记录这一区域长期的纪念建筑传统。",
+      "catalogueDescription": "胡马雍陵是16世纪莫卧儿园陵建筑的重要实例。四分庭园以水渠和水池组织空间，高平台、八角形墓室、红砂岩与大理石穹顶相互配合；周围其他墓园也记录这一区域长期的纪念建筑传统。",
+      "paragraphs": [
+        {
+          "heading": "从园门沿水渠看轴线",
+          "text": "南、西入口和园中水道让观看逐步指向抬高的陵体。四分庭园将象征性园林秩序落实为可走、可看的空间，比只在正面拍穹顶更能理解园陵设计。",
+          "sourceKeys": [
+            "cq22-humayun"
+          ]
+        },
+        {
+          "heading": "从外部体量看回内部平面",
+          "text": "大拱门、削角轮廓与中央八角墓室相连，红砂岩和白、黑大理石边饰提供近看工艺。周边还有多座同时代或后续墓葬，园区不只是单一皇帝的一栋建筑。",
+          "sourceKeys": [
+            "cq22-humayun"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq22-humayun"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-233",
+      "theme": "culture",
+      "title": "顾特卜建筑群：塔、柱廊与未完成的构想",
+      "summary": "顾特卜塔以砂岩沟槽、铭文带和分层阳台形成鲜明轮廓，周围清真寺、陵墓、仪式门和未完成塔基又记录不同统治者的营建。旧石材与新建筑形式交错，是认识早期印度伊斯兰建筑的具体入口。",
+      "catalogueDescription": "顾特卜塔以砂岩沟槽、铭文带和分层阳台形成鲜明轮廓，周围清真寺、陵墓、仪式门和未完成塔基又记录不同统治者的营建。旧石材与新建筑形式交错，是认识早期印度伊斯兰建筑的具体入口。",
+      "paragraphs": [
+        {
+          "heading": "从塔身看回清真寺柱廊",
+          "text": "塔身的角形、圆形沟槽和文字装饰，与庭院柱廊、带拱洞的西面屏墙可以对读。柱廊再用印度教和耆那教建筑石构件，工艺差异留下旧材料进入新空间的线索。",
+          "sourceKeys": [
+            "cq22-qutb"
+          ]
+        },
+        {
+          "heading": "已完成与未完成的体量一起比较",
+          "text": "Alai Darwaza仪式门、伊勒杜米什墓与未完成Alai Minar提供不同尺度和用途。庭院铁柱还属于另一段历史，不应把周围所有构件都归到同一位营建者或同一年；阅读塔形也不表示塔内可登。",
+          "sourceKeys": [
+            "cq22-qutb"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq22-qutb"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-240",
+      "theme": "culture",
+      "title": "卡杰拉霍：峰塔、轴线与石雕中的生活",
+      "summary": "卡杰拉霍的印度教与耆那教寺庙，以高台、层层小峰塔和密集石雕把建筑与图像结合。神像、仪式、家庭、师生、舞蹈与音乐题材共同构成观看内容，不能仅以情爱雕刻概括整组寺院。",
+      "catalogueDescription": "卡杰拉霍的印度教与耆那教寺庙，以高台、层层小峰塔和密集石雕把建筑与图像结合。神像、仪式、家庭、师生、舞蹈与音乐题材共同构成观看内容，不能仅以情爱雕刻概括整组寺院。",
+      "paragraphs": [
+        {
+          "heading": "沿入口到圣室理解空间层级",
+          "text": "由门廊进入大厅、前室再到圣室的轴线，配合主峰塔与周围小塔构成向上的节奏。比较台基、体部与塔尖，能认识Nagara式寺庙怎样把平面秩序转成轮廓。",
+          "sourceKeys": [
+            "cq22-khajuraho"
+          ]
+        },
+        {
+          "heading": "把雕像放回建筑的位置",
+          "text": "石雕分布在不同墙面与构件，既有神圣主题，也有家庭生活、舞者和乐师。可先看一面墙的整体排列，再近看人物姿态；不同宗教和不同寺庙各有语境，不把所有雕刻解释成同一种故事。",
+          "sourceKeys": [
+            "cq22-khajuraho"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq22-khajuraho"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-251",
+      "theme": "culture",
+      "title": "阿格拉堡：城防背后的多期宫廷建筑",
+      "summary": "阿格拉堡以红砂岩城墙包围宫廷空间，但现存建筑经历多期修建和替换。阿克巴的砂岩营建、沙贾汗的大理石宫殿与后来损毁改建，都使今日所见成为层层历史，而非一座同时完成的红色城堡。",
+      "catalogueDescription": "阿格拉堡以红砂岩城墙包围宫廷空间，但现存建筑经历多期修建和替换。阿克巴的砂岩营建、沙贾汗的大理石宫殿与后来损毁改建，都使今日所见成为层层历史，而非一座同时完成的红色城堡。",
+      "paragraphs": [
+        {
+          "heading": "先看防御，再看宫廷的组织",
+          "text": "双重城垣、堡垒和临河关系解释防御位置，内部宫殿与议事厅则对应礼仪和居住。将外墙的厚重与庭院、厅堂的空间对读，能认识军事堡垒和皇城两种作用。",
+          "sourceKeys": [
+            "cq22-agra",
+            "cq22-agra-asi"
+          ]
+        },
+        {
+          "heading": "材料变化显示不同营建阶段",
+          "text": "红砂岩和白色大理石并置，联系不同时期的建筑选择；沙贾汗替换部分旧建筑，英国时期又有兵营改造与损失。比较材料与解说中的年代，不把所有建筑都归阿克巴，也不把遗产范围当作全区可进入。",
+          "sourceKeys": [
+            "cq22-agra-asi"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq22-agra",
+        "cq22-agra-asi"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-252",
+      "theme": "culture",
+      "title": "泰姬陵：从花园尽头到大理石细部",
+      "summary": "泰姬陵为纪念慕塔兹·玛哈尔而建，陵体位于亚穆纳河边四分园的一端，入口、水轴和抬高的平台组织出深远视线。大理石浮雕、嵌石与格栅又让宏大纪念建筑有值得近看的手工细部。",
+      "catalogueDescription": "泰姬陵为纪念慕塔兹·玛哈尔而建，陵体位于亚穆纳河边四分园的一端，入口、水轴和抬高的平台组织出深远视线。大理石浮雕、嵌石与格栅又让宏大纪念建筑有值得近看的手工细部。",
+      "paragraphs": [
+        {
+          "heading": "沿园轴看陵体为何放在尽头",
+          "text": "陵体并非处在四分园正中央，而靠近河岸一端，远处的门与水道加强透视。两侧建筑和四角宣礼塔参与构图，可从整体位置理解对称与层次，而不只等一次光色变化。",
+          "sourceKeys": [
+            "cq22-taj"
+          ]
+        },
+        {
+          "heading": "近看石作，也分清纪念与墓葬",
+          "text": "浮雕花卉、嵌石边饰和八角大理石格栅显示不同工种协作。室内可见象征性棺椁与下层真正墓葬位置不同，不能把二者混同；细节阅读依实际允许参观范围，不承诺摄影或下层开放。",
+          "sourceKeys": [
+            "cq22-taj"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq22-taj"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-255",
+      "theme": "culture",
+      "title": "法泰普尔西克里：庭院、水面与城市秩序",
+      "summary": "法泰普尔西克里在岩丘起伏地形上组织行政、居住与宗教空间，红砂岩建筑之间由庭院和通道联系。短期帝都之后仍有皇帝访问，今天宜从空间与水工安排来读，避免用一句缺水废城概括全部历史。",
+      "catalogueDescription": "法泰普尔西克里在岩丘起伏地形上组织行政、居住与宗教空间，红砂岩建筑之间由庭院和通道联系。短期帝都之后仍有皇帝访问，今天宜从空间与水工安排来读，避免用一句缺水废城概括全部历史。",
+      "paragraphs": [
+        {
+          "heading": "把多层柱亭、庭院与水池放在一起",
+          "text": "Panch Mahal的层叠柱廊、Anup Talao水池和周围院落展现开放空间的不同组织。宫廷建筑中的石格窗、雕柱与高差，也让遮蔽、通风和观看有了具体形态。",
+          "sourceKeys": [
+            "cq22-fatehpur"
+          ]
+        },
+        {
+          "heading": "分辨公共礼仪和生活服务空间",
+          "text": "公共觐见区、宫殿组团、清真寺以及驿舍、浴室、马厩和水设施共同构成城市。对照行政区、生活区与公共空间的平面，比仅按建筑通称更能理解城市组织，以及宫廷和日常服务如何相互支持。",
+          "sourceKeys": [
+            "cq22-fatehpur"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq22-fatehpur"
+      ],
+      "related": []
+    }
+  ]
+}
