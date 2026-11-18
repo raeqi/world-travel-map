@@ -27,7 +27,8 @@ function buildPlans(theme,month,maxDays=0){const shared=typeof culturalThemeMaps
 // Longer regional circuits use official catalogue coordinates. Nearest-neighbour
 // ordering is a draft for review, not a road routing or access calculation.
 function addRegionalPlan(id,theme,name,country,box,months,days,limit=7){
- const pool=places.filter(p=>p.themes.includes(theme)&&validLocation(p)&&p.country===country&&p.lon>=box[0]&&p.lon<=box[2]&&p.lat>=box[1]&&p.lat<=box[3]);
+ // Coordinate repairs expose points on the map, not silently rewrite existing curated circuits.
+ const pool=places.filter(p=>p.themes.includes(theme)&&!p.coordinateSupplement&&validLocation(p)&&p.country===country&&p.lon>=box[0]&&p.lon<=box[2]&&p.lat>=box[1]&&p.lat<=box[3]);
  if(pool.length<4)return;pool.sort((a,b)=>a.lat-b.lat);const stops=[pool.shift()];while(pool.length&&stops.length<limit){pool.sort((a,b)=>distanceKm(stops.at(-1),a)-distanceKm(stops.at(-1),b));stops.push(pool.shift())}
  planTemplates.push({id,theme,name,ids:stops.map(p=>p.id),days,months,transport:'区域分段交通 + 多地住宿',reason:'按相邻点位编排的多站探索草案，建议每站留出游览时间与转场余量。月份为区域季节策划窗口；需逐站核实开放、预约与实际交通。',climate:stops[0].source});
 }
