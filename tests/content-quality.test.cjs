@@ -8,7 +8,7 @@ test('audit includes every production dataset and all theme-specific contexts, i
  const r=audit({reviews,legacy}),expected=require('../data/theme-review/catalogue-consolidation.json').expectedRuntime;for(const key of ['places','internalThemes','visibleThemes','plans','placeThemeContexts'])assert.equal(r.summary[key],expected[key],key);
  for(const file of ['panamerican.js','cultural-atlas.js','regional-theme-expansion.js','remaining-thirty-data.js','natural-atlas.js','quality-readings.js'])assert.ok(r.scripts.some(s=>s.file===file&&s.executed),file);
  assert.ok(r.plans.some(p=>!p.visible));assert.ok(r.entries.some(p=>p.theme==='patagonia-nature'));assert.ok(r.entries.some(p=>p.id==='tea-rasuwa'));
- assert.equal(r.summary.staleReviews,0);assert.equal(r.summary.manualResearchedPlaces,238);assert.equal(r.summary.manualUsefulConcisePlaces,0);
+ assert.equal(r.summary.staleReviews,0);assert.equal(r.summary.manualResearchedPlaces,244);assert.equal(r.summary.manualUsefulConcisePlaces,0);
  const venice=r.legacyComparison.find(p=>p.id==='silk-venice');assert.equal(venice.assessment,'researched-batch-11');assert.deepEqual(venice.originalThemes,['silk']);assert.ok(venice.contexts.every(r=>r.theme==='silk'&&r.status==='researched-batch-11'));assert.ok(venice.otherExpandedThemes.includes('turner'));
 });
 test('a manual review expires when its source/text fingerprint differs',()=>{
@@ -17,14 +17,14 @@ test('a manual review expires when its source/text fingerprint differs',()=>{
 test('shared cities show only relevant readings while every original cultural context remains available',()=>{
  const c=runtime();vm.runInContext(`globalThis.activeTheme=themes.findIndex(t=>t.id==='mozart');`,c);assert.match(vm.runInContext("placeEssays['mozart-prague'].title",c),/等级剧院/);assert.ok(!vm.runInContext("JSON.stringify(placeEssays['mozart-prague'])",c).includes('卡夫卡'));
  vm.runInContext("activeTheme=themes.findIndex(t=>t.id==='kafka')",c);assert.match(vm.runInContext("placeEssays['mozart-prague'].title",c),/卡夫卡/);
- vm.runInContext("activeTheme=themes.findIndex(t=>t.id==='nature')",c);assert.equal(vm.runInContext("placeEssays['wh-547']",c),undefined);
+ vm.runInContext("activeTheme=themes.findIndex(t=>t.id==='nature')",c);assert.match(vm.runInContext("placeEssays['wh-547'].title",c),/花岗岩/);assert.ok(!vm.runInContext("JSON.stringify(placeEssays['wh-547'])",c).includes('黄宾虹'));
  vm.runInContext("activeTheme=themes.findIndex(t=>t.id==='huang-binhong')",c);assert.match(vm.runInContext("placeEssays['wh-547'].title",c),/黄宾虹/);
  assert.equal(audit({legacy}).summary.foreignThemeFallbackContexts,0);
 });
 test('research is source-bound and preserves catalogue summaries, links, media and itinerary IDs',()=>{
  const original=JSON.parse(zlib.gunzipSync(fs.readFileSync('qa/content-quality/baseline-2026-11-18.json.gz'))),now=snapshot(),key=r=>r.theme+'/'+r.id,byKey=new Map(now.contexts.map(r=>[key(r),r]));
  for(const old of original.entries){const row=byKey.get(key(old));assert.ok(row,key(old));assert.equal(row.originalSummary,old.summary,key(old)+' catalogue text');assert.equal(row.source,old.source);assert.equal(row.imageKey,old.imageKey);assert.ok(old.routeIds.every(id=>row.routeIds.includes(id)),key(old)+' retained itinerary IDs');if(!old.foreignThemeFallback)for(const source of old.essay?.sources||[])assert.ok(row.essay?.sources.some(s=>JSON.stringify(s)===JSON.stringify(source)),key(old)+' original source object');}
- assert.equal(new Set(pack.readings.map(r=>r.id)).size,238);assert.equal(new Set(pack.readings.map(r=>r.theme)).size,16);
+ assert.equal(new Set(pack.readings.map(r=>r.id)).size,244);assert.equal(new Set(pack.readings.map(r=>r.theme)).size,16);
  for(const r of pack.readings){assert.ok(r.summary&&r.paragraphs.length>=2);for(const p of r.paragraphs)for(const key of p.sourceKeys)assert.ok(r.sourceKeys.includes(key)&&pack.sources[key]?.url.startsWith('https://'));const row=byKey.get(key(r));assert.equal(row.summary,r.summary);assert.ok(row.essay.sources.every(s=>s.title&&s.url));}
  assert.ok(pack.readings.find(r=>r.id==='xintan').summary.includes('1985'));assert.ok(pack.readings.find(r=>r.id==='kumano-hongu').summary.includes('1889'));assert.ok(pack.readings.find(r=>r.id==='nc500-johnogroats').summary.includes('Dunnet Head'));
  const literal=fs.readFileSync('quality-readings-data.js','utf8');assert.equal(literal,generatedData());
@@ -135,4 +135,11 @@ test('Polo readings retain region markers and separate hearsay, versions and pre
  assert.match(by.get('polo-japan').summary,/不是波罗亲历/);assert.match(by.get('polo-japan').summary,/远离/);assert.match(by.get('polo-genoa').summary,/传说/);assert.match(by.get('polo-samarkand').summary,/行踪未定/);assert.match(by.get('polo-hormuz').paragraphs[1].text,/大陆节点/);assert.match(by.get('polo-yangzhou').summary,/待独立核实/);assert.match(by.get('polo-venice').summary,/已结束/);
  const base=JSON.parse(zlib.gunzipSync(fs.readFileSync('qa/content-quality/baseline-2026-11-18.json.gz'))),now=snapshot();for(const old of base.plans.filter(r=>r.theme==='polo'))assert.deepEqual(now.plans.find(r=>r.id===old.id)?.stops,old.stops);
  const c=runtime();vm.runInContext("activeTheme=themes.findIndex(t=>t.id==='cartier-bresson')",c);assert.ok(!vm.runInContext("JSON.stringify(placeEssays['polo-beijing'])",c).includes('北土城'));
+});
+
+test('long catalogue reviews correct actual errors without changing raw records or other author contexts',()=>{
+ const p=loadPacks().find(p=>p.batch.endsWith('-16')),by=new Map(p.readings.map(r=>[r.id,r])),c=runtime();assert.equal(p.readings.length,6);
+ vm.runInContext("activeTheme=themes.findIndex(t=>t.id==='nature')",c);assert.match(vm.runInContext("places.find(p=>p.id==='wh-1213').desc",c),/924 500平方公里/);assert.match(vm.runInContext("researchedPlaceDescription(places.find(p=>p.id==='wh-1213'))",c),/9,245平方公里/);assert.match(vm.runInContext("researchedPlaceDescription(places.find(p=>p.id==='wh-917'))",c),/澳大利亚的一成/);assert.match(by.get('wh-340').summary,/拉贾斯坦/);
+ vm.runInContext("activeTheme=themes.findIndex(t=>t.id==='huang-binhong')",c);assert.equal(vm.runInContext("qualityReadingFor(places.find(p=>p.id==='wh-547'))",c),undefined);assert.match(vm.runInContext("placeEssays['wh-547'].title",c),/黄宾虹/);
+ const {hash}=require('../scripts/content-quality-runtime.cjs'),a=snapshot().contexts.find(r=>r.theme==='nature'&&r.id==='wh-1213');assert.notEqual(a.contentHash,hash({summary:a.summary,source:a.source,essay:a.essay,catalogueDescription:'changed correction'}));
 });

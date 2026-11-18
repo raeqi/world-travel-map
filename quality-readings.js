@@ -22,3 +22,5 @@ for(const [id,rows]of qualityRowsByPlace){
  Object.defineProperty(placeEssays,id,{enumerable:true,configurable:true,get(){const original=prior(),matched=qualityReadingsFor(places.find(p=>p.id===id));return matched.reduceRight((essay,row)=>qualityMergeReading(row,essay),original)}});
 }
 function researchedPlaceSummary(place){const rows=qualityReadingsFor(place);return rows.length>1?rows.map(r=>themes.find(t=>t.id===r.theme).name+'：'+r.summary).join(' '):rows[0]?.summary||place.desc}
+
+function researchedPlaceDescription(place){return qualityReadingFor(place)?.catalogueDescription??place.desc}
