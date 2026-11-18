@@ -285,75 +285,80 @@
     {
       "theme": "culture",
       "id": "wh-987",
-      "state": "useful-concise",
-      "reason": "短文已说明罗马城墙的年代、功能和保存特点，足以作目录导读；未因此宣称已完成深度参访研究。",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
       "checked": "2026-11-18",
       "sources": [
         "https://whc.unesco.org/en/list/987/"
       ],
-      "contentHash": "b0b30d8b28faafdacc09e28a6e455f7e30caeb835f9657dcf5d06a3a07bfaf62"
+      "contentHash": "de90bf6695c818d436868ed13226dd4becd30675e419a663564a68da7eafa8b3"
     },
     {
       "theme": "culture",
       "id": "wh-579",
-      "state": "useful-concise",
-      "reason": "短文已点明花岗岩石冢、青铜时代与丧葬文化价值，非空泛模板。",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
       "checked": "2026-11-18",
       "sources": [
         "https://whc.unesco.org/en/list/579/"
       ],
-      "contentHash": "2baaee81cef981d15af988d02a6eceb95869696cf4a93fcb958c7e5eef300377"
+      "contentHash": "f5a0d405a2c37eb0b3c4d8f570d1203a4834a61f80c076dd1bd4b14111cba5ea"
     },
     {
       "theme": "culture",
       "id": "wh-583",
-      "state": "useful-concise",
-      "reason": "短文包含岛屿港口位置、瑞典建设背景与军事建筑特点；扩展访问细节仍可后续补充。",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
       "checked": "2026-11-18",
       "sources": [
-        "https://whc.unesco.org/en/list/583/"
+        "https://whc.unesco.org/en/list/583/",
+        "https://suomenlinna.fi/en/services-for-visitors/"
       ],
-      "contentHash": "a1a23d5edf8bcf638d996a35c986f5237cac67cbd4525eaf60e8ddb7a7a80822"
+      "contentHash": "0c989cf90005a00ba8ea70856225649e968056b1762650964aee966c66aefb19"
     },
     {
       "theme": "culture",
       "id": "wh-230",
-      "state": "useful-concise",
-      "reason": "短文明确指出应看的11至12世纪壁画及其保存价值，无需仅因字数短而改写。",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
       "checked": "2026-11-18",
       "sources": [
         "https://whc.unesco.org/en/list/230/"
       ],
-      "contentHash": "ccffc624e9a0761d743b8c1012e7ce69829cf02da82417b391add50509e2604a"
+      "contentHash": "01b1d4d49449cee739cc80f71b77efe93a2c7663b3aa51a30284ee33fdfe0bca"
     },
     {
       "theme": "nature",
       "id": "wh-186",
-      "state": "useful-concise",
-      "reason": "短文具体交代火山成因、孤立海岛与特有鸟类；已具自然主题辨识度。",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
       "checked": "2026-11-18",
       "sources": [
         "https://whc.unesco.org/en/list/186/"
       ],
-      "contentHash": "979e9196e3d61e47de307e63168aa299177c3cf6149e02d72e041c3a91d0b959"
+      "contentHash": "7041d531f3c88024b5ebdf3aa7ab2932f80c61d64eba8ad6afd6886a1573cbaa"
     },
     {
       "theme": "silk",
       "id": "silk-tashkent",
-      "state": "needs-research",
-      "reason": "仅有交通商贸标签，缺少城市地景和可靠关联。",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
       "checked": "2026-11-18",
-      "sources": [],
-      "contentHash": "2bc0913ff310c5f496bc145ab11af2ab96cb2b5c8f3f07deaecaacf4c2f0f72e"
+      "sources": [
+        "https://whc.unesco.org/en/tentativelists/6649/"
+      ],
+      "contentHash": "86ff1b93b0c74b7a584f8cd0d78d162dbe571c2da0eb0b55e26d85f1672b45e9"
     },
     {
       "theme": "silk",
       "id": "silk-bukhara",
-      "state": "needs-research",
-      "reason": "未具体说明商贸、学术如何体现在可看的建筑或街区。",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
       "checked": "2026-11-18",
-      "sources": [],
-      "contentHash": "9c9df4baa33b190fd8c775a5361f54543aa2b924702798a4cbac219d760b57bb"
+      "sources": [
+        "https://whc.unesco.org/en/list/602/"
+      ],
+      "contentHash": "a9e98b93adc7a2a8e3386b51eff8108bdb5014c995db43f73a69b614af331a39"
     },
     {
       "theme": "tea",
@@ -1747,6 +1752,757 @@
         "https://museos.xunta.gal/es/museos/peregrinacions"
       ],
       "contentHash": "ceba1158d94926516a3533f7423a43ac69428e1437eb5e4a34a49ea8daf9a814"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-698",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/698/",
+        "https://www.naracoortecaves.sa.gov.au/discover/under-the-ground/victoria-fossil-cave"
+      ],
+      "contentHash": "2a89301c4a2d6c820e99cd7b0ba6f9fc0bf6abac95d215b64851538b693c4aa0"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-509",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/509/"
+      ],
+      "contentHash": "512e39eef228a64b21f8ecfe3e70dbe89cedf4742b641d2c6276cd0586288a9d"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-195",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/195/",
+        "https://ecotourisme-tai.com/sejours"
+      ],
+      "contentHash": "8c174d476b7ddb7933c259f96f76373f534ebd8467322b7e58dede7c79481d2e"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-1001",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1001/"
+      ],
+      "contentHash": "4933234ba265f5cd8575e73de0ffb055de6abea790b7c0fc639964abf860275b"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-976",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/976/"
+      ],
+      "contentHash": "c21a5aa56b43ab2429ea8897ef403ce76ce7ede816b92367f904a826d126eb55"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-1011",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1011/"
+      ],
+      "contentHash": "2c20b740f3460e9a7fafc519ea4b0b5d8fa1e4c947b75fdabe836f270de5e177"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-474",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/474/"
+      ],
+      "contentHash": "43eff6ed5bd0845f9d936a47e8ebeed509cd4a816336d4c649eec1f335891c0e"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-871",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/871/"
+      ],
+      "contentHash": "539cdf7c8468db1834afbb1099b670203e81300850209eb10232fd1488356b36"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-708",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/708/"
+      ],
+      "contentHash": "fb127f0d1fbff146cfd9978792510810028963dcdda9a9a6b5e7200868c1907d"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-648",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/648/"
+      ],
+      "contentHash": "fb600413c9b147d5dd93581af9dbe53d1b27bb67d8b7cf62d7fa83774403d782"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-556",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/556/"
+      ],
+      "contentHash": "290c5770f5c9fa79544086683a33075e1498b25ec9c3766d966eb4d186381834"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-492",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/492/",
+        "https://taospueblo.com/visiting-taos-pueblo/"
+      ],
+      "contentHash": "f9c72a8f6bb824df49e98afdecfb810b4187875714a7e437ed0d8c43371e70fb"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-606",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/606/"
+      ],
+      "contentHash": "a03ac14188830838e270c44e635c4a14fea9fbf9fc1db143f54ef1b9ea56dcd6"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-484",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/484/"
+      ],
+      "contentHash": "0ce603b77622b052668d8b1222d473ece87a910ea6b1dbcd96ae6112f7cbf2df"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-434",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/434/"
+      ],
+      "contentHash": "c27e96946039f110b8ba5627b3e35afc33e40aed62661e73f893b8f21c113de9"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-401",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/401/"
+      ],
+      "contentHash": "73200d7cf8a5c2ab79a9ac80cad6788acb0bf9649abd3c1d4110d4593e8d0aa6"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-135",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/135/"
+      ],
+      "contentHash": "5e342e3b0be50c8ebded35614941c1175a0b94410e98730b060c0f26ea3d5404"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-86",
+      "state": "researched-batch-10",
+      "reason": "阅读遗产价值及管理或社区机构资料，核对具体观察对象、自然过程、组成分区、生活用途与证据边界。未现场访问或保证当前开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/86/"
+      ],
+      "contentHash": "c880c552874e5dd3182dd3bbe26196cb8f329a5f95cdf31f997ffc96e10f07a9"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-venice",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/394/"
+      ],
+      "contentHash": "bf9730d510c05905c2af5f8308e6dc2b0251d99514e577aa89a0a63584690724"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-istanbul",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/356/"
+      ],
+      "contentHash": "43416d15f142eb010e62a6af82234fae127a80c8fe9573f08bc40c62c718531a"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-tabriz",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1346/"
+      ],
+      "contentHash": "09b3cee4ceea116333912f7dfda808c30b98783849326b5a85603ba7cb1d871a"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-isfahan",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/115/"
+      ],
+      "contentHash": "aae5a385812739e640559352ff3853a0af4f785003b478b6dad67205b4aedfbc"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-yazd",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1544/"
+      ],
+      "contentHash": "9ef14bbd58c24b6881d9c3599dac5d16728d50017ca195489a9c7d4392032275"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-kerman",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://visitiran.ir/en/attraction/ganjali-khan-complex"
+      ],
+      "contentHash": "873d9e3056b1ebb19f4fc583b61fc4e60bd9ff4752f934780f79975b288bf4b0"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-hormuz",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://visitiran.ir/en/province/hormozgan-province"
+      ],
+      "contentHash": "d2ae24e3fb85c99a1bb99bd056aa0d989fbb663fc90faa259cf9ceec1481ced9"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-merv",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/886/"
+      ],
+      "contentHash": "0c3df8e1a1d717dd33c1c6842b9789cbb72092facd6e85b026444aba64a41561"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-samarkand",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/603/"
+      ],
+      "contentHash": "9477689e9e208c7c317476be9dcf259db5ef85ca2f5b140a61b2c9b8950d7ee0"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-khiva",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/543/"
+      ],
+      "contentHash": "3f0f9b85a71f906e3f59ab914e1f399e507e0f71a4e39f913e68acd027efdb19"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-hangzhou",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.chinasilkmuseum.com/"
+      ],
+      "contentHash": "d3db0b24756e57039e8fc605f3d466ee3ff5bb4f9d358c5179e8692b00bc1c7a"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-quanzhou",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1561/"
+      ],
+      "contentHash": "5a59a31d6363c1913e1ff362e35b80950080c5ea93726c446fc122b1ca169f74"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-guangzhou",
+      "state": "researched-batch-11",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nywmuseum.org.cn/News/Details/yfzx?nid=11171",
+        "https://www.nywmuseum.org.cn/Collection/Details/zyzb?nid=70"
+      ],
+      "contentHash": "3f6d979ae4be3fdf422aeeb630649ced1d072756b41d8c06cf0b393e38364c4d"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-kashgar",
+      "state": "researched-batch-12",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/28cd99dc43a244619788bda878887922.shtml"
+      ],
+      "contentHash": "3f380ee1b74be6475455bdf8677ea5926702574964d0cc7135d8347f85b2c713"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-hotan",
+      "state": "researched-batch-12",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.mct.gov.cn/wlbphone/wlbydd/xxfb/qglb/qg/202511/t20251104_963065.html",
+        "https://www.xjht.gov.cn/xjht/c128217/202609/2548bc8078074359af041805f7c687ed.shtml"
+      ],
+      "contentHash": "95712196ec26a75f4c418d29b4ccb569529a881939deb0d2412579e486846bf0"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-kuqa",
+      "state": "researched-batch-12",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.silkroadshow.cn/relics_25_show.html"
+      ],
+      "contentHash": "a208f521ec107b3104788628de82585a1a0c0896d6374f5c6fc1a16ab8694e2c"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-turpan",
+      "state": "researched-batch-12",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.neac.gov.cn/seac/c103391/202211/1159577.shtml"
+      ],
+      "contentHash": "6fb49b9d64de24e2da1b5dcc94126d7a390551f803e5749dae20ea82af35f62c"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-dunhuang",
+      "state": "researched-batch-12",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.dunhuangcaves.org/info/1425/3588.htm"
+      ],
+      "contentHash": "ac74616ddb178d59c484d154148b6ce7276bcae7a7e8078c8dd2240fc8ce37c5"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-jiayuguan",
+      "state": "researched-batch-12",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.jyg.gov.cn/wlj/xwdt/bmdt/gzdt/art/2022/art_62ed11ca1488431e86691c9a57d5fd76.html"
+      ],
+      "contentHash": "e22315c62565f332398697e1b45502d8ac760545eea8976cdac203ef63bd32a1"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-zhangye",
+      "state": "researched-batch-12",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.zhangye.gov.cn/szb/dzdt/njbz/201605/t20160517_51878.html"
+      ],
+      "contentHash": "b2c220bac670c8c09e7f7b308abe49f8604a39f39d52d3b868b58541c03e65f7"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-wuwei",
+      "state": "researched-batch-12",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://m.thepaper.cn/newsDetail_forward_25978316"
+      ],
+      "contentHash": "06e8eab087b05a2b938239cd7776cdd4269f54278ca06dd9ef6342c325cf879b"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-xian",
+      "state": "researched-batch-12",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://xadfz.xa.gov.cn/xadq/rwxa/1802954373708996609.html",
+        "https://online.bunka.go.jp/heritages/detail/480861"
+      ],
+      "contentHash": "05dbd6e32db2ab6bc7f65b8024bd4f88ed77a832bb6e25399ed65ed07876f290"
+    },
+    {
+      "theme": "silk",
+      "id": "silk-luoyang",
+      "state": "researched-batch-12",
+      "reason": "核对具体市场、院落、工艺、遗址与图像；区分创建和现存年代、原属和现藏、预备申报和正式遗产。保留单一旅行者语境的待审边界，未实地访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://silkroadshow.cn/relics_11_show.html",
+        "https://whc.unesco.org/en/list/1003/"
+      ],
+      "contentHash": "15f0f9513dbe30a73acc8f8792798eb9da3f56671ad9cf7d174ad91b8a98b501"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-tiantai",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.forestry.gov.cn/c/www/dfdt/542885.jhtml"
+      ],
+      "contentHash": "c06c699860ef8da421936862dc0532c8c44cf4cc5f8363b9e7f40cf88bc014e5"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-yandang",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.cgs.gov.cn/ywdt/dwdt/201704/t20170406_827710.html",
+        "https://zrzykpywh.magtechjournal.com/article/2017/2095-8714/2095-8714-12-4-46.shtml"
+      ],
+      "contentHash": "25687bd36c85c020e8a0515902fc56410d61681609d95f5ca8821b7f4689a653"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-qiyun",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://cnxxk.com.cn/list_15/55.html",
+        "https://www.ctnews.com.cn/paper/content/202309/05/content_82336.html"
+      ],
+      "contentHash": "c0011c191bb3d3358c33ad5baed957cadb5fff45e1563ee8bb3e01572536f91d"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-huangshan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/547/",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "351c869588946cdaa983431b4da844b9a54aa4fa713980cb27c5bca8d9000ffd"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-wuyi",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/911/",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "afd34604c9d92f960b4ad40efc9942ac2c251d948e7959ecc138d095d0e1405b"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-lushan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/778/",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "ef518d6330ee0bd23cc8f4e48383b2019ffb3328e6adae030ea5808f9c3b1e33"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-kaifeng",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+        "https://hnswwkgyjy.cn/NewsView.php?News_ID=2832"
+      ],
+      "contentHash": "8eb50c9cb41a8107efab2fad848b9f45b7282b54cdff23980ca19c0be6be8411"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-zhengzhou",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+        "https://www.zhengzhou.gov.cn/view45/6664682.jhtml"
+      ],
+      "contentHash": "44e8354967552c37e38c616190ea32e6c50838f524a3d7bd1c1cfdbecebde450"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-xinmi",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+        "https://xm.jiceng.zhengzhou.gov.cn/020007/3831005.jhtml"
+      ],
+      "contentHash": "ea794454503768652691f0595dc3935cc592fcc97d7a6eaa34c4baa008b0f5e6"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-songshan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+        "https://whc.unesco.org/en/list/1305/"
+      ],
+      "contentHash": "4613728cfdd75ca3c7ce7bb44ab37a63fa09d3abe026d997218a46d25ae2b69f"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-shaolin",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+        "https://whc.unesco.org/en/list/1305/"
+      ],
+      "contentHash": "386cfdda0fd945545a14265b43f4174e4a1cca1391b9e0992af40723699c96dd"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-longmen",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+        "https://whc.unesco.org/en/list/1003/"
+      ],
+      "contentHash": "a899eaa622e55a4e6808496281981ce02eb2d4b7f2139b241d910ceb3e5a3a67"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-huashan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://weinan.qinfeng.gov.cn/info/1095/36343.htm",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "73e9384b038e3dedc02b173cd923148a24ecee746c81235061a98b18aaed42e0"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-wudang",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/705/",
+        "https://www.special-cast.com/zh/article/46142220/",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "506130801958e81a887c18187924834625af7c39f79f65b95d395be416b83d69"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-beijing",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://zh.wikisource.org/zh-hans/徐霞客遊記/遊五台山日記",
+        "https://www.beijing.gov.cn/renwen/rwzyd/qgzdwwbhdw/jzdsgyz/202211/t20221101_2849494.html",
+        "https://wwj.beijing.gov.cn/bjww/362771/362773/743761575/index.html"
+      ],
+      "contentHash": "d11887e58e87469f7ad5031cc9e7e67eaddc2e7be180a5d21a164e8deecdc5c9"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-wutai",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://zh.wikisource.org/zh-hans/徐霞客遊記/遊五台山日記",
+        "https://whc.unesco.org/en/list/1279/",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "01a6412c1c465bf0fc9e8e64295b08c478246ba9431ee46edd0ff4a2cd1b7c15"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-hengshan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.byhs.net.cn/news_detial/11.html",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "e8c87eaeea3f2f53af9006480fefb912794c94345d21b92908251d44aa3ecc50"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-jizu",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://cnxxk.com.cn/list_32/1636.html",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "be257c39e977710acba3cd73cc5379f2673c63bf0cb9e7f74bc59260d06e7a4d"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-lijiang",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.ynscsp.cn/nd.jsp?fromColId=2&id=28835",
+        "https://www.lijiang.cn/article/148365.html"
+      ],
+      "contentHash": "81a20ed32f60499ea375d2d8e80827346d3c202402bdc1b4491440536fb1b18f"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-jianchuan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.dili360.com/cng/article/p5350c3d6a1dc906.htm",
+        "https://cnxxk.com.cn/list_24/1457.html",
+        "https://www.jianchuan.gov.cn/jcxrmzf/c108508/pc/content/1984051500308074496/content_1984051500308074496.html"
+      ],
+      "contentHash": "658425ccc5cbe0f1c4338723a55f9892a671a9929b725db11a9189d0b60eebad"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-eryuan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://lcj.yn.gov.cn/special/2025/0813/6962.html",
+        "https://cnxxk.com.cn/list_32/1700.html",
+        "https://www.dili360.com/cng/article/p5350c3d6a1dc906.htm"
+      ],
+      "contentHash": "d48a6ee8723d17a47ef799b1a59349ddd2871c0a49ced077761ed69dfe6c5805"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-dali",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nd-geopark.com/hezuojiaoliu/492.html",
+        "https://cnxxk.com.cn/list_24/1457.html",
+        "https://www.dili360.com/cng/article/p5350c3d6a1dc906.htm"
+      ],
+      "contentHash": "51975f86acbadfaa3b25cea71e636b54e9d05ecbc8e9bfeaf4177dbe7811a981"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-baoshan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.baoshan.gov.cn/info/1015/9379394.htm",
+        "https://www.longyang.gov.cn/info/4638/9769399.htm"
+      ],
+      "contentHash": "c79874ea7fd81a3c82df97e558199ae90f6171d196728e914aa097ea94b5105a"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-tengchong",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://baoshan.gov.cn/info/7792/2345334.htm",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "1120df41eafc4a1a61e8e6c08251837573b5f36503cbdffa1e7a14b6ef962220"
     }
   ]
 }
