@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-23",
+  "baseline": "364afa3f75766b6a425568a7b11301d9fd1b09c5",
+  "checked": "2026-11-18",
+  "scope": "Eleven existing visible culture itinerary contexts: China9 and Japan2, previously without expanded reading. Selected UNESCO OUV and specialist Heritage of Astronomy passages support observable building, archaeological, landscape, technology and pilgrimage relationships. Original catalogue, sources, licensed media, coordinates and itineraries preserved. Not a field visit or all-site certification.",
+  "sources": {
+    "cq23-dengfeng": {
+      "title": "UNESCO：登封天地之中观念与多类建筑",
+      "url": "https://whc.unesco.org/en/list/1305/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary/specialist-authored passages; concise original paraphrase, no image reuse or field visit. Read astronomical/imperial/sacred-mountain relationships and rebuilding. Centre-of-world is a historic belief, not scientific geographic fact; omit component/area counts."
+    },
+    "cq23-dengfeng-astro": {
+      "title": "天文遗产门户：登封观星台与日影测量",
+      "url": "https://web.astronomicalheritage.net/show-entity?identity=17&idsubentity=1",
+      "checked": "2026-11-18",
+      "method": "Read selected primary/specialist-authored passages; concise original paraphrase, no image reuse or field visit. Read horizontal bar/northward scale/water levelling, Tang723stele/Yuan1279observatory/later Ming memorial temple. Do not equate Zhou Gong tradition with date of surviving structure or adopt other portal page's Luoyang/Dengfeng mix-up. No current demonstration promise."
+    },
+    "cq23-wutai": {
+      "title": "UNESCO：五台山寺院、佛光寺与塑像",
+      "url": "https://whc.unesco.org/en/list/1279/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary/specialist-authored passages; concise original paraphrase, no image reuse or field visit. Read five terraces, Manjusri, Foguang East Hall and Shuxiang suspended sculpture. No highest/oldest ranking, fixed temple count, unchanged all-original-material assertion or guaranteed hall access."
+    },
+    "cq23-yinxu": {
+      "title": "UNESCO：殷墟遗构、甲骨和出土物展示",
+      "url": "https://whc.unesco.org/en/list/1114/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary/specialist-authored passages; concise original paraphrase, no image reuse or field visit. Read palace/ancestral-shrine and royal-tomb zones, rammed earth, inscriptions and backfill/museums. Avoid literal first capital/first civilization claims, exact founding narrative and old museum configuration as live guide."
+    },
+    "cq23-longmen": {
+      "title": "UNESCO：龙门两岸石窟、造像与碑刻",
+      "url": "https://whc.unesco.org/en/list/1003/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary/specialist-authored passages; concise original paraphrase, no image reuse or field visit. Read limestone cliffs/Guyang/Binyang vs TangFengxiansi, donors/inscriptions and changing style. Yaofangdong medical inscriptions are historical objects, not current medical advice; no lost-panel/current-display guarantees."
+    },
+    "cq23-heaven": {
+      "title": "UNESCO：天坛轴线、祭坛与礼仪空间",
+      "url": "https://whc.unesco.org/en/list/881/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary/specialist-authored passages; concise original paraphrase, no image reuse or field visit. Read Circular Mound/Vault/Prayer Hall, sacred way and music/fasting facilities; historic symbolism not objective cosmology. Omit incorrect1749/Guangxu chronology and fasting-after-sacrifice wording, exact counts and current rituals."
+    },
+    "cq23-summer": {
+      "title": "UNESCO：颐和园山水、长廊与多期营造",
+      "url": "https://whc.unesco.org/en/list/880/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary/specialist-authored passages; concise original paraphrase, no image reuse or field visit. Read reservoir/landscape framework, administrative/residential/religious recreation functions, islands/SeventeenArch/WestDike and damage/rebuilding. Not untouched nature or surviving material all1750s; omit dynamic area/staff counts."
+    },
+    "cq23-pingyao": {
+      "title": "UNESCO：平遥城、双林寺与镇国寺",
+      "url": "https://whc.unesco.org/en/list/812/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary/specialist-authored passages; concise original paraphrase, no image reuse or field visit. Read three separated components, financial streets/houses, MingQing painted sculptures and FiveDynasties timber hall. No all-city single-date foundation, first-bank claim or complete unchanged urban-life assertion."
+    },
+    "cq23-palaces": {
+      "title": "UNESCO：北京沈阳宫殿的礼制与满族传统",
+      "url": "https://whc.unesco.org/en/list/439/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary/specialist-authored passages; concise original paraphrase, no image reuse or field visit. Read Beijing axis/outerinnercourts vs ShenyangEightBanners/QingningShamanisticspaces. Omit exclusive patron Nurgaci chronology for1625–37 and static emperor/collection counts. Serial two-city site, not one walking circuit or accessible every chamber."
+    },
+    "cq23-qin": {
+      "title": "UNESCO：秦始皇陵封土、陪葬坑和制作工艺",
+      "url": "https://whc.unesco.org/en/list/441/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary/specialist-authored passages; concise original paraphrase, no image reuse or field visit. Read mound/enclosure vs terracotta/bronze accompanying pits, uniforms/horsehalters and metal/pottery crafts. Distinguish excavated objects from SimaQian textual subterranean-city account; no claim visitor enters imperial underground chamber."
+    },
+    "cq23-kii": {
+      "title": "UNESCO：纪伊山地圣地、林道与活态信仰",
+      "url": "https://whc.unesco.org/en/list/1142/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary/specialist-authored passages; concise original paraphrase, no image reuse or field visit. Read YoshinoOmine/Kumano/Koyasan and Shinto/Buddhist/Shugendo relationships, reconstruction and continuing rituals. No fixed route length or all-currently-open wilderness crossing; distinguish culture WH context from existing Kumano records."
+    },
+    "cq23-iwami": {
+      "title": "UNESCO：石见银山采冶、聚落与港口",
+      "url": "https://whc.unesco.org/en/list/1246/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary/specialist-authored passages; concise original paraphrase, no image reuse or field visit. Read small labour units, refining, transport/shipping, traditional houses and recovering forest. Do not equate end of traditional methods with final closure of all mining or call replanted/reclaimed forest always untouched."
+    }
+  },
+  "readings": [
+    {
+      "id": "wh-1305",
+      "theme": "culture",
+      "title": "登封：从日影测量到嵩山礼制",
+      "summary": "登封“天地之中”建筑群把天文观测、山岳祭祀、佛教寺院与教育空间联系在一起。古人的天地中心观念影响选址与营建；观星台、测景台和不同庙宇各有时代、结构与功能，值得分别细看。",
+      "catalogueDescription": "登封“天地之中”建筑群把天文观测、山岳祭祀、佛教寺院与教育空间联系在一起。古人的天地中心观念影响选址与营建；观星台、测景台和不同庙宇各有时代、结构与功能，值得分别细看。",
+      "paragraphs": [
+        {
+          "heading": "观星台的体量有测量用途",
+          "text": "元代观星台以高处横杆向北侧长圭投下日影，用一年中正午影长的变化认识季节。圭上的水槽参与找平，台与长石尺的关系把天文计算落到可辨认的建筑形态。",
+          "sourceKeys": [
+            "cq23-dengfeng-astro"
+          ]
+        },
+        {
+          "heading": "把现存建筑与纪念传统分开",
+          "text": "唐代石表、元代观星台与后来的周公庙属于不同营建阶段，周公测影传统不等于现存结构都来自周代。再与中岳庙、汉阙和佛教建筑对读，可以看到观测、祭祀与政治文化怎样在嵩山周边汇合。",
+          "sourceKeys": [
+            "cq23-dengfeng",
+            "cq23-dengfeng-astro"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq23-dengfeng-astro",
+        "cq23-dengfeng"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1279",
+      "theme": "culture",
+      "title": "五台山：在五峰与寺院间看木构和塑像",
+      "summary": "五台山围绕五座平坦峰顶形成文殊信仰的山地文化景观，寺院、林地和朝礼传统共同构成其价值。佛光寺东大殿的唐代木构与彩塑、殊像寺的悬塑，又让不同材料和时代的艺术有具体观看入口。",
+      "catalogueDescription": "五台山围绕五座平坦峰顶形成文殊信仰的山地文化景观，寺院、林地和朝礼传统共同构成其价值。佛光寺东大殿的唐代木构与彩塑、殊像寺的悬塑，又让不同材料和时代的艺术有具体观看入口。",
+      "paragraphs": [
+        {
+          "heading": "先看建筑，再看殿内人物与山水",
+          "text": "佛光寺东大殿把木架与塑像保存在同一空间传统中，殊像寺悬塑则把佛教故事织入立体山水场景。对照结构、人物姿态和塑作的前后层次，比只按寺院知名度打卡更能认识作品。",
+          "sourceKeys": [
+            "cq23-wutai"
+          ]
+        },
+        {
+          "heading": "寺院景观需要与山地一起读",
+          "text": "不同寺庙体现多地建筑与信仰交流，重修维护也使建筑得以延续。五峰、树林与朝礼路线是整体的一部分，具体殿宇和高处通行另核当期安排，不把所有木料都视为自唐代未更换。",
+          "sourceKeys": [
+            "cq23-wutai"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq23-wutai"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1114",
+      "theme": "culture",
+      "title": "殷墟：从夯土平面读到文字与器物",
+      "summary": "殷墟以宫殿宗庙区和王陵区等遗存记录晚商都邑。夯土基础、祭祀与墓葬遗构、甲骨文字和青铜器提供不同证据；保护回填的建筑平面与博物馆里的出土物，需要结合起来认识原来的人与制度。",
+      "catalogueDescription": "殷墟以宫殿宗庙区和王陵区等遗存记录晚商都邑。夯土基础、祭祀与墓葬遗构、甲骨文字和青铜器提供不同证据；保护回填的建筑平面与博物馆里的出土物，需要结合起来认识原来的人与制度。",
+      "paragraphs": [
+        {
+          "heading": "低矮基础也能呈现建筑秩序",
+          "text": "宫殿宗庙区的基础、沟壕与不同遗迹位置，帮助认识木土建筑曾经怎样组织空间。部分遗构回填后以地表方式展示，今天看见的平面、保护设施和复原解释应分别辨认。",
+          "sourceKeys": [
+            "cq23-yinxu"
+          ]
+        },
+        {
+          "heading": "把文字内容和器物用途相互对读",
+          "text": "甲骨卜辞可同历史记录和考古互证，青铜礼器、玉器、骨器与陶器又显示工艺和社会活动。遗址空间与出土物展示承担不同解释任务，珍贵器物的具体展位应以当期馆内信息为准。",
+          "sourceKeys": [
+            "cq23-yinxu"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq23-yinxu"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1003",
+      "theme": "culture",
+      "title": "龙门：在两岸崖壁上比较造像与文字",
+      "summary": "龙门石窟沿伊河两岸石灰岩崖壁展开，不同洞窟保存北魏到唐等时期的造像和碑刻。古阳洞、宾阳洞与奉先寺等提供风格比较，文字又把营建、供养和当时社会连接到石雕之外。",
+      "catalogueDescription": "龙门石窟沿伊河两岸石灰岩崖壁展开，不同洞窟保存北魏到唐等时期的造像和碑刻。古阳洞、宾阳洞与奉先寺等提供风格比较，文字又把营建、供养和当时社会连接到石雕之外。",
+      "paragraphs": [
+        {
+          "heading": "从轮廓与群像安排看时代差异",
+          "text": "可对照较早洞窟与唐代奉先寺的大型群像，比较人物体量、衣褶和彼此位置。作品属于长时间累积的石窟营建，观察不同尺度与构图，比把整个崖面归给一位工匠或一次工程更准确。",
+          "sourceKeys": [
+            "cq23-longmen"
+          ]
+        },
+        {
+          "heading": "碑刻让石窟成为社会记录",
+          "text": "题记与碑文保留文字、营建和供养线索，药方洞还留下历史医药知识的刻写。石刻中的古代治疗记录是文化史对象，适合与造像并读；展示位置与保护开放范围按现场解释选择。",
+          "sourceKeys": [
+            "cq23-longmen"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq23-longmen"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-881",
+      "theme": "culture",
+      "title": "天坛：沿轴线看祭天如何成为空间",
+      "summary": "天坛以南端露天圜丘、皇穹宇和北端祈年殿组成主要轴线，抬高的道路连接不同礼仪空间。建筑形状、数字与位置表达当时的天地和皇权观念，斋戒、音乐与祭祀准备又使大典成为一整套制度。",
+      "catalogueDescription": "天坛以南端露天圜丘、皇穹宇和北端祈年殿组成主要轴线，抬高的道路连接不同礼仪空间。建筑形状、数字与位置表达当时的天地和皇权观念，斋戒、音乐与祭祀准备又使大典成为一整套制度。",
+      "paragraphs": [
+        {
+          "heading": "从露天祭坛走向有顶的殿堂",
+          "text": "比较圜丘的开敞、皇穹宇的圆形和祈年殿层叠屋顶，再看其间道路与围墙。相同轴线上不同的空间体验，有助理解祭天与祈谷相关建筑各自的作用。",
+          "sourceKeys": [
+            "cq23-heaven"
+          ]
+        },
+        {
+          "heading": "留意大殿之外的准备与维护",
+          "text": "斋宫、神乐署及祭牲相关建筑说明仪式需要人员、音乐与生活支持。今天的古柏、围墙和路径也组织观看；礼仪含义属于历史文化，现存建筑包含后世重建和长期修护。",
+          "sourceKeys": [
+            "cq23-heaven"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq23-heaven"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-880",
+      "theme": "culture",
+      "title": "颐和园：山湖框架中的宫廷与园林",
+      "summary": "颐和园利用昆明湖与万寿山组织政务、居住、宗教和游赏空间。湖面、岛屿、桥梁、长廊与沿坡建筑共同安排观看，园中又有战争损毁、重建与修护的历史，自然形势与人的营造需要一起读。",
+      "catalogueDescription": "颐和园利用昆明湖与万寿山组织政务、居住、宗教和游赏空间。湖面、岛屿、桥梁、长廊与沿坡建筑共同安排观看，园中又有战争损毁、重建与修护的历史，自然形势与人的营造需要一起读。",
+      "paragraphs": [
+        {
+          "heading": "沿长廊看空间怎样转接",
+          "text": "政务区、生活院落与湖岸通过廊道相连，长廊既提供行进空间，也不断框取湖山。比较沿山建筑与水岸位置，可以认识一座皇家园林如何同时服务生活、仪式和游览。",
+          "sourceKeys": [
+            "cq23-summer"
+          ]
+        },
+        {
+          "heading": "从桥、岛与西堤看水面布局",
+          "text": "湖中岛屿、十七孔桥及西堤不同桥形组织出远近景观，万寿山北侧又有汉、藏式寺院建筑。湖山是经过扩展与设计的框架，今日所见还包括损毁后重建，不宜视作全未经改造的自然。",
+          "sourceKeys": [
+            "cq23-summer"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq23-summer"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-812",
+      "theme": "culture",
+      "title": "平遥：城内金融街巷与城外木构彩塑",
+      "summary": "平遥遗产不仅是城墙以内的街巷、商铺、住宅与寺庙，还包括城外双林寺和镇国寺。明清县城格局、近代金融活动和更早木构、后世彩塑各自提供内容，需要把三个组成部分分别安排。",
+      "catalogueDescription": "平遥遗产不仅是城墙以内的街巷、商铺、住宅与寺庙，还包括城外双林寺和镇国寺。明清县城格局、近代金融活动和更早木构、后世彩塑各自提供内容，需要把三个组成部分分别安排。",
+      "paragraphs": [
+        {
+          "heading": "从商铺门面读回居住院落",
+          "text": "平遥在19世纪至20世纪初是重要金融中心，店铺和传统宅院记录商业繁荣。观察主街、支巷、门面与院落的关系，可以将票号等商业活动放回县城的生活空间。",
+          "sourceKeys": [
+            "cq23-pingyao"
+          ]
+        },
+        {
+          "heading": "城外两寺提供不同材料的对照",
+          "text": "双林寺保存丰富明清彩塑，镇国寺万佛殿则提供五代木构实例。人物塑作与承重木架值得分别近看，两寺位于城外，遗产代表点不能代替三个区域的实际交通安排。",
+          "sourceKeys": [
+            "cq23-pingyao"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq23-pingyao"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-439",
+      "theme": "culture",
+      "title": "北京与沈阳故宫：同一王朝的不同宫殿秩序",
+      "summary": "这处遗产包含北京和沈阳两座宫殿。北京以中轴、前朝后寝和对称院落组织礼制空间，沈阳则保留与八旗制度、满族居住和萨满祭祀相关的布局，比较两地能认识宫廷文化中的延续与差异。",
+      "catalogueDescription": "这处遗产包含北京和沈阳两座宫殿。北京以中轴、前朝后寝和对称院落组织礼制空间，沈阳则保留与八旗制度、满族居住和萨满祭祀相关的布局，比较两地能认识宫廷文化中的延续与差异。",
+      "paragraphs": [
+        {
+          "heading": "在北京看门、院与殿的层层递进",
+          "text": "外朝和内廷沿轴线组织，不同门院、木构和装饰体现建筑等级。宫廷陈设、营造档案与工程模型，又把宏大建筑连回制度、技艺和生活，具体展陈按现场安排选择。",
+          "sourceKeys": [
+            "cq23-palaces"
+          ]
+        },
+        {
+          "heading": "在沈阳留意另一种组织方式",
+          "text": "与八旗相关的建筑排列及清宁宫中的祭祀空间，展示宫殿对满族传统的吸收。北京与沈阳是两个城市、不同形成背景的宫殿群，不能把一个地图点理解成包含两地的单次步行参观。",
+          "sourceKeys": [
+            "cq23-palaces"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq23-palaces"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-441",
+      "theme": "culture",
+      "title": "秦始皇陵：封土、陪葬坑与制作的细部",
+      "summary": "秦始皇陵包含封土、陵园建筑遗迹和多类陪葬坑，兵马俑只是整体中的一部分。陶俑、陶马、青铜车马和武器保存军事组织与工艺线索，出土实物、遗迹平面与古代文献描述需要分开认识。",
+      "catalogueDescription": "秦始皇陵包含封土、陵园建筑遗迹和多类陪葬坑，兵马俑只是整体中的一部分。陶俑、陶马、青铜车马和武器保存军事组织与工艺线索，出土实物、遗迹平面与古代文献描述需要分开认识。",
+      "paragraphs": [
+        {
+          "heading": "看队列，也看服饰和马具",
+          "text": "整体排列让人认识军阵组织，衣服、装备、人物和马具细节又提供近看雕塑的入口。陶作、青铜铸造与车辆组装包含不同技术，宏大数量之外还有具体劳动和制作方法。",
+          "sourceKeys": [
+            "cq23-qin"
+          ]
+        },
+        {
+          "heading": "把俑坑放回完整陵园",
+          "text": "陵园墙垣、封土、建筑和陪葬坑构成不同层次，古代文献关于地下空间的叙述也不是游客可直接看见的现存场景。将考古实物、地表遗构与文献说明分别对读，更能理解展示如何来自研究。",
+          "sourceKeys": [
+            "cq23-qin"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq23-qin"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1142",
+      "theme": "culture",
+      "title": "纪伊山地：在森林、圣地和参诣路间探索",
+      "summary": "纪伊山地遗产将吉野与大峰、熊野三山、高野山及相连参诣路、森林组成文化景观。自然崇拜、神道、佛教和修验道在此交汇，寺社建筑与活态仪式需要连同山地环境和行走传统一起理解。",
+      "catalogueDescription": "纪伊山地遗产将吉野与大峰、熊野三山、高野山及相连参诣路、森林组成文化景观。自然崇拜、神道、佛教和修验道在此交汇，寺社建筑与活态仪式需要连同山地环境和行走传统一起理解。",
+      "paragraphs": [
+        {
+          "heading": "选择一段路看森林如何参与朝礼",
+          "text": "石径、林地和通往寺社的路径关系，让参诣不仅发生在建筑门内。不同圣地有不同传统，寺院、神社与修验活动也各有语境，可先选一个区域细读，再理解更大的路线网络。",
+          "sourceKeys": [
+            "cq23-kii"
+          ]
+        },
+        {
+          "heading": "木构的延续包含持续修护",
+          "text": "寺社有重建、更新和维护传统，仪式与宗教活动又继续赋予场所意义。整体是跨多个区域的路径网络，地图串联不保证所有山路现时连通，也不将每处木构材料说成千年原物。",
+          "sourceKeys": [
+            "cq23-kii"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq23-kii"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1246",
+      "theme": "culture",
+      "title": "石见银山：从采冶遗迹看到聚落与港口",
+      "summary": "石见银山的文化景观把矿坑、冶炼精炼遗迹、聚落、运输路和港口相连。大量以手工为基础的小型生产单位参与采银，贸易又把山地连接海外；今日森林覆盖下仍能对读生产、生活与运输。",
+      "catalogueDescription": "石见银山的文化景观把矿坑、冶炼精炼遗迹、聚落、运输路和港口相连。大量以手工为基础的小型生产单位参与采银，贸易又把山地连接海外；今日森林覆盖下仍能对读生产、生活与运输。",
+      "paragraphs": [
+        {
+          "heading": "矿业不只发生在一个洞口",
+          "text": "寻找采掘、冶炼和精炼在解说中的不同位置，能理解矿石成为可交易白银所需的技术和劳动。沿历史运输与出港关系阅读，也能将山地作业放回东亚和更远地区的贸易网络。",
+          "sourceKeys": [
+            "cq23-iwami"
+          ]
+        },
+        {
+          "heading": "聚落与恢复的森林一起看",
+          "text": "传统木构住宅经过维护仍与地方生活相连，山林又逐渐覆盖部分停用生产遗迹。住宅、通道和港口共同保留过去土地使用的关系，这片绿意并不意味着山地从未受人改造。",
+          "sourceKeys": [
+            "cq23-iwami"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq23-iwami"
+      ],
+      "related": []
+    }
+  ]
+}
