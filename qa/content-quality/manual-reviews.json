@@ -4588,6 +4588,74 @@
         "https://www.beijing.gov.cn/renwen/bjgk/fsgk/fswl/202303/t20230302_2927717.html"
       ],
       "contentHash": "913ae9c02daa5780aac35132d3096f8f0c5ad421d7a13c87e96a632b5fc7929d"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-1604",
+      "state": "researched-batch-32",
+      "reason": "核对UNESCO多语言与OUV、气象局机制及省政府现场导览说明；纠正误译并给出可观察线索，保留原始资料，未认证实时开放或实地通行。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1604/",
+        "https://en.vedur.is/volcanoes/volcanic-hazards/glacial-outburst/"
+      ],
+      "contentHash": "8655e08b8c305871b2150de6767be859d4d3ad2cca1f7156f7ae88cf533a0e15"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-1510",
+      "state": "researched-batch-32",
+      "reason": "核对UNESCO多语言与OUV、气象局机制及省政府现场导览说明；纠正误译并给出可观察线索，保留原始资料，未认证实时开放或实地通行。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1510/"
+      ],
+      "contentHash": "11a25a2951544be3b4fd124676299fb5ee7e5701a132364dd6c4f04be03ea823"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-1497",
+      "state": "researched-batch-32",
+      "reason": "核对UNESCO多语言与OUV、气象局机制及省政府现场导览说明；纠正误译并给出可观察线索，保留原始资料，未认证实时开放或实地通行。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1497/",
+        "https://www.gov.nl.ca/mca/r-mpe/"
+      ],
+      "contentHash": "8ef629c81d2d6c233f3bb709ef9364207e17122ed8c8c1a07d8811aa58e38fee"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-1430",
+      "state": "researched-batch-32",
+      "reason": "核对UNESCO多语言与OUV、气象局机制及省政府现场导览说明；纠正误译并给出可观察线索，保留原始资料，未认证实时开放或实地通行。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1430/"
+      ],
+      "contentHash": "cabee76f170ef85679df51862a045c8c818effd56b9356ab75ae51f660694f67"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-1505",
+      "state": "researched-batch-32",
+      "reason": "核对UNESCO多语言与OUV、气象局机制及省政府现场导览说明；纠正误译并给出可观察线索，保留原始资料，未认证实时开放或实地通行。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1505/"
+      ],
+      "contentHash": "19933b60336bc36e75e6344428e91103184b09e1872eb06e0fbb0c356e0d160a"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-1657",
+      "state": "researched-batch-32",
+      "reason": "核对UNESCO多语言与OUV、气象局机制及省政府现场导览说明；纠正误译并给出可观察线索，保留原始资料，未认证实时开放或实地通行。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1657/"
+      ],
+      "contentHash": "8d78cbeabc3d17f454e2dfe9d71dc44d602d2b83eb3d08cc7edc401ac403e0c2"
     }
   ]
 }

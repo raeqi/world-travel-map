@@ -4,12 +4,12 @@
 
 ## 当前覆盖与边界
 
-- 累计396个地点记录有本系列新增且逐项来源支持的阅读，0处保留简洁有用判断，1处记录人工读到的明确缺口。397个不同语境有当前人工判断；其余**1939个语境未在本系列逐项人工验收**。
+- 累计402个地点记录有本系列新增且逐项来源支持的阅读，0处保留简洁有用判断，1处记录人工读到的明确缺口。403个不同语境有当前人工判断；其余**1933个语境未在本系列逐项人工验收**。
 - 当前**1个未排除自动候选**，其中1处用于可见主题行程。候选是编辑优先队列，不等于已证实错误，也不是全站剩余问题上限。零信号或已有长文的主题仍需后续人工审阅。
-- 自动短文候选之外，1185个未人工验收语境目前没有展开阅读，其中0个属于可见主题行程。已有长文也可能有实质错误，不因为字数多就排除后续研究。
+- 自动短文候选之外，1179个未人工验收语境目前没有展开阅读，其中0个属于可见主题行程。已有长文也可能有实质错误，不因为字数多就排除后续研究。
 - 原始目录、坐标、来源链接、方案、收藏ID、图片字节及其许可保留；新增展开合并适用的原段落和原来源对象。此系列未替换图片，也未把别的艺术家阅读算成旧路线已补足。
 - 观察建议依据所列资料，不是现场考察；历史道路关系不等于现代可通行线路，机构旧资料不作为当前开放保证。
-- 用户可见且未人工验收的无展开语境为1185个，其中目录中尚未纳入行程的1185个。原98行程缺口补齐不代表目录内容已经完善；各主题剩余量在下表单列。
+- 用户可见且未人工验收的无展开语境为1179个，其中目录中尚未纳入行程的1179个。原98行程缺口补齐不代表目录内容已经完善；各主题剩余量在下表单列。
 
 ## 分批研究记录
 
@@ -45,6 +45,7 @@
 | 第29批 | `9ad1b7cb9e18490c8caf90ed8f07fbbf88090b12` | 4 | 8 | [逐项文字和依据](data/content-quality/batch-29.json)：Four existing visible natural catalogue contexts selected for actual errors despite long descriptions: geological age, King versus Emperor Penguins, Colombia location and Indigenous/access context, and plateau/complete-route qualifiers. Source-bound display corrections preserve raw records; no new places, media or route changes. |
 | 第30批 | `b836f3d73cb9b11575de26a3cd7261d0c428d82f` | 4 | 9 | [逐项文字和依据](data/content-quality/batch-30.json)：Four existing visible cultural catalogue contexts: Paris Haussmann mistranslation, Bath multiple Georgian reigns and later museum display, Schwerin ducal-capital ensemble, Athens gateway and distinct cult/restoration spaces. Both short summaries and first dedicated readings; original imagery, coordinates, plans and links retained. |
 | 第31批 | `8ae25b726aaaf4e2c1dfa24dbab0fe7fd3a48ca8` | 4 | 7 | [逐项文字和依据](data/content-quality/batch-31.json)：Four existing visible Asian cultural catalogue contexts: Angkor regional temple/city/water scope, Beijing Axis uses/chronology, Lijiang three settlements and water, Zhoukoudian distinct fossil localities and museum interpretation. Corrected short summaries and first dedicated readings; preserve raw IDs, photos, coordinates, routes and links. |
+| 第32批 | `3b6efd93ca43ce198fe3b19913ac07a9f4f287ad` | 6 | 8 | [逐项文字和依据](data/content-quality/batch-32.json)：Six existing nature catalogue contexts: correct arid/shallow-water mistranslations; explain glacial outburst mechanisms, fossils/guided viewing, sand conveyor and volcanic-forest geography. Preserve all raw records, media, coordinates, routes and links. |
 
 第二批三峡/熊野/佛教/NC500：25处，22处原无展开；第三批茶马及相关网络：19处，18处原无展开；第四批莫扎特8处与Via Francigena16处：24处，23处原无展开；第五批66号公路15处：14处原无展开；第六批中山道9处与维京8处：17处，11处原无展开；第七批法国之路前12处：11个原候选与已有较具体路线选择说明的起点；第八批卡斯蒂利亚—莱昂21处；第九批加利西亚10处。第七至九批三个研究包共同交付，覆盖既有法国之路43处，全部新增首次专属展开，42处原为自动候选。第十批世界遗产23处（自然4、人文19），补充18个原未排除候选，并将5处原有实用短文加深；第十一、十二批丝路25处，分为西部/中亚及东部海贸15处、中国城市10处。本轮三个包共同交付48处首次专属阅读，43处原为待审候选。雅安、萨尔茨堡等原资料合并保留，不重复声称新地点。第二批[原报告](CONTENT-QUALITY-BATCH-2.md)、第三批[原报告](CONTENT-QUALITY-BATCH-3.md)、第四批[原报告](CONTENT-QUALITY-BATCH-4.md)、第五批[原报告](CONTENT-QUALITY-BATCH-5.md)、第六批[原报告](CONTENT-QUALITY-BATCH-6.md)、[法国之路第七至九批原报告](CONTENT-QUALITY-BATCH-9.md)作为历史快照保留。
 
@@ -83,7 +84,7 @@
 3. 人工核对特色、年代、地理、主题关联、原址/迁建/馆藏/现代复原与可观察对象。[人工记录](qa/content-quality/manual-reviews.json)绑定文本和来源指纹，变化即失效。机构页面也可能有错误，不因官网身份自动采用所有说法。
 4. [逐语境CSV](qa/content-quality/contexts.csv)列全部语境，[最新报告](qa/content-quality/latest.json)列全部主题与方案；[旧候选原主题](qa/content-quality/legacy-candidates.json)防止跨主题虚增完成量。
 5. 独立批次经`node scripts/build-quality-readings.cjs`生成同一生产bundle；`--check`验证未漂移。原数据逐字段、原图逐字节核对，适用的原阅读逐段和逐来源对象保留；只有明确的旧错主题回退可被有证据的新主题阅读替代。
-6. 真实Chromium检查每处新研究在桌面1440×1000和手机390×844的概要、两节、全部新来源与原链接、关闭返回及溢出；并回归主题隔离、前后站、收藏、刷新与旧链接。不等于实体手机实测或全站历史事实验收。
+6. 真实Chromium检查每处新研究在桌面1440×1000和手机390×844的概要、每节研究内容、全部新来源与原链接、关闭返回及溢出；并回归主题隔离、前后站、收藏、刷新与旧链接。不等于实体手机实测或全站历史事实验收。
 
 ## 历史226个候选的当前对照
 
@@ -113,7 +114,7 @@
 
 | 主题ID | 名称 | 入口 | 语境 | 自动候选 | 人工判断 | 未审无展开 |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
-| `nature` | 世界自然遗产 | 可见 | 282 | 0 | 32 | 243 |
+| `nature` | 世界自然遗产 | 可见 | 282 | 0 | 38 | 237 |
 | `culture` | 世界文化遗产 | 可见 | 1033 | 0 | 88 | 942 |
 | `gorges` | 三峡古镇 | 可见 | 6 | 0 | 6 | 0 |
 | `parks` | 美国国家公园 | 可见 | 63 | 0 | 61 | 0 |
