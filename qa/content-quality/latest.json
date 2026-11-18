@@ -15,11 +15,11 @@
     "automaticCandidateContexts": 1,
     "visibleItineraryCandidatePlaces": 1,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 245,
-    "unreviewedContexts": 1973,
-    "unreviewedNoExpandedContexts": 1337,
-    "visibleItineraryUnreviewedNoExpandedContexts": 109,
-    "manualResearchedPlaces": 244,
+    "manualReviewedContexts": 251,
+    "unreviewedContexts": 1967,
+    "unreviewedNoExpandedContexts": 1331,
+    "visibleItineraryUnreviewedNoExpandedContexts": 104,
+    "manualResearchedPlaces": 250,
     "manualUsefulConcisePlaces": 0,
     "manualNeedsResearchPlaces": 1,
     "staleReviews": 0,
@@ -245,7 +245,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "142a3319395441a4d1e90240f8dcfbe3eb606b7b95903169d740ab7404b802d9",
+      "sha256": "1a6a2165fcfe35c33777ac53c2967c723efc9af3be7b833bc4da67cf1c694a28",
       "executed": true
     },
     {
@@ -266,7 +266,7 @@
       "visible": true,
       "contexts": 282,
       "automaticCandidates": 0,
-      "manuallyReviewed": 9
+      "manuallyReviewed": 15
     },
     {
       "id": "culture",
@@ -5582,36 +5582,36 @@
       "contexts": [
         {
           "id": "wh-75",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-17",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-308",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-17",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-134",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-17",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-151",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-17",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-28",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-17",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
@@ -5672,22 +5672,22 @@
       "contexts": [
         {
           "id": "wh-75",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-17",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-308",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-17",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-134",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-17",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }

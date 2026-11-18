@@ -2847,6 +2847,74 @@
         "https://whc.unesco.org/en/list/1443/"
       ],
       "contentHash": "41d20d3dd5c3189b3466f9625b2496d9e5bde290c24f594542dcbd654e8820fa"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-308",
+      "state": "researched-batch-17",
+      "reason": "逐项阅读NPS地质、森林、湿地与热液解释，补具体观察对象并区分自然过程、人为改造和当前通行边界。未作现场调查或保证野生动物出现。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/yose/learn/nature/geology.htm"
+      ],
+      "contentHash": "41f903cf475281f5988f668058e26d00267c3e746a13b24e824b4e1bf072c7e2"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-151",
+      "state": "researched-batch-17",
+      "reason": "逐项阅读NPS地质、森林、湿地与热液解释，补具体观察对象并区分自然过程、人为改造和当前通行边界。未作现场调查或保证野生动物出现。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://home.nps.gov/olym/planyourvisit/weather.htm",
+        "https://www.nps.gov/olym/planyourvisit/hoh-rain-forest-area-brochure.htm"
+      ],
+      "contentHash": "7affb08630afac2643f34469516860fe82f0355647870d99be92277f2914d01b"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-134",
+      "state": "researched-batch-17",
+      "reason": "逐项阅读NPS地质、森林、湿地与热液解释，补具体观察对象并区分自然过程、人为改造和当前通行边界。未作现场调查或保证野生动物出现。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/redw/faqs.htm?fullweb=1"
+      ],
+      "contentHash": "61c5b8b3de7ada692ea5332c11fdc0b2e69b8451d922c0ec055b4d220dfd3c11"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-75",
+      "state": "researched-batch-17",
+      "reason": "逐项阅读NPS地质、森林、湿地与热液解释，补具体观察对象并区分自然过程、人为改造和当前通行边界。未作现场调查或保证野生动物出现。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/grca/learn/nature/grca-geology.htm"
+      ],
+      "contentHash": "92ee65d18d5b08589a28f3f4b2e28d93282450336361e4f13017064062ca6630"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-28",
+      "state": "researched-batch-17",
+      "reason": "逐项阅读NPS地质、森林、湿地与热液解释，补具体观察对象并区分自然过程、人为改造和当前通行边界。未作现场调查或保证野生动物出现。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/yell/learn/nature/hydrothermal-features.htm"
+      ],
+      "contentHash": "595b8f02cc5bcfc037a57410740cc8982049a4b9cc52766df6ae0cdbee5cfd0b"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-76",
+      "state": "researched-batch-17",
+      "reason": "逐项阅读NPS地质、森林、湿地与热液解释，补具体观察对象并区分自然过程、人为改造和当前通行边界。未作现场调查或保证野生动物出现。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/articles/000/sea-level-rise-threatens-cultural-sites-in-the-everglades.htm",
+        "https://www.nps.gov/ever/learn/nature/cceffectssalineglades.htm"
+      ],
+      "contentHash": "e4b8c0a2451b32c3e26ac24136b97ebd3335dd2ae0f4f1bc1da6f96be1804e28"
     }
   ]
 }

@@ -4,9 +4,9 @@
 
 ## 当前覆盖与边界
 
-- 累计244处有本系列新增且逐项来源支持的阅读，0处保留简洁有用判断，1处记录人工读到的明确缺口。245个不同语境有当前人工判断；其余**1973个语境未在本系列逐项人工验收**。
+- 累计250处有本系列新增且逐项来源支持的阅读，0处保留简洁有用判断，1处记录人工读到的明确缺口。251个不同语境有当前人工判断；其余**1967个语境未在本系列逐项人工验收**。
 - 当前**1个未排除自动候选**，其中1处用于可见主题行程。候选是编辑优先队列，不等于已证实错误，也不是全站剩余问题上限。零信号或已有长文的主题仍需后续人工审阅。
-- 自动短文候选之外，1337个未人工验收语境目前没有展开阅读，其中109个属于可见主题行程。已有长文也可能有实质错误，不因为字数多就排除后续研究。
+- 自动短文候选之外，1331个未人工验收语境目前没有展开阅读，其中104个属于可见主题行程。已有长文也可能有实质错误，不因为字数多就排除后续研究。
 - 原始目录、坐标、来源链接、方案、收藏ID、图片字节及其许可保留；新增展开合并适用的原段落和原来源对象。此系列未替换图片，也未把别的艺术家阅读算成旧路线已补足。
 - 观察建议依据所列资料，不是现场考察；历史道路关系不等于现代可通行线路，机构旧资料不作为当前开放保证。
 
@@ -29,21 +29,22 @@
 | 第14批 | `2d2c9b3586de2cda93fde3202d497981eac0e32e` | 12 | 22 | [逐项文字和依据](data/content-quality/batch-14.json)：Twelve western and oasis contexts in the existing Marco Polo theme. Read selected passages in the NII digital 1938 Moule/Pelliot edition alongside institutional site evidence; distinguish narrated trade, religious interpretation, later monuments and regional geography. No itinerary, original source, image or coordinate changes. Developed with the checked Xu package from PR38; merge separately after its exact tree is confirmed on main. |
 | 第15批 | `2d2c9b3586de2cda93fde3202d497981eac0e32e` | 11 | 23 | [逐项文字和依据](data/content-quality/batch-15.json)：Remaining eleven existing Marco Polo contexts: Yuan and Jiangnan cities, Indian Ocean regions, non-visited Japan and Genoese writing tradition. Distinct narrative voices, modern archaeological fabric and dispersed natural sites; no images, original data, coordinate or route modifications. Developed with the checked Xu package from PR38; merge separately after its exact tree is confirmed on main. |
 | 第16批 | `8ebf154c2becbefa8990328ae2560775dabbaeff` | 6 | 8 | [逐项文字和依据](data/content-quality/batch-16.json)：Review six existing long catalogue descriptions used in recommended itineraries, beyond short-text candidates. Correct two scale/unit translations and a Maharaja/place mistranslation; distinguish K’gari naming, landscape/painting history and canal engineering. Preserve raw records but use source-bound corrected display descriptions; no new or substituted imagery. |
+| 第17批 | `8ebf154c2becbefa8990328ae2560775dabbaeff` | 6 | 8 | [逐项文字和依据](data/content-quality/batch-17.json)：Six existing US nature catalogue places with no expanded reading: five used by visible recommended itineraries, plus Everglades catalogue context. NPS geology, forest ecology, hydrology and cultural-landscape evidence; no new place, route, image or coordinate changes. Built after checked PR40 content; merge in dependency order. |
 
 第二批三峡/熊野/佛教/NC500：25处，22处原无展开；第三批茶马及相关网络：19处，18处原无展开；第四批莫扎特8处与Via Francigena16处：24处，23处原无展开；第五批66号公路15处：14处原无展开；第六批中山道9处与维京8处：17处，11处原无展开；第七批法国之路前12处：11个原候选与已有较具体路线选择说明的起点；第八批卡斯蒂利亚—莱昂21处；第九批加利西亚10处。第七至九批三个研究包共同交付，覆盖既有法国之路43处，全部新增首次专属展开，42处原为自动候选。第十批世界遗产23处（自然4、人文19），补充18个原未排除候选，并将5处原有实用短文加深；第十一、十二批丝路25处，分为西部/中亚及东部海贸15处、中国城市10处。本轮三个包共同交付48处首次专属阅读，43处原为待审候选。雅安、萨尔茨堡等原资料合并保留，不重复声称新地点。第二批[原报告](CONTENT-QUALITY-BATCH-2.md)、第三批[原报告](CONTENT-QUALITY-BATCH-3.md)、第四批[原报告](CONTENT-QUALITY-BATCH-4.md)、第五批[原报告](CONTENT-QUALITY-BATCH-5.md)、第六批[原报告](CONTENT-QUALITY-BATCH-6.md)、[法国之路第七至九批原报告](CONTENT-QUALITY-BATCH-9.md)作为历史快照保留。
 
-第十六批逐项研究6处已有长文且用于推荐行程的遗产：大熊猫栖息地面积单位、大蓝山植物比较范围、凯奥拉德奥Maharajas误作地名；另补K’gari、黄山与大运河。原始记录及来源保留，校订只覆盖经证据核实的显示正文，不让旧错从“展开完整介绍”再次出现。第十四、十五批共同补充马可波罗23处首次专属阅读、45条来源记录；以NII东洋文库1938年Moule/Pelliot版的实际选段和当代遗产/机构资料对读，保留原Yule/Cordier链接。书内行程、听闻、归程区域和成书传统不混同已核实亲历；2024威尼斯展已结束，热那亚囚室只属传统，日本区域点并不定位为长崎水下遗址。第十三批补充徐霞客24处首次专属阅读，重点由原日记、地质调查、遗产机构与地方考古材料落到山地、水系、建筑和现代展示。1613、1616、1618、1623、1633与滇西晚年游历分别阅读，六条既有方案不变；木府重建、金中都水关现代探访、霁虹桥迁移复制及纪念塑像均与个人亲历分开。第十至十二批共同细读48处，兼顾地貌演变、牧业与绿洲生活、市场系统、原址艺术、异地收藏及后世重建。布哈拉从交易穹顶与经学院落地，塔什干区分预备名单与正式遗产；敦煌五台山图描绘山西、铜奔马原作在兰州、雁塔原碑与海外拓片分开，嘉峪关明代关城不归入13世纪亲历。机构资料中的错译、日期矛盾与过时链接逐项记录取舍；塔伊旧域名异常跳转排除。无新增图片。
+第十七批补充美国自然地景6处，5处用于可见推荐行程；岩体形成与冰川塑形、雨影与育苗倒木、海岸红杉与巨杉、河流侵蚀与大坝、热液颜色的不同成因及湿地淡咸水边界分别落到可观察对象。无新增图片。第十六批逐项研究6处已有长文且用于推荐行程的遗产：大熊猫栖息地面积单位、大蓝山植物比较范围、凯奥拉德奥Maharajas误作地名；另补K’gari、黄山与大运河。原始记录及来源保留，校订只覆盖经证据核实的显示正文，不让旧错从“展开完整介绍”再次出现。第十四、十五批共同补充马可波罗23处首次专属阅读、45条来源记录；以NII东洋文库1938年Moule/Pelliot版的实际选段和当代遗产/机构资料对读，保留原Yule/Cordier链接。书内行程、听闻、归程区域和成书传统不混同已核实亲历；2024威尼斯展已结束，热那亚囚室只属传统，日本区域点并不定位为长崎水下遗址。第十三批补充徐霞客24处首次专属阅读，重点由原日记、地质调查、遗产机构与地方考古材料落到山地、水系、建筑和现代展示。1613、1616、1618、1623、1633与滇西晚年游历分别阅读，六条既有方案不变；木府重建、金中都水关现代探访、霁虹桥迁移复制及纪念塑像均与个人亲历分开。第十至十二批共同细读48处，兼顾地貌演变、牧业与绿洲生活、市场系统、原址艺术、异地收藏及后世重建。布哈拉从交易穹顶与经学院落地，塔什干区分预备名单与正式遗产；敦煌五台山图描绘山西、铜奔马原作在兰州、雁塔原碑与海外拓片分开，嘉峪关明代关城不归入13世纪亲历。机构资料中的错译、日期矛盾与过时链接逐项记录取舍；塔伊旧域名异常跳转排除。无新增图片。
 
-## 第十六批逐点证据
+## 第十七批逐点证据
 
 | 主题与地点 | 阅读 | 主要依据 |
 | --- | --- | --- |
-| nature / `wh-1213` | 先看连续栖地，而不只寻找一只熊猫 | [UNESCO：四川大熊猫栖息地](https://whc.unesco.org/en/list/1213/) |
-| nature / `wh-917` | 砂岩地形与多种桉树林，组成大蓝山 | [UNESCO：大蓝山地区](https://whc.unesco.org/en/list/917/) |
-| nature / `wh-340` | 水深的细小变化，决定湿地里谁能生活 | [UNESCO：凯奥拉德奥国家公园](https://whc.unesco.org/en/list/340/) |
-| nature / `wh-630` | K’gari：沙地上为什么能长雨林、留淡水 | [UNESCO：K’gari沙岛](https://whc.unesco.org/en/list/630/) |
-| nature / `wh-547` | 花岗岩、松林与云雾，是黄山的现场语言 | [UNESCO：黄山自然与文化价值](https://whc.unesco.org/en/list/547/) |
-| culture / `wh-1443` | 从一道闸、一个仓和一段岸线进入大运河 | [UNESCO：大运河水利、漕运与系列遗产](https://whc.unesco.org/en/list/1443/) |
+| nature / `wh-308` | 优胜美地：先有岩体，再有冰川刻出的谷地 | [NPS：优胜美地岩体形成、河流与冰川塑形](https://www.nps.gov/yose/learn/nature/geology.htm) |
+| nature / `wh-151` | 奥林匹克：从雨影到一截正在长树的倒木 | [NPS：奥林匹克半岛雨影与降水差异](https://home.nps.gov/olym/planyourvisit/weather.htm) |
+| nature / `wh-134` | 红杉国家与州公园：看高树，也看雾和更新 | [NPS：海岸红杉的生态、更新与国家/州公园关系](https://www.nps.gov/redw/faqs.htm?fullweb=1) |
+| nature / `wh-75` | 大峡谷：古老岩层与较晚切出的地形分开读 | [NPS：大峡谷的岩层、侵蚀与河流变化](https://www.nps.gov/grca/learn/nature/grca-geology.htm) |
+| nature / `wh-28` | 黄石：先认出泉、间歇泉、泥锅与喷气孔 | [NPS：黄石热液类型、微生物与颜色](https://www.nps.gov/yell/learn/nature/hydrothermal-features.htm) |
+| nature / `wh-76` | 大沼泽：读缓慢流动的水，而不只寻找动物 | [NPS：大沼泽淡水流与文化地点](https://www.nps.gov/articles/000/sea-level-rise-threatens-cultural-sites-in-the-everglades.htm) |
 
 已合并批次的CI、截图Library身份与公网字节核对见[交付证据](qa/content-quality/deliveries.json)。该文件只记录已经验证的历史发布，未列入的本地/PR批次仍应查对应CI状态。
 
@@ -90,7 +91,7 @@
 
 | 主题ID | 名称 | 入口 | 语境 | 自动候选 | 人工判断 |
 | --- | --- | --- | ---: | ---: | ---: |
-| `nature` | 世界自然遗产 | 可见 | 282 | 0 | 9 |
+| `nature` | 世界自然遗产 | 可见 | 282 | 0 | 15 |
 | `culture` | 世界文化遗产 | 可见 | 1033 | 0 | 20 |
 | `gorges` | 三峡古镇 | 可见 | 6 | 0 | 6 |
 | `parks` | 美国国家公园 | 可见 | 63 | 0 | 0 |
