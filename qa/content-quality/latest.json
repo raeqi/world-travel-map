@@ -3,30 +3,31 @@
   "baseline": "27bd4fe441008c13a05d34beaf725923575812d1",
   "method": "All production data scripts in index order; every registered place/theme context. UI-only app/flow excluded. Signals are triage, not factual verdicts. Manual reviews are content-hash bound; sources not fetched automatically.",
   "summary": {
-    "visibleItineraryUnresolvedCandidatePlaces": 118,
-    "unresolvedCandidatePlaces": 158,
+    "visibleItineraryUnresolvedCandidatePlaces": 104,
+    "unresolvedCandidatePlaces": 144,
     "places": 2010,
     "internalThemes": 130,
     "visibleThemes": 77,
     "plans": 330,
     "placeThemeContexts": 2218,
     "plannedPlaces": 766,
-    "automaticCandidatePlaces": 163,
-    "automaticCandidateContexts": 163,
-    "visibleItineraryCandidatePlaces": 119,
+    "automaticCandidatePlaces": 149,
+    "automaticCandidateContexts": 149,
+    "visibleItineraryCandidatePlaces": 105,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 77,
-    "manualResearchedPlaces": 68,
+    "manualReviewedContexts": 91,
+    "manualResearchedPlaces": 83,
     "manualUsefulConcisePlaces": 5,
-    "manualNeedsResearchPlaces": 4,
+    "manualNeedsResearchPlaces": 3,
     "staleReviews": 0,
     "legacyCandidates": 226,
     "legacyComparisonCounts": {
-      "still-automatic-candidate": 158,
+      "still-automatic-candidate": 144,
       "useful-concise": 5,
       "researched-batch-2": 22,
       "researched-batch-3": 18,
-      "researched-batch-4": 23
+      "researched-batch-4": 23,
+      "researched-batch-5": 14
     }
   },
   "scripts": [
@@ -232,7 +233,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "190e52292f59f4210c6e6c35b9a338d8e0e917c0da3a06ba90209cd9a9489cfb",
+      "sha256": "a891245333de34f9bb7c482f5e273e2a547e264fbfd77e4a1b0d3d0146de8d65",
       "executed": true
     },
     {
@@ -396,8 +397,8 @@
       "name": "美国 66 号公路",
       "visible": true,
       "contexts": 15,
-      "automaticCandidates": 14,
-      "manuallyReviewed": 1
+      "automaticCandidates": 0,
+      "manuallyReviewed": 15
     },
     {
       "id": "nc500",
@@ -4974,13 +4975,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "route66-springfield",
@@ -4992,13 +4993,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "route66-stlouis",
@@ -5010,13 +5011,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "route66-joplin",
@@ -5028,13 +5029,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "route66-galena",
@@ -5046,13 +5047,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "route66-tulsa",
@@ -5064,13 +5065,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "route66-okc",
@@ -5082,13 +5083,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "route66-amarillo",
@@ -5100,13 +5101,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "route66-gallup",
@@ -5118,13 +5119,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "route66-flagstaff",
@@ -5136,13 +5137,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "route66-kingman",
@@ -5154,13 +5155,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "route66-barstow",
@@ -5172,13 +5173,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "route66-losangeles",
@@ -5190,13 +5191,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "route66-santamonica",
@@ -5208,13 +5209,13 @@
       "contexts": [
         {
           "theme": "route66",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-5",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-5"
     },
     {
       "id": "nc500-torridon",
@@ -9725,107 +9726,107 @@
       "contexts": [
         {
           "id": "route66-chicago",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-springfield",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-stlouis",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-joplin",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-galena",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-tulsa",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-okc",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-amarillo",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-albuquerque",
-          "status": "not-manually-verified",
+          "status": "researched-batch-5",
           "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-gallup",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-flagstaff",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-kingman",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-barstow",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-losangeles",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-santamonica",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -9847,51 +9848,51 @@
       "contexts": [
         {
           "id": "route66-albuquerque",
-          "status": "not-manually-verified",
+          "status": "researched-batch-5",
           "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-gallup",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-flagstaff",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-kingman",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-barstow",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-losangeles",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-santamonica",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -9912,44 +9913,44 @@
       "contexts": [
         {
           "id": "route66-chicago",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-springfield",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-stlouis",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-joplin",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-galena",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "route66-tulsa",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-5",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]

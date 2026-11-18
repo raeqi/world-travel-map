@@ -1,0 +1,605 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-5",
+  "baseline": "b2ee671336205206e9ab248e32e42439444e76d7",
+  "checked": "2026-11-18",
+  "scope": "All fifteen existing Route 66 city contexts, with fourteen previously unexpanded places and one Luna Lodge reading deepened. Distinguishes historic alignments, reused structures, present access and symbolic endpoints. No geographic or photo replacement.",
+  "sources": {
+    "r66-chicago": {
+      "title": "NPS：Lou Mitchell’s餐厅与原有室内构件",
+      "url": "https://www.nps.gov/places/lou-mitchells-restaurant.htm",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-illinois": {
+      "title": "NPS：伊利诺伊历史路段与Carpenter Park",
+      "url": "https://home.nps.gov/places/illinois-road-segments.htm",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-chain": {
+      "title": "NPS：Old Chain of Rocks Bridge的结构与用途变化",
+      "url": "https://home.nps.gov/places/chain-of-rocks-bridge.htm",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-chain-access": {
+      "title": "Great Rivers Greenway：桥梁与河岸绿道当前限制",
+      "url": "https://greatriversgreenway.org/greenways/mississippi-greenway-chouteau-riverfront-to-old-chain-of-rocks-bridge-riverfront-trail/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-joplin": {
+      "title": "乔普林旅游局：Route 66 Mural Park",
+      "url": "https://www.visitjoplinmo.com/directory/route-66-mural-park/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-joplin-art": {
+      "title": "乔普林旅游局：Thomas Hart Benton与Anthony Benton Gude两幅不同壁画",
+      "url": "https://www.visitjoplinmo.com/directory/murals-at-city-hall/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-galena": {
+      "title": "堪萨斯旅游局：Galena旧加油站与矿业博物馆",
+      "url": "https://www.travelks.com/blog/stories/post/get-your-kicks-on-kansas-historic-route-66/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse. Shell direct retrieval returned 403; official text was read through indexed web retrieval."
+    },
+    "r66-tulsa": {
+      "title": "塔尔萨市政府：公路地标、桥与招牌",
+      "url": "https://www.cityoftulsa.org/route-66/route-66-attractions/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-tulsa-neon": {
+      "title": "塔尔萨市政府：百年公路与当代霓虹项目",
+      "url": "https://www.cityoftulsa.org/press-room/tulsa-celebrates-100-years-of-route-66-nearly-100-million-invested-along-route-66-over-past-23-years/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-okc": {
+      "title": "俄克拉何马城市政府：多条历史线位与地标",
+      "url": "https://www.okc.gov/Community-Recreation/Route-66",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-milk": {
+      "title": "俄克拉何马旅游局：Milk Bottle Grocery的建筑与招牌年代",
+      "url": "https://web1.travelok.com/au/listings/view.profile/id.21917",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-amarillo": {
+      "title": "NPS：Sixth Street Historic District建筑类型与街区转变",
+      "url": "https://www.nps.gov/places/route-66-sixth-street-historic-district.htm",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-luna": {
+      "title": "NPS：Luna Lodge的布局、住房改造与不对公众开放",
+      "url": "https://www.nps.gov/places/luna-lodge.htm",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-gallup": {
+      "title": "NPS：El Rancho Hotel的电影业联系与建筑",
+      "url": "https://www.nps.gov/places/el-rancho-hotel.htm",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-elrancho": {
+      "title": "El Rancho Hotel运营方：现行旅馆与修缮介绍",
+      "url": "https://elranchohotelgallup.com/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-flagstaff": {
+      "title": "NPS：Railroad Addition Historic District的铁路与汽车时代",
+      "url": "https://www.nps.gov/places/railroad-addition-historic-district.htm",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-powerhouse": {
+      "title": "金曼旅游机构：Powerhouse发电与再利用",
+      "url": "https://www.explorekingman.com/attraction-Historic-Powerhouse/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-powerhouse-epa": {
+      "title": "美国环保署：金曼旧电厂适应性再利用案例",
+      "url": "https://archive.epa.gov/region9/brownfields/archive/web/html/success.html",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-barstow": {
+      "title": "NPS：Casa del Desierto铁路旅馆与车站",
+      "url": "https://www.nps.gov/places/harvey-house-railroad-depot.htm",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-barstow-city": {
+      "title": "巴斯托市政府：Harvey House现行用途",
+      "url": "https://www.barstowca.org/residents/harvey-house-information",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse. Shell and open-page retrieval returned 403; official indexed page text was read. Operator evidence is separately cited for current museum status."
+    },
+    "r66-arroyo": {
+      "title": "NPS：Arroyo Seco Parkway的公路工程与景观",
+      "url": "https://www.nps.gov/places/arroyo-seco-parkway.htm",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-santamonica": {
+      "title": "圣莫尼卡旅游局：正式道路端点与码头象征标牌",
+      "url": "https://www.santamonica.com/route66/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-pier": {
+      "title": "圣莫尼卡旅游局：码头、游乐历史与66号文化",
+      "url": "https://www.santamonica.com/experience-santa-monica/route-66/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage authority, managing institution or official visitor body read. Original concise paraphrase; current access distinguished from historical evidence. No image reuse."
+    },
+    "r66-motherroad": {
+      "title": "Route 66 Mother Road Museum：Harvey House内重新开放的馆方说明",
+      "url": "https://www.motherroadmuseum.com/",
+      "checked": "2026-11-18",
+      "method": "Museum operator page read. Reopening and exhibits paraphrased; changeable opening hours omitted."
+    }
+  },
+  "readings": [
+    {
+      "id": "route66-chicago",
+      "theme": "route66",
+      "title": "从早餐柜台看汽车旅行的起点",
+      "summary": "芝加哥不只是一块起点路牌。Jackson Boulevard的Lou Mitchell’s餐厅把道路旅行落实到霓虹、柜台和磨石地面；店铺创办年代与现存建筑年代应分开。",
+      "paragraphs": [
+        {
+          "heading": "先看门面，再看柜台",
+          "text": "Lou Mitchell’s于1923年在街对面开业，1949年迁入565 W Jackson Boulevard现址。NPS记录铝与玻璃店面、霓虹招牌、磨石地坪和原有柜台。比只寻找“起点”二字更有意思的是看餐厅如何向街道招徕客人，以及沿柜台组织短暂停留。",
+          "sourceKeys": [
+            "r66-chicago"
+          ]
+        },
+        {
+          "heading": "一家店也经历了迁址",
+          "text": "这处代表点用于认识城市里的公路服务业，不能把1923年创店日期套到1949年建筑，也不能把本图城市坐标当作历次起点的精确位置。历史66号公路有多次改线，Jackson街区提供的是可辨认的生活与商业线索。",
+          "sourceKeys": [
+            "r66-chicago",
+            "r66-illinois"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-chicago",
+        "r66-illinois"
+      ],
+      "related": [
+        "route66-springfield"
+      ]
+    },
+    {
+      "id": "route66-springfield",
+      "theme": "route66",
+      "title": "在森林里读一段窄水泥路",
+      "summary": "这里是伊利诺伊州斯普林菲尔德。市郊Carpenter Park留下1922年的双车道水泥路，1926年纳入66号公路，1936年被绕行；桥体已经移除，不能按旧路直穿河流。",
+      "paragraphs": [
+        {
+          "heading": "道路本身就是展品",
+          "text": "Carpenter Park路段原属伊利诺伊4号州道，后来才成为66号。可以观察窄路宽、混凝土路面与林地的关系：公路遗产不只有汽车旅馆和霓虹，也包括被新线位留下的旧路基。它在城市外围，不是本图代表坐标旁的一小段街道。",
+          "sourceKeys": [
+            "r66-illinois"
+          ]
+        },
+        {
+          "heading": "走到河边，也读缺失部分",
+          "text": "NPS说明此段跨Sangamon River的桥已移除，只留桥台；1936年的绕行终止了它的干线作用。林中旧路可作为遗存理解，跨河连接不能据历史地图假定仍存在。这里的Springfield是伊利诺伊城市，与密苏里同名城市不同。",
+          "sourceKeys": [
+            "r66-illinois"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-illinois"
+      ],
+      "related": [
+        "route66-chicago",
+        "route66-stlouis"
+      ]
+    },
+    {
+      "id": "route66-stlouis",
+      "theme": "route66",
+      "title": "一座转了弯的密西西比河桥",
+      "summary": "圣路易斯北侧Old Chain of Rocks Bridge有醒目的30度转折，1936年承接66号公路，后来改供步行和骑行。当前管理方公告对桥头和相邻绿道另有限制，不能照旧线路直接穿行。",
+      "paragraphs": [
+        {
+          "heading": "桥为什么不是一根直线",
+          "text": "1929年开放的钢桥跨密西西比河，中段30度转折与河中取水设施、河床及航道条件有关。沿桥观察钢桁架、折线和河上的取水塔，可把跨河工程看成与城市供水、航运相互协调的结果。它不是今天开车通行的66号替代线路。",
+          "sourceKeys": [
+            "r66-chain"
+          ]
+        },
+        {
+          "heading": "旧桥与现行入口分开",
+          "text": "旧桥1968年停止汽车通行，1999年转作步行骑行。2026-11核查时，管理方说明伊利诺伊侧运河桥封闭，Old Chain of Rocks只能由密苏里侧进入；相邻部分绿道另有施工。出发前应看管理方当日公告，不把桥开放理解成两岸整段绿道都连通。",
+          "sourceKeys": [
+            "r66-chain",
+            "r66-chain-access"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-chain",
+        "r66-chain-access"
+      ],
+      "related": [
+        "route66-springfield",
+        "route66-joplin"
+      ]
+    },
+    {
+      "id": "route66-joplin",
+      "theme": "route66",
+      "title": "壁画、矿城与Benton的公路画",
+      "summary": "乔普林Main Street可把现代66号壁画与市政厅两代画家的作品一起看：Thomas Hart Benton回望1896—1906年矿城生活，外孙Anthony Benton Gude描绘20世纪中期公路带来的商业活力。",
+      "paragraphs": [
+        {
+          "heading": "看地图如何成为街头图像",
+          "text": "619 S Main Street的Route 66 Mural Park有瓷砖壁画及跨州道路图像。可先辨认湖区通往太平洋的路线，再看车、招牌和地方地标如何被压缩在一面墙上。这是当代的公路纪念艺术，不能当作1920年代遗留下来的原貌。",
+          "sourceKeys": [
+            "r66-joplin"
+          ]
+        },
+        {
+          "heading": "两代画家的作品不要混作一幅",
+          "text": "602 S Main Street市政厅展出Benton《Joplin at the Turn of the Century, 1896–1906》，1973年献给城市；《Route 66—Joplin, Missouri》则由其外孙Anthony Benton Gude创作，2010年完成。前者回望公路命名前的矿城，后者呈现主街汽车时代；对照作品年代与描绘年代，能读出地方生活的变化。",
+          "sourceKeys": [
+            "r66-joplin-art"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-joplin",
+        "r66-joplin-art"
+      ],
+      "related": [
+        "route66-stlouis",
+        "route66-galena"
+      ]
+    },
+    {
+      "id": "route66-galena",
+      "theme": "route66",
+      "title": "短短堪萨斯段里的加油站与矿业",
+      "summary": "Galena的旧Kan-O-Tex加油站及1939年Texaco站，呈现汽车服务业如何进入矿业城镇。今天的Cars on the Route和Gearhead Curios使用旧设施，建筑遗存与后来的复古陈设应分开看。",
+      "paragraphs": [
+        {
+          "heading": "小站房比公路标牌更具体",
+          "text": "堪萨斯旅游局介绍旧Kan-O-Tex站改作Cars on the Route，另有1939年Texaco站的Gearhead Curios。可以比较站房、加油区和街角的位置，理解车辆怎样离开主街短暂停靠。今日摆放的车辆与装饰属于展示内容，不等于都在66号公路早年原位保存。",
+          "sourceKeys": [
+            "r66-galena"
+          ]
+        },
+        {
+          "heading": "把道路放回矿业城镇",
+          "text": "Galena Mining and Historical Museum介绍地方铅锌矿业。把博物馆与主街旧服务站放在一起看，能理解公路并非穿过空白风景，而是进入已有产业与居民生活的城镇；州境短段也因此值得停留，不只是为八州打卡补一格。",
+          "sourceKeys": [
+            "r66-galena"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-galena"
+      ],
+      "related": [
+        "route66-joplin",
+        "route66-tulsa"
+      ]
+    },
+    {
+      "id": "route66-tulsa",
+      "theme": "route66",
+      "title": "桥、商业招牌与重新点亮的主街",
+      "summary": "塔尔萨可从Cyrus Avery相关桥头与Meadow Gold招牌广场读公路城市。现有霓虹既有保存下来的地标，也有当代资助新增的设计，不能统称为原封未动的老66号街景。",
+      "paragraphs": [
+        {
+          "heading": "跨河工程与道路推动者",
+          "text": "城市官方把Cyrus Avery Memorial Bridge、Centennial Plaza和Neon Sign Park列为公路地标。以桥头与广场的关系为线索，观察交通如何跨越Arkansas River、再与城市主街相接；广场纪念叙事与实际桥梁结构属于不同层次。",
+          "sourceKeys": [
+            "r66-tulsa"
+          ]
+        },
+        {
+          "heading": "辨认旧招牌，也辨认新创作",
+          "text": "Meadow Gold Sign Plaza是观察大型商业字样和街道尺度的入口。塔尔萨同时以霓虹资助项目推动新标志，官方百年介绍明确记录这些当代投入。看招牌时可读其品牌、材料、位置与说明，而不是把“复古外观”自动等同于历史原件。",
+          "sourceKeys": [
+            "r66-tulsa",
+            "r66-tulsa-neon"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-tulsa",
+        "r66-tulsa-neon"
+      ],
+      "related": [
+        "route66-galena",
+        "route66-okc"
+      ]
+    },
+    {
+      "id": "route66-okc",
+      "theme": "route66",
+      "title": "一只屋顶奶瓶与多条城市线位",
+      "summary": "俄克拉何马城保有多条时期不同的66号线位。Milk Bottle Grocery的楔形小楼建于1930年代，屋顶奶瓶1948年才加上；这类贴合路口的商业建筑比一句“平原基地”更能说明旅行价值。",
+      "paragraphs": [
+        {
+          "heading": "看小楼怎样利用路口",
+          "text": "2426 N Classen Boulevard的建筑窄而呈楔形，醒目的屋顶奶瓶把普通杂货商业变成街道地标。建筑与奶瓶不是同年完成，后来店铺用途也多次变化；可从公共街道观察楼体与招牌，不把旧店名理解成今天仍卖同样商品。",
+          "sourceKeys": [
+            "r66-milk"
+          ]
+        },
+        {
+          "heading": "一座城不只有一条旧路",
+          "text": "城市官方把不同线位组成的道路与多个街区一起介绍，并列出Overholser Truss Bridge、Gold Dome和Tower Theatre等地标。可选择一个街区集中看建筑与街道，再理解改线如何改变商户位置；本图的城市点和示意连线不承担具体历史路段导航。",
+          "sourceKeys": [
+            "r66-okc"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-milk",
+        "r66-okc"
+      ],
+      "related": [
+        "route66-tulsa",
+        "route66-amarillo"
+      ]
+    },
+    {
+      "id": "route66-amarillo",
+      "theme": "route66",
+      "title": "Sixth Street的公路建筑剖面",
+      "summary": "阿马里洛Sixth Street Historic District约十三个街区，从街车郊区转为公路商业带。Spanish Revival、Art Deco与Moderne建筑，让这里的特色落在店面和车道尺度上，而不只是一片荒野。",
+      "paragraphs": [
+        {
+          "heading": "从车站式停靠看汽车服务",
+          "text": "NPS介绍Georgia至Forrest之间的街区，包含加油设施、商铺与娱乐建筑。可以比较服务站顶棚下的车辆空间与沿街商店连续门面：公路不是只在地表划一条线，也重新组织了人们停留、购物和娱乐的方式。",
+          "sourceKeys": [
+            "r66-amarillo"
+          ]
+        },
+        {
+          "heading": "一栋娱乐建筑的用途变化",
+          "text": "The Nat从1922年的游泳设施在1926年转成舞厅，是街区随交通和消费变化的例子。观察不同年代的立面、装饰和改用痕迹，比把所有建筑看成同一种“复古美式”更有收获；原有用途不代表今天仍按同样方式营业。",
+          "sourceKeys": [
+            "r66-amarillo"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-amarillo"
+      ],
+      "related": [
+        "route66-okc",
+        "route66-albuquerque"
+      ]
+    },
+    {
+      "id": "route66-albuquerque",
+      "theme": "route66",
+      "title": "从汽车旅馆到有人居住的住房",
+      "summary": "Luna Lodge的断开U形布局、白色灰泥与入口箭头霓虹，记录1949年的汽车住宿方式。2013年它改成住房；NPS明确标为不对公众开放，应在公共空间理解其保存与再利用。",
+      "paragraphs": [
+        {
+          "heading": "汽车怎样进入院落",
+          "text": "NPS记录原旅馆28间客房围绕面向Central Avenue的长院落，屋顶伸出木梁，墙角圆钝并有阶梯形轮廓。由街道看入口、箭头和客房排列，可以把建筑语言与驾驶者寻找住处的需求联系起来。",
+          "sourceKeys": [
+            "r66-luna"
+          ]
+        },
+        {
+          "heading": "用途改变后要尊重居住空间",
+          "text": "2013年修复将旅馆改成30套面向低收入群体的住宅，包含残障住户；它不是可随意穿行拍照的营业汽车旅馆。当前NPS明确写“不对公众开放”。公路遗产得以继续使用，也意味着游览视线应停在合法公共空间，不进入居民院落。",
+          "sourceKeys": [
+            "r66-luna"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-luna"
+      ],
+      "related": [
+        "route66-amarillo",
+        "route66-gallup"
+      ]
+    },
+    {
+      "id": "route66-gallup",
+      "theme": "route66",
+      "title": "El Rancho的电影布景感与旅馆建筑",
+      "summary": "盖洛普El Rancho Hotel曾接待在西南部取景的电影人员。砖石、粗木、壁炉与双向楼梯构成有意营造的西部风格；这是一座旅馆的商业表达，不能代表周边原住民文化的全部。",
+      "paragraphs": [
+        {
+          "heading": "看大厅怎样制造抵达感",
+          "text": "NPS记录大厅的大壁炉、两侧木楼梯与上层回廊，以及外墙砖石和粗木形成的乡野感。可以观察旅馆如何通过材料与对称视线，把公路途中一次住宿塑造成“来到西部”的体验，再与电影拍摄人员在此停留的历史联系起来。",
+          "sourceKeys": [
+            "r66-gallup"
+          ]
+        },
+        {
+          "heading": "区分运营中的旅馆与文化标签",
+          "text": "El Rancho仍有旅馆运营方，参观公共空间须遵从其当日接待安排，不能把历史介绍理解成免费博物馆通行。墙上影星与西部装饰说明旅游和电影产业怎样塑造地方形象；理解周边社区还需要各社区自身的资料与声音。",
+          "sourceKeys": [
+            "r66-gallup",
+            "r66-elrancho"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-gallup",
+        "r66-elrancho"
+      ],
+      "related": [
+        "route66-albuquerque",
+        "route66-flagstaff"
+      ]
+    },
+    {
+      "id": "route66-flagstaff",
+      "theme": "route66",
+      "title": "铁路车站与汽车旅馆并排的城镇",
+      "summary": "弗拉格斯塔夫Railroad Addition街区把铁路先形成的城市格局与后来的66号服务业叠在一起。1888年砂岩车站、1926年新站与Motel DuBeau等设施，能读出旅行方式的变化。",
+      "paragraphs": [
+        {
+          "heading": "先找建筑朝向的铁路",
+          "text": "NPS说明这一街区的建筑与铁路的空间关系：1888年旧砂岩站与1926年新站是不同建筑，后者现供游客中心使用。可从站前与主街比较入口朝向，理解城市为何先围绕铁路生长，再迎来汽车旅客。",
+          "sourceKeys": [
+            "r66-flagstaff"
+          ]
+        },
+        {
+          "heading": "再看适应汽车时代的住宿",
+          "text": "Monte Vista Hotel和Motel DuBeau等是公路旅游进入既有铁路城镇的线索。这里值得停留的不只有高海拔气候，还包括不同交通系统留下的建筑尺度、站前空间与住宿类型；城市代表点不意味着这些设施都在同一坐标。",
+          "sourceKeys": [
+            "r66-flagstaff"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-flagstaff"
+      ],
+      "related": [
+        "route66-gallup",
+        "route66-kingman"
+      ]
+    },
+    {
+      "id": "route66-kingman",
+      "theme": "route66",
+      "title": "发电厂怎样成为公路博物馆",
+      "summary": "金曼Historic Powerhouse原本为城镇供电，后来改成访客设施和66号公路博物馆。保留的工业建筑，把荒漠城市能源、基础设施和汽车旅游串在一起，比笼统的“公路遗产节点”更具体。",
+      "paragraphs": [
+        {
+          "heading": "先把它看作工业设施",
+          "text": "旅游机构记录电厂在20世纪初开始供电，1938年随Hoover Dam电力进入而转为备用。看建筑体量、工业开口和展陈时，可以追问荒漠城镇的照明、商店和旅馆靠什么运行，而不只看公路汽车本身。",
+          "sourceKeys": [
+            "r66-powerhouse"
+          ]
+        },
+        {
+          "heading": "再看旧设施如何获得新用途",
+          "text": "电厂经过修缮，在1990年代成为访客设施，2001年加入Route 66 Museum。美国环保署也把它作为旧工业场地再利用案例。这里呈现的是多阶段转换，博物馆叙事与原发电设备的时代要分开；具体展区安排仍以运营方当日信息为准。",
+          "sourceKeys": [
+            "r66-powerhouse",
+            "r66-powerhouse-epa"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-powerhouse",
+        "r66-powerhouse-epa"
+      ],
+      "related": [
+        "route66-flagstaff",
+        "route66-barstow"
+      ]
+    },
+    {
+      "id": "route66-barstow",
+      "theme": "route66",
+      "title": "荒漠铁路旅馆与公路相遇",
+      "summary": "巴斯托Casa del Desierto并非普通补给站：红砖、拱廊与塔楼属于原Harvey House铁路旅馆和车站，今天兼有铁路、公共与展陈用途，揭示66号与更早交通走廊的关系。",
+      "paragraphs": [
+        {
+          "heading": "在红砖拱廊下读铁路旅行",
+          "text": "NPS介绍Casa del Desierto服务铁路旅客的旅馆、餐饮与车站功能。可看红砖立面、连续拱廊、塔楼与轨道的位置，理解沙漠长途旅行怎样依靠固定的接待建筑；它并不是因为66号汽车交通才从零出现。",
+          "sourceKeys": [
+            "r66-barstow"
+          ]
+        },
+        {
+          "heading": "同一栋建筑的多种当代用途",
+          "text": "市政府介绍建筑兼有Amtrak相关空间、办公室及博物馆。Mother Road Museum馆方另说明其曾在2024年关闭，之后在Harvey House内重新开放，收藏公路照片、汽车及地方生活资料。先辨认展区、铁路与办公部分，再看馆方当日安排；旧旅馆不等于仍能入住。",
+          "sourceKeys": [
+            "r66-barstow-city",
+            "r66-motherroad"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-barstow",
+        "r66-barstow-city",
+        "r66-motherroad"
+      ],
+      "related": [
+        "route66-kingman",
+        "route66-losangeles"
+      ]
+    },
+    {
+      "id": "route66-losangeles",
+      "theme": "route66",
+      "title": "Arroyo Seco：公路成为城市快速路",
+      "summary": "洛杉矶可从Arroyo Seco Parkway理解66号与城市道路工程的相遇。这条1940年开放的早期高速公路把地形、桥隧与分隔车流结合起来，和主街式旧公路是不同的体验。",
+      "paragraphs": [
+        {
+          "heading": "看道路如何顺着河谷进入城市",
+          "text": "Arroyo Seco Parkway沿河谷组织线位，使用立体交叉、桥梁与隧道处理城市交通，并成为66号的一部分。可在公共观景与步行空间读其与地形和街区的关系，不能把快速车道当成步行游线。",
+          "sourceKeys": [
+            "r66-arroyo"
+          ]
+        },
+        {
+          "heading": "从旧公路读出新的交通规则",
+          "text": "短匝道、早期工程尺度及Figueroa街一带隧道，呈现道路由城市街道走向快速交通的过渡。历史66号在大都会内多次变线，因此这处阅读说明一种重要工程语境，不把本图城市坐标、所有隧道或今天导航所得路线一概称为唯一原线。",
+          "sourceKeys": [
+            "r66-arroyo"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-arroyo"
+      ],
+      "related": [
+        "route66-barstow",
+        "route66-santamonica"
+      ]
+    },
+    {
+      "id": "route66-santamonica",
+      "theme": "route66",
+      "title": "道路终点与海边纪念地分开看",
+      "summary": "圣莫尼卡旅游局把Lincoln与Olympic交口标为正式道路终点，码头End of the Trail牌则是象征性收束。走向太平洋可以是旅程结尾，但不该把两种地点混成历年唯一终点。",
+      "paragraphs": [
+        {
+          "heading": "先辨认路口，再走向海岸",
+          "text": "Lincoln Boulevard与Olympic Boulevard交口承载正式道路端点的历史意义；码头标牌承载后来旅行者的纪念体验。两处功能不同，分开看才能理解汽车道路与海滨公共生活怎样被今日旅游叙事连接。",
+          "sourceKeys": [
+            "r66-santamonica"
+          ]
+        },
+        {
+          "heading": "码头自身也有更早的历史",
+          "text": "Santa Monica Pier始于1909年的市政码头，游乐部分于1916年发展，早于66号公路命名。沿木板步道看游乐设施、海岸与标志，可把码头当成有独立历史的地方，而不只是终点自拍背景。象征标牌不证明车道曾一直延伸到此。",
+          "sourceKeys": [
+            "r66-pier",
+            "r66-santamonica"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "r66-santamonica",
+        "r66-pier"
+      ],
+      "related": [
+        "route66-losangeles"
+      ]
+    }
+  ]
+}
