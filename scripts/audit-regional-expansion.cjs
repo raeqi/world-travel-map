@@ -1,6 +1,6 @@
 'use strict';
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),crypto=require('node:crypto');
-const {runtime,snapshot}=require('./theme-audit-runtime.cjs');
+const {runtime,snapshot,assertReadingPreserved}=require('./theme-audit-runtime.cjs');
 const baseline='125c988f086c95b523be88683a12635a6d61d3f4',before=snapshot(runtime(baseline)),c=runtime(),after=snapshot(c),hash=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const baselineOne=before.filter(t=>t.plans.length===1),priorReview=require('../data/theme-review/decisions.json');
 const details=JSON.parse(vm.runInContext(`JSON.stringify({hidden:themes.filter(t=>t.catalogHidden).map(t=>t.id),coverage:themes.filter(t=>t.catalogHidden).map(t=>({id:t.id,points:culturalSourceCoverage(t.id).map(r=>({id:r.place.id,maps:r.maps}))})),maps:[...culturalThemeMaps.keys()],newPlaces:regionalExpansionData.points})`,c));
@@ -32,7 +32,7 @@ const changes={
 };
 const decisions=baselineOne.map(old=>{
  const current=after.find(t=>t.id===old.id);assert.ok(current,old.id);
- for(const point of old.points){const now=current.points.find(p=>p.id===point.id);assert.ok(now,old.id+'/'+point.id);const {essay:oldEssay,...oldData}=point,{essay:newEssay,...newData}=now;assert.deepEqual(newData,oldData,old.id+'/'+point.id+' changed source data');for(const paragraph of oldEssay?.paragraphs||[])assert.ok(newEssay?.paragraphs.some(p=>p.heading===paragraph.heading&&p.text.includes(paragraph.text)),old.id+' lost paragraph');for(const source of oldEssay?.sources||[])assert.ok(newEssay?.sources.some(s=>JSON.stringify(s)===JSON.stringify(source)),old.id+' lost source');}
+ for(const point of old.points){const now=current.points.find(p=>p.id===point.id);assert.ok(now,old.id+'/'+point.id);const {essay:oldEssay,...oldData}=point,{essay:newEssay,...newData}=now;assert.deepEqual(newData,oldData,old.id+'/'+point.id+' changed source data');assertReadingPreserved(point,now,old.id);}
  for(const plan of old.plans)assert.deepEqual(current.plans.find(p=>p.id===plan.id),plan,plan.id);
  const coverage=details.coverage.find(r=>r.id===old.id);
  return {id:old.id,name:old.name,beforeItineraries:1,afterItineraries:current.plans.length,beforeVisible:!old.hidden,afterVisible:!current.hidden,action:old.hidden?'already-integrated':current.hidden?'integrated':current.plans.length>1?'expanded':'retained',destinations:current.hidden?[...new Set(coverage.points.flatMap(p=>p.maps))]:[old.id],reason:changes[old.id]||priorReview.decisions.find(d=>d.id===old.id)?.reason||'现有同城艺术图保留，后续补充分区现场资料。',points:old.points.map(p=>({id:p.id,name:p.name,source:p.source,sha256:hash(p),legacyHash:'#theme='+old.id+'&place='+p.id,destinations:current.hidden?coverage.points.find(x=>x.id===p.id).maps:[old.id]})),plans:old.plans.map(p=>({id:p.id,name:p.name,sha256:hash(p),legacyHash:'#theme='+old.id+'&view=plans&route='+p.id})),artworks:old.works.map(w=>({key:w.key,sha256:hash(w)}))};

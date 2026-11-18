@@ -8,6 +8,15 @@ function runtime(ref){
 }
 function snapshot(c){return JSON.parse(vm.runInContext(`JSON.stringify(themes.map((t,i)=>{
  globalThis.activeTheme=i;
- return {id:t.id,name:t.name,hidden:!!t.catalogHidden,plans:buildPlans(t.id,0).map(({stops,legs,...p})=>p),works:worksForTheme(t.id),points:places.filter(p=>p.themes.includes(t.id)).map(p=>({id:p.id,name:p.name,en:p.en,lon:p.lon,lat:p.lat,country:p.country,region:p.region,desc:p.desc,type:p.type,source:p.source,facts:p.facts,sourceLabel:p.sourceLabel,coordinateNote:p.coordinateNote,essay:placeEssays[p.id],context:atlasContextByPlace.get(p.id)?.contexts.get(t.id),photo:editorialPlacePhotos[p.id],media:photoLibrary[editorialPlacePhotos[p.id]]})),media:themeMedia[t.id]};
+ return {id:t.id,name:t.name,hidden:!!t.catalogHidden,plans:buildPlans(t.id,0).map(({stops,legs,...p})=>p),works:worksForTheme(t.id),points:places.filter(p=>p.themes.includes(t.id)).map(p=>({id:p.id,name:p.name,en:p.en,lon:p.lon,lat:p.lat,country:p.country,region:p.region,desc:p.desc,type:p.type,source:p.source,facts:p.facts,sourceLabel:p.sourceLabel,coordinateNote:p.coordinateNote,essay:placeEssays[p.id],essayApplies:!(typeof atlasContextByPlace!=='undefined'&&atlasContextByPlace.has(p.id))||!!atlasCurrentContext(atlasContextByPlace.get(p.id))||!!atlasContextByPlace.get(p.id)?.base.essay,context:atlasContextByPlace.get(p.id)?.contexts.get(t.id),photo:editorialPlacePhotos[p.id],media:photoLibrary[editorialPlacePhotos[p.id]]})),media:themeMedia[t.id]};
 }))`,c));}
-module.exports={runtime,snapshot};
+function assertReadingPreserved(old,now,theme){
+ const assert=require('node:assert/strict'),label=theme+'/'+old.id;
+ // The original artist context is still independently compared in its own theme.
+ // Only the demonstrably unrelated getter fallback is removed from this theme.
+ if(old.essayApplies===false&&old.essay){assert.equal(now.essayApplies,false,label+' changed context applicability');assert.equal(now.essay,undefined,label+' unrelated reading still displayed');return;}
+ for(const p of old.essay?.paragraphs||[])assert.ok(now.essay?.paragraphs.some(q=>q.heading===p.heading&&q.text.includes(p.text)),label+' lost applicable paragraph');
+ for(const s of old.essay?.sources||[])assert.ok(now.essay?.sources.some(q=>JSON.stringify(q)===JSON.stringify(s)),label+' lost applicable source');
+ for(const id of old.essay?.related||[])assert.ok(now.essay?.related.includes(id),label+' lost related place');
+}
+module.exports={runtime,snapshot,assertReadingPreserved};

@@ -224,5 +224,10 @@
 - [不可覆盖的开始快照](qa/content-quality/baseline-2026-11-18.json.gz)：压缩前的完整原始审计；gzip解压后可读取JSON。
 - [旧候选原主题](qa/content-quality/legacy-candidates.json)与[人工判断](qa/content-quality/manual-reviews.json)：避免以无关的新语境冲销旧问题。
 - `node scripts/audit-content.cjs --write`更新当前JSON/CSV；`node --test tests/content-quality.test.cjs`验证所有数据覆盖、判断过期、跨主题隔离和原数据保全。
-- 本地47项项目测试和四组DOM回归通过。旧侧栏脚本适配当前隐藏主题需搜索、默认行程筛选的行为后通过。
+- 本地48项项目测试和四组DOM回归通过。旧侧栏脚本适配当前隐藏主题需搜索、默认行程筛选的行为后通过。
 - 容器Chromium实际启动报socket Operation not permitted；未把这次失败当浏览器通过。新增Place content quality checks工作流将真实检查25处详情、两段内容、原/新来源链接、返回、跨主题、路线前后站、重复收藏和刷新，桌面1440×1000与手机390×844。最终浏览器结果以本批PR CI为准。
+
+
+保全检查补记：三组历史保全审计均通过，继续逐项比较原目录、图片字节、作品、来源和方案。只有旧快照中可证明来自无关人物的阅读回退被移出该主题；该人物本身的主题仍接受完整段落/来源保全。新增回归确认：丢失适用段落会失败，保留错误串读也会失败。同URL的新来源不会挤掉原来源对象。
+
+浏览器CI环境补记：首次新工作流因ubuntu-latest升级到26.04与固定Playwright版本不兼容，尚未执行浏览器；已固定到受支持的ubuntu-24.04，重新验收。失败不计为通过。

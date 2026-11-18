@@ -22,9 +22,17 @@ test('shared cities show only relevant readings while every original cultural co
 });
 test('research is source-bound and preserves catalogue summaries, links, media and itinerary IDs',()=>{
  const original=JSON.parse(zlib.gunzipSync(fs.readFileSync('qa/content-quality/baseline-2026-11-18.json.gz'))),now=snapshot(),key=r=>r.theme+'/'+r.id,byKey=new Map(now.contexts.map(r=>[key(r),r]));
- for(const old of original.entries){const row=byKey.get(key(old));assert.ok(row,key(old));assert.equal(row.originalSummary,old.summary,key(old)+' catalogue text');assert.equal(row.source,old.source);assert.equal(row.imageKey,old.imageKey);assert.deepEqual(row.routeIds,old.routeIds);}
+ for(const old of original.entries){const row=byKey.get(key(old));assert.ok(row,key(old));assert.equal(row.originalSummary,old.summary,key(old)+' catalogue text');assert.equal(row.source,old.source);assert.equal(row.imageKey,old.imageKey);assert.deepEqual(row.routeIds,old.routeIds);if(!old.foreignThemeFallback)for(const source of old.essay?.sources||[])assert.ok(row.essay?.sources.some(s=>JSON.stringify(s)===JSON.stringify(source)),key(old)+' original source object');}
  assert.equal(new Set(pack.readings.map(r=>r.id)).size,25);assert.equal(new Set(pack.readings.map(r=>r.theme)).size,4);
  for(const r of pack.readings){assert.ok(r.summary&&r.paragraphs.length>=2);for(const p of r.paragraphs)for(const key of p.sourceKeys)assert.ok(r.sourceKeys.includes(key)&&pack.sources[key]?.url.startsWith('https://'));const row=byKey.get(key(r));assert.equal(row.summary,r.summary);assert.ok(row.essay.sources.every(s=>s.title&&s.url));}
  assert.ok(pack.readings.find(r=>r.id==='xintan').summary.includes('1985'));assert.ok(pack.readings.find(r=>r.id==='kumano-hongu').summary.includes('1889'));assert.ok(pack.readings.find(r=>r.id==='nc500-johnogroats').summary.includes('Dunnet Head'));
  const literal=fs.readFileSync('quality-readings-data.js','utf8');assert.ok(literal.includes(JSON.stringify(pack).slice(0,-1)));
+});
+
+test('preservation guards reject loss of applicable text while removing only a proven foreign-theme fallback',()=>{
+ const {assertReadingPreserved}=require('../scripts/theme-audit-runtime.cjs');
+ const essay={paragraphs:[{heading:'local',text:'original detail'}],sources:[{title:'evidence',url:'https://example.org'}],related:['next']};
+ assert.throws(()=>assertReadingPreserved({id:'p',essayApplies:true,essay},{id:'p'},'original'),/lost applicable paragraph/);
+ assert.doesNotThrow(()=>assertReadingPreserved({id:'p',essayApplies:false,essay},{id:'p',essayApplies:false},'unrelated'));
+ assert.throws(()=>assertReadingPreserved({id:'p',essayApplies:false,essay},{id:'p',essayApplies:false,essay},'unrelated'),/unrelated reading still displayed/);
 });
