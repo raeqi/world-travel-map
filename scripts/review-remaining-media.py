@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image,ImageDraw,ImageOps
 import io
 O=Path('qa/remaining-media');O.mkdir(parents=True,exist_ok=True)
-queries={'hobita': 'intitle:Brancusi intitle:house filetype:bitmap', 'ciasa': 'Ciäsa Granda filetype:bitmap', 'pouldu': 'intitle:Pouldu filetype:bitmap', 'tahiti': 'intitle:Tahiti intitle:Musée filetype:bitmap', 'chagallhouse': 'intitle:Chagall intitle:House filetype:bitmap', 'dvorakbirth': 'intitle:Dvořák intitle:dům filetype:bitmap', 'dvorakvysoka': 'intitle:Dvořák intitle:Vys filetype:bitmap', 'remise': 'intitle:Mendelssohn intitle:Remise filetype:bitmap', 'puccinicelle': 'intitle:Puccini intitle:Celle filetype:bitmap', 'pucciniviareggio': 'intitle:Puccini intitle:Viareggio filetype:bitmap', 'villequier': 'intitle:Villequier intitle:mus filetype:bitmap', 'trieste': 'intitle:Biserini filetype:bitmap', 'leonie': 'intitle:Léonie filetype:bitmap', 'cabourg': 'intitle:Temps intitle:retrouvé filetype:bitmap'}
+queries={'hemingway': 'intitle:Hemingway intitle:birthplace filetype:bitmap', 'marquez': 'intitle:Museo intitle:Aracataca filetype:bitmap', 'ketchum': 'intitle:Wood intitle:River intitle:Museum filetype:bitmap'}
 def get(u):return urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'TerraMosaic/1.0 (https://github.com/raeqi/world-travel-map)'}),timeout=30).read()
 def api(p):return json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(dict(format='json',**p))))
 rows=[];tiles=[]
