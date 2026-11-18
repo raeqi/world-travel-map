@@ -37,7 +37,20 @@
       "reason": "检索命中航天遥感影像及《超然台记》古籍，不是诸城超然台实景；旅行平台、搜狐图片未见开放许可。",
       "references": [
         "https://www.sohu.com/a/211947801_682668"
-      ]
+      ],
+      "additionalLead": {
+        "file": "NLC416-16jh003842-107002 山東全省汽車路管理局特刊 第1卷.pdf",
+        "page": 54,
+        "caption": "台高濰段諸城蘇東坡之超然台",
+        "published": "1935年1月（另行提供线索；本轮未对扫描出版页作独立图像核验）",
+        "status": "rights-unresolved-not-used",
+        "reason": "Commons目录确实列出此照片，当前文件仅标PD-China/PD-scan，并明确要求补美国公有领域依据。早期发表及中国保护期届满可支持进一步核查PD-China-1996，但本轮未确认该照片摄影者/权利人、首次发表和相关美国状态；不把推定写成已确认授权。未提取或发布该照片。",
+        "references": [
+          "https://commons.wikimedia.org/wiki/File:NLC416-16jh003842-107002_%E5%B1%B1%E6%9D%B1%E5%85%A8%E7%9C%81%E6%B1%BD%E8%BB%8A%E8%B7%AF%E7%AE%A1%E7%90%86%E5%B1%80%E7%89%B9%E5%88%8A_%E7%AC%AC1%E5%8D%B7.pdf",
+          "https://commons.wikimedia.org/wiki/Template:PD-China-1996",
+          "https://www.copyright.gov/title17/92chap1.html#104a"
+        ]
+      }
     },
     {
       "id": "thirty-huizhou-dongpo",
@@ -157,7 +170,7 @@
     {
       "id": "thirty-hemingway-ketchum-museum",
       "name": "凯彻姆 · 伍德河历史文化博物馆",
-      "commonsCandidateCount": 0,
+      "commonsCandidateCount": 16,
       "commonsQueriesAndGeosearch": true,
       "searchErrors": [
         "'query'"
@@ -167,7 +180,8 @@
       "references": [
         "https://comlib.org/center-for-regional-history/wood-river-museum-exhibits/",
         "https://www.framedesignstrategies.com/museums-and-vistors-centers/the-wood-river-museum-of-history-and-culture-ketchum-id"
-      ]
+      ],
+      "searchErrorsResolved": "最初地理坐标小数精度导致API错误；使用6位小数重试成功。16个命中为街景、商店、汽车、墓园和山景，无现馆准确照片。目视检查最近的两张2024年街景及Starbucks照片，未采用。"
     }
   ]
 }
