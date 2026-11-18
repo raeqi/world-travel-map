@@ -27,7 +27,9 @@ function routeDiscoveryInterests(plan,theme){
  return [...new Set([discoveryMeta[theme.id]?.[0],...(plan.interests||[])])].filter(id=>discoveryGroups.some(([key])=>key===id));
 }
 function matchingDiscoveryRoutes(){
- return catalogueIndex().filter(x=>disciplineMatches(x.theme)&&(!x.theme.catalogHidden||homeState.query.trim())).flatMap(x=>x.plans.map(plan=>({plan,theme:x.theme}))).filter(x=>(homeState.interest==='all'||routeDiscoveryInterests(x.plan,x.theme).includes(homeState.interest))&&discoveryRouteMatches(x));
+ const rows=catalogueIndex().filter(x=>disciplineMatches(x.theme)&&(!x.theme.catalogHidden||homeState.query.trim())).flatMap(x=>x.plans.map(plan=>({plan,theme:x.theme}))).filter(x=>(homeState.interest==='all'||routeDiscoveryInterests(x.plan,x.theme).includes(homeState.interest))&&discoveryRouteMatches(x));
+ if(homeState.query.trim())return rows;
+ const unique=new Map();for(const row of rows){const map=typeof culturalThemeMaps==='undefined'?null:culturalThemeMaps.get(row.theme.id);if(!unique.has(row.plan.id)||map?.sharedPlans?.includes(row.plan.id))unique.set(row.plan.id,row);}return [...unique.values()];
 }
 function discoveryThemeCard(x){
  const t=x.theme;
