@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image,ImageDraw,ImageOps
 import io
 O=Path('qa/remaining-media');O.mkdir(parents=True,exist_ok=True)
-queries={'ichikawa':'Ichikawa Higashiyama Kaii','shuilu':'Shuilu Temple Lantian','fengxiang':'东湖 凤翔','mizhou':'超然台','huizhou':'东坡祠 惠州','neijiang':'张大千纪念馆','uttarayan':'Uttarayan Santiniketan','hcb':'Fondation Henri Cartier Bresson Archives'}
+queries={'ichikawa':'Ichikawa Higashiyama Kaii','shuilu':'intitle:水陆庵 filetype:bitmap','fengxiang':'intitle:东湖 intitle:凤翔 filetype:bitmap','mizhou':'intitle:Chaoran filetype:bitmap','huizhou':'intitle:东坡祠 filetype:bitmap','neijiang':'intitle:Zhang intitle:Memorial filetype:bitmap','uttarayan':'Uttarayan Santiniketan','hcb':'Fondation Henri Cartier Bresson Archives'}
 def get(u):return urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'TerraMosaic/1.0 (https://github.com/raeqi/world-travel-map)'}),timeout=30).read()
 def api(p):return json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(dict(format='json',**p))))
 rows=[];tiles=[]

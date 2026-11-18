@@ -4,7 +4,7 @@
 Object.assign(photoLibrary,regionalExpansionMedia);
 for(const row of regionalExpansionData.points){
  if(places.some(p=>p.id===row.id))throw Error('Duplicate expansion place '+row.id);
- const {wiki,wikiLang,mediaFile,observe,sources,imageRejected,...data}=row;
+ const {wiki,wikiLang,mediaFile,observe,sources,imageRejected,photoCaption,...data}=row;
  const place={...data,themes:[],icon:'◇',sourceLabel:'机构与作品资料',coordinateNote:'建筑、园区或地景的代表坐标；不是导航入口或精确作画位置。',facts:{'到现场看什么':observe}};
  places.push(place);
  placeEssays[place.id]={title:row.name,paragraphs:[{heading:'到现场看什么',text:observe},{heading:'地点与作品的关系',text:row.desc}],sources:[{title:'机构与作品资料',url:row.source},...(row.sources||[])],related:[]};

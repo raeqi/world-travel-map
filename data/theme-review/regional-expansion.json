@@ -411,7 +411,8 @@
         }
       ],
       "wikiLang": "zh",
-      "mediaFile": "Su Di.JPG"
+      "mediaFile": "Su Di.JPG",
+      "photoCaption": "杭州 · 苏堤湖岸，2005年"
     },
     {
       "id": "thirty-huzhou",
@@ -425,7 +426,8 @@
       "desc": "1079年苏轼短暂任湖州知州，随后因乌台诗案被押赴开封。此点标示湖州城市背景，不凭空复原已经变化的州署或拘捕现场。",
       "observe": "从城市与水网理解任职环境，读生平时间线后再到杭州；具体历史房屋另需证据，不以市中心坐标充当旧居。",
       "source": "https://www.dpm.org.cn/lemmas/242068.html",
-      "wiki": "Huzhou"
+      "wiki": "Huzhou",
+      "photoCaption": "湖州城市背景 · 项王公园与当代建筑，非宋代州署"
     },
     {
       "id": "thirty-huizhou-dongpo",
@@ -527,7 +529,7 @@
       "source": "https://www.city.ichikawa.lg.jp/site/higashiyama/",
       "wiki": "市川市東山魁夷記念館",
       "wikiLang": "ja",
-      "imageRejected": "Lead image is an artist portrait; exact museum building photograph still needs review"
+      "mediaFile": "HigashiyamaKaiiMemorialHall20100724.jpg"
     },
     {
       "id": "thirty-hcb-paris",
@@ -541,7 +543,9 @@
       "desc": "基金会在巴黎玛莱保存和研究布列松与马蒂娜·弗兰克的作品，也展示其他摄影师。机构明确没有两位创办者作品的永久专用展区。",
       "observe": "先核对当前展览，再读原始说明、摄影年代与印相；不把基金会所在地当作中国照片的拍摄现场。",
       "source": "https://www.henricartierbresson.org/en/visit-us/",
-      "wiki": "Henri Cartier-Bresson Foundation"
+      "wiki": "Henri Cartier-Bresson Foundation",
+      "mediaFile": "Rue des Archives 79 Cour.jpg",
+      "photoCaption": "巴黎 · 档案街79号内院，基金会现馆址所在建筑"
     },
     {
       "id": "thirty-shuiluan",
@@ -570,7 +574,9 @@
       "desc": "国际大学的北园建筑群与 Rabindra Bhavana 保存泰戈尔居所、手稿、书信和绘画资料。它将世界遗产校园的教育背景落到具体房屋与收藏，不把所有校园建筑混为同一故居。",
       "observe": "分辨几座房屋、博物馆展陈与需要研究许可的档案；入室开放以校方安排为准。",
       "source": "https://www.visvabharati.ac.in/RabindraBhavana.html",
-      "wiki": "Uttarayan complex"
+      "wiki": "Uttarayan complex",
+      "mediaFile": "Santiniketan Rabindranath Tagore's House Udayan.jpg",
+      "photoCaption": "桑地尼克坦北园 · Udayan房屋外观"
     },
     {
       "id": "thirty-tagore-tirtha",
