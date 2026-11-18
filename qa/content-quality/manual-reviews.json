@@ -4492,6 +4492,55 @@
         "https://whc.unesco.org/en/list/1540/"
       ],
       "contentHash": "ec0d77fee0c0720ac3ee7c9ce3f8ce6560df26cb4658c67927a1bc86d14f7cf1"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-600",
+      "state": "researched-batch-30",
+      "reason": "核对UNESCO多语言及OUV、地方政府和现场机构选段，纠正误译/年代范围并补具体空间与遗构识读。未现场或实时开放验收；旧目录、图像及链接保留。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/600/"
+      ],
+      "contentHash": "039f057f733faba8f27bdcfa93ebdf90bda5e6200699f9756a481449c4f7c251"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-428",
+      "state": "researched-batch-30",
+      "reason": "核对UNESCO多语言及OUV、地方政府和现场机构选段，纠正误译/年代范围并补具体空间与遗构识读。未现场或实时开放验收；旧目录、图像及链接保留。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.romanbaths.co.uk/walkthrough",
+        "https://www.romanbaths.co.uk/roman-sacred-spring-0",
+        "https://whc.unesco.org/en/list/428/"
+      ],
+      "contentHash": "5d8a70d4be842e47bcc277202f1404a900b7e340a4f7e0b4176ca3e062952254"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-1705",
+      "state": "researched-batch-30",
+      "reason": "核对UNESCO多语言及OUV、地方政府和现场机构选段，纠正误译/年代范围并补具体空间与遗构识读。未现场或实时开放验收；旧目录、图像及链接保留。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1705/",
+        "https://www.schwerin.de/kultur-tourismus/Weltkulturerbe-Residenzensemble/"
+      ],
+      "contentHash": "8c1740dc0b61e74ba0f976e8c8b7625c7f258aa7e8c63c2e4cd7075e5177d9d4"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-404",
+      "state": "researched-batch-30",
+      "reason": "核对UNESCO多语言及OUV、地方政府和现场机构选段，纠正误译/年代范围并补具体空间与遗构识读。未现场或实时开放验收；旧目录、图像及链接保留。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.ysma.gr/en/monuments/propylaia/",
+        "https://www.ysma.gr/en/monuments/erechtheion/",
+        "https://www.ysma.gr/en/faq/"
+      ],
+      "contentHash": "6cfc06661611ab9bd5cc85370bdebcdd61182548db64ccec5fe906308e9d9cdb"
     }
   ]
 }
