@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-15",
+  "baseline": "2d2c9b3586de2cda93fde3202d497981eac0e32e",
+  "checked": "2026-11-18",
+  "scope": "Remaining eleven existing Marco Polo contexts: Yuan and Jiangnan cities, Indian Ocean regions, non-visited Japan and Genoese writing tradition. Distinct narrative voices, modern archaeological fabric and dispersed natural sites; no images, original data, coordinate or route modifications. Developed with the checked Xu package from PR38; merge separately after its exact tree is confirmed on main.",
+  "sources": {
+    "mp-ciandu-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Ciandu宫殿与苑囿",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0193.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Selected actual OCR passage read, not all manuscript variants. Distinct edition from retained Yule/Cordier record. Treat exaggerated quantities, religious/ethnic generalizations, claimed journeys and rumours as narrative rather than independently established facts."
+    },
+    "mp-xanadu-site": {
+      "title": "UNESCO：元上都遗址",
+      "url": "https://whc.unesco.org/en/list/1389/",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. "
+    },
+    "mp-cambaluc-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Cambaluc宫殿",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0215.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Selected actual OCR passage read, not all manuscript variants. Distinct edition from retained Yule/Cordier record. Treat exaggerated quantities, religious/ethnic generalizations, claimed journeys and rumours as narrative rather than independently established facts."
+    },
+    "mp-beijing-earthwall": {
+      "title": "北京市园林绿化局：元大都北城垣遗迹与海棠花溪",
+      "url": "https://yllhj.beijing.gov.cn/ztxx/bjhx/gssd/201803/t20180328_118176.shtml",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. 2018 park account, not live blossom/access timing. Use surviving northern earthen wall and later Ming boundary change; modern planting is not Yuan palace fabric."
+    },
+    "mp-quengianfu-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Quengianfu",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0271.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Selected actual OCR passage read, not all manuscript variants. Distinct edition from retained Yule/Cordier record. Treat exaggerated quantities, religious/ethnic generalizations, claimed journeys and rumours as narrative rather than independently established facts."
+    },
+    "mp-xian-site": {
+      "title": "西安市地方志办公室：大雁塔与2000年三藏院",
+      "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1802954373708996609.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee.  Distinct Polo context: Tang relics are earlier context, not a claimed personal stop."
+    },
+    "mp-yangiu-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Yangiu与任职叙述",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0324.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Selected actual OCR passage read, not all manuscript variants. Distinct edition from retained Yule/Cordier record. Treat exaggerated quantities, religious/ethnic generalizations, claimed journeys and rumours as narrative rather than independently established facts."
+    },
+    "mp-yangzhou-museum": {
+      "title": "扬州中国大运河博物馆：因运而生常设展",
+      "url": "https://www.grandcanalmuseum.cn/changshezhanlan/434.html",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Institution describes modern interpretive reconstruction across eras. Exhibit replicas and scenes are not original Yuan buildings. Do not use a museum visit to corroborate Polo office-holding."
+    },
+    "mp-sugiu-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Sugiu与桥梁、工艺",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0333.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Selected actual OCR passage read, not all manuscript variants. Distinct edition from retained Yule/Cordier record. Treat exaggerated quantities, religious/ethnic generalizations, claimed journeys and rumours as narrative rather than independently established facts."
+    },
+    "mp-suzhou-gardens": {
+      "title": "UNESCO：苏州古典园林",
+      "url": "https://whc.unesco.org/en/list/813/",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. "
+    },
+    "mp-quinsai-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Quinsai市场、河道与仓储",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0336.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Selected actual OCR passage read, not all manuscript variants. Distinct edition from retained Yule/Cordier record. Treat exaggerated quantities, religious/ethnic generalizations, claimed journeys and rumours as narrative rather than independently established facts."
+    },
+    "mp-quinsai-lake": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Quinsai湖上游赏",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0339.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Selected actual OCR passage read, not all manuscript variants. Distinct edition from retained Yule/Cordier record. Treat exaggerated quantities, religious/ethnic generalizations, claimed journeys and rumours as narrative rather than independently established facts."
+    },
+    "mp-hangzhou-westlake": {
+      "title": "UNESCO：杭州西湖文化景观",
+      "url": "https://whc.unesco.org/en/list/1334/",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. "
+    },
+    "mp-caiton-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Çaiton港、货物与关税",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0359.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Selected actual OCR passage read, not all manuscript variants. Distinct edition from retained Yule/Cordier record. Treat exaggerated quantities, religious/ethnic generalizations, claimed journeys and rumours as narrative rather than independently established facts."
+    },
+    "mp-quanzhou-system": {
+      "title": "UNESCO：泉州宋元世界海洋商贸中心",
+      "url": "https://whc.unesco.org/en/list/1561/",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. "
+    },
+    "mp-sumatra-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Sumatra季风停留叙述",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0381.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Selected actual OCR passage read, not all manuscript variants. Distinct edition from retained Yule/Cordier record. Treat exaggerated quantities, religious/ethnic generalizations, claimed journeys and rumours as narrative rather than independently established facts."
+    },
+    "mp-sumatra-forest": {
+      "title": "UNESCO：苏门答腊热带雨林",
+      "url": "https://whc.unesco.org/en/list/1167/",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. "
+    },
+    "mp-seilan-mountain": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Seilan山峰与不同信仰叙述",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0415.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Selected actual OCR passage read, not all manuscript variants. Distinct edition from retained Yule/Cordier record. Treat exaggerated quantities, religious/ethnic generalizations, claimed journeys and rumours as narrative rather than independently established facts."
+    },
+    "mp-srilanka-highlands": {
+      "title": "UNESCO：斯里兰卡中央高地",
+      "url": "https://whc.unesco.org/en/list/1203/",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. "
+    },
+    "mp-cipingu-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Çipingu与黄金宫殿的转述",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0365.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Selected actual OCR passage read, not all manuscript variants. Distinct edition from retained Yule/Cordier record. Treat exaggerated quantities, religious/ethnic generalizations, claimed journeys and rumours as narrative rather than independently established facts."
+    },
+    "mp-japan-archaeology": {
+      "title": "日本文化厅：鹰岛神崎遗址的沉船与出土遗物",
+      "url": "https://kunishitei.bunka.go.jp/bsys/maindetails/401/00003771",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Use primary archaeological description of ship timbers, cargo, ceramics, anchor stones and explosive shells associated with 1281 fleet. Omit obvious Bunei-era typo. Underwater site not an invitation to enter; location is Matsuura, Nagasaki, not Kyoto region marker."
+    },
+    "mp-genoa-palace": {
+      "title": "热那亚市旅游局：圣乔治宫历史与建筑",
+      "url": "https://www.visitgenoa.it/it/palazzo-san-giorgio",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Municipality calls Polo imprisonment here legend. Distinguish medieval façade toward Sottoripa from Renaissance sea façade and present port authority, not a proven exact prison cell."
+    },
+    "mp-bnf-work": {
+      "title": "法国国家图书馆：《世界描述》作品与版本记录",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb13592024s",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of named text actually read; no image reuse or field visit. Authority/work metadata read, not entire manuscript; confirms Rustichello collaboration and franco-Italian, later language versions. Exact composition year not harmonized with other traditions; no claim of identified room."
+    }
+  },
+  "readings": [
+    {
+      "id": "polo-shangdu",
+      "theme": "polo",
+      "title": "在草地上的城址，读宫廷、苑囿与水利",
+      "summary": "Ciandu篇的宫殿、围合苑囿和水流，可与元上都遗址中的城、宫、寺院和水利关系对读。今天主要面对遗址与地形，并非一座仍原样竖立的金碧宫城。",
+      "paragraphs": [
+        {
+          "heading": "文本中的宫廷也安排了自然",
+          "text": "这一段把建筑装饰、河流、草地、树木、动物与鹰猎写在一起，宫廷对自然的安排本身就是观看线索。书中夸饰与古里数不拿来制作精确复原图，按考古资料再理解实际空间。",
+          "sourceKeys": [
+            "mp-ciandu-text"
+          ]
+        },
+        {
+          "heading": "看城址如何与草原和河流相接",
+          "text": "遗产包括宫城、寺院、墓葬、游牧营地以及铁幡竿渠等水利遗存。地形和水道使定居城市与草原使用并置；选开放区域看墙基、地势及解说，不把遗址代表坐标当成全部遗存入口。",
+          "sourceKeys": [
+            "mp-xanadu-site"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-ciandu-text",
+        "mp-xanadu-site"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-beijing",
+      "theme": "polo",
+      "title": "从汗八里文字走向北土城的土墙遗迹",
+      "summary": "Cambaluc篇写宫殿、墙门及分层空间。今天元大都北城垣遗址可看土墙与后来城市边界的变化；明清故宫和现代公园种植不自动等于忽必烈时期宫廷原物。",
+      "paragraphs": [
+        {
+          "heading": "墙与门说明进入空间的不同资格",
+          "text": "校译本把宫廷围墙、不同门和存放军需的建筑分层叙述。阅读重点可放在边界、通道与权力组织；不同版本的尺度与数量仍待校勘，不据夸饰尺寸声称准确复原宫城。",
+          "sourceKeys": [
+            "mp-cambaluc-text"
+          ]
+        },
+        {
+          "heading": "北墙在明代边界之外留下痕迹",
+          "text": "元大都北部城垣在明初北墙南移后留在城外，俗称土城。沿遗址公园比较土垣、现代水岸和植物，是辨认城市变化的入口；海棠花溪是后来的公共景观，并不是宫殿旧苑原貌。",
+          "sourceKeys": [
+            "mp-beijing-earthwall"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-cambaluc-text",
+        "mp-beijing-earthwall"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-xian",
+      "theme": "polo",
+      "title": "从桑树与织作，读关中城市的生产背景",
+      "summary": "Quengianfu段把桑树、丝织、工艺与王府相连。今天西安可另读大雁塔一带的唐代遗存，分清更早佛教建筑、元代城市叙述及现代展示，不用一个朝代标签包办全城。",
+      "paragraphs": [
+        {
+          "heading": "书中的城市以生产和交换展开",
+          "text": "该段描述近城村镇、栽培地、桑树和织物，再谈工艺、军需与王府。可以用来追问关中城市怎样由周边生产支持；不把文中每一项物产都写成今天城中心仍保留的原工坊。",
+          "sourceKeys": [
+            "mp-quengianfu-text"
+          ]
+        },
+        {
+          "heading": "大雁塔提供更早的一层城市阅读",
+          "text": "塔的唐代创建背景与后世维修、寺院今日陈列有不同时间。可看塔身层次、碑刻与寺院空间，区分现存材料和现代玄奘纪念设施；这是今日主题探访选择，不制造波罗到过此塔的证据。",
+          "sourceKeys": [
+            "mp-xian-site"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-quengianfu-text",
+        "mp-xian-site"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-yangzhou",
+      "theme": "polo",
+      "title": "把任职叙述与运河、盐业的具体对象分开",
+      "summary": "Yangiu段自称马可在此任职三年，这仍是待独立核实的书内履历。今天可由运河街区与博物馆读转运、盐业和工艺，明清盐商及现代复原展厅不冒充13世纪办公现场。",
+      "paragraphs": [
+        {
+          "heading": "一段自述不能包办全部生平证据",
+          "text": "校译本将纸币、贸易、工艺、军需和任职写在同一段。它提供研究线索，但本图不因文本有一句任职便标出确定衙署或官邸，也不把任期叙述作为已完成独立史料核对的结论。",
+          "sourceKeys": [
+            "mp-yangiu-text"
+          ]
+        },
+        {
+          "heading": "看清展厅怎样解释城市的谋生方式",
+          "text": "大运河博物馆街肆展以商街、戏台、盐商住宅、码头与邮驿解释淮扬转运和明清盐业。复原空间可以比较水陆、储货和日常生活，原物、模型、影像及后设场景则按展签分别看。",
+          "sourceKeys": [
+            "mp-yangzhou-museum"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-yangiu-text",
+        "mp-yangzhou-museum"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-suzhou",
+      "theme": "polo",
+      "title": "从桥和手艺，走进水石与建筑的微缩世界",
+      "summary": "Sugiu篇强调商人、工艺与桥梁，夸张桥数不能直接当城市测绘。今天苏州园林可细看水、石、植物与建筑的组织，现存各园跨多个年代，不统称为波罗亲见的同一片园景。",
+      "paragraphs": [
+        {
+          "heading": "桥的作用比一个大数字更值得看",
+          "text": "书中把桥与可通过的船联系，又谈贸易和各类手艺。可据此注意水陆怎样相交、河岸怎样进入城市生活；不照搬桥数、物价和居民性格概括为现代统计或判断。",
+          "sourceKeys": [
+            "mp-sugiu-text"
+          ]
+        },
+        {
+          "heading": "园林把远山和水放进有限院落",
+          "text": "九处遗产园林将池水、叠石、植物、建筑、题字与器物组织在城市宅园中。挑一个框景、转折或水边空间看借景和遮挡，读清原建、重修与现存年代；不把后世园林硬写成13世纪旅行落脚处。",
+          "sourceKeys": [
+            "mp-suzhou-gardens"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-sugiu-text",
+        "mp-suzhou-gardens"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-hangzhou",
+      "theme": "polo",
+      "title": "市场、河道与湖上观看，共同构成行在",
+      "summary": "Quinsai篇把货物靠岸、街市交易与湖上游赏写得很具体。今天西湖堤岛、寺塔和山脊相互组织的视线值得慢看；现代游船、岛上建筑和全部桥数不都可回推到13世纪。",
+      "paragraphs": [
+        {
+          "heading": "仓储与市场让水城能够运作",
+          "text": "所读段落把主街、平行河道、近市场的货栈、舟车运货与日常食品交换相连，另段写有篷游船和湖岸观看。它让城市既是劳动与交易的空间，也是休闲景观；巨量人数和理想化评价不作为精确统计。",
+          "sourceKeys": [
+            "mp-quinsai-text",
+            "mp-quinsai-lake"
+          ]
+        },
+        {
+          "heading": "西湖不是完全未经人的自然水面",
+          "text": "堤、人工岛、寺塔、园林和植物配置回应三面山势，历次疏浚也参与形成景观。从一个开放岸段看堤岛怎样切分远近、山脊怎样构成边界，再读不同时代的建设，保留自然基础与人为营造两层。",
+          "sourceKeys": [
+            "mp-hangzhou-westlake"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-quinsai-text",
+        "mp-quinsai-lake",
+        "mp-hangzhou-westlake"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-quanzhou",
+      "theme": "polo",
+      "title": "刺桐的货单背后，是生产、交通与信仰系统",
+      "summary": "Çaiton段写船货、珍珠、香料、关税与再分销，港口并不只是一段海边。泉州遗产中的码头、桥、窑址、冶铁与宗教设施，让海贸怎样深入地方生活有具体可探访对象。",
+      "paragraphs": [
+        {
+          "heading": "海港要靠腹地，也靠制度",
+          "text": "该段以货物进出、运费与税收描述港口，突出商人眼中的价值和交换。数字属于文本中的说法，不当作经过本项目独立复核的宋元海关账册；书中记述也不能为每个现存码头提供个人到访证明。",
+          "sourceKeys": [
+            "mp-caiton-text"
+          ]
+        },
+        {
+          "heading": "不要把一城遗产缩成一个码头",
+          "text": "遗产把陶瓷、冶铁生产与桥、航标塔、码头、行政及宗教场所相连。可以按材料生产、入城运输或多信仰社群选择一条分段观看线，核对实际位置；现代城市点不表示全部遗产就在步行几分钟之内。",
+          "sourceKeys": [
+            "mp-quanzhou-system"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-caiton-text",
+        "mp-quanzhou-system"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-sumatra",
+      "theme": "polo",
+      "title": "季风等待与岛屿生态，是两种真实的尺度",
+      "summary": "海路章节叙述在Sumatra一带因逆风停留数月；岛内地名与今天登陆点仍有定位边界。现代北部探访可另读勒塞尔等雨林保护区，不能把自然遗产入口标成已确认的历史营地。",
+      "paragraphs": [
+        {
+          "heading": "海上旅行也由风和等待组成",
+          "text": "这一段说逆风阻航，叙述者与同行者上岸停留，并同当地交换食物。它给归程带来具体的风候、补给和交往线索；临时木构营地的书内描述不证明今天仍有原址遗迹。",
+          "sourceKeys": [
+            "mp-sumatra-text"
+          ]
+        },
+        {
+          "heading": "雨林保护区分散在岛屿不同地区",
+          "text": "三处遗产国家公园彼此相隔，山地森林、火山地貌与特有物种共同体现岛屿自然价值。北部区域点不代表南部公园就在旁边；看栖地与保护解说比承诺能遇见犀牛、虎或猩猩更可靠。",
+          "sourceKeys": [
+            "mp-sumatra-forest"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-sumatra-text",
+        "mp-sumatra-forest"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-srilanka",
+      "theme": "polo",
+      "title": "从山峰的多种解释，读高地森林与朝圣景观",
+      "summary": "Seilan段把不同社群对高山的解释并置，是岛屿见闻而非已核实的登顶记录。今天亚当峰一带的山地森林与其他中央高地组成点分开，区域坐标不标作个人登陆或登山入口。",
+      "paragraphs": [
+        {
+          "heading": "旧文本转述信仰，不代替宗教史",
+          "text": "叙述谈陡山、攀登设施及不同信仰对圣地的称说，又混合佛教人物故事。可由此比较外来书写怎样理解他者；不将其混杂叙述当成佛陀生平事实，也不把古时攀登办法当现行路线。",
+          "sourceKeys": [
+            "mp-seilan-mountain"
+          ]
+        },
+        {
+          "heading": "自然保护与人使用山地同时存在",
+          "text": "中央高地包括Peak Wilderness、霍顿平原与Knuckles三片分散区域，山地雨林、草地和特有物种各有内容；亚当峰朝圣亦涉及保护压力。按具体区域看植被与山势、阅读管理说明，不把国家代表点当全部景区的共同入口。",
+          "sourceKeys": [
+            "mp-srilanka-highlands"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-seilan-mountain",
+        "mp-srilanka-highlands"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-japan",
+      "theme": "polo",
+      "title": "黄金宫殿是传闻，沉船遗物提供另一类证据",
+      "summary": "Çipingu的黄金宫殿按书中说法来自他人讲述，日本不是波罗亲历地点。关于元军渡海，可另看长崎松浦鹰岛神崎的水下考古证据；它远离本图保留的日本区域示意点。",
+      "paragraphs": [
+        {
+          "heading": "先听出这段不是亲眼所见",
+          "text": "宫殿开头即援引了解当地者的说法，随后叙述元军渡海。黄金地砖不据此定位为京都某座现存寺院，也不能把听闻点改画成他本人渡海的旅行轨迹。",
+          "sourceKeys": [
+            "mp-cipingu-text"
+          ]
+        },
+        {
+          "heading": "船体、碇石与陶器让历史有物证",
+          "text": "鹰岛神崎遗址发现船体、货物、陶瓷及被解释为爆炸弹的球状器等，研究把它们与1281年船队相联。海底考古、出土后保管和公开展示是不同位置，按文化财说明了解，不把海底遗址当可自由进入的景点。",
+          "sourceKeys": [
+            "mp-japan-archaeology"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-cipingu-text",
+        "mp-japan-archaeology"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-genoa",
+      "theme": "polo",
+      "title": "在圣乔治宫前，区分成书传统与确知建筑",
+      "summary": "热那亚联系波罗与鲁斯蒂谦合作成书的传统。圣乔治宫可看面向Sottoripa的中世纪部分与朝海的文艺复兴立面；市旅游局将波罗囚于此处称作传说，不认定某间房就是写作室。",
+      "paragraphs": [
+        {
+          "heading": "一本书经过口述、写作和不同语言",
+          "text": "BnF作品记录列鲁斯蒂谦为合作写作者，说明法意混合语写作及后续法语、托斯卡纳语、威尼斯语和拉丁语等版本。阅读地图中的地名应考虑版本差异，而非假设每个现代译名都能无争议地精确定位。",
+          "sourceKeys": [
+            "mp-bnf-work"
+          ]
+        },
+        {
+          "heading": "建筑的不同朝向也有不同年代",
+          "text": "宫殿1257—1260年建作公共权力空间，后与港口税务及圣乔治金融机构相联，今日为港务机构使用。可从公共区域比较两面立面和港城关系；现用途、参观条件与中世纪囚禁传统分别核实。",
+          "sourceKeys": [
+            "mp-genoa-palace"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-bnf-work",
+        "mp-genoa-palace"
+      ],
+      "related": []
+    }
+  ]
+}

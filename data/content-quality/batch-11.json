@@ -1,0 +1,543 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-11",
+  "baseline": "c987bf6a35c4a4cf03a82bdd5855d30c155fc94f",
+  "checked": "2026-11-18",
+  "scope": "Fifteen existing Silk Roads contexts: twelve western/central nodes and three eastern maritime/textile city contexts. All receive first dedicated expanded readings; Bukhara and Tashkent observed gaps addressed with named urban features. Broad network and later-period architecture distinguished from any single traveller journey. No geographic or image changes. Ten other Silk Roads candidates remain for a later research pack.",
+  "sources": {
+    "sr-venice": {
+      "title": "UNESCO世界遗产中心：威尼斯泻湖与海上城市",
+      "url": "https://whc.unesco.org/en/list/394/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. "
+    },
+    "sr-istanbul": {
+      "title": "UNESCO世界遗产中心：伊斯坦布尔海峡与历史分区",
+      "url": "https://whc.unesco.org/en/list/356/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. "
+    },
+    "sr-tabriz": {
+      "title": "UNESCO世界遗产中心：大不里士活态集市及1780年地震后建造",
+      "url": "https://whc.unesco.org/en/list/1346/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse.  Introductory summary wrongly couples 13th-century prosperity with the Safavid dynasty; reading does not adopt that chronology. OUV distinguishes fabric rebuilt after the 1780 earthquake."
+    },
+    "sr-isfahan": {
+      "title": "UNESCO世界遗产中心：伊斯法罕广场四边建筑",
+      "url": "https://whc.unesco.org/en/list/115/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse.  Introductory Timurid-palace wording is not used to date Ali Qapu; OUV identifies the coherent Safavid ensemble and its four buildings."
+    },
+    "sr-yazd": {
+      "title": "UNESCO世界遗产中心：亚兹德土建筑、地下水与微气候",
+      "url": "https://whc.unesco.org/en/list/1544/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. "
+    },
+    "sr-merv": {
+      "title": "UNESCO世界遗产中心：梅尔夫相邻城址与水系变化",
+      "url": "https://whc.unesco.org/en/list/886/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. "
+    },
+    "sr-bukhara": {
+      "title": "UNESCO世界遗产中心：布哈拉集市穹顶、学校与城市肌理",
+      "url": "https://whc.unesco.org/en/list/602/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse.  Inconsistent century assigned to Kalyan minaret is omitted. Trade domes and urban relationships are used without inventing teaching or shop access."
+    },
+    "sr-samarkand": {
+      "title": "UNESCO世界遗产中心：撒马尔罕三片区与阿夫拉西阿卜壁画",
+      "url": "https://whc.unesco.org/en/list/603/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. "
+    },
+    "sr-khiva": {
+      "title": "UNESCO世界遗产中心：希瓦清真寺木柱与院落民居",
+      "url": "https://whc.unesco.org/en/list/543/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. "
+    },
+    "sr-quanzhou": {
+      "title": "UNESCO世界遗产中心：泉州宋元生产、交通、营销网络",
+      "url": "https://whc.unesco.org/en/list/1561/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. "
+    },
+    "sr-kerman": {
+      "title": "伊朗官方旅游：Ganjali Khan建筑群与浴室、铸币厂再利用",
+      "url": "https://visitiran.ir/en/attraction/ganjali-khan-complex",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. "
+    },
+    "sr-hormuz": {
+      "title": "伊朗官方旅游：Minab旧霍尔木兹与岛上港城的区别",
+      "url": "https://visitiran.ir/en/province/hormozgan-province",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. Broad province account; old Hormuz association reported cautiously. Geological age and unqualified travel recommendations not copied; existing regional illustrative coordinate remains unchanged."
+    },
+    "sr-tashkent": {
+      "title": "乌兹别克斯坦提名文本：费尔干纳—锡尔河走廊的塔什干组成点",
+      "url": "https://whc.unesco.org/en/tentativelists/6649/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. State Party tentative-list submission, not an inscribed World Heritage property. Table coordinates are not imported, and obvious mismatched labels for Oqtepa sites are not used."
+    },
+    "sr-hangzhou": {
+      "title": "中国丝绸博物馆：长期展、蚕桑织造与文物修复",
+      "url": "https://www.chinasilkmuseum.com/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. Time-limited 2026 exhibitions are not described as currently open; long-term themes used without guarantee every object is displayed."
+    },
+    "sr-guangzhou": {
+      "title": "南越王博物院：西亚工艺银盒与本地改装",
+      "url": "https://www.nywmuseum.org.cn/News/Details/yfzx?nid=11171",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. 2024 loan exhibition is historical, not claimed current. West-Asian stylistic/process evidence does not prove a direct non-stop voyage or identified maker."
+    },
+    "sr-guangzhou-object": {
+      "title": "南越王博物院藏品：南越文王墓出土银盒",
+      "url": "https://www.nywmuseum.org.cn/Collection/Details/zyzb?nid=70",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. "
+    }
+  },
+  "readings": [
+    {
+      "id": "silk-venice",
+      "theme": "silk",
+      "title": "在泻湖的水路里，读一座海上商业城市",
+      "summary": "威尼斯的运河、岛屿与工艺聚落共同构成海上城市。主岛之外的Murano等地也参与生产与交换；从岸线、船行通道和城市建筑对读，可以把丝路西端放回亚得里亚海与泻湖环境。",
+      "paragraphs": [
+        {
+          "heading": "先看水道怎样进入城市生活",
+          "text": "UNESCO把城市与泻湖作为整体：岛上居住、捕鱼、工艺和海上贸易长期相互依存。沿公共岸线观察水路怎样接上街巷和建筑入口，能理解货物、人员与潮水为何都是城市设计必须回应的条件。",
+          "sourceKeys": [
+            "sr-venice"
+          ]
+        },
+        {
+          "heading": "商贸网络不是一位旅行者的单线",
+          "text": "威尼斯的商业地位同时涉及地中海多个竞争与合作中心，Murano等岛又以工艺参与其中。今天可分别选择一个主岛街区和一个岛屿细看，不把威尼斯到中国的连线解释为所有商人或马可波罗都走过的同一确定道路。",
+          "sourceKeys": [
+            "sr-venice"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-venice"
+      ],
+      "related": [
+        "silk-istanbul"
+      ]
+    },
+    {
+      "id": "silk-istanbul",
+      "theme": "silk",
+      "title": "金角湾、海峡与不同帝国的城市层次",
+      "summary": "伊斯坦布尔的金角湾天然港、博斯普鲁斯与马尔马拉海共同解释城市位置。竞技场、圣索菲亚和苏莱曼清真寺属于不同年代，既可看跨水贸易地理，也可读帝国如何重写城市空间。",
+      "paragraphs": [
+        {
+          "heading": "先用三面水域辨认半岛",
+          "text": "历史城区半岛北靠金角湾，东面海峡，南面马尔马拉海。比较港湾与陆地通道，再看城市高处建筑，能理解为何这里长期控制海陆交换；现代跨海交通并非古商道原样延续。",
+          "sourceKeys": [
+            "sr-istanbul"
+          ]
+        },
+        {
+          "heading": "选择一组不同年代的建筑对照",
+          "text": "6世纪圣索菲亚与16世纪苏莱曼建筑群分别体现不同工程和社会组织。可比较圆顶、院落和周边街区，而不是将所有大建筑概括成丝路时代；宗教使用与参访区域分别按管理机构当日安排。",
+          "sourceKeys": [
+            "sr-istanbul"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-istanbul"
+      ],
+      "related": [
+        "silk-venice",
+        "silk-tabriz"
+      ]
+    },
+    {
+      "id": "silk-tabriz",
+      "theme": "silk",
+      "title": "砖拱之下，商铺、庭院与社会组织相接",
+      "summary": "大不里士集市由有顶砖廊、庭院和不同功能建筑相连，贸易、教育与宗教活动交织。今日主要建筑肌理包含1780年地震后的重建，不能把所有砖拱都当作13世纪原物。",
+      "paragraphs": [
+        {
+          "heading": "先看通道如何连上不同空间",
+          "text": "沿开放的有顶通道，可比较较窄商廊、较大的庭院及周边公共建筑；遮蔽、通行与交易并非互不相关。集市的专业分工和社会组织与其建筑一起延续，使“商贸节点”有了可以观察的空间结构。",
+          "sourceKeys": [
+            "sr-tabriz"
+          ]
+        },
+        {
+          "heading": "年代连续不等于材料没有更新",
+          "text": "这处集市长期参与东西贸易，但现存设计、工艺和材料的重要部分形成于地震后。将商业传统、重建建筑和今天的日常营业分开看，能理解它为何是活态城市系统，而非封存不变的古代展厅。",
+          "sourceKeys": [
+            "sr-tabriz"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-tabriz"
+      ],
+      "related": [
+        "silk-istanbul",
+        "silk-isfahan"
+      ]
+    },
+    {
+      "id": "silk-isfahan",
+      "theme": "silk",
+      "title": "广场四边，把市场、王权与宗教放在一起",
+      "summary": "伊斯法罕Meidan Emam以双层拱廊联起皇家清真寺、Sheikh Lotfollah清真寺、Ali Qapu与Qeyssariyeh集市门。17世纪广场不是抽象“丝路古城”的替身，而是观察商业与城市规划的具体入口。",
+      "paragraphs": [
+        {
+          "heading": "先在广场辨认四个方向的功能",
+          "text": "北面的集市门与南面的皇家清真寺、东西两侧不同建筑形成清晰对照。可以先看门的位置和拱廊连续性，再选一栋进入；贸易与宗教、宫廷如何共同占据中心广场，比只记瓷砖颜色更能说明城市特色。",
+          "sourceKeys": [
+            "sr-isfahan"
+          ]
+        },
+        {
+          "heading": "再看立面后方的不同空间",
+          "text": "广场是统一规划，四边建筑的使用与空间却不相同。沿公共边缘看宫廷平台、清真寺入口和市场通道怎样面向同一开敞地，理解丝路网络中城市也会被国家重组；不可把这套后世建筑当作所有早期行旅亲眼所见。",
+          "sourceKeys": [
+            "sr-isfahan"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-isfahan"
+      ],
+      "related": [
+        "silk-tabriz",
+        "silk-yazd"
+      ]
+    },
+    {
+      "id": "silk-yazd",
+      "theme": "silk",
+      "title": "风塔、厚土墙与坎儿井，维持沙漠城市生活",
+      "summary": "亚兹德用地下引水、厚土墙、低庭院和风塔调节干热环境。市场、浴室、水池与不同宗教建筑仍在城市结构中，丝路交流在这里也依赖用水、降温与日常维修。",
+      "paragraphs": [
+        {
+          "heading": "从街巷进入微气候的设计",
+          "text": "部分遮盖的小巷、下沉庭院、穹顶和风塔共同组织阴影与空气。可在允许进入的传统建筑比较街面与院落温度感受，读土材料如何帮助生活；不把风塔简单等同有现代机械制冷效果的装置。",
+          "sourceKeys": [
+            "sr-yazd"
+          ]
+        },
+        {
+          "heading": "水利与公共设施一起看",
+          "text": "街区沿地下引水系统发展，公共水池、浴室与市场又由社会组织维护。城市还保留清真寺、犹太会堂和祆教设施，体现不同信仰的历史层次；这些建筑不是都属于同一次旅行或同一创建年份。",
+          "sourceKeys": [
+            "sr-yazd"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-yazd"
+      ],
+      "related": [
+        "silk-isfahan",
+        "silk-kerman"
+      ]
+    },
+    {
+      "id": "silk-kerman",
+      "theme": "silk",
+      "title": "在Ganjali Khan，读商旅、浴室与铸币",
+      "summary": "克尔曼的Ganjali Khan建筑群围绕广场组织市场、客栈、浴室、学校、蓄水与铸币。浴室与铸币厂后来改作展示，适合把交易之外的身体、货币与城市公共服务一起看。",
+      "paragraphs": [
+        {
+          "heading": "广场不是一组互不相干的景点",
+          "text": "官方说明集市围住广场多个边，客栈服务往来旅客，学校、清真寺及蓄水设施又处在同一系统。可以比较不同入口如何接上市场通道，理解商旅活动依赖住宿、饮水和社会设施共同维持。",
+          "sourceKeys": [
+            "sr-kerman"
+          ]
+        },
+        {
+          "heading": "展示场景与历史建筑分开",
+          "text": "浴室弯折入口通向更衣空间，装饰包含花卉和动物图案；今天的民俗展有浴具和后来设置的人物场景，铸币厂又改作钱币馆。分清原有空间、收藏和现代复原，可以避免把场景雕像当作考古原物。",
+          "sourceKeys": [
+            "sr-kerman"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-kerman"
+      ],
+      "related": [
+        "silk-yazd",
+        "silk-hormuz"
+      ]
+    },
+    {
+      "id": "silk-hormuz",
+      "theme": "silk",
+      "title": "旧港、岛城与海峡，先把三个地理概念分开",
+      "summary": "霍尔木兹既是海峡名，也联系大陆旧港与后来岛上港城。伊朗官方将Minab与Old Hormuz联系，岛上则有后世葡萄牙堡和多彩地层；本点保留港湾区域示意，不能用岛景替代所有时期。",
+      "paragraphs": [
+        {
+          "heading": "旧霍尔木兹与岛上港城不同",
+          "text": "现代Minab一带与大陆旧霍尔木兹的关联，应与今天Hormuz岛分开理解。历史海贸节点会迁移，本图位置只标港湾区域，不把它误作一座有明确原址的古代码头或全部商旅固定登陆点。",
+          "sourceKeys": [
+            "sr-hormuz"
+          ]
+        },
+        {
+          "heading": "岛屿还留下后世海权与地貌",
+          "text": "岛上的葡萄牙堡和红色、多色地层提供另一层观察对象；军事设施与自然地形的年代、成因不同。可先借官方地方资料区分海峡、岛屿和大陆港区，实际交通与开放须另查，旧旅游介绍不能保证现行渡船运行。",
+          "sourceKeys": [
+            "sr-hormuz"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-hormuz"
+      ],
+      "related": [
+        "silk-kerman"
+      ]
+    },
+    {
+      "id": "silk-merv",
+      "theme": "silk",
+      "title": "水道改变时，城市也在绿洲中移动",
+      "summary": "梅尔夫不是一座古城被层层盖住：Erk Kala、Gyaur Kala、Sultan Kala等相邻城址记录不同阶段。Murgab水系的变化与城市转移相连，土城墙、佛教遗存和Sanjar陵墓又体现不同社会。",
+      "paragraphs": [
+        {
+          "heading": "先用城墙分清几座城",
+          "text": "不同城址的形状、尺度和内部设施并不相同，部分旧城弃置后没有再被大规模覆盖。可先看遗址总图和城墙轮廓，再选一组建筑，避免把广大绿洲内所有遗存当成同一城市同一时刻的景象。",
+          "sourceKeys": [
+            "sr-merv"
+          ]
+        },
+        {
+          "heading": "陵墓细部与土城整体对读",
+          "text": "Sultan Sanjar陵墓的砖工、灰泥与残存绘画提供近看对象，城墙和早期宗教遗存则提示更多层次。水道迁移、建材风化与保护共同影响今天所见；荒漠外观不等于历史城市从来没有灌溉和生产基础。",
+          "sourceKeys": [
+            "sr-merv"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-merv"
+      ],
+      "related": [
+        "silk-hormuz",
+        "silk-bukhara"
+      ]
+    },
+    {
+      "id": "silk-bukhara",
+      "theme": "silk",
+      "title": "由交易穹顶走向学校，读商贸和学术的相邻",
+      "summary": "布哈拉可具体看钱币兑换等交易穹顶、Lyabi-Hauz建筑群与不同年代的经学院。砖砌Samani陵墓又提供早期工艺对照；贸易和学术不是口号，而是能在街道、路口和院落中分辨的功能。",
+      "paragraphs": [
+        {
+          "heading": "交易为何聚在街道交点",
+          "text": "UNESCO列出兑换商、帽商等交易穹顶与集市建筑，体现专业分工和路口的城市组织。可比较有顶市场与通往院落的门，再看它们怎样接入街巷；不要把所有今天售卖纪念品的空间一律说成古代原业态。",
+          "sourceKeys": [
+            "sr-bukhara"
+          ]
+        },
+        {
+          "heading": "经学院与陵墓各看一种工艺",
+          "text": "Ulugbek、Abdulaziz-Khan等经学院与Samani陵墓并非同时建成。可挑一座经学院观察院落与门面，再到陵墓看砖的排列和光影，读知识机构、信仰与工匠劳动；参访学校建筑不等于进入仍在原样授课的课堂。",
+          "sourceKeys": [
+            "sr-bukhara"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-bukhara"
+      ],
+      "related": [
+        "silk-merv",
+        "silk-samarkand",
+        "silk-khiva"
+      ]
+    },
+    {
+      "id": "silk-samarkand",
+      "theme": "silk",
+      "title": "三片城市，分开读壁画、庭院与天文工程",
+      "summary": "撒马尔罕的Afrosiab考古区、帖木儿时期街区与后来的俄式扩展并置。Afrosiab宫殿壁画、Registan建筑和兀鲁伯天文台遗存，能把跨文化交流落到作品与科学设施，而不只有蓝色圆顶。",
+      "paragraphs": [
+        {
+          "heading": "先把Afrosiab与Registan分开定位",
+          "text": "Afrosiab古城保存考古遗存，出土宫殿有7世纪壁画；南侧帖木儿时期建筑群属于更晚城市发展。把壁画的原属遗址与今日展示分清，历史城、现代馆藏和重建说明不应混为一处。",
+          "sourceKeys": [
+            "sr-samarkand"
+          ]
+        },
+        {
+          "heading": "从纪念建筑回到住宅与研究",
+          "text": "除了Shakhi-Zinda和Gur-Emir等建筑，传统街区还有围绕花园院落的住宅，天文台则提供观测工程入口。它们共同显示城市中的艺术、生活与知识活动；今天修缮过的外表不能保证每块装饰都是中世纪原件。",
+          "sourceKeys": [
+            "sr-samarkand"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-samarkand"
+      ],
+      "related": [
+        "silk-bukhara",
+        "silk-tashkent"
+      ]
+    },
+    {
+      "id": "silk-khiva",
+      "theme": "silk",
+      "title": "在城墙内，看木柱、院落与沙漠商旅",
+      "summary": "希瓦Itchan Kala以砖墙围合，Djuma清真寺的木柱与院落民居尤其值得近看。它曾是穿越沙漠前的休整城市，今天完整的城市组合却包含多次营建，并非所有现存建筑都一样古老。",
+      "paragraphs": [
+        {
+          "heading": "木柱让清真寺空间有不同节奏",
+          "text": "Djuma清真寺用大量木柱支承幽暗室内，上方采光与柱列形成特别尺度。可留意雕刻、柱距和光线，再与经学院高门面比较，理解同一城内存在多种建筑类型。",
+          "sourceKeys": [
+            "sr-khiva"
+          ]
+        },
+        {
+          "heading": "民居和商旅设施一起组织街区",
+          "text": "封闭院落、带木柱的门廊、客栈和市场与大型纪念建筑共同组成城市。遗产价值也在住宅与街巷关系，不能只挑最高塔楼；家庭房屋和公共参访空间按实际标识区分，不因列入遗产而自动开放。",
+          "sourceKeys": [
+            "sr-khiva"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-khiva"
+      ],
+      "related": [
+        "silk-bukhara",
+        "silk-tashkent"
+      ]
+    },
+    {
+      "id": "silk-tashkent",
+      "theme": "silk",
+      "title": "从Kukeldash到Minguryuk，给绿洲城市具体入口",
+      "summary": "塔什干可由Kukeldash经学院与Minguryuk城址分别进入宗教建筑和早期城市考古。它们列在乌兹别克斯坦的走廊预备申报名单中；预备名单不等于已经列入世界遗产。",
+      "paragraphs": [
+        {
+          "heading": "城内遗址怎样保留更早的生活层",
+          "text": "申报文本将Minguryuk的堡址、壁画与居住遗存联系到古代城市环境；另列Shoshtepa等不同年代聚落。可以先选一个开放考古点读遗址图，不把分散的土台和后来的经学院混作同一建筑群。",
+          "sourceKeys": [
+            "sr-tashkent"
+          ]
+        },
+        {
+          "heading": "经学院、宗教建筑与绿洲网络",
+          "text": "Kukeldash与Khazrati Imom等组成点说明宗教和学术空间，周边还有水库、过河与贸易相关遗址。城内和区域点应分别定位，本图保留城市代表位置；申报资料只支持历史关联，不保证每处都已建成游客展馆。",
+          "sourceKeys": [
+            "sr-tashkent"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-tashkent"
+      ],
+      "related": [
+        "silk-samarkand",
+        "silk-khiva"
+      ]
+    },
+    {
+      "id": "silk-hangzhou",
+      "theme": "silk",
+      "title": "到丝绸博物馆，把水城印象落到织物与工艺",
+      "summary": "杭州除了水城与南宋城市记忆，还可从中国丝绸博物馆读织物结构、蚕桑、贸易及文物修复。商品如何制作、移动和保存，让丝路主题从古名变成可以对照观察的具体技术。",
+      "paragraphs": [
+        {
+          "heading": "先看织物如何从丝变成结构",
+          "text": "长期展涉及丝绸历史与丝路、蚕桑丝织技艺。可挑一件展品比较纹样、组织与用途，再借工艺解释理解养蚕、缫丝、织造与穿用是不同环节；一件衣物不等于所有产区都使用同一种技术。",
+          "sourceKeys": [
+            "sr-hangzhou"
+          ]
+        },
+        {
+          "heading": "修复说明也是理解交流的一条线",
+          "text": "馆方设纺织品文物修复展示，把脆弱材料的保存、研究与展示相接。古代织物的出土地、制作地与现在收藏地需分别读展签；博物馆在杭州，并不表示全部藏品都出自宋代杭州或曾由马可波罗亲见。",
+          "sourceKeys": [
+            "sr-hangzhou"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-hangzhou"
+      ],
+      "related": [
+        "silk-quanzhou",
+        "silk-guangzhou"
+      ]
+    },
+    {
+      "id": "silk-quanzhou",
+      "theme": "silk",
+      "title": "把石码头、桥、窑址和宗教建筑接成港口系统",
+      "summary": "泉州宋元海贸遗产联系生产、运输、管理与交易：清净寺、石码头、古桥、瓷铁生产遗址和碑刻各提供不同证据。城市、河海和山区腹地共同支持港口，不只是一处古码头。",
+      "paragraphs": [
+        {
+          "heading": "从腹地到河海，看货物经过的设施",
+          "text": "UNESCO强调山地生产、水陆交通和河海交汇城市之间的关系。可分别选一个生产遗址与一处桥或码头，比较物料出产和装运所需的空间；各点分散，城市代表坐标不等于所有遗址集中在同一院落。",
+          "sourceKeys": [
+            "sr-quanzhou"
+          ]
+        },
+        {
+          "heading": "宗教建筑与文字记录人的往来",
+          "text": "清净寺、墓葬、宝塔和碑文说明海贸同时涉及不同人群与信仰。看建筑原件与题记时分清年代，再把它们与运输设施联系；不把不同宗教混称为同一教派，也不把港城繁荣全部归于单一旅行者的到访。",
+          "sourceKeys": [
+            "sr-quanzhou"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-quanzhou"
+      ],
+      "related": [
+        "silk-hangzhou",
+        "silk-guangzhou"
+      ]
+    },
+    {
+      "id": "silk-guangzhou",
+      "theme": "silk",
+      "title": "从南越王墓银盒，看物品怎样被再次改造",
+      "summary": "广州南越王墓出土银盒带西亚式锤鍱凸瓣工艺，进入中国后又加盖钮、圈足与铭文。它把远方技术、本地使用和墓葬语境放在一件物品上，比只说“海上丝路港口”更具体。",
+      "paragraphs": [
+        {
+          "heading": "观察同一物品上的不同工艺",
+          "text": "博物院说明银盒的造型、纹饰与锤鍱技术具有古代西亚特点，而盖上小钮与底部圈足等是后续改装。可以对读整体形状和接合部位，理解交流既有物品移动，也有被新使用者改变的过程。",
+          "sourceKeys": [
+            "sr-guangzhou"
+          ]
+        },
+        {
+          "heading": "出土地、收藏与曾经外借分别确认",
+          "text": "银盒来自南越文王墓，现属南越王博物院收藏；馆方2024年赴故宫展览记录是历史外借，不是今日展示位置。工艺关联也不能推出已知制造者或一条直达航线，参观前按馆方当前展陈确认原作。",
+          "sourceKeys": [
+            "sr-guangzhou",
+            "sr-guangzhou-object"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sr-guangzhou",
+        "sr-guangzhou-object"
+      ],
+      "related": [
+        "silk-quanzhou",
+        "silk-hangzhou"
+      ]
+    }
+  ]
+}

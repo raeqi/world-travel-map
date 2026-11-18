@@ -8,8 +8,8 @@ test('audit includes every production dataset and all theme-specific contexts, i
  const r=audit({reviews,legacy}),expected=require('../data/theme-review/catalogue-consolidation.json').expectedRuntime;for(const key of ['places','internalThemes','visibleThemes','plans','placeThemeContexts'])assert.equal(r.summary[key],expected[key],key);
  for(const file of ['panamerican.js','cultural-atlas.js','regional-theme-expansion.js','remaining-thirty-data.js','natural-atlas.js','quality-readings.js'])assert.ok(r.scripts.some(s=>s.file===file&&s.executed),file);
  assert.ok(r.plans.some(p=>!p.visible));assert.ok(r.entries.some(p=>p.theme==='patagonia-nature'));assert.ok(r.entries.some(p=>p.id==='tea-rasuwa'));
- assert.equal(r.summary.staleReviews,0);assert.equal(r.summary.manualResearchedPlaces,143);assert.equal(r.summary.manualUsefulConcisePlaces,5);
- const venice=r.legacyComparison.find(p=>p.id==='silk-venice');assert.equal(venice.assessment,'still-automatic-candidate');assert.deepEqual(venice.originalThemes,['silk']);assert.ok(venice.otherExpandedThemes.includes('turner'));
+ assert.equal(r.summary.staleReviews,0);assert.equal(r.summary.manualResearchedPlaces,238);assert.equal(r.summary.manualUsefulConcisePlaces,0);
+ const venice=r.legacyComparison.find(p=>p.id==='silk-venice');assert.equal(venice.assessment,'researched-batch-11');assert.deepEqual(venice.originalThemes,['silk']);assert.ok(venice.contexts.every(r=>r.theme==='silk'&&r.status==='researched-batch-11'));assert.ok(venice.otherExpandedThemes.includes('turner'));
 });
 test('a manual review expires when its source/text fingerprint differs',()=>{
  const altered=reviews.map((r,i)=>i? r:{...r,contentHash:'0'.repeat(64)}),r=audit({reviews:altered,legacy});assert.equal(r.summary.staleReviews,1);assert.equal(r.entries.find(p=>p.id===reviews[0].id&&p.theme===reviews[0].theme).status,'stale-review');
@@ -24,8 +24,7 @@ test('shared cities show only relevant readings while every original cultural co
 test('research is source-bound and preserves catalogue summaries, links, media and itinerary IDs',()=>{
  const original=JSON.parse(zlib.gunzipSync(fs.readFileSync('qa/content-quality/baseline-2026-11-18.json.gz'))),now=snapshot(),key=r=>r.theme+'/'+r.id,byKey=new Map(now.contexts.map(r=>[key(r),r]));
  for(const old of original.entries){const row=byKey.get(key(old));assert.ok(row,key(old));assert.equal(row.originalSummary,old.summary,key(old)+' catalogue text');assert.equal(row.source,old.source);assert.equal(row.imageKey,old.imageKey);assert.ok(old.routeIds.every(id=>row.routeIds.includes(id)),key(old)+' retained itinerary IDs');if(!old.foreignThemeFallback)for(const source of old.essay?.sources||[])assert.ok(row.essay?.sources.some(s=>JSON.stringify(s)===JSON.stringify(source)),key(old)+' original source object');}
- assert.equal(new Set(pack.readings.map(r=>r.id)).size,143);assert.equal(new Set(pack.readings.map(r=>r.theme)).size,11);
-
+ assert.equal(new Set(pack.readings.map(r=>r.id)).size,238);assert.equal(new Set(pack.readings.map(r=>r.theme)).size,16);
  for(const r of pack.readings){assert.ok(r.summary&&r.paragraphs.length>=2);for(const p of r.paragraphs)for(const key of p.sourceKeys)assert.ok(r.sourceKeys.includes(key)&&pack.sources[key]?.url.startsWith('https://'));const row=byKey.get(key(r));assert.equal(row.summary,r.summary);assert.ok(row.essay.sources.every(s=>s.title&&s.url));}
  assert.ok(pack.readings.find(r=>r.id==='xintan').summary.includes('1985'));assert.ok(pack.readings.find(r=>r.id==='kumano-hongu').summary.includes('1889'));assert.ok(pack.readings.find(r=>r.id==='nc500-johnogroats').summary.includes('Dunnet Head'));
  const literal=fs.readFileSync('quality-readings-data.js','utf8');assert.equal(literal,generatedData());
@@ -45,7 +44,7 @@ test('tea batch is factual in scope and cannot silently clear a deferred researc
  assert.ok(batch.readings.find(r=>r.id==='tea-nuwakot').summary.includes('预备清单'));
  assert.ok(batch.readings.find(r=>r.id==='tea-kalimpong').summary.includes('则里拉'));
  assert.ok(batch.readings.find(r=>r.id==='tea-nanjian').summary.includes('另行前往'));
- const r=audit({reviews,legacy});assert.equal(r.summary.unresolvedCandidatePlaces,91);
+ const r=audit({reviews,legacy});assert.equal(r.summary.unresolvedCandidatePlaces,1);
  assert.equal(r.entries.find(p=>p.id==='tea-rasuwa'&&p.theme==='tea').status,'needs-research');
  assert.equal(r.summary.staleReviews,0);
 });
@@ -100,4 +99,40 @@ test('Galicia keeps relocation, reused medieval fabric, regional food and museum
  assert.ok(by.get('camino-triacastela').related.includes('camino-arzua'));assert.ok(by.get('camino-arzua').related.includes('camino-triacastela'));
  const base=JSON.parse(zlib.gunzipSync(fs.readFileSync('qa/content-quality/baseline-2026-11-18.json.gz'))),now=snapshot();
  for(const old of base.plans.filter(r=>r.theme==='camino'))assert.deepEqual(now.plans.find(r=>r.id===old.id)?.stops,old.stops);
+});
+
+
+test('World Heritage readings distinguish natural processes, series components, relocated objects and living communities',()=>{
+ const p=loadPacks().find(p=>p.batch.endsWith('-10')),by=new Map(p.readings.map(r=>[r.id,r]));assert.equal(p.readings.length,23);assert.equal(p.readings.filter(r=>r.theme==='nature').length,4);
+ assert.match(by.get('wh-1001').paragraphs[0].text,/鱼嘴分流/);assert.match(by.get('wh-401').summary,/1909/);assert.match(by.get('wh-987').paragraphs[1].text,/后开门|后世开设|近代开设/);
+ assert.match(by.get('wh-492').paragraphs[1].text,/未标作商铺的住屋不对外开放/);assert.match(by.get('wh-434').paragraphs[1].text,/不能确定全部用途/);assert.match(by.get('wh-484').paragraphs[0].text,/移往英国/);
+ assert.ok(p.sources['wh-ou-606'].method.includes('omits a single earliest date'));assert.ok(p.sources['wh-tai-community'].method.includes('excluded'));
+ assert.ok(p.readings.flatMap(r=>r.sourceKeys.map(k=>p.sources[k].url)).every(url=>!url.includes('parc-national-de-tai.org')));
+});
+
+
+test('western Silk Roads separates living markets, regional ports, tentative lists and later fabric',()=>{
+ const p=loadPacks().find(p=>p.batch.endsWith('-11')),by=new Map(p.readings.map(r=>[r.id,r]));assert.equal(p.readings.length,15);
+ assert.match(by.get('silk-tabriz').summary,/1780/);assert.match(by.get('silk-hormuz').summary,/大陆旧港/);assert.match(by.get('silk-tashkent').summary,/预备名单不等于已经/);
+ assert.match(by.get('silk-bukhara').summary,/交易穹顶/);assert.match(by.get('silk-guangzhou').paragraphs[1].text,/2024年.*历史外借/);
+ const r=audit({reviews,legacy});for(const id of ['silk-bukhara','silk-tashkent'])assert.equal(r.entries.find(x=>x.id===id&&x.theme==='silk').status,'researched-batch-11');
+});
+test('Chinese Silk Roads keeps depicted places, original artefacts, later structures and specific entrances separate',()=>{
+ const p=loadPacks().find(p=>p.batch.endsWith('-12')),by=new Map(p.readings.map(r=>[r.id,r]));assert.equal(p.readings.length,10);
+ assert.match(by.get('silk-dunhuang').summary,/山西/);assert.match(by.get('silk-wuwei').summary,/原件藏于兰州/);assert.match(by.get('silk-xian').summary,/纸本拓片/);
+ assert.match(by.get('silk-kuqa').summary,/拜城/);assert.match(by.get('silk-jiayuguan').summary,/1372/);assert.match(by.get('silk-luoyang').paragraphs[0].text,/不能归给一位/);
+ const c=runtime();vm.runInContext("activeTheme=themes.findIndex(t=>t.id==='turner')",c);assert.ok(!vm.runInContext("JSON.stringify(placeEssays['silk-venice'])",c).includes('海上商业城市'));
+});
+
+test('Xu readings preserve separate journeys and distinguish observations, rebuilt monuments and copies',()=>{
+ const p=loadPacks().find(p=>p.batch.endsWith('-13')),by=new Map(p.readings.map(r=>[r.id,r]));assert.equal(p.readings.length,24);assert.ok(p.readings.every(r=>r.theme==='xu'));
+ assert.match(by.get('xu-huangshan').summary,/两次旅程/);assert.match(by.get('xu-lijiang').summary,/1997—1999/);assert.match(by.get('xu-baoshan').paragraphs[1].text,/复制/);assert.match(by.get('xu-beijing').summary,/不附会/);assert.match(by.get('xu-jianchuan').paragraphs[1].text,/重建/);
+ const base=JSON.parse(zlib.gunzipSync(fs.readFileSync('qa/content-quality/baseline-2026-11-18.json.gz'))),now=snapshot();for(const old of base.plans.filter(r=>r.theme==='xu'))assert.deepEqual(now.plans.find(r=>r.id===old.id)?.stops,old.stops);
+});
+
+test('Polo readings retain region markers and separate hearsay, versions and present remains',()=>{
+ const rows=loadPacks().filter(p=>/-1[45]$/.test(p.batch)).flatMap(p=>p.readings),by=new Map(rows.map(r=>[r.id,r]));assert.equal(rows.length,23);assert.ok(rows.every(r=>r.theme==='polo'));
+ assert.match(by.get('polo-japan').summary,/不是波罗亲历/);assert.match(by.get('polo-japan').summary,/远离/);assert.match(by.get('polo-genoa').summary,/传说/);assert.match(by.get('polo-samarkand').summary,/行踪未定/);assert.match(by.get('polo-hormuz').paragraphs[1].text,/大陆节点/);assert.match(by.get('polo-yangzhou').summary,/待独立核实/);assert.match(by.get('polo-venice').summary,/已结束/);
+ const base=JSON.parse(zlib.gunzipSync(fs.readFileSync('qa/content-quality/baseline-2026-11-18.json.gz'))),now=snapshot();for(const old of base.plans.filter(r=>r.theme==='polo'))assert.deepEqual(now.plans.find(r=>r.id===old.id)?.stops,old.stops);
+ const c=runtime();vm.runInContext("activeTheme=themes.findIndex(t=>t.id==='cartier-bresson')",c);assert.ok(!vm.runInContext("JSON.stringify(placeEssays['polo-beijing'])",c).includes('北土城'));
 });

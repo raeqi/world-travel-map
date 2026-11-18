@@ -4,8 +4,8 @@
 
 ## 当前覆盖与边界
 
-- 累计143处有本系列新增且逐项来源支持的阅读，5处保留简洁有用判断，3处记录人工读到的明确缺口。151个不同语境有当前人工判断；其余**2067个语境未在本系列逐项人工验收**。
-- 当前**91个未排除自动候选**，其中52处用于可见主题行程。候选是编辑优先队列，不等于已证实错误，也不是全站剩余问题上限。零信号或已有长文的主题仍需后续人工审阅。
+- 累计238处有本系列新增且逐项来源支持的阅读，0处保留简洁有用判断，1处记录人工读到的明确缺口。239个不同语境有当前人工判断；其余**1979个语境未在本系列逐项人工验收**。
+- 当前**1个未排除自动候选**，其中1处用于可见主题行程。候选是编辑优先队列，不等于已证实错误，也不是全站剩余问题上限。零信号或已有长文的主题仍需后续人工审阅。
 - 原始目录、坐标、来源链接、方案、收藏ID、图片字节及其许可保留；新增展开合并适用的原段落和原来源对象。此系列未替换图片，也未把别的艺术家阅读算成旧路线已补足。
 - 观察建议依据所列资料，不是现场考察；历史道路关系不等于现代可通行线路，机构旧资料不作为当前开放保证。
 
@@ -21,66 +21,52 @@
 | 第7批 | `ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395` | 12 | 20 | [逐项文字和依据](data/content-quality/batch-7.json)：First twelve existing French Way contexts, from Saint-Jean-Pied-de-Port through Santo Domingo de la Calzada. All twelve receive first dedicated expanded readings; eleven were automatic candidates, while the starting point already had a useful route-choice summary and was not an automatic candidate. Distinguishes relocated fabric, later buildings, reliquary legends, civic uses and access. No photo or geographic replacement. |
 | 第8批 | `ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395` | 21 | 43 | [逐项文字和依据](data/content-quality/batch-8.json)：All twenty-one existing French Way contexts in Castilla y León, Belorado to Villafranca del Bierzo. Specific art, structures, canals, industrial reuse, agrarian life and distinct access points. All previously lacked dedicated expanded readings. No image or geographic replacement. |
 | 第9批 | `ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395` | 10 | 19 | [逐项文字和依据](data/content-quality/batch-9.json)：All ten existing French Way contexts in Galicia, O Cebreiro to Santiago. First dedicated expanded readings for ten candidate contexts: mountain vernacular architecture, settlement landscapes, relocated church fabric, adaptive reuse, dairy origin and distinct museum locations. Preserves the San Xil/Samos distinction and all original routes, images and geographic records. |
+| 第10批 | `c987bf6a35c4a4cf03a82bdd5855d30c155fc94f` | 23 | 27 | [逐项文字和依据](data/content-quality/batch-10.json)：Twenty-three existing World Heritage contexts: four nature and nineteen culture; eighteen unresolved candidates and five previously useful concise contexts receive first dedicated expanded readings. Distinguishes serial components, in-situ or relocated objects, living communities, maintained fabric and uncertainty. No new photos, geography or itinerary changes. |
+| 第11批 | `c987bf6a35c4a4cf03a82bdd5855d30c155fc94f` | 15 | 16 | [逐项文字和依据](data/content-quality/batch-11.json)：Fifteen existing Silk Roads contexts: twelve western/central nodes and three eastern maritime/textile city contexts. All receive first dedicated expanded readings; Bukhara and Tashkent observed gaps addressed with named urban features. Broad network and later-period architecture distinguished from any single traveller journey. No geographic or image changes. Ten other Silk Roads candidates remain for a later research pack. |
+| 第12批 | `c987bf6a35c4a4cf03a82bdd5855d30c155fc94f` | 10 | 13 | [逐项文字和依据](data/content-quality/batch-12.json)：Ten remaining pre-existing Silk Roads candidate city contexts in China. Specific architecture, textiles, paintings, city gates and moved collections; distinguishes regional/city representative coordinates, separate archaeological entrances, source uncertainty and later memorials. No images, original records or itinerary topology replaced. |
+| 第13批 | `2d2c9b3586de2cda93fde3202d497981eac0e32e` | 24 | 34 | [逐项文字和依据](data/content-quality/batch-13.json)：All twenty-four existing Xu Xiake route contexts. First dedicated expanded readings: natural landforms and water-source observations, layered urban remains, present reconstruction, mountain religious space and modern memorial authorship. Six different journeys remain separate; current visits not claimed as documented personal stops. No image, coordinate or itinerary changes. |
+| 第14批 | `2d2c9b3586de2cda93fde3202d497981eac0e32e` | 12 | 22 | [逐项文字和依据](data/content-quality/batch-14.json)：Twelve western and oasis contexts in the existing Marco Polo theme. Read selected passages in the NII digital 1938 Moule/Pelliot edition alongside institutional site evidence; distinguish narrated trade, religious interpretation, later monuments and regional geography. No itinerary, original source, image or coordinate changes. Developed with the checked Xu package from PR38; merge separately after its exact tree is confirmed on main. |
+| 第15批 | `2d2c9b3586de2cda93fde3202d497981eac0e32e` | 11 | 23 | [逐项文字和依据](data/content-quality/batch-15.json)：Remaining eleven existing Marco Polo contexts: Yuan and Jiangnan cities, Indian Ocean regions, non-visited Japan and Genoese writing tradition. Distinct narrative voices, modern archaeological fabric and dispersed natural sites; no images, original data, coordinate or route modifications. Developed with the checked Xu package from PR38; merge separately after its exact tree is confirmed on main. |
 
-第二批三峡/熊野/佛教/NC500：25处，22处原无展开；第三批茶马及相关网络：19处，18处原无展开；第四批莫扎特8处与Via Francigena16处：24处，23处原无展开；第五批66号公路15处：14处原无展开；第六批中山道9处与维京8处：17处，11处原无展开；第七批法国之路前12处：11个原候选与已有较具体路线选择说明的起点；第八批卡斯蒂利亚—莱昂21处；第九批加利西亚10处。本次三个研究包共同交付，覆盖既有法国之路43处，全部新增首次专属展开，42处原为自动候选。雅安、萨尔茨堡等原资料合并保留，不重复声称新地点。第二批[原报告](CONTENT-QUALITY-BATCH-2.md)、第三批[原报告](CONTENT-QUALITY-BATCH-3.md)、第四批[原报告](CONTENT-QUALITY-BATCH-4.md)、第五批[原报告](CONTENT-QUALITY-BATCH-5.md)、第六批[原报告](CONTENT-QUALITY-BATCH-6.md)作为历史快照保留。
+第二批三峡/熊野/佛教/NC500：25处，22处原无展开；第三批茶马及相关网络：19处，18处原无展开；第四批莫扎特8处与Via Francigena16处：24处，23处原无展开；第五批66号公路15处：14处原无展开；第六批中山道9处与维京8处：17处，11处原无展开；第七批法国之路前12处：11个原候选与已有较具体路线选择说明的起点；第八批卡斯蒂利亚—莱昂21处；第九批加利西亚10处。第七至九批三个研究包共同交付，覆盖既有法国之路43处，全部新增首次专属展开，42处原为自动候选。第十批世界遗产23处（自然4、人文19），补充18个原未排除候选，并将5处原有实用短文加深；第十一、十二批丝路25处，分为西部/中亚及东部海贸15处、中国城市10处。本轮三个包共同交付48处首次专属阅读，43处原为待审候选。雅安、萨尔茨堡等原资料合并保留，不重复声称新地点。第二批[原报告](CONTENT-QUALITY-BATCH-2.md)、第三批[原报告](CONTENT-QUALITY-BATCH-3.md)、第四批[原报告](CONTENT-QUALITY-BATCH-4.md)、第五批[原报告](CONTENT-QUALITY-BATCH-5.md)、第六批[原报告](CONTENT-QUALITY-BATCH-6.md)、[法国之路第七至九批原报告](CONTENT-QUALITY-BATCH-9.md)作为历史快照保留。
 
-法国之路三个研究包区分圣物匣与传说、近代迁装与原位遗存、大学与旧医院、工业改用与中世纪建筑、描绘或原属地与当前馆藏。补充高原谷物田、土坯、山地草顶民居、河桥、粮仓、运河船闸、煤电劳动与奶酪产区，兼顾自然条件与人的改造。部分直接来源响应500/503/403，研究包记明阅读路径；机构网页中的明显错年、旧人口或临时展讯不直接采用。
+第十四、十五批共同补充马可波罗23处首次专属阅读、45条来源记录；以NII东洋文库1938年Moule/Pelliot版的实际选段和当代遗产/机构资料对读，保留原Yule/Cordier链接。书内行程、听闻、归程区域和成书传统不混同已核实亲历；2024威尼斯展已结束，热那亚囚室只属传统，日本区域点并不定位为长崎水下遗址。第十三批补充徐霞客24处首次专属阅读，重点由原日记、地质调查、遗产机构与地方考古材料落到山地、水系、建筑和现代展示。1613、1616、1618、1623、1633与滇西晚年游历分别阅读，六条既有方案不变；木府重建、金中都水关现代探访、霁虹桥迁移复制及纪念塑像均与个人亲历分开。第十至十二批共同细读48处，兼顾地貌演变、牧业与绿洲生活、市场系统、原址艺术、异地收藏及后世重建。布哈拉从交易穹顶与经学院落地，塔什干区分预备名单与正式遗产；敦煌五台山图描绘山西、铜奔马原作在兰州、雁塔原碑与海外拓片分开，嘉峪关明代关城不归入13世纪亲历。机构资料中的错译、日期矛盾与过时链接逐项记录取舍；塔伊旧域名异常跳转排除。无新增图片。
 
-## 法国之路第七至九批逐点证据
+## 第十四、十五批逐点证据
 
 | 主题与地点 | 阅读 | 主要依据 |
 | --- | --- | --- |
-| camino / `camino-saint-jean` | 山脚城门、雕刻门楣与近代城塞 | [巴斯克地区旅游局：街道、门楣与城塞的城市分层](https://www.en-pays-basque.fr/territoires-et-destinations/le-pays-de-saint-jean-pied-de-port/saint-jean-pied-de-port/) |
-| camino / `camino-roncesvalles` | 医院修院与“查理曼棋盘”的真正用途 | [纳瓦拉旅游局：修院、医院传统与多时期建筑](https://www.visitnavarra.es/es/roncesvalles) |
-| camino / `camino-zubiri` | 一座桥与阿尔加河谷里的生活 | [西班牙官方旅游：Puente de la Rabia及地方传说](https://www.spain.info/es/lugares-interes/puente-rabia/) |
-| camino / `camino-pamplona` | 同一座堂的哥特空间与新古典门面 | [潘普洛纳主教座堂：罗曼式遗构、哥特回廊与新古典立面分期](https://www.catedraldepamplona.com/historia/) |
-| camino / `camino-puente` | 桥拱中的水工，与街上的朝圣者形象 | [西班牙官方旅游：王后桥拱孔、泄洪与结构](https://www.spain.info/es/lugares-interes/puente-reina/) |
-| camino / `camino-estella` | 盘旋石柱、罗曼式宫邸与今日绘画馆 | [纳瓦拉旅游局：Estella回廊、民居建筑与今日博物馆](https://www.visitnavarra.es/es/estella-lizarra) |
-| camino / `camino-los-arcos` | 回廊窗格、管风琴与多时期的Santa María | [Los Arcos市政府：Santa María回廊窗格与16世纪建造](https://www.losarcos.es/parroquia-de-santa-maria-claustro/) |
-| camino / `camino-viana` | Santa María的舞台式门面与城市记忆 | [Viana市政府：Santa María文艺复兴门面与内部细部](https://www.viana.es/iglesia-de-santa-maria/) |
-| camino / `camino-logrono` | 教堂里的市政档案与广场上的大棋盘 | [Logroño官方旅游：Santiago el Real、市政档案与广场](https://visitalogrono.com/-/iglesia-de-santiago-el-real) |
-| camino / `camino-navarrete` | 医院遗址与迁到墓园的罗曼式门面 | [Navarrete市政府：1185年医院、13世纪构件与1887年迁装门面](https://www.navarrete.es/turismo/que-ver/conjunto-historico-artistico/) |
-| camino / `camino-najera` | 王室墓葬、木雕唱诗席与镂空回廊 | [西班牙官方旅游：Santa María la Real的墓葬、木雕和回廊](https://www.spain.info/es/lugares-interes/monasterio-santa-maria-real-najera/) |
-| camino / `camino-domingo` | 祭坛雕刻与活公鸡传统的两个层次 | [Santo Domingo座堂馆方：祭坛雕刻、建筑与公鸡传说展示](https://www.catedralsantodomingo.org/monumentos/catedral) |
-| camino / `camino-belorado` | 从旧城教堂走向粮仓里的无线电 | [卡斯蒂利亚—莱昂官方旅游：belorado](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/belorado) |
-| camino / `camino-ortega` | 修路者的接待机构与一组三联柱头 | [卡斯蒂利亚—莱昂官方旅游：san-juan-de-ortega](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/san-juan-de-ortega) |
-| camino / `camino-atapuerca` | 朝圣村落与史前遗址不是同一个入口 | [卡斯蒂利亚—莱昂官方旅游：atapuerca](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/atapuerca) |
-| camino / `camino-burgos` | 哥特座堂之外，再看Hospital del Rey | [卡斯蒂利亚—莱昂官方旅游：burgos](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/burgos) |
-| camino / `camino-hornillos` | 一条Calle Real怎样长成村落 | [卡斯蒂利亚—莱昂官方旅游：hornillos-del-camino](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/hornillos-del-camino) |
-| camino / `camino-castrojeriz` | 长街、山城与回廊的三种尺度 | [卡斯蒂利亚—莱昂官方旅游：castrojeriz](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/castrojeriz) |
-| camino / `camino-fromista` | 罗曼式石工与四级船闸的对照 | [帕伦西亚旅游局：San Martín体量、雕刻及修复](https://palenciaturismo.es/visitar/lugares-interes/san-martin-tours-fromista) |
-| camino / `camino-carrion` | Santiago立面的基督、使徒与工艺 | [卡斯蒂利亚—莱昂官方旅游：carrion-de-los-condes](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/carrion-de-los-condes) |
-| camino / `camino-terradillos` | 砖教堂里读不同年代的雕刻 | [帕伦西亚旅游局：San Pedro砖教堂与不同年代雕刻](https://palenciaturismo.es/visitar/localidades/terradillos-templarios) |
-| camino / `camino-sahagun` | 砖与石交接处的Mudéjar建筑 | [卡斯蒂利亚—莱昂官方旅游：sahagun](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/sahagun) |
-| camino / `camino-burgo-ranero` | 土坯乡村与一尊已移入莱昂的圣母像 | [朝圣之路市镇协会：El Burgo Ranero土坯建筑与乡村背景](https://www.amcsantiago.com/municipio/el-burgo-ranero/) |
-| camino / `camino-mansilla` | 卵石城墙与地方生活博物馆 | [卡斯蒂利亚—莱昂官方旅游：mansilla-de-las-mulas](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/mansilla-de-las-mulas) |
-| camino / `camino-leon` | 从彩窗的光走向原址壁画的农事历 | [卡斯蒂利亚—莱昂官方旅游：leon](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/leon) |
-| camino / `camino-san-martin` | 一座现代村教堂里的路线保护圣人 | [León官方旅游：现代石砖教堂与路线保护圣人](https://turisleon.com/lugares/san-martin-del-camino/) |
-| camino / `camino-orbigo` | 长石桥、接待医院与跨河生活 | [卡斯蒂利亚—莱昂官方旅游：hospital-de-orbigo](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/hospital-de-orbigo) |
-| camino / `camino-astorga` | 罗马住宅遗存与Gaudí的后世宫殿 | [卡斯蒂利亚—莱昂官方旅游：astorga](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/astorga) |
-| camino / `camino-rabanal` | 上山前，从后殿石工看Rabanal | [卡斯蒂利亚—莱昂官方旅游：rabanal-del-camino](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/rabanal-del-camino) |
-| camino / `camino-foncebadon` | 从旧接待传统走向仍在变化的山村 | [León官方旅游：Foncebadón医院传统与接待复苏](https://turisleon.com/lugares/foncebadon/) |
-| camino / `camino-molinaseca` | 过桥后沿Calle Real读居民建筑 | [León官方旅游：Molinaseca桥、主街与居民建筑](https://turisleon.com/lugares/molinaseca/) |
-| camino / `camino-ponferrada` | 多次扩建的城堡与煤电工厂的工人记忆 | [Ponferrada市政府：1178年接管与多阶段城堡扩建](https://www.ponferrada.org/turismo/es/monumentos/castillo-templarios) |
-| camino / `camino-villafranca` | 门面的石刻与屋顶的木构 | [卡斯蒂利亚—莱昂官方旅游：villafranca-del-bierzo](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/villafranca-del-bierzo) |
-| camino / `camino-cebreiro` | 草顶民居怎样适应山地生活 | [加利西亚博物馆系统：O Cebreiro草顶民居与山地生活](https://museos.xunta.gal/es/cebreiro) |
-| camino / `camino-triacastela` | 旧医院与石灰石，把小镇连向座堂工程 | [加利西亚官方路线：Triacastela—San Xil与Samos分支](https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-san-xil) |
-| camino / `camino-san-xil` | 林荫旧道、现代泉与耕作聚落 | [Fundación ONCE：San Xil旧道、树种、村落与路面变化](https://caminodesantiago.fundaciononce.es/es/etapas/etapa-c27-triacastela-sarria-camino-de-santiago-frances) |
-| camino / `camino-sarria` | Calle Mayor上的旧城与跨时代教堂 | [Lugo省旅游机构：Sarria旧城、教堂、修院与河岸](https://turismo.deputacionlugo.gal/es/conece/cidades/sarria) |
-| camino / `camino-portomarin` | 水库迁镇后，石块重新组成的教堂 | [Portomarín市政府：San Xoán/San Nicolás结构、雕刻与迁建](https://concellodeportomarin.es/igrexa-san-xoan/) |
-| camino / `camino-palas` | 田牧与橡栗林之间，另访Pambre城堡 | [Xunta百科：Palas de Rei地形、河流、橡栗林与田牧地](https://egu.xunta.gal/gl/termo/162269/palas-de-rei) |
-| camino / `camino-melide` | 1949年礼拜堂里的中世纪门面 | [Melide官方旅游：1949年San Roque礼拜堂与迁用中世纪构件](https://www.turismomelide.com/index.php/es/descubre-melide/que-ver-en-melide/capilla-de-san-roque) |
-| camino / `camino-arzua` | 从奶酪产区读河桥与旧医院 | [Xunta百科：Arzúa-Ulloa产区与奶酪类型](https://egu.xunta.gal/es/termo/79203/arzua-ulloa) |
-| camino / `camino-pedrouzo` | 在Arca看方形粮仓与仍在使用的聚落 | [GDR Ulla Tambre Mandeo地方发展组织：Arca教堂、方形粮仓与聚落](https://gdrullatambremandeo.gal/turismo/rutas-ao-volante/ruta-del-ulla/) |
-| camino / `camino-santiago` | 在终点分开看石雕、后世立面与朝圣收藏 | [圣地亚哥座堂：Maestro Mateo与Pórtico de la Gloria](https://catedraldesantiago.es/portico-de-la-gloria/) |
+| polo / `polo-venice` | 从潟湖港口进入一位商人的世界 | [威尼斯MUVE：2024年马可波罗展策展档案](https://palazzoducale.visitmuve.it/en/exhibition/the-worlds-of-marco-polo/) |
+| polo / `polo-acre` | 在港城上下两层，读东方旅行的序章 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · 序章威尼斯—阿卡](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0089.html.en) |
+| polo / `polo-tabriz` | 从拱顶市场理解Tauris的贸易叙述 | [UNESCO世界遗产中心：大不里士活态集市及1780年地震后建造](https://whc.unesco.org/en/list/1346/) |
+| polo / `polo-yazd` | 把丝织记述放回节水的沙漠城市 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Iasd与Cherman](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0126.html.en) |
+| polo / `polo-kerman` | 从工艺叙述走进市场、浴室与院落 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Iasd与Cherman](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0126.html.en) |
+| polo / `polo-hormuz` | 香料、织物与象牙在海陆之间换手 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Curmos港贸易](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0131.html.en) |
+| polo / `polo-balkh` | 从土城墙、塔丘到残存的砖与灰泥 | [阿富汗文保部门提交UNESCO：巴尔赫预备名单](https://whc.unesco.org/en/tentativelists/1928/) |
+| polo / `polo-kashgar` | 棉作、果园与市场：看绿洲如何支持交易 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Cascar与Samarcan](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0151.html.en) |
+| polo / `polo-hotan` | 从棉作果园读到织造、玉作与绿洲生活 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Cotan](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0154.html.en) |
+| polo / `polo-dunhuang` | 从沙州宗教叙述，走向洞窟里的供养人与山水 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · 沙州段宗教生活续页](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0159.html.en) |
+| polo / `polo-zhangye` | 把巨大卧像的记述与今天的大佛寺分开对看 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · 甘州段造像与宗教生活续页](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0167.html.en) |
+| polo / `polo-samarkand` | 一则柱石传说，与多层城市遗迹分别阅读 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · 撒马尔罕的传述故事](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0152.html.en) |
+| polo / `polo-shangdu` | 在草地上的城址，读宫廷、苑囿与水利 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Ciandu宫殿与苑囿](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0193.html.en) |
+| polo / `polo-beijing` | 从汗八里文字走向北土城的土墙遗迹 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Cambaluc宫殿](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0215.html.en) |
+| polo / `polo-xian` | 从桑树与织作，读关中城市的生产背景 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Quengianfu](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0271.html.en) |
+| polo / `polo-yangzhou` | 把任职叙述与运河、盐业的具体对象分开 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Yangiu与任职叙述](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0324.html.en) |
+| polo / `polo-suzhou` | 从桥和手艺，走进水石与建筑的微缩世界 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Sugiu与桥梁、工艺](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0333.html.en) |
+| polo / `polo-hangzhou` | 市场、河道与湖上观看，共同构成行在 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Quinsai市场、河道与仓储](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0336.html.en) |
+| polo / `polo-quanzhou` | 刺桐的货单背后，是生产、交通与信仰系统 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Çaiton港、货物与关税](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0359.html.en) |
+| polo / `polo-sumatra` | 季风等待与岛屿生态，是两种真实的尺度 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Sumatra季风停留叙述](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0381.html.en) |
+| polo / `polo-srilanka` | 从山峰的多种解释，读高地森林与朝圣景观 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Seilan山峰与不同信仰叙述](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0415.html.en) |
+| polo / `polo-japan` | 黄金宫殿是传闻，沉船遗物提供另一类证据 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Çipingu与黄金宫殿的转述](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0365.html.en) |
+| polo / `polo-genoa` | 在圣乔治宫前，区分成书传统与确知建筑 | [法国国家图书馆：《世界描述》作品与版本记录](https://catalogue.bnf.fr/ark:/12148/cb13592024s) |
 
 已合并批次的CI、截图Library身份与公网字节核对见[交付证据](qa/content-quality/deliveries.json)。该文件只记录已经验证的历史发布，未列入的本地/PR批次仍应查对应CI状态。
 
 ## 已明确仍需研究
 
 - `tea-rasuwa`：官方海关史PDF本轮返回503；现有移民机关与灾情门户不能代替古道或堡垒遗存证据，继续待研究，不用通关提示凑篇幅。
-- `silk-tashkent`、`silk-bukhara`：需要把贸易、学术关联落到具体建筑与街区。
-- 徐霞客、马可波罗、丝路等仍有较多候选；法国之路43处完成本批资料补充，不等于实地通行认证，按可见行程与明确薄弱点优先继续。安第斯Desaguadero–Titijoni与Tiwanacu已有展开但构筑物证据仍欠专门研究，不能因字数或无信号视作完成。
+- `silk-tashkent`、`silk-bukhara`的已记录缺口在第十一批按具体遗址、市场与经学院补充；此结论只适用于silk语境，不清除另一个旅行者语境的未审状态。
+- 徐霞客24个原候选已补专属阅读，不能等同所有游记地名已定位；马可波罗23个原候选已分章补充，未完成全书版本校勘或独立行踪认证；丝路25个原候选已补专属阅读，原已有较实用说明的突厥斯坦等仍需后续同等深度复核；法国之路43处完成本批资料补充，不等于实地通行认证，按可见行程与明确薄弱点优先继续。安第斯Desaguadero–Titijoni与Tiwanacu已有展开但构筑物证据仍欠专门研究，不能因字数或无信号视作完成。
 
 ## 质量方法与复核文件
 
@@ -95,10 +81,15 @@
 
 | 判断 | 数量 |
 | --- | ---: |
-| still-automatic-candidate | 91 |
-| useful-concise | 5 |
+| researched-batch-10 | 23 |
 | researched-batch-2 | 22 |
 | researched-batch-3 | 18 |
+| still-automatic-candidate | 1 |
+| researched-batch-11 | 15 |
+| researched-batch-12 | 10 |
+| researched-batch-14 | 12 |
+| researched-batch-15 | 11 |
+| researched-batch-13 | 24 |
 | researched-batch-7 | 11 |
 | researched-batch-8 | 21 |
 | researched-batch-9 | 10 |
@@ -114,14 +105,14 @@
 
 | 主题ID | 名称 | 入口 | 语境 | 自动候选 | 人工判断 |
 | --- | --- | --- | ---: | ---: | ---: |
-| `nature` | 世界自然遗产 | 可见 | 282 | 4 | 1 |
-| `culture` | 世界文化遗产 | 可见 | 1033 | 19 | 4 |
+| `nature` | 世界自然遗产 | 可见 | 282 | 0 | 4 |
+| `culture` | 世界文化遗产 | 可见 | 1033 | 0 | 19 |
 | `gorges` | 三峡古镇 | 可见 | 6 | 0 | 6 |
 | `parks` | 美国国家公园 | 可见 | 63 | 0 | 0 |
 | `tea` | 茶马古道 | 可见 | 20 | 1 | 20 |
-| `silk` | 丝绸之路 | 可见 | 26 | 25 | 2 |
-| `polo` | 马可波罗游记 | 可见 | 23 | 23 | 0 |
-| `xu` | 徐霞客全国游踪 | 可见 | 24 | 24 | 0 |
+| `silk` | 丝绸之路 | 可见 | 26 | 0 | 25 |
+| `polo` | 马可波罗游记 | 可见 | 23 | 0 | 23 |
+| `xu` | 徐霞客全国游踪 | 可见 | 24 | 0 | 24 |
 | `kumano` | 熊野古道 | 可见 | 6 | 0 | 6 |
 | `camino` | 圣地亚哥朝圣之路 | 可见 | 43 | 0 | 43 |
 | `nakasendo` | 中山道 | 可见 | 9 | 0 | 9 |

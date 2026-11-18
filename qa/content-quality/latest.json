@@ -3,29 +3,34 @@
   "baseline": "27bd4fe441008c13a05d34beaf725923575812d1",
   "method": "All production data scripts in index order; every registered place/theme context. UI-only app/flow excluded. Signals are triage, not factual verdicts. Manual reviews are content-hash bound; sources not fetched automatically.",
   "summary": {
-    "visibleItineraryUnresolvedCandidatePlaces": 52,
-    "unresolvedCandidatePlaces": 91,
+    "visibleItineraryUnresolvedCandidatePlaces": 1,
+    "unresolvedCandidatePlaces": 1,
     "places": 2010,
     "internalThemes": 130,
     "visibleThemes": 77,
     "plans": 330,
     "placeThemeContexts": 2218,
     "plannedPlaces": 766,
-    "automaticCandidatePlaces": 96,
-    "automaticCandidateContexts": 96,
-    "visibleItineraryCandidatePlaces": 53,
+    "automaticCandidatePlaces": 1,
+    "automaticCandidateContexts": 1,
+    "visibleItineraryCandidatePlaces": 1,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 151,
-    "manualResearchedPlaces": 143,
-    "manualUsefulConcisePlaces": 5,
-    "manualNeedsResearchPlaces": 3,
+    "manualReviewedContexts": 239,
+    "manualResearchedPlaces": 238,
+    "manualUsefulConcisePlaces": 0,
+    "manualNeedsResearchPlaces": 1,
     "staleReviews": 0,
     "legacyCandidates": 226,
     "legacyComparisonCounts": {
-      "still-automatic-candidate": 91,
-      "useful-concise": 5,
+      "researched-batch-10": 23,
       "researched-batch-2": 22,
       "researched-batch-3": 18,
+      "still-automatic-candidate": 1,
+      "researched-batch-11": 15,
+      "researched-batch-12": 10,
+      "researched-batch-14": 12,
+      "researched-batch-15": 11,
+      "researched-batch-13": 24,
       "researched-batch-7": 11,
       "researched-batch-8": 21,
       "researched-batch-9": 10,
@@ -237,7 +242,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "54c11ef766bd22b71ea625085155f4ed3db28a28745b3caaa5616ed1cbc78817",
+      "sha256": "9bd2532c4966f4721b4932f39939052f80044758255ee1c8ba5d0385945c2841",
       "executed": true
     },
     {
@@ -257,16 +262,16 @@
       "name": "世界自然遗产",
       "visible": true,
       "contexts": 282,
-      "automaticCandidates": 4,
-      "manuallyReviewed": 1
+      "automaticCandidates": 0,
+      "manuallyReviewed": 4
     },
     {
       "id": "culture",
       "name": "世界文化遗产",
       "visible": true,
       "contexts": 1033,
-      "automaticCandidates": 19,
-      "manuallyReviewed": 4
+      "automaticCandidates": 0,
+      "manuallyReviewed": 19
     },
     {
       "id": "gorges",
@@ -297,24 +302,24 @@
       "name": "丝绸之路",
       "visible": true,
       "contexts": 26,
-      "automaticCandidates": 25,
-      "manuallyReviewed": 2
+      "automaticCandidates": 0,
+      "manuallyReviewed": 25
     },
     {
       "id": "polo",
       "name": "马可波罗游记",
       "visible": true,
       "contexts": 23,
-      "automaticCandidates": 23,
-      "manuallyReviewed": 0
+      "automaticCandidates": 0,
+      "manuallyReviewed": 23
     },
     {
       "id": "xu",
       "name": "徐霞客全国游踪",
       "visible": true,
       "contexts": 24,
-      "automaticCandidates": 24,
-      "manuallyReviewed": 0
+      "automaticCandidates": 0,
+      "manuallyReviewed": 24
     },
     {
       "id": "kumano",
@@ -1304,13 +1309,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-976",
@@ -1322,13 +1327,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-1011",
@@ -1340,13 +1345,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-987",
@@ -1358,13 +1363,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "useful-concise",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "useful-concise"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-474",
@@ -1376,13 +1381,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-579",
@@ -1394,13 +1399,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "useful-concise",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "useful-concise"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-871",
@@ -1412,13 +1417,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-698",
@@ -1430,13 +1435,13 @@
       "contexts": [
         {
           "theme": "nature",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-708",
@@ -1448,13 +1453,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-648",
@@ -1466,13 +1471,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-556",
@@ -1484,13 +1489,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-492",
@@ -1502,13 +1507,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-606",
@@ -1520,13 +1525,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-583",
@@ -1538,13 +1543,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "useful-concise",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "useful-concise"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-509",
@@ -1556,13 +1561,13 @@
       "contexts": [
         {
           "theme": "nature",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-484",
@@ -1574,13 +1579,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-434",
@@ -1592,13 +1597,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-401",
@@ -1610,13 +1615,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-230",
@@ -1628,13 +1633,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "useful-concise",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "useful-concise"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-186",
@@ -1646,13 +1651,13 @@
       "contexts": [
         {
           "theme": "nature",
-          "status": "useful-concise",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "useful-concise"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-195",
@@ -1664,13 +1669,13 @@
       "contexts": [
         {
           "theme": "nature",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-135",
@@ -1682,13 +1687,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-86",
@@ -1700,13 +1705,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "dachang",
@@ -2171,13 +2176,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-istanbul",
@@ -2189,13 +2194,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-tabriz",
@@ -2207,13 +2212,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-isfahan",
@@ -2225,13 +2230,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-yazd",
@@ -2243,13 +2248,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-kerman",
@@ -2261,13 +2266,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-hormuz",
@@ -2279,13 +2284,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-merv",
@@ -2297,13 +2302,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-bukhara",
@@ -2315,13 +2320,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-samarkand",
@@ -2333,13 +2338,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-khiva",
@@ -2351,13 +2356,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-tashkent",
@@ -2369,13 +2374,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-kashgar",
@@ -2387,13 +2392,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-hotan",
@@ -2405,13 +2410,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-kuqa",
@@ -2423,13 +2428,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-turpan",
@@ -2441,13 +2446,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-dunhuang",
@@ -2459,13 +2464,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-jiayuguan",
@@ -2477,13 +2482,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-zhangye",
@@ -2495,13 +2500,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-wuwei",
@@ -2513,13 +2518,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-xian",
@@ -2531,13 +2536,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-luoyang",
@@ -2549,13 +2554,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-hangzhou",
@@ -2572,13 +2577,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-quanzhou",
@@ -2590,13 +2595,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-guangzhou",
@@ -2608,13 +2613,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "polo-venice",
@@ -2626,13 +2631,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-14",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-14"
     },
     {
       "id": "polo-acre",
@@ -2644,13 +2649,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-14",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-14"
     },
     {
       "id": "polo-tabriz",
@@ -2662,13 +2667,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-14",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-14"
     },
     {
       "id": "polo-yazd",
@@ -2680,13 +2685,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-14",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-14"
     },
     {
       "id": "polo-kerman",
@@ -2698,13 +2703,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-14",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-14"
     },
     {
       "id": "polo-hormuz",
@@ -2716,13 +2721,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-14",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-14"
     },
     {
       "id": "polo-balkh",
@@ -2734,13 +2739,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-14",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-14"
     },
     {
       "id": "polo-kashgar",
@@ -2752,13 +2757,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-14",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-14"
     },
     {
       "id": "polo-hotan",
@@ -2770,13 +2775,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-14",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-14"
     },
     {
       "id": "polo-dunhuang",
@@ -2788,13 +2793,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-14",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-14"
     },
     {
       "id": "polo-zhangye",
@@ -2806,13 +2811,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-14",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-14"
     },
     {
       "id": "polo-shangdu",
@@ -2824,13 +2829,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-15",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-15"
     },
     {
       "id": "polo-beijing",
@@ -2844,13 +2849,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-15",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-15"
     },
     {
       "id": "polo-xian",
@@ -2862,13 +2867,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-15",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-15"
     },
     {
       "id": "polo-yangzhou",
@@ -2880,13 +2885,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-15",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-15"
     },
     {
       "id": "polo-suzhou",
@@ -2901,13 +2906,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-15",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-15"
     },
     {
       "id": "polo-hangzhou",
@@ -2919,13 +2924,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-15",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-15"
     },
     {
       "id": "polo-quanzhou",
@@ -2937,13 +2942,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-15",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-15"
     },
     {
       "id": "polo-sumatra",
@@ -2955,13 +2960,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-15",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-15"
     },
     {
       "id": "polo-srilanka",
@@ -2973,13 +2978,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-15",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-15"
     },
     {
       "id": "polo-samarkand",
@@ -2991,13 +2996,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-14",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-14"
     },
     {
       "id": "polo-japan",
@@ -3009,13 +3014,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-15",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-15"
     },
     {
       "id": "polo-genoa",
@@ -3027,13 +3032,13 @@
       "contexts": [
         {
           "theme": "polo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-15",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-15"
     },
     {
       "id": "xu-tiantai",
@@ -3045,13 +3050,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-yandang",
@@ -3063,13 +3068,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-qiyun",
@@ -3081,13 +3086,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-huangshan",
@@ -3099,13 +3104,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-wuyi",
@@ -3117,13 +3122,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-lushan",
@@ -3135,13 +3140,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-kaifeng",
@@ -3153,13 +3158,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-zhengzhou",
@@ -3171,13 +3176,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-xinmi",
@@ -3189,13 +3194,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-songshan",
@@ -3207,13 +3212,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-shaolin",
@@ -3225,13 +3230,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-longmen",
@@ -3243,13 +3248,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-huashan",
@@ -3261,13 +3266,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-wudang",
@@ -3279,13 +3284,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-beijing",
@@ -3297,13 +3302,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-wutai",
@@ -3315,13 +3320,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-hengshan",
@@ -3333,13 +3338,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-jizu",
@@ -3351,13 +3356,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-lijiang",
@@ -3369,13 +3374,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-jianchuan",
@@ -3387,13 +3392,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-eryuan",
@@ -3405,13 +3410,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-dali",
@@ -3423,13 +3428,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-baoshan",
@@ -3441,13 +3446,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "xu-tengchong",
@@ -3459,13 +3464,13 @@
       "contexts": [
         {
           "theme": "xu",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-13",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-13"
     },
     {
       "id": "kumano-takahara",
@@ -6026,9 +6031,9 @@
         },
         {
           "id": "wh-230",
-          "status": "useful-concise",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-10",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -6275,9 +6280,9 @@
         },
         {
           "id": "wh-86",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-10",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
@@ -7382,37 +7387,37 @@
       "contexts": [
         {
           "id": "silk-xian",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-wuwei",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-zhangye",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-jiayuguan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-dunhuang",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7431,30 +7436,30 @@
       "contexts": [
         {
           "id": "silk-tashkent",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-samarkand",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-bukhara",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-khiva",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7473,30 +7478,30 @@
       "contexts": [
         {
           "id": "silk-turpan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-kuqa",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-kashgar",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-hotan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7514,23 +7519,23 @@
       "contexts": [
         {
           "id": "silk-hangzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-quanzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-guangzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7547,16 +7552,16 @@
       "contexts": [
         {
           "id": "silk-quanzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-guangzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7577,44 +7582,44 @@
       "contexts": [
         {
           "id": "polo-beijing",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "polo-xian",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "polo-yangzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "polo-suzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "polo-hangzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "polo-quanzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7633,30 +7638,30 @@
       "contexts": [
         {
           "id": "polo-yangzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "polo-suzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "polo-hangzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "polo-quanzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7674,23 +7679,23 @@
       "contexts": [
         {
           "id": "polo-yangzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "polo-suzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "polo-hangzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7707,16 +7712,16 @@
       "contexts": [
         {
           "id": "polo-venice",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-14",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "polo-genoa",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-15",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7733,16 +7738,16 @@
       "contexts": [
         {
           "id": "polo-dunhuang",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-14",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "polo-zhangye",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-14",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7759,16 +7764,16 @@
       "contexts": [
         {
           "id": "xu-tiantai",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-yandang",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7786,23 +7791,23 @@
       "contexts": [
         {
           "id": "xu-qiyun",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-huangshan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-wuyi",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7819,16 +7824,16 @@
       "contexts": [
         {
           "id": "xu-lushan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-huangshan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7851,58 +7856,58 @@
       "contexts": [
         {
           "id": "xu-kaifeng",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-zhengzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-xinmi",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-songshan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-shaolin",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-longmen",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-huashan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-wudang",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7920,23 +7925,23 @@
       "contexts": [
         {
           "id": "xu-beijing",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-wutai",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-hengshan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7958,51 +7963,51 @@
       "contexts": [
         {
           "id": "xu-jizu",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-lijiang",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-jianchuan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-eryuan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-dali",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-baoshan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "xu-tengchong",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-13",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
