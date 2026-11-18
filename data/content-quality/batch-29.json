@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-29",
+  "baseline": "9ad1b7cb9e18490c8caf90ed8f07fbbf88090b12",
+  "checked": "2026-11-18",
+  "scope": "Four existing visible natural catalogue contexts selected for actual errors despite long descriptions: geological age, King versus Emperor Penguins, Colombia location and Indigenous/access context, and plateau/complete-route qualifiers. Source-bound display corrections preserve raw records; no new places, media or route changes.",
+  "sources": {
+    "cq29-barberton": {
+      "title": "UNESCO：早期地球岩层的英法文与突出普遍价值",
+      "url": "https://whc.unesco.org/en/list/1575/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read, original Chinese paraphrase; no image reuse. Cross-check current English/French 3.6–3.25Ga and OUV, do not adopt Chinese3.6–2.5Ga or 0.46–0.38Ga heavybombardment mistranslation. Rock record not modernmountainage; no live roadaccess claim."
+    },
+    "cq29-austral-unesco": {
+      "title": "UNESCO：南印度洋岛屿、王企鹅与海洋食物网",
+      "url": "https://whc.unesco.org/en/list/1603/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read, original Chinese paraphrase; no image reuse. EnglishKingPenguins/Frenchmanchotsroyaux correct ChineseEmperorPenguins. Read ocean fronts/shelves and islandseabirdrelation; omit maximumcolony rank and fixed totalarea/population."
+    },
+    "cq29-austral-penguin": {
+      "title": "TAAF：追踪王企鹅的生活",
+      "url": "https://taaf.fr/ressources-pedagogiques/suivre-la-vie-dun-manchot-royal/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read, original Chinese paraphrase; no image reuse. Read sea-foraging and Crozet/Kerguelen reproduction; use learningresources, not wildlifevisitguarantee."
+    },
+    "cq29-austral-observatory": {
+      "title": "TAAF：生物多样性观测与人的足迹",
+      "url": "https://taaf.fr/missions-et-activites/protection-de-lenvironnement/observatoire-territorial-de-la-biodiversite/iles-australes/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read, original Chinese paraphrase; no image reuse. Read monitoring and bases PortauxFrançais/AlfredFaure/MartindeViviès; no claim absent humanimpact or present populationtrend from2019alone."
+    },
+    "cq29-austral-access": {
+      "title": "TAAF：岛屿进入与锚泊说明",
+      "url": "https://taaf.fr/acceder-aux-territoires/demandes-dactivites-et-dacces/acces-et-mouillage-dans-les-australes/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read, original Chinese paraphrase; no image reuse. Read only general tightlyregulated access, not a visa/legal checklist or navigational coordinates. Checked2026-11-18; do not promise landing."
+    },
+    "cq29-chiri-unesco": {
+      "title": "UNESCO：砂岩桌山、岩画与生态联系",
+      "url": "https://whc.unesco.org/en/list/1174/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read, original Chinese paraphrase; no image reuse. Read OUV southcentralColombia, GuianaShield and rockartinterpretedmeanings. Do not repeat Chinese northwestColombia error, blanketallpaintings20ka date or absoluteabsenceofIndigenouspeople."
+    },
+    "cq29-chiri-pnnc": {
+      "title": "哥伦比亚国家公园：奇里比克特及保护说明",
+      "url": "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-serrania-de-chiribiquete/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read, original Chinese paraphrase; no image reuse. Read Caquetá/Guaviare, isolatedIndigenouspeople, landscapeconnectivity and SinEcoturismo. No invented visitorroute, landingoroverflight booking; checked2026-11-18."
+    },
+    "cq29-hohxil": {
+      "title": "UNESCO：可可西里湖盆、迁徙与保护",
+      "url": "https://whc.unesco.org/en/list/1540/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read, original Chinese paraphrase; no image reuse. Read OUV/Frenchclarify superlative refers QinghaiTibetanPlateau, not HohXil standalone. Read onecompleteSanjiangyuan-HohXilroute, not all routes onplateau. Omit oldendangeredstatus/population and yearroundsubzeroasdailytemperature."
+    }
+  },
+  "readings": [
+    {
+      "id": "wh-1575",
+      "theme": "nature",
+      "title": "巴伯顿—玛空瓦：沿岩层读取早期地球",
+      "summary": "巴伯顿—玛空瓦保存约36亿至32.5亿年前的火山岩与沉积岩序列，记录早期海洋、火山、大陆形成和生命环境。这里的价值在相邻露头彼此补充；沿露头比较熔岩和沉积层，可将眼前山坡放回更久远的地球历史。",
+      "catalogueDescription": "巴伯顿—玛空瓦保存约36亿至32.5亿年前的火山岩与沉积岩序列，记录早期海洋、火山、大陆形成和生命环境。这里的价值在相邻露头彼此补充；沿露头比较熔岩和沉积层，可将眼前山坡放回更久远的地球历史。",
+      "paragraphs": [
+        {
+          "heading": "比较岩层怎样记录不同过程",
+          "text": "熔岩与沉积物留下相互衔接的岩层，部分露头保留早期海水、空气成分及陨石撞击的信息。把不同岩性和层位放在一起，才能理解它们提供的早期地球证据，而不是只挑一块最古老的石头拍照。",
+          "sourceKeys": [
+            "cq29-barberton"
+          ]
+        },
+        {
+          "heading": "保存状态为何与年代同样重要",
+          "text": "大量花岗岩体包围和后来的沉积层覆盖，帮助这段古老记录较少受到变质和侵蚀破坏。相邻露头的多样性与相对完整性使地层能够互相校验；岩石形成时间、后来的构造变化与今天看到的山坡应分别理解。",
+          "sourceKeys": [
+            "cq29-barberton"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq29-barberton"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1603",
+      "theme": "nature",
+      "title": "法属南方领地：王企鹅的陆上繁殖与海上食物网",
+      "summary": "克罗泽、凯尔盖朗、圣保罗与阿姆斯特丹等岛屿及海域，把火山地貌、王企鹅与信天翁的繁殖地同海洋食物网连在一起。王企鹅在陆上繁殖、海中觅食，让岛屿与海域成为相互依赖的整体，可沿官方教育资料追踪这种往返。",
+      "catalogueDescription": "克罗泽、凯尔盖朗、圣保罗与阿姆斯特丹等岛屿及海域，把火山地貌、王企鹅与信天翁的繁殖地同海洋食物网连在一起。王企鹅在陆上繁殖、海中觅食，让岛屿与海域成为相互依赖的整体，可沿官方教育资料追踪这种往返。",
+      "paragraphs": [
+        {
+          "heading": "海面上的岛屿只是生态联系的一部分",
+          "text": "洋锋与大陆架有利于生产力和食物网形成，海鸟、海兽又依靠稀少陆地繁殖、休息。TAAF的王企鹅教育资料从克罗泽和凯尔盖朗的繁殖讲起，再联系海上觅食；保护的不只是陆上聚群的一瞬间。",
+          "sourceKeys": [
+            "cq29-austral-unesco",
+            "cq29-austral-penguin"
+          ]
+        },
+        {
+          "heading": "遥远不等于没有人的管理",
+          "text": "Port-aux-Français、Alfred-Faure和Martin-de-Viviès等基地支持观测，管理者也研究人的足迹。地图区域不是可自由登陆的岛屿清单：TAAF对进入和锚泊有严格管理，许多区域不开放；可先通过官方观测和教育资料认识这片海域。",
+          "sourceKeys": [
+            "cq29-austral-observatory",
+            "cq29-austral-access"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq29-austral-unesco",
+        "cq29-austral-penguin",
+        "cq29-austral-observatory",
+        "cq29-austral-access"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1174",
+      "theme": "nature",
+      "title": "奇里比克特：砂岩桌山、岩画与仍在生活的土地",
+      "summary": "奇里比克特位于哥伦比亚卡克塔和瓜维亚雷地区，砂岩桌山从森林中突起，岩棚绘画承载人与山林的关系。这里也保护自愿隔离的原住民族群，不能因地图上偏远就当作无人之地；公园不发展生态旅游，可通过官方出版资料展开认识。",
+      "catalogueDescription": "奇里比克特位于哥伦比亚卡克塔和瓜维亚雷地区，砂岩桌山从森林中突起，岩棚绘画承载人与山林的关系。这里也保护自愿隔离的原住民族群，不能因地图上偏远就当作无人之地；公园不发展生态旅游，可通过官方出版资料展开认识。",
+      "paragraphs": [
+        {
+          "heading": "桌山连接的不只是壮观轮廓",
+          "text": "这里处于亚马孙、安第斯山麓、奥里诺科与圭亚那地盾等环境的联系地带。陡壁砂岩台地、森林、季节性淹水稀树草原与淡水系统共同维系栖息地；岩棚中的绘画又让自然地形成为文化表达的载体。",
+          "sourceKeys": [
+            "cq29-chiri-unesco",
+            "cq29-chiri-pnnc"
+          ]
+        },
+        {
+          "heading": "读岩画，同时尊重不能进入的地方",
+          "text": "岩画中可辨狩猎、动物、舞蹈和仪式等题材，与美洲豹的关系属于研究解释，不应替每幅图断言同一年代或意义。PNNC明确不推广生态旅游，并以保护自愿隔离族群为优先；官方资料阅读不应被写成可前往岩棚探访的路线。",
+          "sourceKeys": [
+            "cq29-chiri-unesco",
+            "cq29-chiri-pnnc"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq29-chiri-unesco",
+        "cq29-chiri-pnnc"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1540",
+      "theme": "nature",
+      "title": "可可西里：高原湖盆与藏羚羊迁徙的关系",
+      "summary": "可可西里位于青藏高原东北部，高山草原、湖盆、湿地和冰雪融水构成相连的生态空间。遗产保护三江源与可可西里之间一条完整的藏羚羊迁徙路线；把湖岸、河网和季节迁徙放在一起看，能理解辽阔高原中的生命联系。",
+      "catalogueDescription": "可可西里位于青藏高原东北部，高山草原、湖盆、湿地和冰雪融水构成相连的生态空间。遗产保护三江源与可可西里之间一条完整的藏羚羊迁徙路线；把湖岸、河网和季节迁徙放在一起看，能理解辽阔高原中的生命联系。",
+      "paragraphs": [
+        {
+          "heading": "湖盆和融水构成动态地景",
+          "text": "高海拔的平缓地面、湖盆与周围山地共同组织水的去向，融水河道和湿地又连接多种湖泊状态。看颜色、岸线与河网时，可以理解持续变化的地貌与生态，而不是把开阔景象想成永远冻结不变的空白。",
+          "sourceKeys": [
+            "cq29-hohxil"
+          ]
+        },
+        {
+          "heading": "迁徙保护关乎一整段空间",
+          "text": "母藏羚羊迁往湖盆附近的产仔地，遗产范围保护三江源至可可西里之间的完整迁徙联系，也面对公路铁路穿越及气候变化等影响。可从连续栖息地和季节过程理解保护价值；这一说明不提供追随迁徙或偏离既定通道的探访线路。",
+          "sourceKeys": [
+            "cq29-hohxil"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq29-hohxil"
+      ],
+      "related": []
+    }
+  ]
+}
