@@ -480,6 +480,123 @@
         44388358784,
         44388359052
       ]
+    },
+    {
+      "batch": 23,
+      "pr": 49,
+      "mainCommit": "75a61e92328935b1ad0b01420568393750a4808e",
+      "headCommit": "91f815f416697cbded3fb67461d89ed826f52644",
+      "ciRuns": [
+        44391948893,
+        44391948955,
+        44391948847,
+        44391948800,
+        44391949026
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 321,
+        "detailChecks": 642,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 252,
+        "artifactId": 14468033003,
+        "zipSha256": "005849d7a610268d927e997be1f8b57770f75101427ece095fa3194a8f20f66d",
+        "libraryFileId": "libfile_fde3_f-f794d503dca48191a3a036bbc30ecdfb_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "mainCommit": "75a61e92328935b1ad0b01420568393750a4808e",
+        "run": 44397169764,
+        "verifyJob": 135130667961,
+        "release": "8b7b7c895bd0ca460843",
+        "actualAssetBytesMatched": 54,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Actual PNGs sampled after ZIP SHA/CRC/name validation; not manual inspection of every screenshot or all-site factual verification.",
+        "No physical phone or new image/coordinate changes; existing overview label density not certified resolved."
+      ]
+    },
+    {
+      "batch": 24,
+      "pr": 50,
+      "mainCommit": "1119752b7fb96470f88efd2f5224af0c233c7fbd",
+      "headCommit": "37f78d1710a14703e49339b7ab927a9ed040e1c8",
+      "ciRuns": [
+        44395653886,
+        44395653901,
+        44395653931,
+        44395653838,
+        44395653847
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 337,
+        "detailChecks": 674,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 284,
+        "artifactId": 14471340984,
+        "zipSha256": "d6a14c943cf96eef4c345075d7d0a8ad9cf3fe63087fa1c103441c821dc42fb3",
+        "libraryFileId": "libfile_fde3_f-e467852bdca481918f16c8af7eb65eae_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "mainCommit": "1119752b7fb96470f88efd2f5224af0c233c7fbd",
+        "run": 44399463652,
+        "verifyJob": 135138739661,
+        "release": "2864713d79ef22d21322",
+        "actualAssetBytesMatched": 54,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Actual PNGs sampled after ZIP SHA/CRC/name validation; not manual inspection of every screenshot or all-site factual verification.",
+        "No physical phone or new image/coordinate changes; existing overview label density not certified resolved."
+      ]
+    },
+    {
+      "batch": 25,
+      "pr": 51,
+      "mainCommit": "335932dbfc3b279f9640c28816a143f96d61c104",
+      "headCommit": "ef19e228344a0d22428403924b226dff647f8125",
+      "ciRuns": [
+        44396414693,
+        44396414726,
+        44396415017,
+        44396415300,
+        44396414720
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 354,
+        "detailChecks": 708,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 318,
+        "artifactId": 14471797735,
+        "zipSha256": "127f1cce54fdf1e017c1816d0c25d6406b0dbcf4bbe3f74007c25ce9f21833ab",
+        "libraryFileId": "libfile_fde3_f-bc6d1a2eb8a8819191967d6583894d85_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "mainCommit": "335932dbfc3b279f9640c28816a143f96d61c104",
+        "run": 44400496538,
+        "verifyJob": 135142419713,
+        "release": "14cfb643c99958be2ec8",
+        "actualAssetBytesMatched": 54,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Actual PNGs sampled after ZIP SHA/CRC/name validation; not manual inspection of every screenshot or all-site factual verification.",
+        "No physical phone or new image/coordinate changes; existing overview label density not certified resolved."
+      ]
     }
   ]
 }

@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-26",
+  "baseline": "335932dbfc3b279f9640c28816a143f96d61c104",
+  "checked": "2026-11-18",
+  "scope": "Ten existing visible catalogue park contexts without expanded reading, outside the completed98itinerary priority queue. Shorelines/islands/freshwater wetlands link geology, ecology, management and lived cultural landscapes. No new records, routes, images or coordinate changes; not field or full-site verification.",
+  "sources": {
+    "cq26-acad-1": {
+      "title": "NPS：山海、过渡林地与观景道路",
+      "url": "https://www.nps.gov/acad/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read selected natural/scenic design passages. Omit visitor numbers,absolute tallest rankings and live road access."
+    },
+    "cq26-bisc-1": {
+      "title": "NPS：红树林、海湾、群岛与礁区",
+      "url": "https://www.nps.gov/bisc/learn/nature/ecosystems.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read four interacting ecosystems. Omit reefsize ranking and current boat availability."
+    },
+    "cq26-bisc-2": {
+      "title": "NPS：水陆边缘群落",
+      "url": "https://www.nps.gov/bisc/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read ecotones and wind/currents/storms; no sightings guarantee."
+    },
+    "cq26-drto-1": {
+      "title": "NPS：杰斐逊堡与深水锚地",
+      "url": "https://www.nps.gov/drto/learn/historyculture/fort-jefferson.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read1846–75unfinishedfort, naval anchorage andresupply. Omit geopoliticalnaming, patrioticinterpretation and dynamic repair/access status."
+    },
+    "cq26-drto-2": {
+      "title": "NPS：沙岛、海域与过去使用",
+      "url": "https://www.nps.gov/drto/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read changingkeys andintroducedplant legacy. No inferred season ortransportbooking."
+    },
+    "cq26-ever-1": {
+      "title": "NPS：微小高差、群落与淡咸水",
+      "url": "https://www.nps.gov/ever/learn/nature/habitats.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read hammock/pineland/slough/marine-estuarine mosaic. Omit firstprotectionandextent rankings."
+    },
+    "cq26-ever-2": {
+      "title": "NPS：水、火与生态变化",
+      "url": "https://www.nps.gov/ever/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read water/fire/salinity/ecology; park context adapted separately from wh76, no duplicate physicaldestination claim."
+    },
+    "cq26-indu-1": {
+      "title": "NPS：大湖岸线、沙丘演替与湿地",
+      "url": "https://www.nps.gov/indu/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read olderdunes/vegetation andwindwave/lake changes; omit rank,speciescounts and dateprecision."
+    },
+    "cq26-isro-1": {
+      "title": "NPS：冰川岛群与湖盆",
+      "url": "https://www.nps.gov/isro/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read only island/glaciallandscape passages; do NOT adopt stale singlefemale ancestry/50%genetics ascurrent."
+    },
+    "cq26-isro-2": {
+      "title": "NPS：2018至2019年狼迁入行动",
+      "url": "https://www.nps.gov/articles/000/isle-royale-wolf-relocation.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read project timeline and genetic diversity rationale. Historicalactions not2026 population orwildlifeviewing guarantee."
+    },
+    "cq26-voya-1": {
+      "title": "NPS：古老岩体、冰川与湖泊",
+      "url": "https://www.nps.gov/voya/learn/nature/geology.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read rockformation/metamorphism/erosion/glacialexposure. Omit inconsistent2.7/2.8Ga blanketages andhalfEarthage ranking."
+    },
+    "cq26-voya-2": {
+      "title": "NPS：火、河狸与湿地恢复",
+      "url": "https://www.nps.gov/voya/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read foresttransition/wildrice/restoration. No wildlife oraurora guarantee."
+    },
+    "cq26-npsa-1": {
+      "title": "NPS：山脊雨林与海洋生境",
+      "url": "https://www.nps.gov/npsa/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read islandsandecosystem frame. Avoid inaccurate invasive crownofthorns label andresilienceoverclaim."
+    },
+    "cq26-npsa-2": {
+      "title": "NPS：共同土地、村落与萨摩亚生活",
+      "url": "https://www.nps.gov/npsa/learn/historyculture/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read lease/matai/faasamoa/pollination. Omit incorrect1993established date, oldestculture ranking andunqualified claimsunbrokenharmony."
+    },
+    "cq26-viis-1": {
+      "title": "NPS：森林、盐塘与海草床",
+      "url": "https://www.nps.gov/viis/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read selectedhabitatpassage; no dynamic speciescounts."
+    },
+    "cq26-viis-2": {
+      "title": "NPS：Annaberg与ReefBay生产遗构",
+      "url": "https://www.nps.gov/viis/learn/historyculture/places.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read windmill/animalmill/factory/enslavedquarters andlatermetal machinery; no copiedimage,currentaccess guarantee orerasureofslavery."
+    },
+    "cq26-cuva-1": {
+      "title": "NPS：河谷、旧田与冰川地形",
+      "url": "https://www.nps.gov/cuva/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read habitatmosaic/ravines/landuse, no fixedspeciescounts."
+    },
+    "cq26-cuva-2": {
+      "title": "NPS：运河、铁路与迁离/保护史",
+      "url": "https://www.nps.gov/cuva/learn/historyculture/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; concise original paraphrase, no image reuse. Read transport links,forcedremoval and1969fire northofpark. No claimfireatpark siteorcurrentrailservice."
+    }
+  },
+  "readings": [
+    {
+      "id": "np-acad",
+      "theme": "parks",
+      "title": "阿卡迪亚：花岗岩海岬与被设计的观景道路",
+      "summary": "阿卡迪亚把冰川塑形的花岗岩山体、湖盆、湿地与岩岸放在很近的距离内。沿海岬与林地比较岩面和植被，再留意马车道路如何组织视线，可以同时理解自然地形与人的观景设计；不必只追逐山顶日出。",
+      "catalogueDescription": "阿卡迪亚把冰川塑形的花岗岩山体、湖盆、湿地与岩岸放在很近的距离内。沿海岬与林地比较岩面和植被，再留意马车道路如何组织视线，可以同时理解自然地形与人的观景设计；不必只追逐山顶日出。",
+      "paragraphs": [
+        {
+          "heading": "沿岩岸辨认冰与海的接力",
+          "text": "冰川磨蚀的湖盆、谷地、漂砾与山脊，与后来持续受潮汐和风浪影响的海岸相连。比较山顶裸岩、坡脚湿地和卵石海滩，可以把一张静态海景拆成不同时间尺度的地貌过程。",
+          "sourceKeys": [
+            "cq26-acad-1"
+          ]
+        },
+        {
+          "heading": "道路和林缘提供另一种观看",
+          "text": "这里处于南北森林的过渡地带，沿海迁徙通道又让岛屿成为鸟类停歇地。历史车道与马车道路由景观设计者选择观景方向，把林地、山湖和海面串联；车辆道路与非机动车马车道路应按各自方式阅读。",
+          "sourceKeys": [
+            "cq26-acad-1"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq26-acad-1"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-bisc",
+      "theme": "parks",
+      "title": "比斯坎：从红树林岸边读到外海珊瑚礁",
+      "summary": "比斯坎的重点分布在水陆交界：大陆岸边红树林、海湾、岛礁和外侧珊瑚礁相互联系。可先辨岸边与浅海的不同环境，再理解鱼类、海龟等生命如何利用这些边缘；到达陆上入口不等于已看遍海上公园。",
+      "catalogueDescription": "比斯坎的重点分布在水陆交界：大陆岸边红树林、海湾、岛礁和外侧珊瑚礁相互联系。可先辨岸边与浅海的不同环境，再理解鱼类、海龟等生命如何利用这些边缘；到达陆上入口不等于已看遍海上公园。",
+      "paragraphs": [
+        {
+          "heading": "把四类环境放回相互位置",
+          "text": "NPS将大陆红树林岸、比斯坎湾、北端佛罗里达群岛和珊瑚礁区分别说明。观察岸线、海水与岛礁之间的距离和遮蔽关系，能理解它们的生境条件为何不同，而不是把所有蓝色水面都称为珊瑚礁。",
+          "sourceKeys": [
+            "cq26-bisc-1",
+            "cq26-bisc-2"
+          ]
+        },
+        {
+          "heading": "边缘地带也是生态联系",
+          "text": "不同生境交接形成丰富的生态过渡带，支持鱼类、海牛、海龟及鸟类等多种动物。风、海流和风暴不断改变这些环境；海面上的风景与水下礁体是不同的观看层次，具体水上活动需另作安排。",
+          "sourceKeys": [
+            "cq26-bisc-1",
+            "cq26-bisc-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq26-bisc-1",
+        "cq26-bisc-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-drto",
+      "theme": "parks",
+      "title": "干龟群岛：海港堡垒与珊瑚海域",
+      "summary": "干龟群岛的杰斐逊堡与周边浅滩、礁体和鸟类栖息地共同构成海上景观。看堡垒为什么围绕深水锚地而建，再看沙洲和海域怎样持续变化，能把工程、航运和生态放在一起；岛屿之间的海面不是公路转场。",
+      "catalogueDescription": "干龟群岛的杰斐逊堡与周边浅滩、礁体和鸟类栖息地共同构成海上景观。看堡垒为什么围绕深水锚地而建，再看沙洲和海域怎样持续变化，能把工程、航运和生态放在一起；岛屿之间的海面不是公路转场。",
+      "paragraphs": [
+        {
+          "heading": "从堡垒看深水港的位置",
+          "text": "杰斐逊堡的任务是支持使用港口的军舰，保护补给、维修与避风锚地，并非只靠炮火覆盖所有过往船只。19世纪长时间营建后堡垒仍未全部完成、也未完全配齐武装，砖墙与炮位可放回这一实际工程背景。",
+          "sourceKeys": [
+            "cq26-drto-1"
+          ]
+        },
+        {
+          "heading": "沙岛也有自然与使用历史",
+          "text": "群岛的沙质地形不断受海洋过程影响，礁鱼、珊瑚、海龟和鸟类共享周围海域。Garden与Loggerhead等较大岛上还可读到过去使用带来的植物差异，不能把岛上所有植被都当未经人改变的原始状态。",
+          "sourceKeys": [
+            "cq26-drto-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq26-drto-1",
+        "cq26-drto-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-ever",
+      "theme": "parks",
+      "title": "大沼泽地公园：微小高差、水流与盐度",
+      "summary": "大沼泽地的特色不只是见到鳄鱼：极小高差就能改变淹水时间，较干的林岛、松岩地、淡水洼地与海岸河口因此相邻。比较植被边界与水的去向，再读火和淡咸水变化，可以理解一片看似平缓的土地如何容纳多样生命。",
+      "catalogueDescription": "大沼泽地的特色不只是见到鳄鱼：极小高差就能改变淹水时间，较干的林岛、松岩地、淡水洼地与海岸河口因此相邻。比较植被边界与水的去向，再读火和淡咸水变化，可以理解一片看似平缓的土地如何容纳多样生命。",
+      "paragraphs": [
+        {
+          "heading": "让植被替地形标出高差",
+          "text": "阔叶林岛占据相对高处，淡水洼地承接主要水流，松岩地等群落又与火有密切关系。观察树冠、草地和水面的转换，能读到肉眼不易察觉的地面差别，而不只把整片湿地归为同一种沼泽。",
+          "sourceKeys": [
+            "cq26-ever-1",
+            "cq26-ever-2"
+          ]
+        },
+        {
+          "heading": "沿海边界并非淡水世界的尽头",
+          "text": "公园也包含红树林、海洋与河口生态，盐度和海平面变化会影响生境。水流恢复、外来物种管理和火的作用共同改变景观；这里不是一条水量永远恒定、植物带固定不动的天然水道。",
+          "sourceKeys": [
+            "cq26-ever-1",
+            "cq26-ever-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq26-ever-1",
+        "cq26-ever-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-indu",
+      "theme": "parks",
+      "title": "印第安纳沙丘：湖岸向内陆展开的生态剖面",
+      "summary": "密歇根湖南岸的沙丘并非只有沙滩，活动沙丘、较老沙脊、林地和丘间湿地形成连续对照。可从湖边向内陆读植被怎样定居，再看风浪与湖面波动怎样改造岸线；这些沙丘记录的是冰后大湖的演变，不是海滨地貌。",
+      "catalogueDescription": "密歇根湖南岸的沙丘并非只有沙滩，活动沙丘、较老沙脊、林地和丘间湿地形成连续对照。可从湖边向内陆读植被怎样定居，再看风浪与湖面波动怎样改造岸线；这些沙丘记录的是冰后大湖的演变，不是海滨地貌。",
+      "paragraphs": [
+        {
+          "heading": "从活动沙面走向较老沙脊",
+          "text": "NPS区分较年轻的活动岸带与内陆较老、长有稳定橡树林的沙丘群。草本、灌木、松林、橡树林和湿地的变化，帮助理解地表稳定与植物演替之间的联系，不需要把每一道沙脊想成同一次风暴堆成。",
+          "sourceKeys": [
+            "cq26-indu-1"
+          ]
+        },
+        {
+          "heading": "湖水仍在重写这条岸线",
+          "text": "风、浪、湖流、冰和风暴持续改变沙滩宽度与坡度，湖水位也会随降水和蒸发变化。南端湖岸又是迁徙鸟类取食和休息的地方；观察水陆边界时，沙丘植被与丘间湿地同样值得停留。",
+          "sourceKeys": [
+            "cq26-indu-1"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq26-indu-1"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-isro",
+      "theme": "parks",
+      "title": "皇家岛：冰川群岛与受到管理的狼鹿关系",
+      "summary": "皇家岛的林岸、内陆湖和山脊呈现冰川与岩体的关系，也承载长期的狼与驼鹿生态研究。可把群岛隔离、捕食和森林变化一起理解，再读2018至2019年的狼迁入行动；这里的生态从来不等于与人类决策完全无关。",
+      "catalogueDescription": "皇家岛的林岸、内陆湖和山脊呈现冰川与岩体的关系，也承载长期的狼与驼鹿生态研究。可把群岛隔离、捕食和森林变化一起理解，再读2018至2019年的狼迁入行动；这里的生态从来不等于与人类决策完全无关。",
+      "paragraphs": [
+        {
+          "heading": "先看山脊、湖盆与群岛形态",
+          "text": "冰川塑造了岛上的岩体地形及内陆湖、池塘和湿地，大岛之外还有许多小岛。比较狭长山脊、林岸和低处水面，能理解湖上群岛怎样成为一组有边界却持续变化的栖息地。",
+          "sourceKeys": [
+            "cq26-isro-1"
+          ]
+        },
+        {
+          "heading": "狼与驼鹿也是一段保护史",
+          "text": "NPS记录2018至2019年从大湖地区迁入狼，以恢复岛上的捕食者关系和遗传多样性。这一行动提醒读者区分长期生态研究与当代管理；较旧网页关于全部狼同源的说法不能当成现种群结论，历史迁入数量也不是今天的动物数。",
+          "sourceKeys": [
+            "cq26-isro-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq26-isro-1",
+        "cq26-isro-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-voya",
+      "theme": "parks",
+      "title": "旅行者公园：古老基岩、冰川湖泊与湿地变化",
+      "summary": "旅行者公园的湖水之间露出古老基岩，岩体形成、变质、侵蚀与冰川磨蚀共同构成地景。可近读岩面纹理，再看湖岸森林、湿地和河狸活动怎样连接水陆；夜空与水面很迷人，但脚下的地质也值得单独停留。",
+      "catalogueDescription": "旅行者公园的湖水之间露出古老基岩，岩体形成、变质、侵蚀与冰川磨蚀共同构成地景。可近读岩面纹理，再看湖岸森林、湿地和河狸活动怎样连接水陆；夜空与水面很迷人，但脚下的地质也值得单独停留。",
+      "paragraphs": [
+        {
+          "heading": "岩面先后经历了不同过程",
+          "text": "火山活动形成的岩体后来受抬升、褶皱、压力和加热影响，冰川再磨去较年轻覆盖层，露出花岗岩、混合岩和片岩等古老岩石。冰退后的水填入低地，才形成今天可辨认的湖泊与沼地组合。",
+          "sourceKeys": [
+            "cq26-voya-1"
+          ]
+        },
+        {
+          "heading": "森林与湿地仍在改变",
+          "text": "公园处于北方阔叶林向寒温带针叶林过渡的地区，火和河狸会改变局部生态。湿地恢复也关注野生稻与本土植被；把这些过程与岩岸、浅湾对看，比仅以几个观景点概括整片湖区更完整。",
+          "sourceKeys": [
+            "cq26-voya-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq26-voya-1",
+        "cq26-voya-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-npsa",
+      "theme": "parks",
+      "title": "美属萨摩亚：从雨林山脊看到村落与珊瑚海",
+      "summary": "美属萨摩亚公园的火山岛上，热带雨林从山脊延伸到海岸，外侧又与珊瑚礁相连。自然空间也属于萨摩亚村落生活和共同土地传统；看林冠、果蝠、海岸与村落关系，能理解保护区与当地社会如何一起延续。",
+      "catalogueDescription": "美属萨摩亚公园的火山岛上，热带雨林从山脊延伸到海岸，外侧又与珊瑚礁相连。自然空间也属于萨摩亚村落生活和共同土地传统；看林冠、果蝠、海岸与村落关系，能理解保护区与当地社会如何一起延续。",
+      "paragraphs": [
+        {
+          "heading": "雨林与礁体属于同一岛屿框架",
+          "text": "Tutuila、Taʻū和Ofu的山地、林地与周边海洋具有不同生境。果蝠参与授粉和传播种子，礁区又支持多样海洋生命；山上雨林与水下珊瑚不是同一种探访活动，却可以联系为完整的岛屿观察。",
+          "sourceKeys": [
+            "cq26-npsa-1",
+            "cq26-npsa-2"
+          ]
+        },
+        {
+          "heading": "村落不是公园景观之外的附属物",
+          "text": "公园通过向地方村落租地开展保护，共同土地与matai首领制度和fa’asamoa生活传统密切相关。采集、耕作和渔业也参与地方生活；参访应把居民的文化与土地关系当主体，不将村落或神圣地点当作任意进入的布景。",
+          "sourceKeys": [
+            "cq26-npsa-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq26-npsa-1",
+        "cq26-npsa-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-viis",
+      "theme": "parks",
+      "title": "维尔京群岛：海草、山林与种植园遗构",
+      "summary": "圣约翰岛的公园把干湿森林、盐塘、海草床和珊瑚礁连到一起，也保存种植园生产和强迫劳动的痕迹。可在海岸生态之外细看Annaberg的风车、工厂与居住遗构，理解今天的风景怎样承载殖民时代的劳动与社会关系。",
+      "catalogueDescription": "圣约翰岛的公园把干湿森林、盐塘、海草床和珊瑚礁连到一起，也保存种植园生产和强迫劳动的痕迹。可在海岸生态之外细看Annaberg的风车、工厂与居住遗构，理解今天的风景怎样承载殖民时代的劳动与社会关系。",
+      "paragraphs": [
+        {
+          "heading": "先比较山地到海面的生境",
+          "text": "陡坡山地与干湿森林向海岸下降，盐塘、红树林、海草床和珊瑚礁又各有条件。把海滩放在这一串环境中阅读，可以看到陆地植被与浅海生境的差异，而不是把岛屿只理解成一片白沙。",
+          "sourceKeys": [
+            "cq26-viis-1"
+          ]
+        },
+        {
+          "heading": "在制糖遗构中读劳动关系",
+          "text": "Annaberg的风车、畜力磨坊、工厂和被奴役者居住遗迹，可以用来理解制糖工序与殖民贸易。遗构的景观之美不应遮蔽强迫劳动、压迫和抵抗；Reef Bay的后期金属设备也提示种植园生产并非只有一个年代。",
+          "sourceKeys": [
+            "cq26-viis-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq26-viis-1",
+        "cq26-viis-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-cuva",
+      "theme": "parks",
+      "title": "凯霍加谷：自然河道、运河纤道与人的改造",
+      "summary": "凯霍加谷的河流穿过森林、湿地、耕地和恢复中的旧田，同时连接运河、铁路与城市休闲史。可先区分自然河道和俄亥俄—伊利运河纤道，再看不同坡谷与土地用途；保护区不是从未被使用过的城市外荒野。",
+      "catalogueDescription": "凯霍加谷的河流穿过森林、湿地、耕地和恢复中的旧田，同时连接运河、铁路与城市休闲史。可先区分自然河道和俄亥俄—伊利运河纤道，再看不同坡谷与土地用途；保护区不是从未被使用过的城市外荒野。",
+      "paragraphs": [
+        {
+          "heading": "沿河看地形和土地用途",
+          "text": "支沟把陡坡山谷的水引向蜿蜒河道，河岸生境与森林、湿地、耕地及不同恢复阶段的旧田交织。冰川改变过这片高原与低地相接的区域，今天的植被又记录长期使用与再生。",
+          "sourceKeys": [
+            "cq26-cuva-1"
+          ]
+        },
+        {
+          "heading": "纤道与铁路解释为何在这里停留",
+          "text": "俄亥俄—伊利运河和后来的谷地铁路加强了与克利夫兰、阿克伦的联系，农场、工业和休闲活动由此交叠。NPS也记录原住民被强迫迁离及居民争取保护的历史；1969年著名河流火灾发生在公园以北，不能移到园内当作原址。",
+          "sourceKeys": [
+            "cq26-cuva-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq26-cuva-1",
+        "cq26-cuva-2"
+      ],
+      "related": []
+    }
+  ]
+}
