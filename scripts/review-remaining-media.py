@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image,ImageDraw,ImageOps
 import io
 O=Path('qa/remaining-media');O.mkdir(parents=True,exist_ok=True)
-queries={'hemingway': 'intitle:Hemingway intitle:birthplace filetype:bitmap', 'marquez': 'intitle:Museo intitle:Aracataca filetype:bitmap', 'ketchum': 'intitle:Wood intitle:River intitle:Museum filetype:bitmap'}
+queries={'hobita': 'intitle:Brancusi intitle:house filetype:bitmap', 'ciasa': 'Ciäsa Granda filetype:bitmap', 'pouldu': 'intitle:Pouldu filetype:bitmap', 'tahiti': 'intitle:Tahiti intitle:Musée filetype:bitmap', 'chagallhouse': 'intitle:Chagall intitle:House filetype:bitmap', 'dvorakbirth': 'intitle:Dvořák intitle:dům filetype:bitmap', 'dvorakvysoka': 'Vysoká Antonína Dvořáka památník filetype:bitmap', 'remise': 'intitle:Mendelssohn intitle:Remise filetype:bitmap', 'puccinicelle': 'intitle:Celle intitle:Puccini filetype:bitmap', 'pucciniviareggio': 'Viareggio intitle:Puccini filetype:bitmap', 'villequier': 'Villequier Victor Hugo maison filetype:bitmap', 'trieste': 'intitle:Biserini filetype:bitmap', 'leonie': 'Proust Illiers maison filetype:bitmap', 'cabourg': 'intitle:Temps intitle:retrouvé filetype:bitmap', 'hemingway': 'intitle:Hemingway intitle:birthplace filetype:bitmap', 'marquez': 'intitle:Museo intitle:Aracataca filetype:bitmap', 'ketchum': 'intitle:Wood intitle:River intitle:Museum filetype:bitmap'}
 def get(u):return urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'TerraMosaic/1.0 (https://github.com/raeqi/world-travel-map)'}),timeout=30).read()
 def api(p):return json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(dict(format='json',**p))))
 rows=[];tiles=[]
