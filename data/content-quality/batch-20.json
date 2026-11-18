@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-20",
+  "baseline": "87628f9bdfa846f290806b3d8668a96fecf20f43",
+  "checked": "2026-11-18",
+  "scope": "Eighteen existing national-park contexts from the visible-itinerary/no-expanded-reading priority queue. Four adapt previously verified batch17 facts for distinct park contexts (not four new physical destinations); fourteen receive newly read NPS evidence. Original catalogue, photographs, coordinates, source links and itinerary topology preserved. No field visit or live-access certification.",
+  "sources": {
+    "cq20-islandfox": {
+      "title": "NPS：海岛狐的隔离种群与保护恢复",
+      "url": "https://www.nps.gov/chis/learn/nature/island-fox.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Six island subspecies are not all within the national park. Golden eagle predation and nonnative species changed ecology; breeding/release and removal actions are historical recovery, not guaranteed current visitor sightings. Omit disputed arrival origin and contradictory no-natural-predator wording."
+    },
+    "cq20-cong-forest": {
+      "title": "NPS：康加里洪泛森林的树与水",
+      "url": "https://www.nps.gov/cong/index.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read floodplain nutrients/sediment and cypress/tupelo image descriptions. No reuse of photos, no assertion cypress knees have one proven breathing function or that former champion remains current."
+    },
+    "cq20-cong-river": {
+      "title": "NPS：康加里牛轭湖与周期洪水",
+      "url": "https://www.nps.gov/rlc/ogbfrec/climatechangecongaree.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read oxbow/slough and sediment cycle; 2015 climate text is not current climate monitoring or a walking-access guarantee."
+    },
+    "cq20-teton": {
+      "title": "NPS：大提顿岩体、断层与冰川地形",
+      "url": "https://www.nps.gov/grte/learn/nature/geology.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read ancient rock vs later fault uplift, Moran dike, Cascade Canyon and glacial moraine/outwash vegetation. No earthquake prediction or exact recurrence/offset claim."
+    },
+    "cq20-smokies-forest": {
+      "title": "NPS：大烟山的植被梯度",
+      "url": "https://home.nps.gov/grsm/learn/nature/vegetation-types.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read elevation/aspect and named forest communities. Avoid equating all park forest with never-managed old growth or promising season colour."
+    },
+    "cq20-smokies-cove": {
+      "title": "NPS：Cades Cove聚落与历史建筑",
+      "url": "https://www.nps.gov/grsm/planyourvisit/cadescove.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read homesites, churches, barns, gristmill and Cherokee hunting use; no claim of proven large Cherokee settlement, current traffic arrangements or unchanged opening hours."
+    },
+    "cq20-kings": {
+      "title": "NPS：国王峡谷花岗质岩与冰川谷",
+      "url": "https://www.nps.gov/seki/learn/nature/geology_overview.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Use Kings Canyon-specific river, wide glacial valley, hanging valleys and granitic origin; not Sequoia's Moro Rock. Deepest-gorge superlative elsewhere is excluded."
+    },
+    "cq20-mammoth": {
+      "title": "NPS：猛犸洞的溶蚀、地下水位和通道",
+      "url": "https://home.nps.gov/maca/learn/nature/how-mammoth-cave-formed.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read carbonic acid dissolution, tubes/canyons/keyholes and old upper/lower active passages. Rock age differs from cave age; omit changing explored length and current tour availability."
+    },
+    "cq20-mammoth-cap": {
+      "title": "NPS：猛犸洞上部干通道与砂页岩盖层",
+      "url": "https://www.nps.gov/maca/planyourvisit/audio-tour.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read dry historic section, sandstone/shale above limestone and Gothic Avenue. Do not imply every cave area is dry or all tours visit every level."
+    },
+    "cq20-rainier": {
+      "title": "NPS：雷尼尔火山层与更古老的基底",
+      "url": "https://www.nps.gov/mora/learn/nature/geologicformations.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read composite cone, older base and named lava ridges. Omit simplified subduction slab-melting explanation and precise eruption dates."
+    },
+    "cq20-rainier-ice": {
+      "title": "NPS：雷尼尔熔岩与古冰川的相互作用",
+      "url": "https://www.nps.gov/mora/learn/nature/volcanic-features.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read ice-confined lava, cooling columns and exposed ridges at Longmire/Sunrise. No current eruption forecast or access assurance."
+    },
+    "cq20-nuttall": {
+      "title": "NPS：纳托尔堡矿业聚落与铁路",
+      "url": "https://www.nps.gov/neri/learn/historyculture/nuttallburg.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read 1873 railway, Ford lease and coal town; do not invent abandoned structures still complete or current road accessibility."
+    },
+    "cq20-nuttall-trails": {
+      "title": "NPS：纳托尔堡输煤、选煤与社区遗存",
+      "url": "https://home.nps.gov/neri/learn/historyculture/exploring-nuttallburg.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read headhouse/conveyor/tipple, friable coal, foundations and segregated neighborhoods. Trails vary in difficulty; no mine entry, active railway walking or timetable instruction."
+    },
+    "cq20-cascades": {
+      "title": "NPS：北喀斯喀特复合保护区的三个单元",
+      "url": "https://npgallery.nps.gov/NOCA/About",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read national park vs Ross/Lake Chelan recreation areas, hydroelectric reservoirs and Stehekin. No image download or false claim SR20 lakes lie in national park proper."
+    },
+    "cq20-cascades-silt": {
+      "title": "NPS：Diablo湖的冰川粉与颜色",
+      "url": "https://www.nps.gov/noca/learn/education/student-report-information.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read rock grinding/fine silt and turquoise appearance; lake colour is not evidence of a natural lake basin. Do not reproduce visitor totals as current."
+    },
+    "cq20-pinnacles": {
+      "title": "NPS：尖峰火山岩、板块位移与侵蚀",
+      "url": "https://www.nps.gov/pinn/learn/nature/geology.htm?fullweb=1",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read former volcanic field split by San Andreas and transported north. Omit exact age/distance and no claim today's park is an erupting volcano."
+    },
+    "cq20-pinn-caves": {
+      "title": "NPS：尖峰崩积洞与落石顶板",
+      "url": "https://www.nps.gov/pinn/learn/nature/cave.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read boulders lodged in fractures/canyons, Bear Gulch/Balconies and CCC works. Omit speculative outlaw/Indigenous narratives and no access guarantee."
+    },
+    "cq20-rocky": {
+      "title": "NPS：落基山谷的古岩、冰川与冰碛",
+      "url": "https://home.nps.gov/romo/learn/nature/geologicactivity.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read crystalline bedrock, Moraine Park valley/moraines and earlier river valleys. Do not extrapolate all modern topography is solely glacial."
+    },
+    "cq20-rocky-forest": {
+      "title": "NPS：落基山地、亚高山与高山植被",
+      "url": "https://www.nps.gov/romo/learn/nature/naturalfeaturesandecosystems.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read named zones and low tundra form; omit exact static peak counts and road-opening dates."
+    },
+    "cq20-saguaro-nurse": {
+      "title": "NPS：巨人柱幼苗与庇护树",
+      "url": "https://home.nps.gov/sagu/learn/education/math-at-saguaro-percent-and-bar-graph.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read shade/cold protection by palo verde and mesquite. Avoid exact age inferred from arm count, lifetime seed numbers or certainty nurse tree dies from competition."
+    },
+    "cq20-saguaro-districts": {
+      "title": "NPS：巨人柱公园东西两个分区",
+      "url": "https://www.nps.gov/sagu/planyourvisit/index.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read Tucson Mountain west/Rincon Mountain east and higher sky-island terrain. No fixed transit minutes, animal sighting promise or current fee."
+    },
+    "cq20-sequoia-fire": {
+      "title": "NPS：巨杉更新与不同强度的火",
+      "url": "https://www.nps.gov/seki/learn/nature/giant-sequoias-and-fire.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read fire gaps, fuel accumulation, fire suppression and regeneration. Severe fire can kill large trees; do not call giant sequoias fireproof or all fires beneficial."
+    },
+    "cq20-sequoia-wildfire": {
+      "title": "NPS：Giant Forest与2021年火灾的差异",
+      "url": "https://www.nps.gov/seki/two-sequoia-groves-and-a-wildfire.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read contrasting Giant Forest/Redwood Mountain groves and fuel-management history. Giant Forest in Sequoia vs Redwood Mountain in Kings Canyon; no all-grove survival or current reopening claim."
+    },
+    "cq20-shenandoah": {
+      "title": "NPS：谢南多厄居民、旧果园与CCC工程",
+      "url": "https://www.nps.gov/shen/learn/historyculture/people.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; concise original paraphrase, no image reuse or field visit. Read foundations, apple orchards, stone overlooks, compelled relocation and CCC. Landscape not timeless untouched wilderness; no exact disputed family count or guaranteed surviving building."
+    },
+    "cq17-grandcanyon": {
+      "title": "NPS：大峡谷的岩层、侵蚀与河流变化",
+      "url": "https://www.nps.gov/grca/learn/nature/grca-geology.htm",
+      "checked": "2026-11-18",
+      "method": "Read named National Park Service primary explanation. Original concise paraphrase, no image reuse or on-site visit. Do not use historical measurements, guidebook seasons or visitor-hours text as current guarantees. Distinguish rock age from landscape age; avoid presenting a single disputed canyon-age reconstruction as settled. Historic pre/post-dam discharges not used as current river statistics."
+    },
+    "cq17-redwood": {
+      "title": "NPS：海岸红杉的生态、更新与国家/州公园关系",
+      "url": "https://www.nps.gov/redw/faqs.htm?fullweb=1",
+      "checked": "2026-11-18",
+      "method": "Read named National Park Service primary explanation. Original concise paraphrase, no image reuse or on-site visit. Do not use historical measurements, guidebook seasons or visitor-hours text as current guarantees. Read ecology, management and tree distinctions. FAQ contains a feet/metres mismatch in old Tall Tree height; do not reproduce those figures or precise sensitive-tree locations. Ancient forest loss statistic not a live survey."
+    },
+    "cq17-yellowstone": {
+      "title": "NPS：黄石热液类型、微生物与颜色",
+      "url": "https://www.nps.gov/yell/learn/nature/hydrothermal-features.htm",
+      "checked": "2026-11-18",
+      "method": "Read named National Park Service primary explanation. Original concise paraphrase, no image reuse or on-site visit. Do not use historical measurements, guidebook seasons or visitor-hours text as current guarantees. Read feature mechanisms, thermophile colours and deposition. Avoid static global geyser fractions and fixed eruption schedule; not all spring colours are caused by microbes—blue light scattering and mineral-tinted mud are distinct."
+    },
+    "cq17-yosemite": {
+      "title": "NPS：优胜美地岩体形成、河流与冰川塑形",
+      "url": "https://www.nps.gov/yose/learn/nature/geology.htm",
+      "checked": "2026-11-18",
+      "method": "Read named National Park Service primary explanation. Original concise paraphrase, no image reuse or on-site visit. Do not use historical measurements, guidebook seasons or visitor-hours text as current guarantees. Granite formed at depth before glaciation; ice widened/deepened prior river valleys. Avoid converting park geology into an assertion of every road open or glaciers static in extent."
+    }
+  },
+  "readings": [
+    {
+      "id": "np-chis",
+      "theme": "parks",
+      "title": "海峡群岛：隔离的岛屿与被重新调整的生态",
+      "summary": "海峡群岛的海岛狐适合用来理解隔离如何塑造生命：不同岛上的种群形成不同亚种。后来引入动物、金雕捕食与原有生态变化又使部分种群急剧减少，今日的恢复带有人持续干预的痕迹。",
+      "catalogueDescription": "海峡群岛的海岛狐适合用来理解隔离如何塑造生命：不同岛上的种群形成不同亚种。后来引入动物、金雕捕食与原有生态变化又使部分种群急剧减少，今日的恢复带有人持续干预的痕迹。",
+      "paragraphs": [
+        {
+          "heading": "先看岛与岛之间的边界",
+          "text": "海岛狐分布在加州六座岛屿上，但它们并不全属于国家公园。将San Miguel、Santa Rosa、Santa Cruz分开阅读，能认识海峡既限制交流，也让各岛种群走出不同演化路径。",
+          "sourceKeys": [
+            "cq20-islandfox"
+          ]
+        },
+        {
+          "heading": "保护恢复也是地景的一部分",
+          "text": "圈养繁育和野放、金雕迁移、白头海雕恢复及外来动物移除共同参与种群复苏。看解说时关注这些作用之间的联系；狐的恢复不意味着每次登岛都能遇见它。",
+          "sourceKeys": [
+            "cq20-islandfox"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-islandfox"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-cong",
+      "theme": "parks",
+      "title": "康加里：洪水滋养的高大森林",
+      "summary": "康加里保存了大片古老的低地阔叶森林，康加里河与Wateree河的洪水带来泥沙和养分。落羽杉的宽大基部、树旁突出的膝状根、牛轭湖与湿沟，让树木形态和河流变化在同一片地景中相连。",
+      "catalogueDescription": "康加里保存了大片古老的低地阔叶森林，康加里河与Wateree河的洪水带来泥沙和养分。落羽杉的宽大基部、树旁突出的膝状根、牛轭湖与湿沟，让树木形态和河流变化在同一片地景中相连。",
+      "paragraphs": [
+        {
+          "heading": "从树脚观察水环境",
+          "text": "可以比较落羽杉宽大的树干基部、周围膝状根与水边的tupelo树，再抬头看高大树冠。关注不同树形对环境的回应，比只寻找某一棵“冠军树”更能认识这片洪泛森林。",
+          "sourceKeys": [
+            "cq20-cong-forest"
+          ]
+        },
+        {
+          "heading": "湖与湿沟记录河流留下的路线",
+          "text": "河道变动留下牛轭湖和低洼湿沟，周期洪水又把水、土和营养物带回森林。水位变化会影响栈道和步道使用，现场路线需另查当期条件，不能把森林都理解成常年同深的沼泽。",
+          "sourceKeys": [
+            "cq20-cong-river"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-cong-forest",
+        "cq20-cong-river"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-grca",
+      "theme": "parks",
+      "title": "大峡谷公园：从谷缘读岩层与河流",
+      "summary": "大峡谷的岩层记录久远历史，而今日峡谷由较晚的科罗拉多河下切、支流侵蚀和谷壁退缩共同塑造。谷缘观景时，层层断崖、软岩缓坡与谷底河流能同时展示材料差异和流水的力量。",
+      "catalogueDescription": "大峡谷的岩层记录久远历史，而今日峡谷由较晚的科罗拉多河下切、支流侵蚀和谷壁退缩共同塑造。谷缘观景时，层层断崖、软岩缓坡与谷底河流能同时展示材料差异和流水的力量。",
+      "paragraphs": [
+        {
+          "heading": "用崖与坡交替读岩层",
+          "text": "较抗蚀的岩层形成突出崖壁，较软地层退成缓坡；支谷也把雨雪融水带向主河并继续侵蚀。选开放观景点比较台阶轮廓和侧谷，比只记一项深度纪录更容易读懂景观。",
+          "sourceKeys": [
+            "cq17-grandcanyon"
+          ]
+        },
+        {
+          "heading": "河流还有工程改变的节奏",
+          "text": "格伦峡谷坝改变了原有季节流量，河流搬运、侵蚀与沉积因此带有人为管理背景。把峡谷的古老岩石、较晚地形和今日水流分开看；谷缘与谷底的地图连线不表示可直接步行。",
+          "sourceKeys": [
+            "cq17-grandcanyon"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq17-grandcanyon"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-grsm",
+      "theme": "parks",
+      "title": "大烟山：从山谷聚落到高处森林",
+      "summary": "大烟山的森林随海拔、坡向与水分条件变化，谷地阔叶林、高处云杉冷杉林和恢复中的次生林各有环境。Cades Cove的住房、教堂、谷仓与水磨坊，又保留了山地社区利用这片土地的线索。",
+      "catalogueDescription": "大烟山的森林随海拔、坡向与水分条件变化，谷地阔叶林、高处云杉冷杉林和恢复中的次生林各有环境。Cades Cove的住房、教堂、谷仓与水磨坊，又保留了山地社区利用这片土地的线索。",
+      "paragraphs": [
+        {
+          "heading": "沿高度比较森林的组合",
+          "text": "不只看树木多少，还可比较树冠、林下植被和坡向。凉湿的高处与较温暖山谷支持不同群落，公园也包含历史耕作草地和演替森林，不能将所有林地都称作从未开发。",
+          "sourceKeys": [
+            "cq20-smokies-forest"
+          ]
+        },
+        {
+          "heading": "在Cades Cove把空地读回生活",
+          "text": "开阔谷地中的教堂、墓园、住宅与磨坊反映农业、宗教和社区生活。切罗基人在此狩猎的历史早于欧洲移民聚落；今日保存的建筑与田野，也让自然风景带上不同人群的土地经验。",
+          "sourceKeys": [
+            "cq20-smokies-cove"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-smokies-forest",
+        "cq20-smokies-cove"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-grte",
+      "theme": "parks",
+      "title": "大提顿：断层升起山体，冰川雕出山谷",
+      "summary": "大提顿的古老片麻岩和花岗岩，早于今日高耸的山脉。断层活动使山块上升、Jackson Hole一侧下沉，后来冰川拓宽河谷、留下湖盆与冰碛；从山前到湖岸能辨认不同力量的结果。",
+      "catalogueDescription": "大提顿的古老片麻岩和花岗岩，早于今日高耸的山脉。断层活动使山块上升、Jackson Hole一侧下沉，后来冰川拓宽河谷、留下湖盆与冰碛；从山前到湖岸能辨认不同力量的结果。",
+      "paragraphs": [
+        {
+          "heading": "看山前断层，也看岩体内部",
+          "text": "陡峭山前与谷地的高差反映断层作用，Mount Moran上的黑色辉绿岩脉则记录更早的岩浆侵入。岩石形成、山脉抬升和后来的侵蚀属于不同阶段，不宜用一个年龄概括。",
+          "sourceKeys": [
+            "cq20-teton"
+          ]
+        },
+        {
+          "heading": "湖岸树带与开阔灌丛有地质线索",
+          "text": "冰川扩大Cascade Canyon等谷地，退去后留下Jenny Lake等湖盆与冰碛脊。含细粒、较能保水的冰碛利于针叶树，粗砾冲积地则多见蒿属灌丛；植被也能帮助读地形。",
+          "sourceKeys": [
+            "cq20-teton"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-teton"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-kica",
+      "theme": "parks",
+      "title": "国王峡谷：在宽谷与高壁间辨认冰川",
+      "summary": "国王峡谷以花岗质高山、国王河与冰川拓宽的谷地相连。深处岩浆先冷却成岩，山体抬升后经历河流和冰川侵蚀，才留下陡壁、宽阔谷底、悬谷与高山湖，岩石年龄与山谷年龄需要分开看。",
+      "catalogueDescription": "国王峡谷以花岗质高山、国王河与冰川拓宽的谷地相连。深处岩浆先冷却成岩，山体抬升后经历河流和冰川侵蚀，才留下陡壁、宽阔谷底、悬谷与高山湖，岩石年龄与山谷年龄需要分开看。",
+      "paragraphs": [
+        {
+          "heading": "先看谷底宽度，再看支谷的高度",
+          "text": "宽阔谷底、近直立崖壁和谷内弯曲河道，是观察曾经冰川作用的线索。支谷较高的谷底可形成悬谷与落水，大小冰体不同的侵蚀深度让谷地呈现层次。",
+          "sourceKeys": [
+            "cq20-kings"
+          ]
+        },
+        {
+          "heading": "岩体的来源藏在地景之前",
+          "text": "花岗质岩石在地下由岩浆缓慢冷却形成，后来才露出地表并被雕刻。将岩石材料、抬升与冰川分开阅读，能理解高壁和湖盆；不要把合署公园里的所有景物都归到国王峡谷。",
+          "sourceKeys": [
+            "cq20-kings"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-kings"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-maca",
+      "theme": "parks",
+      "title": "猛犸洞：沿通道形状读地下水位",
+      "summary": "猛犸洞的弱酸性地下水沿石灰岩裂隙溶开通道。地下水位下降后，上层旧通道变干，更低处仍有流水；砂岩和页岩盖层又限制部分渗水，因此宏大的干通道与有钟乳石的湿区可以同在。",
+      "catalogueDescription": "猛犸洞的弱酸性地下水沿石灰岩裂隙溶开通道。地下水位下降后，上层旧通道变干，更低处仍有流水；砂岩和页岩盖层又限制部分渗水，因此宏大的干通道与有钟乳石的湿区可以同在。",
+      "paragraphs": [
+        {
+          "heading": "椭圆、窄峡与钥匙孔讲述不同过程",
+          "text": "充满水时形成的管状通道较圆润，水位下降后，溪流可继续向下切成窄峡。上圆下窄的钥匙孔形断面把两段过程留在一起；通道外形比单纯“洞很长”更值得观察。",
+          "sourceKeys": [
+            "cq20-mammoth"
+          ]
+        },
+        {
+          "heading": "为何有些洞顶没有钟乳石",
+          "text": "上覆砂页岩限制渗水，部分较高历史通道因此干燥、少有滴石装饰；其他区域仍有渗水沉积。岩床形成早于洞穴通道，具体参观路线也只覆盖系统的一部分，不能把一次游览等同走遍地下层级。",
+          "sourceKeys": [
+            "cq20-mammoth",
+            "cq20-mammoth-cap"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-mammoth",
+        "cq20-mammoth-cap"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-mora",
+      "theme": "parks",
+      "title": "雷尼尔山：熔岩与冰川共同留下的山形",
+      "summary": "雷尼尔山的火山锥由多期熔岩和碎屑累积而成，下方还有更古老的岩层与深成岩。古冰川既侵蚀山谷，也曾限制熔岩流向；今天的山脊、柱状节理与冰川谷可以放在一起阅读。",
+      "catalogueDescription": "雷尼尔山的火山锥由多期熔岩和碎屑累积而成，下方还有更古老的岩层与深成岩。古冰川既侵蚀山谷，也曾限制熔岩流向；今天的山脊、柱状节理与冰川谷可以放在一起阅读。",
+      "paragraphs": [
+        {
+          "heading": "山顶与山脚并非同一时期的岩石",
+          "text": "火山不断加积，先前的地质材料仍在周围露出。比较火山锥、厚熔岩层与公路解说中指出的更古老基底，有助将建山、侵蚀与底下的历史分开理解。",
+          "sourceKeys": [
+            "cq20-rainier"
+          ]
+        },
+        {
+          "heading": "有些高脊来自熔岩被冰引导",
+          "text": "厚冰阻挡或引导熔岩，熔岩在冰缘冷却；冰退后，原来靠着冰的熔岩留下高脊。Longmire附近Rampart Ridge等实例，让火与冰的关系落到具体形状，柱状节理还可显示冷却收缩。",
+          "sourceKeys": [
+            "cq20-rainier-ice"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-rainier",
+        "cq20-rainier-ice"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-neri",
+      "theme": "parks",
+      "title": "新河峡谷：沿山坡追踪煤怎样运到铁路",
+      "summary": "新河峡谷除了河流和崖壁，也保存矿业聚落遗迹。Nuttallburg把山坡煤层、矿口、输送设备、河边选煤装车设施和铁路相连，今天的基础、焦炉与工业构件让峡谷成为可读的生产地景。",
+      "catalogueDescription": "新河峡谷除了河流和崖壁，也保存矿业聚落遗迹。Nuttallburg把山坡煤层、矿口、输送设备、河边选煤装车设施和铁路相连，今天的基础、焦炉与工业构件让峡谷成为可读的生产地景。",
+      "paragraphs": [
+        {
+          "heading": "从山上矿口看到山下装车点",
+          "text": "煤从矿口附近经输送设备向下，进入tipple筛分并装上轨道下的煤车。这里的煤容易碎，福特公司改进运输系统有减少破碎的用意；观察坡度和设备关系，能理解工程为何这样布置。",
+          "sourceKeys": [
+            "cq20-nuttall-trails"
+          ]
+        },
+        {
+          "heading": "再把遗址读回社区",
+          "text": "铁路在1873年贯通后，煤炭生产也带来住房、商店、学校和教堂。Short Creek曾将不同种族居民区分开，留下社会生活的层次；从开放解说点读基础和旧照片，不把遗迹当作可进入的废弃矿井。",
+          "sourceKeys": [
+            "cq20-nuttall",
+            "cq20-nuttall-trails"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-nuttall-trails",
+        "cq20-nuttall"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-noca",
+      "theme": "parks",
+      "title": "北喀斯喀特：冰川粉色湖水与水电地景",
+      "summary": "北喀斯喀特复合保护区包含国家公园、Ross Lake和Lake Chelan两处国家游憩区。沿20号公路常见的Diablo、Ross等湖是水电工程形成的水库，冰川磨出的细粉又影响湖色，自然与工程在此相遇。",
+      "catalogueDescription": "北喀斯喀特复合保护区包含国家公园、Ross Lake和Lake Chelan两处国家游憩区。沿20号公路常见的Diablo、Ross等湖是水电工程形成的水库，冰川磨出的细粉又影响湖色，自然与工程在此相遇。",
+      "paragraphs": [
+        {
+          "heading": "先分清公园与复合保护区",
+          "text": "国家公园以山地荒野为主，公路湖区多属于Ross Lake国家游憩区；Stehekin则联系Lake Chelan一侧。分清单元，有助选择真正想看的山地、湖区或聚落，避免把公路观景等同走入全部荒野。",
+          "sourceKeys": [
+            "cq20-cascades"
+          ]
+        },
+        {
+          "heading": "蓝绿色不代表湖盆完全天然",
+          "text": "冰川磨蚀岩石产生细粉，随水进入湖泊后影响光的散射与湖色；大坝改变的水面又有另一段历史。从允许停留的观景处同时看山、水和工程，能理解颜色与湖盆来源是两件事。",
+          "sourceKeys": [
+            "cq20-cascades",
+            "cq20-cascades-silt"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-cascades",
+        "cq20-cascades-silt"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-pinn",
+      "theme": "parks",
+      "title": "尖峰：移动过的火山岩与巨石架出的洞",
+      "summary": "尖峰的岩体来自古火山区域，断层活动把一部分火山岩带向北方，再由侵蚀塑成峰壁。Bear Gulch与Balconies一带的洞则由落入裂谷、相互卡住的巨石形成，呈现与石灰岩溶洞不同的结构。",
+      "catalogueDescription": "尖峰的岩体来自古火山区域，断层活动把一部分火山岩带向北方，再由侵蚀塑成峰壁。Bear Gulch与Balconies一带的洞则由落入裂谷、相互卡住的巨石形成，呈现与石灰岩溶洞不同的结构。",
+      "paragraphs": [
+        {
+          "heading": "高处岩壁连接板块移动的历史",
+          "text": "尖峰岩体与南方原火山区域之间的对应，帮助解释圣安德烈亚斯断层长期位移。看峰壁、裂隙与侵蚀后的轮廓，可以将火山材料、构造移动和后来的风化分开读。",
+          "sourceKeys": [
+            "cq20-pinnacles"
+          ]
+        },
+        {
+          "heading": "看洞顶的巨石怎样彼此支撑",
+          "text": "崩积洞的通道是巨石之间留下的空隙，水仍会搬动细料、改变局部结构。CCC曾在洞区修建阶梯与桥；是否能进入需按当期洞区状态判断，不能将这类洞解释成酸水溶开的地下长廊。",
+          "sourceKeys": [
+            "cq20-pinn-caves"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-pinnacles",
+        "cq20-pinn-caves"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-redw",
+      "theme": "parks",
+      "title": "红杉木公园：从高树读到雾与再生",
+      "summary": "加州北部沿岸的海岸红杉，和内华达山脉的巨杉是不同树种。雨水、夏雾与温和气候支持高树生长，树瘤萌芽帮助受损后的再生；国家与州公园共同管理的森林，也包含伐木与恢复的历史。",
+      "catalogueDescription": "加州北部沿岸的海岸红杉，和内华达山脉的巨杉是不同树种。雨水、夏雾与温和气候支持高树生长，树瘤萌芽帮助受损后的再生；国家与州公园共同管理的森林，也包含伐木与恢复的历史。",
+      "paragraphs": [
+        {
+          "heading": "从树皮、树冠到林内气候",
+          "text": "可以比较深沟树皮、不同高度树冠与林内光线。夏雾有助减少水分散失，周围树木也相互挡风；高树不是独立生长的纪念物，它与气候及邻近植物构成整体。",
+          "sourceKeys": [
+            "cq17-redwood"
+          ]
+        },
+        {
+          "heading": "从树基萌芽看森林延续",
+          "text": "树瘤里的休眠芽可在受损后继续萌发，厚树皮也与长期存活有关。把新芽与老树一并观察，再对读保护、伐木和恢复解说，不必追逐敏感的“最高树”精确位置。",
+          "sourceKeys": [
+            "cq17-redwood"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq17-redwood"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-romo",
+      "theme": "parks",
+      "title": "落基山：从冰碛谷地走向贴地植被",
+      "summary": "落基山国家公园的古老变质岩和花岗岩经历多次抬升、侵蚀，冰川后来拓宽谷地并搬运碎石。Moraine Park的冰碛、U形谷与高处低矮苔原植被，让地形和海拔环境在短距离内显出变化。",
+      "catalogueDescription": "落基山国家公园的古老变质岩和花岗岩经历多次抬升、侵蚀，冰川后来拓宽谷地并搬运碎石。Moraine Park的冰碛、U形谷与高处低矮苔原植被，让地形和海拔环境在短距离内显出变化。",
+      "paragraphs": [
+        {
+          "heading": "在Moraine Park比较谷与堆积脊",
+          "text": "多支冰体汇入谷地后消融，在两侧和前缘留下冰碛。宽谷、陡壁与碎石脊可一起观察；部分山顶和低地没有被冰覆盖，所以也不能把公园每处圆滑岩形都归给冰川。",
+          "sourceKeys": [
+            "cq20-rocky"
+          ]
+        },
+        {
+          "heading": "树线以上看植物怎样贴近地面",
+          "text": "山地草甸、亚高山针叶林和高山苔原适应不同寒冷与风力条件。高处植物低矮贴地，是读环境的线索；沿允许使用的步道观察，避免为看花走进恢复缓慢的植被。",
+          "sourceKeys": [
+            "cq20-rocky-forest"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-rocky",
+        "cq20-rocky-forest"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-sagu",
+      "theme": "parks",
+      "title": "巨人柱：沙漠幼苗的庇护与两片山地",
+      "summary": "巨人柱国家公园分在图森两侧：西边Tucson Mountain与东边Rincon Mountain。醒目的成年仙人掌之外，幼苗常依赖庇护树提供阴影和缓冲寒冷，沙漠景观也包含彼此关联的生命与高度变化。",
+      "catalogueDescription": "巨人柱国家公园分在图森两侧：西边Tucson Mountain与东边Rincon Mountain。醒目的成年仙人掌之外，幼苗常依赖庇护树提供阴影和缓冲寒冷，沙漠景观也包含彼此关联的生命与高度变化。",
+      "paragraphs": [
+        {
+          "heading": "从大株旁的阴影寻找生长条件",
+          "text": "palo verde、mesquite等庇护树下较缓和的环境，有助种子与幼苗存活。巨人柱早期生长很慢，关注树荫、地面与小植株的关系，比用分枝数量直接猜年龄更有依据。",
+          "sourceKeys": [
+            "cq20-saguaro-nurse"
+          ]
+        },
+        {
+          "heading": "东西两区值得分别规划",
+          "text": "两区被图森城区分开，西区有突出的巨人柱群落，东区还延伸到更高的Rincon山地“天空岛”。把沙漠树形与上升的地形一起看，能认识同一公园的环境差别；地图连线并非园内直达道路。",
+          "sourceKeys": [
+            "cq20-saguaro-districts"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-saguaro-nurse",
+        "cq20-saguaro-districts"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-seki",
+      "theme": "parks",
+      "title": "巨杉国家公园：大树与林下更新一起看",
+      "summary": "巨杉国家公园Giant Forest里的巨杉，需要合适的林间空隙与地面条件让幼树接续。火会改变这些条件，长期抑火也会积累燃料；2021年火灾说明，即便高大的老树也不是面对高强度山火就能无损。",
+      "catalogueDescription": "巨杉国家公园Giant Forest里的巨杉，需要合适的林间空隙与地面条件让幼树接续。火会改变这些条件，长期抑火也会积累燃料；2021年火灾说明，即便高大的老树也不是面对高强度山火就能无损。",
+      "paragraphs": [
+        {
+          "heading": "别只抬头看体量，也看幼树与林隙",
+          "text": "树轮研究帮助认识过去频繁地表火与更新的关系。火能减少部分小树、打开光照空间，停火过久则可能让燃料变多；林下密度和幼树生长是读森林延续的重要部分。",
+          "sourceKeys": [
+            "cq20-sequoia-fire"
+          ]
+        },
+        {
+          "heading": "不同树林受火后的结果并不相同",
+          "text": "NPS对比Giant Forest与国王峡谷的Redwood Mountain Grove，说明燃料、管理历史和火强度影响结果。将火理解成有条件、有差异的生态过程，能避免“巨杉防火”或“任何火都利于森林”的简化。",
+          "sourceKeys": [
+            "cq20-sequoia-fire",
+            "cq20-sequoia-wildfire"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-sequoia-fire",
+        "cq20-sequoia-wildfire"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-shen",
+      "theme": "parks",
+      "title": "谢南多厄：森林里的果园、石墙与迁离史",
+      "summary": "谢南多厄的森林覆盖着曾经的住宅、果园、农地和资源利用地。公园建立使原居民离开家园，CCC又修筑道路、步道和观景石墙；Skyline Drive沿途的风景，也带着被保护、改造与重新解释的历史。",
+      "catalogueDescription": "谢南多厄的森林覆盖着曾经的住宅、果园、农地和资源利用地。公园建立使原居民离开家园，CCC又修筑道路、步道和观景石墙；Skyline Drive沿途的风景，也带着被保护、改造与重新解释的历史。",
+      "paragraphs": [
+        {
+          "heading": "留意森林中不寻常的树与基础",
+          "text": "成簇苹果树可能联系旧果园，房屋基础和旧路则联系山地家庭生活。居民曾务农、经营磨坊和利用山地资源，不能把今天少有住屋的山谷想象成从未有人居住。",
+          "sourceKeys": [
+            "cq20-shenandoah"
+          ]
+        },
+        {
+          "heading": "观景台本身也是观看对象",
+          "text": "Skyline Drive的弯道和石墙承载CCC营建工作，居民被迫另起生活则是建园的另一面。看远山时也看脚边石作与沿途解说，能同时认识自然恢复、旅游设施和人们付出的代价。",
+          "sourceKeys": [
+            "cq20-shenandoah"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq20-shenandoah"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-yell",
+      "theme": "parks",
+      "title": "黄石公园：用形态与颜色认识地下热水",
+      "summary": "黄石热液区由地下热、循环水和不同通道共同形成。热泉、间歇泉、泥锅和喷气孔有不同表现，微生物色带、清水蓝色与矿物沉积也有不同机制，值得在一次喷发之外慢慢比较。",
+      "catalogueDescription": "黄石热液区由地下热、循环水和不同通道共同形成。热泉、间歇泉、泥锅和喷气孔有不同表现，微生物色带、清水蓝色与矿物沉积也有不同机制，值得在一次喷发之外慢慢比较。",
+      "paragraphs": [
+        {
+          "heading": "从水、泥和蒸汽分辨通道",
+          "text": "热泉的开放循环、间歇泉的狭窄通道、泥锅较少的水与酸性条件，分别影响地面表现。沿开放栈道观察池口、蒸汽与声音，能把地下过程联系到具体景物。",
+          "sourceKeys": [
+            "cq17-yellowstone"
+          ]
+        },
+        {
+          "heading": "颜色不只有一种来源",
+          "text": "嗜热微生物群落可随温度、酸碱形成色带，深而清的池水呈蓝色又涉及光的散射，泥和台阶则还受矿物作用影响。对照现场解说比较变化，比固定期待旧喷发时刻更可靠。",
+          "sourceKeys": [
+            "cq17-yellowstone"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq17-yellowstone"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-yose",
+      "theme": "parks",
+      "title": "优胜美地公园：花岗质岩与冰川谷的不同时间",
+      "summary": "优胜美地的花岗质岩体先在地下由岩浆冷却形成，后来露出并经历河流、冰川侵蚀。宽谷、悬谷瀑布、圆滑岩面与漂砾让不同过程留下可辨线索，不能把制造岩石与雕出山谷混为一谈。",
+      "catalogueDescription": "优胜美地的花岗质岩体先在地下由岩浆冷却形成，后来露出并经历河流、冰川侵蚀。宽谷、悬谷瀑布、圆滑岩面与漂砾让不同过程留下可辨线索，不能把制造岩石与雕出山谷混为一谈。",
+      "paragraphs": [
+        {
+          "heading": "先看谷的横截面",
+          "text": "主谷较宽的底部、陡壁和位置更高的支谷，反映冰川侵蚀的差别；支谷水落入主谷可形成瀑布。比较谷底与谷缘，再将所见与过去河谷的变化相连。",
+          "sourceKeys": [
+            "cq17-yosemite"
+          ]
+        },
+        {
+          "heading": "再看岩面与漂砾的细节",
+          "text": "岩体节理影响风化和侵蚀，冰川能磨光岩面并搬运石块，退去后留下漂砾。Olmsted Point等解说提供实例，但高处道路有季节与天气限制，地质例子不等于本次已确认可达。",
+          "sourceKeys": [
+            "cq17-yosemite"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq17-yosemite"
+      ],
+      "related": []
+    }
+  ]
+}
