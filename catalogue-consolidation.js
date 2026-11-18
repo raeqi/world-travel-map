@@ -9,13 +9,13 @@ for(const group of catalogueConsolidationPack.groups){
  const prior=culturalThemeMaps.get(group.id),inherited=group.inherit.map(id=>culturalThemeMaps.get(id)).filter(Boolean);
  const members=group.inherit.flatMap(consolidationMembers).filter(m=>!(group.replaceMembers||[]).includes(typeof m==='string'?m:m.id));
  members.push(...(group.members||[]));
- const definition={...group,members:[...new Map(members.map(m=>[JSON.stringify(m),m])).values()],extraPlaces:[...new Set(inherited.flatMap(m=>m.extraPlaces||[]))],plans:[...(prior?.plans||[]),...group.plans.map(p=>[p.id,p.name,p.ids,p.days,p.months,p.transport,p.reason])],artThemes:[...new Set(inherited.flatMap(m=>m.artThemes||[]))],originMaps:group.sourceMaps};
+ const definition={...group,members:[...new Map(members.map(m=>[JSON.stringify(m),m])).values()],extraPlaces:[...new Set(inherited.flatMap(m=>m.extraPlaces||[]))],plans:[...(prior?.plans||[]),...group.plans.map(p=>[p.id,p.name,p.ids,p.days,p.months,p.transport,p.reason])],artThemes:[...new Set([...(group.artThemes||[]),...group.inherit,...inherited.flatMap(m=>m.artThemes||[])])],originMaps:group.sourceMaps};
  const nodes=[...new Set([...culturalMapMembers(definition).flatMap(culturalMemberPlaces),...definition.extraPlaces.map(culturalPlaceRef)])];
  if(!nodes.length||nodes.some(p=>!p))throw Error('Invalid consolidated map '+group.id);
  const first=themes.find(t=>t.id===group.inherit[0]),id=group.id;
  culturalThemeMaps.set(id,definition);
  if(prior)culturalMapDefinitions[culturalMapDefinitions.findIndex(d=>d.id===id)]=definition;else culturalMapDefinitions.push(definition);
- atlasThemePlaceIds.set(id,nodes.map(p=>p.id));for(const p of nodes)if(!p.themes.includes(id))p.themes.push(id);
+ atlasThemePlaceIds.set(id,[...new Set([...(atlasThemePlaceIds.get(id)||[]).filter(ref=>nodes.some(p=>p.id===ref)),...nodes.map(p=>p.id)])]);for(const p of nodes)if(!p.themes.includes(id))p.themes.push(id);
  const disciplines=[...new Set(culturalMapMembers(definition).flatMap(m=>themeDisciplines(themes.find(t=>t.id===m.id))))];
  const filters=[...new Set(nodes.map(p=>{const cs=culturalMapContexts(atlasContextByPlace.get(p.id)||{place:p,contexts:new Map()},id);return cs.length?atlasRelationNames[cs[0].relation]:p.type}))];
  let theme=themes.find(t=>t.id===id);

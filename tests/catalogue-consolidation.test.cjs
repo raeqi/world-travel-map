@@ -24,3 +24,27 @@ test('reviewed source readings follow their actual member into a merged map with
  activeTheme=themes.findIndex(t=>t.id==='european-music-cities');for(const row of qualityReadingPack.readings.filter(r=>r.theme==='mozart')){const p=places.find(p=>p.id===row.id);assert.equal(researchedPlaceSummary(p),row.summary);assert.ok(placeEssays[p.id].paragraphs.some(x=>x.text===row.paragraphs[0].text));for(const key of row.sourceKeys)assert.ok(placeEssays[p.id].sources.some(s=>s.url===qualityReadingPack.sources[key].url));}
  assert.ok(!JSON.stringify(placeEssays['mozart-prague']).includes('卡夫卡'));activeTheme=themes.findIndex(t=>t.id==='england-literature-art');assert.ok(!qualityReadingsFor(places.find(p=>p.id==='mozart-london')).some(r=>r.theme==='mozart'));
  `,c);});
+test('partial regional placements retain an entrance for every uncovered biography place',()=>{const c=runtime();c.assert=assert;vm.runInContext(`
+ for(const id of ['cartier-bresson','chagall','byron','joyce']){assert.ok(!themes.find(t=>t.id===id).catalogHidden,id);assert.ok(culturalSourceCoverage(id).some(r=>r.maps.length===0),id+' still has a distinct region');}
+ const covers=(id,point,map)=>culturalSourceCoverage(id).some(r=>r.place.id===point&&r.maps.includes(map));
+ assert.ok(covers('cartier-bresson','atlas-shanghai','jiangnan-poetry-painting'));assert.ok(covers('cartier-bresson','thirty-hcb-paris','paris-sculpture'));assert.ok(!covers('cartier-bresson','polo-beijing','chinese-painters'));
+ assert.ok(covers('chagall','thirty-vence-cathedral','southern-france-painters'));assert.ok(covers('byron','thirty-byron-newstead','england-literature-art'));assert.ok(covers('joyce','thirty-joyce-trieste-museum','italian-art-journeys'));
+ `,c);});
+test('default discovery deduplicates shared plans and explicit search retains each original owner',()=>{const c=runtime();c.assert=assert;vm.runInContext(`
+ homeState.query='';homeState.interest='all';const rows=matchingDiscoveryRoutes();assert.equal(new Set(rows.map(r=>r.plan.id)).size,rows.length);assert.equal(rows.find(r=>r.plan.id==='thirty-joyce-trieste').theme.id,'italian-art-journeys');
+ homeState.query=planTemplates.find(p=>p.id==='thirty-joyce-trieste').name;assert.ok(matchingDiscoveryRoutes().some(r=>r.plan.id==='thirty-joyce-trieste'&&r.theme.id==='joyce'));
+ `,c);});
+test('new nearby culture stops have precise source relationships and inspected licensed local assets',()=>{const p=require('../data/theme-review/catalogue-new-places.json');assert.equal(p.points.length,2);for(const row of p.points){assert.ok(row.essay.paragraphs.length>=2);assert.ok(row.essay.sources.length>=2);assert.ok(row.essay.sources.some(s=>s.url===row.source));assert.match(row.photo.license,/CC0|CC BY-SA/);assert.ok(row.photo.author&&row.photo.licenseUrl&&row.photo.visualCheck&&row.photo.changes);assert.equal(crypto.createHash('sha256').update(fs.readFileSync(row.photo.path)).digest('hex'),row.photo.sha256);}assert.ok(p.points.find(p=>p.id==='consolidation-wadsworth').desc.includes('不声称'));assert.ok(p.points.find(p=>p.id==='consolidation-taipei-npm').photo.title.includes('外观'));});
+test('complete map replacements avoid duplicate person cards and recommend only their own regional visits',()=>{const c=runtime();c.assert=assert;c.escapeHTML=s=>String(s);vm.runInContext(`
+ homeState.view='themes';homeState.interest='all';homeState.area='all';homeState.query='莫扎特';assert.ok(matchingDiscovery().some(r=>r.theme.id==='european-music-cities'));assert.ok(!matchingDiscovery().some(r=>r.theme.id==='mozart'));assert.ok(sourceCoveredByOneVisibleMap('mozart'));
+ homeState.query='吴冠中';assert.ok(matchingDiscovery().some(r=>r.theme.id==='wu-guanzhong'));assert.ok(!sourceCoveredByOneVisibleMap('wu-guanzhong'));
+ activeTheme=themes.findIndex(t=>t.id==='european-music-cities');readingPlans=null;const prague=places.find(p=>p.id==='mozart-prague'),html=placePlansHTML(prague);assert.ok(!html.includes('data-reading-plan="atlas-dvorak-places"'));assert.ok(html.includes('data-reading-theme="european-music-cities"'));
+ homeState.query=planTemplates.find(p=>p.id==='atlas-dvorak-places').name;assert.ok(matchingDiscoveryRoutes().some(r=>r.theme.id==='dvorak'&&r.plan.id==='atlas-dvorak-places'));
+ `,c);});
+
+test('place and work search includes the actual local reading without borrowing another biography',()=>{const c=runtime();c.assert=assert;vm.runInContext(`
+ homeState.query='庐山图';homeState.area='all';homeState.interest='all';assert.ok(matchingDiscovery().some(r=>r.theme.id==='chinese-painters'));
+ homeState.query='冰岛 1';homeState.interest='nature';homeState.area='欧洲';assert.equal(matchingDiscovery().length,0);assert.equal(matchingDiscoveryRoutes().length,1);homeState.query='庐山图';homeState.interest='all';homeState.area='all';const npm=places.find(p=>p.id==='consolidation-taipei-npm');assert.match(culturalPlaceSearchText(npm,'chinese-painters'),/庐山图/);
+ assert.ok(!culturalPlaceSearchText(places.find(p=>p.id==='mozart-prague'),'european-music-cities').includes('卡夫卡'));
+ assert.ok(!culturalPlaceSearchText(places.find(p=>p.id==='mozart-london'),'england-literature-art').includes('莫扎特'));
+ `,c);});

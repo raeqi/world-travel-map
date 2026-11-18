@@ -22,8 +22,12 @@ jobs:
             scripts: check-catalogue-consolidation.cjs
           - suite: source-discovery
             scripts: check-theme-discoverability.cjs check-short-theme-review.cjs
-          - suite: regional-maps
-            scripts: check-regional-expansion.cjs check-cultural-theme-maps.cjs check-cultural-atlas-browser.cjs
+          - suite: regional-expansion
+            scripts: check-regional-expansion.cjs
+          - suite: cultural-maps
+            scripts: check-cultural-theme-maps.cjs
+          - suite: cultural-atlas
+            scripts: check-cultural-atlas-browser.cjs
     steps:
       - uses: actions/checkout@v4
         with:
