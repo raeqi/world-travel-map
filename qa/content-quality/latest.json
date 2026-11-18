@@ -15,11 +15,11 @@
     "automaticCandidateContexts": 1,
     "visibleItineraryCandidatePlaces": 1,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 311,
-    "unreviewedContexts": 2025,
-    "unreviewedNoExpandedContexts": 1271,
-    "visibleItineraryUnreviewedNoExpandedContexts": 44,
-    "manualResearchedPlaces": 310,
+    "manualReviewedContexts": 322,
+    "unreviewedContexts": 2014,
+    "unreviewedNoExpandedContexts": 1260,
+    "visibleItineraryUnreviewedNoExpandedContexts": 33,
+    "manualResearchedPlaces": 321,
     "manualUsefulConcisePlaces": 0,
     "manualNeedsResearchPlaces": 1,
     "staleReviews": 0,
@@ -265,7 +265,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "4543065ec3d17857c9cdac97df9173f28bf17099afba6503778577fcbd095dda",
+      "sha256": "43a92d9df27e01b7da5b89f2873a47f08e181b5d684af6d14ac97047e441d9f7",
       "executed": true
     },
     {
@@ -299,7 +299,7 @@
       "visible": true,
       "contexts": 1033,
       "automaticCandidates": 0,
-      "manuallyReviewed": 36
+      "manuallyReviewed": 47
     },
     {
       "id": "gorges",
@@ -5917,8 +5917,8 @@
       "contexts": [
         {
           "id": "wh-1142",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-23",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
@@ -5959,8 +5959,8 @@
         },
         {
           "id": "wh-1246",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-23",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
@@ -6270,15 +6270,15 @@
       "contexts": [
         {
           "id": "wh-441",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-23",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-1003",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-23",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
@@ -6291,29 +6291,29 @@
         },
         {
           "id": "wh-1305",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-23",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-1114",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-23",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-812",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-23",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-1279",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-23",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
@@ -6424,22 +6424,22 @@
       "contexts": [
         {
           "id": "wh-439",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-23",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-880",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-23",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-881",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-23",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
