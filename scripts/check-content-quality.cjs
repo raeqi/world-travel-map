@@ -14,7 +14,7 @@ const pack=require('../data/content-quality/batch-2.json'),base=process.env.BASE
    await page.locator('#detail .reading-sources summary').click();for(const key of row.sourceKeys)assert.ok(await page.locator('#detail .reading-sources a').evaluateAll((nodes,url)=>nodes.some(a=>a.href===url),pack.sources[key].url));
    assert.ok(await page.locator('#detail .reading-sources a').evaluateAll(nodes=>nodes.some(a=>a.href===selected.source)));
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
-   if(['xituo','kumano-hongu','buddhist-sarnath','nc500-gairloch'].includes(row.id)){await page.locator('#detail .reading-sources summary').click();await page.locator('#detail .reading-body').evaluate(el=>el.scrollTop=0);await page.screenshot({path:out+'/'+device.name+'-'+row.id+'.png'});}
+   if(['xituo','kumano-hongu','buddhist-sarnath','nc500-gairloch'].includes(row.id)){await page.locator('#detail .reading-sources summary').click();await page.locator('#detail').evaluate(el=>el.scrollTop=0);await page.screenshot({path:out+'/'+device.name+'-'+row.id+'.png'});}
    await page.locator('#detail .reading-close').click();assert.ok(await page.locator('#detail').isHidden());checks.push({device:device.name,id:row.id,summary:true,sections:true,sourceLinks:true,close:true,noHorizontalOverflow:true});
   }
   await open('#theme=mozart&place=mozart-prague');assert.equal(await page.locator('#detail .reading-essay').count(),0);assert.ok(!(await page.locator('#detail .place-summary').innerText()).includes('卡夫卡'));assert.equal(await page.locator('#detail .place-summary').innerText(),await page.evaluate(()=>selected.desc));
