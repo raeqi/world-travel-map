@@ -356,15 +356,6 @@
       "contentHash": "9c9df4baa33b190fd8c775a5361f54543aa2b924702798a4cbac219d760b57bb"
     },
     {
-      "theme": "route66",
-      "id": "route66-springfield",
-      "state": "needs-research",
-      "reason": "未点名可核实的路边设施与历史路段；不能靠泛称餐厅补足。",
-      "checked": "2026-11-18",
-      "sources": [],
-      "contentHash": "ef4e2ada698da7ecb1ba3fde5f01cf90afb763f40dc06797984a9a904422fb8e"
-    },
-    {
       "theme": "tea",
       "id": "tea-puer",
       "state": "researched-batch-3",
@@ -869,6 +860,181 @@
         "https://www.viefrancigene.org/en/news/via-francigena-le-president-de-laevf-m-tedeschi-recoit-le-prix-sigeric"
       ],
       "contentHash": "ff0603d0816338aca4326b4834da6184c608cdc7f23a88179e6ce8155acc6b13"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-chicago",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/places/lou-mitchells-restaurant.htm",
+        "https://home.nps.gov/places/illinois-road-segments.htm"
+      ],
+      "contentHash": "b09ddd67cf3de71d60a1b5c6c4bb58827d0055e3289c0c9e614acfddce792c02"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-springfield",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://home.nps.gov/places/illinois-road-segments.htm"
+      ],
+      "contentHash": "aa3d70e4a8293cf7b74227702eebbfedc9b248a4a5c439c080d1ae2e2f6b9b74"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-stlouis",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://home.nps.gov/places/chain-of-rocks-bridge.htm",
+        "https://greatriversgreenway.org/greenways/mississippi-greenway-chouteau-riverfront-to-old-chain-of-rocks-bridge-riverfront-trail/"
+      ],
+      "contentHash": "b7c9762ae106b86aeb213f0f5735bb675c72382dc4f15c750c324fd7475d4e42"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-joplin",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.visitjoplinmo.com/directory/route-66-mural-park/",
+        "https://www.visitjoplinmo.com/directory/murals-at-city-hall/"
+      ],
+      "contentHash": "f498b146dff51cbd37de05b643d0aca8c0198e17330198224007efb688367d18"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-galena",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.travelks.com/blog/stories/post/get-your-kicks-on-kansas-historic-route-66/"
+      ],
+      "contentHash": "2751197721b8448ef23df9f9e1d8749e30a6a2c73b9358f54d52ea930575d0ba"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-tulsa",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.cityoftulsa.org/route-66/route-66-attractions/",
+        "https://www.cityoftulsa.org/press-room/tulsa-celebrates-100-years-of-route-66-nearly-100-million-invested-along-route-66-over-past-23-years/"
+      ],
+      "contentHash": "54ea81e227cb289a6cba6d3c04a3dd1d40c47f63e241c1907a1375d58d254193"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-okc",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://web1.travelok.com/au/listings/view.profile/id.21917",
+        "https://www.okc.gov/Community-Recreation/Route-66"
+      ],
+      "contentHash": "fcb6e0af5b89ee17e6d177163fe1f5732cc25d3660912124d945e094a579c17c"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-amarillo",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/places/route-66-sixth-street-historic-district.htm"
+      ],
+      "contentHash": "a69449264bb751ddf57e5511ba6231126f45bd8a89bd64045c3aabd5ef05d2b0"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-albuquerque",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/places/luna-lodge.htm"
+      ],
+      "contentHash": "2cb90d3dede1d14d0fbb0754aab978559600dbd6c460eba4525f248cd71b2edc"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-gallup",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/places/el-rancho-hotel.htm",
+        "https://elranchohotelgallup.com/"
+      ],
+      "contentHash": "d0b1967ba93605007a620117eaa1793e456d47edcc043fb5c35a931677445719"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-flagstaff",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/places/railroad-addition-historic-district.htm"
+      ],
+      "contentHash": "196009755ee5b399d774a93789375ba7bf7b7f6b52712255ea66cb5063fc6426"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-kingman",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.explorekingman.com/attraction-Historic-Powerhouse/",
+        "https://archive.epa.gov/region9/brownfields/archive/web/html/success.html"
+      ],
+      "contentHash": "c97bcb88b099df7873194286709d80174ee51767ef99b37667ac4717e76a92a8"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-barstow",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/places/harvey-house-railroad-depot.htm",
+        "https://www.barstowca.org/residents/harvey-house-information",
+        "https://www.motherroadmuseum.com/"
+      ],
+      "contentHash": "22ff9effff77be3216bf2b862dd110076867224ca69498b53f173dc38f70575c"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-losangeles",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/places/arroyo-seco-parkway.htm"
+      ],
+      "contentHash": "f3c3e7f236f073934e375f69c96233055fe3ba4be3a2ebf02bb45fcea9e0d2de"
+    },
+    {
+      "theme": "route66",
+      "id": "route66-santamonica",
+      "state": "researched-batch-5",
+      "reason": "逐项核对遗产机构、管理方与官方地方资料，补充具体可观察建筑、道路与作品，区分原用途、后世纪念和当前可进入范围。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.santamonica.com/route66/",
+        "https://www.santamonica.com/experience-santa-monica/route-66/"
+      ],
+      "contentHash": "d0760cf425dd9d6457659bcebbfa3e40ed449c85a80ef2def4ca8317725bae52"
     }
   ]
 }

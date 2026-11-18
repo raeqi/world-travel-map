@@ -1,6 +1,6 @@
 # 当前进度入口 · 2026-11-18
 
-下文为PR #8的历史批次快照，不能将226作为当前待办数。当前生产全量基线、累计68处研究阅读、77个不同语境的人工判断、158个待研究候选及2141个未在本系列逐项验收的语境，请看[CONTENT-QUALITY.md](../CONTENT-QUALITY.md)、[最新审计](content-quality/latest.json)和[逐语境清单](content-quality/contexts.csv)。旧候选按原主题对照，不把后来增加的无关人物阅读当作旧路线已补足。
+下文为PR #8的历史批次快照，不能将226作为当前待办数。当前生产全量基线、累计83处研究阅读、91个不同语境的人工判断、144个待研究候选及2127个未在本系列逐项验收的语境，请看[CONTENT-QUALITY.md](../CONTENT-QUALITY.md)、[最新审计](content-quality/latest.json)和[逐语境清单](content-quality/contexts.csv)。旧候选按原主题对照，不把后来增加的无关人物阅读当作旧路线已补足。
 
 ---
 
