@@ -3136,6 +3136,214 @@
         "https://home.nps.gov/zion/learn/nature/geology.htm"
       ],
       "contentHash": "235ac5db2185d7aa7723a57c2dabcda6803d8449b2e718d1e064567fb58c923f"
+    },
+    {
+      "id": "np-chis",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://www.nps.gov/chis/learn/nature/island-fox.htm"
+      ],
+      "contentHash": "d3305147f838a6c8c08c88a4ab93af9a1cf52289a0f8d9cb8520432893a0cbc9"
+    },
+    {
+      "id": "np-cong",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://www.nps.gov/cong/index.htm",
+        "https://www.nps.gov/rlc/ogbfrec/climatechangecongaree.htm"
+      ],
+      "contentHash": "95ed6e20245034bc28f79e2a5032f761b6f95b0613ace94738492dd8826aca73"
+    },
+    {
+      "id": "np-grca",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Previously verified batch17 physical-site facts adapted to this distinct park itinerary context; not a newly discovered physical destination. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://www.nps.gov/grca/learn/nature/grca-geology.htm"
+      ],
+      "contentHash": "096c22a40feb3e748df559a981d06bc36df2ee20a346239f4ca57d32945a181f"
+    },
+    {
+      "id": "np-grsm",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://home.nps.gov/grsm/learn/nature/vegetation-types.htm",
+        "https://www.nps.gov/grsm/planyourvisit/cadescove.htm"
+      ],
+      "contentHash": "7012263c5a2ae13c5e41b24cf820ec9538ca9ffb2f4262924e454f00fb78db35"
+    },
+    {
+      "id": "np-grte",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://www.nps.gov/grte/learn/nature/geology.htm"
+      ],
+      "contentHash": "691674c7b69eb61da48df9b6746cf6d16ff55405a1111fc0c683f70e85731d65"
+    },
+    {
+      "id": "np-kica",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://www.nps.gov/seki/learn/nature/geology_overview.htm"
+      ],
+      "contentHash": "1d852110719aa84c218d5a96b9d62acc7c152dccaca52f7da6a2ddc8ef20f943"
+    },
+    {
+      "id": "np-maca",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://home.nps.gov/maca/learn/nature/how-mammoth-cave-formed.htm",
+        "https://www.nps.gov/maca/planyourvisit/audio-tour.htm"
+      ],
+      "contentHash": "9bb25673c13e08f466959109b601523d93cff44eac7d8ce070cc1709f03e59b6"
+    },
+    {
+      "id": "np-mora",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://www.nps.gov/mora/learn/nature/geologicformations.htm",
+        "https://www.nps.gov/mora/learn/nature/volcanic-features.htm"
+      ],
+      "contentHash": "58193d4238e5b2c2f4f68e726eaf5829e6f05585dbf2b98c50949eccbe51f2e3"
+    },
+    {
+      "id": "np-neri",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://home.nps.gov/neri/learn/historyculture/exploring-nuttallburg.htm",
+        "https://www.nps.gov/neri/learn/historyculture/nuttallburg.htm"
+      ],
+      "contentHash": "4a59d740d28329101f06da5c783f5054c0fcc6fe4bb81df6f7ae3b424bec5970"
+    },
+    {
+      "id": "np-noca",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://npgallery.nps.gov/NOCA/About",
+        "https://www.nps.gov/noca/learn/education/student-report-information.htm"
+      ],
+      "contentHash": "88e0565ed752ae687291e588d114e8c527d5fe5a63fc3d4417581a7bdc036515"
+    },
+    {
+      "id": "np-pinn",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://www.nps.gov/pinn/learn/nature/geology.htm?fullweb=1",
+        "https://www.nps.gov/pinn/learn/nature/cave.htm"
+      ],
+      "contentHash": "f316cc01020bc1d777e9ad6a0c95a79c62cb631f29fdeeb9de09912491cdfcfc"
+    },
+    {
+      "id": "np-redw",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Previously verified batch17 physical-site facts adapted to this distinct park itinerary context; not a newly discovered physical destination. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://www.nps.gov/redw/faqs.htm?fullweb=1"
+      ],
+      "contentHash": "aa6cba38181aa0e1775af92a5db2b033b87aaee46dc051a8fb550861645724ac"
+    },
+    {
+      "id": "np-romo",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://home.nps.gov/romo/learn/nature/geologicactivity.htm",
+        "https://www.nps.gov/romo/learn/nature/naturalfeaturesandecosystems.htm"
+      ],
+      "contentHash": "374b6676eabb61928831a61589a1c6af020b2b206ae0bb29a6e52aab5e8e1798"
+    },
+    {
+      "id": "np-sagu",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://home.nps.gov/sagu/learn/education/math-at-saguaro-percent-and-bar-graph.htm",
+        "https://www.nps.gov/sagu/planyourvisit/index.htm"
+      ],
+      "contentHash": "0f676ffacccdb06af1d075b0364d349574631fd67d586743270b5d7087300665"
+    },
+    {
+      "id": "np-seki",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://www.nps.gov/seki/learn/nature/giant-sequoias-and-fire.htm",
+        "https://www.nps.gov/seki/two-sequoia-groves-and-a-wildfire.htm"
+      ],
+      "contentHash": "ff039fc41c4a251005265a8df39a26866988cfb55d2d7ed843020cf0c4c11dd0"
+    },
+    {
+      "id": "np-shen",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Named features and relationships checked in selected primary NPS passages. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://www.nps.gov/shen/learn/historyculture/people.htm"
+      ],
+      "contentHash": "b04127a1350f5b9ee7bf8b85f7b3b557aae8c96f19020b60216166544bfd98be"
+    },
+    {
+      "id": "np-yell",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Previously verified batch17 physical-site facts adapted to this distinct park itinerary context; not a newly discovered physical destination. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://www.nps.gov/yell/learn/nature/hydrothermal-features.htm"
+      ],
+      "contentHash": "7543e2698cca0387ecdaf8eaf8b7deb9114062c1f37bddc01a1d22f0f29b3c52"
+    },
+    {
+      "id": "np-yose",
+      "theme": "parks",
+      "state": "researched-batch-20",
+      "checked": "2026-11-18",
+      "reason": "Previously verified batch17 physical-site facts adapted to this distinct park itinerary context; not a newly discovered physical destination. Previously no expanded reading in this visible itinerary context. Original catalogue, links, media, coordinates and route IDs retained; no field visit or live-access guarantee.",
+      "sources": [
+        "https://www.nps.gov/yose/learn/nature/geology.htm"
+      ],
+      "contentHash": "7f712879b8031d5776dcea2eaceed23f573c16b99b721b35c1d84c8b121b4f55"
     }
   ]
 }

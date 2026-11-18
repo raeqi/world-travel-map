@@ -15,11 +15,11 @@
     "automaticCandidateContexts": 1,
     "visibleItineraryCandidatePlaces": 1,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 270,
-    "unreviewedContexts": 2066,
-    "unreviewedNoExpandedContexts": 1312,
-    "visibleItineraryUnreviewedNoExpandedContexts": 85,
-    "manualResearchedPlaces": 269,
+    "manualReviewedContexts": 288,
+    "unreviewedContexts": 2048,
+    "unreviewedNoExpandedContexts": 1294,
+    "visibleItineraryUnreviewedNoExpandedContexts": 67,
+    "manualResearchedPlaces": 287,
     "manualUsefulConcisePlaces": 0,
     "manualNeedsResearchPlaces": 1,
     "staleReviews": 0,
@@ -265,7 +265,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "44f5800036ce78566a360c301655bd8414887e6fd284dbcc9abbc7b71c6d4f92",
+      "sha256": "96f05c989354e7c7cebf3d23c67d7252b44039df2bf3005297c236ed07d2157d",
       "executed": true
     },
     {
@@ -315,7 +315,7 @@
       "visible": true,
       "contexts": 63,
       "automaticCandidates": 0,
-      "manuallyReviewed": 13
+      "manuallyReviewed": 31
     },
     {
       "id": "tea",
@@ -6731,43 +6731,43 @@
         },
         {
           "id": "np-chis",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-pinn",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-seki",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-kica",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-yose",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-redw",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
@@ -6789,8 +6789,8 @@
       "contexts": [
         {
           "id": "np-grca",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
@@ -6824,8 +6824,8 @@
         },
         {
           "id": "np-romo",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
@@ -6861,8 +6861,8 @@
         },
         {
           "id": "np-sagu",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
@@ -6954,36 +6954,36 @@
       "contexts": [
         {
           "id": "np-shen",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-neri",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-grsm",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-maca",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-cong",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
@@ -7043,15 +7043,15 @@
         },
         {
           "id": "np-mora",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-noca",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
@@ -7069,15 +7069,15 @@
       "contexts": [
         {
           "id": "np-grte",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-yell",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-20",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
