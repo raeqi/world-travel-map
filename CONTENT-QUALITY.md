@@ -1,96 +1,85 @@
-# 全站点位信息质量 · 2026-11-18第二批
+# 全站点位信息质量 · 持续审查
 
-生产基线：main `27bd4fe441008c13a05d34beaf725923575812d1`。审计实际载入index中的数据脚本，得到2010个地点、130个内部主题（77个可见入口）、330条方案、2218个地点/主题语境；766个不同地点出现在方案中。没有开放中的PR与本批重叠（开始核查时）。本批独立分支开发，合并状态和部署以对应GitHub PR、Actions为准。
+最新开发基线：main `043a6639b9ee363ab35643a861ba3c1dd2ccdd83`（第三批）。第二批的原始记录完整保留于[历史报告](CONTENT-QUALITY-BATCH-2.md)。合并与部署状态以对应PR和Actions为准。
 
-## 本批实际改变
+## 当前覆盖与边界
 
-- 新增25处有逐项来源的阅读：三峡古镇6处、熊野古道6处、佛教四圣地4处、NC500的9处。22处原先没有展开，3处在原展开基础上补充具体内容；不是25个新地点。
-- 解决11个语境串读：共享地点只显示当前主题适用的阅读。莫扎特布拉格不再显示卡夫卡、丝路威尼斯不再显示透纳；人物主题各自的内容仍在。
-- 原目录文字、坐标、来源链接、图片和图片许可、行程与地点ID均保留。新概要作为展示层，新增阅读合并原段落与来源。本批未新增或替换任何图片。
-- 对5条短而有用的原文作保留判断；另12处在本次人工阅读中确认内容薄弱，记录具体缺什么。研究完成、简洁有用、仍需研究三种判断分开，且绑定当前文本/来源哈希。
+生产index实际加载 **2010个地点、130个内部主题、77个可见入口、330条方案、2218个地点/主题语境**。766个不同地点出现在方案中。全量枚举是审计覆盖，不等于逐项事实考证。
 
-## 方法与边界
+- 第二批：研究25处（三峡6、熊野6、佛教4、NC500九处），修正11个跨主题串读；保留5处有用短文，另记录12个具体缺口。
+- 第三批：研究茶路19处，18处原无展开，雅安在既有阅读上补深；热索瓦仍是明确缺口。原有8处茶路缺口判断被本次有证据的阅读取代，不重复计数。
+- 累计44处已有新增且逐项来源支持的阅读，5处保留简洁有用判断，5处记录仍需研究。**54个不同语境有当前人工判断，其余2164个语境尚未在这两批逐项人工验收。**
+- 仍有 **181个未排除的自动候选**，其中139处用于当前可见主题的行程。候选是编辑优先队列，不等于已证实错误，也不是全站剩余工作的上限。已有长文、零信号主题同样需要后续复核。
+- 两批均未替换图片、原始目录、坐标、来源、方案或收藏ID；展开合并原段落与原来源对象。没有把跨主题艺术阅读算成旧路线已补足。
 
-1. index驱动数据加载，包含泛美公路、76方向文化数据、地域整合、剩余30主题及自然地图。只排除不负责数据注册的app/flow界面脚本；记录每份脚本哈希。
-2. 遍历所有主题的真实显示语境，含隐藏但可由旧链接/搜索访问的原主题；按当前主题读取共享地点的动态介绍、段落与来源，不把其他艺术家的阅读算作旧主题已补足。
-3. 空文、来源缺失、70字以下概述且无地点专属展开、跨主题错误回退等只产生编辑候选。相同段落在多地点复用会单列提示；有长文、有来源URL、有两段展开都不等于正确。
-4. 人工阅读核对名称、年代、地理和真实主题关系，增加具体对象与观察角度；原址、迁建、馆藏、传统纪念和当代设施分开。建议的观察方法不是现场考察结果；不固定票价、时刻和开放保证。
-5. 自动审计不联网认证事实。本批来源逐项阅读并记录在资料包，手动评语绑定内容哈希；以后内容变化会显示stale-review，不沿用旧验收。
+## 第三批：茶马与相关贸易网络
 
-## 与历史226个候选对照
+茶路20个节点里，19处有本次研究阅读；仅热索瓦保留待研究。它们并非同一时期、同一条可连续通行的道路。本图的跨喜马拉雅分支是相关贸易网络，不能按地图连线直接跨境。
 
-| 当前判断 | 数量 | 含义 |
-| --- | ---: | --- |
-| 本批已研究补足 | 22 | 原本无展开，本次增加有证据的具体阅读 |
-| 原文简洁有用 | 5 | 不因字数短而灌水；并未声称已做完整访问研究 |
-| 仍是待研究候选 | 199 | 包括7处在其他人物主题已有新阅读、但原路线仍薄弱的地点 |
-
-所有旧地点仍存在。旧226不是今日全站范围；新基线发现229个不同地点的自动信号、11个跨主题回退语境。本批后自动信号仍涉及204个地点，其中5处人工判断可保留，故未排除候选为199；153处用于当前可见主题的行程。候选不等于已证实错误，也不是全部尚需研究的上限。
-
-本次人工质量判断共42个语境：25处新研究、5处保留、12处明确缺口。其余2176个语境未在本批逐项人工验收；较长目录介绍与已有新主题资料也需后续抽查和分批复核。
-
-## 逐项研究与来源
-
-| 主题 | 地点 | 具体内容 | 首要证据 |
-| --- | --- | --- | --- |
-| 三峡古镇 | `dachang` | 搬迁之后，怎样读一座古城 | [重庆市民政局：巫山—大昌](https://mzj.cq.gov.cn/sy_218/bmdt/mzyw/202407/t20240715_13370821.html) |
-| 三峡古镇 | `xituo` | 从长江码头拾级而上 | [重庆市民政局：石柱—西沱](https://mzj.cq.gov.cn/sy_218/bmdt/mzyw/202403/t20240312_13026556.html) |
-| 三峡古镇 | `ningchang` | 盐泉怎样变成一座工业聚落 | [重庆市民政局：巫溪—宁厂](https://mzj.cq.gov.cn/sy_218/bmdt/mzyw/202405/t20240514_13203070.html) |
-| 三峡古镇 | `yunan` | 在汤溪河边辨认盐业旧城 | [重庆市民政局：云阳—云安](https://mzj.cq.gov.cn/sy_218/bmdt/mzyw/202412/t20241225_14017557.html) |
-| 三峡古镇 | `guizhou` | 归州、归州街与迁城记忆 | [湖北省住建厅：县城迁移与归州街](https://zjt.hubei.gov.cn/bmdt/dtyw/mtjj/201910/t20191028_99896.shtml) |
-| 三峡古镇 | `xintan` | 一处旧镇，先读滑坡与撤离 | [湖北省政协文史：1985年新滩滑坡抢险亲历](https://www.hbzx.gov.cn/49/2014-09-15/5883.html) |
-| 熊野古道 | `kumano-takijiri` | 河流边的界线与上山的第一段 | [田边市熊野旅游局：泷尻王子至高原](https://www.tb-kumano.jp/en/kumano-kodo/nakahechi/takijiri-oji-to-tsugizakura-oji/takijiri-oji-to-takahara/) |
-| 熊野古道 | `kumano-takahara` | 山脊村落里的樟树与远山 | [田边市熊野旅游局：高原村与神社](https://www.tb-kumano.jp/en/places/takahara/) |
-| 熊野古道 | `kumano-chikatsuyu` | 河谷宿场如何接住远行的人 | [田边市熊野旅游局：近露宿场](https://www.tb-kumano.jp/en/places/chikatsuyu/) |
-| 熊野古道 | `kumano-tsugizakura` | 大杉、泉水与一间复原茶屋 | [田边市熊野旅游局：野中与继樱王子](https://www.tb-kumano.jp/en/places/nonaka/) |
-| 熊野古道 | `kumano-hosshinmon` | 从礼仪门槛走入田园与森林 | [田边市熊野旅游局：近露至本宫的路段环境](https://www.tb-kumano.jp/en/kumano-kodo/nakahechi/tsugizakura-oji-to-kumano-hongu-taisha/chikatsuyu-oji-to-kumano-hongu-taisha/) |
-| 熊野古道 | `kumano-hongu` | 现神社与河滩旧址，两处一起读 | [田边市熊野旅游局：本宫大社与大斋原](https://www.tb-kumano.jp/en/kumano-kodo/world-heritage/kumano-hongu-taisha/) |
-| 佛教四大圣地 | `buddhist-lumbini` | 让出生传统落到考古证据上 | [UNESCO：蓝毗尼遗产地与考古证据](https://whc.unesco.org/en/list/666/) |
-| 佛教四大圣地 | `buddhist-bodhgaya` | 砖塔、菩提树与成道纪念空间 | [UNESCO：摩诃菩提寺院群](https://whc.unesco.org/en/list/1056/) |
-| 佛教四大圣地 | `buddhist-sarnath` | 把原柱遗迹与博物馆柱头对上 | [印度考古局鹿野苑：阿育王狮子柱头](https://asisarnathcircle.in/lion-capital.php) |
-| 佛教四大圣地 | `buddhist-kushinagar` | 涅槃寺与荼毗塔各自纪念什么 | [拘尸那迦地区政府：涅槃寺与考古博物馆](https://kushinagar.nic.in/places-of-interest/) |
-| 苏格兰北海岸 500 | `nc500-torridon` | 山体本身就是一部地质书 | [苏格兰国民信托：托里登自然保护区](https://www.nts.org.uk/visit/places/torridon) |
-| 苏格兰北海岸 500 | `nc500-gairloch` | 海湾之外，看高地人怎样生活 | [Gairloch Museum：馆舍与地方收藏](https://www.gairlochmuseum.org/museum) |
-| 苏格兰北海岸 500 | `nc500-ullapool` | 为鲱鱼业规划出来的港村 | [Ullapool Museum：渔业、航运与聚落收藏](https://www.ullapoolmuseum.co.uk/our-collection-2/) |
-| 苏格兰北海岸 500 | `nc500-lochinver` | 从港口看阿辛特的独立山峰 | [VisitScotland：西北高地地质公园](https://www.visitscotland.com/places-to-go/unesco/geoparks/north-west-highlands) |
-| 苏格兰北海岸 500 | `nc500-durness` | 在Smoo洞看水怎样改变石灰岩 | [Scottish Geology Trust：德内斯与Smoo洞地质](https://www.scottishgeologytrust.org/geology/51-best-places/smoo-cave-durness/) |
-| 苏格兰北海岸 500 | `nc500-tongue` | 一座年代未明的塔楼与海湾 | [Historic Environment Scotland：Castle Varrich的保护与未解历史](https://blog.historicenvironment.scot/2018/12/caisteal-bharraich/) |
-| 苏格兰北海岸 500 | `nc500-johnogroats` | 知名路标与真正最北点分开 | [VisitScotland：NC500的区域停留点](https://www.visitscotland.com/planning/travel-in-scotland/driving-road-trips/north-coast-500) |
-| 苏格兰北海岸 500 | `nc500-wick` | 从鲱鱼港读Pulteneytown | [Wick Heritage Centre：鲱鱼业与Pulteneytown](https://www.wickheritage.org/fishing.php) |
-| 苏格兰北海岸 500 | `nc500-dornoch` | 仍在使用的教堂与小城中心 | [Dornoch Firth Church of Scotland：多诺赫教堂](https://www.dornoch-cathedral.com/) |
-
-每段的sourceKeys、全部28份资料、改写概要及原文可复核于[batch-2.json](data/content-quality/batch-2.json)。资料中存在传说、年代或数量争议时只采用有支持的范围；未采用宁厂资料中互相矛盾的早期年数，也不固定西沱台阶数量。新滩原来源404的旧链接仍保留，新增可读文史来源；归州镇与新县城归州街、云安与已迁陕西牮楼分开。
-
-## 下一批优先队列
-
-| 地点 | 主题 | 已读到的具体缺口 |
+| 地点 | 本批阅读 | 主要机构证据 |
 | --- | --- | --- |
-| `tea-nanjian` | tea | 仅称商贸节点，缺少具体遗存、地方生产和可观察对象。 |
-| `tea-dali` | tea | 仅称古城节点，需具体核对茶路与城内地点的关系。 |
-| `tea-lijiang` | tea | 马帮与多元交流过于概括，缺少对应街巷、市场或证据。 |
-| `tea-deqin` | tea | 当前以高原适应提醒为主，缺少地方本身值得看的内容。 |
-| `tea-kangding` | tea | 有打箭炉旧称，但还没有具体商贸遗存或观察线索。 |
-| `tea-litang` | tea | 只有高海拔和分段安排建议，未解释理塘特色。 |
-| `tea-batang` | tea | 川边重镇是泛称，需实际地点和历史关系证据。 |
-| `tea-changdu` | tea | 区域交流节点不能代替具体城镇内容。 |
-| `silk-tashkent` | silk | 仅有交通商贸标签，缺少城市地景和可靠关联。 |
-| `silk-bukhara` | silk | 未具体说明商贸、学术如何体现在可看的建筑或街区。 |
-| `francigena-canterbury` | francigena | 已有起点和大教堂线索，仍缺锡杰里克史料与现场观察层次。 |
-| `route66-springfield` | route66 | 未点名可核实的路边设施与历史路段；不能靠泛称餐厅补足。 |
+| `tea-puer` | 从茶叶产区走向驿站生活 | [云南省档案馆影像工程：那柯里村](https://nync.yn.gov.cn/html/2025/yunnongkuanxun-new_1219/1423288.html) |
+| `tea-nanjian` | 把县城代表点展开到公郎 | [大理州烟草专卖局：公郎茶园与古驿站](https://yn.people.com.cn/news/yunnan/n2/2025/0426/c403002-41209402.html) |
+| `tea-dali` | 从三月街理解集市怎样连接远方 | [云南省民族宗教委：三月街的贸易与文化活动](https://mz.yn.gov.cn/html/2025/difangdongtai_0416/4058893.html) |
+| `tea-lijiang` | 把古城的水、街和市场一起读 | [UNESCO：丽江古城的街巷与水系](https://whc.unesco.org/en/list/811/) |
+| `tea-deqin` | 阿墩子：商道与朝圣路径的交叠 | [迪庆州文物管理所：茶马古道迪庆段](https://www.dqhjbwg.cn/pc/WGS/index.go) |
+| `tea-yaan` | 从背茶的印痕读到茶园 | [文化和旅游部：雅安茶源与古道分段线路](https://zhuanti.mct.gov.cn/xczgshsh2023/cxyh/detail_cha/3865.html) |
+| `tea-kangding` | 打箭炉的交易需要一座锅庄 | [康定市政府：打箭炉与两河交汇的城市背景](https://www.kangding.gov.cn/kdkdjj/article/107015) |
+| `tea-litang` | 在藏房里看商路之外的生活 | [理塘县政府：勒通古镇的藏房与微型博物馆](https://www.gzlt.gov.cn/ltfg/article/592205) |
+| `tea-batang` | 从河谷小城听见弦子 | [巴塘县政府：夏邛与茶马古道重镇背景](https://www.batang.gov.cn/btjj1/article/650176) |
+| `tea-changdu` | 在两河相会处读商路与寺院 | [中国商业史学会：茶马古道商贸、锅庄与昌都](https://sys.cufe.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1525&wbtreeid=1054) |
+| `tea-lhasa` | 从八廓的街市读货物流动 | [拉萨城关区政府：八廓街与冲赛康院落](https://www.cgq.gov.cn/cgqrmzf/jdjs/202007/c3c768bee94346abbc8e17de629ccf37.shtml?userInfo=notlogin) |
+| `tea-shigatse` | 从寺院工艺读后藏的交流 | [西藏自治区外事办：扎什伦布寺的经堂与工艺](https://wsb.xizang.gov.cn/xzjx/lyjd/201107/t20110713_100950.html) |
+| `tea-gyirong` | 在古使团题铭前读通道历史 | [西藏自治区文物部门资料：658年使团题铭与复刻碑](https://www.xizang.gov.cn/xwzx_406/bmkx/201812/t20181216_10316.html) |
+| `tea-nuwakot` | 贸易走廊上的宫殿与山城 | [尼泊尔考古局申报、UNESCO收录：努瓦科特宫殿群](https://whc.unesco.org/en/tentativelists/5260/) |
+| `tea-kathmandu` | 在院落与市场间寻找交换的尺度 | [尼泊尔旅游局：加德满都内城遗产步行观察](https://ntb.gov.np/heritage-walk) |
+| `tea-yadong` | 春丕谷的集散与山口的分工 | [西藏自治区政府：近代藏南亚通商与商人网络](https://www.xizang.gov.cn/xwzx_406/ztzl_416/cxzt/xzzzqrmzffzyjzx/zxdt/xzzzqrmzffzyjzx_398/202104/t20210423_200484.html) |
+| `tea-nathula` | 山口的风景与边界要一起理解 | [甘托克地区政府：乃堆拉与措莫湖的地景及设施](https://gangtokdistrict.nic.in/signature-attractions/) |
+| `tea-gangtok` | 在藏学研究院把文化联系看清 | [Namgyal Institute of Tibetology：馆藏、建筑与研究](https://namgyalinstitutesikkim.org/) |
+| `tea-kalimpong` | 从羊毛仓库辨认商路的转身 | [噶伦堡地区政府：经则里拉的商路与货物](https://kalimpong.gov.in/history/) |
 
-此外，法国之路、徐霞客、丝路、66号公路和茶路还有较多候选。安第斯Desaguadero–Titijoni与Tiwanacu的现场构筑物资料仍需专门研究。本批并未把这些遗留项清零。
+完整新文字、段落依据与28项资料在[batch-3.json](data/content-quality/batch-3.json)。来源包括地方文物与旅游部门、国家非遗数字博物馆、UNESCO收录的国家申报、机构官网和官方作者发布文本。只作原创概述，不转载图片。对返回405/超时的原站使用其已索引的机构正文，获取方式与限制记录于来源字段；未把连接成功或URL存在视作事实核实。
 
-## 全主题覆盖表
+具体区分：南涧县城与公郎、普洱城区与宁洱那柯里、大研与束河同名四方街；阿墩子段与梅里段；旧锅庄与现今同名商店；原题铭与后设复刻碑；努瓦科特预备清单与正式世界遗产；噶伦堡经则里拉的商路与乃堆拉；旧羊毛仓库与仍在使用的学校。观察方法是编辑建议，非现场勘察；不写死票价、时刻与开放保证。
 
-下表的“审计覆盖”是生产数据枚举，“人工判断”才表示本批读过并记录结论。候选列为自动信号，仍含5处人工保留的短文。
+## 明确仍需研究
 
-| 主题ID | 名称 | 入口 | 审计语境 | 自动候选 | 本批人工判断 |
+- `tea-rasuwa`：本轮官方海关史PDF返回503；移民机关和灾情门户不能替代堡垒或古道遗存的直接证据，未用通关提示凑内容。需要核实具体遗构、现存状态及可解释的观察对象。
+- `silk-tashkent`、`silk-bukhara`：商贸/学术标签尚未落到具体街区、建筑与主题联系。
+- `francigena-canterbury`：需补锡杰里克行程史料和现场观察层次。
+- `route66-springfield`：需点名并核实对应城市的历史路段与设施，避免同名城市或泛称餐厅。
+- 其他优先队列含法国之路、徐霞客、马可波罗、丝路、66号公路及莫扎特。安第斯Desaguadero–Titijoni与Tiwanacu仍需专门构筑物资料；它们已有展开，因此未必出现在181个短文信号中。
+
+## 质量方法与可复核文件
+
+1. 由index顺序载入所有生产数据，遍历每个注册主题（含隐藏旧入口），按实际主题语境取阅读与来源。原基线[压缩快照](qa/content-quality/baseline-2026-11-18.json.gz)不可覆盖。
+2. 空文、来源缺失、短概要且无专属展开、错主题回退、跨地点重复段落只生成信号。相同城市的不同主题分别计，自动枚举不联网认证内容。
+3. 人工审查具体特色、年代、地理、主题关系、原址/迁建/馆藏/现代复原与能观察什么；[人工判断](qa/content-quality/manual-reviews.json)绑定文本和来源哈希，变化即失效。
+4. [逐语境CSV](qa/content-quality/contexts.csv)列全部2218语境；[最新报告](qa/content-quality/latest.json)列130主题和330方案；[旧候选原主题](qa/content-quality/legacy-candidates.json)防止其他人物主题虚增完成量。
+5. 资料包按批次独立保留，由`node scripts/build-quality-readings.cjs`生成同一个生产bundle；`--check`验证未漂移。测试核对全部原概要、链接、图片绑定与方案ID；浏览器检查每处新增阅读的两节内容与全部来源，在桌面与手机视口留截图。
+
+## 历史226候选的当前对照
+
+| 判断 | 数量 |
+| --- | ---: |
+| 第二批补足 | 22 |
+| 第三批补足 | 18 |
+| 原文简洁有用 | 5 |
+| 仍为候选 | 181 |
+
+7处在其他人物主题已有展开仍不能冲销原路线缺口。第二批开始发现229个不同地点的自动信号；当前186个有信号，其中5处人工保留，故未排除181。候选减少是具体研究的结果，不靠加长字数或把所有有来源的条目标记完成。
+
+## 全主题当前状态
+
+“语境”列只证明已被审计程序枚举；“人工判断”才是当前两批记录。零候选不表示资料正确或人工验收完成。
+
+| 主题ID | 名称 | 入口 | 语境 | 自动候选 | 人工判断 |
 | --- | --- | --- | ---: | ---: | ---: |
 | `nature` | 世界自然遗产 | 可见 | 282 | 4 | 1 |
 | `culture` | 世界文化遗产 | 可见 | 1033 | 19 | 4 |
 | `gorges` | 三峡古镇 | 可见 | 6 | 0 | 6 |
 | `parks` | 美国国家公园 | 可见 | 63 | 0 | 0 |
-| `tea` | 茶马古道 | 可见 | 20 | 19 | 8 |
+| `tea` | 茶马古道 | 可见 | 20 | 1 | 20 |
 | `silk` | 丝绸之路 | 可见 | 26 | 25 | 2 |
 | `polo` | 马可波罗游记 | 可见 | 23 | 23 | 0 |
 | `xu` | 徐霞客全国游踪 | 可见 | 24 | 24 | 0 |
@@ -216,18 +205,3 @@
 | `canadian-rockies` | 加拿大落基山 | 可见 | 8 | 0 | 0 |
 | `nz-great-walks` | 新西兰南岛 · 三条 Great Walks | 可见 | 17 | 0 | 0 |
 | `patagonia-nature` | 巴塔哥尼亚 · 冰川与塔峰 | 可见 | 14 | 0 | 0 |
-
-## 可复核文件和检查
-
-- [全量语境CSV](qa/content-quality/contexts.csv)：2218行，主题、推荐关联、长度信号、来源、判断及内容哈希。
-- [最新审计](qa/content-quality/latest.json)：130主题和330方案均列出，不覆盖[PR #8旧快照](qa/content-audit.json)。
-- [不可覆盖的开始快照](qa/content-quality/baseline-2026-11-18.json.gz)：压缩前的完整原始审计；gzip解压后可读取JSON。
-- [旧候选原主题](qa/content-quality/legacy-candidates.json)与[人工判断](qa/content-quality/manual-reviews.json)：避免以无关的新语境冲销旧问题。
-- `node scripts/audit-content.cjs --write`更新当前JSON/CSV；`node --test tests/content-quality.test.cjs`验证所有数据覆盖、判断过期、跨主题隔离和原数据保全。
-- 本地48项项目测试和四组DOM回归通过。旧侧栏脚本适配当前隐藏主题需搜索、默认行程筛选的行为后通过。
-- 容器Chromium实际启动报socket Operation not permitted；未把这次失败当浏览器通过。新增Place content quality checks工作流将真实检查25处详情、两段内容、原/新来源链接、返回、跨主题、路线前后站、重复收藏和刷新，桌面1440×1000与手机390×844。最终浏览器结果以本批PR CI为准。
-
-
-保全检查补记：三组历史保全审计均通过，继续逐项比较原目录、图片字节、作品、来源和方案。只有旧快照中可证明来自无关人物的阅读回退被移出该主题；该人物本身的主题仍接受完整段落/来源保全。新增回归确认：丢失适用段落会失败，保留错误串读也会失败。同URL的新来源不会挤掉原来源对象。
-
-浏览器CI环境补记：首次新工作流因ubuntu-latest升级到26.04与固定Playwright版本不兼容，尚未执行浏览器；已固定到受支持的ubuntu-24.04，重新验收。失败不计为通过。

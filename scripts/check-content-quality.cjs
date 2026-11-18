@@ -1,6 +1,6 @@
 'use strict';
 const fs=require('node:fs'),assert=require('node:assert/strict'),{chromium}=require('playwright');
-const pack=require('../data/content-quality/batch-2.json'),base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/content-quality-browser';
+const pack=require('./content-quality-packs.cjs').combinedPack(),base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/content-quality-browser';
 (async()=>{
  fs.mkdirSync(out,{recursive:true});const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{}),args:['--no-sandbox']}),page=await browser.newPage(),errors=[],checks=[];
  page.on('pageerror',e=>errors.push(e.message));const open=async hash=>{await page.goto(base+hash);await page.waitForFunction(()=>document.body.dataset.ready==='true')};
@@ -11,10 +11,10 @@ const pack=require('../data/content-quality/batch-2.json'),base=process.env.BASE
    await open('#theme='+row.theme+'&place='+row.id);assert.equal(await page.evaluate(()=>selected?.id),row.id);assert.equal(await page.locator('#detail .place-summary').innerText(),row.summary);
    assert.ok((await page.locator('#detail .reading-essay').innerText()).includes(row.paragraphs[0].text));
    const second=page.locator('#detail .reading-essay details').nth(1);if(await second.getAttribute('open')===null)await second.locator('summary').click();assert.ok((await second.innerText()).includes(row.paragraphs[1].text));
-   await page.locator('#detail .reading-sources summary').click();for(const key of row.sourceKeys)assert.ok(await page.locator('#detail .reading-sources a').evaluateAll((nodes,url)=>nodes.some(a=>a.href===url),pack.sources[key].url));
+   await page.locator('#detail .reading-sources summary').click();for(const key of row.sourceKeys)assert.ok(await page.locator('#detail .reading-sources a').evaluateAll((nodes,url)=>nodes.some(a=>a.href===new URL(url).href),pack.sources[key].url),row.id+' source '+key);
    assert.ok(await page.locator('#detail .reading-sources a').evaluateAll(nodes=>nodes.some(a=>a.href===selected.source)));
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
-   if(['xituo','kumano-hongu','buddhist-sarnath','nc500-gairloch'].includes(row.id)){await page.locator('#detail .reading-sources summary').click();await page.locator('#detail').evaluate(el=>el.scrollTop=0);await page.screenshot({path:out+'/'+device.name+'-'+row.id+'.png'});}
+   if(['xituo','kumano-hongu','buddhist-sarnath','nc500-gairloch','tea-lijiang','tea-kalimpong'].includes(row.id)){await page.locator('#detail .reading-sources summary').click();await page.locator('#detail').evaluate(el=>el.scrollTop=0);await page.screenshot({path:out+'/'+device.name+'-'+row.id+'.png'});}
    await page.locator('#detail .reading-close').click();assert.ok(await page.locator('#detail').isHidden());checks.push({device:device.name,id:row.id,summary:true,sections:true,sourceLinks:true,close:true,noHorizontalOverflow:true});
   }
   await open('#theme=mozart&place=mozart-prague');assert.equal(await page.locator('#detail .reading-essay').count(),0);assert.ok(!(await page.locator('#detail .place-summary').innerText()).includes('卡夫卡'));assert.equal(await page.locator('#detail .place-summary').innerText(),await page.evaluate(()=>selected.desc));
@@ -23,6 +23,6 @@ const pack=require('../data/content-quality/batch-2.json'),base=process.env.BASE
   if(!await page.locator('#detail .add-trip').isDisabled())await page.locator('#detail .add-trip').click();const n=await page.evaluate(()=>trip.length);await page.locator('#detail .reading-close').click();await page.locator('.route-stops button').first().click();assert.ok(await page.locator('#detail .add-trip').isDisabled());assert.equal(await page.evaluate(()=>trip.length),n);
   await page.reload();await page.waitForFunction(()=>document.body.dataset.ready==='true');assert.equal(await page.evaluate(()=>selected.id),first);await page.locator('#detail .reading-close').click();await page.locator('#back-themes').click();assert.equal(await page.evaluate(()=>document.body.dataset.view),'catalog');
  }
- assert.deepEqual(errors,[]);fs.writeFileSync(out+'/report.json',JSON.stringify({passed:true,baseline:pack.baseline,readings:pack.readings.length,checks,errors,limitations:['Chromium CSS viewports, not physical phones','New content and theme-relevance checks; no claim of all-site historical verification','No new or substituted imagery in this batch']},null,2));console.log('PASS content quality: all25 readings, both sections and evidence links, original links, close/back, theme-specific context, route next/previous, save deduplication and URL refresh on desktop/mobile.');
+ assert.deepEqual(errors,[]);fs.writeFileSync(out+'/report.json',JSON.stringify({passed:true,baseline:pack.baseline,readings:pack.readings.length,checks,errors,limitations:['Chromium CSS viewports, not physical phones','New content and theme-relevance checks; no claim of all-site historical verification','No new or substituted imagery in this batch']},null,2));console.log('PASS content quality: all researched readings, both sections and evidence links, original links, close/back, theme-specific context, route next/previous, save deduplication and URL refresh on desktop/mobile.');
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exitCode=1});

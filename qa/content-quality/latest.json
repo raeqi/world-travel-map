@@ -1,30 +1,31 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "baseline": "27bd4fe441008c13a05d34beaf725923575812d1",
   "method": "All production data scripts in index order; every registered place/theme context. UI-only app/flow excluded. Signals are triage, not factual verdicts. Manual reviews are content-hash bound; sources not fetched automatically.",
   "summary": {
-    "visibleItineraryUnresolvedCandidatePlaces": 153,
-    "unresolvedCandidatePlaces": 199,
+    "visibleItineraryUnresolvedCandidatePlaces": 139,
+    "unresolvedCandidatePlaces": 181,
     "places": 2010,
     "internalThemes": 130,
     "visibleThemes": 77,
     "plans": 330,
     "placeThemeContexts": 2218,
     "plannedPlaces": 766,
-    "automaticCandidatePlaces": 204,
-    "automaticCandidateContexts": 204,
-    "visibleItineraryCandidatePlaces": 154,
+    "automaticCandidatePlaces": 186,
+    "automaticCandidateContexts": 186,
+    "visibleItineraryCandidatePlaces": 140,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 42,
-    "manualResearchedPlaces": 25,
+    "manualReviewedContexts": 54,
+    "manualResearchedPlaces": 44,
     "manualUsefulConcisePlaces": 5,
-    "manualNeedsResearchPlaces": 12,
+    "manualNeedsResearchPlaces": 5,
     "staleReviews": 0,
     "legacyCandidates": 226,
     "legacyComparisonCounts": {
-      "still-automatic-candidate": 199,
+      "still-automatic-candidate": 181,
       "useful-concise": 5,
-      "researched-batch-2": 22
+      "researched-batch-2": 22,
+      "researched-batch-3": 18
     }
   },
   "scripts": [
@@ -230,7 +231,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "7de7704ed09f542746aa87c5d829d0b5ec21982c0cb605cefa8dd40277269715",
+      "sha256": "d884a33f4fcaba31c7c30a665e0d940d3526590f4b464248e874915f4f10a4f3",
       "executed": true
     },
     {
@@ -282,8 +283,8 @@
       "name": "茶马古道",
       "visible": true,
       "contexts": 20,
-      "automaticCandidates": 19,
-      "manuallyReviewed": 8
+      "automaticCandidates": 1,
+      "manuallyReviewed": 20
     },
     {
       "id": "silk",
@@ -1819,13 +1820,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-nanjian",
@@ -1837,13 +1838,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-dali",
@@ -1855,13 +1856,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-lijiang",
@@ -1873,13 +1874,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-deqin",
@@ -1891,13 +1892,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-kangding",
@@ -1909,13 +1910,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-litang",
@@ -1927,13 +1928,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-batang",
@@ -1945,13 +1946,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-changdu",
@@ -1963,13 +1964,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-lhasa",
@@ -1981,13 +1982,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-shigatse",
@@ -1999,13 +2000,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-gyirong",
@@ -2017,13 +2018,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-rasuwa",
@@ -2035,7 +2036,7 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "candidate-not-manually-verified",
+          "status": "needs-research",
           "expandedInThisTheme": false,
           "short": true,
           "foreignThemeFallback": false
@@ -2053,13 +2054,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-kathmandu",
@@ -2071,13 +2072,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-yadong",
@@ -2089,13 +2090,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-nathula",
@@ -2107,13 +2108,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-gangtok",
@@ -2125,13 +2126,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "tea-kalimpong",
@@ -2143,13 +2144,13 @@
       "contexts": [
         {
           "theme": "tea",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-3",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-3"
     },
     {
       "id": "silk-venice",
@@ -7029,37 +7030,37 @@
       "contexts": [
         {
           "id": "tea-yaan",
-          "status": "not-manually-verified",
+          "status": "researched-batch-3",
           "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-kangding",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-litang",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-batang",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-changdu",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7079,37 +7080,37 @@
       "contexts": [
         {
           "id": "tea-puer",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-nanjian",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-dali",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-lijiang",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-deqin",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7128,30 +7129,30 @@
       "contexts": [
         {
           "id": "tea-yaan",
-          "status": "not-manually-verified",
+          "status": "researched-batch-3",
           "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-kangding",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-litang",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-batang",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7170,30 +7171,30 @@
       "contexts": [
         {
           "id": "tea-puer",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-nanjian",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-dali",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-lijiang",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7211,23 +7212,23 @@
       "contexts": [
         {
           "id": "tea-kalimpong",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-gangtok",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-nathula",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7245,21 +7246,21 @@
       "contexts": [
         {
           "id": "tea-kathmandu",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-nuwakot",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-rasuwa",
-          "status": "candidate-not-manually-verified",
+          "status": "needs-research",
           "expanded": false,
           "candidate": true,
           "foreignThemeFallback": false
@@ -7279,23 +7280,23 @@
       "contexts": [
         {
           "id": "tea-nanjian",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-dali",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-lijiang",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7313,23 +7314,23 @@
       "contexts": [
         {
           "id": "tea-puer",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-nanjian",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-dali",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7346,16 +7347,16 @@
       "contexts": [
         {
           "id": "tea-dali",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "tea-lijiang",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-3",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
