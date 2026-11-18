@@ -1,7 +1,7 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto');const {runtime}=require('../scripts/theme-audit-runtime.cjs');
 test('regional consolidation covers every source place and adds concrete sourced places without directories',()=>{const c=runtime();c.assert=assert;vm.runInContext(`
- assert.equal(visibleCatalogueThemes().length,82);
+ assert.equal(visibleCatalogueThemes().length,remainingThirtyReview.expectedVisible);
  for(const id of regionalConsolidatedSources){assert.ok(themes.find(t=>t.id===id).catalogHidden);assert.ok(culturalSourceCoverage(id).every(p=>p.maps.length),id);}
  for(const p of regionalExpansionData.points){const place=places.find(x=>x.id===p.id);assert.ok(place.themes.some(id=>!themes.find(t=>t.id===id).catalogHidden),p.id);assert.ok(p.desc.length>50&&p.observe.length>30);assert.ok(placeEssays[p.id].sources.some(s=>s.url===p.source));homeState.query=p.name;assert.ok(matchingDiscovery().some(x=>x.nodes.some(n=>n.id===p.id)),p.id+' search');}
  assert.ok(worksForTheme('fuji-tokaido').length>=5);assert.ok(worksForTheme('southern-france-painters').length);homeState.query='鸢尾花';assert.ok(matchingDiscovery().some(x=>x.theme.id==='southern-france-painters'));

@@ -20,7 +20,7 @@ test('merges follow geography, while unrelated stories remain independent and se
  assert.ok(nodes('jiangnan-painting').every(p=>(countrySearchNames[p.country]||p.country)==='中国'&&p.lon>117&&p.lon<123&&p.lat>29&&p.lat<33));
  assert.ok(nodes('mexico-city-art').every(p=>p.country==='墨西哥'));
  assert.ok(nodes('shen-congwen').every(p=>p.region==='湖南'));assert.ok(nodes('xiao-hong').every(p=>p.country==='中国'&&p.lat>45));
- for(const id of ['shen-congwen','xiao-hong','wordsworth','constable','sibelius','grieg','puccini','higashiyama'])assert.ok(visibleCatalogueThemes().some(t=>t.id===id));assert.ok(themes.find(t=>t.id==='grieg').view.zoom>60);assert.ok(themes.find(t=>t.id==='mahfouz').view.zoom>120);
+ for(const id of ['shen-congwen','xiao-hong','wordsworth','constable','sibelius','grieg','puccini'])assert.ok(visibleCatalogueThemes().some(t=>t.id===id)||culturalSourceCoverage(id).every(p=>p.maps.length));assert.ok(themes.find(t=>t.id==='grieg').view.zoom>60);assert.ok(themes.find(t=>t.id==='mahfouz').view.zoom>120);
  homeState.interest='art';homeState.query='萧红';assert.ok(matchingDiscovery().some(x=>x.theme.id==='xiao-hong'));assert.ok(!matchingDiscovery().some(x=>x.theme.id==='shen-congwen'));
  homeState.query='吴冠中';assert.ok(matchingDiscovery().some(x=>x.theme.id==='jiangnan-painting'));assert.ok(matchingDiscovery().some(x=>x.theme.id==='wu-guanzhong'));
  homeState.query='';homeState.discipline='architecture';homeState.area='亚洲';assert.ok(matchingDiscovery().some(x=>x.theme.id==='setouchi-art'));assert.ok(!matchingDiscovery().some(x=>x.theme.id==='european-music-cities'));

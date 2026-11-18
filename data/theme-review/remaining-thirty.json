@@ -1,0 +1,759 @@
+{
+  "baseline": "697397886b2e4e238220a841108631a5d74e7433",
+  "phase": 1,
+  "assessments": [
+    {
+      "id": "brancusi",
+      "decision": "扩充",
+      "reason": "罗马尼亚雕塑群、克拉约瓦收藏与巴黎工作室分区；不把特尔古日乌藏进巴黎。",
+      "phase": 2
+    },
+    {
+      "id": "giacometti",
+      "decision": "扩充",
+      "reason": "布雷加利亚工作室与博物馆、苏黎世收藏各有实际入口，巴黎另留。",
+      "phase": 2
+    },
+    {
+      "id": "gauguin",
+      "decision": "扩充",
+      "reason": "布列塔尼蓬塔旺与勒普尔迪可作本地旅行，塔希提与殖民语境保留。",
+      "phase": 2
+    },
+    {
+      "id": "chagall",
+      "decision": "扩充",
+      "reason": "维捷布斯克故乡与南法两区都有证据，不因南法已覆盖而隐藏白俄罗斯。",
+      "phase": 2
+    },
+    {
+      "id": "constable",
+      "decision": "合并并扩充",
+      "reason": "与华兹华斯形成英格兰风景阅读普通地图；萨福克和湖区各自成行程，不能同日串联。",
+      "phase": 2
+    },
+    {
+      "id": "zhang-daqian",
+      "decision": "扩充",
+      "reason": "内江纪念、上海文献、敦煌临摹与台北园居分阶段，内江和上海各有具体参访。",
+      "phase": 1
+    },
+    {
+      "id": "qi-baishi",
+      "decision": "扩充",
+      "reason": "湘潭乡居与北京故居、画院收藏各有语境，优先补确实可参观的收藏机构。",
+      "phase": 1
+    },
+    {
+      "id": "higashiyama",
+      "decision": "地域整合并扩充",
+      "reason": "奈良、长野和市川纳入日本艺境，保留风景画与馆藏所在地的区别。",
+      "phase": 1
+    },
+    {
+      "id": "cartier-bresson",
+      "decision": "扩充",
+      "reason": "补巴黎基金会实际展览入口，保留中国两次任务的年代；不将照片背景城市全当精确机位。",
+      "phase": 1
+    },
+    {
+      "id": "christo-jeanneclaude",
+      "decision": "扩充",
+      "reason": "加入巴黎新桥与凯旋门的临时项目旧现场，必须标明作品已拆除。",
+      "phase": 2
+    },
+    {
+      "id": "chopin",
+      "decision": "扩充",
+      "reason": "补华沙与热拉佐瓦沃拉的生平、收藏，诺昂和马略卡独立阅读。",
+      "phase": 2
+    },
+    {
+      "id": "dvorak",
+      "decision": "扩充",
+      "reason": "补布拉格近郊出生地和维索卡纪念；斯皮尔维尔美国阶段不能隐藏。",
+      "phase": 2
+    },
+    {
+      "id": "grieg",
+      "decision": "地域扩充",
+      "reason": "卑尔根附近塞韦鲁德故居可一起探访，明确两位作曲家；不与芬兰硬拼。",
+      "phase": 2
+    },
+    {
+      "id": "mendelssohn",
+      "decision": "扩充",
+      "reason": "莱比锡与柏林家族空间分地，苏格兰岛屿行程受海况限制，保留原节点。",
+      "phase": 2
+    },
+    {
+      "id": "puccini",
+      "decision": "地域整合并扩充",
+      "reason": "卢卡、湖岸和维亚雷焦构成托斯卡纳地方行程，加入意大利艺旅普通地图。",
+      "phase": 2
+    },
+    {
+      "id": "su-shi",
+      "decision": "扩充",
+      "reason": "从眉山、凤翔、密州、徐州、湖州、杭州到黄州、惠州、儋州和常州，保留代表阶段与分区探访。",
+      "phase": 1
+    },
+    {
+      "id": "wang-wei",
+      "decision": "地域扩充",
+      "reason": "蓝田与终南旁的水陆庵作为近邻文化点，明确不是新发现的王维到访地。",
+      "phase": 1
+    },
+    {
+      "id": "hugo",
+      "decision": "地域合并并扩充",
+      "reason": "与普鲁斯特形成巴黎、诺曼底和海峡岛屿的书房与海岸地图；根西岛另设跨海章节。",
+      "phase": 2
+    },
+    {
+      "id": "byron",
+      "decision": "扩充",
+      "reason": "补纽斯特德祖居，瑞士与希腊保持独立阶段，不能硬并入英国湖区。",
+      "phase": 2
+    },
+    {
+      "id": "wordsworth",
+      "decision": "合并并扩充",
+      "reason": "湖区童年居所与格拉斯米尔房屋足够丰富；与康斯太勃尔共同地图，按两地区探访。",
+      "phase": 2
+    },
+    {
+      "id": "kafka",
+      "decision": "扩充",
+      "reason": "用布拉格具体博物馆补城市代表点，晚年基尔灵另留；不把小说城堡指定成景点。",
+      "phase": 2
+    },
+    {
+      "id": "joyce",
+      "decision": "扩充",
+      "reason": "补都柏林海边塔楼和的里雅斯特新馆址，分小说场景、真实短住与迁居背景。",
+      "phase": 2
+    },
+    {
+      "id": "proust",
+      "decision": "地域合并并扩充",
+      "reason": "补莱奥妮姨妈之家和卡堡美好年代博物馆，伊利耶与海岸记忆有具体参访。",
+      "phase": 2
+    },
+    {
+      "id": "hemingway",
+      "decision": "扩充",
+      "reason": "奥克帕克童年与爱达荷博物馆补生涯，基韦斯特和古巴原居所不丢；私人晚年宅不纳入入室参访。",
+      "phase": 3
+    },
+    {
+      "id": "steinbeck",
+      "decision": "地域整合并扩充",
+      "reason": "萨利纳斯与蒙特雷共一地区，加入美国西部地图，补出生房屋与里基茨实验室。",
+      "phase": 3
+    },
+    {
+      "id": "mark-twain",
+      "decision": "扩充",
+      "reason": "补迁建至埃尔迈拉学院的书房，汉尼拔与哈特福德不压成同一区域。",
+      "phase": 3
+    },
+    {
+      "id": "neruda",
+      "decision": "地域扩充",
+      "reason": "三座房子自身有价值，补瓦尔帕莱索港城遗产并拆成城市、海岸探访，不为凑数找第四栋房。",
+      "phase": 3
+    },
+    {
+      "id": "marquez",
+      "decision": "地域扩充",
+      "reason": "把加勒比故乡落到阿拉卡塔卡故居博物馆，邻近大沼泽提供自然与地方生活背景。",
+      "phase": 3
+    },
+    {
+      "id": "tagore",
+      "decision": "扩充",
+      "reason": "补北园居所与新城文化中心，区分家族故居、校园、收藏和后世纪念。",
+      "phase": 1
+    },
+    {
+      "id": "italian-art-journeys",
+      "decision": "扩充并承接",
+      "reason": "以托斯卡纳本地音乐和建筑补旅行内容，威尼斯、罗马、那不勒斯原艺术资料不变。",
+      "phase": 2
+    }
+  ],
+  "points": [
+    {
+      "id": "thirty-sansuci",
+      "name": "眉山 · 三苏祠",
+      "en": "San Su Ci",
+      "lon": 103.8294,
+      "lat": 30.0451,
+      "country": "中国",
+      "region": "四川眉山",
+      "type": "生活与纪念",
+      "desc": "苏洵、苏轼、苏辙的家族生活与文学从眉山展开。三苏祠由故居改祠，现存园林和建筑经历重建，不能当作北宋住宅未经改变的原貌。",
+      "observe": "从家族生平陈列读求学与亲属关系，再看祠堂、园林和后世纪念如何叠加。",
+      "source": "https://www.sscbwg.cn/index.html",
+      "wiki": "三苏祠",
+      "wikiLang": "zh"
+    },
+    {
+      "id": "thirty-fengxiang-east-lake",
+      "name": "凤翔 · 东湖",
+      "en": "East Lake Fengxiang",
+      "lon": 107.4018,
+      "lat": 34.5221,
+      "country": "中国",
+      "region": "陕西宝鸡凤翔",
+      "type": "任职与园林",
+      "desc": "1061年苏轼任凤翔府签书判官，随后参与疏浚古饮凤池、营建东湖。它把早期仕宦与治水、游赏联系起来，早于杭州西湖阶段。",
+      "observe": "比较湖岸、亭桥与地方志记载；东坡植柳处的传说和今日树木不能直接当作北宋遗物。",
+      "source": "https://www.baoji.gov.cn/col26/col95/201609/t20160929_10350.html",
+      "wiki": "东湖 (凤翔)",
+      "wikiLang": "zh"
+    },
+    {
+      "id": "thirty-mizhou",
+      "name": "诸城 · 超然台与密州记忆",
+      "en": "Chaoran Terrace Zhucheng",
+      "lon": 119.4107,
+      "lat": 35.9944,
+      "country": "中国",
+      "region": "山东诸城",
+      "type": "任职与诗文",
+      "desc": "密州任职阶段留下《超然台记》等书写。超然台是修葺、命名与历代重修共同形成的纪念空间，苏辙为其取名的故事也属于兄弟交往。",
+      "observe": "以台址和地方陈列认识密州任职；不要把每首密州词都定位为台上某一个准确座位。",
+      "source": "https://www.nationalreading.gov.cn/ydzg/gzzs/202610/t20261021_1013471.html",
+      "wiki": "超然台",
+      "wikiLang": "zh"
+    },
+    {
+      "id": "thirty-xuzhou-huanglou",
+      "name": "徐州 · 黄楼与故黄河",
+      "en": "Huanglou Xuzhou",
+      "lon": 117.1874,
+      "lat": 34.2735,
+      "country": "中国",
+      "region": "江苏徐州",
+      "type": "治水与诗文",
+      "desc": "1077至1079年的徐州任职，把抗洪、地方建设与诗文放在一起。今日黄楼是重建纪念建筑；《黄楼赋》和故黄河环境可以对读，不把今天河道当作宋代原样。",
+      "observe": "先看黄楼的建筑说明与故黄河，再读抗洪记忆；云龙山另留半天，不以示意线替代道路。",
+      "source": "https://www.cssn.cn/dfpd/djbd/202506/t20250619_5880353.shtml",
+      "wiki": "黄楼",
+      "wikiLang": "zh"
+    },
+    {
+      "id": "thirty-su-causeway",
+      "name": "杭州 · 苏堤",
+      "en": "Su Causeway",
+      "lon": 120.1357,
+      "lat": 30.2378,
+      "country": "中国",
+      "region": "浙江杭州",
+      "type": "治水与地景",
+      "desc": "苏轼两度在杭州任职，疏浚西湖、筑堤的历史让文学与城市公共生活相连。今天的桥、堤岸与景名有后续修缮和演变，不是单一年代的完整遗存。",
+      "observe": "步行比较堤、桥、湖面与群山构成的景观；结合苏轼生平资料区分通判和知州两次任职。",
+      "source": "https://whc.unesco.org/en/list/1334/",
+      "wiki": "苏堤",
+      "sources": [
+        {
+          "title": "故宫博物院：苏轼生平",
+          "url": "https://www.dpm.org.cn/lemmas/242068.html"
+        },
+        {
+          "title": "国家文物局东坡行旅资料（博物馆协会转载）",
+          "url": "https://www.chinamuseum.org.cn/cma/detail.html?contentId=13843&id=13"
+        }
+      ],
+      "wikiLang": "zh"
+    },
+    {
+      "id": "thirty-huzhou",
+      "name": "湖州 · 苕霅城市与任职背景",
+      "en": "Huzhou",
+      "lon": 120.1005,
+      "lat": 30.8649,
+      "country": "中国",
+      "region": "浙江湖州",
+      "type": "任职与城市",
+      "desc": "1079年苏轼短暂任湖州知州，随后因乌台诗案被押赴开封。此点标示湖州城市背景，不凭空复原已经变化的州署或拘捕现场。",
+      "observe": "从城市与水网理解任职环境，读生平时间线后再到杭州；具体历史房屋另需证据，不以市中心坐标充当旧居。",
+      "source": "https://www.dpm.org.cn/lemmas/242068.html",
+      "wiki": "Huzhou"
+    },
+    {
+      "id": "thirty-huizhou-dongpo",
+      "name": "惠州 · 白鹤峰东坡祠",
+      "en": "Dongpo Temple Huizhou",
+      "lon": 114.4154,
+      "lat": 23.0814,
+      "country": "中国",
+      "region": "广东惠州",
+      "type": "贬谪与居所",
+      "desc": "1094年谪居惠州后，苏轼在白鹤峰购地营建住宅，1097年迁入后不久又贬儋州。现景区为后世重建，不能与北宋原房间画等号。",
+      "observe": "比较购地建屋、改宅为祠和现代重建三个阶段，再看东江与老城区的地形关系。",
+      "source": "https://mzj.huizhou.gov.cn/bmfw/qhdm/content/post_5454227.html",
+      "wiki": "东坡祠",
+      "wikiLang": "zh"
+    },
+    {
+      "id": "thirty-changzhou-dongpo",
+      "name": "常州 · 东坡公园与古运河",
+      "en": "Dongpo Park Changzhou",
+      "lon": 119.9772,
+      "lat": 31.7742,
+      "country": "中国",
+      "region": "江苏常州",
+      "type": "晚年与纪念",
+      "desc": "苏轼北归后于1101年病逝常州。东坡公园围绕舣舟亭与古运河纪念其往来，园区经历长期营建，不是他的临终居室。",
+      "observe": "看运河、洲岛与纪念碑刻的关系；把停舟传说、后世亭园和病逝常州的生平事实分别阅读。",
+      "source": "https://www.changzhou.gov.cn/ns_news/899135121477065",
+      "wiki": "东坡公园",
+      "sources": [
+        {
+          "title": "故宫博物院：苏轼生平",
+          "url": "https://www.dpm.org.cn/lemmas/242068.html"
+        }
+      ],
+      "wikiLang": "zh"
+    },
+    {
+      "id": "thirty-zhang-neijiang",
+      "name": "内江 · 张大千纪念馆",
+      "en": "Zhang Daqian Memorial Neijiang",
+      "lon": 105.0704,
+      "lat": 29.5934,
+      "country": "中国",
+      "region": "四川内江",
+      "type": "收藏与纪念",
+      "desc": "内江纪念馆以生平、书画和地方记忆认识张大千与故乡的联系。川南民居园林式馆舍为后世纪念建筑，不是画家出生房屋的原样。",
+      "observe": "阅读作品、书法与临摹和泼彩的不同阶段；具体原作轮换以馆方清单为准。",
+      "source": "https://jng.njdqwhy.cn/",
+      "wiki": "张大千纪念馆",
+      "wikiLang": "zh"
+    },
+    {
+      "id": "thirty-zhang-shanghai",
+      "name": "上海 · 大风堂美术馆",
+      "en": "Dafengtang Art Museum Shanghai",
+      "lon": 121.4484,
+      "lat": 31.2523,
+      "country": "中国",
+      "region": "上海静安",
+      "type": "文献与城市",
+      "desc": "张大千长期在上海学习和传播艺术。静安大风堂美术馆通过专题文献认识这段经历；馆址与当年大风堂旧址隔河相望，不是原画室本身。 市级名录登记地址为静安区恒丰北路100号26楼，参访需确认楼宇进入安排。",
+      "observe": "先核实当前展陈与预约，再用文献理解上海求学和交游；不以2024年开馆首展推定今天仍在展。",
+      "source": "https://www.jingan.gov.cn/rmtzx/003008/003008006/20240517/111e17a3-c92b-4557-be88-b99e16ba90ce.html",
+      "wiki": null,
+      "sources": [
+        {
+          "title": "上海市文化和旅游局美术馆名录",
+          "url": "https://whlyj.sh.gov.cn/msg/20250928/db0cbc0a1edf478f99c4900522a56e3b.html"
+        }
+      ]
+    },
+    {
+      "id": "thirty-qi-academy",
+      "name": "北京 · 北京画院美术馆",
+      "en": "Beijing Fine Art Academy Museum",
+      "lon": 116.4702,
+      "lat": 39.9376,
+      "country": "中国",
+      "region": "北京朝阳",
+      "type": "收藏与研究",
+      "desc": "北京画院美术馆以齐白石作品收藏、研究和专题陈列为重要方向。它是看原作与研究资料的机构，与故居的生活空间承担不同关系。",
+      "observe": "先核对当日展览，再观察笔墨、题款和印章；不保证某一幅作品常年在展。",
+      "source": "https://www.bjaa.com.cn/block.html?clg=157&hcs=11",
+      "wiki": "北京画院",
+      "wikiLang": "zh"
+    },
+    {
+      "id": "thirty-higashiyama-ichikawa",
+      "name": "市川 · 东山魁夷纪念馆",
+      "en": "Higashiyama Kaii Memorial Hall Ichikawa",
+      "lon": 139.9444,
+      "lat": 35.7227,
+      "country": "日本",
+      "region": "千叶县市川",
+      "type": "生活与收藏",
+      "desc": "东山魁夷在市川度过生涯中的很长一段时间，市立纪念馆从生活与艺术资料认识这段关系。纪念馆并不意味着全部风景画都描绘市川。",
+      "observe": "区分故居生活背景、设计资料和具体风景作品，原作是否展出按当期展览确认。",
+      "source": "https://www.city.ichikawa.lg.jp/site/higashiyama/",
+      "wiki": "市川市東山魁夷記念館",
+      "wikiLang": "ja"
+    },
+    {
+      "id": "thirty-hcb-paris",
+      "name": "巴黎 · 布列松基金会",
+      "en": "Fondation Henri Cartier-Bresson",
+      "lon": 2.3616,
+      "lat": 48.8623,
+      "country": "法国",
+      "region": "巴黎玛莱",
+      "type": "摄影与研究",
+      "desc": "基金会在巴黎玛莱保存和研究布列松与马蒂娜·弗兰克的作品，也展示其他摄影师。机构明确没有两位创办者作品的永久专用展区。",
+      "observe": "先核对当前展览，再读原始说明、摄影年代与印相；不把基金会所在地当作中国照片的拍摄现场。",
+      "source": "https://www.henricartierbresson.org/en/visit-us/",
+      "wiki": "Henri Cartier-Bresson Foundation"
+    },
+    {
+      "id": "thirty-shuiluan",
+      "name": "蓝田 · 水陆庵",
+      "en": "Shuilu Temple",
+      "lon": 109.4168,
+      "lat": 34.1319,
+      "country": "中国",
+      "region": "陕西蓝田",
+      "type": "古寺与造像",
+      "desc": "水陆庵提供蓝田地区真实的古寺与造像参访，适合与辋川、终南的山水阅读分地安排。它作为附近文化地点加入，不宣称王维曾在现存殿宇写诗或创作这些造像。",
+      "observe": "看建筑与彩塑的保存、空间和光线；遵守文物场所摄影规则，诗中二十景的精确坐标仍不臆定。",
+      "source": "https://police.xa.gov.cn/jwzq/ltxgaj/jwdt/2031573657533816834.html",
+      "wiki": "水陆庵",
+      "wikiLang": "zh"
+    },
+    {
+      "id": "thirty-tagore-uttarayan",
+      "name": "桑地尼克坦 · 北园故居与泰戈尔文献馆",
+      "en": "Uttarayan Complex Rabindra Bhavana",
+      "lon": 87.684,
+      "lat": 23.6826,
+      "country": "印度",
+      "region": "西孟加拉邦桑地尼克坦",
+      "type": "生活与文献",
+      "desc": "国际大学的北园建筑群与 Rabindra Bhavana 保存泰戈尔居所、手稿、书信和绘画资料。它将世界遗产校园的教育背景落到具体房屋与收藏，不把所有校园建筑混为同一故居。",
+      "observe": "分辨几座房屋、博物馆展陈与需要研究许可的档案；入室开放以校方安排为准。",
+      "source": "https://www.visvabharati.ac.in/RabindraBhavana.html",
+      "wiki": "Uttarayan complex"
+    },
+    {
+      "id": "thirty-tagore-tirtha",
+      "name": "加尔各答新城 · Rabindra Tirtha",
+      "en": "Rabindra Tirtha",
+      "lon": 88.4728,
+      "lat": 22.5782,
+      "country": "印度",
+      "region": "西孟加拉邦加尔各答",
+      "type": "纪念与表演",
+      "desc": "这座文化研究中心为纪念泰戈尔150周年诞辰而建，提供展览、音乐和研究空间。它是后世纪念机构，不是泰戈尔曾居住或创作的住宅。",
+      "observe": "看纪念展览如何串联生平、绘画、歌曲与戏剧，具体演出和展览另查，不提供未经授权的录音。",
+      "source": "https://www.rabindratirtha-wbhidcoltd.co.in/",
+      "wiki": "Rabindra Tirtha"
+    }
+  ],
+  "expansions": [
+    {
+      "id": "su-shi",
+      "extraPlaces": [
+        "thirty-sansuci",
+        "thirty-fengxiang-east-lake",
+        "thirty-mizhou",
+        "thirty-xuzhou-huanglou",
+        "thirty-su-causeway",
+        "thirty-huzhou",
+        "thirty-huizhou-dongpo",
+        "thirty-changzhou-dongpo"
+      ],
+      "plans": [
+        [
+          "thirty-su-sichuan",
+          "眉山 · 从家族书房读三苏",
+          [
+            "thirty-sansuci"
+          ],
+          1,
+          [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "眉山市内交通 + 园内步行",
+          "单一祠馆的一日阅读。家族、文学与后世纪念分层，不把眉山接成凤翔当天转场。"
+        ],
+        [
+          "thirty-su-fengxiang",
+          "凤翔 · 东湖与早期任职",
+          [
+            "thirty-fengxiang-east-lake"
+          ],
+          1,
+          [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "宝鸡基地 + 凤翔往返接驳",
+          "留完整一天阅读湖岸和地方资料；园林观察与治水史对读，不拆成虚构的多个站。"
+        ],
+        [
+          "thirty-su-mizhou-xuzhou",
+          "密州与徐州 · 任职、治水与诗文",
+          [
+            "thirty-mizhou",
+            "thirty-xuzhou-huanglou"
+          ],
+          4,
+          [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "诸城、徐州分地住宿 + 现代铁路 / 公路",
+          "两城市相距数百公里，安排独立参访与转场日；是两个任职阶段的对读，非连续步行或原驿路复原。"
+        ],
+        [
+          "thirty-su-jiangnan",
+          "江南 · 杭州、湖州与常州",
+          [
+            "thirty-su-causeway",
+            "thirty-huzhou",
+            "thirty-changzhou-dongpo"
+          ],
+          5,
+          [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "杭州、湖州、常州三地住宿 + 区域铁路",
+          "从西湖治水、湖州短暂任职到常州晚年纪念，分城市探访；五天含转场，不声称这是苏轼某次实际旅行的顺序。"
+        ],
+        [
+          "thirty-su-lingnan",
+          "岭南与海南 · 两段贬谪生活",
+          [
+            "thirty-huizhou-dongpo",
+            "atlas-danzhou"
+          ],
+          5,
+          [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "惠州、儋州两基地 + 航班 / 跨海交通",
+          "惠州与儋州分两段独立住宿，预留跨海转场；旧儋州资料与坐标保留，不把两点画成连续陆路。"
+        ]
+      ],
+      "intro": "从眉山的家族生活、凤翔的早期仕宦，到密州、徐州、湖州、两度杭州，再到黄州、惠州、儋州与常州晚年，按不同阶段认识苏轼。这里呈现有证据的代表节点，开封等未详列阶段仍需另读传记；各地分区参访，不把一生迁移压成一次旅行。"
+    },
+    {
+      "id": "zhang-daqian",
+      "extraPlaces": [
+        "thirty-zhang-neijiang",
+        "thirty-zhang-shanghai"
+      ],
+      "plans": [
+        [
+          "thirty-zhang-neijiang",
+          "内江 · 在纪念馆读故乡与艺术",
+          [
+            "thirty-zhang-neijiang"
+          ],
+          1,
+          [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "内江市内交通 + 馆内步行",
+          "单馆一日阅读，四川故乡与敦煌、海外迁居属于不同阶段，不在跨洲图上连成假路线。"
+        ],
+        [
+          "thirty-zhang-shanghai",
+          "上海 · 大风堂的文献与城市背景",
+          [
+            "thirty-zhang-shanghai"
+          ],
+          1,
+          [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "上海城内公共交通 + 预约参访",
+          "专题文献馆独立探访；旧址与新馆的区别写清，具体馆址与入室范围以机构安排为准。"
+        ]
+      ]
+    },
+    {
+      "id": "qi-baishi",
+      "extraPlaces": [
+        "thirty-qi-academy"
+      ],
+      "plans": [
+        [
+          "thirty-qi-beijing",
+          "北京 · 故居背景与画院收藏",
+          [
+            "atlas-qi-baishi-beijing",
+            "thirty-qi-academy"
+          ],
+          2,
+          [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "北京地铁 / 公交 + 分地步行",
+          "故居原地点与资料全部保留，画院另留一天看收藏。跨车胡同住宅有私人居住部分，不能因为地图有点就自行入内。"
+        ]
+      ]
+    },
+    {
+      "id": "higashiyama",
+      "extraPlaces": [
+        "thirty-higashiyama-ichikawa"
+      ],
+      "plans": [
+        [
+          "thirty-higashiyama-ichikawa",
+          "市川 · 从生活环境看风景画家",
+          [
+            "thirty-higashiyama-ichikawa"
+          ],
+          1,
+          [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "东京近郊铁路 + 市川公交 / 步行",
+          "市川单馆独立一天；奈良障壁画与长野收藏分别出发，不从画作名称臆造原机位。"
+        ]
+      ]
+    },
+    {
+      "id": "cartier-bresson",
+      "extraPlaces": [
+        "thirty-hcb-paris"
+      ],
+      "plans": [
+        [
+          "thirty-hcb-paris",
+          "巴黎 · 摄影档案与当期展览",
+          [
+            "thirty-hcb-paris"
+          ],
+          1,
+          [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "巴黎地铁 + 玛莱街区步行",
+          "一个展览机构的一日阅读；北京、上海的任务年代继续在原人物地图保留，不虚构三城市连续路线。"
+        ]
+      ]
+    },
+    {
+      "id": "wang-wei",
+      "extraPlaces": [
+        "thirty-shuiluan"
+      ],
+      "plans": [
+        [
+          "thirty-lantian-nearby",
+          "蓝田 · 辋川山水与水陆庵",
+          [
+            "atlas-lantian",
+            "thirty-shuiluan"
+          ],
+          2,
+          [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "西安 / 蓝田基地 + 县域公路接驳",
+          "两天分地看辋川区域与附近寺院，明确是现代区域探访。水陆庵不列为王维生平的确定到访点，山路与开放另查。"
+        ]
+      ],
+      "name": "蓝田与终南：王维山水和附近古寺",
+      "intro": "保留辋川与终南山的诗歌阅读，再以蓝田水陆庵补附近真实文化空间。诗画中的地名、后世传说与可访问寺院分开，不把《辋川集》二十景画成未经考证的精确机位。"
+    },
+    {
+      "id": "tagore",
+      "extraPlaces": [
+        "thirty-tagore-uttarayan",
+        "thirty-tagore-tirtha"
+      ],
+      "plans": [
+        [
+          "thirty-tagore-campus",
+          "桑地尼克坦 · 校园与北园居所",
+          [
+            "wh-1375",
+            "thirty-tagore-uttarayan"
+          ],
+          2,
+          [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "博尔普尔基地 + 校方允许路径",
+          "两天分别读教育景观和故居文献，不把校园参访等同于档案研究许可。"
+        ],
+        [
+          "thirty-tagore-kolkata",
+          "加尔各答 · 家族故居与当代纪念",
+          [
+            "atlas-jorasanko",
+            "thirty-tagore-tirtha"
+          ],
+          2,
+          [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "加尔各答市内公共交通 / 接驳",
+          "乔拉桑科家族生活与新城纪念中心分地看；两者距离较远，留足城市交通，不冒充同一处故居。"
+        ]
+      ]
+    }
+  ],
+  "merges": [],
+  "expectedVisible": 81
+}
