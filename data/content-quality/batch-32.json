@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-32",
+  "baseline": "3b6efd93ca43ce198fe3b19913ac07a9f4f287ad",
+  "checked": "2026-11-18",
+  "scope": "Six existing nature catalogue contexts: correct arid/shallow-water mistranslations; explain glacial outburst mechanisms, fossils/guided viewing, sand conveyor and volcanic-forest geography. Preserve all raw records, media, coordinates, routes and links.",
+  "sources": {
+    "cq32-vatna": {
+      "title": "UNESCO：瓦特纳冰川的火山、冰与洪水地貌",
+      "url": "https://whc.unesco.org/en/list/1604/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read OUV geothermal/subglacial eruptions, meltwater, sandur/canyons. Avoid old 2015 latest-eruption statement and disputed present ice/area percentages."
+    },
+    "cq32-imo": {
+      "title": "冰岛气象局：冰川溃洪的水源与机制",
+      "url": "https://en.vedur.is/volcanoes/volcanic-hazards/glacial-outburst/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read official indexed text: ice-dammed and subglacial lakes, geothermal reservoirs and eruption-induced floods are different mechanisms; no live hazard forecast."
+    },
+    "cq32-revilla": {
+      "title": "UNESCO：雷维利亚希赫多群岛与远洋生态",
+      "url": "https://whc.unesco.org/en/list/1510/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read English/French pelagic species versus Chinese shallow-water mistranslation; four volcanic islands, current junction, nesting and food webs. Historic protection-plan proposals not current permits."
+    },
+    "cq32-mistaken": {
+      "title": "UNESCO：迷斯塔肯角埃迪卡拉海底化石群",
+      "url": "https://whc.unesco.org/en/list/1497/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read OUV 580–560 Ma deep-marine soft-body impressions buried in ash-rich sediment, in-place communities, guided public viewing. Avoid absolute oldest-ever claim."
+    },
+    "cq32-mistaken-visit": {
+      "title": "纽芬兰与拉布拉多省：化石观察和保护区参访",
+      "url": "https://www.gov.nl.ca/mca/r-mpe/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Direct current page read after UNESCO old ecc link returned500. Government page distinguishes designated paths and fossil zone; guided public viewing and booking, no collecting. Conflicting seasonal ranges/fee sections not fixed in product."
+    },
+    "cq32-namib": {
+      "title": "UNESCO：纳米布沙海的输沙与雾生态",
+      "url": "https://whc.unesco.org/en/list/1430/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read OUV river/ocean/wind sand conveyor, older semi-consolidated and active dunes, fog habitats. No guaranteed fog/day itinerary or uniqueness rank."
+    },
+    "cq32-lut": {
+      "title": "UNESCO：卢特沙漠的干旱环境与风成地貌",
+      "url": "https://whc.unesco.org/en/list/1505/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read English arid/French aride and OUV hyper-arid rain-shadow versus Chinese humid error; yardang erosion vs dune deposition, salt crusts and land-surface vs air temperature. No extreme-heat ranking or permission advice."
+    },
+    "cq32-pelee": {
+      "title": "UNESCO：培雷火山喷发机制与马提尼克森林连续带",
+      "url": "https://whc.unesco.org/en/list/1657/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read OUV pyroclastic flow8May1902, Pelée/Carbet lava domes and two forest sectors from coast to summits. Not all forest pristine; no current alert or trail-opening certification."
+    }
+  },
+  "readings": [
+    {
+      "id": "wh-1604",
+      "theme": "nature",
+      "title": "瓦特纳冰川：读懂冰下的热与水",
+      "summary": "冰川覆盖的火山、地热和冰下蓄水共同塑造这片冰岛景观。溃洪并不只是火山冲破冰缘：积水释放会搬运沉积物，形成冰水冲积平原与峡谷。把冰面、火山地形和下游河道放在一起看，更能理解这里不断变化的地貌。",
+      "catalogueDescription": "冰川覆盖的火山、地热和冰下蓄水共同塑造这片冰岛景观。溃洪并不只是火山冲破冰缘：积水释放会搬运沉积物，形成冰水冲积平原与峡谷。把冰面、火山地形和下游河道放在一起看，更能理解这里不断变化的地貌。",
+      "paragraphs": [
+        {
+          "heading": "从冰川望向下游",
+          "text": "瓦特纳冰川地区的火山活动与冰盖相互作用：冰下喷发或地热可以融冰，水流把碎屑带到下游，形成宽阔的冰水冲积平原，亦参与河道与峡谷的塑造。观察时不只寻找冰舌的蓝色纹理，也可对照平原上分汊水道、裸露沉积面和周围火山地形，读出水流曾经通过的空间。",
+          "sourceKeys": [
+            "cq32-vatna"
+          ]
+        },
+        {
+          "heading": "溃洪不只有一种起因",
+          "text": "冰岛气象局区分冰川阻塞的边缘湖、冰下湖泊及地热融水蓄积等情形，火山喷发只是触发冰川溃洪的原因之一。这里的解释帮助识别地貌过程，并不表示正在发生喷发或洪水；遗产代表点也不等于可直接进入的冰川入口。",
+          "sourceKeys": [
+            "cq32-imo",
+            "cq32-vatna"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq32-vatna",
+        "cq32-imo"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1510",
+      "theme": "nature",
+      "title": "雷维利亚希赫多：火山岛与远洋生命交汇",
+      "summary": "圣贝内迪克托、索科罗、罗卡帕尔蒂达和克拉里翁四岛，是东太平洋海底山脉露出海面的火山部分。洋流交汇使这里成为蝠鲼、鲨鱼和鲸类等远洋生物的重要活动海域；岛上繁殖的海鸟，又把陆地栖息地与海洋食物网联系起来。",
+      "catalogueDescription": "圣贝内迪克托、索科罗、罗卡帕尔蒂达和克拉里翁四岛，是东太平洋海底山脉露出海面的火山部分。洋流交汇使这里成为蝠鲼、鲨鱼和鲸类等远洋生物的重要活动海域；岛上繁殖的海鸟，又把陆地栖息地与海洋食物网联系起来。",
+      "paragraphs": [
+        {
+          "heading": "四座岛屿只是海底山体的露出部分",
+          "text": "这处群岛不是一片连续陆地，而由相隔的四座火山岛与周围海域组成。把陡峭岛体、岩岸和开阔海面一起理解，比只把地图标记当作沙滩目的地更接近其地理特征；海底山脉和孤立岛屿也提供了不同于大陆海岸的栖息环境。",
+          "sourceKeys": [
+            "cq32-revilla"
+          ]
+        },
+        {
+          "heading": "读懂“远洋”，再看岛上海鸟",
+          "text": "加利福尼亚洋流与赤道洋流的交汇，使这里处在不同海洋环境的过渡地带。资料中的 pelagic 指远洋活动的生物，并非“浅水物种”；大型蝠鲼、鲨鱼和鲸类是理解海域价值的线索，海鸟的繁殖地则连接岛屿与海上觅食活动。物种记录不是每次访问都能见到的保证。",
+          "sourceKeys": [
+            "cq32-revilla"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq32-revilla"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1497",
+      "theme": "nature",
+      "title": "迷斯塔肯角：岩面上保存的古老海底",
+      "summary": "纽芬兰东南海岸的岩层保存约5.8亿至5.6亿年前的埃迪卡拉生物群。它们曾生活在深海海底，软体轮廓被富含火山灰的沉积物掩埋保存；今天所看的是古海底群落的印痕，而非恐龙骨架。公众近观化石须参加官方导览，普通海岸步道不等于化石区自由入口。",
+      "catalogueDescription": "纽芬兰东南海岸的岩层保存约5.8亿至5.6亿年前的埃迪卡拉生物群。它们曾生活在深海海底，软体轮廓被富含火山灰的沉积物掩埋保存；今天所看的是古海底群落的印痕，而非恐龙骨架。公众近观化石须参加官方导览，普通海岸步道不等于化石区自由入口。",
+      "paragraphs": [
+        {
+          "heading": "找轮廓，也找生物之间的位置",
+          "text": "这里的化石多为早已灭绝的软体生物印痕，部分呈分枝、重复的形态。它们在原生活位置被掩埋，同一岩面上个体的排列与大小差异因此保留了群落线索。火山灰层中的矿物还能帮助研究者测定年代，让外观细节与地质时间相互对应。",
+          "sourceKeys": [
+            "cq32-mistaken",
+            "cq32-mistaken-visit"
+          ]
+        },
+        {
+          "heading": "先到解说中心，再进入化石观察区域",
+          "text": "官方导览从 Portugal Cove South 的 Edge of Avalon 解说中心组织；省政府区分可自行走访的指定步道与受管控的化石保护区域，公众观看化石需由官方导览陪同。行前应向管理机构预约确认，化石不能采集或扰动；导览季节、费用及天气安排以管理方当次答复为准。",
+          "sourceKeys": [
+            "cq32-mistaken-visit"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq32-mistaken",
+        "cq32-mistaken-visit"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1430",
+      "theme": "nature",
+      "title": "纳米布沙海：沙的旅程与雾的生命",
+      "summary": "纳米布沙海不只是高大沙丘的集合：来自内陆的物质经过河流、海岸洋流和风接力搬运，在海岸荒漠积累。较老的半固结沙层与仍在移动的年轻沙丘并存；大西洋雾气为适应干旱的生物提供水分，把沙丘形态与生命活动联系在一起。",
+      "catalogueDescription": "纳米布沙海不只是高大沙丘的集合：来自内陆的物质经过河流、海岸洋流和风接力搬运，在海岸荒漠积累。较老的半固结沙层与仍在移动的年轻沙丘并存；大西洋雾气为适应干旱的生物提供水分，把沙丘形态与生命活动联系在一起。",
+      "paragraphs": [
+        {
+          "heading": "从河流到海岸，再由风堆成沙丘",
+          "text": "遗产资料把这里的沙源与远处内陆联系起来：河流将物质送到海岸，海流沿岸搬运，再由风带入沙海。观看沙脊的走向、交错形态和丘间地表时，可以把它们理解为持续运输与堆积的结果，而不是一次形成后静止的山体。",
+          "sourceKeys": [
+            "cq32-namib"
+          ]
+        },
+        {
+          "heading": "沙海里的水，并不只以降雨出现",
+          "text": "雾是这里生态系统的重要水分来源，动物与植物通过不同方式适应沙丘、丘间平地等微环境。较老沙层与活动沙丘的并置，也使地表稳定程度与生境不同；观察时可留意植被、足迹和沙面纹理的分布，不必只追逐一座最高沙丘。当天出现雾与否不能由遗产介绍保证。",
+          "sourceKeys": [
+            "cq32-namib"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq32-namib"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1505",
+      "theme": "nature",
+      "title": "卢特沙漠：风雕刻，也搬运",
+      "summary": "卢特位于伊朗东南部的山间盆地，雨影效应与高温使这里极为干旱。持续强风既把岩层磨蚀成平行的雅丹脊与走廊，也把沙粒搬运堆积成沙丘；石漠、盐壳与不同形态的沙海并置，适合对照侵蚀和沉积留下的不同纹理。",
+      "catalogueDescription": "卢特位于伊朗东南部的山间盆地，雨影效应与高温使这里极为干旱。持续强风既把岩层磨蚀成平行的雅丹脊与走廊，也把沙粒搬运堆积成沙丘；石漠、盐壳与不同形态的沙海并置，适合对照侵蚀和沉积留下的不同纹理。",
+      "paragraphs": [
+        {
+          "heading": "分清岩石雅丹和堆积沙丘",
+          "text": "雅丹是基岩被携沙气流磨蚀、雕刻后的残留形态，脊线与其间走廊大致顺着主导风向；沙丘则由被搬运的沙粒堆积形成。在这里，可把坚硬脊体与柔软沙脊作对照，进一步观察石漠风棱石和河床盐壳，理解风、水和蒸发共同留下的地表。",
+          "sourceKeys": [
+            "cq32-lut"
+          ]
+        },
+        {
+          "heading": "干旱盆地，不是“亚热带潮湿地区”",
+          "text": "英文简介与突出普遍价值说明均强调干旱乃至极端干旱：四周山地造成雨影，高温进一步加强缺水状态。资料所列极高温度是地表温度，不能直接当作人们通常查看的空气气温；了解环境与地貌比把一次遥感温度当全年旅行天气更有意义。",
+          "sourceKeys": [
+            "cq32-lut"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq32-lut"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1657",
+      "theme": "nature",
+      "title": "培雷与卡尔贝：火山地形上的森林",
+      "summary": "马提尼克北部这处遗产同时保护培雷火山与较古老的卡尔贝等山体，以及从海岸延续到山顶的森林。1902年培雷喷发中的火山碎屑流摧毁圣皮埃尔，成为火山学的重要案例；陡峭熔岩穹丘与不同海拔、湿度下的林相，是理解这里的两条观察线索。",
+      "catalogueDescription": "马提尼克北部这处遗产同时保护培雷火山与较古老的卡尔贝等山体，以及从海岸延续到山顶的森林。1902年培雷喷发中的火山碎屑流摧毁圣皮埃尔，成为火山学的重要案例；陡峭熔岩穹丘与不同海拔、湿度下的林相，是理解这里的两条观察线索。",
+      "paragraphs": [
+        {
+          "heading": "熔岩穹丘与1902年的火山碎屑流",
+          "text": "卡尔贝山峰的高耸穹丘与黏稠岩浆有关；培雷火山则是研究穹丘和侧向爆炸的重要地点。1902年5月8日毁坏圣皮埃尔的关键过程是火山碎屑流，不应理解成缓慢流动的熔岩河。地形与历史资料可以结合阅读，但这段历史不代表当前火山警戒状态。",
+          "sourceKeys": [
+            "cq32-pelee"
+          ]
+        },
+        {
+          "heading": "从海岸到山顶，比较森林变化",
+          "text": "遗产由南北两个主要区域组成，保护不同山体及其森林连续带。低海拔较干的林地与高处湿润森林，让人看到海拔和水分条件如何影响植被；其中既有古老森林，也有长期恢复的次生林。观察不同层次的林冠和山形，比把全部植被笼统称作从未受人影响的原始林更准确。",
+          "sourceKeys": [
+            "cq32-pelee"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq32-pelee"
+      ],
+      "related": []
+    }
+  ]
+}
