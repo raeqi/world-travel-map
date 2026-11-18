@@ -15,13 +15,13 @@
     "automaticCandidateContexts": 1,
     "visibleItineraryCandidatePlaces": 1,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 365,
-    "unreviewedContexts": 1971,
-    "unreviewedNoExpandedContexts": 1217,
-    "visibleUnreviewedNoExpandedContexts": 1217,
-    "visibleCatalogueUnreviewedNoExpandedContexts": 1217,
+    "manualReviewedContexts": 373,
+    "unreviewedContexts": 1963,
+    "unreviewedNoExpandedContexts": 1209,
+    "visibleUnreviewedNoExpandedContexts": 1209,
+    "visibleCatalogueUnreviewedNoExpandedContexts": 1209,
     "visibleItineraryUnreviewedNoExpandedContexts": 0,
-    "manualResearchedPlaces": 364,
+    "manualResearchedPlaces": 372,
     "manualUsefulConcisePlaces": 0,
     "manualNeedsResearchPlaces": 1,
     "staleReviews": 0,
@@ -267,7 +267,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "ecc603206a8e88004c7da2edc73b4970e3ac7246ad093523ed5cdc80932f4020",
+      "sha256": "6bd1c9e98201dc686c029f1d2938d2e08f4d6fb6c86a0c1393ddeec8f3687049",
       "executed": true
     },
     {
@@ -320,8 +320,8 @@
       "visible": true,
       "contexts": 63,
       "automaticCandidates": 0,
-      "unreviewedNoExpandedContexts": 20,
-      "manuallyReviewed": 41
+      "unreviewedNoExpandedContexts": 12,
+      "manuallyReviewed": 49
     },
     {
       "id": "tea",
