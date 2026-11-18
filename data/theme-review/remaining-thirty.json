@@ -1,6 +1,6 @@
 {
   "baseline": "697397886b2e4e238220a841108631a5d74e7433",
-  "phase": 2,
+  "phase": 3,
   "assessments": [
     {
       "id": "brancusi",
@@ -962,6 +962,173 @@
       "source": "https://villadutempsretrouve.com/",
       "wiki": "Villa du Temps retrouvé",
       "wikiLang": "fr"
+    },
+    {
+      "id": "thirty-hemingway-oak-park",
+      "name": "奥克帕克 · 海明威出生地博物馆",
+      "en": "Ernest Hemingway Birthplace Museum",
+      "lon": -87.795081,
+      "lat": 41.892778,
+      "country": "美国",
+      "region": "伊利诺伊州奥克帕克",
+      "type": "童年与写作",
+      "desc": "奥克帕克的出生地博物馆让海明威早年家庭、教育与写作有具体入口。它与基韦斯特、古巴的成年居所不同，跨国人生并不构成一条连续旅行路线。",
+      "observe": "从家庭、音乐与户外生活的不同影响读早年；具体房屋参访按基金会开放与预约，不把少年小说全部当作家庭生活实录。",
+      "source": "https://www.hemingwaybirthplace.com/hemingway-and-oak-park",
+      "wiki": "Ernest Hemingway Birthplace",
+      "mediaFile": "Hemingway birthplace-01.jpg",
+      "sources": [
+        {
+          "title": "出生地博物馆现址",
+          "url": "https://www.hemingwaybirthplace.com/hours-location"
+        },
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://en.wikipedia.org/wiki/Birthplace_of_Ernest_Hemingway"
+        }
+      ]
+    },
+    {
+      "id": "thirty-hemingway-ketchum-museum",
+      "name": "凯彻姆 · 伍德河历史文化博物馆",
+      "en": "Wood River Museum of History and Culture",
+      "lon": -114.36243522,
+      "lat": 43.68283645,
+      "country": "美国",
+      "region": "爱达荷州凯彻姆",
+      "type": "文献与地方生活",
+      "desc": "社区图书馆运营的伍德河博物馆以藏品和资料认识海明威的爱达荷阶段。作家的凯彻姆私人晚年住宅不对公众开放，因此选择公共博物馆作为可参访入口。",
+      "observe": "现馆位于580 Fourth Street East, Suite 130，已于2023年从旧址迁入；在当期展陈与数字馆藏中读作品、居住与山地环境，不把公共博物馆当作私人故居。",
+      "source": "https://comlib.org/museum/",
+      "wiki": null,
+      "sources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://comlib.org/museum/"
+        }
+      ]
+    },
+    {
+      "id": "thirty-steinbeck-house",
+      "name": "萨利纳斯 · 斯坦贝克出生故居",
+      "en": "John Steinbeck House Salinas",
+      "lon": -121.65931,
+      "lat": 36.67668,
+      "country": "美国",
+      "region": "加利福尼亚州萨利纳斯",
+      "type": "童年与生活",
+      "desc": "斯坦贝克出生与成长的安妮女王式住宅在修复后由地方团体运营，今天亦有餐饮和导览。它离国家斯坦贝克中心约两个街区，可以把生平展示与具体房间放在同一天看。",
+      "observe": "区分历史房屋、后期修复和当代餐厅使用，先核对导览安排；不把用餐自动等同于能参观所有楼层。",
+      "source": "https://steinbeckhouse.com/",
+      "wiki": "John Steinbeck House (Salinas, California)",
+      "sources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://www.openstreetmap.org/way/879947250"
+        }
+      ]
+    },
+    {
+      "id": "thirty-ricketts-lab",
+      "name": "蒙特雷 · 太平洋生物实验室",
+      "en": "Pacific Biological Laboratories",
+      "lon": -121.90108968,
+      "lat": 36.6172196,
+      "country": "美国",
+      "region": "加利福尼亚州蒙特雷",
+      "type": "科学与文学",
+      "desc": "里基茨的实验室与斯坦贝克的交往、海洋观察和罐头厂街写作有关。小说中的Doc与真实生物学家之间有联系，但人物经历不是实验室历史的逐字记录。",
+      "observe": "从海岸、标本供应与地方交往读文学背景，实验室按市方开放或导览日进入；平日可看外部允许区域，不自行推门。",
+      "source": "https://www.monterey.org/museums",
+      "wiki": "Pacific Biological Laboratories",
+      "sources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://www.monterey.org/museums"
+        }
+      ]
+    },
+    {
+      "id": "thirty-twain-elmira-study",
+      "name": "埃尔迈拉学院 · 马克·吐温八角书房",
+      "en": "Mark Twain Study",
+      "lon": -76.81393,
+      "lat": 42.09791,
+      "country": "美国",
+      "region": "纽约州埃尔迈拉",
+      "type": "写作与迁建",
+      "desc": "这座八角书房原在Quarry Farm，吐温在此写作多部作品，1952年迁至埃尔迈拉学院。现在的学院地点与原创作地不同；Quarry Farm仍用于学术驻留，并非普通公众住宅游览。",
+      "observe": "看书房体量和文献说明，分清原作写作环境、迁建后的陈列和研究庄园的访问边界。",
+      "source": "https://marktwainstudies.com/mark-twain-in-elmira/",
+      "wiki": "Mark Twain Study",
+      "sources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://www.openstreetmap.org/way/1527607245"
+        }
+      ]
+    },
+    {
+      "id": "thirty-stowe-hartford",
+      "name": "哈特福德 · 哈丽特·比彻·斯托故居",
+      "en": "Harriet Beecher Stowe House Hartford",
+      "lon": -72.70038,
+      "lat": 41.76683,
+      "country": "美国",
+      "region": "康涅狄格州哈特福德",
+      "type": "文学与邻里",
+      "desc": "斯托在Nook Farm街区的晚年故居与马克·吐温故居相邻，适合一起认识地方文学、废奴运动和家庭生活。她是《汤姆叔叔的小屋》的作者，不能将这所房屋归为吐温住宅。",
+      "observe": "比较两位作家的不同房间、时代和公共议题；导览与展览按各机构分别预约，不把小说当作奴隶制历史的全部证据。",
+      "source": "https://www.harrietbeecherstowecenter.org/visit/",
+      "wiki": "Harriet Beecher Stowe House (Hartford, Connecticut)",
+      "sources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://www.openstreetmap.org/way/194716938"
+        }
+      ]
+    },
+    {
+      "id": "thirty-marquez-house",
+      "name": "阿拉卡塔卡 · 马尔克斯故居博物馆",
+      "en": "Gabriel García Márquez House Museum",
+      "lon": -74.19281,
+      "lat": 10.59239,
+      "country": "哥伦比亚",
+      "region": "马格达莱纳省阿拉卡塔卡",
+      "type": "童年与重建",
+      "desc": "家族房屋在重建后成为博物馆，展陈参考作家回忆录、家族访谈与地区史。它提供童年环境的具体阅读，不是原物原封保存的房屋，更不等于小说马孔多的全部地理。",
+      "observe": "逐室分辨回忆、史料和重建陈列，读家族生活与加勒比社会背景；原作、影视取景和旅游想象不能混用。",
+      "source": "https://www.gabrielgarciamarquezfundacion.com/casa-museo-gabriel-garc%C3%ADa-m%C3%A1rquez",
+      "wiki": "Casa Museo Gabriel García Márquez",
+      "wikiLang": "es",
+      "mediaFile": "Cuarto de los trastos Museo GGM Aracataca.jpg",
+      "photoCaption": "阿拉卡塔卡重建的马尔克斯故居博物馆 · 杂物间陈列（2024年照片）",
+      "sources": [
+        {
+          "title": "实际馆址",
+          "url": "https://www.openstreetmap.org/way/968013637"
+        },
+        {
+          "title": "大学博物馆系统：重建依据与开放背景（2020年报道，非当前时刻表）",
+          "url": "https://www.unimagdalena.edu.co/presentacionPublicacion/VerNoticia/73727"
+        }
+      ]
+    },
+    {
+      "id": "thirty-cienaga-grande",
+      "name": "马格达莱纳大沼泽 · 湿地与地方生活（区域）",
+      "en": "Ciénaga Grande de Santa Marta",
+      "lon": -74.45,
+      "lat": 10.77,
+      "country": "哥伦比亚",
+      "region": "马格达莱纳省加勒比海岸",
+      "type": "自然与地方生活",
+      "desc": "大沼泽的红树林、潟湖和水上聚落，为阿拉卡塔卡与加勒比地区提供真实自然和生活背景。它作为邻近地域加入，不被指定为《百年孤独》中某一段情节的精确现场。",
+      "observe": "湿地是广域生态系统，坐标不是码头；从Puebloviejo或Sitionuevo等合法运营点另查船程、天气和保护要求，尊重社区访问安排。",
+      "source": "https://colombia.travel/es/cienaga-grande",
+      "wiki": "Ciénaga Grande de Santa Marta",
+      "photoCaption": "马格达莱纳河口与邻近潟湖地貌 · NASA轨道影像（2001年；非码头定位）"
     }
   ],
   "expansions": [
@@ -1766,10 +1933,209 @@
       ],
       "plans": [],
       "phase": 2
+    },
+    {
+      "id": "hemingway",
+      "extraPlaces": [
+        "thirty-hemingway-oak-park",
+        "thirty-hemingway-ketchum-museum"
+      ],
+      "plans": [
+        [
+          "thirty-hemingway-oak-park",
+          "奥克帕克 · 从家庭环境读早年写作",
+          [
+            "thirty-hemingway-oak-park"
+          ],
+          1,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "芝加哥基地 + 奥克帕克公共交通",
+          "单一出生地馆舍的一日参访，留出往返芝加哥与预约时间；成年居所与跨国写作阶段另行安排。"
+        ],
+        [
+          "thirty-hemingway-idaho",
+          "凯彻姆 · 在公共博物馆读爱达荷",
+          [
+            "thirty-hemingway-ketchum-museum"
+          ],
+          1,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "凯彻姆城内步行 / 当地交通",
+          "单一公共博物馆的一日阅读，不安排进入私人故居。通过机构的数字资料理解晚年房屋和自然环境。"
+        ]
+      ],
+      "phase": 3
+    },
+    {
+      "id": "steinbeck",
+      "extraPlaces": [
+        "thirty-steinbeck-house",
+        "thirty-ricketts-lab"
+      ],
+      "plans": [],
+      "phase": 3
+    },
+    {
+      "id": "mark-twain",
+      "extraPlaces": [
+        "thirty-twain-elmira-study",
+        "thirty-stowe-hartford"
+      ],
+      "plans": [
+        [
+          "thirty-twain-hartford-neighbors",
+          "哈特福德 · 两位作家的文学邻居",
+          [
+            "atlas-twain-hartford",
+            "thirty-stowe-hartford"
+          ],
+          2,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "哈特福德城内公共交通 + Nook Farm街区步行",
+          "两处邻近住宅分两次导览，作者身份与不同创作阶段分别读；不是跨州连线，汉尼拔童年另成独立区域。"
+        ],
+        [
+          "thirty-twain-elmira",
+          "埃尔迈拉 · 一座迁建书房的写作史",
+          [
+            "thirty-twain-elmira-study"
+          ],
+          1,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "埃尔迈拉市内交通 + 校园允许路径",
+          "单一书房的一日阅读；Quarry Farm私人学术驻留区不纳入普通访问站点，迁建后的坐标不冒充原创作地点。"
+        ]
+      ],
+      "phase": 3,
+      "name": "马克·吐温：河岸、书房与文学邻居",
+      "intro": "汉尼拔的河岸童年、哈特福德的家屋与文学邻里、埃尔迈拉的迁建书房分别展开。斯托故居明确标注另一位作家；三地区各自出发，不压成同一次短途。"
+    },
+    {
+      "id": "neruda",
+      "extraPlaces": [
+        "wh-959"
+      ],
+      "plans": [
+        [
+          "thirty-neruda-santiago",
+          "圣地亚哥 · 山坡房屋与收藏",
+          [
+            "atlas-la-chascona"
+          ],
+          1,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "圣地亚哥城内交通 + 房屋允许路径",
+          "单一故居的一日阅读，给室内收藏与山坡街区留时间；沿海两处房屋另作独立地区，不为凑站数拆分同一住宅。"
+        ],
+        [
+          "thirty-neruda-coast",
+          "智利中部海岸 · 港城、房屋与海景",
+          [
+            "wh-959",
+            "atlas-la-sebastiana",
+            "atlas-isla-negra"
+          ],
+          4,
+          [
+            1,
+            2,
+            3,
+            4,
+            10,
+            11,
+            12
+          ],
+          "瓦尔帕莱索、黑岛两基地 + 沿海公路 / 公交",
+          "港城历史区与拉塞巴斯蒂亚纳近邻，黑岛另有约百公里沿海转场，分日住宿。城市遗产并不都属于聂鲁达本人创作，三座原故居保持各自身份。"
+        ]
+      ],
+      "phase": 3,
+      "name": "智利中部：聂鲁达的房屋与港城海岸",
+      "intro": "三座房屋之外，标出邻近瓦尔帕莱索港城历史区，让收藏、山坡街巷与海岸环境可以在同一地区旅行中一起看。城市遗产属于更广的地方历史，不把所有街巷都称为诗人作品现场。"
+    },
+    {
+      "id": "marquez",
+      "extraPlaces": [
+        "thirty-marquez-house",
+        "thirty-cienaga-grande"
+      ],
+      "plans": [
+        [
+          "thirty-marquez-aracataca",
+          "阿拉卡塔卡 · 童年城市与重建家屋",
+          [
+            "atlas-aracataca",
+            "thirty-marquez-house"
+          ],
+          1,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "阿拉卡塔卡城内允许街区步行",
+          "城镇代表点与具体博物馆同地阅读，区分家族记忆、重建展陈与小说虚构。卡塔赫纳原城市节点保留，另行安排转场。"
+        ],
+        [
+          "thirty-magdalena-house-wetland",
+          "马格达莱纳 · 家屋与潟湖地方生活",
+          [
+            "thirty-marquez-house",
+            "thirty-cienaga-grande"
+          ],
+          3,
+          [
+            1,
+            2,
+            3,
+            4,
+            10,
+            11,
+            12
+          ],
+          "圣玛尔塔 / 阿拉卡塔卡分地住宿 + 区域公路与另行核实的船程",
+          "家屋与大沼泽地区分日参访，相距数十至百公里并需合法码头接驳；广域湿地标记不作为导航点，船行和社区访问不作无条件保证。"
+        ]
+      ],
+      "phase": 3,
+      "name": "哥伦比亚加勒比：马尔克斯、家屋与湿地",
+      "intro": "把阿拉卡塔卡童年落到重建故居，再读附近马格达莱纳湿地与地方生活；卡塔赫纳继续保留城市与写作背景。自然、家族记忆和小说世界分别标明，先选同一地区的一段。"
     }
   ],
   "merges": [],
-  "expectedVisible": 78,
+  "expectedVisible": 77,
   "mapUpdates": [
     {
       "phase": 2,
@@ -1782,6 +2148,32 @@
     {
       "phase": 2,
       "code": "const italy=mapDefinition('italian-art-journeys');italy.name='意大利艺旅：城市、音乐与山水';italy.members.push('puccini');italy.extraPlaces=[\"thirty-puccini-giglio\", \"thirty-puccini-celle\", \"thirty-puccini-viareggio\"];italy.intro+=' 托斯卡纳另以卢卡、切莱、托雷德尔拉戈与维亚雷焦组成具体音乐地方章节，住宅、剧院与湖海环境可分区探访；威尼斯、罗马与那不勒斯仍各自阅读，非全意大利一条连续路线。';italy.plans.push(...[[\"thirty-italy-lucca-music\", \"卢卡 · 出生地与城市剧院\", [\"atlas-puccini-lucca\", \"thirty-puccini-giglio\"], 2, [4, 5, 6, 9, 10], \"卢卡城内步行 + 机构参访\", \"两天读居所与舞台，演出与建筑参观分开核实；原作故事的异国背景不能当作作曲家到访证据。\"], [\"thirty-italy-puccini-coast\", \"托斯卡纳海岸 · 湖畔与晚年海滨\", [\"atlas-torre-del-lago\", \"thirty-puccini-viareggio\"], 3, [4, 5, 6, 9, 10], \"托雷德尔拉戈 / 维亚雷焦基地 + 区域公交 / 公路\", \"两处约十余公里，湖岸与海滨分日探访；维亚雷焦别墅按允许范围看外观，室内开放不作保证。\"], [\"thirty-italy-puccini-celle\", \"卢卡北部 · 切莱的家族音乐\", [\"thirty-puccini-celle\"], 1, [4, 5, 6, 9, 10], \"卢卡基地 + 山村公路往返\", \"单一家族博物馆的一日参访，山区往返需约半日交通余量，先确认预约与开放。\"]]);regionalConsolidatedSources.push('puccini');"
+    },
+    {
+      "phase": 3,
+      "code": "const westWriting=mapDefinition('american-west-art');westWriting.members.push('steinbeck');westWriting.extraPlaces.push('thirty-steinbeck-house','thirty-ricketts-lab');westWriting.name='美国西部：地貌、艺术与文学';westWriting.intro+=' 加州中部的萨利纳斯、蒙特雷与罐头厂街，让文学、海洋研究和劳动生活成为另一组具体地方；与优胜美地同属加州但仍需跨区转场，新墨西哥、犹他和亚利桑那继续各自出发。';westWriting.plans.push(...[[\"thirty-west-salinas\", \"萨利纳斯 · 出生房屋与文学中心\", [\"atlas-steinbeck-salinas\", \"thirty-steinbeck-house\"], 1, [4, 5, 6, 9, 10], \"萨利纳斯城内步行 + 分馆参访\", \"两处相隔约两个街区，同日分别看房间和文学陈列；餐饮、楼层导览与中心展览各有安排。\"], [\"thirty-west-monterey\", \"蒙特雷 · 罐头厂街与生物实验室\", [\"atlas-cannery-row\", \"thirty-ricketts-lab\"], 2, [4, 5, 6, 9, 10], \"蒙特雷基地 + 允许海岸街区步行\", \"同一海岸街区分两天慢读，文学角色、真实科学家和工业历史分别说明；实验室入室仅按市方开放日或导览预约。\"]]);regionalConsolidatedSources.push('steinbeck');"
+    }
+  ],
+  "readings": [
+    {
+      "id": "wh-959",
+      "title": "瓦尔帕莱索：港城与山坡",
+      "paragraphs": [
+        {
+          "heading": "在港城看什么",
+          "text": "港口、狭窄平地与陡坡共同形成瓦尔帕莱索的城市形态。房屋、台阶、公共广场和登坡设施显示城市如何适应地形，历史区是更广的地方遗产，不只属于某一位作家。"
+        },
+        {
+          "heading": "与海岸房屋怎样一起探访",
+          "text": "拉塞巴斯蒂亚纳位于这座港城的山坡上，可以分两天阅读住宅收藏与历史街区；黑岛在另一段海岸，另留沿海交通和住宿。登坡设施运行、道路和街区访问条件需在当地确认。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "UNESCO：瓦尔帕莱索港口城市历史区",
+          "url": "https://whc.unesco.org/en/list/959/"
+        }
+      ]
     }
   ]
 }

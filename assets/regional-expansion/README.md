@@ -37,7 +37,7 @@
 
 ## 剩余30主题新增图像
 
-已人工核对具体地点与图像说明。历史明信片、机构建筑与当前作品陈列分别标明；每张衍生图仍按原许可提供，文件哈希见 sources.json。
+55处新增地点中45处图像已核对真实主体、作者、许可与文件哈希；其余10处保留具体资料，暂不配借用照片。历史明信片、重建房间、现馆外观、河口轨道影像均作专门说明。全部原有照片保留。衍生图片按原许可提供，完整记录见 sources.json。
 
 | 地点ID | 作者 | 许可 | 原文件 |
 | --- | --- | --- | --- |
@@ -79,8 +79,15 @@
 | thirty-joyce-tower | YvonneM | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:James_Joyce_Tower_01.JPG) |
 | thirty-proust-leonie | Benjamin Smith | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Illiers-Combray%20-%20Mus%C3%A9e%20Marcel%20Proust.jpg) |
 | thirty-proust-cabourg-villa | Pradigue | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Villa_du_temps_retrouv%C3%A9_Cabourg_2.jpg) |
+| thirty-hemingway-oak-park | Priwo | Public domain | [原文件](https://commons.wikimedia.org/wiki/File:Hemingway%20birthplace-01.jpg) |
+| thirty-steinbeck-house | Original uploader was Googie man at en.wikipedia | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:SteinbeckHouse.jpg) |
+| thirty-ricketts-lab | Mark Miller | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:Pacific_Biological_Laboratories%2C_exterior_2016.jpg) |
+| thirty-twain-elmira-study | Kenneth C. Zirkel | CC BY 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Mark_Twain%27s_study_at_Elmira_College.jpg) |
+| thirty-stowe-hartford | ajay_suresh | CC BY 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Stowe_Center_for_Literary_Activism_%2855618577734%29.jpg) |
+| thirty-marquez-house | Jdvillalobos | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Cuarto%20de%20los%20trastos%20Museo%20GGM%20Aracataca.jpg) |
+| thirty-cienaga-grande | NASA | Public domain | [原文件](https://commons.wikimedia.org/wiki/File:Rio_magdalena_mundung.JPG) |
 
-本批新增47地点中38处有已核对图像；以下9处尚无确认可复用的准确图像，保留来源与实质说明：
+### 尚缺准确许可图像
 
 - 凤翔 · 东湖
 - 诸城 · 超然台与密州记忆
@@ -91,3 +98,4 @@
 - 切莱 · 普契尼家族博物馆
 - 维亚雷焦 · 普契尼晚年别墅外观
 - 的里雅斯特 · LETS乔伊斯博物馆
+- 凯彻姆 · 伍德河历史文化博物馆

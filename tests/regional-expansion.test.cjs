@@ -8,3 +8,8 @@ test('regional consolidation covers every source place and adds concrete sourced
  for(const id of ['american-west-art','east-coast-art']){assert.ok(buildPlans(id,0).length>=3);for(const p of buildPlans(id,0)){assert.equal(p.topology,'network');assert.equal(p.legs.length,0);assert.ok(!p.ids.includes('atlas-roden-crater'));}}
  `,c);});
 test('new local photographs retain per-file provenance and never use a portrait or locator as a site photo',()=>{const c=runtime();const media=JSON.parse(vm.runInContext('JSON.stringify(regionalExpansionMedia)',c));for(const [id,p]of Object.entries(media)){assert.equal(p.placeId,id);assert.ok(p.author&&p.source&&p.license&&p.licenseUrl,id);assert.ok(!/Ansel_Adams_and_camera|Localitzaci|Higashiyama_Kaii\.jpg/i.test(p.source),id+' rejected image');assert.equal(crypto.createHash('sha256').update(fs.readFileSync(p.path)).digest('hex'),p.sha256);}});
+
+test('every remaining-thirty addition is discoverable by its actual country and continent',()=>{const c=runtime();c.assert=assert;vm.runInContext(`
+ homeState.interest='all';homeState.discipline='all';homeState.view='themes';
+ for(const row of regionalExpansionData.points.filter(p=>p.id.startsWith('thirty-'))){const point=places.find(p=>p.id===row.id),areas=placeRouteAreas(point);assert.ok(areas.length,row.id+' missing continent');for(const area of areas){homeState.area=area;homeState.query=row.name;assert.ok(matchingDiscovery().some(x=>!x.theme.catalogHidden&&x.nodes.some(p=>p.id===row.id)),row.id+' undiscoverable in '+area);}homeState.area='all';homeState.query=row.country;assert.ok(matchingDiscovery().some(x=>!x.theme.catalogHidden&&x.nodes.some(p=>p.id===row.id)),row.id+' missing country search');}
+ `,c);});

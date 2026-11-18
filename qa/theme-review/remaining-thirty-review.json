@@ -1,6 +1,6 @@
 {
   "baseline": "697397886b2e4e238220a841108631a5d74e7433",
-  "phase": 2,
+  "phase": 3,
   "before": {
     "themes": 128,
     "visible": 82,
@@ -9,9 +9,9 @@
   },
   "after": {
     "themes": 130,
-    "visible": 78,
-    "itineraries": 320,
-    "visibleSingleItinerary": 5
+    "visible": 77,
+    "itineraries": 330,
+    "visibleSingleItinerary": 0
   },
   "decisions": [
     {
@@ -1048,12 +1048,15 @@
       "decision": "扩充",
       "reason": "奥克帕克童年与爱达荷博物馆补生涯，基韦斯特和古巴原居所不丢；私人晚年宅不纳入入室参访。",
       "phase": 3,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "海明威的跨国生活",
       "afterName": "海明威的跨国生活",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 3,
+      "newPlaces": [
+        "thirty-hemingway-oak-park",
+        "thirty-hemingway-ketchum-museum"
+      ],
       "points": [
         {
           "id": "atlas-hemingway-keywest",
@@ -1089,12 +1092,15 @@
       "decision": "地域整合并扩充",
       "reason": "萨利纳斯与蒙特雷共一地区，加入美国西部地图，补出生房屋与里基茨实验室。",
       "phase": 3,
-      "status": "pending",
+      "status": "integrated",
       "beforeName": "斯坦贝克的加州与公路",
       "afterName": "斯坦贝克的加州与公路",
       "beforeItineraries": 1,
       "afterItineraries": 1,
-      "newPlaces": [],
+      "newPlaces": [
+        "thirty-steinbeck-house",
+        "thirty-ricketts-lab"
+      ],
       "points": [
         {
           "id": "atlas-steinbeck-salinas",
@@ -1102,7 +1108,7 @@
           "sha256": "ec7e8103d7da886c830979dfef71c9c01a05114bdc6322dfb1c52db803a57de3",
           "oldURL": "#theme=steinbeck&place=atlas-steinbeck-salinas",
           "destinations": [
-            "steinbeck"
+            "american-west-art"
           ]
         },
         {
@@ -1111,7 +1117,7 @@
           "sha256": "c8231cd69861add17f1bf40cf54be61e419c647010ccbc3bd554fc2f933d94de",
           "oldURL": "#theme=steinbeck&place=atlas-cannery-row",
           "destinations": [
-            "steinbeck"
+            "american-west-art"
           ]
         }
       ],
@@ -1130,12 +1136,15 @@
       "decision": "扩充",
       "reason": "补迁建至埃尔迈拉学院的书房，汉尼拔与哈特福德不压成同一区域。",
       "phase": 3,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "马克·吐温的密西西比河",
-      "afterName": "马克·吐温的密西西比河",
+      "afterName": "马克·吐温：河岸、书房与文学邻居",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 3,
+      "newPlaces": [
+        "thirty-twain-elmira-study",
+        "thirty-stowe-hartford"
+      ],
       "points": [
         {
           "id": "atlas-hannibal",
@@ -1171,11 +1180,11 @@
       "decision": "地域扩充",
       "reason": "三座房子自身有价值，补瓦尔帕莱索港城遗产并拆成城市、海岸探访，不为凑数找第四栋房。",
       "phase": 3,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "聂鲁达的三座房子",
-      "afterName": "聂鲁达的三座房子",
+      "afterName": "智利中部：聂鲁达的房屋与港城海岸",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
+      "afterItineraries": 3,
       "newPlaces": [],
       "points": [
         {
@@ -1221,12 +1230,15 @@
       "decision": "地域扩充",
       "reason": "把加勒比故乡落到阿拉卡塔卡故居博物馆，邻近大沼泽提供自然与地方生活背景。",
       "phase": 3,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "马尔克斯的加勒比",
-      "afterName": "马尔克斯的加勒比",
+      "afterName": "哥伦比亚加勒比：马尔克斯、家屋与湿地",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 3,
+      "newPlaces": [
+        "thirty-marquez-house",
+        "thirty-cienaga-grande"
+      ],
       "points": [
         {
           "id": "atlas-aracataca",
@@ -1369,7 +1381,11 @@
     {
       "id": "thirty-sansuci",
       "name": "眉山 · 三苏祠",
+      "lat": 30.04321111,
+      "lon": 103.82968056,
       "source": "https://www.sscbwg.cn/index.html",
+      "extraSources": [],
+      "observe": "从家族生平陈列读求学与亲属关系，再看祠堂、园林和后世纪念如何叠加。",
       "photo": {
         "path": "assets/regional-expansion/thirty-sansuci.webp",
         "title": "眉山 · 三苏祠 · 建筑或园区照片（非所述全部作品）",
@@ -1389,19 +1405,31 @@
     {
       "id": "thirty-fengxiang-east-lake",
       "name": "凤翔 · 东湖",
+      "lat": 34.5221,
+      "lon": 107.4018,
       "source": "https://www.baoji.gov.cn/col26/col95/201609/t20160929_10350.html",
+      "extraSources": [],
+      "observe": "比较湖岸、亭桥与地方志记载；东坡植柳处的传说和今日树木不能直接当作北宋遗物。",
       "photo": null
     },
     {
       "id": "thirty-mizhou",
       "name": "诸城 · 超然台与密州记忆",
+      "lat": 35.9944,
+      "lon": 119.4107,
       "source": "https://www.nationalreading.gov.cn/ydzg/gzzs/202610/t20261021_1013471.html",
+      "extraSources": [],
+      "observe": "以台址和地方陈列认识密州任职；不要把每首密州词都定位为台上某一个准确座位。",
       "photo": null
     },
     {
       "id": "thirty-xuzhou-huanglou",
       "name": "徐州 · 黄楼与故黄河",
+      "lat": 34.2735,
+      "lon": 117.1874,
       "source": "https://www.cssn.cn/dfpd/djbd/202506/t20250619_5880353.shtml",
+      "extraSources": [],
+      "observe": "先看黄楼的建筑说明与故黄河，再读抗洪记忆；云龙山另留半天，不以示意线替代道路。",
       "photo": {
         "path": "assets/regional-expansion/thirty-xuzhou-huanglou.webp",
         "title": "徐州 · 黄楼与故黄河 · 建筑或园区照片（非所述全部作品）",
@@ -1421,7 +1449,20 @@
     {
       "id": "thirty-su-causeway",
       "name": "杭州 · 苏堤",
+      "lat": 30.245833333333334,
+      "lon": 120.13347222222222,
       "source": "https://whc.unesco.org/en/list/1334/",
+      "extraSources": [
+        {
+          "title": "故宫博物院：苏轼生平",
+          "url": "https://www.dpm.org.cn/lemmas/242068.html"
+        },
+        {
+          "title": "国家文物局东坡行旅资料（博物馆协会转载）",
+          "url": "https://www.chinamuseum.org.cn/cma/detail.html?contentId=13843&id=13"
+        }
+      ],
+      "observe": "步行比较堤、桥、湖面与群山构成的景观；结合苏轼生平资料区分通判和知州两次任职。",
       "photo": {
         "path": "assets/regional-expansion/thirty-su-causeway.webp",
         "title": "杭州 · 苏堤湖岸，2005年",
@@ -1441,7 +1482,11 @@
     {
       "id": "thirty-huzhou",
       "name": "湖州 · 苕霅城市与任职背景",
+      "lat": 30.8649,
+      "lon": 120.1005,
       "source": "https://www.dpm.org.cn/lemmas/242068.html",
+      "extraSources": [],
+      "observe": "从城市与水网理解任职环境，读生平时间线后再到杭州；具体历史房屋另需证据，不以市中心坐标充当旧居。",
       "photo": {
         "path": "assets/regional-expansion/thirty-huzhou.webp",
         "title": "湖州城市背景 · 项王公园与当代建筑，非宋代州署",
@@ -1461,13 +1506,26 @@
     {
       "id": "thirty-huizhou-dongpo",
       "name": "惠州 · 白鹤峰东坡祠",
+      "lat": 23.0814,
+      "lon": 114.4154,
       "source": "https://mzj.huizhou.gov.cn/bmfw/qhdm/content/post_5454227.html",
+      "extraSources": [],
+      "observe": "比较购地建屋、改宅为祠和现代重建三个阶段，再看东江与老城区的地形关系。",
       "photo": null
     },
     {
       "id": "thirty-changzhou-dongpo",
       "name": "常州 · 东坡公园与古运河",
+      "lat": 31.7742,
+      "lon": 119.9772,
       "source": "https://www.changzhou.gov.cn/ns_news/899135121477065",
+      "extraSources": [
+        {
+          "title": "故宫博物院：苏轼生平",
+          "url": "https://www.dpm.org.cn/lemmas/242068.html"
+        }
+      ],
+      "observe": "看运河、洲岛与纪念碑刻的关系；把停舟传说、后世亭园和病逝常州的生平事实分别阅读。",
       "photo": {
         "path": "assets/regional-expansion/thirty-changzhou-dongpo.webp",
         "title": "常州 · 东坡公园与古运河 · 建筑或园区照片（非所述全部作品）",
@@ -1487,19 +1545,36 @@
     {
       "id": "thirty-zhang-neijiang",
       "name": "内江 · 张大千纪念馆",
+      "lat": 29.5934,
+      "lon": 105.0704,
       "source": "https://jng.njdqwhy.cn/",
+      "extraSources": [],
+      "observe": "阅读作品、书法与临摹和泼彩的不同阶段；具体原作轮换以馆方清单为准。",
       "photo": null
     },
     {
       "id": "thirty-zhang-shanghai",
       "name": "上海 · 大风堂美术馆",
+      "lat": 31.2523,
+      "lon": 121.4484,
       "source": "https://www.jingan.gov.cn/rmtzx/003008/003008006/20240517/111e17a3-c92b-4557-be88-b99e16ba90ce.html",
+      "extraSources": [
+        {
+          "title": "上海市文化和旅游局美术馆名录",
+          "url": "https://whlyj.sh.gov.cn/msg/20250928/db0cbc0a1edf478f99c4900522a56e3b.html"
+        }
+      ],
+      "observe": "先核实当前展陈与预约，再用文献理解上海求学和交游；不以2024年开馆首展推定今天仍在展。",
       "photo": null
     },
     {
       "id": "thirty-qi-academy",
       "name": "北京 · 北京画院美术馆",
+      "lat": 39.933104,
+      "lon": 116.472935,
       "source": "https://www.bjaa.com.cn/block.html?clg=157&hcs=11",
+      "extraSources": [],
+      "observe": "先核对当日展览，再观察笔墨、题款和印章；不保证某一幅作品常年在展。",
       "photo": {
         "path": "assets/regional-expansion/thirty-qi-academy.webp",
         "title": "北京 · 北京画院美术馆 · 建筑或园区照片（非所述全部作品）",
@@ -1519,7 +1594,11 @@
     {
       "id": "thirty-higashiyama-ichikawa",
       "name": "市川 · 东山魁夷纪念馆",
+      "lat": 35.7227,
+      "lon": 139.9444,
       "source": "https://www.city.ichikawa.lg.jp/site/higashiyama/",
+      "extraSources": [],
+      "observe": "区分故居生活背景、设计资料和具体风景作品，原作是否展出按当期展览确认。",
       "photo": {
         "path": "assets/regional-expansion/thirty-higashiyama-ichikawa.webp",
         "title": "市川 · 东山魁夷纪念馆 · 建筑或园区照片（非所述全部作品）",
@@ -1539,7 +1618,11 @@
     {
       "id": "thirty-hcb-paris",
       "name": "巴黎 · 布列松基金会",
+      "lat": 48.8629,
+      "lon": 2.36009,
       "source": "https://www.henricartierbresson.org/en/visit-us/",
+      "extraSources": [],
+      "observe": "先核对当前展览，再读原始说明、摄影年代与印相；不把基金会所在地当作中国照片的拍摄现场。",
       "photo": {
         "path": "assets/regional-expansion/thirty-hcb-paris.webp",
         "title": "巴黎 · 档案街79号内院，基金会现馆址所在建筑",
@@ -1559,13 +1642,21 @@
     {
       "id": "thirty-shuiluan",
       "name": "蓝田 · 水陆庵",
+      "lat": 34.13333333,
+      "lon": 109.41166667,
       "source": "https://police.xa.gov.cn/jwzq/ltxgaj/jwdt/2031573657533816834.html",
+      "extraSources": [],
+      "observe": "看建筑与彩塑的保存、空间和光线；遵守文物场所摄影规则，诗中二十景的精确坐标仍不臆定。",
       "photo": null
     },
     {
       "id": "thirty-tagore-uttarayan",
       "name": "桑地尼克坦 · 北园故居与泰戈尔文献馆",
+      "lat": 23.6826,
+      "lon": 87.684,
       "source": "https://www.visvabharati.ac.in/RabindraBhavana.html",
+      "extraSources": [],
+      "observe": "分辨几座房屋、博物馆展陈与需要研究许可的档案；入室开放以校方安排为准。",
       "photo": {
         "path": "assets/regional-expansion/thirty-tagore-uttarayan.webp",
         "title": "桑地尼克坦北园 · Udayan房屋外观",
@@ -1585,7 +1676,11 @@
     {
       "id": "thirty-tagore-tirtha",
       "name": "加尔各答新城 · Rabindra Tirtha",
+      "lat": 22.579194,
+      "lon": 88.473509,
       "source": "https://www.rabindratirtha-wbhidcoltd.co.in/",
+      "extraSources": [],
+      "observe": "看纪念展览如何串联生平、绘画、歌曲与戏剧，具体演出和展览另查，不提供未经授权的录音。",
       "photo": {
         "path": "assets/regional-expansion/thirty-tagore-tirtha.webp",
         "title": "加尔各答新城 · Rabindra Tirtha · 建筑或园区照片（非所述全部作品）",
@@ -1605,7 +1700,11 @@
     {
       "id": "thirty-brancusi-hobita",
       "name": "霍比察 · 布朗库西纪念屋",
+      "lat": 45.053478,
+      "lon": 23.055851,
       "source": "https://ghidulmuzeelor.cimec.ro/id.asp?k=321",
+      "extraSources": [],
+      "observe": "比较木构、房间尺度与乡村环境，再到特尔古日乌看公共雕塑；尊重住民，不把村中私人住宅都当作可入内故居。",
       "photo": {
         "path": "assets/regional-expansion/thirty-brancusi-hobita.webp",
         "title": "霍比察 · 布朗库西纪念屋 · 建筑或园区照片（非所述全部作品）",
@@ -1625,7 +1724,11 @@
     {
       "id": "thirty-craiova-art",
       "name": "克拉约瓦 · 美术馆与布朗库西收藏",
+      "lat": 44.3191,
+      "lon": 23.795,
       "source": "https://ghidulmuzeelor.cimec.ro/id.asp?k=284",
+      "extraSources": [],
+      "observe": "先看雕塑的材质、体量与陈列，再观察宫殿建筑；馆藏著录、展出与城市原址作品分别核对。",
       "photo": {
         "path": "assets/regional-expansion/thirty-craiova-art.webp",
         "title": "克拉约瓦 · 美术馆与布朗库西收藏 · 建筑或园区照片（非所述全部作品）",
@@ -1645,7 +1748,16 @@
     {
       "id": "thirty-ciasa-granda",
       "name": "斯坦帕 · Ciäsa Granda与贾科梅蒂工作室资料",
+      "lat": 46.34299,
+      "lon": 9.59016,
       "source": "https://ciaesagranda.ch/chi-siamo/",
+      "extraSources": [
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.openstreetmap.org/node/9925068326"
+        }
+      ],
+      "observe": "分别看地方生活和家族艺术，工作室按预约或导览安排；不要把阿尔贝托、乔瓦尼与迭戈的作品混作一人创作。",
       "photo": {
         "path": "assets/regional-expansion/thirty-ciasa-granda.webp",
         "title": "斯坦帕 · Ciäsa Granda与贾科梅蒂工作室资料 · 建筑或园区照片（非所述全部作品）",
@@ -1665,7 +1777,11 @@
     {
       "id": "thirty-kunsthaus-zurich",
       "name": "苏黎世 · 美术馆贾科梅蒂收藏",
+      "lat": 47.3703,
+      "lon": 8.5481,
       "source": "https://www.kunsthaus.ch/en/sammlung/private-sammlungen/alberto-giacometti-stiftung/",
+      "extraSources": [],
+      "observe": "从早期形体到战后人物比较不同材料与比例；具体作品、楼层和临时借展按馆方安排核对。",
       "photo": {
         "path": "assets/regional-expansion/thirty-kunsthaus-zurich.webp",
         "title": "苏黎世 · 美术馆贾科梅蒂收藏 · 建筑或园区照片（非所述全部作品）",
@@ -1685,7 +1801,16 @@
     {
       "id": "thirty-le-pouldu",
       "name": "勒普尔迪 · 海岸与画家记忆",
+      "lat": 47.76758,
+      "lon": -3.5463,
       "source": "https://www.deconcarneauapontaven.com/patrimoines/maison-musee-gauguin/",
+      "extraSources": [
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.openstreetmap.org/node/471545313"
+        }
+      ],
+      "observe": "先观察海岸、屋舍与地方生活，再核对解释中心当前馆址和展览；不把所有布列塔尼题材都定位在同一海滩。",
       "photo": {
         "path": "assets/regional-expansion/thirty-le-pouldu.webp",
         "title": "勒普尔迪大沙滩历史明信片（法国国家图书馆收藏，非今日街景）",
@@ -1705,7 +1830,11 @@
     {
       "id": "thirty-tahiti-museum",
       "name": "普纳奥亚 · 塔希提与群岛博物馆",
+      "lat": -17.6323,
+      "lon": -149.6139,
       "source": "https://www.museetahiti.pf/",
+      "extraSources": [],
+      "observe": "阅读器物、口述与历史材料，再比较外来艺术家的描绘；展览图像的再现权与建筑照片许可分别处理。",
       "photo": {
         "path": "assets/regional-expansion/thirty-tahiti-museum.webp",
         "title": "普纳奥亚 · 塔希提与群岛博物馆 · 建筑或园区照片（非所述全部作品）",
@@ -1725,7 +1854,16 @@
     {
       "id": "thirty-chagall-house",
       "name": "维捷布斯克 · 夏加尔故居博物馆",
+      "lat": 55.20035,
+      "lon": 30.19062,
       "source": "https://chagall-vitebsk.museum.by/",
+      "extraSources": [
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.openstreetmap.org/way/27900949"
+        }
+      ],
+      "observe": "先辨认房屋、生活物件和照片的年代，再读绘画中的故乡想象；不能凭画面确定每栋建筑的精确位置。",
       "photo": {
         "path": "assets/regional-expansion/thirty-chagall-house.webp",
         "title": "维捷布斯克 · 夏加尔故居博物馆 · 建筑或园区照片（非所述全部作品）",
@@ -1745,7 +1883,11 @@
     {
       "id": "thirty-vence-cathedral",
       "name": "旺斯 · 圣母诞生主教座堂",
+      "lat": 43.72277778,
+      "lon": 7.11388889,
       "source": "https://vence-tourisme.com/cathedrale-notre-dame-de-la-nativite/",
+      "extraSources": [],
+      "observe": "在允许参观时看马赛克与礼拜空间的关系；建筑照片只说明场所，不冒充有独立再现权的作品图像。",
       "photo": {
         "path": "assets/regional-expansion/thirty-vence-cathedral.webp",
         "title": "旺斯 · 圣母诞生主教座堂 · 建筑或园区照片（非所述全部作品）",
@@ -1765,7 +1907,11 @@
     {
       "id": "thirty-willy-lott",
       "name": "弗拉特福德 · 威利·洛特故居外观",
+      "lat": 51.95833333,
+      "lon": 1.02194444,
       "source": "https://www.nationaltrust.org.uk/visit/suffolk/flatford",
+      "extraSources": [],
+      "observe": "从允许的公共路径比较房屋、河岸和画面关系；馆方说明建筑通常从外部观看，不自行进入私人或教学空间。",
       "photo": {
         "path": "assets/regional-expansion/thirty-willy-lott.webp",
         "title": "弗拉特福德 · 威利·洛特故居外观 · 建筑或园区照片（非所述全部作品）",
@@ -1785,7 +1931,11 @@
     {
       "id": "thirty-wordsworth-house",
       "name": "科克茅斯 · 华兹华斯童年故居",
+      "lat": 54.663623,
+      "lon": -3.368026,
       "source": "https://www.nationaltrust.org.uk/visit/lake-district/wordsworth-house-and-garden",
+      "extraSources": [],
+      "observe": "关注家庭成员、仆役和园中种植的不同日常；入室依限时导览，不能假定随时开放。",
       "photo": {
         "path": "assets/regional-expansion/thirty-wordsworth-house.webp",
         "title": "科克茅斯 · 华兹华斯童年故居 · 建筑或园区照片（非所述全部作品）",
@@ -1805,7 +1955,11 @@
     {
       "id": "thirty-allan-bank",
       "name": "格拉斯米尔 · 艾伦班克",
+      "lat": 54.46,
+      "lon": -3.02944444,
       "source": "https://www.nationaltrust.org.uk/visit/lake-district/allan-bank-and-grasmere",
+      "extraSources": [],
+      "observe": "看山谷、林地与房间视线；按国民信托允许路径散步，雨天与林路条件单独判断。",
       "photo": {
         "path": "assets/regional-expansion/thirty-allan-bank.webp",
         "title": "格拉斯米尔 · 艾伦班克 · 建筑或园区照片（非所述全部作品）",
@@ -1825,7 +1979,11 @@
     {
       "id": "thirty-christo-pont-neuf",
       "name": "巴黎新桥 · 临时包裹项目旧现场",
+      "lat": 48.8575,
+      "lon": 2.34166667,
       "source": "https://www.culture.gouv.fr/thematiques/arts-plastiques/expositions-en-france/Christo-et-Jeanne-Claude-Paris",
+      "extraSources": [],
+      "observe": "比较桥拱、行走和河岸视角；页面的未包裹建筑照片不代表包裹作品当前仍在现场。",
       "photo": {
         "path": "assets/regional-expansion/thirty-christo-pont-neuf.webp",
         "title": "巴黎新桥 · 临时包裹项目旧现场 · 建筑或园区照片（非所述全部作品）",
@@ -1845,7 +2003,11 @@
     {
       "id": "thirty-christo-arc",
       "name": "巴黎凯旋门 · 2021年包裹项目旧现场",
+      "lat": 48.87377778,
+      "lon": 2.29502778,
       "source": "https://www.paris-arc-de-triomphe.fr/en/discover/l-arc-de-triomphe-wrapped-paris-1961-2021/the-story-of-a-project",
+      "extraSources": [],
+      "observe": "只通过地下通道抵达广场参访区，不横穿环岛车流；开放、登顶与仪式安排向纪念馆核对。",
       "photo": {
         "path": "assets/regional-expansion/thirty-christo-arc.webp",
         "title": "巴黎凯旋门 · 2021年包裹项目旧现场 · 建筑或园区照片（非所述全部作品）",
@@ -1865,7 +2027,11 @@
     {
       "id": "thirty-chopin-warsaw",
       "name": "华沙 · 肖邦博物馆",
+      "lat": 52.23638889,
+      "lon": 21.02305556,
       "source": "https://chopin.pl/museum.en.html",
+      "extraSources": [],
+      "observe": "区分作曲手稿、使用过的乐器与后世纪念；演出安排另查，不在页面提供未经授权的表演录音。",
       "photo": {
         "path": "assets/regional-expansion/thirty-chopin-warsaw.webp",
         "title": "华沙 · 肖邦博物馆 · 建筑或园区照片（非所述全部作品）",
@@ -1885,7 +2051,11 @@
     {
       "id": "thirty-chopin-birthplace",
       "name": "热拉佐瓦沃拉 · 肖邦出生地与公园",
+      "lat": 52.25527778,
+      "lon": 20.31527778,
       "source": "https://muzeum.nifc.pl/pl/muzeum/wizyta-informacje-miejsce/2_the-birthplace-of-fryderyk-chopin-and-park-in-zelazowa-wola/",
+      "extraSources": [],
+      "observe": "结合房屋陈列与河畔景观读童年背景；音乐会期间房屋参访可能调整，出发前向机构确认。",
       "photo": {
         "path": "assets/regional-expansion/thirty-chopin-birthplace.webp",
         "title": "热拉佐瓦沃拉 · 肖邦出生地与公园 · 建筑或园区照片（非所述全部作品）",
@@ -1905,7 +2075,11 @@
     {
       "id": "thirty-dvorak-birthplace",
       "name": "内拉霍泽韦斯 · 德沃夏克出生地",
+      "lat": 50.262456,
+      "lon": 14.301478,
       "source": "https://www.lobkowicz.cz/en/antonin-dvorak-birth-house",
+      "extraSources": [],
+      "observe": "看房屋生活与乡村音乐环境，再到布拉格看收藏；馆舍、城堡与车站是不同地点。",
       "photo": {
         "path": "assets/regional-expansion/thirty-dvorak-birthplace.webp",
         "title": "内拉霍泽韦斯 · 德沃夏克出生地 · 建筑或园区照片（非所述全部作品）",
@@ -1925,7 +2099,16 @@
     {
       "id": "thirty-dvorak-vysoka",
       "name": "维索卡 · 德沃夏克纪念馆与公园",
+      "lat": 49.6370346,
+      "lon": 13.9399961,
       "source": "https://antonindvorak.cz/",
+      "extraSources": [
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.do-muzea.cz/seznam-muzei/pamatnik-antonina-dvoraka-ve-vysoke-u-pribrami"
+        }
+      ],
+      "observe": "先辨认纪念馆、园地与生平资料各自的身份，再读作品的创作阶段，具体馆址和入室范围向机构确认。",
       "photo": {
         "path": "assets/regional-expansion/thirty-dvorak-vysoka.webp",
         "title": "维索卡 · 德沃夏克纪念馆与公园 · 建筑或园区照片（非所述全部作品）",
@@ -1945,7 +2128,11 @@
     {
       "id": "thirty-siljustol",
       "name": "卑尔根 · 塞尤斯托尔作曲家故居",
+      "lat": 60.29398,
+      "lon": 5.30814,
       "source": "https://www.visitbergen.com/ting-a-gjore/siljustol-p826353",
+      "extraSources": [],
+      "observe": "按开放季参访房屋，林地和私家部分的范围分别确认；不要把塞韦鲁德的工作室标成格里格的房间。",
       "photo": {
         "path": "assets/regional-expansion/thirty-siljustol.webp",
         "title": "卑尔根 · 塞尤斯托尔作曲家故居 · 建筑或园区照片（非所述全部作品）",
@@ -1965,7 +2152,11 @@
     {
       "id": "thirty-mendelssohn-remise",
       "name": "柏林 · 门德尔松家族Remise展馆",
+      "lat": 52.514696,
+      "lon": 13.394879,
       "source": "https://www.mendelssohn-gesellschaft.de/gesellschaft/ausstellung/?lang=1",
+      "extraSources": [],
+      "observe": "从家族关系、城市文化和展览材料读背景；具体音乐活动另查，莱比锡故居与柏林展馆是不同机构。",
       "photo": {
         "path": "assets/regional-expansion/thirty-mendelssohn-remise.webp",
         "title": "柏林 · 门德尔松家族Remise展馆 · 建筑或园区照片（非所述全部作品）",
@@ -1985,7 +2176,11 @@
     {
       "id": "thirty-puccini-giglio",
       "name": "卢卡 · 吉廖剧院",
+      "lat": 43.8406,
+      "lon": 10.5031,
       "source": "https://www.museodicelledeipuccini.it/itinerari-pucciniani/",
+      "extraSources": [],
+      "observe": "比较观众席、舞台与城市场所，参观和演出各有票务安排；歌剧故事发生地不能反推普契尼曾到访。",
       "photo": {
         "path": "assets/regional-expansion/thirty-puccini-giglio.webp",
         "title": "卢卡 · 吉廖剧院 · 建筑或园区照片（非所述全部作品）",
@@ -2005,19 +2200,50 @@
     {
       "id": "thirty-puccini-celle",
       "name": "切莱 · 普契尼家族博物馆",
+      "lat": 43.96578,
+      "lon": 10.45604,
       "source": "https://www.museodicelledeipuccini.it/itinerari-pucciniani/",
+      "extraSources": [
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.openstreetmap.org/node/7319468522"
+        }
+      ],
+      "observe": "从家族物件、文献与村庄看城市之外的背景；山区道路、预约和小馆开放要单独确认。",
       "photo": null
     },
     {
       "id": "thirty-puccini-viareggio",
       "name": "维亚雷焦 · 普契尼晚年别墅外观",
+      "lat": 43.8810811,
+      "lon": 10.2370447,
       "source": "https://www.puccinimuseum.org/",
+      "extraSources": [
+        {
+          "title": "官方文化地域图与参访信息",
+          "url": "https://www.puccinilands.it/schede/villino-puccini-di-viareggio/"
+        },
+        {
+          "title": "2026年市政府特别开放记录",
+          "url": "https://www.comune.viareggio.lu.it/eventi/CLT-Visite-guidate-al-Villino-di-Puccini2.html"
+        }
+      ],
+      "observe": "现址在Viale Buonarroti 209与Via Marco Polo交角。2026年曾有预约特别开放，不能视为日常入室承诺；平日从允许的公共区域观察立面，访前向基金会确认安排。",
       "photo": null
     },
     {
       "id": "thirty-hugo-villequier",
       "name": "维勒基耶 · 维克多·雨果博物馆",
+      "lat": 49.51216,
+      "lon": 0.67368,
       "source": "https://www.museevictorhugo.fr/",
+      "extraSources": [
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.openstreetmap.org/node/9857976181"
+        }
+      ],
+      "observe": "从房屋与河岸读生平背景，再阅读诗作；不把今日河道或陈列当作1843年事故现场的完整复原。",
       "photo": {
         "path": "assets/regional-expansion/thirty-hugo-villequier.webp",
         "title": "维勒基耶 · 维克多·雨果博物馆 · 建筑或园区照片（非所述全部作品）",
@@ -2037,7 +2263,11 @@
     {
       "id": "thirty-byron-newstead",
       "name": "诺丁汉郡 · 纽斯特德修道院",
+      "lat": 53.078333,
+      "lon": -1.1925,
       "source": "https://newsteadabbey.org.uk/house-and-abbey",
+      "extraSources": [],
+      "observe": "比较修道院立面、回廊与私人居室，家族住宅、诗人生活与后期业主分别阅读。",
       "photo": {
         "path": "assets/regional-expansion/thirty-byron-newstead.webp",
         "title": "诺丁汉郡 · 纽斯特德修道院 · 建筑或园区照片（非所述全部作品）",
@@ -2057,7 +2287,11 @@
     {
       "id": "thirty-villa-diodati",
       "name": "科洛尼 · 迪奥达蒂别墅周边",
+      "lat": 46.22027778,
+      "lon": 6.18333333,
       "source": "https://noms-geographiques.app.ge.ch/voie/geneve/chemin-diodati",
+      "extraSources": [],
+      "observe": "在允许公共道路和湖岸区域理解湖、坡地与住宅的环境；不越界进入花园，不把别墅当成公众博物馆。",
       "photo": {
         "path": "assets/regional-expansion/thirty-villa-diodati.webp",
         "title": "科洛尼 · 迪奥达蒂别墅周边 · 建筑或园区照片（非所述全部作品）",
@@ -2077,7 +2311,11 @@
     {
       "id": "thirty-kafka-museum",
       "name": "布拉格 · 卡夫卡博物馆",
+      "lat": 50.088,
+      "lon": 14.41,
       "source": "https://kafkamuseum.cz/",
+      "extraSources": [],
+      "observe": "看手稿、城市材料与象征性装置的不同证据层；原作、复制件和展陈设计分别阅读。",
       "photo": {
         "path": "assets/regional-expansion/thirty-kafka-museum.webp",
         "title": "布拉格 · 卡夫卡博物馆 · 建筑或园区照片（非所述全部作品）",
@@ -2097,7 +2335,11 @@
     {
       "id": "thirty-kafka-golden-lane",
       "name": "布拉格 · 黄金巷22号",
+      "lat": 50.0922,
+      "lon": 14.4039,
       "source": "https://www.hrad.cz/en/prague-castle-for-visitors/objects-for-visitors/golden-lane-10334",
+      "extraSources": [],
+      "observe": "从小屋、城防与街巷尺度读生活环境；黄金巷属于城堡参访安排，不用小说标题为真实城堡作唯一定位。",
       "photo": {
         "path": "assets/regional-expansion/thirty-kafka-golden-lane.webp",
         "title": "布拉格 · 黄金巷22号 · 建筑或园区照片（非所述全部作品）",
@@ -2117,7 +2359,11 @@
     {
       "id": "thirty-joyce-tower",
       "name": "桑迪科夫 · 乔伊斯塔楼与博物馆",
+      "lat": 53.28865,
+      "lon": -6.11364,
       "source": "https://joycetower.ie/about-us/martello-tower",
+      "extraSources": [],
+      "observe": "从防御塔结构、海面与室内陈列读空间，按塔楼规则参访；角色经历不全等于作者本人经历。",
       "photo": {
         "path": "assets/regional-expansion/thirty-joyce-tower.webp",
         "title": "桑迪科夫 · 乔伊斯塔楼与博物馆 · 建筑或园区照片（非所述全部作品）",
@@ -2137,13 +2383,31 @@
     {
       "id": "thirty-joyce-trieste-museum",
       "name": "的里雅斯特 · LETS乔伊斯博物馆",
+      "lat": 45.646803,
+      "lon": 13.767835,
       "source": "https://museojoycetrieste.it/",
+      "extraSources": [
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://patrimonioculturale.regione.fvg.it/cerca-nella-mappa/"
+        }
+      ],
+      "observe": "先核对当前馆址，再读迁居、语言与城市资料；与都柏林的小说地景分开，不宣称跨国两城一日可达。",
       "photo": null
     },
     {
       "id": "thirty-proust-leonie",
       "name": "伊利耶-贡布雷 · 莱奥妮姨妈之家",
+      "lat": 48.29982,
+      "lon": 1.24339,
       "source": "https://www.amisdeproust.fr/maison-de-tante-leonie",
+      "extraSources": [
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.openstreetmap.org/node/5226543574"
+        }
+      ],
+      "observe": "以房间、物件与庭园理解记忆的组织，不把小说叙述当作房屋历史逐字复刻。",
       "photo": {
         "path": "assets/regional-expansion/thirty-proust-leonie.webp",
         "title": "莱奥妮姨妈之家博物馆入口",
@@ -2163,7 +2427,11 @@
     {
       "id": "thirty-proust-cabourg-villa",
       "name": "卡堡 · 追忆似水年华别墅博物馆",
+      "lat": 49.29183,
+      "lon": -0.11274,
       "source": "https://villadutempsretrouve.com/",
+      "extraSources": [],
+      "observe": "比较绘画、室内物件与海岸度假文化，普鲁斯特本人旅居和小说巴尔贝克的组织分别阅读。",
       "photo": {
         "path": "assets/regional-expansion/thirty-proust-cabourg-villa.webp",
         "title": "卡堡 · 追忆似水年华别墅博物馆 · 建筑或园区照片（非所述全部作品）",
@@ -2179,6 +2447,253 @@
         "height": 1080,
         "sha256": "8fd0aadd5bc810e11a0b09707cff45b920469484653d8fa1834e21362c7e05f5"
       }
+    },
+    {
+      "id": "thirty-hemingway-oak-park",
+      "name": "奥克帕克 · 海明威出生地博物馆",
+      "lat": 41.892778,
+      "lon": -87.795081,
+      "source": "https://www.hemingwaybirthplace.com/hemingway-and-oak-park",
+      "extraSources": [
+        {
+          "title": "出生地博物馆现址",
+          "url": "https://www.hemingwaybirthplace.com/hours-location"
+        },
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://en.wikipedia.org/wiki/Birthplace_of_Ernest_Hemingway"
+        }
+      ],
+      "observe": "从家庭、音乐与户外生活的不同影响读早年；具体房屋参访按基金会开放与预约，不把少年小说全部当作家庭生活实录。",
+      "photo": {
+        "path": "assets/regional-expansion/thirty-hemingway-oak-park.webp",
+        "title": "奥克帕克 · 海明威出生地博物馆 · 建筑或园区照片（非所述全部作品）",
+        "author": "Priwo",
+        "source": "https://commons.wikimedia.org/wiki/File:Hemingway%20birthplace-01.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-hemingway-oak-park",
+        "article": "https://en.wikipedia.org/wiki/Ernest_Hemingway_Birthplace",
+        "providerDescription": "The birthplace of Ernest Hemingway in Oak Park, Chicago, Illinois, USA.",
+        "width": 1440,
+        "height": 1080,
+        "sha256": "11fe2c97d23a979de7a1d981cd62f4ade865a4d445fe7296c3a8890682e5c2d9"
+      }
+    },
+    {
+      "id": "thirty-hemingway-ketchum-museum",
+      "name": "凯彻姆 · 伍德河历史文化博物馆",
+      "lat": 43.68283645,
+      "lon": -114.36243522,
+      "source": "https://comlib.org/museum/",
+      "extraSources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://comlib.org/museum/"
+        }
+      ],
+      "observe": "现馆位于580 Fourth Street East, Suite 130，已于2023年从旧址迁入；在当期展陈与数字馆藏中读作品、居住与山地环境，不把公共博物馆当作私人故居。",
+      "photo": null
+    },
+    {
+      "id": "thirty-steinbeck-house",
+      "name": "萨利纳斯 · 斯坦贝克出生故居",
+      "lat": 36.67668,
+      "lon": -121.65931,
+      "source": "https://steinbeckhouse.com/",
+      "extraSources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://www.openstreetmap.org/way/879947250"
+        }
+      ],
+      "observe": "区分历史房屋、后期修复和当代餐厅使用，先核对导览安排；不把用餐自动等同于能参观所有楼层。",
+      "photo": {
+        "path": "assets/regional-expansion/thirty-steinbeck-house.webp",
+        "title": "萨利纳斯 · 斯坦贝克出生故居 · 建筑或园区照片（非所述全部作品）",
+        "author": "Original uploader was Googie man at en.wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:SteinbeckHouse.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-steinbeck-house",
+        "article": "https://en.wikipedia.org/wiki/John_Steinbeck_House_%28Salinas%2C_California%29",
+        "providerDescription": "132 Central Avenue, Salinas, California, the home where Steinbeck lived in his childhood.",
+        "width": 800,
+        "height": 532,
+        "sha256": "a05e11873da160f40932c38d47b36c91d0124bc8489856d8883ebe7c3cd5567d"
+      }
+    },
+    {
+      "id": "thirty-ricketts-lab",
+      "name": "蒙特雷 · 太平洋生物实验室",
+      "lat": 36.6172196,
+      "lon": -121.90108968,
+      "source": "https://www.monterey.org/museums",
+      "extraSources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://www.monterey.org/museums"
+        }
+      ],
+      "observe": "从海岸、标本供应与地方交往读文学背景，实验室按市方开放或导览日进入；平日可看外部允许区域，不自行推门。",
+      "photo": {
+        "path": "assets/regional-expansion/thirty-ricketts-lab.webp",
+        "title": "蒙特雷 · 太平洋生物实验室 · 建筑或园区照片（非所述全部作品）",
+        "author": "Mark Miller",
+        "source": "https://commons.wikimedia.org/wiki/File:Pacific_Biological_Laboratories%2C_exterior_2016.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-ricketts-lab",
+        "article": "https://en.wikipedia.org/wiki/Pacific_Biological_Laboratories",
+        "providerDescription": "Pacific Biological Laboratories, exterior 2016.",
+        "width": 1440,
+        "height": 960,
+        "sha256": "04d2340fb8f1d5f4bbc7a53b17d8af3c459ce94bb076720dcd114b0a79045a81"
+      }
+    },
+    {
+      "id": "thirty-twain-elmira-study",
+      "name": "埃尔迈拉学院 · 马克·吐温八角书房",
+      "lat": 42.09791,
+      "lon": -76.81393,
+      "source": "https://marktwainstudies.com/mark-twain-in-elmira/",
+      "extraSources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://www.openstreetmap.org/way/1527607245"
+        }
+      ],
+      "observe": "看书房体量和文献说明，分清原作写作环境、迁建后的陈列和研究庄园的访问边界。",
+      "photo": {
+        "path": "assets/regional-expansion/thirty-twain-elmira-study.webp",
+        "title": "埃尔迈拉学院 · 马克·吐温八角书房 · 建筑或园区照片（非所述全部作品）",
+        "author": "Kenneth C. Zirkel",
+        "source": "https://commons.wikimedia.org/wiki/File:Mark_Twain%27s_study_at_Elmira_College.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-twain-elmira-study",
+        "article": "https://en.wikipedia.org/wiki/Mark_Twain_Study",
+        "providerDescription": "Mark Twain's study at Elmira College, Elmira New York",
+        "width": 1440,
+        "height": 1080,
+        "sha256": "d10aa9633293711e21c01bdf80dc705d3ff76c5b16818f0ac9d30427b5c57c47"
+      }
+    },
+    {
+      "id": "thirty-stowe-hartford",
+      "name": "哈特福德 · 哈丽特·比彻·斯托故居",
+      "lat": 41.76683,
+      "lon": -72.70038,
+      "source": "https://www.harrietbeecherstowecenter.org/visit/",
+      "extraSources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://www.openstreetmap.org/way/194716938"
+        }
+      ],
+      "observe": "比较两位作家的不同房间、时代和公共议题；导览与展览按各机构分别预约，不把小说当作奴隶制历史的全部证据。",
+      "photo": {
+        "path": "assets/regional-expansion/thirty-stowe-hartford.webp",
+        "title": "哈特福德 · 哈丽特·比彻·斯托故居 · 建筑或园区照片（非所述全部作品）",
+        "author": "ajay_suresh",
+        "source": "https://commons.wikimedia.org/wiki/File:Stowe_Center_for_Literary_Activism_%2855618577734%29.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-stowe-hartford",
+        "article": "https://en.wikipedia.org/wiki/Harriet_Beecher_Stowe_House_%28Hartford%2C_Connecticut%29",
+        "providerDescription": "Hartford, CT",
+        "width": 1440,
+        "height": 810,
+        "sha256": "c672dea8cad075b107a365c55ddcb629393e02ff9429e6942b3037e08eac38c2"
+      }
+    },
+    {
+      "id": "thirty-marquez-house",
+      "name": "阿拉卡塔卡 · 马尔克斯故居博物馆",
+      "lat": 10.59239,
+      "lon": -74.19281,
+      "source": "https://www.gabrielgarciamarquezfundacion.com/casa-museo-gabriel-garc%C3%ADa-m%C3%A1rquez",
+      "extraSources": [
+        {
+          "title": "实际馆址",
+          "url": "https://www.openstreetmap.org/way/968013637"
+        },
+        {
+          "title": "大学博物馆系统：重建依据与开放背景（2020年报道，非当前时刻表）",
+          "url": "https://www.unimagdalena.edu.co/presentacionPublicacion/VerNoticia/73727"
+        }
+      ],
+      "observe": "逐室分辨回忆、史料和重建陈列，读家族生活与加勒比社会背景；原作、影视取景和旅游想象不能混用。",
+      "photo": {
+        "path": "assets/regional-expansion/thirty-marquez-house.webp",
+        "title": "阿拉卡塔卡重建的马尔克斯故居博物馆 · 杂物间陈列（2024年照片）",
+        "author": "Jdvillalobos",
+        "source": "https://commons.wikimedia.org/wiki/File:Cuarto%20de%20los%20trastos%20Museo%20GGM%20Aracataca.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-marquez-house",
+        "article": "https://en.wikipedia.org/wiki/Casa_Museo_Gabriel_Garc%C3%ADa_M%C3%A1rquez",
+        "providerDescription": "Cuarto de los trastos Casa Museo GGM Aracataca",
+        "width": 1280,
+        "height": 960,
+        "sha256": "317f66fba8bac342203e48bdfacdd013a8e70fb858d22903f2a9be339d1fecb3"
+      }
+    },
+    {
+      "id": "thirty-cienaga-grande",
+      "name": "马格达莱纳大沼泽 · 湿地与地方生活（区域）",
+      "lat": 10.77,
+      "lon": -74.45,
+      "source": "https://colombia.travel/es/cienaga-grande",
+      "extraSources": [],
+      "observe": "湿地是广域生态系统，坐标不是码头；从Puebloviejo或Sitionuevo等合法运营点另查船程、天气和保护要求，尊重社区访问安排。",
+      "photo": {
+        "path": "assets/regional-expansion/thirty-cienaga-grande.webp",
+        "title": "马格达莱纳河口与邻近潟湖地貌 · NASA轨道影像（2001年；非码头定位）",
+        "author": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Rio_magdalena_mundung.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-cienaga-grande",
+        "article": "https://en.wikipedia.org/wiki/Ci%C3%A9naga_Grande_de_Santa_Marta",
+        "providerDescription": "Magdalena River delta\nBarranquilla, Magdalena River Mouth, Colombia\nThe mouth of the sediment-laden Magdalena River and Colombia’s chief port, Barranquilla, can be seen in this south-southeast-looking view. The river’s sediment plume extends many miles out into the southwest Caribbean Sea (bottom half of the image). The Magdalena links the interior highlands with the coastal lowlands of Colombia. Barranquilla with a population of well over a million people, is located on the west bank of the river, and has large chemical factories and cement works, along with shipbuilding and textile facilities. \n\nIdentification\nMission: ISS002 Roll: 732 Frame: 73 Mission ID on the Film or image: ISS002\nCountry or Geographic Name: COLOMBIA\nFeatures: BARRANQUILLA\nCenter Point Latitude: 11.0 Center Point Longitude: -74.5 (Negative numbers indicate south for *latitude and west for longitude)\nStereo: (Yes indicates there is an adjacent picture of the same area)\nONC Map ID: JNC Map ID:\nCamera\nCamera Tilt:\nCamera Focal Length: 250mm\nCamera: HB: Hasselblad\nFilm: 5069 : Kodak Elite 100S, E6 Reversal, Replaces Lumiere, Warmer in tone vs. Lumiere.\nQuality\nFilm Exposure:\nPercentage of Cloud Cover: 25 (11-25)\nNadir\nDate: 20010810 (YYYYMMDD)GMT Time: 19____ (HHMMSS)\nNadir Point Latitude: , Longitude: (Negative numbers indicate south for latitude and west for longitude)\nNadir to Photo Center Direction:\nSun Azimuth: (Clockwise angle in degrees from north to the sun measured at the nadir point)\nSpacecraft Altitude: nautical miles (0 km)\nSun Elevation Angle: (Angle in degrees between the horizon and the sun, measured at the nadir point)\nOrbit Number:",
+        "width": 1191,
+        "height": 1200,
+        "sha256": "af63857f99db30bc80fde0347687bdc170dc483c20265bc83e5e14f4b2a652e5"
+      }
+    }
+  ],
+  "reusedNearbyPlaces": [
+    {
+      "id": "wh-959",
+      "title": "瓦尔帕莱索：港城与山坡",
+      "paragraphs": [
+        {
+          "heading": "在港城看什么",
+          "text": "港口、狭窄平地与陡坡共同形成瓦尔帕莱索的城市形态。房屋、台阶、公共广场和登坡设施显示城市如何适应地形，历史区是更广的地方遗产，不只属于某一位作家。"
+        },
+        {
+          "heading": "与海岸房屋怎样一起探访",
+          "text": "拉塞巴斯蒂亚纳位于这座港城的山坡上，可以分两天阅读住宅收藏与历史街区；黑岛在另一段海岸，另留沿海交通和住宿。登坡设施运行、道路和街区访问条件需在当地确认。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "UNESCO：瓦尔帕莱索港口城市历史区",
+          "url": "https://whc.unesco.org/en/list/959/"
+        }
+      ],
+      "defaultMaps": [
+        "culture",
+        "neruda"
+      ]
     }
   ],
   "newItineraries": [
@@ -2854,6 +3369,191 @@
       "seasonMatch": true
     },
     {
+      "theme": "hemingway",
+      "id": "thirty-hemingway-oak-park",
+      "name": "奥克帕克 · 从家庭环境读早年写作",
+      "ids": [
+        "thirty-hemingway-oak-park"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "芝加哥基地 + 奥克帕克公共交通",
+      "reason": "单一出生地馆舍的一日参访，留出往返芝加哥与预约时间；成年居所与跨国写作阶段另行安排。",
+      "topology": "network",
+      "climate": "https://www.hemingwaybirthplace.com/hemingway-and-oak-park",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "hemingway",
+      "id": "thirty-hemingway-idaho",
+      "name": "凯彻姆 · 在公共博物馆读爱达荷",
+      "ids": [
+        "thirty-hemingway-ketchum-museum"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "凯彻姆城内步行 / 当地交通",
+      "reason": "单一公共博物馆的一日阅读，不安排进入私人故居。通过机构的数字资料理解晚年房屋和自然环境。",
+      "topology": "network",
+      "climate": "https://comlib.org/museum/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "mark-twain",
+      "id": "thirty-twain-hartford-neighbors",
+      "name": "哈特福德 · 两位作家的文学邻居",
+      "ids": [
+        "atlas-twain-hartford",
+        "thirty-stowe-hartford"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "哈特福德城内公共交通 + Nook Farm街区步行",
+      "reason": "两处邻近住宅分两次导览，作者身份与不同创作阶段分别读；不是跨州连线，汉尼拔童年另成独立区域。",
+      "topology": "network",
+      "climate": "https://marktwainhouse.org/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "mark-twain",
+      "id": "thirty-twain-elmira",
+      "name": "埃尔迈拉 · 一座迁建书房的写作史",
+      "ids": [
+        "thirty-twain-elmira-study"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "埃尔迈拉市内交通 + 校园允许路径",
+      "reason": "单一书房的一日阅读；Quarry Farm私人学术驻留区不纳入普通访问站点，迁建后的坐标不冒充原创作地点。",
+      "topology": "network",
+      "climate": "https://marktwainstudies.com/mark-twain-in-elmira/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "neruda",
+      "id": "thirty-neruda-coast",
+      "name": "智利中部海岸 · 港城、房屋与海景",
+      "ids": [
+        "wh-959",
+        "atlas-la-sebastiana",
+        "atlas-isla-negra"
+      ],
+      "days": 4,
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12
+      ],
+      "transport": "瓦尔帕莱索、黑岛两基地 + 沿海公路 / 公交",
+      "reason": "港城历史区与拉塞巴斯蒂亚纳近邻，黑岛另有约百公里沿海转场，分日住宿。城市遗产并不都属于聂鲁达本人创作，三座原故居保持各自身份。",
+      "topology": "network",
+      "climate": "https://whc.unesco.org/en/list/959/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "neruda",
+      "id": "thirty-neruda-santiago",
+      "name": "圣地亚哥 · 山坡房屋与收藏",
+      "ids": [
+        "atlas-la-chascona"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "圣地亚哥城内交通 + 房屋允许路径",
+      "reason": "单一故居的一日阅读，给室内收藏与山坡街区留时间；沿海两处房屋另作独立地区，不为凑站数拆分同一住宅。",
+      "topology": "network",
+      "climate": "https://fundacionneruda.org/en/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "marquez",
+      "id": "thirty-marquez-aracataca",
+      "name": "阿拉卡塔卡 · 童年城市与重建家屋",
+      "ids": [
+        "atlas-aracataca",
+        "thirty-marquez-house"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "阿拉卡塔卡城内允许街区步行",
+      "reason": "城镇代表点与具体博物馆同地阅读，区分家族记忆、重建展陈与小说虚构。卡塔赫纳原城市节点保留，另行安排转场。",
+      "topology": "network",
+      "climate": "https://colombia.travel/en/blog/explore-route-garcia-marquez-in-colombian-caribbean",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "marquez",
+      "id": "thirty-magdalena-house-wetland",
+      "name": "马格达莱纳 · 家屋与潟湖地方生活",
+      "ids": [
+        "thirty-marquez-house",
+        "thirty-cienaga-grande"
+      ],
+      "days": 3,
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12
+      ],
+      "transport": "圣玛尔塔 / 阿拉卡塔卡分地住宿 + 区域公路与另行核实的船程",
+      "reason": "家屋与大沼泽地区分日参访，相距数十至百公里并需合法码头接驳；广域湿地标记不作为导航点，船行和社区访问不作无条件保证。",
+      "topology": "network",
+      "climate": "https://www.gabrielgarciamarquezfundacion.com/casa-museo-gabriel-garc%C3%ADa-m%C3%A1rquez",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
       "theme": "tagore",
       "id": "thirty-tagore-campus",
       "name": "桑地尼克坦 · 校园与北园居所",
@@ -3037,6 +3737,52 @@
       "reason": "单一家族博物馆的一日参访，山区往返需约半日交通余量，先确认预约与开放。",
       "topology": "network",
       "climate": "https://www.museodicelledeipuccini.it/itinerari-pucciniani/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "american-west-art",
+      "id": "thirty-west-salinas",
+      "name": "萨利纳斯 · 出生房屋与文学中心",
+      "ids": [
+        "atlas-steinbeck-salinas",
+        "thirty-steinbeck-house"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "萨利纳斯城内步行 + 分馆参访",
+      "reason": "两处相隔约两个街区，同日分别看房间和文学陈列；餐饮、楼层导览与中心展览各有安排。",
+      "topology": "network",
+      "climate": "https://steinbeck.org/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "american-west-art",
+      "id": "thirty-west-monterey",
+      "name": "蒙特雷 · 罐头厂街与生物实验室",
+      "ids": [
+        "atlas-cannery-row",
+        "thirty-ricketts-lab"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "蒙特雷基地 + 允许海岸街区步行",
+      "reason": "同一海岸街区分两天慢读，文学角色、真实科学家和工业历史分别说明；实验室入室仅按市方开放日或导览预约。",
+      "topology": "network",
+      "climate": "https://steinbeck.org/virtual-members/diary-of-a-book-travels-with-charley-part-one/",
       "totalKm": 0,
       "seasonMatch": true
     },
