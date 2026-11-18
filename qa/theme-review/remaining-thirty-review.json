@@ -1,6 +1,6 @@
 {
   "baseline": "697397886b2e4e238220a841108631a5d74e7433",
-  "phase": 2,
+  "phase": 3,
   "before": {
     "themes": 128,
     "visible": 82,
@@ -9,9 +9,9 @@
   },
   "after": {
     "themes": 130,
-    "visible": 78,
-    "itineraries": 320,
-    "visibleSingleItinerary": 5
+    "visible": 77,
+    "itineraries": 330,
+    "visibleSingleItinerary": 0
   },
   "decisions": [
     {
@@ -1048,12 +1048,15 @@
       "decision": "扩充",
       "reason": "奥克帕克童年与爱达荷博物馆补生涯，基韦斯特和古巴原居所不丢；私人晚年宅不纳入入室参访。",
       "phase": 3,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "海明威的跨国生活",
       "afterName": "海明威的跨国生活",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 3,
+      "newPlaces": [
+        "thirty-hemingway-oak-park",
+        "thirty-hemingway-ketchum-museum"
+      ],
       "points": [
         {
           "id": "atlas-hemingway-keywest",
@@ -1089,12 +1092,15 @@
       "decision": "地域整合并扩充",
       "reason": "萨利纳斯与蒙特雷共一地区，加入美国西部地图，补出生房屋与里基茨实验室。",
       "phase": 3,
-      "status": "pending",
+      "status": "integrated",
       "beforeName": "斯坦贝克的加州与公路",
       "afterName": "斯坦贝克的加州与公路",
       "beforeItineraries": 1,
       "afterItineraries": 1,
-      "newPlaces": [],
+      "newPlaces": [
+        "thirty-steinbeck-house",
+        "thirty-ricketts-lab"
+      ],
       "points": [
         {
           "id": "atlas-steinbeck-salinas",
@@ -1102,7 +1108,7 @@
           "sha256": "ec7e8103d7da886c830979dfef71c9c01a05114bdc6322dfb1c52db803a57de3",
           "oldURL": "#theme=steinbeck&place=atlas-steinbeck-salinas",
           "destinations": [
-            "steinbeck"
+            "american-west-art"
           ]
         },
         {
@@ -1111,7 +1117,7 @@
           "sha256": "c8231cd69861add17f1bf40cf54be61e419c647010ccbc3bd554fc2f933d94de",
           "oldURL": "#theme=steinbeck&place=atlas-cannery-row",
           "destinations": [
-            "steinbeck"
+            "american-west-art"
           ]
         }
       ],
@@ -1130,12 +1136,15 @@
       "decision": "扩充",
       "reason": "补迁建至埃尔迈拉学院的书房，汉尼拔与哈特福德不压成同一区域。",
       "phase": 3,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "马克·吐温的密西西比河",
-      "afterName": "马克·吐温的密西西比河",
+      "afterName": "马克·吐温：河岸、书房与文学邻居",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 3,
+      "newPlaces": [
+        "thirty-twain-elmira-study",
+        "thirty-stowe-hartford"
+      ],
       "points": [
         {
           "id": "atlas-hannibal",
@@ -1171,11 +1180,11 @@
       "decision": "地域扩充",
       "reason": "三座房子自身有价值，补瓦尔帕莱索港城遗产并拆成城市、海岸探访，不为凑数找第四栋房。",
       "phase": 3,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "聂鲁达的三座房子",
-      "afterName": "聂鲁达的三座房子",
+      "afterName": "智利中部：聂鲁达的房屋与港城海岸",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
+      "afterItineraries": 3,
       "newPlaces": [],
       "points": [
         {
@@ -1221,12 +1230,15 @@
       "decision": "地域扩充",
       "reason": "把加勒比故乡落到阿拉卡塔卡故居博物馆，邻近大沼泽提供自然与地方生活背景。",
       "phase": 3,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "马尔克斯的加勒比",
-      "afterName": "马尔克斯的加勒比",
+      "afterName": "哥伦比亚加勒比：马尔克斯、家屋与湿地",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 3,
+      "newPlaces": [
+        "thirty-marquez-house",
+        "thirty-cienaga-grande"
+      ],
       "points": [
         {
           "id": "atlas-aracataca",
@@ -1612,7 +1624,21 @@
       "id": "thirty-craiova-art",
       "name": "克拉约瓦 · 美术馆与布朗库西收藏",
       "source": "https://ghidulmuzeelor.cimec.ro/id.asp?k=284",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-craiova-art.webp",
+        "title": "克拉约瓦 · 美术馆与布朗库西收藏 · 建筑或园区照片（非所述全部作品）",
+        "author": "Transcedentalia",
+        "source": "https://commons.wikimedia.org/wiki/File:Palatul_Constantin_Mihail%2C_%28azi_Muzeul_de_Art%C4%83%29_vedere_lateral_st%C3%A2nga.JPG",
+        "license": "CC BY-SA 3.0 ro",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-craiova-art",
+        "article": "https://en.wikipedia.org/wiki/Craiova_Art_Museum",
+        "providerDescription": ".mw-parser-output .monument-istoric{width:400px;max-width:100%;margin:1px;padding:2px;background-color:#800000;color:#fff;text-align:initial;font-size:0.75em;line-height:1.1em}.mw-parser-output .monument-istoric td:first-child{width:26px;height:26px}.mw-parser-output .monument-istoric a{color:yellow}.mw-parser-output .monument-istoric-code a{color:inherit}\n\n\n\n\nThis is a photo of a historic monument in județul Dolj, classified with number DJ-II-m-A-08139.",
+        "width": 1440,
+        "height": 958,
+        "sha256": "902524007c51378518830687e2311a5d2eb06f7935bfcb1d274fc5bd02cc80a7"
+      }
     },
     {
       "id": "thirty-ciasa-granda",
@@ -1624,7 +1650,21 @@
       "id": "thirty-kunsthaus-zurich",
       "name": "苏黎世 · 美术馆贾科梅蒂收藏",
       "source": "https://www.kunsthaus.ch/en/sammlung/private-sammlungen/alberto-giacometti-stiftung/",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-kunsthaus-zurich.webp",
+        "title": "苏黎世 · 美术馆贾科梅蒂收藏 · 建筑或园区照片（非所述全部作品）",
+        "author": "Roland zh",
+        "source": "https://commons.wikimedia.org/wiki/File:Kunsthaus_Z%C3%BCrich_2011-08-06_17-33-46.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-kunsthaus-zurich",
+        "article": "https://en.wikipedia.org/wiki/Kunsthaus_Z%C3%BCrich",
+        "providerDescription": "Kunsthaus in Zürich (Switzerland)",
+        "width": 1440,
+        "height": 960,
+        "sha256": "e4ee3af54248ce78cb935838300fd2ad24aa0dbfc8b839e346dd7c9365b58c8c"
+      }
     },
     {
       "id": "thirty-le-pouldu",
@@ -1642,55 +1682,181 @@
       "id": "thirty-chagall-house",
       "name": "维捷布斯克 · 夏加尔故居博物馆",
       "source": "https://chagall-vitebsk.museum.by/",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-chagall-house.webp",
+        "title": "维捷布斯克 · 夏加尔故居博物馆 · 建筑或园区照片（非所述全部作品）",
+        "author": "user:Valerishisn",
+        "source": "https://commons.wikimedia.org/wiki/File:ArtChagall.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-chagall-house",
+        "article": "https://en.wikipedia.org/wiki/Marc_Chagall_Museum",
+        "providerDescription": "Арт-цэнтр Марка Шагала, Віцебск",
+        "width": 709,
+        "height": 531,
+        "sha256": "6f6067dd73a34226df66250762002ebe12c19ba190445f47eee513089bf897df"
+      }
     },
     {
       "id": "thirty-vence-cathedral",
       "name": "旺斯 · 圣母诞生主教座堂",
       "source": "https://vence-tourisme.com/cathedrale-notre-dame-de-la-nativite/",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-vence-cathedral.webp",
+        "title": "旺斯 · 圣母诞生主教座堂 · 建筑或园区照片（非所述全部作品）",
+        "author": "Didier Chauvin at fr.wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:Cathedrale_vence.jpg",
+        "license": "CC BY 1.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/1.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-vence-cathedral",
+        "article": "https://en.wikipedia.org/wiki/Vence_Cathedral",
+        "providerDescription": "Bell tower of the cathedral of Vence, Alpes-Maritimes, France.",
+        "width": 1440,
+        "height": 1080,
+        "sha256": "f9477c698a73b56df2f567258c9ebb5bfa6e2ac868581721712a0a3c2f72ede1"
+      }
     },
     {
       "id": "thirty-willy-lott",
       "name": "弗拉特福德 · 威利·洛特故居外观",
       "source": "https://www.nationaltrust.org.uk/visit/suffolk/flatford",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-willy-lott.webp",
+        "title": "弗拉特福德 · 威利·洛特故居外观 · 建筑或园区照片（非所述全部作品）",
+        "author": "Rowland Shaw",
+        "source": "https://commons.wikimedia.org/wiki/File:Willy-Lotts-Cottage.jpg",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-willy-lott",
+        "article": "https://en.wikipedia.org/wiki/Willy_Lott%27s_Cottage",
+        "providerDescription": "Willy Lott's Cottage, Flatford",
+        "width": 1440,
+        "height": 960,
+        "sha256": "34a81c6421c5892656eccbd388494d203f86dabc947b0c0a93e953a70e28a5bf"
+      }
     },
     {
       "id": "thirty-wordsworth-house",
       "name": "科克茅斯 · 华兹华斯童年故居",
       "source": "https://www.nationaltrust.org.uk/visit/lake-district/wordsworth-house-and-garden",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-wordsworth-house.webp",
+        "title": "科克茅斯 · 华兹华斯童年故居 · 建筑或园区照片（非所述全部作品）",
+        "author": "MarcusBritish at en.wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:Wordsworth_House_Cockermouth.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-wordsworth-house",
+        "article": "https://en.wikipedia.org/wiki/Wordsworth_House",
+        "providerDescription": "Wordsworth House, Cockermouth, Cumbria, UK.",
+        "width": 1024,
+        "height": 683,
+        "sha256": "221d2442e7d4ea5094152ca648724160d5c30ed6a1335c82db88575258b9898f"
+      }
     },
     {
       "id": "thirty-allan-bank",
       "name": "格拉斯米尔 · 艾伦班克",
       "source": "https://www.nationaltrust.org.uk/visit/lake-district/allan-bank-and-grasmere",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-allan-bank.webp",
+        "title": "格拉斯米尔 · 艾伦班克 · 建筑或园区照片（非所述全部作品）",
+        "author": "Antiquary",
+        "source": "https://commons.wikimedia.org/wiki/File:Allan_Bank.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-allan-bank",
+        "article": "https://en.wikipedia.org/wiki/Allan_Bank",
+        "providerDescription": "Allan Bank, near Grasmere, Cumbria, seen from the north-east.",
+        "width": 1440,
+        "height": 1080,
+        "sha256": "595c8404e183b5245cecace1f00d19e689c3d5b161835b51bd30eafb7950191e"
+      }
     },
     {
       "id": "thirty-christo-pont-neuf",
       "name": "巴黎新桥 · 临时包裹项目旧现场",
       "source": "https://www.culture.gouv.fr/thematiques/arts-plastiques/expositions-en-france/Christo-et-Jeanne-Claude-Paris",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-christo-pont-neuf.webp",
+        "title": "巴黎新桥 · 临时包裹项目旧现场 · 建筑或园区照片（非所述全部作品）",
+        "author": "Rmrfstar",
+        "source": "https://commons.wikimedia.org/wiki/File:The_western_sides_of_the_%C3%8Ele_de_la_Cit%C3%A9_and_the_Pont_Neuf%2C_14_July_2008.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-christo-pont-neuf",
+        "article": "https://en.wikipedia.org/wiki/Pont_Neuf",
+        "providerDescription": "The western sides of the Île de la Cité and the Pont Neuf in Paris, France. Looking east.",
+        "width": 1440,
+        "height": 800,
+        "sha256": "a05ccd05cd38d1af2dbc22de8ed8258f620e5c89d3b7afc860d673cde134605e"
+      }
     },
     {
       "id": "thirty-christo-arc",
       "name": "巴黎凯旋门 · 2021年包裹项目旧现场",
       "source": "https://www.paris-arc-de-triomphe.fr/en/discover/l-arc-de-triomphe-wrapped-paris-1961-2021/the-story-of-a-project",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-christo-arc.webp",
+        "title": "巴黎凯旋门 · 2021年包裹项目旧现场 · 建筑或园区照片（非所述全部作品）",
+        "author": "ZeusUpsistos",
+        "source": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-christo-arc",
+        "article": "https://en.wikipedia.org/wiki/Arc_de_Triomphe",
+        "providerDescription": "L'Arc de Triomphe de l'Étoile.",
+        "width": 1440,
+        "height": 961,
+        "sha256": "e7277bb96ed3fd3e194e7626d306a0a20d49ff48155536f07be1c7a73cd1de4f"
+      }
     },
     {
       "id": "thirty-chopin-warsaw",
       "name": "华沙 · 肖邦博物馆",
       "source": "https://chopin.pl/museum.en.html",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-chopin-warsaw.webp",
+        "title": "华沙 · 肖邦博物馆 · 建筑或园区照片（非所述全部作品）",
+        "author": "Adrian Grycuk",
+        "source": "https://commons.wikimedia.org/wiki/File:Zamek_Ostrogskich_w_Warszawie_2022.jpg",
+        "license": "CC BY-SA 3.0 pl",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-chopin-warsaw",
+        "article": "https://en.wikipedia.org/wiki/Fryderyk_Chopin_Museum",
+        "providerDescription": "Ostrogski Castle in Warsaw, seat of Frederick Chopin Museum",
+        "width": 1440,
+        "height": 1055,
+        "sha256": "dbef54436028305e7c65b0087d9f70edd40f7b0d78b9088915e1fbe84b25a186"
+      }
     },
     {
       "id": "thirty-chopin-birthplace",
       "name": "热拉佐瓦沃拉 · 肖邦出生地与公园",
       "source": "https://muzeum.nifc.pl/pl/muzeum/wizyta-informacje-miejsce/2_the-birthplace-of-fryderyk-chopin-and-park-in-zelazowa-wola/",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-chopin-birthplace.webp",
+        "title": "热拉佐瓦沃拉 · 肖邦出生地与公园 · 建筑或园区照片（非所述全部作品）",
+        "author": "Wojsyl",
+        "source": "https://commons.wikimedia.org/wiki/File:Poland_Zelazowa_Wola.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-chopin-birthplace",
+        "article": "https://en.wikipedia.org/wiki/Birthplace_of_Fr%C3%A9d%C3%A9ric_Chopin",
+        "providerDescription": "Chopin's mansion in Żelazowa Wola, Poland",
+        "width": 1440,
+        "height": 1073,
+        "sha256": "28ea43e1932b0731b3831e5a1e2e9f44c66bc30bf84f24e65d515221b1db2f0a"
+      }
     },
     {
       "id": "thirty-dvorak-birthplace",
@@ -1708,7 +1874,21 @@
       "id": "thirty-siljustol",
       "name": "卑尔根 · 塞尤斯托尔作曲家故居",
       "source": "https://www.visitbergen.com/ting-a-gjore/siljustol-p826353",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-siljustol.webp",
+        "title": "卑尔根 · 塞尤斯托尔作曲家故居 · 建筑或园区照片（非所述全部作品）",
+        "author": "David40226543",
+        "source": "https://commons.wikimedia.org/wiki/File:Siljust%C3%B8l.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-siljustol",
+        "article": "https://en.wikipedia.org/wiki/Siljust%C3%B8l",
+        "providerDescription": "Siljustøl, Bergen, Norway, by Ludolf Eide Parr (1939)",
+        "width": 1440,
+        "height": 1080,
+        "sha256": "2d7622646f50185c5a5245f547f088f6e64671b987f6d4146f815690e30af825"
+      }
     },
     {
       "id": "thirty-mendelssohn-remise",
@@ -1720,7 +1900,21 @@
       "id": "thirty-puccini-giglio",
       "name": "卢卡 · 吉廖剧院",
       "source": "https://www.museodicelledeipuccini.it/itinerari-pucciniani/",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-puccini-giglio.webp",
+        "title": "卢卡 · 吉廖剧院 · 建筑或园区照片（非所述全部作品）",
+        "author": "Davide Papalini",
+        "source": "https://commons.wikimedia.org/wiki/File:Lucca-teatro_del_Giglio-complesso1.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-puccini-giglio",
+        "article": "https://en.wikipedia.org/wiki/Teatro_del_Giglio",
+        "providerDescription": "Teatro del Giglio, Comune di Lucca, Toscana, Italia",
+        "width": 1440,
+        "height": 1080,
+        "sha256": "2c621424ff4b11d7b30cfe9a077f9a92dc282621ab045ac3a4834720b5a37964"
+      }
     },
     {
       "id": "thirty-puccini-celle",
@@ -1744,31 +1938,101 @@
       "id": "thirty-byron-newstead",
       "name": "诺丁汉郡 · 纽斯特德修道院",
       "source": "https://newsteadabbey.org.uk/house-and-abbey",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-byron-newstead.webp",
+        "title": "诺丁汉郡 · 纽斯特德修道院 · 建筑或园区照片（非所述全部作品）",
+        "author": "Neil Theasby",
+        "source": "https://commons.wikimedia.org/wiki/File:Newstead_Abbey_from_the_east_-_geograph.org.uk_-_5949999.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-byron-newstead",
+        "article": "https://en.wikipedia.org/wiki/Newstead_Abbey",
+        "providerDescription": "Newstead Abbey from the east",
+        "width": 1440,
+        "height": 1081,
+        "sha256": "9c7b529b6326cfb2154e11284a01758cc1e759cdbee24ed9477cbddb3ba08fc4"
+      }
     },
     {
       "id": "thirty-villa-diodati",
       "name": "科洛尼 · 迪奥达蒂别墅周边",
       "source": "https://noms-geographiques.app.ge.ch/voie/geneve/chemin-diodati",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-villa-diodati.webp",
+        "title": "科洛尼 · 迪奥达蒂别墅周边 · 建筑或园区照片（非所述全部作品）",
+        "author": "Robertgrassi",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_diodati_2008.07.27_rg_5.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-villa-diodati",
+        "article": "https://en.wikipedia.org/wiki/Villa_Diodati",
+        "providerDescription": "The Villa Diodati in Geneva, Switzerland 2008.07.27, view 5 out of 6",
+        "width": 1440,
+        "height": 1080,
+        "sha256": "60881d8f019684dddebc80a1717cae106a31142e3298aa192a1fb056d99aa44f"
+      }
     },
     {
       "id": "thirty-kafka-museum",
       "name": "布拉格 · 卡夫卡博物馆",
       "source": "https://kafkamuseum.cz/",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-kafka-museum.webp",
+        "title": "布拉格 · 卡夫卡博物馆 · 建筑或园区照片（非所述全部作品）",
+        "author": "Mister No",
+        "source": "https://commons.wikimedia.org/wiki/File:Kafka_Museum_-_panoramio_%281%29.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-kafka-museum",
+        "article": "https://en.wikipedia.org/wiki/Franz_Kafka_Museum",
+        "providerDescription": "Kafka Museum",
+        "width": 1440,
+        "height": 929,
+        "sha256": "affaaa0dfbba76202daa3f0b6819138b6d44f57dbf8afebb53fb3ec19f2b71d5"
+      }
     },
     {
       "id": "thirty-kafka-golden-lane",
       "name": "布拉格 · 黄金巷22号",
       "source": "https://www.hrad.cz/en/prague-castle-for-visitors/objects-for-visitors/golden-lane-10334",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-kafka-golden-lane.webp",
+        "title": "布拉格 · 黄金巷22号 · 建筑或园区照片（非所述全部作品）",
+        "author": "Maros M r a z (Maros)",
+        "source": "https://commons.wikimedia.org/wiki/File:Prague_-_Zlata_ulicka.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-kafka-golden-lane",
+        "article": "https://en.wikipedia.org/wiki/Golden_Lane",
+        "providerDescription": "Golden lane in Prague Castle",
+        "width": 1440,
+        "height": 1080,
+        "sha256": "c4bb3d77af95ba9f48e7d633572741163a15e8f60b1fe985ed4957d04d500c67"
+      }
     },
     {
       "id": "thirty-joyce-tower",
       "name": "桑迪科夫 · 乔伊斯塔楼与博物馆",
       "source": "https://joycetower.ie/about-us/martello-tower",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-joyce-tower.webp",
+        "title": "桑迪科夫 · 乔伊斯塔楼与博物馆 · 建筑或园区照片（非所述全部作品）",
+        "author": "YvonneM",
+        "source": "https://commons.wikimedia.org/wiki/File:James_Joyce_Tower_01.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-joyce-tower",
+        "article": "https://en.wikipedia.org/wiki/James_Joyce_Tower_and_Museum",
+        "providerDescription": "James Joyce Tower and Museum in Sandycove, Dublin, Ireland",
+        "width": 1440,
+        "height": 1061,
+        "sha256": "7060263501d6be1e4fda4e8d6f3c71387de9eb4132daa79731aea0817a84320b"
+      }
     },
     {
       "id": "thirty-joyce-trieste-museum",
@@ -1786,6 +2050,54 @@
       "id": "thirty-proust-cabourg-villa",
       "name": "卡堡 · 追忆似水年华别墅博物馆",
       "source": "https://villadutempsretrouve.com/",
+      "photo": null
+    },
+    {
+      "id": "thirty-hemingway-oak-park",
+      "name": "奥克帕克 · 海明威出生地博物馆",
+      "source": "https://www.hemingwaybirthplace.com/hemingway-and-oak-park",
+      "photo": null
+    },
+    {
+      "id": "thirty-hemingway-ketchum-museum",
+      "name": "凯彻姆 · 伍德河历史文化博物馆",
+      "source": "https://comlib.org/museum/",
+      "photo": null
+    },
+    {
+      "id": "thirty-steinbeck-house",
+      "name": "萨利纳斯 · 斯坦贝克出生故居",
+      "source": "https://steinbeckhouse.com/",
+      "photo": null
+    },
+    {
+      "id": "thirty-ricketts-lab",
+      "name": "蒙特雷 · 太平洋生物实验室",
+      "source": "https://www.monterey.org/museums",
+      "photo": null
+    },
+    {
+      "id": "thirty-twain-elmira-study",
+      "name": "埃尔迈拉学院 · 马克·吐温八角书房",
+      "source": "https://marktwainstudies.com/mark-twain-in-elmira/",
+      "photo": null
+    },
+    {
+      "id": "thirty-stowe-hartford",
+      "name": "哈特福德 · 哈丽特·比彻·斯托故居",
+      "source": "https://www.harrietbeecherstowecenter.org/visit/",
+      "photo": null
+    },
+    {
+      "id": "thirty-marquez-house",
+      "name": "阿拉卡塔卡 · 马尔克斯故居博物馆",
+      "source": "https://www.gabrielgarciamarquezfundacion.com/casa-museo-gabriel-garc%C3%ADa-m%C3%A1rquez",
+      "photo": null
+    },
+    {
+      "id": "thirty-cienaga-grande",
+      "name": "马格达莱纳大沼泽 · 湿地与地方生活（区域）",
+      "source": "https://colombia.travel/es/cienaga-grande",
       "photo": null
     }
   ],
@@ -2462,6 +2774,191 @@
       "seasonMatch": true
     },
     {
+      "theme": "hemingway",
+      "id": "thirty-hemingway-oak-park",
+      "name": "奥克帕克 · 从家庭环境读早年写作",
+      "ids": [
+        "thirty-hemingway-oak-park"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "芝加哥基地 + 奥克帕克公共交通",
+      "reason": "单一出生地馆舍的一日参访，留出往返芝加哥与预约时间；成年居所与跨国写作阶段另行安排。",
+      "topology": "network",
+      "climate": "https://www.hemingwaybirthplace.com/hemingway-and-oak-park",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "hemingway",
+      "id": "thirty-hemingway-idaho",
+      "name": "凯彻姆 · 在公共博物馆读爱达荷",
+      "ids": [
+        "thirty-hemingway-ketchum-museum"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "凯彻姆城内步行 / 当地交通",
+      "reason": "单一公共博物馆的一日阅读，不安排进入私人故居。通过机构的数字资料理解晚年房屋和自然环境。",
+      "topology": "network",
+      "climate": "https://comlib.org/museum/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "mark-twain",
+      "id": "thirty-twain-hartford-neighbors",
+      "name": "哈特福德 · 两位作家的文学邻居",
+      "ids": [
+        "atlas-twain-hartford",
+        "thirty-stowe-hartford"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "哈特福德城内公共交通 + Nook Farm街区步行",
+      "reason": "两处邻近住宅分两次导览，作者身份与不同创作阶段分别读；不是跨州连线，汉尼拔童年另成独立区域。",
+      "topology": "network",
+      "climate": "https://marktwainhouse.org/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "mark-twain",
+      "id": "thirty-twain-elmira",
+      "name": "埃尔迈拉 · 一座迁建书房的写作史",
+      "ids": [
+        "thirty-twain-elmira-study"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "埃尔迈拉市内交通 + 校园允许路径",
+      "reason": "单一书房的一日阅读；Quarry Farm私人学术驻留区不纳入普通访问站点，迁建后的坐标不冒充原创作地点。",
+      "topology": "network",
+      "climate": "https://marktwainstudies.com/mark-twain-in-elmira/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "neruda",
+      "id": "thirty-neruda-coast",
+      "name": "智利中部海岸 · 港城、房屋与海景",
+      "ids": [
+        "wh-959",
+        "atlas-la-sebastiana",
+        "atlas-isla-negra"
+      ],
+      "days": 4,
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12
+      ],
+      "transport": "瓦尔帕莱索、黑岛两基地 + 沿海公路 / 公交",
+      "reason": "港城历史区与拉塞巴斯蒂亚纳近邻，黑岛另有约百公里沿海转场，分日住宿。城市遗产并不都属于聂鲁达本人创作，三座原故居保持各自身份。",
+      "topology": "network",
+      "climate": "https://whc.unesco.org/en/list/959/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "neruda",
+      "id": "thirty-neruda-santiago",
+      "name": "圣地亚哥 · 山坡房屋与收藏",
+      "ids": [
+        "atlas-la-chascona"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "圣地亚哥城内交通 + 房屋允许路径",
+      "reason": "单一故居的一日阅读，给室内收藏与山坡街区留时间；沿海两处房屋另作独立地区，不为凑站数拆分同一住宅。",
+      "topology": "network",
+      "climate": "https://fundacionneruda.org/en/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "marquez",
+      "id": "thirty-marquez-aracataca",
+      "name": "阿拉卡塔卡 · 童年城市与重建家屋",
+      "ids": [
+        "atlas-aracataca",
+        "thirty-marquez-house"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "阿拉卡塔卡城内允许街区步行",
+      "reason": "城镇代表点与具体博物馆同地阅读，区分家族记忆、重建展陈与小说虚构。卡塔赫纳原城市节点保留，另行安排转场。",
+      "topology": "network",
+      "climate": "https://colombia.travel/en/blog/explore-route-garcia-marquez-in-colombian-caribbean",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "marquez",
+      "id": "thirty-magdalena-house-wetland",
+      "name": "马格达莱纳 · 家屋与潟湖地方生活",
+      "ids": [
+        "thirty-marquez-house",
+        "thirty-cienaga-grande"
+      ],
+      "days": 3,
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12
+      ],
+      "transport": "圣玛尔塔 / 阿拉卡塔卡分地住宿 + 区域公路与另行核实的船程",
+      "reason": "家屋与大沼泽地区分日参访，相距数十至百公里并需合法码头接驳；广域湿地标记不作为导航点，船行和社区访问不作无条件保证。",
+      "topology": "network",
+      "climate": "https://www.gabrielgarciamarquezfundacion.com/casa-museo-gabriel-garc%C3%ADa-m%C3%A1rquez",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
       "theme": "tagore",
       "id": "thirty-tagore-campus",
       "name": "桑地尼克坦 · 校园与北园居所",
@@ -2645,6 +3142,52 @@
       "reason": "单一家族博物馆的一日参访，山区往返需约半日交通余量，先确认预约与开放。",
       "topology": "network",
       "climate": "https://www.museodicelledeipuccini.it/itinerari-pucciniani/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "american-west-art",
+      "id": "thirty-west-salinas",
+      "name": "萨利纳斯 · 出生房屋与文学中心",
+      "ids": [
+        "atlas-steinbeck-salinas",
+        "thirty-steinbeck-house"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "萨利纳斯城内步行 + 分馆参访",
+      "reason": "两处相隔约两个街区，同日分别看房间和文学陈列；餐饮、楼层导览与中心展览各有安排。",
+      "topology": "network",
+      "climate": "https://steinbeck.org/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "american-west-art",
+      "id": "thirty-west-monterey",
+      "name": "蒙特雷 · 罐头厂街与生物实验室",
+      "ids": [
+        "atlas-cannery-row",
+        "thirty-ricketts-lab"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "蒙特雷基地 + 允许海岸街区步行",
+      "reason": "同一海岸街区分两天慢读，文学角色、真实科学家和工业历史分别说明；实验室入室仅按市方开放日或导览预约。",
+      "topology": "network",
+      "climate": "https://steinbeck.org/virtual-members/diary-of-a-book-travels-with-charley-part-one/",
       "totalKm": 0,
       "seasonMatch": true
     },

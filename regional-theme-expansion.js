@@ -10,6 +10,11 @@ for(const row of regionalExpansionData.points){
  placeEssays[place.id]={title:row.name,paragraphs:[{heading:'到现场看什么',text:observe},{heading:'地点与作品的关系',text:row.desc}],sources:[{title:'机构与作品资料',url:row.source},...(row.sources||[])],related:[]};
  if(regionalExpansionMedia[row.id])editorialPlacePhotos[row.id]=row.id;
 }
+for(const row of typeof remainingThirtyReadings==='undefined'?[]:remainingThirtyReadings){
+ const existing=placeEssays[row.id];
+ if(!existing)placeEssays[row.id]={title:row.title,paragraphs:row.paragraphs,sources:row.sources,related:[]};
+ else {for(const p of row.paragraphs)if(!existing.paragraphs.some(x=>x.heading===p.heading&&x.text===p.text))existing.paragraphs.push(p);for(const source of row.sources)if(!existing.sources.some(x=>x.url===source.url))existing.sources.push(source);}
+}
 function applyRegionalConsolidation(){
  for(const expansion of typeof regionalStandaloneExpansions==='undefined'?[]:regionalStandaloneExpansions){
   const theme=themes.find(t=>t.id===expansion.id);
