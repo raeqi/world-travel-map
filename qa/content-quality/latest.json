@@ -15,11 +15,11 @@
     "automaticCandidateContexts": 1,
     "visibleItineraryCandidatePlaces": 1,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 322,
-    "unreviewedContexts": 2014,
-    "unreviewedNoExpandedContexts": 1260,
-    "visibleItineraryUnreviewedNoExpandedContexts": 33,
-    "manualResearchedPlaces": 321,
+    "manualReviewedContexts": 338,
+    "unreviewedContexts": 1998,
+    "unreviewedNoExpandedContexts": 1244,
+    "visibleItineraryUnreviewedNoExpandedContexts": 17,
+    "manualResearchedPlaces": 337,
     "manualUsefulConcisePlaces": 0,
     "manualNeedsResearchPlaces": 1,
     "staleReviews": 0,
@@ -265,7 +265,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "43a92d9df27e01b7da5b89f2873a47f08e181b5d684af6d14ac97047e441d9f7",
+      "sha256": "1044563265a49545a378d02b661d664214ead67916593ebbe2fd3d3ccb45bbc2",
       "executed": true
     },
     {
@@ -299,7 +299,7 @@
       "visible": true,
       "contexts": 1033,
       "automaticCandidates": 0,
-      "manuallyReviewed": 47
+      "manuallyReviewed": 63
     },
     {
       "id": "gorges",
@@ -5843,57 +5843,57 @@
       "contexts": [
         {
           "id": "wh-907",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-1025",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-1158",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-789",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-1026",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-717",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-550",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-174",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
@@ -6065,50 +6065,50 @@
       "contexts": [
         {
           "id": "wh-345",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-1337",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-770",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-85",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-932",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-1256",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-1625",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
@@ -6458,22 +6458,22 @@
       "contexts": [
         {
           "id": "wh-174",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-395",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-550",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-24",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
