@@ -605,7 +605,8 @@
       "desc": "村庄纪念屋通过乡土建筑、家具和文献认识布朗库西的成长背景。馆舍有修复、拆卸迁置等历史，不能把今天所有构件和陈设都当作出生当年的原物。",
       "observe": "比较木构、房间尺度与乡村环境，再到特尔古日乌看公共雕塑；尊重住民，不把村中私人住宅都当作可入内故居。",
       "source": "https://ghidulmuzeelor.cimec.ro/id.asp?k=321",
-      "wiki": "Constantin Brâncuși Memorial House"
+      "wiki": "Casa memorială Constantin Brâncuși",
+      "wikiLang": "ro"
     },
     {
       "id": "thirty-craiova-art",
@@ -633,7 +634,8 @@
       "desc": "山谷博物馆将地方生活、手工艺、自然环境与贾科梅蒂家族作品放在一起，工作室参访另有带领安排。它补充斯坦帕区域点，不把巴黎研究院的复原陈列搬到瑞士。",
       "observe": "分别看地方生活和家族艺术，工作室按预约或导览安排；不要把阿尔贝托、乔瓦尼与迭戈的作品混作一人创作。",
       "source": "https://ciaesagranda.ch/chi-siamo/",
-      "wiki": "Ciäsa Granda"
+      "wiki": "Ciäsa Granda",
+      "wikiLang": "de"
     },
     {
       "id": "thirty-kunsthaus-zurich",
@@ -675,7 +677,8 @@
       "desc": "群岛博物馆以波利尼西亚文化、历史与社会提供地方自身的叙事。它作为塔希提区域的文化参访加入，不是高更故居，也不把画家想象的岛屿等同于当地居民生活。",
       "observe": "阅读器物、口述与历史材料，再比较外来艺术家的描绘；展览图像的再现权与建筑照片许可分别处理。",
       "source": "https://www.museetahiti.pf/",
-      "wiki": "Museum of Tahiti and the Islands"
+      "wiki": "Musée de Tahiti et des Îles",
+      "wikiLang": "fr"
     },
     {
       "id": "thirty-chagall-house",
@@ -689,7 +692,8 @@
       "desc": "波克罗夫斯卡娅街的故居博物馆将维捷布斯克的家族生活落到房屋和文献。城市童年记忆与画中的漂浮人物、建筑并非一一对应，陈列也经历后世整理。",
       "observe": "先辨认房屋、生活物件和照片的年代，再读绘画中的故乡想象；不能凭画面确定每栋建筑的精确位置。",
       "source": "https://chagall-vitebsk.museum.by/",
-      "wiki": "Marc Chagall Museum"
+      "wiki": "Marc Chagall Museum",
+      "imageRejected": "Lead photograph depicts the separate Art Center, not the childhood house; exact house image required"
     },
     {
       "id": "thirty-vence-cathedral",
@@ -815,7 +819,8 @@
       "desc": "出生地博物馆从乡村生活、河流与声音环境认识德沃夏克的成长。互动叙述与历史物件属于不同解释层，不能把后来录制的讲述当成作曲家原声。",
       "observe": "看房屋生活与乡村音乐环境，再到布拉格看收藏；馆舍、城堡与车站是不同地点。",
       "source": "https://www.lobkowicz.cz/en/antonin-dvorak-birth-house",
-      "wiki": "Antonín Dvořák Birth House"
+      "wiki": "Rodný dům Antonína Dvořáka",
+      "wikiLang": "cs"
     },
     {
       "id": "thirty-dvorak-vysoka",
@@ -829,7 +834,8 @@
       "desc": "维索卡纪念馆以展陈、音乐与公园认识德沃夏克的乡居创作环境。纪念馆与作曲家私人别墅应分别核对，不把附近每栋建筑都称为他的可参观住宅。",
       "observe": "先辨认纪念馆、园地与生平资料各自的身份，再读作品的创作阶段，具体馆址和入室范围向机构确认。",
       "source": "https://antonindvorak.cz/",
-      "wiki": "Antonín Dvořák Memorial"
+      "wiki": "Památník Antonína Dvořáka",
+      "wikiLang": "cs"
     },
     {
       "id": "thirty-siljustol",
@@ -857,7 +863,8 @@
       "desc": "Remise位于门德尔松银行旧家族建筑，展览讨论家族、宗教与城市生活。它不是费利克斯·门德尔松的原工作室，也不能把银行家的经历替代作曲家与芬妮·亨泽尔的创作。",
       "observe": "从家族关系、城市文化和展览材料读背景；具体音乐活动另查，莱比锡故居与柏林展馆是不同机构。",
       "source": "https://www.mendelssohn-gesellschaft.de/gesellschaft/ausstellung/?lang=1",
-      "wiki": "Mendelssohn-Remise"
+      "wiki": "Mendelssohn-Remise",
+      "wikiLang": "de"
     },
     {
       "id": "thirty-puccini-giglio",
@@ -885,7 +892,8 @@
       "desc": "切莱家族博物馆把普契尼的家族音乐传统与卢卡北部山村联系起来。它与卢卡出生地、托雷德尔拉戈居所是三处不同机构。",
       "observe": "从家族物件、文献与村庄看城市之外的背景；山区道路、预约和小馆开放要单独确认。",
       "source": "https://www.museodicelledeipuccini.it/itinerari-pucciniani/",
-      "wiki": "Museo di Celle dei Puccini"
+      "wiki": "Museo di Celle dei Puccini",
+      "wikiLang": "it"
     },
     {
       "id": "thirty-puccini-viareggio",
@@ -899,7 +907,8 @@
       "desc": "普契尼晚年迁居维亚雷焦，海岸别墅把托斯卡纳生活从湖畔延伸到海滨。建筑保护和展陈状态有变化，不能把外观地点等同于随时开放的室内博物馆。",
       "observe": "先通过机构资料认识晚年迁居，再在允许的公共空间看建筑与松林、海岸的关系；不进入私人或施工区域。",
       "source": "https://www.puccinimuseum.org/",
-      "wiki": "Villa Puccini (Viareggio)"
+      "wiki": "Villino Puccini",
+      "wikiLang": "it"
     },
     {
       "id": "thirty-hugo-villequier",
@@ -913,7 +922,8 @@
       "desc": "瓦克里家屋曾接待雨果及其家人，今日博物馆从家族、文献与塞纳河环境认识他的生活和写作。诺曼底家族记忆与根西岛流亡故居属于不同阶段。",
       "observe": "从房屋与河岸读生平背景，再阅读诗作；不把今日河道或陈列当作1843年事故现场的完整复原。",
       "source": "https://www.museevictorhugo.fr/",
-      "wiki": "Musée Victor-Hugo (Villequier)"
+      "wiki": "Musée Victor-Hugo (Villequier)",
+      "wikiLang": "fr"
     },
     {
       "id": "thirty-byron-newstead",
@@ -997,7 +1007,9 @@
       "desc": "乔伊斯博物馆现位于LETＳ文学博物馆、霍尔蒂斯广场4号，集中研究他与的里雅斯特的关系。新馆址与城市中的历史住宅不同，不能用旧馆地址替代。",
       "observe": "先核对当前馆址，再读迁居、语言与城市资料；与都柏林的小说地景分开，不宣称跨国两城一日可达。",
       "source": "https://museojoycetrieste.it/",
-      "wiki": "Museo Joyce Museum"
+      "wiki": "Palazzo Biserini",
+      "wikiLang": "it",
+      "photoCaption": "的里雅斯特 · 比塞里尼宫外观，LETS文学博物馆现馆址"
     },
     {
       "id": "thirty-proust-leonie",
@@ -1011,7 +1023,8 @@
       "desc": "普鲁斯特童年到访的阿米奥家族房屋成为小说贡布雷记忆的重要参照，今日为博物馆。真实亲属住宅、小说人物和后世陈列需要分别阅读。",
       "observe": "以房间、物件与庭园理解记忆的组织，不把小说叙述当作房屋历史逐字复刻。",
       "source": "https://www.amisdeproust.fr/maison-de-tante-leonie",
-      "wiki": "Maison de Tante Léonie"
+      "wiki": "Maison de tante Léonie",
+      "wikiLang": "fr"
     },
     {
       "id": "thirty-proust-cabourg-villa",
@@ -1025,7 +1038,8 @@
       "desc": "这座美好年代主题博物馆借普鲁斯特作为阅读线索，展示海滨度假时代的艺术与日常。它是当代博物馆，不是作家的原酒店房间，也不把借展清单当成永久展出。",
       "observe": "比较绘画、室内物件与海岸度假文化，普鲁斯特本人旅居和小说巴尔贝克的组织分别阅读。",
       "source": "https://villadutempsretrouve.com/",
-      "wiki": "Villa du Temps retrouvé"
+      "wiki": "Villa du Temps retrouvé",
+      "wikiLang": "fr"
     }
   ]
 }
