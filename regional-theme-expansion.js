@@ -17,7 +17,7 @@ function applyRegionalConsolidation(){
   if(expansion.name){theme.name=expansion.name;theme.title=expansion.name;}
   theme.maxZoom=40000;
   for(const id of expansion.extraPlaces){const place=places.find(p=>p.id===id);place.themes.push(theme.id);if(!theme.filters.includes(place.type))theme.filters.push(place.type);}
-  const nodes=places.filter(p=>p.themes.includes(theme.id));atlasThemePlaceIds.set(theme.id,nodes.map(p=>p.id));theme.view=culturalMapView(nodes);discoveryMeta[theme.id][1]=[...new Set(nodes.flatMap(placeRouteAreas))];
+  const nodes=places.filter(p=>p.themes.includes(theme.id));atlasThemePlaceIds.set(theme.id,[...new Set([...(atlasThemePlaceIds.get(theme.id)||[]),...nodes.map(p=>p.id)])]);theme.view=culturalMapView(nodes);discoveryMeta[theme.id][1]=[...new Set([...discoveryMeta[theme.id][1],...nodes.flatMap(placeRouteAreas)])];
   for(const [id,name,refs,days,months,transport,reason]of expansion.plans){const stops=refs.map(culturalPlaceRef);planTemplates.push({id,theme:theme.id,name,ids:stops.map(p=>p.id),days,months,transport,reason,topology:'network',climate:stops[0].source});}
  }
  for(const id of regionalConsolidatedSources){
