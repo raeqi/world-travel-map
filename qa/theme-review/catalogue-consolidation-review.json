@@ -1,0 +1,3815 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "baseline": "191d764ca979e2b07905c4efaf5b2d4dc53d5775",
+  "phase": 1,
+  "overview": {
+    "before": {
+      "places": 2010,
+      "themes": 130,
+      "visible": 77,
+      "uniqueItineraries": 330
+    },
+    "after": {
+      "places": 2010,
+      "themes": 133,
+      "visible": 67,
+      "uniqueItineraries": 338
+    },
+    "implemented": 13,
+    "pending": 44
+  },
+  "groups": [
+    {
+      "id": "jiangnan-poetry-painting",
+      "name": "江南诗画：水城、山川与日常",
+      "places": 10,
+      "plans": [
+        {
+          "id": "jiangnan-hangzhou",
+          "theme": "jiangnan-poetry-painting",
+          "ids": [
+            "atlas-hangzhou-art-school",
+            "silk-hangzhou"
+          ],
+          "days": 2,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "jiangnan-feng",
+          "theme": "jiangnan-poetry-painting",
+          "ids": [
+            "atlas-yuanyuantang",
+            "atlas-riyuelou"
+          ],
+          "days": 3,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "jiangnan-huangshan",
+          "theme": "jiangnan-poetry-painting",
+          "ids": [
+            "wh-547",
+            "silk-hangzhou"
+          ],
+          "days": 5,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "poetry-xuancheng",
+          "theme": "jiangnan-poetry-painting",
+          "ids": [
+            "atlas-jingting",
+            "atlas-taohuatan"
+          ],
+          "days": 3,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "poetry-water-cities",
+          "theme": "jiangnan-poetry-painting",
+          "ids": [
+            "silk-hangzhou",
+            "polo-suzhou"
+          ],
+          "days": 4,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "consolidation-jiangnan-suzhou-yixing",
+          "theme": "jiangnan-poetry-painting",
+          "ids": [
+            "polo-suzhou",
+            "atlas-yixing"
+          ],
+          "days": 4,
+          "topology": "network",
+          "legs": 0
+        }
+      ],
+      "independentPoints": [],
+      "sources": [
+        {
+          "id": "jiangnan-poetry",
+          "name": "江南诗路：水城与山川",
+          "originalPlanCount": 2,
+          "reason": "两图原10个不同地点和5条方案全部保留，以地域地图共同呈现诗人、画家与同城多重关系；增加苏州—宜兴的两地探访。",
+          "destination": "jiangnan-poetry-painting",
+          "points": [
+            {
+              "id": "silk-hangzhou",
+              "name": "杭州",
+              "source": "https://www.hzarchives.org.cn/info/4733",
+              "destination": "jiangnan-poetry-painting",
+              "oldURL": "#theme=jiangnan-poetry&place=silk-hangzhou",
+              "newURL": "#theme=jiangnan-poetry-painting&place=silk-hangzhou",
+              "sourceContextHash": "1811e45c8cda85f87466ba48423feba2ffb04311d3fb81424efb70e0503302b0",
+              "photoKey": "atlas-hangzhou",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-hangzhou.webp",
+                "title": "杭州 · West Lake Panorama at Dusk",
+                "author": "Yinweichen",
+                "source": "https://commons.wikimedia.org/wiki/File:West%20Lake%20Panorama%20at%20Dusk.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "hangzhou",
+                "article": "https://en.wikipedia.org/wiki/Hangzhou",
+                "providerDescription": "West Lake, Hangzhou: Panorama of Leifeng Pagoda, taken at Changqiao at Dusk",
+                "width": 1440,
+                "height": 457,
+                "sha256": "73872428d02394150df0deed2123df62dc03ebe71884d23b286469fc72403ed4"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "polo-suzhou",
+              "name": "苏州",
+              "source": "https://www.suzhou.gov.cn/",
+              "destination": "jiangnan-poetry-painting",
+              "oldURL": "#theme=jiangnan-poetry&place=polo-suzhou",
+              "newURL": "#theme=jiangnan-poetry-painting&place=polo-suzhou",
+              "sourceContextHash": "c2ecba9b56f897669d4d9277826fcd5e44a8869219c90e5b29b94b6df25bd89e",
+              "photoKey": "atlas-suzhou",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-suzhou.webp",
+                "title": "苏州 · 2017-04-17 Shantang River, Suzhou 02",
+                "author": "Windmemories",
+                "source": "https://commons.wikimedia.org/wiki/File:2017-04-17%20Shantang%20River%2C%20Suzhou%2002.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "suzhou",
+                "article": "https://en.wikipedia.org/wiki/Suzhou",
+                "providerDescription": "Shantang River, Suzhou",
+                "width": 1440,
+                "height": 960,
+                "sha256": "babf1da494298203cc6658ba41b11c96ef5bc232951eb06a5762a0f1412320ea"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-jingting",
+              "name": "敬亭山",
+              "source": "https://www.xinhuanet.com/photo/20250602/c9a5651a7b494c89b008330546030730/c.html",
+              "destination": "jiangnan-poetry-painting",
+              "oldURL": "#theme=jiangnan-poetry&place=atlas-jingting",
+              "newURL": "#theme=jiangnan-poetry-painting&place=atlas-jingting",
+              "sourceContextHash": "dcea521080dd06cfa0733f5d68f620684bc80ade57afab5e5de9ca21b095cb8d",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-taohuatan",
+              "name": "桃花潭",
+              "source": "https://www.xinhuanet.com/photo/20250602/c9a5651a7b494c89b008330546030730/c.html",
+              "destination": "jiangnan-poetry-painting",
+              "oldURL": "#theme=jiangnan-poetry&place=atlas-taohuatan",
+              "newURL": "#theme=jiangnan-poetry-painting&place=atlas-taohuatan",
+              "sourceContextHash": "268e254e93bbc0d9c5982bca707759d2514d5dcc8bd50b224cf72ef27d696a34",
+              "photoKey": "atlas-taohuatan",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-taohuatan.webp",
+                "title": "桃花潭 · Jingxian Taohuatan 2017.08.19 06-47-25",
+                "author": "Zhangzhugang",
+                "source": "https://commons.wikimedia.org/wiki/File:Jingxian%20Taohuatan%202017.08.19%2006-47-25.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "taohuatan",
+                "article": "https://en.wikipedia.org/wiki/Taohuatan%2C_Jing_County",
+                "providerDescription": "Taohuatan Huaixian Court in Jixian County, China.",
+                "width": 1440,
+                "height": 960,
+                "sha256": "aaac8bbf7dfb82c94a4428582f8c7a5743831d11a1015cbd9c5a22b70fb53c44"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-shaoxing",
+              "name": "绍兴",
+              "source": "https://ctext.org/wiki.pl?if=gb&remap=gb&res=210837",
+              "destination": "jiangnan-poetry-painting",
+              "oldURL": "#theme=jiangnan-poetry&place=atlas-shaoxing",
+              "newURL": "#theme=jiangnan-poetry-painting&place=atlas-shaoxing",
+              "sourceContextHash": "9ba9ba7c13c6094fc318d00a7f259b53d514396046fa5d36ef4f56f4ae749e46",
+              "photoKey": "atlas-shaoxing",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-shaoxing.webp",
+                "title": "绍兴 · Shaoxing Bazi Qiao 2017.12.09 16-16-06",
+                "author": "Zhangzhugang",
+                "source": "https://commons.wikimedia.org/wiki/File:Shaoxing_Bazi_Qiao_2017.12.09_16-16-06.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "shaoxing",
+                "article": "https://en.wikipedia.org/wiki/Shaoxing",
+                "providerDescription": "Bazi Bridge over the Eastern Zhejiang Canal",
+                "width": 1440,
+                "height": 960,
+                "sha256": "3b4243ac439b88f367f3edda96a8f707c65f2a8daff53c07b282dc390afae722"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            }
+          ],
+          "itineraries": [
+            {
+              "id": "poetry-xuancheng",
+              "name": "宣城 · 敬亭山与桃花潭",
+              "stops": [
+                "atlas-jingting",
+                "atlas-taohuatan"
+              ],
+              "sha256": "da7ccb4a384fc6eafb41b19cb79b458fceac6d48625719ac7ce89de27200e4df",
+              "oldURL": "#theme=jiangnan-poetry&view=plans&route=poetry-xuancheng",
+              "featuredInDestination": true,
+              "destination": "jiangnan-poetry-painting"
+            },
+            {
+              "id": "poetry-water-cities",
+              "name": "杭州与苏州 · 白居易的水城",
+              "stops": [
+                "silk-hangzhou",
+                "polo-suzhou"
+              ],
+              "sha256": "d80046b738e9d7b4a8bc7c87ba5a04101fc104d3042c28b4a126acda90566874",
+              "oldURL": "#theme=jiangnan-poetry&view=plans&route=poetry-water-cities",
+              "featuredInDestination": true,
+              "destination": "jiangnan-poetry-painting"
+            }
+          ],
+          "works": []
+        },
+        {
+          "id": "jiangnan-painting",
+          "name": "江南画家：水乡、山水与日常",
+          "originalPlanCount": 3,
+          "reason": "两图原10个不同地点和5条方案全部保留，以地域地图共同呈现诗人、画家与同城多重关系；增加苏州—宜兴的两地探访。",
+          "destination": "jiangnan-poetry-painting",
+          "points": [
+            {
+              "id": "wh-547",
+              "name": "黄山",
+              "source": "https://lib.caa.edu.cn/info/1046/1221.htm",
+              "destination": "jiangnan-poetry-painting",
+              "oldURL": "#theme=jiangnan-painting&place=wh-547",
+              "newURL": "#theme=jiangnan-poetry-painting&place=wh-547",
+              "sourceContextHash": "1313356972558930887a149e09ff970887db99feab678755fa9a2c5cbb1b372a",
+              "photoKey": "atlas-huangshan",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-huangshan.webp",
+                "title": "黄山 · Huangshan pic 4",
+                "author": "Chi King",
+                "source": "https://commons.wikimedia.org/wiki/File:Huangshan_pic_4.jpg",
+                "license": "CC BY 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "huangshan",
+                "article": "https://en.wikipedia.org/wiki/Huangshan",
+                "providerDescription": "Landscape of Mount Huangshan",
+                "width": 1440,
+                "height": 842,
+                "sha256": "966beba32cf348b929502a3f3777494a4e7eb9a7f9bbb013f65cfda114627a88"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "silk-hangzhou",
+              "name": "杭州",
+              "source": "https://lib.caa.edu.cn/info/1046/1221.htm",
+              "destination": "jiangnan-poetry-painting",
+              "oldURL": "#theme=jiangnan-painting&place=silk-hangzhou",
+              "newURL": "#theme=jiangnan-poetry-painting&place=silk-hangzhou",
+              "sourceContextHash": "8affa9ad6d7c9162c6acb73da81ff0acc64c423dcd4591e1913a69aba09a4373",
+              "photoKey": "atlas-hangzhou",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-hangzhou.webp",
+                "title": "杭州 · West Lake Panorama at Dusk",
+                "author": "Yinweichen",
+                "source": "https://commons.wikimedia.org/wiki/File:West%20Lake%20Panorama%20at%20Dusk.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "hangzhou",
+                "article": "https://en.wikipedia.org/wiki/Hangzhou",
+                "providerDescription": "West Lake, Hangzhou: Panorama of Leifeng Pagoda, taken at Changqiao at Dusk",
+                "width": 1440,
+                "height": 457,
+                "sha256": "73872428d02394150df0deed2123df62dc03ebe71884d23b286469fc72403ed4"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-yixing",
+              "name": "宜兴",
+              "source": "https://www.tsinghua.edu.cn/info/1844/73915.htm",
+              "destination": "jiangnan-poetry-painting",
+              "oldURL": "#theme=jiangnan-painting&place=atlas-yixing",
+              "newURL": "#theme=jiangnan-poetry-painting&place=atlas-yixing",
+              "sourceContextHash": "debe327bacec78e92f641c70df50f299d934d15564804ac04fb30bfa07e66f7f",
+              "photoKey": "atlas-yixing",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-yixing.webp",
+                "title": "宜兴 · 宜兴市丁蜀镇龙溪公园水面 - panoramio",
+                "author": "helkonig",
+                "source": "https://commons.wikimedia.org/wiki/File:%E5%AE%9C%E5%85%B4%E5%B8%82%E4%B8%81%E8%9C%80%E9%95%87%E9%BE%99%E6%BA%AA%E5%85%AC%E5%9B%AD%E6%B0%B4%E9%9D%A2_-_panoramio.jpg",
+                "license": "CC BY 3.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "yixing",
+                "article": "https://en.wikipedia.org/wiki/Yixing",
+                "providerDescription": "宜兴市丁蜀镇龙溪公园水面",
+                "width": 1440,
+                "height": 911,
+                "sha256": "236a6c093de6b7d76ebd23ece650f3a2e15aaa4287a2685b44f80d9e09a0d0b4"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-hangzhou-art-school",
+              "name": "杭州 · 南山路画院与西湖",
+              "source": "https://gmfz.caa.edu.cn/info/1024/1313.htm",
+              "destination": "jiangnan-poetry-painting",
+              "oldURL": "#theme=jiangnan-painting&place=atlas-hangzhou-art-school",
+              "newURL": "#theme=jiangnan-poetry-painting&place=atlas-hangzhou-art-school",
+              "sourceContextHash": "0fb1c7318934e18cd74a64491ef389e5abaa1be15d1b3d51970c6cc05d66ada0",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-yuanyuantang",
+              "name": "石门缘缘堂",
+              "source": "https://www.zjskw.gov.cn/art/2022/1/17/art_1229514868_44595.html",
+              "destination": "jiangnan-poetry-painting",
+              "oldURL": "#theme=jiangnan-painting&place=atlas-yuanyuantang",
+              "newURL": "#theme=jiangnan-poetry-painting&place=atlas-yuanyuantang",
+              "sourceContextHash": "5d01f6b44c2566eee76289fd07e98c001bf8589a038c8c04f5301c23f5035ebc",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-riyuelou",
+              "name": "上海 · 丰子恺日月楼街区",
+              "source": "https://www.shhuangpu.gov.cn/fw/003001/20231129/0af41720-0301-46b4-8af4-5d6139bbf72e.html",
+              "destination": "jiangnan-poetry-painting",
+              "oldURL": "#theme=jiangnan-painting&place=atlas-riyuelou",
+              "newURL": "#theme=jiangnan-poetry-painting&place=atlas-riyuelou",
+              "sourceContextHash": "2b9fcf0203d10923a8fc5f934836cb5cc177d3eb2ac8991a2baa9ff8f38f3d89",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            }
+          ],
+          "itineraries": [
+            {
+              "id": "jiangnan-hangzhou",
+              "name": "杭州 · 画院、西湖与山水记忆",
+              "stops": [
+                "atlas-hangzhou-art-school",
+                "silk-hangzhou"
+              ],
+              "sha256": "0622fd80bb9826a7b3d1cea969916af705cacef9f43c5fcbda2df4156715234f",
+              "oldURL": "#theme=jiangnan-painting&view=plans&route=jiangnan-hangzhou",
+              "featuredInDestination": true,
+              "destination": "jiangnan-poetry-painting"
+            },
+            {
+              "id": "jiangnan-feng",
+              "name": "石门与上海 · 丰子恺的乡居与日月楼",
+              "stops": [
+                "atlas-yuanyuantang",
+                "atlas-riyuelou"
+              ],
+              "sha256": "84dc430df6590e7eab78832036911cc4154e80073881fc1aaab893869aa78046",
+              "oldURL": "#theme=jiangnan-painting&view=plans&route=jiangnan-feng",
+              "featuredInDestination": true,
+              "destination": "jiangnan-poetry-painting"
+            },
+            {
+              "id": "jiangnan-huangshan",
+              "name": "黄山与杭州 · 黄宾虹的山水观看",
+              "stops": [
+                "wh-547",
+                "silk-hangzhou"
+              ],
+              "sha256": "9dc5e1fa726b53f25fbef7f775e0b746829996a95181ebf443a6b85dfd78a6af",
+              "oldURL": "#theme=jiangnan-painting&view=plans&route=jiangnan-huangshan",
+              "featuredInDestination": true,
+              "destination": "jiangnan-poetry-painting"
+            }
+          ],
+          "works": []
+        }
+      ]
+    },
+    {
+      "id": "european-music-cities",
+      "name": "音乐家的足迹：城市、家园与跨洋回声",
+      "places": 37,
+      "plans": [
+        {
+          "id": "music-leipzig",
+          "theme": "european-music-cities",
+          "ids": [
+            "bach-thomaskirche",
+            "atlas-schumann-leipzig",
+            "atlas-mendelssohn-leipzig"
+          ],
+          "days": 2,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "music-weimar",
+          "theme": "european-music-cities",
+          "ids": [
+            "bach-weimar",
+            "atlas-liszt-weimar",
+            "bach-eisenach"
+          ],
+          "days": 3,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "thirty-dvorak-bohemia",
+          "theme": "european-music-cities",
+          "ids": [
+            "thirty-dvorak-birthplace",
+            "atlas-dvorak-prague",
+            "thirty-dvorak-vysoka"
+          ],
+          "days": 5,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "mozart-early",
+          "theme": "european-music-cities",
+          "ids": [
+            "mozart-salzburg",
+            "mozart-munich"
+          ],
+          "days": 5,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "mozart-viennaprague",
+          "theme": "european-music-cities",
+          "ids": [
+            "mozart-vienna",
+            "mozart-prague"
+          ],
+          "days": 6,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "mozart-western",
+          "theme": "european-music-cities",
+          "ids": [
+            "mozart-paris",
+            "mozart-london"
+          ],
+          "days": 7,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "music-rhine",
+          "theme": "european-music-cities",
+          "ids": [
+            "atlas-beethoven-bonn",
+            "atlas-dusseldorf"
+          ],
+          "days": 3,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "music-alpine-huts",
+          "theme": "european-music-cities",
+          "ids": [
+            "atlas-mahler-attersee",
+            "atlas-mahler-dobbiaco"
+          ],
+          "days": 5,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "thirty-chopin-mazovia",
+          "theme": "european-music-cities",
+          "ids": [
+            "thirty-chopin-warsaw",
+            "thirty-chopin-birthplace"
+          ],
+          "days": 3,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "consolidation-music-berlin-leipzig",
+          "theme": "european-music-cities",
+          "ids": [
+            "thirty-mendelssohn-remise",
+            "atlas-mendelssohn-leipzig"
+          ],
+          "days": 3,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "consolidation-music-scotland",
+          "theme": "european-music-cities",
+          "ids": [
+            "atlas-holyrood",
+            "atlas-staffa"
+          ],
+          "days": 5,
+          "topology": "network",
+          "legs": 0
+        }
+      ],
+      "independentPoints": [
+        "atlas-nohant",
+        "atlas-valldemossa",
+        "atlas-spillville"
+      ],
+      "sources": [
+        {
+          "id": "mozart",
+          "name": "莫扎特的欧洲之旅",
+          "originalPlanCount": 3,
+          "reason": "音乐地图改用能容纳跨洋生平的名称；4个人物的全部节点可直接探索，美国点以独立地点保留，苏格兰不与德国硬串。",
+          "destination": "european-music-cities",
+          "points": [
+            {
+              "id": "mozart-salzburg",
+              "name": "萨尔茨堡",
+              "source": "https://www.coe.int/en/web/cultural-routes/european-mozart-ways",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=mozart&place=mozart-salzburg",
+              "newURL": "#theme=european-music-cities&place=mozart-salzburg",
+              "sourceContextHash": "8f37c53ef54b8c8ace6d909505018ae0f27fa905e5b943520f451b518e32a9a9",
+              "photoKey": "mozart-score",
+              "media": {
+                "path": "assets/editorial/mozart-score.webp",
+                "title": "莫扎特 / 教堂奏鸣曲 K.329 亲笔谱首页，1779",
+                "author": "Wolfgang Amadeus Mozart",
+                "source": "https://commons.wikimedia.org/wiki/File:Mozart_-_Church_sonata_K._329_-_autograph%2C_Staatsbibliothek_zu_Berlin%2C_f._1r.png",
+                "license": "Public domain",
+                "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+                "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "mozart-munich",
+              "name": "慕尼黑",
+              "source": "https://www.coe.int/en/web/cultural-routes/european-mozart-ways",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=mozart&place=mozart-munich",
+              "newURL": "#theme=european-music-cities&place=mozart-munich",
+              "sourceContextHash": "2fb2daaa74ed2f968f26483907670658cc9348148ad63e9ec5fd344914851983",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "mozart-vienna",
+              "name": "维也纳",
+              "source": "https://www.coe.int/en/web/cultural-routes/european-mozart-ways",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=mozart&place=mozart-vienna",
+              "newURL": "#theme=european-music-cities&place=mozart-vienna",
+              "sourceContextHash": "fa6ae8400b89b014cc7da20e4f5f024d5e23af0950b8c3623f05d7b7d248e24d",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "mozart-prague",
+              "name": "布拉格",
+              "source": "https://www.coe.int/en/web/cultural-routes/european-mozart-ways",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=mozart&place=mozart-prague",
+              "newURL": "#theme=european-music-cities&place=mozart-prague",
+              "sourceContextHash": "21114d4ffd6f87593cac47a43f3046cceaade8b7a5ed6229876b26eb66493855",
+              "photoKey": "atlas-prague",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-prague.webp",
+                "title": "布拉格 · Prague (6365119737)",
+                "author": "Moyan Brenn from Italy",
+                "source": "https://commons.wikimedia.org/wiki/File:Prague_%286365119737%29.jpg",
+                "license": "CC BY 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "prague",
+                "article": "https://en.wikipedia.org/wiki/Prague",
+                "providerDescription": "Prague, panoramic view from Charles Bridge east tower",
+                "width": 1440,
+                "height": 857,
+                "sha256": "bfe7a742c02c099cebda7dbe15e95ac9c8156256c931a29d1063fba6cfc1e135"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "mozart-paris",
+              "name": "巴黎",
+              "source": "https://www.coe.int/en/web/cultural-routes/european-mozart-ways",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=mozart&place=mozart-paris",
+              "newURL": "#theme=european-music-cities&place=mozart-paris",
+              "sourceContextHash": "dd7b855abb481333a2dd9a00f06f41084a9102e23f664c334d4c4d9d5e986047",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "mozart-london",
+              "name": "伦敦",
+              "source": "https://www.coe.int/en/web/cultural-routes/european-mozart-ways",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=mozart&place=mozart-london",
+              "newURL": "#theme=european-music-cities&place=mozart-london",
+              "sourceContextHash": "cde8c4b6aa21f7b3ba89b81a3dbe3b6003dd7e70d12ace816555d5f006bb2872",
+              "photoKey": "atlas-london",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-london.webp",
+                "title": "伦敦 · London Skyline (125508655)",
+                "author": "Ilya Grigorik",
+                "source": "https://commons.wikimedia.org/wiki/File:London_Skyline_%28125508655%29.jpeg",
+                "license": "CC BY-SA 3.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "london",
+                "article": "https://en.wikipedia.org/wiki/London",
+                "providerDescription": "500px provided description: London Skyline [#sunset ,#architecture ,#cityscape ,#london ,#uk ,#skyline ,#financial district ,#thames ,#london bridge ,#london shard]",
+                "width": 1440,
+                "height": 810,
+                "sha256": "ad7544d66c562d0330247e1d977c686a8f6aede1f1c42b75e912ccf1ea156a5b"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "mozart-milan",
+              "name": "米兰",
+              "source": "https://www.coe.int/en/web/cultural-routes/european-mozart-ways",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=mozart&place=mozart-milan",
+              "newURL": "#theme=european-music-cities&place=mozart-milan",
+              "sourceContextHash": "73366c522db2eeaf2fc8f6c8aa266f8104c6e6ded6c5122e51feccbca41fc5d1",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "mozart-rome",
+              "name": "罗马",
+              "source": "https://www.coe.int/en/web/cultural-routes/european-mozart-ways",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=mozart&place=mozart-rome",
+              "newURL": "#theme=european-music-cities&place=mozart-rome",
+              "sourceContextHash": "487b1bdcda89700592b3b67485d991f718049e5c9137ff983dd6a15649ed43dc",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            }
+          ],
+          "itineraries": [
+            {
+              "id": "mozart-early",
+              "name": "莫扎特 · 早年萨尔茨堡与慕尼黑",
+              "stops": [
+                "mozart-salzburg",
+                "mozart-munich"
+              ],
+              "sha256": "16cefc1870bb1e98d1e3878eb238707224b382c1ec02705124a27966fbdbce43",
+              "oldURL": "#theme=mozart&view=plans&route=mozart-early",
+              "featuredInDestination": true,
+              "destination": "european-music-cities"
+            },
+            {
+              "id": "mozart-viennaprague",
+              "name": "莫扎特 · 维也纳与布拉格",
+              "stops": [
+                "mozart-vienna",
+                "mozart-prague"
+              ],
+              "sha256": "a66481e2acd782964031bee580e16e05676035fb39ef6d3f3afa44f750405d46",
+              "oldURL": "#theme=mozart&view=plans&route=mozart-viennaprague",
+              "featuredInDestination": true,
+              "destination": "european-music-cities"
+            },
+            {
+              "id": "mozart-western",
+              "name": "莫扎特 · 巴黎与伦敦的童年巡演记忆",
+              "stops": [
+                "mozart-paris",
+                "mozart-london"
+              ],
+              "sha256": "45be6bbad8ca488166a8435fdbd929933ea8e63f71a6ef5f471a5d841ae34f2d",
+              "oldURL": "#theme=mozart&view=plans&route=mozart-western",
+              "featuredInDestination": true,
+              "destination": "european-music-cities"
+            }
+          ],
+          "works": []
+        },
+        {
+          "id": "chopin",
+          "name": "肖邦与乔治·桑",
+          "originalPlanCount": 2,
+          "reason": "音乐地图改用能容纳跨洋生平的名称；4个人物的全部节点可直接探索，美国点以独立地点保留，苏格兰不与德国硬串。",
+          "destination": "european-music-cities",
+          "points": [
+            {
+              "id": "atlas-nohant",
+              "name": "诺昂乔治·桑故居",
+              "source": "https://www.chopin.pl/france.en.html",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=chopin&place=atlas-nohant",
+              "newURL": "#theme=european-music-cities&place=atlas-nohant",
+              "sourceContextHash": "d2e31cfe089808b0daa63d4d7c857750312db20101db5a29155d8deb9bad8144",
+              "photoKey": "atlas-nohant",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-nohant.webp",
+                "title": "诺昂乔治·桑故居 · George Sand House Cover Shot",
+                "author": "SiefkinDR",
+                "source": "https://commons.wikimedia.org/wiki/File:George_Sand_House_Cover_Shot.jpg",
+                "license": "CC BY-SA 3.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "nohant",
+                "article": "https://en.wikipedia.org/wiki/House_of_George_Sand",
+                "providerDescription": "View of the house of George  Sand, Nohant",
+                "width": 640,
+                "height": 480,
+                "sha256": "a0ccb2cd4d478608d8220848b573c80bb7acb310ef05b1219082bd696558c51f"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-valldemossa",
+              "name": "瓦尔德莫萨",
+              "source": "https://www.chopin.pl/france.en.html",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=chopin&place=atlas-valldemossa",
+              "newURL": "#theme=european-music-cities&place=atlas-valldemossa",
+              "sourceContextHash": "70af5e6b2fa56b328fa535ce7abc072e2245a5f08f83d982814820968158171b",
+              "photoKey": "atlas-valldemossa",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-valldemossa.webp",
+                "title": "瓦尔德莫萨 · Valldemossa 2003",
+                "author": "No machine-readable author provided. Kork~commonswiki assumed (based on copyright claims).",
+                "source": "https://commons.wikimedia.org/wiki/File:Valldemossa_2003.jpg",
+                "license": "Public domain",
+                "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "valldemossa",
+                "article": "https://en.wikipedia.org/wiki/Valldemossa",
+                "providerDescription": "Valldemossa, Mallorca, Spain.\n\nK. Korlević",
+                "width": 1024,
+                "height": 769,
+                "sha256": "9c411a2789b1b4c287332197ca3ce4ba98509152703229d3803177092aa5e1b7"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "thirty-chopin-warsaw",
+              "name": "华沙 · 肖邦博物馆",
+              "source": "https://chopin.pl/museum.en.html",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=chopin&place=thirty-chopin-warsaw",
+              "newURL": "#theme=european-music-cities&place=thirty-chopin-warsaw",
+              "sourceContextHash": "be016816ca0a707401dc5250f85457458217e336029299b5d95cb4b81adf5d24",
+              "photoKey": "thirty-chopin-warsaw",
+              "media": {
+                "path": "assets/regional-expansion/thirty-chopin-warsaw.webp",
+                "title": "华沙 · 肖邦博物馆 · 建筑或园区照片（非所述全部作品）",
+                "author": "Adrian Grycuk",
+                "source": "https://commons.wikimedia.org/wiki/File:Zamek_Ostrogskich_w_Warszawie_2022.jpg",
+                "license": "CC BY-SA 3.0 pl",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+                "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+                "placeId": "thirty-chopin-warsaw",
+                "article": "https://en.wikipedia.org/wiki/Fryderyk_Chopin_Museum",
+                "providerDescription": "Ostrogski Castle in Warsaw, seat of Frederick Chopin Museum",
+                "width": 1440,
+                "height": 1055,
+                "sha256": "dbef54436028305e7c65b0087d9f70edd40f7b0d78b9088915e1fbe84b25a186"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "thirty-chopin-birthplace",
+              "name": "热拉佐瓦沃拉 · 肖邦出生地与公园",
+              "source": "https://muzeum.nifc.pl/pl/muzeum/wizyta-informacje-miejsce/2_the-birthplace-of-fryderyk-chopin-and-park-in-zelazowa-wola/",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=chopin&place=thirty-chopin-birthplace",
+              "newURL": "#theme=european-music-cities&place=thirty-chopin-birthplace",
+              "sourceContextHash": "d53b8eb55805163d7b5fc180bbe5b7fdfd33831322a946476607c087a2942c48",
+              "photoKey": "thirty-chopin-birthplace",
+              "media": {
+                "path": "assets/regional-expansion/thirty-chopin-birthplace.webp",
+                "title": "热拉佐瓦沃拉 · 肖邦出生地与公园 · 建筑或园区照片（非所述全部作品）",
+                "author": "Wojsyl",
+                "source": "https://commons.wikimedia.org/wiki/File:Poland_Zelazowa_Wola.jpg",
+                "license": "CC BY-SA 3.0",
+                "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+                "placeId": "thirty-chopin-birthplace",
+                "article": "https://en.wikipedia.org/wiki/Birthplace_of_Fr%C3%A9d%C3%A9ric_Chopin",
+                "providerDescription": "Chopin's mansion in Żelazowa Wola, Poland",
+                "width": 1440,
+                "height": 1073,
+                "sha256": "28ea43e1932b0731b3831e5a1e2e9f44c66bc30bf84f24e65d515221b1db2f0a"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            }
+          ],
+          "itineraries": [
+            {
+              "id": "atlas-chopin-places",
+              "name": "肖邦与乔治·桑 · 地点精选",
+              "stops": [
+                "atlas-nohant",
+                "atlas-valldemossa"
+              ],
+              "sha256": "b004d96f58065624a5288421959f86bf092c507260604a12a3dc3dc5fc2ee653",
+              "oldURL": "#theme=chopin&view=plans&route=atlas-chopin-places",
+              "featuredInDestination": false,
+              "destination": "chopin"
+            },
+            {
+              "id": "thirty-chopin-mazovia",
+              "name": "华沙与近郊 · 从童年到作品收藏",
+              "stops": [
+                "thirty-chopin-warsaw",
+                "thirty-chopin-birthplace"
+              ],
+              "sha256": "4da73b55d3bc2f435e9f2ced14b7d3ee5fb6ac7424a1af58c56f85d643357d81",
+              "oldURL": "#theme=chopin&view=plans&route=thirty-chopin-mazovia",
+              "featuredInDestination": true,
+              "destination": "european-music-cities"
+            }
+          ],
+          "works": []
+        },
+        {
+          "id": "dvorak",
+          "name": "德沃夏克的美国经历",
+          "originalPlanCount": 2,
+          "reason": "音乐地图改用能容纳跨洋生平的名称；4个人物的全部节点可直接探索，美国点以独立地点保留，苏格兰不与德国硬串。",
+          "destination": "european-music-cities",
+          "points": [
+            {
+              "id": "atlas-dvorak-prague",
+              "name": "布拉格德沃夏克博物馆",
+              "source": "https://www.nm.cz/en/visit-us/buildings/antonin-dvorak-museum",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=dvorak&place=atlas-dvorak-prague",
+              "newURL": "#theme=european-music-cities&place=atlas-dvorak-prague",
+              "sourceContextHash": "d1996e780147a83dc2191f367506e3338e0385a1e865616f9412f98090d7513d",
+              "photoKey": "atlas-dvorak-prague",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-dvorak-prague.webp",
+                "title": "布拉格德沃夏克博物馆 · Vila Amerika 3",
+                "author": "VitVit",
+                "source": "https://commons.wikimedia.org/wiki/File:Vila_Amerika_3.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "dvorak-prague",
+                "article": "https://en.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k_Museum",
+                "providerDescription": "Michnův letohrádek",
+                "width": 1168,
+                "height": 1200,
+                "sha256": "fa8e589023c22a3cb00e6289283ba757305d6f316d3cbf89bfb522a6c61b92c3"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-spillville",
+              "name": "斯皮尔维尔",
+              "source": "https://www.dvoraknyc.org/bio",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=dvorak&place=atlas-spillville",
+              "newURL": "#theme=european-music-cities&place=atlas-spillville",
+              "sourceContextHash": "832861f663a78abee275511501ab65c4165771994d2abd53a1f1aa4f7e68ca3d",
+              "photoKey": "atlas-spillville",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-spillville.webp",
+                "title": "斯皮尔维尔 · Spillville, Iowa",
+                "author": "Wikideas1",
+                "source": "https://commons.wikimedia.org/wiki/File:Spillville%2C_Iowa.jpg",
+                "license": "CC0",
+                "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "spillville",
+                "article": "https://en.wikipedia.org/wiki/Spillville%2C_Iowa",
+                "providerDescription": "Spillville, Iowa",
+                "width": 1292,
+                "height": 1200,
+                "sha256": "f3c1ab232eb979622578c628abfeb0d8f54c0bce1412f23f6746663a4bfb7e85"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "thirty-dvorak-birthplace",
+              "name": "内拉霍泽韦斯 · 德沃夏克出生地",
+              "source": "https://www.lobkowicz.cz/en/antonin-dvorak-birth-house",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=dvorak&place=thirty-dvorak-birthplace",
+              "newURL": "#theme=european-music-cities&place=thirty-dvorak-birthplace",
+              "sourceContextHash": "6dff0505db1e1e180070b98d7c0d98c4915a0c907971766cc6c7905d0d38474f",
+              "photoKey": "thirty-dvorak-birthplace",
+              "media": {
+                "path": "assets/regional-expansion/thirty-dvorak-birthplace.webp",
+                "title": "内拉霍泽韦斯 · 德沃夏克出生地 · 建筑或园区照片（非所述全部作品）",
+                "author": "cs:ŠJů",
+                "source": "https://commons.wikimedia.org/wiki/File:Nelahozeves%2C_rodn%C3%BD_d%C5%AFm_Anton%C3%ADna_Dvo%C5%99%C3%A1ka_%2801%29.jpg",
+                "license": "CC BY-SA 3.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+                "placeId": "thirty-dvorak-birthplace",
+                "article": "https://en.wikipedia.org/wiki/Rodn%C3%BD_d%C5%AFm_Anton%C3%ADna_Dvo%C5%99%C3%A1ka",
+                "providerDescription": "Nelahozeves, Mělník District, Central Bohemian Region, the Czech Republic. The birth house and museum of Antonín Dvořák.",
+                "width": 1440,
+                "height": 1080,
+                "sha256": "00d7bd9552eb767808d6da1787defb9e9ff23ba4cf614320d3836afa8942b9ea"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "thirty-dvorak-vysoka",
+              "name": "维索卡 · 德沃夏克纪念馆与公园",
+              "source": "https://antonindvorak.cz/",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=dvorak&place=thirty-dvorak-vysoka",
+              "newURL": "#theme=european-music-cities&place=thirty-dvorak-vysoka",
+              "sourceContextHash": "be332dccf4fa700f08f9d49e72b2832233d27c4a5feadeead0d6f1c39da7dab4",
+              "photoKey": "thirty-dvorak-vysoka",
+              "media": {
+                "path": "assets/regional-expansion/thirty-dvorak-vysoka.webp",
+                "title": "维索卡 · 德沃夏克纪念馆与公园 · 建筑或园区照片（非所述全部作品）",
+                "author": "Chmee2",
+                "source": "https://commons.wikimedia.org/wiki/File:Pam%C3%A1tn%C3%ADk%20Anton%C3%ADna%20Dvo%C5%99%C3%A1ka%20%284%29.JPG",
+                "license": "CC BY-SA 3.0",
+                "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+                "placeId": "thirty-dvorak-vysoka",
+                "article": "https://en.wikipedia.org/wiki/Pam%C3%A1tn%C3%ADk_Anton%C3%ADna_Dvo%C5%99%C3%A1ka",
+                "providerDescription": "Monument of Antonín Dvořák in Vysoká u Příbrami in Příbram District, Czech Republic. Palace",
+                "width": 1440,
+                "height": 964,
+                "sha256": "343b33f2475584ebd6e6f855791b964d286107e5f16e11fab318f9ee4a660b4c"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            }
+          ],
+          "itineraries": [
+            {
+              "id": "thirty-dvorak-bohemia",
+              "name": "波希米亚 · 布拉格与两处近郊",
+              "stops": [
+                "thirty-dvorak-birthplace",
+                "atlas-dvorak-prague",
+                "thirty-dvorak-vysoka"
+              ],
+              "sha256": "3dccb882dbe7f9fa615cf3d6c00807a8be0f83fd680a626995480b1be34ddd4f",
+              "oldURL": "#theme=dvorak&view=plans&route=thirty-dvorak-bohemia",
+              "featuredInDestination": true,
+              "destination": "european-music-cities"
+            },
+            {
+              "id": "atlas-dvorak-places",
+              "name": "德沃夏克的美国经历 · 地点精选",
+              "stops": [
+                "atlas-dvorak-prague",
+                "atlas-spillville"
+              ],
+              "sha256": "eba72577c984907ec9a1924cca6989ccce2cc81e8a8f95cf866777a41c7ab991",
+              "oldURL": "#theme=dvorak&view=plans&route=atlas-dvorak-places",
+              "featuredInDestination": false,
+              "destination": "dvorak"
+            }
+          ],
+          "works": []
+        },
+        {
+          "id": "mendelssohn",
+          "name": "门德尔松：莱比锡与苏格兰",
+          "originalPlanCount": 2,
+          "reason": "音乐地图改用能容纳跨洋生平的名称；4个人物的全部节点可直接探索，美国点以独立地点保留，苏格兰不与德国硬串。",
+          "destination": "european-music-cities",
+          "points": [
+            {
+              "id": "atlas-holyrood",
+              "name": "荷里路德修道院",
+              "source": "https://www.mendelssohninscotland.com/",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=mendelssohn&place=atlas-holyrood",
+              "newURL": "#theme=european-music-cities&place=atlas-holyrood",
+              "sourceContextHash": "23acc99be2ed51378549e7e7ad1f26d691063227ca4581746588e5b6993c4c40",
+              "photoKey": "atlas-holyrood",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-holyrood.webp",
+                "title": "荷里路德修道院 · Holyrood Abbey 14",
+                "author": "Brian Holsclaw from Seattle, WA, USA",
+                "source": "https://commons.wikimedia.org/wiki/File:Holyrood_Abbey_14.jpg",
+                "license": "CC BY 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "holyrood",
+                "article": "https://en.wikipedia.org/wiki/Holyrood_Abbey",
+                "providerDescription": "Ancient ruins of abbey which stands behind Palace of Holyrood House.",
+                "width": 1440,
+                "height": 1109,
+                "sha256": "e27f4313ee55047ddf2de5051c1d15f99cf55bb138c586fd522bcc1749cb18fc"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-staffa",
+              "name": "斯塔法岛与芬格尔洞",
+              "source": "https://www.nts.org.uk/visit/places/staffa",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=mendelssohn&place=atlas-staffa",
+              "newURL": "#theme=european-music-cities&place=atlas-staffa",
+              "sourceContextHash": "20f3184ca03035a4f12fa21900487147eb1536250d176b849c09a235a65b5dec",
+              "photoKey": "atlas-staffa",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-staffa.webp",
+                "title": "斯塔法岛与芬格尔洞 · STAFFA ISLAND - aerial view",
+                "author": "Morpheus Graeme",
+                "source": "https://commons.wikimedia.org/wiki/File:STAFFA_ISLAND_-_aerial_view.gif",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "staffa",
+                "article": "https://en.wikipedia.org/wiki/Staffa",
+                "providerDescription": "Aerial view of Staffa, with The Colonnade in the foreground and Am Buchaille to the right.",
+                "width": 1440,
+                "height": 809,
+                "sha256": "7f89e18aa7daca82ffa86e4f0f0cda488e915b5a8882f55e3034ad18d5181014"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-mendelssohn-leipzig",
+              "name": "莱比锡门德尔松故居",
+              "source": "https://www.mendelssohn-stiftung.de/en/museum",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=mendelssohn&place=atlas-mendelssohn-leipzig",
+              "newURL": "#theme=european-music-cities&place=atlas-mendelssohn-leipzig",
+              "sourceContextHash": "de807ede38d5284eeb7438a5e1b564db3a1ffae7867536fe3fdfef2e50939c71",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "thirty-mendelssohn-remise",
+              "name": "柏林 · 门德尔松家族Remise展馆",
+              "source": "https://www.mendelssohn-gesellschaft.de/gesellschaft/ausstellung/?lang=1",
+              "destination": "european-music-cities",
+              "oldURL": "#theme=mendelssohn&place=thirty-mendelssohn-remise",
+              "newURL": "#theme=european-music-cities&place=thirty-mendelssohn-remise",
+              "sourceContextHash": "d2d7e1030fce27854a1a2d586c43ff8880325f12e5362151ffa969d2c0c127ca",
+              "photoKey": "thirty-mendelssohn-remise",
+              "media": {
+                "path": "assets/regional-expansion/thirty-mendelssohn-remise.webp",
+                "title": "柏林 · 门德尔松家族Remise展馆 · 建筑或园区照片（非所述全部作品）",
+                "author": "Membeth",
+                "source": "https://commons.wikimedia.org/wiki/File:Mendelssohn-Remise.Hof.1.jpg",
+                "license": "CC0",
+                "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+                "placeId": "thirty-mendelssohn-remise",
+                "article": "https://en.wikipedia.org/wiki/Mendelssohn-Remise",
+                "providerDescription": "Eingang zur Mendelssohn-Remise vom Innenhof in der Jägerstraße 51",
+                "width": 900,
+                "height": 1200,
+                "sha256": "3e264463736317a0cb1420fbeb8f74c6d92718734a5389c14c5b283bf4f34bfd"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            }
+          ],
+          "itineraries": [
+            {
+              "id": "atlas-mendelssohn-places",
+              "name": "门德尔松：莱比锡与苏格兰 · 地点精选",
+              "stops": [
+                "atlas-holyrood",
+                "atlas-staffa",
+                "atlas-mendelssohn-leipzig"
+              ],
+              "sha256": "432d5e28592aa8f685a134a9fabc2b2a354167a4da71a8d3152adf88c75c7677",
+              "oldURL": "#theme=mendelssohn&view=plans&route=atlas-mendelssohn-places",
+              "featuredInDestination": false,
+              "destination": "mendelssohn"
+            },
+            {
+              "id": "thirty-mendelssohn-berlin",
+              "name": "柏林 · 在家族展馆读音乐时代",
+              "stops": [
+                "thirty-mendelssohn-remise"
+              ],
+              "sha256": "42f7888c8cc0eeb0b3958052976be27df029035965dd96f4733098ac8bad2248",
+              "oldURL": "#theme=mendelssohn&view=plans&route=thirty-mendelssohn-berlin",
+              "featuredInDestination": false,
+              "destination": "mendelssohn"
+            }
+          ],
+          "works": []
+        }
+      ]
+    },
+    {
+      "id": "nordic-art-homes",
+      "name": "北欧艺术家的家园与风景",
+      "places": 9,
+      "plans": [
+        {
+          "id": "consolidation-nordic-finland",
+          "theme": "nordic-art-homes",
+          "ids": [
+            "atlas-helsinki",
+            "atlas-ainola",
+            "regional-sibelius-birthplace"
+          ],
+          "days": 4,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "consolidation-nordic-bergen",
+          "theme": "nordic-art-homes",
+          "ids": [
+            "atlas-bergen",
+            "atlas-troldhaugen",
+            "thirty-siljustol"
+          ],
+          "days": 3,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "consolidation-nordic-oslo-fjord",
+          "theme": "nordic-art-homes",
+          "ids": [
+            "atlas-munch-oslo",
+            "regional-ekely",
+            "atlas-asgardstrand"
+          ],
+          "days": 3,
+          "topology": "network",
+          "legs": 0
+        }
+      ],
+      "independentPoints": [],
+      "sources": [
+        {
+          "id": "sibelius",
+          "name": "西贝柳斯的芬兰",
+          "originalPlanCount": 2,
+          "reason": "3个原入口的9个地点完整进入普通地图；推荐行程按芬兰、卑尔根和奥斯陆—海岸分区，原6条方案和人物链接保留。",
+          "destination": "nordic-art-homes",
+          "points": [
+            {
+              "id": "atlas-ainola",
+              "name": "艾诺拉",
+              "source": "https://www.ainola.fi/en/",
+              "destination": "nordic-art-homes",
+              "oldURL": "#theme=sibelius&place=atlas-ainola",
+              "newURL": "#theme=nordic-art-homes&place=atlas-ainola",
+              "sourceContextHash": "084b1b3dd2c3ea75e4160eebb0ae441e29c10211834665bbd2ddeb4b260dca5a",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-helsinki",
+              "name": "赫尔辛基",
+              "source": "https://sibelius.fi/en/",
+              "destination": "nordic-art-homes",
+              "oldURL": "#theme=sibelius&place=atlas-helsinki",
+              "newURL": "#theme=nordic-art-homes&place=atlas-helsinki",
+              "sourceContextHash": "1f38ac941972880ab53c728d8db826341b0012fc6b218fa45dbd8d34d9248bdd",
+              "photoKey": "atlas-helsinki",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-helsinki.webp",
+                "title": "赫尔辛基 · Suomenlinna (cropped)",
+                "author": "Michal Pise, Michal.Pise",
+                "source": "https://commons.wikimedia.org/wiki/File:Suomenlinna_%28cropped%29.jpg",
+                "license": "CC BY 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "helsinki",
+                "article": "https://en.wikipedia.org/wiki/Helsinki",
+                "providerDescription": "Suomenlinna, a fortress near Helsinki, Finland. Picture taken from a ferry.",
+                "width": 1440,
+                "height": 810,
+                "sha256": "5164bdc99b70b839b629f8452638f4610097471dcf22890117b0237b985f724e"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "regional-sibelius-birthplace",
+              "name": "海门林纳 · 西贝柳斯出生地博物馆",
+              "source": "https://hmlmuseo.fi/en/home/museums/birthplace-of-jean-sibelius/",
+              "destination": "nordic-art-homes",
+              "oldURL": "#theme=sibelius&place=regional-sibelius-birthplace",
+              "newURL": "#theme=nordic-art-homes&place=regional-sibelius-birthplace",
+              "sourceContextHash": "102cc5e18f0ee87ef1a228d0f061c1427fdc7dad637bd9fd28861593b6cdf278",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            }
+          ],
+          "itineraries": [
+            {
+              "id": "atlas-sibelius-places",
+              "name": "西贝柳斯的芬兰 · 地点精选",
+              "stops": [
+                "atlas-ainola",
+                "atlas-helsinki"
+              ],
+              "sha256": "266caa3fe1ff135fd9135f20d50c6e2f9768623b5efd39db7d91b3202d579114",
+              "oldURL": "#theme=sibelius&view=plans&route=atlas-sibelius-places",
+              "featuredInDestination": false,
+              "destination": "sibelius"
+            },
+            {
+              "id": "sibelius-childhood-home",
+              "name": "海门林纳与艾诺拉 · 从童年到家园",
+              "stops": [
+                "regional-sibelius-birthplace",
+                "atlas-ainola"
+              ],
+              "sha256": "0742f086d97dc0f3310e3b429138b07ae3a2181f6b07cbd716f02687e49e5a16",
+              "oldURL": "#theme=sibelius&view=plans&route=sibelius-childhood-home",
+              "featuredInDestination": false,
+              "destination": "sibelius"
+            }
+          ],
+          "works": []
+        },
+        {
+          "id": "grieg",
+          "name": "卑尔根：格里格与近郊音乐家园",
+          "originalPlanCount": 2,
+          "reason": "3个原入口的9个地点完整进入普通地图；推荐行程按芬兰、卑尔根和奥斯陆—海岸分区，原6条方案和人物链接保留。",
+          "destination": "nordic-art-homes",
+          "points": [
+            {
+              "id": "atlas-troldhaugen",
+              "name": "特罗尔豪根",
+              "source": "https://www.kodebergen.no/en/museums/edvard-grieg-museum-troldhaugen",
+              "destination": "nordic-art-homes",
+              "oldURL": "#theme=grieg&place=atlas-troldhaugen",
+              "newURL": "#theme=nordic-art-homes&place=atlas-troldhaugen",
+              "sourceContextHash": "803342cbcce0d339f9b9bbaf019812faf8ccef29aa697fcaa08939b3caac675e",
+              "photoKey": "atlas-troldhaugen",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-troldhaugen.webp",
+                "title": "特罗尔豪根 · Troldhaugen in Bergen",
+                "author": "Andreas Sandberg",
+                "source": "https://commons.wikimedia.org/wiki/File:Troldhaugen_in_Bergen.jpg",
+                "license": "CC BY-SA 3.0",
+                "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "troldhaugen",
+                "article": "https://en.wikipedia.org/wiki/Troldhaugen",
+                "providerDescription": "Troldhaugen, the home of composer Edvard Grieg, in Bergen, Norway",
+                "width": 900,
+                "height": 1200,
+                "sha256": "6250cb63bd619aee7d6f7da92056cc197b4a94741c05ab2caf3d6752518fcd35"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-bergen",
+              "name": "卑尔根",
+              "source": "https://www.kodebergen.no/en/museums/troldhaugen",
+              "destination": "nordic-art-homes",
+              "oldURL": "#theme=grieg&place=atlas-bergen",
+              "newURL": "#theme=nordic-art-homes&place=atlas-bergen",
+              "sourceContextHash": "cd6147c0b0b77411771c40815ee95e269e05fed9f3ece96b061cdc79b823564b",
+              "photoKey": "atlas-bergen",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-bergen.webp",
+                "title": "卑尔根 · Bergen panorama at night - panoramio (1)",
+                "author": "TomasEE",
+                "source": "https://commons.wikimedia.org/wiki/File:Bergen_panorama_at_night_-_panoramio_%281%29.jpg",
+                "license": "CC BY 3.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "bergen",
+                "article": "https://en.wikipedia.org/wiki/Bergen",
+                "providerDescription": "Bergen panorama at night",
+                "width": 1440,
+                "height": 959,
+                "sha256": "122cbeef60801d3568c3db8d41d669822b83cdc3b28321ec3458655893dc3187"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "thirty-siljustol",
+              "name": "卑尔根 · 塞尤斯托尔作曲家故居",
+              "source": "https://www.visitbergen.com/ting-a-gjore/siljustol-p826353",
+              "destination": "nordic-art-homes",
+              "oldURL": "#theme=grieg&place=thirty-siljustol",
+              "newURL": "#theme=nordic-art-homes&place=thirty-siljustol",
+              "sourceContextHash": "44de792b06d8ad37fdab369da2d4a120a78f3781c974b4c4ce1310f450b6be50",
+              "photoKey": "thirty-siljustol",
+              "media": {
+                "path": "assets/regional-expansion/thirty-siljustol.webp",
+                "title": "卑尔根 · 塞尤斯托尔作曲家故居 · 建筑或园区照片（非所述全部作品）",
+                "author": "David40226543",
+                "source": "https://commons.wikimedia.org/wiki/File:Siljust%C3%B8l.jpg",
+                "license": "CC BY-SA 3.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+                "placeId": "thirty-siljustol",
+                "article": "https://en.wikipedia.org/wiki/Siljust%C3%B8l",
+                "providerDescription": "Siljustøl, Bergen, Norway, by Ludolf Eide Parr (1939)",
+                "width": 1440,
+                "height": 1080,
+                "sha256": "2d7622646f50185c5a5245f547f088f6e64671b987f6d4146f815690e30af825"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            }
+          ],
+          "itineraries": [
+            {
+              "id": "atlas-grieg-places",
+              "name": "格里格的卑尔根与峡湾 · 地点精选",
+              "stops": [
+                "atlas-troldhaugen",
+                "atlas-bergen"
+              ],
+              "sha256": "a0a25713513e7d01ba76c556fd15ee53b631713991943d52e42a32366e3b3c39",
+              "oldURL": "#theme=grieg&view=plans&route=atlas-grieg-places",
+              "featuredInDestination": false,
+              "destination": "grieg"
+            },
+            {
+              "id": "thirty-bergen-composer-homes",
+              "name": "卑尔根近郊 · 两位作曲家的家园",
+              "stops": [
+                "atlas-troldhaugen",
+                "thirty-siljustol"
+              ],
+              "sha256": "8fefce8c3fdeae36cad1e4d942d0efeaf814cb0ae381f912f47cd2df34a3b5c9",
+              "oldURL": "#theme=grieg&view=plans&route=thirty-bergen-composer-homes",
+              "featuredInDestination": false,
+              "destination": "grieg"
+            }
+          ],
+          "works": []
+        },
+        {
+          "id": "munch",
+          "name": "蒙克的海岸与居所",
+          "originalPlanCount": 2,
+          "reason": "3个原入口的9个地点完整进入普通地图；推荐行程按芬兰、卑尔根和奥斯陆—海岸分区，原6条方案和人物链接保留。",
+          "destination": "nordic-art-homes",
+          "points": [
+            {
+              "id": "atlas-asgardstrand",
+              "name": "奥斯戈斯特兰",
+              "source": "https://www.munch.no/edvard-munch/asgardstrand/",
+              "destination": "nordic-art-homes",
+              "oldURL": "#theme=munch&place=atlas-asgardstrand",
+              "newURL": "#theme=nordic-art-homes&place=atlas-asgardstrand",
+              "sourceContextHash": "69dcdc1847995c4fe0857005419914cc0885c1ad547e30e2b2fced36103e0bca",
+              "photoKey": "atlas-asgardstrand",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-asgardstrand.webp",
+                "title": "奥斯戈斯特兰 · Åsgårdstrand",
+                "author": "Tine.wv",
+                "source": "https://commons.wikimedia.org/wiki/File:%C3%85sg%C3%A5rdstrand.jpg",
+                "license": "CC BY-SA 3.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "asgardstrand",
+                "article": "https://en.wikipedia.org/wiki/%C3%85sg%C3%A5rdstrand",
+                "providerDescription": "Åsgårdstrand",
+                "width": 942,
+                "height": 578,
+                "sha256": "0e9c80a431090fac9965a358108a35afc7027c2b73365a728cf8346356dfea60"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-munch-oslo",
+              "name": "奥斯陆蒙克博物馆",
+              "source": "https://www.munch.no/en/",
+              "destination": "nordic-art-homes",
+              "oldURL": "#theme=munch&place=atlas-munch-oslo",
+              "newURL": "#theme=nordic-art-homes&place=atlas-munch-oslo",
+              "sourceContextHash": "f36bf3e61039d3b750c75b809c51aaeef901a4e37000f4bca09ae220e17ff2f3",
+              "photoKey": "atlas-munch-oslo",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-munch-oslo.webp",
+                "title": "奥斯陆蒙克博物馆 · The new Munch Museum (white color sign)",
+                "author": "Premeditated",
+                "source": "https://commons.wikimedia.org/wiki/File:The_new_Munch_Museum_%28white_color_sign%29.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "munch-oslo",
+                "article": "https://en.wikipedia.org/wiki/Munch_Museum",
+                "providerDescription": "The new Munch Museum (white color sign) in 2020.",
+                "width": 675,
+                "height": 1200,
+                "sha256": "2233c80685663c503e9b04838080c7067c161be30cdef0c278c0b7a6c5919954"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "regional-ekely",
+              "name": "奥斯陆 · 埃克利画室与庭园",
+              "source": "https://www.munch.no/en/edvard-munch/ekely/visit-munchs-studio-at-ekely/",
+              "destination": "nordic-art-homes",
+              "oldURL": "#theme=munch&place=regional-ekely",
+              "newURL": "#theme=nordic-art-homes&place=regional-ekely",
+              "sourceContextHash": "19dceb3e7a2084600895b487308e0aa46dfb0e1144d2aa7b77cb4564a4aec9ca",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            }
+          ],
+          "itineraries": [
+            {
+              "id": "atlas-munch-places",
+              "name": "蒙克的海岸与居所 · 地点精选",
+              "stops": [
+                "atlas-asgardstrand",
+                "atlas-munch-oslo"
+              ],
+              "sha256": "8249a6efe15331ea7f7f315fa3364ee15a8102cf7999fa23e61a4947dc8949f2",
+              "oldURL": "#theme=munch&view=plans&route=atlas-munch-places",
+              "featuredInDestination": false,
+              "destination": "munch"
+            },
+            {
+              "id": "munch-oslo-studio",
+              "name": "奥斯陆 · 从馆藏到埃克利画室",
+              "stops": [
+                "atlas-munch-oslo",
+                "regional-ekely"
+              ],
+              "sha256": "bf6617bbf71fc9ae693e1e73ca4d377f749ee0b960a3c15fa277108ba79654a6",
+              "oldURL": "#theme=munch&view=plans&route=munch-oslo-studio",
+              "featuredInDestination": false,
+              "destination": "munch"
+            }
+          ],
+          "works": []
+        }
+      ]
+    },
+    {
+      "id": "england-literature-art",
+      "name": "英格兰文学艺术与乡野",
+      "places": 26,
+      "plans": [
+        {
+          "id": "consolidation-england-lakes",
+          "theme": "england-literature-art",
+          "ids": [
+            "thirty-wordsworth-house",
+            "atlas-dove-cottage",
+            "thirty-allan-bank",
+            "atlas-rydal-mount"
+          ],
+          "days": 4,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "austen-hampshire",
+          "theme": "england-literature-art",
+          "ids": [
+            "austen-steventon",
+            "austen-chawton",
+            "austen-winchester"
+          ],
+          "days": 3,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "austen-moving-life",
+          "theme": "england-literature-art",
+          "ids": [
+            "austen-bath",
+            "austen-southampton",
+            "austen-chawton"
+          ],
+          "days": 5,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "sculpture-yorkshire",
+          "theme": "england-literature-art",
+          "ids": [
+            "atlas-moore-institute",
+            "regional-hepworth-wakefield",
+            "regional-ysp"
+          ],
+          "days": 3,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "thirty-landscape-stour",
+          "theme": "england-literature-art",
+          "ids": [
+            "atlas-dedham",
+            "atlas-flatford",
+            "thirty-willy-lott"
+          ],
+          "days": 2,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "consolidation-england-london-herts",
+          "theme": "england-literature-art",
+          "ids": [
+            "atlas-dickens-london",
+            "atlas-handel-london",
+            "atlas-perry-green"
+          ],
+          "days": 4,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "austen-persuasion",
+          "theme": "england-literature-art",
+          "ids": [
+            "austen-bath",
+            "austen-lyme"
+          ],
+          "days": 4,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "sculpture-st-ives",
+          "theme": "england-literature-art",
+          "ids": [
+            "atlas-hepworth-garden",
+            "atlas-tate-st-ives"
+          ],
+          "days": 2,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "england-london-rooms",
+          "theme": "england-literature-art",
+          "ids": [
+            "atlas-dickens-london",
+            "atlas-handel-london"
+          ],
+          "days": 2,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "england-sussex-rooms",
+          "theme": "england-literature-art",
+          "ids": [
+            "atlas-farleys",
+            "regional-monks-house"
+          ],
+          "days": 3,
+          "topology": "network",
+          "legs": 0
+        },
+        {
+          "id": "england-kent-coast",
+          "theme": "england-literature-art",
+          "ids": [
+            "atlas-dickens-broadstairs",
+            "regional-sissinghurst"
+          ],
+          "days": 3,
+          "topology": "network",
+          "legs": 0
+        }
+      ],
+      "independentPoints": [],
+      "sources": [
+        {
+          "id": "austen",
+          "name": "简·奥斯汀 · 生活与小说地景",
+          "originalPlanCount": 3,
+          "reason": "4个入口的地点与原12条方案全部保留；常用地区路线直接进入新图，佩里格林和科克茅斯不再靠新增单馆方案凑数。",
+          "destination": "england-literature-art",
+          "points": [
+            {
+              "id": "austen-steventon",
+              "name": "斯蒂文顿 · 成长与早期写作",
+              "source": "https://janeaustens.house/jane-austen/jane-austen-a-life/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=austen&place=austen-steventon",
+              "newURL": "#theme=england-literature-art&place=austen-steventon",
+              "sourceContextHash": "9f19fe7c3fd6e9a57e6e7650561a551999b3fde73e7880a5ce2dbcb9f3e1fc1d",
+              "photoKey": "austen-steventon-photo",
+              "media": {
+                "path": "assets/cultural-routes/austen-steventon-photo.webp",
+                "title": "史蒂文顿 / 圣尼古拉教堂（非已拆牧师住宅）",
+                "author": "Dr Neil Clifton",
+                "source": "https://commons.wikimedia.org/wiki/File:Steventon,_St._Nicholas_Church_-_geograph.org.uk_-_2376213.jpg",
+                "license": "CC BY-SA 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+                "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "austen-bath",
+              "name": "巴斯 · 社交空间与小说",
+              "source": "https://www.nationaltrust.org.uk/visit/bath-bristol/bath-assembly-rooms/jane-austen-at-bath-assembly-rooms",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=austen&place=austen-bath",
+              "newURL": "#theme=england-literature-art&place=austen-bath",
+              "sourceContextHash": "56ae16f3b8fa3d3ef28c970937ecba06310a5aeac39b6fc2317049211c0138c0",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "austen-southampton",
+              "name": "南安普敦 · 迁居与家庭安排",
+              "source": "https://janeaustens.house/jane-austen/jane-austen-a-life/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=austen&place=austen-southampton",
+              "newURL": "#theme=england-literature-art&place=austen-southampton",
+              "sourceContextHash": "b75504f00653ece851f60b2cecfbddc47755ee694e6257d9a3622b0312fb04ae",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "austen-chawton",
+              "name": "查顿 · 简·奥斯汀故居",
+              "source": "https://janeaustens.house/the-museum/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=austen&place=austen-chawton",
+              "newURL": "#theme=england-literature-art&place=austen-chawton",
+              "sourceContextHash": "aee045c28969b001c67e0d8c4f547c1f52c53da5382e330897d02f5a74c8c333",
+              "photoKey": "austen-chawton-photo",
+              "media": {
+                "path": "assets/cultural-routes/austen-chawton-photo.webp",
+                "title": "查顿简·奥斯汀故居，2013",
+                "author": "Simon Burchell",
+                "source": "https://commons.wikimedia.org/wiki/File:Jane_Austen%27s_House_Museum,_Chawton.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "按比例缩小并转为 WebP；完整图像保留，封面可能裁切。"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "austen-lyme",
+              "name": "莱姆里吉斯 · The Cobb 海堤",
+              "source": "https://www.visit-dorset.com/lyme-regis/explore-discover/history-heritage/jane-austen/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=austen&place=austen-lyme",
+              "newURL": "#theme=england-literature-art&place=austen-lyme",
+              "sourceContextHash": "100b4eeac98c28d097dbf5a04f65a0e6835fa2edc10a6c3e7cc06f01907ada6d",
+              "photoKey": null,
+              "media": null,
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "austen-winchester",
+              "name": "温彻斯特 · 大教堂与纪念",
+              "source": "https://janeaustens.house/jane-austen/jane-austen-a-life/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=austen&place=austen-winchester",
+              "newURL": "#theme=england-literature-art&place=austen-winchester",
+              "sourceContextHash": "6e36ca356db85ebe7417e908399c797a8de44b4d19588dcf2a662342b1a48423",
+              "photoKey": "austen-winchester-photo",
+              "media": {
+                "path": "assets/cultural-routes/austen-winchester-photo.webp",
+                "title": "温彻斯特主教座堂庭院 / 奥斯汀纪念雕像（Martin Jennings）",
+                "author": "Adamklimowski",
+                "source": "https://commons.wikimedia.org/wiki/File:Jane-austen-monument-winchester-02.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "EXIF orientation applied; proportional downsize; WebP compression. Full image retained in file; responsive cover crops in UI; no colour changes. CC BY-SA derivatives retain source licence."
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            }
+          ],
+          "itineraries": [
+            {
+              "id": "austen-hampshire",
+              "name": "奥斯汀 · 汉普郡生活与写作",
+              "stops": [
+                "austen-steventon",
+                "austen-chawton",
+                "austen-winchester"
+              ],
+              "sha256": "ef4fbfb45302c61fd5a48ad5255cbb36b94f4cea8fe5381c284d440629767c3e",
+              "oldURL": "#theme=austen&view=plans&route=austen-hampshire",
+              "featuredInDestination": true,
+              "destination": "england-literature-art"
+            },
+            {
+              "id": "austen-moving-life",
+              "name": "奥斯汀 · 迁居、收入与写作空间",
+              "stops": [
+                "austen-bath",
+                "austen-southampton",
+                "austen-chawton"
+              ],
+              "sha256": "ffe9c6147e83167d547132a30cd426d7080a98d4ecbc4caafa1915905d510613",
+              "oldURL": "#theme=austen&view=plans&route=austen-moving-life",
+              "featuredInDestination": true,
+              "destination": "england-literature-art"
+            },
+            {
+              "id": "austen-persuasion",
+              "name": "《劝导》 · 巴斯与海岸对读",
+              "stops": [
+                "austen-bath",
+                "austen-lyme"
+              ],
+              "sha256": "186ebc82f62e044c57753d31ed8881fb1a8f476dbaad200844e436e65ed499c0",
+              "oldURL": "#theme=austen&view=plans&route=austen-persuasion",
+              "featuredInDestination": true,
+              "destination": "england-literature-art"
+            }
+          ],
+          "works": []
+        },
+        {
+          "id": "southeast-england-creative",
+          "name": "英格兰东南：创作的房间、花园与海岸",
+          "originalPlanCount": 3,
+          "reason": "4个入口的地点与原12条方案全部保留；常用地区路线直接进入新图，佩里格林和科克茅斯不再靠新增单馆方案凑数。",
+          "destination": "england-literature-art",
+          "points": [
+            {
+              "id": "mozart-london",
+              "name": "伦敦",
+              "source": "https://www.edo-tokyo-museum.or.jp/s-exhibition/soseki/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=southeast-england-creative&place=mozart-london",
+              "newURL": "#theme=england-literature-art&place=mozart-london",
+              "sourceContextHash": "3ad2620e8f61d250a2d226045e6677a8e4e2093632aed8a59765bf0c4276824a",
+              "photoKey": "atlas-london",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-london.webp",
+                "title": "伦敦 · London Skyline (125508655)",
+                "author": "Ilya Grigorik",
+                "source": "https://commons.wikimedia.org/wiki/File:London_Skyline_%28125508655%29.jpeg",
+                "license": "CC BY-SA 3.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "london",
+                "article": "https://en.wikipedia.org/wiki/London",
+                "providerDescription": "500px provided description: London Skyline [#sunset ,#architecture ,#cityscape ,#london ,#uk ,#skyline ,#financial district ,#thames ,#london bridge ,#london shard]",
+                "width": 1440,
+                "height": 810,
+                "sha256": "ad7544d66c562d0330247e1d977c686a8f6aede1f1c42b75e912ccf1ea156a5b"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-farleys",
+              "name": "法利农舍",
+              "source": "https://www.farleyshouseandgallery.co.uk/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=southeast-england-creative&place=atlas-farleys",
+              "newURL": "#theme=england-literature-art&place=atlas-farleys",
+              "sourceContextHash": "e98809c5ff312b9a32a2c27976683994dfbd84793f96c7360f10a790f3fe7eff",
+              "photoKey": "atlas-farleys",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-farleys.webp",
+                "title": "法利农舍 · Farley Farm House, Chiddingly - geograph.org.uk - 3561603",
+                "author": "pam fray",
+                "source": "https://commons.wikimedia.org/wiki/File:Farley%20Farm%20House%2C%20Chiddingly%20-%20geograph.org.uk%20-%203561603.jpg",
+                "license": "CC BY-SA 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "farleys",
+                "article": "https://en.wikipedia.org/wiki/Farley_Farm_House",
+                "providerDescription": "Farley Farm House, Chiddingly",
+                "width": 640,
+                "height": 474,
+                "sha256": "d7625b095f51a7f2241a0a9e2b4da561b5a0def03b47e4426d242f1725e67faf"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-handel-london",
+              "name": "伦敦亨德尔故居",
+              "source": "https://handelhendrix.org/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=southeast-england-creative&place=atlas-handel-london",
+              "newURL": "#theme=england-literature-art&place=atlas-handel-london",
+              "sourceContextHash": "251cf26b786ff5d424d1f6208560e54299b958167781d71e5a4b042bdd0609a8",
+              "photoKey": "atlas-handel-london",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-handel-london.webp",
+                "title": "伦敦亨德尔故居 · Handel Hendrix House May 2023 (cropped)",
+                "author": "HandelandHendrix",
+                "source": "https://commons.wikimedia.org/wiki/File:Handel_Hendrix_House_May_2023_%28cropped%29.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "handel-london",
+                "article": "https://en.wikipedia.org/wiki/Handel_%26_Hendrix_in_London",
+                "providerDescription": "Handel Hendrix House May 2023. 23 and 25 Brook Street, Mayfair, London.",
+                "width": 853,
+                "height": 1200,
+                "sha256": "8e15200c41b3d5a4fd2b50f3750ec943002a89b6a84886afc70961da35a9074e"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-dickens-london",
+              "name": "伦敦狄更斯博物馆",
+              "source": "https://dickensmuseum.com/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=southeast-england-creative&place=atlas-dickens-london",
+              "newURL": "#theme=england-literature-art&place=atlas-dickens-london",
+              "sourceContextHash": "29b7dc0b316dc95b1f3d2eda449314a50dfe714c63ae8a0b03424559180152ca",
+              "photoKey": "atlas-dickens-london",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-dickens-london.webp",
+                "title": "伦敦狄更斯博物馆 · Charles Dickens Museum London",
+                "author": "Dickens Museum",
+                "source": "https://commons.wikimedia.org/wiki/File:Charles_Dickens_Museum_London.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "dickens-london",
+                "article": "https://en.wikipedia.org/wiki/Charles_Dickens_Museum",
+                "providerDescription": "Charles Dickens Museum London, 48 and 49 Doughty Street.",
+                "width": 722,
+                "height": 519,
+                "sha256": "35a6280c385c3c20698e819341626f7c66d66b7610e2fc1b54d5409d09e1903f"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-dickens-broadstairs",
+              "name": "布罗德斯泰斯",
+              "source": "https://dickensmuseum.com/pages/links",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=southeast-england-creative&place=atlas-dickens-broadstairs",
+              "newURL": "#theme=england-literature-art&place=atlas-dickens-broadstairs",
+              "sourceContextHash": "5fbc62c8c3a716a5c101968567d58bdf7faf02aa29021f1afb2907ae45074e46",
+              "photoKey": "atlas-dickens-broadstairs",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-dickens-broadstairs.webp",
+                "title": "布罗德斯泰斯 · Broadstairs aerial image (43480169685)",
+                "author": "John Fielding from Norwich, UK",
+                "source": "https://commons.wikimedia.org/wiki/File:Broadstairs_aerial_image_%2843480169685%29.jpg",
+                "license": "CC BY 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "dickens-broadstairs",
+                "article": "https://en.wikipedia.org/wiki/Broadstairs",
+                "providerDescription": "Aerial of Viking Bay - Broadstairs, Kent, UK",
+                "width": 1440,
+                "height": 961,
+                "sha256": "5522fe2c2363d0828a4b3351262be8e37ca67c16e337333fa446123abb48fc7a"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "regional-monks-house",
+              "name": "罗德梅尔 · 僧侣之家",
+              "source": "https://www.nationaltrust.org.uk/visit/sussex/monks-house",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=southeast-england-creative&place=regional-monks-house",
+              "newURL": "#theme=england-literature-art&place=regional-monks-house",
+              "sourceContextHash": "98f565eea34743e16039f2be2ac01fe264d1562219dc7ee43db86f2d55b75ef5",
+              "photoKey": "regional-monks-house",
+              "media": {
+                "path": "assets/regional-expansion/regional-monks-house.webp",
+                "title": "罗德梅尔 · 僧侣之家 · 建筑或园区照片（非所述全部作品）",
+                "author": "Oliver Mallinson Lewis from Oxford, United Kingdom",
+                "source": "https://commons.wikimedia.org/wiki/File:Virginia_Woolf_%282%29.jpg",
+                "license": "CC BY-SA 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+                "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+                "placeId": "regional-monks-house",
+                "article": "https://en.wikipedia.org/wiki/Monk%27s_House",
+                "providerDescription": "Monk's house",
+                "width": 1440,
+                "height": 1085,
+                "sha256": "6fd2eb57aedc4bf61d61ce070e154642547ab747280985b92475de98f1406d6e"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "regional-sissinghurst",
+              "name": "肯特 · 西辛赫斯特城堡花园",
+              "source": "https://www.nationaltrust.org.uk/visit/kent/sissinghurst-castle-garden",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=southeast-england-creative&place=regional-sissinghurst",
+              "newURL": "#theme=england-literature-art&place=regional-sissinghurst",
+              "sourceContextHash": "f89599e9ad2682be21c96eb6959f721fcd38a7a40e1669522cf3cd0510946551",
+              "photoKey": "regional-sissinghurst",
+              "media": {
+                "path": "assets/regional-expansion/regional-sissinghurst.webp",
+                "title": "肯特 · 西辛赫斯特城堡花园 · 建筑或园区照片（非所述全部作品）",
+                "author": "Oast House Archive",
+                "source": "https://commons.wikimedia.org/wiki/File:Formal_Gardens_at_Sissinghurst_Castle_-_geograph.org.uk_-_1387093.jpg",
+                "license": "CC BY-SA 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+                "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+                "placeId": "regional-sissinghurst",
+                "article": "https://en.wikipedia.org/wiki/Sissinghurst_Castle_Garden",
+                "providerDescription": "Formal Gardens at Sissinghurst Castle",
+                "width": 640,
+                "height": 384,
+                "sha256": "1367439518d1eb843fe6f3109bdaa988458e0ec640fb8b4d404bdf1fed98c776"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            }
+          ],
+          "itineraries": [
+            {
+              "id": "england-london-rooms",
+              "name": "伦敦 · 文学与音乐的居室",
+              "stops": [
+                "atlas-dickens-london",
+                "atlas-handel-london"
+              ],
+              "sha256": "85b9e11e483f3fe3644e190686d6a595413efab005a29dc7dc8c0c672b6fb9f0",
+              "oldURL": "#theme=southeast-england-creative&view=plans&route=england-london-rooms",
+              "featuredInDestination": true,
+              "destination": "england-literature-art"
+            },
+            {
+              "id": "england-sussex-rooms",
+              "name": "萨塞克斯 · 摄影、写作与花园",
+              "stops": [
+                "atlas-farleys",
+                "regional-monks-house"
+              ],
+              "sha256": "777794ca121a0f0d5aad63e573b39a4d8a0309437ee4df35fb701edb52981d3e",
+              "oldURL": "#theme=southeast-england-creative&view=plans&route=england-sussex-rooms",
+              "featuredInDestination": true,
+              "destination": "england-literature-art"
+            },
+            {
+              "id": "england-kent-coast",
+              "name": "肯特 · 海岸写作与城堡花园",
+              "stops": [
+                "atlas-dickens-broadstairs",
+                "regional-sissinghurst"
+              ],
+              "sha256": "d23db6dfb6dbdb70c1b7d98a197a8b40b9d241c39ae428ece2b5cd76e5ed52b3",
+              "oldURL": "#theme=southeast-england-creative&view=plans&route=england-kent-coast",
+              "featuredInDestination": true,
+              "destination": "england-literature-art"
+            }
+          ],
+          "works": []
+        },
+        {
+          "id": "english-landscapes",
+          "name": "英格兰风景：河谷画境与湖区诗歌",
+          "originalPlanCount": 3,
+          "reason": "4个入口的地点与原12条方案全部保留；常用地区路线直接进入新图，佩里格林和科克茅斯不再靠新增单馆方案凑数。",
+          "destination": "england-literature-art",
+          "points": [
+            {
+              "id": "atlas-flatford",
+              "name": "弗拉特福德",
+              "source": "https://www.nationaltrust.org.uk/visit/suffolk/flatford/flatford-and-constable-country-walk",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=english-landscapes&place=atlas-flatford",
+              "newURL": "#theme=england-literature-art&place=atlas-flatford",
+              "sourceContextHash": "1f2d3ab635bca062bf4019deb67f6e8696af71761817b14881781019c57494fc",
+              "photoKey": "atlas-flatford",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-flatford.webp",
+                "title": "弗拉特福德 · Oldest Building - Valley Farm - Flatford",
+                "author": "Sumit Surai",
+                "source": "https://commons.wikimedia.org/wiki/File:Oldest_Building_-_Valley_Farm_-_Flatford.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "flatford",
+                "article": "https://en.wikipedia.org/wiki/Flatford",
+                "providerDescription": "The oldest building of the Valley Farm, Flatford, Suffolk",
+                "width": 1440,
+                "height": 960,
+                "sha256": "9c893ef742e2209d0f12aaacca879bab65ad41cdd257819f262b5685c19d8ae5"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-dedham",
+              "name": "迪德姆",
+              "source": "https://www.nationaltrust.org.uk/visit/suffolk/flatford/flatford-and-constable-country-walk",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=english-landscapes&place=atlas-dedham",
+              "newURL": "#theme=england-literature-art&place=atlas-dedham",
+              "sourceContextHash": "70e58d23a7c119d70d36c2e1fe55ef075d731befe1e78a817bf517d7eeed0988",
+              "photoKey": "atlas-dedham",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-dedham.webp",
+                "title": "迪德姆 · Boats Dedham, Essex",
+                "author": "law_keven",
+                "source": "https://commons.wikimedia.org/wiki/File:Boats_Dedham%2C_Essex.jpg",
+                "license": "CC BY-SA 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "dedham",
+                "article": "https://en.wikipedia.org/wiki/Dedham%2C_Essex",
+                "providerDescription": "Rowing boats near Dedham.",
+                "width": 1440,
+                "height": 1199,
+                "sha256": "d5e3642f39df33b707dd8ad884495b01e901d3d3cce78d43cd27ec0fd6b8193f"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-dove-cottage",
+              "name": "鸽舍",
+              "source": "https://wordsworth.org.uk/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=english-landscapes&place=atlas-dove-cottage",
+              "newURL": "#theme=england-literature-art&place=atlas-dove-cottage",
+              "sourceContextHash": "e5bf1c4f00ff21d3e67bab32fd9c835e06fb101aef23f927f8004a053b471049",
+              "photoKey": "atlas-dove-cottage",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-dove-cottage.webp",
+                "title": "鸽舍 · Dove Cottage - April 2021",
+                "author": "Likewinter",
+                "source": "https://commons.wikimedia.org/wiki/File:Dove_Cottage_-_April_2021.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "dove-cottage",
+                "article": "https://en.wikipedia.org/wiki/Dove_Cottage",
+                "providerDescription": "Dove Cottage",
+                "width": 1440,
+                "height": 961,
+                "sha256": "59084dca8efae67869f5f92d1d3cdcd4b0a0bf8e10bde9c0cd7b4dea3ef6ec3b"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-rydal-mount",
+              "name": "莱德尔山庄",
+              "source": "https://www.rydalmount.co.uk/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=english-landscapes&place=atlas-rydal-mount",
+              "newURL": "#theme=england-literature-art&place=atlas-rydal-mount",
+              "sourceContextHash": "4cf6edbb98f1ede874b8970a9ea9070bf45f1803755bb23298d815155b70f01e",
+              "photoKey": "atlas-rydal-mount",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-rydal-mount.webp",
+                "title": "莱德尔山庄 · Rydal Mount",
+                "author": "P.K.Niyogi",
+                "source": "https://commons.wikimedia.org/wiki/File:Rydal_Mount.jpg",
+                "license": "CC BY-SA 3.0",
+                "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "rydal-mount",
+                "article": "https://en.wikipedia.org/wiki/Rydal_Mount",
+                "providerDescription": "Wordsworth's House at Rydal Mount. Pic: Sourav Niyogi. Acknowledgement requested when used.\n\nSourav Niyogi is my son. He has permitted the use of this photograph and other photographs of his in Wikipedia or elsewhere. - P.K.Niyogi 13:51, 10 August 2007 (UTC)",
+                "width": 1166,
+                "height": 765,
+                "sha256": "b58bf456cc928a82e5a2a849e1b1ef69d027244dee9ed3443cf1d6c08e910733"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "thirty-willy-lott",
+              "name": "弗拉特福德 · 威利·洛特故居外观",
+              "source": "https://www.nationaltrust.org.uk/visit/suffolk/flatford",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=english-landscapes&place=thirty-willy-lott",
+              "newURL": "#theme=england-literature-art&place=thirty-willy-lott",
+              "sourceContextHash": "4ccbf19eb95133bbe9fa44f2d1a7cc0f48f3f694b89e99b556e29e13f903dead",
+              "photoKey": "thirty-willy-lott",
+              "media": {
+                "path": "assets/regional-expansion/thirty-willy-lott.webp",
+                "title": "弗拉特福德 · 威利·洛特故居外观 · 建筑或园区照片（非所述全部作品）",
+                "author": "Rowland Shaw",
+                "source": "https://commons.wikimedia.org/wiki/File:Willy-Lotts-Cottage.jpg",
+                "license": "CC BY-SA 2.5",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+                "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+                "placeId": "thirty-willy-lott",
+                "article": "https://en.wikipedia.org/wiki/Willy_Lott%27s_Cottage",
+                "providerDescription": "Willy Lott's Cottage, Flatford",
+                "width": 1440,
+                "height": 960,
+                "sha256": "34a81c6421c5892656eccbd388494d203f86dabc947b0c0a93e953a70e28a5bf"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "thirty-wordsworth-house",
+              "name": "科克茅斯 · 华兹华斯童年故居",
+              "source": "https://www.nationaltrust.org.uk/visit/lake-district/wordsworth-house-and-garden",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=english-landscapes&place=thirty-wordsworth-house",
+              "newURL": "#theme=england-literature-art&place=thirty-wordsworth-house",
+              "sourceContextHash": "e74464e33a2a6b9b878d3934acf3460742823de2dc7fbd8be6497a7038227f8e",
+              "photoKey": "thirty-wordsworth-house",
+              "media": {
+                "path": "assets/regional-expansion/thirty-wordsworth-house.webp",
+                "title": "科克茅斯 · 华兹华斯童年故居 · 建筑或园区照片（非所述全部作品）",
+                "author": "MarcusBritish at en.wikipedia",
+                "source": "https://commons.wikimedia.org/wiki/File:Wordsworth_House_Cockermouth.jpg",
+                "license": "CC BY-SA 3.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+                "placeId": "thirty-wordsworth-house",
+                "article": "https://en.wikipedia.org/wiki/Wordsworth_House",
+                "providerDescription": "Wordsworth House, Cockermouth, Cumbria, UK.",
+                "width": 1024,
+                "height": 683,
+                "sha256": "221d2442e7d4ea5094152ca648724160d5c30ed6a1335c82db88575258b9898f"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "thirty-allan-bank",
+              "name": "格拉斯米尔 · 艾伦班克",
+              "source": "https://www.nationaltrust.org.uk/visit/lake-district/allan-bank-and-grasmere",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=english-landscapes&place=thirty-allan-bank",
+              "newURL": "#theme=england-literature-art&place=thirty-allan-bank",
+              "sourceContextHash": "7e692d605e0a0439793091648380625a5012dff3afd36cc7db411ed92f045c82",
+              "photoKey": "thirty-allan-bank",
+              "media": {
+                "path": "assets/regional-expansion/thirty-allan-bank.webp",
+                "title": "格拉斯米尔 · 艾伦班克 · 建筑或园区照片（非所述全部作品）",
+                "author": "Antiquary",
+                "source": "https://commons.wikimedia.org/wiki/File:Allan_Bank.jpg",
+                "license": "CC BY 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+                "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+                "placeId": "thirty-allan-bank",
+                "article": "https://en.wikipedia.org/wiki/Allan_Bank",
+                "providerDescription": "Allan Bank, near Grasmere, Cumbria, seen from the north-east.",
+                "width": 1440,
+                "height": 1080,
+                "sha256": "595c8404e183b5245cecace1f00d19e689c3d5b161835b51bd30eafb7950191e"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            }
+          ],
+          "itineraries": [
+            {
+              "id": "thirty-landscape-stour",
+              "name": "斯陶尔河谷 · 迪德姆与弗拉特福德",
+              "stops": [
+                "atlas-dedham",
+                "atlas-flatford",
+                "thirty-willy-lott"
+              ],
+              "sha256": "1f45871ffa56e6eea6be1e0d7f1c8cb556d9f415464fb65a530817fd83692454",
+              "oldURL": "#theme=english-landscapes&view=plans&route=thirty-landscape-stour",
+              "featuredInDestination": true,
+              "destination": "england-literature-art"
+            },
+            {
+              "id": "thirty-landscape-grasmere",
+              "name": "湖区 · 格拉斯米尔到莱德尔",
+              "stops": [
+                "atlas-dove-cottage",
+                "thirty-allan-bank",
+                "atlas-rydal-mount"
+              ],
+              "sha256": "848ddf6dc902b4b53d4d97c87e5e78ebc615b51a01cfb5ebb20c59281be9a01a",
+              "oldURL": "#theme=english-landscapes&view=plans&route=thirty-landscape-grasmere",
+              "featuredInDestination": false,
+              "destination": "english-landscapes"
+            },
+            {
+              "id": "thirty-landscape-cockermouth",
+              "name": "科克茅斯 · 童年家屋与河畔园地",
+              "stops": [
+                "thirty-wordsworth-house"
+              ],
+              "sha256": "7561d668d94a6f76a92001b3612421cef762182a1e1dbda3f4df0257111cdc0a",
+              "oldURL": "#theme=english-landscapes&view=plans&route=thirty-landscape-cockermouth",
+              "featuredInDestination": false,
+              "destination": "english-landscapes"
+            }
+          ],
+          "works": []
+        },
+        {
+          "id": "british-sculpture",
+          "name": "英国雕塑：从约克郡到海岸与花园",
+          "originalPlanCount": 3,
+          "reason": "4个入口的地点与原12条方案全部保留；常用地区路线直接进入新图，佩里格林和科克茅斯不再靠新增单馆方案凑数。",
+          "destination": "england-literature-art",
+          "points": [
+            {
+              "id": "atlas-hepworth-garden",
+              "name": "赫普沃斯博物馆与雕塑花园",
+              "source": "https://www.tate.org.uk/visit/tate-st-ives/barbara-hepworth-museum-and-sculpture-garden",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=british-sculpture&place=atlas-hepworth-garden",
+              "newURL": "#theme=england-literature-art&place=atlas-hepworth-garden",
+              "sourceContextHash": "4e75381ff728916b4f0bb383c0b10f32e8d5533d659dd1515173836f3075c1f6",
+              "photoKey": "atlas-hepworth-garden",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-hepworth-garden.webp",
+                "title": "赫普沃斯博物馆与雕塑花园 · Barbara Hepworth Sculpture Garden, St Ives - geograph.org.uk - 11244",
+                "author": "Rowena Ford",
+                "source": "https://commons.wikimedia.org/wiki/File:Barbara_Hepworth_Sculpture_Garden%2C_St_Ives_-_geograph.org.uk_-_11244.jpg",
+                "license": "CC BY-SA 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "hepworth-garden",
+                "article": "https://en.wikipedia.org/wiki/Barbara_Hepworth_Museum_and_Sculpture_Garden",
+                "providerDescription": "Barbara Hepworth Sculpture Garden, St Ives. Sphere with inner form (1963) with two forms (divided) in the background",
+                "width": 640,
+                "height": 480,
+                "sha256": "35b9b1e199eb9849ee3b21fa278cb8b7104236aa099c619460c813ad794199e8"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-tate-st-ives",
+              "name": "泰特圣艾夫斯",
+              "source": "https://www.tate.org.uk/visit/tate-st-ives",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=british-sculpture&place=atlas-tate-st-ives",
+              "newURL": "#theme=england-literature-art&place=atlas-tate-st-ives",
+              "sourceContextHash": "64415b63e4b2eed93bcbfbe1e2c443ac675b46f1bdb8b8605422067dc744f0c0",
+              "photoKey": "atlas-tate-st-ives",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-tate-st-ives.webp",
+                "title": "泰特圣艾夫斯 · Tate St Ives - geograph.org.uk - 1208300",
+                "author": "Sarah Charlesworth",
+                "source": "https://commons.wikimedia.org/wiki/File:Tate_St_Ives_-_geograph.org.uk_-_1208300.jpg",
+                "license": "CC BY-SA 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "tate-st-ives",
+                "article": "https://en.wikipedia.org/wiki/Tate_St_Ives",
+                "providerDescription": "Tate St Ives",
+                "width": 640,
+                "height": 480,
+                "sha256": "00ec1397a4387fc316dd8d9cd940530d9bbc38f39dd36ba0bdb322ccaad33a9d"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-perry-green",
+              "name": "亨利·摩尔工作室与花园",
+              "source": "https://henry-moore.org/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=british-sculpture&place=atlas-perry-green",
+              "newURL": "#theme=england-literature-art&place=atlas-perry-green",
+              "sourceContextHash": "f160912ed8e0f4fc9f3b10ae22cbc278cdbfdb058d37918171ed04e51d33cd1e",
+              "photoKey": "atlas-perry-green",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-perry-green.webp",
+                "title": "亨利·摩尔工作室与花园 · Henry Moore's house",
+                "author": "DeFacto",
+                "source": "https://commons.wikimedia.org/wiki/File:Henry_Moore%27s_house.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "perry-green",
+                "article": "https://en.wikipedia.org/wiki/Henry_Moore_Foundation",
+                "providerDescription": "Henry Moore's house, now the headquarters of the Henry Moore Foundation. Hoglands, Perry Green, Hertfordshire, England.",
+                "width": 1440,
+                "height": 797,
+                "sha256": "ccbe57721e807b60f32c50ed38be73239162d3c131ddf45e98ec5d4cfe66935b"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "atlas-moore-institute",
+              "name": "利兹亨利·摩尔研究所",
+              "source": "https://henry-moore.org/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=british-sculpture&place=atlas-moore-institute",
+              "newURL": "#theme=england-literature-art&place=atlas-moore-institute",
+              "sourceContextHash": "3c7874ccdbc665f483560ccb81072c3c1cb3c0a3bac3bfacb6bd46cad38f8070",
+              "photoKey": "atlas-moore-institute",
+              "media": {
+                "path": "assets/cultural-atlas/atlas-moore-institute.webp",
+                "title": "利兹亨利·摩尔研究所 · Henry Moore Institute, Leeds (8th February 2018)",
+                "author": "Mtaylor848",
+                "source": "https://commons.wikimedia.org/wiki/File:Henry%20Moore%20Institute%2C%20Leeds%20%288th%20February%202018%29.jpg",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "按比例缩小并压缩为 WebP，文件保留全幅；界面封面可能裁切，未重绘或调色。衍生图片保留原许可。",
+                "placeKey": "moore-institute",
+                "article": "https://en.wikipedia.org/wiki/Henry_Moore_Institute",
+                "providerDescription": "Henry Moore Institute, Leeds, West Yorkshire.  Taken on the afternoon of Thursday the 8th of February 2018.",
+                "width": 1440,
+                "height": 1080,
+                "sha256": "a179c78eb241a5ba131087774db29e716765b96a5eaabfb4fe4c01249029249e"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "regional-ysp",
+              "name": "约克郡雕塑公园",
+              "source": "https://ysp.org.uk/about-ysp",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=british-sculpture&place=regional-ysp",
+              "newURL": "#theme=england-literature-art&place=regional-ysp",
+              "sourceContextHash": "267097bd6205204edb6222142542b903e1f89a9713115eccb4bbadffec7f3663",
+              "photoKey": "regional-ysp",
+              "media": {
+                "path": "assets/regional-expansion/regional-ysp.webp",
+                "title": "约克郡雕塑公园 · 建筑或园区照片（非所述全部作品）",
+                "author": "Nigel Homer",
+                "source": "https://commons.wikimedia.org/wiki/File:TheYorkshireSculpturePark%28NigelHomer%29Nov2005.jpg",
+                "license": "CC BY-SA 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+                "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+                "placeId": "regional-ysp",
+                "article": "https://en.wikipedia.org/wiki/Yorkshire_Sculpture_Park",
+                "providerDescription": "The Yorkshire Sculpture Park",
+                "width": 640,
+                "height": 480,
+                "sha256": "69905364b0fb54aa613c7e7625b0063ca01bb9c1ce4d6e7eec7965bb5a2920b9"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            },
+            {
+              "id": "regional-hepworth-wakefield",
+              "name": "韦克菲尔德 · 赫普沃斯美术馆",
+              "source": "https://hepworthwakefield.org/your-visit/",
+              "destination": "england-literature-art",
+              "oldURL": "#theme=british-sculpture&place=regional-hepworth-wakefield",
+              "newURL": "#theme=england-literature-art&place=regional-hepworth-wakefield",
+              "sourceContextHash": "2c21a3486077264eefb1b123565e1c3adff231632befc766cc3130d849d5b998",
+              "photoKey": "regional-hepworth-wakefield",
+              "media": {
+                "path": "assets/regional-expansion/regional-hepworth-wakefield.webp",
+                "title": "韦克菲尔德 · 赫普沃斯美术馆 · 建筑或园区照片（非所述全部作品）",
+                "author": "Mike Kirby",
+                "source": "https://commons.wikimedia.org/wiki/File:The_Hepworth_Wakefield_-_geograph.org.uk_-_1507085.jpg",
+                "license": "CC BY-SA 2.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+                "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+                "placeId": "regional-hepworth-wakefield",
+                "article": "https://en.wikipedia.org/wiki/The_Hepworth_Wakefield",
+                "providerDescription": "The Hepworth Wakefield, near to Wakefield, Great Britain.\nDesigned by award-winning British architect, David Chipperfield, The Hepworth Wakefield will show for the first time a unique collection of sculptures by Barbara Hepworth � one of the most important sculptors of the 20th Century, who was born and raised in Wakefield. Its bold, modern architecture will be a fitting home for an outstanding collection of British art, featuring work by some of the UK�s best-known artists. As one of the largest and finest galleries outside of London, The Hepworth Wakefield will bring international contemporary art and historical exhibitions to Yorkshire. Opening in 2011.",
+                "width": 640,
+                "height": 480,
+                "sha256": "3229bb1882e229ab1feed51aeb86b28024e9a2287951494c8841a964f680861e"
+              },
+              "preserved": {
+                "coordinates": true,
+                "source": true,
+                "reading": true,
+                "photo": true,
+                "licence": true
+              }
+            }
+          ],
+          "itineraries": [
+            {
+              "id": "sculpture-yorkshire",
+              "name": "约克郡 · 从模型到户外体量",
+              "stops": [
+                "atlas-moore-institute",
+                "regional-hepworth-wakefield",
+                "regional-ysp"
+              ],
+              "sha256": "febfd26c01097522071cdace3b507dd882e8932d51f56d0699327f83bb208b95",
+              "oldURL": "#theme=british-sculpture&view=plans&route=sculpture-yorkshire",
+              "featuredInDestination": true,
+              "destination": "england-literature-art"
+            },
+            {
+              "id": "sculpture-st-ives",
+              "name": "圣艾夫斯 · 工作室花园与海岸美术馆",
+              "stops": [
+                "atlas-hepworth-garden",
+                "atlas-tate-st-ives"
+              ],
+              "sha256": "af4fecf97a607dd18b23faeb1192d0bb614d7aa0377d121b023805feab656207",
+              "oldURL": "#theme=british-sculpture&view=plans&route=sculpture-st-ives",
+              "featuredInDestination": true,
+              "destination": "england-literature-art"
+            },
+            {
+              "id": "sculpture-perry-green",
+              "name": "佩里格林 · 用一天读工作室与花园",
+              "stops": [
+                "atlas-perry-green"
+              ],
+              "sha256": "08514e455a07f77044ccceb11884c7836b4e07fb1381c274bb3348468cf20692",
+              "oldURL": "#theme=british-sculpture&view=plans&route=sculpture-perry-green",
+              "featuredInDestination": false,
+              "destination": "british-sculpture"
+            }
+          ],
+          "works": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "assets/cultural-atlas/atlas-hangzhou.webp",
+      "sha256": "73872428d02394150df0deed2123df62dc03ebe71884d23b286469fc72403ed4",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-suzhou.webp",
+      "sha256": "babf1da494298203cc6658ba41b11c96ef5bc232951eb06a5762a0f1412320ea",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-taohuatan.webp",
+      "sha256": "aaac8bbf7dfb82c94a4428582f8c7a5743831d11a1015cbd9c5a22b70fb53c44",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-shaoxing.webp",
+      "sha256": "3b4243ac439b88f367f3edda96a8f707c65f2a8daff53c07b282dc390afae722",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-huangshan.webp",
+      "sha256": "966beba32cf348b929502a3f3777494a4e7eb9a7f9bbb013f65cfda114627a88",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-yixing.webp",
+      "sha256": "236a6c093de6b7d76ebd23ece650f3a2e15aaa4287a2685b44f80d9e09a0d0b4",
+      "unchanged": true
+    },
+    {
+      "file": "assets/editorial/mozart-score.webp",
+      "sha256": "19a32ca07d2b348f010e70a502435dbd43ebc22a891383bc6b90df9291308cab",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-prague.webp",
+      "sha256": "bfe7a742c02c099cebda7dbe15e95ac9c8156256c931a29d1063fba6cfc1e135",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-london.webp",
+      "sha256": "ad7544d66c562d0330247e1d977c686a8f6aede1f1c42b75e912ccf1ea156a5b",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-nohant.webp",
+      "sha256": "a0ccb2cd4d478608d8220848b573c80bb7acb310ef05b1219082bd696558c51f",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-valldemossa.webp",
+      "sha256": "9c411a2789b1b4c287332197ca3ce4ba98509152703229d3803177092aa5e1b7",
+      "unchanged": true
+    },
+    {
+      "file": "assets/regional-expansion/thirty-chopin-warsaw.webp",
+      "sha256": "dbef54436028305e7c65b0087d9f70edd40f7b0d78b9088915e1fbe84b25a186",
+      "unchanged": true
+    },
+    {
+      "file": "assets/regional-expansion/thirty-chopin-birthplace.webp",
+      "sha256": "28ea43e1932b0731b3831e5a1e2e9f44c66bc30bf84f24e65d515221b1db2f0a",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-dvorak-prague.webp",
+      "sha256": "fa8e589023c22a3cb00e6289283ba757305d6f316d3cbf89bfb522a6c61b92c3",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-spillville.webp",
+      "sha256": "f3c1ab232eb979622578c628abfeb0d8f54c0bce1412f23f6746663a4bfb7e85",
+      "unchanged": true
+    },
+    {
+      "file": "assets/regional-expansion/thirty-dvorak-birthplace.webp",
+      "sha256": "00d7bd9552eb767808d6da1787defb9e9ff23ba4cf614320d3836afa8942b9ea",
+      "unchanged": true
+    },
+    {
+      "file": "assets/regional-expansion/thirty-dvorak-vysoka.webp",
+      "sha256": "343b33f2475584ebd6e6f855791b964d286107e5f16e11fab318f9ee4a660b4c",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-holyrood.webp",
+      "sha256": "e27f4313ee55047ddf2de5051c1d15f99cf55bb138c586fd522bcc1749cb18fc",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-staffa.webp",
+      "sha256": "7f89e18aa7daca82ffa86e4f0f0cda488e915b5a8882f55e3034ad18d5181014",
+      "unchanged": true
+    },
+    {
+      "file": "assets/regional-expansion/thirty-mendelssohn-remise.webp",
+      "sha256": "3e264463736317a0cb1420fbeb8f74c6d92718734a5389c14c5b283bf4f34bfd",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-helsinki.webp",
+      "sha256": "5164bdc99b70b839b629f8452638f4610097471dcf22890117b0237b985f724e",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-troldhaugen.webp",
+      "sha256": "6250cb63bd619aee7d6f7da92056cc197b4a94741c05ab2caf3d6752518fcd35",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-bergen.webp",
+      "sha256": "122cbeef60801d3568c3db8d41d669822b83cdc3b28321ec3458655893dc3187",
+      "unchanged": true
+    },
+    {
+      "file": "assets/regional-expansion/thirty-siljustol.webp",
+      "sha256": "2d7622646f50185c5a5245f547f088f6e64671b987f6d4146f815690e30af825",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-asgardstrand.webp",
+      "sha256": "0e9c80a431090fac9965a358108a35afc7027c2b73365a728cf8346356dfea60",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-munch-oslo.webp",
+      "sha256": "2233c80685663c503e9b04838080c7067c161be30cdef0c278c0b7a6c5919954",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-routes/austen-steventon-photo.webp",
+      "sha256": "011e325fe6a418889ebb13a809a1f460cc119871c01a76ac21e9ade12473f192",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-routes/austen-chawton-photo.webp",
+      "sha256": "546e57e004abc2ec7c7e7e258fb9e9504ea38379494eda3321b1c944786ce641",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-routes/austen-winchester-photo.webp",
+      "sha256": "4e2122e4a778228021b4ca69f1b378ccd81e5deed6a82da3e04949175d554eba",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-farleys.webp",
+      "sha256": "d7625b095f51a7f2241a0a9e2b4da561b5a0def03b47e4426d242f1725e67faf",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-handel-london.webp",
+      "sha256": "8e15200c41b3d5a4fd2b50f3750ec943002a89b6a84886afc70961da35a9074e",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-dickens-london.webp",
+      "sha256": "35a6280c385c3c20698e819341626f7c66d66b7610e2fc1b54d5409d09e1903f",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-dickens-broadstairs.webp",
+      "sha256": "5522fe2c2363d0828a4b3351262be8e37ca67c16e337333fa446123abb48fc7a",
+      "unchanged": true
+    },
+    {
+      "file": "assets/regional-expansion/regional-monks-house.webp",
+      "sha256": "6fd2eb57aedc4bf61d61ce070e154642547ab747280985b92475de98f1406d6e",
+      "unchanged": true
+    },
+    {
+      "file": "assets/regional-expansion/regional-sissinghurst.webp",
+      "sha256": "1367439518d1eb843fe6f3109bdaa988458e0ec640fb8b4d404bdf1fed98c776",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-flatford.webp",
+      "sha256": "9c893ef742e2209d0f12aaacca879bab65ad41cdd257819f262b5685c19d8ae5",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-dedham.webp",
+      "sha256": "d5e3642f39df33b707dd8ad884495b01e901d3d3cce78d43cd27ec0fd6b8193f",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-dove-cottage.webp",
+      "sha256": "59084dca8efae67869f5f92d1d3cdcd4b0a0bf8e10bde9c0cd7b4dea3ef6ec3b",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-rydal-mount.webp",
+      "sha256": "b58bf456cc928a82e5a2a849e1b1ef69d027244dee9ed3443cf1d6c08e910733",
+      "unchanged": true
+    },
+    {
+      "file": "assets/regional-expansion/thirty-willy-lott.webp",
+      "sha256": "34a81c6421c5892656eccbd388494d203f86dabc947b0c0a93e953a70e28a5bf",
+      "unchanged": true
+    },
+    {
+      "file": "assets/regional-expansion/thirty-wordsworth-house.webp",
+      "sha256": "221d2442e7d4ea5094152ca648724160d5c30ed6a1335c82db88575258b9898f",
+      "unchanged": true
+    },
+    {
+      "file": "assets/regional-expansion/thirty-allan-bank.webp",
+      "sha256": "595c8404e183b5245cecace1f00d19e689c3d5b161835b51bd30eafb7950191e",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-hepworth-garden.webp",
+      "sha256": "35b9b1e199eb9849ee3b21fa278cb8b7104236aa099c619460c813ad794199e8",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-tate-st-ives.webp",
+      "sha256": "00ec1397a4387fc316dd8d9cd940530d9bbc38f39dd36ba0bdb322ccaad33a9d",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-perry-green.webp",
+      "sha256": "ccbe57721e807b60f32c50ed38be73239162d3c131ddf45e98ec5d4cfe66935b",
+      "unchanged": true
+    },
+    {
+      "file": "assets/cultural-atlas/atlas-moore-institute.webp",
+      "sha256": "a179c78eb241a5ba131087774db29e716765b96a5eaabfb4fe4c01249029249e",
+      "unchanged": true
+    },
+    {
+      "file": "assets/regional-expansion/regional-ysp.webp",
+      "sha256": "69905364b0fb54aa613c7e7625b0063ca01bb9c1ce4d6e7eec7965bb5a2920b9",
+      "unchanged": true
+    },
+    {
+      "file": "assets/regional-expansion/regional-hepworth-wakefield.webp",
+      "sha256": "3229bb1882e229ab1feed51aeb86b28024e9a2287951494c8841a964f680861e",
+      "unchanged": true
+    }
+  ],
+  "decisions": [
+    {
+      "id": "kumano",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "熊野古道",
+      "originalPlaces": 6,
+      "originalItineraries": 3,
+      "destinations": [
+        "kumano"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "camino",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "圣地亚哥朝圣之路",
+      "originalPlaces": 43,
+      "originalItineraries": 3,
+      "destinations": [
+        "camino"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "nakasendo",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "中山道",
+      "originalPlaces": 9,
+      "originalItineraries": 3,
+      "destinations": [
+        "nakasendo"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "francigena",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "弗兰奇杰纳之路",
+      "originalPlaces": 16,
+      "originalItineraries": 3,
+      "destinations": [
+        "francigena"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "andes",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "安第斯道路网",
+      "originalPlaces": 10,
+      "originalItineraries": 3,
+      "destinations": [
+        "andes"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "buddhist",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "佛教四大圣地",
+      "originalPlaces": 4,
+      "originalItineraries": 2,
+      "destinations": [
+        "buddhist"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "canal",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "中国大运河",
+      "originalPlaces": 11,
+      "originalItineraries": 3,
+      "destinations": [
+        "canal"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "viking",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "维京文化网络",
+      "originalPlaces": 8,
+      "originalItineraries": 3,
+      "destinations": [
+        "viking"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "impressionism",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "印象派的足迹",
+      "originalPlaces": 15,
+      "originalItineraries": 3,
+      "destinations": [
+        "impressionism"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "route66",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "美国 66 号公路",
+      "originalPlaces": 15,
+      "originalItineraries": 3,
+      "destinations": [
+        "route66"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "nc500",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "苏格兰北海岸 500",
+      "originalPlaces": 11,
+      "originalItineraries": 2,
+      "destinations": [
+        "nc500"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "drive-europe",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "欧洲海岸与环岛公路",
+      "originalPlaces": 13,
+      "originalItineraries": 2,
+      "destinations": [
+        "drive-europe"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "drive-southern",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "南半球海岸与峡湾",
+      "originalPlaces": 17,
+      "originalItineraries": 3,
+      "destinations": [
+        "drive-southern"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "canadian-rockies",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "加拿大落基山",
+      "originalPlaces": 8,
+      "originalItineraries": 3,
+      "destinations": [
+        "canadian-rockies"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "nz-great-walks",
+      "category": "retain",
+      "status": "pending",
+      "phase": null,
+      "name": "新西兰南岛 · 三条 Great Walks",
+      "originalPlaces": 17,
+      "originalItineraries": 3,
+      "destinations": [
+        "nz-great-walks"
+      ],
+      "reason": "保留现有路线与规模；本批未完成逐点细节复核。"
+    },
+    {
+      "id": "mozart",
+      "category": "consolidate",
+      "status": "implemented",
+      "phase": 1,
+      "name": "莫扎特的欧洲之旅",
+      "originalPlaces": 8,
+      "originalItineraries": 3,
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "音乐地图改用能容纳跨洋生平的名称；4个人物的全部节点可直接探索，美国点以独立地点保留，苏格兰不与德国硬串。"
+    },
+    {
+      "id": "chopin",
+      "category": "consolidate",
+      "status": "implemented",
+      "phase": 1,
+      "name": "肖邦与乔治·桑",
+      "originalPlaces": 4,
+      "originalItineraries": 2,
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "音乐地图改用能容纳跨洋生平的名称；4个人物的全部节点可直接探索，美国点以独立地点保留，苏格兰不与德国硬串。"
+    },
+    {
+      "id": "dvorak",
+      "category": "consolidate",
+      "status": "implemented",
+      "phase": 1,
+      "name": "德沃夏克的美国经历",
+      "originalPlaces": 4,
+      "originalItineraries": 2,
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "音乐地图改用能容纳跨洋生平的名称；4个人物的全部节点可直接探索，美国点以独立地点保留，苏格兰不与德国硬串。"
+    },
+    {
+      "id": "mendelssohn",
+      "category": "consolidate",
+      "status": "implemented",
+      "phase": 1,
+      "name": "门德尔松：莱比锡与苏格兰",
+      "originalPlaces": 4,
+      "originalItineraries": 2,
+      "destinations": [
+        "european-music-cities"
+      ],
+      "reason": "音乐地图改用能容纳跨洋生平的名称；4个人物的全部节点可直接探索，美国点以独立地点保留，苏格兰不与德国硬串。"
+    },
+    {
+      "id": "sibelius",
+      "category": "consolidate",
+      "status": "implemented",
+      "phase": 1,
+      "name": "西贝柳斯的芬兰",
+      "originalPlaces": 3,
+      "originalItineraries": 2,
+      "destinations": [
+        "nordic-art-homes"
+      ],
+      "reason": "3个原入口的9个地点完整进入普通地图；推荐行程按芬兰、卑尔根和奥斯陆—海岸分区，原6条方案和人物链接保留。"
+    },
+    {
+      "id": "grieg",
+      "category": "consolidate",
+      "status": "implemented",
+      "phase": 1,
+      "name": "卑尔根：格里格与近郊音乐家园",
+      "originalPlaces": 3,
+      "originalItineraries": 2,
+      "destinations": [
+        "nordic-art-homes"
+      ],
+      "reason": "3个原入口的9个地点完整进入普通地图；推荐行程按芬兰、卑尔根和奥斯陆—海岸分区，原6条方案和人物链接保留。"
+    },
+    {
+      "id": "munch",
+      "category": "consolidate",
+      "status": "implemented",
+      "phase": 1,
+      "name": "蒙克的海岸与居所",
+      "originalPlaces": 3,
+      "originalItineraries": 2,
+      "destinations": [
+        "nordic-art-homes"
+      ],
+      "reason": "3个原入口的9个地点完整进入普通地图；推荐行程按芬兰、卑尔根和奥斯陆—海岸分区，原6条方案和人物链接保留。"
+    },
+    {
+      "id": "brancusi",
+      "category": "consolidate",
+      "status": "pending",
+      "phase": null,
+      "name": "布朗库西的城市雕塑与工作室",
+      "originalPlaces": 4,
+      "originalItineraries": 3,
+      "destinations": [
+        "brancusi"
+      ],
+      "reason": "继续判断地域归属；所有点有可见去向之前保留原入口。"
+    },
+    {
+      "id": "giacometti",
+      "category": "consolidate",
+      "status": "pending",
+      "phase": null,
+      "name": "贾科梅蒂的山谷与巴黎",
+      "originalPlaces": 4,
+      "originalItineraries": 3,
+      "destinations": [
+        "giacometti"
+      ],
+      "reason": "继续判断地域归属；所有点有可见去向之前保留原入口。"
+    },
+    {
+      "id": "christo-jeanneclaude",
+      "category": "consolidate",
+      "status": "pending",
+      "phase": null,
+      "name": "克里斯托与珍妮-克劳德的临时作品",
+      "originalPlaces": 4,
+      "originalItineraries": 2,
+      "destinations": [
+        "christo-jeanneclaude"
+      ],
+      "reason": "继续判断地域归属；所有点有可见去向之前保留原入口。"
+    },
+    {
+      "id": "zhang-daqian",
+      "category": "consolidate",
+      "status": "pending",
+      "phase": null,
+      "name": "张大千的游历与园林",
+      "originalPlaces": 4,
+      "originalItineraries": 3,
+      "destinations": [
+        "zhang-daqian"
+      ],
+      "reason": "继续判断地域归属；所有点有可见去向之前保留原入口。"
+    },
+    {
+      "id": "qi-baishi",
+      "category": "consolidate",
+      "status": "pending",
+      "phase": null,
+      "name": "齐白石的五出五归",
+      "originalPlaces": 3,
+      "originalItineraries": 2,
+      "destinations": [
+        "qi-baishi"
+      ],
+      "reason": "继续判断地域归属；所有点有可见去向之前保留原入口。"
+    },
+    {
+      "id": "jiangnan-painting",
+      "category": "consolidate",
+      "status": "implemented",
+      "phase": 1,
+      "name": "江南画家：水乡、山水与日常",
+      "originalPlaces": 6,
+      "originalItineraries": 3,
+      "destinations": [
+        "jiangnan-poetry-painting"
+      ],
+      "reason": "两图原10个不同地点和5条方案全部保留，以地域地图共同呈现诗人、画家与同城多重关系；增加苏州—宜兴的两地探访。"
+    },
+    {
+      "id": "jiangnan-poetry",
+      "category": "consolidate",
+      "status": "implemented",
+      "phase": 1,
+      "name": "江南诗路：水城与山川",
+      "originalPlaces": 5,
+      "originalItineraries": 2,
+      "destinations": [
+        "jiangnan-poetry-painting"
+      ],
+      "reason": "两图原10个不同地点和5条方案全部保留，以地域地图共同呈现诗人、画家与同城多重关系；增加苏州—宜兴的两地探访。"
+    },
+    {
+      "id": "austen",
+      "category": "consolidate",
+      "status": "implemented",
+      "phase": 1,
+      "name": "简·奥斯汀 · 生活与小说地景",
+      "originalPlaces": 6,
+      "originalItineraries": 3,
+      "destinations": [
+        "england-literature-art"
+      ],
+      "reason": "4个入口的地点与原12条方案全部保留；常用地区路线直接进入新图，佩里格林和科克茅斯不再靠新增单馆方案凑数。"
+    },
+    {
+      "id": "southeast-england-creative",
+      "category": "consolidate",
+      "status": "implemented",
+      "phase": 1,
+      "name": "英格兰东南：创作的房间、花园与海岸",
+      "originalPlaces": 7,
+      "originalItineraries": 3,
+      "destinations": [
+        "england-literature-art"
+      ],
+      "reason": "4个入口的地点与原12条方案全部保留；常用地区路线直接进入新图，佩里格林和科克茅斯不再靠新增单馆方案凑数。"
+    },
+    {
+      "id": "english-landscapes",
+      "category": "consolidate",
+      "status": "implemented",
+      "phase": 1,
+      "name": "英格兰风景：河谷画境与湖区诗歌",
+      "originalPlaces": 7,
+      "originalItineraries": 3,
+      "destinations": [
+        "england-literature-art"
+      ],
+      "reason": "4个入口的地点与原12条方案全部保留；常用地区路线直接进入新图，佩里格林和科克茅斯不再靠新增单馆方案凑数。"
+    },
+    {
+      "id": "british-sculpture",
+      "category": "consolidate",
+      "status": "implemented",
+      "phase": 1,
+      "name": "英国雕塑：从约克郡到海岸与花园",
+      "originalPlaces": 6,
+      "originalItineraries": 3,
+      "destinations": [
+        "england-literature-art"
+      ],
+      "reason": "4个入口的地点与原12条方案全部保留；常用地区路线直接进入新图，佩里格林和科克茅斯不再靠新增单馆方案凑数。"
+    },
+    {
+      "id": "hemingway",
+      "category": "consolidate",
+      "status": "pending",
+      "phase": null,
+      "name": "海明威的跨国生活",
+      "originalPlaces": 4,
+      "originalItineraries": 3,
+      "destinations": [
+        "hemingway"
+      ],
+      "reason": "继续判断地域归属；所有点有可见去向之前保留原入口。"
+    },
+    {
+      "id": "mark-twain",
+      "category": "consolidate",
+      "status": "pending",
+      "phase": null,
+      "name": "马克·吐温：河岸、书房与文学邻居",
+      "originalPlaces": 4,
+      "originalItineraries": 3,
+      "destinations": [
+        "mark-twain"
+      ],
+      "reason": "继续判断地域归属；所有点有可见去向之前保留原入口。"
+    },
+    {
+      "id": "cartier-bresson",
+      "category": "consolidate",
+      "status": "pending",
+      "phase": null,
+      "name": "布列松的城市摄影",
+      "originalPlaces": 3,
+      "originalItineraries": 2,
+      "destinations": [
+        "cartier-bresson"
+      ],
+      "reason": "继续判断地域归属；所有点有可见去向之前保留原入口。"
+    },
+    {
+      "id": "chagall",
+      "category": "consolidate",
+      "status": "pending",
+      "phase": null,
+      "name": "夏加尔的故乡与南法",
+      "originalPlaces": 5,
+      "originalItineraries": 3,
+      "destinations": [
+        "chagall"
+      ],
+      "reason": "继续判断地域归属；所有点有可见去向之前保留原入口。"
+    },
+    {
+      "id": "byron",
+      "category": "consolidate",
+      "status": "pending",
+      "phase": null,
+      "name": "拜伦的湖畔与希腊",
+      "originalPlaces": 4,
+      "originalItineraries": 3,
+      "destinations": [
+        "byron"
+      ],
+      "reason": "继续判断地域归属；所有点有可见去向之前保留原入口。"
+    },
+    {
+      "id": "joyce",
+      "category": "consolidate",
+      "status": "pending",
+      "phase": null,
+      "name": "乔伊斯的城市网络",
+      "originalPlaces": 4,
+      "originalItineraries": 3,
+      "destinations": [
+        "joyce"
+      ],
+      "reason": "继续判断地域归属；所有点有可见去向之前保留原入口。"
+    },
+    {
+      "id": "vermeer",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "维米尔 · 代尔夫特的光与日常",
+      "originalPlaces": 4,
+      "originalItineraries": 2,
+      "destinations": [
+        "vermeer"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "gauguin",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "高更的跨洋迁居",
+      "originalPlaces": 4,
+      "originalItineraries": 3,
+      "destinations": [
+        "gauguin"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "wang-wei",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "蓝田与终南：王维山水和附近古寺",
+      "originalPlaces": 3,
+      "originalItineraries": 2,
+      "destinations": [
+        "wang-wei"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "shen-congwen",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "湘西：沿沅水读沈从文",
+      "originalPlaces": 4,
+      "originalItineraries": 2,
+      "destinations": [
+        "shen-congwen"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "xiao-hong",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "呼兰与哈尔滨：萧红的生活与写作",
+      "originalPlaces": 4,
+      "originalItineraries": 2,
+      "destinations": [
+        "xiao-hong"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "kafka",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "卡夫卡的城市与生活",
+      "originalPlaces": 4,
+      "originalItineraries": 2,
+      "destinations": [
+        "kafka"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "neruda",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "智利中部：聂鲁达的房屋与港城海岸",
+      "originalPlaces": 4,
+      "originalItineraries": 3,
+      "destinations": [
+        "neruda"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "marquez",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "哥伦比亚加勒比：马尔克斯、家屋与湿地",
+      "originalPlaces": 4,
+      "originalItineraries": 3,
+      "destinations": [
+        "marquez"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "tagore",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "泰戈尔的孟加拉世界",
+      "originalPlaces": 4,
+      "originalItineraries": 3,
+      "destinations": [
+        "tagore"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "modern-architecture",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "现代建筑：居住与地景",
+      "originalPlaces": 8,
+      "originalItineraries": 2,
+      "destinations": [
+        "modern-architecture"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "southern-france-painters",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "南法画境：从普罗旺斯到蔚蓝海岸",
+      "originalPlaces": 9,
+      "originalItineraries": 3,
+      "destinations": [
+        "southern-france-painters"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "fuji-tokaido",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "富士与东海道：北斋、广重的风景",
+      "originalPlaces": 7,
+      "originalItineraries": 2,
+      "destinations": [
+        "fuji-tokaido"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "mexico-city-art",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "墨西哥城：弗里达与里维拉",
+      "originalPlaces": 4,
+      "originalItineraries": 2,
+      "destinations": [
+        "mexico-city-art"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "detroit-art",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "底特律：弗里达、里维拉与工业城市",
+      "originalPlaces": 3,
+      "originalItineraries": 2,
+      "destinations": [
+        "detroit-art"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "east-coast-art",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "纽约与华盛顿：跨洋艺术的收藏与庭园",
+      "originalPlaces": 5,
+      "originalItineraries": 3,
+      "destinations": [
+        "east-coast-art"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "japan-literary-landscapes",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "日本文学：山寺、温泉与书斋",
+      "originalPlaces": 8,
+      "originalItineraries": 3,
+      "destinations": [
+        "japan-literary-landscapes"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "cairo-city-stories",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "开罗：街巷、小说与摄影",
+      "originalPlaces": 4,
+      "originalItineraries": 2,
+      "destinations": [
+        "cairo-city-stories"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    },
+    {
+      "id": "yangtze-writing",
+      "category": "expand",
+      "status": "pending",
+      "phase": null,
+      "name": "长江与入蜀：诗文、迁徙与城市",
+      "originalPlaces": 6,
+      "originalItineraries": 3,
+      "destinations": [
+        "yangtze-writing"
+      ],
+      "reason": "按已批准方向扩充；本批尚未逐点取证与实施。"
+    }
+  ]
+}

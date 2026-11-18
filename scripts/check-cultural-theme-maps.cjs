@@ -52,7 +52,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
    // Search inside merged maps uses each author's contextual places, not a selector.
    await open('#theme=jiangnan-painting');await page.locator('#search').fill('吴冠中');assert.ok(await page.locator('#places .place').count()>=1);assert.ok(await page.evaluate(()=>filtered().every(p=>culturalPlaceSearchText(p).includes('吴冠中'))));
    await open('#interest=art&find='+encodeURIComponent('萧红'));assert.ok(await page.locator('[data-theme="xiao-hong"]').count());assert.equal(await page.locator('[data-theme="shen-congwen"]').count(),0);
-   await open('#interest=art&find='+encodeURIComponent('吴冠中'));assert.ok(await page.locator('[data-theme="jiangnan-painting"]').count());assert.ok(await page.locator('[data-theme="wu-guanzhong"]').count());
+   await open('#interest=art&find='+encodeURIComponent('吴冠中'));assert.ok(await page.locator('[data-theme="jiangnan-poetry-painting"]').count());assert.ok(await page.locator('[data-theme="wu-guanzhong"]').count());
    for(const [old,id]of Object.entries(await page.evaluate(()=>culturalMapAliases))){await open('#theme='+old+'&view=plans');assert.equal(await page.evaluate(()=>themes[activeTheme].id),id);assert.ok(await page.locator('.plan-card').count());}
    await open('#theme=collection-modern-chinese-literature&person=xiao-hong&view=plans&route=atlas-xiao-hong-places');assert.equal(await page.evaluate(()=>activePlan?.theme),'xiao-hong');
    await open('#theme=collection-chinese-painting&place=wh-440');assert.equal(await page.evaluate(()=>selected?.id),'wh-440');
