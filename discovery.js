@@ -22,7 +22,11 @@ function readHomeState(){const q=new URLSearchParams(location.hash.slice(1));hom
 readHomeState();
 function normalizedSearch(text){return String(text).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()}
 function catalogueIndex(){if(discoveryIndex)return discoveryIndex;discoveryIndex=themes.map(t=>{const nodes=places.filter(p=>p.themes.includes(t.id)),plans=buildPlans(t.id,0),meta=discoveryMeta[t.id]||['exchange',[],''];return {theme:t,nodes,plans,group:meta[0],areas:meta[1],search:normalizedSearch([t.name,t.story,meta[2],...nodes.map(p=>p.name+' '+(p.en||'')+' '+countrySearch(p.country)),...plans.map(p=>p.name),...worksForTheme(t.id).map(w=>w.title+' '+w.original+' '+w.artist)].join(' '))}});return discoveryIndex}
-function matchingDiscovery(includeHidden=false){const terms=normalizedSearch(homeState.query.trim()).split(/\s+/).filter(Boolean);return catalogueIndex().filter(x=>(includeHidden||homeState.view!=='themes'||!x.theme.catalogHidden||(terms.length&&x.theme.personSearch&&terms.every(q=>normalizedSearch(x.theme.personSearch).includes(q))))&&(!countryQueryName(homeState.query)||x.nodes.some(p=>placeCountryMatches(p,countryQueryName(homeState.query))))&&(homeState.interest==='all'||x.group===homeState.interest)&&disciplineMatches(x.theme)&&(homeState.area==='all'||x.areas.includes(homeState.area))&&terms.every(q=>x.search.includes(q)))}
+function sourceCoveredByOneVisibleMap(id){
+ if(typeof culturalSourceCoverage!=='function')return false;
+ const rows=culturalSourceCoverage(id);return !!rows.length&&rows[0].maps.some(map=>rows.every(row=>row.maps.includes(map)));
+}
+function matchingDiscovery(includeHidden=false){const terms=normalizedSearch(homeState.query.trim()).split(/\s+/).filter(Boolean);return catalogueIndex().filter(x=>(includeHidden||homeState.view!=='themes'||!x.theme.catalogHidden||(terms.length&&x.theme.personSearch&&terms.every(q=>normalizedSearch(x.theme.personSearch).includes(q))&&!sourceCoveredByOneVisibleMap(x.theme.id)))&&(!countryQueryName(homeState.query)||x.nodes.some(p=>placeCountryMatches(p,countryQueryName(homeState.query))))&&(homeState.interest==='all'||x.group===homeState.interest)&&disciplineMatches(x.theme)&&(homeState.area==='all'||x.areas.includes(homeState.area))&&terms.every(q=>x.search.includes(q)))}
 function routeDiscoveryInterests(plan,theme){
  return [...new Set([discoveryMeta[theme.id]?.[0],...(plan.interests||[])])].filter(id=>discoveryGroups.some(([key])=>key===id));
 }
