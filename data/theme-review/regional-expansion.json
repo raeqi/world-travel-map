@@ -410,7 +410,8 @@
           "url": "https://www.chinamuseum.org.cn/cma/detail.html?contentId=13843&id=13"
         }
       ],
-      "wikiLang": "zh"
+      "wikiLang": "zh",
+      "mediaFile": "Su Di.JPG"
     },
     {
       "id": "thirty-huzhou",
@@ -525,7 +526,8 @@
       "observe": "区分故居生活背景、设计资料和具体风景作品，原作是否展出按当期展览确认。",
       "source": "https://www.city.ichikawa.lg.jp/site/higashiyama/",
       "wiki": "市川市東山魁夷記念館",
-      "wikiLang": "ja"
+      "wikiLang": "ja",
+      "imageRejected": "Lead image is an artist portrait; exact museum building photograph still needs review"
     },
     {
       "id": "thirty-hcb-paris",

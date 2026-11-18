@@ -18,6 +18,7 @@ existing=json.loads((OUT/'sources.json').read_text()) if (OUT/'sources.json').ex
 media={};pending={}
 for row in PACK['points']:
  key=row['id'];wiki=row.get('wiki')
+ if row.get('imageRejected'):pending[key]=row['imageRejected'];continue
  if key in existing and (ROOT/existing[key]['path']).exists() and (not row.get('mediaFile') or urllib.parse.unquote(existing[key]['source'].split('File:')[-1]).replace('_',' ')==row['mediaFile'].replace('_',' ')):media[key]=existing[key];continue
  if not wiki:pending[key]='No cleared image; retain sourced text without borrowing another location';continue
  try:
