@@ -1,0 +1,895 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "1192a37e2cba7a23a21bcd4350ef027ae000a73c",
+  "method": "Exact98 visible itinerary contexts without expanded reading and without a current manual judgment, from committed production runtime CSV before batch19. Previously flagged Rasuwa remains a separate manual needs-research gap. Historical priority queue only, not all-site problems or factual certification. IDs/theme and original itinerary IDs retained for regression.",
+  "contexts": [
+    {
+      "id": "wh-1606",
+      "theme": "nature",
+      "name": "中国黄（渤）海候鸟栖息地",
+      "routeIds": [
+        "cn-east"
+      ],
+      "contentHashBefore": "9faac3bd7c57c1a6f7067ccc196788ea09230aae6478f231c119b22324b2e8c5"
+    },
+    {
+      "id": "wh-1509",
+      "theme": "nature",
+      "name": "湖北神农架",
+      "routeIds": [
+        "cn-south"
+      ],
+      "contentHashBefore": "17c41a6602569cd08f6a8b0aad1c5bacd858980399ff07ca87246ef3ca48848f"
+    },
+    {
+      "id": "wh-1388",
+      "theme": "nature",
+      "name": "澄江化石遗址",
+      "routeIds": [
+        "cn-south"
+      ],
+      "contentHashBefore": "9cb32399fa2dd2c4bb6f58b5eb46c70fbee2d1fab0e9c8ad64da4e14221cc01c"
+    },
+    {
+      "id": "wh-1335",
+      "theme": "nature",
+      "name": "中国丹霞",
+      "routeIds": [
+        "cn-south"
+      ],
+      "contentHashBefore": "925ab4ade3b59bacd64b31ce52cee35671e40b2668bcd8f5047a3dd12878eb0a"
+    },
+    {
+      "id": "wh-1292",
+      "theme": "nature",
+      "name": "三清山国家公园",
+      "routeIds": [
+        "cn-east"
+      ],
+      "contentHashBefore": "c0822b38dcc0c8d17549cd96e7a0395e372e3743fffaba7303e3b35248223627"
+    },
+    {
+      "id": "wh-779",
+      "theme": "nature",
+      "name": "峨眉山—乐山大佛",
+      "routeIds": [
+        "cn-south"
+      ],
+      "contentHashBefore": "9b064d10571f3f160e5a8670783e037cb63e9ba53a96cfc7f1cd025f19b2dd27"
+    },
+    {
+      "id": "wh-640",
+      "theme": "nature",
+      "name": "武陵源风景名胜区",
+      "routeIds": [
+        "cn-south"
+      ],
+      "contentHashBefore": "93bca53e2cb2083453ef109184267ceeb39f4c3ced36a20ba26e1f4f7d162d7d"
+    },
+    {
+      "id": "wh-486",
+      "theme": "nature",
+      "name": "昆士兰湿热带地区",
+      "routeIds": [
+        "au-east"
+      ],
+      "contentHashBefore": "0e915e350162ba787df4d2fbc45d6f997cff91c8bcddc0ecbaccf581e8011fd1"
+    },
+    {
+      "id": "wh-368",
+      "theme": "nature",
+      "name": "澳大利亚冈瓦纳雨林",
+      "routeIds": [
+        "au-east"
+      ],
+      "contentHashBefore": "a1ce7c7b677d99973db6bbb00736fe156fde233fc9d12e54342e20dce599cb60"
+    },
+    {
+      "id": "wh-337",
+      "theme": "nature",
+      "name": "卡齐兰加国家公园",
+      "routeIds": [
+        "india-nature"
+      ],
+      "contentHashBefore": "9c5a5f5ed47db08533918f172c2918083bdfd2e4f13eea8cc1e1c0f8a828e9da"
+    },
+    {
+      "id": "wh-338",
+      "theme": "nature",
+      "name": "马纳斯野生动植物保护区",
+      "routeIds": [
+        "india-nature"
+      ],
+      "contentHashBefore": "ae68a5fb35dacfc08c1117f94f283dfb89980c5f69b7491dae4f1acb1ce1dc23"
+    },
+    {
+      "id": "wh-167",
+      "theme": "nature",
+      "name": "威兰德拉湖区",
+      "routeIds": [
+        "au-east"
+      ],
+      "contentHashBefore": "acb950623a39685802191babfedc0a924307207fa3811e119d4c04e1d2296c42"
+    },
+    {
+      "id": "wh-154",
+      "theme": "nature",
+      "name": "大堡礁",
+      "routeIds": [
+        "au-east"
+      ],
+      "contentHashBefore": "00838e9efd84cf095a2f6282e7cc97fd6f3fe9d19da7e361d75b34b690127cad"
+    },
+    {
+      "id": "wh-1625",
+      "theme": "culture",
+      "name": "科尔杜昂灯塔",
+      "routeIds": [
+        "france"
+      ],
+      "contentHashBefore": "6764f794f5d44ea7e78673c3c3628eed5be1b908d05d821c08716679f0d6c0a9"
+    },
+    {
+      "id": "wh-1534",
+      "theme": "culture",
+      "name": "特瓦坎-奎卡特兰山谷：中部美洲的原始栖息地",
+      "routeIds": [
+        "mexico"
+      ],
+      "contentHashBefore": "85d0b3fdd1686ec91918cac0bbfb09247b23d2921b07c81db116de18e2de528f"
+    },
+    {
+      "id": "wh-1560",
+      "theme": "culture",
+      "name": "哈里发的阿尔扎哈拉古城",
+      "routeIds": [
+        "spain"
+      ],
+      "contentHashBefore": "f8ea0f73cfc80536babeb203a3ba691c51439fa505b25103530d002919d309c2"
+    },
+    {
+      "id": "wh-1501",
+      "theme": "culture",
+      "name": "Antequera Dolmens Site",
+      "routeIds": [
+        "spain"
+      ],
+      "contentHashBefore": "c2dd09fd0690b363cbdfdbd07c40c023ec039aa2be1f95f33a13f66f3fd0b31b"
+    },
+    {
+      "id": "wh-1305",
+      "theme": "culture",
+      "name": "登封 “天地之中”历史古迹",
+      "routeIds": [
+        "china"
+      ],
+      "contentHashBefore": "655af6917b3aa05eb84ab9ad4488194aae8cbc1a409fd3a9e9624bfcd8f6435a"
+    },
+    {
+      "id": "wh-1337",
+      "theme": "culture",
+      "name": "阿尔比市的主教旧城",
+      "routeIds": [
+        "france"
+      ],
+      "contentHashBefore": "2216cb6f38d34124cd5fcf051642fd096b29698644836435f9933d386a49c4ee"
+    },
+    {
+      "id": "wh-1279",
+      "theme": "culture",
+      "name": "五台山",
+      "routeIds": [
+        "china"
+      ],
+      "contentHashBefore": "dd4db1aaf1866398af61e01518a4df972b2afd9a938f4ed4260bea7821a26c7b"
+    },
+    {
+      "id": "wh-1256",
+      "theme": "culture",
+      "name": "波尔多月亮港",
+      "routeIds": [
+        "france"
+      ],
+      "contentHashBefore": "ddf0d15c1aa1a10a7e20d4e178c033089ca583a70ce59bf76e71464b91f8c610"
+    },
+    {
+      "id": "wh-1246",
+      "theme": "culture",
+      "name": "石见银山遗迹及其文化景观",
+      "routeIds": [
+        "japan"
+      ],
+      "contentHashBefore": "9465a9b0882dbd9bba39dd01ab3b554c584d2321043af7bf94372972cd760e7b"
+    },
+    {
+      "id": "wh-1250",
+      "theme": "culture",
+      "name": "墨西哥国立自治大学大学城的核心校区",
+      "routeIds": [
+        "mexico"
+      ],
+      "contentHashBefore": "4b64e154c194e74de2b99c4b25784d4f3239cfcfd43fa6f48b588c2ea5ee898f"
+    },
+    {
+      "id": "wh-1114",
+      "theme": "culture",
+      "name": "殷墟",
+      "routeIds": [
+        "china"
+      ],
+      "contentHashBefore": "005aac1fbce095c7de6af61210b4c579213745687863f296e116d72f6e761666"
+    },
+    {
+      "id": "wh-1142",
+      "theme": "culture",
+      "name": "纪伊山地的圣地与参拜道",
+      "routeIds": [
+        "japan"
+      ],
+      "contentHashBefore": "d1d88a0ffb4430fb1b848f95f9509f7d87e0d392dfff77627bdabc7593aa4666"
+    },
+    {
+      "id": "wh-1158",
+      "theme": "culture",
+      "name": "塞尔维托里和塔尔奎尼亚的伊特鲁立亚人公墓",
+      "routeIds": [
+        "italy"
+      ],
+      "contentHashBefore": "018239d68219bf77e41d88544f76f46c0ab8192b16fa04aa519e8cb4376d5f3c"
+    },
+    {
+      "id": "wh-1026",
+      "theme": "culture",
+      "name": "瓦尔•迪奥西亚公园文化景观",
+      "routeIds": [
+        "italy"
+      ],
+      "contentHashBefore": "9556ae67813df4b4cac9f4cf4f0bd9abbec128b4b3e7769a5bb68f8e63bf9884"
+    },
+    {
+      "id": "wh-1136",
+      "theme": "culture",
+      "name": "路易斯•巴拉干故居和工作室",
+      "routeIds": [
+        "mexico"
+      ],
+      "contentHashBefore": "3f45cc1821375ad45ddd89cf524325f1a0055378cd7ace1e9fa0653651af12d7"
+    },
+    {
+      "id": "wh-522",
+      "theme": "culture",
+      "name": "乌韦达和巴埃萨城文艺复兴时期的建筑群",
+      "routeIds": [
+        "spain"
+      ],
+      "contentHashBefore": "ea8b7e6ad6063423170434fac6a0a3f371c6cdbaf88442eef0c533ee11f133ac"
+    },
+    {
+      "id": "wh-954",
+      "theme": "culture",
+      "name": "圣卡特琳娜地区",
+      "routeIds": [
+        "egypt"
+      ],
+      "contentHashBefore": "35878e8bf16eb55e818f09d581ff9759f54c92e2eaeea37ba201238a452c0eb2"
+    },
+    {
+      "id": "wh-1056",
+      "theme": "culture",
+      "name": "菩提伽耶的摩诃菩提寺",
+      "routeIds": [
+        "india"
+      ],
+      "contentHashBefore": "7bf37d848234d23bf4eff88f088eee117ed36afe624d2da3d3a0c909ff314dc1"
+    },
+    {
+      "id": "wh-1025",
+      "theme": "culture",
+      "name": "提沃利城的伊斯特别墅",
+      "routeIds": [
+        "italy"
+      ],
+      "contentHashBefore": "67a1a5dce7090ffe0a2f437ce2314754a0a3a0e805da90e7674a1dda9474e5f5"
+    },
+    {
+      "id": "wh-1003",
+      "theme": "culture",
+      "name": "龙门石窟",
+      "routeIds": [
+        "china"
+      ],
+      "contentHashBefore": "78864c661b34b7af0c8089dd27d201b7b51d59b0b506c0dba1eb8ce252064e0c"
+    },
+    {
+      "id": "wh-907",
+      "theme": "culture",
+      "name": "提沃利的阿德利阿纳村庄",
+      "routeIds": [
+        "italy"
+      ],
+      "contentHashBefore": "399894cc1892f0c53ac91d0be0bb402e1d7ef20f3f9b193b3f336469ad6f392f"
+    },
+    {
+      "id": "wh-939",
+      "theme": "culture",
+      "name": "霍齐卡尔科的历史纪念区",
+      "routeIds": [
+        "mexico"
+      ],
+      "contentHashBefore": "3336f74016496bf7201624217fecb286150d9bf9e3103a4852ed244e723df4c0"
+    },
+    {
+      "id": "wh-932",
+      "theme": "culture",
+      "name": "圣艾米伦区",
+      "routeIds": [
+        "france"
+      ],
+      "contentHashBefore": "96d3986be0c251b6f4a257f0bc1370a6110661e209a26d68337fcfac096443b4"
+    },
+    {
+      "id": "wh-881",
+      "theme": "culture",
+      "name": "北京皇家祭坛—天坛",
+      "routeIds": [
+        "beijing"
+      ],
+      "contentHashBefore": "721f9d53495053ab8206859deabb7106bc4210e08b05e3321df9aa4412ece35a"
+    },
+    {
+      "id": "wh-880",
+      "theme": "culture",
+      "name": "北京皇家园林-颐和园",
+      "routeIds": [
+        "beijing"
+      ],
+      "contentHashBefore": "cbcbdfd1cfe5c2ec31a97c7992cc89c8b258f632ba786d1efd2b9242f4b3ab86"
+    },
+    {
+      "id": "wh-345",
+      "theme": "culture",
+      "name": "卡尔卡松历史城墙要塞",
+      "routeIds": [
+        "france"
+      ],
+      "contentHashBefore": "48df998b576d90f0f6b8304b96ea2561dd3961cfb504e24809b6a7294c7c1858"
+    },
+    {
+      "id": "wh-812",
+      "theme": "culture",
+      "name": "平遥古城",
+      "routeIds": [
+        "china"
+      ],
+      "contentHashBefore": "e91d63e4dcf204b94352ebeef838b2f380f041a38e8339e42fa70c64f360a27a"
+    },
+    {
+      "id": "wh-770",
+      "theme": "culture",
+      "name": "米迪运河",
+      "routeIds": [
+        "france"
+      ],
+      "contentHashBefore": "9853269877c1629c079da04e0f37872ab4f71b4b213dd30b1917cc58d1d16676"
+    },
+    {
+      "id": "wh-789",
+      "theme": "culture",
+      "name": "皮恩扎历史中心",
+      "routeIds": [
+        "italy"
+      ],
+      "contentHashBefore": "de8148161be334ffc21192c8dab1e78d4f8cd56ff0fe7dba77aca3962a8c017b"
+    },
+    {
+      "id": "wh-717",
+      "theme": "culture",
+      "name": "锡耶纳历史中心",
+      "routeIds": [
+        "italy"
+      ],
+      "contentHashBefore": "a2ce72ff9e98b50372ac568984537d2f5a98079809bc36d220aef95687a738bf"
+    },
+    {
+      "id": "wh-702",
+      "theme": "culture",
+      "name": "波波卡特佩山坡上最早的16世纪修道院",
+      "routeIds": [
+        "mexico"
+      ],
+      "contentHashBefore": "cff37992559f0833d8e1d861628f58f34fa5947784c8e349eeaccb03ffcc1c13"
+    },
+    {
+      "id": "wh-232",
+      "theme": "culture",
+      "name": "德里的胡马雍陵",
+      "routeIds": [
+        "india"
+      ],
+      "contentHashBefore": "c806dbc7fb50a1d371503f1311bd3386a9db840a9f834014353bd079f45e57bf"
+    },
+    {
+      "id": "wh-664",
+      "theme": "culture",
+      "name": "梅里达考古群",
+      "routeIds": [
+        "spain"
+      ],
+      "contentHashBefore": "24d39389c62cc05d6bd1d9cee498d9d882f3a65025322c406674df90b08e6f61"
+    },
+    {
+      "id": "wh-233",
+      "theme": "culture",
+      "name": "德里的顾特卜塔及其古建筑",
+      "routeIds": [
+        "india"
+      ],
+      "contentHashBefore": "89e0b85b9f8899a6bde4af091c2f3c77fb0a714c3c581d9785ad49f7f7259cec"
+    },
+    {
+      "id": "wh-550",
+      "theme": "culture",
+      "name": "圣吉米尼亚诺历史中心",
+      "routeIds": [
+        "italy",
+        "tuscany"
+      ],
+      "contentHashBefore": "12a831b2472ef117ac6e9c0a2c9d47621ed1ecdcb57f963ae06704bdf0672140"
+    },
+    {
+      "id": "wh-416",
+      "theme": "culture",
+      "name": "普埃布拉历史中心",
+      "routeIds": [
+        "mexico"
+      ],
+      "contentHashBefore": "0c28efc7e41cd8d45d12f19571ce598147d15a7cdc83e12b9b7504b0c49fc8c7"
+    },
+    {
+      "id": "wh-439",
+      "theme": "culture",
+      "name": "明清故宫（北京故宫、沈阳故宫）",
+      "routeIds": [
+        "beijing"
+      ],
+      "contentHashBefore": "d269b27999456e58c519e5b0dbda2c7e5678bfd3da1785855438a59bb3321592"
+    },
+    {
+      "id": "wh-441",
+      "theme": "culture",
+      "name": "秦始皇陵及兵马俑坑",
+      "routeIds": [
+        "china"
+      ],
+      "contentHashBefore": "034146ffe5b03aec82d0431e4101d1f909ff07af11848a76c8b62d471a101903"
+    },
+    {
+      "id": "wh-395",
+      "theme": "culture",
+      "name": "比萨大教堂广场",
+      "routeIds": [
+        "tuscany"
+      ],
+      "contentHashBefore": "7c5b95c7e7ff3324edb56b1e4b259eb78948f8681f478e5e5270792fa2922cb8"
+    },
+    {
+      "id": "wh-415",
+      "theme": "culture",
+      "name": "瓦哈卡历史中心与阿尔班山考古遗址",
+      "routeIds": [
+        "mexico"
+      ],
+      "contentHashBefore": "bfd6577b02a32ffc9e6db5f044ffa2ada8aba163481adbb087d1244465065eb6"
+    },
+    {
+      "id": "wh-383",
+      "theme": "culture",
+      "name": "Cathedral, Alcázar and Archivo de Indias in Seville",
+      "routeIds": [
+        "spain"
+      ],
+      "contentHashBefore": "16a612105480153765eba3a376b9bcaeff586321a87a164c0bf5d8fd59c155fe"
+    },
+    {
+      "id": "wh-255",
+      "theme": "culture",
+      "name": "法塔赫布尔西格里",
+      "routeIds": [
+        "india"
+      ],
+      "contentHashBefore": "b70c7e00884e2051fa31a056e5b2a749a1033ed6b4a3e98a5c75261160f978ce"
+    },
+    {
+      "id": "wh-240",
+      "theme": "culture",
+      "name": "卡杰拉霍建筑群",
+      "routeIds": [
+        "india"
+      ],
+      "contentHashBefore": "cf6064e90573c0905117d1e9535ddffc19f7569acadf9e94bcb7bd303b7b5fd4"
+    },
+    {
+      "id": "wh-384",
+      "theme": "culture",
+      "name": "卡塞雷斯古城",
+      "routeIds": [
+        "spain"
+      ],
+      "contentHashBefore": "bff11e72dfbb67cd6be749951b8fddfd7e02d61aca5252a2e94a962ce821a8b6"
+    },
+    {
+      "id": "wh-314",
+      "theme": "culture",
+      "name": "格拉纳达的艾勒汉卜拉、赫内拉利费和阿尔巴济",
+      "routeIds": [
+        "spain"
+      ],
+      "contentHashBefore": "389135e0d00489e16ca552b928d8f6947c90ed6b50a26141b7faa7ed8ee6b07d"
+    },
+    {
+      "id": "wh-313",
+      "theme": "culture",
+      "name": "科尔多瓦历史中心",
+      "routeIds": [
+        "spain"
+      ],
+      "contentHashBefore": "8a82dcce4e511ddafcb8bb0d9070de2ab8c131ffefff60967541ebd99c463a9b"
+    },
+    {
+      "id": "wh-251",
+      "theme": "culture",
+      "name": "阿格拉古堡",
+      "routeIds": [
+        "india"
+      ],
+      "contentHashBefore": "a34b09245bf4a4dc290f9efe2e83897ea4f172a76cd4a76819908a603981f672"
+    },
+    {
+      "id": "wh-252",
+      "theme": "culture",
+      "name": "泰姬陵",
+      "routeIds": [
+        "india"
+      ],
+      "contentHashBefore": "5c05275a5e824654ff0aba2ff6e1a4e802b5dec5d47d41d5fd484984ad6f8221"
+    },
+    {
+      "id": "wh-174",
+      "theme": "culture",
+      "name": "佛罗伦萨历史中心",
+      "routeIds": [
+        "italy",
+        "tuscany"
+      ],
+      "contentHashBefore": "9a849f0838ab6a7dbb7188985b30cf3cc2edba76a98cc9030d7c2eebd08a5219"
+    },
+    {
+      "id": "wh-90",
+      "theme": "culture",
+      "name": "阿布米那基督教遗址",
+      "routeIds": [
+        "egypt"
+      ],
+      "contentHashBefore": "2d7b98553ae0e19c83028101b37dfa9ac6fa26bd88edfa49fb3984aa01502bd5"
+    },
+    {
+      "id": "wh-87",
+      "theme": "culture",
+      "name": "底比斯古城及其墓地",
+      "routeIds": [
+        "egypt"
+      ],
+      "contentHashBefore": "b93a0db60273bd416947be1df21576c40ede408fa6479a4272d28c7e1fb6a41a"
+    },
+    {
+      "id": "wh-89",
+      "theme": "culture",
+      "name": "开罗古城",
+      "routeIds": [
+        "egypt"
+      ],
+      "contentHashBefore": "a3147c3eec07b7af7f3b2e3a18a66e9d5c795ec060035ffb6cdd28c030846378"
+    },
+    {
+      "id": "wh-88",
+      "theme": "culture",
+      "name": "阿布辛拜勒至菲莱的努比亚遗址",
+      "routeIds": [
+        "egypt"
+      ],
+      "contentHashBefore": "878bac694845c56f5796da6e2064b7091c811011634878c8752bbd649f48170b"
+    },
+    {
+      "id": "wh-85",
+      "theme": "culture",
+      "name": "韦泽尔峡谷洞穴群与史前遗迹",
+      "routeIds": [
+        "france"
+      ],
+      "contentHashBefore": "521c79a6466da3dc3ced425281095a27386cea6cc1c740efeccc78fb2d83c729"
+    },
+    {
+      "id": "np-arch",
+      "theme": "parks",
+      "name": "拱门国家公园",
+      "routeIds": [
+        "utah-five"
+      ],
+      "contentHashBefore": "db5f560b95fe9a2c4c95f2c17bbcf7a4e8ce8b5ce309fdf51f699a666ebe7d86"
+    },
+    {
+      "id": "np-blca",
+      "theme": "parks",
+      "name": "Black Canyon of the Gunnison National Park",
+      "routeIds": [
+        "rockies"
+      ],
+      "contentHashBefore": "0f84c4656b87ee583cc891e84116b6b3b69f19a1c107f0daef2c5a0a2e4b1d62"
+    },
+    {
+      "id": "np-brca",
+      "theme": "parks",
+      "name": "布莱斯峡谷国家公园",
+      "routeIds": [
+        "utah-five",
+        "utah"
+      ],
+      "contentHashBefore": "d5fb01ff6602115373291c07f4d200a72b92d1025ab9825992fe731802065276"
+    },
+    {
+      "id": "np-cany",
+      "theme": "parks",
+      "name": "峡谷地国家公园",
+      "routeIds": [
+        "utah-five"
+      ],
+      "contentHashBefore": "b3dc98dd31f93e655b3619a93747249b32ee1b54c78d154d08a4e2c5594118a3"
+    },
+    {
+      "id": "np-care",
+      "theme": "parks",
+      "name": "圆顶礁国家公园",
+      "routeIds": [
+        "utah-five",
+        "utah"
+      ],
+      "contentHashBefore": "f13607f5c6466786180ff4ac4786716553b2cc8d91cda848384a88c0c2c04950"
+    },
+    {
+      "id": "np-cave",
+      "theme": "parks",
+      "name": "Carlsbad Caverns National Park",
+      "routeIds": [
+        "winter-southwest"
+      ],
+      "contentHashBefore": "714894a26f72c2cdebb96be5c6dcd5f16ca2660bb51f13e72f61416235f72bbe"
+    },
+    {
+      "id": "np-chis",
+      "theme": "parks",
+      "name": "Channel Islands National Park",
+      "routeIds": [
+        "california"
+      ],
+      "contentHashBefore": "739f3ea1c770538207f4954aa5719bd45fe107c9b4fd9d5f75f69338cf01e29b"
+    },
+    {
+      "id": "np-cong",
+      "theme": "parks",
+      "name": "Congaree National Park",
+      "routeIds": [
+        "east"
+      ],
+      "contentHashBefore": "397f39e56d9f0958a5a4ea399c3e39a70603199fe3c676fe4cb18416b71a136b"
+    },
+    {
+      "id": "np-deva",
+      "theme": "parks",
+      "name": "死亡谷国家公园",
+      "routeIds": [
+        "winter-southwest",
+        "desert"
+      ],
+      "contentHashBefore": "9921a854b2fd23f2630a7116570eb09aaafbd275aec316846de4ce7c828809b1"
+    },
+    {
+      "id": "np-grca",
+      "theme": "parks",
+      "name": "大峡谷国家公园",
+      "routeIds": [
+        "rockies"
+      ],
+      "contentHashBefore": "0dd21143940cb913c22222dde76d478c2b74d11049fe7457a40b3b5e7c16e4fd"
+    },
+    {
+      "id": "np-grte",
+      "theme": "parks",
+      "name": "大提顿国家公园",
+      "routeIds": [
+        "wyoming"
+      ],
+      "contentHashBefore": "a0947d38533dbaa1067acf16645b720219c8916c8dffdb9d8175cec849c3fe5d"
+    },
+    {
+      "id": "np-grsa",
+      "theme": "parks",
+      "name": "Great Sand Dunes National Park",
+      "routeIds": [
+        "rockies"
+      ],
+      "contentHashBefore": "a3674163d622a019370acd77c248008a6c5cd6fbdd8defc5b019fd2c9dbbbd87"
+    },
+    {
+      "id": "np-grsm",
+      "theme": "parks",
+      "name": "Great Smoky Mountains National Park",
+      "routeIds": [
+        "east"
+      ],
+      "contentHashBefore": "a3578552566f7a2e6a57acaece1be19fb8eafabfc3d96802833bafdce3a9054a"
+    },
+    {
+      "id": "np-gumo",
+      "theme": "parks",
+      "name": "Guadalupe Mountains National Park",
+      "routeIds": [
+        "winter-southwest"
+      ],
+      "contentHashBefore": "e63dd4d3cc09574e34f99f1b1f14dbb18517bce3ce1f8e03bd8801baa7e8f0aa"
+    },
+    {
+      "id": "np-kica",
+      "theme": "parks",
+      "name": "国王峡谷国家公园",
+      "routeIds": [
+        "california"
+      ],
+      "contentHashBefore": "305d9d0eefbb088794210821ca0bfcbea659e66525ec9ef79d43a39d96133c24"
+    },
+    {
+      "id": "np-maca",
+      "theme": "parks",
+      "name": "Mammoth Cave National Park",
+      "routeIds": [
+        "east"
+      ],
+      "contentHashBefore": "5aedb76eda947bb8a4d6aab5e42e70c6cd35ee51c80cd0a5aebcfde50ab82cff"
+    },
+    {
+      "id": "np-meve",
+      "theme": "parks",
+      "name": "Mesa Verde National Park",
+      "routeIds": [
+        "rockies"
+      ],
+      "contentHashBefore": "57bf3040ec684797cd695daa84e0e49e07d37deab2ecf645f294b05f35e6ce18"
+    },
+    {
+      "id": "np-mora",
+      "theme": "parks",
+      "name": "雷尼尔山国家公园",
+      "routeIds": [
+        "pnw"
+      ],
+      "contentHashBefore": "a671c8d56911cc7d7ce819b94396f2d444b5958ffe41d15c8900afcc44f2dec9"
+    },
+    {
+      "id": "np-neri",
+      "theme": "parks",
+      "name": "New River Gorge National Park and Preserve",
+      "routeIds": [
+        "east"
+      ],
+      "contentHashBefore": "297dd488c2026feebd29a3ccbd81f41ad9804d586b4d2b26f0d227ebb57c6016"
+    },
+    {
+      "id": "np-noca",
+      "theme": "parks",
+      "name": "北喀斯喀特国家公园",
+      "routeIds": [
+        "pnw"
+      ],
+      "contentHashBefore": "db67408a884b15aaabf90b448821deee4128e8a5caa64a11cc36b2398c6751b2"
+    },
+    {
+      "id": "np-pefo",
+      "theme": "parks",
+      "name": "Petrified Forest National Park",
+      "routeIds": [
+        "rockies"
+      ],
+      "contentHashBefore": "cc27a4ed1ed1816b59bf8a45e587d42c9a8103e155954ced8ea49f64e2b39116"
+    },
+    {
+      "id": "np-pinn",
+      "theme": "parks",
+      "name": "Pinnacles National Park",
+      "routeIds": [
+        "california"
+      ],
+      "contentHashBefore": "2cc8492568354f09f96dd74c638a3ad08926027a23217aa1c53076cc33d1e413"
+    },
+    {
+      "id": "np-redw",
+      "theme": "parks",
+      "name": "红杉木国家公园",
+      "routeIds": [
+        "california"
+      ],
+      "contentHashBefore": "4e4cb94d06db313155229a1187d441e364c0bd2130ae7c5e3415f327e55f1d7b"
+    },
+    {
+      "id": "np-romo",
+      "theme": "parks",
+      "name": "Rocky Mountain National Park",
+      "routeIds": [
+        "rockies"
+      ],
+      "contentHashBefore": "101c50ca7c2b6c8de43e186abd79c6ffe30b36bb18c680d3f8a2c0850bc8b4f8"
+    },
+    {
+      "id": "np-sagu",
+      "theme": "parks",
+      "name": "Saguaro National Park",
+      "routeIds": [
+        "winter-southwest"
+      ],
+      "contentHashBefore": "f1372c0d3adf799740d7491dc2b4ed3ada65800ca53c030b595208c62d14e5fe"
+    },
+    {
+      "id": "np-seki",
+      "theme": "parks",
+      "name": "红杉国家公园",
+      "routeIds": [
+        "california"
+      ],
+      "contentHashBefore": "9500433d75513e78993c6a412074e5d959129514f6c259e4937f8a5fce5d4ab0"
+    },
+    {
+      "id": "np-shen",
+      "theme": "parks",
+      "name": "Shenandoah National Park",
+      "routeIds": [
+        "east"
+      ],
+      "contentHashBefore": "7a820a8ac62caa2454aec2b5afaa68fc16ea8990f9fea8f8cdd56bf87c678020"
+    },
+    {
+      "id": "np-whsa",
+      "theme": "parks",
+      "name": "White Sands National Park",
+      "routeIds": [
+        "winter-southwest"
+      ],
+      "contentHashBefore": "47b3d57e04041563e5b008da4f53bab6a78cd6a4149775de9ed783fba9e10b8c"
+    },
+    {
+      "id": "np-yell",
+      "theme": "parks",
+      "name": "黄石国家公园",
+      "routeIds": [
+        "wyoming"
+      ],
+      "contentHashBefore": "d55bc88eddf565ba13cc871f615cad6dcbe9b05c90c55f53af58f4f229331375"
+    },
+    {
+      "id": "np-yose",
+      "theme": "parks",
+      "name": "优胜美地国家公园",
+      "routeIds": [
+        "california"
+      ],
+      "contentHashBefore": "d4eb229a9665de677e6697bfc8739da4a04577a2dc3dea479767eb667d8a800e"
+    },
+    {
+      "id": "np-zion",
+      "theme": "parks",
+      "name": "锡安国家公园",
+      "routeIds": [
+        "utah-five",
+        "utah"
+      ],
+      "contentHashBefore": "37c1b1f18eda16fc523d7777fb7883d395441f2ee0b906c29e60d6f5eda9db6b"
+    }
+  ]
+}

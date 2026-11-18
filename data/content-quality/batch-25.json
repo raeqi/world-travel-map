@@ -1,0 +1,588 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-25",
+  "baseline": "18baf9e421ecfd7eb113add6b25b3fc2d282e259",
+  "checked": "2026-11-18",
+  "scope": "Seventeen remaining existing visible culture itinerary contexts: Spain8,Mexico7, SaintCatherine andMahabodhi. Selected UNESCO OUV plus UNAM/foundation readings support landscape/engineering, urban/religious space, art/material and living traditions. No new records, images or travel routes; no field visit or all-site factual certification.",
+  "sources": {
+    "cq25-1560": {
+      "title": "UNESCO：麦地那阿萨哈拉：宫城之外的道路与供水",
+      "url": "https://whc.unesco.org/en/list/1560/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read OUV roads/hydraulics, palace excavations, bufferquarries/munya, long burial and conservation. No terraces not present in this source, exact excavated percentage or intact standing city claim."
+    },
+    "cq25-1501": {
+      "title": "UNESCO：安特克拉：巨石墓室与远处山形",
+      "url": "https://whc.unesco.org/en/list/1501/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read lintels/falsecupola and specific Menga/ElRomeral mountain orientations; avoid conflicting Bronze/Copper date shorthand, universal orientation and sacred belief as proven fact."
+    },
+    "cq25-522": {
+      "title": "UNESCO：乌韦达与巴埃萨：两座小城的不同文艺复兴",
+      "url": "https://whc.unesco.org/en/list/522/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read OUV civic/noble vs ecclesiastic/educational functions,squares,ElSalvador,palace/cathedral/seminary/university. Omit dubious university1970s detail and Andrea/Alonso authorship confusion."
+    },
+    "cq25-664": {
+      "title": "UNESCO：梅里达：剧场、竞技场与罗马城市供给",
+      "url": "https://whc.unesco.org/en/list/664/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read theatre/amphitheatre/circus/bridge/water systems andRomanprovincialcapital; clarify distinct forms, no moderncircustranslation, alloriginalfabric or fixed modern walkingroute."
+    },
+    "cq25-383": {
+      "title": "UNESCO：塞维利亚：宣礼塔、宫殿与跨洋档案",
+      "url": "https://whc.unesco.org/en/list/383/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read Giralda minaret, palace/cathedral layers andLonja1585/Archives1785. Avoid largest ranking, old incorrect Chinese temple/auctionhall/WestIndies-only renderings; no live exhibition guarantee."
+    },
+    "cq25-384": {
+      "title": "UNESCO：卡塞雷斯：城防塔楼与贵族住宅的层次",
+      "url": "https://whc.unesco.org/en/list/384/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read OUV noblefactions,fortresshouses/granitepalaces andBujacomodification; no unsupported cistern details, translated Roman/Romanesque conflation or allMuslimtowerdate."
+    },
+    "cq25-314": {
+      "title": "UNESCO：格拉纳达：宫廷水景与对面山丘的居住街巷",
+      "url": "https://whc.unesco.org/en/list/314/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read OUV water/epigraphy/plaster/wood/ceramics, Albayzin streetlayers andgardeningperiods. No claim all unchanged Nasridfabric or current ticket/access promise."
+    },
+    "cq25-313": {
+      "title": "UNESCO：科尔多瓦：双层拱、庭院与持续改造的城市",
+      "url": "https://whc.unesco.org/en/list/313/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read OUV doublearches/stonebrick, 8–10C extensions,1236and16C changes,patiohouses andriverboundaries. Omit incorrect BlueMosque1588/ranking, simplistic13Cpalaceattribution andprivateaccessclaims."
+    },
+    "cq25-1534": {
+      "title": "UNESCO：特瓦坎—奎卡特兰：仙人掌地景与用水的创造",
+      "url": "https://whc.unesco.org/en/list/1534/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read UNESCO mixedsite,cactus/agave/yucca communities, reservevsinscribedcomponents andwater/crop/ceramic/salttechnologies. Omit questionable70%worldflorafamilies statement andabsoluteoldestrankings."
+    },
+    "cq25-1250": {
+      "title": "UNESCO：墨西哥大学城：公共空间里的建筑与壁画",
+      "url": "https://whc.unesco.org/en/list/1250/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read UNESCO collective modernistcampus/plasticintegration; UNAMspecialist articleforO Gormanwork/material/fourfacades. Do not attribute allmurals toRivera or imply preHispanicoriginalart."
+    },
+    "cq25-1136": {
+      "title": "UNESCO：巴拉干住宅：从室内看光、颜色与花园",
+      "url": "https://whc.unesco.org/en/list/1136/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read UNESCO light/colour/materials/evolvinghouse; foundationgardenandwestwindowalterations. Avoid copying neighbouringCasaOrtega depth statement into this property or treating modifications as damage."
+    },
+    "cq25-939": {
+      "title": "UNESCO：霍齐卡尔科：阶地、羽蛇浮雕与城市防御",
+      "url": "https://whc.unesco.org/en/list/939/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read OUV terracedhills/threelevels/ballcourts, serpentreliefs/interpretations,cistern andquarry-observatorylayers. No singleethnicorigin assertion or live solar-demonstration claim."
+    },
+    "cq25-702": {
+      "title": "UNESCO：波波卡特佩特山麓：露天礼拜与社区水源",
+      "url": "https://whc.unesco.org/en/list/702/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read OUV atrium/posachapels/openchapel/cloister/hydraulics andnativecraft/colonisation. No blanketpristinecondition/currentearthquakerecoveryclaim, exactcomponentcountunnecessary."
+    },
+    "cq25-416": {
+      "title": "UNESCO：普埃布拉：从花砖街屋到宗教建筑",
+      "url": "https://whc.unesco.org/en/list/416/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read description cathedral16–17C,oldarchbishoppalace,azulejohouses andlocalBaroque. Do not use exnihilo to erase priorregionalinhabitation or claim everytile authentic/unrestored."
+    },
+    "cq25-415": {
+      "title": "UNESCO：瓦哈卡与阿尔班山：城市方格与被改造的山顶",
+      "url": "https://whc.unesco.org/en/list/415/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read OUV distinctsites,grid/plaza/thicklowseismicarchitecture, engineeredterraces/ballcourt/tombs/inscribedreliefs. Omit disputedOlmecoccupationsequence, erroneousJuarezbirthplace andunsupported single abandonmentcause."
+    },
+    "cq25-954": {
+      "title": "UNESCO：圣凯瑟琳：山地修院、图像与朝圣路径",
+      "url": "https://whc.unesco.org/en/list/954/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read OUV6Cfunction/walls/collections/Mosespathgates/summitmosquechapel; distinguish belief andarchaeology, omit oldest ranking/conflictingSpanish5C andliveaccess."
+    },
+    "cq25-1056": {
+      "title": "UNESCO：摩诃菩提寺：砖塔、金刚座与持续的朝圣",
+      "url": "https://whc.unesco.org/en/list/1056/",
+      "checked": "2026-11-18",
+      "method": "Read selected description/EnglishOUV; original paraphrase, no image reuse. Read OUV brickniches/Vajrasana/Bodhitree/ambulatory/votivestupas andextensive19–20Crestoration. Separate Asoka/currentfabric, treeclaimeddescent andbelief, culturecontext vs preexistingBuddhistcontext."
+    },
+    "cq25-unam-mural": {
+      "title": "UNAM：奥戈尔曼中央图书馆壁画的材料与图像",
+      "url": "https://www.dgcs.unam.mx/boletin/bdboletin/2022_1013.html",
+      "checked": "2026-11-18",
+      "method": "Read art historian RitaEder material/fourfacade iconography. Omit exact mural completion dates conflictingwithotheruniversitypage, no image reuse."
+    },
+    "cq25-barragan-garden": {
+      "title": "巴拉干住宅基金会：花园与园侧窗的改动",
+      "url": "https://casaluisbarragan.org/lacasa/jardin.html",
+      "checked": "2026-11-18",
+      "method": "Read garden evolution andinterior-ledwindow adjustments; omit CasaOrtega neighbouringgarden sentence andspeculativeexact25cmcause. No current access/photo guarantee."
+    }
+  },
+  "readings": [
+    {
+      "id": "wh-1560",
+      "theme": "culture",
+      "title": "麦地那阿萨哈拉：宫城之外的道路与供水",
+      "summary": "麦地那阿萨哈拉是科尔多瓦哈里发在10世纪营造的新城遗址，宫廷建筑与道路、供水和日常器物共同留下城市线索。可以从墙体平面读公共与生活空间，再把外围渠道、采石与乡间设施放回地景；完整城市遗址不等于完整建筑仍立在地上。",
+      "catalogueDescription": "麦地那阿萨哈拉是科尔多瓦哈里发在10世纪营造的新城遗址，宫廷建筑与道路、供水和日常器物共同留下城市线索。可以从墙体平面读公共与生活空间，再把外围渠道、采石与乡间设施放回地景；完整城市遗址不等于完整建筑仍立在地上。",
+      "paragraphs": [
+        {
+          "heading": "把遗构看作城市网络",
+          "text": "宫城只是古城的一部分。看道路如何进入建筑组群、供水设施怎样服务城市，再结合出土装饰与器物，可以把政治中心与日常生活联系起来；这些关系比仅凭一段宫殿立面想象繁荣更具体。",
+          "sourceKeys": [
+            "cq25-1560"
+          ]
+        },
+        {
+          "heading": "分清埋藏、发掘与保护",
+          "text": "城市在11世纪初破坏后长期被掩埋，20世纪以来的发掘与加固逐步揭示其空间。资料说明外围仍有道路、渠道、采石场和乡间别墅遗迹，不能把未发掘部分画成已能游览的复原城区。",
+          "sourceKeys": [
+            "cq25-1560"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-1560"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1501",
+      "theme": "culture",
+      "title": "安特克拉：巨石墓室与远处山形",
+      "summary": "安特克拉将门加、维埃拉和埃尔罗梅拉尔三座史前墓葬，与情人岩、托尔卡尔山形一起列入遗产。可比较巨石过梁与叠涩穹顶的不同做法，再看门加和罗梅拉尔的朝向如何联系地景；墓葬不是与周围山地无关的孤立石室。",
+      "catalogueDescription": "安特克拉将门加、维埃拉和埃尔罗梅拉尔三座史前墓葬，与情人岩、托尔卡尔山形一起列入遗产。可比较巨石过梁与叠涩穹顶的不同做法，再看门加和罗梅拉尔的朝向如何联系地景；墓葬不是与周围山地无关的孤立石室。",
+      "paragraphs": [
+        {
+          "heading": "抬头比较两种屋顶",
+          "text": "门加、维埃拉以大石块和过梁组织墓室，罗梅拉尔采用叠涩形成的假穹顶。连同外覆土冢一起看，能理解结构如何跨越空间，以及看似山丘的外观背后所需的规划与搬运。",
+          "sourceKeys": [
+            "cq25-1501"
+          ]
+        },
+        {
+          "heading": "从入口看向山地",
+          "text": "门加与罗梅拉尔分别朝向情人岩、托尔卡尔等重要山形。可以以这一观察关系重新看人工建筑与自然轮廓；山的神圣含义属于考古解释，不应把所有墓室都归为同一种日出朝向或同一个精确仪式。",
+          "sourceKeys": [
+            "cq25-1501"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-1501"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-522",
+      "theme": "culture",
+      "title": "乌韦达与巴埃萨：两座小城的不同文艺复兴",
+      "summary": "乌韦达和巴埃萨在较早城市格局上引入文艺复兴空间，但两城重点不同：前者突出贵族宫殿和纪念礼拜堂，后者更重宗教与教育。比较瓦斯克斯·德·莫利纳广场和圣玛丽亚广场，能看到同一地区不同城市功能的表达。",
+      "catalogueDescription": "乌韦达和巴埃萨在较早城市格局上引入文艺复兴空间，但两城重点不同：前者突出贵族宫殿和纪念礼拜堂，后者更重宗教与教育。比较瓦斯克斯·德·莫利纳广场和圣玛丽亚广场，能看到同一地区不同城市功能的表达。",
+      "paragraphs": [
+        {
+          "heading": "乌韦达看宫殿与纪念建筑",
+          "text": "瓦斯克斯·德·莫利纳广场周围的宫殿及救世主葬礼礼拜堂，把贵族赞助、公共空间和宗教纪念联系起来。观察广场围合、入口与石作细节，比把两城合称一座文艺复兴古城更准确。",
+          "sourceKeys": [
+            "cq25-522"
+          ]
+        },
+        {
+          "heading": "巴埃萨看宗教与教育",
+          "text": "圣玛丽亚广场、主教座堂、旧神学院和大学体现另一组城市功能。两地都有伊斯兰时期以来的城市层次及后来的文艺复兴改造；它们是不同城市，历史建筑的现用途也不代表全部室内始终向游客开放。",
+          "sourceKeys": [
+            "cq25-522"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-522"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-664",
+      "theme": "culture",
+      "title": "梅里达：剧场、竞技场与罗马城市供给",
+      "summary": "梅里达的罗马遗存分散在现代城市里，剧场、圆形竞技场、赛车竞技场、跨河桥与供水系统各有不同用途。将表演空间与交通、水道联系起来，比只把一座遗迹看作古罗马全貌更能理解行省首府如何支撑居民和大型公共活动。",
+      "catalogueDescription": "梅里达的罗马遗存分散在现代城市里，剧场、圆形竞技场、赛车竞技场、跨河桥与供水系统各有不同用途。将表演空间与交通、水道联系起来，比只把一座遗迹看作古罗马全貌更能理解行省首府如何支撑居民和大型公共活动。",
+      "paragraphs": [
+        {
+          "heading": "比较三种公共娱乐空间",
+          "text": "剧场、圆形竞技场和长形赛车竞技场并非同一种建筑。先比较舞台、观众席与场地形状，再想它们如何组织不同活动和人流，能避免把英文circus误解为现代巡回马戏团。",
+          "sourceKeys": [
+            "cq25-664"
+          ]
+        },
+        {
+          "heading": "再读城市的桥与水",
+          "text": "瓜迪亚纳河上的桥和供水工程提示城市运作所需的交通与水源。它们与表演建筑共同解释奥古斯塔埃梅里塔作为卢西塔尼亚首府的规模；现存构件经历修护，多个遗产点也不等于一处连续完整的露天复原城。",
+          "sourceKeys": [
+            "cq25-664"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-664"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-383",
+      "theme": "culture",
+      "title": "塞维利亚：宣礼塔、宫殿与跨洋档案",
+      "summary": "塞维利亚遗产把主教座堂、王宫和印度总档案馆放在同一城市核心。希拉尔达塔的旧宣礼塔传统、宫殿中的多期营造，以及商人交易建筑转为档案馆的经历，共同呈现宗教、王权与殖民贸易；Indias也不只指西印度群岛。",
+      "catalogueDescription": "塞维利亚遗产把主教座堂、王宫和印度总档案馆放在同一城市核心。希拉尔达塔的旧宣礼塔传统、宫殿中的多期营造，以及商人交易建筑转为档案馆的经历，共同呈现宗教、王权与殖民贸易；Indias也不只指西印度群岛。",
+      "paragraphs": [
+        {
+          "heading": "从旧塔与宫殿看多期建筑",
+          "text": "希拉尔达原有宣礼塔与后来主教座堂的关系，提示城市建筑的转用。王宫同样跨越多个时期，不能只因装饰带有伊斯兰传统，就把全部空间都归给同一位穆斯林统治者或一个世纪。",
+          "sourceKeys": [
+            "cq25-383"
+          ]
+        },
+        {
+          "heading": "交易建筑为何成为档案馆",
+          "text": "旧Lonja是商人交易与商人团体所用建筑，1785年转为印度总档案馆，保存西班牙与美洲等地关系的殖民时期文献。应把建筑用途、历史文献与当代可见展览分开，不能把档案馆理解成拍卖厅或只收藏初次到达美洲的记录。",
+          "sourceKeys": [
+            "cq25-383"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-383"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-384",
+      "theme": "culture",
+      "title": "卡塞雷斯：城防塔楼与贵族住宅的层次",
+      "summary": "卡塞雷斯的城墙、塔楼、设防住宅和宫邸共同构成旧城。它们反映不同统治阶段，也反映14至16世纪地方家族的竞争；可从布哈科塔与墙体材料看改建，再沿街比较朴素住宅和贵族建筑，不把所有塔都视为同一期原物。",
+      "catalogueDescription": "卡塞雷斯的城墙、塔楼、设防住宅和宫邸共同构成旧城。它们反映不同统治阶段，也反映14至16世纪地方家族的竞争；可从布哈科塔与墙体材料看改建，再沿街比较朴素住宅和贵族建筑，不把所有塔都视为同一期原物。",
+      "paragraphs": [
+        {
+          "heading": "先看城墙怎样被接续",
+          "text": "不同设计和材料记录了较早城防、伊斯兰时期强化及基督教时期改动。布哈科塔也经历后世修改，不能仅凭塔楼的防御外观就断定它完整保留某一个年代；墙线与城门提供比较各层次的线索。",
+          "sourceKeys": [
+            "cq25-384"
+          ]
+        },
+        {
+          "heading": "宫邸也是权力空间",
+          "text": "旧城内的设防住宅、塔楼与花岗岩宫邸表现贵族家族的力量，附近又有教堂、隐修场所和普通房屋。将哥特与文艺复兴建筑放回街巷关系，能够看到城市由多方势力逐步塑造，而非一套统一年代的布景。",
+          "sourceKeys": [
+            "cq25-384"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-384"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-314",
+      "theme": "culture",
+      "title": "格拉纳达：宫廷水景与对面山丘的居住街巷",
+      "summary": "阿尔罕布拉、赫内拉利费与阿尔拜辛分属宫廷、防御、园林和居住空间。可先读水、植物、石膏装饰与阿拉伯文字如何组织宫廷体验，再看另一山丘的窄巷、院落和后世建筑；遗产不只是一座红色宫殿。",
+      "catalogueDescription": "阿尔罕布拉、赫内拉利费与阿尔拜辛分属宫廷、防御、园林和居住空间。可先读水、植物、石膏装饰与阿拉伯文字如何组织宫廷体验，再看另一山丘的窄巷、院落和后世建筑；遗产不只是一座红色宫殿。",
+      "paragraphs": [
+        {
+          "heading": "近看水与会说话的装饰",
+          "text": "宫殿和花园把水景、植物、几何纹样、木作、陶饰与石膏装饰结合。阿拉伯铭文联系宗教、政治与诗意，不能只当抽象花纹；庭园也有文艺复兴及近现代阶段，并非全部景物均为纳斯里德时期原状。",
+          "sourceKeys": [
+            "cq25-314"
+          ]
+        },
+        {
+          "heading": "换到居住山丘看城市",
+          "text": "阿尔拜辛的曲折街巷与后来的广场、住宅和宗教建筑并存。把它与宫廷花园对读，可以比较民居、生活用水和王室休憩的不同尺度；两山丘组成的遗产不是一组可凭同一门票随意穿行的宫殿房间。",
+          "sourceKeys": [
+            "cq25-314"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-314"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-313",
+      "theme": "culture",
+      "title": "科尔多瓦：双层拱、庭院与持续改造的城市",
+      "summary": "科尔多瓦大清真寺—主教座堂的双层拱与后来的基督教空间，呈现同一建筑中长期改变的用途。遗产还延伸至河岸、桥、王宫与街巷庭院；可把石与砖的结构、家屋中的水和植物一起阅读，看到宗教核心之外的城市生活。",
+      "catalogueDescription": "科尔多瓦大清真寺—主教座堂的双层拱与后来的基督教空间，呈现同一建筑中长期改变的用途。遗产还延伸至河岸、桥、王宫与街巷庭院；可把石与砖的结构、家屋中的水和植物一起阅读，看到宗教核心之外的城市生活。",
+      "paragraphs": [
+        {
+          "heading": "双层拱既是视觉也是结构",
+          "text": "支撑屋顶的双层拱把石与砖结合，是理解大清真寺空间的重要线索。连续扩建及后来置入的主教座堂，使今天建筑跨越不同阶段，不能把所有可见拱、穹顶和礼拜空间归为同一次营建。",
+          "sourceKeys": [
+            "cq25-313"
+          ]
+        },
+        {
+          "heading": "从宗教核心走向庭院和河岸",
+          "text": "传统casa-patio住宅围绕内院，水与植物参与日常生活；河岸、罗马桥和卡拉奥拉塔则提示城市交通与防御。相关建筑多次改造，不用单一君主/世纪解释整组遗产，也不把私人庭院都当常年开放的景点。",
+          "sourceKeys": [
+            "cq25-313"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-313"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1534",
+      "theme": "culture",
+      "title": "特瓦坎—奎卡特兰：仙人掌地景与用水的创造",
+      "summary": "特瓦坎—奎卡特兰把柱状仙人掌、龙舌兰等旱地群落，与植物利用、驯化和水管理遗迹放在同一地景。看植物适应环境，再把渠道、水井、梯田和坝体联系起来，能理解自然多样性与长期人类创造怎样共同支撑生活。",
+      "catalogueDescription": "特瓦坎—奎卡特兰把柱状仙人掌、龙舌兰等旱地群落，与植物利用、驯化和水管理遗迹放在同一地景。看植物适应环境，再把渠道、水井、梯田和坝体联系起来，能理解自然多样性与长期人类创造怎样共同支撑生活。",
+      "paragraphs": [
+        {
+          "heading": "先比较旱地植物的形态",
+          "text": "柱状仙人掌林与龙舌兰、丝兰和不同灌丛构成多样的旱地景观。关注高度、叶形和群落分布，可以避免把干旱地区想成没有生命的空地；遗产位于更大的生物圈保护区之内，两者边界不能简单等同。",
+          "sourceKeys": [
+            "cq25-1534"
+          ]
+        },
+        {
+          "heading": "水与植物把生活接到环境",
+          "text": "渠道、井、渡槽、坝与梯田体现持续适应有限水源的技术，植物驯化和野生植物利用又与农业、陶器和盐业联系。不同遗迹分布于多个片区，观察建议不等于承诺每项古代设施如今均完整可入。",
+          "sourceKeys": [
+            "cq25-1534"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-1534"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1250",
+      "theme": "culture",
+      "title": "墨西哥大学城：公共空间里的建筑与壁画",
+      "summary": "墨西哥国立自治大学核心校区把校舍、体育场、开敞地和艺术纳入共同规划。中央图书馆外墙的奥戈尔曼壁画可以近读材料与历史图像，再回到步行空间与学习生活；这是持续使用的大学，现代主义与本土传统在这里互相回应。",
+      "catalogueDescription": "墨西哥国立自治大学核心校区把校舍、体育场、开敞地和艺术纳入共同规划。中央图书馆外墙的奥戈尔曼壁画可以近读材料与历史图像，再回到步行空间与学习生活；这是持续使用的大学，现代主义与本土传统在这里互相回应。",
+      "paragraphs": [
+        {
+          "heading": "从图书馆的四面读作品",
+          "text": "胡安·奥戈尔曼的《文化的历史表现》覆盖中央图书馆四面外墙，主要使用不同天然色彩的石材。北面涉及前西班牙时期，南面呈现殖民历史，另两面联系现代世界与大学；这是20世纪作品中的历史解释，不是古代原物。",
+          "sourceKeys": [
+            "cq25-1250",
+            "cq25-unam-mural"
+          ]
+        },
+        {
+          "heading": "把艺术放回大学日常",
+          "text": "校舍、体育设施、开放空间与交通系统共同服务教育，壁画不只是贴在建筑上的装饰。先从外部比较墙面、体量和公共场地，再看具体作品的位置与作者；校园有教学与管理要求，历史介绍不等于保证所有室内均可进入。",
+          "sourceKeys": [
+            "cq25-1250"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-1250",
+        "cq25-unam-mural"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1136",
+      "theme": "culture",
+      "title": "巴拉干住宅：从室内看光、颜色与花园",
+      "summary": "巴拉干住宅与工作室在小尺度中结合现代空间和墨西哥居住传统。颜色、材料、光线与花园的关系，比单拍一面亮色墙更能说明设计；园侧窗的改动还记录建筑师如何从居住者的视线出发持续调整空间。",
+      "catalogueDescription": "巴拉干住宅与工作室在小尺度中结合现代空间和墨西哥居住传统。颜色、材料、光线与花园的关系，比单拍一面亮色墙更能说明设计；园侧窗的改动还记录建筑师如何从居住者的视线出发持续调整空间。",
+      "paragraphs": [
+        {
+          "heading": "从光与材料看空间",
+          "text": "住宅的色彩并非独立涂层，而与墙面、材料、光线及开口相互作用。将生活房间和小花园一起阅读，可以理解这座私人住宅为何影响后来园林与公共空间设计，而不把它当成任意可以替换颜色的拍照背景。",
+          "sourceKeys": [
+            "cq25-1136"
+          ]
+        },
+        {
+          "heading": "窗户记录了怎样生活",
+          "text": "基金会说明，园侧窗从室内使用关系出发设计，外立面仍有改动痕迹；花园也从较规整的草地发展为更自由的植物空间。这些变化属于建筑师的探索，不必被当成失修。探访房间与拍摄规则应查现行预约说明。",
+          "sourceKeys": [
+            "cq25-1136",
+            "cq25-barragan-garden"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-1136",
+        "cq25-barragan-garden"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-939",
+      "theme": "culture",
+      "title": "霍齐卡尔科：阶地、羽蛇浮雕与城市防御",
+      "summary": "霍齐卡尔科利用山丘、挡土墙、阶地和坡道组织城市，政治、宗教与贸易空间相连。可以从低处入口读到高处广场，再近看羽蛇金字塔浮雕及水设施；不同地区艺术因素的交汇，不能简单化为一种文明在这里完整复制另一种。",
+      "catalogueDescription": "霍齐卡尔科利用山丘、挡土墙、阶地和坡道组织城市，政治、宗教与贸易空间相连。可以从低处入口读到高处广场，再近看羽蛇金字塔浮雕及水设施；不同地区艺术因素的交汇，不能简单化为一种文明在这里完整复制另一种。",
+      "paragraphs": [
+        {
+          "heading": "从低处向上读空间层级",
+          "text": "防御性入口、住宅、中部广场、球场与高处纪念建筑通过台阶、坡道和阶地连接。巨大的挡土工程把自然山丘变为可用平台，说明选址和城市组织都与控制通行、资源及公共活动有关。",
+          "sourceKeys": [
+            "cq25-939"
+          ]
+        },
+        {
+          "heading": "近看羽蛇与水设施",
+          "text": "羽蛇金字塔以高浮雕表现蛇身、坐姿人物和历法符号，人物身份属于考古解释。雨水蓄水设施与遍布城址的供水系统，则把宏大建筑接回日常供给；不把洞穴历史用途当成当前必有观测演示或可进入保证。",
+          "sourceKeys": [
+            "cq25-939"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-939"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-702",
+      "theme": "culture",
+      "title": "波波卡特佩特山麓：露天礼拜与社区水源",
+      "summary": "山麓修道院群的特色不只是厚墙教堂，而是前庭、露天礼拜堂、游行小礼拜堂与修院之间的关系。可从建筑和开敞地的比例读传教与殖民时代的社会重组，再看装饰、壁画和引水设施中的地方劳动与传统。",
+      "catalogueDescription": "山麓修道院群的特色不只是厚墙教堂，而是前庭、露天礼拜堂、游行小礼拜堂与修院之间的关系。可从建筑和开敞地的比例读传教与殖民时代的社会重组，再看装饰、壁画和引水设施中的地方劳动与传统。",
+      "paragraphs": [
+        {
+          "heading": "先在前庭读礼仪空间",
+          "text": "较大的前庭把教堂、露天礼拜堂及沿边分布的posa小礼拜堂联结起来。比较室内单一中殿与外部集会空间，能理解这里的礼拜为什么不能只按欧洲封闭教堂的平面来想象。",
+          "sourceKeys": [
+            "cq25-702"
+          ]
+        },
+        {
+          "heading": "修道院也组织了社区生活",
+          "text": "修院围绕内院，外围水工从山地引水供社区使用；本土文化也出现在开敞礼拜、装饰与壁画之中。系列遗产分布多地，曾有后世用途变化和修护，资料中的完整评价不能代替当前震后状态或开放核实。",
+          "sourceKeys": [
+            "cq25-702"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-702"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-416",
+      "theme": "culture",
+      "title": "普埃布拉：从花砖街屋到宗教建筑",
+      "summary": "普埃布拉的街屋花砖、主教座堂与宫邸共同形成老城面貌。可比较瓷砖怎样覆盖住宅立面、与门窗及石作配合，再看较大宗教空间和街路组织；欧洲与美洲工艺交汇在具体材料里，不能只用巴洛克一词替代所有建筑差别。",
+      "catalogueDescription": "普埃布拉的街屋花砖、主教座堂与宫邸共同形成老城面貌。可比较瓷砖怎样覆盖住宅立面、与门窗及石作配合，再看较大宗教空间和街路组织；欧洲与美洲工艺交汇在具体材料里，不能只用巴洛克一词替代所有建筑差别。",
+      "paragraphs": [
+        {
+          "heading": "在街屋上比较花砖与石作",
+          "text": "带釉花砖azulejos出现在许多住宅外墙，门窗、石材和砖饰一起形成街道节奏。把普通房屋与大型宗教建筑对照，可以看到装饰技术如何进入日常居住，而不只属于单一纪念建筑。",
+          "sourceKeys": [
+            "cq25-416"
+          ]
+        },
+        {
+          "heading": "不同尺度也有不同营造阶段",
+          "text": "16至17世纪的主教座堂与周围宫邸、街区不是一项同时完工的工程。欧洲与当地传统的结合需要从材料和构件细看；历史中心也延续后来城市生活，不应把1531年殖民建城简化为整个地区此前无人居住。",
+          "sourceKeys": [
+            "cq25-416"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-416"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-415",
+      "theme": "culture",
+      "title": "瓦哈卡与阿尔班山：城市方格与被改造的山顶",
+      "summary": "这组遗产包含瓦哈卡历史中心与阿尔班山考古区两个不同地点。城内方格街路、拱廊及低厚建筑，与山顶阶地、广场、球场和刻石形成对照；自然山形、地震环境与多期人类营造都参与了今天可读的空间。",
+      "catalogueDescription": "这组遗产包含瓦哈卡历史中心与阿尔班山考古区两个不同地点。城内方格街路、拱廊及低厚建筑，与山顶阶地、广场、球场和刻石形成对照；自然山形、地震环境与多期人类营造都参与了今天可读的空间。",
+      "paragraphs": [
+        {
+          "heading": "城内看广场、街路和建筑尺度",
+          "text": "瓦哈卡由中央广场组织方格街区，厚墙与较低建筑回应地震环境。沿街比较拱廊、住宅和宗教建筑，可以把殖民规划与持续生活联系起来；这种历史适应并不意味着建筑在当代地震中没有风险或无需修护。",
+          "sourceKeys": [
+            "cq25-415"
+          ]
+        },
+        {
+          "heading": "山顶看开挖与填筑的工程",
+          "text": "阿尔班山的阶地、台基和礼仪广场经过大量地形改造，球场、墓葬与带文字的浮雕提供不同使用线索。它与瓦哈卡城并非一个时代或同一空间，不能把山顶遗构称作殖民城市建筑，也不简单照抄单线民族接替史。",
+          "sourceKeys": [
+            "cq25-415"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-415"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-954",
+      "theme": "culture",
+      "title": "圣凯瑟琳：山地修院、图像与朝圣路径",
+      "summary": "圣凯瑟琳地区将拜占庭时期修院、手稿与圣像收藏，和西奈山地的宗教路径联系起来。可看围墙怎样容纳持续的修道生活，再读山路上的门拱与小堂遗迹；摩西受诫属于信仰传统，不能当作独立考古核实的事件。",
+      "catalogueDescription": "圣凯瑟琳地区将拜占庭时期修院、手稿与圣像收藏，和西奈山地的宗教路径联系起来。可看围墙怎样容纳持续的修道生活，再读山路上的门拱与小堂遗迹；摩西受诫属于信仰传统，不能当作独立考古核实的事件。",
+      "paragraphs": [
+        {
+          "heading": "从围墙读修院与山地关系",
+          "text": "修院在崎岖山地中以围墙保护建筑群，6世纪的创建传统与后世多次修改共同构成现状。手稿和圣像提示建筑之外的知识与礼拜生活，但馆藏存在不代表每件珍品始终公开展示。",
+          "sourceKeys": [
+            "cq25-954"
+          ]
+        },
+        {
+          "heading": "路径上的遗存也是阅读对象",
+          "text": "通向山顶的摩西之路保有门拱、小堂遗存，山顶又有清真寺与小堂。它们帮助理解多种信仰如何联系同一山地；这些历史关联不能替代当日登山、宗教空间进入和交通安排的核实。",
+          "sourceKeys": [
+            "cq25-954"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-954"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1056",
+      "theme": "culture",
+      "title": "摩诃菩提寺：砖塔、金刚座与持续的朝圣",
+      "summary": "摩诃菩提寺将砖构主殿、金刚座、菩提树及周围纪念性小塔组织成朝圣空间。可以先辨主塔的壁龛与层次，再看不同圣迹如何联系佛教觉悟传统；早期创建、5至6世纪主体与19世纪以来修复需分别理解。",
+      "catalogueDescription": "摩诃菩提寺将砖构主殿、金刚座、菩提树及周围纪念性小塔组织成朝圣空间。可以先辨主塔的壁龛与层次，再看不同圣迹如何联系佛教觉悟传统；早期创建、5至6世纪主体与19世纪以来修复需分别理解。",
+      "paragraphs": [
+        {
+          "heading": "看砖构怎样形成主塔",
+          "text": "主殿从装饰基座、佛像壁龛逐层升向塔身，小塔与入口又改变近处的观看尺度。阿育王时期的早期营造并不等于今天整个砖塔都保存为公元前原物，现存主体有后来的修护与重整。",
+          "sourceKeys": [
+            "cq25-1056"
+          ]
+        },
+        {
+          "heading": "围绕圣迹理解朝圣",
+          "text": "金刚座、主殿西侧菩提树、经行处和供养塔，把佛陀觉悟后的传统叙述落实为空间序列。树的传承与各处圣迹应按信仰和纪念理解，不能把当前树体说成未经更替的原树；礼拜秩序也不同于任意取景的游乐场。",
+          "sourceKeys": [
+            "cq25-1056"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq25-1056"
+      ],
+      "related": []
+    }
+  ]
+}

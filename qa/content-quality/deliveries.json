@@ -334,6 +334,152 @@
         "Viewed actual desktop panda habitat and mobile Keoladeo screenshots; corrected full catalogue displays checked. Existing map-label density not certified resolved.",
         "No physical phone, on-site visit or exhaustive factual verification of all catalogue contexts."
       ]
+    },
+    {
+      "batch": 19,
+      "pr": 45,
+      "mainCommit": "93a53bd1a6139d65836a2a54c9cab9034316d840",
+      "headCommit": "87628f9bdfa846f290806b3d8668a96fecf20f43",
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 269,
+        "detailChecks": 538,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 148,
+        "artifactId": 14462552310,
+        "zipSha256": "c14ce510c2684f6a0c43b00c1319c2e6dfc136612ebdd71fd7221e76169c11de",
+        "libraryFileId": "libfile_fde3_f-fcf3badc41b88191ac982e2793e3735e_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "mainCommit": "93a53bd1a6139d65836a2a54c9cab9034316d840",
+        "run": 44382691523,
+        "release": "a430cd09e6c0ebc1b6d6",
+        "actualAssetBytesMatched": 54,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Actual PNGs sampled after ZIP SHA/CRC/name validation; not manual inspection of every screenshot or all-site factual verification.",
+        "No new images or coordinate changes; existing map label density not certified resolved."
+      ],
+      "ciEvidence": "Six exact-head workflows succeeded; individual head run identifiers are retained in PR45. This recorded run is deployment only."
+    },
+    {
+      "batch": 20,
+      "pr": 46,
+      "mainCommit": "4b5c595f1ede8095d433d0ec71ce0b9bdaa20ca4",
+      "headCommit": "0191bbaa8d024fb41d9a20357370d462d4f149f4",
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 287,
+        "detailChecks": 574,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 184,
+        "artifactId": 14465174673,
+        "zipSha256": "64d4728f6c53ce5029ffc258aab2094dd48b7e47d0f0d89d92ca5aee1b053f98",
+        "libraryFileId": "libfile_fde3_f-0aa97b19725881919fb80a085e32d385_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "mainCommit": "4b5c595f1ede8095d433d0ec71ce0b9bdaa20ca4",
+        "run": 44390155034,
+        "release": "414065c22d39f8a3710a",
+        "actualAssetBytesMatched": 54,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Actual PNGs sampled after ZIP SHA/CRC/name validation; not manual inspection of every screenshot or all-site factual verification.",
+        "No new images or coordinate changes; existing map label density not certified resolved."
+      ],
+      "ciRuns": [
+        44386237943,
+        44386237960,
+        44386237956,
+        44386237942,
+        44386237944
+      ]
+    },
+    {
+      "batch": 21,
+      "pr": 47,
+      "mainCommit": "20022882bd08a128c255e815a619698191ec63cd",
+      "headCommit": "b9dd89266fb1a70ecaae58ebb66ac191a72aca4a",
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 300,
+        "detailChecks": 600,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 210,
+        "artifactId": 14466157949,
+        "zipSha256": "6a9c9fe458df590e7ea0078db83333d123cd8e1cd4fbf866963bbc357eae7833",
+        "libraryFileId": "libfile_fde3_f-283c68876170819195de7d5e6c69f98f_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "mainCommit": "20022882bd08a128c255e815a619698191ec63cd",
+        "run": 44390928333,
+        "release": "961bef0bc5d002635737",
+        "actualAssetBytesMatched": 54,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Actual PNGs sampled after ZIP SHA/CRC/name validation; not manual inspection of every screenshot or all-site factual verification.",
+        "No new images or coordinate changes; existing map label density not certified resolved."
+      ],
+      "ciRuns": [
+        44386278523,
+        44386278500,
+        44386278504,
+        44386278539,
+        44386278543
+      ]
+    },
+    {
+      "batch": 22,
+      "pr": 48,
+      "mainCommit": "7549e0cfba7ae2770bf700b5b9e0f07324cbfd32",
+      "headCommit": "364afa3f75766b6a425568a7b11301d9fd1b09c5",
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 310,
+        "detailChecks": 620,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 230,
+        "artifactId": 14467069679,
+        "zipSha256": "c9b3da6e6ecd156b14a4ec481ded6c294a439ba65039ca73daa775976f6cc011",
+        "libraryFileId": "libfile_fde3_f-1de22acd09e08191bb04204916a57f11_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "mainCommit": "7549e0cfba7ae2770bf700b5b9e0f07324cbfd32",
+        "run": 44393571768,
+        "release": "9189c5fc37683e4458d0",
+        "actualAssetBytesMatched": 54,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Actual PNGs sampled after ZIP SHA/CRC/name validation; not manual inspection of every screenshot or all-site factual verification.",
+        "No new images or coordinate changes; existing map label density not certified resolved."
+      ],
+      "ciRuns": [
+        44388359121,
+        44388358942,
+        44388358695,
+        44388358784,
+        44388359052
+      ]
     }
   ]
 }
