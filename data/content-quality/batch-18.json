@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-18",
+  "baseline": "68186178bbaea9e1b9cfd1fdb383525c04a441e4",
+  "checked": "2026-11-18",
+  "scope": "Six existing Japanese World Heritage culture contexts used in recommended Japan/Kansai itineraries, each receiving its first dedicated reading. Distinguish Genbaku Dome from the surrounding Peace Memorial Park, burial mounds from modern aerial presentations, old timber from later repair and palace reconstruction, and distributed Kyoto components. No imagery, raw records, coordinates or itinerary topology changed. Developed on the checked PR43 content; merge after its verified delivery.",
+  "sources": {
+    "cq18-hiroshima-wh": {
+      "title": "UNESCO：原爆圆顶馆的遗产边界与加固保存",
+      "url": "https://whc.unesco.org/en/list/775/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read English OUV, integrity and authenticity. The Chinese summary incorrectly calls the whole Peace Memorial Park the surviving building; property is the Dome ruins, park is within buffer zone. English OUV construction year 1914 differs from Hiroshima municipality completion April 1915; use city source for completion. Ruin underwent reinforcement, not untouched since 1945. Avoid claiming it was the only surviving structure across all Hiroshima."
+    },
+    "cq18-hiroshima-city": {
+      "title": "广岛市：原爆前的物产陈列馆",
+      "url": "https://www.city.hiroshima.lg.jp/english/peace/1029869/1009929.html",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read construction, structure and changing uses. City states Czech architect Jan Letzel and completion April 1915; use that precise scope instead of UNESCO English 1914. No present museum access or live opening claims."
+    },
+    "cq18-himeji-wh": {
+      "title": "UNESCO：姬路城的木构、防御与修缮",
+      "url": "https://whc.unesco.org/en/list/661/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read English description and OUV/integrity. Short description says 83 buildings, OUV says 82; omit disputed count instead of arbitrarily certifying one. Preserve catalogue raw description but replace displayed full summary. No claim every timber untouched."
+    },
+    "cq18-himeji-craft": {
+      "title": "姬路城官方解说：木架、白灰与防御设施",
+      "url": "https://www.himejicastle.jp/en/guide/history/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read Under the Skin, Defenses, Wooden Frames and Plaster. Distinguish load-bearing timber frame from wall surface; white lime plaster helps fire resistance, not absolute fireproofing. West Bailey loopholes, stone-dropping openings and protected gates are specific features. Website reconstruction models mix map-based plots with artistic buildings, not photographic evidence."
+    },
+    "cq18-himeji-repair": {
+      "title": "姬路市：2026—2027年保存修缮公告",
+      "url": "https://www.city.himeji.lg.jp/castle/0000033820.html",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read July 30 2026 dated municipal notice: planned early July 2026 to late July 2027, scaffolding around listed towers/gates, partial visitor-route narrowing. Date-bound plan, not live completion certification; do not extrapolate whole castle closure."
+    },
+    "cq18-kofun-wh": {
+      "title": "UNESCO：百舌鸟—古市古坟的形制与系列遗产",
+      "url": "https://whc.unesco.org/en/list/1593/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read English OUV: 45 components contain 49 tombs, middle Kofun late 4th–late 5th centuries; full Kofun period broader. Separate funerary inference and traditional imperial designation from individually demonstrated occupant identity. No aerial image reuse."
+    },
+    "cq18-sakai-exhibition": {
+      "title": "堺市：古坟形制、埴轮与现场观看",
+      "url": "https://www.city.sakai.lg.jp/kanko/rekishi/sei/kohun_otozureru/vizitor_center_english.html",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read municipal exhibition text, shapes, ritual stage, haniwa and walking sections. Some mounds can be entered and others not: do not claim all closed or all climbable. Museum explanations are distinct from in-situ objects. No opening-hour promises."
+    },
+    "cq18-sakai-visitor": {
+      "title": "堺市：百舌鸟古坟群访客中心",
+      "url": "https://www.city.sakai.lg.jp/kanko/rekishi/sei/kohun_otozureru/mozukofungun_visitorcenter.html",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read aerial film/projection and model sections and dated closure notice. 2026 Dec 21–23 planned temporary closure, Dec 24 planned reopening; avoid permanent-hours claim or advertising that event as ongoing. Cinema projections/models not ancient artefacts or aerial viewpoint access."
+    },
+    "cq18-horyuji-wh": {
+      "title": "UNESCO：法隆寺地区木构与建筑年代",
+      "url": "https://whc.unesco.org/en/list/660/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read OUV and structure section: post-and-lintel/brackets, entasis, late7th/8th surviving structures, early original complex remains. Do not call all48 structures surviving from607. Temple site presents nuances in 670 fire debate; no simplistic assertion all present wood is foundation-period fabric."
+    },
+    "cq18-horyuji-jnto": {
+      "title": "日本国家旅游局：法隆寺与法起寺",
+      "url": "https://www.japan.travel/en/world-heritage/buddhist-monuments-in-the-horyu-ji-area/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read dedicated heritage passages (not generic navigation). Two temples, living religious practice, 670 fire account and reconstruction, Hokiji three-storey pagoda completed706. Do not copy inaccurate station/train directions or certify current access. Horyuji own introduction fetch timed out; not relied upon as a fully read page."
+    },
+    "cq18-nara-wh": {
+      "title": "UNESCO：古奈良八处遗产与保存方式",
+      "url": "https://whc.unesco.org/en/list/870/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read eight components, gridded capital, five temples, Kasuga shrine/forest, palace archaeology; authenticity explicitly discusses reconstruction, reburial and routine shrine renewal. Do not claim every visible building is untouched8thcentury, or forest pristine without human religious stewardship."
+    },
+    "cq18-nara-park": {
+      "title": "平城宫迹历史公园：大极殿与复原解说",
+      "url": "https://www.heijo-park.jp/en/area/daigokuden/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read Former Imperial Audience Hall Compound, reconstruction information and materials/tools display. Current site title says under reconstruction; avoid claiming all compound completed. Historical hall function vs modern reconstruction separate; no live hours written."
+    },
+    "cq18-kyoto-wh": {
+      "title": "UNESCO：京都、宇治与大津的十七处遗产",
+      "url": "https://whc.unesco.org/en/list/688/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read seventeen distributed components, ten–seventeenth century buildings/gardens, religious sites exceptNijoCastle, authenticity through selective documented repair. Otsu is a city, not one castle. Do not depict wholeKyoto as inscribed or all794fabric."
+    },
+    "cq18-ryoanji-city": {
+      "title": "京都市观光协会：龙安寺石庭",
+      "url": "https://ja.kyoto.travel/tourism/single01.php?category_id=7&tourism_id=482",
+      "checked": "2026-11-18",
+      "method": "Read selected primary institutional passages; concise original paraphrase, no image reuse or field visit. Read Japanese description of flat dry garden, fifteen stones, gravel and earthen walls. English counterpart contains conflicting founder lifespan1561–1628 next to1450foundation; omitted that chronology, used Japanese page for physical observations. Do not assign one unproven designer or definitive symbolism. No photo reuse or guaranteed uncrowded viewing."
+    }
+  },
+  "readings": [
+    {
+      "id": "wh-775",
+      "theme": "culture",
+      "title": "广岛：原爆圆顶馆与和平纪念公园分别看",
+      "summary": "世界遗产的核心是原广岛县产业奖励馆的原爆圆顶遗存，周围和平纪念公园属于更大的纪念空间。砖墙残部、裸露穹顶骨架和原址位置，保存了1945年8月6日核爆毁坏建筑的证据。",
+      "catalogueDescription": "世界遗产的核心是原广岛县产业奖励馆的原爆圆顶遗存，周围和平纪念公园属于更大的纪念空间。砖墙残部、裸露穹顶骨架和原址位置，保存了1945年8月6日核爆毁坏建筑的证据。",
+      "paragraphs": [
+        {
+          "heading": "先辨认这座建筑原来的用途",
+          "text": "广岛市记载，捷克建筑师扬·莱茨尔设计的物产陈列馆于1915年4月竣工，曾用于产品展示、商工咨询和文化活动，后来改称产业奖励馆。比较残墙与旧照，能理解它曾是城市日常生活的一部分。",
+          "sourceKeys": [
+            "cq18-hiroshima-city"
+          ]
+        },
+        {
+          "heading": "遗址保存与纪念空间各有边界",
+          "text": "从外围围栏外观察圆顶和砖墙，再阅读公园的纪念设施，分别理解毁损实物与战后纪念。遗存曾用钢材和树脂作最低限度加固；保存的是受毁形态，并非八十多年没有维护。",
+          "sourceKeys": [
+            "cq18-hiroshima-wh"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq18-hiroshima-city",
+        "cq18-hiroshima-wh"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-661",
+      "theme": "culture",
+      "title": "姬路城：白色外观里藏着木架和防御",
+      "summary": "姬路城以17世纪初的天守群、连廊、城门、石垣和堀构成层层防御。白色石灰抹面兼顾防火与外观；承重主体仍是柱梁木架，登城时可以把漂亮轮廓与建造办法一起看。",
+      "catalogueDescription": "姬路城以17世纪初的天守群、连廊、城门、石垣和堀构成层层防御。白色石灰抹面兼顾防火与外观；承重主体仍是柱梁木架，登城时可以把漂亮轮廓与建造办法一起看。",
+      "paragraphs": [
+        {
+          "heading": "从城门到天守，看空间怎样组织防守",
+          "text": "城门与石墙、陡坡、橹相互配合；西之丸连廊的射孔和落石口，让不同方向的防御成为可见细节。进入木构内部后再看柱梁与墙体的关系，比只拍远处的“白鹭”轮廓多一层理解。",
+          "sourceKeys": [
+            "cq18-himeji-wh",
+            "cq18-himeji-craft"
+          ]
+        },
+        {
+          "heading": "白墙需要不断修护",
+          "text": "石灰抹面保护木构，瓦顶、土墙与木材各需不同工艺。姬路市2026年7月公告列出至2027年7月前后的计划修缮，部分区域有脚手架、通道收窄；行前应看同一官方页面更新，按开放区安排观察。",
+          "sourceKeys": [
+            "cq18-himeji-craft",
+            "cq18-himeji-repair"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq18-himeji-wh",
+        "cq18-himeji-craft",
+        "cq18-himeji-repair"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1593",
+      "theme": "culture",
+      "title": "百舌鸟—古市：从护濠和模型看懂古坟",
+      "summary": "大阪的百舌鸟与古市两组墓冢，以前方后圆、帆立贝、圆和方形等不同形制，表现古坟时代中期精英的权力与丧葬礼仪。地面所见的树丘、护濠与空中完整轮廓，是不同尺度的观察。",
+      "catalogueDescription": "大阪的百舌鸟与古市两组墓冢，以前方后圆、帆立贝、圆和方形等不同形制，表现古坟时代中期精英的权力与丧葬礼仪。地面所见的树丘、护濠与空中完整轮廓，是不同尺度的观察。",
+      "paragraphs": [
+        {
+          "heading": "先比较形状，再看礼仪器物",
+          "text": "遗产包括49座古坟；墩丘规模、几何形制和排列的埴轮共同表达身份。埴轮有圆筒及人物、房屋等形象，可结合展览理解当时的衣着与生活；传统帝陵名称与已证实的墓主人身份应分别阅读。",
+          "sourceKeys": [
+            "cq18-kofun-wh",
+            "cq18-sakai-exhibition"
+          ]
+        },
+        {
+          "heading": "地面散步与空中影像互相补充",
+          "text": "沿允许通行的外围看护濠、水面和相邻小古坟，再到访客中心用航拍投影与模型辨认整体形状。有些墳丘可进入，另一些属受限区域，应逐处看标识；中心的模型和投影也不是墓上原存的古代器物。",
+          "sourceKeys": [
+            "cq18-sakai-exhibition",
+            "cq18-sakai-visitor"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq18-kofun-wh",
+        "cq18-sakai-exhibition",
+        "cq18-sakai-visitor"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-660",
+      "theme": "culture",
+      "title": "法隆寺地区：从柱与斗栱读早期木构",
+      "summary": "法隆寺地区遗产涵盖法隆寺与法起寺，部分现存建筑可追至7世纪末和8世纪。看柱身曲线、斗栱与屋瓦的承重关系，可以认识佛教建筑经东亚传播后形成的具体做法；创寺年代与眼前木构年代需要分开。",
+      "catalogueDescription": "法隆寺地区遗产涵盖法隆寺与法起寺，部分现存建筑可追至7世纪末和8世纪。看柱身曲线、斗栱与屋瓦的承重关系，可以认识佛教建筑经东亚传播后形成的具体做法；创寺年代与眼前木构年代需要分开。",
+      "paragraphs": [
+        {
+          "heading": "抬头看屋顶重量怎样落到柱上",
+          "text": "柱梁和复杂斗栱将瓦顶重量传向木柱，柱身的收分与云形斗栱又形成鲜明轮廓。可在允许的观看位置比较金堂、塔和回廊的构架节奏，理解相近材料如何组织出不同空间。",
+          "sourceKeys": [
+            "cq18-horyuji-wh"
+          ]
+        },
+        {
+          "heading": "两座寺院有不同的时间层",
+          "text": "法隆寺经历火灾记载与后续重建，法起寺现存三重塔于706年完成。两处都是持续宗教生活的场所，观察应尊重礼拜与开放边界；遗产列名下的建筑并非全都来自同一年。",
+          "sourceKeys": [
+            "cq18-horyuji-wh",
+            "cq18-horyuji-jnto"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq18-horyuji-wh",
+        "cq18-horyuji-jnto"
+      ],
+      "related": [
+        "wh-870"
+      ]
+    },
+    {
+      "id": "wh-870",
+      "theme": "culture",
+      "title": "古奈良：寺院、宫迹与神圣森林各读一层",
+      "summary": "古奈良遗产的八个部分包括平城宫迹、五座佛寺、春日大社与春日山原始林。它们分别呈现8世纪都城规划、宗教空间和受保护的山林；今天看见的建筑也包含历代修缮及现代复原。",
+      "catalogueDescription": "古奈良遗产的八个部分包括平城宫迹、五座佛寺、春日大社与春日山原始林。它们分别呈现8世纪都城规划、宗教空间和受保护的山林；今天看见的建筑也包含历代修缮及现代复原。",
+      "paragraphs": [
+        {
+          "heading": "宫殿遗址与复原大殿分别理解",
+          "text": "平城京以规整路网组织宫殿、寺院与居住区。到宫迹先读遗址范围，再用复原的大极殿及复原事业信息馆的材料、工具和工法展示理解国家仪式空间；复原建筑帮助认识尺度，地下遗构则常重新覆土保护。",
+          "sourceKeys": [
+            "cq18-nara-wh",
+            "cq18-nara-park"
+          ]
+        },
+        {
+          "heading": "从礼拜建筑延伸到山林",
+          "text": "东大寺、兴福寺等寺院与春日大社体现不同宗教传统，春日山林又与神社信仰及长期禁猎禁伐联系。把寺社维护和山林保护一起看，能够理解自然环境怎样成为都城文化的一部分。",
+          "sourceKeys": [
+            "cq18-nara-wh"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq18-nara-wh",
+        "cq18-nara-park"
+      ],
+      "related": [
+        "wh-660"
+      ]
+    },
+    {
+      "id": "wh-688",
+      "theme": "culture",
+      "title": "古京都：跨三个城市看木构与庭园",
+      "summary": "这项系列遗产分布在京都、宇治和大津，包含17个组成部分，绝大多数是寺社，另有二条城。不同年代的木构、庭园与修缮传统共同构成古都面貌，应按区域选择参访，而不是把整座京都当一处遗址。",
+      "catalogueDescription": "这项系列遗产分布在京都、宇治和大津，包含17个组成部分，绝大多数是寺社，另有二条城。不同年代的木构、庭园与修缮传统共同构成古都面貌，应按区域选择参访，而不是把整座京都当一处遗址。",
+      "paragraphs": [
+        {
+          "heading": "庭园里的空白也值得慢慢看",
+          "text": "龙安寺方丈庭园以白砂、15块石和三面土墙组织一个平坦的枯山水空间。可在指定观看处留意石群间距、砂面与墙的比例；庭园意义适合开放地理解，不必把一个象征说法当唯一历史结论。",
+          "sourceKeys": [
+            "cq18-ryoanji-city"
+          ]
+        },
+        {
+          "heading": "今天的古都来自多代营建与维护",
+          "text": "遗产建筑和庭园跨越多个世纪，保护包括依据调查更换受损构件，而非让木材停止老化。京都、宇治与大津各有独立的参访区域；同一系列的地图点只作代表定位，具体寺社应分别核对入口。",
+          "sourceKeys": [
+            "cq18-kyoto-wh"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq18-ryoanji-city",
+        "cq18-kyoto-wh"
+      ],
+      "related": [
+        "wh-870"
+      ]
+    }
+  ]
+}
