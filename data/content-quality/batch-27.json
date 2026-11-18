@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-27",
+  "baseline": "191c3430bd46c3da08b9cf7d003a57d2b9704e49",
+  "checked": "2026-11-18",
+  "scope": "Eight existing visible Alaska park catalogue contexts without expanded reading. Geologic processes, coastal/river ecology and living Indigenous/industrial landscapes; no new places, routes, media or coordinate changes. Not field verification.",
+  "sources": {
+    "cq27-dena-1": {
+      "title": "NPS：山脉抬升、冰川与滑坡",
+      "url": "https://www.nps.gov/dena/learn/nature/denali.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read tectonic uplift, glacier sculpting and roadside landslide traces. No current road opening, summit naming dispute or fixed glacier extent adopted."
+    },
+    "cq27-dena-2": {
+      "title": "NPS：动态河道与道路生态",
+      "url": "https://www.nps.gov/dena/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read braided glacial rivers and research on traffic/wildlife; not a wildlife viewing guarantee."
+    },
+    "cq27-gaar-1": {
+      "title": "NPS：Arrigetch花岗岩与冰川地貌",
+      "url": "https://www.nps.gov/gaar/learn/nature/geology.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read granite intrusion/uplift, surrounding schist and glacier landforms; no fossil collecting or unqualified whole-park rock age."
+    },
+    "cq27-gaar-2": {
+      "title": "NPS：布鲁克斯山脉与原住民知识",
+      "url": "https://www.nps.gov/gaar/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read north Arctic Circle Brooks Range and Koyukon/Inupiaq nature-culture relationship. Species list explicitly as of2015, not current census."
+    },
+    "cq27-glba-1": {
+      "title": "NPS：退冰岸线与植被演替",
+      "url": "https://www.nps.gov/glba/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read succession gradient only; omit colonial discovered framing, fixed ice distances and unchanged present glacier positions."
+    },
+    "cq27-glba-2": {
+      "title": "NPS：Xunaa Shuká Hít与祖地",
+      "url": "https://www.nps.gov/glba/learn/historyculture/huna-tribal-house-project.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read 2016dedication, collaborative house design, clan art and living homeland relation; no promise of event schedule or building access."
+    },
+    "cq27-katm-1": {
+      "title": "NPS：1912喷发、火山口与万烟谷",
+      "url": "https://www.nps.gov/katm/learn/nature/valley-of-ten-thousand-smokes.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read Novarupta vent versus MtKatmai summit collapse, Ukak valley deposits, local displacement and mostly cooled fumaroles by1930s. No assertion that ten thousand vents still steam."
+    },
+    "cq27-kefj-1": {
+      "title": "NPS：冰原、海洋风暴与植被演替",
+      "url": "https://www.nps.gov/kefj/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read ocean storm/icefield relationship and exposed land succession; omit fixed38glaciers and all-glaciers same behavior."
+    },
+    "cq27-kefj-2": {
+      "title": "NPS：U形谷、擦痕和冰碛",
+      "url": "https://www.nps.gov/kefj/learn/nature/glaciers.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read erosional/depositional forms and ExitGlacier example; omit inaccurate pressure-melting simplification and current trail/ice edge access."
+    },
+    "cq27-kova-1": {
+      "title": "NPS：冰期砂源与沙丘边缘演替",
+      "url": "https://www.nps.gov/kova/learn/nature/great-kobuk-sand-dunes.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read glacier grinding/wind transport, plant stabilization and caribou tracks; not a desert climate label or current transport/safety prescription."
+    },
+    "cq27-kova-2": {
+      "title": "NPS：Onion Portage与当代生计",
+      "url": "https://www.nps.gov/kova/learn/historyculture/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read continued Iñupiat subsistence at KobukRiver/OnionPortage; omit conflicting8000/10000year absolute duration and current migration guarantees."
+    },
+    "cq27-lacl-1": {
+      "title": "NPS：鲑鱼、水域和两列山脉交会",
+      "url": "https://www.nps.gov/lacl/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read salmon estuary-lake/stream connection, habitats and Iliamna/Redoubt; no guarantee of wildlife, volcano activity or flight conditions."
+    },
+    "cq27-lacl-2": {
+      "title": "NPS：Qizhjeh Vena与Dena’ina地名",
+      "url": "https://www.nps.gov/lacl/learn/historyculture/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read original lake name and continued food/cultural relationship; do not reduce region to historic newcomer cabin or freeze communities in past."
+    },
+    "cq27-wrst-1": {
+      "title": "NPS：拼接地体与持续抬升的山脉",
+      "url": "https://www.nps.gov/wrst/learn/nature/geology.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read transported terranes, multiple mountain ranges and continuing tectonics. Omit unsupported continent percentage, superlatives and live hazard status."
+    },
+    "cq27-wrst-2": {
+      "title": "NPS：肯尼科特矿山、选矿城镇与铁路",
+      "url": "https://www.nps.gov/wrst/learn/historyculture/kennecott-mines-national-historic-landmark.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read mines vs milltown,1911–1938operations, machinery and rail-connected world. Omit booster richest/best framing and present building access promises."
+    }
+  },
+  "readings": [
+    {
+      "id": "np-dena",
+      "theme": "parks",
+      "title": "德纳里：山脉、冰川与分汊河流怎样相连",
+      "summary": "德纳里的观看重点可以从雪峰延伸到山脚：构造抬升形成阿拉斯加山脉，冰川塑造谷地，融水再携带泥沙铺开分汊河道。留意裸岩、滑坡痕迹与河床形态，比只等一张晴天山峰照更能理解这里仍在变化的地景。",
+      "catalogueDescription": "德纳里的观看重点可以从雪峰延伸到山脚：构造抬升形成阿拉斯加山脉，冰川塑造谷地，融水再携带泥沙铺开分汊河道。留意裸岩、滑坡痕迹与河床形态，比只等一张晴天山峰照更能理解这里仍在变化的地景。",
+      "paragraphs": [
+        {
+          "heading": "从山脉读到谷地",
+          "text": "板块作用抬升和挤压地体形成山脉，冰川随后刻蚀其间；公园道路沿线也能读到滑坡和地面滑塌的痕迹。山峰轮廓、谷地与松散坡面体现不同地质过程，不是一次事件同时完成的景观。",
+          "sourceKeys": [
+            "cq27-dena-1"
+          ]
+        },
+        {
+          "heading": "河床与道路都在生态里",
+          "text": "冰川供水的分汊河流、移动的冰体和滑坡说明地表并不静止。道路本身也是研究对象：NPS考察车流如何影响野生动物行为；沿路观看时，河床和植被同样值得注意，而动物不能按清单保证出现。",
+          "sourceKeys": [
+            "cq27-dena-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq27-dena-1",
+        "cq27-dena-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-gaar",
+      "theme": "parks",
+      "title": "北极之门：布鲁克斯山脉的岩峰与生活土地",
+      "summary": "北极之门位于北极圈以北的布鲁克斯山脉，尖峰、谷地和湖泊留下抬升与冰川的叠加痕迹。Arrigetch花岗岩峰与周围片岩形成可辨对照；这里也一直是Koyukon与Iñupiaq人的生活土地，不能只当一片没有人的荒野。",
+      "catalogueDescription": "北极之门位于北极圈以北的布鲁克斯山脉，尖峰、谷地和湖泊留下抬升与冰川的叠加痕迹。Arrigetch花岗岩峰与周围片岩形成可辨对照；这里也一直是Koyukon与Iñupiaq人的生活土地，不能只当一片没有人的荒野。",
+      "paragraphs": [
+        {
+          "heading": "岩峰并不都由同种岩石组成",
+          "text": "Arrigetch峰的花岗岩来自地下岩浆冷却，抬升后覆盖岩层被侵蚀，周围则可见不同成因的片岩带。冰川再雕刻尖峰、山脊和湖盆，遗留沉积物帮助理解冰退，而不是把所有裸岩都解释为冰川本身形成。",
+          "sourceKeys": [
+            "cq27-gaar-1"
+          ]
+        },
+        {
+          "heading": "自然知识与在地生活一起阅读",
+          "text": "NPS说明Koyukon与Iñupiaq人的自然和文化紧密相连，在地知识与科学研究共同帮助认识生态关系。将山水当作仍有人生活和使用的土地来理解，比“从未有人到过”的想象更接近这里。",
+          "sourceKeys": [
+            "cq27-gaar-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq27-gaar-1",
+        "cq27-gaar-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-glba",
+      "theme": "parks",
+      "title": "冰川湾：退冰后的森林与Huna Łingít祖地",
+      "summary": "冰川湾可沿岸线比较退冰后不同阶段的植被：湾口较成熟的云杉、铁杉林，与近冰端较年轻的地表形成对照。Bartlett Cove的Xunaa Shuká Hít部落会堂又把Huna Łingít社群与祖地联系起来，让冰与人的历史一同进入视野。",
+      "catalogueDescription": "冰川湾可沿岸线比较退冰后不同阶段的植被：湾口较成熟的云杉、铁杉林，与近冰端较年轻的地表形成对照。Bartlett Cove的Xunaa Shuká Hít部落会堂又把Huna Łingít社群与祖地联系起来，让冰与人的历史一同进入视野。",
+      "paragraphs": [
+        {
+          "heading": "把岸线看成退冰后的时间剖面",
+          "text": "湾口较早摆脱冰层，森林有更长生长时间；向冰川方向，植被通常更矮小、年轻，接近冰面则是新裸露地表。它们展示生态演替的阶段差异，不代表每条冰川退缩速度相同，也不能据旧图推断今日冰缘位置。",
+          "sourceKeys": [
+            "cq27-glba-1"
+          ]
+        },
+        {
+          "heading": "会堂是仍在使用的祖地联系",
+          "text": "2016年落成的Xunaa Shuká Hít由Hoonah Indian Association与NPS合作推进。门面、室内屏风和氏族柱的雕刻彩绘传递Łingít历史与价值；会堂也承载聚会、传承和工艺学习，不能只看作静态民俗展品。",
+          "sourceKeys": [
+            "cq27-glba-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq27-glba-1",
+        "cq27-glba-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-katm",
+      "theme": "parks",
+      "title": "卡特迈：在万烟谷区分喷发、塌陷与余热",
+      "summary": "卡特迈不仅是观熊目的地，1912年喷发形成的万烟谷也值得独立理解。实际喷口在Novarupta，约十公里外的卡特迈山顶因地下岩浆抽离而塌陷；谷中浮石与火山灰、旧喷气孔的变色沉积，共同记录这场改变居民生活的事件。",
+      "catalogueDescription": "卡特迈不仅是观熊目的地，1912年喷发形成的万烟谷也值得独立理解。实际喷口在Novarupta，约十公里外的卡特迈山顶因地下岩浆抽离而塌陷；谷中浮石与火山灰、旧喷气孔的变色沉积，共同记录这场改变居民生活的事件。",
+      "paragraphs": [
+        {
+          "heading": "喷口和塌陷火山口是两处地点",
+          "text": "1912年岩浆从Novarupta喷出，卡特迈山顶则因岩浆系统变化而塌陷。比较这两个名字，有助避免把山顶湖误认成所有火山灰喷出的原口；Ukak河谷厚厚的浮石与灰来自喷发中的高温碎屑流和涌流。",
+          "sourceKeys": [
+            "cq27-katm-1"
+          ]
+        },
+        {
+          "heading": "万烟之名保留的是历史现场",
+          "text": "原本有灌丛、苔原和Alutiiq人往来的谷地，喷发后遍布热灰与浮石，居民也被迫离开家园。多数喷气孔在1930年代前后随余热消散冷却，如今彩色蚀变沉积和残留喷气孔的烟囱状沉积比“万孔仍在喷烟”的想象更值得辨认。",
+          "sourceKeys": [
+            "cq27-katm-1"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq27-katm-1"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-kefj",
+      "theme": "parks",
+      "title": "基奈峡湾：从哈丁冰原读到岩面擦痕",
+      "summary": "基奈峡湾由哈丁冰原向山谷和海岸流出的冰川塑形，北太平洋带来的水汽又参与补给冰雪。除了远看冰舌与峡湾，也可比较U形谷、岩面擦痕、冰碛和新裸露地表的植物，让海洋、冰和陆地的联系变得具体。",
+      "catalogueDescription": "基奈峡湾由哈丁冰原向山谷和海岸流出的冰川塑形，北太平洋带来的水汽又参与补给冰雪。除了远看冰舌与峡湾，也可比较U形谷、岩面擦痕、冰碛和新裸露地表的植物，让海洋、冰和陆地的联系变得具体。",
+      "paragraphs": [
+        {
+          "heading": "大尺度谷形与小尺度擦痕",
+          "text": "冰川侵蚀塑成陡壁、较平谷底的U形谷，冻结在冰中的砂石又在基岩上留下细小擦痕。Exit Glacier一带是NPS解释这些现象的例子；冰碛则是冰与融水搬运、堆积碎屑的另一类结果，不能都称作侵蚀。",
+          "sourceKeys": [
+            "cq27-kefj-2"
+          ]
+        },
+        {
+          "heading": "裸地与幼小植物提示退冰过程",
+          "text": "海洋风暴为冰原提供降雪，冰退后岩石逐渐露出，植物开始定居。把成熟植被、初生群落与裸岩相互对照，能看见冰川变化如何延伸为生态变化；这些关系比只记录一条冰缘的位置更耐读。",
+          "sourceKeys": [
+            "cq27-kefj-1"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq27-kefj-2",
+        "cq27-kefj-1"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-kova",
+      "theme": "parks",
+      "title": "科伯克谷：北极沙丘、河流与驯鹿迁徙",
+      "summary": "科伯克谷的沙丘来自冰川研磨的砂，经风搬运聚积在谷地里，并非沙漠气候的证明。比较流动沙面与林缘怎样互相推进，再把科伯克河和Onion Portage的Iñupiat生计放回画面，能看见地形、迁徙和生活之间的联系。",
+      "catalogueDescription": "科伯克谷的沙丘来自冰川研磨的砂，经风搬运聚积在谷地里，并非沙漠气候的证明。比较流动沙面与林缘怎样互相推进，再把科伯克河和Onion Portage的Iñupiat生计放回画面，能看见地形、迁徙和生活之间的联系。",
+      "paragraphs": [
+        {
+          "heading": "冰川留下砂，风与植物接着塑形",
+          "text": "冰期周围山地的冰川把岩石磨成细砂，风将砂送入谷地。沙丘边缘草本和苔藓、地衣、灌木先后定居，进一步稳定砂面并为林木创造条件；脚印与植被边界提供比“北极里的撒哈拉”更具体的观察。",
+          "sourceKeys": [
+            "cq27-kova-1"
+          ]
+        },
+        {
+          "heading": "河流是迁徙通道也是生活联系",
+          "text": "Iñupiat人在Onion Portage附近延续与驯鹿过河相关的狩猎，鱼类、浆果和苔原资源也仍支撑生活。现代船与工具的使用不等于这种关系消失；看沙丘与河流时，也应理解在地生计和土地使用。",
+          "sourceKeys": [
+            "cq27-kova-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq27-kova-1",
+        "cq27-kova-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-lacl",
+      "theme": "parks",
+      "title": "克拉克湖：从鲑鱼水路读到Dena’ina地名",
+      "summary": "克拉克湖把海岸河口、湖河湿地、苔原和北方林地连在两列山脉交会处，鲑鱼沿水路返回山地湖溪。湖的Dena’ina原名Qizhjeh Vena与聚集之地有关；地名和今天仍延续的生计，让这片地景不只是火山、冰川与棕熊的背景。",
+      "catalogueDescription": "克拉克湖把海岸河口、湖河湿地、苔原和北方林地连在两列山脉交会处，鲑鱼沿水路返回山地湖溪。湖的Dena’ina原名Qizhjeh Vena与聚集之地有关；地名和今天仍延续的生计，让这片地景不只是火山、冰川与棕熊的背景。",
+      "paragraphs": [
+        {
+          "heading": "沿水路理解不同生境",
+          "text": "鲑鱼经过潮汐河口前往山地湖溪，连接海岸捕食者与内陆水域。Iliamna、Redoubt火山及山谷冰川又构成上方地形；观察湖面时，可把水的来处、森林边缘与山地放回同一流域，而非分成几张互不相干的风景照。",
+          "sourceKeys": [
+            "cq27-lacl-1"
+          ]
+        },
+        {
+          "heading": "原有地名改变观看方式",
+          "text": "Qizhjeh Vena是Lake Clark的原有Dena’ina地名。NPS与当地社群共同记录地名、口述史与土地利用；Dena’ina人的食物与文化联系仍延续，因此这片区域不应只用后来探险者的名字和木屋故事解释。",
+          "sourceKeys": [
+            "cq27-lacl-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq27-lacl-1",
+        "cq27-lacl-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-wrst",
+      "theme": "parks",
+      "title": "兰格尔—圣伊莱亚斯：拼接山脉与冰川旁的铜矿城",
+      "summary": "兰格尔—圣伊莱亚斯的山脉由不同来源的地体拼接、抬升，再受火山和冰川作用塑造。肯尼科特矿镇则把山中铜矿、选矿设施与通往海岸的铁路接起来；在宏大的冰川风景旁读工业遗构，能理解远方市场怎样改变这片土地。",
+      "catalogueDescription": "兰格尔—圣伊莱亚斯的山脉由不同来源的地体拼接、抬升，再受火山和冰川作用塑造。肯尼科特矿镇则把山中铜矿、选矿设施与通往海岸的铁路接起来；在宏大的冰川风景旁读工业遗构，能理解远方市场怎样改变这片土地。",
+      "paragraphs": [
+        {
+          "heading": "相邻岩体可能有不同来历",
+          "text": "地体是经板块运动搬来的地壳片段，彼此岩性和变形历史并不相同。公园跨越多组山脉，构造挤压、火山活动与冰川塑形叠加，不能把所有高峰解释为同一种火山锥或同龄岩石。",
+          "sourceKeys": [
+            "cq27-wrst-1"
+          ]
+        },
+        {
+          "heading": "山上采矿与谷中加工分别辨认",
+          "text": "肯尼科特采矿区在山上，矿镇承担破碎、分选等加工，再用铁路向外运输。1911至1938年的生产留下厂房、动力和居住服务设施；矿镇与周围冰川的对照，也提示这里曾深度连接外部资本、技术与铜需求。",
+          "sourceKeys": [
+            "cq27-wrst-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq27-wrst-1",
+        "cq27-wrst-2"
+      ],
+      "related": []
+    }
+  ]
+}

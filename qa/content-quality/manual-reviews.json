@@ -4205,6 +4205,101 @@
         "https://www.nps.gov/cuva/learn/historyculture/index.htm"
       ],
       "contentHash": "dfa7ad0676dd33e7ec1b1bb16842a547e239b0f42f9e2b50a880ebfe7a15c092"
+    },
+    {
+      "theme": "parks",
+      "id": "np-dena",
+      "state": "researched-batch-27",
+      "reason": "逐段核对NPS地质、自然与社群/工业史选段，补有意义的观察线索。未核实实时开放、动物可见性或现场条件；不是全站人工验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/dena/learn/nature/denali.htm",
+        "https://www.nps.gov/dena/learn/nature/index.htm"
+      ],
+      "contentHash": "f69a1e9e44ab154c956369f4842ddba19834ea3d63b8ee48da65561d8894ae1a"
+    },
+    {
+      "theme": "parks",
+      "id": "np-gaar",
+      "state": "researched-batch-27",
+      "reason": "逐段核对NPS地质、自然与社群/工业史选段，补有意义的观察线索。未核实实时开放、动物可见性或现场条件；不是全站人工验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/gaar/learn/nature/geology.htm",
+        "https://www.nps.gov/gaar/learn/nature/index.htm"
+      ],
+      "contentHash": "1e21a74bfb3198fb3f49a65e6edbd0aa362a92064b652ffb04d324cb491e26cb"
+    },
+    {
+      "theme": "parks",
+      "id": "np-glba",
+      "state": "researched-batch-27",
+      "reason": "逐段核对NPS地质、自然与社群/工业史选段，补有意义的观察线索。未核实实时开放、动物可见性或现场条件；不是全站人工验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/glba/learn/nature/index.htm",
+        "https://www.nps.gov/glba/learn/historyculture/huna-tribal-house-project.htm"
+      ],
+      "contentHash": "7068b3601efe848f4fe2e78db1a0be959c69855f5ac7007351d2dd22c8023c52"
+    },
+    {
+      "theme": "parks",
+      "id": "np-katm",
+      "state": "researched-batch-27",
+      "reason": "逐段核对NPS地质、自然与社群/工业史选段，补有意义的观察线索。未核实实时开放、动物可见性或现场条件；不是全站人工验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/katm/learn/nature/valley-of-ten-thousand-smokes.htm"
+      ],
+      "contentHash": "3665814e3b2a261f6c5c1272e8b0aad8931cc021dd51db0c6abb6173af01d98f"
+    },
+    {
+      "theme": "parks",
+      "id": "np-kefj",
+      "state": "researched-batch-27",
+      "reason": "逐段核对NPS地质、自然与社群/工业史选段，补有意义的观察线索。未核实实时开放、动物可见性或现场条件；不是全站人工验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/kefj/learn/nature/glaciers.htm",
+        "https://www.nps.gov/kefj/learn/nature/index.htm"
+      ],
+      "contentHash": "f7bf28f25a6675bd61c0dd182f64b2e5dbf73c35f6ef8a9f55313a0c0bd7eda5"
+    },
+    {
+      "theme": "parks",
+      "id": "np-kova",
+      "state": "researched-batch-27",
+      "reason": "逐段核对NPS地质、自然与社群/工业史选段，补有意义的观察线索。未核实实时开放、动物可见性或现场条件；不是全站人工验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/kova/learn/nature/great-kobuk-sand-dunes.htm",
+        "https://www.nps.gov/kova/learn/historyculture/index.htm"
+      ],
+      "contentHash": "ef3be44b33eb3abc0215c96c124d2036b18c39330b924b549bccd5b494e04908"
+    },
+    {
+      "theme": "parks",
+      "id": "np-lacl",
+      "state": "researched-batch-27",
+      "reason": "逐段核对NPS地质、自然与社群/工业史选段，补有意义的观察线索。未核实实时开放、动物可见性或现场条件；不是全站人工验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/lacl/learn/nature/index.htm",
+        "https://www.nps.gov/lacl/learn/historyculture/index.htm"
+      ],
+      "contentHash": "3a6cde8ca25741ca47196235a39b938421fecf2fa277f7ea7b576cb5506ee70e"
+    },
+    {
+      "theme": "parks",
+      "id": "np-wrst",
+      "state": "researched-batch-27",
+      "reason": "逐段核对NPS地质、自然与社群/工业史选段，补有意义的观察线索。未核实实时开放、动物可见性或现场条件；不是全站人工验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/wrst/learn/nature/geology.htm",
+        "https://www.nps.gov/wrst/learn/historyculture/kennecott-mines-national-historic-landmark.htm"
+      ],
+      "contentHash": "9bc48ab34aa16a5001dfc04b2eb0d67058cb57438d08b192d822bce5e7147c8b"
     }
   ]
 }
