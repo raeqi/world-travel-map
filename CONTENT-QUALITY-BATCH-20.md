@@ -17,7 +17,7 @@
 | `np-maca` | 猛犸洞：沿通道形状读地下水位 | [NPS：猛犸洞的溶蚀、地下水位和通道](https://home.nps.gov/maca/learn/nature/how-mammoth-cave-formed.htm) |
 | `np-mora` | 雷尼尔山：熔岩与冰川共同留下的山形 | [NPS：雷尼尔火山层与更古老的基底](https://www.nps.gov/mora/learn/nature/geologicformations.htm) |
 | `np-neri` | 新河峡谷：沿山坡追踪煤怎样运到铁路 | [NPS：纳托尔堡输煤、选煤与社区遗存](https://home.nps.gov/neri/learn/historyculture/exploring-nuttallburg.htm) |
-| `np-noca` | 北喀斯喀特：冰川粉色湖水与水电地景 | [NPS：北喀斯喀特复合保护区的三个单元](https://npgallery.nps.gov/NOCA/About) |
+| `np-noca` | 北喀斯喀特：冰川粉与水电湖区 | [NPS：北喀斯喀特复合保护区的三个单元](https://npgallery.nps.gov/NOCA/About) |
 | `np-pinn` | 尖峰：移动过的火山岩与巨石架出的洞 | [NPS：尖峰火山岩、板块位移与侵蚀](https://www.nps.gov/pinn/learn/nature/geology.htm?fullweb=1) |
 | `np-redw` | 红杉木公园：从高树读到雾与再生 | [NPS：海岸红杉的生态、更新与国家/州公园关系](https://www.nps.gov/redw/faqs.htm?fullweb=1) |
 | `np-romo` | 落基山：从冰碛谷地走向贴地植被 | [NPS：落基山谷的古岩、冰川与冰碛](https://home.nps.gov/romo/learn/nature/geologicactivity.htm) |
