@@ -1,0 +1,918 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-4",
+  "baseline": "cee6490bef782542632a0e902e9e4c22d7454208",
+  "checked": "2026-11-18",
+  "scope": "Eight Mozart city contexts and all sixteen existing Via Francigena nodes. Seven Mozart and sixteen Francigena candidate contexts newly receive specific readings; Salzburg is deepened with prior content retained. No photos or geographic records replaced.",
+  "sources": {
+    "mozart-birth": {
+      "title": "莫扎特基金会：出生地的居所与原件",
+      "url": "https://mozarteum.at/mozart-museen/mozarts-geburtshaus",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "mozart-home": {
+      "title": "莫扎特基金会：旧居与1996年重建",
+      "url": "https://mozarteum.at/mozart-museen/mozart-wohnhaus",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "mozart-munich": {
+      "title": "巴伐利亚宫殿管理局：Cuvilliés剧院原件与迁装",
+      "url": "https://www.schloesser.bayern.de/deutsch/Schloss/objekte/mu_cuv.htm",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "mozart-vienna": {
+      "title": "Mozarthaus Vienna：Domgasse 5历史居所",
+      "url": "https://www.mozarthausvienna.at/en/museum",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "mozart-prague": {
+      "title": "捷克国家剧院：等级剧院历史与莫扎特首演",
+      "url": "https://www.narodni-divadlo.cz/en/stages/the-estates-theatre/history",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "mozart-paris-house": {
+      "title": "巴黎行政上诉法院：Hôtel de Beauvais的历史与用途",
+      "url": "https://paris.cour-administrative-appel.fr/qui-sommes-nous/vie-de-la-cour/retour-sur-les-journees-europeennes-du-patrimoine-2025-a-la-cour-administrative-d-appel-de-paris",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "mozart-paris": {
+      "title": "King’s College London研究：巴黎停留、出版与创作",
+      "url": "https://mmc.kdl.kcl.ac.uk/entities/place/paris/index.html",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "mozart-london": {
+      "title": "English Heritage：Ebury Street居所与第一交响曲",
+      "url": "https://production.english-heritage.org.uk/visit/blue-plaques/wolfgang-amadeus-mozart/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "mozart-milan": {
+      "title": "King’s College London研究：米兰的居所、剧院与教堂",
+      "url": "https://mmc.kdl.kcl.ac.uk/entities/place/milan/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "mozart-rome": {
+      "title": "King’s College London研究：1770年罗马活动与书信",
+      "url": "https://mmc.kdl.kcl.ac.uk/entities/place/rome/index.html",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-history": {
+      "title": "欧洲Via Francigena协会：锡杰里克990年返程记录",
+      "url": "https://www.viefrancigene.org/en/news/via-francigena-le-president-de-laevf-m-tedeschi-recoit-le-prix-sigeric",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-canterbury": {
+      "title": "坎特伯雷大教堂：朝圣传统与Via Francigena",
+      "url": "https://www.canterbury-cathedral.org/worship/pilgrimage/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-canterbury-building": {
+      "title": "坎特伯雷大教堂：1070年代、1174年及后续建筑",
+      "url": "https://learning.canterbury-cathedral.org/how-did-they-build-that/building-the-cathedral/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-dover": {
+      "title": "English Heritage：多佛城堡与海峡门户",
+      "url": "https://www.english-heritage.org.uk/visit/places/dover-castle/history-and-stories/history-dover/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-calais": {
+      "title": "Calais XXL旅游局：市政厅与钟楼",
+      "url": "https://www.calaisxxl.com/en/offers/have-to-do/Calais-Town-Hall-and-Belfry/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-arras": {
+      "title": "阿拉斯旅游局：广场的街屋与战后重建",
+      "url": "https://www.arraspaysdartois.com/en/the-essentials/the-squares-of-arras-la-dolce-vita/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-arras-belfry": {
+      "title": "阿拉斯旅游局：钟楼1927—1931年重建",
+      "url": "https://www.arraspaysdartois.com/en/the-essentials/the-belfry-of-arras-a-balcony-overlooking-the-city/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-reims": {
+      "title": "法国文化部：兰斯主教座堂的夏加尔与Knoebel玻璃",
+      "url": "https://www.culture.gouv.fr/regions/drac-grand-est/actu/mh-etat/cathedrale-notre-dame-de-reims-marne/vitraux-knoebel-reims",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-langres": {
+      "title": "朗格勒市政府：城墙范围、罗马门与修缮",
+      "url": "https://langres.fr/langres/grands-projets/plan-remparts/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-besancon": {
+      "title": "贝桑松旅游局：Porte Noire罗马雕刻",
+      "url": "https://www.besancon-tourisme.com/en/fiche-sit/F312010841_la-porte-noire-besancon-en/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-lausanne": {
+      "title": "洛桑旅游局：主教座堂、彩绘门与玫瑰窗修缮",
+      "url": "https://www.lausanne-tourisme.ch/en/explore/lausanne-cathedral/lausanne-cathedral/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-martigny": {
+      "title": "马蒂尼旅游局：罗马圆形剧场",
+      "url": "https://www.martigny.com/en/activity/roman-amphitheatre-5416/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-barryland": {
+      "title": "Barryland：圣伯纳犬与当代博物馆",
+      "url": "https://www.barryland.ch/fr/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-bernard": {
+      "title": "大圣伯纳救济院：机构、教堂、考古收藏与犬只",
+      "url": "https://gsbernard.com/en/to-discover/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-bernard-history": {
+      "title": "大圣伯纳救济院：1050年创设与接待传统",
+      "url": "https://gsbernard.com/en/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-aosta": {
+      "title": "奥斯塔大区旅游：Porta Praetoria及地层",
+      "url": "https://www.lovevda.it/it/banca-dati/8/monumenti-romani/aosta/porta-praetoria/730",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-aosta-sacred": {
+      "title": "奥斯塔大区旅游：Sant’Orso院落、马赛克与柱头",
+      "url": "https://www.lovevda.it/it/banca-dati/8/itinerari-culturali/valle-d-aosta/aosta-i-cammini-sacri/1858",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-pavia": {
+      "title": "帕维亚旅游：San Michele Maggiore建筑与雕刻",
+      "url": "https://www.visitpavia.com/en/visiting-lombardy/cultural-tourism-pavia/basilica-di-san-michele-maggiore",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-lucca": {
+      "title": "卢卡旅游局：Volto Santo、科学断代与朝圣",
+      "url": "https://turismo.lucca.it/luoghi/i-cammini-di-lucca/volto-santo/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-siena": {
+      "title": "Santa Maria della Scala：Pellegrinaio院厅与壁画",
+      "url": "https://santamariadellascala.net/complesso/luoghi/pellegrinaio",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-viterbo": {
+      "title": "维泰博市政府：San Pellegrino街区与profferli",
+      "url": "https://comune.viterbo.it/vivere-il-comune/luoghi/san-pellegrino/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "vf-rome": {
+      "title": "圣彼得大教堂管理机构：贝尼尼广场与柱廊",
+      "url": "https://www.basilicasanpietro.va/it/san-pietro/la-piazza",
+      "checked": "2026-11-18",
+      "method": "Primary institution, managing authority or scholarly source read; concise original paraphrase. Historical facts separated from observation suggestions and current access."
+    },
+    "mozart-vienna-interior": {
+      "title": "Mozarthaus Vienna：原空间、文献与复制乐器",
+      "url": "https://www.mozarthausvienna.at/museum",
+      "checked": "2026-11-18",
+      "method": "Institution museum text read; original furnishings distinguished from replicas."
+    }
+  },
+  "readings": [
+    {
+      "id": "mozart-salzburg",
+      "theme": "mozart",
+      "title": "两处家居，读不同成长阶段",
+      "summary": "萨尔茨堡可把粮食胡同出生地与Makartplatz旧居分开看。前者保存家庭与乐器原件，后者对应1773年后的生活空间，且部分建筑曾遭战争破坏并重建。",
+      "paragraphs": [
+        {
+          "heading": "出生地看家庭的尺度",
+          "text": "Getreidegasse 9的家庭住宅是博物馆核心，莫扎特1756年在此出生，一家住到1773年。比黄色立面更值得细看的是居所尺度、家庭原件与乐器：它们解释一位儿童音乐家怎样在家人支持下工作和旅行。",
+          "sourceKeys": [
+            "mozart-birth"
+          ]
+        },
+        {
+          "heading": "旧居也有后来的历史",
+          "text": "Makartplatz 8的Tanzmeisterhaus是另一座家居，莫扎特住至1780年。基金会说明部分建筑1944年被毁，1996年据旧图重建开放。看房间与展陈时应区分原件、重建建筑与展示复原，不把两座房子混作同一处故居。",
+          "sourceKeys": [
+            "mozart-home"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mozart-birth",
+        "mozart-home"
+      ],
+      "related": [
+        "mozart-munich",
+        "mozart-vienna"
+      ]
+    },
+    {
+      "id": "mozart-munich",
+      "theme": "mozart",
+      "title": "歌剧首演与迁装的洛可可剧场",
+      "summary": "慕尼黑Cuvilliés剧院与1781年《伊多梅纽》首演相关。今天可见的雕刻包厢装饰是战争中移出的旧件，1958年在王宫另一部分重新安装；不是整座原址剧场未变。",
+      "paragraphs": [
+        {
+          "heading": "听歌剧，也读观众席",
+          "text": "《伊多梅纽》1781年在当时宫廷剧院首演。现剧场最具辨识度的是红、白、金色的雕刻包厢与洛可可纹饰，可留意席位层级如何组织观众与宫廷礼仪；音乐并非脱离空间的抽象背景。",
+          "sourceKeys": [
+            "mozart-munich"
+          ]
+        },
+        {
+          "heading": "把旧构件与新围墙分开",
+          "text": "原剧院1944年遭毁，因提前疏散而保存的木雕装饰后来迁入王宫Apothekenstock，1958年重新开放。参访时可读装饰的原件价值与建筑修复史；本图的城市点不等于原首演舞台的精确原址。",
+          "sourceKeys": [
+            "mozart-munich"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mozart-munich"
+      ],
+      "related": [
+        "mozart-salzburg",
+        "mozart-vienna"
+      ]
+    },
+    {
+      "id": "mozart-vienna",
+      "theme": "mozart",
+      "title": "在Domgasse 5读费加罗的工作生活",
+      "summary": "维也纳Domgasse 5保存莫扎特1784—1787年的住宅，他在这里写作《费加罗的婚礼》等作品。居所原空间、年代文献和现代视听展陈各有作用，应分别辨认。",
+      "paragraphs": [
+        {
+          "heading": "城市中的作曲工作室",
+          "text": "Mozarthaus Vienna是现存的维也纳莫扎特住所。可从房间、门与生活区的联系，理解音乐创作也需要城市客户、家庭和工作空间；这座房子对应其成熟时期，不包办他在维也纳十年的全部经历。",
+          "sourceKeys": [
+            "mozart-vienna"
+          ]
+        },
+        {
+          "heading": "原空间不等于原家具全套",
+          "text": "馆方借图片与文献讲生活，另以视听装置解释歌剧和演出。德文馆介明确提及一架1972年按旧工艺制作的槌击钢琴复制品。可把复制品的教学用途与原件真实性分开，不因陈列在故居就认定为莫扎特亲用。",
+          "sourceKeys": [
+            "mozart-vienna-interior"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mozart-vienna",
+        "mozart-vienna-interior"
+      ],
+      "related": [
+        "mozart-salzburg",
+        "mozart-prague"
+      ]
+    },
+    {
+      "id": "mozart-prague",
+      "theme": "mozart",
+      "title": "在等级剧院对上两次首演",
+      "summary": "布拉格等级剧院是《唐璜》1787年与《狄托的仁慈》1791年首演的地点。它提供能对照作品和日期的真实现场，而不是泛泛的“音乐城市”标签。",
+      "paragraphs": [
+        {
+          "heading": "《唐璜》与一座具体剧场",
+          "text": "1783年开幕的剧场原称Nostitz剧院；莫扎特亲自指挥1787年10月29日《唐璜》首演。可先看新古典主义立面、入口题铭与观众席，再听歌剧开场，理解舞台、乐池和公共观演的关系。",
+          "sourceKeys": [
+            "mozart-prague"
+          ]
+        },
+        {
+          "heading": "另一部歌剧属于1791年",
+          "text": "《狄托的仁慈》为1791年的波希米亚加冕庆典首演。两部作品对应不同到访，不应硬拼成一次旅程。剧院后来经历整修并仍作演出场所；现场可进入范围与节目应按剧院安排，电影《莫扎特传》也不能代替史料。",
+          "sourceKeys": [
+            "mozart-prague"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mozart-prague"
+      ],
+      "related": [
+        "mozart-vienna",
+        "mozart-munich"
+      ]
+    },
+    {
+      "id": "mozart-paris",
+      "theme": "mozart",
+      "title": "从一处居所读到巴黎交响曲",
+      "summary": "巴黎的莫扎特线索跨越童年与1778年求职创作。Hôtel de Beauvais关联童年停留，1778年的《巴黎交响曲》则属于另一阶段，不应将两段经历都安在同一居所里。",
+      "paragraphs": [
+        {
+          "heading": "Beauvais公馆是实际建筑线索",
+          "text": "Hôtel de Beauvais曾接待年轻莫扎特，如今用于巴黎行政上诉法院。可从建筑外观和机构遗产日资料认识它，不把办公建筑默认当作随时开放的故居博物馆；巴黎市立博物馆也保存相关立面与纪念牌档案。",
+          "sourceKeys": [
+            "mozart-paris-house"
+          ]
+        },
+        {
+          "heading": "听一首有明确创作背景的作品",
+          "text": "K.297《巴黎交响曲》1778年为Concert Spirituel写作并于6月18日首演。可听管弦乐编制与鲜明的开场，结合当时巴黎公共音乐生活阅读。它与童年在巴黎出版K.6—9奏鸣曲并非同一次停留。",
+          "sourceKeys": [
+            "mozart-paris"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mozart-paris-house",
+        "mozart-paris"
+      ],
+      "related": [
+        "mozart-london",
+        "mozart-salzburg"
+      ]
+    },
+    {
+      "id": "mozart-london",
+      "theme": "mozart",
+      "title": "Ebury Street与早期交响曲",
+      "summary": "伦敦180 Ebury Street的纪念牌关联莫扎特1764年的早期交响曲写作。这里是父亲养病时的短期住所；伦敦城市点也包含随后返回Soho的另一段生活。",
+      "paragraphs": [
+        {
+          "heading": "一段安静住所留下的创作",
+          "text": "English Heritage记录一家1764年8月移住当时仍近郊野的Ebury Street。K.16降E大调交响曲作于这一时期。可从街屋尺度与纪念牌读起，把短暂停留同一年多的伦敦经历分开。",
+          "sourceKeys": [
+            "mozart-london"
+          ]
+        },
+        {
+          "heading": "纪念牌也需要辨年代",
+          "text": "这块牌1939年设置，因战损于1951年重立；它是后世纪念物。家庭后来回到Soho，并接触约翰·克里斯蒂安·巴赫。看牌、听音乐和读书信可相互补充，不把一块牌当成所有伦敦演出都发生于此的证据。",
+          "sourceKeys": [
+            "mozart-london"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mozart-london"
+      ],
+      "related": [
+        "mozart-paris",
+        "mozart-salzburg"
+      ]
+    },
+    {
+      "id": "mozart-milan",
+      "theme": "mozart",
+      "title": "首演剧院并不是今天的斯卡拉",
+      "summary": "米兰的《米特里达梯》《阿斯卡尼奥在阿尔巴》和《卢乔·西拉》关联十八世纪Regio Ducale剧院。旧院1776年毁于火灾，不能把今日斯卡拉剧院写成这些首演的原现场。",
+      "paragraphs": [
+        {
+          "heading": "在作品表里读三次意大利经历",
+          "text": "1770—1772年三部舞台作品在米兰相继首演。城市内的宫廷赞助、排练和职业机会解释了他为何多次回来。可把作品与年份分别对照，不用一条连续线压平这些不同旅程。",
+          "sourceKeys": [
+            "mozart-milan"
+          ]
+        },
+        {
+          "heading": "另一处仍能指认的音乐场所",
+          "text": "Sant’Antonio Abate教堂与1773年《Exsultate, jubilate》K.165首演相关；San Marco修道院也关联早期住宿。可按自己的听觉兴趣择一探索，并区分教堂、住宿地、已消失剧院与后来的斯卡拉音乐传统。",
+          "sourceKeys": [
+            "mozart-milan"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mozart-milan"
+      ],
+      "related": [
+        "mozart-rome",
+        "mozart-salzburg"
+      ]
+    },
+    {
+      "id": "mozart-rome",
+      "theme": "mozart",
+      "title": "把书信中的罗马分成几种现场",
+      "summary": "莫扎特1770年两度在罗马停留，活动涉及教堂音乐、贵族宫邸与城市节庆。西斯廷礼拜堂听乐并不是他在罗马的全部经历，也不是今天随时可听同一礼仪音乐的承诺。",
+      "paragraphs": [
+        {
+          "heading": "音乐发生在不同制度空间",
+          "text": "学术资料记录他访问圣彼得与西斯廷礼拜堂，也在Collegium Germanicum及Chigi、Doria家族宫邸表演。可据此比较宗教、教育与贵族赞助的不同空间；本图是城市网络，不把这些分散地点合成一个建筑。",
+          "sourceKeys": [
+            "mozart-rome"
+          ]
+        },
+        {
+          "heading": "书信也记下了光与人群",
+          "text": "莱奥波德1770年6月的书信提及圣彼得节前后的照明、烟火等城市景象。它提醒旅行者音乐家也在观看城市生活。今天的景观与仪式经过变化，适合用旧图、书信与现场对读，而非期待十八世纪场景原样重现。",
+          "sourceKeys": [
+            "mozart-rome"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mozart-rome"
+      ],
+      "related": [
+        "mozart-milan",
+        "mozart-vienna"
+      ]
+    },
+    {
+      "id": "francigena-canterbury",
+      "theme": "francigena",
+      "title": "先读返程记录，再看起点建筑",
+      "summary": "坎特伯雷大教堂承接锡杰里克990年前往罗马领取披带的历史。留存的阶段记录描述的是返程；今天可见的大教堂主体又多晚于其时代，需要把路线史与建筑年代分开。",
+      "paragraphs": [
+        {
+          "heading": "锡杰里克不是这条道路的发明者",
+          "text": "990年的返程记录为后人提供阶段线索，现代Via Francigena把它作为重要依据。到访可以先认识披带与主教出行的宗教背景，再比较今天的行走方式；这是一套更久远的通道网络，不是一人新建的道路。",
+          "sourceKeys": [
+            "vf-history",
+            "vf-canterbury"
+          ]
+        },
+        {
+          "heading": "同一地点，多个建筑时期",
+          "text": "现存早期部分起于1070年代，1174年火灾后又大规模改建；后来的中殿、回廊和钟塔继续叠加。看圆拱、尖拱与拱顶，可读不同时代的施工，不把现有哥特式空间描述成锡杰里克990年亲见的完整场景。",
+          "sourceKeys": [
+            "vf-canterbury-building"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-history",
+        "vf-canterbury",
+        "vf-canterbury-building"
+      ],
+      "related": [
+        "francigena-dover",
+        "francigena-rome"
+      ]
+    },
+    {
+      "id": "francigena-dover",
+      "theme": "francigena",
+      "title": "海峡门户不只是一次渡船",
+      "summary": "多佛城堡高处的罗马灯塔、旁侧撒克逊教堂与后来的诺曼防御，展示海峡门户的长历史。城堡参访和今天的渡海衔接是两件事，不应被一条地图线合成步行。",
+      "paragraphs": [
+        {
+          "heading": "灯塔与城堡分层看",
+          "text": "城堡山上的罗马灯塔原为船只引航，旁侧St Mary in Castro教堂属于更晚时期。可比较灯塔、教堂与大型防御的尺度和位置，理解同一海峡通道先后服务航行、信仰与军事。",
+          "sourceKeys": [
+            "vf-dover"
+          ]
+        },
+        {
+          "heading": "朝圣也影响了王室接待",
+          "text": "现存城堡主体由亨利二世于十二世纪后期营建。English Heritage把它与前往坎特伯雷贝克特圣祠的重要旅客接待联系起来。它有助于理解朝圣如何改变道路设施，但晚于锡杰里克；现代港口需另作交通安排。",
+          "sourceKeys": [
+            "vf-dover"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-dover"
+      ],
+      "related": [
+        "francigena-canterbury",
+        "francigena-calais"
+      ]
+    },
+    {
+      "id": "francigena-calais",
+      "theme": "francigena",
+      "title": "在市政厅读跨海之后的另一段历史",
+      "summary": "加来不只是法国岸的接续点。市政厅和钟楼把城市合并、工艺与近代公共生活具体化；它们是后来的城市地标，并非十世纪旅人见到的原样港城。",
+      "paragraphs": [
+        {
+          "heading": "看一扇门怎样展示城市",
+          "text": "官方介绍以市政厅的锻铁花卉门、玻璃顶和大楼梯解释工艺。可观察铁、玻璃与石材如何在公共建筑中配合；楼内与楼外要分别按开放安排，不因到港就默认能立即登楼。",
+          "sourceKeys": [
+            "vf-calais"
+          ]
+        },
+        {
+          "heading": "玻璃画记的是另一时代",
+          "text": "楼梯彩窗描绘1558年加来结束英国占领的历史，馆内另以纹章表现市政身份。它们适合放在海峡长期交流与冲突的背景下阅读，但不能当作锡杰里克990年通行的直接物证。",
+          "sourceKeys": [
+            "vf-calais"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-calais"
+      ],
+      "related": [
+        "francigena-dover",
+        "francigena-arras"
+      ]
+    },
+    {
+      "id": "francigena-arras",
+      "theme": "francigena",
+      "title": "拱廊与钟楼背后有重建史",
+      "summary": "阿拉斯的广场街屋、拱廊和钟楼构成清晰的城市停留点。它们曾遭一战破坏并重建，优美立面不是完整未经改变的中世纪原景。",
+      "paragraphs": [
+        {
+          "heading": "用拱廊读市场空间",
+          "text": "两座主要广场的柱列、拱廊、山墙与地下室入口展示商业城市的空间层次。可从广场走入拱廊比较公共、店面与地下储藏的界面；官方资料明确说明建筑曾在战后依原风格重建。",
+          "sourceKeys": [
+            "vf-arras"
+          ]
+        },
+        {
+          "heading": "钟楼也保留二十世纪技术",
+          "text": "钟楼在1927—1931年重建，隐蔽部分使用钢筋混凝土。看历史形式与新结构如何相处，比单纯说古城保存完好更准确。作为路线停留点，它既能读远行与市场，也能读战后重建的地方选择。",
+          "sourceKeys": [
+            "vf-arras-belfry"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-arras",
+        "vf-arras-belfry"
+      ],
+      "related": [
+        "francigena-calais",
+        "francigena-reims"
+      ]
+    },
+    {
+      "id": "francigena-reims",
+      "theme": "francigena",
+      "title": "一座教堂里的多时代光线",
+      "summary": "兰斯主教座堂不只有王室加冕背景。夏加尔1974年的彩窗，与Imi Knoebel在2011、2015年的抽象彩玻璃，让古老路线中的城市仍承载当代艺术与修复。",
+      "paragraphs": [
+        {
+          "heading": "用颜色辨认作品年代",
+          "text": "法国文化部说明，Knoebel的新窗分布在后殿及Jeanne d’Arc礼拜堂，并与夏加尔作品相邻。可比较具象叙事与红黄蓝色块如何处理光，不把所有彩玻璃都认作中世纪原件。",
+          "sourceKeys": [
+            "vf-reims"
+          ]
+        },
+        {
+          "heading": "修复也是这座城市的内容",
+          "text": "二十世纪战争破坏后，修缮与新的玻璃委托继续改变教堂。看窗位与石构的关系，可以理解朝圣空间既被继承也被重新演绎；路线主题不要求把一座建筑冻结在990年。",
+          "sourceKeys": [
+            "vf-reims"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-reims"
+      ],
+      "related": [
+        "francigena-arras",
+        "francigena-langres"
+      ]
+    },
+    {
+      "id": "francigena-langres",
+      "theme": "francigena",
+      "title": "从高处城墙读地形与修缮",
+      "summary": "朗格勒的历史中心城墙、城门与南侧近代要塞不是同一时期的防御圈。沿边缘观察城内与周围地形的高差，可以把抽象的“高地节点”变成可读的空间。",
+      "paragraphs": [
+        {
+          "heading": "城门标出不同年代",
+          "text": "市政府修缮记录分别列出罗马时代城门、城墙段与Petit Sault、Navarre等塔楼。可选一个城门与相邻墙段，比较门洞、墙面和射击设施，不把全部防御统一标成中世纪建筑。",
+          "sourceKeys": [
+            "vf-langres"
+          ]
+        },
+        {
+          "heading": "旧石与修补也是观察对象",
+          "text": "城墙保护计划涉及石材清理、更换和勾缝，以及排水与安全设施。可留意新旧石块和修缮区段的差异，理解一条可行走的遗产边缘需要持续维护；实际可通行墙段以现场信息为准。",
+          "sourceKeys": [
+            "vf-langres"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-langres"
+      ],
+      "related": [
+        "francigena-reims",
+        "francigena-besancon"
+      ]
+    },
+    {
+      "id": "francigena-besancon",
+      "theme": "francigena",
+      "title": "在黑门前读更早的通道城市",
+      "summary": "贝桑松Porte Noire是约公元175年的罗马纪念性拱门，浮雕密集且部分构件已失。它比中世纪朝圣路线更早，提供城市道路史与雕刻观察的具体入口。",
+      "paragraphs": [
+        {
+          "heading": "近看战斗与神话图像",
+          "text": "旅游部门介绍拱门雕刻含骑兵、步兵及神话形象。可选一块保存较清楚的浮雕，观察动作、层次和石材风化，避免只拍一个拱洞轮廓就匆匆离开。",
+          "sourceKeys": [
+            "vf-besancon"
+          ]
+        },
+        {
+          "heading": "纪念拱门不是普通城防门",
+          "text": "它作为荣誉性建筑处于古城南侧通向罗马的方向，今天又与邻近建筑相接。可比较道路、门洞与街屋的关系；古罗马道路背景不能直接证明今天每段朝圣标线都沿着同一块古代路面。",
+          "sourceKeys": [
+            "vf-besancon"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-besancon"
+      ],
+      "related": [
+        "francigena-langres",
+        "francigena-lausanne"
+      ]
+    },
+    {
+      "id": "francigena-lausanne",
+      "theme": "francigena",
+      "title": "从山丘教堂读到湖与阿尔卑斯",
+      "summary": "洛桑主教座堂位于老城山丘，彩绘雕刻门和十二至十三世纪建筑构成具体看点。它晚于锡杰里克；湖畔城市、山丘与后续越山方向应一起读，而非只作过夜标签。",
+      "paragraphs": [
+        {
+          "heading": "把彩绘门当成观看入口",
+          "text": "官方资料介绍十三世纪彩绘门及后来重新发现的内部彩饰。可观察雕塑的色彩与石构，理解中世纪教堂并非从来都是纯灰色。今天建筑也叠加改革宗时期变化和十九世纪修复。",
+          "sourceKeys": [
+            "vf-lausanne"
+          ]
+        },
+        {
+          "heading": "玫瑰窗不能照旧攻略保证可看",
+          "text": "本次核查时，洛桑旅游局说明南翼拱顶修缮使玫瑰窗及相关彩窗暂不可访问，预计持续至2027年春。可先选择彩绘门与老城外部地形；后续应重新查看机构说明，这里不把预计日期当成必然开放承诺。",
+          "sourceKeys": [
+            "vf-lausanne"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-lausanne"
+      ],
+      "related": [
+        "francigena-besancon",
+        "francigena-martigny"
+      ]
+    },
+    {
+      "id": "francigena-martigny",
+      "theme": "francigena",
+      "title": "越山之前，看古城与救援犬文化",
+      "summary": "马蒂尼既有二世纪罗马圆形剧场，也有当代Barryland圣伯纳犬文化展示。它们可解释长途通道上的城市生活与越山接待传统，但不是同一年代的遗产。",
+      "paragraphs": [
+        {
+          "heading": "剧场的用途仍在变化",
+          "text": "罗马圆形剧场的椭圆场地与周边看台让古城公共生活可见。旅游局记录它今天仍用于电影和其他活动。可比较遗迹保留和当代使用，不把演出设施或现代加建都当作罗马原件。",
+          "sourceKeys": [
+            "vf-martigny"
+          ]
+        },
+        {
+          "heading": "救援犬文化在低地也可阅读",
+          "text": "Barryland以圣伯纳犬、互动展陈与动物照护为主题，位于马蒂尼的现代园区。它适合作为理解山口接待、救援和动物关系的低地入口，不等于大圣伯纳救济院就在城内。",
+          "sourceKeys": [
+            "vf-barryland"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-martigny",
+        "vf-barryland"
+      ],
+      "related": [
+        "francigena-lausanne",
+        "francigena-bernard"
+      ]
+    },
+    {
+      "id": "francigena-bernard",
+      "theme": "francigena",
+      "title": "山口不只有积雪警告",
+      "summary": "大圣伯纳山口的救济院延续接待远行者的传统，教堂、考古收藏和圣伯纳犬历史共同解释越山生活。高山访问条件与低地不同，机构全年活动也不等于道路全年畅通。",
+      "paragraphs": [
+        {
+          "heading": "接待传统可以落在建筑里",
+          "text": "救济院自十一世纪创设，现教堂经历后世改建。可比较共同用餐、礼拜与住宿的空间，理解远行需要怎样的集体支持；不能把今天巴洛克教堂的全部形态倒推到锡杰里克时代。",
+          "sourceKeys": [
+            "vf-bernard-history",
+            "vf-bernard"
+          ]
+        },
+        {
+          "heading": "考古、矿物与犬只讲不同侧面",
+          "text": "馆藏将考古物、当地动物和矿物放在同一山口语境中；犬只繁育已交Barry基金会，山口的犬只活动具有夏季安排。可按兴趣选择历史或自然内容，别将救援犬传说写成今天随时上演的救援表演。",
+          "sourceKeys": [
+            "vf-bernard"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-bernard-history",
+        "vf-bernard"
+      ],
+      "related": [
+        "francigena-martigny",
+        "francigena-aosta"
+      ]
+    },
+    {
+      "id": "francigena-aosta",
+      "theme": "francigena",
+      "title": "越山后的城门与院落",
+      "summary": "奥斯塔Porta Praetoria仍可辨中央车行与侧面行人的门洞，Sant’Orso又提供罗曼式回廊和雕刻柱头。古罗马城市与中世纪宗教空间在这里可以具体对读。",
+      "paragraphs": [
+        {
+          "heading": "门洞与地层读城市交通",
+          "text": "Porta Praetoria的三门布局及门槽、残存大理石覆面都值得细看。发掘区的古代地面低于今天街面，提醒旅行者街道并非两千年没有变化；古城入口的功能可以从人的尺度与车辆尺度读出。",
+          "sourceKeys": [
+            "vf-aosta"
+          ]
+        },
+        {
+          "heading": "Sant’Orso放慢到一根柱头",
+          "text": "大区旅游资料推荐其罗曼式回廊、叙事柱头与教堂中发现的马赛克。可选少量图像看雕刻与空间的联系。地下、阁楼等特殊参观区域与普通街巷不同，应按实际开放区段安排。",
+          "sourceKeys": [
+            "vf-aosta-sacred"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-aosta",
+        "vf-aosta-sacred"
+      ],
+      "related": [
+        "francigena-bernard",
+        "francigena-pavia"
+      ]
+    },
+    {
+      "id": "francigena-pavia",
+      "theme": "francigena",
+      "title": "从砂岩浮雕读中世纪城市",
+      "summary": "帕维亚San Michele Maggiore的砂岩立面、柱头、地下教堂和地面马赛克，比一句“历史城市”更具体。它与城市的王权礼仪相关，现主体又主要属于十二世纪重建。",
+      "paragraphs": [
+        {
+          "heading": "先看正在风化的石头",
+          "text": "立面以砂岩雕出人物、神怪与象征形象，风化使细节部分消退。可比较尚清楚的浮雕与模糊处，理解材料怎样影响遗产留存；不应攀摸去追寻所谓原始触感。",
+          "sourceKeys": [
+            "vf-pavia"
+          ]
+        },
+        {
+          "heading": "地面图像也是观看路线",
+          "text": "内部的月份、农业活动与迷宫马赛克，把时间和行走转成图像。地下教堂又有不同形态的柱头。它们让朝圣城市的宗教与王权文化可读，但不能把今天十二世纪建筑完整当作990年的同一现场。",
+          "sourceKeys": [
+            "vf-pavia"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-pavia"
+      ],
+      "related": [
+        "francigena-aosta",
+        "francigena-lucca"
+      ]
+    },
+    {
+      "id": "francigena-lucca",
+      "theme": "francigena",
+      "title": "圣容木雕如何吸引远行者",
+      "summary": "卢卡圣马尔蒂诺主教座堂的Volto Santo木雕是朝圣核心。科学检测把木材年代指向八世纪末至九世纪初；围绕它的传说、后世小礼拜堂与节庆则属于不同层次的历史。",
+      "paragraphs": [
+        {
+          "heading": "眼睛、材料与后设空间",
+          "text": "可关注木雕深色玻璃质眼睛与衣纹，再看1484年建造的多边形龛堂如何组织观看。作品材料与后来的建筑框架年代不同，不能因同处一室就写成同时完成。修复期间的展示安排应向馆方确认。",
+          "sourceKeys": [
+            "vf-lucca"
+          ]
+        },
+        {
+          "heading": "传说与实证分开理解",
+          "text": "地方传统以无人船和神意解释木雕来到卢卡，城市还将其图像用于货币与印章。可以把传说作为信仰史来读，并与科学断代区分；现今节庆是延续与演绎，不是古代运输事件的实录。",
+          "sourceKeys": [
+            "vf-lucca"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-lucca"
+      ],
+      "related": [
+        "francigena-pavia",
+        "francigena-siena"
+      ]
+    },
+    {
+      "id": "francigena-siena",
+      "theme": "francigena",
+      "title": "在医院壁画里看朝圣的照护",
+      "summary": "锡耶纳Santa Maria della Scala原医院的Pellegrinaio厅，壁画表现护理、施舍等活动。它把长途行走所需的照护落到具体房间与图像，而不只剩教堂和广场。",
+      "paragraphs": [
+        {
+          "heading": "医院本身也是路线遗产",
+          "text": "十四世纪扩建的男病厅后来成为重要的壁画空间。可观察大厅跨度、出入口与院区高差，理解接待、护理和管理需要怎样的建筑；今天它是博物馆空间，不再按旧医院功能运作。",
+          "sourceKeys": [
+            "vf-siena"
+          ]
+        },
+        {
+          "heading": "选择一幅照护场景细看",
+          "text": "十五世纪壁画由Domenico di Bartolo等人参与，包含病人照护、分发面包和院区建设。留意人物、器物与劳动分工，可读到旅行者之外的护理者、穷人与儿童；它们也是医院对自身角色的表现，不能逐幅当作照片实录。",
+          "sourceKeys": [
+            "vf-siena"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-siena"
+      ],
+      "related": [
+        "francigena-lucca",
+        "francigena-viterbo"
+      ]
+    },
+    {
+      "id": "francigena-viterbo",
+      "theme": "francigena",
+      "title": "在San Pellegrino读石街与外楼梯",
+      "summary": "维泰博San Pellegrino街区保存塔楼、石造街屋与profferli外楼梯，沿Via Francigena形成具体的城市参访线索。看道路与家门的连接，比只称“末段基地”更有内容。",
+      "paragraphs": [
+        {
+          "heading": "先辨认楼梯怎样连接街与家",
+          "text": "从Piazza San Carluccio沿Via San Pellegrino到同名广场，可观察外楼梯、平台与沿街门洞。它们把生活空间向街道展开，适合在人尺度上理解中世纪城区，而不是只远看塔楼天际线。",
+          "sourceKeys": [
+            "vf-viterbo"
+          ]
+        },
+        {
+          "heading": "Alessandri宫另有内向布局",
+          "text": "市政府特别指出Palazzo degli Alessandri少见的内部profferlo，可从广场观察。将内外两种楼梯关系对比，能看见同一街区里家居与防护的不同选择；石街风貌不表示所有构件都未经后世损毁与修复。",
+          "sourceKeys": [
+            "vf-viterbo"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-viterbo"
+      ],
+      "related": [
+        "francigena-siena",
+        "francigena-rome"
+      ]
+    },
+    {
+      "id": "francigena-rome",
+      "theme": "francigena",
+      "title": "在抵达广场辨认后来的时代",
+      "summary": "本精选北段抵达圣彼得广场附近，实际空间位于梵蒂冈城。贝尼尼十七世纪柱廊围合今天的抵达体验，但这不是锡杰里克990年所见的广场形态。",
+      "paragraphs": [
+        {
+          "heading": "柱列如何改变人的观看",
+          "text": "贝尼尼广场1667年完成，弧形柱廊以多列柱子围合椭圆空间，并与教堂立面相接。可在允许通行的公共空间观察柱列由重叠到分开的视觉变化，理解建筑如何组织人群与方向。",
+          "sourceKeys": [
+            "vf-rome"
+          ]
+        },
+        {
+          "heading": "终点也是历史层叠",
+          "text": "广场中央方尖碑、周边柱廊与教堂属于不同历史脉络。返程记录把罗马与坎特伯雷联系起来，现今朝圣者又在新的广场与城市中抵达；本图未列出南延的全部正式阶段，也不是广场安检或通行路线图。",
+          "sourceKeys": [
+            "vf-history",
+            "vf-rome"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "vf-rome",
+        "vf-history"
+      ],
+      "related": [
+        "francigena-viterbo",
+        "francigena-canterbury"
+      ]
+    }
+  ]
+}

@@ -15,7 +15,8 @@ function snapshot(){
    for(const p of places.filter(p=>p.themes.includes(theme.id))){
     const essay=placeEssays[p.id],record=typeof atlasContextByPlace!=='undefined'?atlasContextByPlace.get(p.id):null;
     const relevant=record?!!atlasCurrentContext(record):false;
-    const fallback=!!(record&&!relevant&&!record.base.essay&&essay);
+    const researched=typeof qualityReadingFor==='function'?qualityReadingFor(p,theme.id):null;
+    const fallback=!!(record&&!relevant&&!record.base.essay&&essay&&!researched);
     contexts.push({id:p.id,theme:theme.id,name:p.name,visible:!theme.catalogHidden,summary:(typeof researchedPlaceSummary==='function'?researchedPlaceSummary(p):p.desc)||'',originalSummary:p.desc||'',source:p.source||'',essay:essay?{title:essay.title,paragraphs:essay.paragraphs,sources:essay.sources}:null,foreignThemeFallback:fallback,routeIds:routes.filter(r=>r.stops.some(s=>s.id===p.id)).map(r=>r.id),coordinateAvailable:Number.isFinite(p.lon)&&Number.isFinite(p.lat),imageKey:editorialPlacePhotos[p.id]||null});
    }
   }

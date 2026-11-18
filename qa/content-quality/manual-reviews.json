@@ -356,15 +356,6 @@
       "contentHash": "9c9df4baa33b190fd8c775a5361f54543aa2b924702798a4cbac219d760b57bb"
     },
     {
-      "theme": "francigena",
-      "id": "francigena-canterbury",
-      "state": "needs-research",
-      "reason": "已有起点和大教堂线索，仍缺锡杰里克史料与现场观察层次。",
-      "checked": "2026-11-18",
-      "sources": [],
-      "contentHash": "000a25fb3c896203002c6fa8f952d2e8b71dbb716e2d083856e7511c38fc071f"
-    },
-    {
       "theme": "route66",
       "id": "route66-springfield",
       "state": "needs-research",
@@ -605,6 +596,279 @@
         "https://rescue.opmcm.gov.np/"
       ],
       "contentHash": "4c072f7ef00d951d3c91a0d21a3a2d4ae2ed182792743b4545902e7fec5c1287"
+    },
+    {
+      "theme": "mozart",
+      "id": "mozart-salzburg",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://mozarteum.at/mozart-museen/mozarts-geburtshaus",
+        "https://mozarteum.at/mozart-museen/mozart-wohnhaus"
+      ],
+      "contentHash": "bfbc3396b9f23b9fc41992ef192982af9bde0211c9f05fbd535385c708145744"
+    },
+    {
+      "theme": "mozart",
+      "id": "mozart-munich",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.schloesser.bayern.de/deutsch/Schloss/objekte/mu_cuv.htm"
+      ],
+      "contentHash": "a998bb073426c35a832d34e9a29a49e610e99d4853faa8c6572702c5d8f3d70f"
+    },
+    {
+      "theme": "mozart",
+      "id": "mozart-vienna",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.mozarthausvienna.at/en/museum"
+      ],
+      "contentHash": "7bd274e454d4e377a8a04d417cb353266a1069f81d4bd2b6a9d1c399d9400b93"
+    },
+    {
+      "theme": "mozart",
+      "id": "mozart-prague",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.narodni-divadlo.cz/en/stages/the-estates-theatre/history"
+      ],
+      "contentHash": "f9743c45350bc9febc899b03fb0e9969acaab20ab2684484cf1a4ac930f84180"
+    },
+    {
+      "theme": "mozart",
+      "id": "mozart-paris",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://paris.cour-administrative-appel.fr/qui-sommes-nous/vie-de-la-cour/retour-sur-les-journees-europeennes-du-patrimoine-2025-a-la-cour-administrative-d-appel-de-paris",
+        "https://mmc.kdl.kcl.ac.uk/entities/place/paris/index.html"
+      ],
+      "contentHash": "be09bc7d6f622edc43d33ffa1d5ee4fd677ecb6f5cf7d509d261cc6f92cea4db"
+    },
+    {
+      "theme": "mozart",
+      "id": "mozart-london",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://production.english-heritage.org.uk/visit/blue-plaques/wolfgang-amadeus-mozart/"
+      ],
+      "contentHash": "d785ce48c0dd0fb24b446a8bc04dfbdadc5048e1c4b64f7c8379885e51f5bc8b"
+    },
+    {
+      "theme": "mozart",
+      "id": "mozart-milan",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://mmc.kdl.kcl.ac.uk/entities/place/milan/"
+      ],
+      "contentHash": "5d3bfffeb09980e01e3cfb56db86390251659d371aa9b080cef94b4dfd44280f"
+    },
+    {
+      "theme": "mozart",
+      "id": "mozart-rome",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://mmc.kdl.kcl.ac.uk/entities/place/rome/index.html"
+      ],
+      "contentHash": "0c03af84bbbb34cb65acb50c174cecd46960662c2ee981bacc973f83df1d0891"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-canterbury",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.viefrancigene.org/en/news/via-francigena-le-president-de-laevf-m-tedeschi-recoit-le-prix-sigeric",
+        "https://www.canterbury-cathedral.org/worship/pilgrimage/",
+        "https://learning.canterbury-cathedral.org/how-did-they-build-that/building-the-cathedral/"
+      ],
+      "contentHash": "ca628826d011528e58c4aa1f35eacb329acc75714328f1e5cd33b6531e9f867e"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-dover",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.english-heritage.org.uk/visit/places/dover-castle/history-and-stories/history-dover/"
+      ],
+      "contentHash": "ee0e0f6e71f6686b240eddb6de6ae5f149e43580211bcb7714b44bace8811a8e"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-calais",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.calaisxxl.com/en/offers/have-to-do/Calais-Town-Hall-and-Belfry/"
+      ],
+      "contentHash": "eca92f8fc471ccee144dbbf7283434ec1e3b0bbd3ec27c6f9993a1d684d23254"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-arras",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.arraspaysdartois.com/en/the-essentials/the-squares-of-arras-la-dolce-vita/",
+        "https://www.arraspaysdartois.com/en/the-essentials/the-belfry-of-arras-a-balcony-overlooking-the-city/"
+      ],
+      "contentHash": "570e6c23223ad402d71e76f5e74fa5edcafb8f4a3077c4a1a639dbb2788d5558"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-reims",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.culture.gouv.fr/regions/drac-grand-est/actu/mh-etat/cathedrale-notre-dame-de-reims-marne/vitraux-knoebel-reims"
+      ],
+      "contentHash": "51426771f7bda7b644d7ec721f26d78102b9db3bedbe8bbd9c2f7589234212f8"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-langres",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://langres.fr/langres/grands-projets/plan-remparts/"
+      ],
+      "contentHash": "1a68e5339cfbc1704dc9b069807644b200677c0f95a27cf2efdc1e4d828a0617"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-besancon",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.besancon-tourisme.com/en/fiche-sit/F312010841_la-porte-noire-besancon-en/"
+      ],
+      "contentHash": "c840d35218344b3766fc77842c39689f7d845d56b3f2fed70db72248a34f1dd2"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-lausanne",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.lausanne-tourisme.ch/en/explore/lausanne-cathedral/lausanne-cathedral/"
+      ],
+      "contentHash": "d3663e91e5fa03c0e2a3adde74c90c9a0e8537d093e518df91d60099cae06e1a"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-martigny",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.martigny.com/en/activity/roman-amphitheatre-5416/",
+        "https://www.barryland.ch/fr/"
+      ],
+      "contentHash": "4bc873f531bb903ee55f9fcf24c08e49c2a9d92f094a6bc6b0342714c8c6ef37"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-bernard",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://gsbernard.com/en/",
+        "https://gsbernard.com/en/to-discover/"
+      ],
+      "contentHash": "624d170d10cd73160b6ffddd4c9abf8271b722f5f76e30348ae5b54ab274c909"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-aosta",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.lovevda.it/it/banca-dati/8/monumenti-romani/aosta/porta-praetoria/730",
+        "https://www.lovevda.it/it/banca-dati/8/itinerari-culturali/valle-d-aosta/aosta-i-cammini-sacri/1858"
+      ],
+      "contentHash": "c4c3a6157ea23088ae94feeb06cacacb472e53a825450abb2d70c11345877153"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-pavia",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.visitpavia.com/en/visiting-lombardy/cultural-tourism-pavia/basilica-di-san-michele-maggiore"
+      ],
+      "contentHash": "4825978a4a920cc8db775adaa43141ec9eb0cdbb04e8c29522b968fbc69dea12"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-lucca",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://turismo.lucca.it/luoghi/i-cammini-di-lucca/volto-santo/"
+      ],
+      "contentHash": "c194bc3b72c94b8d91f1e03711d66bf6311f43521c5de19de1cd1a7e8cdab79d"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-siena",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://santamariadellascala.net/complesso/luoghi/pellegrinaio"
+      ],
+      "contentHash": "4b59d946f8b6a9150ebf99746b9c530f7441bd8b4c0198ff68b5377f612361df"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-viterbo",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://comune.viterbo.it/vivere-il-comune/luoghi/san-pellegrino/"
+      ],
+      "contentHash": "9bad710d4e85d7732eab554cc9a196d118fe2439538d2690334195015b84c249"
+    },
+    {
+      "theme": "francigena",
+      "id": "francigena-rome",
+      "state": "researched-batch-4",
+      "reason": "核对机构与学术资料，给出实际作品/建筑/地景与可观察对象，区分不同到访、返程史料、后世重建与现存原件。未进行现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.basilicasanpietro.va/it/san-pietro/la-piazza",
+        "https://www.viefrancigene.org/en/news/via-francigena-le-president-de-laevf-m-tedeschi-recoit-le-prix-sigeric"
+      ],
+      "contentHash": "ff0603d0816338aca4326b4834da6184c608cdc7f23a88179e6ce8155acc6b13"
     }
   ]
 }

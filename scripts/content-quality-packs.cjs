@@ -6,7 +6,7 @@ function combinedPack(){
  const packs=loadPacks(),sources={},readings=[],seen=new Set();
  for(const pack of packs){
   for(const [key,source]of Object.entries(pack.sources)){if(sources[key]&&JSON.stringify(sources[key])!==JSON.stringify(source))throw Error('Conflicting research source: '+key);sources[key]=source;}
-  for(const row of pack.readings){if(seen.has(row.id))throw Error('Place has multiple research layers: '+row.id);seen.add(row.id);readings.push({...row,batch:pack.batch});}
+  for(const row of pack.readings){const context=row.theme+'/'+row.id;if(seen.has(context))throw Error('Duplicate research context: '+context);seen.add(context);readings.push({...row,batch:pack.batch});}
  }
  return {schemaVersion:2,baseline:packs[0].baseline,batches:packs.map(({batch,baseline,checked,scope,readings})=>({batch,baseline,checked,scope,readings:readings.length})),sources,readings};
 }

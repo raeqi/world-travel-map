@@ -12,7 +12,7 @@ const checks=before.map(old=>{
  for(const point of old.points){
   const now=current.points.find(p=>p.id===point.id);assert.ok(now,old.id+'/'+point.id+' missing');
   {
-   const {essay:oldEssay,...oldData}=point,{essay:newEssay,...newData}=now;assert.deepEqual(newData,oldData,old.id+'/'+point.id+' source data');
+   const {essay:oldEssay,essayApplies:oldApplies,reviewedReading:oldReviewed,...oldData}=point,{essay:newEssay,essayApplies:newApplies,reviewedReading:newReviewed,...newData}=now;assert.deepEqual(newData,oldData,old.id+'/'+point.id+' source data');
    assertReadingPreserved(point,now,old.id);
   }
  }
