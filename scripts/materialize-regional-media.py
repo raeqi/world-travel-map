@@ -18,6 +18,8 @@ existing=json.loads((OUT/'sources.json').read_text()) if (OUT/'sources.json').ex
 media={};pending={}
 for row in PACK['points']:
  key=row['id'];wiki=row.get('wiki')
+ if key in existing and row.get('mediaAuthor'):existing[key]['author']=row['mediaAuthor']
+ if key in existing and row.get('photoCaption'):existing[key]['title']=row['photoCaption']
  if row.get('imageRejected'):pending[key]=row['imageRejected'];continue
  if key in existing and (ROOT/existing[key]['path']).exists() and (not row.get('mediaFile') or urllib.parse.unquote(existing[key]['source'].split('File:')[-1]).replace('_',' ')==row['mediaFile'].replace('_',' ')):media[key]=existing[key];continue
  if not wiki:pending[key]='No cleared image; retain sourced text without borrowing another location';continue
@@ -31,7 +33,7 @@ for row in PACK['points']:
   image=ImageOps.exif_transpose(Image.open(io.BytesIO(get(info.get('thumburl') or info['url'])))).convert('RGB');image.thumbnail((1440,1200),Image.Resampling.LANCZOS)
   if min(image.size)<200:raise ValueError('Image too small')
   path=OUT/(key+'.webp');image.save(path,'WEBP',quality=83,method=6)
-  media[key]={'path':str(path.relative_to(ROOT)),'title':row.get('photoCaption') or row['name']+' · 建筑或园区照片（非所述全部作品）','author':clean(meta.get('Artist',{}).get('value','')),'source':'https://commons.wikimedia.org/wiki/File:'+urllib.parse.quote(file),'license':license,'licenseUrl':meta.get('LicenseUrl',{}).get('value','https://commons.wikimedia.org/wiki/Commons:Public_domain'),'changes':'按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。','placeId':key,'article':'https://en.wikipedia.org/wiki/'+urllib.parse.quote(wiki.replace(' ','_')),'providerDescription':clean(meta.get('ImageDescription',{}).get('value','')),'width':image.width,'height':image.height,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()}
+  media[key]={'path':str(path.relative_to(ROOT)),'title':row.get('photoCaption') or row['name']+' · 建筑或园区照片（非所述全部作品）','author':clean(meta.get('Artist',{}).get('value','')) or row.get('mediaAuthor',''),'source':'https://commons.wikimedia.org/wiki/File:'+urllib.parse.quote(file),'license':license,'licenseUrl':meta.get('LicenseUrl',{}).get('value','https://commons.wikimedia.org/wiki/Commons:Public_domain'),'changes':'按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。','placeId':key,'article':'https://en.wikipedia.org/wiki/'+urllib.parse.quote(wiki.replace(' ','_')),'providerDescription':clean(meta.get('ImageDescription',{}).get('value','')),'width':image.width,'height':image.height,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()}
   print('OK',key,file,license,flush=True)
  except Exception as error:pending[key]=str(error);print('PENDING',key,error,flush=True)
 (OUT/'sources.json').write_text(json.dumps(media,ensure_ascii=False,indent=2)+'\n');(OUT/'pending.json').write_text(json.dumps(pending,ensure_ascii=False,indent=2)+'\n')
