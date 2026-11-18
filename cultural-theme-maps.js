@@ -62,8 +62,8 @@ for(const definition of culturalMapDefinitions){
 // insufficient: regional selections deliberately omit some distant places.
 function culturalSourceCoverage(id){
  const nodes=places.filter(p=>p.themes.includes(id));
- const maps=[...culturalThemeMaps.values()].filter(d=>culturalMapMembers(d).some(m=>m.id===id));
- return nodes.map(place=>({place,maps:maps.filter(d=>culturalMapMembers(d).some(m=>m.id===id&&culturalMemberPlaces(m).includes(place))).map(d=>d.id)}));
+ const maps=[...culturalThemeMaps.values()].filter(d=>d.id!==id&&!themes.find(t=>t.id===d.id)?.catalogHidden&&(d.originMaps?.includes(id)||culturalMapMembers(d).some(m=>m.id===id)));
+ return nodes.map(place=>({place,maps:maps.filter(d=>d.originMaps?.includes(id)?place.themes.includes(d.id):culturalMapMembers(d).some(m=>m.id===id&&culturalMemberPlaces(m).includes(place))).map(d=>d.id)}));
 }
 for(const source of culturalAtlasPack.themes){
  const theme=themes.find(t=>t.id===source.id);
@@ -99,6 +99,7 @@ function migrateCulturalMapHash(hash){
  let id=culturalMapAliases[old];const person=q.get('person'),place=places.find(p=>p.id===q.get('place'));
  if(person&&culturalAtlasPack.themes.some(t=>t.id===person))id=person;
  else if(place&&!place.themes.includes(id))id=place.themes.find(t=>culturalAtlasPack.themes.some(source=>source.id===t))||id;
+ else if(q.get('route')&&!buildPlans(id,0).some(p=>p.id===q.get('route'))){const owner=planTemplates.find(p=>p.id===q.get('route'));if(owner)id=owner.theme;}
  q.set('theme',id);q.delete('person');return '#'+q.toString();
 }
 discoveryIndex=null;readingPlans=null;

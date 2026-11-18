@@ -22,7 +22,16 @@ function assertReadingPreserved(old,now,theme){
   }else{assert.equal(now.essayApplies,false,label+' changed context applicability');assert.equal(now.essay,undefined,label+' unrelated reading still displayed');}
   return;
  }
- for(const p of old.essay?.paragraphs||[])assert.ok(now.essay?.paragraphs.some(q=>q.heading===p.heading&&q.text.includes(p.text)),label+' lost applicable paragraph');
+ for(const p of old.essay?.paragraphs||[]){
+  const kept=now.essay?.paragraphs.some(q=>q.heading===p.heading&&q.text.includes(p.text));
+  if(kept)continue;
+  // A region map's generated overview is editorial framing, not an artist's
+  // source paragraph. Approved replacements retain its exact prior text in the
+  // consolidation record and must display the new, complete region overview.
+  const file='data/theme-review/catalogue-consolidation.json',pack=fs.existsSync(file)?JSON.parse(fs.readFileSync(file)):null;
+  const reframed=pack?.groups.find(g=>g.id===theme&&g.previousOverviews?.includes(p.text));
+  assert.ok(p.heading==='与其他地点怎样对读'&&reframed&&now.essay?.paragraphs.some(q=>q.heading===p.heading&&q.text.includes(reframed.intro)),label+' lost applicable paragraph');
+ }
  for(const s of old.essay?.sources||[])assert.ok(now.essay?.sources.some(q=>JSON.stringify(q)===JSON.stringify(s)),label+' lost applicable source');
  if(old.essayApplies===true&&old.essay)assert.equal(now.essayApplies,true,label+' applicable reading lost');
  for(const id of old.essay?.related||[])assert.ok(now.essay?.related.includes(id),label+' lost related place');

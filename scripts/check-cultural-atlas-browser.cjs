@@ -6,7 +6,7 @@ const pack=require('../data/cultural-expansion/live-atlas.json');
  const page=await browser.newPage();page.on('pageerror',e=>errors.push(e.message));
  try{
   await page.goto('http://127.0.0.1:8000/#interest=art');await page.waitForFunction(()=>document.body.dataset.ready==='true');
-  assert.ok(await page.evaluate(()=>[...culturalThemeMaps.keys()].every(id=>visibleCatalogueThemes().some(t=>t.id===id))));
+  assert.ok(await page.evaluate(()=>[...culturalThemeMaps.keys()].every(id=>visibleCatalogueThemes().some(t=>t.id===id)||(culturalSourceCoverage(id).length&&culturalSourceCoverage(id).every(r=>r.maps.length)))));
   const disciplines=[...new Set(pack.themes.map(t=>t.discipline))];
   for(const device of [{name:'desktop',width:1440,height:1000},{name:'mobile',width:390,height:844}]){
    await page.setViewportSize(device);
