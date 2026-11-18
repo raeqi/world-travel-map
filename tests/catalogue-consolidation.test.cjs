@@ -2,7 +2,7 @@
 const test=require('node:test'),assert=require('node:assert/strict'),vm=require('node:vm'),fs=require('node:fs'),crypto=require('node:crypto');
 const {runtime,snapshot,assertReadingPreserved}=require('../scripts/theme-audit-runtime.cjs'),pack=require('../data/theme-review/catalogue-consolidation.json');
 test('approved consolidations preserve original places, readings, works and exact itinerary templates',()=>{
- const before=snapshot(runtime(pack.baseline)),after=snapshot(runtime());
+ const bytes=fs.readFileSync(pack.baselineSnapshot.file);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),pack.baselineSnapshot.sha256);const before=JSON.parse(require('node:zlib').gunzipSync(bytes)),after=snapshot(runtime());
  for(const old of before){const now=after.find(t=>t.id===old.id);assert.ok(now,old.id);for(const p of old.points){const n=now.points.find(x=>x.id===p.id);assert.ok(n,old.id+'/'+p.id);const {essay:oe,...op}=p,{essay:ne,...np}=n;assert.deepEqual(np,op,old.id+'/'+p.id+' original context');assertReadingPreserved(p,n,old.id);}for(const p of old.plans)assert.deepEqual(now.plans.find(n=>n.id===p.id),p,p.id);for(const w of old.works)assert.ok(now.works.some(n=>JSON.stringify(n)===JSON.stringify(w)),w.key);}
 });
 test('new ordinary maps cover every source place and keep travel regions separate',()=>{const c=runtime();c.assert=assert;vm.runInContext(`

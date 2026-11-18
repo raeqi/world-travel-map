@@ -728,5 +728,9 @@
     "uniquePlans": 338,
     "featuredPlans": 267,
     "placeThemeContexts": 2281
+  },
+  "baselineSnapshot": {
+    "file": "qa/theme-review/catalogue-baseline-191d764.json.gz",
+    "sha256": "c396ed4774cbf2c8e8d4ee360edfed5aae94e2821c6abe06353dafc930e67162"
   }
 }
