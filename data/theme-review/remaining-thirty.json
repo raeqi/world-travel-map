@@ -495,7 +495,10 @@
       "wikiLang": "de",
       "mediaFile": "Stampa Museum.jpg",
       "sources": [
-        "https://www.openstreetmap.org/node/9925068326"
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.openstreetmap.org/node/9925068326"
+        }
       ]
     },
     {
@@ -528,7 +531,10 @@
       "mediaFile": "Btv1b101065160 LE POULDU - Les Grands Sables.jpg",
       "photoCaption": "勒普尔迪大沙滩历史明信片（法国国家图书馆收藏，非今日街景）",
       "sources": [
-        "https://www.openstreetmap.org/node/471545313"
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.openstreetmap.org/node/471545313"
+        }
       ]
     },
     {
@@ -561,7 +567,10 @@
       "wiki": "Marc Chagall Museum",
       "mediaFile": "Chagall's House in Vitebsk.jpg",
       "sources": [
-        "https://www.openstreetmap.org/way/27900949"
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.openstreetmap.org/way/27900949"
+        }
       ]
     },
     {
@@ -707,7 +716,10 @@
       "wikiLang": "cs",
       "mediaFile": "Památník Antonína Dvořáka (4).JPG",
       "sources": [
-        "https://www.do-muzea.cz/seznam-muzei/pamatnik-antonina-dvoraka-ve-vysoke-u-pribrami"
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.do-muzea.cz/seznam-muzei/pamatnik-antonina-dvoraka-ve-vysoke-u-pribrami"
+        }
       ]
     },
     {
@@ -768,7 +780,10 @@
       "wiki": "Museo di Celle dei Puccini",
       "wikiLang": "it",
       "sources": [
-        "https://www.openstreetmap.org/node/7319468522"
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.openstreetmap.org/node/7319468522"
+        }
       ]
     },
     {
@@ -802,7 +817,10 @@
       "wikiLang": "fr",
       "mediaFile": "Maison de Victor Hugo à Villequier.jpg",
       "sources": [
-        "https://www.openstreetmap.org/node/9857976181"
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.openstreetmap.org/node/9857976181"
+        }
       ]
     },
     {
@@ -891,7 +909,10 @@
       "wikiLang": "it",
       "photoCaption": "的里雅斯特 · 比塞里尼宫外观，LETS文学博物馆现馆址",
       "sources": [
-        "https://patrimonioculturale.regione.fvg.it/cerca-nella-mappa/"
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://patrimonioculturale.regione.fvg.it/cerca-nella-mappa/"
+        }
       ]
     },
     {
@@ -911,7 +932,10 @@
       "mediaFile": "Illiers-Combray - Musée Marcel Proust.jpg",
       "photoCaption": "莱奥妮姨妈之家博物馆入口",
       "sources": [
-        "https://www.openstreetmap.org/node/5226543574"
+        {
+          "title": "地点位置与机构资料",
+          "url": "https://www.openstreetmap.org/node/5226543574"
+        }
       ]
     },
     {

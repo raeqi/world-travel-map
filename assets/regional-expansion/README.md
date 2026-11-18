@@ -34,11 +34,12 @@
 仅按比例缩小、压缩为WebP并保留原色。逐文件哈希、尺寸、说明与许可元数据见sources.json；CC BY-SA衍生文件保留原许可。review.jpg是审核联系表，不在应用中充当现场图片。
 
 <!-- remaining-thirty-media -->
-## 剩余30主题扩充：已核验照片
 
-每个文件的原始说明、许可链接、衍生说明与SHA-256见 `sources.json`。
+## 剩余30主题新增图像
 
-| 地点 | 作者 | 许可 | 来源 |
+已人工核对具体地点与图像说明。历史明信片、机构建筑与当前作品陈列分别标明；每张衍生图仍按原许可提供，文件哈希见 sources.json。
+
+| 地点ID | 作者 | 许可 | 原文件 |
 | --- | --- | --- | --- |
 | thirty-sansuci | aisccd | CC BY 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:%E7%9C%89%E5%B1%B1%E4%B8%89%E8%8B%8F%E7%A5%A0-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg) |
 | thirty-xuzhou-huanglou | H2v5o68z | CC0 | [原文件](https://commons.wikimedia.org/wiki/File:Huang_Tower_1.jpg) |
@@ -50,3 +51,43 @@
 | thirty-hcb-paris | VVVCFFrance | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Rue%20des%20Archives%2079%20Cour.jpg) |
 | thirty-tagore-uttarayan | SuparnaRoyChowdhury | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Santiniketan%20Rabindranath%20Tagore%27s%20House%20Udayan.jpg) |
 | thirty-tagore-tirtha | Buzzzman | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:RabindraTirtha_2013.jpg) |
+| thirty-brancusi-hobita | Miehs | CC BY-SA 3.0 ro | [原文件](https://commons.wikimedia.org/wiki/File:Casa-muzeu_Constantin_Brancusi-exterior.jpg) |
+| thirty-craiova-art | Transcedentalia | CC BY-SA 3.0 ro | [原文件](https://commons.wikimedia.org/wiki/File:Palatul_Constantin_Mihail%2C_%28azi_Muzeul_de_Art%C4%83%29_vedere_lateral_st%C3%A2nga.JPG) |
+| thirty-ciasa-granda | Adrian Michael | CC BY 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:Stampa%20Museum.jpg) |
+| thirty-kunsthaus-zurich | Roland zh | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:Kunsthaus_Z%C3%BCrich_2011-08-06_17-33-46.jpg) |
+| thirty-le-pouldu | AnonymousUnknown author | Public domain | [原文件](https://commons.wikimedia.org/wiki/File:Btv1b101065160%20LE%20POULDU%20-%20Les%20Grands%20Sables.jpg) |
+| thirty-tahiti-museum | Saga70 | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_Tahiti_vue_ext%C3%A9rieure.jpg) |
+| thirty-chagall-house | Lumaca | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Chagall%27s%20House%20in%20Vitebsk.jpg) |
+| thirty-vence-cathedral | Didier Chauvin at fr.wikipedia | CC BY 1.0 | [原文件](https://commons.wikimedia.org/wiki/File:Cathedrale_vence.jpg) |
+| thirty-willy-lott | Rowland Shaw | CC BY-SA 2.5 | [原文件](https://commons.wikimedia.org/wiki/File:Willy-Lotts-Cottage.jpg) |
+| thirty-wordsworth-house | MarcusBritish at en.wikipedia | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:Wordsworth_House_Cockermouth.jpg) |
+| thirty-allan-bank | Antiquary | CC BY 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Allan_Bank.jpg) |
+| thirty-christo-pont-neuf | Rmrfstar | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:The_western_sides_of_the_%C3%8Ele_de_la_Cit%C3%A9_and_the_Pont_Neuf%2C_14_July_2008.jpg) |
+| thirty-christo-arc | ZeusUpsistos | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg) |
+| thirty-chopin-warsaw | Adrian Grycuk | CC BY-SA 3.0 pl | [原文件](https://commons.wikimedia.org/wiki/File:Zamek_Ostrogskich_w_Warszawie_2022.jpg) |
+| thirty-chopin-birthplace | Wojsyl | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:Poland_Zelazowa_Wola.jpg) |
+| thirty-dvorak-birthplace | cs:ŠJů | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:Nelahozeves%2C_rodn%C3%BD_d%C5%AFm_Anton%C3%ADna_Dvo%C5%99%C3%A1ka_%2801%29.jpg) |
+| thirty-dvorak-vysoka | Chmee2 | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:Pam%C3%A1tn%C3%ADk%20Anton%C3%ADna%20Dvo%C5%99%C3%A1ka%20%284%29.JPG) |
+| thirty-siljustol | David40226543 | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:Siljust%C3%B8l.jpg) |
+| thirty-mendelssohn-remise | Membeth | CC0 | [原文件](https://commons.wikimedia.org/wiki/File:Mendelssohn-Remise.Hof.1.jpg) |
+| thirty-puccini-giglio | Davide Papalini | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:Lucca-teatro_del_Giglio-complesso1.jpg) |
+| thirty-hugo-villequier | VVVCFFrance | CC0 | [原文件](https://commons.wikimedia.org/wiki/File:Maison%20de%20Victor%20Hugo%20%C3%A0%20Villequier.jpg) |
+| thirty-byron-newstead | Neil Theasby | CC BY-SA 2.0 | [原文件](https://commons.wikimedia.org/wiki/File:Newstead_Abbey_from_the_east_-_geograph.org.uk_-_5949999.jpg) |
+| thirty-villa-diodati | Robertgrassi | Public domain | [原文件](https://commons.wikimedia.org/wiki/File:Villa_diodati_2008.07.27_rg_5.JPG) |
+| thirty-kafka-museum | Mister No | CC BY 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:Kafka_Museum_-_panoramio_%281%29.jpg) |
+| thirty-kafka-golden-lane | Maros M r a z (Maros) | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:Prague_-_Zlata_ulicka.jpg) |
+| thirty-joyce-tower | YvonneM | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:James_Joyce_Tower_01.JPG) |
+| thirty-proust-leonie | Benjamin Smith | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Illiers-Combray%20-%20Mus%C3%A9e%20Marcel%20Proust.jpg) |
+| thirty-proust-cabourg-villa | Pradigue | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Villa_du_temps_retrouv%C3%A9_Cabourg_2.jpg) |
+
+本批新增47地点中38处有已核对图像；以下9处尚无确认可复用的准确图像，保留来源与实质说明：
+
+- 凤翔 · 东湖
+- 诸城 · 超然台与密州记忆
+- 惠州 · 白鹤峰东坡祠
+- 内江 · 张大千纪念馆
+- 上海 · 大风堂美术馆
+- 蓝田 · 水陆庵
+- 切莱 · 普契尼家族博物馆
+- 维亚雷焦 · 普契尼晚年别墅外观
+- 的里雅斯特 · LETS乔伊斯博物馆
