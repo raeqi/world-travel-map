@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-31",
+  "baseline": "8ae25b726aaaf4e2c1dfa24dbab0fe7fd3a48ca8",
+  "checked": "2026-11-18",
+  "scope": "Four existing visible Asian cultural catalogue contexts: Angkor regional temple/city/water scope, Beijing Axis uses/chronology, Lijiang three settlements and water, Zhoukoudian distinct fossil localities and museum interpretation. Corrected short summaries and first dedicated readings; preserve raw IDs, photos, coordinates, routes and links.",
+  "sources": {
+    "cq31-angkor-unesco": {
+      "title": "UNESCO：吴哥遗产区、都城和水系",
+      "url": "https://whc.unesco.org/en/list/668/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read OUV temples,successivecapitals,hydraulicstructures and inhabitedvillages/rice. WholeAngkor not onlyAngkorWat temple; no static visitorentry or area-boundary claim."
+    },
+    "cq31-angkor-bayon": {
+      "title": "APSARA：巴戎寺、塔面与生活浮雕",
+      "url": "https://apsaraauthority.gov.kh/2021/08/05/bayon/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read official indexed English text: late12thcenturyJayavarmanVII and basreliefmarket/work/food scenes. Do not adopt old2020closure ascurrent, towercounts or a definitive identity of facefigures. Other APSARA2026damURL directfetch403, not used as proof of access/currentworks."
+    },
+    "cq31-axis-unesco": {
+      "title": "UNESCO：北京中轴线的秩序、礼仪与演变",
+      "url": "https://whc.unesco.org/en/list/1714/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read English/French Qing1636–1912 versusChinese1635typo; OUV13thcenturyorigin, balance/temples, changed publicuses and reconstructions. No assertion every building dates to one dynasty or untouchedoriginal."
+    },
+    "cq31-axis-beijing": {
+      "title": "北京市文物局：15个遗产构成要素",
+      "url": "https://wwj.beijing.gov.cn/bjww/wwjzzcslm/1729986/1730010/543377848/index.html",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read official2024indexednotice list offivecategories15elements and7.8km northsouthextent. Omit dated nationalheritage total, superlative longest and legal/access advice."
+    },
+    "cq31-lijiang": {
+      "title": "UNESCO：大研、白沙、束河与山地水系",
+      "url": "https://whc.unesco.org/en/list/811/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read OUV threecomponents,BlackDragonPondcanals,contourhouses and blendedcultural/wallpaintingelements. Omit possiblyinconsistent settleddates/paintingages, exactdistances, drinkingwater and perfectlyunchanged claims. Existing tea/XuLijiang readings do not clear this separate culture record."
+    },
+    "cq31-zhou-unesco": {
+      "title": "UNESCO：不同古人类地点与石灰岩环境",
+      "url": "https://whc.unesco.org/en/list/449/",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read OUV Homoerectuspekinensis, multiplelocalities,stone/animalfossils and excavationhistory. Intro/OUVdating differs; use broadperiod/context, not one total chronology or deprecatedSinanthropus as current genus."
+    },
+    "cq31-zhou-beijing": {
+      "title": "北京市政府：遗址区与博物馆展陈",
+      "url": "https://www.beijing.gov.cn/renwen/bjgk/fsgk/fswl/202303/t20230302_2927717.html",
+      "checked": "2026-11-18",
+      "method": "Primary selected passages read; original Chinese paraphrase; no image reuse. Read archived2023Fangshan governmentaccount of2014museum,culturalremains/scenereconstruction and distinctPekingMan/earlyHomoSapiens/UpperCavepeople. Omit fixedexhibithall/fossilcounts, currentticketopening and blanketoriginal/copy claims."
+    }
+  },
+  "readings": [
+    {
+      "id": "wh-668",
+      "theme": "culture",
+      "title": "吴哥：寺庙、都城、水网与仍在延续的生活",
+      "summary": "吴哥遗产区包含不同时代的都城、寺庙、道路和水利设施，吴哥寺只是其中一处。可把吴哥寺、吴哥通王城中的巴戎寺与周围护城河、蓄水池联系起来，再看浮雕、村落和稻作，理解石造建筑怎样嵌在更大的城市与生态系统里。",
+      "catalogueDescription": "吴哥遗产区包含不同时代的都城、寺庙、道路和水利设施，吴哥寺只是其中一处。可把吴哥寺、吴哥通王城中的巴戎寺与周围护城河、蓄水池联系起来，再看浮雕、村落和稻作，理解石造建筑怎样嵌在更大的城市与生态系统里。",
+      "paragraphs": [
+        {
+          "heading": "先分清遗产区、王城与一座寺庙",
+          "text": "Angkor指多处寺庙、古都城规划和水利构筑组成的遗产区；Angkor Wat为吴哥寺，Bayon则位于Angkor Thom内。观察城门、护城河、道路和寺庙的相对关系，可以辨认不同层次的空间，避免把整片遗产都当作一座大型寺院。",
+          "sourceKeys": [
+            "cq31-angkor-unesco"
+          ]
+        },
+        {
+          "heading": "浮雕和水网也记录日常生活",
+          "text": "APSARA介绍巴戎寺浮雕中的市场、建筑劳动和食物准备等生活场景；UNESCO同时指出遗产区仍有村落和稻作。水池、渠道、堤坝与寺庙并看，能读到供水、农业和宗教的联系，而不是把吴哥理解为只有无人石庙的森林。",
+          "sourceKeys": [
+            "cq31-angkor-unesco",
+            "cq31-angkor-bayon"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq31-angkor-unesco",
+        "cq31-angkor-bayon"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1714",
+      "theme": "culture",
+      "title": "北京中轴线：宫城、坛庙、道路与公共空间的秩序",
+      "summary": "北京中轴线从钟鼓楼延伸至永定门，宫苑、坛庙、城市管理设施、礼仪与公共建筑、道路遗存共同形成约7.8公里的城市秩序。观察纵向视线、两侧建筑的平衡和不同区段的尺度，再区分元代起源、明清完善与近现代公共使用，可以超越只沿地标逐个打卡。",
+      "catalogueDescription": "北京中轴线从钟鼓楼延伸至永定门，宫苑、坛庙、城市管理设施、礼仪与公共建筑、道路遗存共同形成约7.8公里的城市秩序。观察纵向视线、两侧建筑的平衡和不同区段的尺度，再区分元代起源、明清完善与近现代公共使用，可以超越只沿地标逐个打卡。",
+      "paragraphs": [
+        {
+          "heading": "15个要素不是同一类建筑的重复",
+          "text": "钟鼓楼、故宫、天坛、先农坛、万宁桥、南段道路遗存和天安门广场建筑群等体现不同用途，组成五类15个遗产要素。可比较建筑与道路、开敞广场与宫苑之间的尺度转换，理解轴线如何组织城市，而不只追求一条直线上的连续合影。",
+          "sourceKeys": [
+            "cq31-axis-unesco",
+            "cq31-axis-beijing"
+          ]
+        },
+        {
+          "heading": "看秩序延续，也看用途改变",
+          "text": "轴线起源于元代，之后不断营建和调整；UNESCO强调布局中的对称、平衡与坛庙礼仪关系。部分构筑经历拆建、重建或改造，原有历史建筑也逐渐转为公共使用，因此今天的整体不是某一朝代一次建成、原样静止的城市。",
+          "sourceKeys": [
+            "cq31-axis-unesco"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq31-axis-unesco",
+        "cq31-axis-beijing"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-811",
+      "theme": "culture",
+      "title": "丽江古城：在渠水、桥梁和院落之间读地势",
+      "summary": "丽江古城遗产包括大研及黑龙潭、白沙和束河，不只是一片商业街。山地来水经黑龙潭及渠网进入街巷，木构院落顺地势排列，建筑与壁画又反映纳西、汉、藏、白等文化的交流；可循水看街、循院落看生活空间，比较三个组成部分的差异。",
+      "catalogueDescription": "丽江古城遗产包括大研及黑龙潭、白沙和束河，不只是一片商业街。山地来水经黑龙潭及渠网进入街巷，木构院落顺地势排列，建筑与壁画又反映纳西、汉、藏、白等文化的交流；可循水看街、循院落看生活空间，比较三个组成部分的差异。",
+      "paragraphs": [
+        {
+          "heading": "沿水看街巷怎样顺应山地",
+          "text": "来自周围山地的河流和泉水补给黑龙潭，再经渠道进入城镇。比较桥梁、渠水、街巷走向和山坡上的住宅排列，能理解地形与用水如何参与城市形成，水系也把山前泉水、黑龙潭和聚落空间联系起来。",
+          "sourceKeys": [
+            "cq31-lijiang"
+          ]
+        },
+        {
+          "heading": "从大研延伸到白沙和束河",
+          "text": "三个组成部分共同表达历史聚落与地方文化的关系，不能仅用大研的街景代替全部遗产。留意木构院落、门楼、照壁和梁枋装饰，以及白沙宗教建筑的壁画，可比较不同文化元素怎样进入纳西生活空间；具体内部参观按当地安排。",
+          "sourceKeys": [
+            "cq31-lijiang"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq31-lijiang"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-449",
+      "theme": "culture",
+      "title": "周口店：把洞穴、出土层位与博物馆证据对照",
+      "summary": "周口店包含不同洞穴和化石地点，记录不同时期的古人类、动物与石器。可将遗址区的地形和沉积，与博物馆展示的出土材料、发掘图和复原场景对照，理解科学家怎样从证据重建过去；“北京人”和山顶洞人并不是同一时间的一群人。",
+      "catalogueDescription": "周口店包含不同洞穴和化石地点，记录不同时期的古人类、动物与石器。可将遗址区的地形和沉积，与博物馆展示的出土材料、发掘图和复原场景对照，理解科学家怎样从证据重建过去；“北京人”和山顶洞人并不是同一时间的一群人。",
+      "paragraphs": [
+        {
+          "heading": "洞穴环境与发现地点同样重要",
+          "text": "石灰岩洞穴和周围水源为古人类活动提供环境，也保存了人类、动物化石与文化遗物。不同地点和地层的材料需分别判断年代与关系；看一件头骨或石器时，出土背景比把所有发现并成一段简单故事更能帮助理解证据。",
+          "sourceKeys": [
+            "cq31-zhou-unesco"
+          ]
+        },
+        {
+          "heading": "遗址和博物馆提供两种观看尺度",
+          "text": "遗址区让人认识发现地点及其环境，博物馆则系统说明发现、发掘、研究和保护，并结合实物、场景再现与数字展示。应把标示的化石、模型和解释性复原分别阅读；早期发掘史也是科学史的一部分，而不是每一幅复原图都等于直接见到的古代现场。",
+          "sourceKeys": [
+            "cq31-zhou-unesco",
+            "cq31-zhou-beijing"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq31-zhou-unesco",
+        "cq31-zhou-beijing"
+      ],
+      "related": []
+    }
+  ]
+}

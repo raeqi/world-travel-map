@@ -4541,6 +4541,53 @@
         "https://www.ysma.gr/en/faq/"
       ],
       "contentHash": "6cfc06661611ab9bd5cc85370bdebcdd61182548db64ccec5fe906308e9d9cdb"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-668",
+      "state": "researched-batch-31",
+      "reason": "按UNESCO OUV、多语言及管理/地方机构选段核对范围、年代、地点关系与可观察证据；索引读取和直接抓取限制明确记录，未认证现场/现行开放。原图、坐标、路线及链接保留。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/668/",
+        "https://apsaraauthority.gov.kh/2021/08/05/bayon/"
+      ],
+      "contentHash": "956375d888ff74a044182491c1602d02c4c5703d0c03eb89dffa8eadfc2581cf"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-1714",
+      "state": "researched-batch-31",
+      "reason": "按UNESCO OUV、多语言及管理/地方机构选段核对范围、年代、地点关系与可观察证据；索引读取和直接抓取限制明确记录，未认证现场/现行开放。原图、坐标、路线及链接保留。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1714/",
+        "https://wwj.beijing.gov.cn/bjww/wwjzzcslm/1729986/1730010/543377848/index.html"
+      ],
+      "contentHash": "b1c2c6df0c6725833c0ea31d6d4b83bbd2a65c68390c94f58727bd37b1582419"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-811",
+      "state": "researched-batch-31",
+      "reason": "按UNESCO OUV、多语言及管理/地方机构选段核对范围、年代、地点关系与可观察证据；索引读取和直接抓取限制明确记录，未认证现场/现行开放。原图、坐标、路线及链接保留。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/811/"
+      ],
+      "contentHash": "bf662b1b1dedbdd09457d104bbac2b8c811fe28ff75f278de3c06123bc4d38fb"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-449",
+      "state": "researched-batch-31",
+      "reason": "按UNESCO OUV、多语言及管理/地方机构选段核对范围、年代、地点关系与可观察证据；索引读取和直接抓取限制明确记录，未认证现场/现行开放。原图、坐标、路线及链接保留。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/449/",
+        "https://www.beijing.gov.cn/renwen/bjgk/fsgk/fswl/202303/t20230302_2927717.html"
+      ],
+      "contentHash": "913ae9c02daa5780aac35132d3096f8f0c5ad421d7a13c87e96a632b5fc7929d"
     }
   ]
 }
