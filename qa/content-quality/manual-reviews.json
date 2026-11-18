@@ -338,78 +338,6 @@
       "contentHash": "979e9196e3d61e47de307e63168aa299177c3cf6149e02d72e041c3a91d0b959"
     },
     {
-      "theme": "tea",
-      "id": "tea-nanjian",
-      "state": "needs-research",
-      "reason": "仅称商贸节点，缺少具体遗存、地方生产和可观察对象。",
-      "checked": "2026-11-18",
-      "sources": [],
-      "contentHash": "52b81b81d2cd1430db586e19dc68aae4f4e21dbb160911c7acb82f4d02f5026d"
-    },
-    {
-      "theme": "tea",
-      "id": "tea-dali",
-      "state": "needs-research",
-      "reason": "仅称古城节点，需具体核对茶路与城内地点的关系。",
-      "checked": "2026-11-18",
-      "sources": [],
-      "contentHash": "668a5a22895298d502d2f721aff3be3a33a9fd3fcec0d402c225dba24b9e7345"
-    },
-    {
-      "theme": "tea",
-      "id": "tea-lijiang",
-      "state": "needs-research",
-      "reason": "马帮与多元交流过于概括，缺少对应街巷、市场或证据。",
-      "checked": "2026-11-18",
-      "sources": [],
-      "contentHash": "f9d00880004409b9a11a40c8d09fbcc163365432ed3c77dec1ed532dca37a400"
-    },
-    {
-      "theme": "tea",
-      "id": "tea-deqin",
-      "state": "needs-research",
-      "reason": "当前以高原适应提醒为主，缺少地方本身值得看的内容。",
-      "checked": "2026-11-18",
-      "sources": [],
-      "contentHash": "88f552909311f0c33ee404facdd18085cb28d45bf32629bec8b6ef5a49079ae9"
-    },
-    {
-      "theme": "tea",
-      "id": "tea-kangding",
-      "state": "needs-research",
-      "reason": "有打箭炉旧称，但还没有具体商贸遗存或观察线索。",
-      "checked": "2026-11-18",
-      "sources": [],
-      "contentHash": "eab637aa5143caaea4ffbdf1c502bbc0a1c9e8bc417372da08cb2b2b61970efa"
-    },
-    {
-      "theme": "tea",
-      "id": "tea-litang",
-      "state": "needs-research",
-      "reason": "只有高海拔和分段安排建议，未解释理塘特色。",
-      "checked": "2026-11-18",
-      "sources": [],
-      "contentHash": "722d770fb6f9ea25372ea6a9fe017cdcde246a5111a8a260881b87d700d53ff0"
-    },
-    {
-      "theme": "tea",
-      "id": "tea-batang",
-      "state": "needs-research",
-      "reason": "川边重镇是泛称，需实际地点和历史关系证据。",
-      "checked": "2026-11-18",
-      "sources": [],
-      "contentHash": "eb87a95c7b7dd9062bbe5f04e45d42978b8b6fce8fdfe21f11be91e3bd83ea3a"
-    },
-    {
-      "theme": "tea",
-      "id": "tea-changdu",
-      "state": "needs-research",
-      "reason": "区域交流节点不能代替具体城镇内容。",
-      "checked": "2026-11-18",
-      "sources": [],
-      "contentHash": "94a6fac33fcd3b1b04cb2bcf8c6177eed000f5eba81d852b0bd8dad94e376025"
-    },
-    {
       "theme": "silk",
       "id": "silk-tashkent",
       "state": "needs-research",
@@ -444,6 +372,239 @@
       "checked": "2026-11-18",
       "sources": [],
       "contentHash": "ef4e2ada698da7ecb1ba3fde5f01cf90afb763f40dc06797984a9a904422fb8e"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-puer",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://nync.yn.gov.cn/html/2025/yunnongkuanxun-new_1219/1423288.html",
+        "https://news.cctv.cn/2026/02/21/ARTII6NUEHncdkZkKDDuE1me260221.shtml"
+      ],
+      "contentHash": "c4c87c71c6b266481266f04cf6605e6b8b2815896296730b08e54163a1aed1c9"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-nanjian",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://yn.people.com.cn/news/yunnan/n2/2025/0426/c403002-41209402.html",
+        "https://zh.wikisource.org/zh-hans/云南省住房和城乡建设厅_云南省文物局关于公布大理州南涧县公郎镇回营村为省级历史文化名村的通报"
+      ],
+      "contentHash": "04dbe433c8e8e9d3698ea4633bb3733becd99faadc497564edf908f1f083083a"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-dali",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://mz.yn.gov.cn/html/2025/difangdongtai_0416/4058893.html"
+      ],
+      "contentHash": "371181c47733894c85d10dbb7fbe7f061e87377736860e0e9e24f0a435080ccc"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-lijiang",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/811/",
+        "https://www.lijiang.cn/article/174860.html"
+      ],
+      "contentHash": "3b605c799a4e2cb86ba1909ff7acf835aa6a2f141099a0e601cfaceb826134f1"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-deqin",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.dqhjbwg.cn/pc/WGS/index.go",
+        "https://www.diqing.gov.cn/subsiteIndex/bulletin/ex/articleView.html?articleId=141894&fromSubsiteFlagEx=dqzzf_zfbgs&newsClassId=223&subsiteId=16"
+      ],
+      "contentHash": "9de9d39e8c9ce2d69fadc4c208397381b6fce7a74820eb63182f7d5e34b98c0c"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-yaan",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://zhuanti.mct.gov.cn/xczgshsh2023/cxyh/detail_cha/3865.html"
+      ],
+      "contentHash": "3eb354339d5f4a709b2b6bd090db4a218d19034c1a7be602532abbff9321aca4"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-kangding",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.kangding.gov.cn/kdkdjj/article/107015",
+        "https://sys.cufe.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1525&wbtreeid=1054"
+      ],
+      "contentHash": "3c94bdb33435b4b4b87c66b1fd58f1e0d0abce000b1997263ce0d33f41420ab0"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-litang",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.gzlt.gov.cn/ltfg/article/592205"
+      ],
+      "contentHash": "5e45e063aa89f5be22b63adb9e24b5417c7c724305d40f54ad788cb0b1197eb5"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-batang",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.batang.gov.cn/btjj1/article/650176",
+        "https://www.ihchina.cn/project_details/12929"
+      ],
+      "contentHash": "ac7ed99d0ce7dcc50eb5992b390d38f4f4b7b5911eb272a8f98d08ca6b43fc4c"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-changdu",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://sys.cufe.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1525&wbtreeid=1054",
+        "https://lyfz.changdu.gov.cn/cdslyj4/c101493/202005/31f676065d5141cb92e6d87d292f2bfb.shtml"
+      ],
+      "contentHash": "90ae853ead42ac5c10996531025fd96413d6581daf4c027e8c8004cae68c827c"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-lhasa",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.cgq.gov.cn/cgqrmzf/jdjs/202007/c3c768bee94346abbc8e17de629ccf37.shtml?userInfo=notlogin",
+        "https://www.xizang.gov.cn/xwzx_406/ztzl_416/cxzt/xzzzqrmzffzyjzx/zxdt/xzzzqrmzffzyjzx_398/202104/t20210423_200484.html"
+      ],
+      "contentHash": "4aa669453c37605f2471a16584575147dcf706c7c73dcee7fdb000ccf7d5aa78"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-shigatse",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://wsb.xizang.gov.cn/xzjx/lyjd/201107/t20110713_100950.html"
+      ],
+      "contentHash": "9768e6a1a25f60eb30ee551269f24c1408ee2a49e6ff130c0e6d890adf6f4f99"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-gyirong",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.xizang.gov.cn/xwzx_406/bmkx/201812/t20181216_10316.html"
+      ],
+      "contentHash": "2c0f98b663255a6c481eb3e18fd6a06b6ecdc3f68825953818855c044dac90d5"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-nuwakot",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/tentativelists/5260/"
+      ],
+      "contentHash": "de40a55a2533523c7543bcf6ce2e9b89ea6ff47942ea6a9fd48dff2b2032d3e6"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-kathmandu",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://ntb.gov.np/heritage-walk"
+      ],
+      "contentHash": "cf273fb0fc6093d46672d6fa7b6900c0377d1cc516e816260830f1b8bba37890"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-yadong",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.xizang.gov.cn/xwzx_406/ztzl_416/cxzt/xzzzqrmzffzyjzx/zxdt/xzzzqrmzffzyjzx_398/202104/t20210423_200484.html",
+        "https://www.xizang.gov.cn/xwzx_406/qxxw/202402/t20240201_401993.html"
+      ],
+      "contentHash": "231896eb1973573e29a8d2af75b6bb844d64629e57d93300cc2ec7dffdbedcb7"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-nathula",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://gangtokdistrict.nic.in/signature-attractions/",
+        "https://www.sikkim.gov.in/departments/tourism-civil-aviation-department/general-info",
+        "https://namgyalinstitutesikkim.org/"
+      ],
+      "contentHash": "86f9760116ccbc93217b7acdea3dc3f04083da14dcb1e147a564861f805fa4fd"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-gangtok",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://namgyalinstitutesikkim.org/"
+      ],
+      "contentHash": "ef0dac771ff02c5bcf95c1155ddf7cf41eac83a885efa6dc4934c4d0b01af870"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-kalimpong",
+      "state": "researched-batch-3",
+      "reason": "核对所列地点专属资料；补充具体观察对象与真实贸易/文化关联，区分区域代表点、遗址、现代设施与访问条件。非现场访问。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://kalimpong.gov.in/history/",
+        "https://kalimpong.gov.in/central-school-for-tibetan/"
+      ],
+      "contentHash": "1bad0269ce961fd251858bc7c07c989d6e5d6b098f68f75ca5dd20c1a7d786fd"
+    },
+    {
+      "theme": "tea",
+      "id": "tea-rasuwa",
+      "state": "needs-research",
+      "reason": "官方既有海关史PDF本轮返回503；未取得足以核实堡垒、现存遗构与访问价值的直接资料。灾情门户只能支持通道受影响，不能冒充遗址内容已补齐；保留候选。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://rasuwagadhi.immigration.gov.np/",
+        "https://rescue.opmcm.gov.np/"
+      ],
+      "contentHash": "4c072f7ef00d951d3c91a0d21a3a2d4ae2ed182792743b4545902e7fec5c1287"
     }
   ]
 }

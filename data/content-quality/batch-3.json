@@ -1,0 +1,765 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-3",
+  "baseline": "043a6639b9ee363ab35643a861ba3c1dd2ccdd83",
+  "checked": "2026-11-18",
+  "scope": "19 tea/trade-network readings: 18 previously missing and one deepened; Rasuwagadhi remains a specific research gap. No media, original catalogue text, coordinates, routes or original source URLs replaced.",
+  "sources": {
+    "tea-puer": {
+      "title": "云南省档案馆影像工程：那柯里村",
+      "url": "https://nync.yn.gov.cn/html/2025/yunnongkuanxun-new_1219/1423288.html",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-puer-inn": {
+      "title": "央视现场采访：那柯里荣发马店",
+      "url": "https://news.cctv.cn/2026/02/21/ARTII6NUEHncdkZkKDDuE1me260221.shtml",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-nanjian": {
+      "title": "大理州烟草专卖局：公郎茶园与古驿站",
+      "url": "https://yn.people.com.cn/news/yunnan/n2/2025/0426/c403002-41209402.html",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-nanjian-village": {
+      "title": "云南省住建厅、文物局：回营村名村通报（正式文件文本）",
+      "url": "https://zh.wikisource.org/zh-hans/云南省住房和城乡建设厅_云南省文物局关于公布大理州南涧县公郎镇回营村为省级历史文化名村的通报",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-dali": {
+      "title": "云南省民族宗教委：三月街的贸易与文化活动",
+      "url": "https://mz.yn.gov.cn/html/2025/difangdongtai_0416/4058893.html",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-lijiang": {
+      "title": "UNESCO：丽江古城的街巷与水系",
+      "url": "https://whc.unesco.org/en/list/811/",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-lijiang-survey": {
+      "title": "丽江市融媒体中心：古城文物普查与四方街",
+      "url": "https://www.lijiang.cn/article/174860.html",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-deqin": {
+      "title": "迪庆州文物管理所：茶马古道迪庆段",
+      "url": "https://www.dqhjbwg.cn/pc/WGS/index.go",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-deqin-list": {
+      "title": "迪庆州政府：阿墩子段与梅里段保护责任清单",
+      "url": "https://www.diqing.gov.cn/subsiteIndex/bulletin/ex/articleView.html?articleId=141894&fromSubsiteFlagEx=dqzzf_zfbgs&newsClassId=223&subsiteId=16",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-yaan": {
+      "title": "文化和旅游部：雅安茶源与古道分段线路",
+      "url": "https://zhuanti.mct.gov.cn/xczgshsh2023/cxyh/detail_cha/3865.html",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-kangding": {
+      "title": "康定市政府：打箭炉与两河交汇的城市背景",
+      "url": "https://www.kangding.gov.cn/kdkdjj/article/107015",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-commerce": {
+      "title": "中国商业史学会：茶马古道商贸、锅庄与昌都",
+      "url": "https://sys.cufe.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1525&wbtreeid=1054",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-litang": {
+      "title": "理塘县政府：勒通古镇的藏房与微型博物馆",
+      "url": "https://www.gzlt.gov.cn/ltfg/article/592205",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-batang": {
+      "title": "巴塘县政府：夏邛与茶马古道重镇背景",
+      "url": "https://www.batang.gov.cn/btjj1/article/650176",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-batang-dance": {
+      "title": "中国非物质文化遗产网：巴塘弦子舞",
+      "url": "https://www.ihchina.cn/project_details/12929",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-changdu": {
+      "title": "昌都市旅发局：强巴林寺的位置与建筑",
+      "url": "https://lyfz.changdu.gov.cn/cdslyj4/c101493/202005/31f676065d5141cb92e6d87d292f2bfb.shtml",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-lhasa": {
+      "title": "拉萨城关区政府：八廓街与冲赛康院落",
+      "url": "https://www.cgq.gov.cn/cgqrmzf/jdjs/202007/c3c768bee94346abbc8e17de629ccf37.shtml?userInfo=notlogin",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-lhasa-trade": {
+      "title": "西藏自治区政府：近代藏南亚通商与商人网络",
+      "url": "https://www.xizang.gov.cn/xwzx_406/ztzl_416/cxzt/xzzzqrmzffzyjzx/zxdt/xzzzqrmzffzyjzx_398/202104/t20210423_200484.html",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-shigatse": {
+      "title": "西藏自治区外事办：扎什伦布寺的经堂与工艺",
+      "url": "https://wsb.xizang.gov.cn/xzjx/lyjd/201107/t20110713_100950.html",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-gyirong": {
+      "title": "西藏自治区文物部门资料：658年使团题铭与复刻碑",
+      "url": "https://www.xizang.gov.cn/xwzx_406/bmkx/201812/t20181216_10316.html",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-nuwakot": {
+      "title": "尼泊尔考古局申报、UNESCO收录：努瓦科特宫殿群",
+      "url": "https://whc.unesco.org/en/tentativelists/5260/",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-kathmandu": {
+      "title": "尼泊尔旅游局：加德满都内城遗产步行观察",
+      "url": "https://ntb.gov.np/heritage-walk",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-nathula": {
+      "title": "甘托克地区政府：乃堆拉与措莫湖的地景及设施",
+      "url": "https://gangtokdistrict.nic.in/signature-attractions/",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-sikkim-permits": {
+      "title": "锡金邦政府：边境区域许可与乃堆拉访问资格",
+      "url": "https://www.sikkim.gov.in/departments/tourism-civil-aviation-department/general-info",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-gangtok": {
+      "title": "Namgyal Institute of Tibetology：馆藏、建筑与研究",
+      "url": "https://namgyalinstitutesikkim.org/",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-kalimpong": {
+      "title": "噶伦堡地区政府：经则里拉的商路与货物",
+      "url": "https://kalimpong.gov.in/history/",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-kalimpong-warehouse": {
+      "title": "噶伦堡地区政府：藏人学校前身的羊毛仓库",
+      "url": "https://kalimpong.gov.in/central-school-for-tibetan/",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    },
+    "tea-yadong-landscape": {
+      "title": "西藏自治区政府：帕里草原与传统村落线路",
+      "url": "https://www.xizang.gov.cn/xwzx_406/qxxw/202402/t20240201_401993.html",
+      "checked": "2026-11-18",
+      "method": "Read primary institution or official-authored text, including indexed text where the origin rejects direct fetching; paraphrase. Observation suggestions are editorial, not a field inspection."
+    }
+  },
+  "readings": [
+    {
+      "id": "tea-puer",
+      "theme": "tea",
+      "title": "从茶叶产区走向驿站生活",
+      "summary": "普洱可以把茶的产区与马帮驿站一起看。宁洱县那柯里保留了村落、桥梁与马店的线索；它在普洱市域内，并不是地图所标思茅城区的一条老街。",
+      "paragraphs": [
+        {
+          "heading": "那柯里要单独安排",
+          "text": "那柯里位于宁洱县同心镇，曾是明清茶马古道驿站。读普洱的区域商贸史时，可把村落的桥、河流与田地一起观察：驮队需要的不只是路，还要有补给与停宿的地方。",
+          "sourceKeys": [
+            "tea-puer"
+          ]
+        },
+        {
+          "heading": "在马店里辨认运输的日常",
+          "text": "荣发马店的现场采访记录了马帮歇脚、补给和贸易的旧功能，以及后来转为餐饮与体验的变化。看院落与店面时，可留意住宿、货物和牲口原来如何共享空间；今天的骑马、制茶体验是当代旅游项目。",
+          "sourceKeys": [
+            "tea-puer-inn"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-puer",
+        "tea-puer-inn"
+      ],
+      "related": [
+        "tea-nanjian",
+        "tea-yaan"
+      ]
+    },
+    {
+      "id": "tea-nanjian",
+      "theme": "tea",
+      "title": "把县城代表点展开到公郎",
+      "summary": "南涧的茶路特色可以从县内公郎的古驿站与无量山茶园读起。公郎及回营村需要另行前往；县城代表点不等于这些遗存的精确位置。",
+      "paragraphs": [
+        {
+          "heading": "公郎既是中转地，也是产茶地方",
+          "text": "公郎位于南涧与云县交界，资料记录其历史客商驿站角色，也记录今天茶园、茶厂和市场的联系。探索时不妨把老集镇与山坡茶地分开看：前者解释货物怎样集散，后者让茶的种植与加工可见。",
+          "sourceKeys": [
+            "tea-nanjian"
+          ]
+        },
+        {
+          "heading": "回营看聚落，不只看古道招牌",
+          "text": "公郎镇回营村于2021年列为云南省级历史文化名村。它适合与公郎作为同一县域的聚落观察线索，留意居住街巷、公共空间与周围生产景观；不要把县城附近任意一段石板路都认作这条历史商路。",
+          "sourceKeys": [
+            "tea-nanjian-village"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-nanjian",
+        "tea-nanjian-village"
+      ],
+      "related": [
+        "tea-puer",
+        "tea-dali"
+      ]
+    },
+    {
+      "id": "tea-dali",
+      "theme": "tea",
+      "title": "从三月街理解集市怎样连接远方",
+      "summary": "大理的茶马联系可具体落到三月街：物资交易、民族节庆和手艺展示在这里交织。它是有自身节律的集市场所，不能把古城所有商业街都当成同一段古道。",
+      "paragraphs": [
+        {
+          "heading": "看交易的种类与人群",
+          "text": "民族事务部门记录三月街从历史物资集散地延续为当代商贸集市。比起只拍古城门，可观察摊位中地方农产、食品与外来货物怎样并置，理解大理在滇西道路网络里的交换作用。",
+          "sourceKeys": [
+            "tea-dali"
+          ]
+        },
+        {
+          "heading": "手艺与赛会不是每天同样出现",
+          "text": "三月街民族节包含木雕、扎染、银器等技艺活动，以及赛马等传统体育。可按当年的活动安排选择侧重手艺或赛会；年度节期与日常街市不同，这里的介绍不保证任意到访日都有演出。",
+          "sourceKeys": [
+            "tea-dali"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-dali"
+      ],
+      "related": [
+        "tea-nanjian",
+        "tea-lijiang"
+      ]
+    },
+    {
+      "id": "tea-lijiang",
+      "theme": "tea",
+      "title": "把古城的水、街和市场一起读",
+      "summary": "丽江大研四方街曾是商品集散中心，街巷和引水系统共同组织城市生活。束河另有古道遗存、青龙桥与市场节点，应与大研古城分开定位和访问。",
+      "paragraphs": [
+        {
+          "heading": "大研：市集为什么长在这里",
+          "text": "UNESCO特别指出丽江古城适应地形的城市布局与复杂引水系统。到四方街，可沿街巷观察水渠、桥与店面如何相接；地方文物普查又记录了畜禽、布匹、陶器等交易巷道的历史分工。",
+          "sourceKeys": [
+            "tea-lijiang",
+            "tea-lijiang-survey"
+          ]
+        },
+        {
+          "heading": "束河：另一组桥与古道",
+          "text": "古城文物普查记录束河古道串联四方街、青龙桥和龙泉三圣宫。它给出另一种读法：从跨水桥梁到市场，再看聚落与道路的关系。这里说的是束河的四方街，不是把它与大研同名广场混为一处。",
+          "sourceKeys": [
+            "tea-lijiang-survey"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-lijiang",
+        "tea-lijiang-survey"
+      ],
+      "related": [
+        "tea-dali",
+        "tea-deqin"
+      ]
+    },
+    {
+      "id": "tea-deqin",
+      "theme": "tea",
+      "title": "阿墩子：商道与朝圣路径的交叠",
+      "summary": "德钦不是只有海拔提醒。县城旧称阿墩子，相关古道段通向阿东村，沿线有铺筑、开凿路段与宗教石刻；商旅和朝圣曾共享这组山地通道。",
+      "paragraphs": [
+        {
+          "heading": "读路面，也读石刻",
+          "text": "迪庆文管所介绍阿墩子段在德钦县城与阿东村之间，保存人工铺设、开凿的古道及玛尼石刻、摩崖造像。可把工程痕迹与宗教标记作为两条观察线索，理解运输、居住与信仰如何在同一山地相遇。",
+          "sourceKeys": [
+            "tea-deqin"
+          ]
+        },
+        {
+          "heading": "不要把梅里段移到县城",
+          "text": "保护清单把阿墩子段与梅里段分别列出；文管所将梅里段联系到澜沧江西岸的渡口、驿站和山口。县城代表点不能代替它们的位置，深入探索应先确定具体遗址及当时可进入的路段。",
+          "sourceKeys": [
+            "tea-deqin",
+            "tea-deqin-list"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-deqin",
+        "tea-deqin-list"
+      ],
+      "related": [
+        "tea-lijiang",
+        "tea-changdu"
+      ]
+    },
+    {
+      "id": "tea-yaan",
+      "theme": "tea",
+      "title": "从背茶的印痕读到茶园",
+      "summary": "雅安可把茶园、加工与出山的古道分开探索。上里、新添驿站、清溪并不在同一条城区步行线上；驿站街屋和石路痕迹把茶叶贸易落到了具体空间。",
+      "paragraphs": [
+        {
+          "heading": "新添驿站看街屋与负重痕迹",
+          "text": "文化和旅游部列出的荥经新添驿站保留明清木构民居，并记录石板路上背夫拐架与马蹄留下的印痕。先辨认路面、门面与停宿空间，比把每一条旧街统称古道，更能理解茶叶怎样被人畜转运。",
+          "sourceKeys": [
+            "tea-yaan"
+          ]
+        },
+        {
+          "heading": "茶园与关隘需要分段访问",
+          "text": "同一官方线路把名山茶园、蒙顶山、上里、飞仙关和清溪列为不同停留点。茶园适合看种植，驿站与关隘适合读集散和通行；可按兴趣选一组，不把整条区域网络误作连续的短途徒步线。",
+          "sourceKeys": [
+            "tea-yaan"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-yaan"
+      ],
+      "related": [
+        "tea-puer",
+        "tea-kangding"
+      ]
+    },
+    {
+      "id": "tea-kangding",
+      "theme": "tea",
+      "title": "打箭炉的交易需要一座锅庄",
+      "summary": "康定旧称打箭炉，在雅拉河与折多河交汇的山城发展出边茶贸易。历史锅庄兼具货栈、住宿与交易中介作用，解释了商人、驮队和地方语言怎样在这里合作。",
+      "paragraphs": [
+        {
+          "heading": "两河与山城是第一层线索",
+          "text": "康定市政府以两河汇合解释当地藏语地名。可从河谷与城市街道的关系读山城：可供集散的空间有限，道路又向不同山口展开，因此它不只是行程表上一个抽象的中转圆点。",
+          "sourceKeys": [
+            "tea-kangding"
+          ]
+        },
+        {
+          "heading": "锅庄不能只理解成舞蹈",
+          "text": "商业史学会资料中的锅庄是商贸组织与场所，提供住宿、堆货、牵线和担保等服务，常由熟悉藏汉语言及行情的人居间。看地方历史展陈时，可留意货栈院落、秤具、茶包和契约线索；不将现今同名店铺自动当成旧锅庄遗址。",
+          "sourceKeys": [
+            "tea-commerce"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-kangding",
+        "tea-commerce"
+      ],
+      "related": [
+        "tea-yaan",
+        "tea-litang"
+      ]
+    },
+    {
+      "id": "tea-litang",
+      "theme": "tea",
+      "title": "在藏房里看商路之外的生活",
+      "summary": "理塘的仁康古街与勒通古镇提供了比“高海拔节点”更具体的入口。旧藏房被改作小型主题博物馆，商贸、酥油茶、婚俗与当代公路记忆在这里各有展示。",
+      "paragraphs": [
+        {
+          "heading": "先看房屋怎样使用",
+          "text": "县政府记录勒通古镇由藏房、街巷和微型博物馆共同组成。可先读厚墙、院落与店面的空间关系，再看旧房如何容纳新展览；保护后的街区仍在经营和生活，不是封存的马帮时代布景。",
+          "sourceKeys": [
+            "tea-litang"
+          ]
+        },
+        {
+          "heading": "把复原场景当作解释工具",
+          "text": "康巴人博物馆用蜡像复原茶马互市、打秤、酥油茶等场景；另有318公路记忆等主题。可比较驮运与公路交通怎样改变地方生活，但应分清今天制作的展示场景与历史原物。",
+          "sourceKeys": [
+            "tea-litang"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-litang"
+      ],
+      "related": [
+        "tea-kangding",
+        "tea-batang"
+      ]
+    },
+    {
+      "id": "tea-batang",
+      "theme": "tea",
+      "title": "从河谷小城听见弦子",
+      "summary": "巴塘的特色既有历史商贸，也有弦子舞。县城夏邛位于较温和的河谷环境；领舞者的胡琴、长袖与步伐，让这座通道城镇的生活文化有了具体可辨的形态。",
+      "paragraphs": [
+        {
+          "heading": "把巴塘放回河谷环境",
+          "text": "县政府将夏邛列为县城所在地，并记录巴塘的茶马古道重镇背景。可将它与理塘的高原聚落对照：观察沿途植被、田地和居住空间的变化，而不是只用海拔给两地贴上同一种高原标签。",
+          "sourceKeys": [
+            "tea-batang"
+          ]
+        },
+        {
+          "heading": "听毕旺，看长袖与队形",
+          "text": "国家非遗资料说明巴塘弦子由持毕旺等弓弦乐器者领舞，歌唱、步伐和长袖动作配合，队形时聚时散。若遇公开节庆或文化展示，可从领奏与群体回应来听看；它是仍在传承的地方艺术，不保证每天有固定场次。",
+          "sourceKeys": [
+            "tea-batang-dance"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-batang",
+        "tea-batang-dance"
+      ],
+      "related": [
+        "tea-litang",
+        "tea-changdu"
+      ]
+    },
+    {
+      "id": "tea-changdu",
+      "theme": "tea",
+      "title": "在两河相会处读商路与寺院",
+      "summary": "昌都位于昂曲、扎曲交汇处，强巴林寺与河谷城镇一起构成鲜明地景。不同商路在这里会合，但城市代表点不是附近所有古道遗迹的精确位置。",
+      "paragraphs": [
+        {
+          "heading": "两条支流解释城市位置",
+          "text": "历史商贸资料把昌都放在川藏、滇藏交通的交汇网络中。可先辨认昂曲与扎曲汇流后形成的澜沧江河段，再看城市与桥梁怎样依河谷展开；这里是支流会合处，不是把澜沧江最上游源头搬到了城里。",
+          "sourceKeys": [
+            "tea-commerce",
+            "tea-changdu"
+          ]
+        },
+        {
+          "heading": "强巴林寺看空间的层次",
+          "text": "旅发局列出寺院的措钦大殿、强巴佛殿、辩经院及扎仓等部分。沿允许参观的院落，可留意集会、教学与礼佛空间如何区分，再把高处寺院与城镇河谷对照；展陈与宗教活动空间应按现场安排理解。",
+          "sourceKeys": [
+            "tea-changdu"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-commerce",
+        "tea-changdu"
+      ],
+      "related": [
+        "tea-deqin",
+        "tea-batang",
+        "tea-lhasa"
+      ]
+    },
+    {
+      "id": "tea-lhasa",
+      "theme": "tea",
+      "title": "从八廓的街市读货物流动",
+      "summary": "拉萨的商贸线索可从八廓街与冲赛康读起：朝圣、居住和交易在老城交叠。冲赛康历史院落与附近综合市场不是同一座建筑，也不能一概称作古代茶马市场。",
+      "paragraphs": [
+        {
+          "heading": "冲赛康的楼与街",
+          "text": "城关区资料解释冲赛康是可望见街市的院落，曾作驻藏大臣办公、居住场所。可观察楼上窗户、院内空间与街巷的联系，理解政治设施与商业中心为什么相邻；陈列馆与市场需分别辨认。",
+          "sourceKeys": [
+            "tea-lhasa"
+          ]
+        },
+        {
+          "heading": "商路不只交换茶与马",
+          "text": "近代通商研究记载拉萨的内地和尼泊尔商人经营茶、织物、金属器及多种百货，并经印度、亚东等地转运。逛街时可把货物产地、材料和运输方式作为问题，不把今天所有纪念品都当成古商路不变的遗存。",
+          "sourceKeys": [
+            "tea-lhasa-trade"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-lhasa",
+        "tea-lhasa-trade"
+      ],
+      "related": [
+        "tea-shigatse",
+        "tea-yadong",
+        "tea-kathmandu"
+      ]
+    },
+    {
+      "id": "tea-shigatse",
+      "theme": "tea",
+      "title": "从寺院工艺读后藏的交流",
+      "summary": "日喀则可以从扎什伦布寺的山坡布局、经堂与金属造像看起。寺院艺术与跨区域工艺往来让商路主题更具体，但宗教供养、工匠交流和市场贸易仍需分开理解。",
+      "paragraphs": [
+        {
+          "heading": "山坡上的建筑不是一次建成",
+          "text": "官方介绍中的扎什伦布寺由经堂、佛殿、灵塔殿与僧舍分布在山坡上。可先看建筑高低与院落的组织，再对照说明牌区分不同年代的扩建和重建，不用一张金顶照片代表整个寺院的历史。",
+          "sourceKeys": [
+            "tea-shigatse"
+          ]
+        },
+        {
+          "heading": "看材料与工艺的跨地联系",
+          "text": "大经堂相关造像由尼泊尔与藏族工匠共同完成；甲纳拉康保存瓷器、金银器、茶具与织物等赠礼。可留意材料和制作方式如何不同。这些是工艺与礼物交流的证据，不能直接推成每件物品都走过本图同一条茶路。",
+          "sourceKeys": [
+            "tea-shigatse"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-shigatse"
+      ],
+      "related": [
+        "tea-lhasa",
+        "tea-gyirong"
+      ]
+    },
+    {
+      "id": "tea-gyirong",
+      "theme": "tea",
+      "title": "在古使团题铭前读通道历史",
+      "summary": "吉隆的历史联系不只在今天的口岸。公元658年的“大唐天竺使出铭”记录使团经此出使南亚，是可指认的交通史物证；原崖刻与供辨读的复刻碑应分清。",
+      "paragraphs": [
+        {
+          "heading": "一块题铭比一句通道更具体",
+          "text": "文物部门资料将题铭断代为658年，内容涉及唐朝使团的出行和当地山水。它能支持吉隆长期对外往来的背景，但不能证明后世每支茶叶马帮都走完全相同的路线。",
+          "sourceKeys": [
+            "tea-gyirong"
+          ]
+        },
+        {
+          "heading": "原字、拓写与保护设施分开看",
+          "text": "2007年维修记录提到保护亭、山体加固及临摹旧壁文字的新碑。若安排现场访问，可对照原崖壁和说明材料，辨认原刻残字与后设的阅读辅助；该修缮记录不等于今天可进入所有区域的保证。",
+          "sourceKeys": [
+            "tea-gyirong"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-gyirong"
+      ],
+      "related": [
+        "tea-shigatse",
+        "tea-rasuwa",
+        "tea-nuwakot"
+      ]
+    },
+    {
+      "id": "tea-nuwakot",
+      "theme": "tea",
+      "title": "贸易走廊上的宫殿与山城",
+      "summary": "努瓦科特宫殿群位于加德满都通向西藏的历史商路上。十八世纪的宫殿、堡垒式外观与拜拉布神庙提供具体的建筑观察；它属于世界遗产预备清单，并非已列入名录。",
+      "paragraphs": [
+        {
+          "heading": "看宫殿为何具有防御形态",
+          "text": "尼泊尔考古局的申报文本把宫殿置于山地贸易走廊，描述其马拉风格与堡垒式特征。可把体量、屋顶和地形关系一起读，理解权力设施为何靠近通道，而不只把它当作一座孤立的漂亮楼房。",
+          "sourceKeys": [
+            "tea-nuwakot"
+          ]
+        },
+        {
+          "heading": "宫殿群是多种空间的组合",
+          "text": "申报包含主宫殿及若干庙宇，尤其拜拉布神庙。适合比较居住、祭祀和防御形态的区别。文本提交于2008年，不能据其中“保存良好”的旧评价推断震后修复和当前开放；现场安排须另核实。",
+          "sourceKeys": [
+            "tea-nuwakot"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-nuwakot"
+      ],
+      "related": [
+        "tea-gyirong",
+        "tea-rasuwa",
+        "tea-kathmandu"
+      ]
+    },
+    {
+      "id": "tea-kathmandu",
+      "theme": "tea",
+      "title": "在院落与市场间寻找交换的尺度",
+      "summary": "加德满都的贸易主题可以从内城市场与佛教院落读起。Jana Bahal背后的陶器市场、Itum Bahal的院落与Chhusya Bahal木雕提供具体观察，不必只停在“纽瓦尔商人中心”的标签。",
+      "paragraphs": [
+        {
+          "heading": "市场与信仰空间并不分离",
+          "text": "尼泊尔旅游局的遗产步行路线把Jana Bahal与其后的陶器市场放在一起。可比较店面、通道和庙院入口，理解日常买卖与礼拜如何共享内城空间；这说明城市的交换生活，不自动等于每件陶器都曾外销西藏。",
+          "sourceKeys": [
+            "tea-kathmandu"
+          ]
+        },
+        {
+          "heading": "用院落与木雕放慢观察",
+          "text": "Itum Bahal有多个相连院落；Chhusya Bahal的入口木撑上有佛像、护法、乐师与舞者。可选一组院落细看空间与构件，再回到街市比较尺度。当地院落仍有宗教和生活用途，应以可进入范围为准。",
+          "sourceKeys": [
+            "tea-kathmandu"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-kathmandu"
+      ],
+      "related": [
+        "tea-nuwakot",
+        "tea-lhasa",
+        "tea-kalimpong"
+      ]
+    },
+    {
+      "id": "tea-yadong",
+      "theme": "tea",
+      "title": "春丕谷的集散与山口的分工",
+      "summary": "亚东的近代贸易应放在春丕谷、帕里及喜马拉雅山口的网络里读。货物检查、征税、转运并不总在同一个地点；帕里草原与谷地城镇也有明显的地景差异。",
+      "paragraphs": [
+        {
+          "heading": "检查所与税关不必是同一站",
+          "text": "近代通商研究记载亚东检查登记与帕里税关的不同职责，并说明羊毛、织物及杂货的转运。可据此理解一件货物为何经过多个节点；不把地图上亚东县城代表点当成所有历史设施的原址。",
+          "sourceKeys": [
+            "tea-lhasa-trade"
+          ]
+        },
+        {
+          "heading": "从谷地走向帕里草原",
+          "text": "地方政府的帕里线路资料以草原、雪山、牧场和传统村落为观察对象。帕里在亚东县域内，但需另行安排，不在县城同一条步行街。把贸易史与畜牧地景放在一起，可理解为何羊毛及驮运动物也属于这张茶路地图。",
+          "sourceKeys": [
+            "tea-yadong-landscape"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-lhasa-trade",
+        "tea-yadong-landscape"
+      ],
+      "related": [
+        "tea-lhasa",
+        "tea-nathula",
+        "tea-kalimpong"
+      ]
+    },
+    {
+      "id": "tea-nathula",
+      "theme": "tea",
+      "title": "山口的风景与边界要一起理解",
+      "summary": "乃堆拉是高处的山口与边境节点。甘托克方向的地区资料把它与措莫湖沿线地景、纪念设施及边界观察联系起来；获准参观一侧不等于可以由此自由跨境。",
+      "paragraphs": [
+        {
+          "heading": "把湖与山口作为不同停留点",
+          "text": "地区政府将措莫湖和乃堆拉分别介绍：前者是湖泊环境，后者可观察边境与相关纪念展示。若符合访问条件，可从地形、道路抬升与设施分布理解山口；两者不是同一个景点，也不是旧驮道的原样复刻。",
+          "sourceKeys": [
+            "tea-nathula"
+          ]
+        },
+        {
+          "heading": "旅游许可与历史通商分开",
+          "text": "锡金邦官方许可说明对乃堆拉另设访问资格和手续。规划时应核对国籍及当天许可，不从一张历史贸易连线推断通行权；甘托克的博物馆能提供不依赖登临山口的文化阅读入口。",
+          "sourceKeys": [
+            "tea-sikkim-permits",
+            "tea-gangtok"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-nathula",
+        "tea-sikkim-permits",
+        "tea-gangtok"
+      ],
+      "related": [
+        "tea-yadong",
+        "tea-gangtok",
+        "tea-kalimpong"
+      ]
+    },
+    {
+      "id": "tea-gangtok",
+      "theme": "tea",
+      "title": "在藏学研究院把文化联系看清",
+      "summary": "甘托克不只是去乃堆拉的中转站。德奥拉利的Namgyal藏学研究院汇集唐卡、造像、法器、经书与木版印刷品，可从物的材料与用途认识锡金和喜马拉雅的文化往来。",
+      "paragraphs": [
+        {
+          "heading": "先读建筑，再看藏品",
+          "text": "研究院1958年开放，建筑以锡金风格营造，馆内以大乘佛教艺术及文献为主要收藏。可先比较屋顶、装饰与周围环境，再选择唐卡或金属造像细看材料和图像；这里的馆藏不应误标为山口出土物。",
+          "sourceKeys": [
+            "tea-gangtok"
+          ]
+        },
+        {
+          "heading": "书籍、语言与艺术也是交换",
+          "text": "研究院同时有藏文和一般研究图书馆，并研究喜马拉雅历史、语言、宗教及医学。它让路线从商品运输延伸到知识流动。参观博物馆与使用研究图书馆是不同活动，具体可用空间与安排以机构为准。",
+          "sourceKeys": [
+            "tea-gangtok"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-gangtok"
+      ],
+      "related": [
+        "tea-nathula",
+        "tea-kalimpong"
+      ]
+    },
+    {
+      "id": "tea-kalimpong",
+      "theme": "tea",
+      "title": "从羊毛仓库辨认商路的转身",
+      "summary": "噶伦堡的近代贸易主要经则里拉联系春丕谷，不能与乃堆拉混作同一山口。当地一所藏人学校沿用旧羊毛仓库，提供了商贸建筑改作教育空间的具体线索。",
+      "paragraphs": [
+        {
+          "heading": "辨认则里拉这条历史联系",
+          "text": "地区政府记录羊毛、麝香、皮货与粮食曾由骡队经则里拉转运，在噶伦堡交易。读城市史时可关注市场、运输与移民如何共同塑造山城；本图将它纳入相关网络，不表示每批货物先经过甘托克。",
+          "sourceKeys": [
+            "tea-kalimpong"
+          ]
+        },
+        {
+          "heading": "旧仓库后来成为学校",
+          "text": "地区政府介绍藏人中心学校校舍原为1945年建成的白羊毛仓库，1964年起作学校使用。它是用途变迁的证据，也仍是教学、寄宿空间；适合先通过机构资料认识，不能作为可随意入内的普通旅游景点。",
+          "sourceKeys": [
+            "tea-kalimpong-warehouse"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "tea-kalimpong",
+        "tea-kalimpong-warehouse"
+      ],
+      "related": [
+        "tea-yadong",
+        "tea-gangtok",
+        "tea-kathmandu"
+      ]
+    }
+  ],
+  "deferred": [
+    {
+      "id": "tea-rasuwa",
+      "theme": "tea",
+      "reason": "官方既有海关史PDF本轮返回503；未取得足以核实堡垒、现存遗构与访问价值的直接资料。灾情门户只能支持通道受影响，不能冒充遗址内容已补齐；保留候选。",
+      "sources": [
+        "https://rasuwagadhi.immigration.gov.np/",
+        "https://rescue.opmcm.gov.np/"
+      ]
+    }
+  ]
+}
