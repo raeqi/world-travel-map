@@ -1,0 +1,31 @@
+name: Remaining thirty themes browser checks
+on:
+  pull_request:
+    branches: [main]
+    paths: ['*.js','data/theme-review/**','scripts/check-remaining-thirty.cjs','scripts/audit-remaining-thirty.cjs','.github/workflows/remaining-thirty-qa.yml']
+permissions:
+  contents: read
+jobs:
+  thirty-browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/*.test.cjs
+      - run: node scripts/audit-remaining-thirty.cjs
+      - run: |
+          npm install --no-save --no-package-lock playwright
+          npx playwright install --with-deps chromium
+      - run: node scripts/run-browser-suite.cjs check-remaining-thirty.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: remaining-thirty-browser
+          path: |
+            qa/remaining-thirty-browser/
+            qa/theme-review/remaining-thirty-review.json

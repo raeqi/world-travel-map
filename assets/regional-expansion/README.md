@@ -32,3 +32,21 @@
 - `regional-sibelius-birthplace`：No cleared image; retain sourced text without borrowing another location
 
 仅按比例缩小、压缩为WebP并保留原色。逐文件哈希、尺寸、说明与许可元数据见sources.json；CC BY-SA衍生文件保留原许可。review.jpg是审核联系表，不在应用中充当现场图片。
+
+<!-- remaining-thirty-media -->
+## 剩余30主题扩充：已核验照片
+
+每个文件的原始说明、许可链接、衍生说明与SHA-256见 `sources.json`。
+
+| 地点 | 作者 | 许可 | 来源 |
+| --- | --- | --- | --- |
+| thirty-sansuci | aisccd | CC BY 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:%E7%9C%89%E5%B1%B1%E4%B8%89%E8%8B%8F%E7%A5%A0-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg) |
+| thirty-xuzhou-huanglou | H2v5o68z | CC0 | [原文件](https://commons.wikimedia.org/wiki/File:Huang_Tower_1.jpg) |
+| thirty-su-causeway | Shizhao | Public domain | [原文件](https://commons.wikimedia.org/wiki/File:Su%20Di.JPG) |
+| thirty-huzhou | 钉钉 | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Xiangwang_Park_2.jpg) |
+| thirty-changzhou-dongpo | Cangminzho | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E5%9D%A1%E5%9B%AD_4125.jpg) |
+| thirty-qi-academy | N509FZ | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Beijing_Fine_Art_Academy_%2820221026141707%29.jpg) |
+| thirty-higashiyama-ichikawa | のどごし隊長 | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:HigashiyamaKaiiMemorialHall20100724.jpg) |
+| thirty-hcb-paris | VVVCFFrance | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Rue%20des%20Archives%2079%20Cour.jpg) |
+| thirty-tagore-uttarayan | SuparnaRoyChowdhury | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Santiniketan%20Rabindranath%20Tagore%27s%20House%20Udayan.jpg) |
+| thirty-tagore-tirtha | Buzzzman | CC BY-SA 3.0 | [原文件](https://commons.wikimedia.org/wiki/File:RabindraTirtha_2013.jpg) |

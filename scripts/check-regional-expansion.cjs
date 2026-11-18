@@ -2,8 +2,8 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{chromium}=require('playwright');const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/regional-expansion-browser';
 (async()=>{fs.mkdirSync(out,{recursive:true});const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{}),args:['--no-sandbox']}),page=await browser.newPage(),errors=[],failedImages=[],checks=[];page.on('pageerror',e=>errors.push(e.message));const open=async hash=>{await page.goto(base+hash);await page.waitForFunction(()=>document.body.dataset.ready==='true')};try{
 for(const device of [{name:'desktop',width:1440,height:1000},{name:'mobile',width:390,height:844}]){
- await page.setViewportSize(device);await open('');const rows=await page.evaluate(()=>regionalExpansionData.points);
- assert.equal(await page.locator('#catalog-results .discovery-card').count(),82);
+ await page.setViewportSize(device);await open('');const rows=await page.evaluate(()=>regionalExpansionData.points.filter(p=>!p.id.startsWith('thirty-')));
+ assert.equal(await page.locator('#catalog-results .discovery-card').count(),await page.evaluate(()=>remainingThirtyReview.expectedVisible));
  for(const p of rows){
   await page.locator('#catalog-search').fill(p.name);const card=page.locator('#catalog-results .discovery-card').first();await card.click();await page.locator('#search').fill(p.name);const place=page.locator('#places [data-place="'+p.id+'"]').first();assert.equal(await place.count(),1,p.name);await place.click();assert.equal(await page.evaluate(()=>selected?.id),p.id);assert.ok((await page.locator('#detail').innerText()).includes(p.desc));await page.locator('#detail .reading-sources').click();assert.ok(await page.locator('#detail .reading-sources a[href="'+p.source+'"]').count());
   await page.locator('#detail img').evaluateAll(imgs=>Promise.all(imgs.map(i=>{i.loading='eager';return i.decode().catch(()=>null)})));failedImages.push(...await page.locator('#detail img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src)));

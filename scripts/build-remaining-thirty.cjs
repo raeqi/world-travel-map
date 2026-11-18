@@ -1,0 +1,14 @@
+'use strict';
+const fs=require('node:fs');
+const pack=require('../data/theme-review/remaining-thirty.json');
+const active=pack.expansions.filter(e=>!e.phase||e.phase<=pack.phase);
+const lines=["'use strict';","Object.assign(countrySearchNames,{Chile:'智利',Colombia:'哥伦比亚',Cuba:'古巴',Belarus:'白俄罗斯',Romania:'罗马尼亚','Czech Republic':'捷克','French Polynesia':'法属波利尼西亚',Guernsey:'根西岛'}); for(const [area,names]of Object.entries({'欧洲':['白俄罗斯','罗马尼亚','捷克','德国','波兰','挪威','芬兰','爱尔兰','英国王室属地','根西岛'],'美洲':['智利','哥伦比亚','古巴'],'大洋洲':['法属波利尼西亚']}))itineraryAreas[area].push(...names.filter(n=>!itineraryAreas[area].includes(n)));",'// Sourced additions. Original person places, works and itineraries remain intact.', 'const remainingThirtyReview='+JSON.stringify({baseline:pack.baseline,phase:pack.phase,expectedVisible:pack.expectedVisible,assessments:pack.assessments})+';', 'const remainingThirtyExpansions='+JSON.stringify(active)+';', 'regionalStandaloneExpansions.push(...remainingThirtyExpansions);'];
+if(pack.phase>=1)lines.push(`const higashiMap=mapDefinition('setouchi-art');
+higashiMap.name='日本艺境：山水、光与空间';
+higashiMap.members.push('higashiyama');
+higashiMap.extraPlaces.push('thirty-higashiyama-ichikawa');
+higashiMap.intro+=' 长野的收藏、奈良的障壁画与市川的生活资料，又提供风景绘画的观看方式。先选关东、信州或奈良的独立一段，北海道与濑户内仍各自成行程。';
+higashiMap.plans.push(regionPlan('thirty-japan-ichikawa','关东近郊 · 市川的画家生活',['thirty-higashiyama-ichikawa'],1,[3,4,5,6,9,10,11],'东京近郊铁路 + 市川公交 / 步行','单馆一日探访，读生活资料与当期展览。艺术家的真实居住城市、馆藏与画中地分别说明。'),regionPlan('thirty-japan-nagano','长野 · 在馆藏中读风景旅行',['atlas-nagano-art'],1,[3,4,5,6,9,10,11],'长野市内公共交通 + 馆内步行','单馆一日阅读；北欧、京都和大和的作品描绘地不直接定位在长野。'),regionPlan('thirty-japan-nara','奈良 · 唐招提寺的建筑与障壁画',['atlas-toshodaiji'],1,[4,5,6,9,10,11],'奈良市内公交 + 寺院允许路径','单一寺院的一日阅读，御影堂与障壁画有特别公开安排，普通入寺不保证能看到原作。'));
+regionalConsolidatedSources.push('higashiyama');`);
+for(const snippet of pack.mapUpdates||[])if(snippet.phase<=pack.phase)lines.push(snippet.code);
+fs.writeFileSync('remaining-thirty-data.js',lines.join('\n')+'\n');
