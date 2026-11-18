@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-9",
+  "baseline": "ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395",
+  "checked": "2026-11-18",
+  "scope": "All ten existing French Way contexts in Galicia, O Cebreiro to Santiago. First dedicated expanded readings for ten candidate contexts: mountain vernacular architecture, settlement landscapes, relocated church fabric, adaptive reuse, dairy origin and distinct museum locations. Preserves the San Xil/Samos distinction and all original routes, images and geographic records.",
+  "sources": {
+    "gal-cebreiro": {
+      "title": "加利西亚博物馆系统：O Cebreiro草顶民居与山地生活",
+      "url": "https://museos.xunta.gal/es/cebreiro",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. "
+    },
+    "gal-sanxil-route": {
+      "title": "加利西亚官方路线：Triacastela—San Xil与Samos分支",
+      "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-san-xil",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. "
+    },
+    "gal-sanxil-landscape": {
+      "title": "Fundación ONCE：San Xil旧道、树种、村落与路面变化",
+      "url": "https://caminodesantiago.fundaciononce.es/es/etapas/etapa-c27-triacastela-sarria-camino-de-santiago-frances",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. "
+    },
+    "gal-limestone": {
+      "title": "Arzúa市政府：中世纪路书中的石灰石运输与旧医院",
+      "url": "https://explora.arzua.gal/gl/turismo-activo/resource/o-camino-de-santiago",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. The cited medieval text describes stone-carrying practice; not asserted as something every historical pilgrim did."
+    },
+    "gal-sarria": {
+      "title": "Lugo省旅游机构：Sarria旧城、教堂、修院与河岸",
+      "url": "https://turismo.deputacionlugo.gal/es/conece/cidades/sarria",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. Outdated population, distance, Compostela rules and openings are not repeated."
+    },
+    "gal-portomarin": {
+      "title": "Portomarín市政府：San Xoán/San Nicolás结构、雕刻与迁建",
+      "url": "https://concellodeportomarin.es/igrexa-san-xoan/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. "
+    },
+    "gal-portomarin-town": {
+      "title": "西班牙官方旅游：水库淹没旧镇与新镇重组遗产",
+      "url": "https://www.spain.info/es/destino/portomarin/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. "
+    },
+    "gal-portomarin-date": {
+      "title": "Xunta百科：Portomarín教堂的迁移与建筑分期",
+      "url": "https://egu.xunta.gal/gl/termo/170511/portomarin-san-xoan-de",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. This source gives 1963; other official restoration accounts give 1960. The new reading uses the 1960s, avoiding a false single-year precision."
+    },
+    "gal-pambre": {
+      "title": "Lugo省旅游机构：Pambre城堡岩台、塔楼和用途变化",
+      "url": "https://turismo.deputacionlugo.gal/gl/conece/lugoinedito/castelopambre",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. Unsupported uniqueness/survival superlatives and a permanent-opening promise are not used."
+    },
+    "gal-palas-landscape": {
+      "title": "Xunta百科：Palas de Rei地形、河流、橡栗林与田牧地",
+      "url": "https://egu.xunta.gal/gl/termo/162269/palas-de-rei",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. Historical population and climate averages are not copied as current measurements."
+    },
+    "gal-melide": {
+      "title": "Melide官方旅游：1949年San Roque礼拜堂与迁用中世纪构件",
+      "url": "https://www.turismomelide.com/index.php/es/descubre-melide/que-ver-en-melide/capilla-de-san-roque",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. "
+    },
+    "gal-melide-cross": {
+      "title": "Melide市政府：2024年San Roque石十字修复与保留原位",
+      "url": "https://concellodemelide.gal/o-cruceiro-do-adro-de-san-roque-recupera-o-seu-esplendor-a-traves-dos-traballos-de-restauracion-e-posta-en-valor/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. "
+    },
+    "gal-cheese": {
+      "title": "Xunta百科：Arzúa-Ulloa产区与奶酪类型",
+      "url": "https://egu.xunta.gal/es/termo/79203/arzua-ulloa",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. Product origin and milk type used; detailed statutory specification is not claimed to have been legally reverified."
+    },
+    "gal-ribadiso": {
+      "title": "Arzúa市政府：Ribadiso中世纪桥、旧医院与1993年再利用",
+      "url": "https://explora.arzua.gal/es/el-camino-de-santiago-por-arzua/resource/ponte-e-area-recreativa-de-ribadiso",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. "
+    },
+    "gal-pedrouzo": {
+      "title": "GDR Ulla Tambre Mandeo地方发展组织：Arca教堂、方形粮仓与聚落",
+      "url": "https://gdrullatambremandeo.gal/turismo/rutas-ao-volante/ruta-del-ulla/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. Used the local-resource description. Apparent erroneous coordinates elsewhere on the page are not imported; existing project coordinates are preserved."
+    },
+    "gal-santiago-portico": {
+      "title": "圣地亚哥座堂：Maestro Mateo与Pórtico de la Gloria",
+      "url": "https://catedraldesantiago.es/portico-de-la-gloria/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. "
+    },
+    "gal-santiago-facade": {
+      "title": "圣地亚哥座堂：建筑历史与18世纪Obradoiro立面",
+      "url": "https://catedraldesantiago.es/catedral/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. "
+    },
+    "gal-santiago-access": {
+      "title": "座堂官方访客系统：Pórtico独立预约及保护要求",
+      "url": "https://visitas.catedraldesantiago.es/visitas-gratuitas-portico-de-la-gloria/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. Live access conditions read; prices, fixed hours and availability not hard-coded."
+    },
+    "gal-santiago-museum": {
+      "title": "加利西亚博物馆系统：朝圣与圣地亚哥博物馆的展馆和行政馆区别",
+      "url": "https://museos.xunta.gal/es/museos/peregrinacions",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, managing institution or specialist route/accessibility organization read. Original concise paraphrase; historical interpretation and current access distinguished. No site visit or image reuse. "
+    }
+  },
+  "readings": [
+    {
+      "id": "camino-cebreiro",
+      "theme": "camino",
+      "title": "草顶民居怎样适应山地生活",
+      "summary": "O Cebreiro的pallozas以低石墙、椭圆平面和厚草顶适应雪与风。民族志馆把人畜共同居住、纺织和农牧工具放回室内，既能看山景，也能读人们怎样在山中生活。",
+      "paragraphs": [
+        {
+          "heading": "从屋面往下看生活尺度",
+          "text": "馆方说明草顶厚而高、开口较少，适合山地气候；室内有家具、纺织及农牧工具。可先看屋顶覆盖的体量，再辨认火塘、生活与生产空间，不把草屋只当作远古风格的拍照符号，也不虚称现存屋顶从史前未变。",
+          "sourceKeys": [
+            "gal-cebreiro"
+          ]
+        },
+        {
+          "heading": "四座房屋并非全部同样开放",
+          "text": "官方博物馆由四座pallozas组成，Xan López、Quico和Galán用于展陈或参观，Campelo作储藏。不同建筑功能要分开，且冬季、特别是12月后段和1月另有停开安排；出发前看馆方公告，不按夏季图片推定全年同样开放。",
+          "sourceKeys": [
+            "gal-cebreiro"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "gal-cebreiro"
+      ],
+      "related": [
+        "camino-triacastela"
+      ]
+    },
+    {
+      "id": "camino-triacastela",
+      "theme": "camino",
+      "title": "旧医院与石灰石，把小镇连向座堂工程",
+      "summary": "Triacastela的Santiago教堂、墓地与旧医院，显示接待与日常信仰怎样沿路分布。中世纪路书所述石灰石运输，还让这处停留与远处A Castañeda的石灰窑及座堂建造发生具体联系。",
+      "paragraphs": [
+        {
+          "heading": "沿实际空间读接待传统",
+          "text": "加利西亚官方分段说明从教堂与墓地经过旧医院，再到San Xil和Samos的分路。把这些对象连着看，能理解一个小镇怎样同时照护、安顿与分流行旅；本图选择San Xil，Samos仍是另一支线，不在主线中混串。",
+          "sourceKeys": [
+            "gal-sanxil-route"
+          ]
+        },
+        {
+          "heading": "路书里记录的另一种劳动",
+          "text": "Arzúa官方解释《Códice Calixtino》所记：有朝圣者从Triacastela一带携石灰石，到A Castañeda的窑烧成石灰，服务圣地亚哥建造。可借此读道路背后的材料与劳动，但不把路书规范写成每位历史旅人都执行的事实，也不声称旧窑完整开放可见。",
+          "sourceKeys": [
+            "gal-limestone"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "gal-sanxil-route",
+        "gal-limestone"
+      ],
+      "related": [
+        "camino-cebreiro",
+        "camino-san-xil",
+        "camino-arzua"
+      ]
+    },
+    {
+      "id": "camino-san-xil",
+      "theme": "camino",
+      "title": "林荫旧道、现代泉与耕作聚落",
+      "summary": "San Xil一段的价值在路与景观：凹入地面的旧道、橡树栗树等林荫、石路和乡村道路交替，并有现代朝圣者泉。自然绿荫与长期通行、居住和耕作共同构成今日地景。",
+      "paragraphs": [
+        {
+          "heading": "慢看道路的断面和树木",
+          "text": "Fundación ONCE的路线记录描述沿溪的桦、橡、栗与杨树，以及村落间下凹旧道和不同路面。可在允许通行处比较土路、石面与田地边界，读风雨、脚步与日常使用怎样改变道路；不是将整段称作未经人工影响的原始森林。",
+          "sourceKeys": [
+            "gal-sanxil-landscape"
+          ]
+        },
+        {
+          "heading": "别把现代泉与古道年龄混在一起",
+          "text": "资料在San Xil前标出较大的现代朝圣者泉，村舍位于路线旁，之后继续接Montán等聚落。泉、旧路和现行公路属于不同年代。观察它们相邻而又不相同的功能，比把这处村落仅当作避免绕Samos的捷径更有内容。",
+          "sourceKeys": [
+            "gal-sanxil-landscape",
+            "gal-sanxil-route"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "gal-sanxil-landscape",
+        "gal-sanxil-route"
+      ],
+      "related": [
+        "camino-triacastela",
+        "camino-sarria"
+      ]
+    },
+    {
+      "id": "camino-sarria",
+      "theme": "camino",
+      "title": "Calle Mayor上的旧城与跨时代教堂",
+      "summary": "Sarria不只因末段起点而有价值：沿Calle Mayor可读San Salvador过渡期建筑、19世纪Santa Mariña、旧城阶梯和Magdalena修院，让城市本身也值得停留。",
+      "paragraphs": [
+        {
+          "heading": "沿高低街道找不同年代",
+          "text": "Lugo官方把旧城组织在Calle Mayor及阶梯附近，San Salvador呈罗曼式向哥特的过渡，Santa Mariña则属19世纪。可比较入口、街面高差和两座教堂的语言，避免把所有石砌建筑都标成同一个中世纪年代。",
+          "sourceKeys": [
+            "gal-sarria"
+          ]
+        },
+        {
+          "heading": "再到修院或河岸看另一面",
+          "text": "Magdalena修院保留多个时期的构筑物，近郊Paseo das Aceas沿河提供另一种空间体验。可按兴趣在宗教建筑与河岸劳动景观之间选择；Sarria是众多起点之一，是否符合Compostela要求仍向官方朝圣者办公室核实，本阅读不代替证书规则。",
+          "sourceKeys": [
+            "gal-sarria"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "gal-sarria"
+      ],
+      "related": [
+        "camino-san-xil",
+        "camino-portomarin"
+      ]
+    },
+    {
+      "id": "camino-portomarin",
+      "theme": "camino",
+      "title": "水库迁镇后，石块重新组成的教堂",
+      "summary": "Portomarín的San Xoán或San Nicolás是一座晚期罗曼式堡垒教堂，因Belesar水库在1960年代逐石迁建到新镇。玫瑰窗、门面雕刻与新山坡镇址，让保存和失去同时可见。",
+      "paragraphs": [
+        {
+          "heading": "先看防御体量里的雕刻",
+          "text": "市政府说明教堂与控制Miño桥梁、照护朝圣者相关，单殿体量带城垛与巨大玫瑰窗，正门有基督及启示录长老等雕刻。可比较厚重围护与细密石工，理解它为什么同时带有礼拜与防御意象。",
+          "sourceKeys": [
+            "gal-portomarin"
+          ]
+        },
+        {
+          "heading": "迁建保存的是构件，不是完整旧镇",
+          "text": "水库淹没旧聚落，主要教堂和部分建筑构件被搬到高处新镇，旧桥也只保留部分起拱与桥拱。今日广场并非中世纪原街区原地存续；在教堂、坡地与水面之间对读，可以看到大型水利工程怎样改变居民和遗产的关系。",
+          "sourceKeys": [
+            "gal-portomarin-town",
+            "gal-portomarin-date"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "gal-portomarin",
+        "gal-portomarin-town",
+        "gal-portomarin-date"
+      ],
+      "related": [
+        "camino-sarria",
+        "camino-palas"
+      ]
+    },
+    {
+      "id": "camino-palas",
+      "theme": "camino",
+      "title": "田牧与橡栗林之间，另访Pambre城堡",
+      "summary": "Palas de Rei周边由河谷、橡栗林、农田与牧地构成，Pambre城堡则占据岩台。城堡在市镇范围内，却不在本图城镇代表坐标旁，也不是主线每位行人必经的路边设施。",
+      "paragraphs": [
+        {
+          "heading": "先读被劳动组织的绿色景观",
+          "text": "Xunta地理介绍把本地森林与田地、牧场交错分布联系起来。沿既有公共道路看林缘、耕地和河谷，可理解今天的绿色风景既来自自然条件，也经过长期使用，不用只以距离下一站多少公里来认识这里。",
+          "sourceKeys": [
+            "gal-palas-landscape"
+          ]
+        },
+        {
+          "heading": "Pambre看岩台与多层防御",
+          "text": "省级旅游机构介绍14世纪Pambre城堡的方形围墙、四角塔与内部主塔，另保存San Pedro小堂。把岩台、外围和塔的位置一起看，能读出防御与控制地面的方式。它需独立安排探访与接驳，不自动插入本图原步行主线。",
+          "sourceKeys": [
+            "gal-pambre"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "gal-palas-landscape",
+        "gal-pambre"
+      ],
+      "related": [
+        "camino-portomarin",
+        "camino-melide"
+      ]
+    },
+    {
+      "id": "camino-melide",
+      "theme": "camino",
+      "title": "1949年礼拜堂里的中世纪门面",
+      "summary": "Melide的San Roque礼拜堂建于1949年，使用被拆旧教堂的中世纪构件，正门来自San Pedro。旁边石十字又经历2024年修复；看得古老不等于整栋建筑一直原地未变。",
+      "paragraphs": [
+        {
+          "heading": "门面、墓葬与新建筑分开",
+          "text": "官方旅游说明现礼拜堂组合旧San Pedro与San Roque的材料，里面还保存中世纪公证人等墓葬。可以从门廊构件与建筑整体的接合入手，读保存怎样通过重新使用发生；不能把1949年的围墙和屋顶都归到中世纪。",
+          "sourceKeys": [
+            "gal-melide"
+          ]
+        },
+        {
+          "heading": "十字架与今日街道继续相处",
+          "text": "市政府记录2024年San Roque石十字及周边修复，并说明移动数米的申请未获批准，最终保留原有位置。它既是宗教遗产，也处在居民与旅人共用的道路环境；看修复说明和通行关系，比只拍一张石十字更有信息。",
+          "sourceKeys": [
+            "gal-melide-cross"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "gal-melide",
+        "gal-melide-cross"
+      ],
+      "related": [
+        "camino-palas",
+        "camino-arzua"
+      ]
+    },
+    {
+      "id": "camino-arzua",
+      "theme": "camino",
+      "title": "从奶酪产区读河桥与旧医院",
+      "summary": "Arzúa-Ulloa奶酪把牛奶、乡村生产与地方味觉连接起来；接近Arzúa的Ribadiso又有中世纪桥和改作旅舍的旧医院。食物与接待设施都是沿路生活留下的具体线索。",
+      "paragraphs": [
+        {
+          "heading": "食物有产区，也有制作差异",
+          "text": "Xunta资料说明Arzúa-Ulloa以牛乳制成，生产区域覆盖Arzúa、Melide、Ulloa及邻近地区，有普通、农场与熟成等类型。尝味时可问奶源与熟成，理解一块奶酪如何来自田牧和加工，不把它仅当沿途统一纪念品。",
+          "sourceKeys": [
+            "gal-cheese"
+          ]
+        },
+        {
+          "heading": "Ribadiso的桥与医院要另定位",
+          "text": "市政府说明Ribadiso由中世纪桥与旧医院组成，后者修复后于1993年作公共旅舍，河边橡树林也供休憩。它在接近城镇的路段，不等于Arzúa中心广场；旧医院的再利用与今天床位、开放安排仍是两回事。",
+          "sourceKeys": [
+            "gal-ribadiso",
+            "gal-limestone"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "gal-cheese",
+        "gal-ribadiso",
+        "gal-limestone"
+      ],
+      "related": [
+        "camino-melide",
+        "camino-pedrouzo",
+        "camino-triacastela"
+      ]
+    },
+    {
+      "id": "camino-pedrouzo",
+      "theme": "camino",
+      "title": "在Arca看方形粮仓与仍在使用的聚落",
+      "summary": "O Pedrouzo或Arca不只是最后一晚住宿地。沿Avenida da Igrexa可看到Santa Eulalia教堂、石十字、栓皮栎与方形hórreas粮仓，展示O Pino一带不同于狭长高脚仓的地方形制。",
+      "paragraphs": [
+        {
+          "heading": "先从粮仓的形状开始",
+          "text": "地方发展组织介绍O Pino与Touro有平面较方、底部封闭的hórreas，和常见细长型不同。可从公共空间比较仓体、通风与房屋的距离，理解保存粮食如何进入居民建筑；不是每个旧仓都对外开放。",
+          "sourceKeys": [
+            "gal-pedrouzo"
+          ]
+        },
+        {
+          "heading": "把教堂、树与今天的服务业合看",
+          "text": "Arca教堂周围的树、十字与村屋构成另一种停留尺度，而朝圣带来的餐饮和住宿又持续改变聚落。沿街看旧设施怎样与今日生活相邻，可以让末段准备保有地方感；不把所有服务建筑包装为中世纪原物。",
+          "sourceKeys": [
+            "gal-pedrouzo"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "gal-pedrouzo"
+      ],
+      "related": [
+        "camino-arzua",
+        "camino-santiago"
+      ]
+    },
+    {
+      "id": "camino-santiago",
+      "theme": "camino",
+      "title": "在终点分开看石雕、后世立面与朝圣收藏",
+      "summary": "圣地亚哥座堂的Pórtico de la Gloria属于Maestro Mateo团队的中世纪工程，Obradoiro立面则主要形成于18世纪。附近朝圣博物馆是另一机构，终点值得按作品与空间分别停留。",
+      "paragraphs": [
+        {
+          "heading": "先读两层不同的西入口",
+          "text": "座堂说明Mateo工程包括下部隐堂、门廊和原西立面，Pórtico以雕刻组织宗教叙事；今天广场上醒目的Obradoiro立面则从1738年起重建。不要把外立面的巴洛克轮廓与内部门廊石雕当作同一时期作品，Pórtico参访另按官方预约与保护要求。",
+          "sourceKeys": [
+            "gal-santiago-portico",
+            "gal-santiago-facade",
+            "gal-santiago-access"
+          ]
+        },
+        {
+          "heading": "博物馆与行政旧馆不是同一入口",
+          "text": "Museo de las Peregrinaciones y de Santiago的主要展馆在Platerías广场原西班牙银行建筑，Casa Gótica另作行政用途。展品把宗教行旅和城市形成放在一起研究；它与座堂博物馆分属不同机构，具体展厅和参访安排应分别查看。",
+          "sourceKeys": [
+            "gal-santiago-museum"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "gal-santiago-portico",
+        "gal-santiago-facade",
+        "gal-santiago-access",
+        "gal-santiago-museum"
+      ],
+      "related": [
+        "camino-pedrouzo"
+      ]
+    }
+  ]
+}

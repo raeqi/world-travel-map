@@ -1,0 +1,900 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-8",
+  "baseline": "ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395",
+  "checked": "2026-11-18",
+  "scope": "All twenty-one existing French Way contexts in Castilla y León, Belorado to Villafranca del Bierzo. Specific art, structures, canals, industrial reuse, agrarian life and distinct access points. All previously lacked dedicated expanded readings. No image or geographic replacement.",
+  "sources": {
+    "cyl-belorado": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：belorado",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/belorado",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-san-juan-de-ortega": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：san-juan-de-ortega",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/san-juan-de-ortega",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-atapuerca": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：atapuerca",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/atapuerca",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-burgos": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：burgos",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/burgos",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-hornillos-del-camino": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：hornillos-del-camino",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/hornillos-del-camino",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-castrojeriz": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：castrojeriz",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/castrojeriz",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-fromista": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：fromista",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/fromista",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-carrion-de-los-condes": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：carrion-de-los-condes",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/carrion-de-los-condes",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-terradillos-de-los-templarios": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：terradillos-de-los-templarios",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/terradillos-de-los-templarios",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-sahagun": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：sahagun",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/sahagun",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-el-burgo-ranero": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：el-burgo-ranero",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/el-burgo-ranero",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-mansilla-de-las-mulas": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：mansilla-de-las-mulas",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/mansilla-de-las-mulas",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-leon": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：leon",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/leon",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-san-martin-del-camino": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：san-martin-del-camino",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/san-martin-del-camino",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-hospital-de-orbigo": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：hospital-de-orbigo",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/hospital-de-orbigo",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-astorga": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：astorga",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/astorga",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-rabanal-del-camino": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：rabanal-del-camino",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/rabanal-del-camino",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-foncebadon": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：foncebadon",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/foncebadon",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-molinaseca": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：molinaseca",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/molinaseca",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-ponferrada": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：ponferrada",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/ponferrada",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-villafranca-del-bierzo": {
+      "title": "卡斯蒂利亚—莱昂官方旅游：villafranca-del-bierzo",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/villafranca-del-bierzo",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read live public page through direct HTTP after web-reader timeouts. Promotional superlatives, outdated events, unverified foundation legends and inconsistent royal chronologies are not adopted."
+    },
+    "cyl-radio": {
+      "title": "西班牙国防部文化门户：Belorado粮仓改作无线电博物馆",
+      "url": "https://www.defensa.gob.es/portaldecultura/-/museo-internacional-de-la-radio-comunicaci%C3%B3n",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse.  Direct retrieval returned 500; official indexed web text was read. No claim of current opening follows from this access status."
+    },
+    "cyl-ortega-capital": {
+      "title": "San Juan de Ortega文化解说：圣诞叙事柱头与光线",
+      "url": "https://cultura.sanjuandeortega.com/capitel-de-la-anunciacion/",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    },
+    "cyl-atapuerca-visits": {
+      "title": "Fundación Atapuerca：遗址、CAREX、CAYAC与导览区别",
+      "url": "https://www.atapuerca.org/es/atapuerca/horarios",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    },
+    "cyl-burgos-hospital": {
+      "title": "布尔戈斯大学：1195年Hospital del Rey与大学使用",
+      "url": "https://www.ubu.es/archivo-general/informacion/memorias-y-actividades/xvii-jornadas-de-la-conferencia-de-archiveros-de-universidades-espanolas/xvii-jornadas-cau-sede",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    },
+    "cyl-fromista-art": {
+      "title": "帕伦西亚旅游局：San Martín体量、雕刻及修复",
+      "url": "https://palenciaturismo.es/visitar/lugares-interes/san-martin-tours-fromista",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    },
+    "cyl-fromista-study": {
+      "title": "Laura García Blas，UCM：San Martín建造与修复的史学复核",
+      "url": "https://revistas.ucm.es/index.php/DMAE/es/article/view/75829",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Read the author abstract; exact restoration chronology beyond what it supports is omitted."
+    },
+    "cyl-fromista-locks": {
+      "title": "帕伦西亚旅游局：四级船闸与船闸看守住宅",
+      "url": "https://palenciaturismo.es/visitar/puntos-informacion-turistica/oficina-turismo-casa-esclusero-fromista",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    },
+    "cyl-terradillos-art": {
+      "title": "帕伦西亚旅游局：San Pedro砖教堂与不同年代雕刻",
+      "url": "https://palenciaturismo.es/visitar/localidades/terradillos-templarios",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. The page has an obvious truncated date for the Templar foundation; that date and a precise early settlement chronology are not used."
+    },
+    "cyl-burgo-culture": {
+      "title": "朝圣之路市镇协会：El Burgo Ranero土坯建筑与乡村背景",
+      "url": "https://www.amcsantiago.com/municipio/el-burgo-ranero/",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    },
+    "cyl-burgo-statue": {
+      "title": "西班牙官方旅游：El Burgo Ranero圣母像的现藏地",
+      "url": "https://www.spain.info/es/lugares-interes/iglesia-parroquial-san-pedro-burgo-ranero/",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    },
+    "cyl-mansilla-museum": {
+      "title": "卡斯蒂利亚—莱昂官方：Museo de los Pueblos Leoneses建筑与生活工艺",
+      "url": "https://www.turismocastillayleon.com/en/heritage-culture/ethnographic-museum-provincial-leon",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    },
+    "cyl-leon-glass": {
+      "title": "莱昂教区：2025年起的座堂门廊和彩窗保护计划",
+      "url": "https://diocesisdeleon.org/cabildo-y-junta-se-unen-para-impulsar-la-conservacion-y-restauracion-del-portico-occidental-y-las-vidrieras-de-la-catedral/",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    },
+    "cyl-leon-painting": {
+      "title": "San Isidoro馆方：原址壁画与农事历",
+      "url": "https://museosanisidorodeleon.com/descubre-el-museo/el-panteon-real/",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    },
+    "cyl-sanmartin-church": {
+      "title": "León官方旅游：现代石砖教堂与路线保护圣人",
+      "url": "https://turisleon.com/lugares/san-martin-del-camino/",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. The source associates Alfonso XI with an early-13th-century date; the inconsistent chronology is not used."
+    },
+    "cyl-gaudi": {
+      "title": "Gaudí宫馆方：建筑与Museo de los Caminos",
+      "url": "https://www.palaciodegaudi.es/visitas/informacion/",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    },
+    "cyl-foncebadon-revival": {
+      "title": "León官方旅游：Foncebadón医院传统与接待复苏",
+      "url": "https://turisleon.com/lugares/foncebadon/",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. No fixed lodging count, availability or current opening guarantee adopted."
+    },
+    "cyl-ferro-observation": {
+      "title": "León朝圣之路协会：作者实地记录Cruz de Ferro的位置与形态",
+      "url": "https://caminosantiagoleon.es/etapa-17-del-camino-frances-rabanal-del-camino-riego-de-ambros-primera-parte/",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Used for first-hand description, not for uncorroborated ancient origin or a guarantee of unchanged management."
+    },
+    "cyl-molinaseca-bridge": {
+      "title": "León官方旅游：Molinaseca桥、主街与居民建筑",
+      "url": "https://turisleon.com/lugares/molinaseca/",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    },
+    "cyl-ponferrada-castle": {
+      "title": "Ponferrada市政府：1178年接管与多阶段城堡扩建",
+      "url": "https://www.ponferrada.org/turismo/es/monumentos/castillo-templarios",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. Dated schedules on the static page are not treated as current access promises. Direct retrieval returned 503; official indexed web text was read. No claim of current opening follows from this access status."
+    },
+    "cyl-ponferrada-light": {
+      "title": "Ponferrada市政府：1920—1971年电厂与工人口述",
+      "url": "https://www.ponferrada.org/turismo/es/museos/fabrica-luz-museo-energia",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse.  Direct retrieval returned 503; official indexed web text was read. Operator page separately corroborates the present electricity museum; HTTP availability is not an opening guarantee."
+    },
+    "cyl-light-operator": {
+      "title": "La Fábrica de Luz馆方：旧电厂与常设展",
+      "url": "https://lafabricadeluz.org/",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    },
+    "cyl-villafranca-wood": {
+      "title": "Villafranca市政府：San Francisco的15世纪木顶与后世立面",
+      "url": "https://villafrancadelbierzo.org/turismo/turismo-patrimonio-san-fransisco.php",
+      "checked": "2026-11-18",
+      "method": "Primary authority, museum, scholarly author or route association material read. Original concise paraphrase; present use distinguished from historical evidence. No site visit or image reuse. "
+    }
+  },
+  "readings": [
+    {
+      "id": "camino-belorado",
+      "theme": "camino",
+      "title": "从旧城教堂走向粮仓里的无线电",
+      "summary": "Belorado既有Santa María、San Pedro等旧城建筑，也有改造粮仓中的Inocencio Bocanegra无线电博物馆。后一处把道路旅行带到20世纪通信与工业空间，不只有“分段城镇”这一种读法。",
+      "paragraphs": [
+        {
+          "heading": "先读旧城的建筑分布",
+          "text": "官方把Santa María、San Pedro、城堡遗存及旧犹太街区列入城镇历史线索。可挑一处教堂和街道一起看，比较宗教、居住和防御空间的位置；本图城市停留点不表示这些对象都挤在同一坐标上。",
+          "sourceKeys": [
+            "cyl-belorado"
+          ]
+        },
+        {
+          "heading": "粮仓格子里装入另一种技术史",
+          "text": "国防部记录2013年无线电博物馆启用，原粮仓经改造展示通信设备并复原一战战壕等场景。可比较建筑原先储粮的功能与现在的展陈，辨认真实设备和后来搭建的场景；这里补充的是城镇新一层历史，而非中世纪朝圣原物。",
+          "sourceKeys": [
+            "cyl-radio"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-belorado",
+        "cyl-radio"
+      ],
+      "related": [
+        "camino-ortega"
+      ]
+    },
+    {
+      "id": "camino-ortega",
+      "theme": "camino",
+      "title": "修路者的接待机构与一组三联柱头",
+      "summary": "San Juan de Ortega联系12世纪修路与接待朝圣者的传统。教堂北侧后殿的三联柱头，以报喜、访亲、诞生等场景把旅途中的停留变成可仔细阅读的石刻。",
+      "paragraphs": [
+        {
+          "heading": "修道院也是道路基础设施",
+          "text": "官方介绍Juan de Quintanaortuño继承Santo Domingo de la Calzada的道路工作，并创设接待机构。看教堂与聚落的尺度，可以理解山地行旅依靠修路、护理和住宿等劳动维持；不只是把圣人名字贴在一个路程节点上。",
+          "sourceKeys": [
+            "cyl-san-juan-de-ortega"
+          ]
+        },
+        {
+          "heading": "让眼睛沿叙事转过柱头",
+          "text": "地方文化解说逐一解释Gabriel与Maria、Maria与Elisabeth的相拥、诞生及牧羊人等场景。可留意手势怎样替代文字，把不同朝向的雕刻串起来。春秋分附近的光照现象取决于天气和现场安排，不应作为每次到访都能看见的承诺。",
+          "sourceKeys": [
+            "cyl-ortega-capital"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-san-juan-de-ortega",
+        "cyl-ortega-capital"
+      ],
+      "related": [
+        "camino-belorado",
+        "camino-atapuerca"
+      ]
+    },
+    {
+      "id": "camino-atapuerca",
+      "theme": "camino",
+      "title": "朝圣村落与史前遗址不是同一个入口",
+      "summary": "Atapuerca村有中世纪道路与接待背景，周边山地的史前考古则属于另一层时间。CAREX实验考古中心、CAYAC接待中心和真正发掘区分开安排，不能顺着城市点就自由走入所有洞穴。",
+      "paragraphs": [
+        {
+          "heading": "先看村落在道路上的位置",
+          "text": "官方道路资料介绍圣若望医院骑士团的接待联系、教堂与山地通行遗迹。可用村落、湿地和山脊的位置理解为何行人聚集于此；史前人类遗址的重要性并不意味着现代村落每一处建筑都来自史前。",
+          "sourceKeys": [
+            "cyl-atapuerca"
+          ]
+        },
+        {
+          "heading": "考古参访需要专门的组织",
+          "text": "Fundación Atapuerca说明遗址参访为导览，通常从Atapuerca的CAREX或Ibeas的CAYAC接驳，实验考古中心与发掘现场是不同体验，发掘季还可能改走线路。预留独立参访时间并看馆方当前安排，不把它当作古道边随到随进的一座展厅。",
+          "sourceKeys": [
+            "cyl-atapuerca-visits"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-atapuerca",
+        "cyl-atapuerca-visits"
+      ],
+      "related": [
+        "camino-ortega",
+        "camino-burgos"
+      ]
+    },
+    {
+      "id": "camino-burgos",
+      "theme": "camino",
+      "title": "哥特座堂之外，再看Hospital del Rey",
+      "summary": "布尔戈斯既可读座堂石工，也可到Hospital del Rey理解朝圣接待的规模。1195年创设的医院今天纳入大学，宗教、护理与教育用途在同一城市留下不同空间。",
+      "paragraphs": [
+        {
+          "heading": "在座堂附近找不同雕刻材料",
+          "text": "官方城市介绍把座堂与San Nicolás de Bari等教堂并列，后者的石质祭坛是另一种细看入口。可在宏观塔楼轮廓之外选择一件雕刻，观察人物和层次怎样进入石材；城市的羊毛贸易繁荣也为这些艺术工作提供社会背景。",
+          "sourceKeys": [
+            "cyl-burgos"
+          ]
+        },
+        {
+          "heading": "Hospital del Rey现在是大学空间",
+          "text": "大学介绍Alfonso VIII于1195年创设医院，长期隶属Las Huelgas并接待朝圣者，今日所在区域成为大学校园。可看Romeros入口和院落如何组织人流，区分历史医院、后来建筑及现行教学办公用途，而不把所有房间视作旅游展厅。",
+          "sourceKeys": [
+            "cyl-burgos-hospital"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-burgos",
+        "cyl-burgos-hospital"
+      ],
+      "related": [
+        "camino-atapuerca",
+        "camino-hornillos"
+      ]
+    },
+    {
+      "id": "camino-hornillos",
+      "theme": "camino",
+      "title": "一条Calle Real怎样长成村落",
+      "summary": "Hornillos del Camino沿Calle Real展开，是道路塑造聚落形状的具体例子。San Román教堂、旧Sancti Spiritus接待遗存与跨水点，让高原村落不只承担“走到这里休息”的功能。",
+      "paragraphs": [
+        {
+          "heading": "用街道形状读朝圣经济",
+          "text": "官方把它作为线性道路聚落介绍：主街既是行人通道，也是建筑面向旅客的界面。沿公共街道比较门口、房屋连续面与教堂位置，可以看到接待与日常居住如何共享有限空间。",
+          "sourceKeys": [
+            "cyl-hornillos-del-camino"
+          ]
+        },
+        {
+          "heading": "旧医院不等于今天的住宿承诺",
+          "text": "资料记录Sancti Spiritus医院及San Román等地方建筑。把旧接待设施与现在营业的旅舍分开，才不会把历史名称直接用作床位信息；在一个小村里，路、教堂与旧接待处的相对位置已经足以说明具体特色。",
+          "sourceKeys": [
+            "cyl-hornillos-del-camino"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-hornillos-del-camino"
+      ],
+      "related": [
+        "camino-burgos",
+        "camino-castrojeriz"
+      ]
+    },
+    {
+      "id": "camino-castrojeriz",
+      "theme": "camino",
+      "title": "长街、山城与回廊的三种尺度",
+      "summary": "Castrojeriz沿约两公里长街伸展，山上城堡与山下教堂构成鲜明层次。San Juan回廊和Santa María del Manzano的后世扩建，适合把高原地形与建筑年代一起看。",
+      "paragraphs": [
+        {
+          "heading": "从长街抬头看城堡",
+          "text": "官方把它称为长形城市，主街穿过山脚聚落，城堡占据上方高地。可由公共街道比较防御视野和旅人通道，理解同一地点为何同时发展军事控制与接待服务；上山不属于本图连线已核实的步行导航。",
+          "sourceKeys": [
+            "cyl-castrojeriz"
+          ]
+        },
+        {
+          "heading": "进入建筑后继续分辨时间",
+          "text": "San Juan保存部分哥特回廊，Santa María del Manzano则有中世纪主体、后来的扩建与艺术品。可以先看回廊保留的廊侧，再看立面和祭坛，区分旧构筑物、后世添加与今日展示；现存整座建筑不是一个年代的统一成品。",
+          "sourceKeys": [
+            "cyl-castrojeriz"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-castrojeriz"
+      ],
+      "related": [
+        "camino-hornillos",
+        "camino-fromista"
+      ]
+    },
+    {
+      "id": "camino-fromista",
+      "theme": "camino",
+      "title": "罗曼式石工与四级船闸的对照",
+      "summary": "Frómista可把San Martín的柱头、屋檐雕刻与Castilla运河四级船闸放在一起看。教堂经历近代深度修复，船闸则展示人们如何让船跨越地面落差，两者各有真实可读的技术。",
+      "paragraphs": [
+        {
+          "heading": "看雕刻，也看修复留下的选择",
+          "text": "San Martín有三殿、多边形交叉塔及西侧圆塔，屋檐和柱头包含动物、人物与圣经图像。它在19世纪末至20世纪初经历重大修复；观察体量与石雕时，不把今天所有表面一概认作11世纪原件。",
+          "sourceKeys": [
+            "cyl-fromista-art",
+            "cyl-fromista-study"
+          ]
+        },
+        {
+          "heading": "到船闸看水位怎样变成交通",
+          "text": "旧船闸看守住宅现作旅游信息处，旁边四个连续椭圆闸室克服近15米高差，还能辨认岸边纤道的用途。把闸门、闸室与路径连着看，能理解运粮、牵引和水位控制如何改造高原景观，而不只把运河当风景水面。",
+          "sourceKeys": [
+            "cyl-fromista-locks"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-fromista-art",
+        "cyl-fromista-study",
+        "cyl-fromista-locks"
+      ],
+      "related": [
+        "camino-castrojeriz",
+        "camino-carrion"
+      ]
+    },
+    {
+      "id": "camino-carrion",
+      "theme": "camino",
+      "title": "Santiago立面的基督、使徒与工艺",
+      "summary": "Carrión de los Condes的Santiago教堂罗曼式立面，以中央基督、四福音象征与使徒群像形成清晰阅读对象。San Zoilo修院的医院传统，则把石刻与实际接待联系起来。",
+      "paragraphs": [
+        {
+          "heading": "先看横向排列的群像",
+          "text": "官方介绍Santiago立面以Cristo de Majestad为中心，周围是四福音象征与十二使徒。可先辨认中心与两侧，再看衣褶、身体方向和各格的节奏；不必只用“罗曼式”一个标签带过整面雕刻。",
+          "sourceKeys": [
+            "cyl-carrion-de-los-condes"
+          ]
+        },
+        {
+          "heading": "修院与医院共同维系路线",
+          "text": "San Zoilo具有Cluny修院与接待朝圣者的历史，Santa María del Camino也保存早期建筑与入口雕刻。两处可选其一细看，比较宗教活动与接待空间如何支持一个高原城镇；不同场所的遗物和展示不能混作同一教堂原装。",
+          "sourceKeys": [
+            "cyl-carrion-de-los-condes"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-carrion-de-los-condes"
+      ],
+      "related": [
+        "camino-fromista",
+        "camino-terradillos"
+      ]
+    },
+    {
+      "id": "camino-terradillos",
+      "theme": "camino",
+      "title": "砖教堂里读不同年代的雕刻",
+      "summary": "Terradillos de los Templarios的San Pedro是单殿砖教堂，内部有14世纪哥特基督、16世纪圣母与后世祭坛等线索。地名的骑士团联系不能把所有现存建筑直接变成骑士团遗构。",
+      "paragraphs": [
+        {
+          "heading": "从朴素体量进入小型作品",
+          "text": "帕伦西亚官方资料说明San Pedro以砖建成，单殿容纳多个时期的礼仪与雕刻。可比较外观的朴素和内部作品的细部，理解一个小村也可能保存跨时代的艺术，而非只有住宿和补给价值。",
+          "sourceKeys": [
+            "cyl-terradillos-art"
+          ]
+        },
+        {
+          "heading": "骑士团历史与民间传说分开",
+          "text": "官方路线介绍地名与Temple辖地的关系，也将金蛋母鸡故事明确作为传说。阅读村落时应把已知建筑、作品年代和后来故事分开，不据传说推定仍有宝藏、完整骑士团医院或秘密通道可看。",
+          "sourceKeys": [
+            "cyl-terradillos-de-los-templarios",
+            "cyl-terradillos-art"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-terradillos-art",
+        "cyl-terradillos-de-los-templarios"
+      ],
+      "related": [
+        "camino-carrion",
+        "camino-sahagun"
+      ]
+    },
+    {
+      "id": "camino-sahagun",
+      "theme": "camino",
+      "title": "砖与石交接处的Mudéjar建筑",
+      "summary": "Sahagún的San Tirso与San Lorenzo把砖砌装饰和罗曼式空间相接。再看旧San Facundo修院残存部分，会发现城镇的特色包含完整建筑、片段遗存与后来的维修。",
+      "paragraphs": [
+        {
+          "heading": "到San Tirso看材料转换",
+          "text": "官方介绍San Tirso结合石砌后殿与砖墙，San Lorenzo则是重要Mudéjar建筑。可以比较拱列、墙面与材料接缝，看砖如何形成与石材不同的装饰节奏；这种特色不应被统一写成笼统“古教堂”。",
+          "sourceKeys": [
+            "cyl-sahagun"
+          ]
+        },
+        {
+          "heading": "修院的缺失也是阅读对象",
+          "text": "San Facundo与San Primitivo旧修院仅留部分构筑物，Peregrina教堂又关联另一处方济各会历史。先辨认残迹与后来建筑，再读不同机构怎样影响城镇；一组遗产点不是全部按同一原貌延续至今。",
+          "sourceKeys": [
+            "cyl-sahagun"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-sahagun"
+      ],
+      "related": [
+        "camino-terradillos",
+        "camino-burgo-ranero"
+      ]
+    },
+    {
+      "id": "camino-burgo-ranero",
+      "theme": "camino",
+      "title": "土坯乡村与一尊已移入莱昂的圣母像",
+      "summary": "El Burgo Ranero可从高原谷物景观、土坯建筑与San Pedro教堂展开。其罗曼式圣母像现藏莱昂座堂博物馆；不能在村里承诺看到已迁出的原作。",
+      "paragraphs": [
+        {
+          "heading": "在主街看乡村材料",
+          "text": "市镇协会介绍大片谷物田与土坯传统建筑。观察墙面材料、院落与街道，可以把高原步行放回农业生活，理解旅舍只是居民生活与行旅服务的一部分，不是整座村落唯一价值。",
+          "sourceKeys": [
+            "cyl-burgo-culture"
+          ]
+        },
+        {
+          "heading": "原属地方与今天馆藏分开",
+          "text": "西班牙官方资料明确San Pedro原有罗曼式圣母像保存在莱昂座堂博物馆，并介绍教堂的银制礼仪器物。地点阅读应分清“来自这个村”的物品与“现在能在这里看”的东西，具体展出仍以各馆与教堂当日安排为准。",
+          "sourceKeys": [
+            "cyl-burgo-statue"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-burgo-culture",
+        "cyl-burgo-statue"
+      ],
+      "related": [
+        "camino-sahagun",
+        "camino-mansilla"
+      ]
+    },
+    {
+      "id": "camino-mansilla",
+      "theme": "camino",
+      "title": "卵石城墙与地方生活博物馆",
+      "summary": "Mansilla de las Mulas的石灰卵石城墙跨越中世纪防御与今日城镇空间；Museo de los Pueblos Leoneses则把田间工具、服饰、运输与建屋工艺带入可细看的生活史。",
+      "paragraphs": [
+        {
+          "heading": "沿城墙看材料与转折",
+          "text": "官方将城镇与1181年Ferdinand II的整备联系，遗存城墙以石灰和卵石构筑，并有突出墙外的塔。可从门口、转角和河流Esla的位置理解防御与交通，不只把它当抵达莱昂前的一晚。",
+          "sourceKeys": [
+            "cyl-mansilla-de-las-mulas"
+          ]
+        },
+        {
+          "heading": "农具和墙体工艺也值得停留",
+          "text": "民族志馆在旧San Agustín修院遗存中组织现代展示，收藏田间工具、运输物品、地方服饰及夯土、茅草屋顶等生活技术。可以挑一件与路上所见村屋或田地对应的工具，理解景观怎样由具体劳动维持；展馆不是所有藏品都在原位保存的旧民宅。",
+          "sourceKeys": [
+            "cyl-mansilla-museum"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-mansilla-de-las-mulas",
+        "cyl-mansilla-museum"
+      ],
+      "related": [
+        "camino-burgo-ranero",
+        "camino-leon"
+      ]
+    },
+    {
+      "id": "camino-leon",
+      "theme": "camino",
+      "title": "从彩窗的光走向原址壁画的农事历",
+      "summary": "莱昂可对照哥特座堂的彩窗与San Isidoro王室墓室壁画。一个用透光玻璃组织空间，一个以绘画呈现圣经叙事和农事月份，给“城市休整”增加具体作品的停留理由。",
+      "paragraphs": [
+        {
+          "heading": "彩窗也需要持续维护",
+          "text": "座堂以明亮的哥特空间著称，2025年教区与地方政府又公布门廊和彩窗的多年保护安排。可观察光如何穿过不同色块进入室内，也留意保护说明；不能把所有玻璃都称作未经修复的中世纪原片，维护项目也不等于全馆永久关闭。",
+          "sourceKeys": [
+            "cyl-leon",
+            "cyl-leon-glass"
+          ]
+        },
+        {
+          "heading": "在原址壁画里找一年劳动",
+          "text": "San Isidoro馆方说明王室墓室壁画仍位于原位置，其中农事历以十二个圆形图像表现农业、畜牧及时间。可先看牧羊人报喜等叙事，再与月份劳动对照，读艺术怎样吸收地方动物、生产与宗教生活；它不在座堂同一间展厅。",
+          "sourceKeys": [
+            "cyl-leon-painting"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-leon",
+        "cyl-leon-glass",
+        "cyl-leon-painting"
+      ],
+      "related": [
+        "camino-mansilla",
+        "camino-san-martin"
+      ]
+    },
+    {
+      "id": "camino-san-martin",
+      "theme": "camino",
+      "title": "一座现代村教堂里的路线保护圣人",
+      "summary": "San Martín del Camino不仅是所选主线的途经点。现村教堂用石与砖建成，祭坛上的San Martín、San Miguel、San Roque与San Antonio Abad提示道路信仰怎样在现代乡村继续表达。",
+      "paragraphs": [
+        {
+          "heading": "不要把现代建筑误作中世纪原屋",
+          "text": "León旅游机构把教堂明确介绍为现代建筑，开敞门廊与石砖材料可以从公共空间辨认。它说明朝圣路线上的场所持续被重建和使用；地名含“del Camino”并不意味着每座现存房屋都来自中世纪。",
+          "sourceKeys": [
+            "cyl-sanmartin-church"
+          ]
+        },
+        {
+          "heading": "由不同圣人读行旅的需求",
+          "text": "祭坛上并列多位与保护和救助联系的圣人，可以留意人物属性和它们在同一小教堂里的组合。与此同时，本图仍走San Martín与Órbigo一线，Mazarife是另一走向；文化阅读不会把两条并行选择串成一次必经路。",
+          "sourceKeys": [
+            "cyl-sanmartin-church",
+            "cyl-san-martin-del-camino"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-sanmartin-church",
+        "cyl-san-martin-del-camino"
+      ],
+      "related": [
+        "camino-leon",
+        "camino-orbigo"
+      ]
+    },
+    {
+      "id": "camino-orbigo",
+      "theme": "camino",
+      "title": "长石桥、接待医院与跨河生活",
+      "summary": "Hospital de Órbigo因接待朝圣者的医院而得名，Paso Honroso长桥把河岸两侧连在一起。桥的多个拱孔与不等尺度，值得用跨河工程而非单一骑士故事来细读。",
+      "paragraphs": [
+        {
+          "heading": "先从桥侧看水道与拱列",
+          "text": "官方介绍Paso Honroso有二十个形状、尺度不同的桥拱。可在公共河岸比较主水道、桥墩和较干的洪泛部分，理解长桥为什么跨出今天可见的窄水面；不能据桥名把全部现存构件归给一次事件。",
+          "sourceKeys": [
+            "cyl-hospital-de-orbigo"
+          ]
+        },
+        {
+          "heading": "医院的名字留下接待历史",
+          "text": "城镇名称联系圣若望医院骑士团曾建的接待设施，San Juan Bautista教堂与桥镇相邻。把桥、聚落和医院传统合看，会发现行旅依靠跨河、停宿和照护共同维系；历史医院不等于今天仍开放的住宿机构。",
+          "sourceKeys": [
+            "cyl-hospital-de-orbigo"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-hospital-de-orbigo"
+      ],
+      "related": [
+        "camino-san-martin",
+        "camino-astorga"
+      ]
+    },
+    {
+      "id": "camino-astorga",
+      "theme": "camino",
+      "title": "罗马住宅遗存与Gaudí的后世宫殿",
+      "summary": "Astorga可先读罗马浴场、住宅马赛克和地下设施，再看Gaudí设计的19世纪末主教宫。宫殿今天是Museo de los Caminos，早期城市与近代建筑不能压成同一“古城风格”。",
+      "paragraphs": [
+        {
+          "heading": "把地下城市与街面分开",
+          "text": "官方介绍住宅马赛克、浴场、论坛和排水网络等罗马遗存。可选择已开放的考古参访，看洗浴、居住和基础设施怎样组成一座城市；各处入口与导览独立，本图城市点不代表可以自由进入全部地下设施。",
+          "sourceKeys": [
+            "cyl-astorga"
+          ]
+        },
+        {
+          "heading": "城堡般外观其实是近代设计",
+          "text": "Gaudí宫馆方说明建筑在19世纪末兴建，以新哥特元素结合个人设计语言，今天容纳与教区及朝圣路线相关的收藏。看石材、尖拱和空间组织时，要把中世纪意象、近代建筑和展厅文物的年代分开。",
+          "sourceKeys": [
+            "cyl-gaudi"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-astorga",
+        "cyl-gaudi"
+      ],
+      "related": [
+        "camino-orbigo",
+        "camino-rabanal"
+      ]
+    },
+    {
+      "id": "camino-rabanal",
+      "theme": "camino",
+      "title": "上山前，从后殿石工看Rabanal",
+      "summary": "Rabanal del Camino的La Asunción保留12世纪罗曼式后殿，整座教堂却经过多次重建；San José等后世建筑又提示小镇并非停在单一年代。山路服务与村落日常在此交织。",
+      "paragraphs": [
+        {
+          "heading": "先辨认较早的后殿",
+          "text": "官方介绍La Asunción最早部分在后殿及祭坛区，后来多次改造。可比较半圆形体量与接续建筑，留意材料和接缝；不用把整个现存教堂都标为12世纪，就能理解它的历史价值。",
+          "sourceKeys": [
+            "cyl-rabanal-del-camino"
+          ]
+        },
+        {
+          "heading": "教堂之外看上山前的聚落",
+          "text": "San José为18世纪建筑，旧医院与接待传统说明镇子长期支持进入Irago山地的人群。沿公共街道看礼拜场所、房屋与道路的关系，能理解高原到山地的转换如何影响聚落功能，而不只是为下一段爬坡作休息提示。",
+          "sourceKeys": [
+            "cyl-rabanal-del-camino"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-rabanal-del-camino"
+      ],
+      "related": [
+        "camino-astorga",
+        "camino-foncebadon"
+      ]
+    },
+    {
+      "id": "camino-foncebadon",
+      "theme": "camino",
+      "title": "从旧接待传统走向仍在变化的山村",
+      "summary": "Foncebadón有Gaucelmo的医院接待传统，也有现代朝圣复苏带来的新服务。村外Cruz de Ferro的木柱、铁十字与积石是另一处对象，不应把两者混成同一坐标下的一座遗迹。",
+      "paragraphs": [
+        {
+          "heading": "别把村落写成无人废墟",
+          "text": "León官方介绍旧医院、教堂与后来重新出现的接待设施。沿村街看旧房和新使用的并存，可以理解山地聚落如何衰退又随行旅恢复；旧旅游介绍中“几乎无人”的表述不能直接作为今天住宿和居民状态的结论。",
+          "sourceKeys": [
+            "cyl-foncebadon-revival"
+          ]
+        },
+        {
+          "heading": "积石中的当代行旅实践",
+          "text": "León路线协会的实地记录把Cruz de Ferro放在离村后继续前行的位置：小铁十字插在高木柱上，下面积有旅行者留下的石块。可以观察物件、地形与个人纪念如何叠合，避免以未核实的古代起源解释一切；现场管理与山地条件另查最新信息。",
+          "sourceKeys": [
+            "cyl-ferro-observation"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-foncebadon-revival",
+        "cyl-ferro-observation"
+      ],
+      "related": [
+        "camino-rabanal",
+        "camino-molinaseca"
+      ]
+    },
+    {
+      "id": "camino-molinaseca",
+      "theme": "camino",
+      "title": "过桥后沿Calle Real读居民建筑",
+      "summary": "Molinaseca的旧桥把山地下行与城镇主街相接，Calle Real有普通民居、阳台与带纹章的旧宅。这里值得看的是跨河、居住和接待如何共同形成一个桥镇。",
+      "paragraphs": [
+        {
+          "heading": "桥是抵达，也是街道结构",
+          "text": "官方介绍行人通过旧桥进入历史城镇，主街集中居民和旅客的服务。可先从公共河岸看桥如何接上街道，再沿路比较房屋门口和街宽；不能把今天的居民住宅整体看作开放的古建展馆。",
+          "sourceKeys": [
+            "cyl-molinaseca-bridge"
+          ]
+        },
+        {
+          "heading": "向两处宗教建筑看不同年代",
+          "text": "San Nicolás de Bari与18世纪Quinta Angustia圣所是镇内另一组具体对象。把它们与桥、纹章宅邸和普通屋舍一起读，会看到长期使用中形成的层次；不仅是离开山路后一个没有内容的停留名。",
+          "sourceKeys": [
+            "cyl-molinaseca",
+            "cyl-molinaseca-bridge"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-molinaseca-bridge",
+        "cyl-molinaseca"
+      ],
+      "related": [
+        "camino-foncebadon",
+        "camino-ponferrada"
+      ]
+    },
+    {
+      "id": "camino-ponferrada",
+      "theme": "camino",
+      "title": "多次扩建的城堡与煤电工厂的工人记忆",
+      "summary": "Ponferrada不只有圣殿骑士城堡：城堡经历多个占用和扩建阶段，La Fábrica de Luz又保存1920—1971年电厂及工人口述。防御、采煤与供电共同说明人们怎样改变Bierzo。",
+      "paragraphs": [
+        {
+          "heading": "用纹章读城堡的不同主人",
+          "text": "市政府记录1178年骑士团接管既有小堡垒，后有15、16世纪与更晚的添加。可看不同塔楼、围墙和纹章的关系，不把今日庞大整体都说成骑士团一次建成；它的复杂性正来自后续使用与修缮。",
+          "sourceKeys": [
+            "cyl-ponferrada-castle"
+          ]
+        },
+        {
+          "heading": "电厂中看煤如何成为城市电力",
+          "text": "La Fábrica de Luz在原MSP电厂里展示煤、电力与劳动生活，保存原设施并利用工人等当事人口述。可以从设备路线看物料与能量怎样流动，再听工作经验；这是与中世纪城堡不同却同样塑造地方的历史，现行参访看馆方公告。",
+          "sourceKeys": [
+            "cyl-ponferrada-light",
+            "cyl-light-operator"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-ponferrada-castle",
+        "cyl-ponferrada-light",
+        "cyl-light-operator"
+      ],
+      "related": [
+        "camino-molinaseca",
+        "camino-villafranca"
+      ]
+    },
+    {
+      "id": "camino-villafranca",
+      "theme": "camino",
+      "title": "门面的石刻与屋顶的木构",
+      "summary": "Villafranca del Bierzo可先看Santiago教堂Puerta del Perdón，再到San Francisco抬头看15世纪Mudéjar木顶。两处都能细读工艺，不能仅把城镇当进加利西亚前的住宿基地。",
+      "paragraphs": [
+        {
+          "heading": "Santiago的门与过渡时期建筑",
+          "text": "官方介绍Santiago为晚期罗曼式到后续风格的过渡建筑，Puerta del Perdón是主要阅读对象。可看入口与单殿空间的关系；门名及赦免传统属于宗教语境，不等于任意抵达即可自动满足今天的朝圣证书要求。",
+          "sourceKeys": [
+            "cyl-villafranca-del-bierzo"
+          ]
+        },
+        {
+          "heading": "San Francisco抬头看不同材料",
+          "text": "市政府说明现存教堂结合较早入口、后来的巴洛克立面与钟塔，内部有15世纪Mudéjar木顶、纹章和装饰。先看木构几何，再与石砌拱和后世祭坛对照，会看到不同工匠和时代怎样同处一座建筑。",
+          "sourceKeys": [
+            "cyl-villafranca-wood"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cyl-villafranca-del-bierzo",
+        "cyl-villafranca-wood"
+      ],
+      "related": [
+        "camino-ponferrada"
+      ]
+    }
+  ]
+}

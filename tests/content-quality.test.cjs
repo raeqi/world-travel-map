@@ -8,7 +8,7 @@ test('audit includes every production dataset and all theme-specific contexts, i
  const r=audit({reviews,legacy});assert.equal(r.summary.places,2010);assert.equal(r.summary.internalThemes,130);assert.equal(r.summary.visibleThemes,77);assert.equal(r.summary.plans,330);assert.equal(r.summary.placeThemeContexts,2218);
  for(const file of ['panamerican.js','cultural-atlas.js','regional-theme-expansion.js','remaining-thirty-data.js','natural-atlas.js','quality-readings.js'])assert.ok(r.scripts.some(s=>s.file===file&&s.executed),file);
  assert.ok(r.plans.some(p=>!p.visible));assert.ok(r.entries.some(p=>p.theme==='patagonia-nature'));assert.ok(r.entries.some(p=>p.id==='tea-rasuwa'));
- assert.equal(r.summary.staleReviews,0);assert.equal(r.summary.manualResearchedPlaces,100);assert.equal(r.summary.manualUsefulConcisePlaces,5);
+ assert.equal(r.summary.staleReviews,0);assert.equal(r.summary.manualResearchedPlaces,143);assert.equal(r.summary.manualUsefulConcisePlaces,5);
  const venice=r.legacyComparison.find(p=>p.id==='silk-venice');assert.equal(venice.assessment,'still-automatic-candidate');assert.deepEqual(venice.originalThemes,['silk']);assert.ok(venice.otherExpandedThemes.includes('turner'));
 });
 test('a manual review expires when its source/text fingerprint differs',()=>{
@@ -24,7 +24,7 @@ test('shared cities show only relevant readings while every original cultural co
 test('research is source-bound and preserves catalogue summaries, links, media and itinerary IDs',()=>{
  const original=JSON.parse(zlib.gunzipSync(fs.readFileSync('qa/content-quality/baseline-2026-11-18.json.gz'))),now=snapshot(),key=r=>r.theme+'/'+r.id,byKey=new Map(now.contexts.map(r=>[key(r),r]));
  for(const old of original.entries){const row=byKey.get(key(old));assert.ok(row,key(old));assert.equal(row.originalSummary,old.summary,key(old)+' catalogue text');assert.equal(row.source,old.source);assert.equal(row.imageKey,old.imageKey);assert.deepEqual(row.routeIds,old.routeIds);if(!old.foreignThemeFallback)for(const source of old.essay?.sources||[])assert.ok(row.essay?.sources.some(s=>JSON.stringify(s)===JSON.stringify(source)),key(old)+' original source object');}
- assert.equal(new Set(pack.readings.map(r=>r.id)).size,100);assert.equal(new Set(pack.readings.map(r=>r.theme)).size,10);
+ assert.equal(new Set(pack.readings.map(r=>r.id)).size,143);assert.equal(new Set(pack.readings.map(r=>r.theme)).size,11);
  for(const r of pack.readings){assert.ok(r.summary&&r.paragraphs.length>=2);for(const p of r.paragraphs)for(const key of p.sourceKeys)assert.ok(r.sourceKeys.includes(key)&&pack.sources[key]?.url.startsWith('https://'));const row=byKey.get(key(r));assert.equal(row.summary,r.summary);assert.ok(row.essay.sources.every(s=>s.title&&s.url));}
  assert.ok(pack.readings.find(r=>r.id==='xintan').summary.includes('1985'));assert.ok(pack.readings.find(r=>r.id==='kumano-hongu').summary.includes('1889'));assert.ok(pack.readings.find(r=>r.id==='nc500-johnogroats').summary.includes('Dunnet Head'));
  const literal=fs.readFileSync('quality-readings-data.js','utf8');assert.equal(literal,generatedData());
@@ -44,7 +44,7 @@ test('tea batch is factual in scope and cannot silently clear a deferred researc
  assert.ok(batch.readings.find(r=>r.id==='tea-nuwakot').summary.includes('预备清单'));
  assert.ok(batch.readings.find(r=>r.id==='tea-kalimpong').summary.includes('则里拉'));
  assert.ok(batch.readings.find(r=>r.id==='tea-nanjian').summary.includes('另行前往'));
- const r=audit({reviews,legacy});assert.equal(r.summary.unresolvedCandidatePlaces,133);
+ const r=audit({reviews,legacy});assert.equal(r.summary.unresolvedCandidatePlaces,91);
  assert.equal(r.entries.find(p=>p.id==='tea-rasuwa'&&p.theme==='tea').status,'needs-research');
  assert.equal(r.summary.staleReviews,0);
 });
@@ -75,4 +75,28 @@ test('Nakasendo and Viking readings separate reconstructions, institutions, main
  assert.match(byId.get('nakasendo-tsumago').summary,/1995/);assert.match(byId.get('nakasendo-tsumago').summary,/1877/);assert.match(byId.get('nakasendo-suhara').paragraphs[1].text,/2027年秋/);
  assert.match(byId.get('viking-birka').summary,/Adelsö/);assert.match(byId.get('viking-birka').paragraphs[1].text,/2027年5月5日/);assert.match(byId.get('viking-thingvellir').paragraphs[1].text,/确切位置并未确定/);
  const c=runtime();vm.runInContext("activeTheme=themes.findIndex(t=>t.id==='hokusai')",c);assert.ok(!vm.runInContext("JSON.stringify(placeEssays['nakasendo-tokyo'])",c).includes('妻木赖黄'));vm.runInContext("activeTheme=themes.findIndex(t=>t.id==='nakasendo')",c);assert.match(vm.runInContext("JSON.stringify(placeEssays['nakasendo-tokyo'])",c),/妻木赖黄/);
+});
+
+
+test('French Way research distinguishes a reliquary legend, relocated stonework and preserved route alternatives',()=>{
+ const seventh=loadPacks().find(p=>p.batch.endsWith('-7')),byId=new Map(seventh.readings.map(r=>[r.id,r]));assert.equal(seventh.readings.length,12);assert.ok(seventh.readings.every(r=>r.theme==='camino'));
+ assert.match(byId.get('camino-roncesvalles').summary,/圣物匣/);assert.match(byId.get('camino-roncesvalles').summary,/14世纪/);assert.match(byId.get('camino-navarrete').summary,/1887/);
+ assert.match(byId.get('camino-saint-jean').paragraphs[1].text,/Valcarlos/);assert.match(byId.get('camino-logrono').paragraphs[0].text,/市政府重要文书/);
+ assert.ok(pack.sources['cf-najera'].method.includes('does not adopt that date'));
+});
+
+
+test('Castilla y León separates living villages, moved collections, archaeological access and later industry',()=>{
+ const p=loadPacks().find(p=>p.batch.endsWith('-8')),by=new Map(p.readings.map(r=>[r.id,r]));assert.equal(p.readings.length,21);
+ assert.match(by.get('camino-burgo-ranero').summary,/现藏莱昂/);assert.match(by.get('camino-ponferrada').summary,/1920—1971/);assert.match(by.get('camino-atapuerca').summary,/CAREX/);
+ assert.match(by.get('camino-fromista').paragraphs[1].text,/四个连续椭圆闸室/);assert.match(by.get('camino-san-martin').paragraphs[1].text,/Mazarife是另一走向/);
+ assert.ok(!by.get('camino-ponferrada').paragraphs[0].text.includes('12世纪初'));
+});
+test('Galicia keeps relocation, reused medieval fabric, regional food and museum entrances distinct',()=>{
+ const p=loadPacks().find(p=>p.batch.endsWith('-9')),by=new Map(p.readings.map(r=>[r.id,r]));assert.equal(p.readings.length,10);
+ assert.match(by.get('camino-melide').summary,/1949/);assert.match(by.get('camino-portomarin').summary,/1960年代/);assert.match(by.get('camino-cebreiro').paragraphs[1].text,/Campelo作储藏/);
+ assert.match(by.get('camino-santiago').paragraphs[1].text,/原西班牙银行/);assert.match(by.get('camino-pedrouzo').paragraphs[0].text,/底部封闭/);
+ assert.ok(by.get('camino-triacastela').related.includes('camino-arzua'));assert.ok(by.get('camino-arzua').related.includes('camino-triacastela'));
+ const base=JSON.parse(zlib.gunzipSync(fs.readFileSync('qa/content-quality/baseline-2026-11-18.json.gz'))),now=snapshot();
+ for(const old of base.plans.filter(r=>r.theme==='camino'))assert.deepEqual(now.plans.find(r=>r.id===old.id)?.stops,old.stops);
 });
