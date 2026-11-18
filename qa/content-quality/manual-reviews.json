@@ -2503,6 +2503,282 @@
         "https://cnxxk.com.cn/list_24/1457.html"
       ],
       "contentHash": "1120df41eafc4a1a61e8e6c08251837573b5f36503cbdffa1e7a14b6ef962220"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-venice",
+      "state": "researched-batch-14",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://palazzoducale.visitmuve.it/en/exhibition/the-worlds-of-marco-polo/",
+        "https://whc.unesco.org/en/list/394/"
+      ],
+      "contentHash": "c128b0b54ffda1da6bd502915df7676c7133be72912bb222c72bef62d6f9d3ff"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-acre",
+      "state": "researched-batch-14",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0089.html.en",
+        "https://whc.unesco.org/en/list/1042"
+      ],
+      "contentHash": "7c0cf111f0ef8b378893f2bbee98b542fc542af57f879cc69bb7bf7857e4097f"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-tabriz",
+      "state": "researched-batch-14",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1346/"
+      ],
+      "contentHash": "f91f27f890b4f0c5963e712dde22be387e7c1d323ea0e1db2f3c00b1e3510210"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-yazd",
+      "state": "researched-batch-14",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0126.html.en",
+        "https://whc.unesco.org/en/list/1544/"
+      ],
+      "contentHash": "468688de2a6434a9b93d2bf60060991cb4d1c7cde028309d8f9617feb74cfadd"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-kerman",
+      "state": "researched-batch-14",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0126.html.en",
+        "https://visitiran.ir/en/attraction/ganjali-khan-complex"
+      ],
+      "contentHash": "257073bc78304849179907676cac22ba7393124be0362cafe94c188d63cdf022"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-hormuz",
+      "state": "researched-batch-14",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0131.html.en",
+        "https://visitiran.ir/en/province/hormozgan-province"
+      ],
+      "contentHash": "d0d274d85f499b29671866e4a184c9e7bcc191b4b5133d402da5bbb3e3ec29af"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-balkh",
+      "state": "researched-batch-14",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/tentativelists/1928/"
+      ],
+      "contentHash": "d820efc1cc5f37a240effaa59735c94d45df1e60cd35745ddc3f83e011491f8b"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-kashgar",
+      "state": "researched-batch-14",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0151.html.en",
+        "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/28cd99dc43a244619788bda878887922.shtml"
+      ],
+      "contentHash": "cd1ed62ac863f931968022740edb36a3f0842f857f11027da57bdcbb4f0e959e"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-hotan",
+      "state": "researched-batch-14",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0154.html.en",
+        "https://www.xjht.gov.cn/xjht/c128217/202609/2548bc8078074359af041805f7c687ed.shtml",
+        "https://www.mct.gov.cn/wlbphone/wlbydd/xxfb/qglb/qg/202511/t20251104_963065.html"
+      ],
+      "contentHash": "c8655aba940d648db0ea17939819ae6f8528efa48c1e0e3cb1d0e1f0d17ff49c"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-dunhuang",
+      "state": "researched-batch-14",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0159.html.en",
+        "https://www.dunhuangcaves.org/info/1425/3588.htm"
+      ],
+      "contentHash": "974937398a23ef004e9ab621cbbff503986852c534b789801af4b9d0ddaa74c1"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-zhangye",
+      "state": "researched-batch-14",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0167.html.en",
+        "https://www.zhangye.gov.cn/szb/dzdt/njbz/201605/t20160517_51878.html"
+      ],
+      "contentHash": "91cd3390d7289f1d1ca91c1d30958268bb50345465ac609ae70b773a137c5720"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-samarkand",
+      "state": "researched-batch-14",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0152.html.en",
+        "https://whc.unesco.org/en/list/603/"
+      ],
+      "contentHash": "7f77e8f5ed2e10f8cb874435ed235daa65cc8e9eafc95099026901855b919a5b"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-shangdu",
+      "state": "researched-batch-15",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0193.html.en",
+        "https://whc.unesco.org/en/list/1389/"
+      ],
+      "contentHash": "64fc5d9f4a914d59f6b13314b888a7333b535366e140613e6992863bcc44c89b"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-beijing",
+      "state": "researched-batch-15",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0215.html.en",
+        "https://yllhj.beijing.gov.cn/ztxx/bjhx/gssd/201803/t20180328_118176.shtml"
+      ],
+      "contentHash": "681faf573a806342e7acf622ec4418ec5712adbba0c22917a413e32f8577469f"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-xian",
+      "state": "researched-batch-15",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0271.html.en",
+        "https://xadfz.xa.gov.cn/xadq/rwxa/1802954373708996609.html"
+      ],
+      "contentHash": "37b7d8d7f0c7832241785260f9ca4ef9127f24a5d1a034aaaec1f015c4ab3ab8"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-yangzhou",
+      "state": "researched-batch-15",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0324.html.en",
+        "https://www.grandcanalmuseum.cn/changshezhanlan/434.html"
+      ],
+      "contentHash": "f3274a1fdfab268fae9ce07d1e3a7fcf6a9795fc9dd598afa6f6aaeb9b2e9662"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-suzhou",
+      "state": "researched-batch-15",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0333.html.en",
+        "https://whc.unesco.org/en/list/813/"
+      ],
+      "contentHash": "5231da346165caf678c6418abeff03405f701b77334a609fd73ecf5d83403539"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-hangzhou",
+      "state": "researched-batch-15",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0336.html.en",
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0339.html.en",
+        "https://whc.unesco.org/en/list/1334/"
+      ],
+      "contentHash": "8e1c29137af28b26ca43d0c5e49285a01d57b5ef37f63a2d18970723197a118f"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-quanzhou",
+      "state": "researched-batch-15",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0359.html.en",
+        "https://whc.unesco.org/en/list/1561/"
+      ],
+      "contentHash": "c5e3d8fd06d028cc25c5814f99055595f5197736ed30bf4c3ef40dc6fcd6494d"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-sumatra",
+      "state": "researched-batch-15",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0381.html.en",
+        "https://whc.unesco.org/en/list/1167/"
+      ],
+      "contentHash": "2284c792e24958d1b1a96a7cdccd6e737bad5364c474eec3e6ae25bf56c4ac62"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-srilanka",
+      "state": "researched-batch-15",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0415.html.en",
+        "https://whc.unesco.org/en/list/1203/"
+      ],
+      "contentHash": "50dc330b7af4b2e4b4d528a4e8b9aaf1a16d0400442b0450bc2048486629d592"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-japan",
+      "state": "researched-batch-15",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0365.html.en",
+        "https://kunishitei.bunka.go.jp/bsys/maindetails/401/00003771"
+      ],
+      "contentHash": "c78ba91b3c833929acdd6ca164d61c96481d9dd77ea2ffbe6c4d3fb81718f317"
+    },
+    {
+      "theme": "polo",
+      "id": "polo-genoa",
+      "state": "researched-batch-15",
+      "reason": "逐项阅读所列数字文献选段及遗产/机构资料；书内叙述、听闻、后世建筑与今日区域分别说明。未声称全版本校勘或个人行踪已独立证实。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://catalogue.bnf.fr/ark:/12148/cb13592024s",
+        "https://www.visitgenoa.it/it/palazzo-san-giorgio"
+      ],
+      "contentHash": "4e0b5ab83d9cb9b93492ddc3c1c3c62616f2373dfb229a385a3376b519dfbd8b"
     }
   ]
 }
