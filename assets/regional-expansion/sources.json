@@ -449,6 +449,21 @@
     "height": 958,
     "sha256": "902524007c51378518830687e2311a5d2eb06f7935bfcb1d274fc5bd02cc80a7"
   },
+  "thirty-ciasa-granda": {
+    "path": "assets/regional-expansion/thirty-ciasa-granda.webp",
+    "title": "斯坦帕 · Ciäsa Granda与贾科梅蒂工作室资料 · 建筑或园区照片（非所述全部作品）",
+    "author": "Adrian Michael",
+    "source": "https://commons.wikimedia.org/wiki/File:Stampa%20Museum.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+    "placeId": "thirty-ciasa-granda",
+    "article": "https://en.wikipedia.org/wiki/Ci%C3%A4sa_Granda",
+    "providerDescription": "Ciäsa Granda - Heimatmuseum",
+    "width": 1440,
+    "height": 1080,
+    "sha256": "be5009df3e52407f41e21c82c673668749fcfec1f0fd15824021ef20298b7e34"
+  },
   "thirty-kunsthaus-zurich": {
     "path": "assets/regional-expansion/thirty-kunsthaus-zurich.webp",
     "title": "苏黎世 · 美术馆贾科梅蒂收藏 · 建筑或园区照片（非所述全部作品）",
@@ -478,6 +493,21 @@
     "width": 1280,
     "height": 961,
     "sha256": "1eb10f2cccdc1086aa62e03278041db51023a5bdb70469a2c199e0ef8c208ec4"
+  },
+  "thirty-chagall-house": {
+    "path": "assets/regional-expansion/thirty-chagall-house.webp",
+    "title": "维捷布斯克 · 夏加尔故居博物馆 · 建筑或园区照片（非所述全部作品）",
+    "author": "Lumaca",
+    "source": "https://commons.wikimedia.org/wiki/File:Chagall%27s%20House%20in%20Vitebsk.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+    "placeId": "thirty-chagall-house",
+    "article": "https://en.wikipedia.org/wiki/Marc_Chagall_Museum",
+    "providerDescription": "House of Marc Chagall in Vitebsk",
+    "width": 1440,
+    "height": 1080,
+    "sha256": "088b16f56ff251992d13d4b390071d9e91d835ee3407fde8c85e104c13d6b9f8"
   },
   "thirty-vence-cathedral": {
     "path": "assets/regional-expansion/thirty-vence-cathedral.webp",
