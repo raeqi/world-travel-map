@@ -15,7 +15,11 @@ jobs:
           node-version: '22'
       - run: node scripts/build-quality-readings.cjs --check
       - run: node --test tests/*.test.cjs
-      - run: node scripts/audit-content.cjs
+      - name: Verify the committed audit and report against the production runtime
+        run: |
+          node scripts/audit-content.cjs --write
+          node scripts/write-content-quality-report.cjs
+          git diff --exit-code -- qa/content-quality/latest.json qa/content-quality/contexts.csv CONTENT-QUALITY.md
       - name: Install isolated browser tools
         run: |
           npm install --prefix /tmp/content-tools --no-save playwright@1.56.1

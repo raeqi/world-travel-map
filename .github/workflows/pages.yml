@@ -24,7 +24,12 @@ jobs:
           node-version: '22'
       - name: Check JavaScript syntax
         run: |
-          for file in *.js; do node --check "$file"; done
+          terra_syntax_count=0
+          for file in *.js scripts/*.cjs tests/*.cjs; do
+            node --check "$file"
+            terra_syntax_count=$((terra_syntax_count+1))
+          done
+          echo "Checked $terra_syntax_count JavaScript/CJS files."
       - name: Run project tests
         run: node --test tests/*.test.cjs
       - name: Prepare public site
@@ -51,3 +56,16 @@ jobs:
       - name: Deploy public site
         id: deployment
         uses: actions/deploy-pages@v4
+
+  verify-published:
+    if: github.event_name != 'pull_request'
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify the public document and every versioned script and stylesheet
+        run: node scripts/check-published-release.cjs
