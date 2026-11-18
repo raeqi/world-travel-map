@@ -89,10 +89,13 @@ planTemplates.push(
  {id:'xiaohong-home-writing',theme:'xiao-hong',name:'从呼兰后园到哈尔滨商市街',ids:['xiaohong-house','shangshi-street'].map(ref=>culturalPlaceRef(ref).id),days:2,months:[5,6,7,8,9],transport:'哈尔滨基地 + 呼兰往返接驳',reason:'第一天以呼兰故居与后园读童年记忆，第二天在哈尔滨红霞街一带读早期城市生活。两天为现代区域探访建议，街区不等于仍可入内的历史房间。',topology:'network',climate:'https://www.hljzx.gov.cn/contents/68/7406.html'}
 );
 function visibleCatalogueThemes(){return themes.filter(t=>!t.catalogHidden)}
-function culturalPlaceSearchText(p){
- const record=atlasContextByPlace.get(p.id);if(!record)return '';
- const contexts=culturalMapContexts(record,themes[activeTheme].id);
- return (contexts.length?contexts:[record.contexts.get(themes[activeTheme].id)]).filter(Boolean).map(c=>c.themeName+' '+c.summary+' '+c.observe).join(' ');
+function culturalPlaceSearchText(p,themeId=themes[activeTheme]?.id){
+ const record=atlasContextByPlace.get(p.id),contexts=record?(culturalMapContexts(record,themeId).length?culturalMapContexts(record,themeId):[record.contexts.get(themeId)].filter(Boolean)):[];
+ const essayText=essay=>[essay?.title,...(essay?.paragraphs||[]).map(x=>x.heading+' '+x.text)].filter(Boolean).join(' ');
+ const descriptor=Object.getOwnPropertyDescriptor(placeEssays,p.id);
+ const original=contexts.length?contexts.map(c=>c.themeName+' '+c.summary+' '+c.observe).join(' '):record?[record.base.desc,JSON.stringify(record.base.facts||{}),essayText(record.base.essay)].join(' '):[p.desc,JSON.stringify(p.facts||{}),essayText(descriptor?.value)].join(' ');
+ const reviewed=typeof qualityReadingsFor==='function'?qualityReadingsFor(p,themeId).map(r=>r.summary+' '+essayText(r)).join(' '):'';
+ return original+' '+reviewed;
 }
 function migrateCulturalMapHash(hash){
  const q=new URLSearchParams(hash.replace(/^#/,'')),old=q.get('theme');if(!culturalMapAliases[old])return null;

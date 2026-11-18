@@ -7,7 +7,8 @@ const pack=require('./content-quality-packs.cjs').combinedPack(),base=process.en
  try{
  for(const device of [{name:'desktop',width:1440,height:1000},{name:'mobile',width:390,height:844}]){
   await page.setViewportSize(device);
-  for(const row of pack.readings){
+  const rows=process.env.CONTENT_QA_SCOPE==='regional-expansion'?pack.readings.filter((row,i,all)=>row.catalogueDescription||['mozart-prague','nakasendo-tokyo','wh-547'].includes(row.id)||all.findIndex(r=>r.theme===row.theme)===i):pack.readings;
+  for(const row of rows){
    await open('#theme='+row.theme+'&place='+row.id);assert.equal(await page.evaluate(()=>selected?.id),row.id);assert.equal(await page.locator('#detail .place-summary').innerText(),row.summary);
    assert.ok((await page.locator('#detail .reading-essay').innerText()).includes(row.paragraphs[0].text));
    const second=page.locator('#detail .reading-essay details').nth(1);if(await second.getAttribute('open')===null)await second.locator('summary').click();assert.ok((await second.innerText()).includes(row.paragraphs[1].text));
@@ -25,6 +26,6 @@ const pack=require('./content-quality-packs.cjs').combinedPack(),base=process.en
   if(!await page.locator('#detail .add-trip').isDisabled())await page.locator('#detail .add-trip').click();const n=await page.evaluate(()=>trip.length);await page.locator('#detail .reading-close').click();await page.locator('.route-stops button').first().click();assert.ok(await page.locator('#detail .add-trip').isDisabled());assert.equal(await page.evaluate(()=>trip.length),n);
   await page.reload();await page.waitForFunction(()=>document.body.dataset.ready==='true');assert.equal(await page.evaluate(()=>selected.id),first);await page.locator('#detail .reading-close').click();await page.locator('#back-themes').click();assert.equal(await page.evaluate(()=>document.body.dataset.view),'catalog');
  }
- assert.deepEqual(errors,[]);fs.writeFileSync(out+'/report.json',JSON.stringify({passed:true,baseline:pack.baseline,readings:pack.readings.length,checks,errors,limitations:['Chromium CSS viewports, not physical phones','New content and theme-relevance checks; no claim of all-site historical verification','No new or substituted imagery in this batch']},null,2));console.log('PASS content quality: all researched readings, both sections and evidence links, original links, close/back, theme-specific context, route next/previous, save deduplication and URL refresh on desktop/mobile.');
+ assert.deepEqual(errors,[]);fs.writeFileSync(out+'/report.json',JSON.stringify({passed:true,baseline:pack.baseline,readings:pack.readings.length,selection:process.env.CONTENT_QA_SCOPE==='regional-expansion'?'all corrected catalogue descriptions, context-boundary cases and one representative per researched theme':'all researched readings',checks,errors,limitations:['Chromium CSS viewports, not physical phones','New content and theme-relevance checks; no claim of all-site historical verification','No new or substituted imagery in this batch']},null,2));console.log('PASS content quality ('+(process.env.CONTENT_QA_SCOPE==='regional-expansion'?'targeted regional regression':'full researched catalogue')+'): reviewed readings, both sections and evidence links, original links, close/back, theme-specific context, route next/previous, save deduplication and URL refresh on desktop/mobile.');
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exitCode=1});
