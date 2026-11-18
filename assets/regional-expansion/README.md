@@ -37,7 +37,7 @@
 
 ## 剩余30主题新增图像
 
-55处新增地点中45处图像已核对真实主体、作者、许可与文件哈希；其余10处保留具体资料，暂不配借用照片。历史明信片、重建房间、现馆外观、河口轨道影像均作专门说明。全部原有照片保留。衍生图片按原许可提供，完整记录见 sources.json。
+55处新增地点中46处图像已核对真实主体、作者、许可与文件哈希；其余9处保留具体资料，暂不配借用照片。历史明信片、重建房间、现馆外观、河口轨道影像均作专门说明。全部原有照片保留。衍生图片按原许可提供，完整记录见 sources.json。
 
 | 地点ID | 作者 | 许可 | 原文件 |
 | --- | --- | --- | --- |
@@ -86,6 +86,11 @@
 | thirty-stowe-hartford | ajay_suresh | CC BY 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Stowe_Center_for_Literary_Activism_%2855618577734%29.jpg) |
 | thirty-marquez-house | Jdvillalobos | CC BY-SA 4.0 | [原文件](https://commons.wikimedia.org/wiki/File:Cuarto%20de%20los%20trastos%20Museo%20GGM%20Aracataca.jpg) |
 | thirty-cienaga-grande | NASA | Public domain | [原文件](https://commons.wikimedia.org/wiki/File:Rio_magdalena_mundung.JPG) |
+| thirty-joyce-trieste-museum | Joshua Cesa | Public domain（PD-self） | [原文件](https://commons.wikimedia.org/wiki/File:Museo_di_storia_naturale_Trieste_pzza_Hortis.jpg) |
+
+该图为2007年比塞里尼宫外观，保留当年自然史博物馆标识；同一建筑现为LETS及乔伊斯博物馆所在地，不表示今日馆况或室内展陈。已按市政府建筑目录、自然史博物馆迁址史和LETS现址交叉核验。新增图像只缩小和转为WebP，未裁切或重绘。
+
+[本次10处图片缺口复查与排除理由](../../qa/theme-review/photo-gaps-review.json)记录每个条目的检索与判定。
 
 ### 尚缺准确许可图像
 
@@ -97,5 +102,4 @@
 - 蓝田 · 水陆庵
 - 切莱 · 普契尼家族博物馆
 - 维亚雷焦 · 普契尼晚年别墅外观
-- 的里雅斯特 · LETS乔伊斯博物馆
 - 凯彻姆 · 伍德河历史文化博物馆
