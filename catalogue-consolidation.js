@@ -9,7 +9,7 @@ for(const group of catalogueConsolidationPack.groups){
  const prior=culturalThemeMaps.get(group.id),inherited=group.inherit.map(id=>culturalThemeMaps.get(id)).filter(Boolean);
  const members=group.inherit.flatMap(consolidationMembers).filter(m=>!(group.replaceMembers||[]).includes(typeof m==='string'?m:m.id));
  members.push(...(group.members||[]));
- const definition={...group,members:[...new Map(members.map(m=>[JSON.stringify(m),m])).values()],extraPlaces:[...new Set(inherited.flatMap(m=>m.extraPlaces||[]))],plans:[...(prior?.plans||[]),...group.plans.map(p=>[p.id,p.name,p.ids,p.days,p.months,p.transport,p.reason])],artThemes:[...new Set([...(group.artThemes||[]),...group.inherit,...inherited.flatMap(m=>m.artThemes||[])])],originMaps:group.sourceMaps};
+ const definition={...group,members:[...new Map(members.map(m=>[JSON.stringify(m),m])).values()],extraPlaces:[...new Set([...inherited.flatMap(m=>m.extraPlaces||[]),...(group.extraPlaces||[])])],plans:[...(prior?.plans||planTemplates.filter(p=>p.theme===group.id).map(p=>[p.id,p.name,p.ids,p.days,p.months,p.transport,p.reason])),...group.plans.map(p=>[p.id,p.name,p.ids,p.days,p.months,p.transport,p.reason])],artThemes:[...new Set([...(group.artThemes||[]),...group.inherit,...inherited.flatMap(m=>m.artThemes||[])])],originMaps:group.sourceMaps};
  const nodes=[...new Set([...culturalMapMembers(definition).flatMap(culturalMemberPlaces),...definition.extraPlaces.map(culturalPlaceRef)])];
  if(!nodes.length||nodes.some(p=>!p))throw Error('Invalid consolidated map '+group.id);
  const first=themes.find(t=>t.id===group.inherit[0]),id=group.id;
@@ -35,3 +35,5 @@ for(const group of catalogueConsolidationPack.groups)for(const source of group.s
 Object.assign(culturalMapAliases,{'collection-chinese-painting':'jiangnan-poetry-painting','collection-tang-song-poets':'jiangnan-poetry-painting','collection-nordic-music':'nordic-art-homes','collection-british-countryside':'england-literature-art'});
 remainingThirtyReview.expectedVisible=catalogueConsolidationPack.expectedVisible;
 discoveryIndex=null;readingPlans=null;
+
+function isFeaturedCataloguePlan(plan,theme=plan.theme){return !(catalogueConsolidationPack.groups.find(g=>g.id===theme)?.excludePlans||[]).includes(plan.id)}

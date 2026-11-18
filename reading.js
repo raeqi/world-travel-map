@@ -68,7 +68,7 @@ function placePlansHTML(p){
  if(!readingPlans)readingPlans=themes.flatMap(t=>buildPlans(t.id,0));
  const current=themes[activeTheme].id,standalone=typeof culturalThemeMaps!=='undefined'&&culturalThemeMaps.get(current)?.standalonePoints?.includes(p.id),seen=new Set();
  const regional=typeof catalogueConsolidationPack!=='undefined'&&catalogueConsolidationPack.groups.some(g=>g.id===current);
- const plans=readingPlans.filter(plan=>plan.stops.some(s=>s.id===p.id)&&(!(standalone||regional)||plan.theme===current)).sort((a,b)=>(b.theme===current)-(a.theme===current)).filter(plan=>!seen.has(plan.id)&&seen.add(plan.id)).slice(0,3);
+ const plans=readingPlans.filter(plan=>(typeof isFeaturedCataloguePlan!=='function'||isFeaturedCataloguePlan(plan))&&plan.stops.some(s=>s.id===p.id)&&(!(standalone||regional)||plan.theme===current)).sort((a,b)=>(b.theme===current)-(a.theme===current)).filter(plan=>!seen.has(plan.id)&&seen.add(plan.id)).slice(0,3);
  return plans.length?`<section class="reading-plan-links"><h3>相关行程</h3>${plans.map(plan=>`<button data-reading-plan="${plan.id}" data-reading-theme="${plan.theme}"><strong>${escapeHTML(plan.name)}</strong><small>${plan.topology==='network'?plan.stops.length+' 个关联地点': '第 '+(plan.stops.findIndex(s=>s.id===p.id)+1)+' 站 / '+plan.stops.length+' 站'} · ${plan.days} 天参考</small></button>`).join('')}</section>`:'';
 }
 function renderPlaceDetail(p,playback=false){

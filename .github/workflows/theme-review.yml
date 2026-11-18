@@ -19,7 +19,7 @@ jobs:
       matrix:
         include:
           - suite: consolidated-maps
-            scripts: check-catalogue-consolidation.cjs
+            scripts: check-catalogue-expansion.cjs
           - suite: source-discovery
             scripts: check-theme-discoverability.cjs check-short-theme-review.cjs
           - suite: regional-maps
@@ -49,5 +49,6 @@ jobs:
             qa/regional-expansion-browser/
             qa/theme-review/
             qa/catalogue-consolidation-browser/
+            qa/catalogue-expansion-browser/
             qa/cultural-theme-maps/
             qa/cultural-atlas-browser/

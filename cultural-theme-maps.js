@@ -95,7 +95,7 @@ function culturalPlaceSearchText(p,themeId=themes[activeTheme]?.id){
  const descriptor=Object.getOwnPropertyDescriptor(placeEssays,p.id);
  const original=contexts.length?contexts.map(c=>c.themeName+' '+c.summary+' '+c.observe).join(' '):record?[record.base.desc,JSON.stringify(record.base.facts||{}),essayText(record.base.essay)].join(' '):[p.desc,JSON.stringify(p.facts||{}),essayText(descriptor?.value)].join(' ');
  const reviewed=typeof qualityReadingsFor==='function'?qualityReadingsFor(p,themeId).map(r=>r.summary+' '+essayText(r)).join(' '):'';
- return original+' '+reviewed;
+ const regional=typeof catalogueRegionalReadingsFor==='function'?catalogueRegionalReadingsFor(p,themeId).map(essayText).join(' '):'';return original+' '+reviewed+' '+regional;
 }
 function migrateCulturalMapHash(hash){
  const q=new URLSearchParams(hash.replace(/^#/,'')),old=q.get('theme');if(!culturalMapAliases[old])return null;
