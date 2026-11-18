@@ -1,7 +1,7 @@
 name: Materialize regional expansion photographs
 on:
   push:
-    branches: [codex/richer-regional-themes, codex/regional-writing-landscapes, codex/remaining-thirty]
+    branches: [codex/richer-regional-themes, codex/regional-writing-landscapes, codex/remaining-thirty, codex/thirty-europe-ready]
     paths:
       - data/theme-review/regional-expansion.json
       - scripts/materialize-regional-media.py

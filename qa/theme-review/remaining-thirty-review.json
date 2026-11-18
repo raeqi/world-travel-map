@@ -1,6 +1,6 @@
 {
   "baseline": "697397886b2e4e238220a841108631a5d74e7433",
-  "phase": 1,
+  "phase": 2,
   "before": {
     "themes": 128,
     "visible": 82,
@@ -8,10 +8,10 @@
     "visibleSingleItinerary": 30
   },
   "after": {
-    "themes": 128,
-    "visible": 81,
-    "itineraries": 292,
-    "visibleSingleItinerary": 23
+    "themes": 130,
+    "visible": 78,
+    "itineraries": 320,
+    "visibleSingleItinerary": 5
   },
   "decisions": [
     {
@@ -19,12 +19,15 @@
       "decision": "扩充",
       "reason": "罗马尼亚雕塑群、克拉约瓦收藏与巴黎工作室分区；不把特尔古日乌藏进巴黎。",
       "phase": 2,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "布朗库西的城市雕塑与工作室",
       "afterName": "布朗库西的城市雕塑与工作室",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 3,
+      "newPlaces": [
+        "thirty-brancusi-hobita",
+        "thirty-craiova-art"
+      ],
       "points": [
         {
           "id": "atlas-brancusi-ensemble",
@@ -60,12 +63,15 @@
       "decision": "扩充",
       "reason": "布雷加利亚工作室与博物馆、苏黎世收藏各有实际入口，巴黎另留。",
       "phase": 2,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "贾科梅蒂的山谷与巴黎",
       "afterName": "贾科梅蒂的山谷与巴黎",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 3,
+      "newPlaces": [
+        "thirty-ciasa-granda",
+        "thirty-kunsthaus-zurich"
+      ],
       "points": [
         {
           "id": "atlas-stampa",
@@ -101,12 +107,15 @@
       "decision": "扩充",
       "reason": "布列塔尼蓬塔旺与勒普尔迪可作本地旅行，塔希提与殖民语境保留。",
       "phase": 2,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "高更的跨洋迁居",
       "afterName": "高更的跨洋迁居",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 3,
+      "newPlaces": [
+        "thirty-le-pouldu",
+        "thirty-tahiti-museum"
+      ],
       "points": [
         {
           "id": "atlas-pont-aven",
@@ -142,12 +151,15 @@
       "decision": "扩充",
       "reason": "维捷布斯克故乡与南法两区都有证据，不因南法已覆盖而隐藏白俄罗斯。",
       "phase": 2,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "夏加尔的故乡与南法",
       "afterName": "夏加尔的故乡与南法",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 3,
+      "newPlaces": [
+        "thirty-chagall-house",
+        "thirty-vence-cathedral"
+      ],
       "points": [
         {
           "id": "atlas-vitebsk",
@@ -192,12 +204,14 @@
       "decision": "合并并扩充",
       "reason": "与华兹华斯形成英格兰风景阅读普通地图；萨福克和湖区各自成行程，不能同日串联。",
       "phase": 2,
-      "status": "pending",
+      "status": "integrated",
       "beforeName": "康斯太勃尔乡野",
       "afterName": "康斯太勃尔乡野",
       "beforeItineraries": 1,
       "afterItineraries": 1,
-      "newPlaces": [],
+      "newPlaces": [
+        "thirty-willy-lott"
+      ],
       "points": [
         {
           "id": "atlas-flatford",
@@ -205,7 +219,7 @@
           "sha256": "56556c0f4d5caef9d587a6d0a1faba2bd7893df715b971504a1a0d9f5429a2bd",
           "oldURL": "#theme=constable&place=atlas-flatford",
           "destinations": [
-            "constable"
+            "english-landscapes"
           ]
         },
         {
@@ -214,7 +228,7 @@
           "sha256": "8c75435fc92cf790e0cedecab721f6a9897926bcdfe51aefee351fc3bbe33814",
           "oldURL": "#theme=constable&place=atlas-dedham",
           "destinations": [
-            "constable"
+            "english-landscapes"
           ]
         }
       ],
@@ -406,12 +420,15 @@
       "decision": "扩充",
       "reason": "加入巴黎新桥与凯旋门的临时项目旧现场，必须标明作品已拆除。",
       "phase": 2,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "克里斯托与珍妮-克劳德的临时作品",
       "afterName": "克里斯托与珍妮-克劳德的临时作品",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 2,
+      "newPlaces": [
+        "thirty-christo-pont-neuf",
+        "thirty-christo-arc"
+      ],
       "points": [
         {
           "id": "atlas-reichstag",
@@ -447,12 +464,15 @@
       "decision": "扩充",
       "reason": "补华沙与热拉佐瓦沃拉的生平、收藏，诺昂和马略卡独立阅读。",
       "phase": 2,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "肖邦与乔治·桑",
       "afterName": "肖邦与乔治·桑",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 2,
+      "newPlaces": [
+        "thirty-chopin-warsaw",
+        "thirty-chopin-birthplace"
+      ],
       "points": [
         {
           "id": "atlas-nohant",
@@ -488,12 +508,15 @@
       "decision": "扩充",
       "reason": "补布拉格近郊出生地和维索卡纪念；斯皮尔维尔美国阶段不能隐藏。",
       "phase": 2,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "德沃夏克的美国经历",
       "afterName": "德沃夏克的美国经历",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 2,
+      "newPlaces": [
+        "thirty-dvorak-birthplace",
+        "thirty-dvorak-vysoka"
+      ],
       "points": [
         {
           "id": "atlas-dvorak-prague",
@@ -529,12 +552,14 @@
       "decision": "地域扩充",
       "reason": "卑尔根附近塞韦鲁德故居可一起探访，明确两位作曲家；不与芬兰硬拼。",
       "phase": 2,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "格里格的卑尔根与峡湾",
-      "afterName": "格里格的卑尔根与峡湾",
+      "afterName": "卑尔根：格里格与近郊音乐家园",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 2,
+      "newPlaces": [
+        "thirty-siljustol"
+      ],
       "points": [
         {
           "id": "atlas-troldhaugen",
@@ -570,12 +595,14 @@
       "decision": "扩充",
       "reason": "莱比锡与柏林家族空间分地，苏格兰岛屿行程受海况限制，保留原节点。",
       "phase": 2,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "门德尔松：莱比锡与苏格兰",
       "afterName": "门德尔松：莱比锡与苏格兰",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 2,
+      "newPlaces": [
+        "thirty-mendelssohn-remise"
+      ],
       "points": [
         {
           "id": "atlas-holyrood",
@@ -620,12 +647,16 @@
       "decision": "地域整合并扩充",
       "reason": "卢卡、湖岸和维亚雷焦构成托斯卡纳地方行程，加入意大利艺旅普通地图。",
       "phase": 2,
-      "status": "pending",
+      "status": "integrated",
       "beforeName": "普契尼的托斯卡纳",
       "afterName": "普契尼的托斯卡纳",
       "beforeItineraries": 1,
       "afterItineraries": 1,
-      "newPlaces": [],
+      "newPlaces": [
+        "thirty-puccini-giglio",
+        "thirty-puccini-celle",
+        "thirty-puccini-viareggio"
+      ],
       "points": [
         {
           "id": "atlas-puccini-lucca",
@@ -633,7 +664,7 @@
           "sha256": "0da71e2f06eb39c9e8202fe8c0de505d1d3986cfc29b50090dd319153a1573c6",
           "oldURL": "#theme=puccini&place=atlas-puccini-lucca",
           "destinations": [
-            "puccini"
+            "italian-art-journeys"
           ]
         },
         {
@@ -642,7 +673,7 @@
           "sha256": "64b57f3fbc374502baa5b713955796de9500b46ed45fdf2057bd025ec46c32af",
           "oldURL": "#theme=puccini&place=atlas-torre-del-lago",
           "destinations": [
-            "puccini"
+            "italian-art-journeys"
           ]
         }
       ],
@@ -754,12 +785,14 @@
       "decision": "地域合并并扩充",
       "reason": "与普鲁斯特形成巴黎、诺曼底和海峡岛屿的书房与海岸地图；根西岛另设跨海章节。",
       "phase": 2,
-      "status": "pending",
+      "status": "integrated",
       "beforeName": "雨果的巴黎与流亡",
       "afterName": "雨果的巴黎与流亡",
       "beforeItineraries": 1,
       "afterItineraries": 1,
-      "newPlaces": [],
+      "newPlaces": [
+        "thirty-hugo-villequier"
+      ],
       "points": [
         {
           "id": "atlas-hugo-paris",
@@ -767,7 +800,7 @@
           "sha256": "ebc0470a2f4cf286db9ffda0a5ee56081bdb91ec8b2eb66c368ea28a9d38f235",
           "oldURL": "#theme=hugo&place=atlas-hugo-paris",
           "destinations": [
-            "hugo"
+            "paris-normandy-writing"
           ]
         },
         {
@@ -776,7 +809,7 @@
           "sha256": "72bc77443cda8260a63ffcd0fc08231590ff35d1c71cb2317bd82db363154351",
           "oldURL": "#theme=hugo&place=atlas-hauteville",
           "destinations": [
-            "hugo"
+            "paris-normandy-writing"
           ]
         }
       ],
@@ -795,12 +828,15 @@
       "decision": "扩充",
       "reason": "补纽斯特德祖居，瑞士与希腊保持独立阶段，不能硬并入英国湖区。",
       "phase": 2,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "拜伦的湖畔与希腊",
       "afterName": "拜伦的湖畔与希腊",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 3,
+      "newPlaces": [
+        "thirty-byron-newstead",
+        "thirty-villa-diodati"
+      ],
       "points": [
         {
           "id": "atlas-chillon",
@@ -836,12 +872,15 @@
       "decision": "合并并扩充",
       "reason": "湖区童年居所与格拉斯米尔房屋足够丰富；与康斯太勃尔共同地图，按两地区探访。",
       "phase": 2,
-      "status": "pending",
+      "status": "integrated",
       "beforeName": "华兹华斯的湖区",
       "afterName": "华兹华斯的湖区",
       "beforeItineraries": 1,
       "afterItineraries": 1,
-      "newPlaces": [],
+      "newPlaces": [
+        "thirty-wordsworth-house",
+        "thirty-allan-bank"
+      ],
       "points": [
         {
           "id": "atlas-dove-cottage",
@@ -849,7 +888,7 @@
           "sha256": "31bb77cf3a0db514cfcd7886c647a866d5f61632545aa79be40865dbc7dde8c7",
           "oldURL": "#theme=wordsworth&place=atlas-dove-cottage",
           "destinations": [
-            "wordsworth"
+            "english-landscapes"
           ]
         },
         {
@@ -858,7 +897,7 @@
           "sha256": "3187860d14b22a676618ed9162b16efce6248279badb0d97f1c5b03e01b1253c",
           "oldURL": "#theme=wordsworth&place=atlas-rydal-mount",
           "destinations": [
-            "wordsworth"
+            "english-landscapes"
           ]
         }
       ],
@@ -877,12 +916,15 @@
       "decision": "扩充",
       "reason": "用布拉格具体博物馆补城市代表点，晚年基尔灵另留；不把小说城堡指定成景点。",
       "phase": 2,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "卡夫卡的城市与生活",
       "afterName": "卡夫卡的城市与生活",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 2,
+      "newPlaces": [
+        "thirty-kafka-museum",
+        "thirty-kafka-golden-lane"
+      ],
       "points": [
         {
           "id": "mozart-prague",
@@ -918,12 +960,15 @@
       "decision": "扩充",
       "reason": "补都柏林海边塔楼和的里雅斯特新馆址，分小说场景、真实短住与迁居背景。",
       "phase": 2,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "乔伊斯的城市网络",
       "afterName": "乔伊斯的城市网络",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 3,
+      "newPlaces": [
+        "thirty-joyce-tower",
+        "thirty-joyce-trieste-museum"
+      ],
       "points": [
         {
           "id": "atlas-joyce-dublin",
@@ -959,12 +1004,15 @@
       "decision": "地域合并并扩充",
       "reason": "补莱奥妮姨妈之家和卡堡美好年代博物馆，伊利耶与海岸记忆有具体参访。",
       "phase": 2,
-      "status": "pending",
+      "status": "integrated",
       "beforeName": "普鲁斯特的记忆地景",
       "afterName": "普鲁斯特的记忆地景",
       "beforeItineraries": 1,
       "afterItineraries": 1,
-      "newPlaces": [],
+      "newPlaces": [
+        "thirty-proust-leonie",
+        "thirty-proust-cabourg-villa"
+      ],
       "points": [
         {
           "id": "atlas-illiers",
@@ -972,7 +1020,7 @@
           "sha256": "a8223bfec1fd480b8905fbb3bd0eebf103ad9572828b776a7f510639573d9f79",
           "oldURL": "#theme=proust&place=atlas-illiers",
           "destinations": [
-            "proust"
+            "paris-normandy-writing"
           ]
         },
         {
@@ -981,7 +1029,7 @@
           "sha256": "d96a637437031483c19f94c6a85b3696f12ba1c17e3ac137902c9168f35349c2",
           "oldURL": "#theme=proust&place=atlas-cabourg",
           "destinations": [
-            "proust"
+            "paris-normandy-writing"
           ]
         }
       ],
@@ -1258,12 +1306,16 @@
       "decision": "扩充并承接",
       "reason": "以托斯卡纳本地音乐和建筑补旅行内容，威尼斯、罗马、那不勒斯原艺术资料不变。",
       "phase": 2,
-      "status": "pending",
+      "status": "expanded",
       "beforeName": "意大利：透纳与歌德的旅行目光",
-      "afterName": "意大利：透纳与歌德的旅行目光",
+      "afterName": "意大利艺旅：城市、音乐与山水",
       "beforeItineraries": 1,
-      "afterItineraries": 1,
-      "newPlaces": [],
+      "afterItineraries": 4,
+      "newPlaces": [
+        "thirty-puccini-giglio",
+        "thirty-puccini-celle",
+        "thirty-puccini-viareggio"
+      ],
       "points": [
         {
           "id": "silk-venice",
@@ -1549,9 +1601,378 @@
         "height": 1080,
         "sha256": "463fb4e181f1593a72f0e5be955132c6dfdeacc9a3a3ca5bc33ca3f31d0f0023"
       }
+    },
+    {
+      "id": "thirty-brancusi-hobita",
+      "name": "霍比察 · 布朗库西纪念屋",
+      "source": "https://ghidulmuzeelor.cimec.ro/id.asp?k=321",
+      "photo": null
+    },
+    {
+      "id": "thirty-craiova-art",
+      "name": "克拉约瓦 · 美术馆与布朗库西收藏",
+      "source": "https://ghidulmuzeelor.cimec.ro/id.asp?k=284",
+      "photo": null
+    },
+    {
+      "id": "thirty-ciasa-granda",
+      "name": "斯坦帕 · Ciäsa Granda与贾科梅蒂工作室资料",
+      "source": "https://ciaesagranda.ch/chi-siamo/",
+      "photo": null
+    },
+    {
+      "id": "thirty-kunsthaus-zurich",
+      "name": "苏黎世 · 美术馆贾科梅蒂收藏",
+      "source": "https://www.kunsthaus.ch/en/sammlung/private-sammlungen/alberto-giacometti-stiftung/",
+      "photo": null
+    },
+    {
+      "id": "thirty-le-pouldu",
+      "name": "勒普尔迪 · 海岸与画家记忆",
+      "source": "https://www.deconcarneauapontaven.com/patrimoines/maison-musee-gauguin/",
+      "photo": null
+    },
+    {
+      "id": "thirty-tahiti-museum",
+      "name": "普纳奥亚 · 塔希提与群岛博物馆",
+      "source": "https://www.museetahiti.pf/",
+      "photo": null
+    },
+    {
+      "id": "thirty-chagall-house",
+      "name": "维捷布斯克 · 夏加尔故居博物馆",
+      "source": "https://chagall-vitebsk.museum.by/",
+      "photo": null
+    },
+    {
+      "id": "thirty-vence-cathedral",
+      "name": "旺斯 · 圣母诞生主教座堂",
+      "source": "https://vence-tourisme.com/cathedrale-notre-dame-de-la-nativite/",
+      "photo": null
+    },
+    {
+      "id": "thirty-willy-lott",
+      "name": "弗拉特福德 · 威利·洛特故居外观",
+      "source": "https://www.nationaltrust.org.uk/visit/suffolk/flatford",
+      "photo": null
+    },
+    {
+      "id": "thirty-wordsworth-house",
+      "name": "科克茅斯 · 华兹华斯童年故居",
+      "source": "https://www.nationaltrust.org.uk/visit/lake-district/wordsworth-house-and-garden",
+      "photo": null
+    },
+    {
+      "id": "thirty-allan-bank",
+      "name": "格拉斯米尔 · 艾伦班克",
+      "source": "https://www.nationaltrust.org.uk/visit/lake-district/allan-bank-and-grasmere",
+      "photo": null
+    },
+    {
+      "id": "thirty-christo-pont-neuf",
+      "name": "巴黎新桥 · 临时包裹项目旧现场",
+      "source": "https://www.culture.gouv.fr/thematiques/arts-plastiques/expositions-en-france/Christo-et-Jeanne-Claude-Paris",
+      "photo": null
+    },
+    {
+      "id": "thirty-christo-arc",
+      "name": "巴黎凯旋门 · 2021年包裹项目旧现场",
+      "source": "https://www.paris-arc-de-triomphe.fr/en/discover/l-arc-de-triomphe-wrapped-paris-1961-2021/the-story-of-a-project",
+      "photo": null
+    },
+    {
+      "id": "thirty-chopin-warsaw",
+      "name": "华沙 · 肖邦博物馆",
+      "source": "https://chopin.pl/museum.en.html",
+      "photo": null
+    },
+    {
+      "id": "thirty-chopin-birthplace",
+      "name": "热拉佐瓦沃拉 · 肖邦出生地与公园",
+      "source": "https://muzeum.nifc.pl/pl/muzeum/wizyta-informacje-miejsce/2_the-birthplace-of-fryderyk-chopin-and-park-in-zelazowa-wola/",
+      "photo": null
+    },
+    {
+      "id": "thirty-dvorak-birthplace",
+      "name": "内拉霍泽韦斯 · 德沃夏克出生地",
+      "source": "https://www.lobkowicz.cz/en/antonin-dvorak-birth-house",
+      "photo": null
+    },
+    {
+      "id": "thirty-dvorak-vysoka",
+      "name": "维索卡 · 德沃夏克纪念馆与公园",
+      "source": "https://antonindvorak.cz/",
+      "photo": null
+    },
+    {
+      "id": "thirty-siljustol",
+      "name": "卑尔根 · 塞尤斯托尔作曲家故居",
+      "source": "https://www.visitbergen.com/ting-a-gjore/siljustol-p826353",
+      "photo": null
+    },
+    {
+      "id": "thirty-mendelssohn-remise",
+      "name": "柏林 · 门德尔松家族Remise展馆",
+      "source": "https://www.mendelssohn-gesellschaft.de/gesellschaft/ausstellung/?lang=1",
+      "photo": null
+    },
+    {
+      "id": "thirty-puccini-giglio",
+      "name": "卢卡 · 吉廖剧院",
+      "source": "https://www.museodicelledeipuccini.it/itinerari-pucciniani/",
+      "photo": null
+    },
+    {
+      "id": "thirty-puccini-celle",
+      "name": "切莱 · 普契尼家族博物馆",
+      "source": "https://www.museodicelledeipuccini.it/itinerari-pucciniani/",
+      "photo": null
+    },
+    {
+      "id": "thirty-puccini-viareggio",
+      "name": "维亚雷焦 · 普契尼晚年别墅外观",
+      "source": "https://www.puccinimuseum.org/",
+      "photo": null
+    },
+    {
+      "id": "thirty-hugo-villequier",
+      "name": "维勒基耶 · 维克多·雨果博物馆",
+      "source": "https://www.museevictorhugo.fr/",
+      "photo": null
+    },
+    {
+      "id": "thirty-byron-newstead",
+      "name": "诺丁汉郡 · 纽斯特德修道院",
+      "source": "https://newsteadabbey.org.uk/house-and-abbey",
+      "photo": null
+    },
+    {
+      "id": "thirty-villa-diodati",
+      "name": "科洛尼 · 迪奥达蒂别墅周边",
+      "source": "https://noms-geographiques.app.ge.ch/voie/geneve/chemin-diodati",
+      "photo": null
+    },
+    {
+      "id": "thirty-kafka-museum",
+      "name": "布拉格 · 卡夫卡博物馆",
+      "source": "https://kafkamuseum.cz/",
+      "photo": null
+    },
+    {
+      "id": "thirty-kafka-golden-lane",
+      "name": "布拉格 · 黄金巷22号",
+      "source": "https://www.hrad.cz/en/prague-castle-for-visitors/objects-for-visitors/golden-lane-10334",
+      "photo": null
+    },
+    {
+      "id": "thirty-joyce-tower",
+      "name": "桑迪科夫 · 乔伊斯塔楼与博物馆",
+      "source": "https://joycetower.ie/about-us/martello-tower",
+      "photo": null
+    },
+    {
+      "id": "thirty-joyce-trieste-museum",
+      "name": "的里雅斯特 · LETS乔伊斯博物馆",
+      "source": "https://museojoycetrieste.it/",
+      "photo": null
+    },
+    {
+      "id": "thirty-proust-leonie",
+      "name": "伊利耶-贡布雷 · 莱奥妮姨妈之家",
+      "source": "https://www.amisdeproust.fr/maison-de-tante-leonie",
+      "photo": null
+    },
+    {
+      "id": "thirty-proust-cabourg-villa",
+      "name": "卡堡 · 追忆似水年华别墅博物馆",
+      "source": "https://villadutempsretrouve.com/",
+      "photo": null
     }
   ],
   "newItineraries": [
+    {
+      "theme": "brancusi",
+      "id": "thirty-brancusi-gorj",
+      "name": "戈尔日 · 村庄记忆与城市雕塑",
+      "ids": [
+        "thirty-brancusi-hobita",
+        "atlas-brancusi-ensemble"
+      ],
+      "days": 3,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "特尔古日乌基地 + 霍比察公路往返",
+      "reason": "霍比察距城市约二十多公里，可分两天参访；雕塑轴线按城市允许步行路线，乡村用公路接驳，不把巴黎工作室接为下一站。",
+      "topology": "network",
+      "climate": "https://ghidulmuzeelor.cimec.ro/id.asp?k=321",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "brancusi",
+      "id": "thirty-brancusi-craiova",
+      "name": "克拉约瓦 · 在宫殿中看雕塑收藏",
+      "ids": [
+        "thirty-craiova-art"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "克拉约瓦市内交通 + 馆内步行",
+      "reason": "单一美术馆的一日阅读，克拉约瓦与戈尔日需区域交通转场，巴黎另作独立旅行。",
+      "topology": "network",
+      "climate": "https://ghidulmuzeelor.cimec.ro/id.asp?k=284",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "giacometti",
+      "id": "thirty-giacometti-valley",
+      "name": "布雷加利亚 · 山谷与博物馆",
+      "ids": [
+        "atlas-stampa",
+        "thirty-ciasa-granda"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "斯坦帕基地 + 山谷公交 / 允许道路",
+      "reason": "两天读地方环境与家族收藏，工作室另查导览；不把山谷代表点当成某件雕塑的唯一原址。",
+      "topology": "network",
+      "climate": "https://www.fondation-giacometti.fr/en/biography",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "giacometti",
+      "id": "thirty-giacometti-zurich",
+      "name": "苏黎世 · 贾科梅蒂的材料和尺度",
+      "ids": [
+        "thirty-kunsthaus-zurich"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "苏黎世市内交通 + 馆内步行",
+      "reason": "单一美术馆的一日阅读；山谷与苏黎世之间另留区域转场，巴黎另行安排。",
+      "topology": "network",
+      "climate": "https://www.kunsthaus.ch/en/sammlung/private-sammlungen/alberto-giacometti-stiftung/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "gauguin",
+      "id": "thirty-gauguin-brittany",
+      "name": "南布列塔尼 · 蓬塔旺到勒普尔迪",
+      "ids": [
+        "atlas-pont-aven",
+        "thirty-le-pouldu"
+      ],
+      "days": 3,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "蓬塔旺 / 克洛阿尔卡尔诺埃两地住宿 + 区域公路",
+      "reason": "两地相距约三十公里，馆藏、海岸和村庄可分三天看；不把这一段与塔希提跨洋迁居连成当代连续线路。",
+      "topology": "network",
+      "climate": "https://www.museepontaven.fr/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "gauguin",
+      "id": "thirty-gauguin-tahiti",
+      "name": "塔希提 · 从岛屿背景到地方博物馆",
+      "ids": [
+        "atlas-tahiti",
+        "thirty-tahiti-museum"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "塔希提岛基地 + 当地公路接驳",
+      "reason": "两天看岛屿背景与地方文化收藏；原塔希提大区域坐标不是某间画室，殖民关系和画家视角需与当地资料对读。",
+      "topology": "network",
+      "climate": "https://www.nga.gov/stories/videos/gauguin-maker-myth-part-4",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "chagall",
+      "id": "thirty-chagall-riviera",
+      "name": "蔚蓝海岸 · 尼斯、旺斯与圣保罗",
+      "ids": [
+        "atlas-chagall-nice",
+        "thirty-vence-cathedral",
+        "atlas-saint-paul-vence"
+      ],
+      "days": 4,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "尼斯 / 旺斯分地住宿 + 区域公交 / 公路",
+      "reason": "三处在同一海岸腹地分日参访；馆藏、教堂马赛克与生活城市各有身份，开放与交通逐段确认。",
+      "topology": "network",
+      "climate": "https://musees-nationaux-alpesmaritimes.fr/chagall/en/practical-information",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "chagall",
+      "id": "thirty-chagall-vitebsk",
+      "name": "维捷布斯克 · 故乡与家庭空间",
+      "ids": [
+        "atlas-vitebsk",
+        "thirty-chagall-house"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "维捷布斯克市内交通 + 街区步行",
+      "reason": "城市与故居分两次阅读；不把白俄罗斯童年和南法晚年压成同一旅次。",
+      "topology": "network",
+      "climate": "https://www.saint-pauldevence.com/en/history/celebrities/marc-chagall-vitebsk-saint-paul-de-vence/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
     {
       "theme": "zhang-daqian",
       "id": "thirty-zhang-neijiang",
@@ -1665,6 +2086,121 @@
       "reason": "一个展览机构的一日阅读；北京、上海的任务年代继续在原人物地图保留，不虚构三城市连续路线。",
       "topology": "network",
       "climate": "https://www.henricartierbresson.org/en/visit-us/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "christo-jeanneclaude",
+      "id": "thirty-christo-paris",
+      "name": "巴黎 · 两处临时作品之后",
+      "ids": [
+        "thirty-christo-pont-neuf",
+        "thirty-christo-arc"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "巴黎地铁 + 桥岸与纪念馆允许路径",
+      "reason": "两天比较城市空间与临时艺术记忆，明确1985和2021两项目均已拆除。柏林与伊塞奥湖另作独立区域。",
+      "topology": "network",
+      "climate": "https://www.culture.gouv.fr/thematiques/arts-plastiques/expositions-en-france/Christo-et-Jeanne-Claude-Paris",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "chopin",
+      "id": "thirty-chopin-mazovia",
+      "name": "华沙与近郊 · 从童年到作品收藏",
+      "ids": [
+        "thirty-chopin-warsaw",
+        "thirty-chopin-birthplace"
+      ],
+      "days": 3,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "华沙基地 + 热拉佐瓦沃拉公路 / 公交往返",
+      "reason": "出生地距华沙约五十多公里，分两天参访并留交通时间；诺昂和瓦尔德莫萨分属法国与马略卡，另行出发。",
+      "topology": "network",
+      "climate": "https://chopin.pl/museum.en.html",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "dvorak",
+      "id": "thirty-dvorak-bohemia",
+      "name": "波希米亚 · 布拉格与两处近郊",
+      "ids": [
+        "thirty-dvorak-birthplace",
+        "atlas-dvorak-prague",
+        "thirty-dvorak-vysoka"
+      ],
+      "days": 5,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "布拉格基地 + 北部与南部两次区域往返",
+      "reason": "内拉霍泽韦斯在布拉格北侧，维索卡在南侧，分日往返；美国斯皮尔维尔仍保留为跨洋阶段，不能拼入捷克本地行程。",
+      "topology": "network",
+      "climate": "https://www.lobkowicz.cz/en/antonin-dvorak-birth-house",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "grieg",
+      "id": "thirty-bergen-composer-homes",
+      "name": "卑尔根近郊 · 两位作曲家的家园",
+      "ids": [
+        "atlas-troldhaugen",
+        "thirty-siljustol"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "卑尔根基地 + 轻轨 / 公交与当地步行",
+      "reason": "两处相距约数公里，可分两日按各馆开放安排；格里格旧居修缮、塞韦鲁德馆舍季节开放分别核实。",
+      "topology": "network",
+      "climate": "https://www.kodebergen.no/en/museums/edvard-grieg-museum-troldhaugen",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "mendelssohn",
+      "id": "thirty-mendelssohn-berlin",
+      "name": "柏林 · 在家族展馆读音乐时代",
+      "ids": [
+        "thirty-mendelssohn-remise"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "柏林市内公共交通 + 展馆步行",
+      "reason": "单一展馆的一日阅读；苏格兰海岛与莱比锡晚年居所继续保留，不把三个不同阶段复原成同一次旅程。",
+      "topology": "network",
+      "climate": "https://www.mendelssohn-gesellschaft.de/gesellschaft/ausstellung/?lang=1",
       "totalKm": 0,
       "seasonMatch": true
     },
@@ -1812,6 +2348,120 @@
       "seasonMatch": true
     },
     {
+      "theme": "byron",
+      "id": "thirty-byron-lake-geneva",
+      "name": "日内瓦湖 · 湖畔旅居与希永城堡",
+      "ids": [
+        "thirty-villa-diodati",
+        "atlas-chillon"
+      ],
+      "days": 4,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "日内瓦与蒙特勒两基地 + 湖岸铁路",
+      "reason": "湖的西端和东端分日参访，别墅只读公共环境，城堡按门票范围进入；拜伦的文学人物经历不等于作者本人囚禁史。",
+      "topology": "network",
+      "climate": "https://noms-geographiques.app.ge.ch/voie/geneve/chemin-diodati",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "byron",
+      "id": "thirty-byron-newstead",
+      "name": "纽斯特德 · 修道院、祖居与庭园",
+      "ids": [
+        "thirty-byron-newstead"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "诺丁汉基地 + 郊区公共交通 / 接驳",
+      "reason": "单一庄园的一日参访，按开放范围看房屋与园地；瑞士和希腊原节点另行阅读。",
+      "topology": "network",
+      "climate": "https://newsteadabbey.org.uk/house-and-abbey",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "kafka",
+      "id": "thirty-kafka-prague",
+      "name": "布拉格 · 小城区文献与黄金巷",
+      "ids": [
+        "thirty-kafka-museum",
+        "thirty-kafka-golden-lane"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "布拉格公共交通 + 城堡区步行",
+      "reason": "两天留给博物馆与城堡街巷，台阶与预约分开核实；基尔灵晚年另属奥地利，不插入同一城市日程。",
+      "topology": "network",
+      "climate": "https://kafkamuseum.cz/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "joyce",
+      "id": "thirty-joyce-dublin-bay",
+      "name": "都柏林 · 城市资料与海边塔楼",
+      "ids": [
+        "atlas-joyce-dublin",
+        "thirty-joyce-tower"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "都柏林基地 + DART铁路与海岸步行",
+      "reason": "中心与海边塔楼分两天阅读，城市、小说场景和1904年短住分别说明；不复原小说全部人物行动。",
+      "topology": "network",
+      "climate": "https://jamesjoyce.ie/james-joyce/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "joyce",
+      "id": "thirty-joyce-trieste",
+      "name": "的里雅斯特 · 从城市走进文学资料",
+      "ids": [
+        "atlas-trieste",
+        "thirty-joyce-trieste-museum"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "的里雅斯特市内步行 / 公交",
+      "reason": "城市背景和现LETS馆址分地阅读；馆舍迁址已写清，旧城市代表点及原方案全部保留。",
+      "topology": "network",
+      "climate": "https://jamesjoyce.ie/james-joyce/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
       "theme": "tagore",
       "id": "thirty-tagore-campus",
       "name": "桑地尼克坦 · 校园与北园居所",
@@ -1927,6 +2577,235 @@
       "reason": "单一寺院的一日阅读，御影堂与障壁画有特别公开安排，普通入寺不保证能看到原作。",
       "topology": "network",
       "climate": "https://www.toshodaiji.jp/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "italian-art-journeys",
+      "id": "thirty-italy-lucca-music",
+      "name": "卢卡 · 出生地与城市剧院",
+      "ids": [
+        "atlas-puccini-lucca",
+        "thirty-puccini-giglio"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "卢卡城内步行 + 机构参访",
+      "reason": "两天读居所与舞台，演出与建筑参观分开核实；原作故事的异国背景不能当作作曲家到访证据。",
+      "topology": "network",
+      "climate": "https://www.puccinimuseum.org/en/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "italian-art-journeys",
+      "id": "thirty-italy-puccini-coast",
+      "name": "托斯卡纳海岸 · 湖畔与晚年海滨",
+      "ids": [
+        "atlas-torre-del-lago",
+        "thirty-puccini-viareggio"
+      ],
+      "days": 3,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "托雷德尔拉戈 / 维亚雷焦基地 + 区域公交 / 公路",
+      "reason": "两处约十余公里，湖岸与海滨分日探访；维亚雷焦别墅按允许范围看外观，室内开放不作保证。",
+      "topology": "network",
+      "climate": "https://www.puccinimuseum.org/en/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "italian-art-journeys",
+      "id": "thirty-italy-puccini-celle",
+      "name": "卢卡北部 · 切莱的家族音乐",
+      "ids": [
+        "thirty-puccini-celle"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "卢卡基地 + 山村公路往返",
+      "reason": "单一家族博物馆的一日参访，山区往返需约半日交通余量，先确认预约与开放。",
+      "topology": "network",
+      "climate": "https://www.museodicelledeipuccini.it/itinerari-pucciniani/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "english-landscapes",
+      "id": "thirty-landscape-stour",
+      "name": "斯陶尔河谷 · 迪德姆与弗拉特福德",
+      "ids": [
+        "atlas-dedham",
+        "atlas-flatford",
+        "thirty-willy-lott"
+      ],
+      "days": 2,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "曼宁特里 / 迪德姆基地 + 国民信托公布步道",
+      "reason": "三个关联地点在同一河谷，按允许路径与现场水况选线；威利洛特故居从外部看，不把画中人物当作仍在场。",
+      "topology": "network",
+      "climate": "https://www.nationaltrust.org.uk/visit/suffolk/flatford/flatford-and-constable-country-walk",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "english-landscapes",
+      "id": "thirty-landscape-grasmere",
+      "name": "湖区 · 格拉斯米尔到莱德尔",
+      "ids": [
+        "atlas-dove-cottage",
+        "thirty-allan-bank",
+        "atlas-rydal-mount"
+      ],
+      "days": 3,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "格拉斯米尔基地 + 区域公交 / 允许步道",
+      "reason": "三处房屋相距数公里，分三天看室内、庭园和山谷；威廉与多萝西的文字分别读，住宅开放各自核实。",
+      "topology": "network",
+      "climate": "https://wordsworth.org.uk/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "english-landscapes",
+      "id": "thirty-landscape-cockermouth",
+      "name": "科克茅斯 · 童年家屋与河畔园地",
+      "ids": [
+        "thirty-wordsworth-house"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "科克茅斯城内步行 + 预约导览",
+      "reason": "单一家屋园地的一日阅读。距格拉斯米尔另有约五十公里转场，非出门即到下一栋房。",
+      "topology": "network",
+      "climate": "https://www.nationaltrust.org.uk/visit/lake-district/wordsworth-house-and-garden",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "paris-normandy-writing",
+      "id": "thirty-writing-normandy",
+      "name": "诺曼底 · 塞纳河与卡堡海岸",
+      "ids": [
+        "thirty-hugo-villequier",
+        "atlas-cabourg",
+        "thirty-proust-cabourg-villa"
+      ],
+      "days": 4,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "维勒基耶、卡堡两基地 + 区域公路",
+      "reason": "塞纳河家族记忆与美好年代海滨分两地区看，约百公里转场留出交通；雨果与普鲁斯特不被写成同行。",
+      "topology": "network",
+      "climate": "https://www.museevictorhugo.fr/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "paris-normandy-writing",
+      "id": "thirty-writing-illiers",
+      "name": "伊利耶 · 从家族房屋读贡布雷",
+      "ids": [
+        "atlas-illiers",
+        "thirty-proust-leonie"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "伊利耶城内步行 + 博物馆参访",
+      "reason": "城市代表点与具体房屋同地对读；从巴黎或沙特尔另有铁路转场，不把小说中的距离照搬为道路导航。",
+      "topology": "network",
+      "climate": "https://illiers-combray.com/marcel-proust-et-illiers-combray/musee-marcel-proust-maison-de-tante-leonie/",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "paris-normandy-writing",
+      "id": "thirty-writing-paris",
+      "name": "巴黎 · 雨果的房间与生活资料",
+      "ids": [
+        "atlas-hugo-paris"
+      ],
+      "days": 1,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "巴黎市内公共交通 + 馆内步行",
+      "reason": "单一故居的一日阅读，陈列中有不同住宅和年代的物件，不能混作同一天原貌。",
+      "topology": "network",
+      "climate": "https://www.maisonsvictorhugo.paris.fr/en/paris",
+      "totalKm": 0,
+      "seasonMatch": true
+    },
+    {
+      "theme": "paris-normandy-writing",
+      "id": "thirty-writing-guernsey",
+      "name": "根西岛 · 流亡家屋与岛屿背景",
+      "ids": [
+        "atlas-hauteville"
+      ],
+      "days": 3,
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "transport": "圣彼得港基地 + 独立跨海交通",
+      "reason": "单一故居配三日岛屿停留，含跨海与预约余量；不是巴黎次日步行可达的延伸，航班、渡船和入境条件另行核实。",
+      "topology": "network",
+      "climate": "https://www.maisonsvictorhugo.paris.fr/en/guernesey/house",
       "totalKm": 0,
       "seasonMatch": true
     }

@@ -1,6 +1,6 @@
 {
   "baseline": "697397886b2e4e238220a841108631a5d74e7433",
-  "phase": 1,
+  "phase": 2,
   "assessments": [
     {
       "id": "brancusi",
@@ -449,6 +449,440 @@
       "observe": "看纪念展览如何串联生平、绘画、歌曲与戏剧，具体演出和展览另查，不提供未经授权的录音。",
       "source": "https://www.rabindratirtha-wbhidcoltd.co.in/",
       "wiki": "Rabindra Tirtha"
+    },
+    {
+      "id": "thirty-brancusi-hobita",
+      "name": "霍比察 · 布朗库西纪念屋",
+      "en": "Constantin Brancusi Memorial House Hobita",
+      "lon": 23.0479,
+      "lat": 45.0482,
+      "country": "罗马尼亚",
+      "region": "戈尔日县霍比察",
+      "type": "生活与纪念",
+      "desc": "村庄纪念屋通过乡土建筑、家具和文献认识布朗库西的成长背景。馆舍有修复、拆卸迁置等历史，不能把今天所有构件和陈设都当作出生当年的原物。",
+      "observe": "比较木构、房间尺度与乡村环境，再到特尔古日乌看公共雕塑；尊重住民，不把村中私人住宅都当作可入内故居。",
+      "source": "https://ghidulmuzeelor.cimec.ro/id.asp?k=321",
+      "wiki": "Constantin Brâncuși Memorial House"
+    },
+    {
+      "id": "thirty-craiova-art",
+      "name": "克拉约瓦 · 美术馆与布朗库西收藏",
+      "en": "Craiova Art Museum",
+      "lon": 23.7938,
+      "lat": 44.3206,
+      "country": "罗马尼亚",
+      "region": "多尔日县克拉约瓦",
+      "type": "收藏与建筑",
+      "desc": "让·米哈伊尔宫中的美术馆收藏布朗库西雕塑，也保存罗马尼亚与欧洲绘画。收藏馆与特尔古日乌公共纪念轴线提供两种观看尺度，不代表每件作品当前都在展。",
+      "observe": "先看雕塑的材质、体量与陈列，再观察宫殿建筑；馆藏著录、展出与城市原址作品分别核对。",
+      "source": "https://ghidulmuzeelor.cimec.ro/id.asp?k=284",
+      "wiki": "Craiova Art Museum"
+    },
+    {
+      "id": "thirty-ciasa-granda",
+      "name": "斯坦帕 · Ciäsa Granda与贾科梅蒂工作室资料",
+      "en": "Ciäsa Granda",
+      "lon": 9.5895,
+      "lat": 46.3428,
+      "country": "瑞士",
+      "region": "布雷加利亚斯坦帕",
+      "type": "山谷与收藏",
+      "desc": "山谷博物馆将地方生活、手工艺、自然环境与贾科梅蒂家族作品放在一起，工作室参访另有带领安排。它补充斯坦帕区域点，不把巴黎研究院的复原陈列搬到瑞士。",
+      "observe": "分别看地方生活和家族艺术，工作室按预约或导览安排；不要把阿尔贝托、乔瓦尼与迭戈的作品混作一人创作。",
+      "source": "https://ciaesagranda.ch/chi-siamo/",
+      "wiki": "Ciäsa Granda"
+    },
+    {
+      "id": "thirty-kunsthaus-zurich",
+      "name": "苏黎世 · 美术馆贾科梅蒂收藏",
+      "en": "Kunsthaus Zürich",
+      "lon": 8.5488,
+      "lat": 47.3703,
+      "country": "瑞士",
+      "region": "苏黎世",
+      "type": "收藏与研究",
+      "desc": "苏黎世美术馆的贾科梅蒂基金会长期借藏与馆藏涵盖雕塑、绘画、素描等阶段。这里是收藏与研究地，不意味着这些作品在苏黎世创作。",
+      "observe": "从早期形体到战后人物比较不同材料与比例；具体作品、楼层和临时借展按馆方安排核对。",
+      "source": "https://www.kunsthaus.ch/en/sammlung/private-sammlungen/alberto-giacometti-stiftung/",
+      "wiki": "Kunsthaus Zürich"
+    },
+    {
+      "id": "thirty-le-pouldu",
+      "name": "勒普尔迪 · 海岸与画家记忆",
+      "en": "Le Pouldu",
+      "lon": -3.5472,
+      "lat": 47.7699,
+      "country": "法国",
+      "region": "布列塔尼克洛阿尔卡尔诺埃",
+      "type": "绘画与海岸",
+      "desc": "勒普尔迪以海岸、村庄和高更及同伴的创作记忆补充蓬塔旺。当地解释中心采用展陈来重读19世纪末的观看，不把后来重建的旅舍陈列称为原壁画仍在现场。",
+      "observe": "先观察海岸、屋舍与地方生活，再核对解释中心当前馆址和展览；不把所有布列塔尼题材都定位在同一海滩。",
+      "source": "https://www.deconcarneauapontaven.com/patrimoines/maison-musee-gauguin/",
+      "wiki": "Le Pouldu"
+    },
+    {
+      "id": "thirty-tahiti-museum",
+      "name": "普纳奥亚 · 塔希提与群岛博物馆",
+      "en": "Musée de Tahiti et des Îles",
+      "lon": -149.6127,
+      "lat": -17.6314,
+      "country": "法属波利尼西亚",
+      "region": "塔希提岛普纳奥亚",
+      "type": "地方文化与收藏",
+      "desc": "群岛博物馆以波利尼西亚文化、历史与社会提供地方自身的叙事。它作为塔希提区域的文化参访加入，不是高更故居，也不把画家想象的岛屿等同于当地居民生活。",
+      "observe": "阅读器物、口述与历史材料，再比较外来艺术家的描绘；展览图像的再现权与建筑照片许可分别处理。",
+      "source": "https://www.museetahiti.pf/",
+      "wiki": "Museum of Tahiti and the Islands"
+    },
+    {
+      "id": "thirty-chagall-house",
+      "name": "维捷布斯克 · 夏加尔故居博物馆",
+      "en": "Marc Chagall House Museum",
+      "lon": 30.1932,
+      "lat": 55.1845,
+      "country": "白俄罗斯",
+      "region": "维捷布斯克",
+      "type": "生活与纪念",
+      "desc": "波克罗夫斯卡娅街的故居博物馆将维捷布斯克的家族生活落到房屋和文献。城市童年记忆与画中的漂浮人物、建筑并非一一对应，陈列也经历后世整理。",
+      "observe": "先辨认房屋、生活物件和照片的年代，再读绘画中的故乡想象；不能凭画面确定每栋建筑的精确位置。",
+      "source": "https://chagall-vitebsk.museum.by/",
+      "wiki": "Marc Chagall Museum"
+    },
+    {
+      "id": "thirty-vence-cathedral",
+      "name": "旺斯 · 圣母诞生主教座堂",
+      "en": "Vence Cathedral",
+      "lon": 7.1136,
+      "lat": 43.7226,
+      "country": "法国",
+      "region": "普罗旺斯旺斯",
+      "type": "建筑与原址作品",
+      "desc": "旺斯主教座堂保存夏加尔1979年《摩西被救出水面》马赛克。教堂建筑有更早历史，作品、建筑和艺术家的旺斯居住阶段需要分开读。",
+      "observe": "在允许参观时看马赛克与礼拜空间的关系；建筑照片只说明场所，不冒充有独立再现权的作品图像。",
+      "source": "https://vence-tourisme.com/cathedrale-notre-dame-de-la-nativite/",
+      "wiki": "Vence Cathedral"
+    },
+    {
+      "id": "thirty-willy-lott",
+      "name": "弗拉特福德 · 威利·洛特故居外观",
+      "en": "Willy Lott’s House",
+      "lon": 1.0183,
+      "lat": 51.9587,
+      "country": "英国",
+      "region": "萨福克弗拉特福德",
+      "type": "绘画与地景",
+      "desc": "威利·洛特故居与《干草车》的地方景观有关，是把康斯太勃尔绘画放回斯陶尔河谷的具体参照。今日河岸、建筑使用与画家时代已有变化，原作收藏地另行阅读。",
+      "observe": "从允许的公共路径比较房屋、河岸和画面关系；馆方说明建筑通常从外部观看，不自行进入私人或教学空间。",
+      "source": "https://www.nationaltrust.org.uk/visit/suffolk/flatford",
+      "wiki": "Willy Lott's Cottage"
+    },
+    {
+      "id": "thirty-wordsworth-house",
+      "name": "科克茅斯 · 华兹华斯童年故居",
+      "en": "Wordsworth House",
+      "lon": -3.3686,
+      "lat": 54.6634,
+      "country": "英国",
+      "region": "坎布里亚科克茅斯",
+      "type": "生活与庭园",
+      "desc": "威廉与多萝西的童年家屋面向德文特河，室内和河畔园地让家庭日常与后来的自然书写有具体尺度。现有陈列属于保护和解释，不是所有物件未经变动的童年现场。",
+      "observe": "关注家庭成员、仆役和园中种植的不同日常；入室依限时导览，不能假定随时开放。",
+      "source": "https://www.nationaltrust.org.uk/visit/lake-district/wordsworth-house-and-garden",
+      "wiki": "Wordsworth House"
+    },
+    {
+      "id": "thirty-allan-bank",
+      "name": "格拉斯米尔 · 艾伦班克",
+      "en": "Allan Bank",
+      "lon": -3.0293,
+      "lat": 54.4598,
+      "country": "英国",
+      "region": "坎布里亚格拉斯米尔",
+      "type": "生活与自然",
+      "desc": "艾伦班克曾为华兹华斯居所，今日以展览、创作活动与林地连接湖区自然和文化。它与鸽舍、莱德尔山庄是不同阶段、不同房屋，不把多萝西的写作附属于威廉。",
+      "observe": "看山谷、林地与房间视线；按国民信托允许路径散步，雨天与林路条件单独判断。",
+      "source": "https://www.nationaltrust.org.uk/visit/lake-district/allan-bank-and-grasmere",
+      "wiki": "Allan Bank"
+    },
+    {
+      "id": "thirty-christo-pont-neuf",
+      "name": "巴黎新桥 · 临时包裹项目旧现场",
+      "en": "Pont Neuf",
+      "lon": 2.3415,
+      "lat": 48.8571,
+      "country": "法国",
+      "region": "巴黎塞纳河",
+      "type": "临时作品旧现场",
+      "desc": "克里斯托与珍妮-克劳德1985年包裹巴黎新桥的项目已经结束并拆除。今天可看的是桥、河岸与城市环境，历史项目应由档案和有许可的图像另读。",
+      "observe": "比较桥拱、行走和河岸视角；页面的未包裹建筑照片不代表包裹作品当前仍在现场。",
+      "source": "https://www.culture.gouv.fr/thematiques/arts-plastiques/expositions-en-france/Christo-et-Jeanne-Claude-Paris",
+      "wiki": "Pont Neuf"
+    },
+    {
+      "id": "thirty-christo-arc",
+      "name": "巴黎凯旋门 · 2021年包裹项目旧现场",
+      "en": "Arc de Triomphe",
+      "lon": 2.295,
+      "lat": 48.8738,
+      "country": "法国",
+      "region": "巴黎星形广场",
+      "type": "临时作品旧现场",
+      "desc": "凯旋门包裹项目于2021年短期实现并已经拆除。现存纪念建筑与临时织物作品属于不同作者和年代，不能以地图地点暗示今日仍可看到包裹状态。",
+      "observe": "只通过地下通道抵达广场参访区，不横穿环岛车流；开放、登顶与仪式安排向纪念馆核对。",
+      "source": "https://www.paris-arc-de-triomphe.fr/en/discover/l-arc-de-triomphe-wrapped-paris-1961-2021/the-story-of-a-project",
+      "wiki": "Arc de Triomphe"
+    },
+    {
+      "id": "thirty-chopin-warsaw",
+      "name": "华沙 · 肖邦博物馆",
+      "en": "Fryderyk Chopin Museum",
+      "lon": 21.0221,
+      "lat": 52.2365,
+      "country": "波兰",
+      "region": "华沙",
+      "type": "收藏与生平",
+      "desc": "华沙博物馆以手稿、信件、乐器与其他资料呈现肖邦生涯。它是保存与解释作品的机构，不能从馆址反推每首作品的创作地点。",
+      "observe": "区分作曲手稿、使用过的乐器与后世纪念；演出安排另查，不在页面提供未经授权的表演录音。",
+      "source": "https://chopin.pl/museum.en.html",
+      "wiki": "Fryderyk Chopin Museum"
+    },
+    {
+      "id": "thirty-chopin-birthplace",
+      "name": "热拉佐瓦沃拉 · 肖邦出生地与公园",
+      "en": "Birthplace of Fryderyk Chopin",
+      "lon": 20.3113,
+      "lat": 52.2572,
+      "country": "波兰",
+      "region": "马佐夫舍热拉佐瓦沃拉",
+      "type": "生活与园林",
+      "desc": "出生地分馆与乌特拉塔河畔公园补充肖邦的波兰阶段。家族生活、后世纪念与园林营建有不同年代；这里不等于华沙城内博物馆。",
+      "observe": "结合房屋陈列与河畔景观读童年背景；音乐会期间房屋参访可能调整，出发前向机构确认。",
+      "source": "https://muzeum.nifc.pl/pl/muzeum/wizyta-informacje-miejsce/2_the-birthplace-of-fryderyk-chopin-and-park-in-zelazowa-wola/",
+      "wiki": "Birthplace of Frédéric Chopin"
+    },
+    {
+      "id": "thirty-dvorak-birthplace",
+      "name": "内拉霍泽韦斯 · 德沃夏克出生地",
+      "en": "Antonín Dvořák Birth House",
+      "lon": 14.3003,
+      "lat": 50.2602,
+      "country": "捷克",
+      "region": "中波希米亚内拉霍泽韦斯",
+      "type": "童年与音乐",
+      "desc": "出生地博物馆从乡村生活、河流与声音环境认识德沃夏克的成长。互动叙述与历史物件属于不同解释层，不能把后来录制的讲述当成作曲家原声。",
+      "observe": "看房屋生活与乡村音乐环境，再到布拉格看收藏；馆舍、城堡与车站是不同地点。",
+      "source": "https://www.lobkowicz.cz/en/antonin-dvorak-birth-house",
+      "wiki": "Antonín Dvořák Birth House"
+    },
+    {
+      "id": "thirty-dvorak-vysoka",
+      "name": "维索卡 · 德沃夏克纪念馆与公园",
+      "en": "Antonín Dvořák Memorial Vysoká",
+      "lon": 14.0208,
+      "lat": 49.6341,
+      "country": "捷克",
+      "region": "普日布拉姆维索卡",
+      "type": "纪念与乡居",
+      "desc": "维索卡纪念馆以展陈、音乐与公园认识德沃夏克的乡居创作环境。纪念馆与作曲家私人别墅应分别核对，不把附近每栋建筑都称为他的可参观住宅。",
+      "observe": "先辨认纪念馆、园地与生平资料各自的身份，再读作品的创作阶段，具体馆址和入室范围向机构确认。",
+      "source": "https://antonindvorak.cz/",
+      "wiki": "Antonín Dvořák Memorial"
+    },
+    {
+      "id": "thirty-siljustol",
+      "name": "卑尔根 · 塞尤斯托尔作曲家故居",
+      "en": "Siljustøl",
+      "lon": 5.308,
+      "lat": 60.294,
+      "country": "挪威",
+      "region": "卑尔根罗达尔",
+      "type": "音乐与自然",
+      "desc": "塞尤斯托尔是哈拉尔·塞韦鲁德的作曲家家园，距格里格特罗尔豪根不远。两位作曲家的生活、年代和音乐不同，作为卑尔根近郊可一起探索的音乐与自然空间加入。",
+      "observe": "按开放季参访房屋，林地和私家部分的范围分别确认；不要把塞韦鲁德的工作室标成格里格的房间。",
+      "source": "https://www.visitbergen.com/ting-a-gjore/siljustol-p826353",
+      "wiki": "Siljustøl"
+    },
+    {
+      "id": "thirty-mendelssohn-remise",
+      "name": "柏林 · 门德尔松家族Remise展馆",
+      "en": "Mendelssohn Remise",
+      "lon": 13.3942,
+      "lat": 52.5142,
+      "country": "德国",
+      "region": "柏林御林广场周边",
+      "type": "家族与城市",
+      "desc": "Remise位于门德尔松银行旧家族建筑，展览讨论家族、宗教与城市生活。它不是费利克斯·门德尔松的原工作室，也不能把银行家的经历替代作曲家与芬妮·亨泽尔的创作。",
+      "observe": "从家族关系、城市文化和展览材料读背景；具体音乐活动另查，莱比锡故居与柏林展馆是不同机构。",
+      "source": "https://www.mendelssohn-gesellschaft.de/gesellschaft/ausstellung/?lang=1",
+      "wiki": "Mendelssohn-Remise"
+    },
+    {
+      "id": "thirty-puccini-giglio",
+      "name": "卢卡 · 吉廖剧院",
+      "en": "Teatro del Giglio",
+      "lon": 10.5021,
+      "lat": 43.8407,
+      "country": "意大利",
+      "region": "托斯卡纳卢卡",
+      "type": "剧院与城市",
+      "desc": "吉廖剧院是卢卡普契尼地方行程中的具体音乐机构，可与出生地房屋一同认识城市音乐环境。今天的剧场节目不等于作曲家时代的演出，也不承诺每天有歌剧。",
+      "observe": "比较观众席、舞台与城市场所，参观和演出各有票务安排；歌剧故事发生地不能反推普契尼曾到访。",
+      "source": "https://www.museodicelledeipuccini.it/itinerari-pucciniani/",
+      "wiki": "Teatro del Giglio"
+    },
+    {
+      "id": "thirty-puccini-celle",
+      "name": "切莱 · 普契尼家族博物馆",
+      "en": "Museo di Celle dei Puccini",
+      "lon": 10.5565,
+      "lat": 43.9467,
+      "country": "意大利",
+      "region": "托斯卡纳佩斯卡利亚",
+      "type": "家族与乡村",
+      "desc": "切莱家族博物馆把普契尼的家族音乐传统与卢卡北部山村联系起来。它与卢卡出生地、托雷德尔拉戈居所是三处不同机构。",
+      "observe": "从家族物件、文献与村庄看城市之外的背景；山区道路、预约和小馆开放要单独确认。",
+      "source": "https://www.museodicelledeipuccini.it/itinerari-pucciniani/",
+      "wiki": "Museo di Celle dei Puccini"
+    },
+    {
+      "id": "thirty-puccini-viareggio",
+      "name": "维亚雷焦 · 普契尼晚年别墅外观",
+      "en": "Villa Puccini Viareggio",
+      "lon": 10.2305,
+      "lat": 43.8745,
+      "country": "意大利",
+      "region": "托斯卡纳维亚雷焦",
+      "type": "晚年与海岸",
+      "desc": "普契尼晚年迁居维亚雷焦，海岸别墅把托斯卡纳生活从湖畔延伸到海滨。建筑保护和展陈状态有变化，不能把外观地点等同于随时开放的室内博物馆。",
+      "observe": "先通过机构资料认识晚年迁居，再在允许的公共空间看建筑与松林、海岸的关系；不进入私人或施工区域。",
+      "source": "https://www.puccinimuseum.org/",
+      "wiki": "Villa Puccini (Viareggio)"
+    },
+    {
+      "id": "thirty-hugo-villequier",
+      "name": "维勒基耶 · 维克多·雨果博物馆",
+      "en": "Musée Victor Hugo Villequier",
+      "lon": 0.6728,
+      "lat": 49.5108,
+      "country": "法国",
+      "region": "诺曼底塞纳河畔维勒基耶",
+      "type": "家族与写作",
+      "desc": "瓦克里家屋曾接待雨果及其家人，今日博物馆从家族、文献与塞纳河环境认识他的生活和写作。诺曼底家族记忆与根西岛流亡故居属于不同阶段。",
+      "observe": "从房屋与河岸读生平背景，再阅读诗作；不把今日河道或陈列当作1843年事故现场的完整复原。",
+      "source": "https://www.museevictorhugo.fr/",
+      "wiki": "Musée Victor-Hugo (Villequier)"
+    },
+    {
+      "id": "thirty-byron-newstead",
+      "name": "诺丁汉郡 · 纽斯特德修道院",
+      "en": "Newstead Abbey",
+      "lon": -1.1935,
+      "lat": 53.0785,
+      "country": "英国",
+      "region": "诺丁汉郡",
+      "type": "生活与建筑",
+      "desc": "拜伦1808至1814年居住的祖居保留中世纪修道院遗迹与后世住宅改造。现有房间和展品跨越多个时期，不把维多利亚时代布置都归为拜伦的生活原样。",
+      "observe": "比较修道院立面、回廊与私人居室，家族住宅、诗人生活与后期业主分别阅读。",
+      "source": "https://newsteadabbey.org.uk/house-and-abbey",
+      "wiki": "Newstead Abbey"
+    },
+    {
+      "id": "thirty-villa-diodati",
+      "name": "科洛尼 · 迪奥达蒂别墅周边",
+      "en": "Villa Diodati",
+      "lon": 6.1824,
+      "lat": 46.2204,
+      "country": "瑞士",
+      "region": "日内瓦湖科洛尼",
+      "type": "旅居与文学",
+      "desc": "拜伦1816年在日内瓦湖畔科洛尼租住迪奥达蒂别墅，文学交往与湖区旅行在此展开。建筑为私人地产，地图只标示历史背景，不提供入室参访。",
+      "observe": "在允许公共道路和湖岸区域理解湖、坡地与住宅的环境；不越界进入花园，不把别墅当成公众博物馆。",
+      "source": "https://noms-geographiques.app.ge.ch/voie/geneve/chemin-diodati",
+      "wiki": "Villa Diodati"
+    },
+    {
+      "id": "thirty-kafka-museum",
+      "name": "布拉格 · 卡夫卡博物馆",
+      "en": "Franz Kafka Museum",
+      "lon": 14.4096,
+      "lat": 50.0881,
+      "country": "捷克",
+      "region": "布拉格小城区",
+      "type": "文献与城市",
+      "desc": "小城区砖厂中的博物馆以文献、照片与装置展览解释卡夫卡的生活和作品。它是后世博物馆，不是他的故居，也不是小说《城堡》的现实原型。",
+      "observe": "看手稿、城市材料与象征性装置的不同证据层；原作、复制件和展陈设计分别阅读。",
+      "source": "https://kafkamuseum.cz/",
+      "wiki": "Franz Kafka Museum"
+    },
+    {
+      "id": "thirty-kafka-golden-lane",
+      "name": "布拉格 · 黄金巷22号",
+      "en": "Golden Lane 22 Prague",
+      "lon": 14.4047,
+      "lat": 50.0919,
+      "country": "捷克",
+      "region": "布拉格城堡区",
+      "type": "生活与街巷",
+      "desc": "城堡官方资料记载卡夫卡在第一次世界大战期间住过黄金巷22号。巷中今日色彩与陈列经历20世纪修整，不能当作他当时房间的完整原样。",
+      "observe": "从小屋、城防与街巷尺度读生活环境；黄金巷属于城堡参访安排，不用小说标题为真实城堡作唯一定位。",
+      "source": "https://www.hrad.cz/en/prague-castle-for-visitors/objects-for-visitors/golden-lane-10334",
+      "wiki": "Golden Lane"
+    },
+    {
+      "id": "thirty-joyce-tower",
+      "name": "桑迪科夫 · 乔伊斯塔楼与博物馆",
+      "en": "James Joyce Tower and Museum",
+      "lon": -6.113,
+      "lat": 53.287,
+      "country": "爱尔兰",
+      "region": "都柏林湾桑迪科夫",
+      "type": "短住与小说",
+      "desc": "海边马泰洛塔是《尤利西斯》开篇的场所，也有乔伊斯1904年短住的真实经历。小说中的一日都柏林与作者长期迁居属于不同关系。",
+      "observe": "从防御塔结构、海面与室内陈列读空间，按塔楼规则参访；角色经历不全等于作者本人经历。",
+      "source": "https://joycetower.ie/about-us/martello-tower",
+      "wiki": "James Joyce Tower and Museum"
+    },
+    {
+      "id": "thirty-joyce-trieste-museum",
+      "name": "的里雅斯特 · LETS乔伊斯博物馆",
+      "en": "Joyce Museum Trieste",
+      "lon": 13.7674,
+      "lat": 45.6469,
+      "country": "意大利",
+      "region": "的里雅斯特",
+      "type": "城市与文献",
+      "desc": "乔伊斯博物馆现位于LETＳ文学博物馆、霍尔蒂斯广场4号，集中研究他与的里雅斯特的关系。新馆址与城市中的历史住宅不同，不能用旧馆地址替代。",
+      "observe": "先核对当前馆址，再读迁居、语言与城市资料；与都柏林的小说地景分开，不宣称跨国两城一日可达。",
+      "source": "https://museojoycetrieste.it/",
+      "wiki": "Museo Joyce Museum"
+    },
+    {
+      "id": "thirty-proust-leonie",
+      "name": "伊利耶-贡布雷 · 莱奥妮姨妈之家",
+      "en": "Maison de Tante Léonie",
+      "lon": 1.2443,
+      "lat": 48.2993,
+      "country": "法国",
+      "region": "博斯伊利耶-贡布雷",
+      "type": "童年与小说",
+      "desc": "普鲁斯特童年到访的阿米奥家族房屋成为小说贡布雷记忆的重要参照，今日为博物馆。真实亲属住宅、小说人物和后世陈列需要分别阅读。",
+      "observe": "以房间、物件与庭园理解记忆的组织，不把小说叙述当作房屋历史逐字复刻。",
+      "source": "https://www.amisdeproust.fr/maison-de-tante-leonie",
+      "wiki": "Maison de Tante Léonie"
+    },
+    {
+      "id": "thirty-proust-cabourg-villa",
+      "name": "卡堡 · 追忆似水年华别墅博物馆",
+      "en": "Villa du Temps retrouvé",
+      "lon": -0.1172,
+      "lat": 49.2909,
+      "country": "法国",
+      "region": "诺曼底卡堡",
+      "type": "城市与艺术",
+      "desc": "这座美好年代主题博物馆借普鲁斯特作为阅读线索，展示海滨度假时代的艺术与日常。它是当代博物馆，不是作家的原酒店房间，也不把借展清单当成永久展出。",
+      "observe": "比较绘画、室内物件与海岸度假文化，普鲁斯特本人旅居和小说巴尔贝克的组织分别阅读。",
+      "source": "https://villadutempsretrouve.com/",
+      "wiki": "Villa du Temps retrouvé"
     }
   ],
   "expansions": [
@@ -761,8 +1195,514 @@
           "乔拉桑科家族生活与新城纪念中心分地看；两者距离较远，留足城市交通，不冒充同一处故居。"
         ]
       ]
+    },
+    {
+      "id": "brancusi",
+      "extraPlaces": [
+        "thirty-brancusi-hobita",
+        "thirty-craiova-art"
+      ],
+      "plans": [
+        [
+          "thirty-brancusi-gorj",
+          "戈尔日 · 村庄记忆与城市雕塑",
+          [
+            "thirty-brancusi-hobita",
+            "atlas-brancusi-ensemble"
+          ],
+          3,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "特尔古日乌基地 + 霍比察公路往返",
+          "霍比察距城市约二十多公里，可分两天参访；雕塑轴线按城市允许步行路线，乡村用公路接驳，不把巴黎工作室接为下一站。"
+        ],
+        [
+          "thirty-brancusi-craiova",
+          "克拉约瓦 · 在宫殿中看雕塑收藏",
+          [
+            "thirty-craiova-art"
+          ],
+          1,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "克拉约瓦市内交通 + 馆内步行",
+          "单一美术馆的一日阅读，克拉约瓦与戈尔日需区域交通转场，巴黎另作独立旅行。"
+        ]
+      ],
+      "phase": 2
+    },
+    {
+      "id": "giacometti",
+      "extraPlaces": [
+        "thirty-ciasa-granda",
+        "thirty-kunsthaus-zurich"
+      ],
+      "plans": [
+        [
+          "thirty-giacometti-valley",
+          "布雷加利亚 · 山谷与博物馆",
+          [
+            "atlas-stampa",
+            "thirty-ciasa-granda"
+          ],
+          2,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "斯坦帕基地 + 山谷公交 / 允许道路",
+          "两天读地方环境与家族收藏，工作室另查导览；不把山谷代表点当成某件雕塑的唯一原址。"
+        ],
+        [
+          "thirty-giacometti-zurich",
+          "苏黎世 · 贾科梅蒂的材料和尺度",
+          [
+            "thirty-kunsthaus-zurich"
+          ],
+          1,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "苏黎世市内交通 + 馆内步行",
+          "单一美术馆的一日阅读；山谷与苏黎世之间另留区域转场，巴黎另行安排。"
+        ]
+      ],
+      "phase": 2
+    },
+    {
+      "id": "gauguin",
+      "extraPlaces": [
+        "thirty-le-pouldu",
+        "thirty-tahiti-museum"
+      ],
+      "plans": [
+        [
+          "thirty-gauguin-brittany",
+          "南布列塔尼 · 蓬塔旺到勒普尔迪",
+          [
+            "atlas-pont-aven",
+            "thirty-le-pouldu"
+          ],
+          3,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "蓬塔旺 / 克洛阿尔卡尔诺埃两地住宿 + 区域公路",
+          "两地相距约三十公里，馆藏、海岸和村庄可分三天看；不把这一段与塔希提跨洋迁居连成当代连续线路。"
+        ],
+        [
+          "thirty-gauguin-tahiti",
+          "塔希提 · 从岛屿背景到地方博物馆",
+          [
+            "atlas-tahiti",
+            "thirty-tahiti-museum"
+          ],
+          2,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "塔希提岛基地 + 当地公路接驳",
+          "两天看岛屿背景与地方文化收藏；原塔希提大区域坐标不是某间画室，殖民关系和画家视角需与当地资料对读。"
+        ]
+      ],
+      "phase": 2
+    },
+    {
+      "id": "chagall",
+      "extraPlaces": [
+        "thirty-chagall-house",
+        "thirty-vence-cathedral"
+      ],
+      "plans": [
+        [
+          "thirty-chagall-vitebsk",
+          "维捷布斯克 · 故乡与家庭空间",
+          [
+            "atlas-vitebsk",
+            "thirty-chagall-house"
+          ],
+          2,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "维捷布斯克市内交通 + 街区步行",
+          "城市与故居分两次阅读；不把白俄罗斯童年和南法晚年压成同一旅次。"
+        ],
+        [
+          "thirty-chagall-riviera",
+          "蔚蓝海岸 · 尼斯、旺斯与圣保罗",
+          [
+            "atlas-chagall-nice",
+            "thirty-vence-cathedral",
+            "atlas-saint-paul-vence"
+          ],
+          4,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "尼斯 / 旺斯分地住宿 + 区域公交 / 公路",
+          "三处在同一海岸腹地分日参访；馆藏、教堂马赛克与生活城市各有身份，开放与交通逐段确认。"
+        ]
+      ],
+      "phase": 2
+    },
+    {
+      "id": "constable",
+      "extraPlaces": [
+        "thirty-willy-lott"
+      ],
+      "plans": [],
+      "phase": 2
+    },
+    {
+      "id": "wordsworth",
+      "extraPlaces": [
+        "thirty-wordsworth-house",
+        "thirty-allan-bank"
+      ],
+      "plans": [],
+      "phase": 2
+    },
+    {
+      "id": "christo-jeanneclaude",
+      "extraPlaces": [
+        "thirty-christo-pont-neuf",
+        "thirty-christo-arc"
+      ],
+      "plans": [
+        [
+          "thirty-christo-paris",
+          "巴黎 · 两处临时作品之后",
+          [
+            "thirty-christo-pont-neuf",
+            "thirty-christo-arc"
+          ],
+          2,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "巴黎地铁 + 桥岸与纪念馆允许路径",
+          "两天比较城市空间与临时艺术记忆，明确1985和2021两项目均已拆除。柏林与伊塞奥湖另作独立区域。"
+        ]
+      ],
+      "phase": 2
+    },
+    {
+      "id": "chopin",
+      "extraPlaces": [
+        "thirty-chopin-warsaw",
+        "thirty-chopin-birthplace"
+      ],
+      "plans": [
+        [
+          "thirty-chopin-mazovia",
+          "华沙与近郊 · 从童年到作品收藏",
+          [
+            "thirty-chopin-warsaw",
+            "thirty-chopin-birthplace"
+          ],
+          3,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "华沙基地 + 热拉佐瓦沃拉公路 / 公交往返",
+          "出生地距华沙约五十多公里，分两天参访并留交通时间；诺昂和瓦尔德莫萨分属法国与马略卡，另行出发。"
+        ]
+      ],
+      "phase": 2
+    },
+    {
+      "id": "dvorak",
+      "extraPlaces": [
+        "thirty-dvorak-birthplace",
+        "thirty-dvorak-vysoka"
+      ],
+      "plans": [
+        [
+          "thirty-dvorak-bohemia",
+          "波希米亚 · 布拉格与两处近郊",
+          [
+            "thirty-dvorak-birthplace",
+            "atlas-dvorak-prague",
+            "thirty-dvorak-vysoka"
+          ],
+          5,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "布拉格基地 + 北部与南部两次区域往返",
+          "内拉霍泽韦斯在布拉格北侧，维索卡在南侧，分日往返；美国斯皮尔维尔仍保留为跨洋阶段，不能拼入捷克本地行程。"
+        ]
+      ],
+      "phase": 2
+    },
+    {
+      "id": "grieg",
+      "extraPlaces": [
+        "thirty-siljustol"
+      ],
+      "plans": [
+        [
+          "thirty-bergen-composer-homes",
+          "卑尔根近郊 · 两位作曲家的家园",
+          [
+            "atlas-troldhaugen",
+            "thirty-siljustol"
+          ],
+          2,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "卑尔根基地 + 轻轨 / 公交与当地步行",
+          "两处相距约数公里，可分两日按各馆开放安排；格里格旧居修缮、塞韦鲁德馆舍季节开放分别核实。"
+        ]
+      ],
+      "phase": 2,
+      "name": "卑尔根：格里格与近郊音乐家园",
+      "intro": "以格里格的特罗尔豪根为核心，再到附近塞尤斯托尔读塞韦鲁德。不同作曲家分别标明，音乐、园地与生活空间可以在同一次卑尔根旅行中比较。"
+    },
+    {
+      "id": "mendelssohn",
+      "extraPlaces": [
+        "thirty-mendelssohn-remise"
+      ],
+      "plans": [
+        [
+          "thirty-mendelssohn-berlin",
+          "柏林 · 在家族展馆读音乐时代",
+          [
+            "thirty-mendelssohn-remise"
+          ],
+          1,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "柏林市内公共交通 + 展馆步行",
+          "单一展馆的一日阅读；苏格兰海岛与莱比锡晚年居所继续保留，不把三个不同阶段复原成同一次旅程。"
+        ]
+      ],
+      "phase": 2
+    },
+    {
+      "id": "puccini",
+      "extraPlaces": [
+        "thirty-puccini-giglio",
+        "thirty-puccini-celle",
+        "thirty-puccini-viareggio"
+      ],
+      "plans": [],
+      "phase": 2
+    },
+    {
+      "id": "italian-art-journeys",
+      "extraPlaces": [],
+      "plans": [],
+      "phase": 2
+    },
+    {
+      "id": "hugo",
+      "extraPlaces": [
+        "thirty-hugo-villequier"
+      ],
+      "plans": [],
+      "phase": 2
+    },
+    {
+      "id": "byron",
+      "extraPlaces": [
+        "thirty-byron-newstead",
+        "thirty-villa-diodati"
+      ],
+      "plans": [
+        [
+          "thirty-byron-newstead",
+          "纽斯特德 · 修道院、祖居与庭园",
+          [
+            "thirty-byron-newstead"
+          ],
+          1,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "诺丁汉基地 + 郊区公共交通 / 接驳",
+          "单一庄园的一日参访，按开放范围看房屋与园地；瑞士和希腊原节点另行阅读。"
+        ],
+        [
+          "thirty-byron-lake-geneva",
+          "日内瓦湖 · 湖畔旅居与希永城堡",
+          [
+            "thirty-villa-diodati",
+            "atlas-chillon"
+          ],
+          4,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "日内瓦与蒙特勒两基地 + 湖岸铁路",
+          "湖的西端和东端分日参访，别墅只读公共环境，城堡按门票范围进入；拜伦的文学人物经历不等于作者本人囚禁史。"
+        ]
+      ],
+      "phase": 2
+    },
+    {
+      "id": "kafka",
+      "extraPlaces": [
+        "thirty-kafka-museum",
+        "thirty-kafka-golden-lane"
+      ],
+      "plans": [
+        [
+          "thirty-kafka-prague",
+          "布拉格 · 小城区文献与黄金巷",
+          [
+            "thirty-kafka-museum",
+            "thirty-kafka-golden-lane"
+          ],
+          2,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "布拉格公共交通 + 城堡区步行",
+          "两天留给博物馆与城堡街巷，台阶与预约分开核实；基尔灵晚年另属奥地利，不插入同一城市日程。"
+        ]
+      ],
+      "phase": 2
+    },
+    {
+      "id": "joyce",
+      "extraPlaces": [
+        "thirty-joyce-tower",
+        "thirty-joyce-trieste-museum"
+      ],
+      "plans": [
+        [
+          "thirty-joyce-dublin-bay",
+          "都柏林 · 城市资料与海边塔楼",
+          [
+            "atlas-joyce-dublin",
+            "thirty-joyce-tower"
+          ],
+          2,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "都柏林基地 + DART铁路与海岸步行",
+          "中心与海边塔楼分两天阅读，城市、小说场景和1904年短住分别说明；不复原小说全部人物行动。"
+        ],
+        [
+          "thirty-joyce-trieste",
+          "的里雅斯特 · 从城市走进文学资料",
+          [
+            "atlas-trieste",
+            "thirty-joyce-trieste-museum"
+          ],
+          2,
+          [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "的里雅斯特市内步行 / 公交",
+          "城市背景和现LETS馆址分地阅读；馆舍迁址已写清，旧城市代表点及原方案全部保留。"
+        ]
+      ],
+      "phase": 2
+    },
+    {
+      "id": "proust",
+      "extraPlaces": [
+        "thirty-proust-leonie",
+        "thirty-proust-cabourg-villa"
+      ],
+      "plans": [],
+      "phase": 2
     }
   ],
   "merges": [],
-  "expectedVisible": 81
+  "expectedVisible": 78,
+  "mapUpdates": [
+    {
+      "phase": 2,
+      "code": "const landscape={id:'english-landscapes',name:'英格兰风景：河谷画境与湖区诗歌',lens:'从河谷的画面，到湖区的房间与步行',members:['constable','wordsworth'],extraPlaces:[\"thirty-willy-lott\", \"thirty-wordsworth-house\", \"thirty-allan-bank\"],intro:'萨福克的斯陶尔河谷与坎布里亚湖区，分别连接康斯太勃尔的绘画和威廉、多萝西的写作。地图直接标示房屋、河谷与园地。两地区相距数百公里，可各自出发；如合为一次旅行，另留长距离铁路或公路转场。',plans:[[\"thirty-landscape-stour\", \"斯陶尔河谷 · 迪德姆与弗拉特福德\", [\"atlas-dedham\", \"atlas-flatford\", \"thirty-willy-lott\"], 2, [4, 5, 6, 9, 10], \"曼宁特里 / 迪德姆基地 + 国民信托公布步道\", \"三个关联地点在同一河谷，按允许路径与现场水况选线；威利洛特故居从外部看，不把画中人物当作仍在场。\"], [\"thirty-landscape-grasmere\", \"湖区 · 格拉斯米尔到莱德尔\", [\"atlas-dove-cottage\", \"thirty-allan-bank\", \"atlas-rydal-mount\"], 3, [4, 5, 6, 9, 10], \"格拉斯米尔基地 + 区域公交 / 允许步道\", \"三处房屋相距数公里，分三天看室内、庭园和山谷；威廉与多萝西的文字分别读，住宅开放各自核实。\"], [\"thirty-landscape-cockermouth\", \"科克茅斯 · 童年家屋与河畔园地\", [\"thirty-wordsworth-house\"], 1, [4, 5, 6, 9, 10], \"科克茅斯城内步行 + 预约导览\", \"单一家屋园地的一日阅读。距格拉斯米尔另有约五十公里转场，非出门即到下一栋房。\"]]};culturalMapDefinitions.push(landscape);regionalConsolidatedSources.push('constable','wordsworth');"
+    },
+    {
+      "phase": 2,
+      "code": "culturalMapDefinitions.push({id:'paris-normandy-writing',name:'巴黎、诺曼底与根西岛：书房和海岸',lens:'把作家房间、家族记忆与海岸放回真实地域',members:['hugo','proust'],extraPlaces:[\"thirty-hugo-villequier\", \"thirty-proust-leonie\", \"thirty-proust-cabourg-villa\"],intro:'巴黎雨果故居、塞纳河畔维勒基耶、卡堡和伊利耶的记忆空间，可以按巴黎与法国西北的不同基地探索。根西岛的欧特维尔另留跨海章节，交通与入境安排单独确认；人物、作品、纪念陈列与真实居所分别标明。',plans:[[\"thirty-writing-paris\", \"巴黎 · 雨果的房间与生活资料\", [\"atlas-hugo-paris\"], 1, [4, 5, 6, 9, 10], \"巴黎市内公共交通 + 馆内步行\", \"单一故居的一日阅读，陈列中有不同住宅和年代的物件，不能混作同一天原貌。\"], [\"thirty-writing-normandy\", \"诺曼底 · 塞纳河与卡堡海岸\", [\"thirty-hugo-villequier\", \"atlas-cabourg\", \"thirty-proust-cabourg-villa\"], 4, [4, 5, 6, 9, 10], \"维勒基耶、卡堡两基地 + 区域公路\", \"塞纳河家族记忆与美好年代海滨分两地区看，约百公里转场留出交通；雨果与普鲁斯特不被写成同行。\"], [\"thirty-writing-illiers\", \"伊利耶 · 从家族房屋读贡布雷\", [\"atlas-illiers\", \"thirty-proust-leonie\"], 1, [4, 5, 6, 9, 10], \"伊利耶城内步行 + 博物馆参访\", \"城市代表点与具体房屋同地对读；从巴黎或沙特尔另有铁路转场，不把小说中的距离照搬为道路导航。\"], [\"thirty-writing-guernsey\", \"根西岛 · 流亡家屋与岛屿背景\", [\"atlas-hauteville\"], 3, [4, 5, 6, 9, 10], \"圣彼得港基地 + 独立跨海交通\", \"单一故居配三日岛屿停留，含跨海与预约余量；不是巴黎次日步行可达的延伸，航班、渡船和入境条件另行核实。\"]]});regionalConsolidatedSources.push('hugo','proust');"
+    },
+    {
+      "phase": 2,
+      "code": "const italy=mapDefinition('italian-art-journeys');italy.name='意大利艺旅：城市、音乐与山水';italy.members.push('puccini');italy.extraPlaces=[\"thirty-puccini-giglio\", \"thirty-puccini-celle\", \"thirty-puccini-viareggio\"];italy.intro+=' 托斯卡纳另以卢卡、切莱、托雷德尔拉戈与维亚雷焦组成具体音乐地方章节，住宅、剧院与湖海环境可分区探访；威尼斯、罗马与那不勒斯仍各自阅读，非全意大利一条连续路线。';italy.plans.push(...[[\"thirty-italy-lucca-music\", \"卢卡 · 出生地与城市剧院\", [\"atlas-puccini-lucca\", \"thirty-puccini-giglio\"], 2, [4, 5, 6, 9, 10], \"卢卡城内步行 + 机构参访\", \"两天读居所与舞台，演出与建筑参观分开核实；原作故事的异国背景不能当作作曲家到访证据。\"], [\"thirty-italy-puccini-coast\", \"托斯卡纳海岸 · 湖畔与晚年海滨\", [\"atlas-torre-del-lago\", \"thirty-puccini-viareggio\"], 3, [4, 5, 6, 9, 10], \"托雷德尔拉戈 / 维亚雷焦基地 + 区域公交 / 公路\", \"两处约十余公里，湖岸与海滨分日探访；维亚雷焦别墅按允许范围看外观，室内开放不作保证。\"], [\"thirty-italy-puccini-celle\", \"卢卡北部 · 切莱的家族音乐\", [\"thirty-puccini-celle\"], 1, [4, 5, 6, 9, 10], \"卢卡基地 + 山村公路往返\", \"单一家族博物馆的一日参访，山区往返需约半日交通余量，先确认预约与开放。\"]]);regionalConsolidatedSources.push('puccini');"
+    }
+  ]
 }
