@@ -479,6 +479,21 @@
     "height": 960,
     "sha256": "e4ee3af54248ce78cb935838300fd2ad24aa0dbfc8b839e346dd7c9365b58c8c"
   },
+  "thirty-le-pouldu": {
+    "path": "assets/regional-expansion/thirty-le-pouldu.webp",
+    "title": "勒普尔迪大沙滩历史明信片（法国国家图书馆收藏，非今日街景）",
+    "author": "AnonymousUnknown author",
+    "source": "https://commons.wikimedia.org/wiki/File:Btv1b101065160%20LE%20POULDU%20-%20Les%20Grands%20Sables.jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+    "placeId": "thirty-le-pouldu",
+    "article": "https://en.wikipedia.org/wiki/Le_Pouldu",
+    "providerDescription": "LE POULDU - Les Grands Sables",
+    "width": 1440,
+    "height": 923,
+    "sha256": "04d592700fd9053ac4dce6e9aa598af49a3a4558185b8dbcea802b2f40e3d6b1"
+  },
   "thirty-tahiti-museum": {
     "path": "assets/regional-expansion/thirty-tahiti-museum.webp",
     "title": "普纳奥亚 · 塔希提与群岛博物馆 · 建筑或园区照片（非所述全部作品）",
@@ -644,6 +659,21 @@
     "height": 1080,
     "sha256": "00d7bd9552eb767808d6da1787defb9e9ff23ba4cf614320d3836afa8942b9ea"
   },
+  "thirty-dvorak-vysoka": {
+    "path": "assets/regional-expansion/thirty-dvorak-vysoka.webp",
+    "title": "维索卡 · 德沃夏克纪念馆与公园 · 建筑或园区照片（非所述全部作品）",
+    "author": "Chmee2",
+    "source": "https://commons.wikimedia.org/wiki/File:Pam%C3%A1tn%C3%ADk%20Anton%C3%ADna%20Dvo%C5%99%C3%A1ka%20%284%29.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+    "placeId": "thirty-dvorak-vysoka",
+    "article": "https://en.wikipedia.org/wiki/Pam%C3%A1tn%C3%ADk_Anton%C3%ADna_Dvo%C5%99%C3%A1ka",
+    "providerDescription": "Monument of Antonín Dvořák in Vysoká u Příbrami in Příbram District, Czech Republic. Palace",
+    "width": 1440,
+    "height": 964,
+    "sha256": "343b33f2475584ebd6e6f855791b964d286107e5f16e11fab318f9ee4a660b4c"
+  },
   "thirty-siljustol": {
     "path": "assets/regional-expansion/thirty-siljustol.webp",
     "title": "卑尔根 · 塞尤斯托尔作曲家故居 · 建筑或园区照片（非所述全部作品）",
@@ -688,6 +718,21 @@
     "width": 1440,
     "height": 1080,
     "sha256": "2c621424ff4b11d7b30cfe9a077f9a92dc282621ab045ac3a4834720b5a37964"
+  },
+  "thirty-hugo-villequier": {
+    "path": "assets/regional-expansion/thirty-hugo-villequier.webp",
+    "title": "维勒基耶 · 维克多·雨果博物馆 · 建筑或园区照片（非所述全部作品）",
+    "author": "VVVCFFrance",
+    "source": "https://commons.wikimedia.org/wiki/File:Maison%20de%20Victor%20Hugo%20%C3%A0%20Villequier.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+    "placeId": "thirty-hugo-villequier",
+    "article": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Victor-Hugo_%28Villequier%29",
+    "providerDescription": "Maison de Victor Hugo à Villequier",
+    "width": 1440,
+    "height": 1037,
+    "sha256": "f3217b87affb37364f78fd208c0fe5a6daf89150cf4609258dc6b1fd39cfb8f6"
   },
   "thirty-byron-newstead": {
     "path": "assets/regional-expansion/thirty-byron-newstead.webp",
@@ -763,6 +808,21 @@
     "width": 1440,
     "height": 1061,
     "sha256": "7060263501d6be1e4fda4e8d6f3c71387de9eb4132daa79731aea0817a84320b"
+  },
+  "thirty-proust-leonie": {
+    "path": "assets/regional-expansion/thirty-proust-leonie.webp",
+    "title": "莱奥妮姨妈之家博物馆入口",
+    "author": "Benjamin Smith",
+    "source": "https://commons.wikimedia.org/wiki/File:Illiers-Combray%20-%20Mus%C3%A9e%20Marcel%20Proust.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+    "placeId": "thirty-proust-leonie",
+    "article": "https://en.wikipedia.org/wiki/Maison_de_tante_L%C3%A9onie",
+    "providerDescription": "Illiers-Combray (Eure-et-Loir, France) - Entrance of the Marcel Proust museum, located inside aunt Léonie's house (In Search of Lost Time)",
+    "width": 1440,
+    "height": 961,
+    "sha256": "cd5b1f83cea06c651824b071c101b893c459cf2f8ef1dacaf6b643269a2f8d64"
   },
   "thirty-proust-cabourg-villa": {
     "path": "assets/regional-expansion/thirty-proust-cabourg-villa.webp",
