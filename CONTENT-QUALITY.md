@@ -1,77 +1,86 @@
 # 全站点位信息质量 · 持续审查
 
-最新开发基线：main `043a6639b9ee363ab35643a861ba3c1dd2ccdd83`（第三批）。第二批的原始记录完整保留于[历史报告](CONTENT-QUALITY-BATCH-2.md)。合并与部署状态以对应PR和Actions为准。
+生产数据基线：main `27bd4fe441008c13a05d34beaf725923575812d1`；每批另记开发起点。审计实际index加载的2010个地点、130个内部主题（77个可见入口）、330条方案、2218个地点/主题语境。766个不同地点出现在方案中。合并与线上状态以对应PR和Actions为准。
 
 ## 当前覆盖与边界
 
-生产index实际加载 **2010个地点、130个内部主题、77个可见入口、330条方案、2218个地点/主题语境**。766个不同地点出现在方案中。全量枚举是审计覆盖，不等于逐项事实考证。
+- 累计68处有本系列新增且逐项来源支持的阅读，5处保留简洁有用判断，4处记录人工读到的明确缺口。77个不同语境有当前人工判断；其余**2141个语境未在本系列逐项人工验收**。
+- 当前**158个未排除自动候选**，其中118处用于可见主题行程。候选是编辑优先队列，不等于已证实错误，也不是全站剩余问题上限。零信号或已有长文的主题仍需后续人工审阅。
+- 原始目录、坐标、来源链接、方案、收藏ID、图片字节及其许可保留；新增展开合并适用的原段落和原来源对象。此系列未替换图片，也未把别的艺术家阅读算成旧路线已补足。
+- 观察建议依据所列资料，不是现场考察；历史道路关系不等于现代可通行线路，机构旧资料不作为当前开放保证。
 
-- 第二批：研究25处（三峡6、熊野6、佛教4、NC500九处），修正11个跨主题串读；保留5处有用短文，另记录12个具体缺口。
-- 第三批：研究茶路19处，18处原无展开，雅安在既有阅读上补深；热索瓦仍是明确缺口。原有8处茶路缺口判断被本次有证据的阅读取代，不重复计数。
-- 累计44处已有新增且逐项来源支持的阅读，5处保留简洁有用判断，5处记录仍需研究。**54个不同语境有当前人工判断，其余2164个语境尚未在这两批逐项人工验收。**
-- 仍有 **181个未排除的自动候选**，其中139处用于当前可见主题的行程。候选是编辑优先队列，不等于已证实错误，也不是全站剩余工作的上限。已有长文、零信号主题同样需要后续复核。
-- 两批均未替换图片、原始目录、坐标、来源、方案或收藏ID；展开合并原段落与原来源对象。没有把跨主题艺术阅读算成旧路线已补足。
+## 分批研究记录
 
-## 第三批：茶马与相关贸易网络
+| 批次 | 开发起点 | 新研究阅读 | 来源记录 | 资料与具体范围 |
+| --- | --- | ---: | ---: | --- |
+| 第2批 | `27bd4fe441008c13a05d34beaf725923575812d1` | 25 | 28 | [逐项文字和依据](data/content-quality/batch-2.json)：25 researched readings in four existing themes; original summaries, links, imagery and IDs retained. Site observations are editorial suggestions based on the named evidence, not a field visit or live access certification. |
+| 第3批 | `043a6639b9ee363ab35643a861ba3c1dd2ccdd83` | 19 | 28 | [逐项文字和依据](data/content-quality/batch-3.json)：19 tea/trade-network readings: 18 previously missing and one deepened; Rasuwagadhi remains a specific research gap. No media, original catalogue text, coordinates, routes or original source URLs replaced. |
+| 第4批 | `cee6490bef782542632a0e902e9e4c22d7454208` | 24 | 33 | [逐项文字和依据](data/content-quality/batch-4.json)：Eight Mozart city contexts and all sixteen existing Via Francigena nodes. Seven Mozart and sixteen Francigena candidate contexts newly receive specific readings; Salzburg is deepened with prior content retained. No photos or geographic records replaced. |
 
-茶路20个节点里，19处有本次研究阅读；仅热索瓦保留待研究。它们并非同一时期、同一条可连续通行的道路。本图的跨喜马拉雅分支是相关贸易网络，不能按地图连线直接跨境。
+第二批三峡/熊野/佛教/NC500：25处，22处原无展开；第三批茶马及相关网络：19处，18处原无展开；第四批莫扎特8处与Via Francigena16处：24处，23处原无展开。雅安、萨尔茨堡等原资料合并保留，不重复声称新地点。第二批[原报告](CONTENT-QUALITY-BATCH-2.md)、第三批[原报告](CONTENT-QUALITY-BATCH-3.md)作为历史快照保留。
 
-| 地点 | 本批阅读 | 主要机构证据 |
+第四批区分：不同到访与作品年份，居所/首演/后世演出；慕尼黑旧包厢迁装、萨尔茨堡旧居重建、维也纳复制钢琴；米兰旧Regio Ducale不等于斯卡拉。Via Francigena以990年返程记录作重要线索，但不归结为锡杰里克发明一条路；现存建筑常晚于他。洛桑玫瑰窗修缮是本次实际查到的访问限制，预计日期不写成开放承诺。
+
+## 第四批逐点证据
+
+| 主题与地点 | 阅读 | 主要依据 |
 | --- | --- | --- |
-| `tea-puer` | 从茶叶产区走向驿站生活 | [云南省档案馆影像工程：那柯里村](https://nync.yn.gov.cn/html/2025/yunnongkuanxun-new_1219/1423288.html) |
-| `tea-nanjian` | 把县城代表点展开到公郎 | [大理州烟草专卖局：公郎茶园与古驿站](https://yn.people.com.cn/news/yunnan/n2/2025/0426/c403002-41209402.html) |
-| `tea-dali` | 从三月街理解集市怎样连接远方 | [云南省民族宗教委：三月街的贸易与文化活动](https://mz.yn.gov.cn/html/2025/difangdongtai_0416/4058893.html) |
-| `tea-lijiang` | 把古城的水、街和市场一起读 | [UNESCO：丽江古城的街巷与水系](https://whc.unesco.org/en/list/811/) |
-| `tea-deqin` | 阿墩子：商道与朝圣路径的交叠 | [迪庆州文物管理所：茶马古道迪庆段](https://www.dqhjbwg.cn/pc/WGS/index.go) |
-| `tea-yaan` | 从背茶的印痕读到茶园 | [文化和旅游部：雅安茶源与古道分段线路](https://zhuanti.mct.gov.cn/xczgshsh2023/cxyh/detail_cha/3865.html) |
-| `tea-kangding` | 打箭炉的交易需要一座锅庄 | [康定市政府：打箭炉与两河交汇的城市背景](https://www.kangding.gov.cn/kdkdjj/article/107015) |
-| `tea-litang` | 在藏房里看商路之外的生活 | [理塘县政府：勒通古镇的藏房与微型博物馆](https://www.gzlt.gov.cn/ltfg/article/592205) |
-| `tea-batang` | 从河谷小城听见弦子 | [巴塘县政府：夏邛与茶马古道重镇背景](https://www.batang.gov.cn/btjj1/article/650176) |
-| `tea-changdu` | 在两河相会处读商路与寺院 | [中国商业史学会：茶马古道商贸、锅庄与昌都](https://sys.cufe.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1525&wbtreeid=1054) |
-| `tea-lhasa` | 从八廓的街市读货物流动 | [拉萨城关区政府：八廓街与冲赛康院落](https://www.cgq.gov.cn/cgqrmzf/jdjs/202007/c3c768bee94346abbc8e17de629ccf37.shtml?userInfo=notlogin) |
-| `tea-shigatse` | 从寺院工艺读后藏的交流 | [西藏自治区外事办：扎什伦布寺的经堂与工艺](https://wsb.xizang.gov.cn/xzjx/lyjd/201107/t20110713_100950.html) |
-| `tea-gyirong` | 在古使团题铭前读通道历史 | [西藏自治区文物部门资料：658年使团题铭与复刻碑](https://www.xizang.gov.cn/xwzx_406/bmkx/201812/t20181216_10316.html) |
-| `tea-nuwakot` | 贸易走廊上的宫殿与山城 | [尼泊尔考古局申报、UNESCO收录：努瓦科特宫殿群](https://whc.unesco.org/en/tentativelists/5260/) |
-| `tea-kathmandu` | 在院落与市场间寻找交换的尺度 | [尼泊尔旅游局：加德满都内城遗产步行观察](https://ntb.gov.np/heritage-walk) |
-| `tea-yadong` | 春丕谷的集散与山口的分工 | [西藏自治区政府：近代藏南亚通商与商人网络](https://www.xizang.gov.cn/xwzx_406/ztzl_416/cxzt/xzzzqrmzffzyjzx/zxdt/xzzzqrmzffzyjzx_398/202104/t20210423_200484.html) |
-| `tea-nathula` | 山口的风景与边界要一起理解 | [甘托克地区政府：乃堆拉与措莫湖的地景及设施](https://gangtokdistrict.nic.in/signature-attractions/) |
-| `tea-gangtok` | 在藏学研究院把文化联系看清 | [Namgyal Institute of Tibetology：馆藏、建筑与研究](https://namgyalinstitutesikkim.org/) |
-| `tea-kalimpong` | 从羊毛仓库辨认商路的转身 | [噶伦堡地区政府：经则里拉的商路与货物](https://kalimpong.gov.in/history/) |
+| mozart / `mozart-salzburg` | 两处家居，读不同成长阶段 | [莫扎特基金会：出生地的居所与原件](https://mozarteum.at/mozart-museen/mozarts-geburtshaus) |
+| mozart / `mozart-munich` | 歌剧首演与迁装的洛可可剧场 | [巴伐利亚宫殿管理局：Cuvilliés剧院原件与迁装](https://www.schloesser.bayern.de/deutsch/Schloss/objekte/mu_cuv.htm) |
+| mozart / `mozart-vienna` | 在Domgasse 5读费加罗的工作生活 | [Mozarthaus Vienna：Domgasse 5历史居所](https://www.mozarthausvienna.at/en/museum) |
+| mozart / `mozart-prague` | 在等级剧院对上两次首演 | [捷克国家剧院：等级剧院历史与莫扎特首演](https://www.narodni-divadlo.cz/en/stages/the-estates-theatre/history) |
+| mozart / `mozart-paris` | 从一处居所读到巴黎交响曲 | [巴黎行政上诉法院：Hôtel de Beauvais的历史与用途](https://paris.cour-administrative-appel.fr/qui-sommes-nous/vie-de-la-cour/retour-sur-les-journees-europeennes-du-patrimoine-2025-a-la-cour-administrative-d-appel-de-paris) |
+| mozart / `mozart-london` | Ebury Street与早期交响曲 | [English Heritage：Ebury Street居所与第一交响曲](https://production.english-heritage.org.uk/visit/blue-plaques/wolfgang-amadeus-mozart/) |
+| mozart / `mozart-milan` | 首演剧院并不是今天的斯卡拉 | [King’s College London研究：米兰的居所、剧院与教堂](https://mmc.kdl.kcl.ac.uk/entities/place/milan/) |
+| mozart / `mozart-rome` | 把书信中的罗马分成几种现场 | [King’s College London研究：1770年罗马活动与书信](https://mmc.kdl.kcl.ac.uk/entities/place/rome/index.html) |
+| francigena / `francigena-canterbury` | 先读返程记录，再看起点建筑 | [欧洲Via Francigena协会：锡杰里克990年返程记录](https://www.viefrancigene.org/en/news/via-francigena-le-president-de-laevf-m-tedeschi-recoit-le-prix-sigeric) |
+| francigena / `francigena-dover` | 海峡门户不只是一次渡船 | [English Heritage：多佛城堡与海峡门户](https://www.english-heritage.org.uk/visit/places/dover-castle/history-and-stories/history-dover/) |
+| francigena / `francigena-calais` | 在市政厅读跨海之后的另一段历史 | [Calais XXL旅游局：市政厅与钟楼](https://www.calaisxxl.com/en/offers/have-to-do/Calais-Town-Hall-and-Belfry/) |
+| francigena / `francigena-arras` | 拱廊与钟楼背后有重建史 | [阿拉斯旅游局：广场的街屋与战后重建](https://www.arraspaysdartois.com/en/the-essentials/the-squares-of-arras-la-dolce-vita/) |
+| francigena / `francigena-reims` | 一座教堂里的多时代光线 | [法国文化部：兰斯主教座堂的夏加尔与Knoebel玻璃](https://www.culture.gouv.fr/regions/drac-grand-est/actu/mh-etat/cathedrale-notre-dame-de-reims-marne/vitraux-knoebel-reims) |
+| francigena / `francigena-langres` | 从高处城墙读地形与修缮 | [朗格勒市政府：城墙范围、罗马门与修缮](https://langres.fr/langres/grands-projets/plan-remparts/) |
+| francigena / `francigena-besancon` | 在黑门前读更早的通道城市 | [贝桑松旅游局：Porte Noire罗马雕刻](https://www.besancon-tourisme.com/en/fiche-sit/F312010841_la-porte-noire-besancon-en/) |
+| francigena / `francigena-lausanne` | 从山丘教堂读到湖与阿尔卑斯 | [洛桑旅游局：主教座堂、彩绘门与玫瑰窗修缮](https://www.lausanne-tourisme.ch/en/explore/lausanne-cathedral/lausanne-cathedral/) |
+| francigena / `francigena-martigny` | 越山之前，看古城与救援犬文化 | [马蒂尼旅游局：罗马圆形剧场](https://www.martigny.com/en/activity/roman-amphitheatre-5416/) |
+| francigena / `francigena-bernard` | 山口不只有积雪警告 | [大圣伯纳救济院：1050年创设与接待传统](https://gsbernard.com/en/) |
+| francigena / `francigena-aosta` | 越山后的城门与院落 | [奥斯塔大区旅游：Porta Praetoria及地层](https://www.lovevda.it/it/banca-dati/8/monumenti-romani/aosta/porta-praetoria/730) |
+| francigena / `francigena-pavia` | 从砂岩浮雕读中世纪城市 | [帕维亚旅游：San Michele Maggiore建筑与雕刻](https://www.visitpavia.com/en/visiting-lombardy/cultural-tourism-pavia/basilica-di-san-michele-maggiore) |
+| francigena / `francigena-lucca` | 圣容木雕如何吸引远行者 | [卢卡旅游局：Volto Santo、科学断代与朝圣](https://turismo.lucca.it/luoghi/i-cammini-di-lucca/volto-santo/) |
+| francigena / `francigena-siena` | 在医院壁画里看朝圣的照护 | [Santa Maria della Scala：Pellegrinaio院厅与壁画](https://santamariadellascala.net/complesso/luoghi/pellegrinaio) |
+| francigena / `francigena-viterbo` | 在San Pellegrino读石街与外楼梯 | [维泰博市政府：San Pellegrino街区与profferli](https://comune.viterbo.it/vivere-il-comune/luoghi/san-pellegrino/) |
+| francigena / `francigena-rome` | 在抵达广场辨认后来的时代 | [圣彼得大教堂管理机构：贝尼尼广场与柱廊](https://www.basilicasanpietro.va/it/san-pietro/la-piazza) |
 
-完整新文字、段落依据与28项资料在[batch-3.json](data/content-quality/batch-3.json)。来源包括地方文物与旅游部门、国家非遗数字博物馆、UNESCO收录的国家申报、机构官网和官方作者发布文本。只作原创概述，不转载图片。对返回405/超时的原站使用其已索引的机构正文，获取方式与限制记录于来源字段；未把连接成功或URL存在视作事实核实。
+## 已明确仍需研究
 
-具体区分：南涧县城与公郎、普洱城区与宁洱那柯里、大研与束河同名四方街；阿墩子段与梅里段；旧锅庄与现今同名商店；原题铭与后设复刻碑；努瓦科特预备清单与正式世界遗产；噶伦堡经则里拉的商路与乃堆拉；旧羊毛仓库与仍在使用的学校。观察方法是编辑建议，非现场勘察；不写死票价、时刻与开放保证。
+- `tea-rasuwa`：官方海关史PDF本轮返回503；现有移民机关与灾情门户不能代替古道或堡垒遗存证据，继续待研究，不用通关提示凑篇幅。
+- `silk-tashkent`、`silk-bukhara`：需要把贸易、学术关联落到具体建筑与街区。
+- `route66-springfield`：须先区分同名城市，再核实对应设施和历史路段。
+- 徐霞客、马可波罗、法国之路、丝路、66号、中山道、维京仍有较多候选，按可见行程与明确薄弱点优先继续。安第斯Desaguadero–Titijoni与Tiwanacu已有展开但构筑物证据仍欠专门研究，不能因字数或无信号视作完成。
 
-## 明确仍需研究
+## 质量方法与复核文件
 
-- `tea-rasuwa`：本轮官方海关史PDF返回503；移民机关和灾情门户不能替代堡垒或古道遗存的直接证据，未用通关提示凑内容。需要核实具体遗构、现存状态及可解释的观察对象。
-- `silk-tashkent`、`silk-bukhara`：商贸/学术标签尚未落到具体街区、建筑与主题联系。
-- `francigena-canterbury`：需补锡杰里克行程史料和现场观察层次。
-- `route66-springfield`：需点名并核实对应城市的历史路段与设施，避免同名城市或泛称餐厅。
-- 其他优先队列含法国之路、徐霞客、马可波罗、丝路、66号公路及莫扎特。安第斯Desaguadero–Titijoni与Tiwanacu仍需专门构筑物资料；它们已有展开，因此未必出现在181个短文信号中。
+1. 依index顺序载入生产注册数据，遍历全部主题（含隐藏旧入口）；原基线[压缩快照](qa/content-quality/baseline-2026-11-18.json.gz)不可覆盖。按实际主题语境取共享城市阅读，不拿人物网络替代旧路线。
+2. 空文、无HTTPS来源、短概要且无专属展开、跨主题回退、跨地点重复段落只产生信号。自动枚举不认证事实、许可或实时开放；这些需人工阅读。
+3. 人工核对特色、年代、地理、主题关联、原址/迁建/馆藏/现代复原与可观察对象。[人工记录](qa/content-quality/manual-reviews.json)绑定文本和来源指纹，变化即失效。机构页面也可能有错误，不因官网身份自动采用所有说法。
+4. [逐语境CSV](qa/content-quality/contexts.csv)列全部语境，[最新报告](qa/content-quality/latest.json)列全部主题与方案；[旧候选原主题](qa/content-quality/legacy-candidates.json)防止跨主题虚增完成量。
+5. 独立批次经`node scripts/build-quality-readings.cjs`生成同一生产bundle；`--check`验证未漂移。原数据逐字段、原图逐字节核对，适用的原阅读逐段和逐来源对象保留；只有明确的旧错主题回退可被有证据的新主题阅读替代。
+6. 真实Chromium检查每处新研究在桌面1440×1000和手机390×844的概要、两节、全部新来源与原链接、关闭返回及溢出；并回归主题隔离、前后站、收藏、刷新与旧链接。不等于实体手机实测或全站历史事实验收。
 
-## 质量方法与可复核文件
-
-1. 由index顺序载入所有生产数据，遍历每个注册主题（含隐藏旧入口），按实际主题语境取阅读与来源。原基线[压缩快照](qa/content-quality/baseline-2026-11-18.json.gz)不可覆盖。
-2. 空文、来源缺失、短概要且无专属展开、错主题回退、跨地点重复段落只生成信号。相同城市的不同主题分别计，自动枚举不联网认证内容。
-3. 人工审查具体特色、年代、地理、主题关系、原址/迁建/馆藏/现代复原与能观察什么；[人工判断](qa/content-quality/manual-reviews.json)绑定文本和来源哈希，变化即失效。
-4. [逐语境CSV](qa/content-quality/contexts.csv)列全部2218语境；[最新报告](qa/content-quality/latest.json)列130主题和330方案；[旧候选原主题](qa/content-quality/legacy-candidates.json)防止其他人物主题虚增完成量。
-5. 资料包按批次独立保留，由`node scripts/build-quality-readings.cjs`生成同一个生产bundle；`--check`验证未漂移。测试核对全部原概要、链接、图片绑定与方案ID；浏览器检查每处新增阅读的两节内容与全部来源，在桌面与手机视口留截图。
-
-## 历史226候选的当前对照
+## 历史226个候选的当前对照
 
 | 判断 | 数量 |
 | --- | ---: |
-| 第二批补足 | 22 |
-| 第三批补足 | 18 |
-| 原文简洁有用 | 5 |
-| 仍为候选 | 181 |
+| still-automatic-candidate | 158 |
+| useful-concise | 5 |
+| researched-batch-2 | 22 |
+| researched-batch-3 | 18 |
+| researched-batch-4 | 23 |
 
-7处在其他人物主题已有展开仍不能冲销原路线缺口。第二批开始发现229个不同地点的自动信号；当前186个有信号，其中5处人工保留，故未排除181。候选减少是具体研究的结果，不靠加长字数或把所有有来源的条目标记完成。
+旧226只是历史清单，不是今日全站范围。其他人物主题已有展开不冲销原路线缺口。候选减少来自具体研究或有用短文判断，不以加字数、链接数量或测试通过替代事实核查。
 
 ## 全主题当前状态
 
-“语境”列只证明已被审计程序枚举；“人工判断”才是当前两批记录。零候选不表示资料正确或人工验收完成。
+“语境”仅证明程序已枚举；“人工判断”才是本系列读过并记录结论的范围。
 
 | 主题ID | 名称 | 入口 | 语境 | 自动候选 | 人工判断 |
 | --- | --- | --- | ---: | ---: | ---: |
@@ -86,13 +95,13 @@
 | `kumano` | 熊野古道 | 可见 | 6 | 0 | 6 |
 | `camino` | 圣地亚哥朝圣之路 | 可见 | 43 | 42 | 0 |
 | `nakasendo` | 中山道 | 可见 | 9 | 7 | 0 |
-| `francigena` | 弗兰奇杰纳之路 | 可见 | 16 | 16 | 1 |
+| `francigena` | 弗兰奇杰纳之路 | 可见 | 16 | 0 | 16 |
 | `andes` | 安第斯道路网 | 可见 | 10 | 0 | 0 |
 | `buddhist` | 佛教四大圣地 | 可见 | 4 | 0 | 4 |
 | `canal` | 中国大运河 | 可见 | 11 | 0 | 0 |
 | `viking` | 维京文化网络 | 可见 | 8 | 4 | 0 |
 | `impressionism` | 印象派的足迹 | 可见 | 15 | 0 | 0 |
-| `mozart` | 莫扎特的欧洲之旅 | 可见 | 8 | 7 | 0 |
+| `mozart` | 莫扎特的欧洲之旅 | 可见 | 8 | 0 | 8 |
 | `route66` | 美国 66 号公路 | 可见 | 15 | 14 | 1 |
 | `nc500` | 苏格兰北海岸 500 | 可见 | 11 | 0 | 9 |
 | `vangogh` | 梵高在法国 | 旧链接/搜索 | 6 | 0 | 0 |

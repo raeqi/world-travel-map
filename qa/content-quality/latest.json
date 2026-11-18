@@ -3,29 +3,30 @@
   "baseline": "27bd4fe441008c13a05d34beaf725923575812d1",
   "method": "All production data scripts in index order; every registered place/theme context. UI-only app/flow excluded. Signals are triage, not factual verdicts. Manual reviews are content-hash bound; sources not fetched automatically.",
   "summary": {
-    "visibleItineraryUnresolvedCandidatePlaces": 139,
-    "unresolvedCandidatePlaces": 181,
+    "visibleItineraryUnresolvedCandidatePlaces": 118,
+    "unresolvedCandidatePlaces": 158,
     "places": 2010,
     "internalThemes": 130,
     "visibleThemes": 77,
     "plans": 330,
     "placeThemeContexts": 2218,
     "plannedPlaces": 766,
-    "automaticCandidatePlaces": 186,
-    "automaticCandidateContexts": 186,
-    "visibleItineraryCandidatePlaces": 140,
+    "automaticCandidatePlaces": 163,
+    "automaticCandidateContexts": 163,
+    "visibleItineraryCandidatePlaces": 119,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 54,
-    "manualResearchedPlaces": 44,
+    "manualReviewedContexts": 77,
+    "manualResearchedPlaces": 68,
     "manualUsefulConcisePlaces": 5,
-    "manualNeedsResearchPlaces": 5,
+    "manualNeedsResearchPlaces": 4,
     "staleReviews": 0,
     "legacyCandidates": 226,
     "legacyComparisonCounts": {
-      "still-automatic-candidate": 181,
+      "still-automatic-candidate": 158,
       "useful-concise": 5,
       "researched-batch-2": 22,
-      "researched-batch-3": 18
+      "researched-batch-3": 18,
+      "researched-batch-4": 23
     }
   },
   "scripts": [
@@ -231,12 +232,12 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "d884a33f4fcaba31c7c30a665e0d940d3526590f4b464248e874915f4f10a4f3",
+      "sha256": "190e52292f59f4210c6e6c35b9a338d8e0e917c0da3a06ba90209cd9a9489cfb",
       "executed": true
     },
     {
       "file": "quality-readings.js",
-      "sha256": "d130ba1e7cccd16d991b01d97df556ca0c6b6ec3b8570d1fa9f8f9f58610625a",
+      "sha256": "b1a338b756d89b99bb38398a68a8d819e4da981fa498762a131dbc8cf398032e",
       "executed": true
     },
     {
@@ -339,8 +340,8 @@
       "name": "弗兰奇杰纳之路",
       "visible": true,
       "contexts": 16,
-      "automaticCandidates": 16,
-      "manuallyReviewed": 1
+      "automaticCandidates": 0,
+      "manuallyReviewed": 16
     },
     {
       "id": "andes",
@@ -387,8 +388,8 @@
       "name": "莫扎特的欧洲之旅",
       "visible": true,
       "contexts": 8,
-      "automaticCandidates": 7,
-      "manuallyReviewed": 0
+      "automaticCandidates": 0,
+      "manuallyReviewed": 8
     },
     {
       "id": "route66",
@@ -4425,13 +4426,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-dover",
@@ -4443,13 +4444,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-calais",
@@ -4461,13 +4462,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-arras",
@@ -4479,13 +4480,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-reims",
@@ -4497,13 +4498,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-langres",
@@ -4515,13 +4516,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-besancon",
@@ -4533,13 +4534,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-lausanne",
@@ -4551,13 +4552,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-martigny",
@@ -4569,13 +4570,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-bernard",
@@ -4587,13 +4588,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-aosta",
@@ -4605,13 +4606,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-pavia",
@@ -4623,13 +4624,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-lucca",
@@ -4641,13 +4642,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-siena",
@@ -4659,13 +4660,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-viterbo",
@@ -4677,13 +4678,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "francigena-rome",
@@ -4698,13 +4699,13 @@
       "contexts": [
         {
           "theme": "francigena",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "buddhist-lumbini",
@@ -4842,13 +4843,13 @@
       "contexts": [
         {
           "theme": "mozart",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "mozart-vienna",
@@ -4860,13 +4861,13 @@
       "contexts": [
         {
           "theme": "mozart",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "mozart-prague",
@@ -4880,13 +4881,13 @@
       "contexts": [
         {
           "theme": "mozart",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "mozart-paris",
@@ -4898,13 +4899,13 @@
       "contexts": [
         {
           "theme": "mozart",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "mozart-london",
@@ -4919,13 +4920,13 @@
       "contexts": [
         {
           "theme": "mozart",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "mozart-milan",
@@ -4937,13 +4938,13 @@
       "contexts": [
         {
           "theme": "mozart",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "mozart-rome",
@@ -4955,13 +4956,13 @@
       "contexts": [
         {
           "theme": "mozart",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-4",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-4"
     },
     {
       "id": "route66-chicago",
@@ -8893,114 +8894,114 @@
       "contexts": [
         {
           "id": "francigena-canterbury",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-dover",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-calais",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-arras",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-reims",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-langres",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-besancon",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-lausanne",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-martigny",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-bernard",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-aosta",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-pavia",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-lucca",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-siena",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-viterbo",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-rome",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -9019,30 +9020,30 @@
       "contexts": [
         {
           "id": "francigena-lausanne",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-martigny",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-bernard",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-aosta",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -9061,30 +9062,30 @@
       "contexts": [
         {
           "id": "francigena-lucca",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-siena",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-viterbo",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "francigena-rome",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -9633,16 +9634,16 @@
       "contexts": [
         {
           "id": "mozart-salzburg",
-          "status": "not-manually-verified",
+          "status": "researched-batch-4",
           "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "mozart-munich",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -9659,16 +9660,16 @@
       "contexts": [
         {
           "id": "mozart-vienna",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "mozart-prague",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -9685,16 +9686,16 @@
       "contexts": [
         {
           "id": "mozart-paris",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "mozart-london",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-4",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
