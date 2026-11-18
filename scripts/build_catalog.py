@@ -12,12 +12,15 @@ def classify(p):
  if p['category']=='Natural':rules=[('山地与冰川',r'mountain|alps|glacier|dolomite|山|冰川'),('海岸与岛屿',r'island|reef|marine|coast|海|岛|礁'),('森林与生态',r'forest|rainforest|habitat|森林|栖息'),('湖泊与湿地',r'lake|wetland|delta|湖|湿地|三角洲'),('火山与地热',r'volcan|yellowstone|火山|地热'),('荒漠与地质',r'desert|fossil|karst|cave|荒漠|化石|洞|岩溶')]
  else:rules=[('城镇与聚落',r'city|town|village|settlement|古城|城市|村|聚落'),('宗教与纪念',r'temple|church|mosque|monastery|mahal|寺|庙|教堂|陵'),('考古与遗址',r'archaeolog|ruin|prehistor|遗址|考古|史前'),('文化景观',r'landscape|garden|景观|园林'),('工业与工程',r'industrial|mine|canal|railway|工厂|矿|运河|铁路')]
  return next((label for label,pattern in rules if re.search(pattern,s)), '自然保护地' if p['category']=='Natural' else '建筑与文化')
+coordinate_supplements=read('unesco-coordinate-supplements.json')
 places=[]
 for p in read('unesco-compact.json'):
- coords=p['coordinates'] or {};
+ supplement=coordinate_supplements.get(str(p['id_no']))
+ coords=p['coordinates'] or supplement or {};
  if str(p['id_no'])=='439':coords={'lon':116.397,'lat':39.916}
  ids=['nature','culture'] if p['category']=='Mixed' else ['nature' if p['category']=='Natural' else 'culture'];kind=classify(p)
- places.append(dict(id='wh-'+str(p['id_no']),name=clean(p['name_zh'] or p['name_en']),en=p['name_en'],country=' / '.join(p['states_names']),region=regions.get(p['region'],p['region']),type=kind,icon='🏛️' if ids==['culture'] else '🌿',lon=coords.get('lon'),lat=coords.get('lat'),themes=ids,desc=clean(p['short_description_zh'] or p['short_description_en']),facts={'名录类别':{'Natural':'自然遗产','Cultural':'文化遗产','Mixed':'自然与文化双遗产'}[p['category']],'列入年份':str(p['date_inscribed']),'遴选标准':p['criteria_txt'],'所在区域':regions.get(p['region'],p['region'])},source='https://whc.unesco.org/en/list/'+str(p['id_no'])+'/',sourceLabel='UNESCO 官方名录',coordinateNote=('以北京故宫组成部分示意定位，沈阳组成部分不在该点；并非完整遗产边界。' if str(p['id_no'])=='439' else '名录代表坐标，并非完整遗产边界。') if coords else '官方数据暂无坐标，仅收录于列表，不参与地图与路线。'))
+ places.append(dict(id='wh-'+str(p['id_no']),name=clean(p['name_zh'] or p['name_en']),en=p['name_en'],country=' / '.join(p['states_names']),region=regions.get(p['region'],p['region']),type=kind,icon='🏛️' if ids==['culture'] else '🌿',lon=coords.get('lon'),lat=coords.get('lat'),themes=ids,desc=clean(p['short_description_zh'] or p['short_description_en']),facts={'名录类别':{'Natural':'自然遗产','Cultural':'文化遗产','Mixed':'自然与文化双遗产'}[p['category']],'列入年份':str(p['date_inscribed']),'遴选标准':p['criteria_txt'],'所在区域':regions.get(p['region'],p['region'])},source='https://whc.unesco.org/en/list/'+str(p['id_no'])+'/',sourceLabel='UNESCO 官方名录',coordinateNote=('以北京故宫组成部分示意定位，沈阳组成部分不在该点；并非完整遗产边界。' if str(p['id_no'])=='439' else ('按 UNESCO '+supplement['retrieved']+' 数据，以'+(supplement.get('component') or '首个组成部分')+'示意定位；共 '+str(supplement['componentCount'])+' 个官方坐标，不代表完整遗产边界或导航入口。' if supplement else '名录代表坐标，并非完整遗产边界。')) if coords else '官方数据暂无坐标，仅收录于列表，不参与地图与路线。'))
+ if supplement and not p['coordinates']:places[-1]['coordinateSupplement']=True
 raw={p['parkCode']:p for p in read('nps.json')['data']}
 s=(ROOT/'data/nps-system.html').read_text();s=s[s.index('National Parks ('):];s=s[:s.index('</div>')]
 rows=re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>',s,re.S)

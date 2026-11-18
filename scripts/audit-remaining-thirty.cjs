@@ -1,11 +1,11 @@
 'use strict';
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),crypto=require('node:crypto');
-const {runtime,snapshot,assertReadingPreserved}=require('./theme-audit-runtime.cjs'),pack=require('../data/theme-review/remaining-thirty.json');
+const {runtime,snapshot,assertReadingPreserved,assertPlaceDataPreserved}=require('./theme-audit-runtime.cjs'),pack=require('../data/theme-review/remaining-thirty.json');
 const before=snapshot(runtime(pack.baseline)),c=runtime(),after=snapshot(c),sha=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const details=JSON.parse(vm.runInContext(`JSON.stringify({points:places,visible:visibleCatalogueThemes().map(t=>t.id),coverage:themes.filter(t=>t.catalogHidden).map(t=>({id:t.id,rows:culturalSourceCoverage(t.id).map(r=>({id:r.place.id,maps:r.maps}))})),media:regionalExpansionMedia})`,c));
 const originals=before.filter(t=>!t.hidden&&t.plans.length===1);assert.equal(originals.length,30);assert.equal(pack.assessments.length,30);assert.deepEqual(new Set(pack.assessments.map(a=>a.id)),new Set(originals.map(t=>t.id)));
 for(const old of before){const now=after.find(t=>t.id===old.id);assert.ok(now,old.id);
- for(const p of old.points){const n=now.points.find(x=>x.id===p.id);assert.ok(n,p.id);const {essay:oe,essayApplies:oa,reviewedReading:or,...op}=p,{essay:ne,essayApplies:na,reviewedReading:nr,...np}=n;assert.deepEqual(np,op,old.id+'/'+p.id+' original place/media/context changed');assertReadingPreserved(p,n,old.id);}
+ for(const p of old.points){const n=now.points.find(x=>x.id===p.id);assert.ok(n,p.id);const {essay:oe,essayApplies:oa,reviewedReading:or,...op}=p,{essay:ne,essayApplies:na,reviewedReading:nr,...np}=n;assertPlaceDataPreserved(np,op,old.id+'/'+p.id+' original place/media/context changed');assertReadingPreserved(p,n,old.id);}
  for(const p of old.plans)assert.deepEqual(now.plans.find(x=>x.id===p.id),p,p.id+' original itinerary changed');
  for(const w of old.works)assert.deepEqual(now.works.find(x=>x.key===w.key),w,w.key+' original work changed');
 }
