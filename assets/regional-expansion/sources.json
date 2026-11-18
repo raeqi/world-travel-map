@@ -419,6 +419,21 @@
     "height": 1080,
     "sha256": "463fb4e181f1593a72f0e5be955132c6dfdeacc9a3a3ca5bc33ca3f31d0f0023"
   },
+  "thirty-brancusi-hobita": {
+    "path": "assets/regional-expansion/thirty-brancusi-hobita.webp",
+    "title": "霍比察 · 布朗库西纪念屋 · 建筑或园区照片（非所述全部作品）",
+    "author": "Miehs",
+    "source": "https://commons.wikimedia.org/wiki/File:Casa-muzeu_Constantin_Brancusi-exterior.jpg",
+    "license": "CC BY-SA 3.0 ro",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en",
+    "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+    "placeId": "thirty-brancusi-hobita",
+    "article": "https://en.wikipedia.org/wiki/Casa_memorial%C4%83_Constantin_Br%C3%A2ncu%C8%99i",
+    "providerDescription": "Casa-muzeu Constantin Brâncuşi - vedere exterior",
+    "width": 1346,
+    "height": 1200,
+    "sha256": "c8cf3680f0aa318e5b513fe6f169e917c27ed112242433b2d32bd4fd4cdb5320"
+  },
   "thirty-craiova-art": {
     "path": "assets/regional-expansion/thirty-craiova-art.webp",
     "title": "克拉约瓦 · 美术馆与布朗库西收藏 · 建筑或园区照片（非所述全部作品）",
@@ -449,20 +464,20 @@
     "height": 960,
     "sha256": "e4ee3af54248ce78cb935838300fd2ad24aa0dbfc8b839e346dd7c9365b58c8c"
   },
-  "thirty-chagall-house": {
-    "path": "assets/regional-expansion/thirty-chagall-house.webp",
-    "title": "维捷布斯克 · 夏加尔故居博物馆 · 建筑或园区照片（非所述全部作品）",
-    "author": "user:Valerishisn",
-    "source": "https://commons.wikimedia.org/wiki/File:ArtChagall.JPG",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "thirty-tahiti-museum": {
+    "path": "assets/regional-expansion/thirty-tahiti-museum.webp",
+    "title": "普纳奥亚 · 塔希提与群岛博物馆 · 建筑或园区照片（非所述全部作品）",
+    "author": "Saga70",
+    "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_Tahiti_vue_ext%C3%A9rieure.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
-    "placeId": "thirty-chagall-house",
-    "article": "https://en.wikipedia.org/wiki/Marc_Chagall_Museum",
-    "providerDescription": "Арт-цэнтр Марка Шагала, Віцебск",
-    "width": 709,
-    "height": 531,
-    "sha256": "6f6067dd73a34226df66250762002ebe12c19ba190445f47eee513089bf897df"
+    "placeId": "thirty-tahiti-museum",
+    "article": "https://en.wikipedia.org/wiki/Mus%C3%A9e_de_Tahiti_et_des_%C3%8Eles",
+    "providerDescription": "Musée de Tahiti vue extérieure",
+    "width": 1280,
+    "height": 961,
+    "sha256": "1eb10f2cccdc1086aa62e03278041db51023a5bdb70469a2c199e0ef8c208ec4"
   },
   "thirty-vence-cathedral": {
     "path": "assets/regional-expansion/thirty-vence-cathedral.webp",
@@ -584,6 +599,21 @@
     "height": 1073,
     "sha256": "28ea43e1932b0731b3831e5a1e2e9f44c66bc30bf84f24e65d515221b1db2f0a"
   },
+  "thirty-dvorak-birthplace": {
+    "path": "assets/regional-expansion/thirty-dvorak-birthplace.webp",
+    "title": "内拉霍泽韦斯 · 德沃夏克出生地 · 建筑或园区照片（非所述全部作品）",
+    "author": "cs:ŠJů",
+    "source": "https://commons.wikimedia.org/wiki/File:Nelahozeves%2C_rodn%C3%BD_d%C5%AFm_Anton%C3%ADna_Dvo%C5%99%C3%A1ka_%2801%29.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+    "placeId": "thirty-dvorak-birthplace",
+    "article": "https://en.wikipedia.org/wiki/Rodn%C3%BD_d%C5%AFm_Anton%C3%ADna_Dvo%C5%99%C3%A1ka",
+    "providerDescription": "Nelahozeves, Mělník District, Central Bohemian Region, the Czech Republic. The birth house and museum of Antonín Dvořák.",
+    "width": 1440,
+    "height": 1080,
+    "sha256": "00d7bd9552eb767808d6da1787defb9e9ff23ba4cf614320d3836afa8942b9ea"
+  },
   "thirty-siljustol": {
     "path": "assets/regional-expansion/thirty-siljustol.webp",
     "title": "卑尔根 · 塞尤斯托尔作曲家故居 · 建筑或园区照片（非所述全部作品）",
@@ -598,6 +628,21 @@
     "width": 1440,
     "height": 1080,
     "sha256": "2d7622646f50185c5a5245f547f088f6e64671b987f6d4146f815690e30af825"
+  },
+  "thirty-mendelssohn-remise": {
+    "path": "assets/regional-expansion/thirty-mendelssohn-remise.webp",
+    "title": "柏林 · 门德尔松家族Remise展馆 · 建筑或园区照片（非所述全部作品）",
+    "author": "Membeth",
+    "source": "https://commons.wikimedia.org/wiki/File:Mendelssohn-Remise.Hof.1.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+    "placeId": "thirty-mendelssohn-remise",
+    "article": "https://en.wikipedia.org/wiki/Mendelssohn-Remise",
+    "providerDescription": "Eingang zur Mendelssohn-Remise vom Innenhof in der Jägerstraße 51",
+    "width": 900,
+    "height": 1200,
+    "sha256": "3e264463736317a0cb1420fbeb8f74c6d92718734a5389c14c5b283bf4f34bfd"
   },
   "thirty-puccini-giglio": {
     "path": "assets/regional-expansion/thirty-puccini-giglio.webp",
@@ -688,5 +733,20 @@
     "width": 1440,
     "height": 1061,
     "sha256": "7060263501d6be1e4fda4e8d6f3c71387de9eb4132daa79731aea0817a84320b"
+  },
+  "thirty-proust-cabourg-villa": {
+    "path": "assets/regional-expansion/thirty-proust-cabourg-villa.webp",
+    "title": "卡堡 · 追忆似水年华别墅博物馆 · 建筑或园区照片（非所述全部作品）",
+    "author": "Pradigue",
+    "source": "https://commons.wikimedia.org/wiki/File:Villa_du_temps_retrouv%C3%A9_Cabourg_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+    "placeId": "thirty-proust-cabourg-villa",
+    "article": "https://en.wikipedia.org/wiki/Villa_du_Temps_retrouv%C3%A9",
+    "providerDescription": "temps retrouvé",
+    "width": 1440,
+    "height": 1080,
+    "sha256": "8fd0aadd5bc810e11a0b09707cff45b920469484653d8fa1834e21362c7e05f5"
   }
 }
