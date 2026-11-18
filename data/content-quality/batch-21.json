@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-21",
+  "baseline": "ced1d447d70f414b616d6a7397904337b038cd34",
+  "checked": "2026-11-18",
+  "scope": "Thirteen existing nature-theme contexts from the visible recommended-itinerary/no-expanded-reading queue: China7, Australia4 and India2. Read selected UNESCO statements of Outstanding Universal Value plus Reef Authority/NSW Parks primary interpretation. Original catalogue, source links, media licences, repaired coordinates and itineraries retained. No new imagery, field visit or whole-site factual certification.",
+  "sources": {
+    "cq21-yellowsea": {
+      "title": "UNESCO：黄渤海潮间带、泥沙与迁徙补给",
+      "url": "https://whc.unesco.org/en/list/1606/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read current English description/OUV feeding and sediment/habitat connections. Page language versions and extension/component counts conflict; omit counts, area and live bird totals rather than certify them. Serial coastal property not one walkable site."
+    },
+    "cq21-shennongjia": {
+      "title": "UNESCO：神农架垂直植被与植物研究",
+      "url": "https://whc.unesco.org/en/list/1509/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read climate transition, six vegetation gradients, two components and botanical history. Internal area figures conflict; omit area, current species totals and wildlife sighting promises."
+    },
+    "cq21-chengjiang": {
+      "title": "UNESCO：澄江软体化石与海洋生态系统",
+      "url": "https://whc.unesco.org/en/list/1388/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read Naraoia gut, Yunnanozoon gills and ecological niches. Source older numerical Cambrian age and taxonomic firsts not treated as latest consensus; use early Cambrian without precise age/count. No fossil collecting or guaranteed displayed specimen."
+    },
+    "cq21-danxia": {
+      "title": "UNESCO：中国丹霞红层、侵蚀与六个组成地",
+      "url": "https://whc.unesco.org/en/list/1335/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read English OUV six components, reddish sandstone/conglomerate, uplift and erosion. Intro's southwest summary differs from wider actual distribution; use named components without saying all southwest or all Chinese red cliffs inscribed. No single continuous circuit."
+    },
+    "cq21-sanqing": {
+      "title": "UNESCO：三清山花岗岩峰柱与森林景观",
+      "url": "https://whc.unesco.org/en/list/1292/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read granite/forest/weather juxtaposition and suspended viewing paths. Not volcanic cones or a promise of halo/cloud conditions; no unverified formation mechanism beyond material and landscape relationships."
+    },
+    "cq21-emei": {
+      "title": "UNESCO：峨眉山—乐山的山地植被与建筑位置",
+      "url": "https://whc.unesco.org/en/list/779/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read OUV hillside temples, Wannian bronze Puxian, Leshan rock carving and river confluence, two discrete areas and vegetation. Omit disputed first-temple narrative, contradictory areas, multilingual height typo and world-largest superlative."
+    },
+    "cq21-wuling": {
+      "title": "UNESCO：武陵源石英砂岩、峡谷与洞穴",
+      "url": "https://whc.unesco.org/en/list/640/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read OUV quartz sandstone pillars, streams, bridges, calcite cave deposits and broadleaf cover. Distinguish sandstone peaks from karst features; avoid static counts, glass-bridge confusion or guaranteeing cave access."
+    },
+    "cq21-wettropics": {
+      "title": "UNESCO：昆士兰湿热带的植被梯度与古老谱系",
+      "url": "https://whc.unesco.org/en/list/486/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read Gondwanan lineages, seasonal rainfall, Daintree coast, mangroves and drier western open forest. Ancient lineages not same unchanged trees/forest; no guarantee of cassowary sightings or weather."
+    },
+    "cq21-gondwana": {
+      "title": "UNESCO：冈瓦纳雨林与盾状火山侵蚀",
+      "url": "https://whc.unesco.org/en/list/368/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read serial reserve distribution, Tweed/Wollumbin and erosion caldera, ferns/conifers/flowering-plant lineages. Not one rainforest reserve or eruption crater identical to erosion caldera; no Wollumbin climbing advice or current-access assumption."
+    },
+    "cq21-willandra": {
+      "title": "UNESCO：威兰德拉古湖、地层与人类生活证据",
+      "url": "https://whc.unesco.org/en/list/167/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read relict dry lake system, sediment/climate, hearths, tools, middens and grindstones. Page dating ranges vary; omit exact oldest/age/extinction-causation claims. Archaeological evidence does not imply bones or sacred sites on open display."
+    },
+    "cq21-mungo": {
+      "title": "NSW国家公园：Mungo沙丘与原住民向导",
+      "url": "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/mungo-lunette-guided-tour",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read living Traditional Owner connection, lunettes/lakebeds and guided-only lunette access as checked18Nov2026. No image reuse, fees, fixed tour schedule or guaranteed availability; recheck current access before travel."
+    },
+    "cq21-reef": {
+      "title": "UNESCO：大堡礁跨陆架生境与岛礁",
+      "url": "https://whc.unesco.org/en/list/154/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read cross-shelf depths, reefs, cays, continental islands and connected habitat. Not a single continuous reef wall; no fixed live coral counts, current health rating or trip conditions."
+    },
+    "cq21-reef-life": {
+      "title": "大堡礁管理局：珊瑚虫、共生藻与白化",
+      "url": "https://www.gbrmpa.gov.au/learn/reef-health/coral-bleaching",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read coral animal/skeleton/algal symbiosis, stress, variability and possible recovery/death. No current reef-condition assurance, simplistic bleached=alreadydead, recovery timetable or static park statistics."
+    },
+    "cq21-kaziranga": {
+      "title": "UNESCO：卡齐兰加洪泛地、草地与犀牛保护",
+      "url": "https://whc.unesco.org/en/list/337/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read Brahmaputra erosion/deposition, broad pools, grassland/woodland succession and rhino recovery. Omit dated population totals, untouched-human-free wording and guaranteed sightings/access."
+    },
+    "cq21-manas": {
+      "title": "UNESCO：马纳斯山麓河流与生境镶嵌",
+      "url": "https://whc.unesco.org/en/list/338/",
+      "checked": "2026-11-18",
+      "method": "Read selected primary passages; original concise paraphrase, no image reuse or field visit. Read Manas-Beki alluvium, sloping seasonal floodplain, bhabar/terai vegetation and cross-border setting. Distinguish heritage core from wider tiger reserve; omit old animal totals and pure-buffalo-genetics claim."
+    }
+  },
+  "readings": [
+    {
+      "id": "wh-1292",
+      "theme": "nature",
+      "title": "三清山：花岗岩峰柱与森林之间",
+      "summary": "三清山的鲜明景观来自密集花岗岩峰柱与森林交错。细长岩形、远近山峰、树冠和变化云雾共同影响观看；山中步道提供不同高度的视角，岩柱外形的联想之外还有材料和空间层次值得看。",
+      "catalogueDescription": "三清山的鲜明景观来自密集花岗岩峰柱与森林交错。细长岩形、远近山峰、树冠和变化云雾共同影响观看；山中步道提供不同高度的视角，岩柱外形的联想之外还有材料和空间层次值得看。",
+      "paragraphs": [
+        {
+          "heading": "从侧影回到岩体与树木",
+          "text": "先比较相邻峰柱的粗细、轮廓和间距，再看树木如何分布在岩体之间。人或动物形象的命名便于辨识，但这些是花岗岩景观，不能把想象形象当作岩石来源的解释。",
+          "sourceKeys": [
+            "cq21-sanqing"
+          ]
+        },
+        {
+          "heading": "沿视角变化读前后层次",
+          "text": "悬空步道等观看位置让近处岩柱与远山交替显现，森林和天气会改变同一景物的层次。云海、光环等需要相应气象条件，适合当作可能的变化理解，不作为一次出行的固定承诺。",
+          "sourceKeys": [
+            "cq21-sanqing"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq21-sanqing"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1335",
+      "theme": "nature",
+      "title": "中国丹霞：红色岩层的不同侵蚀阶段",
+      "summary": "中国丹霞由赤水、泰宁、崀山、丹霞山、龙虎山和江郎山六个组成地串联，红色砂岩、砾岩在抬升、风化和流水侵蚀下留下崖壁、岩塔与峡谷。六地提供不同侵蚀程度的对照，并非所有红色山体都属该遗产。",
+      "catalogueDescription": "中国丹霞由赤水、泰宁、崀山、丹霞山、龙虎山和江郎山六个组成地串联，红色砂岩、砾岩在抬升、风化和流水侵蚀下留下崖壁、岩塔与峡谷。六地提供不同侵蚀程度的对照，并非所有红色山体都属该遗产。",
+      "paragraphs": [
+        {
+          "heading": "先看岩层材料，再看轮廓",
+          "text": "层理与砾石帮助认识陆相沉积岩，陡崖、岩柱、台地和沟谷呈现后来侵蚀的不同结果。将材料与地形分开观察，能避免把红色沉积岩景观直接当作火山或石灰岩溶蚀。",
+          "sourceKeys": [
+            "cq21-danxia"
+          ]
+        },
+        {
+          "heading": "六地可以对读，不是一段连走山路",
+          "text": "不同组成地显示相对较少到较强侵蚀的形态，森林、河流和瀑布又构成局部环境。参访可选择一地细看，再与另一地比较；系列范围跨省，地图串联只表达比较关系。",
+          "sourceKeys": [
+            "cq21-danxia"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq21-danxia"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1388",
+      "theme": "nature",
+      "title": "澄江化石地：从软组织读早期海洋生活",
+      "summary": "澄江保存早寒武世海洋群落，特别之处不只是动物外壳，还有通常难以留下的软组织。细微解剖与多种生态角色一起，帮助认识早期复杂海洋生态系统；今天的丘陵地貌与当时海洋环境也需分开想象。",
+      "catalogueDescription": "澄江保存早寒武世海洋群落，特别之处不只是动物外壳，还有通常难以留下的软组织。细微解剖与多种生态角色一起，帮助认识早期复杂海洋生态系统；今天的丘陵地貌与当时海洋环境也需分开想象。",
+      "paragraphs": [
+        {
+          "heading": "标本上值得找哪些细节",
+          "text": "Naraoia的消化系统、云南虫的细鳃等保存实例，说明研究者能从压印中辨认内部结构。参观解释或标本时，可比较硬壳轮廓与软组织痕迹，理解为何一块细小化石能提供大量信息。",
+          "sourceKeys": [
+            "cq21-chengjiang"
+          ]
+        },
+        {
+          "heading": "从单个生物看回群落",
+          "text": "藻类、海绵、不同动物与捕食者共同组成海洋食物网，化石并非孤立奇形清单。将生物形态与其可能占据的生态位置对读；遗址和博物馆展示有不同职责，不把研究露头视为可自行挖采区。",
+          "sourceKeys": [
+            "cq21-chengjiang"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq21-chengjiang"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1509",
+      "theme": "nature",
+      "title": "神农架：沿海拔读森林的更替",
+      "summary": "神农架位于亚热带与暖温带相遇的山地过渡区。神农顶/巴东和老君山两部分保存多样森林，从常绿阔叶林到针叶林、灌丛与草甸，海拔变化让植物组合在不同高度展开。",
+      "catalogueDescription": "神农架位于亚热带与暖温带相遇的山地过渡区。神农顶/巴东和老君山两部分保存多样森林，从常绿阔叶林到针叶林、灌丛与草甸，海拔变化让植物组合在不同高度展开。",
+      "paragraphs": [
+        {
+          "heading": "看叶型与林相怎样改变",
+          "text": "常绿、落叶、针阔混交和高处针叶林对应不同高度环境。参访时可对照沿途解说比较树叶、树冠和林下植物，将山地看成一组相连的生境，而非一片没有内部差别的绿。",
+          "sourceKeys": [
+            "cq21-shennongjia"
+          ]
+        },
+        {
+          "heading": "植物研究给山林增加另一种读法",
+          "text": "这里曾是19、20世纪植物采集与分类研究的重要区域，多种植物的模式来源与此关联。植物学史可以和今天的森林并读；川金丝猴等珍稀动物说明栖息地价值，但研究记录不是游客必遇清单。",
+          "sourceKeys": [
+            "cq21-shennongjia"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq21-shennongjia"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-154",
+      "theme": "nature",
+      "title": "大堡礁：一片相连的岛礁与生命系统",
+      "summary": "大堡礁包含近岸、陆架中部和外缘的多样礁体、沙洲与大陆岛，水深和位置影响生境。珊瑚虫与共生藻支持造礁，热应激又会改变颜色和健康；一次看到的局部礁况不能代表整个海域。",
+      "catalogueDescription": "大堡礁包含近岸、陆架中部和外缘的多样礁体、沙洲与大陆岛，水深和位置影响生境。珊瑚虫与共生藻支持造礁，热应激又会改变颜色和健康；一次看到的局部礁况不能代表整个海域。",
+      "paragraphs": [
+        {
+          "heading": "先分清礁、沙洲与大陆岛",
+          "text": "岛礁大小、形态和水深差别，使海面与水下环境呈现不同组合。观察时可比较近岸浅水、礁缘与岛屿的空间关系，将大堡礁理解为互相连接的生境，而非一堵连续不变的珊瑚墙。",
+          "sourceKeys": [
+            "cq21-reef"
+          ]
+        },
+        {
+          "heading": "颜色关系到生命，也关系到压力",
+          "text": "硬珊瑚是小动物群体，形成石灰质骨骼，共生藻提供重要能量与部分颜色。压力使藻减少时可发生白化；白化未必已经死亡，也不能保证会恢复，具体地点状况需查当期监测。",
+          "sourceKeys": [
+            "cq21-reef-life"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq21-reef",
+        "cq21-reef-life"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1606",
+      "theme": "nature",
+      "title": "黄渤海候鸟栖息地：迁徙途中的补给站",
+      "summary": "黄渤海沿岸潮间带把河流带来的泥沙、浅水与泥滩生物连成食物丰富的停歇地。候鸟在长途飞行间补充能量，这处系列遗产因此需要连同邻近芦苇地、滩涂和更广的迁徙通道一起理解。",
+      "catalogueDescription": "黄渤海沿岸潮间带把河流带来的泥沙、浅水与泥滩生物连成食物丰富的停歇地。候鸟在长途飞行间补充能量，这处系列遗产因此需要连同邻近芦苇地、滩涂和更广的迁徙通道一起理解。",
+      "paragraphs": [
+        {
+          "heading": "先看潮滩提供什么",
+          "text": "退露的泥滩、浅水与河口沉积支持底栖动物、鱼和甲壳类，也为鸟类提供食物。观察时可把鸟群活动位置与水陆交界联系起来，而非只数一张照片中有多少鸟。",
+          "sourceKeys": [
+            "cq21-yellowsea"
+          ]
+        },
+        {
+          "heading": "系列地点共同维持一条迁徙路",
+          "text": "盐城南北部等组成地为勺嘴鹬、小青脚鹬等提供重要生境，其他地点还承担繁殖、越冬或中转。不同季节与潮位所见会变化，地图代表点不覆盖整条海岸，也不保证每次见到特定鸟。",
+          "sourceKeys": [
+            "cq21-yellowsea"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq21-yellowsea"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-167",
+      "theme": "nature",
+      "title": "威兰德拉：干湖床、地层与持续的人地关系",
+      "summary": "威兰德拉保留古湖系统及沙丘、沉积层，记录过去水位与气候变化。炉址、石器、贝冢和磨石又显示人们怎样利用当地资源；干燥地景中的考古遗存，应连同今天原住民与Country的关系一起理解。",
+      "catalogueDescription": "威兰德拉保留古湖系统及沙丘、沉积层，记录过去水位与气候变化。炉址、石器、贝冢和磨石又显示人们怎样利用当地资源；干燥地景中的考古遗存，应连同今天原住民与Country的关系一起理解。",
+      "paragraphs": [
+        {
+          "heading": "把干湖看回曾经的生活环境",
+          "text": "湖泊沉积和土壤保留水陆环境的变化，生活遗物提供捕鱼、取食与加工资源的线索。地层顺序让景观变化与人类活动可以对读，不能仅以今天的干旱外观想象过去没有水和生活。",
+          "sourceKeys": [
+            "cq21-willandra"
+          ]
+        },
+        {
+          "heading": "Mungo的沙丘由向导带入阅读",
+          "text": "Mungo lunette也称Walls of China，是理解古湖床与原住民文化的具体入口。NSW公园资料要求该沙丘区域由向导带入；跟随原住民解说认识持续关联，行前重查预约，不将墓葬或人骨当作可自由参观展示。",
+          "sourceKeys": [
+            "cq21-willandra",
+            "cq21-mungo"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq21-willandra",
+        "cq21-mungo"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-337",
+      "theme": "nature",
+      "title": "卡齐兰加：洪水更新的草地与浅湖",
+      "summary": "卡齐兰加位于布拉马普特拉河洪泛地，河岸侵蚀、泥沙沉积与水道变动塑造高草、浅水池和林地。独角犀牛保护使这里闻名，但理解动物生境还需要看水如何不断更新这片平原。",
+      "catalogueDescription": "卡齐兰加位于布拉马普特拉河洪泛地，河岸侵蚀、泥沙沉积与水道变动塑造高草、浅水池和林地。独角犀牛保护使这里闻名，但理解动物生境还需要看水如何不断更新这片平原。",
+      "paragraphs": [
+        {
+          "heading": "将草丛、芦苇边浅湖与林地连起来",
+          "text": "季节洪水与燃烧等作用参与维持草地，河流还会留下新水面与新陆地。比较草地和林地交界，可以认识适合不同动物的食物与隐蔽空间，而不只是等待一只犀牛出现在镜头里。",
+          "sourceKeys": [
+            "cq21-kaziranga"
+          ]
+        },
+        {
+          "heading": "保护成就与变化环境一起读",
+          "text": "公园在独角犀牛种群恢复中有重要作用，也为多种受威胁动物和迁徙鸟提供环境。历史保护记录不等于当前数量或保证看到动物；洪水还会影响实际参访，需按当期开放安排。",
+          "sourceKeys": [
+            "cq21-kaziranga"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq21-kaziranga"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-338",
+      "theme": "nature",
+      "title": "马纳斯：山麓河流与森林草地的镶嵌",
+      "summary": "马纳斯位于喜马拉雅山麓，Manas-Beki水系从山地搬来碎屑，在坡地上形成冲积地、湿地与林草交错环境。遗产地是更大保护网络的核心，向北又与不丹森林相接，自然过程跨越地图边界。",
+      "catalogueDescription": "马纳斯位于喜马拉雅山麓，Manas-Beki水系从山地搬来碎屑，在坡地上形成冲积地、湿地与林草交错环境。遗产地是更大保护网络的核心，向北又与不丹森林相接，自然过程跨越地图边界。",
+      "paragraphs": [
+        {
+          "heading": "从上游碎屑看到下游细沉积",
+          "text": "较北部粗碎屑冲积地与南侧较细、地下水更近地面的区域不同，季风洪水继续更新生境。比较林丘、河道、草地和湿处，可以认识河流如何使环境保持变化。",
+          "sourceKeys": [
+            "cq21-manas"
+          ]
+        },
+        {
+          "heading": "动物价值依赖多种环境相接",
+          "text": "半常绿林、落叶林与冲积草地支持小矮猪、孟加拉鸨和其他受威胁物种。遗产核心、较大虎保护区与跨境森林的范围并不相同；理解连接关系，比用一个公园点位替代整个保护网络更准确。",
+          "sourceKeys": [
+            "cq21-manas"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq21-manas"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-368",
+      "theme": "nature",
+      "title": "冈瓦纳雨林：古老生命与被侵蚀的火山地形",
+      "summary": "冈瓦纳雨林是一组位于昆士兰东南和新南威尔士东北的保护地。古老植物谱系与东部高地、盾状火山遗迹共同保存演化线索；今天的峡谷和山体轮廓，也反映长期侵蚀对火山地形的改造。",
+      "catalogueDescription": "冈瓦纳雨林是一组位于昆士兰东南和新南威尔士东北的保护地。古老植物谱系与东部高地、盾状火山遗迹共同保存演化线索；今天的峡谷和山体轮廓，也反映长期侵蚀对火山地形的改造。",
+      "paragraphs": [
+        {
+          "heading": "在Tweed地区把山体与外缘连起来",
+          "text": "Wollumbin/Mount Warning位于Tweed侵蚀破火山口的中心山体区域，周围地形记录盾状火山被剥蚀的过程。可借正规远景与解说认识整体，不把这种侵蚀地形简单当成一次喷发留下的圆洞。",
+          "sourceKeys": [
+            "cq21-gondwana"
+          ]
+        },
+        {
+          "heading": "从林下到树冠找不同谱系",
+          "text": "蕨类、古老针叶树支系与开花植物共同帮助研究南大陆分离后的演化。这里由多个保护区组成，不是一座处处可通的公园；选择开放区域细读植被，不从地学例子推定山顶可登。",
+          "sourceKeys": [
+            "cq21-gondwana"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq21-gondwana"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-486",
+      "theme": "nature",
+      "title": "昆士兰湿热带：从海岸雨林读到较干的林缘",
+      "summary": "昆士兰湿热带保存了与古冈瓦纳森林相连的植物谱系，也有今天季节降雨、山地梯度和气旋影响下的生态过程。雨林、红树林和较干西缘的开阔硬叶林，显示这片区域内部鲜明的环境变化。",
+      "catalogueDescription": "昆士兰湿热带保存了与古冈瓦纳森林相连的植物谱系，也有今天季节降雨、山地梯度和气旋影响下的生态过程。雨林、红树林和较干西缘的开阔硬叶林，显示这片区域内部鲜明的环境变化。",
+      "paragraphs": [
+        {
+          "heading": "在Daintree一带比较林与海",
+          "text": "海岸可将雨林、沙滩和近海礁环境放进同一视野，红树林又连接潮汐水域。将海边与高地、较干林缘对读，比把整片湿热带都想成全年同样湿润的封闭森林更有内容。",
+          "sourceKeys": [
+            "cq21-wettropics"
+          ]
+        },
+        {
+          "heading": "古老的是谱系，不是每一棵树",
+          "text": "蕨类、苏铁、南方针叶树和开花植物保留不同演化线索，现代物种仍在变化。古老谱系的存续与当今森林更新应分开理解；食火鸡等动物体现保护价值，不作为游客必遇或随意接近的对象。",
+          "sourceKeys": [
+            "cq21-wettropics"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq21-wettropics"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-640",
+      "theme": "nature",
+      "title": "武陵源：砂岩峰林、林谷与洞穴的区别",
+      "summary": "武陵源以高而细的石英砂岩峰柱著称，峰间还有溪流、峡谷、天然石桥与森林。部分洞穴中的方解石沉积又呈现不同地质作用，不能因洞穴存在便把整片砂岩峰林都称作石灰岩喀斯特。",
+      "catalogueDescription": "武陵源以高而细的石英砂岩峰柱著称，峰间还有溪流、峡谷、天然石桥与森林。部分洞穴中的方解石沉积又呈现不同地质作用，不能因洞穴存在便把整片砂岩峰林都称作石灰岩喀斯特。",
+      "paragraphs": [
+        {
+          "heading": "高处峰柱与谷底水系对照看",
+          "text": "先看峰柱间距、陡壁与森林覆盖，再沿开放谷地观察溪流、池潭和瀑布。高低视角能把独立岩柱放回完整的山谷环境，云雾只会改变能见与层次，并非峰林唯一的观看条件。",
+          "sourceKeys": [
+            "cq21-wuling"
+          ]
+        },
+        {
+          "heading": "天然桥与洞内沉积各有材料线索",
+          "text": "天然石桥是景观的一部分，洞内方解石则让人看到矿物沉积；它们与旅游人工玻璃桥也应分开辨认。具体洞区是否开放另查当期信息，阅读关系不等于保证所有地貌能一次步行到达。",
+          "sourceKeys": [
+            "cq21-wuling"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq21-wuling"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-779",
+      "theme": "nature",
+      "title": "峨眉—乐山：山地森林与依地势营造的佛教景观",
+      "summary": "峨眉山与乐山大佛是两个分开的遗产区域：一边是随海拔变化的森林与依山寺院，一边是面向三江汇流的崖壁造像。自然环境与建筑、雕刻的选址相互关联，适合同时读山形、植被和人工营造。",
+      "catalogueDescription": "峨眉山与乐山大佛是两个分开的遗产区域：一边是随海拔变化的森林与依山寺院，一边是面向三江汇流的崖壁造像。自然环境与建筑、雕刻的选址相互关联，适合同时读山形、植被和人工营造。",
+      "paragraphs": [
+        {
+          "heading": "沿山看寺院如何落在地形里",
+          "text": "寺院利用坡地安排建筑，万年寺的普贤铜像又提供具体艺术入口。沿高度变化，可比较阔叶林、混交林和较高处针叶林；宗教建筑与林地共同构成山中观看，而非互相替代。",
+          "sourceKeys": [
+            "cq21-emei"
+          ]
+        },
+        {
+          "heading": "在乐山把石刻与水面一起看",
+          "text": "大佛由山壁开凿，面对岷江、大渡河与青衣江交汇区域。比较造像、崖壁与江面位置，可以理解尺度和选址；峨眉登山与乐山观看需要分别安排，不把系列遗产理解成一条园内步道。",
+          "sourceKeys": [
+            "cq21-emei"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq21-emei"
+      ],
+      "related": []
+    }
+  ]
+}

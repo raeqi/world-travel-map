@@ -4,9 +4,9 @@
 
 ## 当前覆盖与边界
 
-- 累计287个地点记录有本系列新增且逐项来源支持的阅读，0处保留简洁有用判断，1处记录人工读到的明确缺口。288个不同语境有当前人工判断；其余**2048个语境未在本系列逐项人工验收**。
+- 累计300个地点记录有本系列新增且逐项来源支持的阅读，0处保留简洁有用判断，1处记录人工读到的明确缺口。301个不同语境有当前人工判断；其余**2035个语境未在本系列逐项人工验收**。
 - 当前**1个未排除自动候选**，其中1处用于可见主题行程。候选是编辑优先队列，不等于已证实错误，也不是全站剩余问题上限。零信号或已有长文的主题仍需后续人工审阅。
-- 自动短文候选之外，1294个未人工验收语境目前没有展开阅读，其中67个属于可见主题行程。已有长文也可能有实质错误，不因为字数多就排除后续研究。
+- 自动短文候选之外，1281个未人工验收语境目前没有展开阅读，其中54个属于可见主题行程。已有长文也可能有实质错误，不因为字数多就排除后续研究。
 - 原始目录、坐标、来源链接、方案、收藏ID、图片字节及其许可保留；新增展开合并适用的原段落和原来源对象。此系列未替换图片，也未把别的艺术家阅读算成旧路线已补足。
 - 观察建议依据所列资料，不是现场考察；历史道路关系不等于现代可通行线路，机构旧资料不作为当前开放保证。
 
@@ -33,10 +33,11 @@
 | 第18批 | `68186178bbaea9e1b9cfd1fdb383525c04a441e4` | 6 | 14 | [逐项文字和依据](data/content-quality/batch-18.json)：Six existing Japanese World Heritage culture contexts used in recommended Japan/Kansai itineraries, each receiving its first dedicated reading. Distinguish Genbaku Dome from the surrounding Peace Memorial Park, burial mounds from modern aerial presentations, old timber from later repair and palace reconstruction, and distributed Kyoto components. No imagery, raw records, coordinates or itinerary topology changed. Developed on the checked PR43 content; merge after its verified delivery. |
 | 第19批 | `1192a37e2cba7a23a21bcd4350ef027ae000a73c` | 13 | 17 | [逐项文字和依据](data/content-quality/batch-19.json)：Thirteen existing Southwest US national-park contexts, all in visible recommended itineraries and previously without expanded reading. Seventeen NPS sources support observable rock, cave, dune and Ancestral Pueblo features. Raw catalogue, original sources, photographs, coordinates, itinerary topology and saved IDs retained. Developed through GitHub while the selected Dot executor is unavailable; exact-head CI supplies runtime verification, not a claim of local execution or manual screenshot review. |
 | 第20批 | `93a53bd1a6139d65836a2a54c9cab9034316d840` | 18 | 28 | [逐项文字和依据](data/content-quality/batch-20.json)：Eighteen existing national-park contexts from the visible-itinerary/no-expanded-reading priority queue. Four adapt previously verified batch17 facts for distinct park contexts (not four new physical destinations); fourteen receive newly read NPS evidence. Original catalogue, photographs, coordinates, source links and itinerary topology preserved. No field visit or live-access certification. |
+| 第21批 | `ced1d447d70f414b616d6a7397904337b038cd34` | 13 | 15 | [逐项文字和依据](data/content-quality/batch-21.json)：Thirteen existing nature-theme contexts from the visible recommended-itinerary/no-expanded-reading queue: China7, Australia4 and India2. Read selected UNESCO statements of Outstanding Universal Value plus Reef Authority/NSW Parks primary interpretation. Original catalogue, source links, media licences, repaired coordinates and itineraries retained. No new imagery, field visit or whole-site factual certification. |
 
 第二批三峡/熊野/佛教/NC500：25处，22处原无展开；第三批茶马及相关网络：19处，18处原无展开；第四批莫扎特8处与Via Francigena16处：24处，23处原无展开；第五批66号公路15处：14处原无展开；第六批中山道9处与维京8处：17处，11处原无展开；第七批法国之路前12处：11个原候选与已有较具体路线选择说明的起点；第八批卡斯蒂利亚—莱昂21处；第九批加利西亚10处。第七至九批三个研究包共同交付，覆盖既有法国之路43处，全部新增首次专属展开，42处原为自动候选。第十批世界遗产23处（自然4、人文19），补充18个原未排除候选，并将5处原有实用短文加深；第十一、十二批丝路25处，分为西部/中亚及东部海贸15处、中国城市10处。本轮三个包共同交付48处首次专属阅读，43处原为待审候选。雅安、萨尔茨堡等原资料合并保留，不重复声称新地点。第二批[原报告](CONTENT-QUALITY-BATCH-2.md)、第三批[原报告](CONTENT-QUALITY-BATCH-3.md)、第四批[原报告](CONTENT-QUALITY-BATCH-4.md)、第五批[原报告](CONTENT-QUALITY-BATCH-5.md)、第六批[原报告](CONTENT-QUALITY-BATCH-6.md)、[法国之路第七至九批原报告](CONTENT-QUALITY-BATCH-9.md)作为历史快照保留。
 
-第二十批补充其余18个可见国家公园行程语境，引用24条新读取NPS资料与4条第十七批既有依据；其中大峡谷、海岸红杉、黄石与优胜美地为已研究实体的公园语境适配，不计作新增实体目的地。重点包括岛屿生态恢复、洪泛森林、火山与冰川、地下水通道、输煤与社区、人工水库、庇护树、山火与建园迁离史。可见行程未研究且无展开队列由85降至67；其他长文和无自动信号语境仍未全量人工验收。第十九批优先补充13个可见行程中的美国国家公园语境、17条NPS机构来源：石拱、石柱、古礁、洞穴、盐滩、沙丘、石化木与祖先普韦布洛崖居。原公园记录和世界遗产同名地点仍为不同语境，未拿别的主题阅读冲销本批缺口；未替换任何图像、坐标或行程。云执行环境故障，本批未声称本地测试或人工截图验收；精确head的Actions验证及公开部署核验以PR结果为准。第十八批为日本推荐行程的6处遗产新增首次专属阅读、14条机构资料：广岛圆顶遗存与周围公园、姬路木架和抹面及日期限定修缮、古坟形制和现代展示、法隆寺/法起寺木构、奈良宫迹复原与神圣山林、京都跨城组件和庭园。六处旧目录长文均保留原记录并校订显示正文；无新照片。第十七批补充美国自然地景6处，5处用于可见推荐行程；岩体形成与冰川塑形、雨影与育苗倒木、海岸红杉与巨杉、河流侵蚀与大坝、热液颜色的不同成因及湿地淡咸水边界分别落到可观察对象。无新增图片。第十六批逐项研究6处已有长文且用于推荐行程的遗产：大熊猫栖息地面积单位、大蓝山植物比较范围、凯奥拉德奥Maharajas误作地名；另补K’gari、黄山与大运河。原始记录及来源保留，校订只覆盖经证据核实的显示正文，不让旧错从“展开完整介绍”再次出现。第十四、十五批共同补充马可波罗23处首次专属阅读、45条来源记录；以NII东洋文库1938年Moule/Pelliot版的实际选段和当代遗产/机构资料对读，保留原Yule/Cordier链接。书内行程、听闻、归程区域和成书传统不混同已核实亲历；2024威尼斯展已结束，热那亚囚室只属传统，日本区域点并不定位为长崎水下遗址。第十三批补充徐霞客24处首次专属阅读，重点由原日记、地质调查、遗产机构与地方考古材料落到山地、水系、建筑和现代展示。1613、1616、1618、1623、1633与滇西晚年游历分别阅读，六条既有方案不变；木府重建、金中都水关现代探访、霁虹桥迁移复制及纪念塑像均与个人亲历分开。第十至十二批共同细读48处，兼顾地貌演变、牧业与绿洲生活、市场系统、原址艺术、异地收藏及后世重建。布哈拉从交易穹顶与经学院落地，塔什干区分预备名单与正式遗产；敦煌五台山图描绘山西、铜奔马原作在兰州、雁塔原碑与海外拓片分开，嘉峪关明代关城不归入13世纪亲历。机构资料中的错译、日期矛盾与过时链接逐项记录取舍；塔伊旧域名异常跳转排除。无新增图片。
+第二十一批为13个可见自然遗产语境增加首次展开阅读、15条机构依据，涵盖黄渤海候鸟补给、神农架林带、澄江软组织与群落、丹霞红层、三清山花岗岩景观、峨眉乐山自然/建筑关系、武陵源砂岩与洞穴、两类澳洲雨林、古湖与原住民解说、大堡礁活体珊瑚以及印度洪泛地。页面内部年代、面积、组成数量矛盾不照搬，不承诺当前开放或动物可见；未换图、未改坐标和路线。67个可见无展开优先语境减少13个后仍有54个，其他1281个未审无展开语境及已有长文仍未全量验收。第二十批补充其余18个可见国家公园行程语境，引用24条新读取NPS资料与4条第十七批既有依据；其中大峡谷、海岸红杉、黄石与优胜美地为已研究实体的公园语境适配，不计作新增实体目的地。重点包括岛屿生态恢复、洪泛森林、火山与冰川、地下水通道、输煤与社区、人工水库、庇护树、山火与建园迁离史。可见行程未研究且无展开队列由85降至67；其他长文和无自动信号语境仍未全量人工验收。第十九批优先补充13个可见行程中的美国国家公园语境、17条NPS机构来源：石拱、石柱、古礁、洞穴、盐滩、沙丘、石化木与祖先普韦布洛崖居。原公园记录和世界遗产同名地点仍为不同语境，未拿别的主题阅读冲销本批缺口；未替换任何图像、坐标或行程。云执行环境故障，本批未声称本地测试或人工截图验收；精确head的Actions验证及公开部署核验以PR结果为准。第十八批为日本推荐行程的6处遗产新增首次专属阅读、14条机构资料：广岛圆顶遗存与周围公园、姬路木架和抹面及日期限定修缮、古坟形制和现代展示、法隆寺/法起寺木构、奈良宫迹复原与神圣山林、京都跨城组件和庭园。六处旧目录长文均保留原记录并校订显示正文；无新照片。第十七批补充美国自然地景6处，5处用于可见推荐行程；岩体形成与冰川塑形、雨影与育苗倒木、海岸红杉与巨杉、河流侵蚀与大坝、热液颜色的不同成因及湿地淡咸水边界分别落到可观察对象。无新增图片。第十六批逐项研究6处已有长文且用于推荐行程的遗产：大熊猫栖息地面积单位、大蓝山植物比较范围、凯奥拉德奥Maharajas误作地名；另补K’gari、黄山与大运河。原始记录及来源保留，校订只覆盖经证据核实的显示正文，不让旧错从“展开完整介绍”再次出现。第十四、十五批共同补充马可波罗23处首次专属阅读、45条来源记录；以NII东洋文库1938年Moule/Pelliot版的实际选段和当代遗产/机构资料对读，保留原Yule/Cordier链接。书内行程、听闻、归程区域和成书传统不混同已核实亲历；2024威尼斯展已结束，热那亚囚室只属传统，日本区域点并不定位为长崎水下遗址。第十三批补充徐霞客24处首次专属阅读，重点由原日记、地质调查、遗产机构与地方考古材料落到山地、水系、建筑和现代展示。1613、1616、1618、1623、1633与滇西晚年游历分别阅读，六条既有方案不变；木府重建、金中都水关现代探访、霁虹桥迁移复制及纪念塑像均与个人亲历分开。第十至十二批共同细读48处，兼顾地貌演变、牧业与绿洲生活、市场系统、原址艺术、异地收藏及后世重建。布哈拉从交易穹顶与经学院落地，塔什干区分预备名单与正式遗产；敦煌五台山图描绘山西、铜奔马原作在兰州、雁塔原碑与海外拓片分开，嘉峪关明代关城不归入13世纪亲历。机构资料中的错译、日期矛盾与过时链接逐项记录取舍；塔伊旧域名异常跳转排除。无新增图片。
 
 ## 第十九批逐点证据
 
@@ -101,7 +102,7 @@
 
 | 主题ID | 名称 | 入口 | 语境 | 自动候选 | 人工判断 |
 | --- | --- | --- | ---: | ---: | ---: |
-| `nature` | 世界自然遗产 | 可见 | 282 | 0 | 15 |
+| `nature` | 世界自然遗产 | 可见 | 282 | 0 | 28 |
 | `culture` | 世界文化遗产 | 可见 | 1033 | 0 | 26 |
 | `gorges` | 三峡古镇 | 可见 | 6 | 0 | 6 |
 | `parks` | 美国国家公园 | 可见 | 63 | 0 | 31 |

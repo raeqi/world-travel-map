@@ -3344,6 +3344,151 @@
         "https://www.nps.gov/yose/learn/nature/geology.htm"
       ],
       "contentHash": "7f712879b8031d5776dcea2eaceed23f573c16b99b721b35c1d84c8b121b4f55"
+    },
+    {
+      "id": "wh-1292",
+      "theme": "nature",
+      "state": "researched-batch-21",
+      "checked": "2026-11-18",
+      "reason": "Selected institutional descriptions and Outstanding Universal Value passages read for named observable features, underlying processes and cultural/site-boundary relationships. Previously no expanded reading in this visible itinerary context. Raw catalogue, original links, photographs, repaired coordinates and itinerary IDs preserved; no field visit or current access/animal-sighting guarantee.",
+      "sources": [
+        "https://whc.unesco.org/en/list/1292/"
+      ],
+      "contentHash": "100adb540be4fb94ec61194a2f87e55e8ed544af3fdac6da4d58a0c5b9df010d"
+    },
+    {
+      "id": "wh-1335",
+      "theme": "nature",
+      "state": "researched-batch-21",
+      "checked": "2026-11-18",
+      "reason": "Selected institutional descriptions and Outstanding Universal Value passages read for named observable features, underlying processes and cultural/site-boundary relationships. Previously no expanded reading in this visible itinerary context. Raw catalogue, original links, photographs, repaired coordinates and itinerary IDs preserved; no field visit or current access/animal-sighting guarantee.",
+      "sources": [
+        "https://whc.unesco.org/en/list/1335/"
+      ],
+      "contentHash": "a912f61d2b59e73204e28260aab201252259acd9542dbbe7f20a3edbfcc63f56"
+    },
+    {
+      "id": "wh-1388",
+      "theme": "nature",
+      "state": "researched-batch-21",
+      "checked": "2026-11-18",
+      "reason": "Selected institutional descriptions and Outstanding Universal Value passages read for named observable features, underlying processes and cultural/site-boundary relationships. Previously no expanded reading in this visible itinerary context. Raw catalogue, original links, photographs, repaired coordinates and itinerary IDs preserved; no field visit or current access/animal-sighting guarantee.",
+      "sources": [
+        "https://whc.unesco.org/en/list/1388/"
+      ],
+      "contentHash": "c5206f9346c69af9b80bde6fd02f98decbe1e2e7f95baaef68b0ae36912f71b8"
+    },
+    {
+      "id": "wh-1509",
+      "theme": "nature",
+      "state": "researched-batch-21",
+      "checked": "2026-11-18",
+      "reason": "Selected institutional descriptions and Outstanding Universal Value passages read for named observable features, underlying processes and cultural/site-boundary relationships. Previously no expanded reading in this visible itinerary context. Raw catalogue, original links, photographs, repaired coordinates and itinerary IDs preserved; no field visit or current access/animal-sighting guarantee.",
+      "sources": [
+        "https://whc.unesco.org/en/list/1509/"
+      ],
+      "contentHash": "db1d3a5dcfe7a08283459c937781e77ed6baee01b782b2d0937e32b98c93cea6"
+    },
+    {
+      "id": "wh-154",
+      "theme": "nature",
+      "state": "researched-batch-21",
+      "checked": "2026-11-18",
+      "reason": "Selected institutional descriptions and Outstanding Universal Value passages read for named observable features, underlying processes and cultural/site-boundary relationships. Previously no expanded reading in this visible itinerary context. Raw catalogue, original links, photographs, repaired coordinates and itinerary IDs preserved; no field visit or current access/animal-sighting guarantee.",
+      "sources": [
+        "https://whc.unesco.org/en/list/154/",
+        "https://www.gbrmpa.gov.au/learn/reef-health/coral-bleaching"
+      ],
+      "contentHash": "c371c0f78108a307b227967bdf7ddc40399501e020756b5d340d6528743dbcb6"
+    },
+    {
+      "id": "wh-1606",
+      "theme": "nature",
+      "state": "researched-batch-21",
+      "checked": "2026-11-18",
+      "reason": "Selected institutional descriptions and Outstanding Universal Value passages read for named observable features, underlying processes and cultural/site-boundary relationships. Previously no expanded reading in this visible itinerary context. Raw catalogue, original links, photographs, repaired coordinates and itinerary IDs preserved; no field visit or current access/animal-sighting guarantee.",
+      "sources": [
+        "https://whc.unesco.org/en/list/1606/"
+      ],
+      "contentHash": "32f460df1de63bc78496f5b4716fa2e16c00fcd2c620bd79ca234769239d7796"
+    },
+    {
+      "id": "wh-167",
+      "theme": "nature",
+      "state": "researched-batch-21",
+      "checked": "2026-11-18",
+      "reason": "Selected institutional descriptions and Outstanding Universal Value passages read for named observable features, underlying processes and cultural/site-boundary relationships. Previously no expanded reading in this visible itinerary context. Raw catalogue, original links, photographs, repaired coordinates and itinerary IDs preserved; no field visit or current access/animal-sighting guarantee.",
+      "sources": [
+        "https://whc.unesco.org/en/list/167/",
+        "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/mungo-lunette-guided-tour"
+      ],
+      "contentHash": "55a134602b31a958a14144f035364eca319fbdf83768c3484b9f116cc1de4741"
+    },
+    {
+      "id": "wh-337",
+      "theme": "nature",
+      "state": "researched-batch-21",
+      "checked": "2026-11-18",
+      "reason": "Selected institutional descriptions and Outstanding Universal Value passages read for named observable features, underlying processes and cultural/site-boundary relationships. Previously no expanded reading in this visible itinerary context. Raw catalogue, original links, photographs, repaired coordinates and itinerary IDs preserved; no field visit or current access/animal-sighting guarantee.",
+      "sources": [
+        "https://whc.unesco.org/en/list/337/"
+      ],
+      "contentHash": "192de012cd5c2bce7c0b7b3255c57f7842eb00b3258ad36e1952d5bacafc7cdf"
+    },
+    {
+      "id": "wh-338",
+      "theme": "nature",
+      "state": "researched-batch-21",
+      "checked": "2026-11-18",
+      "reason": "Selected institutional descriptions and Outstanding Universal Value passages read for named observable features, underlying processes and cultural/site-boundary relationships. Previously no expanded reading in this visible itinerary context. Raw catalogue, original links, photographs, repaired coordinates and itinerary IDs preserved; no field visit or current access/animal-sighting guarantee.",
+      "sources": [
+        "https://whc.unesco.org/en/list/338/"
+      ],
+      "contentHash": "1d9ec4a91d86ffb01373e18c06eed7e6dd93ffa979f2df27b90d8870c51114f5"
+    },
+    {
+      "id": "wh-368",
+      "theme": "nature",
+      "state": "researched-batch-21",
+      "checked": "2026-11-18",
+      "reason": "Selected institutional descriptions and Outstanding Universal Value passages read for named observable features, underlying processes and cultural/site-boundary relationships. Previously no expanded reading in this visible itinerary context. Raw catalogue, original links, photographs, repaired coordinates and itinerary IDs preserved; no field visit or current access/animal-sighting guarantee.",
+      "sources": [
+        "https://whc.unesco.org/en/list/368/"
+      ],
+      "contentHash": "3861fcc7a4d9a5d9f25f2832ac82b6492e8801a9a2a6b0480dde97b93c69aca3"
+    },
+    {
+      "id": "wh-486",
+      "theme": "nature",
+      "state": "researched-batch-21",
+      "checked": "2026-11-18",
+      "reason": "Selected institutional descriptions and Outstanding Universal Value passages read for named observable features, underlying processes and cultural/site-boundary relationships. Previously no expanded reading in this visible itinerary context. Raw catalogue, original links, photographs, repaired coordinates and itinerary IDs preserved; no field visit or current access/animal-sighting guarantee.",
+      "sources": [
+        "https://whc.unesco.org/en/list/486/"
+      ],
+      "contentHash": "046acebbe0dec9620050c014b6bca2d16cf4cb6b3359918526683523b437eba2"
+    },
+    {
+      "id": "wh-640",
+      "theme": "nature",
+      "state": "researched-batch-21",
+      "checked": "2026-11-18",
+      "reason": "Selected institutional descriptions and Outstanding Universal Value passages read for named observable features, underlying processes and cultural/site-boundary relationships. Previously no expanded reading in this visible itinerary context. Raw catalogue, original links, photographs, repaired coordinates and itinerary IDs preserved; no field visit or current access/animal-sighting guarantee.",
+      "sources": [
+        "https://whc.unesco.org/en/list/640/"
+      ],
+      "contentHash": "33fba65e9ce2bc27730bd9193a501597d658aacd6dcf95c0f8410fe042fc0fc8"
+    },
+    {
+      "id": "wh-779",
+      "theme": "nature",
+      "state": "researched-batch-21",
+      "checked": "2026-11-18",
+      "reason": "Selected institutional descriptions and Outstanding Universal Value passages read for named observable features, underlying processes and cultural/site-boundary relationships. Previously no expanded reading in this visible itinerary context. Raw catalogue, original links, photographs, repaired coordinates and itinerary IDs preserved; no field visit or current access/animal-sighting guarantee.",
+      "sources": [
+        "https://whc.unesco.org/en/list/779/"
+      ],
+      "contentHash": "6954cf9751d56ce4fb4efbed37a3b3d7e115cd8148035d6a61db0b3264288fa3"
     }
   ]
 }
