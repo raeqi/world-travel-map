@@ -15,13 +15,13 @@
     "automaticCandidateContexts": 1,
     "visibleItineraryCandidatePlaces": 1,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 385,
-    "unreviewedContexts": 1951,
-    "unreviewedNoExpandedContexts": 1197,
-    "visibleUnreviewedNoExpandedContexts": 1197,
-    "visibleCatalogueUnreviewedNoExpandedContexts": 1197,
+    "manualReviewedContexts": 389,
+    "unreviewedContexts": 1947,
+    "unreviewedNoExpandedContexts": 1193,
+    "visibleUnreviewedNoExpandedContexts": 1193,
+    "visibleCatalogueUnreviewedNoExpandedContexts": 1193,
     "visibleItineraryUnreviewedNoExpandedContexts": 0,
-    "manualResearchedPlaces": 384,
+    "manualResearchedPlaces": 388,
     "manualUsefulConcisePlaces": 0,
     "manualNeedsResearchPlaces": 1,
     "staleReviews": 0,
@@ -267,7 +267,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "ab35fcbe3e5ae224a5b668afd5e0c6a28342aa55f3168a755b5a496926449f94",
+      "sha256": "07790913beb0eeb8003b2b9d8fa1d902e43144028c448f0286d317bd41e44164",
       "executed": true
     },
     {
@@ -293,8 +293,8 @@
       "visible": true,
       "contexts": 282,
       "automaticCandidates": 0,
-      "unreviewedNoExpandedContexts": 247,
-      "manuallyReviewed": 28
+      "unreviewedNoExpandedContexts": 243,
+      "manuallyReviewed": 32
     },
     {
       "id": "culture",

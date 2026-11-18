@@ -4444,6 +4444,54 @@
         "https://www.nps.gov/wica/learn/nature/index.htm"
       ],
       "contentHash": "79f16fa31815b4f0a07fe6e4035a1c7b971e303d6c041ee2c2af08c4c6339ab7"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-1575",
+      "state": "researched-batch-29",
+      "reason": "逐段核对UNESCO英法文/突出普遍价值、TAAF或PNNC原文，纠正长目录中实际数字、物种、位置及修饰关系，并补具体观察。未现场验收；保护区点位不作为游客进入保证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1575/"
+      ],
+      "contentHash": "ee0bd6f8728aa2d19f0bb8adfaaf42574de14ca0021b199d348fce448080cebf"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-1603",
+      "state": "researched-batch-29",
+      "reason": "逐段核对UNESCO英法文/突出普遍价值、TAAF或PNNC原文，纠正长目录中实际数字、物种、位置及修饰关系，并补具体观察。未现场验收；保护区点位不作为游客进入保证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1603/",
+        "https://taaf.fr/ressources-pedagogiques/suivre-la-vie-dun-manchot-royal/",
+        "https://taaf.fr/missions-et-activites/protection-de-lenvironnement/observatoire-territorial-de-la-biodiversite/iles-australes/",
+        "https://taaf.fr/acceder-aux-territoires/demandes-dactivites-et-dacces/acces-et-mouillage-dans-les-australes/"
+      ],
+      "contentHash": "cfd48f50f336156d6ee4eb18a5283a8a34a2f6ba4e075982131aab2bd98734d5"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-1174",
+      "state": "researched-batch-29",
+      "reason": "逐段核对UNESCO英法文/突出普遍价值、TAAF或PNNC原文，纠正长目录中实际数字、物种、位置及修饰关系，并补具体观察。未现场验收；保护区点位不作为游客进入保证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1174/",
+        "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-serrania-de-chiribiquete/"
+      ],
+      "contentHash": "0d31284c8f85f911565fc10e8e6ccb3e298db80fbc9c1f52ca99a0015e9e0ec2"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-1540",
+      "state": "researched-batch-29",
+      "reason": "逐段核对UNESCO英法文/突出普遍价值、TAAF或PNNC原文，纠正长目录中实际数字、物种、位置及修饰关系，并补具体观察。未现场验收；保护区点位不作为游客进入保证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1540/"
+      ],
+      "contentHash": "ec0d77fee0c0720ac3ee7c9ce3f8ce6560df26cb4658c67927a1bc86d14f7cf1"
     }
   ]
 }
