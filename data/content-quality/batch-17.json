@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-17",
+  "baseline": "8ebf154c2becbefa8990328ae2560775dabbaeff",
+  "checked": "2026-11-18",
+  "scope": "Six existing US nature catalogue places with no expanded reading: five used by visible recommended itineraries, plus Everglades catalogue context. NPS geology, forest ecology, hydrology and cultural-landscape evidence; no new place, route, image or coordinate changes. Research began with checked PR40 content; restored on main 6818617 after theme consolidation and verified heritage coordinate repairs.",
+  "sources": {
+    "cq17-yosemite": {
+      "title": "NPS：优胜美地岩体形成、河流与冰川塑形",
+      "url": "https://www.nps.gov/yose/learn/nature/geology.htm",
+      "checked": "2026-11-18",
+      "method": "Read named National Park Service primary explanation. Original concise paraphrase, no image reuse or on-site visit. Do not use historical measurements, guidebook seasons or visitor-hours text as current guarantees. Granite formed at depth before glaciation; ice widened/deepened prior river valleys. Avoid converting park geology into an assertion of every road open or glaciers static in extent."
+    },
+    "cq17-hoh": {
+      "title": "NPS：Hoh雨林的树、苔藓与育苗倒木",
+      "url": "https://www.nps.gov/olym/planyourvisit/hoh-rain-forest-area-brochure.htm",
+      "checked": "2026-11-18",
+      "method": "Read named National Park Service primary explanation. Original concise paraphrase, no image reuse or on-site visit. Do not use historical measurements, guidebook seasons or visitor-hours text as current guarantees. Use ecological passage; do not adopt brochure office hours/seasonal closure as live status."
+    },
+    "cq17-olympic-rain": {
+      "title": "NPS：奥林匹克半岛雨影与降水差异",
+      "url": "https://home.nps.gov/olym/planyourvisit/weather.htm",
+      "checked": "2026-11-18",
+      "method": "Read named National Park Service primary explanation. Original concise paraphrase, no image reuse or on-site visit. Do not use historical measurements, guidebook seasons or visitor-hours text as current guarantees. Read rain-shadow explanation and regional map labels. Avoid turning average precipitation into daily weather forecast."
+    },
+    "cq17-redwood": {
+      "title": "NPS：海岸红杉的生态、更新与国家/州公园关系",
+      "url": "https://www.nps.gov/redw/faqs.htm?fullweb=1",
+      "checked": "2026-11-18",
+      "method": "Read named National Park Service primary explanation. Original concise paraphrase, no image reuse or on-site visit. Do not use historical measurements, guidebook seasons or visitor-hours text as current guarantees. Read ecology, management and tree distinctions. FAQ contains a feet/metres mismatch in old Tall Tree height; do not reproduce those figures or precise sensitive-tree locations. Ancient forest loss statistic not a live survey."
+    },
+    "cq17-grandcanyon": {
+      "title": "NPS：大峡谷的岩层、侵蚀与河流变化",
+      "url": "https://www.nps.gov/grca/learn/nature/grca-geology.htm",
+      "checked": "2026-11-18",
+      "method": "Read named National Park Service primary explanation. Original concise paraphrase, no image reuse or on-site visit. Do not use historical measurements, guidebook seasons or visitor-hours text as current guarantees. Distinguish rock age from landscape age; avoid presenting a single disputed canyon-age reconstruction as settled. Historic pre/post-dam discharges not used as current river statistics."
+    },
+    "cq17-yellowstone": {
+      "title": "NPS：黄石热液类型、微生物与颜色",
+      "url": "https://www.nps.gov/yell/learn/nature/hydrothermal-features.htm",
+      "checked": "2026-11-18",
+      "method": "Read named National Park Service primary explanation. Original concise paraphrase, no image reuse or on-site visit. Do not use historical measurements, guidebook seasons or visitor-hours text as current guarantees. Read feature mechanisms, thermophile colours and deposition. Avoid static global geyser fractions and fixed eruption schedule; not all spring colours are caused by microbes—blue light scattering and mineral-tinted mud are distinct."
+    },
+    "cq17-everglades-flow": {
+      "title": "NPS：大沼泽淡水流与文化地点",
+      "url": "https://www.nps.gov/articles/000/sea-level-rise-threatens-cultural-sites-in-the-everglades.htm",
+      "checked": "2026-11-18",
+      "method": "Read named National Park Service primary explanation. Original concise paraphrase, no image reuse or on-site visit. Do not use historical measurements, guidebook seasons or visitor-hours text as current guarantees. Read freshwater flow, tree islands, limestone solution holes and cultural landscape context. Do not claim the entire national park is fresh water; coastline and estuaries differ."
+    },
+    "cq17-everglades-saline": {
+      "title": "NPS：大沼泽盐生草地与植被变化",
+      "url": "https://www.nps.gov/ever/learn/nature/cceffectssalineglades.htm",
+      "checked": "2026-11-18",
+      "method": "Read named National Park Service primary explanation. Original concise paraphrase, no image reuse or on-site visit. Do not use historical measurements, guidebook seasons or visitor-hours text as current guarantees. Read specific coastal transition affected by freshwater flow, roads/canals and sea-level rise. Historical expansion distance not presented as a new measurement."
+    }
+  },
+  "readings": [
+    {
+      "id": "wh-308",
+      "theme": "nature",
+      "title": "优胜美地：先有岩体，再有冰川刻出的谷地",
+      "summary": "优胜美地（Yosemite）的花岗质岩体由地下岩浆冷却形成，远早于后来的冰川。河流先切谷，冰川再拓宽加深，U形谷、悬谷瀑布和磨光岩面让不同阶段的作用在现场可辨。",
+      "catalogueDescription": "优胜美地（Yosemite）的花岗质岩体由地下岩浆冷却形成，远早于后来的冰川。河流先切谷，冰川再拓宽加深，U形谷、悬谷瀑布和磨光岩面让不同阶段的作用在现场可辨。",
+      "paragraphs": [
+        {
+          "heading": "看谷的横截面，分辨河与冰的工作",
+          "text": "主谷的宽阔底部、陡壁与较高支谷反映侵蚀强弱不同；支谷水流落入主谷，形成悬谷瀑布。可从开放视点先看大地形，再注意岩面裂隙和被搬运的巨石，不把冰川说成制造花岗岩的原因。",
+          "sourceKeys": [
+            "cq17-yosemite"
+          ]
+        },
+        {
+          "heading": "一座圆顶或一块岩石有自己的细节",
+          "text": "被冰覆盖的岩体常被磨圆、抛光，露出冰面者则呈现不同轮廓，岩石节理也影响侵蚀。Olmsted Point等解说点可帮助认识漂砾与裂隙，但高山道路有季节和天气限制，按当期开放选择，不把地质例子当已确认可达的行程。",
+          "sourceKeys": [
+            "cq17-yosemite"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq17-yosemite"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-151",
+      "theme": "nature",
+      "title": "奥林匹克：从雨影到一截正在长树的倒木",
+      "summary": "太平洋湿气遇奥林匹克山脉，西侧谷地比东侧更湿。Hoh温带雨林里的苔藓、附生植物和育苗倒木，把这一大尺度气候差异变成可以近看的森林生活；山地、雨林与海岸仍需分段安排。",
+      "catalogueDescription": "太平洋湿气遇奥林匹克山脉，西侧谷地比东侧更湿。Hoh温带雨林里的苔藓、附生植物和育苗倒木，把这一大尺度气候差异变成可以近看的森林生活；山地、雨林与海岸仍需分段安排。",
+      "paragraphs": [
+        {
+          "heading": "森林为什么在半岛两侧不同",
+          "text": "气流越过山脉时释放水分，使西向谷地雨林繁茂，东侧形成较干的雨影区。比较同一旅程中坡向、植被密度与溪流，可以理解山体怎样影响气候；年平均降水不是某天一定下雨的预报。",
+          "sourceKeys": [
+            "cq17-olympic-rain"
+          ]
+        },
+        {
+          "heading": "倒下的大树并没有退出森林",
+          "text": "缓慢腐朽的倒木给幼树养分和立足处，后来可形成成排大树或根下留空的痕迹。抬头看树冠，再低头看苔藓、蕨类和育苗木，能把“雨林很绿”读成不同层次互相支持的生态过程。",
+          "sourceKeys": [
+            "cq17-hoh"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq17-olympic-rain",
+        "cq17-hoh"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-134",
+      "theme": "nature",
+      "title": "红杉国家与州公园：看高树，也看雾和更新",
+      "summary": "这里的海岸红杉与内华达山脉的巨杉不同：前者以高度见长，后者以体积见长。雨水、夏雾、温和气候和林内互相挡风支持高树；树瘤萌芽、树皮与幼树又说明森林如何延续。",
+      "catalogueDescription": "这里的海岸红杉与内华达山脉的巨杉不同：前者以高度见长，后者以体积见长。雨水、夏雾、温和气候和林内互相挡风支持高树；树瘤萌芽、树皮与幼树又说明森林如何延续。",
+      "paragraphs": [
+        {
+          "heading": "树种不同，观看方式也不同",
+          "text": "海岸红杉生长在太平洋沿岸，不能把它与更内陆山地的巨杉混称同一种。可看深沟树皮、叶片形状和树冠层次，比较林内光照与周边植被，不必以找到“最高那一棵”为唯一目标。",
+          "sourceKeys": [
+            "cq17-redwood"
+          ]
+        },
+        {
+          "heading": "雾、树瘤和保护历史连在一起",
+          "text": "夏雾减少失水，树瘤中的休眠芽有助受损后的再生，厚树皮也与长期存活有关。国家公园和州公园共同管理保存的林地，今昔伐木、恢复与保护构成另一层观察，不把现存森林都称作从未受人影响。",
+          "sourceKeys": [
+            "cq17-redwood"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq17-redwood"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-75",
+      "theme": "nature",
+      "title": "大峡谷：古老岩层与较晚切出的地形分开读",
+      "summary": "科罗拉多河下切、支流侵蚀与崖壁风化共同塑造大峡谷。岩层保存的久远历史不等于峡谷本身同样古老；从平台看层次、断崖与谷底河流，可以把两种时间分别理解。",
+      "catalogueDescription": "科罗拉多河下切、支流侵蚀与崖壁风化共同塑造大峡谷。岩层保存的久远历史不等于峡谷本身同样古老；从平台看层次、断崖与谷底河流，可以把两种时间分别理解。",
+      "paragraphs": [
+        {
+          "heading": "河流向下，支谷也在让峡谷变宽",
+          "text": "携带泥沙的水能侵蚀岩石，不同硬度岩层形成崖壁与缓坡，雨雪融水沿支沟继续切蚀。选一个正规观景平台比较主河与侧谷，看崖线如何交替，而不只用“很深”概括地貌。",
+          "sourceKeys": [
+            "cq17-grandcanyon"
+          ]
+        },
+        {
+          "heading": "今天的河流也受大坝影响",
+          "text": "格伦峡谷坝改变了过去季节性流量波动，河道侵蚀与沉积因而带有人为管理背景。岩石、河流过程与工程作用一起读；谷缘到谷底的高度差并不等于本图直线能当可走路线。",
+          "sourceKeys": [
+            "cq17-grandcanyon"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq17-grandcanyon"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-28",
+      "theme": "nature",
+      "title": "黄石：先认出泉、间歇泉、泥锅与喷气孔",
+      "summary": "黄石热液景观由地下热、循环水和不同通道共同形成。彩色微生物带、深水散射的蓝色、矿物染色的泥与沉积台阶有不同成因；不把每一种颜色都归给同一原因，也不只等一次喷发。",
+      "catalogueDescription": "黄石热液景观由地下热、循环水和不同通道共同形成。彩色微生物带、深水散射的蓝色、矿物染色的泥与沉积台阶有不同成因；不把每一种颜色都归给同一原因，也不只等一次喷发。",
+      "paragraphs": [
+        {
+          "heading": "地下通道不同，地面表现就不同",
+          "text": "热泉以较开放的通道循环水，间歇泉的狭窄处让压力积累；少水、酸性条件可形成泥锅，喷气孔则以气体释放为主。比较声音、蒸汽和池口形状时留在开放栈道，地表薄壳不是普通可踩岩地。",
+          "sourceKeys": [
+            "cq17-yellowstone"
+          ]
+        },
+        {
+          "heading": "颜色里也有生命与化学",
+          "text": "不同温度、酸碱条件适合不同嗜热微生物，群聚后形成色带；某些深而清的池水呈蓝色与光散射有关，泥锅和石灰华台阶又有矿物过程。按解释看差异，比用固定喷发时刻或旧物种数量承诺一次观看更有内容。",
+          "sourceKeys": [
+            "cq17-yellowstone"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq17-yellowstone"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-76",
+      "theme": "nature",
+      "title": "大沼泽：读缓慢流动的水，而不只寻找动物",
+      "summary": "佛罗里达大沼泽的内陆淡水缓慢穿过湿地和树岛，向海岸过渡时又遇潮汐与盐分。高差、水量和盐度决定草地、树丛与红树林的位置，公路、运河及海平面变化也参与重塑边界。",
+      "catalogueDescription": "佛罗里达大沼泽的内陆淡水缓慢穿过湿地和树岛，向海岸过渡时又遇潮汐与盐分。高差、水量和盐度决定草地、树丛与红树林的位置，公路、运河及海平面变化也参与重塑边界。",
+      "paragraphs": [
+        {
+          "heading": "低地里的微小高差会改变生境",
+          "text": "柏树群和硬木树岛让相对高处与周围湿地形成对照，石灰岩溶蚀洼穴又能在缺水季节提供不同水域。可从开放栈道比较草地、树岛与水面，不把整个公园一概叫咸水沼泽或淡水湖。",
+          "sourceKeys": [
+            "cq17-everglades-flow"
+          ]
+        },
+        {
+          "heading": "海岸植被的边界并非固定不动",
+          "text": "盐生草地位于淡水较少、潮水又难直接到达的过渡地带，矮红树林、锯草等显示这种条件。公路、渠道和海平面改变淡咸水交换，植被可能迁移；看这一过程比承诺某次必见鳄鱼或海牛更可靠。",
+          "sourceKeys": [
+            "cq17-everglades-saline"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq17-everglades-flow",
+        "cq17-everglades-saline"
+      ],
+      "related": []
+    }
+  ],
+  "resumedOn": "68186178bbaea9e1b9cfd1fdb383525c04a441e4"
+}
