@@ -2210,6 +2210,299 @@
         "https://whc.unesco.org/en/list/1003/"
       ],
       "contentHash": "15f0f9513dbe30a73acc8f8792798eb9da3f56671ad9cf7d174ad91b8a98b501"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-tiantai",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.forestry.gov.cn/c/www/dfdt/542885.jhtml"
+      ],
+      "contentHash": "c06c699860ef8da421936862dc0532c8c44cf4cc5f8363b9e7f40cf88bc014e5"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-yandang",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.cgs.gov.cn/ywdt/dwdt/201704/t20170406_827710.html",
+        "https://zrzykpywh.magtechjournal.com/article/2017/2095-8714/2095-8714-12-4-46.shtml"
+      ],
+      "contentHash": "25687bd36c85c020e8a0515902fc56410d61681609d95f5ca8821b7f4689a653"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-qiyun",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://cnxxk.com.cn/list_15/55.html",
+        "https://www.ctnews.com.cn/paper/content/202309/05/content_82336.html"
+      ],
+      "contentHash": "c0011c191bb3d3358c33ad5baed957cadb5fff45e1563ee8bb3e01572536f91d"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-huangshan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/547/",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "351c869588946cdaa983431b4da844b9a54aa4fa713980cb27c5bca8d9000ffd"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-wuyi",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/911/",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "afd34604c9d92f960b4ad40efc9942ac2c251d948e7959ecc138d095d0e1405b"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-lushan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/778/",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "ef518d6330ee0bd23cc8f4e48383b2019ffb3328e6adae030ea5808f9c3b1e33"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-kaifeng",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+        "https://hnswwkgyjy.cn/NewsView.php?News_ID=2832"
+      ],
+      "contentHash": "8eb50c9cb41a8107efab2fad848b9f45b7282b54cdff23980ca19c0be6be8411"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-zhengzhou",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+        "https://www.zhengzhou.gov.cn/view45/6664682.jhtml"
+      ],
+      "contentHash": "44e8354967552c37e38c616190ea32e6c50838f524a3d7bd1c1cfdbecebde450"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-xinmi",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+        "https://xm.jiceng.zhengzhou.gov.cn/020007/3831005.jhtml"
+      ],
+      "contentHash": "ea794454503768652691f0595dc3935cc592fcc97d7a6eaa34c4baa008b0f5e6"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-songshan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+        "https://whc.unesco.org/en/list/1305/"
+      ],
+      "contentHash": "4613728cfdd75ca3c7ce7bb44ab37a63fa09d3abe026d997218a46d25ae2b69f"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-shaolin",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+        "https://whc.unesco.org/en/list/1305/"
+      ],
+      "contentHash": "386cfdda0fd945545a14265b43f4174e4a1cca1391b9e0992af40723699c96dd"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-longmen",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+        "https://whc.unesco.org/en/list/1003/"
+      ],
+      "contentHash": "a899eaa622e55a4e6808496281981ce02eb2d4b7f2139b241d910ceb3e5a3a67"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-huashan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://weinan.qinfeng.gov.cn/info/1095/36343.htm",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "73e9384b038e3dedc02b173cd923148a24ecee746c81235061a98b18aaed42e0"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-wudang",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/705/",
+        "https://www.special-cast.com/zh/article/46142220/",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "506130801958e81a887c18187924834625af7c39f79f65b95d395be416b83d69"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-beijing",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://zh.wikisource.org/zh-hans/徐霞客遊記/遊五台山日記",
+        "https://www.beijing.gov.cn/renwen/rwzyd/qgzdwwbhdw/jzdsgyz/202211/t20221101_2849494.html",
+        "https://wwj.beijing.gov.cn/bjww/362771/362773/743761575/index.html"
+      ],
+      "contentHash": "d11887e58e87469f7ad5031cc9e7e67eaddc2e7be180a5d21a164e8deecdc5c9"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-wutai",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://zh.wikisource.org/zh-hans/徐霞客遊記/遊五台山日記",
+        "https://whc.unesco.org/en/list/1279/",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "01a6412c1c465bf0fc9e8e64295b08c478246ba9431ee46edd0ff4a2cd1b7c15"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-hengshan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.byhs.net.cn/news_detial/11.html",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "e8c87eaeea3f2f53af9006480fefb912794c94345d21b92908251d44aa3ecc50"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-jizu",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://cnxxk.com.cn/list_32/1636.html",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "be257c39e977710acba3cd73cc5379f2673c63bf0cb9e7f74bc59260d06e7a4d"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-lijiang",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.ynscsp.cn/nd.jsp?fromColId=2&id=28835",
+        "https://www.lijiang.cn/article/148365.html"
+      ],
+      "contentHash": "81a20ed32f60499ea375d2d8e80827346d3c202402bdc1b4491440536fb1b18f"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-jianchuan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.dili360.com/cng/article/p5350c3d6a1dc906.htm",
+        "https://cnxxk.com.cn/list_24/1457.html",
+        "https://www.jianchuan.gov.cn/jcxrmzf/c108508/pc/content/1984051500308074496/content_1984051500308074496.html"
+      ],
+      "contentHash": "658425ccc5cbe0f1c4338723a55f9892a671a9929b725db11a9189d0b60eebad"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-eryuan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://lcj.yn.gov.cn/special/2025/0813/6962.html",
+        "https://cnxxk.com.cn/list_32/1700.html",
+        "https://www.dili360.com/cng/article/p5350c3d6a1dc906.htm"
+      ],
+      "contentHash": "d48a6ee8723d17a47ef799b1a59349ddd2871c0a49ced077761ed69dfe6c5805"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-dali",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nd-geopark.com/hezuojiaoliu/492.html",
+        "https://cnxxk.com.cn/list_24/1457.html",
+        "https://www.dili360.com/cng/article/p5350c3d6a1dc906.htm"
+      ],
+      "contentHash": "51975f86acbadfaa3b25cea71e636b54e9d05ecbc8e9bfeaf4177dbe7811a981"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-baoshan",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.baoshan.gov.cn/info/1015/9379394.htm",
+        "https://www.longyang.gov.cn/info/4638/9769399.htm"
+      ],
+      "contentHash": "c79874ea7fd81a3c82df97e558199ae90f6171d196728e914aa097ea94b5105a"
+    },
+    {
+      "theme": "xu",
+      "id": "xu-tengchong",
+      "state": "researched-batch-13",
+      "reason": "逐项阅读所列游记、研究与机构资料；区分历史观察、今日可见地形、重建及复制。未作现场通行或全量史实认证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://baoshan.gov.cn/info/7792/2345334.htm",
+        "https://cnxxk.com.cn/list_24/1457.html"
+      ],
+      "contentHash": "1120df41eafc4a1a61e8e6c08251837573b5f36503cbdffa1e7a14b6ef962220"
     }
   ]
 }

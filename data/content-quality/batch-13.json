@@ -1,0 +1,949 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-13",
+  "baseline": "2d2c9b3586de2cda93fde3202d497981eac0e32e",
+  "checked": "2026-11-18",
+  "scope": "All twenty-four existing Xu Xiake route contexts. First dedicated expanded readings: natural landforms and water-source observations, layered urban remains, present reconstruction, mountain religious space and modern memorial authorship. Six different journeys remain separate; current visits not claimed as documented personal stops. No image, coordinate or itinerary changes.",
+  "sources": {
+    "xu-chronology": {
+      "title": "江阴市徐霞客研究会所载选注前言：各旅次、版本与校勘边界",
+      "url": "https://cnxxk.com.cn/list_24/1457.html",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Used for broad dated diary sequence, not to reconstruct exact modern paths. Obvious 1939/1639 typo and disputed punctuation are not copied."
+    },
+    "xu-tiantai-landscape": {
+      "title": "国家林草局/浙江林业局：天台霞客古道的山地与石梁段",
+      "url": "https://www.forestry.gov.cn/c/www/dfdt/542885.jhtml",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. 2024 designation describes protected modern heritage route. It does not prove every modern step or surface is unchanged since 1613; exact first-entry day omitted."
+    },
+    "xu-yandang-geology": {
+      "title": "中国地质调查局南京中心：流纹岩地貌与大龙湫水源复核",
+      "url": "https://www.cgs.gov.cn/ywdt/dwdt/201704/t20170406_827710.html",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. "
+    },
+    "xu-yandang-study": {
+      "title": "陶奎元：徐霞客与雁荡山，火山地质与旧图水源问题",
+      "url": "https://zrzykpywh.magtechjournal.com/article/2017/2095-8714/2095-8714-12-4-46.shtml",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. "
+    },
+    "xu-qiyun-field": {
+      "title": "徐霞客研究会所载齐云山实地考察：丹霞、崖刻与道观",
+      "url": "https://cnxxk.com.cn/list_15/55.html",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. First-hand field account used for features, not its conflicting introductory Lushan sequence or the claim that current tourist paths exactly duplicate historical travel."
+    },
+    "xu-qiyun-built": {
+      "title": "中国旅游报：月华天街、丹霞与道观",
+      "url": "https://www.ctnews.com.cn/paper/content/202309/05/content_82336.html",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Site editorial account read for physical features, not unqualified imperial legend or superlatives."
+    },
+    "xu-ou-huangshan": {
+      "title": "UNESCO：花岗岩、松林与山水审美",
+      "url": "https://whc.unesco.org/en/list/547/",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished.  Does not repeat the page’s claim that Chinese shanshui painting originated in the sixteenth century; no guarantee of clouds or sunrise."
+    },
+    "xu-ou-wuyi": {
+      "title": "UNESCO：九曲溪红砂岩与书院、保护区分区",
+      "url": "https://whc.unesco.org/en/list/911/",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished.  Obvious contradictory Shang/2nd-century-BCE dating not adopted; geographic components separated without treating all as one open park."
+    },
+    "xu-ou-lushan": {
+      "title": "UNESCO：山江湖景观、书院与近代别墅",
+      "url": "https://whc.unesco.org/en/list/778/",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. "
+    },
+    "xu-ou-songshan": {
+      "title": "UNESCO：登封分散古建筑与观星台",
+      "url": "https://whc.unesco.org/en/list/1305/",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. "
+    },
+    "xu-ou-wudang": {
+      "title": "UNESCO：多期道教建筑与山地布局",
+      "url": "https://whc.unesco.org/en/list/705/",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished.  OUV wording couples the current Golden Shrine with 1307; this is not adopted. Separate metallurgy paper supports the 1416 gilded hall. Old future-tense reservoir plans not repeated."
+    },
+    "xu-ou-wutai": {
+      "title": "UNESCO：五台山地形、寺院及木构",
+      "url": "https://whc.unesco.org/en/list/1279/",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. "
+    },
+    "xu-ou-longmen": {
+      "title": "UNESCO：龙门北魏和唐代石刻",
+      "url": "https://whc.unesco.org/en/list/1003/",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. "
+    },
+    "xu-songshan-text": {
+      "title": "徐霞客《游嵩山日记》原文：平原、水石、太室、少室与伊阙",
+      "url": "https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Public-domain historical text in modern transcription; original wording distinguished from interspersed modern glosses. An unrelated modern bilingual site with obvious mistranslations of Taihe/Great Peak was excluded."
+    },
+    "xu-kaifeng-arch": {
+      "title": "河南省文物考古研究院：州桥地层、桥体与北宋石壁",
+      "url": "https://hnswwkgyjy.cn/NewsView.php?News_ID=2832",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Institutional archaeological analysis; contemporary display not asserted as a personally visited site in Xu’s diary."
+    },
+    "xu-zhengzhou-museum": {
+      "title": "郑州市文物局：商都遗址博物院与城市考古",
+      "url": "https://www.zhengzhou.gov.cn/view45/6664682.jhtml",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Modern museum is a suggested place-context visit, not a documented Xu visit; hours omitted."
+    },
+    "xu-xinmi-heritage": {
+      "title": "新密城关镇：县衙、城隍庙与天仙白松碑",
+      "url": "https://xm.jiceng.zhengzhou.gov.cn/020007/3831005.jhtml",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Municipal inventories differ on floor area and reconstruction details; use Ming-Qing fabric and layout without claiming the ancient pine survives today or Xu entered the yamen."
+    },
+    "xu-huashan": {
+      "title": "渭南地方机构所载：华山花岗岩峰形与徐霞客西峰记述",
+      "url": "https://weinan.qinfeng.gov.cn/info/1095/36343.htm",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Old 2008 background account. Exact rock-age, peak-height and current rebuilding/access claims not automatically adopted."
+    },
+    "xu-wudang-bronze": {
+      "title": "谭德睿：武当山金殿的铸铜仿木技术",
+      "url": "https://www.special-cast.com/zh/article/46142220/",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Scholarly metallurgy abstract read: 1416 gilded cast-bronze hall, columns and timber-style form. No claim to have read inaccessible full article."
+    },
+    "xu-wutai-text": {
+      "title": "徐霞客《游五台山日记》开篇：出都与山溪辨源",
+      "url": "https://zh.wikisource.org/zh-hans/徐霞客遊記/遊五台山日記",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Public-domain text; this online transcription presents opening travel sections only, not treated as complete diary. Source supports departure from the capital, not a specific residence."
+    },
+    "xu-beijing-water": {
+      "title": "北京市政府：金中都水关的基础、石壁与城市水系",
+      "url": "https://www.beijing.gov.cn/renwen/rwzyd/qgzdwwbhdw/jzdsgyz/202211/t20221101_2849494.html",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. A modern contextual archaeological visit, not Xu’s recorded stop. Existing regional coordinate preserved; current museum name separately checked."
+    },
+    "xu-beijing-museum": {
+      "title": "北京市文物局：北京考古遗址博物馆金中都水关馆区",
+      "url": "https://wwj.beijing.gov.cn/bjww/362771/362773/743761575/index.html",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. "
+    },
+    "xu-hengshan": {
+      "title": "恒山管理中心：1633年北游、移祀年代及古路线不确定处",
+      "url": "https://www.byhs.net.cn/news_detial/11.html",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Article has old promotional dates despite later displayed date and inconsistent biography. No prices, birth year, claimed original autograph carving, or unresolved local route identification adopted."
+    },
+    "xu-jizu-study": {
+      "title": "江阴徐霞客研究会：鸡足山多次停留、静闻与修志",
+      "url": "https://cnxxk.com.cn/list_32/1636.html",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Lunar-year dates not silently converted to Gregorian dates. Accounts differ on completion of the lost mountain gazetteer; reading says compilation, not a verified complete surviving book."
+    },
+    "xu-lijiang-rebuild": {
+      "title": "云南省图书馆数字平台：木府后世毁损与1990年代重建",
+      "url": "https://www.ynscsp.cn/nd.jsp?fromColId=2&id=28835",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Uses reconstruction and architectural functions, not unverified claim every displayed book/object is original or an assumption that reconstruction equals old fabric."
+    },
+    "xu-lijiang-study": {
+      "title": "杨福泉：木府前世今生与1997—1999年重建",
+      "url": "https://www.lijiang.cn/article/148365.html",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Named scholarly author, local publication. Reconstructed architecture, original memories and modern copies distinguished."
+    },
+    "xu-jianchuan-field": {
+      "title": "张建术《中国国家地理》实地重访：剑川金华山与盆地",
+      "url": "https://www.dili360.com/cng/article/p5350c3d6a1dc906.htm",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. First-hand field account; historic Lanzhou name not misread as modern Gansu capital, no claim Xu examined stone grotto carvings."
+    },
+    "xu-eryuan-wetland": {
+      "title": "云南林草局湿地处：茈碧湖湿地、涌泉与生态",
+      "url": "https://lcj.yn.gov.cn/special/2025/0813/6962.html",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. No adoption of the page’s apparently inconsistent Mekong-water-source label for this Erhai-source wetland; drainage claim restricted to Erhai source setting."
+    },
+    "xu-eryuan-sculptor": {
+      "title": "樊青球：茈碧湖霞客书院与主题塑像创作的当事人记录",
+      "url": "https://cnxxk.com.cn/list_32/1700.html",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. First-person artist account supports modern memorial role; no implication Xu studied in today’s academy."
+    },
+    "xu-dali-geo": {
+      "title": "宁德世界地质公园：苍山变质岩、冰川地貌与洱海断陷",
+      "url": "https://www.nd-geopark.com/hezuojiaoliu/492.html",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Geopark institution description read, precise numerical ages and unqualified southernmost claims omitted."
+    },
+    "xu-baoshan-conservation": {
+      "title": "隆阳文旅局：霁虹桥损毁、石刻与复制性恢复",
+      "url": "https://www.longyang.gov.cn/info/4638/9769399.htm",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. "
+    },
+    "xu-baoshan-route": {
+      "title": "保山市政府：水寨地形、平坡铺与霁虹桥迁移复制",
+      "url": "https://www.baoshan.gov.cn/info/1015/9379394.htm",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. Local managing-authority account: route topography and 2014 selective replication. Ancient-origin legends and conflicting day counts not adopted."
+    },
+    "xu-tengchong": {
+      "title": "保山市文旅局：腾冲火山、热海、泉华与喷气孔",
+      "url": "https://baoshan.gov.cn/info/7792/2345334.htm",
+      "checked": "2026-11-18",
+      "method": "Primary historical text, specialist research, institutional conservation material or first-hand site account read. Original concise paraphrase; no photo reuse or field visit by this editor. Historic route and present fabric/access distinguished. No therapeutic benefit, exact magma-body dimension or guarantee current volcanic activity inferred from tourism wording; thermal and volcanic visitor areas distinct."
+    },
+    "xu-jianchuan-town": {
+      "title": "剑川县人民政府：剑川古城游玩攻略",
+      "url": "https://www.jianchuan.gov.cn/jcxrmzf/c108508/pc/content/1984051500308074496/content_1984051500308074496.html",
+      "checked": "2026-11-18",
+      "method": "Read municipal description of reconstructed south gate, courtyard types, woodwork galleries and private houses. Paraphrase physical objects; do not repeat promotional claims, fixed opening/transport timings or imply every displayed building was visited by Xu."
+    }
+  },
+  "readings": [
+    {
+      "id": "xu-tiantai",
+      "theme": "xu",
+      "title": "在石梁与山溪之间，读1613年的山地观察",
+      "summary": "天台山的石梁、瀑流与华顶一带山地，是读1613年日记的具体入口。今日霞客古道按文献线索保护串联，卵石路面、寺院与山林呈现持续使用的景观，不能全部当作未改动的明代原路。",
+      "paragraphs": [
+        {
+          "heading": "先看水怎样穿过石与落差",
+          "text": "石梁和瀑流把岩体形状、落水与山谷相接，适合在开放观景区比较近处水石与更远山势。日记的价值也在观察随位置改变，不需要把古人冒险攀越的方法当成今日登山要求。",
+          "sourceKeys": [
+            "xu-tiantai-landscape"
+          ]
+        },
+        {
+          "heading": "古道名称与今天的通行分开",
+          "text": "2024年认定的省一级霞客古道跨宁海、天台、新昌，保护线路包含华顶、石梁与寺院等段。它是现代保护体系中的多段道路，具体修缮、边界与开放仍逐段看公告，本图区域点不复原全部脚步。",
+          "sourceKeys": [
+            "xu-tiantai-landscape"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-tiantai-landscape"
+      ],
+      "related": [
+        "xu-yandang"
+      ]
+    },
+    {
+      "id": "xu-yandang",
+      "theme": "xu",
+      "title": "从火山岩形状，追问大龙湫的水从哪里来",
+      "summary": "雁荡山的流纹质火山岩形成锐峰、岩嶂、石门与谷地。徐霞客对雁湖与大龙湫水源的辨别，又获地质调查团队实地复核；岩体与水系能在同一处山景中互相解释。",
+      "paragraphs": [
+        {
+          "heading": "岩峰不同，和火山结构也有关",
+          "text": "中国地质调查局研究区分厚层流纹岩、熔结凝灰岩及侵入体形成的不同地貌，并强调断裂、抬升、崩塌和流水侵蚀共同塑形。观察岩壁层次、峰形与谷口，可以把“奇峰”继续读成地质过程。",
+          "sourceKeys": [
+            "xu-yandang-geology"
+          ]
+        },
+        {
+          "heading": "不要仅凭高处有湖推断瀑布源头",
+          "text": "徐霞客不沿袭雁湖供给大龙湫的旧说，实地辨别水路。地质研究者后来结合踏勘与无人机进一步确认龙湫背水系。可借解说比较集水方向与山脊分界，按开放路径观察，不照搬古人临崖探源。",
+          "sourceKeys": [
+            "xu-yandang-study"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-yandang-geology",
+        "xu-yandang-study"
+      ],
+      "related": [
+        "xu-tiantai"
+      ]
+    },
+    {
+      "id": "xu-qiyun",
+      "theme": "xu",
+      "title": "白岳的红色崖壁，接上刻石与月华街",
+      "summary": "齐云山在日记中称白岳，丹霞崖壁、天然岩洞与摩崖题刻相邻。临崖月华街和道观又把宗教、居住放进山势，适合把1616年行迹与今天持续使用的地方空间分开细看。",
+      "paragraphs": [
+        {
+          "heading": "先看崖壁如何形成门与窟",
+          "text": "红色岩体中的洞穴和崖下空间，既是地貌，也为题刻与修行提供场所。可从公共路径比较天然石面、后刻文字和建筑基础，辨认自然成形与人的再利用。",
+          "sourceKeys": [
+            "xu-qiyun-field"
+          ]
+        },
+        {
+          "heading": "月华街不是孤立的观景台",
+          "text": "街道随山崖弯曲，道观、住屋与日常生活靠近同一条路。沿线看门廊、墙体与地形的接合，能理解山地聚落的尺度；现代步道与修复建筑不自动等于日记中的原物原路。",
+          "sourceKeys": [
+            "xu-qiyun-built"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-qiyun-field",
+        "xu-qiyun-built"
+      ],
+      "related": [
+        "xu-huangshan",
+        "xu-wuyi"
+      ]
+    },
+    {
+      "id": "xu-huangshan",
+      "theme": "xu",
+      "title": "两次游黄山，读花岗岩、松林与不同视点",
+      "summary": "徐霞客1616、1618年两游黄山，属于两次旅程。花岗岩峰、石隙松林与随天气变化的云雾，是比较两次观看的入口；山水绘画与题刻又留下人的回应，不必靠未经核实的名句认识这里。",
+      "paragraphs": [
+        {
+          "heading": "同一岩峰会随位置和天气改变",
+          "text": "峰体、孤石、松树和谷地组成山景，云雾改变可见的远近。可以在开放观景点比较同一峰的轮廓与遮挡，不把日出云海作为每次到访的保证，也不据照片复原古人的具体攀登线。",
+          "sourceKeys": [
+            "xu-ou-huangshan"
+          ]
+        },
+        {
+          "heading": "自然景观还被不断写与画",
+          "text": "黄山长期吸引画家、诗人与宗教活动，岩刻、路径和寺院遗迹也进入景观。读一处刻石或一件山水作品时分清作者、年代与取景范围，再与现场比较；自然价值与艺术回应各有证据。",
+          "sourceKeys": [
+            "xu-ou-huangshan",
+            "xu-chronology"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-ou-huangshan",
+        "xu-chronology"
+      ],
+      "related": [
+        "xu-qiyun",
+        "xu-lushan"
+      ]
+    },
+    {
+      "id": "xu-wuyi",
+      "theme": "xu",
+      "title": "九曲溪的红砂岩，与沿水展开的学习空间",
+      "summary": "1616年武夷之游可由九曲溪、红砂岩崖壁与书院传统进入。溪谷景观区、森林保护区和城村汉城址并非同一参访尺度，水路观景与宗教、教学设施各有地理位置。",
+      "paragraphs": [
+        {
+          "heading": "河流转弯时，岩壁的关系也改变",
+          "text": "九曲溪在高耸砂岩崖体之间转折，适合看河面、崖壁与植被如何互相衬托。山地森林的生态价值又超出常见竹筏照片；选择开放路线细看，不把代表点当全部自然保护区的入口。",
+          "sourceKeys": [
+            "xu-ou-wuyi"
+          ]
+        },
+        {
+          "heading": "沿溪的书院与寺观有不同阶段",
+          "text": "遗产包括与理学传播相关的书院及寺观、题刻等遗存，部分已经成为遗址。将建筑原址、后世重建与今日展示分开，能理解学习与信仰怎样进入山水；1616行程与后来的滇西游历相隔多年。",
+          "sourceKeys": [
+            "xu-ou-wuyi",
+            "xu-chronology"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-ou-wuyi",
+        "xu-chronology"
+      ],
+      "related": [
+        "xu-qiyun",
+        "xu-huangshan"
+      ]
+    },
+    {
+      "id": "xu-lushan",
+      "theme": "xu",
+      "title": "山、江、湖之间，分开看书院与近代别墅",
+      "summary": "1618年庐山之游，可与长江、鄱阳湖和山体的关系一起读。白鹿洞书院、寺观、石桥和近代别墅属于不同层次，不能将今天一切建筑都投回徐霞客所处的年代。",
+      "paragraphs": [
+        {
+          "heading": "先把山景放回江湖之间",
+          "text": "庐山处在长江与鄱阳湖之间，山谷、溪瀑与更开阔水域形成对照。可按开放视点比较高差和水流，不用一个“名山”标签掩盖不同坡面与出水方向。",
+          "sourceKeys": [
+            "xu-ou-lushan"
+          ]
+        },
+        {
+          "heading": "建筑变化说明不同的人怎样使用山",
+          "text": "白鹿洞书院经历多次扩展，寺院与观音桥又有不同历史；近代别墅则属于19、20世纪以来的避暑生活。选择一种建筑细看庭院、材料与景观关系，分清书院传统、修复及更晚旅游设施。",
+          "sourceKeys": [
+            "xu-ou-lushan",
+            "xu-chronology"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-ou-lushan",
+        "xu-chronology"
+      ],
+      "related": [
+        "xu-huangshan"
+      ]
+    },
+    {
+      "id": "xu-kaifeng",
+      "theme": "xu",
+      "title": "从平原视野，回看州桥下叠压的城市",
+      "summary": "《游嵩山日记》以大梁一带平坦地势对比近嵩山的水石。今日开封州桥及汴河考古又显示河道、桥梁与洪水地层；它提供城市背景的探访对象，不被附会成日记明确记载的个人落脚处。",
+      "paragraphs": [
+        {
+          "heading": "日记先让平原与山地形成对照",
+          "text": "徐霞客说入自大梁后，近嵩才逐渐见群峰和溪流，把得水、得石作为观看变化。这提醒读者开封在这段旅程里首先是平原出发区域，本图现代城市点没有精确复原旧驿路。",
+          "sourceKeys": [
+            "xu-songshan-text"
+          ]
+        },
+        {
+          "heading": "州桥看不同年代怎样叠在一起",
+          "text": "考古区有唐宋以来河道与明代桥体，1642年洪水又淤没桥面；北宋石壁刻海马、瑞兽、云纹并留拼装编号。可通过遗址说明读水运、雕刻和城市埋藏，区分宋石刻、明桥与现代保护展示。",
+          "sourceKeys": [
+            "xu-kaifeng-arch"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-songshan-text",
+        "xu-kaifeng-arch"
+      ],
+      "related": [
+        "xu-zhengzhou",
+        "xu-songshan"
+      ]
+    },
+    {
+      "id": "xu-zhengzhou",
+      "theme": "xu",
+      "title": "沿路水石观察之外，另读城市的夯土历史",
+      "summary": "1623年日记在郑州一带写石坡泉池、涧底与向密县行进。今天城内商都遗址及博物院又可看夯土都城的更早背景；这是现代分段探访的选择，不写成徐霞客参观过的博物馆。",
+      "paragraphs": [
+        {
+          "heading": "把路书的观察和今天路网分开",
+          "text": "日记描述泉水停在山半、涧底干涸与石色变化，随后跨岭入密县。可以读他如何用水、石与高差认识道路；旧地名对照仍有范围，本图城市代表位置不等于当年泉池的精确坐标。",
+          "sourceKeys": [
+            "xu-songshan-text"
+          ]
+        },
+        {
+          "heading": "商都遗址提供另一种城市尺度",
+          "text": "商都遗址博物院与考古遗址公园相接，以早商都城、城垣和出土材料组织展示。可比较原有遗迹、模型和新馆建筑，理解现代城市下有更早层次；这段背景补充与明代旅次分别阅读。",
+          "sourceKeys": [
+            "xu-zhengzhou-museum"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-songshan-text",
+        "xu-zhengzhou-museum"
+      ],
+      "related": [
+        "xu-kaifeng",
+        "xu-xinmi"
+      ]
+    },
+    {
+      "id": "xu-xinmi",
+      "theme": "xu",
+      "title": "密县的古树记述，与旧城院落的后来层次",
+      "summary": "日记中的密县为今新密，天仙院白松与滴水是当年细察对象。今日旧城县衙、城隍庙与白松碑又提供不同证据；碑文、现存建筑和古树是否仍存不能混成同一件事。",
+      "paragraphs": [
+        {
+          "heading": "树、岩和水在日记里各有细部",
+          "text": "徐霞客记三干白松的姿态，又下看崖下滴水，再返回县城向嵩山行进。这些是当时观察，不保证树或旧院今天原样存在；适合借文献读他为何为一株树和一处水停留。",
+          "sourceKeys": [
+            "xu-songshan-text"
+          ]
+        },
+        {
+          "heading": "到旧城看县衙与庙宇的空间次序",
+          "text": "地方文保名录列县衙五进院落和城隍庙的中轴建筑，现存风格属于明清及后续维护。可以看大门、仪门、厅堂与街道关系，不把隋代创设传承等同现存每一间房屋年代，也不声称徐霞客进入过县衙。",
+          "sourceKeys": [
+            "xu-xinmi-heritage"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-songshan-text",
+        "xu-xinmi-heritage"
+      ],
+      "related": [
+        "xu-zhengzhou",
+        "xu-songshan"
+      ]
+    },
+    {
+      "id": "xu-songshan",
+      "theme": "xu",
+      "title": "太室、少室与告成，把山水和测影分别读",
+      "summary": "1623年嵩山日记细分太室、少室、水石和寺院，又提到告成测景台的位置。山地观察与登封观星、礼制建筑是相邻而不同的线索，不能把一个山地代表点当成所有遗产的入口。",
+      "paragraphs": [
+        {
+          "heading": "先看两座山的性格，而非只记五岳名",
+          "text": "日记比较太室与少室的峰势、云雾和峡谷，还写到石淙水石相融。可在开放路径上比较岩壁、谷口与水道，关注作者怎样因天气和位置调整判断，不复走他跨崖搭木的险路。",
+          "sourceKeys": [
+            "xu-songshan-text"
+          ]
+        },
+        {
+          "heading": "观星台与寺庙是分散的组成点",
+          "text": "登封古建筑遗产包含观星台、中岳庙、书院与少林等不同点，关联测影、礼制、教育和宗教。日记提及测景台，不足以推定他进入每个建筑；现代探访按兴趣分段定位，连线只示站序。",
+          "sourceKeys": [
+            "xu-ou-songshan"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-songshan-text",
+        "xu-ou-songshan"
+      ],
+      "related": [
+        "xu-xinmi",
+        "xu-shaolin",
+        "xu-longmen"
+      ]
+    },
+    {
+      "id": "xu-shaolin",
+      "theme": "xu",
+      "title": "从碑刻、寺院和少室山，读三种尺度",
+      "summary": "徐霞客在少林留宿、观察碑刻，并登少室山；寺院空间和险峻山体不是同一类参访。今日少林建筑、塔林和周边遗产又有不同年代，应分别看说明，不只留下一个功夫符号。",
+      "paragraphs": [
+        {
+          "heading": "日记里的少林也有树与碑",
+          "text": "他记录新旧碑、松柏、殿宇和与僧人相处，随后转向少室山。可先选择可开放寺院区域读碑的内容和建筑次序，再安排山地体验；历史攀爬叙述不能作为今天可走路线。",
+          "sourceKeys": [
+            "xu-songshan-text"
+          ]
+        },
+        {
+          "heading": "塔林与不同建筑不归于同一年",
+          "text": "少林寺相关组成点与塔林记录长期宗教活动，塔的形制、材料和纪念对象也有差异。把墓塔、寺院与山峰分开，借现场标识辨认原构件、修缮和复原，不把全部建筑统一归给寺院最早创建年代。",
+          "sourceKeys": [
+            "xu-ou-songshan"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-songshan-text",
+        "xu-ou-songshan"
+      ],
+      "related": [
+        "xu-songshan",
+        "xu-longmen"
+      ]
+    },
+    {
+      "id": "xu-longmen",
+      "theme": "xu",
+      "title": "伊水两岸，读山门地形与满崖造像",
+      "summary": "《游嵩山日记》写伊阙山冈、河流及崖上密集佛龛，随后转向西岳。今日龙门石窟的北魏、唐代石刻可与这段观看对照，但当年木桥和路网不能直接套到今日参访线路。",
+      "paragraphs": [
+        {
+          "heading": "从河与两岸山势开始",
+          "text": "日记将南来的伊水、横亘山冈和崖上造像放在同一观看中。可以在开放区域先辨两岸关系，再近看洞窟尺度，不必把所有龛像都归入一座“大洞”，也不沿叙述寻找已经未必存在的木桥。",
+          "sourceKeys": [
+            "xu-songshan-text"
+          ]
+        },
+        {
+          "heading": "挑一个阶段细读石刻",
+          "text": "龙门的北魏和唐代作品在形体、组合与空间上有不同变化，既可看大型造像，也可看小龛和题记。分辨时代与修缮、残缺和展示条件，能让日记所说满崖造像转化为具体艺术阅读。",
+          "sourceKeys": [
+            "xu-ou-longmen"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-songshan-text",
+        "xu-ou-longmen"
+      ],
+      "related": [
+        "xu-shaolin",
+        "xu-huashan"
+      ]
+    },
+    {
+      "id": "xu-huashan",
+      "theme": "xu",
+      "title": "花岗岩峰形与石片如莲，读太华的观察",
+      "summary": "徐霞客1623年游太华，今华山；西峰岩片形似莲瓣的记录，可与花岗岩峰体和陡壁对照。现行索道、栈道及重修庙宇属于另一层使用，日记不是今日攀登操作说明。",
+      "paragraphs": [
+        {
+          "heading": "从轮廓进入岩体细节",
+          "text": "花岗岩峰体形成高差、裂隙和大块岩面，西峰的石片给古人莲花联想。可在正规开放观景点比较远景与近景，不把一种诗意命名直接当成地质成因。",
+          "sourceKeys": [
+            "xu-huashan"
+          ]
+        },
+        {
+          "heading": "旧游历与现代设施分开选择",
+          "text": "华山多个峰与庙观经历长期维护、毁损和重建，今日游客交通也与明代不同。读山形、石片和古人视点可以深化探访，本图不要求复走险脊，也不把现代台阶标作1623年原路。",
+          "sourceKeys": [
+            "xu-huashan",
+            "xu-chronology"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-huashan",
+        "xu-chronology"
+      ],
+      "related": [
+        "xu-longmen",
+        "xu-wudang"
+      ]
+    },
+    {
+      "id": "xu-wudang",
+      "theme": "xu",
+      "title": "在太和山，分辨铜殿、宫观与山势",
+      "summary": "1623年日记中的太和山为今武当山。宫观随山峰和谷地布置，现存铜殿与砖木建筑有不同年代；1416年金殿的铸铜仿木技术，给山地道教空间一个具体近看对象。",
+      "paragraphs": [
+        {
+          "heading": "宫观怎样进入山地层次",
+          "text": "武当建筑群在元、明、清持续形成，宫殿、庵观与门坊依峰、谷和道路相接。可比较轴线与坡地转折，理解宗教与政治支持怎样改变山地，而不将每处建筑都归到道教最早入山时间。",
+          "sourceKeys": [
+            "xu-ou-wudang"
+          ]
+        },
+        {
+          "heading": "金殿是金属建筑，也模仿木作",
+          "text": "铸铜鎏金金殿以柱、斗拱、檐椽等呈现仿木构形式，材料和装配是重要观察点。它与更早的古铜殿须分开；徐霞客历史探访、后续维修与今天开放的宫观不是一份不变清单。",
+          "sourceKeys": [
+            "xu-wudang-bronze",
+            "xu-chronology"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-ou-wudang",
+        "xu-wudang-bronze",
+        "xu-chronology"
+      ],
+      "related": [
+        "xu-huashan"
+      ]
+    },
+    {
+      "id": "xu-beijing",
+      "theme": "xu",
+      "title": "1633年出都之前，另看城市水关的层次",
+      "summary": "《游五台山日记》开篇记1633年出都，未给出本图可确认的具体住所。现代分段探访可另看金中都水关遗址：城墙与水道相交，让北京城市背景有具体工程对象，不附会为霞客到访点。",
+      "paragraphs": [
+        {
+          "heading": "把出发区域与个人落脚处区别开",
+          "text": "日记由离开京城转入五台旅程，关注沿途山溪如何相接。北京在此是行旅框架中的城市区域，不因点位靠近某景区就推定徐霞客曾住在那里，也不把北游和1623年嵩华之行连成一次。",
+          "sourceKeys": [
+            "xu-wutai-text"
+          ]
+        },
+        {
+          "heading": "水关看城市如何让河水穿墙",
+          "text": "金中都水关现存涵洞底部、两侧石壁及夯土城墙等基础，考古关系提示都城排水和水系位置。北京考古遗址博物馆的金中都水关馆区在丰台，与其他馆区分开；它是今日城市背景选择，并非明代私人故居。",
+          "sourceKeys": [
+            "xu-beijing-water",
+            "xu-beijing-museum"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-wutai-text",
+        "xu-beijing-water",
+        "xu-beijing-museum"
+      ],
+      "related": [
+        "xu-wutai",
+        "xu-hengshan"
+      ]
+    },
+    {
+      "id": "xu-wutai",
+      "theme": "xu",
+      "title": "五个台顶与寺院地带，保留北游的空间差别",
+      "summary": "1633年徐霞客北游五台，日记开篇就辨认溪流源向与山口。五台山的高台地形、山谷寺院及早期木构属于不同参访范围，不能用台怀一处代表坐标包办所有台顶和古建筑。",
+      "paragraphs": [
+        {
+          "heading": "沿路的溪水比山名更具体",
+          "text": "日记开篇比较分合溪流、山岭与关口，甚至修正自己对水源的判断。可用开放道路上的谷口与分水位置练习同样的观察，不将原文里程直接转换成已验证的现代步行线路。",
+          "sourceKeys": [
+            "xu-wutai-text"
+          ]
+        },
+        {
+          "heading": "台顶、台怀与早期木构分别定位",
+          "text": "遗产价值包含五台地形、寺院长期营建和佛教艺术，佛光寺东大殿的唐代木构与塑像又在台怀之外。按兴趣选择分段，读清现存年代与维护，不能因为徐霞客到过五台就宣称他看过每一座今日著名建筑。",
+          "sourceKeys": [
+            "xu-ou-wutai",
+            "xu-chronology"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-wutai-text",
+        "xu-ou-wutai",
+        "xu-chronology"
+      ],
+      "related": [
+        "xu-beijing",
+        "xu-hengshan"
+      ]
+    },
+    {
+      "id": "xu-hengshan",
+      "theme": "xu",
+      "title": "北游名山，与后来移祀和纪念空间分开",
+      "summary": "徐霞客1633年游恒山，早于1660年北岳正式移祀浑源。山地庙群、金龙峡与悬空寺可分别理解；现代纪念题刻或亭子也有自己的时代，不自动等于霞客当年手迹。",
+      "paragraphs": [
+        {
+          "heading": "日记与现代地名仍需谨慎对照",
+          "text": "恒山管理机构的游线研究明确一些旧地名仍待确认，古人登顶和下山的险段也不能当现代通行线。可从现行开放步道看谷地、岩石与庙群的关系，把文字带回地形而非追求逐步复刻。",
+          "sourceKeys": [
+            "xu-hengshan"
+          ]
+        },
+        {
+          "heading": "礼制、寺院与纪念设施各读一层",
+          "text": "恒山作为山体、北岳祭祀制度及峡谷中的寺院不是同一个时间问题。关注现存建筑和修缮说明，再看后设纪念物，既能理解1633年观看，也能读后人如何为旅行者留下记忆。",
+          "sourceKeys": [
+            "xu-hengshan",
+            "xu-chronology"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-hengshan",
+        "xu-chronology"
+      ],
+      "related": [
+        "xu-wutai",
+        "xu-beijing"
+      ]
+    },
+    {
+      "id": "xu-jizu",
+      "theme": "xu",
+      "title": "山中停留，不只有登顶还有友谊与修志",
+      "summary": "鸡足山联系徐霞客多次停留、安葬同行僧人静闻及纂修山志的经历。寺院、僧人日常与山川调查交织，使滇西游历既有自然观察，也有需要他人接待、协作和照料的一面。",
+      "paragraphs": [
+        {
+          "heading": "寺院之间的生活同样进入日记",
+          "text": "他在悉檀寺等处停留，记录僧人交往、节庆、饮食与山中地物。可选开放寺院或纪念说明读人物关系，区分历史寺院、遗址和后来纪念物，不把山顶一个观景点等同全部停留经历。",
+          "sourceKeys": [
+            "xu-jizu-study"
+          ]
+        },
+        {
+          "heading": "修志也是整理山地知识",
+          "text": "晚年纂修《鸡足山志》涉及山脉、水文、物产与寺院资料，朋友木增又提供支持。山志的散佚与完成情况有不同说法，本阅读只说纂修，不制造一部今日仍完整可见的亲笔稿；多次进山也未压成一次连续登山。",
+          "sourceKeys": [
+            "xu-jizu-study",
+            "xu-chronology"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-jizu-study",
+        "xu-chronology"
+      ],
+      "related": [
+        "xu-lijiang",
+        "xu-dali"
+      ]
+    },
+    {
+      "id": "xu-lijiang",
+      "theme": "xu",
+      "title": "与木氏往来，今日木府先认清重建层",
+      "summary": "徐霞客在丽江与木氏往来，地方权力、文学和佛教为旅途提供联系。今天木府主要建筑有1997—1999年重建背景；中轴空间与木石工艺仍值得看，却不能全部称作他曾亲见的明代原屋。",
+      "paragraphs": [
+        {
+          "heading": "府署的功能沿中轴分布",
+          "text": "议事、藏书、家居和后方山地空间形成不同层次，适合看门、厅、楼与坡地的关系。建筑装饰联系多种地方工艺，原有制度与今天按历史风格恢复的建筑应分别理解。",
+          "sourceKeys": [
+            "xu-lijiang-rebuild"
+          ]
+        },
+        {
+          "heading": "图书、壁画与人物记忆各核对载体",
+          "text": "今日展示包含后来的复制与临摹，木府也承载对徐霞客、木增等人物的研究和纪念。看展签时确认原件、复制和作者年代，避免把现代墙面画或恢复书楼直接说成1639年完整遗存。",
+          "sourceKeys": [
+            "xu-lijiang-study"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-lijiang-rebuild",
+        "xu-lijiang-study"
+      ],
+      "related": [
+        "xu-jizu",
+        "xu-jianchuan"
+      ]
+    },
+    {
+      "id": "xu-jianchuan",
+      "theme": "xu",
+      "title": "从金华山看盆地，再读城镇与山路",
+      "summary": "徐霞客1639年经过剑川，金华山是理解剑川坝形势的具体入口。山顶、盆地、耕地与聚落可以互相对读；今天县城代表点不等于古路、石窟或山顶入口都在同一处。",
+      "paragraphs": [
+        {
+          "heading": "抬高视点，比较山与坝的边界",
+          "text": "重访者在金华山从高处观察剑川坝，结合日记辨认周边山地与南北行路关系。可在允许到达的公共视点看田地、村镇和山脚怎样相接，不照搬旧地名到未经核对的现代远方城市。",
+          "sourceKeys": [
+            "xu-jianchuan-field"
+          ]
+        },
+        {
+          "heading": "古城细看院落与木作，辨别恢复建筑",
+          "text": "南门街可看三坊一照壁、四合五天井等院落形式及木石装饰，木雕馆又把日常门窗与工艺作品放在一起。南城门已有重建背景，私人住屋也不默认对外开放；这些是今日探访对象，不据此推定徐霞客看过每件现存作品。",
+          "sourceKeys": [
+            "xu-jianchuan-town"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-jianchuan-field",
+        "xu-chronology",
+        "xu-jianchuan-town"
+      ],
+      "related": [
+        "xu-lijiang",
+        "xu-eryuan"
+      ]
+    },
+    {
+      "id": "xu-eryuan",
+      "theme": "xu",
+      "title": "茈碧湖涌泉与湿地，再看现代纪念的作者",
+      "summary": "徐霞客在洱源浪穹一带观察湖泊与温泉。茈碧湖今天可读地下涌泉、湿地及洱海源头环境；霞客书院和塑像则属于后人纪念，既有自然内容，也应保留现代创作者。",
+      "paragraphs": [
+        {
+          "heading": "湖面之下还有泉水与生态",
+          "text": "云南林草机构说明茈碧湖湿地含湖泊与草海，地下涌泉伴气泡形成水面现象。可从开放岸线与解说看湖岸、湿地植物和泉的关系，不把保护地当作可任意涉水的游乐水域，也不保证每次看到同样水花。",
+          "sourceKeys": [
+            "xu-eryuan-wetland"
+          ]
+        },
+        {
+          "heading": "书院与塑像不是明代旧居",
+          "text": "雕塑家樊青球的当事人记录说明茈碧湖现代霞客书院及主题塑像的创作。它们适合读今天地方怎样纪念旅行者，同时与1639年观察分开；古日记、后世研究和现代艺术各有作者与载体。",
+          "sourceKeys": [
+            "xu-eryuan-sculptor",
+            "xu-jianchuan-field"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-eryuan-wetland",
+        "xu-eryuan-sculptor",
+        "xu-jianchuan-field"
+      ],
+      "related": [
+        "xu-jianchuan",
+        "xu-dali"
+      ]
+    },
+    {
+      "id": "xu-dali",
+      "theme": "xu",
+      "title": "苍山的岩石，洱海的断陷与湖滨生活",
+      "summary": "徐霞客的大理考察可与苍山—洱海地形一起读：变质岩、冰川地貌与断陷湖盆相接，湖滨聚落和地方工艺又回应山水。古城坐标只是区域入口，不等于全体山地、三塔和湖岸集中一处。",
+      "paragraphs": [
+        {
+          "heading": "先用山—盆地关系组织观看",
+          "text": "苍山地质遗迹包含变质岩与冰川地貌，洱海又与山地隆升和断陷有关。可以在开放低海拔视点先看山脊、出水谷地与湖面，再按兴趣深入，不把普通山石都笼统叫冰川遗物。",
+          "sourceKeys": [
+            "xu-dali-geo"
+          ]
+        },
+        {
+          "heading": "文化活动也在这个地形里延续",
+          "text": "崇圣寺三塔、城址、白族民居与扎染等分属建筑、生活和技艺。选择一类具体对象细看材料与使用，保留不同年代；本图1639年区域考察没有复原全部回访，也不把今日景区设施当作原日记所见。",
+          "sourceKeys": [
+            "xu-chronology",
+            "xu-jianchuan-field"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-dali-geo",
+        "xu-chronology",
+        "xu-jianchuan-field"
+      ],
+      "related": [
+        "xu-eryuan",
+        "xu-baoshan",
+        "xu-jizu"
+      ]
+    },
+    {
+      "id": "xu-baoshan",
+      "theme": "xu",
+      "title": "桥、山顶洼地与驿铺，分清原址和迁移复制",
+      "summary": "保山游踪可由澜沧江霁虹桥、平坡铺及水寨地形进入。水寨让徐霞客修正对“翻山下谷”的预想，桥与摩崖石刻今天又有迁移保护和复制展示，不能把新展示都当作原址原物。",
+      "paragraphs": [
+        {
+          "heading": "水寨的田地为什么在高处展开",
+          "text": "地方游线解说结合日记写山顶洼地、四周汇水与村落耕地的组合，平坡铺又体现过江后驿路的停歇。可读地形、水口与田地的关系，不只把它们作为抵达腾冲前的无内容途经点。",
+          "sourceKeys": [
+            "xu-baoshan-route"
+          ]
+        },
+        {
+          "heading": "霁虹桥展示有明确的后世变化",
+          "text": "文旅机构说明桥体损毁和电站建设背景，2014年以来采用原址保护与异地选址、重点石刻复制等办法。今日参访先确认所见为原构件、迁移或复制，桥区离保山市中心另有距离，不把城市点当作桥头坐标。",
+          "sourceKeys": [
+            "xu-baoshan-conservation"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-baoshan-route",
+        "xu-baoshan-conservation"
+      ],
+      "related": [
+        "xu-dali",
+        "xu-tengchong"
+      ]
+    },
+    {
+      "id": "xu-tengchong",
+      "theme": "xu",
+      "title": "沸泉、气孔和火山锥，读滇西的热与岩",
+      "summary": "1639年徐霞客记录腾冲地热与山川。热海的沸泉、喷气孔、泉华和火山景区的锥体、熔岩及柱状节理属于不同对象，值得分别看，不能把有温泉直接当成现代火山正在喷发。",
+      "paragraphs": [
+        {
+          "heading": "热海看水、气与沉积的不同表现",
+          "text": "地热区有高温泉、冒气地面及热水沉积，水和气的活动把地下热带到地表。可在管理方开放设施内比较这些表现，古人近距离探试的描述不用于今日触摸或饮用，也不把旅游“康养”措辞当医学结论。",
+          "sourceKeys": [
+            "xu-tengchong"
+          ]
+        },
+        {
+          "heading": "火山地貌另安排一段探访",
+          "text": "火山景区可见锥体、熔岩台地及河谷中的玄武岩柱状节理，与热海参访区分开。先读地质解说与现行路线，再看地形关系；城市代表点不标明每个入口，徐霞客的山川调查也不是一条已核实连续徒步线。",
+          "sourceKeys": [
+            "xu-tengchong",
+            "xu-chronology"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "xu-tengchong",
+        "xu-chronology"
+      ],
+      "related": [
+        "xu-baoshan"
+      ]
+    }
+  ]
+}

@@ -175,6 +175,48 @@
         "actualAssetBytesMatched": 49,
         "indexAssetReferencesMatched": true
       }
+    },
+    {
+      "batch": [
+        10,
+        11,
+        12
+      ],
+      "pr": 36,
+      "mainCommit": "2d2c9b3586de2cda93fde3202d497981eac0e32e",
+      "headCommit": "a88a3bcdb7dc340c87fcab316803751f926a777f",
+      "ciRuns": [
+        44332919760,
+        44332919648,
+        44332919716,
+        44332919789,
+        44332920806
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 191,
+        "detailChecks": 382,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 64,
+        "artifactId": 14439468804,
+        "zipSha256": "12b86cb1cb9eaa7c439ed2c87f078e4342b5971be3f83985ae34e37310f11ca6",
+        "libraryFileId": "libfile_fde3_f-245bedac08648191870708292d5145e3_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "mainCommit": "2d2c9b3586de2cda93fde3202d497981eac0e32e",
+        "run": 44336372663,
+        "release": "b09cbc4bba93dbfb80bc",
+        "actualAssetBytesMatched": 49,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Actual screenshot views were desktop Hortobagy and mobile Wuwei; automated checks cover all 191 readings at two CSS viewports. Existing dense overview map labels remain a visual follow-up, not certified resolved.",
+        "No new image or changed coordinates, licences or raw catalogue records."
+      ]
     }
   ]
 }
