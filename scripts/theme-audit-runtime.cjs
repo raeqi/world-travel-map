@@ -37,3 +37,17 @@ function assertReadingPreserved(old,now,theme){
  for(const id of old.essay?.related||[])assert.ok(now.essay?.related.includes(id),label+' lost related place');
 }
 module.exports={runtime,snapshot,assertReadingPreserved};
+
+// Source-bound coordinate repairs are additive corrections, not lost content.
+// Every other field remains subject to the original strict preservation check.
+function assertPlaceDataPreserved(now,old,label){
+ const assert=require('node:assert/strict'),s=require('../data/unesco-coordinate-supplements.json')[old.id.replace(/^wh-/, '')];
+ const expected={...old};
+ if(s&&old.lon==null&&old.lat==null){
+  assert.equal(now.lon,s.lon,label+' verified longitude');assert.equal(now.lat,s.lat,label+' verified latitude');
+  assert.equal(now.coordinateNote,'按 UNESCO '+s.retrieved+' 数据，以'+(s.component||'首个组成部分')+'示意定位；共 '+s.componentCount+' 个官方坐标，不代表完整遗产边界或导航入口。',label+' coordinate provenance');
+  Object.assign(expected,{lon:now.lon,lat:now.lat,coordinateNote:now.coordinateNote});
+ }
+ assert.deepEqual(now,expected,label);
+}
+module.exports.assertPlaceDataPreserved=assertPlaceDataPreserved;

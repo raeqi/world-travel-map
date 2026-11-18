@@ -11,6 +11,7 @@ on:
       - 'assets/natural-atlas/**'
       - 'tests/nature-discovery.test.cjs'
       - 'scripts/check-terra-ui.cjs'
+      - 'scripts/check-heritage-focus.cjs'
       - 'scripts/check-carousel.cjs'
       - 'scripts/check-nature-discovery.cjs'
       - 'scripts/check-media-presentation.cjs'
@@ -59,6 +60,7 @@ jobs:
         run: |
           node scripts/check-media-presentation.cjs
           node scripts/check-terra-ui.cjs
+          node scripts/check-heritage-focus.cjs
       - name: Check nature discovery and real carousel timing
         env:
           INLINE_SCREENSHOTS: '1'

@@ -106,6 +106,8 @@ body[data-view=catalog],body[data-view=catalog] main{background:#fff!important}
 @media(max-width:760px){.route-cover-placeholder{padding:14px 9px;min-height:220px}.route-cover-placeholder strong{font-size:13px}.route-cover-placeholder i{font-size:9px}.route-cover-photo figcaption{font-size:8px;padding:7px}.route-cover-photo{min-height:220px}}
 .reading-plan-links button{display:block;float:none!important;width:100%;text-align:left;padding:12px;background:#f3f6f8!important;border:1px solid #dbe2e8!important;border-radius:4px;margin:0 0 9px;color:#315e87!important}.reading-plan-links strong{font-size:12px;font-weight:500;line-height:1.8;display:block}.reading-plan-links small{font-size:10px!important;display:block;margin-top:4px;color:#647282!important}
 
+/* Missing coordinates must not look like a broken map click. */
+.location-unavailable{padding:12px 14px;border-left:3px solid var(--accent,#2a6671);background:#f1f5f4;color:#34515a;font-size:.9rem;line-height:1.65}
 /* Dense map legends stay available without obscuring the places themselves. */
 .legend.legend-disclosure{display:block;z-index:4}
 .map-legend-details{pointer-events:auto}

@@ -1,0 +1,299 @@
+{
+  "1758": {
+    "lon": 8.751962,
+    "lat": 56.895649,
+    "component": "Hanklit",
+    "componentCount": 2,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1758&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1752": {
+    "lon": 21.8745822223,
+    "lat": 61.5974091666,
+    "component": "Villa Mairea, Pori",
+    "componentCount": 13,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1752&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1581": {
+    "lon": -0.5652777778,
+    "lat": 49.3447222222,
+    "component": "Gold Beach",
+    "componentCount": 6,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1581&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "927": {
+    "lon": 83.0236111111,
+    "lat": 25.3741666667,
+    "component": "Chaukandi Stupa",
+    "componentCount": 2,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D927&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1770": {
+    "lon": 50.5861805555,
+    "lat": 36.4447083333,
+    "component": "Alamūt Castle",
+    "componentCount": 7,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1770&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1810": {
+    "lon": 35.4120111111,
+    "lat": 33.1950694444,
+    "component": "Qalaat Tibnin (Toron Castle)",
+    "componentCount": 5,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1810&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1759": {
+    "lon": 101.914833333,
+    "lat": 48.3270833334,
+    "component": "Gol Mod I",
+    "componentCount": 8,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1759&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1715": {
+    "lon": 18.5425277777,
+    "lat": 54.5193611111,
+    "component": "Gdynia Modernist City Centre",
+    "componentCount": 1,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1715&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1809": {
+    "lon": 35.188875,
+    "lat": 32.2763388889,
+    "component": "Sebastia",
+    "componentCount": 1,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1809&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1761": {
+    "lon": 99.9662166667,
+    "lat": 8.411475,
+    "component": "Wat Phra Mahathat Woramahawihan, Nakhon Si Thammarat",
+    "componentCount": 1,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1761&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1766": {
+    "lon": 69.2664222222,
+    "lat": 41.3088416667,
+    "component": "Central Exhibition Hall of the Academy of Arts (Exhibition Hall of the Union of Artists)",
+    "componentCount": 10,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1766&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1765": {
+    "lon": 117.243333333,
+    "lat": 29.2863888889,
+    "component": "Hutian Ancient Kiln Site",
+    "componentCount": 5,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1765&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1762": {
+    "lon": 13.1788333334,
+    "lat": 43.22875,
+    "component": "Teatro Feronia",
+    "componentCount": 10,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1762&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1742": {
+    "lon": 34.9755555556,
+    "lat": 29.4297222223,
+    "component": "Aqaba Marine Reserve",
+    "componentCount": 1,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1742&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1808": {
+    "lon": 33.2775,
+    "lat": 6.9416666666,
+    "component": "Boma–Badingilo Migratory Landscape",
+    "componentCount": 1,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1808&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1769": {
+    "lon": 10.3486388889,
+    "lat": 36.8710277778,
+    "component": "Village de Sidi Bou Saïd",
+    "componentCount": 1,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1769&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1774": {
+    "lon": -48.4937027777,
+    "lat": -1.4530277778,
+    "component": "Theatro da Paz",
+    "componentCount": 2,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1774&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1768": {
+    "lon": 43.2325833334,
+    "lat": -11.744675,
+    "component": "Ikoni",
+    "componentCount": 6,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1768&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1755": {
+    "lon": 2.55665,
+    "lat": 43.0022833333,
+    "component": "Château de Termes",
+    "componentCount": 8,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1755&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1719": {
+    "lon": 22.4913888889,
+    "lat": 40.1766666667,
+    "component": "Archaeological site of Dion",
+    "componentCount": 2,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1719&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1757": {
+    "lon": 135.820277778,
+    "lat": 34.4719444445,
+    "component": "Asuka Palace Site",
+    "componentCount": 19,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1757&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1760": {
+    "lon": 54.0701583334,
+    "lat": 43.5971333333,
+    "component": "Beket-Ata",
+    "componentCount": 5,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1760&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1750": {
+    "lon": 6.6462222222,
+    "lat": 0.1402222222,
+    "component": "Sao Joao",
+    "componentCount": 6,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1750&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1724": {
+    "lon": 56.2657916667,
+    "lat": 25.4823305556,
+    "component": "Wadi Wurayah",
+    "componentCount": 1,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1724&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1751": {
+    "lon": -82.305,
+    "lat": 30.7988888889,
+    "component": "Okefenokee National Wildlife Refuge",
+    "componentCount": 1,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1751&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1567": null,
+  "1608": {
+    "lon": 16.8614166667,
+    "lat": 48.1151916667,
+    "component": "Carnuntum – Legionslager, Kastell, Befestigungen, Zivilstadt, Vici, Gräberfelder",
+    "componentCount": 77,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1608&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1591": {
+    "lon": 126.36,
+    "lat": 36.902,
+    "component": "Seosan Getbol",
+    "componentCount": 6,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1591&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1239": {
+    "lon": 13.3508333333,
+    "lat": 52.5694444445,
+    "component": "Weiße Stadt",
+    "componentCount": 7,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1239&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "1029": {
+    "lon": -2.8419722222,
+    "lat": 50.72225,
+    "component": "Lyme Regis to West Bay",
+    "componentCount": 8,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D1029&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "931": {
+    "lon": 15.4386111111,
+    "lat": 47.0730555556,
+    "component": "City of Graz - Historic Centre",
+    "componentCount": 2,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D931&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "829": {
+    "lon": 14.4861111111,
+    "lat": 40.7511111111,
+    "component": "Pompeii",
+    "componentCount": 7,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D829&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "749": {
+    "lon": 2.6544444444,
+    "lat": 11.8841666667,
+    "component": "W-Arly-Pendjari Complex",
+    "componentCount": 3,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D749&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "371": {
+    "lon": -2.472777778,
+    "lat": 52.62638889,
+    "component": "Ironbridge Gorge",
+    "componentCount": 1,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D371&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "352": {
+    "lon": 23.1136388889,
+    "lat": 69.9652777778,
+    "component": "Kåfjord",
+    "componentCount": 5,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D352&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "217": {
+    "lon": 27.7360277778,
+    "lat": 42.6591111111,
+    "component": "Ancient City of Nessebar",
+    "componentCount": 1,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D217&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "136": {
+    "lon": 29.4997222222,
+    "lat": 4.1666666667,
+    "component": "Garamba National Park",
+    "componentCount": 1,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D136&limit=1",
+    "retrieved": "2026-11-18"
+  },
+  "58": {
+    "lon": 7.3226777778,
+    "lat": 61.2982583333,
+    "component": "Urnes Stave Church",
+    "componentCount": 1,
+    "source": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no%3D58&limit=1",
+    "retrieved": "2026-11-18"
+  }
+}
