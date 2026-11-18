@@ -1,0 +1,775 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-10",
+  "baseline": "c987bf6a35c4a4cf03a82bdd5855d30c155fc94f",
+  "checked": "2026-11-18",
+  "scope": "Twenty-three existing World Heritage contexts: four nature and nineteen culture; eighteen unresolved candidates and five previously useful concise contexts receive first dedicated expanded readings. Distinguishes serial components, in-situ or relocated objects, living communities, maintained fabric and uncertainty. No new photos, geography or itinerary changes.",
+  "sources": {
+    "wh-ou-698": {
+      "title": "UNESCO世界遗产中心：里弗斯利与纳拉库特：不同年代的澳洲动物",
+      "url": "https://whc.unesco.org/en/list/698/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-509": {
+      "title": "UNESCO世界遗产中心：莫西奥图尼亚：玄武岩侵蚀与水雾森林",
+      "url": "https://whc.unesco.org/en/list/509/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-186": {
+      "title": "UNESCO世界遗产中心：豪勋爵：火山遗体、珊瑚与岛屿物种",
+      "url": "https://whc.unesco.org/en/list/186/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-195": {
+      "title": "UNESCO世界遗产中心：塔伊：西非森林与濒危动物",
+      "url": "https://whc.unesco.org/en/list/195/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-1001": {
+      "title": "UNESCO世界遗产中心：青城山—都江堰：水利构件与道教建筑",
+      "url": "https://whc.unesco.org/en/list/1001/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically. The page differs on the century in one criterion sentence; the reading uses no exact founding year and distinguishes the maintained system from original fabric."
+    },
+    "wh-ou-976": {
+      "title": "UNESCO世界遗产中心：庆州：五片分区与新罗艺术",
+      "url": "https://whc.unesco.org/en/list/976/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically. The apparent north/south directional error for Namsan is not copied. No claim that lost wooden Hwangnyongsa pagoda survives as a standing tower."
+    },
+    "wh-ou-1011": {
+      "title": "UNESCO世界遗产中心：埃奇米阿津与兹瓦尔特诺茨：圆顶、绘画与遗址",
+      "url": "https://whc.unesco.org/en/list/1011/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-987": {
+      "title": "UNESCO世界遗产中心：卢戈：城墙材料、后开城门与生活步道",
+      "url": "https://whc.unesco.org/en/list/987/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-474": {
+      "title": "UNESCO世界遗产中心：霍尔托巴吉：天然草地与牧业、水利的叠合",
+      "url": "https://whc.unesco.org/en/list/474/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-579": {
+      "title": "UNESCO世界遗产中心：Sammallahdenmäki：石冢形制与古海岸",
+      "url": "https://whc.unesco.org/en/list/579/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-871": {
+      "title": "UNESCO世界遗产中心：卡尔斯克鲁纳：军港城市与腹地供给",
+      "url": "https://whc.unesco.org/en/list/871/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-708": {
+      "title": "UNESCO世界遗产中心：姆茨赫塔：河口景观与分期教堂",
+      "url": "https://whc.unesco.org/en/list/708/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-648": {
+      "title": "UNESCO世界遗产中心：巴拉圭传教聚落：规划、工坊与未完工教堂",
+      "url": "https://whc.unesco.org/en/list/648/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-556": {
+      "title": "UNESCO世界遗产中心：恩格尔斯堡：水力、炉体与工人居住",
+      "url": "https://whc.unesco.org/en/list/556/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-492": {
+      "title": "UNESCO世界遗产中心：陶斯：仍在生活的土坯聚落",
+      "url": "https://whc.unesco.org/en/list/492/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-606": {
+      "title": "UNESCO世界遗产中心：卡皮瓦拉：岩画、半干旱生态与年代证据",
+      "url": "https://whc.unesco.org/en/list/606/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically. The page gives different very early ages in different sections; reading deliberately omits a single earliest date and does not equate archaeological occupation, charcoal and every painted figure."
+    },
+    "wh-ou-583": {
+      "title": "UNESCO世界遗产中心：芬兰堡：海岛防御与民用转变",
+      "url": "https://whc.unesco.org/en/list/583/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-484": {
+      "title": "UNESCO世界遗产中心：桑索斯—莱顿：木构仿形墓与多语言碑",
+      "url": "https://whc.unesco.org/en/list/484/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-434": {
+      "title": "UNESCO世界遗产中心：巴特：石塔、蜂窝墓与功能不确定性",
+      "url": "https://whc.unesco.org/en/list/434/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-401": {
+      "title": "UNESCO世界遗产中心：霍洛克：火灾后重建与条田生活",
+      "url": "https://whc.unesco.org/en/list/401/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-230": {
+      "title": "UNESCO世界遗产中心：圣塞文：原址壁画的空间叙事",
+      "url": "https://whc.unesco.org/en/list/230/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-135": {
+      "title": "UNESCO世界遗产中心：波托韦洛—圣洛伦索：分散海防与跨地峡贸易",
+      "url": "https://whc.unesco.org/en/list/135/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-ou-86": {
+      "title": "UNESCO世界遗产中心：孟菲斯：城市与从吉萨到代赫舒尔的墓地网络",
+      "url": "https://whc.unesco.org/en/list/86/",
+      "checked": "2026-11-18",
+      "method": "Primary World Heritage description and Outstanding Universal Value read. Original concise paraphrase of named features; no image reuse or field visit. Multilingual summaries can contain inconsistent translations or dates; no superlative, outdated population, current opening or disputed chronology adopted automatically."
+    },
+    "wh-naracoorte": {
+      "title": "南澳洞穴管理机构：Victoria Fossil Cave的骨骼沉积与参访",
+      "url": "https://www.naracoortecaves.sa.gov.au/discover/under-the-ground/victoria-fossil-cave",
+      "checked": "2026-11-18",
+      "method": "Managing institution or local community primary material read; concise original paraphrase. No image reuse, price or fixed timetable copied. "
+    },
+    "wh-tai-community": {
+      "title": "塔伊社区生态旅游项目：生态导览与村落合作",
+      "url": "https://ecotourisme-tai.com/sejours",
+      "checked": "2026-11-18",
+      "method": "Managing institution or local community primary material read; concise original paraphrase. No image reuse, price or fixed timetable copied. The old park domain linked by UNESCO redirected to an unrelated gambling domain during checking and was excluded. This source identifies its project relationship with OIPR and the local community; it does not guarantee wildlife encounters."
+    },
+    "wh-taos-community": {
+      "title": "Taos Pueblo社区：访问边界、住屋、河水与仪式",
+      "url": "https://taospueblo.com/visiting-taos-pueblo/",
+      "checked": "2026-11-18",
+      "method": "Managing institution or local community primary material read; concise original paraphrase. No image reuse, price or fixed timetable copied. "
+    },
+    "wh-suomenlinna-services": {
+      "title": "芬兰堡管理机构：居民、分散场馆与仍工作的船坞",
+      "url": "https://suomenlinna.fi/en/services-for-visitors/",
+      "checked": "2026-11-18",
+      "method": "Managing institution or local community primary material read; concise original paraphrase. No image reuse, price or fixed timetable copied. "
+    }
+  },
+  "readings": [
+    {
+      "id": "wh-698",
+      "theme": "nature",
+      "title": "两处化石地，接起不同年代的澳洲动物",
+      "summary": "里弗斯利记录较早的雨林哺乳动物，纳拉库特洞穴保存更晚的冰期动物；它们分处澳大利亚北部和南部。可将有袋类、骨骼沉积与环境变迁对读，不把两处遗址当成同一园区。",
+      "paragraphs": [
+        {
+          "heading": "先分清两块时间切片",
+          "text": "里弗斯利的渐新世—中新世记录，显示湿润低地雨林向较干林地的变化；纳拉库特则提供更新世以来的脊椎动物证据。化石不只是奇异动物名录，还让人比较不同环境下哪些身体和生活方式延续下来。",
+          "sourceKeys": [
+            "wh-ou-698"
+          ]
+        },
+        {
+          "heading": "纳拉库特看骨骼如何积成一层层",
+          "text": "Victoria Fossil Cave的导览解释动物落入洞穴、骨骼累积、发掘与研究，并可观察大型已灭绝动物的骨架。它是仍在研究的沉积地，发掘区和一般参观区有区别；洞内有阶梯与坡道，按自身条件选择馆方行程。",
+          "sourceKeys": [
+            "wh-naracoorte"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-698",
+        "wh-naracoorte"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-509",
+      "theme": "nature",
+      "title": "水流切开玄武岩，也养出一条水雾森林",
+      "summary": "赞比西河在莫西奥图尼亚跌入玄武岩峡谷；下游曲折峡谷记录瀑布位置逐渐后退。近看水雾滋养的河岸林，远看岩壁与河流，能读出同一股水怎样同时侵蚀岩石和维持生态。",
+      "paragraphs": [
+        {
+          "heading": "下游峡谷是瀑布留下的旧位置",
+          "text": "遗产价值包括持续发生的河流侵蚀。玄武岩中的峡谷折转并非单次崩塌的静止造型，而与过去瀑布位置、河流切割和河道改变相关。从开放观景处比较上游宽河面和下方窄深谷，更容易理解落差的形成。",
+          "sourceKeys": [
+            "wh-ou-509"
+          ]
+        },
+        {
+          "heading": "水雾区与普通林地不同",
+          "text": "喷溅带维持高湿度，让河岸形成局部雨林环境；水、空气与植物一起组成瀑布景观。遗产跨赞比亚与津巴布韦，两侧入口与可见角度不同，地图代表点不是自动跨境或下到峡谷的通行许可。",
+          "sourceKeys": [
+            "wh-ou-509"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-509"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-186",
+      "theme": "nature",
+      "title": "一座消退火山，留下山脊、礁湖与特有生命",
+      "summary": "豪勋爵群岛是古盾状火山侵蚀后的海岛遗体。陡崖、礁湖和Ball’s Pyramid之外，温带与热带生物在此相遇；不会飞的woodhen及曾被以为灭绝的竹节虫，使孤岛演化有了具体对象。",
+      "paragraphs": [
+        {
+          "heading": "山与礁湖属于同一座海山的故事",
+          "text": "从主岛的陡峭高地、弧形丘陵和环礁湖边缘，可以对读火山体被侵蚀后留下的不同部分。海域又处在藻礁与珊瑚礁的过渡环境，海下与陆上地形应一起理解，不能仅以一张海滩图概括群岛。",
+          "sourceKeys": [
+            "wh-ou-186"
+          ]
+        },
+        {
+          "heading": "物种记录也包含人类带来的变化",
+          "text": "岛屿隔离促成特有种，外来动物和人的活动也使一些物种消失。Lord Howe Woodhen与在Ball’s Pyramid重新发现的竹节虫，适合读保护解释；重新发现地点不等于游客可以随意登陆、捕捉或保证野外遇见。",
+          "sourceKeys": [
+            "wh-ou-186"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-186"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-195",
+      "theme": "nature",
+      "title": "从西非森林残存区，走向有社区参与的导览",
+      "summary": "塔伊保存西非大片原生热带森林，侏儒河马及多种灵长类是重要保护对象。社区生态项目从Taï生态博物馆组织导览，把树木用途、动物活动与周边居民的生活联系起来。",
+      "paragraphs": [
+        {
+          "heading": "先理解这片森林为何重要",
+          "text": "森林是区域性栖息地的残存部分，植物层次与不同哺乳动物共同体现保护价值。可留意林冠、地面光线和动物声音，不以一张动物清单代替森林，也不把物种有分布写成每位访客必能看到。",
+          "sourceKeys": [
+            "wh-ou-195"
+          ]
+        },
+        {
+          "heading": "从生态博物馆进入有组织的体验",
+          "text": "社区项目介绍生态导游、森林步行、植物用途解说及Daobly村合作接待。森林体验与村落生活是不同环节，按项目当前安排联系；野生动物活动和可走线路不能由地图点自行保证。",
+          "sourceKeys": [
+            "wh-tai-community"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-195",
+        "wh-tai-community"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1001",
+      "theme": "culture",
+      "title": "分水、排沙与道观，读成都平原的两种创造",
+      "summary": "都江堰可从鱼嘴、飞沙堰、宝瓶口看水流如何分配、排沙并进入平原。青城山则通过山地道观呈现信仰与建筑。两者属于同一遗产，却是不同地点、不同参访尺度。",
+      "paragraphs": [
+        {
+          "heading": "把三个水工构件连着看",
+          "text": "鱼嘴分流，飞沙堰和宝瓶口参与泄洪、排沙与引水，整体利用河流地形而运作。可从开放步道比较河道宽窄与流向，理解工程靠构件配合；系统历代维护和扩展，不代表今日所有材料都来自初建时。",
+          "sourceKeys": [
+            "wh-ou-1001"
+          ]
+        },
+        {
+          "heading": "山中建筑再看另一种秩序",
+          "text": "青城山的道观与道教传播相关，体现川西传统建筑及山地空间组织。水利工程和宗教建筑分别安排，比较技术改变河流与信仰组织山林的方式；不要把宽泛遗产名当作一个入口能看完的景点。",
+          "sourceKeys": [
+            "wh-ou-1001"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-1001"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-976",
+      "theme": "culture",
+      "title": "五片分区，读山上的佛像与城中的墓丘",
+      "summary": "庆州历史区分为南山、月城、古坟公园、皇龙寺和山城等分区。可比较岩面造像、寺址石基、宫城水景与王陵土丘，理解新罗艺术如何进入山地、城市和葬制。",
+      "paragraphs": [
+        {
+          "heading": "南山与城内遗址各看一类对象",
+          "text": "南山保留石像、浮雕、石塔及寺址；月城一带有宫址、林地、池塘和瞻星台。可以挑一组山地石刻，再看一个城内空间，不把分散遗迹拼成一座完整仍在运作的古代宫寺。",
+          "sourceKeys": [
+            "wh-ou-976"
+          ]
+        },
+        {
+          "heading": "墓丘、石塔与已消失的木塔分开",
+          "text": "古坟群的不同 土丘形制与出土金器、玻璃和陶器联系葬制；芬皇寺石塔又提供另一种建筑对象。皇龙寺巨大木塔属于历史建筑与遗址研究，不能在现场承诺看到原塔仍然耸立。",
+          "sourceKeys": [
+            "wh-ou-976"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-976"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1011",
+      "theme": "culture",
+      "title": "从仍在使用的圆顶教堂，走向兹瓦尔特诺茨遗址",
+      "summary": "埃奇米阿津的教堂群以中央圆顶、四瓣与三殿等平面形成对照，兹瓦尔特诺茨则以遗址呈现另一种圆形围合方案。现存绘画与后续修缮，不能全部归于最早建教年代。",
+      "paragraphs": [
+        {
+          "heading": "选两座教堂比较承重与平面",
+          "text": "St Gayane将三殿与中央圆顶结合，St Hripsime则以四瓣和角部小室组织空间。观察外部体量与内部支撑的关系，能看出不同设计怎样处理圆顶；埃奇米阿津座堂的绘画还包含18、19世纪画家的后世工作。",
+          "sourceKeys": [
+            "wh-ou-1011"
+          ]
+        },
+        {
+          "heading": "遗址里的柱与石刻怎样读",
+          "text": "兹瓦尔特诺茨建于7世纪，后来成为废墟，今日可读的是发掘构件、基址与浮雕。常见高耸复原图属于研究解释，不是现存完整建筑；它与城内教堂分区独立，需要分别定位参访。",
+          "sourceKeys": [
+            "wh-ou-1011"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-1011"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-987",
+      "theme": "culture",
+      "title": "沿城墙看罗马工程，也看后来打开的城门",
+      "summary": "卢戈保留连贯的晚期罗马城墙，板岩、花岗岩与石灰砂浆组成厚实体。今日十座门中包含后世开门，墙顶步道又进入居民生活；完整周界不等于每个构件从古代从未改变。",
+      "paragraphs": [
+        {
+          "heading": "到近处看墙心与外皮的材料",
+          "text": "城墙用石材外皮包裹填充体，还重复利用罗马建筑石料。可以比较塔、转角、门洞与墙段的材料和尺度，读防御系统怎样围合城市，而不只用走完一圈作为目标。",
+          "sourceKeys": [
+            "wh-ou-987"
+          ]
+        },
+        {
+          "heading": "原有城门和后开门一起塑造城市",
+          "text": "UNESCO区分五个原有门与五个近代开设的门，并说明城墙持续影响街道与城市生长。沿现有公共上墙通道看内外街道的对接，可以读到防御边界怎样变成共享步行空间。",
+          "sourceKeys": [
+            "wh-ou-987"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-987"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-474",
+      "theme": "culture",
+      "title": "天然盐碱草地，与牧人和水利共同留下的平原",
+      "summary": "霍尔托巴吉的开阔草原并非全由砍林形成：无林盐碱草地有更早的自然基础。放牧、木井、九孔桥、旅店和后来的鱼塘又改变它，让自然条件与牧业劳动同时可读。",
+      "paragraphs": [
+        {
+          "heading": "看草地与湿地之间的差别",
+          "text": "碱性牧场、草甸、湿地和黄土高地形成镶嵌景观，适应本地条件的家畜在其间放牧。水分和盐碱差异决定植物，也影响人们怎样用地；不能把眼前平坦统一称作没有变化的大草坪。",
+          "sourceKeys": [
+            "wh-ou-474"
+          ]
+        },
+        {
+          "heading": "桥、旅店与人工鱼塘提供人文线索",
+          "text": "九孔桥及csárda旅店服务旧路行人，木井与临时棚舍联系牧养。19世纪水利调控曾排干部分湿地，20世纪又建设鱼塘；比较这些设施，能看到利用环境也会带来生态代价。",
+          "sourceKeys": [
+            "wh-ou-474"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-474"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-579",
+      "theme": "culture",
+      "title": "在古海岸高脊上，辨认石冢的形状",
+      "summary": "Sammallahdenmäki的花岗岩石冢沿山脊与上坡分群，形状并不一致。长椭圆冢和被称为“教堂地板”的四边形石冢尤其值得比较；名字不表示它真是一座教堂的地面。",
+      "paragraphs": [
+        {
+          "heading": "用外形读不同的建造过程",
+          "text": "遗址含33座石冢，花岗岩来自附近岩面与地表。部分长形结构曾分阶段加大，方形冢又与常见圆形不同；可从规定路径观察形状、边缘和高低，而不是攀上去重新排列石头。",
+          "sourceKeys": [
+            "wh-ou-579"
+          ]
+        },
+        {
+          "heading": "今天内陆的地形，还保存古海岸线索",
+          "text": "石冢与岩脊、古海岸位置有关，反映北欧青铜时代的葬俗与土地关系。已发掘者也有早期铁器时代例子，不能把每座都定为同一年，或把考古解释的信仰直接当作某位墓主的已知故事。",
+          "sourceKeys": [
+            "wh-ou-579"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-579"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-871",
+      "theme": "culture",
+      "title": "由造船、补给与街网组成的军港城市",
+      "summary": "卡尔斯克鲁纳自1680年按海军城市规划，街网、船厂、防御工事、居住与补给各有位置。Lyckeby王家磨坊等腹地设施也属于遗产，海军史不只发生在码头的一艘船上。",
+      "paragraphs": [
+        {
+          "heading": "沿街网理解城市为何这样布局",
+          "text": "Erik Dahlbergh的规划把军事、贸易、行政与各阶层居住组织在一起。可先看广场和街道，再比较港区轮廓，理解城市设计怎样服务舰队；现存建筑包含后世发展，不是全在建城当年完成。",
+          "sourceKeys": [
+            "wh-ou-871"
+          ]
+        },
+        {
+          "heading": "向后方寻找食物和工业的供给",
+          "text": "遗产还包括外围防御、Skärfva庄园与Lyckeby磨坊等不同组成部分。把城市、海域和腹地供给连起来看，比单看军舰更完整；仍使用的海军及船厂区域与公共参观部分须分别确认。",
+          "sourceKeys": [
+            "wh-ou-871"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-871"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-708",
+      "theme": "culture",
+      "title": "两河交汇处，分开看山上与城中的教堂",
+      "summary": "姆茨赫塔位于Aragvi与Mtkvari交汇的文化景观中。Jvari、Svetitskhoveli和Samtavro是不同建筑群；河流交通、山头位置与后续建筑分期，让古都的选择变得具体。",
+      "paragraphs": [
+        {
+          "heading": "先用河口与山地理解位置",
+          "text": "古都处在交通相接的环境，与周边不同文明长期联系。可从开放视点看两河与聚落，再比较高处Jvari和城中座堂的位置；不同教堂的山景照片不能混成同一入口。",
+          "sourceKeys": [
+            "wh-ou-708"
+          ]
+        },
+        {
+          "heading": "座堂与围墙也有不同年代",
+          "text": "Svetitskhoveli的11世纪座堂建在较早教堂位置，建筑群还含后世门楼与围护。早期遗存、墙画与后续改建一起体现持续使用；宗教传统和建筑史应分别阅读，不将所有构件套到基督教传入年份。",
+          "sourceKeys": [
+            "wh-ou-708"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-708"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-648",
+      "theme": "culture",
+      "title": "在两处遗址里，读教堂、住居与工坊的关系",
+      "summary": "Trinidad与Jesús de Tavarangue相距约十公里，是两处传教聚落遗址。广场、原住民住宅、工坊与教堂共同呈现殖民传教下的空间组织；不能把它们只读成欧洲教堂风格的复制。",
+      "paragraphs": [
+        {
+          "heading": "Trinidad看教堂怎样组织整个聚落",
+          "text": "主教堂外还有小教堂、学校、墓地、菜园、住屋与工坊遗迹。可以沿允许路线对读广场与不同建筑基址，理解宗教、生产和居住被怎样安排；现存多为考古遗存，非完整日常聚落。",
+          "sourceKeys": [
+            "wh-ou-648"
+          ]
+        },
+        {
+          "heading": "Jesús看未完成建筑及多种工艺",
+          "text": "Jesús的教堂未完工，三叶拱等细部呈现不同建筑语汇。与Trinidad比较时，留意规划与实际建造的区别，也读原住民传统进入建筑与生产的方式；历史中的改宗与聚居不宜只概括成无代价的进步。",
+          "sourceKeys": [
+            "wh-ou-648"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-648"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-556",
+      "theme": "culture",
+      "title": "水轮、鼓风与工人住宅，组成一处制铁庄园",
+      "summary": "恩格尔斯堡保存高炉、锻造设施、办公室与工人住宅。它是制铁综合体，不只是一座矿坑；把水力、木炭、炉体与居住联系起来，能读到瑞典工业如何由地方资源和劳动组成。",
+      "paragraphs": [
+        {
+          "heading": "先按动力与材料看生产系统",
+          "text": "水轮为鼓风和锻造提供动力，现存18世纪炉体又加入19世纪设备与焙烧工艺。观察时可比较不同技术部件怎样配合，区分最早工业活动与后来设备升级，不把一整套设施标成同年原物。",
+          "sourceKeys": [
+            "wh-ou-556"
+          ]
+        },
+        {
+          "heading": "生产之外看谁在这里生活",
+          "text": "管理者住宅、铁匠小屋、马厩、啤酒坊及炉渣石谷仓仍组成场地。它们把等级、农业与工业相接，适合与技术建筑一起看；工场1919年停止制铁，保存设备并不代表日常仍按旧法生产。",
+          "sourceKeys": [
+            "wh-ou-556"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-556"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-492",
+      "theme": "culture",
+      "title": "在仍有居民的土坯聚落，读多层住屋与水",
+      "summary": "Taos Pueblo的多层土坯住宅与仪式空间延续原住民社区生活。河流、房屋阶梯和持续维护共同构成遗产；参访是社区主动开放的接待，住宅与宗教禁区不会因此都变成展厅。",
+      "paragraphs": [
+        {
+          "heading": "建筑形状来自持续使用与维护",
+          "text": "北、南两组多层住屋以退台式体量形成紧密聚落，土坯建造与更新维持其传统形式。可从开放空间比较层次、院落与河流，不把它当作已经无人生活的考古废墟，也不把每块泥土视作从未修补。",
+          "sourceKeys": [
+            "wh-ou-492"
+          ]
+        },
+        {
+          "heading": "按社区自己的界线安排参访",
+          "text": "社区要求尊重禁入标志，未标作商铺的住屋不对外开放，墓园和旧教堂遗址有边界，河水也是饮用水源。宗教活动可能临时停开；以社区导览和当日说明理解这里，拍摄居民须先征得同意。",
+          "sourceKeys": [
+            "wh-taos-community"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-492",
+        "wh-taos-community"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-606",
+      "theme": "culture",
+      "title": "岩壁中的人物与动物，也连着半干旱生态",
+      "summary": "卡皮瓦拉山的岩棚保存大量绘画，周边Caatinga植被则适应季节性干旱。可以看人物组合、动物形象与岩面，再对照山谷和植被；不同遗址与图像的年代不能用一个最早数字包办。",
+      "paragraphs": [
+        {
+          "heading": "先看画面怎样利用岩棚",
+          "text": "岩棚遮蔽面与砂岩地形为绘画提供载体，图像组合留下长期人类活动线索。可在允许参访的岩画点细看人物和动物的相对位置；图像解释需要证据，不能把每一组都直接命名为已确定的仪式或历史事件。",
+          "sourceKeys": [
+            "wh-ou-606"
+          ]
+        },
+        {
+          "heading": "生态与年代证据分别阅读",
+          "text": "半干旱Caatinga会在旱季明显落叶，今天的环境与过去并不完全相同。遗址占居、火塘及岩画研究采用不同证据，常见极早年代有争论；本阅读不把一项炭样年代直接当作全部可见岩画的年龄。",
+          "sourceKeys": [
+            "wh-ou-606"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-606"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-583",
+      "theme": "culture",
+      "title": "海岛棱堡、干船坞与今天的居民区",
+      "summary": "芬兰堡从1748年逐步建造，岛屿岩地被组织成棱堡、围墙、船坞与营房。后来军用空间转作住宅、工作室和文化用途，沿海景步行时也能看到防御工程怎样进入日常生活。",
+      "paragraphs": [
+        {
+          "heading": "从地形读防御，而非寻找一座主城堡",
+          "text": "防御系统跨多座岛屿，依当地岩石与不同地势布置棱堡，俄国时期又有后续设施。可从开放路径看墙体转角、炮位方向与水道，理解它是海防整体，不是一栋孤立宫殿。",
+          "sourceKeys": [
+            "wh-ou-583"
+          ]
+        },
+        {
+          "heading": "民居与工作中的船坞各有边界",
+          "text": "管理机构说明这里仍是赫尔辛基有人居住、工作的街区，博物馆分散在不同位置。干船坞仍属工作区，不能进入；公共步道、住宅和单独购票场馆分别安排，冬夏服务也不完全相同。",
+          "sourceKeys": [
+            "wh-suomenlinna-services"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-583",
+        "wh-suomenlinna-services"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-484",
+      "theme": "culture",
+      "title": "石墓仿木构，碑文又留下三种语言",
+      "summary": "桑索斯的岩墓、柱墓和高台石棺呈现利西亚葬制，莱顿则是宗教与政治宣布的场所。木构仿形、希腊影响与利西亚语铭文，使这组遗址有比“古城废墟”更具体的入口。",
+      "paragraphs": [
+        {
+          "heading": "先看墓葬怎样把木材形式刻进石头",
+          "text": "桑索斯的石墓保留仿木建筑语言，又结合希腊雕刻等影响。可比较柱墓、石棺和剧场的位置与形式；19世纪部分重要雕刻被移往英国，不能承诺现场看到所有原作。",
+          "sourceKeys": [
+            "wh-ou-484"
+          ]
+        },
+        {
+          "heading": "莱顿读宗教建筑与公共文字",
+          "text": "莱顿的多语言碑含利西亚语、希腊语和阿拉米语内容，说明同一地区不同语言与权力交流。两处遗址分开定位；石碑与宗教建筑的关系可借解说理解，不把不可辨识的古文字任意翻成浪漫故事。",
+          "sourceKeys": [
+            "wh-ou-484"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-484"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-434",
+      "theme": "culture",
+      "title": "蜂窝墓与圆塔，留住已知形制和未知用途",
+      "summary": "巴特、库特姆和艾因由聚落、墓地、灌溉与石塔组成，年代涉及公元前第三千纪。蜂窝形墓与河阶石冢可比较，石塔功能却仍缺定论；不应直接标作已证实的古堡。",
+      "paragraphs": [
+        {
+          "heading": "墓地在不同地形上排列",
+          "text": "巴特山坡上的Hafit期蜂窝墓，与河阶上的干砌石冢属于不同群组；艾因又是另一处集中墓地。可从公共允许范围观察墓的形状、石材与山脊关系，三处地点不是一小块连续园区。",
+          "sourceKeys": [
+            "wh-ou-434"
+          ]
+        },
+        {
+          "heading": "圆塔值得看，也需要保留疑问",
+          "text": "石灰岩塔用加工石块与泥浆砌合，有中央井与内部隔间等结构。研究尚不能确定全部用途，可能曾承托已经消失的上部建筑；让构造与不确定性一起呈现，比编造完整宫殿生活更可靠。",
+          "sourceKeys": [
+            "wh-ou-434"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-434"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-401",
+      "theme": "culture",
+      "title": "火灾后重建的长屋，与仍被耕作的条田",
+      "summary": "霍洛克的Palóc长屋、木廊和白墙并非都未经改变：1909年火灾后按传统方式重建。狭长宅地、条田、果园和山上城堡共同说明，保护的是聚落与生活系统，而非一排仿古立面。",
+      "paragraphs": [
+        {
+          "heading": "先看主街与房屋后方的长宅地",
+          "text": "家族在主街两侧定居，后代沿狭长宅地向后加建，形成长屋与院落关系。石基、木构和白灰墙体现地方工艺；传统形式的延续，不等于材料从17世纪原样保存至今。",
+          "sourceKeys": [
+            "wh-ou-401"
+          ]
+        },
+        {
+          "heading": "从房屋走向条田与果园",
+          "text": "村落保护包含耕地、葡萄园、果园、草地与林地，城堡遗迹又在高处组织视野。比较住宅与农地位置，可以看出土地和亲属生活怎样相接；它仍有关社区与农业，而非只有布景用途。",
+          "sourceKeys": [
+            "wh-ou-401"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-401"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-230",
+      "theme": "culture",
+      "title": "在原址壁画里，跟随拱顶与墙面的不同叙事",
+      "summary": "圣塞文修道院教堂的11—12世纪壁画遍布门廊、中殿、唱诗区与隐堂。画面随空间改变题材和尺度，适合先抬头读拱顶，再看人物怎样通过颜色与动作组织叙事。",
+      "paragraphs": [
+        {
+          "heading": "别只寻找一张代表作",
+          "text": "门廊涉及启示录，中殿桶形拱顶又展开圣经叙事，唱诗区及其他空间有圣人等图像。先辨认画面所处空间，再看人物相邻关系，可以理解建筑怎样成为一整套图像载体。",
+          "sourceKeys": [
+            "wh-ou-230"
+          ]
+        },
+        {
+          "heading": "壁画、尖塔和修复有不同年代",
+          "text": "教堂主体、壁画与后来的哥特尖塔不属于同一阶段，尖塔还在19世纪重建。画作与墙面原址关系是重要价值，具体可进入的隐堂或其他区域须按现场安排，不从全景图片推断全部空间同时开放。",
+          "sourceKeys": [
+            "wh-ou-230"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-230"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-135",
+      "theme": "culture",
+      "title": "港湾炮台与河口城堡，守住跨地峡运输的两端",
+      "summary": "Portobelo炮台围绕海湾分布，San Lorenzo则在Chagres河口，二者并非同一城堡院落。炮位、山坡与水道的关系，能解释殖民资源怎样经巴拿马地峡转运并接受军事保护。",
+      "paragraphs": [
+        {
+          "heading": "先看炮位面对的是哪条水道",
+          "text": "Portobelo的San Fernando、San Jerónimo与Santiago等设施形成不同高度和位置的防御。可比较低位炮台、山顶设施与港湾入口，理解它们为何分散；不要只按一座堡垒的名字覆盖整个遗产。",
+          "sourceKeys": [
+            "wh-ou-135"
+          ]
+        },
+        {
+          "heading": "San Lorenzo另在Chagres河口",
+          "text": "河口城堡属于同一跨地峡运输防御体系，却距离Portobelo较远。建筑经历多期破坏与重建，现存形制包含后世防御技术；探访需分别安排交通，地图连线不意味着沿海可连续步行。",
+          "sourceKeys": [
+            "wh-ou-135"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-135"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-86",
+      "theme": "culture",
+      "title": "从孟菲斯城址，分开看不同墓地与金字塔实验",
+      "summary": "孟菲斯遗产从尼罗河平原城址延伸至吉萨、萨卡拉和代赫舒尔等墓地。神庙、阶梯金字塔、玛斯塔巴与后来的金字塔形制，属于不同地点和年代，不能当成一个入口里的单一景区。",
+      "paragraphs": [
+        {
+          "heading": "先分清城市与墓地的地理关系",
+          "text": "孟菲斯是行政、宗教与工艺中心，Mit Rahina一带有Ptah神庙等遗存；墓地则分布在更广的西岸地带。地图代表点不能覆盖每处入口，城市生活与王室丧葬应分别理解。",
+          "sourceKeys": [
+            "wh-ou-86"
+          ]
+        },
+        {
+          "heading": "挑一种形制，追踪建筑怎样变化",
+          "text": "萨卡拉阶梯金字塔、玛斯塔巴与吉萨金字塔提供不同的建筑和葬制对象。可以按区域选择一组，比较体量、材料与附属祭祀空间；不把所有金字塔称作同一王朝、同一施工方案，也不把世界奇迹称号泛指全部遗产。",
+          "sourceKeys": [
+            "wh-ou-86"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "wh-ou-86"
+      ],
+      "related": []
+    }
+  ]
+}

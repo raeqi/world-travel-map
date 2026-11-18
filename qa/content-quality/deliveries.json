@@ -135,6 +135,46 @@
         "actualAssetBytesMatched": 49,
         "indexAssetReferencesMatched": true
       }
+    },
+    {
+      "batch": [
+        7,
+        8,
+        9
+      ],
+      "pr": 35,
+      "mainCommit": "c987bf6a35c4a4cf03a82bdd5855d30c155fc94f",
+      "headCommit": "36256872523fcd201c38bf3bae76214fb8ec253f",
+      "ciRuns": [
+        44328454151,
+        44328453550,
+        44328454020,
+        44328453715,
+        44328453671
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 143,
+        "detailChecks": 286,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 42,
+        "artifactId": 14438712152,
+        "zipSha256": "68eb643f9e33c411f011fd90ad7cd2294add9099038df1537f822a52214b73f6",
+        "libraryFileId": "libfile_fde3_f-cdd978258e308191b761ba26261e3517_d724c19c5c9c8191918ca4cfc89cd1e1",
+        "visualFollowups": [
+          "Camino full-network overview still has dense overlapping map labels at desktop; detail content readable and narrow-viewport document has no horizontal overflow. No all-site map-label overlap clearance claimed."
+        ]
+      },
+      "deployment": {
+        "run": 44331365254,
+        "release": "1e01ada0c12f889b832d",
+        "actualAssetBytesMatched": 49,
+        "indexAssetReferencesMatched": true
+      }
     }
   ]
 }

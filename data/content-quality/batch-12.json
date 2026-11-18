@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-12",
+  "baseline": "c987bf6a35c4a4cf03a82bdd5855d30c155fc94f",
+  "checked": "2026-11-18",
+  "scope": "Ten remaining pre-existing Silk Roads candidate city contexts in China. Specific architecture, textiles, paintings, city gates and moved collections; distinguishes regional/city representative coordinates, separate archaeological entrances, source uncertainty and later memorials. No images, original records or itinerary topology replaced.",
+  "sources": {
+    "sc-kashgar": {
+      "title": "喀什行政公署：艾提尕尔门楼、院落与雕花木柱",
+      "url": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/28cd99dc43a244619788bda878887922.shtml",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. "
+    },
+    "sc-hotan-craft": {
+      "title": "文化和旅游部：和田织染、民居、地毯与桑皮纸项目",
+      "url": "https://www.mct.gov.cn/wlbphone/wlbydd/xxfb/qglb/qg/202511/t20251104_963065.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. 2025 Beijing exhibition report supports named Hotan practices; its exhibition ended March 2026 and is not offered as a current Hotan attraction."
+    },
+    "sc-hotan-museum": {
+      "title": "和田文旅局：团城与和田博物馆各自位置",
+      "url": "https://www.xjht.gov.cn/xjht/c128217/202609/2548bc8078074359af041805f7c687ed.shtml",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. Uses locations only, not personal contacts, prices or a future opening promise."
+    },
+    "sc-kuqa": {
+      "title": "国家艺术基金数字遗产项目：克孜尔中心柱窟与菱格叙事",
+      "url": "https://www.silkroadshow.cn/relics_25_show.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. Project publication, not a licence to reuse its photographs. Cave numbering does not imply inclusion in every public tour."
+    },
+    "sc-turpan": {
+      "title": "国家民委解说：交河台地、道路与生土建筑技法",
+      "url": "https://www.neac.gov.cn/seac/c103391/202211/1159577.shtml",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. Uses concrete archaeological/architectural features; does not repeat blanket political claims, uniqueness claims or a single method for every building."
+    },
+    "sc-dunhuang": {
+      "title": "敦煌研究院：第61窟五台山图与供养人题记",
+      "url": "https://www.dunhuangcaves.org/info/1425/3588.htm",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. Specialist cave account; present cave, portrayed Shanxi landscape and later interventions distinguished. Access to cave 61 not guaranteed."
+    },
+    "sc-jiayuguan": {
+      "title": "嘉峪关文物局：关城、长城和后世展陈",
+      "url": "https://www.jyg.gov.cn/wlj/xwdt/bmdt/gzdt/art/2022/art_62ed11ca1488431e86691c9a57d5fd76.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. Historical 2012 article, migrated URL; no old amusement or access information copied."
+    },
+    "sc-zhangye": {
+      "title": "张掖市史志办：大佛寺创建、重建、迁装与藏经",
+      "url": "https://www.zhangye.gov.cn/szb/dzdt/njbz/201605/t20160517_51878.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. 2016 draft reference contains obvious OCR/measurement errors; dimensions and claims about Marco Polo seeing the extant objects are excluded."
+    },
+    "sc-wuwei": {
+      "title": "甘肃省文旅厅官方账号：雷台出土地与铜奔马馆藏",
+      "url": "https://m.thepaper.cn/newsDetail_forward_25978316",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. Primary institution account hosted by The Paper. Discovery month differs from museum account; only year and provenance used. Uncertain tomb-owner identification not adopted."
+    },
+    "sc-xian": {
+      "title": "西安市地方志办公室：大雁塔与2000年三藏院",
+      "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1802954373708996609.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. "
+    },
+    "sc-xian-stele": {
+      "title": "日本文化厅文化遗产数据库：褚遂良雁塔圣教序原碑与拓片",
+      "url": "https://online.bunka.go.jp/heritages/detail/480861",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. Museum record of paper rubbings. Original steles remain in Xi’an; paper rubbings and photographs not reused. Mirrored inscription layout and year supported by object record."
+    },
+    "sc-luoyang": {
+      "title": "国家艺术基金数字遗产项目：定鼎门形制与路面蹄印",
+      "url": "https://silkroadshow.cn/relics_11_show.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. Exact page discovered from search; previous guessed pages were not used as evidence. Footprints are not attributed to named individual travellers."
+    },
+    "sc-luoyang-longmen": {
+      "title": "UNESCO：龙门石窟的北魏与唐代佛教石刻",
+      "url": "https://whc.unesco.org/en/list/1003/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. "
+    }
+  },
+  "readings": [
+    {
+      "id": "silk-kashgar",
+      "theme": "silk",
+      "title": "在门楼与木柱之间，细看喀什的建筑工艺",
+      "summary": "喀什的艾提尕尔由门楼、院落、礼拜空间与附属设施组成，内外殿的雕花木柱形成连续柱网。可从空间次序和木工细部看城市宗教生活，不用“丝路枢纽”四字代替地方内容。",
+      "paragraphs": [
+        {
+          "heading": "从广场到院落，看入口怎样组织人流",
+          "text": "官方介绍清真寺位于艾提尕广场西侧，门楼、院落与礼拜殿分担不同功能。可在允许参访区域比较开敞和有顶空间的转换，理解宗教建筑怎样面对城市；建筑沿革起点与现存每一构件年代不是同一回事。",
+          "sourceKeys": [
+            "sc-kashgar"
+          ]
+        },
+        {
+          "heading": "柱网与装饰值得近看",
+          "text": "礼拜殿由内殿、外殿与长廊相连，雕花木柱既支承屋面，也形成有节奏的观看与通行空间。比较木柱、梁枋和庭院尺度，有助于识别地方工艺；宗教活动与参访安排以管理方当前规则为准。",
+          "sourceKeys": [
+            "sc-kashgar"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sc-kashgar"
+      ],
+      "related": [
+        "silk-hotan",
+        "silk-kuqa"
+      ]
+    },
+    {
+      "id": "silk-hotan",
+      "theme": "silk",
+      "title": "从织染、桑皮纸与民居，读绿洲生产生活",
+      "summary": "和田地区的艾德莱斯织染、地毯、桑皮纸与阿依旺民居，为丝路提供了具体的材料和技艺入口。团城和博物馆又在城内不同位置，区域工艺、城镇街区与远处遗址不能混作同一景点。",
+      "paragraphs": [
+        {
+          "heading": "先挑一种材料理解工艺",
+          "text": "文化和旅游部列出和田织染、地毯织造、桑皮纸制作与阿依旺营造等传统。可按兴趣读纤维、染色、织物结构或庭院居住，而不是把各类彩色纺织品统一叫“古代丝绸”；技艺延续也不表示每件今天商品都属古物。",
+          "sourceKeys": [
+            "sc-hotan-craft"
+          ]
+        },
+        {
+          "heading": "城内参访与地区出土文物分别定位",
+          "text": "团城位于鸽子巷一带，和田博物馆则在昆仑南路，可分别安排城市街区和馆内资料阅读。关于地区遗址或出土物，还需看展签的出土地、收藏与复制说明；2025年在北京举办的和田非遗展不能误标为今日和田现场展览。",
+          "sourceKeys": [
+            "sc-hotan-craft",
+            "sc-hotan-museum"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sc-hotan-craft",
+        "sc-hotan-museum"
+      ],
+      "related": [
+        "silk-kashgar",
+        "silk-kuqa"
+      ]
+    },
+    {
+      "id": "silk-kuqa",
+      "theme": "silk",
+      "title": "从库车看龟兹，再为克孜尔石窟单独定位",
+      "summary": "龟兹艺术可从中心柱窟、绕行礼拜空间与菱格故事画进入。克孜尔石窟实际在拜城一带，不在库车城市代表点旁；古文化区域、现代城市和具体洞窟入口应分开。",
+      "paragraphs": [
+        {
+          "heading": "绕柱的空间与墙面的图像相配合",
+          "text": "克孜尔洞窟包含中心柱窟、大像窟、方形窟与僧房等类型，服务不同活动。可先看可参观窟的平面，再理解绕行和观看次序，避免把所有洞窟当作同一种供游客拍照的房间。",
+          "sourceKeys": [
+            "sc-kuqa"
+          ]
+        },
+        {
+          "heading": "菱格中读故事，而不是只辨蓝色",
+          "text": "壁画以本生、因缘等佛教故事及伎乐等题材见长，菱格构图将多个情节组织在窟顶和墙面。可借管理方解说辨认手势、人物关系和绘画层次；编号与研究图像不保证该窟当日开放，异地收藏的壁画也不能当作现场仍存原件。",
+          "sourceKeys": [
+            "sc-kuqa"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sc-kuqa"
+      ],
+      "related": [
+        "silk-hotan",
+        "silk-turpan"
+      ]
+    },
+    {
+      "id": "silk-turpan",
+      "theme": "silk",
+      "title": "台地、分流河床与从土中留出的街道",
+      "summary": "吐鲁番交河故城位于两河床之间的高台，生土建筑既利用开凿留墙，也结合夯筑、土坯等技法。自然高差与城市规划相接，是理解绿洲防御、居住和宗教空间的具体入口。",
+      "paragraphs": [
+        {
+          "heading": "先看台地为何能成为城市",
+          "text": "河床从北部分开又在南侧相合，高台形成天然边界。沿开放路径比较街道、台地边缘和遗址总图，可以看出地形如何影响交通与防御；不把台地上的全部残迹想象为同时竖立的完整建筑。",
+          "sourceKeys": [
+            "sc-turpan"
+          ]
+        },
+        {
+          "heading": "再看不同土工怎样组成空间",
+          "text": "交河包含减地留墙、夯土与土坯等多种方式，街道、官署、民居和宗教建筑各有位置。留意墙体与地面的关系，会发现城市有些空间由向下开挖形成；交河、高昌与坎儿井又是不同地点，需分别安排。",
+          "sourceKeys": [
+            "sc-turpan"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sc-turpan"
+      ],
+      "related": [
+        "silk-kuqa",
+        "silk-dunhuang"
+      ]
+    },
+    {
+      "id": "silk-dunhuang",
+      "theme": "silk",
+      "title": "在敦煌壁画里，读远方五台山与供养人",
+      "summary": "莫高窟第61窟的《五台山图》描绘山西地景、寺院、道路与行旅，不是敦煌本地山景。供养人像和题记又留下家族与于阗等地往来的线索，让交流落到具体作品与人物关系。",
+      "paragraphs": [
+        {
+          "heading": "画作所在地与画中地景分开",
+          "text": "第61窟开凿于五代，后世重修，西壁以鸟瞰式构图描绘五台山及通向周边的路线。可以在研究院数字资料中比较山峰、寺院、旅舍与日常劳动图像；图像兼有宗教想象，不把整幅直接用作现代导航。",
+          "sourceKeys": [
+            "sc-dunhuang"
+          ]
+        },
+        {
+          "heading": "供养人题记让交流有了名字",
+          "text": "研究院结合题记和其他文献讨论曹氏家族、婚姻与于阗等联系，人物衣饰与排列也有历史信息。阅读时将明确题记、学者推断与神异场景分开；第61窟的研究价值不等于普通门票每次都能进入。",
+          "sourceKeys": [
+            "sc-dunhuang"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sc-dunhuang"
+      ],
+      "related": [
+        "silk-turpan",
+        "silk-jiayuguan",
+        "silk-zhangye"
+      ]
+    },
+    {
+      "id": "silk-jiayuguan",
+      "theme": "silk",
+      "title": "明代关城与河西地形，别放进更早的亲历",
+      "summary": "嘉峪关关城始建于1372年，由内外城、瓮城、壕沟与两翼长城共同防御。它是理解明代河西控制的具体对象，不能据丝路主题把现存关城写成13世纪马可波罗已见之物。",
+      "paragraphs": [
+        {
+          "heading": "从多层门与墙看防御组织",
+          "text": "内城、外城、罗城、瓮城与城壕形成多重界面，两侧长城和墩台又向外延伸。可在开放区域比较门的转折、城墙厚度和地形，理解检查通行与军事防御怎样共用一个关口。",
+          "sourceKeys": [
+            "sc-jiayuguan"
+          ]
+        },
+        {
+          "heading": "关城、河边墩台与现代展陈分开",
+          "text": "讨赖河墩与悬壁长城等是外围不同组成部分，游击将军府展示又包含后来的场景陈列。历史构筑物、修复和现代设施需要分别读说明；保留它在文化主题中的位置，也保留与更早丝路年代的距离。",
+          "sourceKeys": [
+            "sc-jiayuguan"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sc-jiayuguan"
+      ],
+      "related": [
+        "silk-dunhuang",
+        "silk-zhangye"
+      ]
+    },
+    {
+      "id": "silk-zhangye",
+      "theme": "silk",
+      "title": "从泥塑卧佛，到藏经与后世迁装建筑",
+      "summary": "张掖大佛寺可细看木胎泥塑卧佛、周围人物群像与明代藏经。寺院1098年创建后多次重建修缮，部分门楼等又经后世迁装；创建年份不能包办今日全部建筑与艺术品。",
+      "paragraphs": [
+        {
+          "heading": "先把大体量分成材料与人物",
+          "text": "卧佛以木胎、泥塑和彩绘形成体量，弟子、罗汉及周边壁画构成另一观看层次。可以留意塑像与殿内空间的关系，不必只追求记录最大尺寸；可从近处看衣褶、彩绘和弟子姿态，再退后比较殿内观看距离。",
+          "sourceKeys": [
+            "sc-zhangye"
+          ]
+        },
+        {
+          "heading": "藏经和建筑的时代分别看",
+          "text": "明代颁赐藏经、较早寺院传统与后世维修属于不同证据。原大部分建筑曾毁，后来迁建部分门楼等；看展签和修缮说明，能理解保护如何发生，不声称所有今日所见都被早期旅行者亲眼看到。",
+          "sourceKeys": [
+            "sc-zhangye"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sc-zhangye"
+      ],
+      "related": [
+        "silk-jiayuguan",
+        "silk-wuwei"
+      ]
+    },
+    {
+      "id": "silk-wuwei",
+      "theme": "silk",
+      "title": "雷台出土地与兰州馆藏，分开读铜奔马",
+      "summary": "武威雷台汉墓是铜奔马出土地，原件藏于兰州甘肃省博物馆。墓室结构、台上后世建筑与青铜器在不同地点、不同年代，不能在武威承诺见到原作。",
+      "paragraphs": [
+        {
+          "heading": "雷台现场先看建筑分层",
+          "text": "雷台汉墓有墓道、甬道和多个墓室，台上又有明清时期宗教建筑。可按开放范围与遗址说明分辨地下墓葬和地上后来用途，理解同一地点被不同年代使用；墓主具体身份仍应依考古证据谨慎解释。",
+          "sourceKeys": [
+            "sc-wuwei"
+          ]
+        },
+        {
+          "heading": "看原作时，再关注支撑与动势",
+          "text": "铜奔马以一足踏鸟、三足腾空构成强烈动势，展示工匠对青铜、平衡和形体的处理。原件收藏地是兰州，武威的地方展示或城市雕塑需辨明复制说明；藏品在馆也不保证每天都在同一展柜。",
+          "sourceKeys": [
+            "sc-wuwei"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sc-wuwei"
+      ],
+      "related": [
+        "silk-zhangye",
+        "silk-xian"
+      ]
+    },
+    {
+      "id": "silk-xian",
+      "theme": "silk",
+      "title": "藏经塔、翻译活动与褚遂良的两块碑",
+      "summary": "西安大雁塔联系玄奘带回经像及翻译活动。塔南门两碑由褚遂良书写《圣教序》与《序记》，原石仍在西安；海外馆藏纸本拓片则是另一种载体与收藏位置。",
+      "paragraphs": [
+        {
+          "heading": "先把唐代塔与后来的纪念空间分开",
+          "text": "地方志记大雁塔始建于652年，三藏院则在2000年建成。塔、寺院后续修缮和现代纪念设施不属于同一阶段；可从砖塔体量与周边空间比较，理解保护和纪念如何逐代添加。",
+          "sourceKeys": [
+            "sc-xian"
+          ]
+        },
+        {
+          "heading": "两块碑让翻译与书法具体相遇",
+          "text": "653年的《圣教序》与《序记》碑，将皇帝对译经的文字和褚遂良书法结合，排列还形成左右呼应。日本文化遗产数据库记录的是纸本墨拓，并明确原碑在大慈恩寺；观赏拓片图像时不能把西安原石也移到海外馆藏坐标。",
+          "sourceKeys": [
+            "sc-xian-stele"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sc-xian",
+        "sc-xian-stele"
+      ],
+      "related": [
+        "silk-wuwei",
+        "silk-luoyang"
+      ]
+    },
+    {
+      "id": "silk-luoyang",
+      "theme": "silk",
+      "title": "从城门路面，到伊河两岸的佛教石刻",
+      "summary": "洛阳定鼎门的门道、飞廊与道路遗痕让都城交通具体可见；龙门石窟则提供北魏、唐代佛教石刻。城门、古城遗址与石窟分属不同地点，不能由一个城市点误作同一处现场。",
+      "paragraphs": [
+        {
+          "heading": "路面印迹连接日常通行与长途贸易",
+          "text": "定鼎门遗址保存城门形制及南侧路面上的人、动物与车辙印迹，骆驼蹄印是商旅交通的具体线索。可以比较道路和门道宽窄、周围城市轴线，读交通怎样进入都城；印迹不能归给一位未有证据的著名旅行者。",
+          "sourceKeys": [
+            "sc-luoyang"
+          ]
+        },
+        {
+          "heading": "龙门看石刻如何吸收不同阶段的艺术",
+          "text": "龙门的洞窟与龛像体现北魏和唐代佛教造像发展，石雕、题记和空间是不同观察对象。可选一个时期或一组洞窟细读，不把两座城市的佛教作品都标作同年；石窟参访与定鼎门需分别定位安排。",
+          "sourceKeys": [
+            "sc-luoyang-longmen"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "sc-luoyang",
+        "sc-luoyang-longmen"
+      ],
+      "related": [
+        "silk-xian"
+      ]
+    }
+  ]
+}
