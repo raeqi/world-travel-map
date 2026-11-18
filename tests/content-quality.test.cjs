@@ -8,7 +8,7 @@ test('audit includes every production dataset and all theme-specific contexts, i
  const r=audit({reviews,legacy}),expected=require('../data/theme-review/catalogue-consolidation.json').expectedRuntime;for(const key of ['places','internalThemes','visibleThemes','plans','placeThemeContexts'])assert.equal(r.summary[key],expected[key],key);
  for(const file of ['panamerican.js','cultural-atlas.js','regional-theme-expansion.js','remaining-thirty-data.js','natural-atlas.js','quality-readings.js'])assert.ok(r.scripts.some(s=>s.file===file&&s.executed),file);
  assert.ok(r.plans.some(p=>!p.visible));assert.ok(r.entries.some(p=>p.theme==='patagonia-nature'));assert.ok(r.entries.some(p=>p.id==='tea-rasuwa'));
- assert.equal(r.summary.staleReviews,0);assert.equal(r.summary.manualResearchedPlaces,337);assert.equal(r.summary.manualUsefulConcisePlaces,0);
+ assert.equal(r.summary.staleReviews,0);assert.equal(r.summary.manualResearchedPlaces,354);assert.equal(r.summary.manualUsefulConcisePlaces,0);
  const venice=r.legacyComparison.find(p=>p.id==='silk-venice');assert.equal(venice.assessment,'researched-batch-11');assert.deepEqual(venice.originalThemes,['silk']);assert.ok(venice.contexts.every(r=>r.theme==='silk'&&r.status==='researched-batch-11'));assert.ok(venice.otherExpandedThemes.includes('turner'));
 });
 test('a manual review expires when its source/text fingerprint differs',()=>{
@@ -24,7 +24,7 @@ test('shared cities show only relevant readings while every original cultural co
 test('research is source-bound and preserves catalogue summaries, links, media and itinerary IDs',()=>{
  const original=JSON.parse(zlib.gunzipSync(fs.readFileSync('qa/content-quality/baseline-2026-11-18.json.gz'))),now=snapshot(),key=r=>r.theme+'/'+r.id,byKey=new Map(now.contexts.map(r=>[key(r),r]));
  for(const old of original.entries){const row=byKey.get(key(old));assert.ok(row,key(old));assert.equal(row.originalSummary,old.summary,key(old)+' catalogue text');assert.equal(row.source,old.source);assert.equal(row.imageKey,old.imageKey);assert.ok(old.routeIds.every(id=>row.routeIds.includes(id)),key(old)+' retained itinerary IDs');if(!old.foreignThemeFallback)for(const source of old.essay?.sources||[])assert.ok(row.essay?.sources.some(s=>JSON.stringify(s)===JSON.stringify(source)),key(old)+' original source object');}
- assert.equal(new Set(pack.readings.map(r=>r.id)).size,337);assert.equal(new Set(pack.readings.map(r=>r.theme)).size,17);
+ assert.equal(new Set(pack.readings.map(r=>r.id)).size,354);assert.equal(new Set(pack.readings.map(r=>r.theme)).size,17);
  for(const r of pack.readings){assert.ok(r.summary&&r.paragraphs.length>=2);for(const p of r.paragraphs)for(const key of p.sourceKeys)assert.ok(r.sourceKeys.includes(key)&&pack.sources[key]?.url.startsWith('https://'));const row=byKey.get(key(r));assert.equal(row.summary,r.summary);assert.ok(row.essay.sources.every(s=>s.title&&s.url));}
  assert.ok(pack.readings.find(r=>r.id==='xintan').summary.includes('1985'));assert.ok(pack.readings.find(r=>r.id==='kumano-hongu').summary.includes('1889'));assert.ok(pack.readings.find(r=>r.id==='nc500-johnogroats').summary.includes('Dunnet Head'));
  const literal=fs.readFileSync('quality-readings-data.js','utf8');assert.equal(literal,generatedData());
@@ -142,4 +142,18 @@ test('long catalogue reviews correct actual errors without changing raw records 
  vm.runInContext("activeTheme=themes.findIndex(t=>t.id==='nature')",c);assert.match(vm.runInContext("places.find(p=>p.id==='wh-1213').desc",c),/924 500平方公里/);assert.match(vm.runInContext("researchedPlaceDescription(places.find(p=>p.id==='wh-1213'))",c),/9,245平方公里/);assert.match(vm.runInContext("researchedPlaceDescription(places.find(p=>p.id==='wh-917'))",c),/澳大利亚的一成/);assert.match(by.get('wh-340').summary,/拉贾斯坦/);
  vm.runInContext("activeTheme=themes.findIndex(t=>t.id==='huang-binhong')",c);assert.equal(vm.runInContext("qualityReadingFor(places.find(p=>p.id==='wh-547'))",c),undefined);assert.match(vm.runInContext("placeEssays['wh-547'].title",c),/黄宾虹/);
  const {hash}=require('../scripts/content-quality-runtime.cjs'),a=snapshot().contexts.find(r=>r.theme==='nature'&&r.id==='wh-1213');assert.notEqual(a.contentHash,hash({summary:a.summary,source:a.source,essay:a.essay,catalogueDescription:'changed correction'}));
+});
+
+// Resolve each priority gap in its original theme without hiding its routes.
+test('all 98 original visible itinerary gaps retain their routes and receive their own sourced reading',()=>{
+ const baseline=require('../qa/content-quality/visible-itinerary-gap-baseline-2026-11-18.json'),report=audit({reviews,legacy});
+ assert.equal(baseline.contexts.length,98);assert.equal(new Set(baseline.contexts.map(r=>r.theme+'/'+r.id)).size,98);
+ for(const old of baseline.contexts){
+  const row=report.entries.find(r=>r.theme===old.theme&&r.id===old.id),reading=pack.readings.find(r=>r.theme===old.theme&&r.id===old.id);
+  assert.ok(row?.visible,old.id+' original visible context');assert.ok(old.routeIds.every(id=>row.routeIds.includes(id)),old.id+' retained itinerary membership');
+  assert.ok(reading?.paragraphs.length>=2,old.id+' source-bound same-theme reading');assert.match(row.status,/^researched-batch-(19|2[0-5])$/);
+  assert.ok(!row.signals.includes('no-expanded-reading'));assert.ok(!row.foreignThemeFallback);
+ }
+ assert.equal(report.summary.visibleItineraryUnreviewedNoExpandedContexts,0);
+ assert.ok(report.summary.unreviewedContexts>0,'priority completion must not erase unreviewed full-site contexts');
 });
