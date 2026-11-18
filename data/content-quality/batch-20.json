@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "batch": "2026-11-18-place-quality-20",
-  "baseline": "87628f9bdfa846f290806b3d8668a96fecf20f43",
+  "baseline": "93a53bd1a6139d65836a2a54c9cab9034316d840",
   "checked": "2026-11-18",
   "scope": "Eighteen existing national-park contexts from the visible-itinerary/no-expanded-reading priority queue. Four adapt previously verified batch17 facts for distinct park contexts (not four new physical destinations); fourteen receive newly read NPS evidence. Original catalogue, photographs, coordinates, source links and itinerary topology preserved. No field visit or live-access certification.",
   "sources": {
