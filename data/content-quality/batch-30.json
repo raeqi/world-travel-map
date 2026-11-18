@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-30",
+  "baseline": "b836f3d73cb9b11575de26a3cd7261d0c428d82f",
+  "checked": "2026-11-18",
+  "scope": "Four existing visible cultural catalogue contexts: Paris Haussmann mistranslation, Bath multiple Georgian reigns and later museum display, Schwerin ducal-capital ensemble, Athens gateway and distinct cult/restoration spaces. Both short summaries and first dedicated readings; original imagery, coordinates, plans and links retained.",
+  "sources": {
+    "cq30-paris": {
+      "title": "UNESCO：塞纳河岸英法文与城市层次",
+      "url": "https://whc.unesco.org/en/list/600/",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read, original Chinese paraphrase, no image reuse. English/French identify Haussmann, notTurkey. Read OUV historicriversection/islands, bridges/quays, medieval/classical/exhibitionlayers. Do not equate every riverbank building to Haussmann or promise current monument opening."
+    },
+    "cq30-bath-unesco": {
+      "title": "UNESCO：罗马与整个乔治时代的巴斯",
+      "url": "https://whc.unesco.org/en/list/428/",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read, original Chinese paraphrase, no image reuse. OUV specifies GeorgeI/II/III, not only GeorgeIII. Read JohnWoods,QueenSquare/Circus/RoyalCrescent and hilllandscape; avoid completecity singlepatron/masterplan claim."
+    },
+    "cq30-bath-walk": {
+      "title": "罗马浴场博物馆：遗址层位与后期露台",
+      "url": "https://www.romanbaths.co.uk/walkthrough",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read, original Chinese paraphrase, no image reuse. Read belowmodernstreetlevel,1894statues/Victorianterrace and reconstructedpediment. Omit temporaryNov16–20cleaning alert as permanentstate, healthclaims/currentwaterlevel and price/opening promises."
+    },
+    "cq30-bath-spring": {
+      "title": "罗马浴场博物馆：圣泉、神庙与排水",
+      "url": "https://www.romanbaths.co.uk/roman-sacred-spring-0",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read, original Chinese paraphrase, no image reuse. Read springcourtyard, votives, engineering and Avon drain. Historicalworship not medical efficacy; no drinking/bathing advice."
+    },
+    "cq30-schwerin-unesco": {
+      "title": "UNESCO：大公宫廷城市与历史主义建筑",
+      "url": "https://whc.unesco.org/en/list/1705/",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read, original Chinese paraphrase, no image reuse. Read ducalcapitalfunctions and architectural/lakevistas. Page multilingual firsthalf vs OUVsecondhalf dating differs; use19thcentury without pretending settledhalfcentury or ordinaryhousingestate."
+    },
+    "cq30-schwerin-city": {
+      "title": "什未林市政府：38个组成部分与城市日常",
+      "url": "https://www.schwerin.de/kultur-tourismus/Weltkulturerbe-Residenzensemble/",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read, original Chinese paraphrase, no image reuse. Read exact content at Welterbewelcome and Sie sind schonmittendrin: islandcastle,gardens,station/Fürstenzimmer,steam laundry. No guarantee all interiors accessible."
+    },
+    "cq30-athens-gateway": {
+      "title": "雅典卫城修复局：山门的功能与柱式",
+      "url": "https://www.ysma.gr/en/monuments/propylaia/",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read, original Chinese paraphrase, no image reuse. Read monumentalwestentrance,437–432BCE,centralbuilding/wings,Doric/Ionic. Omit page incorrectPausanias2ndBCEdate; no claim all originalplannedwingscompleted."
+    },
+    "cq30-athens-erechtheion": {
+      "title": "雅典卫城修复局：厄瑞克修姆的多神祭祀与形态",
+      "url": "https://www.ysma.gr/en/monuments/erechtheion/",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read, original Chinese paraphrase, no image reuse. Read421–406BCE,Ionicorder,eastAthenaPolias/westPoseidon and Caryatidporch. Omit assertion Sulla burning and do not label all visible figures original."
+    },
+    "cq30-athens-conservation": {
+      "title": "雅典卫城修复局：材料、原构件与现代补配",
+      "url": "https://www.ysma.gr/en/faq/",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read, original Chinese paraphrase, no image reuse. Use methodology only: correcting olderjoins,reincorporatingancientpieces,newPentelicmarble,titanium. Old atpresentworksites/staffcounts/futureMuseumtheatre are not current status."
+    }
+  },
+  "readings": [
+    {
+      "id": "wh-600",
+      "theme": "culture",
+      "title": "巴黎塞纳河畔：沿桥梁和岸线读城市层次",
+      "summary": "巴黎塞纳河畔把河岛、桥梁、码头与不同时代的建筑连在一起：圣母院、卢浮宫、埃菲尔铁塔各代表不同历史层次。豪斯曼的广场和林荫大道影响了近现代城市规划；沿岸可比较桥头、视线和公共空间，理解巴黎怎样围绕河流展开。",
+      "catalogueDescription": "巴黎塞纳河畔把河岛、桥梁、码头与不同时代的建筑连在一起：圣母院、卢浮宫、埃菲尔铁塔各代表不同历史层次。豪斯曼的广场和林荫大道影响了近现代城市规划；沿岸可比较桥头、视线和公共空间，理解巴黎怎样围绕河流展开。",
+      "paragraphs": [
+        {
+          "heading": "从河岛和桥头看城市怎样连接",
+          "text": "遗产河段包括Sully桥至耶拿桥之间的历史岸线，以及西岱岛和圣路易岛。桥梁、河岸与南北向道路把两岸和河岛联系起来，码头及河道整治又体现长期使用；观察桥头如何接入街道，比仅列一串沿河地标更能看清城市结构。",
+          "sourceKeys": [
+            "cq30-paris"
+          ]
+        },
+        {
+          "heading": "同一河岸有不同年代的观看线索",
+          "text": "圣母院与圣礼拜堂呈现中世纪建筑，新桥联系文艺复兴，卢浮宫等见证古典主义，铁塔和大小皇宫则与世界博览会有关。豪斯曼改造是其中较晚的城市层次，可比较开阔广场、轴线和大道的关系，不能把沿岸建筑都归给他。",
+          "sourceKeys": [
+            "cq30-paris"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq30-paris"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-428",
+      "theme": "culture",
+      "title": "巴斯：热泉遗址、乔治时代街区与山坡景观",
+      "summary": "巴斯值得分两层观看：现代街面下的罗马浴场与圣泉，和山坡上由广场、环形街区、弧形排屋组织的乔治时代城市。城市改造跨越乔治一世至三世等时期，由不同建筑师和推动者持续形成；看建筑围合与绿坡的关系，能理解温泉社交怎样塑造城市。",
+      "catalogueDescription": "巴斯值得分两层观看：现代街面下的罗马浴场与圣泉，和山坡上由广场、环形街区、弧形排屋组织的乔治时代城市。城市改造跨越乔治一世至三世等时期，由不同建筑师和推动者持续形成；看建筑围合与绿坡的关系，能理解温泉社交怎样塑造城市。",
+      "paragraphs": [
+        {
+          "heading": "先区分罗马遗构与后期观看平台",
+          "text": "圣泉为浴场供水，也曾承载向Sulis Minerva奉献物品的祭祀活动，排水系统将余水导向埃文河。今天俯瞰大浴池的露台、1894年制作的帝王雕像属于较晚展示层；博物馆重组的神庙山墙也不等于整座罗马建筑原位完好。",
+          "sourceKeys": [
+            "cq30-bath-walk",
+            "cq30-bath-spring"
+          ]
+        },
+        {
+          "heading": "从单体立面读到相互连接的城市空间",
+          "text": "Queen Square、Circus与Royal Crescent等把古典建筑语汇扩展为广场、环形和弧形街区，不同建筑师的项目又与山坡和周围绿色景观呼应。可比较建筑如何围合开敞空间、道路怎样接续视线，而不是把整个乔治时代当作单一君主或一张总规划的成果。",
+          "sourceKeys": [
+            "cq30-bath-unesco"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq30-bath-walk",
+        "cq30-bath-spring",
+        "cq30-bath-unesco"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1705",
+      "theme": "culture",
+      "title": "什未林：湖畔宫殿与一整座宫廷城市",
+      "summary": "什未林的遗产不仅是一座湖中宫殿，而是大公宫廷、行政、宗教、文化和服务设施共同组成的城市群。38个组成部分还包括车站与日常服务建筑；把宫殿、花园、水面和街道放在一起看，能理解19世纪历史主义建筑如何表达权力、审美与城市运转。",
+      "catalogueDescription": "什未林的遗产不仅是一座湖中宫殿，而是大公宫廷、行政、宗教、文化和服务设施共同组成的城市群。38个组成部分还包括车站与日常服务建筑；把宫殿、花园、水面和街道放在一起看，能理解19世纪历史主义建筑如何表达权力、审美与城市运转。",
+      "paragraphs": [
+        {
+          "heading": "水面与花园组织宫廷的形象",
+          "text": "宫殿、宅邸、文化和宗教建筑呈现新文艺复兴、新巴洛克、新古典等不同历史主义语汇。湖泊、池塘、花园和视线关系同样是整体的一部分；可比较建筑倒影、开敞水面和城市立面的联系，理解为何遗产范围超出宫殿本体。",
+          "sourceKeys": [
+            "cq30-schwerin-unesco"
+          ]
+        },
+        {
+          "heading": "从车站和服务设施读宫廷日常",
+          "text": "市政府介绍指出，中央车站及其历史Fürstenzimmer也属于遗产组成部分，宫廷供应商和大公蒸汽洗衣房则反映日常运作。把这些设施与宫殿并看，可以看见交通、供给与劳动如何支撑宫廷生活；外部识读和建筑内部参观应分别安排。",
+          "sourceKeys": [
+            "cq30-schwerin-city"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq30-schwerin-unesco",
+        "cq30-schwerin-city"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-404",
+      "theme": "culture",
+      "title": "雅典卫城：从山门进入不同的祭祀空间",
+      "summary": "雅典卫城可从西侧山门读起：它是通向雅典娜圣域的纪念性入口，再向帕特侬、厄瑞克修姆和胜利女神庙比较布局与柱式。建筑并不承担同一祭祀功能，今天所见也包含现代修复；分清入口、神庙和补配构件，能让山顶的石柱群更容易理解。",
+      "catalogueDescription": "雅典卫城可从西侧山门读起：它是通向雅典娜圣域的纪念性入口，再向帕特侬、厄瑞克修姆和胜利女神庙比较布局与柱式。建筑并不承担同一祭祀功能，今天所见也包含现代修复；分清入口、神庙和补配构件，能让山顶的石柱群更容易理解。",
+      "paragraphs": [
+        {
+          "heading": "山门是入口建筑而非一条普通通廊",
+          "text": "公元前437至432年营建的Propylaia位于西缘，中央建筑与两翼共同应对岩台地形和进入圣域的需求。可比较外部多立克柱式与内部爱奥尼柱列，以及通道、翼部和地面高差的关系；原方案并非所有部分都完成。",
+          "sourceKeys": [
+            "cq30-athens-gateway"
+          ]
+        },
+        {
+          "heading": "不同神庙也有不同的空间组织",
+          "text": "厄瑞克修姆采用爱奥尼柱式，东部与雅典娜Polias崇拜有关，西部包括波塞冬等祭祀，南侧女像柱廊又形成独特轮廓。将入口、神庙与各个门廊分开辨认，有助理解山顶不是一座神庙的不同侧面。",
+          "sourceKeys": [
+            "cq30-athens-erechtheion"
+          ]
+        },
+        {
+          "heading": "原石、后期修复与新补配分别识读",
+          "text": "修复局的方法包括纠正早期错接构件、重新安置能够确认归属的古代石块，并在必要处用新潘特利大理石补配、以钛材连接。观察接缝和不同构件时，应把保护干预和古代营造区分，不据整齐外观推断全部原物从未移动。",
+          "sourceKeys": [
+            "cq30-athens-conservation"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq30-athens-gateway",
+        "cq30-athens-erechtheion",
+        "cq30-athens-conservation"
+      ],
+      "related": []
+    }
+  ]
+}

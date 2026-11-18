@@ -15,13 +15,13 @@
     "automaticCandidateContexts": 1,
     "visibleItineraryCandidatePlaces": 1,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 389,
-    "unreviewedContexts": 1947,
-    "unreviewedNoExpandedContexts": 1193,
-    "visibleUnreviewedNoExpandedContexts": 1193,
-    "visibleCatalogueUnreviewedNoExpandedContexts": 1193,
+    "manualReviewedContexts": 393,
+    "unreviewedContexts": 1943,
+    "unreviewedNoExpandedContexts": 1189,
+    "visibleUnreviewedNoExpandedContexts": 1189,
+    "visibleCatalogueUnreviewedNoExpandedContexts": 1189,
     "visibleItineraryUnreviewedNoExpandedContexts": 0,
-    "manualResearchedPlaces": 388,
+    "manualResearchedPlaces": 392,
     "manualUsefulConcisePlaces": 0,
     "manualNeedsResearchPlaces": 1,
     "staleReviews": 0,
@@ -267,7 +267,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "07790913beb0eeb8003b2b9d8fa1d902e43144028c448f0286d317bd41e44164",
+      "sha256": "cc073cd6903dc786cf882124092694b99abba47c37725993d4f74f163cc8bfbd",
       "executed": true
     },
     {
@@ -302,8 +302,8 @@
       "visible": true,
       "contexts": 1033,
       "automaticCandidates": 0,
-      "unreviewedNoExpandedContexts": 950,
-      "manuallyReviewed": 80
+      "unreviewedNoExpandedContexts": 946,
+      "manuallyReviewed": 84
     },
     {
       "id": "gorges",

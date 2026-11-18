@@ -597,6 +597,174 @@
         "Actual PNGs sampled after ZIP SHA/CRC/name validation; not manual inspection of every screenshot or all-site factual verification.",
         "No physical phone or new image/coordinate changes; existing overview label density not certified resolved."
       ]
+    },
+    {
+      "batch": 26,
+      "pr": 52,
+      "mainCommit": "2f244cbe186076a367a052e6edebe6739f81891a",
+      "headCommit": "191c3430bd46c3da08b9cf7d003a57d2b9704e49",
+      "ciRuns": [
+        44403607237,
+        44403606894,
+        44403606814,
+        44403606842,
+        44403607054
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 364,
+        "detailChecks": 728,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 338,
+        "artifactId": 14474996124,
+        "zipSha256": "a7ccb8295b78b33903c38ecfebaee18bfbb71dd6291e7a00745973e2e8acaf73",
+        "sampled": [
+          "desktop-np-acad",
+          "mobile-np-isro"
+        ]
+      },
+      "deployment": {
+        "mainCommit": "2f244cbe186076a367a052e6edebe6739f81891a",
+        "run": 44408451810,
+        "verifyJob": 135170424950,
+        "release": "8db6c399705456b0a6fd",
+        "actualAssetBytesMatched": 54,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Actual Chromium CSS viewports, not physical phones or full-site factual acceptance.",
+        "No new imagery/coordinates; dense map-label layout not certified resolved."
+      ]
+    },
+    {
+      "batch": 27,
+      "pr": 53,
+      "mainCommit": "2ef6d452c142be5d15cb9456af59481fa12c20ec",
+      "headCommit": "9031539a66b4e31312ef913ddda8ac0ae997b4fc",
+      "ciRuns": [
+        44404677216,
+        44404677383,
+        44404677203,
+        44404677298,
+        44404677279
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 372,
+        "detailChecks": 744,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 354,
+        "artifactId": 14476045413,
+        "zipSha256": "a30770b7ee5a38ac8af8321f4c297b3755621905252e897d3677e8f0e8e57992",
+        "sampled": [
+          "desktop-np-glba",
+          "mobile-np-katm"
+        ]
+      },
+      "deployment": {
+        "mainCommit": "2ef6d452c142be5d15cb9456af59481fa12c20ec",
+        "run": 44408901067,
+        "verifyJob": 135172137190,
+        "release": "6009e6b6bf590838ed88",
+        "actualAssetBytesMatched": 54,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Actual Chromium CSS viewports, not physical phones or full-site factual acceptance.",
+        "No new imagery/coordinates; dense map-label layout not certified resolved."
+      ]
+    },
+    {
+      "batch": 28,
+      "pr": 54,
+      "mainCommit": "fb530e6d300c1ff3badde73f54df83259b42ec9f",
+      "headCommit": "9ad1b7cb9e18490c8caf90ed8f07fbbf88090b12",
+      "ciRuns": [
+        44405904151,
+        44405903338,
+        44405903469,
+        44405904137,
+        44405904149
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 384,
+        "detailChecks": 768,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 378,
+        "artifactId": 14477290142,
+        "zipSha256": "948f7515b75a22e75e5ad8f8ebedf2f0c94d2a4e41b09390e29fa2a343206a6b",
+        "sampled": [
+          "desktop-np-jeff",
+          "mobile-np-wica"
+        ]
+      },
+      "deployment": {
+        "mainCommit": "fb530e6d300c1ff3badde73f54df83259b42ec9f",
+        "run": 44410684640,
+        "verifyJob": 135178140259,
+        "release": "31afbf4b1961f9eff26e",
+        "actualAssetBytesMatched": 54,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Actual Chromium CSS viewports, not physical phones or full-site factual acceptance.",
+        "No new imagery/coordinates; dense map-label layout not certified resolved."
+      ]
+    },
+    {
+      "batch": 29,
+      "pr": 55,
+      "mainCommit": "b836f3d73cb9b11575de26a3cd7261d0c428d82f",
+      "headCommit": "2c0868eb7aadf241cc46f10474c7cfc8e35b7414",
+      "ciRuns": [
+        44406948874,
+        44406948927,
+        44406948926,
+        44406948850,
+        44406948921
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 388,
+        "detailChecks": 776,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 386,
+        "artifactId": 14476012552,
+        "zipSha256": "1f290b2b2229d51687aab8a5603d63a7a5af58aa8349b24cc145ad333119c2e7",
+        "sampled": [
+          "desktop-wh-1575",
+          "mobile-wh-1603"
+        ]
+      },
+      "deployment": {
+        "mainCommit": "b836f3d73cb9b11575de26a3cd7261d0c428d82f",
+        "run": 44411106461,
+        "verifyJob": 135179706088,
+        "release": "b38af35c1dd56a0962a9",
+        "actualAssetBytesMatched": 54,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Actual Chromium CSS viewports, not physical phones or full-site factual acceptance.",
+        "No new imagery/coordinates; dense map-label layout not certified resolved."
+      ]
     }
   ]
 }
