@@ -302,17 +302,17 @@
   "thirty-su-causeway": {
     "path": "assets/regional-expansion/thirty-su-causeway.webp",
     "title": "杭州 · 苏堤 · 建筑或园区照片（非所述全部作品）",
-    "author": "Nekitarc",
-    "source": "https://commons.wikimedia.org/wiki/File:%E8%8B%8F%E5%A0%A4%E6%98%A5%E6%99%93%E5%9B%BD%E4%BF%9D%E7%A2%91.JPG",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Su%20Di.JPG",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
     "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
     "placeId": "thirty-su-causeway",
     "article": "https://en.wikipedia.org/wiki/%E8%8B%8F%E5%A0%A4",
-    "providerDescription": "Sudi Chunxiao",
-    "width": 1200,
-    "height": 800,
-    "sha256": "19e7d34b2d12e9d7d80d6571050cdfa48822fd7fd7d0c222154f7e1ea8c14c0b"
+    "providerDescription": "",
+    "width": 1440,
+    "height": 1080,
+    "sha256": "c216753b5a8f0641e72a32bcdff72b0030aee89d69435566a228f84ca93ab563"
   },
   "thirty-huzhou": {
     "path": "assets/regional-expansion/thirty-huzhou.webp",
@@ -358,21 +358,6 @@
     "width": 1440,
     "height": 960,
     "sha256": "3fbae103257a09db21f20cc0da73dbb55cafa96910debea81b538e1597768511"
-  },
-  "thirty-higashiyama-ichikawa": {
-    "path": "assets/regional-expansion/thirty-higashiyama-ichikawa.webp",
-    "title": "市川 · 东山魁夷纪念馆 · 建筑或园区照片（非所述全部作品）",
-    "author": "清水澄",
-    "source": "https://commons.wikimedia.org/wiki/File:Higashiyama_Kaii.jpg",
-    "license": "Public domain",
-    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-    "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
-    "placeId": "thirty-higashiyama-ichikawa",
-    "article": "https://en.wikipedia.org/wiki/%E5%B8%82%E5%B7%9D%E5%B8%82%E6%9D%B1%E5%B1%B1%E9%AD%81%E5%A4%B7%E8%A8%98%E5%BF%B5%E9%A4%A8",
-    "providerDescription": "東山魁夷（『現代美術家名鑑 昭和29年度改正版』）",
-    "width": 750,
-    "height": 1000,
-    "sha256": "aee24c018ae4e111eafd1227e16d66d4ed0a780f77580eba4211ecb6c17f2e60"
   },
   "thirty-tagore-tirtha": {
     "path": "assets/regional-expansion/thirty-tagore-tirtha.webp",
