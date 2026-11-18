@@ -1,6 +1,6 @@
 'use strict';
 const fs=require('node:fs'),assert=require('node:assert/strict'),crypto=require('node:crypto'),vm=require('node:vm');
-const {runtime,snapshot}=require('./theme-audit-runtime.cjs');
+const {runtime,snapshot,assertReadingPreserved}=require('./theme-audit-runtime.cjs');
 const {execFileSync}=require('node:child_process');
 const imageHashes=new Map();
 function imageEvidence(media){if(!media)return null;const path=media.path||'assets/photos/'+media.file+'.jpg';if(!imageHashes.has(path)){let hash=null;if(fs.existsSync(path)){const bytes=fs.readFileSync(path);const original=execFileSync('git',['show',baseline+':'+path],{maxBuffer:16*1024*1024});assert.ok(bytes.equals(original),'Image bytes changed: '+path);hash=crypto.createHash('sha256').update(bytes).digest('hex')}imageHashes.set(path,hash)}return {path,source:media.source,license:media.license,sha256:imageHashes.get(path),originalBytesVerified:!!imageHashes.get(path)}}
@@ -13,9 +13,7 @@ const checks=before.map(old=>{
   const now=current.points.find(p=>p.id===point.id);assert.ok(now,old.id+'/'+point.id+' missing');
   {
    const {essay:oldEssay,...oldData}=point,{essay:newEssay,...newData}=now;assert.deepEqual(newData,oldData,old.id+'/'+point.id+' source data');
-   for(const paragraph of oldEssay?.paragraphs||[])assert.ok(newEssay.paragraphs.some(p=>p.heading===paragraph.heading&&p.text.includes(paragraph.text)),'Paris lost original paragraph');
-   for(const source of oldEssay?.sources||[])assert.ok(newEssay.sources.some(s=>JSON.stringify(s)===JSON.stringify(source)),'Paris lost source');
-   for(const related of oldEssay?.related||[])assert.ok(newEssay.related.includes(related),'Paris lost related place');
+   assertReadingPreserved(point,now,old.id);
   }
  }
  for(const plan of old.plans)assert.deepEqual(current.plans.find(p=>p.id===plan.id),plan,old.id+'/'+plan.id+' plan changed');

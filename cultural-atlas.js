@@ -39,7 +39,8 @@ for(const [id,record] of atlasContextByPlace){
  Object.defineProperty(record.place,'facts',{enumerable:true,configurable:true,get(){const c=current();return c?{'地点关系':atlasRelationNames[c.relation],'现场观察':c.observe}:base.facts}});
  Object.defineProperty(placeEssays,id,{enumerable:true,configurable:true,get(){
   const contexts=typeof culturalMapContexts==='function'?culturalMapContexts(record,atlasActiveId()):[];if(contexts.length>1)return {title:'人物与地方 · 多重关系',paragraphs:contexts.map(c=>({heading:c.themeName,text:c.summary+' '+c.observe})),sources:contexts.map(c=>({title:c.themeName+' · 机构资料',url:c.source})),related:(atlasThemePlaceIds.get(atlasActiveId())||[]).filter(x=>x!==id).slice(0,4)};
-  const c=current()||(!base.essay?record.contexts.values().next().value:null);if(!c)return base.essay||{title:'人物与地方',paragraphs:[...record.contexts.values()].map(x=>({heading:x.themeName,text:x.summary+' '+x.observe})),sources:[...record.contexts.values()].map(x=>({title:x.themeName+' · 机构资料',url:x.source})),related:[]};
+  // An unrelated theme must not inherit the first artist's reading for a shared city.
+  const c=current()||(!base.essay&&!atlasActiveId()?record.contexts.values().next().value:null);if(!c)return base.essay;
   return {title:c.themeName,paragraphs:[{heading:'到现场看什么',text:c.themeName+'：'+c.observe},{heading:'与其他地点怎样对读',text:culturalAtlasPack.themes.find(t=>t.id===atlasActiveId())?.focus||themes.find(t=>t.id===atlasActiveId())?.introduction||c.summary}],sources:[{title:'人物、作品与地点资料',url:c.source}],related:(atlasThemePlaceIds.get(atlasActiveId())||[]).filter(x=>x!==id).slice(0,4)};
  }});
 }

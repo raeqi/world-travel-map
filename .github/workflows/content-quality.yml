@@ -1,0 +1,29 @@
+name: Place content quality checks
+on:
+  pull_request:
+    paths: ['index.html','reading.js','cultural-atlas.js','quality-readings*.js','data/content-quality/**','qa/content-quality/**','scripts/content-quality-runtime.cjs','scripts/audit-content.cjs','scripts/check-content-quality.cjs','tests/content-quality.test.cjs','.github/workflows/content-quality.yml']
+  workflow_dispatch:
+jobs:
+  content:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/*.test.cjs
+      - run: node scripts/audit-content.cjs
+      - name: Install isolated browser tools
+        run: |
+          npm install --prefix /tmp/content-tools --no-save playwright@1.56.1
+          /tmp/content-tools/node_modules/.bin/playwright install --with-deps chromium
+      - name: Check reviewed readings on desktop and mobile
+        env:
+          NODE_PATH: /tmp/content-tools/node_modules
+        run: node scripts/run-browser-suite.cjs check-content-quality.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: place-content-quality-browser
+          path: qa/content-quality-browser
+          retention-days: 14
