@@ -1,0 +1,1361 @@
+{
+  "origin": "PR #8 historical qa/content-audit.json + place-content-backlog.csv; compare original themes, never count a new artist context as a fix for the old route.",
+  "entries": [
+    {
+      "id": "wh-1001",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-976",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-1011",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-987",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-474",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-579",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-871",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-698",
+      "themes": [
+        "nature"
+      ]
+    },
+    {
+      "id": "wh-708",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-648",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-556",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-492",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-606",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-583",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-509",
+      "themes": [
+        "nature"
+      ]
+    },
+    {
+      "id": "wh-484",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-434",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-401",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-230",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-186",
+      "themes": [
+        "nature"
+      ]
+    },
+    {
+      "id": "wh-195",
+      "themes": [
+        "nature"
+      ]
+    },
+    {
+      "id": "wh-135",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "wh-86",
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "dachang",
+      "themes": [
+        "gorges"
+      ]
+    },
+    {
+      "id": "xituo",
+      "themes": [
+        "gorges"
+      ]
+    },
+    {
+      "id": "ningchang",
+      "themes": [
+        "gorges"
+      ]
+    },
+    {
+      "id": "yunan",
+      "themes": [
+        "gorges"
+      ]
+    },
+    {
+      "id": "guizhou",
+      "themes": [
+        "gorges"
+      ]
+    },
+    {
+      "id": "xintan",
+      "themes": [
+        "gorges"
+      ]
+    },
+    {
+      "id": "tea-puer",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-nanjian",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-dali",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-lijiang",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-deqin",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-kangding",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-litang",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-batang",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-changdu",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-lhasa",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-shigatse",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-gyirong",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-rasuwa",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-nuwakot",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-kathmandu",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-yadong",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-nathula",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-gangtok",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "tea-kalimpong",
+      "themes": [
+        "tea"
+      ]
+    },
+    {
+      "id": "silk-venice",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-istanbul",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-tabriz",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-isfahan",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-yazd",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-kerman",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-hormuz",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-merv",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-bukhara",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-samarkand",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-khiva",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-tashkent",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-kashgar",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-hotan",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-kuqa",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-turpan",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-dunhuang",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-jiayuguan",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-zhangye",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-wuwei",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-xian",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-luoyang",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-hangzhou",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-quanzhou",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "silk-guangzhou",
+      "themes": [
+        "silk"
+      ]
+    },
+    {
+      "id": "polo-venice",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-acre",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-tabriz",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-yazd",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-kerman",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-hormuz",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-balkh",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-kashgar",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-hotan",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-dunhuang",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-zhangye",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-shangdu",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-beijing",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-xian",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-yangzhou",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-suzhou",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-hangzhou",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-quanzhou",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-sumatra",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-srilanka",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-samarkand",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-japan",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "polo-genoa",
+      "themes": [
+        "polo"
+      ]
+    },
+    {
+      "id": "xu-tiantai",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-yandang",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-qiyun",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-huangshan",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-wuyi",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-lushan",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-kaifeng",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-zhengzhou",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-xinmi",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-songshan",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-shaolin",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-longmen",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-huashan",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-wudang",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-beijing",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-wutai",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-hengshan",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-jizu",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-lijiang",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-jianchuan",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-eryuan",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-dali",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-baoshan",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "xu-tengchong",
+      "themes": [
+        "xu"
+      ]
+    },
+    {
+      "id": "kumano-takahara",
+      "themes": [
+        "kumano"
+      ]
+    },
+    {
+      "id": "kumano-chikatsuyu",
+      "themes": [
+        "kumano"
+      ]
+    },
+    {
+      "id": "kumano-tsugizakura",
+      "themes": [
+        "kumano"
+      ]
+    },
+    {
+      "id": "kumano-hongu",
+      "themes": [
+        "kumano"
+      ]
+    },
+    {
+      "id": "camino-roncesvalles",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-zubiri",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-pamplona",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-puente",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-estella",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-los-arcos",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-viana",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-logrono",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-navarrete",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-najera",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-domingo",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-belorado",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-ortega",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-atapuerca",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-burgos",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-hornillos",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-castrojeriz",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-fromista",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-carrion",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-terradillos",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-sahagun",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-burgo-ranero",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-mansilla",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-leon",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-san-martin",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-orbigo",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-astorga",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-rabanal",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-foncebadon",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-molinaseca",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-ponferrada",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-villafranca",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-cebreiro",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-triacastela",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-san-xil",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-sarria",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-portomarin",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-palas",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-melide",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-arzua",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-pedrouzo",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "camino-santiago",
+      "themes": [
+        "camino"
+      ]
+    },
+    {
+      "id": "nakasendo-karuizawa",
+      "themes": [
+        "nakasendo"
+      ]
+    },
+    {
+      "id": "nakasendo-shimosuwa",
+      "themes": [
+        "nakasendo"
+      ]
+    },
+    {
+      "id": "nakasendo-narai",
+      "themes": [
+        "nakasendo"
+      ]
+    },
+    {
+      "id": "nakasendo-fukushima",
+      "themes": [
+        "nakasendo"
+      ]
+    },
+    {
+      "id": "nakasendo-suhara",
+      "themes": [
+        "nakasendo"
+      ]
+    },
+    {
+      "id": "nakasendo-magome",
+      "themes": [
+        "nakasendo"
+      ]
+    },
+    {
+      "id": "nakasendo-kyoto",
+      "themes": [
+        "nakasendo"
+      ]
+    },
+    {
+      "id": "francigena-canterbury",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-dover",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-calais",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-arras",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-reims",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-langres",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-besancon",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-lausanne",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-martigny",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-bernard",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-aosta",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-pavia",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-lucca",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-siena",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-viterbo",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "francigena-rome",
+      "themes": [
+        "francigena"
+      ]
+    },
+    {
+      "id": "buddhist-lumbini",
+      "themes": [
+        "buddhist"
+      ]
+    },
+    {
+      "id": "buddhist-sarnath",
+      "themes": [
+        "buddhist"
+      ]
+    },
+    {
+      "id": "buddhist-kushinagar",
+      "themes": [
+        "buddhist"
+      ]
+    },
+    {
+      "id": "viking-ribe",
+      "themes": [
+        "viking"
+      ]
+    },
+    {
+      "id": "viking-birka",
+      "themes": [
+        "viking"
+      ]
+    },
+    {
+      "id": "viking-dublin",
+      "themes": [
+        "viking"
+      ]
+    },
+    {
+      "id": "viking-lans",
+      "themes": [
+        "viking"
+      ]
+    },
+    {
+      "id": "mozart-munich",
+      "themes": [
+        "mozart"
+      ]
+    },
+    {
+      "id": "mozart-vienna",
+      "themes": [
+        "mozart"
+      ]
+    },
+    {
+      "id": "mozart-prague",
+      "themes": [
+        "mozart"
+      ]
+    },
+    {
+      "id": "mozart-paris",
+      "themes": [
+        "mozart"
+      ]
+    },
+    {
+      "id": "mozart-london",
+      "themes": [
+        "mozart"
+      ]
+    },
+    {
+      "id": "mozart-milan",
+      "themes": [
+        "mozart"
+      ]
+    },
+    {
+      "id": "mozart-rome",
+      "themes": [
+        "mozart"
+      ]
+    },
+    {
+      "id": "route66-chicago",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "route66-springfield",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "route66-stlouis",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "route66-joplin",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "route66-galena",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "route66-tulsa",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "route66-okc",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "route66-amarillo",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "route66-gallup",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "route66-flagstaff",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "route66-kingman",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "route66-barstow",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "route66-losangeles",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "route66-santamonica",
+      "themes": [
+        "route66"
+      ]
+    },
+    {
+      "id": "nc500-torridon",
+      "themes": [
+        "nc500"
+      ]
+    },
+    {
+      "id": "nc500-gairloch",
+      "themes": [
+        "nc500"
+      ]
+    },
+    {
+      "id": "nc500-ullapool",
+      "themes": [
+        "nc500"
+      ]
+    },
+    {
+      "id": "nc500-lochinver",
+      "themes": [
+        "nc500"
+      ]
+    },
+    {
+      "id": "nc500-durness",
+      "themes": [
+        "nc500"
+      ]
+    },
+    {
+      "id": "nc500-tongue",
+      "themes": [
+        "nc500"
+      ]
+    },
+    {
+      "id": "nc500-johnogroats",
+      "themes": [
+        "nc500"
+      ]
+    },
+    {
+      "id": "nc500-wick",
+      "themes": [
+        "nc500"
+      ]
+    },
+    {
+      "id": "nc500-dornoch",
+      "themes": [
+        "nc500"
+      ]
+    }
+  ]
+}
