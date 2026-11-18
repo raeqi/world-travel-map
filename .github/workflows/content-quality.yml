@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -21,7 +23,13 @@ jobs:
       - name: Check reviewed readings on desktop and mobile
         env:
           NODE_PATH: /tmp/content-tools/node_modules
-        run: node scripts/run-browser-suite.cjs check-content-quality.cjs
+        run: |
+          scope=''
+          base='${{ github.event.pull_request.base.sha }}'
+          if [ -n "$base" ] && git diff --quiet "$base" HEAD -- data/content-quality quality-readings.js quality-readings-data.js scripts/content-quality-runtime.cjs scripts/content-quality-packs.cjs; then
+            scope='regional-expansion'
+          fi
+          CONTENT_QA_SCOPE="$scope" node scripts/run-browser-suite.cjs check-content-quality.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
