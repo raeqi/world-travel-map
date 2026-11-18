@@ -1,0 +1,173 @@
+{
+  "baseline": "258f0a8c0a3ceb9384918e40e2257413a4718579",
+  "reviewedOn": "2026-11-18",
+  "scope": "55处新增地点中原缺图的10处；未改地点或方案",
+  "before": {
+    "newPlaces": 55,
+    "withPhoto": 45,
+    "gaps": 10
+  },
+  "after": {
+    "newPlaces": 55,
+    "withPhoto": 46,
+    "gaps": 9
+  },
+  "method": "Commons中英文名称、精确地址/历史馆名和地理位置检索；馆方/政府来源交叉核验。候选检索命中数不等于正确照片数，也不表示每个无关命中都已作完整权利审查。只将最终采用文件逐张目视核验并核对许可和哈希。未购买照片或联系第三方申请授权。",
+  "places": [
+    {
+      "id": "thirty-fengxiang-east-lake",
+      "name": "凤翔 · 东湖",
+      "commonsCandidateCount": 0,
+      "commonsQueriesAndGeosearch": true,
+      "searchErrors": [],
+      "status": "left-blank",
+      "reason": "Commons的凤翔分类与中英文名称检索未找到东湖实景；旅行平台照片与齐德洲署名图片未见开放复用授权。排除武汉、绍兴等同名东湖图片。",
+      "references": [
+        "https://commons.wikimedia.org/wiki/Category:Fengxiang",
+        "https://www.tripadvisor.com/Attraction_Review-g1454397-d1865109-Reviews-Fengxiang_East_Lake-Fengxiang_County_Shaanxi.html"
+      ]
+    },
+    {
+      "id": "thirty-mizhou",
+      "name": "诸城 · 超然台与密州记忆",
+      "commonsCandidateCount": 8,
+      "commonsQueriesAndGeosearch": true,
+      "searchErrors": [],
+      "status": "left-blank",
+      "reason": "检索命中航天遥感影像及《超然台记》古籍，不是诸城超然台实景；旅行平台、搜狐图片未见开放许可。",
+      "references": [
+        "https://www.sohu.com/a/211947801_682668"
+      ]
+    },
+    {
+      "id": "thirty-huizhou-dongpo",
+      "name": "惠州 · 白鹤峰东坡祠",
+      "commonsCandidateCount": 15,
+      "commonsQueriesAndGeosearch": true,
+      "searchErrors": [],
+      "status": "left-blank",
+      "reason": "排除惠州西湖苏东坡纪念馆、景贤祠、复原模型、附近归善学宫与学校照片；均不能冒充白鹤峰东坡祠。馆方实景尚未确认复用许可。",
+      "references": [
+        "https://commons.wikimedia.org/wiki/Category:Su_Dongpo_Memorial_Hall,_Huizhou"
+      ]
+    },
+    {
+      "id": "thirty-zhang-neijiang",
+      "name": "内江 · 张大千纪念馆",
+      "commonsCandidateCount": 0,
+      "commonsQueriesAndGeosearch": true,
+      "searchErrors": [],
+      "status": "left-blank",
+      "reason": "未找到可确认许可的内江纪念馆实景；排除台北故居、内江大千广场牌坊和张大千作品翻拍。馆方网页公开展示不等于开放授权。",
+      "references": [
+        "https://jng.njdqwhy.cn/index/column/id/51.html"
+      ]
+    },
+    {
+      "id": "thirty-zhang-shanghai",
+      "name": "上海 · 大风堂美术馆",
+      "commonsCandidateCount": 32,
+      "commonsQueriesAndGeosearch": true,
+      "searchErrors": [],
+      "status": "left-blank",
+      "reason": "目标为恒丰北路100号26楼现馆；检索命中上海站列车、附近建筑及画作，均未采用。现馆展厅与馆藏图片未确认复用授权。",
+      "references": [
+        "https://www.jingan.gov.cn/rmtzx/003008/003008006/20240517/111e17a3-c92b-4557-be88-b99e16ba90ce.html"
+      ]
+    },
+    {
+      "id": "thirty-shuiluan",
+      "name": "蓝田 · 水陆庵",
+      "commonsCandidateCount": 9,
+      "commonsQueriesAndGeosearch": true,
+      "searchErrors": [],
+      "status": "left-blank",
+      "reason": "检索命中水陆画、古地图、异地寺庙与附近公路，均不是蓝田水陆庵；实景商业图库需另行购买许可，未使用。",
+      "references": [
+        "https://www.huitu.com/newmedia/detail/20250803/185749755900.html",
+        "https://www.vcg.com/creative/1554094958"
+      ]
+    },
+    {
+      "id": "thirty-puccini-celle",
+      "name": "切莱 · 普契尼家族博物馆",
+      "commonsCandidateCount": 0,
+      "commonsQueriesAndGeosearch": true,
+      "searchErrors": [],
+      "status": "left-blank",
+      "reason": "排除切莱村紫薇、邻村教堂及其他普契尼住宅。馆方和地方政府页面有准确照片，但摄影署名不构成开放复用授权（政府照片署名Gruppo fotografico l’Ora Blu）。",
+      "references": [
+        "https://www.museodicelledeipuccini.it/",
+        "https://www.mediavalle.it/it/crediti-fotografici"
+      ]
+    },
+    {
+      "id": "thirty-puccini-viareggio",
+      "name": "维亚雷焦 · 普契尼晚年别墅外观",
+      "commonsCandidateCount": 30,
+      "commonsQueriesAndGeosearch": true,
+      "searchErrors": [],
+      "status": "left-blank",
+      "reason": "目标为Viale Buonarroti 209的晚年别墅；排除Torre del Lago的Villa Museo、Viareggio市内其他别墅、海滩、演出照片及异馆钢琴。基金会/新闻图片有署名但未见开放许可。",
+      "references": [
+        "https://www.puccinimuseum.org/giacomo-puccini/i-luoghi/villa-puccini-viareggio/",
+        "https://www.intoscana.it/it/restauro-villino-puccini-viareggio/"
+      ]
+    },
+    {
+      "id": "thirty-joyce-trieste-museum",
+      "name": "的里雅斯特 · LETS乔伊斯博物馆",
+      "commonsCandidateCount": 39,
+      "commonsQueriesAndGeosearch": true,
+      "searchErrors": [],
+      "status": "added",
+      "reason": "目视核验2007年历史外观与现址建筑一致；原摄影者PD-self。建筑为19世纪历史立面，未借用现代展厅或现代雕像图像。",
+      "references": [
+        "https://beniculturali.comune.trieste.it/architettura/?s_id=366308",
+        "https://museostorianaturaletrieste.it/il-museo-civico-di-storia-naturale-di-trieste-ha-compiuto-170-anni-il-28-gennaio-festeggiamoli-assieme/",
+        "https://lets.trieste.it/chiusura-temporanea-23-24-30-e-31-luglio/",
+        "https://museojoycetrieste.it/en/joyce-museum-eng/"
+      ],
+      "photo": {
+        "path": "assets/regional-expansion/thirty-joyce-trieste-museum.webp",
+        "title": "比塞里尼宫外观，2007年摄；现为LETS文学博物馆及乔伊斯博物馆所在地。照片保留当年的自然史博物馆标识。",
+        "author": "Joshua Cesa",
+        "source": "https://commons.wikimedia.org/wiki/File:Museo%20di%20storia%20naturale%20Trieste%20pzza%20Hortis.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-joyce-trieste-museum",
+        "article": "https://museojoycetrieste.it/",
+        "providerDescription": "Museo di storia naturale, Piazza Hortis, Trieste – Italy",
+        "width": 900,
+        "height": 1200,
+        "sha256": "dfca8076995012eb7c31cd0c14eb3966c04af812ddb233ea3e9c61d5ef99b605"
+      },
+      "rejectedCandidates": [
+        {
+          "file": "Museo LETS-Letteratura Trieste interno sala espositiva Libreria degli scrittori.jpg",
+          "reason": "画面为整馆La Libreria degli Scrittori展厅；并非乔伊斯专展。摄影CC BY-SA4.0不能单独证明现代展陈、作品、照片的全部底层权利，未采用。"
+        },
+        {
+          "file": "LETS Literatura Trieste.jpg",
+          "reason": "前景现代人物雕像占据显著面积，未确认雕塑复用权利，未采用。"
+        }
+      ]
+    },
+    {
+      "id": "thirty-hemingway-ketchum-museum",
+      "name": "凯彻姆 · 伍德河历史文化博物馆",
+      "commonsCandidateCount": 0,
+      "commonsQueriesAndGeosearch": true,
+      "searchErrors": [
+        "'query'"
+      ],
+      "status": "left-blank",
+      "reason": "目标为2023年迁入580 Fourth Street East Suite130的伍德河博物馆；排除伊利诺伊Wood River同名馆、旧馆址、海明威私人故居及山谷风景。现馆设计方明确标注Gibeon Photography 2023 all rights reserved。",
+      "references": [
+        "https://comlib.org/center-for-regional-history/wood-river-museum-exhibits/",
+        "https://www.framedesignstrategies.com/museums-and-vistors-centers/the-wood-river-museum-of-history-and-culture-ketchum-id"
+      ]
+    }
+  ]
+}

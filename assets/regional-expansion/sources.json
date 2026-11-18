@@ -809,6 +809,21 @@
     "height": 1061,
     "sha256": "7060263501d6be1e4fda4e8d6f3c71387de9eb4132daa79731aea0817a84320b"
   },
+  "thirty-joyce-trieste-museum": {
+    "path": "assets/regional-expansion/thirty-joyce-trieste-museum.webp",
+    "title": "比塞里尼宫外观，2007年摄；现为LETS文学博物馆及乔伊斯博物馆所在地。照片保留当年的自然史博物馆标识。",
+    "author": "Joshua Cesa",
+    "source": "https://commons.wikimedia.org/wiki/File:Museo%20di%20storia%20naturale%20Trieste%20pzza%20Hortis.jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+    "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+    "placeId": "thirty-joyce-trieste-museum",
+    "article": "https://museojoycetrieste.it/",
+    "providerDescription": "Museo di storia naturale, Piazza Hortis, Trieste – Italy",
+    "width": 900,
+    "height": 1200,
+    "sha256": "dfca8076995012eb7c31cd0c14eb3966c04af812ddb233ea3e9c61d5ef99b605"
+  },
   "thirty-proust-leonie": {
     "path": "assets/regional-expansion/thirty-proust-leonie.webp",
     "title": "莱奥妮姨妈之家博物馆入口",
