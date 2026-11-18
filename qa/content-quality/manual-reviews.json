@@ -1035,6 +1035,208 @@
         "https://www.santamonica.com/experience-santa-monica/route-66/"
       ],
       "contentHash": "d0760cf425dd9d6457659bcebbfa3e40ed449c85a80ef2def4ca8317725bae52"
+    },
+    {
+      "theme": "nakasendo",
+      "id": "nakasendo-tokyo",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://kunishitei.bunka.go.jp/bsys/maindetails/102/2073",
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000253713&page=ref_view"
+      ],
+      "contentHash": "3b8ed738ad68498d8f5397df7a641e52959774b6b576c8caf2768dc8f58fe1ea"
+    },
+    {
+      "theme": "nakasendo",
+      "id": "nakasendo-karuizawa",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://karuizawa-kankokyokai.jp/about_karuizawa/498/",
+        "https://nskk-chubu.org/church/16shaw/"
+      ],
+      "contentHash": "2fbc9ae3c1e6306baf090107fa4ea6ad525df2a61536f26a8f79d0008c841982"
+    },
+    {
+      "theme": "nakasendo",
+      "id": "nakasendo-shimosuwa",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://db.go-nagano.net/topics_detail6/id%3D4521",
+        "https://www.town.shimosuwa.lg.jp/www/contents/1475143913642/index.html"
+      ],
+      "contentHash": "67f51ca1584c9ecba1ecb6eab83c5224180da837ce790be08b3061ce288c4fde"
+    },
+    {
+      "theme": "nakasendo",
+      "id": "nakasendo-narai",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.naraijuku.com/shop/post-51/",
+        "https://www.naraijuku.com/shop/post-60/"
+      ],
+      "contentHash": "7c2d8080a40ec088c3494fa29af5d036037c703610c918ef3c89b98e62e9883a"
+    },
+    {
+      "theme": "nakasendo",
+      "id": "nakasendo-fukushima",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.town-kiso.com/facility/100024/",
+        "https://www.town-kiso.com/facility/100025/"
+      ],
+      "contentHash": "01c771a7d37ef321535546c486e8878a407d82ddcc246b10258e00938132e017"
+    },
+    {
+      "theme": "nakasendo",
+      "id": "nakasendo-suhara",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.vill.okuwa.lg.jp/kanko/okuwajiten/dictionary.html",
+        "https://www.vill.okuwa.lg.jp/kanko/miru-asobu/jinja-otera/temple.html"
+      ],
+      "contentHash": "011602b844cc4569f5918ad08c3e67bb0d864d5fb2d817dba22068b1d53d7b71"
+    },
+    {
+      "theme": "nakasendo",
+      "id": "nakasendo-tsumago",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://nagiso.jp/topics/tsumago-juku-honjin/",
+        "https://www.mlit.go.jp/tagengo-db/en/R1-01499.html"
+      ],
+      "contentHash": "033a6e0e4b404165646592451420538309660a50008c58d8bfb1ef1c319a4433"
+    },
+    {
+      "theme": "nakasendo",
+      "id": "nakasendo-magome",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.kankou-gifu.jp/spot/detail_1363.html",
+        "https://www.city.nakatsugawa.lg.jp/soshikikarasagasu/misaka/kanko/1319.html"
+      ],
+      "contentHash": "45a1801100d69ade9d1d17e79ed1beaab0a8a54e3365009742da9dacddf9950e"
+    },
+    {
+      "theme": "nakasendo",
+      "id": "nakasendo-kyoto",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://ja.kyoto.travel/tourism/single02.php?category_id=9&tourism_id=173",
+        "https://www2.city.kyoto.lg.jp/shikai/gichofukugicho/katsudou/R5/r6-1.html"
+      ],
+      "contentHash": "c621dee6e247b5283b06b7fb2d3e0a39f1af8a6e6cfd0c8001bcb5c629d9e6a7"
+    },
+    {
+      "theme": "viking",
+      "id": "viking-hedeby",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://haithabu.de/en/dauerausstellung"
+      ],
+      "contentHash": "f1ddb365aabccbe512bdd4a18d767941a77194910458ceb580fe88a78aafe2f8"
+    },
+    {
+      "theme": "viking",
+      "id": "viking-ribe",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://ribesvikinger.dk/en/about-the-museum/",
+        "https://www.ribevikingecenter.dk/en/explore/discover-viking-ripa"
+      ],
+      "contentHash": "ae5ce92bc3bcbbc0112b13a6ff3c2332b00f2fa6af25ef6d727f27309a0f8548"
+    },
+    {
+      "theme": "viking",
+      "id": "viking-roskilde",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.vikingeskibsmuseet.dk/en/visit-the-museum/",
+        "https://www.vikingeskibsmuseet.dk/en/visit-the-museum/exhibitions/the-five-reconstructions"
+      ],
+      "contentHash": "ce9c6546798eeae8fa9968310be268f67faf46a17209a22fc201e8eee361c304"
+    },
+    {
+      "theme": "viking",
+      "id": "viking-birka",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/555",
+        "https://www.birkavikingastaden.se/"
+      ],
+      "contentHash": "c7086f66860959feafdb8577b7e86bbe96775948a65bd00eb78604d6a89efa5e"
+    },
+    {
+      "theme": "viking",
+      "id": "viking-york",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.jorvikvikingcentre.co.uk/about/jorvik-story/coppergate-dig/",
+        "https://www.jorvikvikingcentre.co.uk/about/jorvik-artefact-gallery/"
+      ],
+      "contentHash": "49b8c22fb6e976269f2ec7df4ba67419957b9a81dc03db14b340940d0b9ea1d1"
+    },
+    {
+      "theme": "viking",
+      "id": "viking-dublin",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://source.museum.ie/en-ie/collections-research/irish-antiquities-division-collections/collections-list-%281%29/viking"
+      ],
+      "contentHash": "faed8ad96dee940ca8a8aba14346958da9ec72cd4923f8e34100f20deda4cb21"
+    },
+    {
+      "theme": "viking",
+      "id": "viking-thingvellir",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1152/",
+        "https://blogs.loc.gov/law/2016/05/thingvellir-northern-europes-first-parliament/?loclr=bloglaw"
+      ],
+      "contentHash": "47494bda735646470a189a80689eb9c7a815c7d5b6f3be0629f5b29e1a04b008"
+    },
+    {
+      "theme": "viking",
+      "id": "viking-lans",
+      "state": "researched-batch-6",
+      "reason": "逐项阅读官方地方、文物机构与馆方资料，区分遗存、复原、不同年代与场馆，补充具体可观察对象及有日期的访问限制。未作现场考察。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.parcs.canada.ca/lhn-nhs/nl/meadows/culture",
+        "https://www.parcs.canada.ca/lhn-nhs/nl/meadows/visit/cartes-maps"
+      ],
+      "contentHash": "8a1933a4bf24c563cf2f77c541178f564985087153ccafae5717931e8111ef3a"
     }
   ]
 }

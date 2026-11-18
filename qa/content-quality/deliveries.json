@@ -1,0 +1,104 @@
+{
+  "checked": "2026-11-18",
+  "method": "Completed batch delivery evidence only. Real headless Chromium CSS viewports, not physical devices or full historical verification. Later releases supersede these deployed releases; commits remain historical delivery snapshots. No screenshot or asset hash certifies every fact in the whole product.",
+  "batches": [
+    {
+      "batch": 3,
+      "pr": 30,
+      "mainCommit": "cee6490bef782542632a0e902e9e4c22d7454208",
+      "headCommit": "59eaaa3b5101aa980ad7a43be30842ebe05e622c",
+      "ciRuns": [
+        44313221700,
+        44313221506,
+        44313221569,
+        44313221530,
+        44313221534
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 44,
+        "detailChecks": 88,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 12,
+        "artifactId": 14431137236,
+        "zipSha256": "d72093ebe8be70e1fe7d6623a125d26591fdf51f378ceadcb0b211e0941d8e47",
+        "libraryFileId": "libfile_fde3_f-cf83ca68157c8191a4e3e4abd9d5031b_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "release": "d9441c1af4ea7a3cbf6b",
+        "actualAssetBytesMatched": 49,
+        "indexAssetReferencesMatched": true
+      }
+    },
+    {
+      "batch": 4,
+      "pr": 31,
+      "mainCommit": "b2ee671336205206e9ab248e32e42439444e76d7",
+      "headCommit": "a76e78af3d164c70c75b9f88ac817150cee4749b",
+      "ciRuns": [
+        44316981491,
+        44316981610,
+        44316981483,
+        44316981477,
+        44316981948
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 68,
+        "detailChecks": 136,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 16,
+        "artifactId": 14432778633,
+        "zipSha256": "054e05365288f0af670cc78c948b5349b3bdc3bfdafb0d22df28e9008a1ce7c2",
+        "libraryFileId": "libfile_fde3_f-b7d94d94940081919bd89291a0f04989_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "run": 44319839047,
+        "release": "5dabb9099e518969fbe5",
+        "actualAssetBytesMatched": 49,
+        "indexAssetReferencesMatched": true
+      }
+    },
+    {
+      "batch": 5,
+      "pr": 32,
+      "mainCommit": "191d764ca979e2b07905c4efaf5b2d4dc53d5775",
+      "headCommit": "9e8c1b71152407a2729402bd7f777ec2dd39f055",
+      "ciRuns": [
+        44320179993,
+        44320180068,
+        44320179865,
+        44320179781,
+        44320180064
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 83,
+        "detailChecks": 166,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 22,
+        "artifactId": 14435330325,
+        "zipSha256": "db13cb5ef53f44cce1b77b55ff1b8b055971c8025ae5a2c554a8f5823de9e633",
+        "libraryFileId": "libfile_fde3_f-bd53f4b021708191a5b06945b1a2c8f6_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "run": 44322887992,
+        "release": "5fb18286fc5c5c0725df",
+        "actualAssetBytesMatched": 49,
+        "indexAssetReferencesMatched": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,714 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-6",
+  "baseline": "191d764ca979e2b07905c4efaf5b2d4dc53d5775",
+  "checked": "2026-11-18",
+  "scope": "Nine existing Nakasendo contexts and eight Viking network contexts. Eleven previously unexpanded candidates and six deepened readings, separating original evidence, reconstruction, later maintenance, separate institutions and season-bound access. No geographic or photo replacement.",
+  "sources": {
+    "naka-nihonbashi": {
+      "title": "日本文化厅：1911年日本桥的结构与装饰",
+      "url": "https://kunishitei.bunka.go.jp/bsys/maindetails/102/2073",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-bridge-library": {
+      "title": "东京都立中央图书馆：麒麟像设计与制作分工的文献调查",
+      "url": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000253713&page=ref_view",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-karuizawa": {
+      "title": "轻井泽旅游协会：宿场与现代避暑地的不同层次",
+      "url": "https://karuizawa-kankokyokai.jp/about_karuizawa/498/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-karuizawa-church": {
+      "title": "日本圣公会中部教区：Shaw礼拜堂的1895年原形与扩建",
+      "url": "https://nskk-chubu.org/church/16shaw/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-shimosuwa-junction": {
+      "title": "长野官方旅游：中山道与甲州道中交汇点",
+      "url": "https://db.go-nagano.net/topics_detail6/id%3D4521",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-shimosuwa-museum": {
+      "title": "下诹访町：宿场街道资料馆建筑与展品",
+      "url": "https://www.town.shimosuwa.lg.jp/www/contents/1475143913642/index.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-narai-home": {
+      "title": "奈良井旅游协会：漆梳商中村邸",
+      "url": "https://www.naraijuku.com/shop/post-51/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-narai-post": {
+      "title": "奈良井旅游协会：上问屋、人马管理与古文书",
+      "url": "https://www.naraijuku.com/shop/post-60/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-fukushima-checkpoint": {
+      "title": "木曾町：福岛关所资料馆与通行检查",
+      "url": "https://www.town-kiso.com/facility/100024/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-yamamura": {
+      "title": "木曾町：山村代官屋敷的留存、迁建与复制展示",
+      "url": "https://www.town-kiso.com/facility/100025/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-suhara": {
+      "title": "大桑村：须原宿洪水迁移、水舟与地方生活",
+      "url": "https://www.vill.okuwa.lg.jp/kanko/okuwajiten/dictionary.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-joshoji": {
+      "title": "大桑村：定胜寺迁址与2027年秋前改修限制",
+      "url": "https://www.vill.okuwa.lg.jp/kanko/miru-asobu/jinja-otera/temple.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-tsumago-main": {
+      "title": "南木曾旅游协会：妻笼本阵1995年复原",
+      "url": "https://nagiso.jp/topics/tsumago-juku-honjin/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-tsumago-secondary": {
+      "title": "日本观光厅：妻笼脇本阵、1877年建筑与酿酒收入",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R1-01499.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-magome": {
+      "title": "岐阜官方旅游：马笼石坡、水车与惠那山",
+      "url": "https://www.kankou-gifu.jp/spot/detail_1363.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-magome-museum": {
+      "title": "中津川市：藤村出生旧址、大火与1947年纪念馆",
+      "url": "https://www.city.nakatsugawa.lg.jp/soshikikarasagasu/misaka/kanko/1319.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-kyoto": {
+      "title": "京都官方旅游：三条大桥铭文、1590年工程与1950年改造",
+      "url": "https://ja.kyoto.travel/tourism/single02.php?category_id=9&tourism_id=173",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "naka-kyoto-repair": {
+      "title": "京都市会：2024年1月三条大桥补修完成典礼",
+      "url": "https://www2.city.kyoto.lg.jp/shikai/gichofukugicho/katsudou/R5/r6-1.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "viking-hedeby": {
+      "title": "Haithabu馆方：原始出土物与七座复原房屋",
+      "url": "https://haithabu.de/en/dauerausstellung",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "viking-ribe-museum": {
+      "title": "Ribe Viking Museum：考古原件、贸易、手工业与信仰",
+      "url": "https://ribesvikinger.dk/en/about-the-museum/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "viking-ribe-centre": {
+      "title": "Ribe VikingeCenter：多时期场景与实验考古",
+      "url": "https://www.ribevikingecenter.dk/en/explore/discover-viking-ripa",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit. Former indexed /en/om-ribe-vikingecenter/historien-bag returned 404. Followed current official navigation and read this live replacement; root and replacement state April 28, 2027 reopening."
+    },
+    "viking-ships": {
+      "title": "维京船博物馆：五艘原船与季节性港区",
+      "url": "https://www.vikingeskibsmuseet.dk/en/visit-the-museum/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "viking-ships-reconstruction": {
+      "title": "维京船博物馆：航行复原船与实验考古的不确定性",
+      "url": "https://www.vikingeskibsmuseet.dk/en/visit-the-museum/exhibitions/the-five-reconstructions",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "viking-birka-heritage": {
+      "title": "UNESCO：Birka与Hovgården的遗存、不同岛屿及复原区",
+      "url": "https://whc.unesco.org/en/list/555",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "viking-birka-visit": {
+      "title": "Birka运营方：博物馆、复原村与季节安排",
+      "url": "https://www.birkavikingastaden.se/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "viking-york-dig": {
+      "title": "JORVIK：1976—1981年Coppergate发掘与保存条件",
+      "url": "https://www.jorvikvikingcentre.co.uk/about/jorvik-story/coppergate-dig/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "viking-york-objects": {
+      "title": "JORVIK：鞋、梳、锁钥与游戏等原件",
+      "url": "https://www.jorvikvikingcentre.co.uk/about/jorvik-artefact-gallery/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit. Read current official navigation target without old /0/ suffix."
+    },
+    "viking-dublin": {
+      "title": "爱尔兰国家博物馆：都柏林维京考古与混合工艺",
+      "url": "https://source.museum.ie/en-ie/collections-research/irish-antiquities-division-collections/collections-list-%281%29/viking",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "viking-thingvellir": {
+      "title": "UNESCO：议会遗存、裂谷与多时期文化景观",
+      "url": "https://whc.unesco.org/en/list/1152/",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "viking-lawrock": {
+      "title": "美国国会图书馆法律馆：Law Rock具体位置的不确定性",
+      "url": "https://blogs.loc.gov/law/2016/05/thingvellir-northern-europes-first-parliament/?loclr=bloglaw",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "viking-lans-history": {
+      "title": "Parks Canada：草皮墙基、考古证据与更早地方居住史",
+      "url": "https://www.parcs.canada.ca/lhn-nhs/nl/meadows/culture",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    },
+    "viking-lans-map": {
+      "title": "Parks Canada：原址遗存、复原房屋和炼铁区分布",
+      "url": "https://www.parcs.canada.ca/lhn-nhs/nl/meadows/visit/cartes-maps",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, museum, church or official local visitor body read. Original paraphrase with observation advice distinguished from evidence; no photograph reuse or site visit."
+    }
+  },
+  "readings": [
+    {
+      "id": "nakasendo-tokyo",
+      "theme": "nakasendo",
+      "title": "江户道路起点上的近代石桥",
+      "summary": "日本桥连接江户五街道的历史记忆，现存桥体却是1911年的双拱石桥。青铜照明与麒麟装饰属于近代工程和工艺，不应把今天桥面当成北斋时代的木桥原件。",
+      "paragraphs": [
+        {
+          "heading": "沿栏杆读材料和年代",
+          "text": "文化厅把日本桥登记为1911年石造双拱桥，装饰结合青铜灯具与传统瑞兽。可以从河岸看拱券，再在桥上看石材与青铜的接合：一处古道起点也会以新时代的材料和审美重新表达自己。",
+          "sourceKeys": [
+            "naka-nihonbashi"
+          ]
+        },
+        {
+          "heading": "设计、雕塑与铸造是合作",
+          "text": "东京都立中央图书馆的文献调查区分妻木赖黄的装饰设计、渡边长男的原型制作、冈崎雪声的铸造等分工。把桥看作多人合作的作品，比只拍麒麟更能读到人与城市的关系；中山道主题读道路史，北斋主题另有画作语境。",
+          "sourceKeys": [
+            "naka-bridge-library"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "naka-nihonbashi",
+        "naka-bridge-library"
+      ],
+      "related": [
+        "nakasendo-karuizawa"
+      ]
+    },
+    {
+      "id": "nakasendo-karuizawa",
+      "theme": "nakasendo",
+      "title": "从宿场街道走到近代礼拜堂",
+      "summary": "旧轻井泽银座一带曾是轻井泽宿，后来又成为避暑地。1895年起建的Shaw礼拜堂与商业街相邻，让人能区分江户交通服务与近代度假文化的不同层次。",
+      "paragraphs": [
+        {
+          "heading": "先辨认三个不同宿场",
+          "text": "旅游协会把轻井泽宿、沓挂宿、追分宿分别介绍；旧轻井泽对应本点，不能把町内所有中山道遗迹都算在同一条街上。可从旧街道的商业空间看旅人服务如何延续，再把后来的教堂、别墅和网球文化放入另一个时代。",
+          "sourceKeys": [
+            "naka-karuizawa"
+          ]
+        },
+        {
+          "heading": "林中的教堂不是江户遗构",
+          "text": "Shaw礼拜堂原形建于1895年，至1922年扩建为接近今日的样貌，此后继续修复。看木构、林地与商街的关系，能理解交通小镇怎样成为避暑地。它仍是宗教场所，参访服从当日礼拜及开放安排。",
+          "sourceKeys": [
+            "naka-karuizawa-church"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "naka-karuizawa",
+        "naka-karuizawa-church"
+      ],
+      "related": [
+        "nakasendo-tokyo",
+        "nakasendo-shimosuwa"
+      ]
+    },
+    {
+      "id": "nakasendo-shimosuwa",
+      "theme": "nakasendo",
+      "title": "两条街道交汇的温泉宿场",
+      "summary": "下诹访是中山道与甲州道中的交汇点。路口纪念与浴场题材浮雕、宿场街道资料馆的旅具和商家空间，使这里的价值落在道路、温泉与居民生活的联系上。",
+      "paragraphs": [
+        {
+          "heading": "在路口找行旅的方向",
+          "text": "长野官方资料指出两条街道在下诹访相合，合流碑后另有描绘旧共同浴场与宿场情景的有田烧浮雕。可以对照路口和图像，理解温泉聚落为何与山间交通相互依存；浮雕是后来的解释，不是江户街景照片。",
+          "sourceKeys": [
+            "naka-shimosuwa-junction"
+          ]
+        },
+        {
+          "heading": "进入商家尺度看旅行用品",
+          "text": "宿场街道资料馆使用1874年大火后兴建、仍保留江户商家特点的建筑。楼上通过绘图、旅具及幕末资料介绍行旅，楼下也供休息和地方活动。建筑年代、展品所讲年代与今天的用途应分别理解。",
+          "sourceKeys": [
+            "naka-shimosuwa-museum"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "naka-shimosuwa-junction",
+        "naka-shimosuwa-museum"
+      ],
+      "related": [
+        "nakasendo-karuizawa",
+        "nakasendo-narai"
+      ]
+    },
+    {
+      "id": "nakasendo-narai",
+      "theme": "nakasendo",
+      "title": "漆梳商宅与人马调度的两种问屋",
+      "summary": "奈良井不只有整齐木屋。中村邸留下漆梳商业的生活空间，上问屋资料馆则说明宿站怎样准备马匹和人足；同一个“问屋”词在这里对应不同工作。",
+      "paragraphs": [
+        {
+          "heading": "中村邸看商品与家居",
+          "text": "约1843年建成的中村邸原是漆梳批发商家，保留主屋和土藏。可留意向街面营业与向屋内生活的关系，以及屋檐、木构和仓储怎样服务一件小型工艺品的生产流通。这里是商家居所，不是所有朝圣或官员都住宿的本阵。",
+          "sourceKeys": [
+            "naka-narai-home"
+          ]
+        },
+        {
+          "heading": "上问屋看旅人背后的劳动",
+          "text": "上问屋负责宿站马匹、人足等调度，资料馆展示长期留下的古文书、陶器、漆器和生活工具。读这些记录，可以把“古道旅行”从个人行走扩展到搬运、交接和社区负担；它与漆梳批发商的职能不可混为一谈。",
+          "sourceKeys": [
+            "naka-narai-post"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "naka-narai-home",
+        "naka-narai-post"
+      ],
+      "related": [
+        "nakasendo-shimosuwa",
+        "nakasendo-fukushima"
+      ]
+    },
+    {
+      "id": "nakasendo-fukushima",
+      "theme": "nakasendo",
+      "title": "关所与代官屋敷里的交通秩序",
+      "summary": "木曾福岛可把福岛关所与山村代官屋敷分开看：前者控制通行，后者记录地方治理与接待。现存房间、迁入书斋和复制宴席各有不同证据性质。",
+      "paragraphs": [
+        {
+          "heading": "从通行文书理解山路",
+          "text": "福岛关所长期检查“入铁炮、出女”等通行事项，资料馆保存相关文书与用具。它让古道不再只是风景，也显出人员、武器与身份如何受到管理。关所遗址和现代展馆是不同对象，不把展馆整体当作江户原建筑。",
+          "sourceKeys": [
+            "naka-fukushima-checkpoint"
+          ]
+        },
+        {
+          "heading": "屋敷里留意原存与迁入",
+          "text": "山村家世袭管理木曾谷与关所，今天只留广大旧邸的一部分下屋敷与庭园；另有迁入的石作驹石书斋及复原宴席模型。参观时把建筑、书画和复制食物分开，可以读出治理者生活与今日解释手法。",
+          "sourceKeys": [
+            "naka-yamamura"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "naka-fukushima-checkpoint",
+        "naka-yamamura"
+      ],
+      "related": [
+        "nakasendo-narai",
+        "nakasendo-suhara"
+      ]
+    },
+    {
+      "id": "nakasendo-suhara",
+      "theme": "nakasendo",
+      "title": "水舟、洪水迁宿与正在修复的寺院",
+      "summary": "须原宿的特色是掏空树干做成的水舟，也有洪水后迁移宿场的历史。定胜寺虽重要，村方当前说明改修期间不能入场，不能按旧攻略承诺进入寺内。",
+      "paragraphs": [
+        {
+          "heading": "水不只装点街道",
+          "text": "大桑村说明水舟多由椹木等大树干掏空，用于冷却饮料蔬菜、洒水等日常生活。沿街观察水源、木槽与家门的距离，可以理解宿场如何共享水资源。旧聚落曾受木曾川洪水破坏后迁移，街道也并非一直停在同一地点。",
+          "sourceKeys": [
+            "naka-suhara"
+          ]
+        },
+        {
+          "heading": "寺院的迁移与今日修缮",
+          "text": "定胜寺曾多次受洪水损毁，1598年迁至现址，本堂、库里与山门为重要文化财。2026-11核查村方公告，2024年9月至预计2027年秋改修期间不能入场；本轮不承诺内部参观，先看宿场公共街道，访问前再查公告。",
+          "sourceKeys": [
+            "naka-joshoji"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "naka-suhara",
+        "naka-joshoji"
+      ],
+      "related": [
+        "nakasendo-fukushima",
+        "nakasendo-tsumago"
+      ]
+    },
+    {
+      "id": "nakasendo-tsumago",
+      "theme": "nakasendo",
+      "title": "本阵、脇本阵与保存街道的不同年代",
+      "summary": "妻笼本阵1995年依据旧图复原，脇本阵奥谷则是1877年重建的林家建筑。把二者并读，能看到身份住宿、酿酒收入与后来的町并保存，而不是一整条未经变化的江户街景。",
+      "paragraphs": [
+        {
+          "heading": "先把两处建筑的证据分开",
+          "text": "本阵在明治时期拆除后，1995年依岛崎家保存的江户后期间取图复原。它呈现历史空间的研究成果，不能称为江户建筑完整存续；与之对照的脇本阵奥谷现有建筑年代是1877年。",
+          "sourceKeys": [
+            "naka-tsumago-main",
+            "naka-tsumago-secondary"
+          ]
+        },
+        {
+          "heading": "宿场生计也靠酿酒",
+          "text": "观光厅说明经营脇本阵的林家还酿造“鹭娘”酒，并承担人马供应职责。即使中山道旅客减少，酿酒收入仍支持了明治初年的建造。看接待房间、工作空间与街道关系，可理解保存的不是空壳布景，而是曾由多种劳动维系的家业。",
+          "sourceKeys": [
+            "naka-tsumago-secondary"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "naka-tsumago-main",
+        "naka-tsumago-secondary"
+      ],
+      "related": [
+        "nakasendo-suhara",
+        "nakasendo-magome"
+      ]
+    },
+    {
+      "id": "nakasendo-magome",
+      "theme": "nakasendo",
+      "title": "石坡、水车与藤村作品的出生地",
+      "summary": "马笼的石板坡道、水渠和水车把山坡地形变成宿场生活；藤村纪念馆则在旧本阵遗址上呈现文学。旧屋1895年火灾损失与1947年纪念馆建设应分开说明。",
+      "paragraphs": [
+        {
+          "heading": "顺着坡度看街道怎样工作",
+          "text": "石板街沿坡上升，水渠带动水车，较高处可望惠那山。先从低处看屋檐和坡面，再辨认水流与通行空间，会比只将它视为“古色古香”更具体。路面与居民、店铺持续共用，步行段不是封闭主题园。",
+          "sourceKeys": [
+            "naka-magome"
+          ]
+        },
+        {
+          "heading": "纪念馆在原址，不等于原住宅",
+          "text": "中津川市说明岛崎藤村出生的马笼本阵在1895年大火中与宿场大片建筑一同消失，1947年在旧址建纪念馆。馆内原稿与《夜明前》等作品提供阅读入口；文学再现、故居遗址和后来纪念建筑是三种不同关联。",
+          "sourceKeys": [
+            "naka-magome-museum"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "naka-magome",
+        "naka-magome-museum"
+      ],
+      "related": [
+        "nakasendo-tsumago",
+        "nakasendo-kyoto"
+      ]
+    },
+    {
+      "id": "nakasendo-kyoto",
+      "theme": "nakasendo",
+      "title": "从桥上铭文读京都道路门户",
+      "summary": "三条大桥是京都一端的代表节点，桥上装饰与铭文可追溯多个时代。1590年大改造、1950年改造与2024年修景不能缩写成一座江户桥原封不动延续至今。",
+      "paragraphs": [
+        {
+          "heading": "看桥，也看桥头留存物",
+          "text": "京都官方介绍1590年丰臣秀吉命令下的大改造，桥的擬宝珠有天正与昭和等时期构件，西桥头还留相关旧石柱。可把铭文与材料作为时间线索，读跨鸭川工程和城市交通的关系，不把每一根栏杆都认作1590年原件。",
+          "sourceKeys": [
+            "naka-kyoto"
+          ]
+        },
+        {
+          "heading": "修复本身也是城市历史",
+          "text": "现桥经历1950年改造，京都市会又记录2024年1月补修、修景工程完成典礼。今天的桥是持续维护的公共设施，河岸观景与过桥日常让历史继续被使用；本图东京至京都连线仍是走廊示意，不是每段旧道都可直接照走的轨迹。",
+          "sourceKeys": [
+            "naka-kyoto",
+            "naka-kyoto-repair"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "naka-kyoto",
+        "naka-kyoto-repair"
+      ],
+      "related": [
+        "nakasendo-magome"
+      ]
+    },
+    {
+      "id": "viking-hedeby",
+      "theme": "viking",
+      "title": "原始器物与复原港镇分开看",
+      "summary": "Haithabu的馆内原始器物与户外七座复原房屋共同解释贸易港镇。符文石、工艺品和船体是证据，房屋与码头则依据发掘重建；户外区域还受冬季关闭影响。",
+      "paragraphs": [
+        {
+          "heading": "从器物读交换与身份",
+          "text": "馆内展出工艺、贸易相关器物，墓葬饰品、武器和符文石也显示社会身份的差异。可以从材料、制作方式及来源标签读一个港镇怎样连向远方，不把维京文化简单等同于一种战斗形象。原件与模型应依展签辨认。",
+          "sourceKeys": [
+            "viking-hedeby"
+          ]
+        },
+        {
+          "heading": "房屋是研究后的空间解释",
+          "text": "遗址半圆围堤内的七座房屋及登船桥按发掘证据复原，可比较窄通道、编枝灰泥墙与岸线。2026-11馆方说明户外区冬休，计划2027年3月22日重开；馆内与户外开放状态不同，出发前查馆方公告。",
+          "sourceKeys": [
+            "viking-hedeby"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "viking-hedeby"
+      ],
+      "related": [
+        "viking-ribe"
+      ]
+    },
+    {
+      "id": "viking-ribe",
+      "theme": "viking",
+      "title": "考古博物馆与活态复原中心是两处",
+      "summary": "里伯的Ribe Viking Museum以出土物讲贸易、工艺与信仰；Ribe VikingeCenter另以复原港口、市集和农庄做实验考古。两者不是同一馆，也不是仍完整站立的维京原城。",
+      "paragraphs": [
+        {
+          "heading": "先用原件理解市集",
+          "text": "Ribe Viking Museum依据Museum Vest的考古研究展示城市约公元700年起的形成及中世纪发展。工艺品与贸易器物把北海网络落实到日常生活；它位于市内原发电厂，建筑本身不是维京时代遗构。",
+          "sourceKeys": [
+            "viking-ribe-museum"
+          ]
+        },
+        {
+          "heading": "复原的不同场景也跨时期",
+          "text": "VikingeCenter以市集、港口、教堂和约980年农庄等复原场景呈现约三百年历史，并用工艺检验考古假设；建筑既非此地发掘，也非迁来的原物。2026-11馆方说明本季结束、计划2027年4月28日重开，须另核对活动安排。它与市内考古博物馆不是同一机构。",
+          "sourceKeys": [
+            "viking-ribe-centre"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "viking-ribe-museum",
+        "viking-ribe-centre"
+      ],
+      "related": [
+        "viking-hedeby",
+        "viking-roskilde"
+      ]
+    },
+    {
+      "id": "viking-roskilde",
+      "theme": "viking",
+      "title": "原船残骸与可航复原船的对读",
+      "summary": "罗斯基勒五艘Skuldelev原船与港区复原船提供两种不同证据。船形、木纹和工具痕可读功能与工艺；实际航行的复原成果则继续修正研究假设，并非完全确定的原貌。",
+      "paragraphs": [
+        {
+          "heading": "先比较不同船的用途",
+          "text": "原船在1962年发掘，馆方以它们为常设展示核心。看船宽、船长、残存木材与拼接方式，可比较载货、捕鱼与战争等需求怎样改变船形；“维京船”并非一种用途和一种尺寸。",
+          "sourceKeys": [
+            "viking-ships",
+            "viking-ships-reconstruction"
+          ]
+        },
+        {
+          "heading": "复原船把假设放到水上检验",
+          "text": "馆方说明缺失部分需借其他船发现、图像和北欧传统船工艺推断，复原并非最终真相。港区船只与造船活动随季节变化，不能把可航新船当出土原物，也不因看到船就保证当天能乘坐航行。",
+          "sourceKeys": [
+            "viking-ships-reconstruction",
+            "viking-ships"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "viking-ships",
+        "viking-ships-reconstruction"
+      ],
+      "related": [
+        "viking-ribe",
+        "viking-birka"
+      ]
+    },
+    {
+      "id": "viking-birka",
+      "theme": "viking",
+      "title": "湖岛上的遗存与缓冲区复原村",
+      "summary": "Birka位于Björkö，王室据点Hovgården在邻岛Adelsö，二者共同解释湖泊水路与贸易治理。城垣、墓丘和岸线遗存，与缓冲区的博物馆、复原房屋应分开看。",
+      "paragraphs": [
+        {
+          "heading": "从地形读城镇和权力",
+          "text": "UNESCO列出Birka的堡垒、城垣、墓丘与港口遗存，Hovgården则在海峡另一侧。沿允许的路径观察水路与高地关系，可理解湖上交通如何支持市集和王权；本图单点不表示两岛是一处可直接步行连接的遗址。",
+          "sourceKeys": [
+            "viking-birka-heritage"
+          ]
+        },
+        {
+          "heading": "不要把复原村当原城",
+          "text": "游客馆与复原房屋设在缓冲区，原址的价值包括仍在地下的考古层。2026-11运营方说明本季结束、计划2027年5月5日再开，来年活动待公布。岛上到访需另查船班与服务期，不按夏季图片推定全年可参观同样设施。",
+          "sourceKeys": [
+            "viking-birka-heritage",
+            "viking-birka-visit"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "viking-birka-heritage",
+        "viking-birka-visit"
+      ],
+      "related": [
+        "viking-roskilde",
+        "viking-york"
+      ]
+    },
+    {
+      "id": "viking-york",
+      "theme": "viking",
+      "title": "从湿土保存的鞋与梳读Jorvik",
+      "summary": "约克Coppergate的潮湿沉积保存木材、皮革与环境材料。JORVIK的复原街景是基于考古的解释，而鞋、梳、锁钥和游戏器物等原件让贸易城市的日常生活有具体凭据。",
+      "paragraphs": [
+        {
+          "heading": "潮湿泥土也保存了生活",
+          "text": "1976—1981年发掘记录建筑、工艺废料、动植物等材料，木材与皮革在特殊条件下得以留存。看这些证据可追问居民怎样穿衣、工作和处理食物；今日街景复原并不是地面旧屋一直保存到现在。",
+          "sourceKeys": [
+            "viking-york-dig"
+          ]
+        },
+        {
+          "heading": "挑一件小物看制作与使用",
+          "text": "馆方器物目录列出皮鞋、鹿角梳、琥珀珠、挂锁钥匙和游戏棋盘等。可以选一类看材料、磨损与展签，再与复原场景对读：锁钥提示财物保管，梳与鞋提示手工生产和个人生活，证据的尺度远小于宏观“航海传奇”。",
+          "sourceKeys": [
+            "viking-york-objects"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "viking-york-dig",
+        "viking-york-objects"
+      ],
+      "related": [
+        "viking-birka",
+        "viking-dublin"
+      ]
+    },
+    {
+      "id": "viking-dublin",
+      "theme": "viking",
+      "title": "木梳、银秤与港城的混合工艺",
+      "summary": "都柏林维京历史可从爱尔兰国家博物馆的木梳、制鞋、琥珀加工及银秤证据展开。街道下的房屋、作坊和步道遗存说明贸易与手工业，而非一句笼统的“城市历史节点”。",
+      "paragraphs": [
+        {
+          "heading": "城址与今天的收藏地点分开",
+          "text": "博物馆介绍1961—1981年城市考古，湿润土层保存房屋、作坊、界址及木步道；相关器物进入收藏。Wood Quay等历史城址与国家博物馆展厅不在同一位置，本图用城市代表点串联，不能在街口承诺看到全部出土物。",
+          "sourceKeys": [
+            "viking-dublin"
+          ]
+        },
+        {
+          "heading": "从计量和工艺看城市联系",
+          "text": "银锭、碎银、钱币、砝码与秤说明交易，鹿角梳、皮革和琥珀废料说明制作。资料也指出后期爱尔兰与斯堪的纳维亚工艺逐渐交织，难以把每件物品简单分成“本地”或“外来”；可留意展签如何说明材料、来源和年代。",
+          "sourceKeys": [
+            "viking-dublin"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "viking-dublin"
+      ],
+      "related": [
+        "viking-york",
+        "viking-thingvellir"
+      ]
+    },
+    {
+      "id": "viking-thingvellir",
+      "theme": "viking",
+      "title": "裂谷里读议会遗存与后世记忆",
+      "summary": "辛格韦德利的裂谷与阿尔廷集会相互叠合。草皮、石砌临时棚屋的残迹和后世农用遗存提供文化景观线索；今天标出的Law Rock位置也包含历史解释，不能称为已精确确认的原发言点。",
+      "paragraphs": [
+        {
+          "heading": "不只有板块裂谷的风景",
+          "text": "UNESCO说明阿尔廷自930年在这里集会至1798年，遗产包括约五十处草皮与石构棚屋残迹，也有18、19世纪农业使用。沿标识看微小土丘和场地分区，可理解法律、争议处理与临时聚居怎样借用开阔地形。",
+          "sourceKeys": [
+            "viking-thingvellir"
+          ]
+        },
+        {
+          "heading": "纪念位置不等于精确考古结论",
+          "text": "美国国会图书馆法律馆说明Law Rock的确切位置并未确定，今日旗杆标示的是被认为相关的位置。把纪念性标志与地下遗存分开，能同时理解公共记忆和证据的不确定性；这里也不是所有维京航海者都按同一行程经过的停靠港。",
+          "sourceKeys": [
+            "viking-lawrock"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "viking-thingvellir",
+        "viking-lawrock"
+      ],
+      "related": [
+        "viking-dublin",
+        "viking-lans"
+      ]
+    },
+    {
+      "id": "viking-lans",
+      "theme": "viking",
+      "title": "草皮墙基与小型炼铁区的北大西洋证据",
+      "summary": "兰塞奥兹牧草地的北欧建筑墙基、炼铁废渣与船钉，把跨洋活动落实到考古证据。原址遗存、复原房屋和更早的原住民活动地点在官方地图上分别标明，不应混作同一历史场景。",
+      "paragraphs": [
+        {
+          "heading": "先看低矮墙基，再看复原屋",
+          "text": "Parks Canada说明发掘确认八座11世纪北欧建筑的下部墙基，原来以草皮覆盖木构。今日地表起伏与后来的完整复原屋性质不同。可先看遗存布局，再借复原理解内部火塘、工作和居住空间。",
+          "sourceKeys": [
+            "viking-lans-history",
+            "viking-lans-map"
+          ]
+        },
+        {
+          "heading": "炼铁与修船，也要看更早居民",
+          "text": "官方解说图标出小型炼铁屋、炭窑与修船空间，铁渣和船钉支持工艺判断；部分房间用途仍以“可能”表述。馆方同时说明此地数千年来有不同人群活动，北欧营地只是其中一段，不能把海岸写成欧洲人抵达前的空白世界。",
+          "sourceKeys": [
+            "viking-lans-map",
+            "viking-lans-history"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "viking-lans-history",
+        "viking-lans-map"
+      ],
+      "related": [
+        "viking-thingvellir"
+      ]
+    }
+  ]
+}

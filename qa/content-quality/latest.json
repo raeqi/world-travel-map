@@ -3,29 +3,30 @@
   "baseline": "27bd4fe441008c13a05d34beaf725923575812d1",
   "method": "All production data scripts in index order; every registered place/theme context. UI-only app/flow excluded. Signals are triage, not factual verdicts. Manual reviews are content-hash bound; sources not fetched automatically.",
   "summary": {
-    "visibleItineraryUnresolvedCandidatePlaces": 104,
-    "unresolvedCandidatePlaces": 144,
+    "visibleItineraryUnresolvedCandidatePlaces": 94,
+    "unresolvedCandidatePlaces": 133,
     "places": 2010,
     "internalThemes": 130,
     "visibleThemes": 77,
     "plans": 330,
     "placeThemeContexts": 2218,
     "plannedPlaces": 766,
-    "automaticCandidatePlaces": 149,
-    "automaticCandidateContexts": 149,
-    "visibleItineraryCandidatePlaces": 105,
+    "automaticCandidatePlaces": 138,
+    "automaticCandidateContexts": 138,
+    "visibleItineraryCandidatePlaces": 95,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 91,
-    "manualResearchedPlaces": 83,
+    "manualReviewedContexts": 108,
+    "manualResearchedPlaces": 100,
     "manualUsefulConcisePlaces": 5,
     "manualNeedsResearchPlaces": 3,
     "staleReviews": 0,
     "legacyCandidates": 226,
     "legacyComparisonCounts": {
-      "still-automatic-candidate": 144,
+      "still-automatic-candidate": 133,
       "useful-concise": 5,
       "researched-batch-2": 22,
       "researched-batch-3": 18,
+      "researched-batch-6": 11,
       "researched-batch-4": 23,
       "researched-batch-5": 14
     }
@@ -233,7 +234,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "a891245333de34f9bb7c482f5e273e2a547e264fbfd77e4a1b0d3d0146de8d65",
+      "sha256": "73e247989241457b5dee74fdacc05e11ed2f65a76a13721bdb6036aabc96310f",
       "executed": true
     },
     {
@@ -333,8 +334,8 @@
       "name": "中山道",
       "visible": true,
       "contexts": 9,
-      "automaticCandidates": 7,
-      "manuallyReviewed": 0
+      "automaticCandidates": 0,
+      "manuallyReviewed": 9
     },
     {
       "id": "francigena",
@@ -373,8 +374,8 @@
       "name": "维京文化网络",
       "visible": true,
       "contexts": 8,
-      "automaticCandidates": 4,
-      "manuallyReviewed": 0
+      "automaticCandidates": 0,
+      "manuallyReviewed": 8
     },
     {
       "id": "impressionism",
@@ -4301,13 +4302,13 @@
       "contexts": [
         {
           "theme": "nakasendo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-6",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-6"
     },
     {
       "id": "nakasendo-shimosuwa",
@@ -4319,13 +4320,13 @@
       "contexts": [
         {
           "theme": "nakasendo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-6",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-6"
     },
     {
       "id": "nakasendo-narai",
@@ -4337,13 +4338,13 @@
       "contexts": [
         {
           "theme": "nakasendo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-6",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-6"
     },
     {
       "id": "nakasendo-fukushima",
@@ -4355,13 +4356,13 @@
       "contexts": [
         {
           "theme": "nakasendo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-6",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-6"
     },
     {
       "id": "nakasendo-suhara",
@@ -4373,13 +4374,13 @@
       "contexts": [
         {
           "theme": "nakasendo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-6",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-6"
     },
     {
       "id": "nakasendo-magome",
@@ -4391,13 +4392,13 @@
       "contexts": [
         {
           "theme": "nakasendo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-6",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-6"
     },
     {
       "id": "nakasendo-kyoto",
@@ -4409,13 +4410,13 @@
       "contexts": [
         {
           "theme": "nakasendo",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-6",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-6"
     },
     {
       "id": "francigena-canterbury",
@@ -4772,13 +4773,13 @@
       "contexts": [
         {
           "theme": "viking",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-6",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-6"
     },
     {
       "id": "viking-birka",
@@ -4790,13 +4791,13 @@
       "contexts": [
         {
           "theme": "viking",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-6",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-6"
     },
     {
       "id": "viking-dublin",
@@ -4808,13 +4809,13 @@
       "contexts": [
         {
           "theme": "viking",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-6",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-6"
     },
     {
       "id": "viking-lans",
@@ -4826,13 +4827,13 @@
       "contexts": [
         {
           "theme": "viking",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-6",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-6"
     },
     {
       "id": "mozart-munich",
@@ -8730,65 +8731,65 @@
       "contexts": [
         {
           "id": "nakasendo-tokyo",
-          "status": "not-manually-verified",
+          "status": "researched-batch-6",
           "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "nakasendo-karuizawa",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "nakasendo-shimosuwa",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "nakasendo-narai",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "nakasendo-fukushima",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "nakasendo-suhara",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "nakasendo-tsumago",
-          "status": "not-manually-verified",
+          "status": "researched-batch-6",
           "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "nakasendo-magome",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "nakasendo-kyoto",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -8808,37 +8809,37 @@
       "contexts": [
         {
           "id": "nakasendo-narai",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "nakasendo-fukushima",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "nakasendo-suhara",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "nakasendo-tsumago",
-          "status": "not-manually-verified",
+          "status": "researched-batch-6",
           "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "nakasendo-magome",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -8855,16 +8856,16 @@
       "contexts": [
         {
           "id": "nakasendo-tsumago",
-          "status": "not-manually-verified",
+          "status": "researched-batch-6",
           "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "nakasendo-magome",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -9440,21 +9441,21 @@
       "contexts": [
         {
           "id": "viking-hedeby",
-          "status": "not-manually-verified",
+          "status": "researched-batch-6",
           "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "viking-ribe",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "viking-roskilde",
-          "status": "not-manually-verified",
+          "status": "researched-batch-6",
           "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
@@ -9473,16 +9474,16 @@
       "contexts": [
         {
           "id": "viking-york",
-          "status": "not-manually-verified",
+          "status": "researched-batch-6",
           "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "viking-dublin",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -9499,16 +9500,16 @@
       "contexts": [
         {
           "id": "viking-thingvellir",
-          "status": "not-manually-verified",
+          "status": "researched-batch-6",
           "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "viking-lans",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-6",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
