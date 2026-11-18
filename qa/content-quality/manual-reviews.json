@@ -2915,6 +2915,80 @@
         "https://www.nps.gov/ever/learn/nature/cceffectssalineglades.htm"
       ],
       "contentHash": "e4b8c0a2451b32c3e26ac24136b97ebd3335dd2ae0f4f1bc1da6f96be1804e28"
+    },
+    {
+      "id": "wh-775",
+      "theme": "culture",
+      "state": "researched-batch-18",
+      "checked": "2026-11-18",
+      "reason": "First dedicated source-bound reading in culture context; raw catalogue, image, coordinates and routes preserved. Reviewed named observable fabric, interpretation and provenance boundaries; not a field visit.",
+      "sources": [
+        "https://www.city.hiroshima.lg.jp/english/peace/1029869/1009929.html",
+        "https://whc.unesco.org/en/list/775/"
+      ],
+      "contentHash": "37fe0d4252fe8fabd048d95ec00f4dfe1d41ea7fd00dd8f9b60ecd5b70c1de69"
+    },
+    {
+      "id": "wh-661",
+      "theme": "culture",
+      "state": "researched-batch-18",
+      "checked": "2026-11-18",
+      "reason": "First dedicated source-bound reading in culture context; raw catalogue, image, coordinates and routes preserved. Reviewed named observable fabric, interpretation and provenance boundaries; not a field visit.",
+      "sources": [
+        "https://whc.unesco.org/en/list/661/",
+        "https://www.himejicastle.jp/en/guide/history/",
+        "https://www.city.himeji.lg.jp/castle/0000033820.html"
+      ],
+      "contentHash": "8e4dbfb295e3a6fcf3b0d631c8e963a67af1eda833a7134a981c205c5d8a2dc0"
+    },
+    {
+      "id": "wh-1593",
+      "theme": "culture",
+      "state": "researched-batch-18",
+      "checked": "2026-11-18",
+      "reason": "First dedicated source-bound reading in culture context; raw catalogue, image, coordinates and routes preserved. Reviewed named observable fabric, interpretation and provenance boundaries; not a field visit.",
+      "sources": [
+        "https://whc.unesco.org/en/list/1593/",
+        "https://www.city.sakai.lg.jp/kanko/rekishi/sei/kohun_otozureru/vizitor_center_english.html",
+        "https://www.city.sakai.lg.jp/kanko/rekishi/sei/kohun_otozureru/mozukofungun_visitorcenter.html"
+      ],
+      "contentHash": "ab50226ddd545b70d10e7f7d0cc051d6cbb9cdb7165bfe211c4345deffee38f5"
+    },
+    {
+      "id": "wh-660",
+      "theme": "culture",
+      "state": "researched-batch-18",
+      "checked": "2026-11-18",
+      "reason": "First dedicated source-bound reading in culture context; raw catalogue, image, coordinates and routes preserved. Reviewed named observable fabric, interpretation and provenance boundaries; not a field visit.",
+      "sources": [
+        "https://whc.unesco.org/en/list/660/",
+        "https://www.japan.travel/en/world-heritage/buddhist-monuments-in-the-horyu-ji-area/"
+      ],
+      "contentHash": "ad5cc49f935d87a340e768f725c5f2a1705cb8742fbe79570dee4d4d56ea9b12"
+    },
+    {
+      "id": "wh-870",
+      "theme": "culture",
+      "state": "researched-batch-18",
+      "checked": "2026-11-18",
+      "reason": "First dedicated source-bound reading in culture context; raw catalogue, image, coordinates and routes preserved. Reviewed named observable fabric, interpretation and provenance boundaries; not a field visit.",
+      "sources": [
+        "https://whc.unesco.org/en/list/870/",
+        "https://www.heijo-park.jp/en/area/daigokuden/"
+      ],
+      "contentHash": "e95e22171e09142b7fcd05657268bc0c7ebe29513eef4e87651a2716996a55a8"
+    },
+    {
+      "id": "wh-688",
+      "theme": "culture",
+      "state": "researched-batch-18",
+      "checked": "2026-11-18",
+      "reason": "First dedicated source-bound reading in culture context; raw catalogue, image, coordinates and routes preserved. Reviewed named observable fabric, interpretation and provenance boundaries; not a field visit.",
+      "sources": [
+        "https://ja.kyoto.travel/tourism/single01.php?category_id=7&tourism_id=482",
+        "https://whc.unesco.org/en/list/688/"
+      ],
+      "contentHash": "9ed00cecec5dc9aa028018aa518fc374f72e21e5decf6ab3b8cb360acf01b874"
     }
   ]
 }

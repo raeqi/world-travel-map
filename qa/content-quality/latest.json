@@ -15,11 +15,11 @@
     "automaticCandidateContexts": 1,
     "visibleItineraryCandidatePlaces": 1,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 251,
-    "unreviewedContexts": 2085,
-    "unreviewedNoExpandedContexts": 1331,
-    "visibleItineraryUnreviewedNoExpandedContexts": 104,
-    "manualResearchedPlaces": 250,
+    "manualReviewedContexts": 257,
+    "unreviewedContexts": 2079,
+    "unreviewedNoExpandedContexts": 1325,
+    "visibleItineraryUnreviewedNoExpandedContexts": 98,
+    "manualResearchedPlaces": 256,
     "manualUsefulConcisePlaces": 0,
     "manualNeedsResearchPlaces": 1,
     "staleReviews": 0,
@@ -265,7 +265,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "b34266d5ecfa7997fdcffcc2eaee37af8ca25a2372a90a734ef62ab3ebebc428",
+      "sha256": "051664d77199d53c7c6cd3099fc23106f50d7062b8ad4f6dedd86b6c49172d75",
       "executed": true
     },
     {
@@ -299,7 +299,7 @@
       "visible": true,
       "contexts": 1033,
       "automaticCandidates": 0,
-      "manuallyReviewed": 20
+      "manuallyReviewed": 26
     },
     {
       "id": "gorges",
@@ -5924,36 +5924,36 @@
         },
         {
           "id": "wh-1593",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-18",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-660",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-18",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-870",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-18",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-688",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-18",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-661",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-18",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
@@ -5966,8 +5966,8 @@
         },
         {
           "id": "wh-775",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-18",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
@@ -6390,22 +6390,22 @@
       "contexts": [
         {
           "id": "wh-688",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-18",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-870",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-18",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "wh-660",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-18",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }

@@ -255,6 +255,85 @@
         "Viewed actual desktop Yandang and mobile Lijiang screenshots. Text is readable; existing map-label density remains outside this content-only batch.",
         "No physical phone, field visit, exact historic track reconstruction or exhaustive manuscript collation."
       ]
+    },
+    {
+      "batch": [
+        14,
+        15
+      ],
+      "pr": 39,
+      "mainCommit": "26847cf5f87e021ccd842e5dd651f639f2532842",
+      "headCommit": "d8be523d888f73a5dee81fcc2ca0b527e4bbc982",
+      "ciRuns": [
+        44340570817,
+        44340571004,
+        44340571447,
+        44340570982,
+        44340570867
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 238,
+        "detailChecks": 476,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 86,
+        "artifactId": 14442988888,
+        "zipSha256": "eb60b55cdd2083b2b2a0db872d980ff08f7f7356dd3336069b2ae58316239acc",
+        "libraryFileId": "libfile_fde3_f-9793d5c421fc8191ae807953827f1fb4_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "mainCommit": "26847cf5f87e021ccd842e5dd651f639f2532842",
+        "run": 44343645534,
+        "release": "e351c5d9ca5c627c182c",
+        "actualAssetBytesMatched": 49,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Viewed actual desktop Japan and mobile Hangzhou screenshots; text/fictional journey boundaries reviewed, existing overview label density remains outside the content batch.",
+        "No physical phone, on-site visit or exhaustive factual verification of all catalogue contexts."
+      ]
+    },
+    {
+      "batch": 16,
+      "pr": 40,
+      "mainCommit": "fddec467a50823f9b44e1fafa6a06f90ede9d774",
+      "headCommit": "11bacbe158cb602dc38b24f9bad3758f7064c2d4",
+      "ciRuns": [
+        44342414013,
+        44342413935,
+        44342414053,
+        44342413976,
+        44342413912
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 244,
+        "detailChecks": 488,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 98,
+        "artifactId": 14444568741,
+        "zipSha256": "1026ae4ac844afe2db6a46dce075960a028f9965a1f6d7202498972987748106",
+        "libraryFileId": "libfile_fde3_f-9e29128f0d4481919af501805759538e_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "mainCommit": "fddec467a50823f9b44e1fafa6a06f90ede9d774",
+        "run": 44345670694,
+        "release": "100b237b4bf4f98f78a2",
+        "actualAssetBytesMatched": 49,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Viewed actual desktop panda habitat and mobile Keoladeo screenshots; corrected full catalogue displays checked. Existing map-label density not certified resolved.",
+        "No physical phone, on-site visit or exhaustive factual verification of all catalogue contexts."
+      ]
     }
   ]
 }
