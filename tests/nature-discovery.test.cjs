@@ -14,7 +14,7 @@ test('nature shares eleven selected routes without reclassifying mixed themes or
  homeState.interest='drives';const drives=matchingDiscoveryRoutes();
  assert.ok(expected.every(id=>drives.some(x=>x.plan.id===id)));
  assert.ok(drives.some(x=>x.plan.id==='roads-overseas'),'the original road entrance retains other routes');
- homeState.interest='all';const visiblePlans=themes.filter(t=>!t.catalogHidden).flatMap(t=>buildPlans(t.id,0));assert.equal(matchingDiscoveryRoutes().length,new Set(visiblePlans.map(p=>p.id)).size);
+ homeState.interest='all';const visiblePlans=themes.filter(t=>!t.catalogHidden).flatMap(t=>buildPlans(t.id,0).filter(p=>typeof isFeaturedCataloguePlan!=='function'||isFeaturedCataloguePlan(p,t.id)));assert.equal(matchingDiscoveryRoutes().length,new Set(visiblePlans.map(p=>p.id)).size);
  assert.equal(new Set(matchingDiscoveryRoutes().map(x=>x.plan.id)).size,new Set(visiblePlans.map(p=>p.id)).size);
  assert.deepEqual({places:places.length,plans:planTemplates.length,themes:themes.length},original);
  assert.equal(discoveryMeta['drive-northamerica'][0],'drives');
