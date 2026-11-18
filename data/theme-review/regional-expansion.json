@@ -635,7 +635,8 @@
       "observe": "分别看地方生活和家族艺术，工作室按预约或导览安排；不要把阿尔贝托、乔瓦尼与迭戈的作品混作一人创作。",
       "source": "https://ciaesagranda.ch/chi-siamo/",
       "wiki": "Ciäsa Granda",
-      "wikiLang": "de"
+      "wikiLang": "de",
+      "mediaFile": "Stampa Museum.jpg"
     },
     {
       "id": "thirty-kunsthaus-zurich",
@@ -693,7 +694,7 @@
       "observe": "先辨认房屋、生活物件和照片的年代，再读绘画中的故乡想象；不能凭画面确定每栋建筑的精确位置。",
       "source": "https://chagall-vitebsk.museum.by/",
       "wiki": "Marc Chagall Museum",
-      "imageRejected": "Lead photograph depicts the separate Art Center, not the childhood house; exact house image required"
+      "mediaFile": "Chagall's House in Vitebsk.jpg"
     },
     {
       "id": "thirty-vence-cathedral",
