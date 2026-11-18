@@ -1110,8 +1110,8 @@
       "id": "thirty-hemingway-oak-park",
       "name": "奥克帕克 · 海明威出生地博物馆",
       "en": "Ernest Hemingway Birthplace Museum",
-      "lon": -87.794592,
-      "lat": 41.892058,
+      "lon": -87.795081,
+      "lat": 41.892778,
       "country": "美国",
       "region": "伊利诺伊州奥克帕克",
       "type": "童年与写作",
@@ -1124,6 +1124,10 @@
         {
           "title": "出生地博物馆现址",
           "url": "https://www.hemingwaybirthplace.com/hours-location"
+        },
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://en.wikipedia.org/wiki/Birthplace_of_Ernest_Hemingway"
         }
       ]
     },
@@ -1131,71 +1135,101 @@
       "id": "thirty-hemingway-ketchum-museum",
       "name": "凯彻姆 · 伍德河历史文化博物馆",
       "en": "Wood River Museum of History and Culture",
-      "lon": -114.3638,
-      "lat": 43.6825,
+      "lon": -114.36243522,
+      "lat": 43.68283645,
       "country": "美国",
       "region": "爱达荷州凯彻姆",
       "type": "文献与地方生活",
       "desc": "社区图书馆运营的伍德河博物馆以藏品和资料认识海明威的爱达荷阶段。作家的凯彻姆私人晚年住宅不对公众开放，因此选择公共博物馆作为可参访入口。",
       "observe": "现馆位于580 Fourth Street East, Suite 130，已于2023年从旧址迁入；在当期展陈与数字馆藏中读作品、居住与山地环境，不把公共博物馆当作私人故居。",
       "source": "https://comlib.org/museum/",
-      "wiki": null
+      "wiki": null,
+      "sources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://comlib.org/museum/"
+        }
+      ]
     },
     {
       "id": "thirty-steinbeck-house",
       "name": "萨利纳斯 · 斯坦贝克出生故居",
       "en": "John Steinbeck House Salinas",
-      "lon": -121.6585,
-      "lat": 36.6772,
+      "lon": -121.65931,
+      "lat": 36.67668,
       "country": "美国",
       "region": "加利福尼亚州萨利纳斯",
       "type": "童年与生活",
       "desc": "斯坦贝克出生与成长的安妮女王式住宅在修复后由地方团体运营，今天亦有餐饮和导览。它离国家斯坦贝克中心约两个街区，可以把生平展示与具体房间放在同一天看。",
       "observe": "区分历史房屋、后期修复和当代餐厅使用，先核对导览安排；不把用餐自动等同于能参观所有楼层。",
       "source": "https://steinbeckhouse.com/",
-      "wiki": "John Steinbeck House (Salinas, California)"
+      "wiki": "John Steinbeck House (Salinas, California)",
+      "sources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://www.openstreetmap.org/way/879947250"
+        }
+      ]
     },
     {
       "id": "thirty-ricketts-lab",
       "name": "蒙特雷 · 太平洋生物实验室",
       "en": "Pacific Biological Laboratories",
-      "lon": -121.9013,
-      "lat": 36.6179,
+      "lon": -121.90108968,
+      "lat": 36.6172196,
       "country": "美国",
       "region": "加利福尼亚州蒙特雷",
       "type": "科学与文学",
       "desc": "里基茨的实验室与斯坦贝克的交往、海洋观察和罐头厂街写作有关。小说中的Doc与真实生物学家之间有联系，但人物经历不是实验室历史的逐字记录。",
       "observe": "从海岸、标本供应与地方交往读文学背景，实验室按市方开放或导览日进入；平日可看外部允许区域，不自行推门。",
       "source": "https://www.monterey.org/museums",
-      "wiki": "Pacific Biological Laboratories"
+      "wiki": "Pacific Biological Laboratories",
+      "sources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://www.monterey.org/museums"
+        }
+      ]
     },
     {
       "id": "thirty-twain-elmira-study",
       "name": "埃尔迈拉学院 · 马克·吐温八角书房",
       "en": "Mark Twain Study",
-      "lon": -76.8145,
-      "lat": 42.0948,
+      "lon": -76.81393,
+      "lat": 42.09791,
       "country": "美国",
       "region": "纽约州埃尔迈拉",
       "type": "写作与迁建",
       "desc": "这座八角书房原在Quarry Farm，吐温在此写作多部作品，1952年迁至埃尔迈拉学院。现在的学院地点与原创作地不同；Quarry Farm仍用于学术驻留，并非普通公众住宅游览。",
       "observe": "看书房体量和文献说明，分清原作写作环境、迁建后的陈列和研究庄园的访问边界。",
       "source": "https://marktwainstudies.com/mark-twain-in-elmira/",
-      "wiki": "Mark Twain Study"
+      "wiki": "Mark Twain Study",
+      "sources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://www.openstreetmap.org/way/1527607245"
+        }
+      ]
     },
     {
       "id": "thirty-stowe-hartford",
       "name": "哈特福德 · 哈丽特·比彻·斯托故居",
       "en": "Harriet Beecher Stowe House Hartford",
-      "lon": -72.6997,
-      "lat": 41.7663,
+      "lon": -72.70038,
+      "lat": 41.76683,
       "country": "美国",
       "region": "康涅狄格州哈特福德",
       "type": "文学与邻里",
       "desc": "斯托在Nook Farm街区的晚年故居与马克·吐温故居相邻，适合一起认识地方文学、废奴运动和家庭生活。她是《汤姆叔叔的小屋》的作者，不能将这所房屋归为吐温住宅。",
       "observe": "比较两位作家的不同房间、时代和公共议题；导览与展览按各机构分别预约，不把小说当作奴隶制历史的全部证据。",
       "source": "https://www.harrietbeecherstowecenter.org/visit/",
-      "wiki": "Harriet Beecher Stowe House (Hartford, Connecticut)"
+      "wiki": "Harriet Beecher Stowe House (Hartford, Connecticut)",
+      "sources": [
+        {
+          "title": "机构现址与地理核对",
+          "url": "https://www.openstreetmap.org/way/194716938"
+        }
+      ]
     },
     {
       "id": "thirty-marquez-house",
@@ -1217,6 +1251,10 @@
         {
           "title": "实际馆址",
           "url": "https://www.openstreetmap.org/way/968013637"
+        },
+        {
+          "title": "大学博物馆系统：重建依据与开放背景（2020年报道，非当前时刻表）",
+          "url": "https://www.unimagdalena.edu.co/presentacionPublicacion/VerNoticia/73727"
         }
       ]
     },
@@ -1233,7 +1271,7 @@
       "observe": "湿地是广域生态系统，坐标不是码头；从Puebloviejo或Sitionuevo等合法运营点另查船程、天气和保护要求，尊重社区访问安排。",
       "source": "https://colombia.travel/es/cienaga-grande",
       "wiki": "Ciénaga Grande de Santa Marta",
-      "photoCaption": "马格达莱纳大沼泽 · NASA轨道影像，展示广域潟湖与海岸（非码头定位）"
+      "photoCaption": "马格达莱纳河口与邻近潟湖地貌 · NASA轨道影像（2001年；非码头定位）"
     }
   ]
 }
