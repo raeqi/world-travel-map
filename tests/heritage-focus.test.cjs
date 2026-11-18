@@ -7,3 +7,8 @@ for(const [id,s] of Object.entries(supplements)){if(!s)continue;const p=places.f
 const alamut=places.find(p=>p.id==='wh-1770');assert.equal(alamut.lon,50.5861805555);assert.equal(alamut.lat,36.4447083333);assert.match(alamut.coordinateNote,/Alamūt Castle/);
 assert.ok(fs.readFileSync('reading.js','utf8').includes('class="location-unavailable" role="status"'));
 console.log('PASS: 37 official coordinate repairs, 1 honest unresolved entry, source provenance and original catalogue retained');
+const {assertPlaceDataPreserved}=require('../scripts/theme-audit-runtime.cjs');
+const corrected={id:alamut.id,lon:alamut.lon,lat:alamut.lat,coordinateNote:alamut.coordinateNote,desc:'unchanged'},original={...corrected,lon:null,lat:null,coordinateNote:'old missing note'};
+assert.doesNotThrow(()=>assertPlaceDataPreserved(corrected,original,'verified repair'));
+assert.throws(()=>assertPlaceDataPreserved({...corrected,lon:0},original,'wrong coordinate'));
+assert.throws(()=>assertPlaceDataPreserved({...corrected,desc:'changed'},original,'lost prose'));

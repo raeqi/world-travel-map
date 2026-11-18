@@ -1,6 +1,6 @@
 'use strict';
 const fs=require('node:fs'),assert=require('node:assert/strict'),crypto=require('node:crypto'),vm=require('node:vm');
-const {runtime,snapshot,assertReadingPreserved}=require('./theme-audit-runtime.cjs');
+const {runtime,snapshot,assertReadingPreserved,assertPlaceDataPreserved}=require('./theme-audit-runtime.cjs');
 const {execFileSync}=require('node:child_process');
 const imageHashes=new Map();
 function imageEvidence(media){if(!media)return null;const path=media.path||'assets/photos/'+media.file+'.jpg';if(!imageHashes.has(path)){let hash=null;if(fs.existsSync(path)){const bytes=fs.readFileSync(path);const original=execFileSync('git',['show',baseline+':'+path],{maxBuffer:16*1024*1024});assert.ok(bytes.equals(original),'Image bytes changed: '+path);hash=crypto.createHash('sha256').update(bytes).digest('hex')}imageHashes.set(path,hash)}return {path,source:media.source,license:media.license,sha256:imageHashes.get(path),originalBytesVerified:!!imageHashes.get(path)}}
@@ -12,7 +12,7 @@ const checks=before.map(old=>{
  for(const point of old.points){
   const now=current.points.find(p=>p.id===point.id);assert.ok(now,old.id+'/'+point.id+' missing');
   {
-   const {essay:oldEssay,essayApplies:oldApplies,reviewedReading:oldReviewed,...oldData}=point,{essay:newEssay,essayApplies:newApplies,reviewedReading:newReviewed,...newData}=now;assert.deepEqual(newData,oldData,old.id+'/'+point.id+' source data');
+   const {essay:oldEssay,essayApplies:oldApplies,reviewedReading:oldReviewed,...oldData}=point,{essay:newEssay,essayApplies:newApplies,reviewedReading:newReviewed,...newData}=now;assertPlaceDataPreserved(newData,oldData,old.id+'/'+point.id+' source data');
    assertReadingPreserved(point,now,old.id);
   }
  }
