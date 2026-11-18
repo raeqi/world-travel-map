@@ -3722,6 +3722,182 @@
         "https://whc.unesco.org/en/list/1246/"
       ],
       "contentHash": "691bea07ce383cda264d091ad83eb8721b7fa809ee4a57a6362933028e8ef399"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-1625",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1625/"
+      ],
+      "contentHash": "e139ffe054a8f3e574bdd19f03bd5cbcbaf70ab98de8abb201cd5cc7f8bc4bc8"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-1337",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1337/"
+      ],
+      "contentHash": "e5f95886b0e970eb88fe338d79754e19bfe39716080193068ed59141f372cec2"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-1256",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1256/"
+      ],
+      "contentHash": "ce229248d10e38a884d0dc263074a1f0fa96f4b40d2dfbf8e4a80a3be519ee7e"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-932",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/932/"
+      ],
+      "contentHash": "2b464f8a6af61d5563ca50401563ff03e08b950f38ac207b3466416a06e1aba2"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-345",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/345/"
+      ],
+      "contentHash": "c36c1ed28e69b789816c6b7bbe09c2758cc042f3a4d3cb95390d5048e7f4ff38"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-770",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/770/"
+      ],
+      "contentHash": "4eaad89c089d54eed319b3cc1a691df9e926d5ab8482b3cab75b5c3709539a38"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-85",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/85/"
+      ],
+      "contentHash": "895f906640e4d9494b526e6aba7b32e823df09990342e36871967dec03873489"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-1158",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1158/"
+      ],
+      "contentHash": "9082658a8d0760880cb1f29beb607f5da852a82c3cc372c33df26b09fb886d16"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-1026",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1026/"
+      ],
+      "contentHash": "3c8d283b0987cf1f6e454ad849656bab38c1f0d6e8369ea1320e820f0dfed55d"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-1025",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1025/"
+      ],
+      "contentHash": "c78c88ab8251af7c81ebd9de8755d4157e1de0e7c3748e607a71ce975352d025"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-907",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/907/"
+      ],
+      "contentHash": "2065c9ce64ec53b16f6905b1fb70d0f0379e97d32f4e4ad49063d1b0c5b119f7"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-789",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/789/"
+      ],
+      "contentHash": "7cb461ab4d57e7a988796d31544a393f59c2b9227829fef71a04afe96877eae8"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-717",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/717/"
+      ],
+      "contentHash": "0e928a14e36b1142a6441dc92d620d3607e582c4d7c503abb3be9028158eac35"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-550",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/550/"
+      ],
+      "contentHash": "a8209458c2d0b5cc33e958a91d96f9ea35379582acbd5855b913d785732f3c58"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-395",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/395/"
+      ],
+      "contentHash": "c1763f0c9aae0bb2f8a3d3205ae9348170cf8c42d7ed1290f06a0bc3400d212e"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-174",
+      "state": "researched-batch-24",
+      "reason": "读取逐项UNESCO描述及OUV相关段落，核对地方特色、工程/生活或艺术关系和可观察对象；原址/复制/修复/收藏分别说明。不是现场考察、开放保证或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/174/"
+      ],
+      "contentHash": "529d5b538ac1d263e2bb0216d5ce6a45ad496fbee57f47e5ef7530f8d9e528c4"
     }
   ]
 }

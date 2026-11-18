@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-24",
+  "baseline": "91f815f416697cbded3fb67461d89ed826f52644",
+  "checked": "2026-11-18",
+  "scope": "Sixteen existing visible culture itinerary contexts: France7 and Italy9. Selected UNESCO descriptions/OUV support maritime engineering, brick city, port/trade, vineyards, fortification/restoration, canals, prehistoric conservation, tombs, agrarian landscape, gardens, Roman villa, urban planning and art in architectural settings. No new image or place; not field inspection or all-site verification.",
+  "sources": {
+    "cq24-1625": {
+      "title": "UNESCO：科尔杜昂灯塔：海上信标中的工程与王权",
+      "url": "https://whc.unesco.org/en/list/1625/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read limestone plateau, two campaigns, royal apartments/chapel,1788–89 heightening and navigation. Omit exact heights and current landing/access guarantees."
+    },
+    "cq24-1337": {
+      "title": "UNESCO：阿尔比：红砖主教城与塔恩河两岸",
+      "url": "https://whc.unesco.org/en/list/1337/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read OldBridge/SaintSalvi initial growth, local brick,post-crusade episcopal power, cathedral/Berbie/residential relationship. No claim all unchanged original fabric."
+    },
+    "cq24-1256": {
+      "title": "UNESCO：波尔多：从弯曲河岸看港城的多期营造",
+      "url": "https://whc.unesco.org/en/list/1256/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read OUV continuous Roman–20C renovations and port trade, classical/neoclassical ensembles. Reject misleading established-in-Enlightenment phrasing; omit building-count ranking."
+    },
+    "cq24-932": {
+      "title": "UNESCO：圣埃米利永：葡萄园、酒仓与朝圣聚落",
+      "url": "https://whc.unesco.org/en/list/932/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read OUV plateau/valleys, wine-worker hamlets/chais,18–19C chateaux, monolithic/collegiate churches and pilgrimage. Omit contradictory JohnLackland/12C grant attribution and invariant landscape claims."
+    },
+    "cq24-345": {
+      "title": "UNESCO：卡尔卡松：双重城墙与19世纪的修复选择",
+      "url": "https://whc.unesco.org/en/list/345/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read two enclosures, gates, count castle/old walls,1853–79 restoration. Do not repeat Chinese Viollet-le-Duc mistranslation as a duke or all-fabric-unchanged claim."
+    },
+    "cq24-770": {
+      "title": "UNESCO：米迪运河：从船闸读懂人工水道与地形",
+      "url": "https://whc.unesco.org/en/list/770/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read OUV water supply locks/aqueducts/tunnels, Riquet and tree disease/replanting. Avoid confusing360km network with canal mainline length and historic data with live navigation."
+    },
+    "cq24-85": {
+      "title": "UNESCO：韦泽尔河谷：洞壁动物、遗址与复制展示",
+      "url": "https://whc.unesco.org/en/list/85/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read conservation/replica passages and animal detail; avoid assuming hunting interpretation exhaustive or all valley caves are inscribed/accesssible; no fixed count."
+    },
+    "cq24-1158": {
+      "title": "UNESCO：切尔韦泰里与塔尔奎尼亚：两种墓地里的伊特鲁里亚生活",
+      "url": "https://whc.unesco.org/en/list/1158/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read rockcut/tumuli, Banditaccia streetplan/house forms and Monterozzi paintings. No oldestcivilization ranking, blanketgravecount or all chambers access."
+    },
+    "cq24-1026": {
+      "title": "UNESCO：奥尔恰谷：丘陵、农舍与被经营的田园",
+      "url": "https://whc.unesco.org/en/list/1026/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read landmanagement14–15C and agrarian/pastoral landscape, farms/towns/route services. Do not adopt simplistic RomanViaFrancigena label or imply allprivatefields accessible."
+    },
+    "cq24-1025": {
+      "title": "UNESCO：埃斯特别墅：沿坡地读水景与视线",
+      "url": "https://whc.unesco.org/en/list/1025/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read steep slopes/axis optical adjustment/hydraulics and Bernini later addition; omit firsthydraulicautomata ranking and current performance schedules."
+    },
+    "cq24-907": {
+      "title": "UNESCO：哈德良别墅：水面、院落与帝国的建筑试验",
+      "url": "https://whc.unesco.org/en/list/907/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read MaritimeTheatre ring/island, GoldenSquare,baths, servicegalleries and19C anastylosis. No recreated-original-interior or allundergroundaccess claim."
+    },
+    "cq24-789": {
+      "title": "UNESCO：皮恩扎：一个广场如何改变小城",
+      "url": "https://whc.unesco.org/en/list/789/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read1459PiusII/Rossellino/Alberti,square/palaces andsouthGermanGothicinterior. Avoid universal firsturbanplan ranking or one-datewholecity."
+    },
+    "cq24-717": {
+      "title": "UNESCO：锡耶纳：三座山丘中的广场、街路与水",
+      "url": "https://whc.unesco.org/en/list/717/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read three hills/Y streets/Campo,fountains/tunnels andartistnames. Correct Chinese overview calling painterworks architecture; no unsupported current individualartwork location."
+    },
+    "cq24-550": {
+      "title": "UNESCO：圣吉米尼亚诺：塔楼之外的广场与壁画",
+      "url": "https://whc.unesco.org/en/list/550/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read two squares/well, familytowerpower, original-setting SantaFina1475 andurbanfunctions. Omit inconsistent translatedtowercounts, wrong Francigena place translation."
+    },
+    "cq24-395": {
+      "title": "UNESCO：比萨大教堂广场：斜塔之外的四种空间",
+      "url": "https://whc.unesco.org/en/list/395/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read fourfunctions/loggias/marble,pulpits/mosaics/Camposantofrescoes andlongconstruction. Do not repeat contested Galileo anecdote as independentlyverified or datedfrescoattribution."
+    },
+    "cq24-174": {
+      "title": "UNESCO：佛罗伦萨：沿建筑与收藏分开阅读文艺复兴",
+      "url": "https://whc.unesco.org/en/list/174/",
+      "checked": "2026-11-18",
+      "method": "Read selected English description/OUV passages; original concise paraphrase, no image reuse. Read UNESCO building/artistic continuity and Medici period; no claim allcathedral13C or allnamedmasters designed allbuildings; distinguish collections without inventedobjectlocation."
+    }
+  },
+  "readings": [
+    {
+      "id": "wh-1625",
+      "theme": "culture",
+      "title": "科尔杜昂灯塔：海上信标中的工程与王权",
+      "summary": "科尔杜昂灯塔立在吉伦特河口的海上岩台，白色石灰石塔身同时承担导航与纪念功能。可比较下部宫廷式建筑、礼拜堂与后期加高部分，理解航海技术怎样与王权形象叠加；登临条件不能从历史资料推定。",
+      "catalogueDescription": "科尔杜昂灯塔立在吉伦特河口的海上岩台，白色石灰石塔身同时承担导航与纪念功能。可比较下部宫廷式建筑、礼拜堂与后期加高部分，理解航海技术怎样与王权形象叠加；登临条件不能从历史资料推定。",
+      "paragraphs": [
+        {
+          "heading": "先辨认两期塔身",
+          "text": "德福瓦主持的早期塔身纳入国王居室和礼拜堂，特莱尔在18世纪末加高时延续既有建筑语言。柱式、雕饰与新旧石构的衔接，比单看塔高更能说明这座实用航标为什么具有宫廷般的外观。",
+          "sourceKeys": [
+            "cq24-1625"
+          ]
+        },
+        {
+          "heading": "把灯塔放回河口",
+          "text": "河口浅水岩台既是险境，也是灯塔服务波尔多航运的原因。把塔身装饰与照明层联系起来看，可以分辨象征性建筑与提高航标性能的改造；这不等于确认当天船班、潮汐条件或可进入的楼层。",
+          "sourceKeys": [
+            "cq24-1625"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-1625"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1337",
+      "theme": "culture",
+      "title": "阿尔比：红砖主教城与塔恩河两岸",
+      "summary": "阿尔比的辨识度来自当地红橙色砖材，也来自主教座堂、贝尔比宫与河岸居民区之间的体量关系。从旧桥和圣萨尔维街区读早期城市，再看高耸的设防式教堂，能理解宗教权力如何改变城市轮廓与公共空间。",
+      "catalogueDescription": "阿尔比的辨识度来自当地红橙色砖材，也来自主教座堂、贝尔比宫与河岸居民区之间的体量关系。从旧桥和圣萨尔维街区读早期城市，再看高耸的设防式教堂，能理解宗教权力如何改变城市轮廓与公共空间。",
+      "paragraphs": [
+        {
+          "heading": "从桥与街区进入",
+          "text": "旧桥、圣萨尔维街区及其教堂保留较早城市发展的线索。沿塔恩河观察桥梁、房屋与高处主教建筑的关系，可以把交通与日常居住放进同一幅城市图景，而不只拍摄教堂正面。",
+          "sourceKeys": [
+            "cq24-1337"
+          ]
+        },
+        {
+          "heading": "红砖也表达权力",
+          "text": "阿尔比十字军之后强化的主教权力，体现在南法哥特式主教座堂的高大设防形态及相邻贝尔比宫。统一砖色并不意味着全城在一个年代建成，值得对比宗教核心与周围尺度较小的街巷。",
+          "sourceKeys": [
+            "cq24-1337"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-1337"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1256",
+      "theme": "culture",
+      "title": "波尔多：从弯曲河岸看港城的多期营造",
+      "summary": "波尔多月亮港是长期生长的贸易城市，18世纪以来的古典与新古典街区重塑了它的面貌。看河岸和街道的衔接、连续立面与公共空间，可以读到港口交换带来的城市改造；启蒙时期是重要转型，并非建城起点。",
+      "catalogueDescription": "波尔多月亮港是长期生长的贸易城市，18世纪以来的古典与新古典街区重塑了它的面貌。看河岸和街道的衔接、连续立面与公共空间，可以读到港口交换带来的城市改造；启蒙时期是重要转型，并非建城起点。",
+      "paragraphs": [
+        {
+          "heading": "沿河看街区组织",
+          "text": "河港贸易连接葡萄酒产区、英国及低地国家。观察弯曲河岸与通往城内街道的关系，再比较18世纪以后成组的建筑立面，比把整座老城笼统称作一座宫殿更能说明港城如何运作。",
+          "sourceKeys": [
+            "cq24-1256"
+          ]
+        },
+        {
+          "heading": "统一外观中的时间层",
+          "text": "UNESCO将城市形态理解为从罗马时代延续到20世纪的扩建和改造。古典与新古典建筑的协调外观属于其中的重要阶段，不能据此把较早街区、全部城市历史或现存建筑都归入启蒙时代。",
+          "sourceKeys": [
+            "cq24-1256"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-1256"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-932",
+      "theme": "culture",
+      "title": "圣埃米利永：葡萄园、酒仓与朝圣聚落",
+      "summary": "圣埃米利永遗产覆盖一片葡萄栽培地区，不只是镇中心。葡萄坡地、酒庄、工人住宅和长条形酒仓，共同解释生产景观；独石教堂、修道院与朝圣接待传统，则呈现同一地区的另一层生活与宗教关系。",
+      "catalogueDescription": "圣埃米利永遗产覆盖一片葡萄栽培地区，不只是镇中心。葡萄坡地、酒庄、工人住宅和长条形酒仓，共同解释生产景观；独石教堂、修道院与朝圣接待传统，则呈现同一地区的另一层生活与宗教关系。",
+      "paragraphs": [
+        {
+          "heading": "把葡萄园读成生产空间",
+          "text": "观察坡地、村落与庄园的位置，再找矩形酒仓和朴素的葡萄园工人住宅。它们的尺度和屋顶形式与酿造、储存和居住有关；酒庄建筑也有后世阶段，不能把所有石屋都当成中世纪遗存。",
+          "sourceKeys": [
+            "cq24-932"
+          ]
+        },
+        {
+          "heading": "镇中心不只有品酒",
+          "text": "独石教堂及钟楼、隐修传统和修道院建筑群，与前往圣地亚哥的朝圣网络有关。可以把这些宗教空间和葡萄园并读，但多村落组成的遗产并非一个酒庄，也不意味着私人生产设施随时开放。",
+          "sourceKeys": [
+            "cq24-932"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-932"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-345",
+      "theme": "culture",
+      "title": "卡尔卡松：双重城墙与19世纪的修复选择",
+      "summary": "卡尔卡松的双重围墙包围城堡、街巷和教堂，城门与塔楼构成分层防御。今天完整鲜明的轮廓也包含维奥莱－勒－迪克等人的长期修复，值得同时观察中世纪防御逻辑与近代保护理念，不把全部可见构件当原状留存。",
+      "catalogueDescription": "卡尔卡松的双重围墙包围城堡、街巷和教堂，城门与塔楼构成分层防御。今天完整鲜明的轮廓也包含维奥莱－勒－迪克等人的长期修复，值得同时观察中世纪防御逻辑与近代保护理念，不把全部可见构件当原状留存。",
+      "paragraphs": [
+        {
+          "heading": "沿两重围墙理解防御",
+          "text": "内外围墙之间的空间、纳博讷门和奥德门，以及靠西的伯爵城堡，让防御从一道墙变成多层组织。先看城门和墙线怎样控制进入，再看墙内房屋与街道，能理解这里曾是有人居住的城市。",
+          "sourceKeys": [
+            "cq24-345"
+          ]
+        },
+        {
+          "heading": "完整轮廓也有修复史",
+          "text": "19世纪的修复本身就是遗产价值的一部分。眼前塔楼、屋顶和城墙不宜统称未经改变的中世纪原物；把古代墙基、后世防御强化与近代修复分开阅读，比追求一幅单一年代的城堡想象更准确。",
+          "sourceKeys": [
+            "cq24-345"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-345"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-770",
+      "theme": "culture",
+      "title": "米迪运河：从船闸读懂人工水道与地形",
+      "summary": "米迪运河的特色是水道、供水与船闸、桥梁、渡槽和隧道共同构成的工程景观。可以选择局部看水位变化与跨越障碍的方式，再看岸线和树列如何融入乡野；地图上的工程网络不代表全线可步行或当日可通航。",
+      "catalogueDescription": "米迪运河的特色是水道、供水与船闸、桥梁、渡槽和隧道共同构成的工程景观。可以选择局部看水位变化与跨越障碍的方式，再看岸线和树列如何融入乡野；地图上的工程网络不代表全线可步行或当日可通航。",
+      "paragraphs": [
+        {
+          "heading": "比较通过障碍的方法",
+          "text": "船闸处理水位差，渡槽使水道跨越障碍，隧道提供穿越地形的另一种方式。把不同构筑物放回水流与高差中阅读，才能理解里凯的设计及后续工程为何需要整个系统协作，而非单一河槽。",
+          "sourceKeys": [
+            "cq24-770"
+          ]
+        },
+        {
+          "heading": "岸边景观也会变化",
+          "text": "运河的工程美学包含岸线与周边景观的协调。UNESCO同时记录树列退化、病害控制与补植，现状不能想成永远相同的古树长廊；路线只是选点串联，长度、通航、岸路与临时工程应另查管理方。",
+          "sourceKeys": [
+            "cq24-770"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-770"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-85",
+      "theme": "culture",
+      "title": "韦泽尔河谷：洞壁动物、遗址与复制展示",
+      "summary": "韦泽尔河谷把旧石器时代生活遗迹与洞穴艺术放在同一地区。拉斯科的动物轮廓、颜色和壁面关系值得细读，但原洞保护与游客展示必须区分；遗产是一组不同地点，复制洞窟和解说中心帮助理解原作，并非原洞本身。",
+      "catalogueDescription": "韦泽尔河谷把旧石器时代生活遗迹与洞穴艺术放在同一地区。拉斯科的动物轮廓、颜色和壁面关系值得细读，但原洞保护与游客展示必须区分；遗产是一组不同地点，复制洞窟和解说中心帮助理解原作，并非原洞本身。",
+      "paragraphs": [
+        {
+          "heading": "先看动物与岩面怎样相遇",
+          "text": "洞壁图像的价值不只在题材数量，还在轮廓、颜色和动物姿态与岩面的配合。把它们与河谷的考古地层及居住遗迹一起阅读，能看到艺术活动属于史前生活的一部分，而不是孤立的一组壁画。",
+          "sourceKeys": [
+            "cq24-85"
+          ]
+        },
+        {
+          "heading": "区分原洞与展示空间",
+          "text": "UNESCO记录拉斯科原洞1963年因保护需要停止公众参观，并说明河谷部分洞穴限制进入及复制展示的作用。计划探访时先确认看到的是原址、复制洞窟还是解说中心；本阅读不承诺任何原洞当前开放。",
+          "sourceKeys": [
+            "cq24-85"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-85"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1158",
+      "theme": "culture",
+      "title": "切尔韦泰里与塔尔奎尼亚：两种墓地里的伊特鲁里亚生活",
+      "summary": "这组遗产位于两个不同地方：切尔韦泰里的墓室和街巷式布局呈现住宅观念，塔尔奎尼亚则以墓室壁画见长。比较岩凿空间、土冢、雕刻与绘画，比把墓地只当死亡纪念更能看出伊特鲁里亚社会如何表达身份与生活。",
+      "catalogueDescription": "这组遗产位于两个不同地方：切尔韦泰里的墓室和街巷式布局呈现住宅观念，塔尔奎尼亚则以墓室壁画见长。比较岩凿空间、土冢、雕刻与绘画，比把墓地只当死亡纪念更能看出伊特鲁里亚社会如何表达身份与生活。",
+      "paragraphs": [
+        {
+          "heading": "在墓地中辨认街道和住宅",
+          "text": "班迪塔恰墓地有近似城镇的道路、小广场和分区，不同墓形包括土冢与模拟房屋的岩凿空间。门洞、梁架式细部和室内安排，可以作为理解已不完整留存的居住建筑的线索，而非真的住宅遗址。",
+          "sourceKeys": [
+            "cq24-1158"
+          ]
+        },
+        {
+          "heading": "把壁画与墓室一起看",
+          "text": "塔尔奎尼亚蒙特罗齐墓地的壁画应与所在墓室的空间和用途结合阅读。它与切尔韦泰里的建筑性雕凿互补；这是两处墓地组成的系列遗产，不能据一个地图点推定两地可一并步行或每间墓室均开放。",
+          "sourceKeys": [
+            "cq24-1158"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-1158"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1026",
+      "theme": "culture",
+      "title": "奥尔恰谷：丘陵、农舍与被经营的田园",
+      "summary": "奥尔恰谷的丘陵轮廓与聚落并非独立于人的纯自然画面。农业和牧业组织、山顶城镇、农舍及弗朗西杰纳道路设施共同组成文化景观；看田地怎样接到道路与村落，更容易理解被艺术家反复描绘的托斯卡纳风景。",
+      "catalogueDescription": "奥尔恰谷的丘陵轮廓与聚落并非独立于人的纯自然画面。农业和牧业组织、山顶城镇、农舍及弗朗西杰纳道路设施共同组成文化景观；看田地怎样接到道路与村落，更容易理解被艺术家反复描绘的托斯卡纳风景。",
+      "paragraphs": [
+        {
+          "heading": "沿丘陵看土地组织",
+          "text": "14至15世纪锡耶纳领地的土地经营重塑了这片农业腹地。可以比较较平坦地块、锥状丘陵与高处聚落的位置，观察农舍和耕作空间如何联系；山地形态与长期人类经营需要放在一起看。",
+          "sourceKeys": [
+            "cq24-1026"
+          ]
+        },
+        {
+          "heading": "道路把风景与生活接起来",
+          "text": "遗产还包括与弗朗西杰纳通道相联的修道院、客栈、圣所和桥梁。把这些服务设施与农牧景观对应，能读到旅行、交换和定居的联系；不要因资料旧称便把整条中世纪朝圣通道等同一条罗马时代原路。",
+          "sourceKeys": [
+            "cq24-1026"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-1026"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1025",
+      "theme": "culture",
+      "title": "埃斯特别墅：沿坡地读水景与视线",
+      "summary": "提沃利的埃斯特别墅将宫殿、陡坡花园、喷泉和水池组织为连续体验。可从宫殿回廊的视点对照纵横轴线，再观察水景如何调节坡地和不规则边界；文艺复兴主体也纳入后来的巴洛克作品与持续修护。",
+      "catalogueDescription": "提沃利的埃斯特别墅将宫殿、陡坡花园、喷泉和水池组织为连续体验。可从宫殿回廊的视点对照纵横轴线，再观察水景如何调节坡地和不规则边界；文艺复兴主体也纳入后来的巴洛克作品与持续修护。",
+      "paragraphs": [
+        {
+          "heading": "沿轴线看坡地被怎样组织",
+          "text": "花园从宫殿下方的陡坡层层展开，喷泉标记横向轴线，回廊提供重要视点。看路径和水池怎样引导视线，再比较实际地形与视觉上形成的秩序，可以理解花园并不是一幅完全对称的平面图。",
+          "sourceKeys": [
+            "cq24-1025"
+          ]
+        },
+        {
+          "heading": "喷水效果背后是供水系统",
+          "text": "这里的水景依赖分配水流的工程，也包含后期增添的装饰，如贝尔尼尼设计的Bicchierone喷泉。把16世纪设计与后来营造分开；喷泉和自动装置的历史存在并不保证探访当天全部运行。",
+          "sourceKeys": [
+            "cq24-1025"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-1025"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-907",
+      "theme": "culture",
+      "title": "哈德良别墅：水面、院落与帝国的建筑试验",
+      "summary": "哈德良别墅是公元2世纪形成的大型宫廷建筑群，庭院、水池、浴场与服务空间共同营造居住环境。海上剧场的环形水道和小岛尤其有辨识度；今天看到的遗构也经过损毁、发掘和局部复立，不能想成原样完整宫殿。",
+      "catalogueDescription": "哈德良别墅是公元2世纪形成的大型宫廷建筑群，庭院、水池、浴场与服务空间共同营造居住环境。海上剧场的环形水道和小岛尤其有辨识度；今天看到的遗构也经过损毁、发掘和局部复立，不能想成原样完整宫殿。",
+      "paragraphs": [
+        {
+          "heading": "从环形水面看空间试验",
+          "text": "所谓海上剧场并非海滨演出剧场，而是水环围绕人工小岛与小型居所的空间。对照金色广场的柱廊、院落及大、小浴场，可以比较封闭退居、宫廷活动与沐浴设施所需要的不同建筑尺度。",
+          "sourceKeys": [
+            "cq24-907"
+          ]
+        },
+        {
+          "heading": "宫廷背后也有服务系统",
+          "text": "地下通道、储藏和仆役居处提示壮观水景之外的运作层。遗址融合希腊、罗马与埃及建筑传统，后世发掘和局部原构件复立帮助理解其平面；这不表示所有地下空间或古代陈设都可在原位参观。",
+          "sourceKeys": [
+            "cq24-907"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-907"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-789",
+      "theme": "culture",
+      "title": "皮恩扎：一个广场如何改变小城",
+      "summary": "皮恩扎的核心是皮乌斯二世推动改造的广场及周边建筑。皮科洛米尼宫、博尔贾宫与主教座堂共同构成文艺复兴城市空间实验；教堂外立面与受南德晚期哥特式影响的内部，又提示同一设计中可以并存不同传统。",
+      "catalogueDescription": "皮恩扎的核心是皮乌斯二世推动改造的广场及周边建筑。皮科洛米尼宫、博尔贾宫与主教座堂共同构成文艺复兴城市空间实验；教堂外立面与受南德晚期哥特式影响的内部，又提示同一设计中可以并存不同传统。",
+      "paragraphs": [
+        {
+          "heading": "先在广场比较相邻建筑",
+          "text": "1459年起的改造由贝尔纳多·罗塞利诺承担，并运用阿尔贝蒂的建筑思想。与其逐栋看宫殿，不如先比较它们如何面对广场、围合空间以及与教堂相处；小尺度的整体规划是这里的重要看点。",
+          "sourceKeys": [
+            "cq24-789"
+          ]
+        },
+        {
+          "heading": "外观与内部不必属于同一风格",
+          "text": "主教座堂的文艺复兴外观与内部晚期哥特式空间可以对读。它说明人文主义规划并非简单排除其他传统；广场的集中营造也不意味着周围整座小城每处建筑都在同一年完成或均保持初建材料。",
+          "sourceKeys": [
+            "cq24-789"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-789"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-717",
+      "theme": "culture",
+      "title": "锡耶纳：三座山丘中的广场、街路与水",
+      "summary": "锡耶纳的街路顺应三座山丘，在低处汇向田野广场，哥特式城市形态与周围景观相连。看城墙、塔楼和喷泉，再读公共建筑中的艺术，能把城市竞争、供水和生活联系起来；这里既是建筑空间，也是重要绘画传统的发生地。",
+      "catalogueDescription": "锡耶纳的街路顺应三座山丘，在低处汇向田野广场，哥特式城市形态与周围景观相连。看城墙、塔楼和喷泉，再读公共建筑中的艺术，能把城市竞争、供水和生活联系起来；这里既是建筑空间，也是重要绘画传统的发生地。",
+      "paragraphs": [
+        {
+          "heading": "从街路高差进入田野广场",
+          "text": "三条主要道路连接三座山丘，在山谷形成田野广场。先感受由街路到广场的地形变化，再看房屋和公共建筑的排列，比只看某一座高塔更能理解城市整体；城墙也顺着丘陵轮廓延伸。",
+          "sourceKeys": [
+            "cq24-717"
+          ]
+        },
+        {
+          "heading": "喷泉与绘画分别提供另一层线索",
+          "text": "喷泉及其地下供水通道说明公共生活的基础设施。杜乔、洛伦泽蒂兄弟和西莫内·马丁尼则属于重要绘画传统，不能误称他们的全部贡献为建筑设计；原址壁画、移入收藏的作品与城市建筑应分别核看。",
+          "sourceKeys": [
+            "cq24-717"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-717"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-550",
+      "theme": "culture",
+      "title": "圣吉米尼亚诺：塔楼之外的广场与壁画",
+      "summary": "圣吉米尼亚诺的塔楼曾表达家族和商人的财富与权力，双重城墙内还保存广场、水井、街巷和壁画。可以从水井广场与主教座堂广场的不同形态进入，再读建筑中的绘画；城镇也是弗朗西杰纳朝圣网络中的补给节点。",
+      "catalogueDescription": "圣吉米尼亚诺的塔楼曾表达家族和商人的财富与权力，双重城墙内还保存广场、水井、街巷和壁画。可以从水井广场与主教座堂广场的不同形态进入，再读建筑中的绘画；城镇也是弗朗西杰纳朝圣网络中的补给节点。",
+      "paragraphs": [
+        {
+          "heading": "从两个广场读塔楼城市",
+          "text": "三角形的水井广场与布局更复杂的主教座堂广场组织了城镇核心。把塔式住宅和周围宫邸放回街路、水井和城墙中，能看出权力展示与日常供给如何共存，而不只把天际线看作装饰。",
+          "sourceKeys": [
+            "cq24-550"
+          ]
+        },
+        {
+          "heading": "壁画保留与建筑的关系",
+          "text": "主教座堂中的基尔兰达约圣菲娜组画等作品，仍需在所在宗教建筑的语境中阅读。塔楼轮廓之外，原址绘画和公共建筑同样重要；保护、建筑用途变化与旅游压力也提醒人们，这里不是冻结不动的中世纪舞台。",
+          "sourceKeys": [
+            "cq24-550"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-550"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-395",
+      "theme": "culture",
+      "title": "比萨大教堂广场：斜塔之外的四种空间",
+      "summary": "比萨大教堂广场把主教座堂、洗礼堂、钟楼与墓地组织在同一片开阔空间。倾斜钟楼只是其中一部分，拱廊、石材、讲坛与墓地壁画同样值得看；比较建筑各自承担的仪式与纪念功能，比单看一座塔更完整。",
+      "catalogueDescription": "比萨大教堂广场把主教座堂、洗礼堂、钟楼与墓地组织在同一片开阔空间。倾斜钟楼只是其中一部分，拱廊、石材、讲坛与墓地壁画同样值得看；比较建筑各自承担的仪式与纪念功能，比单看一座塔更完整。",
+      "paragraphs": [
+        {
+          "heading": "先看四座建筑如何分工",
+          "text": "主教座堂、洗礼堂、钟楼和Camposanto墓地分别承担不同功能，又通过草地和空间轴线形成整体。观察拱廊、裸墙、圆顶和石材的对比，可以理解比萨罗曼式传统怎样超越单一建筑向外传播。",
+          "sourceKeys": [
+            "cq24-395"
+          ]
+        },
+        {
+          "heading": "把雕刻与绘画接回空间",
+          "text": "洗礼堂和主教座堂的讲坛、青铜门、镶嵌画与墓地壁画提供近距离的艺术线索。广场经历长时间营造和后世修复，不宜统称一次建成；本阅读也不把流传的伽利略落体实验故事当成已经独立核实的现场事实。",
+          "sourceKeys": [
+            "cq24-395"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-395"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-174",
+      "theme": "culture",
+      "title": "佛罗伦萨：沿建筑与收藏分开阅读文艺复兴",
+      "summary": "佛罗伦萨的艺术活动分布在主教座堂、圣十字教堂、乌菲齐与皮蒂宫等不同空间。可先读城市建筑与公共生活，再分别走入作品收藏；这些地点跨越多个营造阶段，不能把大师姓名、全部作品和整座城市压成同一个年代。",
+      "catalogueDescription": "佛罗伦萨的艺术活动分布在主教座堂、圣十字教堂、乌菲齐与皮蒂宫等不同空间。可先读城市建筑与公共生活，再分别走入作品收藏；这些地点跨越多个营造阶段，不能把大师姓名、全部作品和整座城市压成同一个年代。",
+      "paragraphs": [
+        {
+          "heading": "把教堂、宫殿与城市联系起来",
+          "text": "圣母百花主教座堂、圣十字教堂与宫殿群呈现宗教、公共生活和赞助的不同空间。15至16世纪美第奇家族时期是重要阶段，但城市艺术活动延续更久；比较建筑功能和街区关系，比只搜集名人名字更有用。",
+          "sourceKeys": [
+            "cq24-174"
+          ]
+        },
+        {
+          "heading": "辨认原址艺术与后来收藏",
+          "text": "乔托、布鲁内莱斯基、波提切利和米开朗基罗的贡献涉及不同媒介与年代。乌菲齐和皮蒂宫又提供收藏层，不能把馆内每件作品都视为为该建筑原地创作；具体作品需依据各馆藏录另认作者、年代与原用途。",
+          "sourceKeys": [
+            "cq24-174"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq24-174"
+      ],
+      "related": []
+    }
+  ]
+}
