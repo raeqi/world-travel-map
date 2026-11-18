@@ -8,7 +8,7 @@ test('audit includes every production dataset and all theme-specific contexts, i
  const r=audit({reviews,legacy}),expected=require('../data/theme-review/catalogue-consolidation.json').expectedRuntime;for(const key of ['places','internalThemes','visibleThemes','plans','placeThemeContexts'])assert.equal(r.summary[key],expected[key],key);
  for(const file of ['panamerican.js','cultural-atlas.js','regional-theme-expansion.js','remaining-thirty-data.js','natural-atlas.js','quality-readings.js'])assert.ok(r.scripts.some(s=>s.file===file&&s.executed),file);
  assert.ok(r.plans.some(p=>!p.visible));assert.ok(r.entries.some(p=>p.theme==='patagonia-nature'));assert.ok(r.entries.some(p=>p.id==='tea-rasuwa'));
- assert.equal(r.summary.staleReviews,0);assert.equal(r.summary.manualResearchedPlaces,372);assert.equal(r.summary.manualUsefulConcisePlaces,0);
+ assert.equal(r.summary.staleReviews,0);assert.equal(r.summary.manualResearchedPlaces,384);assert.equal(r.summary.manualUsefulConcisePlaces,0);
  const venice=r.legacyComparison.find(p=>p.id==='silk-venice');assert.equal(venice.assessment,'researched-batch-11');assert.deepEqual(venice.originalThemes,['silk']);assert.ok(venice.contexts.every(r=>r.theme==='silk'&&r.status==='researched-batch-11'));assert.ok(venice.otherExpandedThemes.includes('turner'));
 });
 test('a manual review expires when its source/text fingerprint differs',()=>{
@@ -24,7 +24,7 @@ test('shared cities show only relevant readings while every original cultural co
 test('research is source-bound and preserves catalogue summaries, links, media and itinerary IDs',()=>{
  const original=JSON.parse(zlib.gunzipSync(fs.readFileSync('qa/content-quality/baseline-2026-11-18.json.gz'))),now=snapshot(),key=r=>r.theme+'/'+r.id,byKey=new Map(now.contexts.map(r=>[key(r),r]));
  for(const old of original.entries){const row=byKey.get(key(old));assert.ok(row,key(old));assert.equal(row.originalSummary,old.summary,key(old)+' catalogue text');assert.equal(row.source,old.source);assert.equal(row.imageKey,old.imageKey);assert.ok(old.routeIds.every(id=>row.routeIds.includes(id)),key(old)+' retained itinerary IDs');if(!old.foreignThemeFallback)for(const source of old.essay?.sources||[])assert.ok(row.essay?.sources.some(s=>JSON.stringify(s)===JSON.stringify(source)),key(old)+' original source object');}
- assert.equal(new Set(pack.readings.map(r=>r.id)).size,372);assert.equal(new Set(pack.readings.map(r=>r.theme)).size,17);
+ assert.equal(new Set(pack.readings.map(r=>r.id)).size,384);assert.equal(new Set(pack.readings.map(r=>r.theme)).size,17);
  for(const r of pack.readings){assert.ok(r.summary&&r.paragraphs.length>=2);for(const p of r.paragraphs)for(const key of p.sourceKeys)assert.ok(r.sourceKeys.includes(key)&&pack.sources[key]?.url.startsWith('https://'));const row=byKey.get(key(r));assert.equal(row.summary,r.summary);assert.ok(row.essay.sources.every(s=>s.title&&s.url));}
  assert.ok(pack.readings.find(r=>r.id==='xintan').summary.includes('1985'));assert.ok(pack.readings.find(r=>r.id==='kumano-hongu').summary.includes('1889'));assert.ok(pack.readings.find(r=>r.id==='nc500-johnogroats').summary.includes('Dunnet Head'));
  const literal=fs.readFileSync('quality-readings-data.js','utf8');assert.equal(literal,generatedData());
@@ -156,4 +156,20 @@ test('all 98 original visible itinerary gaps retain their routes and receive the
  }
  assert.equal(report.summary.visibleItineraryUnreviewedNoExpandedContexts,0);
  assert.ok(report.summary.unreviewedContexts>0,'priority completion must not erase unreviewed full-site contexts');
+});
+
+// Catalogue gaps are distinct from completed itineraries and must not disappear by filtering.
+test('all thirty original visible park catalogue gaps remain discoverable with their own source-bound readings',()=>{
+ const baseline=require('../qa/content-quality/parks-catalogue-gap-baseline-2026-11-18.json'),report=audit({reviews,legacy});
+ assert.equal(baseline.contexts.length,30);assert.equal(new Set(baseline.contexts.map(r=>r.theme+'/'+r.id)).size,30);
+ for(const old of baseline.contexts){
+  const row=report.entries.find(r=>r.id===old.id&&r.theme===old.theme),reading=pack.readings.find(r=>r.id===old.id&&r.theme===old.theme);
+  assert.ok(row?.visible,old.id+' retained visible catalogue context');assert.deepEqual(old.routeIds,[]);assert.deepEqual(row.routeIds,old.routeIds);
+  assert.ok(reading?.paragraphs.length>=2,old.id+' has its own expanded reading');assert.match(row.status,/^researched-batch-2[6-8]$/);assert.ok(!row.foreignThemeFallback);
+  for(const p of reading.paragraphs)assert.ok(p.sourceKeys.length&&p.sourceKeys.every(k=>pack.sources[k]?.url.startsWith('https://www.nps.gov/')),old.id+' evidenced paragraphs');
+ }
+ const remaining=report.entries.filter(r=>r.visible&&!r.routeIds.length&&(!r.manualReview||r.status==='stale-review')&&!r.essay);
+ assert.equal(remaining.length,report.summary.visibleCatalogueUnreviewedNoExpandedContexts);
+ assert.equal(remaining.filter(r=>r.theme==='parks').length,0);
+ assert.ok(remaining.some(r=>r.theme==='nature')&&remaining.some(r=>r.theme==='culture'),'park completion must retain other visible catalogue work');
 });

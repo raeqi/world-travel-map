@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-28",
+  "baseline": "9031539a66b4e31312ef913ddda8ac0ae997b4fc",
+  "checked": "2026-11-18",
+  "scope": "Twelve remaining existing visible park catalogue contexts from the frozen30gap baseline: erosion, volcanic and karst processes, habitats, managed waters and a city memorial. No added destinations/routes/media, not field or full-site historical verification.",
+  "sources": {
+    "cq28-badl-1": {
+      "title": "NPS：侵蚀尖丘与混合草原",
+      "url": "https://www.nps.gov/badl/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read deposition versus erosion and mixed-grass transition; omit simplified absolute onset dates and area/species numbers."
+    },
+    "cq28-badl-2": {
+      "title": "NPS：白河荒地的化石与研究",
+      "url": "https://www.nps.gov/articles/000/paleontology-badl.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read fossils as ecological evidence and OglalaLakota prior knowledge; no collecting suggestion, paleontology-first ranking or timetable promise."
+    },
+    "cq28-bibe-1": {
+      "title": "NPS：河流、沙漠和奇索斯山地",
+      "url": "https://www.nps.gov/bibe/learn/nature/ecosystems.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read RioGrande corridor/ChihuahuanDesert/Chisos woodland transition; no fixed temperature difference or guaranteed river flow/boat access."
+    },
+    "cq28-bibe-2": {
+      "title": "NPS：海陆沉积与火山岩",
+      "url": "https://www.nps.gov/bibe/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read diverse rock origins; omit biodiversity rankings, blanket rock age and unsourced species counts."
+    },
+    "cq28-crla-1": {
+      "title": "NPS：玛扎马塌陷、巫师岛与湖泊生态",
+      "url": "https://www.nps.gov/crla/learn/nature/crater-lake.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read collapsecaldera, laterWizardIsland, rain/snow and introducedfish/crayfish. Omit page maximum-versus-average-depth confusion, fixed hydrological balance and current shoreline populations."
+    },
+    "cq28-jeff-1": {
+      "title": "NPS：萨里宁拱门与旧法院",
+      "url": "https://www.nps.gov/jeff/learn/historyculture/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read1963–65construction,Saarinen,museum and1847/1850Scotttrials. Omit celebratory expansion value judgment, fixed hours/fees."
+    },
+    "cq28-jeff-2": {
+      "title": "NPS：原审判室与复原展陈的差别",
+      "url": "https://www.nps.gov/jeff/planyourvisit/old-courthouse-faq.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read original courtroom no longer exists after1855alteration; do not label restored rooms original Scott courtroom."
+    },
+    "cq28-glac-1": {
+      "title": "NPS：古海沉积、逆冲断层与冰川",
+      "url": "https://www.nps.gov/glac/learn/nature/geologicformations.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read Belt sediments,ripplemarks, Lewisoverthrust and Uvalleys. Do not equate rock age to present mountain age or adoption of outdated glacier counts/lastIceAge onset."
+    },
+    "cq28-glac-2": {
+      "title": "NPS：三大海域集水区与生态",
+      "url": "https://www.nps.gov/glac/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read headwaters of Pacific/Atlantic/HudsonBaydrainages; omit disputed100glaciers1910 and all melting phrasing."
+    },
+    "cq28-grba-1": {
+      "title": "NPS：莱曼洞的溶蚀与沉积阶段",
+      "url": "https://www.nps.gov/grba/learn/nature/the-formation-of-lehman-caves.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Use2018LouiseHose-basedupdatedmodel, not1999surfacewater-only account. Read lowgrademarble,hypogenicdissolution,latercalcitedepositionandcorrosion; omit uncertainages."
+    },
+    "cq28-grba-2": {
+      "title": "NPS：高山狐尾松与风雪塑形",
+      "url": "https://www.nps.gov/grba/learn/nature/treesandshrubs.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read only Pinuslongaeva habitat/growthform. Omit1999/2002oldesttreerankings, staleages and medicinal/edibility generalizations."
+    },
+    "cq28-hale-1": {
+      "title": "NPS：山顶侵蚀谷与后来火山渣锥",
+      "url": "https://www.nps.gov/places/craters-edge.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read watercarved erosionvalley, laterflows/cones and basaltironoxidation. Omit source medical/bloodanalogy and no claim explosivecaldera."
+    },
+    "cq28-hale-2": {
+      "title": "NPS：信风、高差与原生植被",
+      "url": "https://www.nps.gov/hale/learn/nature/naturalfeaturesandecosystems.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read windwardrainforest/leewarddryforest/alpinezones; omit fixedrainfall, currentbirdvisibility and intactriparian superlatives."
+    },
+    "cq28-havo-1": {
+      "title": "NPS：绳状与块状熔岩",
+      "url": "https://www.nps.gov/havo/learn/nature/lava.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read surfacepatterns,pāhoehoe/ʻaʻā and Pele explicitlyasNativeHawaiiantradition. Omit unqualified slow/fast speed dichotomy and liveeruption claim."
+    },
+    "cq28-havo-2": {
+      "title": "NPS：熔岩管、树模与kīpuka",
+      "url": "https://www.nps.gov/havo/learn/nature/geological-features.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read feature categories and moltenlava onlyvisible duringeruption. No presentviewing/roadaccess promises."
+    },
+    "cq28-hosp-1": {
+      "title": "NPS：裂隙水路、地温与泉华",
+      "url": "https://www.nps.gov/hosp/learn/nature/hotsprings.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read fracturedrock recharge/deepcirculation/geothermalgradient/tufa. Omit incorrectCarboniferous400Marelation, blanketwaterage and healthclaims."
+    },
+    "cq28-hosp-2": {
+      "title": "NPS：被管理的泉水与浴场景观",
+      "url": "https://www.nps.gov/hosp/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read conservedwaterproduction,notunchangednaturaldischarge; mountainhydrologicalprotection and bathhouses. No bathing,drinkingorhealth recommendation."
+    },
+    "cq28-lavo-1": {
+      "title": "NPS：不同火山形态与监测",
+      "url": "https://www.nps.gov/lavo/learn/nature/volcanoes.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read shield/composite/cindercone/plugdomeexamples; no allworldtypesexhaustiveclaim, eruptionprediction or outdatedrelative dates."
+    },
+    "cq28-lavo-2": {
+      "title": "NPS：雨雪补给的热液系统",
+      "url": "https://www.nps.gov/lavo/planyourvisit/exploring-the-hydrothermal-areas.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Readrain/snowheatedunderground/fumaroles/mudpots and boardwalkrequirement; no currenttrailsopening or treatinghydrothermalasbath."
+    },
+    "cq28-thro-1": {
+      "title": "NPS：古湿地沉积、侵蚀与煤层烘烤",
+      "url": "https://www.nps.gov/thro/learn/nature/geologicformations.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read layers,hardcap/softclay,ligniteburningclinkerandpetrifiedwood; omit outdatedPleistoceneonset2Ma and unqualifiedabsoluteformationdates."
+    },
+    "cq28-thro-2": {
+      "title": "NPS：小密苏里河与草原生境",
+      "url": "https://www.nps.gov/thro/learn/nature/naturalfeaturesandecosystems.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read river connectsallthreeunits,floodplains,grasslandsforests; no presentroad or wildlifeaccess guarantees."
+    },
+    "cq28-wica-1": {
+      "title": "NPS：蜂格状方解石薄片",
+      "url": "https://www.nps.gov/wica/learn/nature/speleothems-boxwork.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read thinintersectingcalcitefins and proposedresistantveinsafterbedrockremoved; retainuncertainty, notordinarydripstoneorconstructedhoneycomb."
+    },
+    "cq28-wica-2": {
+      "title": "NPS：地表混合草原与地下世界",
+      "url": "https://www.nps.gov/wica/learn/nature/index.htm",
+      "checked": "2026-11-18",
+      "method": "Selected primary passages read; original concise paraphrase, no image reuse. Read caveandmixedgrassprairie/ecotone; omit firstranking and wildlife guarantee."
+    },
+    "cq28-havo-3": {
+      "title": "NPS：被较新熔岩包围的kīpuka",
+      "url": "https://www.nps.gov/havo/learn/nature/kipuka.htm",
+      "checked": "2026-11-18",
+      "method": "Read older land surrounded by younger flows and vegetation; no inference that all isolated populations necessarily speciate."
+    }
+  },
+  "readings": [
+    {
+      "id": "np-badl",
+      "theme": "parks",
+      "title": "荒地公园：层状尖丘旁的草原与古生物",
+      "summary": "荒地公园的层状尖丘来自先沉积、后侵蚀的地质过程，周围混合草原则处在东西部草原的过渡带。看不同岩层怎样被流水切开，再通过化石理解过去的生命，能把眼前的裸岩和草地放回不同时间尺度，而非只看奇特山形。",
+      "catalogueDescription": "荒地公园的层状尖丘来自先沉积、后侵蚀的地质过程，周围混合草原则处在东西部草原的过渡带。看不同岩层怎样被流水切开，再通过化石理解过去的生命，能把眼前的裸岩和草地放回不同时间尺度，而非只看奇特山形。",
+      "paragraphs": [
+        {
+          "heading": "裸岩与草原是相邻的两种尺度",
+          "text": "泥沙先沉积成岩，后来侵蚀才将层状地形切成尖丘、塔状岩和沟谷。周围混合草原连接东侧高草与西侧短草环境；从岩层和沟谷转向草原边缘，能看到地表过程和今日生态怎样相接。",
+          "sourceKeys": [
+            "cq28-badl-1"
+          ]
+        },
+        {
+          "heading": "化石是环境线索而非可带走的纪念品",
+          "text": "Oglala Lakota人在现代学科建立以前就认识这里的化石。骨骼、牙齿、贝壳和遗迹共同帮助重建过去生态；研究还包括出土后的清理与比较。现场发现应留在原位并向工作人员报告，其位置本身也是信息。",
+          "sourceKeys": [
+            "cq28-badl-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq28-badl-1",
+        "cq28-badl-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-bibe",
+      "theme": "parks",
+      "title": "大弯：沿河岸、荒漠与奇索斯山地读高差",
+      "summary": "大弯的格兰德河、奇瓦瓦沙漠和奇索斯山地形成鲜明对照：河岸有水，坡地逐渐转入松柏等林木环境，岩石又记录海相、陆相沉积与火山作用。可比较三类地景的水和植被，而不把公园只当单一沙漠观景线。",
+      "catalogueDescription": "大弯的格兰德河、奇瓦瓦沙漠和奇索斯山地形成鲜明对照：河岸有水，坡地逐渐转入松柏等林木环境，岩石又记录海相、陆相沉积与火山作用。可比较三类地景的水和植被，而不把公园只当单一沙漠观景线。",
+      "paragraphs": [
+        {
+          "heading": "同一公园里的三个环境",
+          "text": "格兰德河穿过峡谷，连接河岸生境；周围是奇瓦瓦沙漠，向奇索斯较高湿润处上升，荒漠植被让位于松和杜松等常绿树木。海拔与水分共同改变观看内容，河岸、平地和山地各值得停留。",
+          "sourceKeys": [
+            "cq28-bibe-1"
+          ]
+        },
+        {
+          "heading": "岩石来历不止一种",
+          "text": "公园包含海相沉积岩、陆相沉积岩、火山岩及多次造山证据。比较峡壁层理、山体与较年轻的风成砂，可以把地貌形状和形成过程分开；当前河流条件、跨境和水上行程仍需独立规划。",
+          "sourceKeys": [
+            "cq28-bibe-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq28-bibe-1",
+        "cq28-bibe-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-crla",
+      "theme": "parks",
+      "title": "火山口湖：塌陷山体中逐渐蓄成的蓝色湖盆",
+      "summary": "火山口湖位于玛扎马火山喷发后塌陷形成的破火山口中，随后雨雪逐渐蓄水，新的喷发又形成巫师岛等地貌。看环湖岩壁、岛锥与水面之间的关系，再读引入鱼和小龙虾的生态影响，可以超越“深蓝色大湖”的单一印象。",
+      "catalogueDescription": "火山口湖位于玛扎马火山喷发后塌陷形成的破火山口中，随后雨雪逐渐蓄水，新的喷发又形成巫师岛等地貌。看环湖岩壁、岛锥与水面之间的关系，再读引入鱼和小龙虾的生态影响，可以超越“深蓝色大湖”的单一印象。",
+      "paragraphs": [
+        {
+          "heading": "环湖岩壁与岛锥属于先后阶段",
+          "text": "约7700年前的大喷发削弱山体结构，中心向内塌陷；之后新喷口的活动形成巫师岛基础，雨雪经较长时间填充湖盆。湖不是陨石撞出的坑，岛锥也不是整座旧火山原封不动留下的山顶。",
+          "sourceKeys": [
+            "cq28-crla-1"
+          ]
+        },
+        {
+          "heading": "清澈湖水也有人为改变的生态",
+          "text": "历史上人们向湖中引入鱼类，后来又引入小龙虾；这些动物改变原有食物关系与Mazama蝾螈的生境。清澈和蓝色并不等于未受人影响的原始状态，湖水研究还持续追踪温度、环流与生命变化。",
+          "sourceKeys": [
+            "cq28-crla-1"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq28-crla-1"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-jeff",
+      "theme": "parks",
+      "title": "门户拱门：河岸纪念建筑与旧法院的权利争论",
+      "summary": "门户拱门不仅是圣路易斯的轮廓：萨里宁的不锈钢拱门、河岸空间、地下博物馆与旧法院共同解释西进叙事及其代价。旧法院与Dred Scott争取自由的诉讼有关，适合把建筑尺度、城市交通和人的权利一起阅读。",
+      "catalogueDescription": "门户拱门不仅是圣路易斯的轮廓：萨里宁的不锈钢拱门、河岸空间、地下博物馆与旧法院共同解释西进叙事及其代价。旧法院与Dred Scott争取自由的诉讼有关，适合把建筑尺度、城市交通和人的权利一起阅读。",
+      "paragraphs": [
+        {
+          "heading": "先分清纪念物与历史现场",
+          "text": "拱门在1963至1965年建成，是20世纪对西进历史的纪念建筑，而非19世纪拓荒留下的构筑。河岸台阶把城市与密西西比河相接，地下博物馆和旧法院则提供理解贸易、移民与西进叙事的不同入口。",
+          "sourceKeys": [
+            "cq28-jeff-1"
+          ]
+        },
+        {
+          "heading": "旧法院的展厅不等于原审判室",
+          "text": "Dred Scott案最初两次审理于1847和1850年在此进行，但原审判室1855年已被改造、分割。观看今天的复原法庭，应将建筑原址、后续改建与当代展陈分开，不能把任一复原房间都称作原案原貌。",
+          "sourceKeys": [
+            "cq28-jeff-1",
+            "cq28-jeff-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq28-jeff-1",
+        "cq28-jeff-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-glac",
+      "theme": "parks",
+      "title": "冰川公园：古海岩层、逆冲山体与冰蚀谷",
+      "summary": "冰川公园的山体并非由冰本身造出：古海沉积形成岩层，构造作用将它们抬升、推移，冰川再刻出U形谷和湖盆。留意层理、波痕与谷形，并把山脉放回通往三大海域的集水关系，可以看见比现存冰川更完整的地景。",
+      "catalogueDescription": "冰川公园的山体并非由冰本身造出：古海沉积形成岩层，构造作用将它们抬升、推移，冰川再刻出U形谷和湖盆。留意层理、波痕与谷形，并把山脉放回通往三大海域的集水关系，可以看见比现存冰川更完整的地景。",
+      "paragraphs": [
+        {
+          "heading": "老岩层为何会压在年轻岩石上",
+          "text": "Belt古海沉积留下层理、泥裂和波痕，Lewis逆冲断层后来把较老岩层推到年轻岩层之上。山壁的弯曲和颜色不是装饰；观察层理与岩性，有助区分沉积、构造和化学变化。",
+          "sourceKeys": [
+            "cq28-glac-1"
+          ]
+        },
+        {
+          "heading": "冰川刻谷，山脊分水",
+          "text": "后来的冰川雕刻U形谷、冰斗和湖盆，今日小型高山冰川不能直接等同冰期填满谷底的冰体。公园位于太平洋、大西洋及哈得孙湾水系的源头地区，分水岭也影响两侧生态与气候。",
+          "sourceKeys": [
+            "cq28-glac-1",
+            "cq28-glac-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq28-glac-1",
+        "cq28-glac-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-grba",
+      "theme": "parks",
+      "title": "大盆地：莱曼洞里的水路与高山狐尾松",
+      "summary": "大盆地公园可把观看从地下延伸到高山：莱曼洞的空腔与方解石沉积属于不同阶段，山上的长寿狐尾松则在暴露岩地和风雪中缓慢生长。比较洞壁形态与树干、针叶、林缘，能理解水、岩石和气候以不同方式塑造生命环境。",
+      "catalogueDescription": "大盆地公园可把观看从地下延伸到高山：莱曼洞的空腔与方解石沉积属于不同阶段，山上的长寿狐尾松则在暴露岩地和风雪中缓慢生长。比较洞壁形态与树干、针叶、林缘，能理解水、岩石和气候以不同方式塑造生命环境。",
+      "paragraphs": [
+        {
+          "heading": "先形成洞，再长出洞穴沉积",
+          "text": "NPS依据更新研究，将莱曼洞解释为低度变质大理岩中、温热酸性地下水沿裂隙溶蚀空腔，随后水位下降、渗水沉积方解石，并发生后续腐蚀。洞室和钟乳状沉积不是同一过程一次形成，旧的单一地表滴水解释不宜概括全部。",
+          "sourceKeys": [
+            "cq28-grba-1"
+          ]
+        },
+        {
+          "heading": "在高处看树的形态而非只比年龄",
+          "text": "大盆地狐尾松生长在连续林线以上的暴露岩地，在Wheeler Peak也可长于石英岩地带。风、雪、吹来的砂和冰晶会塑造扭曲树冠与磨蚀树干，针叶和枝条形态比未经逐株证实的“最古老”标签更值得观察。",
+          "sourceKeys": [
+            "cq28-grba-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq28-grba-1",
+        "cq28-grba-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-hale",
+      "theme": "parks",
+      "title": "哈雷阿卡拉：侵蚀谷、火山渣锥与迎背风植被",
+      "summary": "哈雷阿卡拉山顶常被称作“火山口”，实际主要是流水侵蚀出的谷地，后来熔岩与火山渣锥部分填充其中。再把山顶干燥地表、灌丛与迎风雨林对照，便能理解这里不只是日出看台，而是火山、侵蚀和信风共同作用的山体。",
+      "catalogueDescription": "哈雷阿卡拉山顶常被称作“火山口”，实际主要是流水侵蚀出的谷地，后来熔岩与火山渣锥部分填充其中。再把山顶干燥地表、灌丛与迎风雨林对照，便能理解这里不只是日出看台，而是火山、侵蚀和信风共同作用的山体。",
+      "paragraphs": [
+        {
+          "heading": "谷的形状比俗称更能说明来历",
+          "text": "山顶凹地由相邻河谷向上游侵蚀、汇合形成，并非一次巨大爆炸挖出的圆坑。较晚喷发在谷底留下熔岩流和火山渣锥；红黑色差与玄武岩中铁的氧化程度有关，可沿谷壁、锥体和流面分别辨认。",
+          "sourceKeys": [
+            "cq28-hale-1"
+          ]
+        },
+        {
+          "heading": "同一座山也有湿润与干燥两面",
+          "text": "高度、温度以及迎风湿润信风和背风较干空气共同区分生态带。高处疏生的银剑菊、亚高山灌丛、迎风坡雨林和背风干林呈现不同适应；山顶与沿海区域的体验应分别规划，而非想成一条贯穿全部生境的短路。",
+          "sourceKeys": [
+            "cq28-hale-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq28-hale-1",
+        "cq28-hale-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-havo",
+      "theme": "parks",
+      "title": "夏威夷火山公园：冷却熔岩也值得细读",
+      "summary": "夏威夷火山公园的价值不以能否看到红色熔岩为限：平滑绳状pāhoehoe、粗糙块状ʻaʻā、熔岩管和树模记录不同过程。把这些细节与原住民关于Pele创造土地的传统并读，能理解不断形成的岛屿如何兼具物质和文化意义。",
+      "catalogueDescription": "夏威夷火山公园的价值不以能否看到红色熔岩为限：平滑绳状pāhoehoe、粗糙块状ʻaʻā、熔岩管和树模记录不同过程。把这些细节与原住民关于Pele创造土地的传统并读，能理解不断形成的岛屿如何兼具物质和文化意义。",
+      "paragraphs": [
+        {
+          "heading": "看流面而不只等喷发",
+          "text": "冷却熔岩仍保留流动纹理：pāhoehoe较平滑并常见绳状表面，ʻaʻā则粗糙、碎块状，同一次流动的不同位置也可能转换形态。岩浆在地下与熔岩到达地表应分清，喷发中的发光景象并非常设景点。",
+          "sourceKeys": [
+            "cq28-havo-1",
+            "cq28-havo-2"
+          ]
+        },
+        {
+          "heading": "地貌名称承载不同观看层次",
+          "text": "熔岩管、树模、海蚀拱及被新熔岩环绕的kīpuka提供不同观察入口。NPS将Pele与新土地形成联系起来时明确属于夏威夷原住民传统；尊重这一活态文化，也要与地质机制的说明区分。",
+          "sourceKeys": [
+            "cq28-havo-1",
+            "cq28-havo-2",
+            "cq28-havo-3"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq28-havo-1",
+        "cq28-havo-2",
+        "cq28-havo-3"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-hosp",
+      "theme": "parks",
+      "title": "温泉公园：山地水路与浴场街的工程景观",
+      "summary": "阿肯色温泉公园的热水来自雨雪沿岩层裂隙向深处循环、受地温加热后回到地表，并不是火山口里的热池。看泉华、倾斜岩层和浴场街如何组织水的使用，能理解山地补给保护与城市公共设施之间的关系，而非只把这里当泡汤地点。",
+      "catalogueDescription": "阿肯色温泉公园的热水来自雨雪沿岩层裂隙向深处循环、受地温加热后回到地表，并不是火山口里的热池。看泉华、倾斜岩层和浴场街如何组织水的使用，能理解山地补给保护与城市公共设施之间的关系，而非只把这里当泡汤地点。",
+      "paragraphs": [
+        {
+          "heading": "从倾斜岩层读地下水的旅程",
+          "text": "造山使岩层褶皱、断裂，为水提供向地下流动的通道。水在较深处受地温梯度加热，再沿裂隙回升；部分展示泉附近的浅灰多孔泉华，则是水到地表后沉积碳酸钙的结果。",
+          "sourceKeys": [
+            "cq28-hosp-1"
+          ]
+        },
+        {
+          "heading": "被保护的水也经过人的组织",
+          "text": "NPS说明泉水并非完全保留原始自然出露状态，而是为公共使用管理水源与洁净热水产出，周围山地保护也服务于补给系统。浴场、管水设施和森林山坡应一起看；这一历史与地质介绍不等于医疗功效或现行泡浴服务说明。",
+          "sourceKeys": [
+            "cq28-hosp-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq28-hosp-1",
+        "cq28-hosp-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-lavo",
+      "theme": "parks",
+      "title": "拉森火山：不同火山轮廓与仍在运作的热液",
+      "summary": "拉森火山公园能比较穹丘、火山渣锥、盾状与复合火山等不同形态；山地雨雪进入地下受热，再形成喷气孔、泥浆池和热水池。看山体轮廓与热液地表之间的关系，比把每一处蒸汽都当作正在喷发更准确，也更值得停留。",
+      "catalogueDescription": "拉森火山公园能比较穹丘、火山渣锥、盾状与复合火山等不同形态；山地雨雪进入地下受热，再形成喷气孔、泥浆池和热水池。看山体轮廓与热液地表之间的关系，比把每一处蒸汽都当作正在喷发更准确，也更值得停留。",
+      "paragraphs": [
+        {
+          "heading": "山峰和小锥体不必有同样成因",
+          "text": "Lassen Peak的大型熔岩穹丘与周边火山渣锥等形态并存，体现不同喷发材料和方式。辨认轮廓、堆积与流动地形，能理解火山区不是只由一类圆锥山组成；地热活跃也不能用来预测下次喷发时间。",
+          "sourceKeys": [
+            "cq28-lavo-1"
+          ]
+        },
+        {
+          "heading": "蒸汽来自水和地下热的相遇",
+          "text": "高处雨雪补给地下系统，热水上升和沸腾形成泥浆池与热水池，蒸汽沿裂隙排出。Bumpass Hell与Sulphur Works是解读例子；应在指定步道、栈道观察，薄硬壳下可能是高温水泥，不能按普通温泉亲近或进入。",
+          "sourceKeys": [
+            "cq28-lavo-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq28-lavo-1",
+        "cq28-lavo-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-thro",
+      "theme": "parks",
+      "title": "西奥多·罗斯福公园：彩色荒地里的古湿地与河流",
+      "summary": "西奥多·罗斯福公园的荒地层理记录古河流和湿地沉积，小密苏里河及支流后来切出沟谷，燃烧煤层又将部分岩层烘成较硬的红色岩帽。留意软硬层、硅化木与河漫滩，再看周围草原，就能把不同年代的水与生命联系起来。",
+      "catalogueDescription": "西奥多·罗斯福公园的荒地层理记录古河流和湿地沉积，小密苏里河及支流后来切出沟谷，燃烧煤层又将部分岩层烘成较硬的红色岩帽。留意软硬层、硅化木与河漫滩，再看周围草原，就能把不同年代的水与生命联系起来。",
+      "paragraphs": [
+        {
+          "heading": "红色岩帽不一定来自火山熔岩",
+          "text": "较硬砂岩可保护下方软黏土，形成柱状地形；煤层燃烧还会烘烤附近沉积物，形成当地俗称scoria的红色clinker岩。这里的名称容易误导，不能只因颜色和俗称就把它当火山喷出的渣。",
+          "sourceKeys": [
+            "cq28-thro-1"
+          ]
+        },
+        {
+          "heading": "干燥荒地也有水的过去与现在",
+          "text": "硅化木、褐煤和化石提示过去的湿地森林，而小密苏里河仍联系公园三个分区，河漫滩、草原和林地共同支持不同生境。看河道与裸露层理的关系，可以理解侵蚀与沉积持续交替，不只是总统生平的背景。",
+          "sourceKeys": [
+            "cq28-thro-1",
+            "cq28-thro-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq28-thro-1",
+        "cq28-thro-2"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-wica",
+      "theme": "parks",
+      "title": "风洞：方解石蜂格与地表混合草原",
+      "summary": "风洞的特色是洞壁和洞顶伸出的薄片状方解石蜂格，而不只是常见钟乳石；地面上则是混合草原与林缘的另一层世界。比较薄片交错、基岩和地表生境，可以把地下地质与地上生态放在一起，也避免把“蜂格”误认成人工装饰。",
+      "catalogueDescription": "风洞的特色是洞壁和洞顶伸出的薄片状方解石蜂格，而不只是常见钟乳石；地面上则是混合草原与林缘的另一层世界。比较薄片交错、基岩和地表生境，可以把地下地质与地上生态放在一起，也避免把“蜂格”误认成人工装饰。",
+      "paragraphs": [
+        {
+          "heading": "蜂格的薄片不是蜂巢也不是普通滴水石",
+          "text": "方解石薄片在洞顶和洞壁以不同角度相交，形成盒状网格。NPS介绍的解释认为，较耐蚀的矿脉在周围基岩被移除后显露；成因仍有研究空间，不宜把所有蜂格都说成滴水从天花板长出的钟乳石。",
+          "sourceKeys": [
+            "cq28-wica-1"
+          ]
+        },
+        {
+          "heading": "洞外草原同样属于公园核心",
+          "text": "公园后来扩展保护混合草原，林缘与草原交界又形成生态过渡带。地下构造、地表植物和动物栖息地应一起理解；洞穴参观的具体区域与场次另查当前安排，而不是把所有地下特征都当随时可自由进入。",
+          "sourceKeys": [
+            "cq28-wica-2"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq28-wica-1",
+        "cq28-wica-2"
+      ],
+      "related": []
+    }
+  ]
+}

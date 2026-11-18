@@ -4300,6 +4300,150 @@
         "https://www.nps.gov/wrst/learn/historyculture/kennecott-mines-national-historic-landmark.htm"
       ],
       "contentHash": "9bc48ab34aa16a5001dfc04b2eb0d67058cb57438d08b192d822bce5e7147c8b"
+    },
+    {
+      "theme": "parks",
+      "id": "np-badl",
+      "state": "researched-batch-28",
+      "reason": "逐段核对NPS地质、生境、水文和建筑/法庭史选段，补充具体观察与有必要的成因区分。未作现场、实时开放、健康功效或全站史实验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/badl/learn/nature/index.htm",
+        "https://www.nps.gov/articles/000/paleontology-badl.htm"
+      ],
+      "contentHash": "73082ab63731ba389d3aa63e4f6f66cde8cbf0cdb606d346b0654a7ebc2f3f97"
+    },
+    {
+      "theme": "parks",
+      "id": "np-bibe",
+      "state": "researched-batch-28",
+      "reason": "逐段核对NPS地质、生境、水文和建筑/法庭史选段，补充具体观察与有必要的成因区分。未作现场、实时开放、健康功效或全站史实验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/bibe/learn/nature/ecosystems.htm",
+        "https://www.nps.gov/bibe/learn/nature/index.htm"
+      ],
+      "contentHash": "bcca0a0f318ade142972cfa0a986aa170ab2f2d6aba23d04289c602f1605277b"
+    },
+    {
+      "theme": "parks",
+      "id": "np-crla",
+      "state": "researched-batch-28",
+      "reason": "逐段核对NPS地质、生境、水文和建筑/法庭史选段，补充具体观察与有必要的成因区分。未作现场、实时开放、健康功效或全站史实验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/crla/learn/nature/crater-lake.htm"
+      ],
+      "contentHash": "cbffbcffe859b421fc8618d82f1471c24e24012a6cd6440f217e36e30bf528ae"
+    },
+    {
+      "theme": "parks",
+      "id": "np-jeff",
+      "state": "researched-batch-28",
+      "reason": "逐段核对NPS地质、生境、水文和建筑/法庭史选段，补充具体观察与有必要的成因区分。未作现场、实时开放、健康功效或全站史实验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/jeff/learn/historyculture/index.htm",
+        "https://www.nps.gov/jeff/planyourvisit/old-courthouse-faq.htm"
+      ],
+      "contentHash": "0ccf6ddbb9388d2360aca1b09cf25e10daeb48a1ef57f08484dd6e07f78658c7"
+    },
+    {
+      "theme": "parks",
+      "id": "np-glac",
+      "state": "researched-batch-28",
+      "reason": "逐段核对NPS地质、生境、水文和建筑/法庭史选段，补充具体观察与有必要的成因区分。未作现场、实时开放、健康功效或全站史实验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/glac/learn/nature/geologicformations.htm",
+        "https://www.nps.gov/glac/learn/nature/index.htm"
+      ],
+      "contentHash": "7f8586e09685eaf8379584510c854c73252427bff82e0372173dc26cf750f910"
+    },
+    {
+      "theme": "parks",
+      "id": "np-grba",
+      "state": "researched-batch-28",
+      "reason": "逐段核对NPS地质、生境、水文和建筑/法庭史选段，补充具体观察与有必要的成因区分。未作现场、实时开放、健康功效或全站史实验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/grba/learn/nature/the-formation-of-lehman-caves.htm",
+        "https://www.nps.gov/grba/learn/nature/treesandshrubs.htm"
+      ],
+      "contentHash": "c7cc2e5c2754cacd5da29accd1a3c023fa5a7ee8118308520b49055660ffa58c"
+    },
+    {
+      "theme": "parks",
+      "id": "np-hale",
+      "state": "researched-batch-28",
+      "reason": "逐段核对NPS地质、生境、水文和建筑/法庭史选段，补充具体观察与有必要的成因区分。未作现场、实时开放、健康功效或全站史实验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/places/craters-edge.htm",
+        "https://www.nps.gov/hale/learn/nature/naturalfeaturesandecosystems.htm"
+      ],
+      "contentHash": "902bfe8f9ac0b0b8ad86db22255380ddb2ff038699cef38d02131ea6582d0674"
+    },
+    {
+      "theme": "parks",
+      "id": "np-havo",
+      "state": "researched-batch-28",
+      "reason": "逐段核对NPS地质、生境、水文和建筑/法庭史选段，补充具体观察与有必要的成因区分。未作现场、实时开放、健康功效或全站史实验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/havo/learn/nature/lava.htm",
+        "https://www.nps.gov/havo/learn/nature/geological-features.htm",
+        "https://www.nps.gov/havo/learn/nature/kipuka.htm"
+      ],
+      "contentHash": "74ca65b8f876190cc87dd87c65d68e512654365a8fcad5b64864ba510544eef1"
+    },
+    {
+      "theme": "parks",
+      "id": "np-hosp",
+      "state": "researched-batch-28",
+      "reason": "逐段核对NPS地质、生境、水文和建筑/法庭史选段，补充具体观察与有必要的成因区分。未作现场、实时开放、健康功效或全站史实验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/hosp/learn/nature/hotsprings.htm",
+        "https://www.nps.gov/hosp/learn/nature/index.htm"
+      ],
+      "contentHash": "bbfb306a3b4dd39feca5c31b6d3cd58c145cdabe1e572c2e4355235e40267532"
+    },
+    {
+      "theme": "parks",
+      "id": "np-lavo",
+      "state": "researched-batch-28",
+      "reason": "逐段核对NPS地质、生境、水文和建筑/法庭史选段，补充具体观察与有必要的成因区分。未作现场、实时开放、健康功效或全站史实验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/lavo/learn/nature/volcanoes.htm",
+        "https://www.nps.gov/lavo/planyourvisit/exploring-the-hydrothermal-areas.htm"
+      ],
+      "contentHash": "03c87c351a3ab563d8ab7a2f217cf9fa426203099f27b3c5222898a526900299"
+    },
+    {
+      "theme": "parks",
+      "id": "np-thro",
+      "state": "researched-batch-28",
+      "reason": "逐段核对NPS地质、生境、水文和建筑/法庭史选段，补充具体观察与有必要的成因区分。未作现场、实时开放、健康功效或全站史实验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/thro/learn/nature/geologicformations.htm",
+        "https://www.nps.gov/thro/learn/nature/naturalfeaturesandecosystems.htm"
+      ],
+      "contentHash": "ee8e90ece5f6e1c4ca5fa8f4f52252225538ff9efb8b876bc61199df7453b5aa"
+    },
+    {
+      "theme": "parks",
+      "id": "np-wica",
+      "state": "researched-batch-28",
+      "reason": "逐段核对NPS地质、生境、水文和建筑/法庭史选段，补充具体观察与有必要的成因区分。未作现场、实时开放、健康功效或全站史实验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/wica/learn/nature/speleothems-boxwork.htm",
+        "https://www.nps.gov/wica/learn/nature/index.htm"
+      ],
+      "contentHash": "79f16fa31815b4f0a07fe6e4035a1c7b971e303d6c041ee2c2af08c4c6339ab7"
     }
   ]
 }
