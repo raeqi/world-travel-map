@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-19",
+  "baseline": "1192a37e2cba7a23a21bcd4350ef027ae000a73c",
+  "checked": "2026-11-18",
+  "scope": "Thirteen existing Southwest US national-park contexts, all in visible recommended itineraries and previously without expanded reading. Seventeen NPS sources support observable rock, cave, dune and Ancestral Pueblo features. Raw catalogue, original sources, photographs, coordinates, itinerary topology and saved IDs retained. Developed through GitHub while the selected Dot executor is unavailable; exact-head CI supplies runtime verification, not a claim of local execution or manual screenshot review.",
+  "sources": {
+    "cq19-arches": {
+      "title": "NPS：拱门的岩鳍、裂隙与水蚀",
+      "url": "https://www.nps.gov/arch/learn/nature/geologicformations.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read fin/arch formation, salt-related fractures, water and frost weathering, and recorded 2008 Wall Arch collapse. Omit variable arch counts and simplistic rock-age/landform-age equivalence."
+    },
+    "cq19-black-geology": {
+      "title": "NPS：甘尼森黑峡谷的抬升与河流下切",
+      "url": "https://www.nps.gov/blca/learn/nature/geology.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read basement rocks and later river incision. Keep rock age distinct from gorge age; omit conflicting dimensions and numerical chronology from other NPS summaries."
+    },
+    "cq19-black-pegmatite": {
+      "title": "NPS：黑峡谷Painted Wall的粗晶岩脉",
+      "url": "https://www.nps.gov/blca/learn/nature/pegmatite.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read quartz/feldspar/mica, intrusion into gneiss/schist and pink feldspar. Avoid reproducing unrelated minerals-page million/billion typo."
+    },
+    "cq19-bryce": {
+      "title": "NPS：布莱斯石柱的沉积、抬升与冻融",
+      "url": "https://www.nps.gov/brca/learn/nature/hoodoos.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read lake/floodplain sediments, freeze-thaw and carbonate dissolution. Omit the page's weather-frequency simplification and numerical plate-tectonic chronology."
+    },
+    "cq19-canyonlands": {
+      "title": "NPS：峡谷地的沉积层、台地与针状岩柱",
+      "url": "https://www.nps.gov/cany/learn/nature/geologicformations.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read deposition/uplift/erosion, caprock shelves, Island in the Sky and Needles examples. No promise of a continuous drive or currently open inter-district connection."
+    },
+    "cq19-capitol": {
+      "title": "NPS：圆顶礁水袋褶皱与岩层侵蚀",
+      "url": "https://www.nps.gov/care/learn/nature/geology.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read monocline above reactivated buried fault, eastward tilt, waterpockets and hard/soft layers. Reef is a travel barrier metaphor here, not a present marine reef; omit precise uplift dates."
+    },
+    "cq19-carlsbad": {
+      "title": "NPS：卡尔斯巴德古礁、硫酸溶蚀与洞穴沉积",
+      "url": "https://www.nps.gov/cave/learn/nature/geologicformations.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read fossil reef, sulfuric-acid dissolution and later dripstone deposition. Page has erroneous miles/metres conversion and stale cave counts; omit both. Not all cave decorations are actively growing."
+    },
+    "cq19-death-salt": {
+      "title": "NPS：死亡谷盐滩的闭流盆地与反复结晶",
+      "url": "https://www.nps.gov/deva/learn/nature/salt-flats.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read three conditions for salt flats, temporary flood lakes, crust crystals and mudcracks. No current lake-depth, boating, road-opening or summer walking recommendation."
+    },
+    "cq19-dunes-geology": {
+      "title": "NPS：大沙丘的风、水和沙循环",
+      "url": "https://www.nps.gov/grsa/learn/nature/geology.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read sediment supply, opposing winds and creek recycling; precise dune age remains under study. Do not turn seasonal creek flow into a guarantee; omit changing tallest-dune heights."
+    },
+    "cq19-dunes-types": {
+      "title": "NPS：大沙丘的反转、星形与植被沙丘",
+      "url": "https://www.nps.gov/grsa/learn/nature/dune-types.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read wind-direction differences, star-dune arms and vegetation anchoring parabolic arms. No promise every type visible from one trail or entrance."
+    },
+    "cq19-guadalupe": {
+      "title": "NPS：瓜达卢佩山的古礁及礁前、礁后沉积",
+      "url": "https://www.nps.gov/gumo/learn/nature/geologicformations.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read exposed Capitan limestone at El Capitan and reef/backreef/fore-reef/basin environments. Algae/sponges and other organisms built reef; not identical to modern coral frameworks. Omit exact old timescale and uplift numbers."
+    },
+    "cq19-mesa-dwellings": {
+      "title": "NPS：梅萨维德崖居的住房、公共空间与泉水",
+      "url": "https://www.nps.gov/meve/learn/historyculture/cliff_dwellings_home.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read 1180–1300 cliff dwellings, hearths/mealing bins/granaries/kivas and seep springs. Site names such as Cliff Palace do not establish royal use; no current tour-access promise."
+    },
+    "cq19-mesa-people": {
+      "title": "NPS：梅萨维德的迁徙、生活艺术与后裔社区",
+      "url": "https://www.nps.gov/meve/learn/historyculture/people.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read agriculture, pottery, migration and living descendant communities. Avoid vanished-people narrative or single-cause drought explanation; archaeological evidence and community continuity remain distinct."
+    },
+    "cq19-petrified-wood": {
+      "title": "NPS：石化木的石英、颜色与自然断裂",
+      "url": "https://www.nps.gov/pefo/learn/nature/petrified-wood.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read silica mineralization in cell structure and stress fractures. Do not present every trunk segment as sawn or repeat outdated plant taxonomy."
+    },
+    "cq19-petrified-layers": {
+      "title": "NPS：石化林Chinle地层与彩色古土壤",
+      "url": "https://www.nps.gov/pefo/learn/nature/geologicformations.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read fluvial Chinle deposits, iron oxidation/reduction and groundwater-related colours. Omit outdated epoch boundaries and precise formation ages rather than certify every older figure."
+    },
+    "cq19-white-sands": {
+      "title": "NPS：卢塞罗湖、石膏晶体与白沙生成",
+      "url": "https://www.nps.gov/whsa/learn/nature/lake-lucero.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read gypsum carried into closed basin, selenite breakup, grain collisions and renewed supply. Lake Lucero visits are a separate managed activity; no access, tour-date or prehistoric-footprint-age claim."
+    },
+    "cq19-zion": {
+      "title": "NPS：锡安地层与维尔京河侵蚀",
+      "url": "https://home.nps.gov/zion/learn/nature/geology.htm",
+      "checked": "2026-11-18",
+      "method": "Read selected NPS primary passages; concise original paraphrase, no image reuse or field visit. Read sedimentation/lithification, river incision into Navajo and softer Kayenta below, and canyon widening. Do not imply the Narrows is currently safe/open or equate all rock/landform ages."
+    }
+  },
+  "readings": [
+    {
+      "id": "np-arch",
+      "theme": "parks",
+      "title": "拱门：从一堵砂岩读到一道石拱",
+      "summary": "拱门国家公园的石拱来自砂岩中的裂隙、岩鳍和逐渐扩大的孔洞。深部盐层变形影响裂隙格局，水渗入岩石、溶解胶结物并在冻结时撑裂岩体；今天的拱形仍在变化。",
+      "catalogueDescription": "拱门国家公园的石拱来自砂岩中的裂隙、岩鳍和逐渐扩大的孔洞。深部盐层变形影响裂隙格局，水渗入岩石、溶解胶结物并在冻结时撑裂岩体；今天的拱形仍在变化。",
+      "paragraphs": [
+        {
+          "heading": "先找岩鳍，再看开孔的位置",
+          "text": "比较平行薄墙、尚未贯通的凹穴和完整石拱，可以把景观看成不同演变阶段。岩层材质与透水性影响水在哪里停留，蜂窝状小孔也呈现水对砂岩的细部作用。",
+          "sourceKeys": [
+            "cq19-arches"
+          ]
+        },
+        {
+          "heading": "拱孔上方剩下的岩梁也值得看",
+          "text": "留意岩梁厚薄、裂隙方向与脱落痕迹。NPS记录了2008年Wall Arch倒塌，说明塑造石拱的过程也会使它逐渐变薄；从指定观看区理解这种持续变化。",
+          "sourceKeys": [
+            "cq19-arches"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq19-arches"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-blca",
+      "theme": "parks",
+      "title": "甘尼森黑峡谷：暗色峡壁上的浅色岩脉",
+      "summary": "甘尼森河在古老的变质岩与侵入岩中切出深窄峡谷。Painted Wall等崖壁上，浅色或粉色粗晶岩脉穿过较暗的片麻岩、片岩，使地下岩浆活动留下的关系清楚可见。",
+      "catalogueDescription": "甘尼森河在古老的变质岩与侵入岩中切出深窄峡谷。Painted Wall等崖壁上，浅色或粉色粗晶岩脉穿过较暗的片麻岩、片岩，使地下岩浆活动留下的关系清楚可见。",
+      "paragraphs": [
+        {
+          "heading": "从岩脉读地下活动",
+          "text": "观察浅色条带怎样切穿暗色岩壁。粗大的石英、长石与云母晶体记录岩浆侵入，粉色长石带来部分色彩；这些条带与河水冲刷出的峡谷轮廓有不同成因。",
+          "sourceKeys": [
+            "cq19-black-pegmatite"
+          ]
+        },
+        {
+          "heading": "古老岩石与较晚峡谷分开理解",
+          "text": "岩石先经历深部变质、侵入和抬升，后来河流才剥去上覆物并向下切蚀。从开放谷缘看陡壁与狭窄河道，可以同时读到材料的坚硬和流水长期搬走岩石的作用。",
+          "sourceKeys": [
+            "cq19-black-geology"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq19-black-pegmatite",
+        "cq19-black-geology"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-brca",
+      "theme": "parks",
+      "title": "布莱斯：看石墙怎样变成石窗与石柱",
+      "summary": "布莱斯的彩色石柱源自古湖泊、洪泛平原的沉积岩。地层抬升后，渗水冻结膨胀与雨水溶解碳酸盐共同作用，逐步留下薄墙、石窗和独立柱体；层间硬度差异形成凹凸轮廓。",
+      "catalogueDescription": "布莱斯的彩色石柱源自古湖泊、洪泛平原的沉积岩。地层抬升后，渗水冻结膨胀与雨水溶解碳酸盐共同作用，逐步留下薄墙、石窗和独立柱体；层间硬度差异形成凹凸轮廓。",
+      "paragraphs": [
+        {
+          "heading": "一片石林里有不同的阶段",
+          "text": "从谷缘比较相连的岩墙、打开的小窗和已经分离的石柱。把这些形态对读，能认识同一组地层怎样在裂隙扩大、碎屑搬走后显出不同轮廓。",
+          "sourceKeys": [
+            "cq19-bryce"
+          ]
+        },
+        {
+          "heading": "颜色之外还要看层间的收放",
+          "text": "有些层向外突出，有些退成细颈，与胶结程度和溶蚀差异有关。冬季冻融会撑开裂隙，微酸性雨水又能溶解胶结物，石柱形状由多种过程共同塑造。",
+          "sourceKeys": [
+            "cq19-bryce"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq19-bryce"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-cany",
+      "theme": "parks",
+      "title": "峡谷地：层层台地与细针岩柱",
+      "summary": "绿河与科罗拉多河切入抬升的沉积岩层，形成峡谷地的台地、阶梯状崖壁和岩塔。较硬岩层能保护下方较软地层，水沿裂隙继续侵蚀，又会留下Needles一带的细长岩柱。",
+      "catalogueDescription": "绿河与科罗拉多河切入抬升的沉积岩层，形成峡谷地的台地、阶梯状崖壁和岩塔。较硬岩层能保护下方较软地层，水沿裂隙继续侵蚀，又会留下Needles一带的细长岩柱。",
+      "paragraphs": [
+        {
+          "heading": "先从台缘看河流打开的地层",
+          "text": "天空之岛的全景适合比较台顶、崖壁和谷底：古河流、沙漠及浅海的沉积先成为岩层，抬升后才被河流切开。崖与坡交替，反映各层抵抗侵蚀的差异。",
+          "sourceKeys": [
+            "cq19-canyonlands"
+          ]
+        },
+        {
+          "heading": "再用岩柱看局部的保护与分离",
+          "text": "硬层盖住软层时可留下岩塔，裂隙不断扩大则使岩墙分离为细柱。将不同分区的岩塔、岩墙和细柱对读，能同时看到地层材料与裂隙作用。",
+          "sourceKeys": [
+            "cq19-canyonlands"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq19-canyonlands"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-care",
+      "theme": "parks",
+      "title": "圆顶礁：读倾斜岩层与岩面的水窝",
+      "summary": "圆顶礁的核心是Waterpocket Fold：地下断层活动使上覆沉积岩弯成单斜构造，岩层整体向东倾斜。后来流水侵蚀打开断面，白色砂岩圆顶、彩色崖壁、软岩坡地与小型水蚀凹窝一起可读。",
+      "catalogueDescription": "圆顶礁的核心是Waterpocket Fold：地下断层活动使上覆沉积岩弯成单斜构造，岩层整体向东倾斜。后来流水侵蚀打开断面，白色砂岩圆顶、彩色崖壁、软岩坡地与小型水蚀凹窝一起可读。",
+      "paragraphs": [
+        {
+          "heading": "在大地形里找一次弯折",
+          "text": "比较地层的倾角与相邻岩层走向，理解原本近水平沉积怎样在断层上方弯曲。白色Navajo砂岩圆顶与红色崖壁，也显示不同古环境沉积物成岩后的差别。",
+          "sourceKeys": [
+            "cq19-capitol"
+          ]
+        },
+        {
+          "heading": "小水窝连接着持续侵蚀",
+          "text": "岩面小凹窝让“Waterpocket”有了具体形状。坚硬砂岩形成崖与穹顶，较软泥岩退为坡地；在这片干旱景观中，水和重力仍是重要的塑形力量。",
+          "sourceKeys": [
+            "cq19-capitol"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq19-capitol"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-cave",
+      "theme": "parks",
+      "title": "卡尔斯巴德：先有洞室，再有钟乳石",
+      "summary": "卡尔斯巴德洞穴位于古老Capitan礁的石灰岩中。含硫地下过程产生的酸参与溶开大洞室，后来雨雪水渗入、释放二氧化碳并沉积矿物，才逐渐形成钟乳石、石笋和石幔。",
+      "catalogueDescription": "卡尔斯巴德洞穴位于古老Capitan礁的石灰岩中。含硫地下过程产生的酸参与溶开大洞室，后来雨雪水渗入、释放二氧化碳并沉积矿物，才逐渐形成钟乳石、石笋和石幔。",
+      "paragraphs": [
+        {
+          "heading": "用大空间与小沉积分辨两段过程",
+          "text": "先观察洞室的尺度，再看顶端垂下的钟乳与地面向上生长的石笋。溶解岩石打开空间，与滴水留下方解石装饰，是先后发生、机制不同的过程。",
+          "sourceKeys": [
+            "cq19-carlsbad"
+          ]
+        },
+        {
+          "heading": "洞壁也是一座古海礁的内部",
+          "text": "礁体主要由海绵、藻类等生物累积而成。今日洞穴让人从内部认识古海底材料；干旱气候也使许多沉积体滴水稀少，不能以光滑或闪亮外观判断它正在快速生长。",
+          "sourceKeys": [
+            "cq19-carlsbad"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq19-carlsbad"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-deva",
+      "theme": "parks",
+      "title": "死亡谷：从巴德沃特盐壳看水的去向",
+      "summary": "巴德沃特盐滩提供了阅读死亡谷闭流盆地的入口。山地流水带来溶解矿物，在没有通海出口的低地汇集，强烈蒸发后留下盐；盐晶生长、泥裂和洪水又不断改写地表纹理。",
+      "catalogueDescription": "巴德沃特盐滩提供了阅读死亡谷闭流盆地的入口。山地流水带来溶解矿物，在没有通海出口的低地汇集，强烈蒸发后留下盐；盐晶生长、泥裂和洪水又不断改写地表纹理。",
+      "paragraphs": [
+        {
+          "heading": "白色表面来自水与矿物的循环",
+          "text": "辨认盐壳的棱脊、结晶与泥裂。盐以氯化钠为主，也有其他蒸发矿物；不同晶体继续生长时，薄壳会被推起，形成粗糙且脆弱的表面。",
+          "sourceKeys": [
+            "cq19-death-salt"
+          ]
+        },
+        {
+          "heading": "一次洪水也会重新组织盐面",
+          "text": "洪水可形成临时水面，把盐再次溶入水中，退水蒸发后又重新沉积。将远处山地、盆地低处与脚下盐壳一起看，就能理解盐源、汇水和蒸发的联系。",
+          "sourceKeys": [
+            "cq19-death-salt"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq19-death-salt"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-grsa",
+      "theme": "parks",
+      "title": "大沙丘：在山前看风与溪流反复搬沙",
+      "summary": "大沙丘由山谷中的沙源、山前不同方向的风，以及沿边缘回收沙粒的溪流共同维持。沙脊能反转，星形沙丘伸出多条棱线，植被又会固定某些沙丘的长臂，形状因此透露环境作用。",
+      "catalogueDescription": "大沙丘由山谷中的沙源、山前不同方向的风，以及沿边缘回收沙粒的溪流共同维持。沙脊能反转，星形沙丘伸出多条棱线，植被又会固定某些沙丘的长臂，形状因此透露环境作用。",
+      "paragraphs": [
+        {
+          "heading": "把山、谷与沙场放进同一视野",
+          "text": "溪流把沉积物带进山谷，风把沙推向山前的弯曲地带，反向风又重塑沙脊。沙丘与溪流的相邻关系，是认识沙反复搬运的线索；溪流显现有季节变化。",
+          "sourceKeys": [
+            "cq19-dunes-geology"
+          ]
+        },
+        {
+          "heading": "从棱线和植被辨认形态",
+          "text": "反转沙丘与相对的风向有关，星形沙丘有三条或更多向外伸出的棱线。草木固定抛物线沙丘的两臂，而前端继续移动；从远景到沙场边缘，能比较不同机制。",
+          "sourceKeys": [
+            "cq19-dunes-types"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq19-dunes-geology",
+        "cq19-dunes-types"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-gumo",
+      "theme": "parks",
+      "title": "瓜达卢佩山：沙漠山壁里的一座古海礁",
+      "summary": "瓜达卢佩山把二叠纪Capitan古礁抬到今日的沙漠上方。El Capitan的石灰岩崖壁、礁后沉积与礁前碎屑坡保存了同一古海不同水域的材料，也让海洋生命与后来山地塑形相连。",
+      "catalogueDescription": "瓜达卢佩山把二叠纪Capitan古礁抬到今日的沙漠上方。El Capitan的石灰岩崖壁、礁后沉积与礁前碎屑坡保存了同一古海不同水域的材料，也让海洋生命与后来山地塑形相连。",
+      "paragraphs": [
+        {
+          "heading": "从El Capitan看礁体的坚实部分",
+          "text": "大量藻类、海绵等生物骨架累积并胶结成礁石，后来抬升与侵蚀使较坚硬的石灰岩露出。可以比较块状崖壁与下方坡地，理解一座古海礁怎样成为山。",
+          "sourceKeys": [
+            "cq19-guadalupe"
+          ]
+        },
+        {
+          "heading": "岩层变化也记录海水深浅",
+          "text": "礁后较平静、高盐度的水域，与礁前遭波浪打落的碎屑、较深盆地的细沉积各有特点。沿解说材料看岩性和化石，能把不同地层放回相邻的古海环境。",
+          "sourceKeys": [
+            "cq19-guadalupe"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq19-guadalupe"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-meve",
+      "theme": "parks",
+      "title": "梅萨维德：把崖居看作有人生活的村落",
+      "summary": "梅萨维德的祖先普韦布洛人把住宅、储粮间和公共仪式空间建进崖壁凹穴，多数现存崖居属于12世纪末至13世纪。泉水、农作与建筑安排相互关联，后来的迁徙也延续在今天的普韦布洛与霍皮社区中。",
+      "catalogueDescription": "梅萨维德的祖先普韦布洛人把住宅、储粮间和公共仪式空间建进崖壁凹穴，多数现存崖居属于12世纪末至13世纪。泉水、农作与建筑安排相互关联，后来的迁徙也延续在今天的普韦布洛与霍皮社区中。",
+      "paragraphs": [
+        {
+          "heading": "从房间的细节认识日常生活",
+          "text": "炉灶、磨粮设施与狭窄储粮间说明生活用途，kiva则承担公共及仪式活动。Cliff Palace虽有“宫殿”之名，NPS将其解释为包含公共空间的大型村落。",
+          "sourceKeys": [
+            "cq19-mesa-dwellings"
+          ]
+        },
+        {
+          "heading": "泉水与迁徙把遗址连回人的选择",
+          "text": "许多崖居靠近渗出泉，水源变化影响居住选择。13世纪人们逐步迁往南方，旱情、资源与社会变化都可能参与其中；后裔仍以建筑、艺术和传统与此地相连。",
+          "sourceKeys": [
+            "cq19-mesa-dwellings",
+            "cq19-mesa-people"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq19-mesa-dwellings",
+        "cq19-mesa-people"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-pefo",
+      "theme": "parks",
+      "title": "石化林：石英树干与彩色古土壤",
+      "summary": "石化林保存了古河流掩埋的树干，富硅水中的矿物在木材细胞结构内结晶，逐步留下石英化石。周围彩色丘陵又记录河流沉积、古土壤与地下水环境，适合从一截树干读到整个地景。",
+      "catalogueDescription": "石化林保存了古河流掩埋的树干，富硅水中的矿物在木材细胞结构内结晶，逐步留下石英化石。周围彩色丘陵又记录河流沉积、古土壤与地下水环境，适合从一截树干读到整个地景。",
+      "paragraphs": [
+        {
+          "heading": "看晶体，也看像切面一样的断口",
+          "text": "石英中的铁、碳、锰等杂质带来不同色彩。石化树干坚硬而脆，受到地层抬升应力后会整齐断裂；看似锯开的分段也可能来自自然过程。",
+          "sourceKeys": [
+            "cq19-petrified-wood"
+          ]
+        },
+        {
+          "heading": "彩色丘陵不是单纯的颜料层",
+          "text": "Chinle地层主要与古河流沉积有关，红色和蓝绿色层的差别与铁矿物在不同含氧、地下水条件中的变化相关。比较层理与坡面，可以将树木化石放回古环境。",
+          "sourceKeys": [
+            "cq19-petrified-layers"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq19-petrified-wood",
+        "cq19-petrified-layers"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-whsa",
+      "theme": "parks",
+      "title": "白沙：从湖底石膏到移动沙丘",
+      "summary": "白沙国家公园的白色沙粒主要是石膏。山地来水把溶解矿物带入盆地，湖水蒸发留下晶体，晶体破碎后再被风搬运成沙丘；卢塞罗湖与Alkali Flat干湖床仍参与供应新沙。",
+      "catalogueDescription": "白沙国家公园的白色沙粒主要是石膏。山地来水把溶解矿物带入盆地，湖水蒸发留下晶体，晶体破碎后再被风搬运成沙丘；卢塞罗湖与Alkali Flat仍参与供应新沙。",
+      "paragraphs": [
+        {
+          "heading": "先理解白沙与湖床的关系",
+          "text": "古湖逐渐缩小时，湖床留下石膏晶体，冻融与风化使大晶体变成较小碎粒。雨后盆地仍会积水、蒸发和结晶，沙丘与干湖床属于相连的系统。",
+          "sourceKeys": [
+            "cq19-white-sands"
+          ]
+        },
+        {
+          "heading": "从沙粒表面看白色怎样形成",
+          "text": "颗粒在风中相互碰撞、磨出细小划痕，反射白光，干燥也影响外观。可近看允许活动区域中的沙纹与颗粒，再将起伏沙丘放回山地—湖床—风的过程。",
+          "sourceKeys": [
+            "cq19-white-sands"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq19-white-sands"
+      ],
+      "related": []
+    },
+    {
+      "id": "np-zion",
+      "theme": "parks",
+      "title": "锡安：沿河谷读砂岩与较软地层",
+      "summary": "锡安的沉积岩记录古海、海岸平原与风成沙漠环境，抬升后由维尔京河继续切开。河流穿过较硬Navajo砂岩时谷地狭窄，切到下方较软地层后，侵蚀与崩落又会让谷地拓宽。",
+      "catalogueDescription": "锡安的沉积岩记录古海、海岸平原与风成沙漠环境，抬升后由维尔京河继续切开。河流穿过较硬Navajo砂岩时谷地狭窄，切到下方较软地层后，侵蚀与崩落又会让谷地拓宽。",
+      "paragraphs": [
+        {
+          "heading": "先从层理、厚度与颜色辨认材料",
+          "text": "砂、泥和海底沉积在压力与矿物胶结作用下成岩。比较厚实崖壁与较易退蚀的地层，可以理解材料差异怎样影响谷壁外形，而非只按红白颜色命名景观。",
+          "sourceKeys": [
+            "cq19-zion"
+          ]
+        },
+        {
+          "heading": "河谷宽窄变化有地层原因",
+          "text": "Sinawava一带上下游提供了地层与谷形相互作用的例子：砂岩狭谷与下切到较软Kayenta层后的扩宽不同。阅读这些关系有助认识流水塑形，具体涉水活动需另核当期条件。",
+          "sourceKeys": [
+            "cq19-zion"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq19-zion"
+      ],
+      "related": []
+    }
+  ]
+}

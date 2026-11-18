@@ -15,11 +15,11 @@
     "automaticCandidateContexts": 1,
     "visibleItineraryCandidatePlaces": 1,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 257,
-    "unreviewedContexts": 2079,
-    "unreviewedNoExpandedContexts": 1325,
-    "visibleItineraryUnreviewedNoExpandedContexts": 98,
-    "manualResearchedPlaces": 256,
+    "manualReviewedContexts": 270,
+    "unreviewedContexts": 2066,
+    "unreviewedNoExpandedContexts": 1312,
+    "visibleItineraryUnreviewedNoExpandedContexts": 85,
+    "manualResearchedPlaces": 269,
     "manualUsefulConcisePlaces": 0,
     "manualNeedsResearchPlaces": 1,
     "staleReviews": 0,
@@ -265,7 +265,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "051664d77199d53c7c6cd3099fc23106f50d7062b8ad4f6dedd86b6c49172d75",
+      "sha256": "44f5800036ce78566a360c301655bd8414887e6fd284dbcc9abbc7b71c6d4f92",
       "executed": true
     },
     {
@@ -315,7 +315,7 @@
       "visible": true,
       "contexts": 63,
       "automaticCandidates": 0,
-      "manuallyReviewed": 0
+      "manuallyReviewed": 13
     },
     {
       "id": "tea",
@@ -6796,29 +6796,29 @@
         },
         {
           "id": "np-pefo",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-meve",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-blca",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-grsa",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
@@ -6854,8 +6854,8 @@
         },
         {
           "id": "np-deva",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
@@ -6868,22 +6868,22 @@
         },
         {
           "id": "np-whsa",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-gumo",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-cave",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
@@ -6904,36 +6904,36 @@
       "contexts": [
         {
           "id": "np-zion",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-brca",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-care",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-cany",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-arch",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
@@ -7002,22 +7002,22 @@
       "contexts": [
         {
           "id": "np-zion",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-brca",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "np-care",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }
@@ -7102,8 +7102,8 @@
         },
         {
           "id": "np-deva",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-19",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         }

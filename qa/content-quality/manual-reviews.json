@@ -2989,6 +2989,153 @@
         "https://whc.unesco.org/en/list/688/"
       ],
       "contentHash": "9ed00cecec5dc9aa028018aa518fc374f72e21e5decf6ab3b8cb360acf01b874"
+    },
+    {
+      "id": "np-arch",
+      "theme": "parks",
+      "state": "researched-batch-19",
+      "checked": "2026-11-18",
+      "reason": "Visible recommended-itinerary context previously without expanded reading; named observable features and historical/ecological relationships reviewed against the cited primary passages. Raw catalogue, images, coordinates and routes preserved; not a field visit or live access certificate.",
+      "sources": [
+        "https://www.nps.gov/arch/learn/nature/geologicformations.htm"
+      ],
+      "contentHash": "adb62a06c458bc0738eea89fd11adc45d08f70444375497af9ac78a0917834c5"
+    },
+    {
+      "id": "np-blca",
+      "theme": "parks",
+      "state": "researched-batch-19",
+      "checked": "2026-11-18",
+      "reason": "Visible recommended-itinerary context previously without expanded reading; named observable features and historical/ecological relationships reviewed against the cited primary passages. Raw catalogue, images, coordinates and routes preserved; not a field visit or live access certificate.",
+      "sources": [
+        "https://www.nps.gov/blca/learn/nature/pegmatite.htm",
+        "https://www.nps.gov/blca/learn/nature/geology.htm"
+      ],
+      "contentHash": "d270a70e27b9f9c39084c97d0d4b619ac000b9938a50b73281638983da14369c"
+    },
+    {
+      "id": "np-brca",
+      "theme": "parks",
+      "state": "researched-batch-19",
+      "checked": "2026-11-18",
+      "reason": "Visible recommended-itinerary context previously without expanded reading; named observable features and historical/ecological relationships reviewed against the cited primary passages. Raw catalogue, images, coordinates and routes preserved; not a field visit or live access certificate.",
+      "sources": [
+        "https://www.nps.gov/brca/learn/nature/hoodoos.htm"
+      ],
+      "contentHash": "be5f547f9a2178cd49e3f736551724545c1804bb01150f4dc9c32bd4a0235d7a"
+    },
+    {
+      "id": "np-cany",
+      "theme": "parks",
+      "state": "researched-batch-19",
+      "checked": "2026-11-18",
+      "reason": "Visible recommended-itinerary context previously without expanded reading; named observable features and historical/ecological relationships reviewed against the cited primary passages. Raw catalogue, images, coordinates and routes preserved; not a field visit or live access certificate.",
+      "sources": [
+        "https://www.nps.gov/cany/learn/nature/geologicformations.htm"
+      ],
+      "contentHash": "d54d9d6cce453f5c8abf110e5a67e2b7c852c9ffc24123d04eff394625c48c7d"
+    },
+    {
+      "id": "np-care",
+      "theme": "parks",
+      "state": "researched-batch-19",
+      "checked": "2026-11-18",
+      "reason": "Visible recommended-itinerary context previously without expanded reading; named observable features and historical/ecological relationships reviewed against the cited primary passages. Raw catalogue, images, coordinates and routes preserved; not a field visit or live access certificate.",
+      "sources": [
+        "https://www.nps.gov/care/learn/nature/geology.htm"
+      ],
+      "contentHash": "7844bd902e255e65747d4aad22bee1048055b419a0a2e4635c7077e3f05c7dab"
+    },
+    {
+      "id": "np-cave",
+      "theme": "parks",
+      "state": "researched-batch-19",
+      "checked": "2026-11-18",
+      "reason": "Visible recommended-itinerary context previously without expanded reading; named observable features and historical/ecological relationships reviewed against the cited primary passages. Raw catalogue, images, coordinates and routes preserved; not a field visit or live access certificate.",
+      "sources": [
+        "https://www.nps.gov/cave/learn/nature/geologicformations.htm"
+      ],
+      "contentHash": "e3497c01c6076a605ae55151988c2d5cdaba72da954313b58764fc1504642ae1"
+    },
+    {
+      "id": "np-deva",
+      "theme": "parks",
+      "state": "researched-batch-19",
+      "checked": "2026-11-18",
+      "reason": "Visible recommended-itinerary context previously without expanded reading; named observable features and historical/ecological relationships reviewed against the cited primary passages. Raw catalogue, images, coordinates and routes preserved; not a field visit or live access certificate.",
+      "sources": [
+        "https://www.nps.gov/deva/learn/nature/salt-flats.htm"
+      ],
+      "contentHash": "609c9f8626032713ceb6dea01b215c6078e02dbbd4f458bd193f140b53207ac4"
+    },
+    {
+      "id": "np-grsa",
+      "theme": "parks",
+      "state": "researched-batch-19",
+      "checked": "2026-11-18",
+      "reason": "Visible recommended-itinerary context previously without expanded reading; named observable features and historical/ecological relationships reviewed against the cited primary passages. Raw catalogue, images, coordinates and routes preserved; not a field visit or live access certificate.",
+      "sources": [
+        "https://www.nps.gov/grsa/learn/nature/geology.htm",
+        "https://www.nps.gov/grsa/learn/nature/dune-types.htm"
+      ],
+      "contentHash": "de4ade038a4a2fe43c7624e3a1a6e8cd94695427120c57ba4146cff8fdb0ede2"
+    },
+    {
+      "id": "np-gumo",
+      "theme": "parks",
+      "state": "researched-batch-19",
+      "checked": "2026-11-18",
+      "reason": "Visible recommended-itinerary context previously without expanded reading; named observable features and historical/ecological relationships reviewed against the cited primary passages. Raw catalogue, images, coordinates and routes preserved; not a field visit or live access certificate.",
+      "sources": [
+        "https://www.nps.gov/gumo/learn/nature/geologicformations.htm"
+      ],
+      "contentHash": "5dc88f1941ae4282deccd69c1db2607df85dbaeb63983da086db827fb82d5f72"
+    },
+    {
+      "id": "np-meve",
+      "theme": "parks",
+      "state": "researched-batch-19",
+      "checked": "2026-11-18",
+      "reason": "Visible recommended-itinerary context previously without expanded reading; named observable features and historical/ecological relationships reviewed against the cited primary passages. Raw catalogue, images, coordinates and routes preserved; not a field visit or live access certificate.",
+      "sources": [
+        "https://www.nps.gov/meve/learn/historyculture/cliff_dwellings_home.htm",
+        "https://www.nps.gov/meve/learn/historyculture/people.htm"
+      ],
+      "contentHash": "85375e24fbbc125753f7f4a212cad1ba610f82c931156c5fe446a662259db80c"
+    },
+    {
+      "id": "np-pefo",
+      "theme": "parks",
+      "state": "researched-batch-19",
+      "checked": "2026-11-18",
+      "reason": "Visible recommended-itinerary context previously without expanded reading; named observable features and historical/ecological relationships reviewed against the cited primary passages. Raw catalogue, images, coordinates and routes preserved; not a field visit or live access certificate.",
+      "sources": [
+        "https://www.nps.gov/pefo/learn/nature/petrified-wood.htm",
+        "https://www.nps.gov/pefo/learn/nature/geologicformations.htm"
+      ],
+      "contentHash": "c17996ff5ec25cb562f3c528ed858fce0c5a43860d6ef12373ee4e440c3915f0"
+    },
+    {
+      "id": "np-whsa",
+      "theme": "parks",
+      "state": "researched-batch-19",
+      "checked": "2026-11-18",
+      "reason": "Visible recommended-itinerary context previously without expanded reading; named observable features and historical/ecological relationships reviewed against the cited primary passages. Raw catalogue, images, coordinates and routes preserved; not a field visit or live access certificate.",
+      "sources": [
+        "https://www.nps.gov/whsa/learn/nature/lake-lucero.htm"
+      ],
+      "contentHash": "041a95ed4e78918af7b43c8afe3779eaa668a6ba55887a5ee71cdc1e9550247f"
+    },
+    {
+      "id": "np-zion",
+      "theme": "parks",
+      "state": "researched-batch-19",
+      "checked": "2026-11-18",
+      "reason": "Visible recommended-itinerary context previously without expanded reading; named observable features and historical/ecological relationships reviewed against the cited primary passages. Raw catalogue, images, coordinates and routes preserved; not a field visit or live access certificate.",
+      "sources": [
+        "https://home.nps.gov/zion/learn/nature/geology.htm"
+      ],
+      "contentHash": "235ac5db2185d7aa7723a57c2dabcda6803d8449b2e718d1e064567fb58c923f"
     }
   ]
 }
