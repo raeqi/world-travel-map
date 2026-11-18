@@ -16,6 +16,13 @@ function culturalMapView(nodes,maxZoom=4000){
  const radius=Math.max(1,...nodes.map(p=>distanceKm({lon,lat},p)));
  return {lon,lat,zoom:Math.max(.8,Math.min(maxZoom,.72/Math.sin(Math.min(Math.PI/2,radius/6371))))};
 }
+function culturalMapFrame(nodes,preferred){
+ const radius=center=>Math.max(...nodes.map(p=>distanceKm(center,p)));
+ if(radius(preferred)<=Math.PI*6371/2)return preferred;
+ const extent=culturalMapView(nodes);
+ return radius(extent)<radius(preferred)?{lon:extent.lon,lat:extent.lat}:preferred;
+}
+
 function culturalPlaceRef(ref){return places.find(p=>p.id===ref)||[...atlasContextByPlace.values()].find(r=>[...r.contexts.values()].some(c=>c.key===ref))?.place}
 // The existing full-width Hiroshige image has a verified creator and licence,
 // but its file page does not establish the owner of this particular impression.

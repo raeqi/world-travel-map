@@ -12,7 +12,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/theme-review/s
     await page.locator('#catalog-results [data-theme="'+id+'"]').click();
     assert.equal(await page.locator('#collection-person,#cultural-collection-directory').count(),0);
     const expected=id==='barcelona-art'?4:id==='paris-sculpture'?6:2;assert.ok(await page.locator('#places .place').count()>=expected);
-    await page.locator('#tab-plans').click();const plans=await page.evaluate(()=>buildPlans(themes[activeTheme].id,0).map(p=>p.id));
+    await page.locator('#tab-plans').click();const plans=await page.evaluate(()=>buildPlans(themes[activeTheme].id,0).filter(p=>typeof isFeaturedCataloguePlan!=='function'||isFeaturedCataloguePlan(p)).map(p=>p.id));
     assert.ok(plans.length>=(id==='paris-sculpture'?4:1));
     for(const [index,plan]of plans.entries()){
      await page.locator('.plan-card [data-action="preview"]').nth(index).click();assert.equal(await page.evaluate(()=>activePlan?.id),plan);assert.equal(await page.evaluate(()=>routeEdges(previewStops,activePlan).length),0);
@@ -28,7 +28,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/theme-review/s
     }
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));await page.locator('#back-themes').click();
    }
-   await open('#show=routes');const retained=await page.evaluate(()=>themes.filter(t=>t.catalogHidden).flatMap(t=>buildPlans(t.id,0).map(p=>({theme:t.id,id:p.id,name:p.name}))));
+   await open('#show=routes');const retained=await page.evaluate(()=>themes.flatMap(t=>buildPlans(t.id,0).filter(p=>t.catalogHidden||(typeof isFeaturedCataloguePlan==='function'&&!isFeaturedCataloguePlan(p,t.id))).map(p=>({theme:t.id,id:p.id,name:p.name}))));
    for(const p of retained){
     await page.locator('#catalog-search').fill(p.name);const button=page.locator('[data-home-plan="'+p.id+'"][data-plan-theme="'+p.theme+'"]');assert.equal(await button.count(),1,p.name+' search');await button.click();assert.equal(await page.evaluate(()=>activePlan?.id),p.id);await page.locator('#back-themes').click();
    }

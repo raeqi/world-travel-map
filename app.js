@@ -74,7 +74,13 @@ function renderRecommendations(){const month=Number(document.querySelector('#tra
 document.querySelector('#travel-month').onchange=()=>{leaveRoute(false);renderRecommendations()};document.querySelector('#travel-days').onchange=()=>{leaveRoute(false);renderRecommendations()};renderRegions();renderRecommendations();
 
 function mapPoints(){return previewStops?[...previewStops]:[...new Set([...filtered(),...(!previewTheme?trip:[])])]}
-function fitRoute(stops){resize();const located=stops.filter(validLocation);if(!located.length)return;const first=located[0],toLon=first.lon+located.reduce((sum,p)=>sum+((p.lon-first.lon+540)%360)-180,0)/located.length,toLat=located.reduce((sum,p)=>sum+p.lat,0)/located.length;const minimumRadius=themes[activeTheme].maxZoom>1000?.05:1,span=Math.max(minimumRadius,...located.map(p=>distanceKm({lon:toLon,lat:toLat},p)));const base=Math.min(w*.39,h*.39)||1,space=Math.min(w*.36,h*.32);targetZoom=Math.min(themeZoomLimit(),Math.max(.8,space/base/Math.sin(Math.min(Math.PI/2,span/6371))));camera={fromLon:lon,fromLat:lat,toLon,toLat,start:performance.now()};dirty=true}
+function fitRoute(stops){
+ resize();const located=stops.filter(validLocation);if(!located.length)return;
+ const first=located[0],preferred={lon:first.lon+located.reduce((sum,p)=>sum+((p.lon-first.lon+540)%360)-180,0)/located.length,lat:located.reduce((sum,p)=>sum+p.lat,0)/located.length};
+ const center=typeof culturalMapFrame==='function'?culturalMapFrame(located,preferred):preferred,{lon:toLon,lat:toLat}=center;
+ const minimumRadius=themes[activeTheme].maxZoom>1000?.05:1,span=Math.max(minimumRadius,...located.map(p=>distanceKm(center,p))),base=Math.min(w*.39,h*.39)||1,space=Math.min(w*.36,h*.32);
+ targetZoom=Math.min(themeZoomLimit(),Math.max(.8,space/base/Math.sin(Math.min(Math.PI/2,span/6371))));camera={fromLon:lon,fromLat:lat,toLon,toLat,start:performance.now()};dirty=true;
+}
 
 function updateRouteUI(){document.querySelector('#clear-route').hidden=!previewStops;renderRoutePanel();dirty=true}
 document.querySelector('#clear-route').onclick=()=>leaveRoute(true);

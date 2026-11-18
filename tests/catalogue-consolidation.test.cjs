@@ -62,3 +62,10 @@ test('legacy comparisons remain exact and searchable while featured visits use a
  for(const group of catalogueConsolidationPack.groups){for(const id of group.excludePlans||[]){assert.ok(!featured.some(r=>r.theme.id===group.id&&r.plan.id===id));assert.ok(buildPlans(group.id,0).some(p=>p.id===id));homeState.query=id;assert.ok(matchingDiscoveryRoutes().some(r=>r.theme.id===group.id&&r.plan.id===id));homeState.query='';}for(const plan of group.plans){assert.ok(plan.ids.length>=2);assert.equal(plan.topology,'network');}}
  for(const id of ['expansion-oakpark-wright','expansion-hakone-lakeshore','expansion-santiago-house-art','expansion-cairo-tulun-house','expansion-hulan-memory']){const plan=planTemplates.find(p=>p.id===id),nodes=plan.ids.map(id=>places.find(p=>p.id===id));assert.ok(Math.max(...nodes.flatMap(a=>nodes.map(b=>distanceKm(a,b))))<15,id+' is a genuinely local visit');}
  `,c);});
+
+test('a dense European cluster does not hide the Pacific chapter of a frameable map',()=>{const c=runtime();c.assert=assert;vm.runInContext(`
+ const nodes=places.filter(p=>p.themes.includes('gauguin')),first=nodes[0],preferred={lon:first.lon+nodes.reduce((n,p)=>n+((p.lon-first.lon+540)%360)-180,0)/nodes.length,lat:nodes.reduce((n,p)=>n+p.lat,0)/nodes.length};
+ const rad=Math.PI/180,front=(p,center)=>Math.sin(p.lat*rad)*Math.sin(center.lat*rad)+Math.cos(p.lat*rad)*Math.cos((p.lon-center.lon)*rad)*Math.cos(center.lat*rad);
+ assert.ok(nodes.some(p=>front(p,preferred)<0),'regression: the old weighted centre hid a real place');const fitted=culturalMapFrame(nodes,preferred);assert.ok(nodes.every(p=>front(p,fitted)>0),'France and Tahiti are visible together');
+ const local=places.filter(p=>p.themes.includes('vermeer')),center={lon:4.6,lat:52.1};assert.equal(culturalMapFrame(local,center),center,'ordinary local framing is unchanged');
+ `,c);});

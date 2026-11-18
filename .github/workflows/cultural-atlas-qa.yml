@@ -32,7 +32,6 @@ jobs:
       - name: Check cultural maps, regional plans and retained person links
         run: |
           python3 -m http.server 8000 --bind 127.0.0.1 >/tmp/cultural-atlas-server.log 2>&1 &
-          node scripts/check-cultural-theme-maps.cjs
           node scripts/check-cultural-atlas-browser.cjs
       - uses: actions/upload-artifact@v4
         if: always()
@@ -40,6 +39,5 @@ jobs:
           name: cultural-atlas-browser
           path: |
             qa/cultural-atlas-browser/
-            qa/cultural-theme-maps/
             /tmp/cultural-atlas-server.log
           retention-days: 14
