@@ -58,7 +58,10 @@
         "screenshots": 16,
         "artifactId": 14432778633,
         "zipSha256": "054e05365288f0af670cc78c948b5349b3bdc3bfdafb0d22df28e9008a1ce7c2",
-        "libraryFileId": "libfile_fde3_f-b7d94d94940081919bd89291a0f04989_d724c19c5c9c8191918ca4cfc89cd1e1"
+        "libraryFileId": "libfile_fde3_f-b7d94d94940081919bd89291a0f04989_d724c19c5c9c8191918ca4cfc89cd1e1",
+        "visualFollowups": [
+          "Existing Mozart hero composition shows score over part of the K.329 lettering in the left panel. Detail content remains readable. This content-only batch did not change that artwork/layout; retain as a separate visual follow-up, not a passed all-site overlap review."
+        ]
       },
       "deployment": {
         "run": 44319839047,
@@ -96,6 +99,39 @@
       "deployment": {
         "run": 44322887992,
         "release": "5fb18286fc5c5c0725df",
+        "actualAssetBytesMatched": 49,
+        "indexAssetReferencesMatched": true
+      }
+    },
+    {
+      "batch": 6,
+      "pr": 33,
+      "mainCommit": "ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395",
+      "headCommit": "37fcc0b14c3307bf1a61d6f9a3835181a20a6c7b",
+      "ciRuns": [
+        44324793262,
+        44324793146,
+        44324793018,
+        44324792960,
+        44324792879
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 100,
+        "detailChecks": 200,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 26,
+        "artifactId": 14437066039,
+        "zipSha256": "8e261794582467898a3e1154985ee915f6a0085171243b72355d6c3ce22ce1d8",
+        "libraryFileId": "libfile_fde3_f-b13298fcbe208191b89626d9311c1bcb_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "run": 44327556962,
+        "release": "8a2441dee6cdde116f1b",
         "actualAssetBytesMatched": 49,
         "indexAssetReferencesMatched": true
       }
