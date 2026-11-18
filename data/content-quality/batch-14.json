@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-14",
+  "baseline": "2d2c9b3586de2cda93fde3202d497981eac0e32e",
+  "checked": "2026-11-18",
+  "scope": "Twelve western and oasis contexts in the existing Marco Polo theme. Read selected passages in the NII digital 1938 Moule/Pelliot edition alongside institutional site evidence; distinguish narrated trade, religious interpretation, later monuments and regional geography. No itinerary, original source, image or coordinate changes. Developed with the checked Xu package from PR38; merge separately after its exact tree is confirmed on main.",
+  "sources": {
+    "mp-muve": {
+      "title": "威尼斯MUVE：2024年马可波罗展策展档案",
+      "url": "https://palazzoducale.visitmuve.it/en/exhibition/the-worlds-of-marco-polo/",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of the named material actually read; no image reuse. Exhibition ended 29 September 2024. Used as a curatorial archive, not a current attraction or guarantee all loans remain in Venice. Omit unsupported first-to-use-porcelain claim and broad safe-travel rhetoric."
+    },
+    "mp-sr-venice": {
+      "title": "UNESCO世界遗产中心：威尼斯泻湖与海上城市",
+      "url": "https://whc.unesco.org/en/list/394/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse.  Re-read for this distinct Polo context; modern site fabric is not proof of personal visitation."
+    },
+    "mp-acre-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · 序章威尼斯—阿卡",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0089.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of the named material actually read; no image reuse. Read actual OCR selected passage, not the complete manuscript or all apparatus. Different edition from the retained Yule/Cordier catalogue source. Report narrative as narrative; omit stereotypes, miracles as facts, exact travel-mile conversions and biomedical claims. Scan page 89."
+    },
+    "mp-acre-site": {
+      "title": "UNESCO：阿克古城的中世纪及奥斯曼层次",
+      "url": "https://whc.unesco.org/en/list/1042",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of the named material actually read; no image reuse. "
+    },
+    "mp-sr-tabriz": {
+      "title": "UNESCO世界遗产中心：大不里士活态集市及1780年地震后建造",
+      "url": "https://whc.unesco.org/en/list/1346/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse.  Introductory summary wrongly couples 13th-century prosperity with the Safavid dynasty; reading does not adopt that chronology. OUV distinguishes fabric rebuilt after the 1780 earthquake. Re-read for this distinct Polo context; modern site fabric is not proof of personal visitation."
+    },
+    "mp-yazd-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Iasd与Cherman",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0126.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of the named material actually read; no image reuse. Read actual OCR selected passage, not the complete manuscript or all apparatus. Different edition from the retained Yule/Cordier catalogue source. Report narrative as narrative; omit stereotypes, miracles as facts, exact travel-mile conversions and biomedical claims. Scan page 126."
+    },
+    "mp-sr-yazd": {
+      "title": "UNESCO世界遗产中心：亚兹德土建筑、地下水与微气候",
+      "url": "https://whc.unesco.org/en/list/1544/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse.  Re-read for this distinct Polo context; modern site fabric is not proof of personal visitation."
+    },
+    "mp-sr-kerman": {
+      "title": "伊朗官方旅游：Ganjali Khan建筑群与浴室、铸币厂再利用",
+      "url": "https://visitiran.ir/en/attraction/ganjali-khan-complex",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse.  Re-read for this distinct Polo context; modern site fabric is not proof of personal visitation."
+    },
+    "mp-hormuz-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Curmos港贸易",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0131.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of the named material actually read; no image reuse. Read actual OCR selected passage, not the complete manuscript or all apparatus. Different edition from the retained Yule/Cordier catalogue source. Report narrative as narrative; omit stereotypes, miracles as facts, exact travel-mile conversions and biomedical claims. Scan page 131."
+    },
+    "mp-sr-hormuz": {
+      "title": "伊朗官方旅游：Minab旧霍尔木兹与岛上港城的区别",
+      "url": "https://visitiran.ir/en/province/hormozgan-province",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse. Broad province account; old Hormuz association reported cautiously. Geological age and unqualified travel recommendations not copied; existing regional illustrative coordinate remains unchanged. Re-read for this distinct Polo context; modern site fabric is not proof of personal visitation."
+    },
+    "mp-balkh-site": {
+      "title": "阿富汗文保部门提交UNESCO：巴尔赫预备名单",
+      "url": "https://whc.unesco.org/en/tentativelists/1928/",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of the named material actually read; no image reuse. 2004 submitted inventory, not current access assurance or World Heritage inscription. Omit obvious erroneous birthplace assertions for Ibn Sina/Ferdowsi and inconsistent chronological wording about Polo/Timur. Use named physical remains and broad layers only."
+    },
+    "mp-cascar-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Cascar与Samarcan",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0151.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of the named material actually read; no image reuse. Read actual OCR selected passage, not the complete manuscript or all apparatus. Different edition from the retained Yule/Cordier catalogue source. Report narrative as narrative; omit stereotypes, miracles as facts, exact travel-mile conversions and biomedical claims. Scan page 151."
+    },
+    "mp-sc-kashgar": {
+      "title": "喀什行政公署：艾提尕尔门楼、院落与雕花木柱",
+      "url": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/28cd99dc43a244619788bda878887922.shtml",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee.  Re-read for this distinct Polo context; modern site fabric is not proof of personal visitation."
+    },
+    "mp-cotan-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Cotan",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0154.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of the named material actually read; no image reuse. Read actual OCR selected passage, not the complete manuscript or all apparatus. Different edition from the retained Yule/Cordier catalogue source. Report narrative as narrative; omit stereotypes, miracles as facts, exact travel-mile conversions and biomedical claims. Scan page 154."
+    },
+    "mp-sc-hotan-museum": {
+      "title": "和田文旅局：团城与和田博物馆各自位置",
+      "url": "https://www.xjht.gov.cn/xjht/c128217/202609/2548bc8078074359af041805f7c687ed.shtml",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. Uses locations only, not personal contacts, prices or a future opening promise. Re-read for this distinct Polo context; modern site fabric is not proof of personal visitation."
+    },
+    "mp-sc-hotan-craft": {
+      "title": "文化和旅游部：和田织染、民居、地毯与桑皮纸项目",
+      "url": "https://www.mct.gov.cn/wlbphone/wlbydd/xxfb/qglb/qg/202511/t20251104_963065.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. 2025 Beijing exhibition report supports named Hotan practices; its exhibition ended March 2026 and is not offered as a current Hotan attraction. Re-read for this distinct Polo context; modern site fabric is not proof of personal visitation."
+    },
+    "mp-sachiu-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · 沙州段宗教生活续页",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0159.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of the named material actually read; no image reuse. Read actual OCR selected passage, not the complete manuscript or all apparatus. Different edition from the retained Yule/Cordier catalogue source. Report narrative as narrative; omit stereotypes, miracles as facts, exact travel-mile conversions and biomedical claims. Scan page 159."
+    },
+    "mp-sc-dunhuang": {
+      "title": "敦煌研究院：第61窟五台山图与供养人题记",
+      "url": "https://www.dunhuangcaves.org/info/1425/3588.htm",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. Specialist cave account; present cave, portrayed Shanxi landscape and later interventions distinguished. Access to cave 61 not guaranteed. Re-read for this distinct Polo context; modern site fabric is not proof of personal visitation."
+    },
+    "mp-campcio-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · 甘州段造像与宗教生活续页",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0167.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of the named material actually read; no image reuse. Read actual OCR selected passage, not the complete manuscript or all apparatus. Different edition from the retained Yule/Cordier catalogue source. Report narrative as narrative; omit stereotypes, miracles as facts, exact travel-mile conversions and biomedical claims. Scan page 167."
+    },
+    "mp-sc-zhangye": {
+      "title": "张掖市史志办：大佛寺创建、重建、迁装与藏经",
+      "url": "https://www.zhangye.gov.cn/szb/dzdt/njbz/201605/t20160517_51878.html",
+      "checked": "2026-11-18",
+      "method": "Primary public authority, scholarly project, managing museum or institutional account read. Original concise paraphrase; no image reuse, field visit or current opening guarantee. 2016 draft reference contains obvious OCR/measurement errors; dimensions and claims about Marco Polo seeing the extant objects are excluded. Re-read for this distinct Polo context; modern site fabric is not proof of personal visitation."
+    },
+    "mp-sr-samarkand": {
+      "title": "UNESCO世界遗产中心：撒马尔罕三片区与阿夫拉西阿卜壁画",
+      "url": "https://whc.unesco.org/en/list/603/",
+      "checked": "2026-11-18",
+      "method": "Primary heritage, public tourism or managing museum material read; original concise paraphrase of specific features, not a historical single journey reconstruction or current access certification. No image reuse.  Re-read for this distinct Polo context; modern site fabric is not proof of personal visitation."
+    },
+    "mp-samarcan-text": {
+      "title": "NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · 撒马尔罕的传述故事",
+      "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0152.html.en",
+      "checked": "2026-11-18",
+      "method": "Concise original paraphrase of the named material actually read; no image reuse. Read actual OCR selected passage, not the complete manuscript or all apparatus. Different edition from the retained Yule/Cordier catalogue source. Report narrative as narrative; omit stereotypes, miracles as facts, exact travel-mile conversions and biomedical claims. Scan page 152."
+    }
+  },
+  "readings": [
+    {
+      "id": "polo-venice",
+      "theme": "polo",
+      "title": "从潟湖港口进入一位商人的世界",
+      "summary": "威尼斯既是家乡框架，也是理解商人如何组织世界知识的入口。船运、织物、钱币、地图与手稿让远行有了可触摸的物质线索；2024年纪念展已结束，其策展档案仍可帮助准备今天的城市探访。",
+      "paragraphs": [
+        {
+          "heading": "商人看什么，也决定书写什么",
+          "text": "MUVE策展把地图、瓷器、织物、金属器、钱币与手稿并置，用物件说明港口商业和跨地区交往。读游记中的货物、价钱与航运时，可以追问材料、产地和交换方式，而非把它当成逐日定位准确的旅行日志。",
+          "sourceKeys": [
+            "mp-muve"
+          ]
+        },
+        {
+          "heading": "在水城看交通如何进入建筑",
+          "text": "潟湖的岛屿、运河和建筑组合，让码头、临水入口与公共空间有不同关系。选择一段可公共通行的岸线比较水陆两侧使用，再按当期馆藏说明找物件；过往展出的外借品不等于今日都在原厅。",
+          "sourceKeys": [
+            "mp-sr-venice",
+            "mp-muve"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-muve",
+        "mp-sr-venice"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-acre",
+      "theme": "polo",
+      "title": "在港城上下两层，读东方旅行的序章",
+      "summary": "阿卡在序章里联系海上抵达、教廷使者与继续东行。今天可看的十字军遗构与18、19世纪奥斯曼街区有叠压关系；商栈、浴室、堡垒和港口应分时代阅读。",
+      "paragraphs": [
+        {
+          "heading": "港口也是信息和许可的节点",
+          "text": "序章写波罗家人在阿卡与使者商谈，等待教宗选立并处理书信，前往耶路撒冷的圣灯油又进入使命叙述。它说明远行依靠港口、接待与外交关系，不能把父辈较早旅次和马可同行的后续出发合成一次。",
+          "sourceKeys": [
+            "mp-acre-text"
+          ]
+        },
+        {
+          "heading": "街面以下还有另一座城",
+          "text": "现有狭窄街道、商栈和浴室主要呈现奥斯曼时期，十字军城市部分在今日街面以下。按遗址说明看墙体、拱顶与通道的上下关系，比较港口长期使用和不同时期的空间组织。",
+          "sourceKeys": [
+            "mp-acre-site"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-acre-text",
+        "mp-acre-site"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-tabriz",
+      "theme": "polo",
+      "title": "从拱顶市场理解Tauris的贸易叙述",
+      "summary": "游记中的Tauris在本图对照大不里士。今天巴扎的砖拱通道、专门市场与商队院落让贸易空间可以具体观看；现存面貌包含1780年地震后的重建，不能一概称作13世纪原物。",
+      "paragraphs": [
+        {
+          "heading": "市场的关键是不同功能怎样连接",
+          "text": "有顶通道、交易空间、仓储及商队院落形成连续系统，宗教和教育建筑又嵌在其中。可沿公共通道看顶光、转折与院落入口，理解货物流通需要的空间，不只把市场当作一条纪念品街。",
+          "sourceKeys": [
+            "mp-sr-tabriz"
+          ]
+        },
+        {
+          "heading": "重建也属于市场的历史",
+          "text": "遗产说明将反复毁损与重建视作活态市场发展的部分。眼前砖券可以讨论材料、跨度和维护，但商贸长期延续不等于每面墙从波罗时代未变，也不足以确定他的个人住宿点。",
+          "sourceKeys": [
+            "mp-sr-tabriz"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-sr-tabriz"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-yazd",
+      "theme": "polo",
+      "title": "把丝织记述放回节水的沙漠城市",
+      "summary": "Iasd篇提到销往远方的丝织物，今天的亚兹德则提供坎儿井、储水、土建筑与通风的具体参照。货物贸易和日常取水、避暑一起看，绿洲不再只是沙漠路上的一枚图钉。",
+      "paragraphs": [
+        {
+          "heading": "书中的织物连接地方与远方",
+          "text": "1938年校译本的该段记述名为Iasdi的织物及商人外运，并以村居稀疏的路途引向Cherman。适合读货物和旅途补给的关系；原书行程天数不直接换算为今日可走的道路或补给间距。",
+          "sourceKeys": [
+            "mp-yazd-text"
+          ]
+        },
+        {
+          "heading": "水与空气也塑造了城市",
+          "text": "土墙、院落、风塔、地下供水及储水设施共同回应干旱气候。可在允许进入的建筑和街巷比较阴影、开口与高差，分清现存建筑年代和后续修缮；多种信仰的场所也属于持续生活的城市。",
+          "sourceKeys": [
+            "mp-sr-yazd"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-yazd-text",
+        "mp-sr-yazd"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-kerman",
+      "theme": "polo",
+      "title": "从工艺叙述走进市场、浴室与院落",
+      "summary": "Cherman篇将克尔曼地区与矿产、马具及针绣相联；今天Ganjali Khan建筑群可具体比较市场、广场与浴室。萨法维时期的建筑属于更晚城市发展，不冒充波罗所见的同一组工坊。",
+      "paragraphs": [
+        {
+          "heading": "读出材料、劳动与货物的联系",
+          "text": "校译本将矿石、马具、武器和丝织针绣写在同一地方段落中。它呈现商人关注材料和制作的视角；不照搬其中关于所有妇女生活方式的概括，也不把每种历史矿物名称强行等同一处现代矿区。",
+          "sourceKeys": [
+            "mp-yazd-text"
+          ]
+        },
+        {
+          "heading": "浴室的身体尺度与市场不同",
+          "text": "Ganjali Khan建筑群中可比较市场通道、庭院、浴室入口和更衣空间，装饰与使用功能相互对应。馆内蜡像或场景复原是解释手段，建筑本体、原构件和后设展示各看说明。",
+          "sourceKeys": [
+            "mp-sr-kerman"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-yazd-text",
+        "mp-sr-kerman"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-hormuz",
+      "theme": "polo",
+      "title": "香料、织物与象牙在海陆之间换手",
+      "summary": "Curmos段写来自印度洋方向的船货在港口转卖，再由商人运往内陆。历史大陆旧港与后来的岛港分开，海峡、河口和岛屿的地理关系才是今天理解贸易节点的关键。",
+      "paragraphs": [
+        {
+          "heading": "货单说明港口连接了什么",
+          "text": "书中把香料、宝石、珍珠、丝与金线织物、象牙并列，强调船运与再分销。它提供阅读贸易网络的具体材料；其中疗效、气候和族群评价属于旧文本，不作为现代医学或居民特征的事实。",
+          "sourceKeys": [
+            "mp-hormuz-text"
+          ]
+        },
+        {
+          "heading": "先分清大陆旧港和海峡岛港",
+          "text": "伊朗旅游机构区分米纳布一带旧霍尔木兹与后来转向岛屿的港城。观察海岸、渡运和防御遗构前先定位时代和岸别；本图保留古港湾区域示意，并未将大陆节点改标成岛上堡垒入口。",
+          "sourceKeys": [
+            "mp-sr-hormuz"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-hormuz-text",
+        "mp-sr-hormuz"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-balkh",
+      "theme": "polo",
+      "title": "从土城墙、塔丘到残存的砖与灰泥",
+      "summary": "巴尔赫是游记中的中亚古城。土城墙、Balu Hisar、Tepe Zargaran丘址及Haji Piyada清真寺遗迹提供不同层次；它们分布在一片城市遗址中，不能用“古城”统称为同一年代、同一入口。",
+      "paragraphs": [
+        {
+          "heading": "先把城市遗址放回河流与区域",
+          "text": "文保提交材料把巴尔赫置于马扎里沙里夫以西，并联系古时更靠近城市的阿姆河河道。土城垣、北侧堡区和内部人工堆积丘让城市尺度具体可读；区域代表点并未复原中世纪街道。",
+          "sourceKeys": [
+            "mp-balkh-site"
+          ]
+        },
+        {
+          "heading": "残缺构件也能读出空间",
+          "text": "Haji Piyada原有九格空间的拱顶已塌，柱墩、起拱部位和砖、灰泥装饰仍是重要观察对象；另有更晚的帖木儿时期建筑。2004年预备名单不是正式遗产身份，也不保证今日可进入每个遗址。",
+          "sourceKeys": [
+            "mp-balkh-site"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-balkh-site"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-kashgar",
+      "theme": "polo",
+      "title": "棉作、果园与市场：看绿洲如何支持交易",
+      "summary": "Cascar篇不仅谈贸易，也写棉作、工艺、果园和葡萄。今天喀什的市场空间与清真寺可作为分段探访对象，旧文本所述社群、现存建筑年代和现代街区改造应分别理解。",
+      "paragraphs": [
+        {
+          "heading": "交易依靠绿洲生产，而非凭空出现",
+          "text": "书中把手工业和棉作与果园并列，提示一座市场城还依靠种植、灌溉与外来商人。读这些具体活动比复述文中的族群贬语更有意义；历史概括不代替对今天居民生活的认识。",
+          "sourceKeys": [
+            "mp-cascar-text"
+          ]
+        },
+        {
+          "heading": "以一个院落和通道细看城市",
+          "text": "艾提尕尔清真寺以礼拜空间、院落与多柱支撑形成可观察尺度，地方资料记其1442年创设背景。它晚于书中旅程；建筑历次修缮与今日街区不称作完整保留的13世纪实景。",
+          "sourceKeys": [
+            "mp-sc-kashgar"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-cascar-text",
+        "mp-sc-kashgar"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-hotan",
+      "theme": "polo",
+      "title": "从棉作果园读到织造、玉作与绿洲生活",
+      "summary": "Cotan篇把和田写为有村镇、果园、棉作与工艺的绿洲地区。今天博物馆与团城街区可分别看历史物件和仍在变化的日常生活；现代展示不被包装成古人走过的原场景。",
+      "paragraphs": [
+        {
+          "heading": "物产让一段“经过”有具体内容",
+          "text": "原书谈到棉、谷物、葡萄与工艺，可用来追问绿洲怎样生产供人食用、穿着和交易的东西。叙述中的笼统性格判断不采用；一个城市代表坐标也不表示整片Cotan范围已经精确复原。",
+          "sourceKeys": [
+            "mp-cotan-text"
+          ]
+        },
+        {
+          "heading": "织物和玉器要分清作品与展出地点",
+          "text": "地方博物馆和团城提供不同观看尺度，织造、地毯、玉作等有材料与工序可读。文化机构2025年在北京举办的相关临展已经结束，不把当时借展清单当作今天在和田必能看到的陈列。",
+          "sourceKeys": [
+            "mp-sc-hotan-museum",
+            "mp-sc-hotan-craft"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-cotan-text",
+        "mp-sc-hotan-museum",
+        "mp-sc-hotan-craft"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-dunhuang",
+      "theme": "polo",
+      "title": "从沙州宗教叙述，走向洞窟里的供养人与山水",
+      "summary": "沙州段的寺院与宗教生活，可与敦煌洞窟的具体造像、壁画和供养人图像对读。莫高窟第61窟《五台山图》描绘山西，不能把画中寺院误当作敦煌现场的建筑群。",
+      "paragraphs": [
+        {
+          "heading": "文字见闻与佛教自我表达分别读",
+          "text": "所读沙州续页描述寺院、造像、供献和仪式，并夹带作者的宗教判断。今天近看洞窟时以作品题记、人物身份及研究说明理解信仰实践，不把外来叙述者的评价当成当地信仰的完整解释。",
+          "sourceKeys": [
+            "mp-sachiu-text"
+          ]
+        },
+        {
+          "heading": "第61窟让远方山川进入一间洞窟",
+          "text": "《五台山图》把山西地景、寺院与行旅组织在壁面上，供养人图像又提示营建支持者。它是敦煌保存的远方图像，不是另一个五台山地图坐标；具体开放洞窟按当期安排，不承诺每次可进同一窟。",
+          "sourceKeys": [
+            "mp-sc-dunhuang"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-sachiu-text",
+        "mp-sc-dunhuang"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-zhangye",
+      "theme": "polo",
+      "title": "把巨大卧像的记述与今天的大佛寺分开对看",
+      "summary": "Campçio段具体谈大型卧像、周围小像与不同材料的造像。今天张掖大佛寺的西夏创建背景及后世修缮值得细看，但仅有相似描述不足以认定某件现存雕塑就是书中同一件。",
+      "paragraphs": [
+        {
+          "heading": "尺度、材料和组合都可以成为阅读线索",
+          "text": "校译本续页谈木、土、石、铜造像，并描述卧像旁的小像组合。可据此看人物尺度与空间关系；旧译宗教名词和风俗概括需要置于叙述者立场，不当作所有佛教实践的统一定义。",
+          "sourceKeys": [
+            "mp-campcio-text"
+          ]
+        },
+        {
+          "heading": "一个寺院也经历多个时代",
+          "text": "大佛寺以1098年创建背景进入地方史，现存殿宇、卧佛、塑像和经藏又有不同制作及维护阶段。挑一个构件或一组形象读说明，分清创建、现存及修复年代，不把13世纪篇章变成今日全部原物的证明。",
+          "sourceKeys": [
+            "mp-sc-zhangye"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-campcio-text",
+        "mp-sc-zhangye"
+      ],
+      "related": []
+    },
+    {
+      "id": "polo-samarkand",
+      "theme": "polo",
+      "title": "一则柱石传说，与多层城市遗迹分别阅读",
+      "summary": "撒马尔罕段含被转述的教堂柱石故事，不能据此认定作者到访，也不把奇迹当工程事实。今天Afrosiab丘址与更晚帖木儿建筑可提供真实的城市层次，本图仍标旁述、行踪未定。",
+      "paragraphs": [
+        {
+          "heading": "先辨认文中是谁在说话",
+          "text": "该段明确出现听说的宗教故事，以柱、石和信仰冲突组织叙述。它可说明中世纪旅行文本怎样容纳传闻；人物宗教与纪年并不因此自动可靠，不能按故事去寻找一根悬空原柱。",
+          "sourceKeys": [
+            "mp-samarcan-text"
+          ]
+        },
+        {
+          "heading": "Afrosiab与帖木儿城市不是同一年",
+          "text": "古城丘址、7世纪壁画及14、15世纪建筑展示不同城市阶段，后来的街区又有变化。选一段看土层、原址和现存修复，再与文本的不同性质对照，区域连线不把旁述变成亲历路段。",
+          "sourceKeys": [
+            "mp-sr-samarkand"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "mp-samarcan-text",
+        "mp-sr-samarkand"
+      ],
+      "related": []
+    }
+  ]
+}
