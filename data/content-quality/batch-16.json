@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-16",
+  "baseline": "8ebf154c2becbefa8990328ae2560775dabbaeff",
+  "checked": "2026-11-18",
+  "scope": "Review six existing long catalogue descriptions used in recommended itineraries, beyond short-text candidates. Correct two scale/unit translations and a Maharaja/place mistranslation; distinguish K’gari naming, landscape/painting history and canal engineering. Preserve raw records but use source-bound corrected display descriptions; no new or substituted imagery.",
+  "sources": {
+    "cq16-panda": {
+      "title": "UNESCO：四川大熊猫栖息地",
+      "url": "https://whc.unesco.org/en/list/1213/",
+      "checked": "2026-11-18",
+      "method": "Read institutional English/OUV text and compare original Chinese catalogue. Original concise paraphrase; no image reuse. English says 924,500 hectares; Chinese introductory translation incorrectly says square kilometres. 924,500 ha = 9,245 km². Avoid using historic global panda proportion or conservation status as a current census."
+    },
+    "cq16-blue": {
+      "title": "UNESCO：大蓝山地区",
+      "url": "https://whc.unesco.org/en/list/917/",
+      "checked": "2026-11-18",
+      "method": "Read institutional English/OUV text and compare original Chinese catalogue. Original concise paraphrase; no image reuse. English biodiversity comparison is ten percent of Australia’s vascular flora, not ten percent of the world. French/Spanish limestone wording contradicts English sandstone and is not adopted. Historic taxon totals not presented as a new census."
+    },
+    "cq16-keoladeo": {
+      "title": "UNESCO：凯奥拉德奥国家公园",
+      "url": "https://whc.unesco.org/en/list/340/",
+      "checked": "2026-11-18",
+      "method": "Read institutional English/OUV text and compare original Chinese catalogue. Original concise paraphrase; no image reuse. Maharajas means rulers, not a place named 默哈拉杰. OUV locates park in Rajasthan, describes managed depression, external water, dykes and sluices. Siberian crane is historical recorded/wintering context, not promised contemporary sighting. Omit inconsistent historic species totals."
+    },
+    "cq16-kgari": {
+      "title": "UNESCO：K’gari沙岛",
+      "url": "https://whc.unesco.org/en/list/630/",
+      "checked": "2026-11-18",
+      "method": "Read institutional English/OUV text and compare original Chinese catalogue. Original concise paraphrase; no image reuse. Use current official name and former Fraser Island; no historical claim of empty island. Read dune/lake/soil succession explanation, omit contradictory secondary-language geographic text."
+    },
+    "cq16-kgari-park": {
+      "title": "昆士兰公园管理机构：K’gari自然特征与Butchulla传统家园",
+      "url": "https://parks.qld.gov.au/parks/kgari-fraser",
+      "checked": "2026-11-18",
+      "method": "Read institutional English/OUV text and compare original Chinese catalogue. Original concise paraphrase; no image reuse. Read park overview and feature captions; named lakes/forest are specific examples, no guarantee of live road/access conditions or photo reuse."
+    },
+    "cq16-huangshan": {
+      "title": "UNESCO：黄山自然与文化价值",
+      "url": "https://whc.unesco.org/en/list/547/",
+      "checked": "2026-11-18",
+      "method": "Read institutional English/OUV text and compare original Chinese catalogue. Original concise paraphrase; no image reuse. Do not repeat claim that shanshui painting began in mid-16th century, perpetual cloud sea or immortality legend as fact. Use granite, pines, biological habitat, inscriptions and long artistic reception only. Distinct nature context, not an artist-specific biography."
+    },
+    "cq16-canal": {
+      "title": "UNESCO：大运河水利、漕运与系列遗产",
+      "url": "https://whc.unesco.org/en/list/1443/",
+      "checked": "2026-11-18",
+      "method": "Read institutional English/OUV text and compare original Chinese catalogue. Original concise paraphrase; no image reuse. Chinese original paraphrase of long English catalogue. Waterway system and separately protected components, repeated dredging and rebuilt sections do not imply a continuous pedestrian route. No change to old raw description/representative coordinate."
+    },
+    "cq16-landscape-history": {
+      "title": "国立故宫博物院：北宋范宽《谿山行旅图》",
+      "url": "https://theme.npm.edu.tw/selection/Article.aspx?sNo=04000959",
+      "checked": "2026-11-18",
+      "method": "Read museum object entry for evidence that landscape painting predates the 16th century; this work is NOT identified as a view of Huangshan. No image reuse or new work/map registration."
+    }
+  },
+  "readings": [
+    {
+      "id": "wh-1213",
+      "theme": "nature",
+      "title": "先看连续栖地，而不只寻找一只熊猫",
+      "summary": "邛崃山、夹金山的森林与竹林组成大熊猫连续栖息地，遗产面积924,500公顷，约9,245平方公里。保护地与圈养繁育展示不是同一种参访；山地植被、海拔变化和栖地连接同样值得看。",
+      "catalogueDescription": "邛崃山、夹金山的森林与竹林组成大熊猫连续栖息地，遗产面积924,500公顷，约9,245平方公里。保护地与圈养繁育展示不是同一种参访；山地植被、海拔变化和栖地连接同样值得看。",
+      "paragraphs": [
+        {
+          "heading": "把森林、竹林与高差放在一起读",
+          "text": "多片保护区与景区共同组成遗产，山地森林为大熊猫及其他物种提供连续空间。选择可开放的步道或观察设施，看树层、竹类、坡向和水系，比只凭一个熊猫图标理解整片山地更具体。",
+          "sourceKeys": [
+            "cq16-panda"
+          ]
+        },
+        {
+          "heading": "区域点不是野生动物观赏承诺",
+          "text": "野外栖地、研究繁育基地与旅游设施的地点和管理不同；特定动物是否出现也不能保证。读当期目的地说明后安排分段，本图一个代表点并非全部保护区的共同门口。",
+          "sourceKeys": [
+            "cq16-panda"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq16-panda"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-917",
+      "theme": "nature",
+      "title": "砂岩地形与多种桉树林，组成大蓝山",
+      "summary": "大蓝山的砂岩台地、崖壁与峡谷承载不同桉树群落。其维管植物代表性约占澳大利亚的一成，并非世界一成；森林层次、土壤和谷地湿度，比单一远景更能解释这里的自然价值。",
+      "catalogueDescription": "大蓝山的砂岩台地、崖壁与峡谷承载不同桉树群落。其维管植物代表性约占澳大利亚的一成，并非世界一成；森林层次、土壤和谷地湿度，比单一远景更能解释这里的自然价值。",
+      "paragraphs": [
+        {
+          "heading": "同是桉树，群落也会随地形改变",
+          "text": "高原、裸露岩台和峡谷提供不同水分与土壤条件，桉树从高大林木到灌丛呈现结构差别。可在开放观景点比较上缘和谷底植被，把崖壁地形和生境一起看。",
+          "sourceKeys": [
+            "cq16-blue"
+          ]
+        },
+        {
+          "heading": "极少见物种不等于可供游客寻访",
+          "text": "瓦勒迈松等孑遗植物局限于很小的生境，保护价值来自这种稀少与脆弱。按公开开放范围了解森林演化，不寻找或传播敏感野生种群的精确位置，也不保证在常规游线上见到它们。",
+          "sourceKeys": [
+            "cq16-blue"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq16-blue"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-340",
+      "theme": "nature",
+      "title": "水深的细小变化，决定湿地里谁能生活",
+      "summary": "凯奥拉德奥位于印度拉贾斯坦邦，原为王公猎鸭地，后成为保护地；“Maharajas”不是所在地名。堤坝、闸门和外部补水维持不同水深，草地、林地、沼泽与水鸟共同组成一片被持续管理的湿地。",
+      "catalogueDescription": "凯奥拉德奥位于印度拉贾斯坦邦，原为王公猎鸭地，后成为保护地；“Maharajas”不是所在地名。堤坝、闸门和外部补水维持不同水深，草地、林地、沼泽与水鸟共同组成一片被持续管理的湿地。",
+      "paragraphs": [
+        {
+          "heading": "这片湿地也靠人维护水的分配",
+          "text": "自然洼地经人工调水形成多种湿地空间，周边水源关系决定它能维持怎样的生境。沿允许参访的路径比较浅滩、开阔水面和植被边缘，可理解觅食方式与水深的关系。",
+          "sourceKeys": [
+            "cq16-keoladeo"
+          ]
+        },
+        {
+          "heading": "迁徙和留鸟要分别观察",
+          "text": "遗产既有越冬候鸟，也有留鸟繁殖群落，季节与水量使每次观看不同。旧名录记录西伯利亚鹤，不代表今天必能看见；不以一个历史鸟种清单保证当次观鸟结果。",
+          "sourceKeys": [
+            "cq16-keoladeo"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq16-keoladeo"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-630",
+      "theme": "nature",
+      "title": "K’gari：沙地上为什么能长雨林、留淡水",
+      "summary": "旧称弗雷泽岛的K’gari，是Butchulla人的传统家园。移动沙丘、彩色沙崖、沙地雨林与淡水沙丘湖共存，关键在沙的年龄、土壤和地下水；这不是只有一条海滩的无人沙岛。",
+      "catalogueDescription": "旧称弗雷泽岛的K’gari，是Butchulla人的传统家园。移动沙丘、彩色沙崖、沙地雨林与淡水沙丘湖共存，关键在沙的年龄、土壤和地下水；这不是只有一条海滩的无人沙岛。",
+      "paragraphs": [
+        {
+          "heading": "看沙丘、土壤与森林怎样逐渐改变",
+          "text": "不同年代沙丘相互叠覆，土壤和养分变化影响植被；高大雨林、灌丛与湿地可以在不远处分化。沙崖和沙丘风口展示移动，林地则帮助辨认更稳定的阶段。",
+          "sourceKeys": [
+            "cq16-kgari"
+          ]
+        },
+        {
+          "heading": "把淡水湖和海水区别开",
+          "text": "Boorangoora（Lake McKenzie）属于较老沙丘凹地中的悬湖，Eli Creek与Pile Valley林地又提供溪流和雨林线索。水体、林地和Butchulla文化地点各有规则，按当前管理安排进入；传统家园的身份不被“自然奇观”掩盖。",
+          "sourceKeys": [
+            "cq16-kgari",
+            "cq16-kgari-park"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq16-kgari",
+        "cq16-kgari-park"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-547",
+      "theme": "nature",
+      "title": "花岗岩、松林与云雾，是黄山的现场语言",
+      "summary": "黄山花岗岩峰体、岩隙松林与变化的云雾让同一山形随视点改变。寺院遗迹、题刻和长期山水创作是人的回应；山水画并非始于16世纪，也不能把某次云海照片当作每次到访的保证。",
+      "catalogueDescription": "黄山花岗岩峰体、岩隙松林与变化的云雾让同一山形随视点改变。寺院遗迹、题刻和长期山水创作是人的回应；山水画并非始于16世纪，也不能把某次云海照片当作每次到访的保证。",
+      "paragraphs": [
+        {
+          "heading": "先比较远处轮廓，再看近处生境",
+          "text": "岩柱、裂隙、谷地与松树共同构成山景，云雾时聚时散，遮挡会改变远近。可在开放视点比较同一岩峰和不同坡面植被，既读形态，也留意苔藓、蕨类等较小尺度的生命。",
+          "sourceKeys": [
+            "cq16-huangshan"
+          ]
+        },
+        {
+          "heading": "看一块题刻，也读后人怎样观看",
+          "text": "岩刻、旧路径和寺院遗存把人的停留写进山地。选择一件有作者、年代说明的题刻或山水作品对照现场，分清自然对象、作者构图和后世修复；艺术回应有连续历史，不缩成一个笼统的“16世纪风格”。",
+          "sourceKeys": [
+            "cq16-huangshan",
+            "cq16-landscape-history"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq16-huangshan",
+        "cq16-landscape-history"
+      ],
+      "related": []
+    },
+    {
+      "id": "wh-1443",
+      "theme": "culture",
+      "title": "从一道闸、一个仓和一段岸线进入大运河",
+      "summary": "大运河是历代分段建设、维护与改线的水路系统，连接河流、湖泊与城市；漕运、仓储、税收和沿岸生活共同运作。世界遗产由分散河段及工程、城市设施组成，并非一条可全程步行的古道。",
+      "catalogueDescription": "大运河是历代分段建设、维护与改线的水路系统，连接河流、湖泊与城市；漕运、仓储、税收和沿岸生活共同运作。世界遗产由分散河段及工程、城市设施组成，并非一条可全程步行的古道。",
+      "paragraphs": [
+        {
+          "heading": "水要跨流域运行，也要有人管理",
+          "text": "堤、坝、闸、桥和河道把不同水文条件组织成运输网络，石材、夯土等材料因地使用。探访时可先选一处工程，比较水位、岸线、构造与船行方向，再了解维修和更替。",
+          "sourceKeys": [
+            "cq16-canal"
+          ]
+        },
+        {
+          "heading": "货物停留的地方，同样属于运河",
+          "text": "粮食与战略物资的运输需要仓储、征收和城市配套，沿河聚落也由此形成生活与工艺。现存旧河段、后来拓宽的航道和考古揭露设施各有年代；按具体城市分段看，不把图上的代表点当成全线入口。",
+          "sourceKeys": [
+            "cq16-canal"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cq16-canal"
+      ],
+      "related": []
+    }
+  ]
+}
