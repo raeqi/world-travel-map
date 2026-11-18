@@ -3,29 +3,32 @@
   "baseline": "27bd4fe441008c13a05d34beaf725923575812d1",
   "method": "All production data scripts in index order; every registered place/theme context. UI-only app/flow excluded. Signals are triage, not factual verdicts. Manual reviews are content-hash bound; sources not fetched automatically.",
   "summary": {
-    "visibleItineraryUnresolvedCandidatePlaces": 94,
-    "unresolvedCandidatePlaces": 133,
+    "visibleItineraryUnresolvedCandidatePlaces": 52,
+    "unresolvedCandidatePlaces": 91,
     "places": 2010,
     "internalThemes": 130,
     "visibleThemes": 77,
     "plans": 330,
     "placeThemeContexts": 2218,
     "plannedPlaces": 766,
-    "automaticCandidatePlaces": 138,
-    "automaticCandidateContexts": 138,
-    "visibleItineraryCandidatePlaces": 95,
+    "automaticCandidatePlaces": 96,
+    "automaticCandidateContexts": 96,
+    "visibleItineraryCandidatePlaces": 53,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 108,
-    "manualResearchedPlaces": 100,
+    "manualReviewedContexts": 151,
+    "manualResearchedPlaces": 143,
     "manualUsefulConcisePlaces": 5,
     "manualNeedsResearchPlaces": 3,
     "staleReviews": 0,
     "legacyCandidates": 226,
     "legacyComparisonCounts": {
-      "still-automatic-candidate": 133,
+      "still-automatic-candidate": 91,
       "useful-concise": 5,
       "researched-batch-2": 22,
       "researched-batch-3": 18,
+      "researched-batch-7": 11,
+      "researched-batch-8": 21,
+      "researched-batch-9": 10,
       "researched-batch-6": 11,
       "researched-batch-4": 23,
       "researched-batch-5": 14
@@ -234,7 +237,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "53b7d041c6ab9d883a69b928de8978006e68ec0757faaacc727f3f947e8ad055",
+      "sha256": "54c11ef766bd22b71ea625085155f4ed3db28a28745b3caaa5616ed1cbc78817",
       "executed": true
     },
     {
@@ -326,8 +329,8 @@
       "name": "圣地亚哥朝圣之路",
       "visible": true,
       "contexts": 43,
-      "automaticCandidates": 42,
-      "manuallyReviewed": 0
+      "automaticCandidates": 0,
+      "manuallyReviewed": 43
     },
     {
       "id": "nakasendo",
@@ -3546,13 +3549,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-7",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-7"
     },
     {
       "id": "camino-zubiri",
@@ -3564,13 +3567,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-7",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-7"
     },
     {
       "id": "camino-pamplona",
@@ -3582,13 +3585,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-7",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-7"
     },
     {
       "id": "camino-puente",
@@ -3600,13 +3603,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-7",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-7"
     },
     {
       "id": "camino-estella",
@@ -3618,13 +3621,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-7",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-7"
     },
     {
       "id": "camino-los-arcos",
@@ -3636,13 +3639,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-7",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-7"
     },
     {
       "id": "camino-viana",
@@ -3654,13 +3657,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-7",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-7"
     },
     {
       "id": "camino-logrono",
@@ -3672,13 +3675,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-7",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-7"
     },
     {
       "id": "camino-navarrete",
@@ -3690,13 +3693,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-7",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-7"
     },
     {
       "id": "camino-najera",
@@ -3708,13 +3711,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-7",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-7"
     },
     {
       "id": "camino-domingo",
@@ -3726,13 +3729,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-7",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-7"
     },
     {
       "id": "camino-belorado",
@@ -3744,13 +3747,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-ortega",
@@ -3762,13 +3765,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-atapuerca",
@@ -3780,13 +3783,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-burgos",
@@ -3798,13 +3801,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-hornillos",
@@ -3816,13 +3819,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-castrojeriz",
@@ -3834,13 +3837,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-fromista",
@@ -3852,13 +3855,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-carrion",
@@ -3870,13 +3873,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-terradillos",
@@ -3888,13 +3891,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-sahagun",
@@ -3906,13 +3909,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-burgo-ranero",
@@ -3924,13 +3927,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-mansilla",
@@ -3942,13 +3945,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-leon",
@@ -3960,13 +3963,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-san-martin",
@@ -3978,13 +3981,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-orbigo",
@@ -3996,13 +3999,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-astorga",
@@ -4014,13 +4017,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-rabanal",
@@ -4032,13 +4035,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-foncebadon",
@@ -4050,13 +4053,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-molinaseca",
@@ -4068,13 +4071,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-ponferrada",
@@ -4086,13 +4089,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-villafranca",
@@ -4104,13 +4107,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-8",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-8"
     },
     {
       "id": "camino-cebreiro",
@@ -4122,13 +4125,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-9",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-9"
     },
     {
       "id": "camino-triacastela",
@@ -4140,13 +4143,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-9",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-9"
     },
     {
       "id": "camino-san-xil",
@@ -4158,13 +4161,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-9",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-9"
     },
     {
       "id": "camino-sarria",
@@ -4176,13 +4179,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-9",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-9"
     },
     {
       "id": "camino-portomarin",
@@ -4194,13 +4197,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-9",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-9"
     },
     {
       "id": "camino-palas",
@@ -4212,13 +4215,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-9",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-9"
     },
     {
       "id": "camino-melide",
@@ -4230,13 +4233,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-9",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-9"
     },
     {
       "id": "camino-arzua",
@@ -4248,13 +4251,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-9",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-9"
     },
     {
       "id": "camino-pedrouzo",
@@ -4266,13 +4269,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-9",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-9"
     },
     {
       "id": "camino-santiago",
@@ -4284,13 +4287,13 @@
       "contexts": [
         {
           "theme": "camino",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-9",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-9"
     },
     {
       "id": "nakasendo-karuizawa",
@@ -8183,303 +8186,303 @@
       "contexts": [
         {
           "id": "camino-saint-jean",
-          "status": "not-manually-verified",
-          "expanded": false,
+          "status": "researched-batch-7",
+          "expanded": true,
           "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-roncesvalles",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-7",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-zubiri",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-7",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-pamplona",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-7",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-puente",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-7",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-estella",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-7",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-los-arcos",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-7",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-viana",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-7",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-logrono",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-7",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-navarrete",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-7",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-najera",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-7",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-domingo",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-7",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-belorado",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-ortega",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-atapuerca",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-burgos",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-hornillos",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-castrojeriz",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-fromista",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-carrion",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-terradillos",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-sahagun",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-burgo-ranero",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-mansilla",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-leon",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-san-martin",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-orbigo",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-astorga",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-rabanal",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-foncebadon",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-molinaseca",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-ponferrada",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-villafranca",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-cebreiro",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-triacastela",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-san-xil",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-sarria",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-portomarin",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-palas",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-melide",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-arzua",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-pedrouzo",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-santiago",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -8513,135 +8516,135 @@
       "contexts": [
         {
           "id": "camino-leon",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-san-martin",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-orbigo",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-astorga",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-rabanal",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-foncebadon",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-molinaseca",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-ponferrada",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-villafranca",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-8",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-cebreiro",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-triacastela",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-san-xil",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-sarria",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-portomarin",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-palas",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-melide",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-arzua",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-pedrouzo",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-santiago",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -8663,51 +8666,51 @@
       "contexts": [
         {
           "id": "camino-sarria",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-portomarin",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-palas",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-melide",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-arzua",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-pedrouzo",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "camino-santiago",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-9",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]

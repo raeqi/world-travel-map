@@ -1237,6 +1237,516 @@
         "https://www.parcs.canada.ca/lhn-nhs/nl/meadows/visit/cartes-maps"
       ],
       "contentHash": "8a1933a4bf24c563cf2f77c541178f564985087153ccafae5717931e8111ef3a"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-saint-jean",
+      "state": "researched-batch-7",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.en-pays-basque.fr/territoires-et-destinations/le-pays-de-saint-jean-pied-de-port/saint-jean-pied-de-port/",
+        "https://www.en-pays-basque.fr/patrimoine-et-traditions/patrimoine-sites-et-monuments/visite-de-la-citadelle-de-saint-jean-pied-de-port/"
+      ],
+      "contentHash": "b888f1c087b3cffd3d87ec1af85fc1d5dd69d9f98bff2e59c94dc129b7cb3a10"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-roncesvalles",
+      "state": "researched-batch-7",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.visitnavarra.es/es/roncesvalles",
+        "https://www.unav.edu/web/catedra-patrimonio/itinerarios-visitas/roncesvalles/ajedrez-carlomagno"
+      ],
+      "contentHash": "a8e442e9bb56cee78d3bb336a8b7ff6017c716133b535a6d6a9938a1aedf2e7c"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-zubiri",
+      "state": "researched-batch-7",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.spain.info/es/lugares-interes/puente-rabia/",
+        "https://www.visitnavarra.es/es/detalle-tramo/-/t/chemin-de-compostelle-francais-zubiri-pamplona"
+      ],
+      "contentHash": "1f8c273bf16e80d9c8cd61e43491c31ea291f7c11be1b4768b7fff89f8c335d7"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-pamplona",
+      "state": "researched-batch-7",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.catedraldepamplona.com/historia/",
+        "https://www.spain.info/es/lugares-interes/catedral-pamplona/"
+      ],
+      "contentHash": "427054b1626a6a24050858202dae3470f79c6b335186eabd3062962418b59cc9"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-puente",
+      "state": "researched-batch-7",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.spain.info/es/lugares-interes/puente-reina/",
+        "https://www.spain.info/es/lugares-interes/iglesia-santiago-mayor-puente-reina/"
+      ],
+      "contentHash": "5c698d6a96f39e052745cd7cc5ba14e6e19533718e4932ba52cb2cc7c90240ac"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-estella",
+      "state": "researched-batch-7",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.visitnavarra.es/es/estella-lizarra"
+      ],
+      "contentHash": "49704ccdf8dbc38cd638320f038c0f95e448b0d2080ccd5fb620ba0c46602114"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-los-arcos",
+      "state": "researched-batch-7",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.losarcos.es/parroquia-de-santa-maria-claustro/",
+        "https://www.losarcos.es/visita-guiada-a-la-parroquia-santa-maria-de-los-arcos/"
+      ],
+      "contentHash": "cb93c174dceb576e022d19e85eaa7a929fef223d1c7d3e7dd8102ac67d3954c1"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-viana",
+      "state": "researched-batch-7",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.viana.es/iglesia-de-santa-maria/",
+        "https://www.visitnavarra.es/es/-/que-ver-en-viana"
+      ],
+      "contentHash": "432775a9b864b06d82ee7e95f58706017690b8da326d3695619d4b1703a6bcd8"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-logrono",
+      "state": "researched-batch-7",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://visitalogrono.com/-/iglesia-de-santiago-el-real"
+      ],
+      "contentHash": "273a8b5e7e36a39dbee1ac3cdcf42806785f4916d5e9d69b029b48c29765bb44"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-navarrete",
+      "state": "researched-batch-7",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.navarrete.es/turismo/que-ver/conjunto-historico-artistico/",
+        "https://lariojaturismo.com/lugar-de-interes/puerta-del-cementerio-de-navarrete/31eb1a32-3617-8efb-ad2f-835b5990a09b"
+      ],
+      "contentHash": "ccb39680c704cfab3bdc92e48321279079e7b84c331735097a0a1fd3d635eee5"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-najera",
+      "state": "researched-batch-7",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.spain.info/es/lugares-interes/monasterio-santa-maria-real-najera/"
+      ],
+      "contentHash": "bfca7040d38241c4177d381c3347ba8604d523270ebc1ab63f14647da1da7e41"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-domingo",
+      "state": "researched-batch-7",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.catedralsantodomingo.org/monumentos/catedral"
+      ],
+      "contentHash": "682146d811035ca36a27f3fa94eff77dd2db5a7803c40d2ddab4e1ab5bf2ff54"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-belorado",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/belorado",
+        "https://www.defensa.gob.es/portaldecultura/-/museo-internacional-de-la-radio-comunicaci%C3%B3n"
+      ],
+      "contentHash": "10396f4264185f6bd30cdce73f025fe22bb0eefaa9e950db5e02f7cbebc29393"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-ortega",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/san-juan-de-ortega",
+        "https://cultura.sanjuandeortega.com/capitel-de-la-anunciacion/"
+      ],
+      "contentHash": "1be4603f5e4ffa3a091c9ac969eff5925b51303d5eabd4cb093f069826818284"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-atapuerca",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/atapuerca",
+        "https://www.atapuerca.org/es/atapuerca/horarios"
+      ],
+      "contentHash": "9218c5a14858b29c96b28860c96b70ca89bef979f4f6451677b9a781907d9321"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-burgos",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/burgos",
+        "https://www.ubu.es/archivo-general/informacion/memorias-y-actividades/xvii-jornadas-de-la-conferencia-de-archiveros-de-universidades-espanolas/xvii-jornadas-cau-sede"
+      ],
+      "contentHash": "dc57b266d4b60eb1d0631c443e87a4af6251e6e959c46d38b79241947df868c7"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-hornillos",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/hornillos-del-camino"
+      ],
+      "contentHash": "92df16a558fde58e9096c969ce10e2424f94a0e5960296e5799fb269111d8ab4"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-castrojeriz",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/castrojeriz"
+      ],
+      "contentHash": "68dfce0e4fe72cdabf92a2d0bcd36f1a56f49b7f0a4010f80b15007576957674"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-fromista",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://palenciaturismo.es/visitar/lugares-interes/san-martin-tours-fromista",
+        "https://revistas.ucm.es/index.php/DMAE/es/article/view/75829",
+        "https://palenciaturismo.es/visitar/puntos-informacion-turistica/oficina-turismo-casa-esclusero-fromista"
+      ],
+      "contentHash": "4b6588087b9305f1025d19d32d4bcce0709f6deacd6d7585e12760ec77d4b8c4"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-carrion",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/carrion-de-los-condes"
+      ],
+      "contentHash": "f9083304048e910bca0ec77f0d203a112bed9e14e667aa2dfb2fb46333540dd2"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-terradillos",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://palenciaturismo.es/visitar/localidades/terradillos-templarios",
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/terradillos-de-los-templarios"
+      ],
+      "contentHash": "3d730d1fc1b1a34b9f7cf27c9ef9ea70a91329adabc3c463f28600a205701096"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-sahagun",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/sahagun"
+      ],
+      "contentHash": "a601d2231167bb8fcb60c2d22e046d0cd90c8752a6f673908c6dd822d2539fbc"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-burgo-ranero",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.amcsantiago.com/municipio/el-burgo-ranero/",
+        "https://www.spain.info/es/lugares-interes/iglesia-parroquial-san-pedro-burgo-ranero/"
+      ],
+      "contentHash": "3b4382c6e03a3cc04bfe880ecaddb75627f5c5481225409dfdc993547c6f680d"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-mansilla",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/mansilla-de-las-mulas",
+        "https://www.turismocastillayleon.com/en/heritage-culture/ethnographic-museum-provincial-leon"
+      ],
+      "contentHash": "44a7f61db24462dff0ccdfa7396cabf04a244d27475815177acbca01d75e4257"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-leon",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/leon",
+        "https://diocesisdeleon.org/cabildo-y-junta-se-unen-para-impulsar-la-conservacion-y-restauracion-del-portico-occidental-y-las-vidrieras-de-la-catedral/",
+        "https://museosanisidorodeleon.com/descubre-el-museo/el-panteon-real/"
+      ],
+      "contentHash": "bc90150edf887143040a159f09ddce02ecef93414cd6c131558bcafdf87f9485"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-san-martin",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://turisleon.com/lugares/san-martin-del-camino/",
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/san-martin-del-camino"
+      ],
+      "contentHash": "0d02e1f4a92edcec2bcbcd67bb7c89a923582b1e88be380d0e4146ad3675eea9"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-orbigo",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/hospital-de-orbigo"
+      ],
+      "contentHash": "c32876be83da487ae18777087afb200dfc1ad2d7a2860d378a1ce59fef61432e"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-astorga",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/astorga",
+        "https://www.palaciodegaudi.es/visitas/informacion/"
+      ],
+      "contentHash": "7464ef377f305202df102be47541bd8facf31b763366a43008df7c13eee7f67d"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-rabanal",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/rabanal-del-camino"
+      ],
+      "contentHash": "dbcf3457b025f16adf6541204b6efbbb3a8e517f5d1f50453ebdd8dba6fce782"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-foncebadon",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://turisleon.com/lugares/foncebadon/",
+        "https://caminosantiagoleon.es/etapa-17-del-camino-frances-rabanal-del-camino-riego-de-ambros-primera-parte/"
+      ],
+      "contentHash": "c688d33df688b77754167cbdc68f9cf8fcaa63d2feeaf93e9a55c1b1f12cb078"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-molinaseca",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://turisleon.com/lugares/molinaseca/",
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/molinaseca"
+      ],
+      "contentHash": "2ab5704c8bc5a2f331654275589832b69ff26105d0436a014225a6f54d3f2ec3"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-ponferrada",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.ponferrada.org/turismo/es/monumentos/castillo-templarios",
+        "https://www.ponferrada.org/turismo/es/museos/fabrica-luz-museo-energia",
+        "https://lafabricadeluz.org/"
+      ],
+      "contentHash": "f21c7267ae2be19a5f89bb577aff8a5d281275b682d66795bc98ceb45f826436"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-villafranca",
+      "state": "researched-batch-8",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/villafranca-del-bierzo",
+        "https://villafrancadelbierzo.org/turismo/turismo-patrimonio-san-fransisco.php"
+      ],
+      "contentHash": "736fd7641b0009efb6ec167f5b749527732b8ae5e2c19030a60b430d90c9558b"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-cebreiro",
+      "state": "researched-batch-9",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://museos.xunta.gal/es/cebreiro"
+      ],
+      "contentHash": "c7d42822d4a5770f5b6fc542ae0fb7eeaffaebc8743992be889667d8083bf1a0"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-triacastela",
+      "state": "researched-batch-9",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-san-xil",
+        "https://explora.arzua.gal/gl/turismo-activo/resource/o-camino-de-santiago"
+      ],
+      "contentHash": "4f0a58b5a6e1e5d705b8940aabb730579dc32cbd99b4b200e4896694fb617747"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-san-xil",
+      "state": "researched-batch-9",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://caminodesantiago.fundaciononce.es/es/etapas/etapa-c27-triacastela-sarria-camino-de-santiago-frances",
+        "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-san-xil"
+      ],
+      "contentHash": "46f25ef6ddb00113d7ecee729924c1903bb514cf24e418f7035db0e2826695e5"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-sarria",
+      "state": "researched-batch-9",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://turismo.deputacionlugo.gal/es/conece/cidades/sarria"
+      ],
+      "contentHash": "70fece51fbf0d36f98cf7a71a7755dcfdbe886ecc7672b516192410c54975478"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-portomarin",
+      "state": "researched-batch-9",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://concellodeportomarin.es/igrexa-san-xoan/",
+        "https://www.spain.info/es/destino/portomarin/",
+        "https://egu.xunta.gal/gl/termo/170511/portomarin-san-xoan-de"
+      ],
+      "contentHash": "60fd56999f6e5c631a048dfbe65e58ca7807f29fd17ae040dd91f287c300cd80"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-palas",
+      "state": "researched-batch-9",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://egu.xunta.gal/gl/termo/162269/palas-de-rei",
+        "https://turismo.deputacionlugo.gal/gl/conece/lugoinedito/castelopambre"
+      ],
+      "contentHash": "f4a0ad78ac924597a658855f5e272e66c31a13b3721faaf96ea68d13eae04cd0"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-melide",
+      "state": "researched-batch-9",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.turismomelide.com/index.php/es/descubre-melide/que-ver-en-melide/capilla-de-san-roque",
+        "https://concellodemelide.gal/o-cruceiro-do-adro-de-san-roque-recupera-o-seu-esplendor-a-traves-dos-traballos-de-restauracion-e-posta-en-valor/"
+      ],
+      "contentHash": "8459a367997b38df8824a9d16f011baf7cf44753aa404c7b84cfcab4f6309205"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-arzua",
+      "state": "researched-batch-9",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://egu.xunta.gal/es/termo/79203/arzua-ulloa",
+        "https://explora.arzua.gal/es/el-camino-de-santiago-por-arzua/resource/ponte-e-area-recreativa-de-ribadiso",
+        "https://explora.arzua.gal/gl/turismo-activo/resource/o-camino-de-santiago"
+      ],
+      "contentHash": "c5ddd81d69e8616d215afd450d6ea8e59e726f27cd2a79b47dadc9006f48b205"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-pedrouzo",
+      "state": "researched-batch-9",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://gdrullatambremandeo.gal/turismo/rutas-ao-volante/ruta-del-ulla/"
+      ],
+      "contentHash": "bc3e6049052402cdd550967ed4c353d5ef5cf8151b4fcc194cb7fa6f655e782e"
+    },
+    {
+      "theme": "camino",
+      "id": "camino-santiago",
+      "state": "researched-batch-9",
+      "reason": "核对所列官方或专门研究资料；补充具体可观察对象、地方生活与路线关系，区分原位、迁移、复原与后世用途。未实地访问或认证实时开放。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://catedraldesantiago.es/portico-de-la-gloria/",
+        "https://catedraldesantiago.es/catedral/",
+        "https://visitas.catedraldesantiago.es/visitas-gratuitas-portico-de-la-gloria/",
+        "https://museos.xunta.gal/es/museos/peregrinacions"
+      ],
+      "contentHash": "ceba1158d94926516a3533f7423a43ac69428e1437eb5e4a34a49ea8daf9a814"
     }
   ]
 }

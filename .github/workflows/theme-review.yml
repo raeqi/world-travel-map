@@ -14,6 +14,16 @@ jobs:
   preservation-browser:
     runs-on: ubuntu-24.04
     timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - suite: consolidated-maps
+            scripts: check-catalogue-consolidation.cjs
+          - suite: source-discovery
+            scripts: check-theme-discoverability.cjs check-short-theme-review.cjs
+          - suite: regional-maps
+            scripts: check-regional-expansion.cjs check-cultural-theme-maps.cjs check-cultural-atlas-browser.cjs
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,11 +40,11 @@ jobs:
           npm install --no-save --no-package-lock playwright
           npx playwright install --with-deps chromium
       - name: Exercise recovery and old links in actual desktop and mobile Chromium
-        run: node scripts/run-browser-suite.cjs check-catalogue-consolidation.cjs check-theme-discoverability.cjs check-short-theme-review.cjs check-regional-expansion.cjs check-cultural-theme-maps.cjs check-cultural-atlas-browser.cjs
+        run: node scripts/run-browser-suite.cjs ${{ matrix.scripts }}
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: theme-review-browser
+          name: theme-review-browser-${{ matrix.suite }}
           path: |
             qa/regional-expansion-browser/
             qa/theme-review/

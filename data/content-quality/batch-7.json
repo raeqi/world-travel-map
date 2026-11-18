@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "batch": "2026-11-18-place-quality-7",
+  "baseline": "ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395",
+  "checked": "2026-11-18",
+  "scope": "First twelve existing French Way contexts, from Saint-Jean-Pied-de-Port through Santo Domingo de la Calzada. All twelve receive first dedicated expanded readings; eleven were automatic candidates, while the starting point already had a useful route-choice summary and was not an automatic candidate. Distinguishes relocated fabric, later buildings, reliquary legends, civic uses and access. No photo or geographic replacement.",
+  "sources": {
+    "cf-saintjean": {
+      "title": "巴斯克地区旅游局：街道、门楣与城塞的城市分层",
+      "url": "https://www.en-pays-basque.fr/territoires-et-destinations/le-pays-de-saint-jean-pied-de-port/saint-jean-pied-de-port/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-citadel": {
+      "title": "巴斯克地区旅游局：约1625年城塞与后续改造",
+      "url": "https://www.en-pays-basque.fr/patrimoine-et-traditions/patrimoine-sites-et-monuments/visite-de-la-citadelle-de-saint-jean-pied-de-port/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-roncesvalles": {
+      "title": "纳瓦拉旅游局：修院、医院传统与多时期建筑",
+      "url": "https://www.visitnavarra.es/es/roncesvalles",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-roncesvalles-art": {
+      "title": "纳瓦拉大学Javier Martínez de Aguirre：所谓查理曼棋盘实为圣物匣",
+      "url": "https://www.unav.edu/web/catedra-patrimonio/itinerarios-visitas/roncesvalles/ajedrez-carlomagno",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-zubiri": {
+      "title": "西班牙官方旅游：Puente de la Rabia及地方传说",
+      "url": "https://www.spain.info/es/lugares-interes/puente-rabia/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-zubiri-valley": {
+      "title": "纳瓦拉旅游局：Zubiri—Pamplona河谷、产业与桥梁",
+      "url": "https://www.visitnavarra.es/es/detalle-tramo/-/t/chemin-de-compostelle-francais-zubiri-pamplona",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-pamplona-history": {
+      "title": "潘普洛纳主教座堂：罗曼式遗构、哥特回廊与新古典立面分期",
+      "url": "https://www.catedraldepamplona.com/historia/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-pamplona-art": {
+      "title": "西班牙官方旅游：潘普洛纳座堂王室墓葬与回廊",
+      "url": "https://www.spain.info/es/lugares-interes/catedral-pamplona/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-puente": {
+      "title": "西班牙官方旅游：王后桥拱孔、泄洪与结构",
+      "url": "https://www.spain.info/es/lugares-interes/puente-reina/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-puente-santiago": {
+      "title": "西班牙官方旅游：Santiago el Mayor教堂原件与扩建",
+      "url": "https://www.spain.info/es/lugares-interes/iglesia-santiago-mayor-puente-reina/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-estella": {
+      "title": "纳瓦拉旅游局：Estella回廊、民居建筑与今日博物馆",
+      "url": "https://www.visitnavarra.es/es/estella-lizarra",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-losarcos-cloister": {
+      "title": "Los Arcos市政府：Santa María回廊窗格与16世纪建造",
+      "url": "https://www.losarcos.es/parroquia-de-santa-maria-claustro/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse.  Direct shell retrieval returned 503; official indexed web text was read. Access status is recorded, not treated as evidence of current opening."
+    },
+    "cf-losarcos-art": {
+      "title": "Los Arcos市政府：多时期教堂、管风琴与佛兰德祭坛画",
+      "url": "https://www.losarcos.es/visita-guiada-a-la-parroquia-santa-maria-de-los-arcos/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse.  Direct shell retrieval returned 503; official indexed web text was read. Access status is recorded, not treated as evidence of current opening."
+    },
+    "cf-viana": {
+      "title": "纳瓦拉旅游局：Viana建筑、城墙与历史记忆",
+      "url": "https://www.visitnavarra.es/es/-/que-ver-en-viana",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-viana-church": {
+      "title": "Viana市政府：Santa María文艺复兴门面与内部细部",
+      "url": "https://www.viana.es/iglesia-de-santa-maria/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse.  Direct shell retrieval returned 503; official indexed web text was read. Access status is recorded, not treated as evidence of current opening."
+    },
+    "cf-logrono": {
+      "title": "Logroño官方旅游：Santiago el Real、市政档案与广场",
+      "url": "https://visitalogrono.com/-/iglesia-de-santiago-el-real",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-navarrete": {
+      "title": "Navarrete市政府：1185年医院、13世纪构件与1887年迁装门面",
+      "url": "https://www.navarrete.es/turismo/que-ver/conjunto-historico-artistico/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. "
+    },
+    "cf-navarrete-gate": {
+      "title": "拉里奥哈旅游局：墓园门构件迁移与合作施工",
+      "url": "https://lariojaturismo.com/lugar-de-interes/puerta-del-cementerio-de-navarrete/31eb1a32-3617-8efb-ad2f-835b5990a09b",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse.  Direct shell retrieval returned 403; official indexed text was read and compared with the municipal account."
+    },
+    "cf-najera": {
+      "title": "西班牙官方旅游：Santa María la Real的墓葬、木雕和回廊",
+      "url": "https://www.spain.info/es/lugares-interes/monasterio-santa-maria-real-najera/",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. The page gives 1516 for the current church, which conflicts with other chronologies. This entry does not adopt that date; foundation, later fabric and styles are kept distinct without claiming a checked construction date."
+    },
+    "cf-domingo": {
+      "title": "Santo Domingo座堂馆方：祭坛雕刻、建筑与公鸡传说展示",
+      "url": "https://www.catedralsantodomingo.org/monumentos/catedral",
+      "checked": "2026-11-18",
+      "method": "Primary institution, scholarly author, public authority or official local tourism material read; concise original paraphrase. No site visit or image reuse. Opening prices, daily hours and claims of uniqueness are not reproduced; devotional legend is not asserted as an event."
+    }
+  },
+  "readings": [
+    {
+      "id": "camino-saint-jean",
+      "theme": "camino",
+      "title": "山脚城门、雕刻门楣与近代城塞",
+      "summary": "圣让皮耶德波尔既是越山准备地，也有值得细读的城市空间：Porte Saint-Jacques、Rue d’Espagne的雕刻门楣与山上城塞属于不同历史层次，不只是长线起点打卡。",
+      "paragraphs": [
+        {
+          "heading": "在商街门楣上找年代",
+          "text": "地区旅游局介绍圣雅各门及Rue d’Espagne中世纪以来的商贸传统，街上可见17、18世纪雕刻门楣。沿街看门框、屋面与坡度，能读到商旅如何借一条山脚街道汇集；城内停留本身已有内容，不必急于把一切当作越山前奏。",
+          "sourceKeys": [
+            "cf-saintjean"
+          ]
+        },
+        {
+          "heading": "城塞不是中世纪城堡完整存续",
+          "text": "Mendiguren高地城塞约1625年建于更早城堡遗址，后来经Vauban改造，1965年转为学校。可在允许的公共视点看防御地形与下方城市，内部地下空间另有导览安排；高线与Valcarlos谷线仍为替代选项，不能串成同一段连续路。",
+          "sourceKeys": [
+            "cf-citadel",
+            "cf-saintjean"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cf-saintjean",
+        "cf-citadel"
+      ],
+      "related": [
+        "camino-roncesvalles"
+      ]
+    },
+    {
+      "id": "camino-roncesvalles",
+      "theme": "camino",
+      "title": "医院修院与“查理曼棋盘”的真正用途",
+      "summary": "龙塞斯瓦列斯的修院、医院传统与哥特教堂，把越山后的接待落到建筑。馆内所谓“查理曼棋盘”实际是约14世纪的珐琅圣物匣，传说名称不能当作查理曼使用过的证据。",
+      "paragraphs": [
+        {
+          "heading": "先看接待旅人的建筑群",
+          "text": "纳瓦拉旅游局追溯12世纪医院修院的形成及迁至现址，后经王室推动发展。Santa María教堂、章会厅、Santiago小堂与旧接待设施不是一次建成；可以从宗教、住宿和集会空间的分工理解朝圣基础设施。",
+          "sourceKeys": [
+            "cf-roncesvalles"
+          ]
+        },
+        {
+          "heading": "用材料打破棋盘的误读",
+          "text": "纳瓦拉大学研究说明“棋盘”方格交替放置透明珐琅图像与圣物，工艺标记联系Montpellier，约属14世纪。看格子里的受难、审判与圣人图像，会发现它是信仰与金工的作品；查理曼闻罗兰战败的故事属于附着其上的传统叙事。",
+          "sourceKeys": [
+            "cf-roncesvalles-art"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cf-roncesvalles",
+        "cf-roncesvalles-art"
+      ],
+      "related": [
+        "camino-saint-jean",
+        "camino-zubiri"
+      ]
+    },
+    {
+      "id": "camino-zubiri",
+      "theme": "camino",
+      "title": "一座桥与阿尔加河谷里的生活",
+      "summary": "Zubiri的Puente de la Rabia横跨Arga河，桥名联系驱除狂犬病的民间传说。桥、村落与河谷产业同时存在，古道并非全程脱离现代生活的森林走廊。",
+      "paragraphs": [
+        {
+          "heading": "桥墩传说与工程分开看",
+          "text": "官方介绍这座中世纪桥及让牲畜绕中央桥墩以防病的旧习俗。参观可看拱券、桥墩与河水的关系，同时把传说当作地方信仰史，不当医学效果。它使一个常用住宿节点拥有可辨认的具体对象。",
+          "sourceKeys": [
+            "cf-zubiri"
+          ]
+        },
+        {
+          "heading": "沿河谷读新旧空间相邻",
+          "text": "纳瓦拉分段说明把Zubiri桥、工业区、村落及下游桥梁连在同一河谷。可从公共道路观察旧跨河点怎样进入今天的居住与生产空间；此处阅读解释地理关系，具体绕行或过桥仍按现场当前标识。",
+          "sourceKeys": [
+            "cf-zubiri-valley"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cf-zubiri",
+        "cf-zubiri-valley"
+      ],
+      "related": [
+        "camino-roncesvalles",
+        "camino-pamplona"
+      ]
+    },
+    {
+      "id": "camino-pamplona",
+      "theme": "camino",
+      "title": "同一座堂的哥特空间与新古典门面",
+      "summary": "潘普洛纳座堂外立面是18世纪末至19世纪初的新古典设计，内部和回廊却主要呈哥特语言。把王室墓葬、宗教空间与城市入口一起看，远比“重要城市休整点”更有内容。",
+      "paragraphs": [
+        {
+          "heading": "先看立面，再进到另一年代",
+          "text": "馆方年表把现哥特座堂建设、13—14世纪回廊和1782—1804年的Ventura Rodríguez立面分开记录。可先看外侧柱式与对称，再比较内部高拱、肋架及回廊雕刻，理解建筑怎样保留多次变化。",
+          "sourceKeys": [
+            "cf-pamplona-history"
+          ]
+        },
+        {
+          "heading": "王室记忆在通行空间之中",
+          "text": "中央空间有Carlos III与Leonor的墓葬，Santa María la Real圣像也与纳瓦拉君主宣誓传统相关。观察墓像位置和礼仪轴线，会看到城市权力与朝圣宗教空间相互重叠；它不是一座只有单一“中世纪风格”的空壳。",
+          "sourceKeys": [
+            "cf-pamplona-art"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cf-pamplona-history",
+        "cf-pamplona-art"
+      ],
+      "related": [
+        "camino-zubiri",
+        "camino-puente"
+      ]
+    },
+    {
+      "id": "camino-puente",
+      "theme": "camino",
+      "title": "桥拱中的水工，与街上的朝圣者形象",
+      "summary": "王后桥镇可先看跨Arga的罗曼式石桥，再看Santiago el Mayor的朝圣者雕像。主桥拱之间的减重、泄水小拱把地方特色落实到水工，而不只是一句“两路汇合”。",
+      "paragraphs": [
+        {
+          "heading": "看大拱之间的小开口",
+          "text": "官方资料说明桥拱之间的小拱既减轻结构，也让涨水时的水流通过。可以从公共河岸观察大、小开口和桥面坡度，读道路与河流水位的协调；部分桥拱埋入岸边，今天肉眼所见数量不等于原结构总数。",
+          "sourceKeys": [
+            "cf-puente"
+          ]
+        },
+        {
+          "heading": "教堂也经历扩建与再装饰",
+          "text": "Santiago el Mayor始建于12世纪，15世纪扩建加入哥特部分，保存罗曼式入口等构件，内部另有18世纪祭坛及Santiago Peregrino形象。比较不同材料和雕塑装束，能理解朝圣传统持续被后世重新表达。",
+          "sourceKeys": [
+            "cf-puente-santiago"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cf-puente",
+        "cf-puente-santiago"
+      ],
+      "related": [
+        "camino-pamplona",
+        "camino-estella"
+      ]
+    },
+    {
+      "id": "camino-estella",
+      "theme": "camino",
+      "title": "盘旋石柱、罗曼式宫邸与今日绘画馆",
+      "summary": "Estella可把San Pedro de la Rúa回廊与所谓纳瓦拉国王宫邸相对照：前者看交缠石柱和雕刻，后者看罕见民用罗曼式立面，如今又容纳Gustavo de Maeztu博物馆。",
+      "paragraphs": [
+        {
+          "heading": "抬头之外，也看回廊柱子",
+          "text": "San Pedro de la Rúa位于高处，入口与回廊属于不同建造阶段。回廊有四根交缠的柱子支撑拱列，其他柱头也构成丰富雕刻。把视线从整座教堂移到支撑方式，会更清楚工匠怎样在承重构件上创造变化。",
+          "sourceKeys": [
+            "cf-estella"
+          ]
+        },
+        {
+          "heading": "宫邸外墙把叙事带上街道",
+          "text": "San Martín广场的宫邸立面有底层拱廊与上层多分窗，边缘柱头描绘Roland与Ferragut等故事。1975年修复后成为Gustavo de Maeztu馆址；建筑史、石刻叙事和后来画家收藏是三种不同关联，不把馆藏画当作中世纪室内原装。",
+          "sourceKeys": [
+            "cf-estella"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cf-estella"
+      ],
+      "related": [
+        "camino-puente",
+        "camino-los-arcos"
+      ]
+    },
+    {
+      "id": "camino-los-arcos",
+      "theme": "camino",
+      "title": "回廊窗格、管风琴与多时期的Santa María",
+      "summary": "Los Arcos的Santa María不是单纯分段节点。12世纪末起的建筑叠加16世纪哥特回廊、文艺复兴塔楼、佛兰德祭坛画与18世纪管风琴，适合比较同一场所的多种工艺。",
+      "paragraphs": [
+        {
+          "heading": "回廊看一组重复中的变化",
+          "text": "市政府说明回廊建于16世纪，拱列有多分窗、尖拱、玫瑰纹和装饰冠部。可沿一侧比较窗格几何与阴影，再回看教堂较早结构；“哥特风格”并不自动等同于整个建筑都造于同一年。",
+          "sourceKeys": [
+            "cf-losarcos-cloister"
+          ]
+        },
+        {
+          "heading": "从石工走到木工、绘画与音乐",
+          "text": "当地官方介绍15世纪佛兰德《圣母访亲》祭坛画和18世纪巴洛克管风琴。即使只选一项细看，也能把抽象风格落到图像、材料与声音设施。旧网页列出的导览内容不是今天全部展区可进入的保证，开放以场所当前安排为准。",
+          "sourceKeys": [
+            "cf-losarcos-art"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cf-losarcos-cloister",
+        "cf-losarcos-art"
+      ],
+      "related": [
+        "camino-estella",
+        "camino-viana"
+      ]
+    },
+    {
+      "id": "camino-viana",
+      "theme": "camino",
+      "title": "Santa María的舞台式门面与城市记忆",
+      "summary": "Viana的Santa María文艺复兴门面，把雕塑、层叠构件和街道观看结合起来；城墙与San Pedro遗迹又提供另一种城市时间。César Borgia的墓葬记忆不能代替对建筑本身的阅读。",
+      "paragraphs": [
+        {
+          "heading": "站远一点看门面怎样组织视线",
+          "text": "市政府图像逐项展示Santa María的文艺复兴门面、塔楼、穹顶及室内绘画。可以先在公共街道看层次，再近看雕像与柱式，让“宏伟教堂”变成可辨认的构图和工艺对象，而非只凭一个人物墓名停留。",
+          "sourceKeys": [
+            "cf-viana-church"
+          ]
+        },
+        {
+          "heading": "把不同历史线索分别理解",
+          "text": "纳瓦拉介绍城墙、San Pedro遗存与Borgia的安葬记忆。前者可读城市防御和建筑变化，后者关联1507年死亡后的纪念传统；不是所有遗迹都因这位人物而建。城市阅读可超出朝圣日程的住宿安排。",
+          "sourceKeys": [
+            "cf-viana"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cf-viana-church",
+        "cf-viana"
+      ],
+      "related": [
+        "camino-los-arcos",
+        "camino-logrono"
+      ]
+    },
+    {
+      "id": "camino-logrono",
+      "theme": "camino",
+      "title": "教堂里的市政档案与广场上的大棋盘",
+      "summary": "Logroño的Santiago el Real既是宗教场所，也保存市政档案的历史位置。旁边的巨大朝圣主题鹅棋盘与Peregrino喷泉，则是今天公共空间解释路线的方式。",
+      "paragraphs": [
+        {
+          "heading": "在礼拜堂墙内找城市档案",
+          "text": "官方介绍教堂内曾收藏市政府重要文书的墙龛，铁栅下有标明城市档案的铭文。观察它与主礼拜堂空间的关系，可以理解地方政治、文件保存和宗教场所曾怎样共享一栋建筑；现教堂主要自16世纪起建，并非更早庙宇的整体原存。",
+          "sourceKeys": [
+            "cf-logrono"
+          ]
+        },
+        {
+          "heading": "广场游戏是当代解释",
+          "text": "Santiago广场地面嵌有巨型Juego de la Oca并加入朝圣主题，旁边喷泉是市政府1980年代修复旧泉记忆的设施。可以对照棋盘图像与实际旅程，但不要把这种今日象征直接说成已证实的中世纪路线起源。",
+          "sourceKeys": [
+            "cf-logrono"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cf-logrono"
+      ],
+      "related": [
+        "camino-viana",
+        "camino-navarrete"
+      ]
+    },
+    {
+      "id": "camino-navarrete",
+      "theme": "camino",
+      "title": "医院遗址与迁到墓园的罗曼式门面",
+      "summary": "Navarrete的San Juan de Acre医院创设于1185年，相关13世纪教堂门面却在1887年迁到墓园。把原址遗存与重组构件分开走访，才能读出朝圣接待与后来文物再利用。",
+      "paragraphs": [
+        {
+          "heading": "在原址读留下的平面",
+          "text": "市政府介绍医院为朝圣者提供接待，现有遗址经考古与保护可读到教堂布局。医院创立年份、后来教堂构件和今日残迹不是同一个时间层；这里的价值不只是“路上经过一个小镇”。",
+          "sourceKeys": [
+            "cf-navarrete"
+          ]
+        },
+        {
+          "heading": "墓园门面不是原地保存",
+          "text": "门面与两扇窗属晚期罗曼式构件，1887年按Luis Barrón设计迁装，石匠Azpiri与铁匠Menaut分别参与施工。看石雕与后来铁门的接合，可理解保存也包括搬运和重新组合；墓园仍是纪念与安葬空间。",
+          "sourceKeys": [
+            "cf-navarrete-gate"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cf-navarrete",
+        "cf-navarrete-gate"
+      ],
+      "related": [
+        "camino-logrono",
+        "camino-najera"
+      ]
+    },
+    {
+      "id": "camino-najera",
+      "theme": "camino",
+      "title": "王室墓葬、木雕唱诗席与镂空回廊",
+      "summary": "Nájera的Santa María la Real可从王室墓葬、胡桃木唱诗席和回廊窗花展开。1052年的机构创设与后来的现存建筑、祭坛和装饰分开说明，洞穴传说也不替代建造史。",
+      "paragraphs": [
+        {
+          "heading": "先看不同材料怎样讲王室记忆",
+          "text": "官方介绍墓葬中Blanca de Navarra的12世纪石棺雕刻，以及16世纪初胡桃木唱诗席。可比较石刻的体积、木雕的细密和它们在礼仪空间的位置：同一修院累积了不同年代的作品，不是一份一次完工的装修清单。",
+          "sourceKeys": [
+            "cf-najera"
+          ]
+        },
+        {
+          "heading": "回廊与洞穴属于不同阅读层次",
+          "text": "回廊把哥特拱顶与Plateresque镂空窗花并置，适合沿光影看工艺变化。建院传说联系洞穴中发现圣母像，应作为信仰叙事理解；1052年的机构创设也不能套在后来所有建筑上。把洞穴、石棺、木雕和窗花分开看，能读出修院累积而成的时间层。",
+          "sourceKeys": [
+            "cf-najera"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cf-najera"
+      ],
+      "related": [
+        "camino-navarrete",
+        "camino-domingo"
+      ]
+    },
+    {
+      "id": "camino-domingo",
+      "theme": "camino",
+      "title": "祭坛雕刻与活公鸡传统的两个层次",
+      "summary": "Santo Domingo座堂可看Damián Forment文艺复兴祭坛和更早建筑结构；有活禽的gallinero联系朝圣奇迹传说。雕刻作品、建筑年代与信仰故事分别说明，避免把传说当作可证史实。",
+      "paragraphs": [
+        {
+          "heading": "先沿雕刻的层级看故事",
+          "text": "馆方把Forment的16世纪主祭坛列为核心作品，木雕、彩绘与下部石材形成丰富层次。可先看整体分区，再选一格叙事看人物、衣褶和动作；这能把“朝圣文化”落到具体工匠和作品，而非只有圣人名字。",
+          "sourceKeys": [
+            "cf-domingo"
+          ]
+        },
+        {
+          "heading": "gallinero是活的纪念传统",
+          "text": "座堂内的鸡舍让公鸡与母鸡成为朝圣者获救传说的持续纪念。今天可观察的是纪念设施、传统和信徒实践，故事的超自然情节不是历史研究证实的事件。再对照罗曼式与哥特部分，会看到场所远比单一传说丰富。",
+          "sourceKeys": [
+            "cf-domingo"
+          ]
+        }
+      ],
+      "sourceKeys": [
+        "cf-domingo"
+      ],
+      "related": [
+        "camino-najera"
+      ]
+    }
+  ]
+}
