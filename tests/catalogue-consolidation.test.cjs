@@ -41,3 +41,10 @@ test('complete map replacements avoid duplicate person cards and recommend only 
  activeTheme=themes.findIndex(t=>t.id==='european-music-cities');readingPlans=null;const prague=places.find(p=>p.id==='mozart-prague'),html=placePlansHTML(prague);assert.ok(!html.includes('data-reading-plan="atlas-dvorak-places"'));assert.ok(html.includes('data-reading-theme="european-music-cities"'));
  homeState.query=planTemplates.find(p=>p.id==='atlas-dvorak-places').name;assert.ok(matchingDiscoveryRoutes().some(r=>r.theme.id==='dvorak'&&r.plan.id==='atlas-dvorak-places'));
  `,c);});
+
+test('place and work search includes the actual local reading without borrowing another biography',()=>{const c=runtime();c.assert=assert;vm.runInContext(`
+ homeState.query='庐山图';homeState.area='all';homeState.interest='all';assert.ok(matchingDiscovery().some(r=>r.theme.id==='chinese-painters'));
+ const npm=places.find(p=>p.id==='consolidation-taipei-npm');assert.match(culturalPlaceSearchText(npm,'chinese-painters'),/庐山图/);
+ assert.ok(!culturalPlaceSearchText(places.find(p=>p.id==='mozart-prague'),'european-music-cities').includes('卡夫卡'));
+ assert.ok(!culturalPlaceSearchText(places.find(p=>p.id==='mozart-london'),'england-literature-art').includes('莫扎特'));
+ `,c);});
