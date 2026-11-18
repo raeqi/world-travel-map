@@ -4087,6 +4087,124 @@
         "https://whc.unesco.org/en/list/1056/"
       ],
       "contentHash": "107a10cf60704c7e0035f619eb61c7d8f70f5f6c6d4b42dafc21e3fe77608ac7"
+    },
+    {
+      "theme": "parks",
+      "id": "np-acad",
+      "state": "researched-batch-26",
+      "reason": "读取所列NPS资料相关段落，补充地形、生态与人类使用的具体观察；旧网页遗传、建园年代和当前开放/动物数量不照搬。目录公园语境独立研究，不以其他同名自然主题冲销。未实地考察或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/acad/learn/nature/index.htm"
+      ],
+      "contentHash": "e3d1f91f1b21cdf21ed4e814f58735cf895e8dc02bce61c40ca3bb5944634315"
+    },
+    {
+      "theme": "parks",
+      "id": "np-bisc",
+      "state": "researched-batch-26",
+      "reason": "读取所列NPS资料相关段落，补充地形、生态与人类使用的具体观察；旧网页遗传、建园年代和当前开放/动物数量不照搬。目录公园语境独立研究，不以其他同名自然主题冲销。未实地考察或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/bisc/learn/nature/ecosystems.htm",
+        "https://www.nps.gov/bisc/learn/nature/index.htm"
+      ],
+      "contentHash": "e18d0d04b35c4e81d8cc621734c51b545fde4843c3dc0cc1fd4d8e82576fae91"
+    },
+    {
+      "theme": "parks",
+      "id": "np-drto",
+      "state": "researched-batch-26",
+      "reason": "读取所列NPS资料相关段落，补充地形、生态与人类使用的具体观察；旧网页遗传、建园年代和当前开放/动物数量不照搬。目录公园语境独立研究，不以其他同名自然主题冲销。未实地考察或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/drto/learn/historyculture/fort-jefferson.htm",
+        "https://www.nps.gov/drto/learn/nature/index.htm"
+      ],
+      "contentHash": "a7e0c13a7c90e21834bf8faad50216e58c45e6526c90348987c2b48eef2e9147"
+    },
+    {
+      "theme": "parks",
+      "id": "np-ever",
+      "state": "researched-batch-26",
+      "reason": "读取所列NPS资料相关段落，补充地形、生态与人类使用的具体观察；旧网页遗传、建园年代和当前开放/动物数量不照搬。目录公园语境独立研究，不以其他同名自然主题冲销。未实地考察或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/ever/learn/nature/habitats.htm",
+        "https://www.nps.gov/ever/learn/nature/index.htm"
+      ],
+      "contentHash": "332af7f8415863370c0f7798700205c24aa77bd6671ec866c1af4a6a1a1fd88d"
+    },
+    {
+      "theme": "parks",
+      "id": "np-indu",
+      "state": "researched-batch-26",
+      "reason": "读取所列NPS资料相关段落，补充地形、生态与人类使用的具体观察；旧网页遗传、建园年代和当前开放/动物数量不照搬。目录公园语境独立研究，不以其他同名自然主题冲销。未实地考察或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/indu/learn/nature/index.htm"
+      ],
+      "contentHash": "f6c6b32909491d00483ca75705e8b68a2753c8ce969045601f39e259c76480ba"
+    },
+    {
+      "theme": "parks",
+      "id": "np-isro",
+      "state": "researched-batch-26",
+      "reason": "读取所列NPS资料相关段落，补充地形、生态与人类使用的具体观察；旧网页遗传、建园年代和当前开放/动物数量不照搬。目录公园语境独立研究，不以其他同名自然主题冲销。未实地考察或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/isro/learn/nature/index.htm",
+        "https://www.nps.gov/articles/000/isle-royale-wolf-relocation.htm"
+      ],
+      "contentHash": "7dafe7033ffcaf84f748ca0feda4e25c505a6c59510613a864397f5aecb72e87"
+    },
+    {
+      "theme": "parks",
+      "id": "np-voya",
+      "state": "researched-batch-26",
+      "reason": "读取所列NPS资料相关段落，补充地形、生态与人类使用的具体观察；旧网页遗传、建园年代和当前开放/动物数量不照搬。目录公园语境独立研究，不以其他同名自然主题冲销。未实地考察或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/voya/learn/nature/geology.htm",
+        "https://www.nps.gov/voya/learn/nature/index.htm"
+      ],
+      "contentHash": "a8606052c0dfc8e2983545d221e8e285610cbacfd552b06f4692dbc364af3bf1"
+    },
+    {
+      "theme": "parks",
+      "id": "np-npsa",
+      "state": "researched-batch-26",
+      "reason": "读取所列NPS资料相关段落，补充地形、生态与人类使用的具体观察；旧网页遗传、建园年代和当前开放/动物数量不照搬。目录公园语境独立研究，不以其他同名自然主题冲销。未实地考察或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/npsa/learn/nature/index.htm",
+        "https://www.nps.gov/npsa/learn/historyculture/index.htm"
+      ],
+      "contentHash": "4f621f7e7e67906d99cf885b9cb1705514ec30f38acebce51cab8b6c183efdf2"
+    },
+    {
+      "theme": "parks",
+      "id": "np-viis",
+      "state": "researched-batch-26",
+      "reason": "读取所列NPS资料相关段落，补充地形、生态与人类使用的具体观察；旧网页遗传、建园年代和当前开放/动物数量不照搬。目录公园语境独立研究，不以其他同名自然主题冲销。未实地考察或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/viis/learn/nature/index.htm",
+        "https://www.nps.gov/viis/learn/historyculture/places.htm"
+      ],
+      "contentHash": "9900e37480d03d54880b7b099164ab5aa83292d6c7c4b2bcd00b9da87f6635ab"
+    },
+    {
+      "theme": "parks",
+      "id": "np-cuva",
+      "state": "researched-batch-26",
+      "reason": "读取所列NPS资料相关段落，补充地形、生态与人类使用的具体观察；旧网页遗传、建园年代和当前开放/动物数量不照搬。目录公园语境独立研究，不以其他同名自然主题冲销。未实地考察或全站验收。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://www.nps.gov/cuva/learn/nature/index.htm",
+        "https://www.nps.gov/cuva/learn/historyculture/index.htm"
+      ],
+      "contentHash": "dfa7ad0676dd33e7ec1b1bb16842a547e239b0f42f9e2b50a880ebfe7a15c092"
     }
   ]
 }
