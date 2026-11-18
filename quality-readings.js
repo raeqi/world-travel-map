@@ -17,3 +17,5 @@ for(const [id,rows]of qualityRowsByPlace){
  Object.defineProperty(placeEssays,id,{enumerable:true,configurable:true,get(){const original=prior(),row=rows.get(qualityCurrentTheme());return row?qualityMergeReading(row,original):original}});
 }
 function researchedPlaceSummary(place){return qualityReadingFor(place)?.summary||place.desc}
+
+function researchedPlaceDescription(place){return qualityReadingFor(place)?.catalogueDescription??place.desc}

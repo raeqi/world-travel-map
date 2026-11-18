@@ -217,6 +217,44 @@
         "Actual screenshot views were desktop Hortobagy and mobile Wuwei; automated checks cover all 191 readings at two CSS viewports. Existing dense overview map labels remain a visual follow-up, not certified resolved.",
         "No new image or changed coordinates, licences or raw catalogue records."
       ]
+    },
+    {
+      "batch": 13,
+      "pr": 38,
+      "mainCommit": "8ebf154c2becbefa8990328ae2560775dabbaeff",
+      "headCommit": "6a7e1108a36d1ffa37ad27ea8e84396afe7ba9a8",
+      "ciRuns": [
+        44337574823,
+        44337574703,
+        44337574777,
+        44337574762,
+        44337574736
+      ],
+      "ciConclusion": "success",
+      "browser": {
+        "readings": 215,
+        "detailChecks": 430,
+        "viewports": [
+          "1440x1000",
+          "390x844"
+        ],
+        "pageErrors": [],
+        "screenshots": 74,
+        "artifactId": 14442876119,
+        "zipSha256": "c2823389f8566285ea38820dbd870271655a840b33788ea60669906b841c35c6",
+        "libraryFileId": "libfile_fde3_f-30dda66d6e2c8191aa3317ff6d9c3ba8_d724c19c5c9c8191918ca4cfc89cd1e1"
+      },
+      "deployment": {
+        "mainCommit": "8ebf154c2becbefa8990328ae2560775dabbaeff",
+        "run": 44340649179,
+        "release": "37f8f12f3bb997ef6ff9",
+        "actualAssetBytesMatched": 49,
+        "indexAssetReferencesMatched": true
+      },
+      "limitations": [
+        "Viewed actual desktop Yandang and mobile Lijiang screenshots. Text is readable; existing map-label density remains outside this content-only batch.",
+        "No physical phone, field visit, exact historic track reconstruction or exhaustive manuscript collation."
+      ]
     }
   ]
 }

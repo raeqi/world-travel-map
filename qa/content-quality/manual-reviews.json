@@ -2779,6 +2779,74 @@
         "https://www.visitgenoa.it/it/palazzo-san-giorgio"
       ],
       "contentHash": "4e0b5ab83d9cb9b93492ddc3c1c3c62616f2373dfb229a385a3376b519dfbd8b"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-1213",
+      "state": "researched-batch-16",
+      "reason": "逐项对照长介绍与机构原文，校订面积单位、植物比较范围或误译，补充具体观察线索。原数据保留，显示全文采用有据校订；非实时开放或野生动物出现保证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1213/"
+      ],
+      "contentHash": "aa1a6d022b9fde05acd0d8522de4c82f5dfbeadcd038b2b6a6521f0f0da327c6"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-917",
+      "state": "researched-batch-16",
+      "reason": "逐项对照长介绍与机构原文，校订面积单位、植物比较范围或误译，补充具体观察线索。原数据保留，显示全文采用有据校订；非实时开放或野生动物出现保证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/917/"
+      ],
+      "contentHash": "6960de95f09d538473dcb96a2a6233ae07b75f3be1d6fc8a86a1806b1c97f8b1"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-340",
+      "state": "researched-batch-16",
+      "reason": "逐项对照长介绍与机构原文，校订面积单位、植物比较范围或误译，补充具体观察线索。原数据保留，显示全文采用有据校订；非实时开放或野生动物出现保证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/340/"
+      ],
+      "contentHash": "3a407a10b95df3a71fe483b4c92f1c902fc04d9a0b8f161cd315a5da22ec178e"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-630",
+      "state": "researched-batch-16",
+      "reason": "逐项对照长介绍与机构原文，校订面积单位、植物比较范围或误译，补充具体观察线索。原数据保留，显示全文采用有据校订；非实时开放或野生动物出现保证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/630/",
+        "https://parks.qld.gov.au/parks/kgari-fraser"
+      ],
+      "contentHash": "0a9d7fb4ec54f3daf4d7191bacb8a0a58db2eb3964ec9c90865c9e6009fe1e0c"
+    },
+    {
+      "theme": "nature",
+      "id": "wh-547",
+      "state": "researched-batch-16",
+      "reason": "逐项对照长介绍与机构原文，校订面积单位、植物比较范围或误译，补充具体观察线索。原数据保留，显示全文采用有据校订；非实时开放或野生动物出现保证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/547/",
+        "https://theme.npm.edu.tw/selection/Article.aspx?sNo=04000959"
+      ],
+      "contentHash": "a075c8abd8808eb94dfb3ec5f0b95df6f30c6cab51b98ab475d24cac47c1ad36"
+    },
+    {
+      "theme": "culture",
+      "id": "wh-1443",
+      "state": "researched-batch-16",
+      "reason": "逐项对照长介绍与机构原文，校订面积单位、植物比较范围或误译，补充具体观察线索。原数据保留，显示全文采用有据校订；非实时开放或野生动物出现保证。",
+      "checked": "2026-11-18",
+      "sources": [
+        "https://whc.unesco.org/en/list/1443/"
+      ],
+      "contentHash": "41d20d3dd5c3189b3466f9625b2496d9e5bde290c24f594542dcbd654e8820fa"
     }
   ]
 }
