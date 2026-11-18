@@ -933,16 +933,26 @@
       "id": "thirty-puccini-viareggio",
       "name": "维亚雷焦 · 普契尼晚年别墅外观",
       "en": "Villa Puccini Viareggio",
-      "lon": 10.2305,
-      "lat": 43.8745,
+      "lon": 10.2370447,
+      "lat": 43.8810811,
       "country": "意大利",
       "region": "托斯卡纳维亚雷焦",
       "type": "晚年与海岸",
       "desc": "普契尼晚年迁居维亚雷焦，海岸别墅把托斯卡纳生活从湖畔延伸到海滨。建筑保护和展陈状态有变化，不能把外观地点等同于随时开放的室内博物馆。",
-      "observe": "先通过机构资料认识晚年迁居，再在允许的公共空间看建筑与松林、海岸的关系；不进入私人或施工区域。",
+      "observe": "现址在Viale Buonarroti 209与Via Marco Polo交角。2026年曾有预约特别开放，不能视为日常入室承诺；平日从允许的公共区域观察立面，访前向基金会确认安排。",
       "source": "https://www.puccinimuseum.org/",
       "wiki": "Villino Puccini",
-      "wikiLang": "it"
+      "wikiLang": "it",
+      "sources": [
+        {
+          "title": "官方文化地域图与参访信息",
+          "url": "https://www.puccinilands.it/schede/villino-puccini-di-viareggio/"
+        },
+        {
+          "title": "2026年市政府特别开放记录",
+          "url": "https://www.comune.viareggio.lu.it/eventi/CLT-Visite-guidate-al-Villino-di-Puccini2.html"
+        }
+      ]
     },
     {
       "id": "thirty-hugo-villequier",
@@ -1222,7 +1232,8 @@
       "desc": "大沼泽的红树林、潟湖和水上聚落，为阿拉卡塔卡与加勒比地区提供真实自然和生活背景。它作为邻近地域加入，不被指定为《百年孤独》中某一段情节的精确现场。",
       "observe": "湿地是广域生态系统，坐标不是码头；从Puebloviejo或Sitionuevo等合法运营点另查船程、天气和保护要求，尊重社区访问安排。",
       "source": "https://colombia.travel/es/cienaga-grande",
-      "wiki": "Ciénaga Grande de Santa Marta"
+      "wiki": "Ciénaga Grande de Santa Marta",
+      "photoCaption": "马格达莱纳大沼泽 · NASA轨道影像，展示广域潟湖与海岸（非码头定位）"
     }
   ]
 }

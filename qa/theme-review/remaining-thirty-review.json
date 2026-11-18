@@ -1618,7 +1618,21 @@
       "id": "thirty-brancusi-hobita",
       "name": "霍比察 · 布朗库西纪念屋",
       "source": "https://ghidulmuzeelor.cimec.ro/id.asp?k=321",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-brancusi-hobita.webp",
+        "title": "霍比察 · 布朗库西纪念屋 · 建筑或园区照片（非所述全部作品）",
+        "author": "Miehs",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa-muzeu_Constantin_Brancusi-exterior.jpg",
+        "license": "CC BY-SA 3.0 ro",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-brancusi-hobita",
+        "article": "https://en.wikipedia.org/wiki/Casa_memorial%C4%83_Constantin_Br%C3%A2ncu%C8%99i",
+        "providerDescription": "Casa-muzeu Constantin Brâncuşi - vedere exterior",
+        "width": 1346,
+        "height": 1200,
+        "sha256": "c8cf3680f0aa318e5b513fe6f169e917c27ed112242433b2d32bd4fd4cdb5320"
+      }
     },
     {
       "id": "thirty-craiova-art",
@@ -1644,7 +1658,21 @@
       "id": "thirty-ciasa-granda",
       "name": "斯坦帕 · Ciäsa Granda与贾科梅蒂工作室资料",
       "source": "https://ciaesagranda.ch/chi-siamo/",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-ciasa-granda.webp",
+        "title": "斯坦帕 · Ciäsa Granda与贾科梅蒂工作室资料 · 建筑或园区照片（非所述全部作品）",
+        "author": "Adrian Michael",
+        "source": "https://commons.wikimedia.org/wiki/File:Stampa%20Museum.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-ciasa-granda",
+        "article": "https://en.wikipedia.org/wiki/Ci%C3%A4sa_Granda",
+        "providerDescription": "Ciäsa Granda - Heimatmuseum",
+        "width": 1440,
+        "height": 1080,
+        "sha256": "be5009df3e52407f41e21c82c673668749fcfec1f0fd15824021ef20298b7e34"
+      }
     },
     {
       "id": "thirty-kunsthaus-zurich",
@@ -1670,13 +1698,41 @@
       "id": "thirty-le-pouldu",
       "name": "勒普尔迪 · 海岸与画家记忆",
       "source": "https://www.deconcarneauapontaven.com/patrimoines/maison-musee-gauguin/",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-le-pouldu.webp",
+        "title": "勒普尔迪大沙滩历史明信片（法国国家图书馆收藏，非今日街景）",
+        "author": "AnonymousUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Btv1b101065160%20LE%20POULDU%20-%20Les%20Grands%20Sables.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-le-pouldu",
+        "article": "https://en.wikipedia.org/wiki/Le_Pouldu",
+        "providerDescription": "LE POULDU - Les Grands Sables",
+        "width": 1440,
+        "height": 923,
+        "sha256": "04d592700fd9053ac4dce6e9aa598af49a3a4558185b8dbcea802b2f40e3d6b1"
+      }
     },
     {
       "id": "thirty-tahiti-museum",
       "name": "普纳奥亚 · 塔希提与群岛博物馆",
       "source": "https://www.museetahiti.pf/",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-tahiti-museum.webp",
+        "title": "普纳奥亚 · 塔希提与群岛博物馆 · 建筑或园区照片（非所述全部作品）",
+        "author": "Saga70",
+        "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_Tahiti_vue_ext%C3%A9rieure.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-tahiti-museum",
+        "article": "https://en.wikipedia.org/wiki/Mus%C3%A9e_de_Tahiti_et_des_%C3%8Eles",
+        "providerDescription": "Musée de Tahiti vue extérieure",
+        "width": 1280,
+        "height": 961,
+        "sha256": "1eb10f2cccdc1086aa62e03278041db51023a5bdb70469a2c199e0ef8c208ec4"
+      }
     },
     {
       "id": "thirty-chagall-house",
@@ -1685,17 +1741,17 @@
       "photo": {
         "path": "assets/regional-expansion/thirty-chagall-house.webp",
         "title": "维捷布斯克 · 夏加尔故居博物馆 · 建筑或园区照片（非所述全部作品）",
-        "author": "user:Valerishisn",
-        "source": "https://commons.wikimedia.org/wiki/File:ArtChagall.JPG",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Lumaca",
+        "source": "https://commons.wikimedia.org/wiki/File:Chagall%27s%20House%20in%20Vitebsk.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
         "placeId": "thirty-chagall-house",
         "article": "https://en.wikipedia.org/wiki/Marc_Chagall_Museum",
-        "providerDescription": "Арт-цэнтр Марка Шагала, Віцебск",
-        "width": 709,
-        "height": 531,
-        "sha256": "6f6067dd73a34226df66250762002ebe12c19ba190445f47eee513089bf897df"
+        "providerDescription": "House of Marc Chagall in Vitebsk",
+        "width": 1440,
+        "height": 1080,
+        "sha256": "088b16f56ff251992d13d4b390071d9e91d835ee3407fde8c85e104c13d6b9f8"
       }
     },
     {
@@ -1862,13 +1918,41 @@
       "id": "thirty-dvorak-birthplace",
       "name": "内拉霍泽韦斯 · 德沃夏克出生地",
       "source": "https://www.lobkowicz.cz/en/antonin-dvorak-birth-house",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-dvorak-birthplace.webp",
+        "title": "内拉霍泽韦斯 · 德沃夏克出生地 · 建筑或园区照片（非所述全部作品）",
+        "author": "cs:ŠJů",
+        "source": "https://commons.wikimedia.org/wiki/File:Nelahozeves%2C_rodn%C3%BD_d%C5%AFm_Anton%C3%ADna_Dvo%C5%99%C3%A1ka_%2801%29.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-dvorak-birthplace",
+        "article": "https://en.wikipedia.org/wiki/Rodn%C3%BD_d%C5%AFm_Anton%C3%ADna_Dvo%C5%99%C3%A1ka",
+        "providerDescription": "Nelahozeves, Mělník District, Central Bohemian Region, the Czech Republic. The birth house and museum of Antonín Dvořák.",
+        "width": 1440,
+        "height": 1080,
+        "sha256": "00d7bd9552eb767808d6da1787defb9e9ff23ba4cf614320d3836afa8942b9ea"
+      }
     },
     {
       "id": "thirty-dvorak-vysoka",
       "name": "维索卡 · 德沃夏克纪念馆与公园",
       "source": "https://antonindvorak.cz/",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-dvorak-vysoka.webp",
+        "title": "维索卡 · 德沃夏克纪念馆与公园 · 建筑或园区照片（非所述全部作品）",
+        "author": "Chmee2",
+        "source": "https://commons.wikimedia.org/wiki/File:Pam%C3%A1tn%C3%ADk%20Anton%C3%ADna%20Dvo%C5%99%C3%A1ka%20%284%29.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-dvorak-vysoka",
+        "article": "https://en.wikipedia.org/wiki/Pam%C3%A1tn%C3%ADk_Anton%C3%ADna_Dvo%C5%99%C3%A1ka",
+        "providerDescription": "Monument of Antonín Dvořák in Vysoká u Příbrami in Příbram District, Czech Republic. Palace",
+        "width": 1440,
+        "height": 964,
+        "sha256": "343b33f2475584ebd6e6f855791b964d286107e5f16e11fab318f9ee4a660b4c"
+      }
     },
     {
       "id": "thirty-siljustol",
@@ -1894,7 +1978,21 @@
       "id": "thirty-mendelssohn-remise",
       "name": "柏林 · 门德尔松家族Remise展馆",
       "source": "https://www.mendelssohn-gesellschaft.de/gesellschaft/ausstellung/?lang=1",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-mendelssohn-remise.webp",
+        "title": "柏林 · 门德尔松家族Remise展馆 · 建筑或园区照片（非所述全部作品）",
+        "author": "Membeth",
+        "source": "https://commons.wikimedia.org/wiki/File:Mendelssohn-Remise.Hof.1.jpg",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-mendelssohn-remise",
+        "article": "https://en.wikipedia.org/wiki/Mendelssohn-Remise",
+        "providerDescription": "Eingang zur Mendelssohn-Remise vom Innenhof in der Jägerstraße 51",
+        "width": 900,
+        "height": 1200,
+        "sha256": "3e264463736317a0cb1420fbeb8f74c6d92718734a5389c14c5b283bf4f34bfd"
+      }
     },
     {
       "id": "thirty-puccini-giglio",
@@ -1932,7 +2030,21 @@
       "id": "thirty-hugo-villequier",
       "name": "维勒基耶 · 维克多·雨果博物馆",
       "source": "https://www.museevictorhugo.fr/",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-hugo-villequier.webp",
+        "title": "维勒基耶 · 维克多·雨果博物馆 · 建筑或园区照片（非所述全部作品）",
+        "author": "VVVCFFrance",
+        "source": "https://commons.wikimedia.org/wiki/File:Maison%20de%20Victor%20Hugo%20%C3%A0%20Villequier.jpg",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-hugo-villequier",
+        "article": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Victor-Hugo_%28Villequier%29",
+        "providerDescription": "Maison de Victor Hugo à Villequier",
+        "width": 1440,
+        "height": 1037,
+        "sha256": "f3217b87affb37364f78fd208c0fe5a6daf89150cf4609258dc6b1fd39cfb8f6"
+      }
     },
     {
       "id": "thirty-byron-newstead",
@@ -2044,13 +2156,41 @@
       "id": "thirty-proust-leonie",
       "name": "伊利耶-贡布雷 · 莱奥妮姨妈之家",
       "source": "https://www.amisdeproust.fr/maison-de-tante-leonie",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-proust-leonie.webp",
+        "title": "莱奥妮姨妈之家博物馆入口",
+        "author": "Benjamin Smith",
+        "source": "https://commons.wikimedia.org/wiki/File:Illiers-Combray%20-%20Mus%C3%A9e%20Marcel%20Proust.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-proust-leonie",
+        "article": "https://en.wikipedia.org/wiki/Maison_de_tante_L%C3%A9onie",
+        "providerDescription": "Illiers-Combray (Eure-et-Loir, France) - Entrance of the Marcel Proust museum, located inside aunt Léonie's house (In Search of Lost Time)",
+        "width": 1440,
+        "height": 961,
+        "sha256": "cd5b1f83cea06c651824b071c101b893c459cf2f8ef1dacaf6b643269a2f8d64"
+      }
     },
     {
       "id": "thirty-proust-cabourg-villa",
       "name": "卡堡 · 追忆似水年华别墅博物馆",
       "source": "https://villadutempsretrouve.com/",
-      "photo": null
+      "photo": {
+        "path": "assets/regional-expansion/thirty-proust-cabourg-villa.webp",
+        "title": "卡堡 · 追忆似水年华别墅博物馆 · 建筑或园区照片（非所述全部作品）",
+        "author": "Pradigue",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_du_temps_retrouv%C3%A9_Cabourg_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "按比例缩小并压缩为WebP，保留全幅和原色；界面可能裁切。衍生版本保留原许可。",
+        "placeId": "thirty-proust-cabourg-villa",
+        "article": "https://en.wikipedia.org/wiki/Villa_du_Temps_retrouv%C3%A9",
+        "providerDescription": "temps retrouvé",
+        "width": 1440,
+        "height": 1080,
+        "sha256": "8fd0aadd5bc810e11a0b09707cff45b920469484653d8fa1834e21362c7e05f5"
+      }
     },
     {
       "id": "thirty-hemingway-oak-park",
