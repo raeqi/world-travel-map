@@ -3,29 +3,31 @@
   "baseline": "27bd4fe441008c13a05d34beaf725923575812d1",
   "method": "All production data scripts in index order; every registered place/theme context. UI-only app/flow excluded. Signals are triage, not factual verdicts. Manual reviews are content-hash bound; sources not fetched automatically.",
   "summary": {
-    "visibleItineraryUnresolvedCandidatePlaces": 52,
-    "unresolvedCandidatePlaces": 91,
+    "visibleItineraryUnresolvedCandidatePlaces": 35,
+    "unresolvedCandidatePlaces": 48,
     "places": 2010,
     "internalThemes": 130,
     "visibleThemes": 77,
     "plans": 330,
     "placeThemeContexts": 2218,
     "plannedPlaces": 766,
-    "automaticCandidatePlaces": 96,
-    "automaticCandidateContexts": 96,
-    "visibleItineraryCandidatePlaces": 53,
+    "automaticCandidatePlaces": 48,
+    "automaticCandidateContexts": 48,
+    "visibleItineraryCandidatePlaces": 35,
     "foreignThemeFallbackContexts": 0,
-    "manualReviewedContexts": 151,
-    "manualResearchedPlaces": 143,
-    "manualUsefulConcisePlaces": 5,
-    "manualNeedsResearchPlaces": 3,
+    "manualReviewedContexts": 192,
+    "manualResearchedPlaces": 191,
+    "manualUsefulConcisePlaces": 0,
+    "manualNeedsResearchPlaces": 1,
     "staleReviews": 0,
     "legacyCandidates": 226,
     "legacyComparisonCounts": {
-      "still-automatic-candidate": 91,
-      "useful-concise": 5,
+      "researched-batch-10": 23,
       "researched-batch-2": 22,
       "researched-batch-3": 18,
+      "still-automatic-candidate": 48,
+      "researched-batch-11": 15,
+      "researched-batch-12": 10,
       "researched-batch-7": 11,
       "researched-batch-8": 21,
       "researched-batch-9": 10,
@@ -237,7 +239,7 @@
     },
     {
       "file": "quality-readings-data.js",
-      "sha256": "54c11ef766bd22b71ea625085155f4ed3db28a28745b3caaa5616ed1cbc78817",
+      "sha256": "2ee9bc8e65edea75c0eb173d4612749591c183e9e3507d0035397e12a04eae94",
       "executed": true
     },
     {
@@ -257,16 +259,16 @@
       "name": "世界自然遗产",
       "visible": true,
       "contexts": 282,
-      "automaticCandidates": 4,
-      "manuallyReviewed": 1
+      "automaticCandidates": 0,
+      "manuallyReviewed": 4
     },
     {
       "id": "culture",
       "name": "世界文化遗产",
       "visible": true,
       "contexts": 1033,
-      "automaticCandidates": 19,
-      "manuallyReviewed": 4
+      "automaticCandidates": 0,
+      "manuallyReviewed": 19
     },
     {
       "id": "gorges",
@@ -297,8 +299,8 @@
       "name": "丝绸之路",
       "visible": true,
       "contexts": 26,
-      "automaticCandidates": 25,
-      "manuallyReviewed": 2
+      "automaticCandidates": 0,
+      "manuallyReviewed": 25
     },
     {
       "id": "polo",
@@ -1304,13 +1306,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-976",
@@ -1322,13 +1324,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-1011",
@@ -1340,13 +1342,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-987",
@@ -1358,13 +1360,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "useful-concise",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "useful-concise"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-474",
@@ -1376,13 +1378,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-579",
@@ -1394,13 +1396,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "useful-concise",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "useful-concise"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-871",
@@ -1412,13 +1414,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-698",
@@ -1430,13 +1432,13 @@
       "contexts": [
         {
           "theme": "nature",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-708",
@@ -1448,13 +1450,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-648",
@@ -1466,13 +1468,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-556",
@@ -1484,13 +1486,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-492",
@@ -1502,13 +1504,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-606",
@@ -1520,13 +1522,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-583",
@@ -1538,13 +1540,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "useful-concise",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "useful-concise"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-509",
@@ -1556,13 +1558,13 @@
       "contexts": [
         {
           "theme": "nature",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-484",
@@ -1574,13 +1576,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-434",
@@ -1592,13 +1594,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-401",
@@ -1610,13 +1612,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-230",
@@ -1628,13 +1630,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "useful-concise",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "useful-concise"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-186",
@@ -1646,13 +1648,13 @@
       "contexts": [
         {
           "theme": "nature",
-          "status": "useful-concise",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "useful-concise"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-195",
@@ -1664,13 +1666,13 @@
       "contexts": [
         {
           "theme": "nature",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-135",
@@ -1682,13 +1684,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "wh-86",
@@ -1700,13 +1702,13 @@
       "contexts": [
         {
           "theme": "culture",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-10",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-10"
     },
     {
       "id": "dachang",
@@ -2171,13 +2173,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-istanbul",
@@ -2189,13 +2191,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-tabriz",
@@ -2207,13 +2209,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-isfahan",
@@ -2225,13 +2227,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-yazd",
@@ -2243,13 +2245,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-kerman",
@@ -2261,13 +2263,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-hormuz",
@@ -2279,13 +2281,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-merv",
@@ -2297,13 +2299,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-bukhara",
@@ -2315,13 +2317,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-samarkand",
@@ -2333,13 +2335,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-khiva",
@@ -2351,13 +2353,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-tashkent",
@@ -2369,13 +2371,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "needs-research",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-kashgar",
@@ -2387,13 +2389,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-hotan",
@@ -2405,13 +2407,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-kuqa",
@@ -2423,13 +2425,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-turpan",
@@ -2441,13 +2443,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-dunhuang",
@@ -2459,13 +2461,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-jiayuguan",
@@ -2477,13 +2479,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-zhangye",
@@ -2495,13 +2497,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-wuwei",
@@ -2513,13 +2515,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-xian",
@@ -2531,13 +2533,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
           "short": true,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-luoyang",
@@ -2549,13 +2551,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-12",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-12"
     },
     {
       "id": "silk-hangzhou",
@@ -2572,13 +2574,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-quanzhou",
@@ -2590,13 +2592,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "silk-guangzhou",
@@ -2608,13 +2610,13 @@
       "contexts": [
         {
           "theme": "silk",
-          "status": "candidate-not-manually-verified",
-          "expandedInThisTheme": false,
-          "short": true,
+          "status": "researched-batch-11",
+          "expandedInThisTheme": true,
+          "short": false,
           "foreignThemeFallback": false
         }
       ],
-      "assessment": "still-automatic-candidate"
+      "assessment": "researched-batch-11"
     },
     {
       "id": "polo-venice",
@@ -6026,9 +6028,9 @@
         },
         {
           "id": "wh-230",
-          "status": "useful-concise",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-10",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -6275,9 +6277,9 @@
         },
         {
           "id": "wh-86",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-10",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
@@ -7382,37 +7384,37 @@
       "contexts": [
         {
           "id": "silk-xian",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-wuwei",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-zhangye",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-jiayuguan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-dunhuang",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7431,30 +7433,30 @@
       "contexts": [
         {
           "id": "silk-tashkent",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-samarkand",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-bukhara",
-          "status": "needs-research",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-khiva",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7473,30 +7475,30 @@
       "contexts": [
         {
           "id": "silk-turpan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-kuqa",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-kashgar",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-hotan",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-12",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7514,23 +7516,23 @@
       "contexts": [
         {
           "id": "silk-hangzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-quanzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-guangzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
@@ -7547,16 +7549,16 @@
       "contexts": [
         {
           "id": "silk-quanzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         },
         {
           "id": "silk-guangzhou",
-          "status": "candidate-not-manually-verified",
-          "expanded": false,
-          "candidate": true,
+          "status": "researched-batch-11",
+          "expanded": true,
+          "candidate": false,
           "foreignThemeFallback": false
         }
       ]
