@@ -4,8 +4,8 @@
 
 ## 当前覆盖与边界
 
-- 累计215处有本系列新增且逐项来源支持的阅读，0处保留简洁有用判断，1处记录人工读到的明确缺口。216个不同语境有当前人工判断；其余**2002个语境未在本系列逐项人工验收**。
-- 当前**24个未排除自动候选**，其中11处用于可见主题行程。候选是编辑优先队列，不等于已证实错误，也不是全站剩余问题上限。零信号或已有长文的主题仍需后续人工审阅。
+- 累计238处有本系列新增且逐项来源支持的阅读，0处保留简洁有用判断，1处记录人工读到的明确缺口。239个不同语境有当前人工判断；其余**1979个语境未在本系列逐项人工验收**。
+- 当前**1个未排除自动候选**，其中1处用于可见主题行程。候选是编辑优先队列，不等于已证实错误，也不是全站剩余问题上限。零信号或已有长文的主题仍需后续人工审阅。
 - 原始目录、坐标、来源链接、方案、收藏ID、图片字节及其许可保留；新增展开合并适用的原段落和原来源对象。此系列未替换图片，也未把别的艺术家阅读算成旧路线已补足。
 - 观察建议依据所列资料，不是现场考察；历史道路关系不等于现代可通行线路，机构旧资料不作为当前开放保证。
 
@@ -25,39 +25,40 @@
 | 第11批 | `c987bf6a35c4a4cf03a82bdd5855d30c155fc94f` | 15 | 16 | [逐项文字和依据](data/content-quality/batch-11.json)：Fifteen existing Silk Roads contexts: twelve western/central nodes and three eastern maritime/textile city contexts. All receive first dedicated expanded readings; Bukhara and Tashkent observed gaps addressed with named urban features. Broad network and later-period architecture distinguished from any single traveller journey. No geographic or image changes. Ten other Silk Roads candidates remain for a later research pack. |
 | 第12批 | `c987bf6a35c4a4cf03a82bdd5855d30c155fc94f` | 10 | 13 | [逐项文字和依据](data/content-quality/batch-12.json)：Ten remaining pre-existing Silk Roads candidate city contexts in China. Specific architecture, textiles, paintings, city gates and moved collections; distinguishes regional/city representative coordinates, separate archaeological entrances, source uncertainty and later memorials. No images, original records or itinerary topology replaced. |
 | 第13批 | `2d2c9b3586de2cda93fde3202d497981eac0e32e` | 24 | 34 | [逐项文字和依据](data/content-quality/batch-13.json)：All twenty-four existing Xu Xiake route contexts. First dedicated expanded readings: natural landforms and water-source observations, layered urban remains, present reconstruction, mountain religious space and modern memorial authorship. Six different journeys remain separate; current visits not claimed as documented personal stops. No image, coordinate or itinerary changes. |
+| 第14批 | `2d2c9b3586de2cda93fde3202d497981eac0e32e` | 12 | 22 | [逐项文字和依据](data/content-quality/batch-14.json)：Twelve western and oasis contexts in the existing Marco Polo theme. Read selected passages in the NII digital 1938 Moule/Pelliot edition alongside institutional site evidence; distinguish narrated trade, religious interpretation, later monuments and regional geography. No itinerary, original source, image or coordinate changes. Developed with the checked Xu package from PR38; merge separately after its exact tree is confirmed on main. |
+| 第15批 | `2d2c9b3586de2cda93fde3202d497981eac0e32e` | 11 | 23 | [逐项文字和依据](data/content-quality/batch-15.json)：Remaining eleven existing Marco Polo contexts: Yuan and Jiangnan cities, Indian Ocean regions, non-visited Japan and Genoese writing tradition. Distinct narrative voices, modern archaeological fabric and dispersed natural sites; no images, original data, coordinate or route modifications. Developed with the checked Xu package from PR38; merge separately after its exact tree is confirmed on main. |
 
 第二批三峡/熊野/佛教/NC500：25处，22处原无展开；第三批茶马及相关网络：19处，18处原无展开；第四批莫扎特8处与Via Francigena16处：24处，23处原无展开；第五批66号公路15处：14处原无展开；第六批中山道9处与维京8处：17处，11处原无展开；第七批法国之路前12处：11个原候选与已有较具体路线选择说明的起点；第八批卡斯蒂利亚—莱昂21处；第九批加利西亚10处。第七至九批三个研究包共同交付，覆盖既有法国之路43处，全部新增首次专属展开，42处原为自动候选。第十批世界遗产23处（自然4、人文19），补充18个原未排除候选，并将5处原有实用短文加深；第十一、十二批丝路25处，分为西部/中亚及东部海贸15处、中国城市10处。本轮三个包共同交付48处首次专属阅读，43处原为待审候选。雅安、萨尔茨堡等原资料合并保留，不重复声称新地点。第二批[原报告](CONTENT-QUALITY-BATCH-2.md)、第三批[原报告](CONTENT-QUALITY-BATCH-3.md)、第四批[原报告](CONTENT-QUALITY-BATCH-4.md)、第五批[原报告](CONTENT-QUALITY-BATCH-5.md)、第六批[原报告](CONTENT-QUALITY-BATCH-6.md)、[法国之路第七至九批原报告](CONTENT-QUALITY-BATCH-9.md)作为历史快照保留。
 
-第十三批补充徐霞客24处首次专属阅读，重点由原日记、地质调查、遗产机构与地方考古材料落到山地、水系、建筑和现代展示。1613、1616、1618、1623、1633与滇西晚年游历分别阅读，六条既有方案不变；木府重建、金中都水关现代探访、霁虹桥迁移复制及纪念塑像均与个人亲历分开。第十至十二批共同细读48处，兼顾地貌演变、牧业与绿洲生活、市场系统、原址艺术、异地收藏及后世重建。布哈拉从交易穹顶与经学院落地，塔什干区分预备名单与正式遗产；敦煌五台山图描绘山西、铜奔马原作在兰州、雁塔原碑与海外拓片分开，嘉峪关明代关城不归入13世纪亲历。机构资料中的错译、日期矛盾与过时链接逐项记录取舍；塔伊旧域名异常跳转排除。无新增图片。
+第十四、十五批共同补充马可波罗23处首次专属阅读、45条来源记录；以NII东洋文库1938年Moule/Pelliot版的实际选段和当代遗产/机构资料对读，保留原Yule/Cordier链接。书内行程、听闻、归程区域和成书传统不混同已核实亲历；2024威尼斯展已结束，热那亚囚室只属传统，日本区域点并不定位为长崎水下遗址。第十三批补充徐霞客24处首次专属阅读，重点由原日记、地质调查、遗产机构与地方考古材料落到山地、水系、建筑和现代展示。1613、1616、1618、1623、1633与滇西晚年游历分别阅读，六条既有方案不变；木府重建、金中都水关现代探访、霁虹桥迁移复制及纪念塑像均与个人亲历分开。第十至十二批共同细读48处，兼顾地貌演变、牧业与绿洲生活、市场系统、原址艺术、异地收藏及后世重建。布哈拉从交易穹顶与经学院落地，塔什干区分预备名单与正式遗产；敦煌五台山图描绘山西、铜奔马原作在兰州、雁塔原碑与海外拓片分开，嘉峪关明代关城不归入13世纪亲历。机构资料中的错译、日期矛盾与过时链接逐项记录取舍；塔伊旧域名异常跳转排除。无新增图片。
 
-## 第十三批逐点证据
+## 第十四、十五批逐点证据
 
 | 主题与地点 | 阅读 | 主要依据 |
 | --- | --- | --- |
-| xu / `xu-tiantai` | 在石梁与山溪之间，读1613年的山地观察 | [国家林草局/浙江林业局：天台霞客古道的山地与石梁段](https://www.forestry.gov.cn/c/www/dfdt/542885.jhtml) |
-| xu / `xu-yandang` | 从火山岩形状，追问大龙湫的水从哪里来 | [中国地质调查局南京中心：流纹岩地貌与大龙湫水源复核](https://www.cgs.gov.cn/ywdt/dwdt/201704/t20170406_827710.html) |
-| xu / `xu-qiyun` | 白岳的红色崖壁，接上刻石与月华街 | [徐霞客研究会所载齐云山实地考察：丹霞、崖刻与道观](https://cnxxk.com.cn/list_15/55.html) |
-| xu / `xu-huangshan` | 两次游黄山，读花岗岩、松林与不同视点 | [UNESCO：花岗岩、松林与山水审美](https://whc.unesco.org/en/list/547/) |
-| xu / `xu-wuyi` | 九曲溪的红砂岩，与沿水展开的学习空间 | [UNESCO：九曲溪红砂岩与书院、保护区分区](https://whc.unesco.org/en/list/911/) |
-| xu / `xu-lushan` | 山、江、湖之间，分开看书院与近代别墅 | [UNESCO：山江湖景观、书院与近代别墅](https://whc.unesco.org/en/list/778/) |
-| xu / `xu-kaifeng` | 从平原视野，回看州桥下叠压的城市 | [徐霞客《游嵩山日记》原文：平原、水石、太室、少室与伊阙](https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx) |
-| xu / `xu-zhengzhou` | 沿路水石观察之外，另读城市的夯土历史 | [徐霞客《游嵩山日记》原文：平原、水石、太室、少室与伊阙](https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx) |
-| xu / `xu-xinmi` | 密县的古树记述，与旧城院落的后来层次 | [徐霞客《游嵩山日记》原文：平原、水石、太室、少室与伊阙](https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx) |
-| xu / `xu-songshan` | 太室、少室与告成，把山水和测影分别读 | [徐霞客《游嵩山日记》原文：平原、水石、太室、少室与伊阙](https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx) |
-| xu / `xu-shaolin` | 从碑刻、寺院和少室山，读三种尺度 | [徐霞客《游嵩山日记》原文：平原、水石、太室、少室与伊阙](https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx) |
-| xu / `xu-longmen` | 伊水两岸，读山门地形与满崖造像 | [徐霞客《游嵩山日记》原文：平原、水石、太室、少室与伊阙](https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx) |
-| xu / `xu-huashan` | 花岗岩峰形与石片如莲，读太华的观察 | [渭南地方机构所载：华山花岗岩峰形与徐霞客西峰记述](https://weinan.qinfeng.gov.cn/info/1095/36343.htm) |
-| xu / `xu-wudang` | 在太和山，分辨铜殿、宫观与山势 | [UNESCO：多期道教建筑与山地布局](https://whc.unesco.org/en/list/705/) |
-| xu / `xu-beijing` | 1633年出都之前，另看城市水关的层次 | [徐霞客《游五台山日记》开篇：出都与山溪辨源](https://zh.wikisource.org/zh-hans/徐霞客遊記/遊五台山日記) |
-| xu / `xu-wutai` | 五个台顶与寺院地带，保留北游的空间差别 | [徐霞客《游五台山日记》开篇：出都与山溪辨源](https://zh.wikisource.org/zh-hans/徐霞客遊記/遊五台山日記) |
-| xu / `xu-hengshan` | 北游名山，与后来移祀和纪念空间分开 | [恒山管理中心：1633年北游、移祀年代及古路线不确定处](https://www.byhs.net.cn/news_detial/11.html) |
-| xu / `xu-jizu` | 山中停留，不只有登顶还有友谊与修志 | [江阴徐霞客研究会：鸡足山多次停留、静闻与修志](https://cnxxk.com.cn/list_32/1636.html) |
-| xu / `xu-lijiang` | 与木氏往来，今日木府先认清重建层 | [云南省图书馆数字平台：木府后世毁损与1990年代重建](https://www.ynscsp.cn/nd.jsp?fromColId=2&id=28835) |
-| xu / `xu-jianchuan` | 从金华山看盆地，再读城镇与山路 | [张建术《中国国家地理》实地重访：剑川金华山与盆地](https://www.dili360.com/cng/article/p5350c3d6a1dc906.htm) |
-| xu / `xu-eryuan` | 茈碧湖涌泉与湿地，再看现代纪念的作者 | [云南林草局湿地处：茈碧湖湿地、涌泉与生态](https://lcj.yn.gov.cn/special/2025/0813/6962.html) |
-| xu / `xu-dali` | 苍山的岩石，洱海的断陷与湖滨生活 | [宁德世界地质公园：苍山变质岩、冰川地貌与洱海断陷](https://www.nd-geopark.com/hezuojiaoliu/492.html) |
-| xu / `xu-baoshan` | 桥、山顶洼地与驿铺，分清原址和迁移复制 | [保山市政府：水寨地形、平坡铺与霁虹桥迁移复制](https://www.baoshan.gov.cn/info/1015/9379394.htm) |
-| xu / `xu-tengchong` | 沸泉、气孔和火山锥，读滇西的热与岩 | [保山市文旅局：腾冲火山、热海、泉华与喷气孔](https://baoshan.gov.cn/info/7792/2345334.htm) |
+| polo / `polo-venice` | 从潟湖港口进入一位商人的世界 | [威尼斯MUVE：2024年马可波罗展策展档案](https://palazzoducale.visitmuve.it/en/exhibition/the-worlds-of-marco-polo/) |
+| polo / `polo-acre` | 在港城上下两层，读东方旅行的序章 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · 序章威尼斯—阿卡](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0089.html.en) |
+| polo / `polo-tabriz` | 从拱顶市场理解Tauris的贸易叙述 | [UNESCO世界遗产中心：大不里士活态集市及1780年地震后建造](https://whc.unesco.org/en/list/1346/) |
+| polo / `polo-yazd` | 把丝织记述放回节水的沙漠城市 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Iasd与Cherman](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0126.html.en) |
+| polo / `polo-kerman` | 从工艺叙述走进市场、浴室与院落 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Iasd与Cherman](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0126.html.en) |
+| polo / `polo-hormuz` | 香料、织物与象牙在海陆之间换手 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Curmos港贸易](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0131.html.en) |
+| polo / `polo-balkh` | 从土城墙、塔丘到残存的砖与灰泥 | [阿富汗文保部门提交UNESCO：巴尔赫预备名单](https://whc.unesco.org/en/tentativelists/1928/) |
+| polo / `polo-kashgar` | 棉作、果园与市场：看绿洲如何支持交易 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Cascar与Samarcan](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0151.html.en) |
+| polo / `polo-hotan` | 从棉作果园读到织造、玉作与绿洲生活 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Cotan](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0154.html.en) |
+| polo / `polo-dunhuang` | 从沙州宗教叙述，走向洞窟里的供养人与山水 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · 沙州段宗教生活续页](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0159.html.en) |
+| polo / `polo-zhangye` | 把巨大卧像的记述与今天的大佛寺分开对看 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · 甘州段造像与宗教生活续页](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0167.html.en) |
+| polo / `polo-samarkand` | 一则柱石传说，与多层城市遗迹分别阅读 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · 撒马尔罕的传述故事](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0152.html.en) |
+| polo / `polo-shangdu` | 在草地上的城址，读宫廷、苑囿与水利 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Ciandu宫殿与苑囿](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0193.html.en) |
+| polo / `polo-beijing` | 从汗八里文字走向北土城的土墙遗迹 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Cambaluc宫殿](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0215.html.en) |
+| polo / `polo-xian` | 从桑树与织作，读关中城市的生产背景 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Quengianfu](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0271.html.en) |
+| polo / `polo-yangzhou` | 把任职叙述与运河、盐业的具体对象分开 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Yangiu与任职叙述](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0324.html.en) |
+| polo / `polo-suzhou` | 从桥和手艺，走进水石与建筑的微缩世界 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Sugiu与桥梁、工艺](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0333.html.en) |
+| polo / `polo-hangzhou` | 市场、河道与湖上观看，共同构成行在 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Quinsai市场、河道与仓储](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0336.html.en) |
+| polo / `polo-quanzhou` | 刺桐的货单背后，是生产、交通与信仰系统 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Çaiton港、货物与关税](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0359.html.en) |
+| polo / `polo-sumatra` | 季风等待与岛屿生态，是两种真实的尺度 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Sumatra季风停留叙述](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0381.html.en) |
+| polo / `polo-srilanka` | 从山峰的多种解释，读高地森林与朝圣景观 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Seilan山峰与不同信仰叙述](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0415.html.en) |
+| polo / `polo-japan` | 黄金宫殿是传闻，沉船遗物提供另一类证据 | [NII东洋文库：Moule/Pelliot《世界描述》1938，第1卷 · Çipingu与黄金宫殿的转述](https://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/V-1/page/0365.html.en) |
+| polo / `polo-genoa` | 在圣乔治宫前，区分成书传统与确知建筑 | [法国国家图书馆：《世界描述》作品与版本记录](https://catalogue.bnf.fr/ark:/12148/cb13592024s) |
 
 已合并批次的CI、截图Library身份与公网字节核对见[交付证据](qa/content-quality/deliveries.json)。该文件只记录已经验证的历史发布，未列入的本地/PR批次仍应查对应CI状态。
 
@@ -65,7 +66,7 @@
 
 - `tea-rasuwa`：官方海关史PDF本轮返回503；现有移民机关与灾情门户不能代替古道或堡垒遗存证据，继续待研究，不用通关提示凑篇幅。
 - `silk-tashkent`、`silk-bukhara`的已记录缺口在第十一批按具体遗址、市场与经学院补充；此结论只适用于silk语境，不清除另一个旅行者语境的未审状态。
-- 徐霞客24个原候选已补专属阅读，不能等同所有游记地名已定位；马可波罗23个候选仍需分章研究；丝路25个原候选已补专属阅读，原已有较实用说明的突厥斯坦等仍需后续同等深度复核；法国之路43处完成本批资料补充，不等于实地通行认证，按可见行程与明确薄弱点优先继续。安第斯Desaguadero–Titijoni与Tiwanacu已有展开但构筑物证据仍欠专门研究，不能因字数或无信号视作完成。
+- 徐霞客24个原候选已补专属阅读，不能等同所有游记地名已定位；马可波罗23个原候选已分章补充，未完成全书版本校勘或独立行踪认证；丝路25个原候选已补专属阅读，原已有较实用说明的突厥斯坦等仍需后续同等深度复核；法国之路43处完成本批资料补充，不等于实地通行认证，按可见行程与明确薄弱点优先继续。安第斯Desaguadero–Titijoni与Tiwanacu已有展开但构筑物证据仍欠专门研究，不能因字数或无信号视作完成。
 
 ## 质量方法与复核文件
 
@@ -83,9 +84,11 @@
 | researched-batch-10 | 23 |
 | researched-batch-2 | 22 |
 | researched-batch-3 | 18 |
-| still-automatic-candidate | 24 |
+| still-automatic-candidate | 1 |
 | researched-batch-11 | 15 |
 | researched-batch-12 | 10 |
+| researched-batch-14 | 12 |
+| researched-batch-15 | 11 |
 | researched-batch-13 | 24 |
 | researched-batch-7 | 11 |
 | researched-batch-8 | 21 |
@@ -108,7 +111,7 @@
 | `parks` | 美国国家公园 | 可见 | 63 | 0 | 0 |
 | `tea` | 茶马古道 | 可见 | 20 | 1 | 20 |
 | `silk` | 丝绸之路 | 可见 | 26 | 0 | 25 |
-| `polo` | 马可波罗游记 | 可见 | 23 | 23 | 0 |
+| `polo` | 马可波罗游记 | 可见 | 23 | 0 | 23 |
 | `xu` | 徐霞客全国游踪 | 可见 | 24 | 0 | 24 |
 | `kumano` | 熊野古道 | 可见 | 6 | 0 | 6 |
 | `camino` | 圣地亚哥朝圣之路 | 可见 | 43 | 0 | 43 |
