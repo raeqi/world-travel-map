@@ -4,13 +4,13 @@ from pathlib import Path
 from PIL import Image,ImageDraw,ImageOps
 import io
 O=Path('qa/remaining-media');O.mkdir(parents=True,exist_ok=True)
-queries={'ichikawa':'Ichikawa Higashiyama Kaii','shuilu':'intitle:水陆庵 filetype:bitmap','fengxiang':'intitle:东湖 intitle:凤翔 filetype:bitmap','mizhou':'intitle:Chaoran filetype:bitmap','huizhou':'intitle:东坡祠 filetype:bitmap','neijiang':'intitle:Zhang intitle:Memorial filetype:bitmap','uttarayan':'Uttarayan Santiniketan','hcb':'Fondation Henri Cartier Bresson Archives'}
+queries={'hobita': 'intitle:Brancusi intitle:house filetype:bitmap', 'ciasa': 'Ciäsa Granda filetype:bitmap', 'pouldu': 'intitle:Pouldu filetype:bitmap', 'tahiti': 'intitle:Tahiti intitle:Musée filetype:bitmap', 'chagallhouse': 'intitle:Chagall intitle:House filetype:bitmap', 'dvorakbirth': 'intitle:Dvořák intitle:dům filetype:bitmap', 'dvorakvysoka': 'Vysoká Antonína Dvořáka památník filetype:bitmap', 'remise': 'intitle:Mendelssohn intitle:Remise filetype:bitmap', 'puccinicelle': 'intitle:Celle intitle:Puccini filetype:bitmap', 'pucciniviareggio': 'Viareggio intitle:Puccini filetype:bitmap', 'villequier': 'Villequier Victor Hugo maison filetype:bitmap', 'trieste': 'intitle:Biserini filetype:bitmap', 'leonie': 'Proust Illiers maison filetype:bitmap', 'cabourg': 'intitle:Temps intitle:retrouvé filetype:bitmap'}
 def get(u):return urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'TerraMosaic/1.0 (https://github.com/raeqi/world-travel-map)'}),timeout=30).read()
 def api(p):return json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(dict(format='json',**p))))
 rows=[];tiles=[]
 for key,q in queries.items():
  try:
-  hits=api(dict(action='query',list='search',srsearch=q,srnamespace=6,srlimit=6))['query']['search']
+  hits=api(dict(action='query',list='search',srsearch=q,srnamespace=6,srlimit=4))['query']['search']
   for i,h in enumerate(hits):
    info=next(iter(api(dict(action='query',prop='imageinfo',titles=h['title'],iiprop='url|extmetadata',iiurlwidth=420))['query']['pages'].values()))['imageinfo'][0];m=info['extmetadata'];lic=re.sub('<[^>]+>','',m.get('LicenseShortName',{}).get('value',''))
    row=dict(key=key,index=i,file=h['title'][5:],license=lic,description=re.sub('<[^>]+>','',m.get('ImageDescription',{}).get('value',''))[:700]);rows.append(row);print(json.dumps(row,ensure_ascii=False),flush=True)

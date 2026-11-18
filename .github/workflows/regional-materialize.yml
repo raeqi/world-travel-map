@@ -1,7 +1,7 @@
 name: Materialize regional expansion photographs
 on:
   push:
-    branches: [codex/richer-regional-themes, codex/regional-writing-landscapes, codex/remaining-thirty]
+    branches: [codex/richer-regional-themes, codex/regional-writing-landscapes, codex/remaining-thirty, codex/thirty-europe-ready]
     paths:
       - data/theme-review/regional-expansion.json
       - scripts/materialize-regional-media.py
@@ -25,6 +25,7 @@ jobs:
       - run: pip install Pillow
       - run: python scripts/materialize-regional-media.py
       - run: python scripts/review-remaining-media.py
+      - run: python scripts/review-thirty-coordinates.py
       - name: Save attributed place photographs on the working branch
         run: |
           git config user.name 'github-actions[bot]'
