@@ -23,7 +23,7 @@ for file in *.js scripts/*.cjs tests/*.cjs; do node --check "$file" || exit 1; d
 node scripts/build-site.cjs
 ```
 
-- 文档检查遍历仓库 Markdown 的本地文件引用与章节锚点、38个旧入口，以及生产数据统计。更新主题/方案后运行 `node scripts/check-docs.cjs --write`，再检查。
+- 文档检查遍历仓库 Markdown 的本地文件引用与章节锚点、迁移对照与两份兼容入口，以及生产数据统计。更新主题/方案后运行 `node scripts/check-docs.cjs --write`，再检查。
 - `node --test`运行项目全部单元测试。用例数量随版本变化，以当次结果为准，旧 QA 记录中的12、77、79等数字不是永久保证。
 - 构建产生 `_site/`，为脚本和样式生成内容哈希文件名与 `release.json`，同时保留旧文件名供旧缓存页面使用；源码和资源的相对路径仍稳定。
 

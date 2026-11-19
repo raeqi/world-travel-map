@@ -1,159 +1,286 @@
 {
   "schemaVersion": 1,
   "baseline": "22cdafb613152294e05babfd9562a4bd49fc31bb",
-  "purpose": "Canonical documentation locations; root Markdown files are compatibility guides. Runtime, raw data, image and QA paths remain unchanged.",
+  "purpose": "Canonical documentation paths and selected compatibility guides. Only two root document aliases remain; other old paths are covered by docs/migration.md. Runtime, data, media and QA paths are unchanged.",
   "documents": {
     "CATALOGUE-CONSOLIDATION.md": {
       "path": "docs/reviews/catalogue-consolidation.md",
-      "title": "57 项主题优化：分批交付记录"
+      "title": "57 项主题优化：分批交付记录",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-13.md": {
       "path": "docs/content-quality/batches/batch-13.md",
-      "title": "全站点位质量 · 第十三批徐霞客"
+      "title": "全站点位质量 · 第十三批徐霞客",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-15.md": {
       "path": "docs/content-quality/batches/batch-15.md",
-      "title": "全站点位质量 · 第十四、十五批马可波罗"
+      "title": "全站点位质量 · 第十四、十五批马可波罗",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-16.md": {
       "path": "docs/content-quality/batches/batch-16.md",
-      "title": "全站点位质量 · 第十六批：长文同样需要复核"
+      "title": "全站点位质量 · 第十六批：长文同样需要复核",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-17.md": {
       "path": "docs/content-quality/batches/batch-17.md",
-      "title": "全站点位质量 · 第十七批美国自然地景"
+      "title": "全站点位质量 · 第十七批美国自然地景",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-18.md": {
       "path": "docs/content-quality/batches/batch-18.md",
-      "title": "全站点位质量 · 第十八批日本遗产"
+      "title": "全站点位质量 · 第十八批日本遗产",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-19.md": {
       "path": "docs/content-quality/batches/batch-19.md",
-      "title": "全站点位质量 · 第十九批西南国家公园"
+      "title": "全站点位质量 · 第十九批西南国家公园",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-2.md": {
       "path": "docs/content-quality/batches/batch-2.md",
-      "title": "全站点位信息质量 · 2026-11-18第二批"
+      "title": "全站点位信息质量 · 2026-11-18第二批",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-20.md": {
       "path": "docs/content-quality/batches/batch-20.md",
-      "title": "全站点位质量 · 第二十批国家公园行程"
+      "title": "全站点位质量 · 第二十批国家公园行程",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-21.md": {
       "path": "docs/content-quality/batches/batch-21.md",
-      "title": "全站点位质量 · 第二十一批自然遗产"
+      "title": "全站点位质量 · 第二十一批自然遗产",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-22.md": {
       "path": "docs/content-quality/batches/batch-22.md",
-      "title": "全站点位质量 · 第二十二批埃及与印度"
+      "title": "全站点位质量 · 第二十二批埃及与印度",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-23.md": {
       "path": "docs/content-quality/batches/batch-23.md",
-      "title": "全站点位质量 · 第二十三批中国与日本"
+      "title": "全站点位质量 · 第二十三批中国与日本",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-24.md": {
       "path": "docs/content-quality/batches/batch-24.md",
-      "title": "全站点位质量 · 第二十四批法国与意大利"
+      "title": "全站点位质量 · 第二十四批法国与意大利",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-25.md": {
       "path": "docs/content-quality/batches/batch-25.md",
-      "title": "全站点位质量 · 第二十五批西班牙、墨西哥与宗教山地"
+      "title": "全站点位质量 · 第二十五批西班牙、墨西哥与宗教山地",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-26.md": {
       "path": "docs/content-quality/batches/batch-26.md",
-      "title": "全站点位质量 · 第二十六批海岸与湖泊公园"
+      "title": "全站点位质量 · 第二十六批海岸与湖泊公园",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-27.md": {
       "path": "docs/content-quality/batches/batch-27.md",
-      "title": "全站点位质量 · 第二十七批阿拉斯加公园"
+      "title": "全站点位质量 · 第二十七批阿拉斯加公园",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-28.md": {
       "path": "docs/content-quality/batches/batch-28.md",
-      "title": "全站点位质量 · 第二十八批公园目录余项"
+      "title": "全站点位质量 · 第二十八批公园目录余项",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-29.md": {
       "path": "docs/content-quality/batches/batch-29.md",
-      "title": "全站点位质量 · 第二十九批自然目录实质纠错"
+      "title": "全站点位质量 · 第二十九批自然目录实质纠错",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-3.md": {
       "path": "docs/content-quality/batches/batch-3.md",
-      "title": "全站点位信息质量 · 持续审查"
+      "title": "全站点位信息质量 · 持续审查",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-30.md": {
       "path": "docs/content-quality/batches/batch-30.md",
-      "title": "全站点位质量 · 第三十批欧洲文化目录"
+      "title": "全站点位质量 · 第三十批欧洲文化目录",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-31.md": {
       "path": "docs/content-quality/batches/batch-31.md",
-      "title": "全站点位质量 · 第三十一批亚洲文化目录"
+      "title": "全站点位质量 · 第三十一批亚洲文化目录",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-32.md": {
       "path": "docs/content-quality/batches/batch-32.md",
-      "title": "全站点位质量 · 第三十二批自然目录"
+      "title": "全站点位质量 · 第三十二批自然目录",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-4.md": {
       "path": "docs/content-quality/batches/batch-4.md",
-      "title": "全站点位信息质量 · 持续审查"
+      "title": "全站点位信息质量 · 持续审查",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-5.md": {
       "path": "docs/content-quality/batches/batch-5.md",
-      "title": "全站点位信息质量 · 持续审查"
+      "title": "全站点位信息质量 · 持续审查",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-6.md": {
       "path": "docs/content-quality/batches/batch-6.md",
-      "title": "全站点位信息质量 · 持续审查"
+      "title": "全站点位信息质量 · 持续审查",
+      "compatibility": false
     },
     "CONTENT-QUALITY-BATCH-9.md": {
       "path": "docs/content-quality/batches/batch-9.md",
-      "title": "全站点位信息质量 · 持续审查"
+      "title": "全站点位信息质量 · 持续审查",
+      "compatibility": false
     },
     "CONTENT-QUALITY.md": {
       "path": "docs/content-quality/README.md",
-      "title": "全站点位信息质量 · 持续审查"
+      "title": "全站点位信息质量 · 持续审查",
+      "compatibility": true,
+      "anchors": [
+        {
+          "id": "当前覆盖与边界",
+          "title": "当前覆盖与边界"
+        },
+        {
+          "id": "分批研究记录",
+          "title": "分批研究记录"
+        },
+        {
+          "id": "第十九批逐点证据",
+          "title": "第十九批逐点证据"
+        },
+        {
+          "id": "已明确仍需研究",
+          "title": "已明确仍需研究"
+        },
+        {
+          "id": "质量方法与复核文件",
+          "title": "质量方法与复核文件"
+        },
+        {
+          "id": "历史226个候选的当前对照",
+          "title": "历史226个候选的当前对照"
+        },
+        {
+          "id": "全主题当前状态",
+          "title": "全主题当前状态"
+        }
+      ]
     },
     "EDITORIAL-DESIGN.md": {
       "path": "docs/design/editorial.md",
-      "title": "Cultural editions: image-led editorial direction"
+      "title": "Cultural editions: image-led editorial direction",
+      "compatibility": false
     },
     "EXPERIENCE-DESIGN.md": {
       "path": "docs/design/discovery-and-reading.md",
-      "title": "Discovery and reading edition"
+      "title": "Discovery and reading edition",
+      "compatibility": false
     },
     "NATURE-DISCOVERY.md": {
       "path": "docs/reviews/nature-discovery.md",
-      "title": "自然风景发现与地图候选"
+      "title": "自然风景发现与地图候选",
+      "compatibility": false
     },
     "PAN-AMERICAN.md": {
       "path": "docs/maps/pan-american.md",
-      "title": "泛美公路：跨洲总览与区域章节"
+      "title": "泛美公路：跨洲总览与区域章节",
+      "compatibility": false
     },
     "QA-REPORT.md": {
       "path": "docs/validation/history.md",
-      "title": "Validation and handoff"
+      "title": "Validation and handoff",
+      "compatibility": true,
+      "anchors": [
+        {
+          "id": "passed",
+          "title": "Passed"
+        },
+        {
+          "id": "blocked-and-not-passed",
+          "title": "Blocked and not passed"
+        },
+        {
+          "id": "earlier-terminal-push-result",
+          "title": "Earlier terminal push result"
+        },
+        {
+          "id": "follow-up-cloud-preview-verification-2026-11-17",
+          "title": "Follow-up cloud preview verification (2026-11-17)"
+        },
+        {
+          "id": "discovery-and-reading-upgrade--2026-11-17",
+          "title": "Discovery and reading upgrade — 2026-11-17"
+        },
+        {
+          "id": "cross-theme-hero-carousel--2026-11-17",
+          "title": "Cross-theme hero carousel — 2026-11-17"
+        },
+        {
+          "id": "sidebar-route-media-and-content-corrections--2026-11-17",
+          "title": "Sidebar, route-media and content corrections — 2026-11-17"
+        },
+        {
+          "id": "2026-11-17--matched-imagery-and-first-reading-batch",
+          "title": "2026-11-17 · Matched imagery and first reading batch"
+        }
+      ]
     },
     "REGIONAL-THEMES.md": {
       "path": "docs/reviews/regional-themes.md",
-      "title": "单方案主题扩充与整合"
+      "title": "单方案主题扩充与整合",
+      "compatibility": false
     },
     "REMAINING-THIRTY.md": {
       "path": "docs/reviews/remaining-thirty.md",
-      "title": "剩余30个单行程主题：逐项处理"
+      "title": "剩余30个单行程主题：逐项处理",
+      "compatibility": false
     },
     "ROAD-TRIPS.md": {
       "path": "docs/maps/road-trips.md",
-      "title": "世界特色公路：新增内容与核验边界"
+      "title": "世界特色公路：新增内容与核验边界",
+      "compatibility": false
     },
     "TERRA-MOSAIC-DESIGN.md": {
       "path": "docs/design/brand.md",
-      "title": "经纬万象 · Terra Mosaic"
+      "title": "经纬万象 · Terra Mosaic",
+      "compatibility": false
     },
     "THEME-DESIGN.md": {
       "path": "docs/design/theme-editions.md",
-      "title": "Regional editions"
+      "title": "Regional editions",
+      "compatibility": false
     },
     "THEME-REVIEW.md": {
       "path": "docs/reviews/short-themes.md",
-      "title": "全站短主题逐项审阅"
+      "title": "全站短主题逐项审阅",
+      "compatibility": false
     }
+  },
+  "linkReview": {
+    "checked": "2026-11-19",
+    "publicPullRequestBodiesReviewed": 59,
+    "publicIssueListEntriesReviewed": 59,
+    "explicitMainRootDocumentURLsFound": 0,
+    "retainedConsumers": {
+      "CONTENT-QUALITY.md": [
+        "qa/feedback-progress.md",
+        ".github/workflows/content-quality.yml"
+      ],
+      "QA-REPORT.md": [
+        "qa/feedback-progress.md"
+      ]
+    },
+    "readmeAliases": [
+      "怎么使用",
+      "主题地图",
+      "快速开始",
+      "数据来源与边界",
+      "开发与文件结构",
+      "运行检查",
+      "已完成的验证与已知限制"
+    ],
+    "limits": "Public repository PR/issue bodies and current maintenance references checked. External sites and personal bookmarks are not enumerable; no promise to preserve every old main-path URL, line number or heading anchor."
   }
 }

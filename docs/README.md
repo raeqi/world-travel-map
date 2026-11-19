@@ -27,6 +27,6 @@
 
 当前产品说明与历史交付记录分开维护。批次中的“本分支”“待核验”和数字描述的是记录当时的状态；实际合并及检查结论看相应 PR、Actions 和当前质量报告，不追改历史叙述冒充当时已完成。
 
-38个原根目录 Markdown 路径保留简短兼容指引，完整内容统一维护在本目录。路径对照在 [legacy-paths.json](legacy-paths.json)。请链接新的标准位置；旧入口继续可打开。
+38篇原根目录说明已迁入本目录。根目录仅保留README、内容质量与历史验证两份维护入口，其余36个旧文件已移除；标准位置与核心锚点的兼容范围见[迁移表](migration.md)，机器对照见[legacy-paths.json](legacy-paths.json)。新链接请使用标准位置。
 
-运行 `node scripts/check-docs.cjs` 校验全部仓库 Markdown 的本地引用、Markdown 章节锚点、兼容入口及当前目录统计。主题或方案发生变化时，先运行 `node scripts/check-docs.cjs --write` 更新统计块与主题目录，再重新检查。报告生成器会写入新位置并保持兼容页。
+运行 `node scripts/check-docs.cjs` 校验全部仓库 Markdown 的本地引用、Markdown 章节锚点、选定兼容入口及当前目录统计。主题或方案发生变化时，先运行 `node scripts/check-docs.cjs --write` 更新统计块与主题目录，再重新检查。报告生成器会写入新位置并保持兼容页。

@@ -17,13 +17,13 @@
 
 `docs/`按产品、开发、数据与素材、设计、路线、主题审查、内容研究、验证和历史组织；当前全部可见/兼容主题及去重计数可生成、可检查。
 
-全部38个旧根目录文档路径仍可打开，显示简短迁移指引。保留这些入口是为了已有GitHub文档链接继续可用，根目录文件数量因此没有用删除旧入口的方式减少；实际正文和维护入口已集中。路径对照见[legacy-paths.json](legacy-paths.json)。
+根目录Markdown从39份减少为3份：README与仍由QA/CI引用的CONTENT-QUALITY.md、QA-REPORT.md。两份旧入口保留原H1和主要H2章节的跳转，其他36个旧根目录文件移除，由[迁移表](migration.md)承接。检查59个公开PR及issue列表正文未发现额外的main下根目录Markdown直链；不保证仓库外书签、所有旧URL、旧行号或全部小节锚点兼容。
 
 源数据、QA证据、图片与许可、收藏ID、方案和旧应用URL不迁移；应用经典脚本的相对路径与加载顺序不变。忽略项只添加本地`_site/`、`node_modules/`与npm调试日志，不忽略质量证据目录。
 
 ## 防止再次漂移
 
-`node scripts/check-docs.cjs`验证仓库Markdown的本地文件引用、Markdown章节锚点、38个兼容入口及真实生产统计；`--write`更新README统计块、坐标/作品计数和主题目录。CI每次PR与main构建均运行该检查。
+`node scripts/check-docs.cjs`验证仓库Markdown的本地文件引用、Markdown章节锚点、两份兼容入口及38篇迁移对照及真实生产统计；`--write`更新README统计块、坐标/作品计数和主题目录。CI每次PR与main构建均运行该检查。
 
 当前内容质量报告仍由数据生成，报告生成器和内容CI一起迁移检查路径。历史批次保持各自语境与阶段数字，不借本轮整理增加任何已研究点位或已验收范围。
 

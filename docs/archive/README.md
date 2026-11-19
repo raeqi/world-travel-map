@@ -7,4 +7,4 @@
 - [点位研究批次](../content-quality/batches/README.md)：逐批范围、来源及当时未完成事项。
 - [主题与目录审查](../reviews/README.md)：不同基线上的整合与扩充决策。
 
-旧路径继续保留兼容入口，标准位置见[路径对照](../legacy-paths.json)。当前统计看[主题目录](../reference/themes.md)，当前未验收范围看[内容质量](../content-quality/README.md)。
+两份重要旧入口保留跳转，其余已从根目录移除；标准位置和锚点边界见[迁移表](../migration.md)。当前统计看[主题目录](../reference/themes.md)，当前未验收范围看[内容质量](../content-quality/README.md)。

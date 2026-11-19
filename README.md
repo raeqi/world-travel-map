@@ -77,4 +77,4 @@ node scripts/build-site.cjs
 | 品牌、排版与主题视觉 | [设计规范](docs/design/README.md) |
 | 当前测试依据与历史验证 | [验证说明](docs/validation/README.md) |
 
-旧版根目录说明保留为兼容入口，实际文档统一在 `docs/` 维护。整理前的叙述与统计保存在[原 README 历史快照](docs/archive/readme-2026-11-18.md)；历史文件中的阶段数字不代表当前版本。
+根目录仅保留本 README 与两份仍被引用的维护入口，36份旧根目录文件已移除，按[迁移表](docs/migration.md)查找标准位置；正文统一在 `docs/` 维护。整理前的叙述与统计保存在[原 README 历史快照](docs/archive/readme-2026-11-18.md)；历史文件中的阶段数字不代表当前版本。
