@@ -149,7 +149,7 @@ Dalton 图来自 BLM 的沿路风景资料，坐标不定位具体机位；纳�
 
 ## 集成与验证
 
-`panamerican.js` 在 `roads.js` 之后、`flow.js` 和 `app.js` 之前注册内容，复用现有地点详情、收藏、行程预览与检索功能。4个其他公路合集见 [ROAD-TRIPS.md](ROAD-TRIPS.md)。
+`panamerican.js` 在 `roads.js` 之后、`flow.js` 和 `app.js` 之前注册内容，复用现有地点详情、收藏、行程预览与检索功能。4个其他公路合集见 [ROAD-TRIPS.md](road-trips.md)。
 
 - `tests/panamerican.test.cjs`：来源、坐标、31个地点与7个方案完整性、匹配照片、国家检索，以及达连与智利岛屿不出现虚构驾驶连接。
 - `scripts/check-panamerican.cjs`：真实 Chromium 中的桌面/390×844手机视口、全部章节首末站、断点定位按钮、收藏与刷新、国家检索、6项图像实际解码及截图。

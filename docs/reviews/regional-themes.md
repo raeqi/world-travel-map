@@ -121,6 +121,6 @@
 - 泰戈尔的孟加拉世界 `tagore`
 - 意大利：透纳与歌德的旅行目光 `italian-art-journeys`
 
-逐点原链接、方案ID、哈希、去向与新增点来源见[regional-review.json](qa/theme-review/regional-review.json)。早期完整保全报告继续核对所有原地点、作品、图片字节、段落及来源；更新地域说明只追加资料，原来源和原段落保留。
+逐点原链接、方案ID、哈希、去向与新增点来源见[regional-review.json](../../qa/theme-review/regional-review.json)。早期完整保全报告继续核对所有原地点、作品、图片字节、段落及来源；更新地域说明只追加资料，原来源和原段落保留。
 
-后续30主题的扩充与整合进展见 [REMAINING-THIRTY.md](REMAINING-THIRTY.md)。本文件保留前两批历史判断，不代表后续未扩充。
+后续30主题的扩充与整合进展见 [REMAINING-THIRTY.md](remaining-thirty.md)。本文件保留前两批历史判断，不代表后续未扩充。

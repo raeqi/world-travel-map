@@ -30,6 +30,8 @@ jobs:
             terra_syntax_count=$((terra_syntax_count+1))
           done
           echo "Checked $terra_syntax_count JavaScript/CJS files."
+      - name: Check repository documentation
+        run: node scripts/check-docs.cjs
       - name: Run project tests
         run: node --test tests/*.test.cjs
       - name: Prepare public site

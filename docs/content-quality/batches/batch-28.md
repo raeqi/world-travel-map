@@ -17,7 +17,7 @@
 | `np-thro` | [西奥多·罗斯福公园：彩色荒地里的古湿地与河流](https://www.nps.gov/thro/learn/nature/geologicformations.htm) |
 | `np-wica` | [风洞：方解石蜂格与地表混合草原](https://www.nps.gov/wica/learn/nature/speleothems-boxwork.htm) |
 
-每段的全部来源键见[研究包](data/content-quality/batch-28.json)。具体取舍：
+每段的全部来源键见[研究包](../../../data/content-quality/batch-28.json)。具体取舍：
 
 - 荒地的沉积/侵蚀与古生物，保留Oglala Lakota先前知识，不暗示收集化石；大弯分河岸、奇瓦瓦沙漠和奇索斯山地。
 - 火山口湖分玛扎马塌陷、后期巫师岛和引入鱼/小龙虾；不照搬网页将最大深度写成平均深度等有问题表述。

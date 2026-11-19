@@ -37,4 +37,4 @@
 
 本轮累计新增55处真实地点、54条独立分区探访，复用并扩充1处原地点阅读。已有46处新点配图，9处仍缺准确许可图像；不将单馆一日探访伪装成多点连续路线。
 
-每条原地点、原方案和作品的哈希、旧链接与默认可见地图去向，见 [remaining-thirty-review.json](qa/theme-review/remaining-thirty-review.json)。新地点来源、现场观察及分区交通见 [remaining-thirty.json](data/theme-review/remaining-thirty.json)。图片逐文件作者、许可与哈希见 [图像记录](assets/regional-expansion/README.md)。未核实的图像不会用其他地点图片替代。
+每条原地点、原方案和作品的哈希、旧链接与默认可见地图去向，见 [remaining-thirty-review.json](../../qa/theme-review/remaining-thirty-review.json)。新地点来源、现场观察及分区交通见 [remaining-thirty.json](../../data/theme-review/remaining-thirty.json)。图片逐文件作者、许可与哈希见 [图像记录](../../assets/regional-expansion/README.md)。未核实的图像不会用其他地点图片替代。

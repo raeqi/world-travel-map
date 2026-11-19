@@ -13,16 +13,16 @@
 
 | 批次 | 开发起点 | 新研究阅读 | 来源记录 | 资料与具体范围 |
 | --- | --- | ---: | ---: | --- |
-| 第2批 | `27bd4fe441008c13a05d34beaf725923575812d1` | 25 | 28 | [逐项文字和依据](data/content-quality/batch-2.json)：25 researched readings in four existing themes; original summaries, links, imagery and IDs retained. Site observations are editorial suggestions based on the named evidence, not a field visit or live access certification. |
-| 第3批 | `043a6639b9ee363ab35643a861ba3c1dd2ccdd83` | 19 | 28 | [逐项文字和依据](data/content-quality/batch-3.json)：19 tea/trade-network readings: 18 previously missing and one deepened; Rasuwagadhi remains a specific research gap. No media, original catalogue text, coordinates, routes or original source URLs replaced. |
-| 第4批 | `cee6490bef782542632a0e902e9e4c22d7454208` | 24 | 33 | [逐项文字和依据](data/content-quality/batch-4.json)：Eight Mozart city contexts and all sixteen existing Via Francigena nodes. Seven Mozart and sixteen Francigena candidate contexts newly receive specific readings; Salzburg is deepened with prior content retained. No photos or geographic records replaced. |
-| 第5批 | `b2ee671336205206e9ab248e32e42439444e76d7` | 15 | 24 | [逐项文字和依据](data/content-quality/batch-5.json)：All fifteen existing Route 66 city contexts, with fourteen previously unexpanded places and one Luna Lodge reading deepened. Distinguishes historic alignments, reused structures, present access and symbolic endpoints. No geographic or photo replacement. |
-| 第6批 | `191d764ca979e2b07905c4efaf5b2d4dc53d5775` | 17 | 32 | [逐项文字和依据](data/content-quality/batch-6.json)：Nine existing Nakasendo contexts and eight Viking network contexts. Eleven previously unexpanded candidates and six deepened readings, separating original evidence, reconstruction, later maintenance, separate institutions and season-bound access. No geographic or photo replacement. |
-| 第7批 | `ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395` | 12 | 20 | [逐项文字和依据](data/content-quality/batch-7.json)：First twelve existing French Way contexts, from Saint-Jean-Pied-de-Port through Santo Domingo de la Calzada. All twelve receive first dedicated expanded readings; eleven were automatic candidates, while the starting point already had a useful route-choice summary and was not an automatic candidate. Distinguishes relocated fabric, later buildings, reliquary legends, civic uses and access. No photo or geographic replacement. |
-| 第8批 | `ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395` | 21 | 43 | [逐项文字和依据](data/content-quality/batch-8.json)：All twenty-one existing French Way contexts in Castilla y León, Belorado to Villafranca del Bierzo. Specific art, structures, canals, industrial reuse, agrarian life and distinct access points. All previously lacked dedicated expanded readings. No image or geographic replacement. |
-| 第9批 | `ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395` | 10 | 19 | [逐项文字和依据](data/content-quality/batch-9.json)：All ten existing French Way contexts in Galicia, O Cebreiro to Santiago. First dedicated expanded readings for ten candidate contexts: mountain vernacular architecture, settlement landscapes, relocated church fabric, adaptive reuse, dairy origin and distinct museum locations. Preserves the San Xil/Samos distinction and all original routes, images and geographic records. |
+| 第2批 | `27bd4fe441008c13a05d34beaf725923575812d1` | 25 | 28 | [逐项文字和依据](../../../data/content-quality/batch-2.json)：25 researched readings in four existing themes; original summaries, links, imagery and IDs retained. Site observations are editorial suggestions based on the named evidence, not a field visit or live access certification. |
+| 第3批 | `043a6639b9ee363ab35643a861ba3c1dd2ccdd83` | 19 | 28 | [逐项文字和依据](../../../data/content-quality/batch-3.json)：19 tea/trade-network readings: 18 previously missing and one deepened; Rasuwagadhi remains a specific research gap. No media, original catalogue text, coordinates, routes or original source URLs replaced. |
+| 第4批 | `cee6490bef782542632a0e902e9e4c22d7454208` | 24 | 33 | [逐项文字和依据](../../../data/content-quality/batch-4.json)：Eight Mozart city contexts and all sixteen existing Via Francigena nodes. Seven Mozart and sixteen Francigena candidate contexts newly receive specific readings; Salzburg is deepened with prior content retained. No photos or geographic records replaced. |
+| 第5批 | `b2ee671336205206e9ab248e32e42439444e76d7` | 15 | 24 | [逐项文字和依据](../../../data/content-quality/batch-5.json)：All fifteen existing Route 66 city contexts, with fourteen previously unexpanded places and one Luna Lodge reading deepened. Distinguishes historic alignments, reused structures, present access and symbolic endpoints. No geographic or photo replacement. |
+| 第6批 | `191d764ca979e2b07905c4efaf5b2d4dc53d5775` | 17 | 32 | [逐项文字和依据](../../../data/content-quality/batch-6.json)：Nine existing Nakasendo contexts and eight Viking network contexts. Eleven previously unexpanded candidates and six deepened readings, separating original evidence, reconstruction, later maintenance, separate institutions and season-bound access. No geographic or photo replacement. |
+| 第7批 | `ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395` | 12 | 20 | [逐项文字和依据](../../../data/content-quality/batch-7.json)：First twelve existing French Way contexts, from Saint-Jean-Pied-de-Port through Santo Domingo de la Calzada. All twelve receive first dedicated expanded readings; eleven were automatic candidates, while the starting point already had a useful route-choice summary and was not an automatic candidate. Distinguishes relocated fabric, later buildings, reliquary legends, civic uses and access. No photo or geographic replacement. |
+| 第8批 | `ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395` | 21 | 43 | [逐项文字和依据](../../../data/content-quality/batch-8.json)：All twenty-one existing French Way contexts in Castilla y León, Belorado to Villafranca del Bierzo. Specific art, structures, canals, industrial reuse, agrarian life and distinct access points. All previously lacked dedicated expanded readings. No image or geographic replacement. |
+| 第9批 | `ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395` | 10 | 19 | [逐项文字和依据](../../../data/content-quality/batch-9.json)：All ten existing French Way contexts in Galicia, O Cebreiro to Santiago. First dedicated expanded readings for ten candidate contexts: mountain vernacular architecture, settlement landscapes, relocated church fabric, adaptive reuse, dairy origin and distinct museum locations. Preserves the San Xil/Samos distinction and all original routes, images and geographic records. |
 
-第二批三峡/熊野/佛教/NC500：25处，22处原无展开；第三批茶马及相关网络：19处，18处原无展开；第四批莫扎特8处与Via Francigena16处：24处，23处原无展开；第五批66号公路15处：14处原无展开；第六批中山道9处与维京8处：17处，11处原无展开；第七批法国之路前12处：11个原候选与已有较具体路线选择说明的起点；第八批卡斯蒂利亚—莱昂21处；第九批加利西亚10处。本次三个研究包共同交付，覆盖既有法国之路43处，全部新增首次专属展开，42处原为自动候选。雅安、萨尔茨堡等原资料合并保留，不重复声称新地点。第二批[原报告](CONTENT-QUALITY-BATCH-2.md)、第三批[原报告](CONTENT-QUALITY-BATCH-3.md)、第四批[原报告](CONTENT-QUALITY-BATCH-4.md)、第五批[原报告](CONTENT-QUALITY-BATCH-5.md)、第六批[原报告](CONTENT-QUALITY-BATCH-6.md)作为历史快照保留。
+第二批三峡/熊野/佛教/NC500：25处，22处原无展开；第三批茶马及相关网络：19处，18处原无展开；第四批莫扎特8处与Via Francigena16处：24处，23处原无展开；第五批66号公路15处：14处原无展开；第六批中山道9处与维京8处：17处，11处原无展开；第七批法国之路前12处：11个原候选与已有较具体路线选择说明的起点；第八批卡斯蒂利亚—莱昂21处；第九批加利西亚10处。本次三个研究包共同交付，覆盖既有法国之路43处，全部新增首次专属展开，42处原为自动候选。雅安、萨尔茨堡等原资料合并保留，不重复声称新地点。第二批[原报告](batch-2.md)、第三批[原报告](batch-3.md)、第四批[原报告](batch-4.md)、第五批[原报告](batch-5.md)、第六批[原报告](batch-6.md)作为历史快照保留。
 
 法国之路三个研究包区分圣物匣与传说、近代迁装与原位遗存、大学与旧医院、工业改用与中世纪建筑、描绘或原属地与当前馆藏。补充高原谷物田、土坯、山地草顶民居、河桥、粮仓、运河船闸、煤电劳动与奶酪产区，兼顾自然条件与人的改造。部分直接来源响应500/503/403，研究包记明阅读路径；机构网页中的明显错年、旧人口或临时展讯不直接采用。
 
@@ -74,7 +74,7 @@
 | camino / `camino-pedrouzo` | 在Arca看方形粮仓与仍在使用的聚落 | [GDR Ulla Tambre Mandeo地方发展组织：Arca教堂、方形粮仓与聚落](https://gdrullatambremandeo.gal/turismo/rutas-ao-volante/ruta-del-ulla/) |
 | camino / `camino-santiago` | 在终点分开看石雕、后世立面与朝圣收藏 | [圣地亚哥座堂：Maestro Mateo与Pórtico de la Gloria](https://catedraldesantiago.es/portico-de-la-gloria/) |
 
-已合并批次的CI、截图Library身份与公网字节核对见[交付证据](qa/content-quality/deliveries.json)。该文件只记录已经验证的历史发布，未列入的本地/PR批次仍应查对应CI状态。
+已合并批次的CI、截图Library身份与公网字节核对见[交付证据](../../../qa/content-quality/deliveries.json)。该文件只记录已经验证的历史发布，未列入的本地/PR批次仍应查对应CI状态。
 
 ## 已明确仍需研究
 
@@ -84,10 +84,10 @@
 
 ## 质量方法与复核文件
 
-1. 依index顺序载入生产注册数据，遍历全部主题（含隐藏旧入口）；原基线[压缩快照](qa/content-quality/baseline-2026-11-18.json.gz)不可覆盖。按实际主题语境取共享城市阅读，不拿人物网络替代旧路线。
+1. 依index顺序载入生产注册数据，遍历全部主题（含隐藏旧入口）；原基线[压缩快照](../../../qa/content-quality/baseline-2026-11-18.json.gz)不可覆盖。按实际主题语境取共享城市阅读，不拿人物网络替代旧路线。
 2. 空文、无HTTPS来源、短概要且无专属展开、跨主题回退、跨地点重复段落只产生信号。自动枚举不认证事实、许可或实时开放；这些需人工阅读。
-3. 人工核对特色、年代、地理、主题关联、原址/迁建/馆藏/现代复原与可观察对象。[人工记录](qa/content-quality/manual-reviews.json)绑定文本和来源指纹，变化即失效。机构页面也可能有错误，不因官网身份自动采用所有说法。
-4. [逐语境CSV](qa/content-quality/contexts.csv)列全部语境，[最新报告](qa/content-quality/latest.json)列全部主题与方案；[旧候选原主题](qa/content-quality/legacy-candidates.json)防止跨主题虚增完成量。
+3. 人工核对特色、年代、地理、主题关联、原址/迁建/馆藏/现代复原与可观察对象。[人工记录](../../../qa/content-quality/manual-reviews.json)绑定文本和来源指纹，变化即失效。机构页面也可能有错误，不因官网身份自动采用所有说法。
+4. [逐语境CSV](../../../qa/content-quality/contexts.csv)列全部语境，[最新报告](../../../qa/content-quality/latest.json)列全部主题与方案；[旧候选原主题](../../../qa/content-quality/legacy-candidates.json)防止跨主题虚增完成量。
 5. 独立批次经`node scripts/build-quality-readings.cjs`生成同一生产bundle；`--check`验证未漂移。原数据逐字段、原图逐字节核对，适用的原阅读逐段和逐来源对象保留；只有明确的旧错主题回退可被有证据的新主题阅读替代。
 6. 真实Chromium检查每处新研究在桌面1440×1000和手机390×844的概要、两节、全部新来源与原链接、关闭返回及溢出；并回归主题隔离、前后站、收藏、刷新与旧链接。不等于实体手机实测或全站历史事实验收。
 

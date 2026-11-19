@@ -59,7 +59,7 @@
 | 苏格兰北海岸 500 | `nc500-wick` | 从鲱鱼港读Pulteneytown | [Wick Heritage Centre：鲱鱼业与Pulteneytown](https://www.wickheritage.org/fishing.php) |
 | 苏格兰北海岸 500 | `nc500-dornoch` | 仍在使用的教堂与小城中心 | [Dornoch Firth Church of Scotland：多诺赫教堂](https://www.dornoch-cathedral.com/) |
 
-每段的sourceKeys、全部28份资料、改写概要及原文可复核于[batch-2.json](data/content-quality/batch-2.json)。资料中存在传说、年代或数量争议时只采用有支持的范围；未采用宁厂资料中互相矛盾的早期年数，也不固定西沱台阶数量。新滩原来源404的旧链接仍保留，新增可读文史来源；归州镇与新县城归州街、云安与已迁陕西牮楼分开。
+每段的sourceKeys、全部28份资料、改写概要及原文可复核于[batch-2.json](../../../data/content-quality/batch-2.json)。资料中存在传说、年代或数量争议时只采用有支持的范围；未采用宁厂资料中互相矛盾的早期年数，也不固定西沱台阶数量。新滩原来源404的旧链接仍保留，新增可读文史来源；归州镇与新县城归州街、云安与已迁陕西牮楼分开。
 
 ## 下一批优先队列
 
@@ -219,10 +219,10 @@
 
 ## 可复核文件和检查
 
-- [全量语境CSV](qa/content-quality/contexts.csv)：2218行，主题、推荐关联、长度信号、来源、判断及内容哈希。
-- [最新审计](qa/content-quality/latest.json)：130主题和330方案均列出，不覆盖[PR #8旧快照](qa/content-audit.json)。
-- [不可覆盖的开始快照](qa/content-quality/baseline-2026-11-18.json.gz)：压缩前的完整原始审计；gzip解压后可读取JSON。
-- [旧候选原主题](qa/content-quality/legacy-candidates.json)与[人工判断](qa/content-quality/manual-reviews.json)：避免以无关的新语境冲销旧问题。
+- [全量语境CSV](../../../qa/content-quality/contexts.csv)：2218行，主题、推荐关联、长度信号、来源、判断及内容哈希。
+- [最新审计](../../../qa/content-quality/latest.json)：130主题和330方案均列出，不覆盖[PR #8旧快照](../../../qa/content-audit.json)。
+- [不可覆盖的开始快照](../../../qa/content-quality/baseline-2026-11-18.json.gz)：压缩前的完整原始审计；gzip解压后可读取JSON。
+- [旧候选原主题](../../../qa/content-quality/legacy-candidates.json)与[人工判断](../../../qa/content-quality/manual-reviews.json)：避免以无关的新语境冲销旧问题。
 - `node scripts/audit-content.cjs --write`更新当前JSON/CSV；`node --test tests/content-quality.test.cjs`验证所有数据覆盖、判断过期、跨主题隔离和原数据保全。
 - 本地48项项目测试和四组DOM回归通过。旧侧栏脚本适配当前隐藏主题需搜索、默认行程筛选的行为后通过。
 - 容器Chromium实际启动报socket Operation not permitted；未把这次失败当浏览器通过。新增Place content quality checks工作流将真实检查25处详情、两段内容、原/新来源链接、返回、跨主题、路线前后站、重复收藏和刷新，桌面1440×1000与手机390×844。最终浏览器结果以本批PR CI为准。

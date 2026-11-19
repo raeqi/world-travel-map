@@ -1,6 +1,6 @@
 # 全站点位信息质量 · 持续审查
 
-最新开发基线：main `043a6639b9ee363ab35643a861ba3c1dd2ccdd83`（第三批）。第二批的原始记录完整保留于[历史报告](CONTENT-QUALITY-BATCH-2.md)。合并与部署状态以对应PR和Actions为准。
+最新开发基线：main `043a6639b9ee363ab35643a861ba3c1dd2ccdd83`（第三批）。第二批的原始记录完整保留于[历史报告](batch-2.md)。合并与部署状态以对应PR和Actions为准。
 
 ## 当前覆盖与边界
 
@@ -38,7 +38,7 @@
 | `tea-gangtok` | 在藏学研究院把文化联系看清 | [Namgyal Institute of Tibetology：馆藏、建筑与研究](https://namgyalinstitutesikkim.org/) |
 | `tea-kalimpong` | 从羊毛仓库辨认商路的转身 | [噶伦堡地区政府：经则里拉的商路与货物](https://kalimpong.gov.in/history/) |
 
-完整新文字、段落依据与28项资料在[batch-3.json](data/content-quality/batch-3.json)。来源包括地方文物与旅游部门、国家非遗数字博物馆、UNESCO收录的国家申报、机构官网和官方作者发布文本。只作原创概述，不转载图片。对返回405/超时的原站使用其已索引的机构正文，获取方式与限制记录于来源字段；未把连接成功或URL存在视作事实核实。
+完整新文字、段落依据与28项资料在[batch-3.json](../../../data/content-quality/batch-3.json)。来源包括地方文物与旅游部门、国家非遗数字博物馆、UNESCO收录的国家申报、机构官网和官方作者发布文本。只作原创概述，不转载图片。对返回405/超时的原站使用其已索引的机构正文，获取方式与限制记录于来源字段；未把连接成功或URL存在视作事实核实。
 
 具体区分：南涧县城与公郎、普洱城区与宁洱那柯里、大研与束河同名四方街；阿墩子段与梅里段；旧锅庄与现今同名商店；原题铭与后设复刻碑；努瓦科特预备清单与正式世界遗产；噶伦堡经则里拉的商路与乃堆拉；旧羊毛仓库与仍在使用的学校。观察方法是编辑建议，非现场勘察；不写死票价、时刻与开放保证。
 
@@ -52,10 +52,10 @@
 
 ## 质量方法与可复核文件
 
-1. 由index顺序载入所有生产数据，遍历每个注册主题（含隐藏旧入口），按实际主题语境取阅读与来源。原基线[压缩快照](qa/content-quality/baseline-2026-11-18.json.gz)不可覆盖。
+1. 由index顺序载入所有生产数据，遍历每个注册主题（含隐藏旧入口），按实际主题语境取阅读与来源。原基线[压缩快照](../../../qa/content-quality/baseline-2026-11-18.json.gz)不可覆盖。
 2. 空文、来源缺失、短概要且无专属展开、错主题回退、跨地点重复段落只生成信号。相同城市的不同主题分别计，自动枚举不联网认证内容。
-3. 人工审查具体特色、年代、地理、主题关系、原址/迁建/馆藏/现代复原与能观察什么；[人工判断](qa/content-quality/manual-reviews.json)绑定文本和来源哈希，变化即失效。
-4. [逐语境CSV](qa/content-quality/contexts.csv)列全部2218语境；[最新报告](qa/content-quality/latest.json)列130主题和330方案；[旧候选原主题](qa/content-quality/legacy-candidates.json)防止其他人物主题虚增完成量。
+3. 人工审查具体特色、年代、地理、主题关系、原址/迁建/馆藏/现代复原与能观察什么；[人工判断](../../../qa/content-quality/manual-reviews.json)绑定文本和来源哈希，变化即失效。
+4. [逐语境CSV](../../../qa/content-quality/contexts.csv)列全部2218语境；[最新报告](../../../qa/content-quality/latest.json)列130主题和330方案；[旧候选原主题](../../../qa/content-quality/legacy-candidates.json)防止其他人物主题虚增完成量。
 5. 资料包按批次独立保留，由`node scripts/build-quality-readings.cjs`生成同一个生产bundle；`--check`验证未漂移。测试核对全部原概要、链接、图片绑定与方案ID；浏览器检查每处新增阅读的两节内容与全部来源，在桌面与手机视口留截图。
 
 ## 历史226候选的当前对照
