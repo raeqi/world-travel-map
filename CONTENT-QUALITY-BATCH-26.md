@@ -1,39 +1,5 @@
 # 全站点位质量 · 第二十六批海岸与湖泊公园
 
-开发基于最新main `335932dbfc3b279f9640c28816a143f96d61c104`。原98行程缺口已交付，本批开始处理可见目录中此前没有展开的地点；不是新增目的地或方案。
+此文档已迁移至 [docs/content-quality/batches/batch-26.md](docs/content-quality/batches/batch-26.md)。旧路径保留为兼容入口；请在新位置阅读和维护。
 
-10个现有parks语境、18条NPS依据，逐段解释可观察的地形、生态过程与人类使用。
-
-| 原有ID | 阅读 | 主要依据 |
-| --- | --- | --- |
-| `np-acad` | 阿卡迪亚：花岗岩海岬与被设计的观景道路 | [NPS：山海、过渡林地与观景道路](https://www.nps.gov/acad/learn/nature/index.htm) |
-| `np-bisc` | 比斯坎：从红树林岸边读到外海珊瑚礁 | [NPS：红树林、海湾、群岛与礁区](https://www.nps.gov/bisc/learn/nature/ecosystems.htm) |
-| `np-drto` | 干龟群岛：海港堡垒与珊瑚海域 | [NPS：杰斐逊堡与深水锚地](https://www.nps.gov/drto/learn/historyculture/fort-jefferson.htm) |
-| `np-ever` | 大沼泽地公园：微小高差、水流与盐度 | [NPS：微小高差、群落与淡咸水](https://www.nps.gov/ever/learn/nature/habitats.htm) |
-| `np-indu` | 印第安纳沙丘：湖岸向内陆展开的生态剖面 | [NPS：大湖岸线、沙丘演替与湿地](https://www.nps.gov/indu/learn/nature/index.htm) |
-| `np-isro` | 皇家岛：冰川群岛与受到管理的狼鹿关系 | [NPS：冰川岛群与湖盆](https://www.nps.gov/isro/learn/nature/index.htm) |
-| `np-voya` | 旅行者公园：古老基岩、冰川湖泊与湿地变化 | [NPS：古老岩体、冰川与湖泊](https://www.nps.gov/voya/learn/nature/geology.htm) |
-| `np-npsa` | 美属萨摩亚：从雨林山脊看到村落与珊瑚海 | [NPS：山脊雨林与海洋生境](https://www.nps.gov/npsa/learn/nature/index.htm) |
-| `np-viis` | 维尔京群岛：海草、山林与种植园遗构 | [NPS：森林、盐塘与海草床](https://www.nps.gov/viis/learn/nature/index.htm) |
-| `np-cuva` | 凯霍加谷：自然河道、运河纤道与人的改造 | [NPS：河谷、旧田与冰川地形](https://www.nps.gov/cuva/learn/nature/index.htm) |
-
-## 逐项取舍
-
-- 阿卡迪亚分冰川塑形与潮汐侵蚀、森林过渡与景观道路；不重复游客数/最高等排名。比斯坎区分大陆红树林、湾、群岛、礁区及生态边缘，不把所有蓝水当珊瑚礁。
-- 干龟群岛以深水锚地与海军补给解释堡垒位置，明确未完成且未完全配齐武装；植物使用历史与海洋过程并看。
-- 大沼泽地按微小高差、水流、盐度与火区分生境，现有世界遗产wh76的研究不直接冲销本parks语境。
-- 印第安纳沙丘看大湖岸线、较老沙脊、植被演替和丘间湿地，不误称海滨。皇家岛避用旧网页单一母狼血缘与遗传比例作为现种群结论，另读[2018至2019年迁入项目](https://www.nps.gov/articles/000/isle-royale-wolf-relocation.htm)。历史迁入数不充当现数。
-- 旅行者公园分岩体形成/变质、冰川出露、湖泊与湿地，不把页面中2.7/2.8Ga概括为所有岩体同龄。
-- 美属萨摩亚按雨林山地、果蝠与村落共同土地/fa’asamoa阅读；不采用网页1993建园、最古老文化及棘冠海星一概属入侵种等说法。历史与自然的关系不写成从无矛盾的浪漫故事。
-- 维尔京群岛海草/礁体与Annaberg风车、工厂和被奴役者居住遗构并看，保留压迫、抵抗与劳动背景。凯霍加谷区分自然河道和人工运河，1969著名火灾在公园以北，不移作园内原址。
-- 未新增/替换图片，原目录、来源对象和链接、媒体字节/许可、坐标、路线及收藏ID保留。观察建议来自所列选段，不是实地、动物可见性或当前开放认证。
-
-## 覆盖及后续
-
-实际index仍2,030地点、135内部主题、62可见入口、382方案、2,336语境。本分支364地点记录有本系列研究阅读、365语境有当前人工判断，1,971语境未逐项验收。可见目录未审无展开1,217：公园20、自然247、人文950；Rasuwa人工缺口和安第斯遗构研究另保留。
-
-[30公园原缺口基线](qa/content-quality/parks-catalogue-gap-baseline-2026-11-18.json)保留原ID和原文字指纹。审计新加可见目录计数与各主题未审无展开余量；信号与字数均不等于事实错误或全站验收。后续先处理阿拉斯加8处与其他公园12处，再继续自然/人文目录。
-
-## 验证状态
-
-生成、指纹及保全审计已执行。完整78测试、120文件语法及git diff --check已通过；精确head真实Chromium桌面1440×1000/手机390×844、截图抽查与Library、正常合并及公开54份资产字节核对必须分别完成，不预先声明成功。既有地图标签密度未认证全站解决。
+[文档总览](docs/README.md) · [项目首页](README.md)

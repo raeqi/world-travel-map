@@ -1,0 +1,246 @@
+# 全站点位信息质量 · 持续审查
+
+生产数据基线：main `27bd4fe441008c13a05d34beaf725923575812d1`；每批另记开发起点。审计实际index加载的2010个地点、130个内部主题（77个可见入口）、330条方案、2218个地点/主题语境。766个不同地点出现在方案中。合并与线上状态以对应PR和Actions为准。
+
+## 当前覆盖与边界
+
+- 累计143处有本系列新增且逐项来源支持的阅读，5处保留简洁有用判断，3处记录人工读到的明确缺口。151个不同语境有当前人工判断；其余**2067个语境未在本系列逐项人工验收**。
+- 当前**91个未排除自动候选**，其中52处用于可见主题行程。候选是编辑优先队列，不等于已证实错误，也不是全站剩余问题上限。零信号或已有长文的主题仍需后续人工审阅。
+- 原始目录、坐标、来源链接、方案、收藏ID、图片字节及其许可保留；新增展开合并适用的原段落和原来源对象。此系列未替换图片，也未把别的艺术家阅读算成旧路线已补足。
+- 观察建议依据所列资料，不是现场考察；历史道路关系不等于现代可通行线路，机构旧资料不作为当前开放保证。
+
+## 分批研究记录
+
+| 批次 | 开发起点 | 新研究阅读 | 来源记录 | 资料与具体范围 |
+| --- | --- | ---: | ---: | --- |
+| 第2批 | `27bd4fe441008c13a05d34beaf725923575812d1` | 25 | 28 | [逐项文字和依据](../../../data/content-quality/batch-2.json)：25 researched readings in four existing themes; original summaries, links, imagery and IDs retained. Site observations are editorial suggestions based on the named evidence, not a field visit or live access certification. |
+| 第3批 | `043a6639b9ee363ab35643a861ba3c1dd2ccdd83` | 19 | 28 | [逐项文字和依据](../../../data/content-quality/batch-3.json)：19 tea/trade-network readings: 18 previously missing and one deepened; Rasuwagadhi remains a specific research gap. No media, original catalogue text, coordinates, routes or original source URLs replaced. |
+| 第4批 | `cee6490bef782542632a0e902e9e4c22d7454208` | 24 | 33 | [逐项文字和依据](../../../data/content-quality/batch-4.json)：Eight Mozart city contexts and all sixteen existing Via Francigena nodes. Seven Mozart and sixteen Francigena candidate contexts newly receive specific readings; Salzburg is deepened with prior content retained. No photos or geographic records replaced. |
+| 第5批 | `b2ee671336205206e9ab248e32e42439444e76d7` | 15 | 24 | [逐项文字和依据](../../../data/content-quality/batch-5.json)：All fifteen existing Route 66 city contexts, with fourteen previously unexpanded places and one Luna Lodge reading deepened. Distinguishes historic alignments, reused structures, present access and symbolic endpoints. No geographic or photo replacement. |
+| 第6批 | `191d764ca979e2b07905c4efaf5b2d4dc53d5775` | 17 | 32 | [逐项文字和依据](../../../data/content-quality/batch-6.json)：Nine existing Nakasendo contexts and eight Viking network contexts. Eleven previously unexpanded candidates and six deepened readings, separating original evidence, reconstruction, later maintenance, separate institutions and season-bound access. No geographic or photo replacement. |
+| 第7批 | `ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395` | 12 | 20 | [逐项文字和依据](../../../data/content-quality/batch-7.json)：First twelve existing French Way contexts, from Saint-Jean-Pied-de-Port through Santo Domingo de la Calzada. All twelve receive first dedicated expanded readings; eleven were automatic candidates, while the starting point already had a useful route-choice summary and was not an automatic candidate. Distinguishes relocated fabric, later buildings, reliquary legends, civic uses and access. No photo or geographic replacement. |
+| 第8批 | `ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395` | 21 | 43 | [逐项文字和依据](../../../data/content-quality/batch-8.json)：All twenty-one existing French Way contexts in Castilla y León, Belorado to Villafranca del Bierzo. Specific art, structures, canals, industrial reuse, agrarian life and distinct access points. All previously lacked dedicated expanded readings. No image or geographic replacement. |
+| 第9批 | `ab00cc8d45a9bccb2b4d6e768b7b9f08cf21a395` | 10 | 19 | [逐项文字和依据](../../../data/content-quality/batch-9.json)：All ten existing French Way contexts in Galicia, O Cebreiro to Santiago. First dedicated expanded readings for ten candidate contexts: mountain vernacular architecture, settlement landscapes, relocated church fabric, adaptive reuse, dairy origin and distinct museum locations. Preserves the San Xil/Samos distinction and all original routes, images and geographic records. |
+
+第二批三峡/熊野/佛教/NC500：25处，22处原无展开；第三批茶马及相关网络：19处，18处原无展开；第四批莫扎特8处与Via Francigena16处：24处，23处原无展开；第五批66号公路15处：14处原无展开；第六批中山道9处与维京8处：17处，11处原无展开；第七批法国之路前12处：11个原候选与已有较具体路线选择说明的起点；第八批卡斯蒂利亚—莱昂21处；第九批加利西亚10处。本次三个研究包共同交付，覆盖既有法国之路43处，全部新增首次专属展开，42处原为自动候选。雅安、萨尔茨堡等原资料合并保留，不重复声称新地点。第二批[原报告](batch-2.md)、第三批[原报告](batch-3.md)、第四批[原报告](batch-4.md)、第五批[原报告](batch-5.md)、第六批[原报告](batch-6.md)作为历史快照保留。
+
+法国之路三个研究包区分圣物匣与传说、近代迁装与原位遗存、大学与旧医院、工业改用与中世纪建筑、描绘或原属地与当前馆藏。补充高原谷物田、土坯、山地草顶民居、河桥、粮仓、运河船闸、煤电劳动与奶酪产区，兼顾自然条件与人的改造。部分直接来源响应500/503/403，研究包记明阅读路径；机构网页中的明显错年、旧人口或临时展讯不直接采用。
+
+## 法国之路第七至九批逐点证据
+
+| 主题与地点 | 阅读 | 主要依据 |
+| --- | --- | --- |
+| camino / `camino-saint-jean` | 山脚城门、雕刻门楣与近代城塞 | [巴斯克地区旅游局：街道、门楣与城塞的城市分层](https://www.en-pays-basque.fr/territoires-et-destinations/le-pays-de-saint-jean-pied-de-port/saint-jean-pied-de-port/) |
+| camino / `camino-roncesvalles` | 医院修院与“查理曼棋盘”的真正用途 | [纳瓦拉旅游局：修院、医院传统与多时期建筑](https://www.visitnavarra.es/es/roncesvalles) |
+| camino / `camino-zubiri` | 一座桥与阿尔加河谷里的生活 | [西班牙官方旅游：Puente de la Rabia及地方传说](https://www.spain.info/es/lugares-interes/puente-rabia/) |
+| camino / `camino-pamplona` | 同一座堂的哥特空间与新古典门面 | [潘普洛纳主教座堂：罗曼式遗构、哥特回廊与新古典立面分期](https://www.catedraldepamplona.com/historia/) |
+| camino / `camino-puente` | 桥拱中的水工，与街上的朝圣者形象 | [西班牙官方旅游：王后桥拱孔、泄洪与结构](https://www.spain.info/es/lugares-interes/puente-reina/) |
+| camino / `camino-estella` | 盘旋石柱、罗曼式宫邸与今日绘画馆 | [纳瓦拉旅游局：Estella回廊、民居建筑与今日博物馆](https://www.visitnavarra.es/es/estella-lizarra) |
+| camino / `camino-los-arcos` | 回廊窗格、管风琴与多时期的Santa María | [Los Arcos市政府：Santa María回廊窗格与16世纪建造](https://www.losarcos.es/parroquia-de-santa-maria-claustro/) |
+| camino / `camino-viana` | Santa María的舞台式门面与城市记忆 | [Viana市政府：Santa María文艺复兴门面与内部细部](https://www.viana.es/iglesia-de-santa-maria/) |
+| camino / `camino-logrono` | 教堂里的市政档案与广场上的大棋盘 | [Logroño官方旅游：Santiago el Real、市政档案与广场](https://visitalogrono.com/-/iglesia-de-santiago-el-real) |
+| camino / `camino-navarrete` | 医院遗址与迁到墓园的罗曼式门面 | [Navarrete市政府：1185年医院、13世纪构件与1887年迁装门面](https://www.navarrete.es/turismo/que-ver/conjunto-historico-artistico/) |
+| camino / `camino-najera` | 王室墓葬、木雕唱诗席与镂空回廊 | [西班牙官方旅游：Santa María la Real的墓葬、木雕和回廊](https://www.spain.info/es/lugares-interes/monasterio-santa-maria-real-najera/) |
+| camino / `camino-domingo` | 祭坛雕刻与活公鸡传统的两个层次 | [Santo Domingo座堂馆方：祭坛雕刻、建筑与公鸡传说展示](https://www.catedralsantodomingo.org/monumentos/catedral) |
+| camino / `camino-belorado` | 从旧城教堂走向粮仓里的无线电 | [卡斯蒂利亚—莱昂官方旅游：belorado](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/belorado) |
+| camino / `camino-ortega` | 修路者的接待机构与一组三联柱头 | [卡斯蒂利亚—莱昂官方旅游：san-juan-de-ortega](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/san-juan-de-ortega) |
+| camino / `camino-atapuerca` | 朝圣村落与史前遗址不是同一个入口 | [卡斯蒂利亚—莱昂官方旅游：atapuerca](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/atapuerca) |
+| camino / `camino-burgos` | 哥特座堂之外，再看Hospital del Rey | [卡斯蒂利亚—莱昂官方旅游：burgos](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/burgos) |
+| camino / `camino-hornillos` | 一条Calle Real怎样长成村落 | [卡斯蒂利亚—莱昂官方旅游：hornillos-del-camino](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/hornillos-del-camino) |
+| camino / `camino-castrojeriz` | 长街、山城与回廊的三种尺度 | [卡斯蒂利亚—莱昂官方旅游：castrojeriz](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/castrojeriz) |
+| camino / `camino-fromista` | 罗曼式石工与四级船闸的对照 | [帕伦西亚旅游局：San Martín体量、雕刻及修复](https://palenciaturismo.es/visitar/lugares-interes/san-martin-tours-fromista) |
+| camino / `camino-carrion` | Santiago立面的基督、使徒与工艺 | [卡斯蒂利亚—莱昂官方旅游：carrion-de-los-condes](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/carrion-de-los-condes) |
+| camino / `camino-terradillos` | 砖教堂里读不同年代的雕刻 | [帕伦西亚旅游局：San Pedro砖教堂与不同年代雕刻](https://palenciaturismo.es/visitar/localidades/terradillos-templarios) |
+| camino / `camino-sahagun` | 砖与石交接处的Mudéjar建筑 | [卡斯蒂利亚—莱昂官方旅游：sahagun](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/sahagun) |
+| camino / `camino-burgo-ranero` | 土坯乡村与一尊已移入莱昂的圣母像 | [朝圣之路市镇协会：El Burgo Ranero土坯建筑与乡村背景](https://www.amcsantiago.com/municipio/el-burgo-ranero/) |
+| camino / `camino-mansilla` | 卵石城墙与地方生活博物馆 | [卡斯蒂利亚—莱昂官方旅游：mansilla-de-las-mulas](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/mansilla-de-las-mulas) |
+| camino / `camino-leon` | 从彩窗的光走向原址壁画的农事历 | [卡斯蒂利亚—莱昂官方旅游：leon](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/leon) |
+| camino / `camino-san-martin` | 一座现代村教堂里的路线保护圣人 | [León官方旅游：现代石砖教堂与路线保护圣人](https://turisleon.com/lugares/san-martin-del-camino/) |
+| camino / `camino-orbigo` | 长石桥、接待医院与跨河生活 | [卡斯蒂利亚—莱昂官方旅游：hospital-de-orbigo](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/hospital-de-orbigo) |
+| camino / `camino-astorga` | 罗马住宅遗存与Gaudí的后世宫殿 | [卡斯蒂利亚—莱昂官方旅游：astorga](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/astorga) |
+| camino / `camino-rabanal` | 上山前，从后殿石工看Rabanal | [卡斯蒂利亚—莱昂官方旅游：rabanal-del-camino](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/rabanal-del-camino) |
+| camino / `camino-foncebadon` | 从旧接待传统走向仍在变化的山村 | [León官方旅游：Foncebadón医院传统与接待复苏](https://turisleon.com/lugares/foncebadon/) |
+| camino / `camino-molinaseca` | 过桥后沿Calle Real读居民建筑 | [León官方旅游：Molinaseca桥、主街与居民建筑](https://turisleon.com/lugares/molinaseca/) |
+| camino / `camino-ponferrada` | 多次扩建的城堡与煤电工厂的工人记忆 | [Ponferrada市政府：1178年接管与多阶段城堡扩建](https://www.ponferrada.org/turismo/es/monumentos/castillo-templarios) |
+| camino / `camino-villafranca` | 门面的石刻与屋顶的木构 | [卡斯蒂利亚—莱昂官方旅游：villafranca-del-bierzo](https://www.turismocastillayleon.com/en/heritage-culture/french-way-saint-james/villafranca-del-bierzo) |
+| camino / `camino-cebreiro` | 草顶民居怎样适应山地生活 | [加利西亚博物馆系统：O Cebreiro草顶民居与山地生活](https://museos.xunta.gal/es/cebreiro) |
+| camino / `camino-triacastela` | 旧医院与石灰石，把小镇连向座堂工程 | [加利西亚官方路线：Triacastela—San Xil与Samos分支](https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-san-xil) |
+| camino / `camino-san-xil` | 林荫旧道、现代泉与耕作聚落 | [Fundación ONCE：San Xil旧道、树种、村落与路面变化](https://caminodesantiago.fundaciononce.es/es/etapas/etapa-c27-triacastela-sarria-camino-de-santiago-frances) |
+| camino / `camino-sarria` | Calle Mayor上的旧城与跨时代教堂 | [Lugo省旅游机构：Sarria旧城、教堂、修院与河岸](https://turismo.deputacionlugo.gal/es/conece/cidades/sarria) |
+| camino / `camino-portomarin` | 水库迁镇后，石块重新组成的教堂 | [Portomarín市政府：San Xoán/San Nicolás结构、雕刻与迁建](https://concellodeportomarin.es/igrexa-san-xoan/) |
+| camino / `camino-palas` | 田牧与橡栗林之间，另访Pambre城堡 | [Xunta百科：Palas de Rei地形、河流、橡栗林与田牧地](https://egu.xunta.gal/gl/termo/162269/palas-de-rei) |
+| camino / `camino-melide` | 1949年礼拜堂里的中世纪门面 | [Melide官方旅游：1949年San Roque礼拜堂与迁用中世纪构件](https://www.turismomelide.com/index.php/es/descubre-melide/que-ver-en-melide/capilla-de-san-roque) |
+| camino / `camino-arzua` | 从奶酪产区读河桥与旧医院 | [Xunta百科：Arzúa-Ulloa产区与奶酪类型](https://egu.xunta.gal/es/termo/79203/arzua-ulloa) |
+| camino / `camino-pedrouzo` | 在Arca看方形粮仓与仍在使用的聚落 | [GDR Ulla Tambre Mandeo地方发展组织：Arca教堂、方形粮仓与聚落](https://gdrullatambremandeo.gal/turismo/rutas-ao-volante/ruta-del-ulla/) |
+| camino / `camino-santiago` | 在终点分开看石雕、后世立面与朝圣收藏 | [圣地亚哥座堂：Maestro Mateo与Pórtico de la Gloria](https://catedraldesantiago.es/portico-de-la-gloria/) |
+
+已合并批次的CI、截图Library身份与公网字节核对见[交付证据](../../../qa/content-quality/deliveries.json)。该文件只记录已经验证的历史发布，未列入的本地/PR批次仍应查对应CI状态。
+
+## 已明确仍需研究
+
+- `tea-rasuwa`：官方海关史PDF本轮返回503；现有移民机关与灾情门户不能代替古道或堡垒遗存证据，继续待研究，不用通关提示凑篇幅。
+- `silk-tashkent`、`silk-bukhara`：需要把贸易、学术关联落到具体建筑与街区。
+- 徐霞客、马可波罗、丝路等仍有较多候选；法国之路43处完成本批资料补充，不等于实地通行认证，按可见行程与明确薄弱点优先继续。安第斯Desaguadero–Titijoni与Tiwanacu已有展开但构筑物证据仍欠专门研究，不能因字数或无信号视作完成。
+
+## 质量方法与复核文件
+
+1. 依index顺序载入生产注册数据，遍历全部主题（含隐藏旧入口）；原基线[压缩快照](../../../qa/content-quality/baseline-2026-11-18.json.gz)不可覆盖。按实际主题语境取共享城市阅读，不拿人物网络替代旧路线。
+2. 空文、无HTTPS来源、短概要且无专属展开、跨主题回退、跨地点重复段落只产生信号。自动枚举不认证事实、许可或实时开放；这些需人工阅读。
+3. 人工核对特色、年代、地理、主题关联、原址/迁建/馆藏/现代复原与可观察对象。[人工记录](../../../qa/content-quality/manual-reviews.json)绑定文本和来源指纹，变化即失效。机构页面也可能有错误，不因官网身份自动采用所有说法。
+4. [逐语境CSV](../../../qa/content-quality/contexts.csv)列全部语境，[最新报告](../../../qa/content-quality/latest.json)列全部主题与方案；[旧候选原主题](../../../qa/content-quality/legacy-candidates.json)防止跨主题虚增完成量。
+5. 独立批次经`node scripts/build-quality-readings.cjs`生成同一生产bundle；`--check`验证未漂移。原数据逐字段、原图逐字节核对，适用的原阅读逐段和逐来源对象保留；只有明确的旧错主题回退可被有证据的新主题阅读替代。
+6. 真实Chromium检查每处新研究在桌面1440×1000和手机390×844的概要、两节、全部新来源与原链接、关闭返回及溢出；并回归主题隔离、前后站、收藏、刷新与旧链接。不等于实体手机实测或全站历史事实验收。
+
+## 历史226个候选的当前对照
+
+| 判断 | 数量 |
+| --- | ---: |
+| still-automatic-candidate | 91 |
+| useful-concise | 5 |
+| researched-batch-2 | 22 |
+| researched-batch-3 | 18 |
+| researched-batch-7 | 11 |
+| researched-batch-8 | 21 |
+| researched-batch-9 | 10 |
+| researched-batch-6 | 11 |
+| researched-batch-4 | 23 |
+| researched-batch-5 | 14 |
+
+旧226只是历史清单，不是今日全站范围。其他人物主题已有展开不冲销原路线缺口。候选减少来自具体研究或有用短文判断，不以加字数、链接数量或测试通过替代事实核查。
+
+## 全主题当前状态
+
+“语境”仅证明程序已枚举；“人工判断”才是本系列读过并记录结论的范围。
+
+| 主题ID | 名称 | 入口 | 语境 | 自动候选 | 人工判断 |
+| --- | --- | --- | ---: | ---: | ---: |
+| `nature` | 世界自然遗产 | 可见 | 282 | 4 | 1 |
+| `culture` | 世界文化遗产 | 可见 | 1033 | 19 | 4 |
+| `gorges` | 三峡古镇 | 可见 | 6 | 0 | 6 |
+| `parks` | 美国国家公园 | 可见 | 63 | 0 | 0 |
+| `tea` | 茶马古道 | 可见 | 20 | 1 | 20 |
+| `silk` | 丝绸之路 | 可见 | 26 | 25 | 2 |
+| `polo` | 马可波罗游记 | 可见 | 23 | 23 | 0 |
+| `xu` | 徐霞客全国游踪 | 可见 | 24 | 24 | 0 |
+| `kumano` | 熊野古道 | 可见 | 6 | 0 | 6 |
+| `camino` | 圣地亚哥朝圣之路 | 可见 | 43 | 0 | 43 |
+| `nakasendo` | 中山道 | 可见 | 9 | 0 | 9 |
+| `francigena` | 弗兰奇杰纳之路 | 可见 | 16 | 0 | 16 |
+| `andes` | 安第斯道路网 | 可见 | 10 | 0 | 0 |
+| `buddhist` | 佛教四大圣地 | 可见 | 4 | 0 | 4 |
+| `canal` | 中国大运河 | 可见 | 11 | 0 | 0 |
+| `viking` | 维京文化网络 | 可见 | 8 | 0 | 8 |
+| `impressionism` | 印象派的足迹 | 可见 | 15 | 0 | 0 |
+| `mozart` | 莫扎特的欧洲之旅 | 可见 | 8 | 0 | 8 |
+| `route66` | 美国 66 号公路 | 可见 | 15 | 0 | 15 |
+| `nc500` | 苏格兰北海岸 500 | 可见 | 11 | 0 | 9 |
+| `vangogh` | 梵高在法国 | 旧链接/搜索 | 6 | 0 | 0 |
+| `hokusai` | 北斋 · 富士山的多种看法 | 旧链接/搜索 | 6 | 0 | 0 |
+| `vermeer` | 维米尔 · 代尔夫特的光与日常 | 可见 | 4 | 0 | 0 |
+| `bach` | 巴赫 · 中德音乐地景 | 旧链接/搜索 | 6 | 0 | 0 |
+| `austen` | 简·奥斯汀 · 生活与小说地景 | 可见 | 6 | 0 | 0 |
+| `drive-china` | 中国沿边沿海公路 | 可见 | 30 | 0 | 0 |
+| `drive-northamerica` | 北美公路旅行 | 可见 | 28 | 0 | 0 |
+| `drive-europe` | 欧洲海岸与环岛公路 | 可见 | 13 | 0 | 0 |
+| `drive-southern` | 南半球海岸与峡湾 | 可见 | 17 | 0 | 0 |
+| `panamerican` | 泛美公路 | 可见 | 31 | 0 | 0 |
+| `gaudi` | 高迪的建筑世界 | 旧链接/搜索 | 3 | 0 | 0 |
+| `wright` | 赖特的乡野与沙漠 | 旧链接/搜索 | 2 | 0 | 0 |
+| `le-corbusier` | 勒·柯布西耶的跨国建筑 | 旧链接/搜索 | 3 | 0 | 0 |
+| `aalto` | 阿尔瓦·阿尔托建筑路线 | 旧链接/搜索 | 3 | 0 | 0 |
+| `ando` | 安藤忠雄的直岛 | 旧链接/搜索 | 3 | 0 | 0 |
+| `rodin` | 罗丹的工作室与花园 | 旧链接/搜索 | 2 | 0 | 0 |
+| `brancusi` | 布朗库西的城市雕塑与工作室 | 可见 | 4 | 0 | 0 |
+| `hepworth` | 赫普沃斯的圣艾夫斯 | 旧链接/搜索 | 2 | 0 | 0 |
+| `noguchi` | 野口勇的雕塑与庭园 | 旧链接/搜索 | 2 | 0 | 0 |
+| `giacometti` | 贾科梅蒂的山谷与巴黎 | 可见 | 4 | 0 | 0 |
+| `henry-moore` | 亨利·摩尔的雕塑景观 | 旧链接/搜索 | 2 | 0 | 0 |
+| `utah-land-art` | 犹他大地艺术：史密森与霍尔特 | 旧链接/搜索 | 2 | 0 | 0 |
+| `turner` | 透纳的意大利旅行 | 旧链接/搜索 | 3 | 0 | 0 |
+| `cezanne` | 塞尚的普罗旺斯 | 旧链接/搜索 | 3 | 0 | 0 |
+| `dali` | 达利三角 | 旧链接/搜索 | 3 | 0 | 0 |
+| `matisse` | 马蒂斯的尼斯与旺斯 | 旧链接/搜索 | 2 | 0 | 0 |
+| `munch` | 蒙克的海岸与居所 | 可见 | 3 | 0 | 0 |
+| `okeeffe` | 奥姬芙的新墨西哥 | 旧链接/搜索 | 2 | 0 | 0 |
+| `hiroshige` | 广重的东海道 | 旧链接/搜索 | 2 | 0 | 0 |
+| `gauguin` | 高更的跨洋迁居 | 可见 | 4 | 0 | 0 |
+| `chagall` | 夏加尔的故乡与南法 | 可见 | 5 | 0 | 0 |
+| `sorolla` | 索罗亚的西班牙 | 旧链接/搜索 | 2 | 0 | 0 |
+| `constable` | 康斯太勃尔乡野 | 旧链接/搜索 | 3 | 0 | 0 |
+| `zhang-daqian` | 张大千的游历与园林 | 可见 | 4 | 0 | 0 |
+| `picasso` | 毕加索的城市生活 | 旧链接/搜索 | 2 | 0 | 0 |
+| `frida` | 弗里达的墨西哥与美国 | 旧链接/搜索 | 3 | 0 | 0 |
+| `wu-guanzhong` | 吴冠中的游历与写生 | 旧链接/搜索 | 3 | 0 | 0 |
+| `qi-baishi` | 齐白石的五出五归 | 可见 | 3 | 0 | 0 |
+| `huang-binhong` | 黄宾虹的山水纪游 | 旧链接/搜索 | 2 | 0 | 0 |
+| `feng-zikai` | 丰子恺的生活与迁徙 | 旧链接/搜索 | 3 | 0 | 0 |
+| `higashiyama` | 东山魁夷的风景旅行 | 旧链接/搜索 | 3 | 0 | 0 |
+| `rivera` | 里维拉的壁画地理 | 旧链接/搜索 | 4 | 0 | 0 |
+| `ansel-adams` | 安塞尔·亚当斯的国家公园摄影 | 旧链接/搜索 | 2 | 0 | 0 |
+| `cartier-bresson` | 布列松的城市摄影 | 可见 | 3 | 0 | 0 |
+| `lee-miller` | 李·米勒的摄影与旅居 | 旧链接/搜索 | 2 | 0 | 0 |
+| `sugimoto` | 杉本博司的观看与空间 | 旧链接/搜索 | 2 | 0 | 0 |
+| `christo-jeanneclaude` | 克里斯托与珍妮-克劳德的临时作品 | 可见 | 4 | 0 | 0 |
+| `turrell` | 特瑞尔的光与天空 | 旧链接/搜索 | 2 | 0 | 0 |
+| `beethoven` | 贝多芬的居住地图 | 旧链接/搜索 | 2 | 0 | 0 |
+| `chopin` | 肖邦与乔治·桑 | 可见 | 4 | 0 | 0 |
+| `liszt` | 李斯特的欧洲居所 | 旧链接/搜索 | 2 | 0 | 0 |
+| `schumanns` | 克拉拉与罗伯特·舒曼 | 旧链接/搜索 | 2 | 0 | 0 |
+| `wagner` | 瓦格纳的琉森与拜罗伊特 | 旧链接/搜索 | 2 | 0 | 0 |
+| `mahler` | 马勒的作曲小屋 | 旧链接/搜索 | 2 | 0 | 0 |
+| `dvorak` | 德沃夏克的美国经历 | 可见 | 4 | 0 | 0 |
+| `sibelius` | 西贝柳斯的芬兰 | 可见 | 3 | 0 | 0 |
+| `grieg` | 卑尔根：格里格与近郊音乐家园 | 可见 | 3 | 0 | 0 |
+| `mendelssohn` | 门德尔松：莱比锡与苏格兰 | 可见 | 4 | 0 | 0 |
+| `puccini` | 普契尼的托斯卡纳 | 旧链接/搜索 | 5 | 0 | 0 |
+| `handel` | 亨德尔的音乐城市 | 旧链接/搜索 | 2 | 0 | 0 |
+| `su-shi` | 苏轼的任职与贬谪 | 可见 | 10 | 0 | 0 |
+| `li-bai` | 李白的山川游历 | 旧链接/搜索 | 2 | 0 | 0 |
+| `du-fu` | 杜甫的漂泊 | 旧链接/搜索 | 2 | 0 | 0 |
+| `wang-wei` | 蓝田与终南：王维山水和附近古寺 | 可见 | 3 | 0 | 0 |
+| `bai-juyi` | 白居易的城市与山水 | 旧链接/搜索 | 2 | 0 | 0 |
+| `lu-you` | 陆游《入蜀记》 | 旧链接/搜索 | 2 | 0 | 0 |
+| `shen-congwen` | 湘西：沿沅水读沈从文 | 可见 | 4 | 0 | 0 |
+| `xiao-hong` | 呼兰与哈尔滨：萧红的生活与写作 | 可见 | 4 | 0 | 0 |
+| `basho` | 芭蕉《奥之细道》 | 旧链接/搜索 | 2 | 0 | 0 |
+| `kawabata` | 川端康成的文学地景 | 旧链接/搜索 | 2 | 0 | 0 |
+| `soseki` | 夏目漱石的迁居与留学 | 旧链接/搜索 | 3 | 0 | 0 |
+| `goethe` | 歌德《意大利游记》 | 旧链接/搜索 | 2 | 0 | 0 |
+| `hugo` | 雨果的巴黎与流亡 | 旧链接/搜索 | 3 | 0 | 0 |
+| `byron` | 拜伦的湖畔与希腊 | 可见 | 4 | 0 | 0 |
+| `wordsworth` | 华兹华斯的湖区 | 旧链接/搜索 | 4 | 0 | 0 |
+| `dickens` | 狄更斯的英国 | 旧链接/搜索 | 2 | 0 | 0 |
+| `kafka` | 卡夫卡的城市与生活 | 可见 | 4 | 0 | 0 |
+| `joyce` | 乔伊斯的城市网络 | 可见 | 4 | 0 | 0 |
+| `proust` | 普鲁斯特的记忆地景 | 旧链接/搜索 | 4 | 0 | 0 |
+| `hemingway` | 海明威的跨国生活 | 可见 | 4 | 0 | 0 |
+| `steinbeck` | 斯坦贝克的加州与公路 | 旧链接/搜索 | 4 | 0 | 0 |
+| `mark-twain` | 马克·吐温：河岸、书房与文学邻居 | 可见 | 4 | 0 | 0 |
+| `neruda` | 智利中部：聂鲁达的房屋与港城海岸 | 可见 | 4 | 0 | 0 |
+| `marquez` | 哥伦比亚加勒比：马尔克斯、家屋与湿地 | 可见 | 4 | 0 | 0 |
+| `tagore` | 泰戈尔的孟加拉世界 | 可见 | 4 | 0 | 0 |
+| `mahfouz` | 马哈福兹的开罗 | 旧链接/搜索 | 2 | 0 | 0 |
+| `modern-architecture` | 现代建筑：居住与地景 | 可见 | 8 | 0 | 0 |
+| `setouchi-art` | 日本艺境：山水、光与空间 | 可见 | 14 | 0 | 0 |
+| `paris-sculpture` | 巴黎：艺术家的工作室、画院与收藏 | 可见 | 8 | 0 | 0 |
+| `southern-france-painters` | 南法画境：从普罗旺斯到蔚蓝海岸 | 可见 | 9 | 0 | 0 |
+| `barcelona-art` | 西班牙艺境：城市、海岸与家屋 | 可见 | 12 | 0 | 0 |
+| `fuji-tokaido` | 富士与东海道：北斋、广重的风景 | 可见 | 7 | 0 | 0 |
+| `jiangnan-painting` | 江南画家：水乡、山水与日常 | 可见 | 6 | 0 | 0 |
+| `mexico-city-art` | 墨西哥城：弗里达与里维拉 | 可见 | 4 | 0 | 0 |
+| `detroit-art` | 底特律：弗里达、里维拉与工业城市 | 可见 | 3 | 0 | 0 |
+| `european-music-cities` | 欧洲音乐城市：房间、舞台与创作 | 可见 | 19 | 0 | 0 |
+| `italian-art-journeys` | 意大利艺旅：城市、音乐与山水 | 可见 | 9 | 0 | 0 |
+| `jiangnan-poetry` | 江南诗路：水城与山川 | 可见 | 5 | 0 | 0 |
+| `american-west-art` | 美国西部：地貌、艺术与文学 | 可见 | 15 | 0 | 0 |
+| `east-coast-art` | 纽约与华盛顿：跨洋艺术的收藏与庭园 | 可见 | 5 | 0 | 0 |
+| `british-sculpture` | 英国雕塑：从约克郡到海岸与花园 | 可见 | 6 | 0 | 0 |
+| `japan-literary-landscapes` | 日本文学：山寺、温泉与书斋 | 可见 | 8 | 0 | 0 |
+| `southeast-england-creative` | 英格兰东南：创作的房间、花园与海岸 | 可见 | 7 | 0 | 0 |
+| `cairo-city-stories` | 开罗：街巷、小说与摄影 | 可见 | 4 | 0 | 0 |
+| `yangtze-writing` | 长江与入蜀：诗文、迁徙与城市 | 可见 | 6 | 0 | 0 |
+| `english-landscapes` | 英格兰风景：河谷画境与湖区诗歌 | 可见 | 7 | 0 | 0 |
+| `paris-normandy-writing` | 巴黎、诺曼底与根西岛：书房和海岸 | 可见 | 7 | 0 | 0 |
+| `canadian-rockies` | 加拿大落基山 | 可见 | 8 | 0 | 0 |
+| `nz-great-walks` | 新西兰南岛 · 三条 Great Walks | 可见 | 17 | 0 | 0 |
+| `patagonia-nature` | 巴塔哥尼亚 · 冰川与塔峰 | 可见 | 14 | 0 | 0 |

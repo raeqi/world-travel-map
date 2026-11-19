@@ -1,7 +1,7 @@
 name: Place content quality checks
 on:
   pull_request:
-    paths: ['index.html','reading.js','cultural-atlas.js','quality-readings*.js','data/content-quality/**','qa/content-quality/**','scripts/content-quality-runtime.cjs','scripts/content-quality-packs.cjs','scripts/build-quality-readings.cjs','scripts/audit-content.cjs','scripts/check-content-quality.cjs','tests/content-quality.test.cjs','.github/workflows/content-quality.yml']
+    paths: ['index.html','reading.js','cultural-atlas.js','quality-readings*.js','data/content-quality/**','qa/content-quality/**','scripts/content-quality-runtime.cjs','scripts/content-quality-packs.cjs','scripts/docs-paths.cjs','scripts/write-content-quality-report.cjs','docs/content-quality/README.md','scripts/build-quality-readings.cjs','scripts/audit-content.cjs','scripts/check-content-quality.cjs','tests/content-quality.test.cjs','.github/workflows/content-quality.yml']
   workflow_dispatch:
 jobs:
   content:
@@ -19,7 +19,7 @@ jobs:
         run: |
           node scripts/audit-content.cjs --write
           node scripts/write-content-quality-report.cjs
-          git diff --exit-code -- qa/content-quality/latest.json qa/content-quality/contexts.csv CONTENT-QUALITY.md
+          git diff --exit-code -- qa/content-quality/latest.json qa/content-quality/contexts.csv CONTENT-QUALITY.md docs/content-quality/README.md
       - name: Install isolated browser tools
         run: |
           npm install --prefix /tmp/content-tools --no-save playwright@1.56.1

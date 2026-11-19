@@ -1,52 +1,5 @@
 # 全站点位质量 · 第十三批徐霞客
 
-开发起点 main `2d2c9b3586de2cda93fde3202d497981eac0e32e`。24处既有点位首次专属阅读，34条逐项来源记录；自然、水系、建筑与人文使用同等细读。不是现场考察或复原现代可走路线。
+此文档已迁移至 [docs/content-quality/batches/batch-13.md](docs/content-quality/batches/batch-13.md)。旧路径保留为兼容入口；请在新位置阅读和维护。
 
-## 具体修补
-
-- 雁荡山：火山岩地貌及地质调查机构对大龙湫水源的复核。
-- 开封、郑州、北京：古日记行旅区域与现代考古展示分开，明确非个人到访证明。
-- 嵩山、少林、龙门：细读原日记的树、碑、河流和山势，与今天分散建筑及石刻对照。
-- 武当：1416年金殿的铸铜仿木构，与更早铜殿分别理解。
-- 丽江：木府1997—1999年重建与展示复制品不写成明代原屋原物。
-- 剑川：盆地观察、院落形式与木作，南城门重建和私宅边界。
-- 洱源：地下涌泉与湿地，现代书院塑像保留创作者身份。
-- 保山：高处洼地与驿路；霁虹桥的原址保护、异地石刻复制。
-- 腾冲：沸泉、喷气、泉华与火山锥、柱状节理分别安排，不采纳旅游材料医疗效用。
-
-## 保留与未覆盖
-
-全部原地点、坐标、概要、链接、图片字节及许可、六条方案与收藏ID保留；不将不同年份的旅行连成一次，不猜测古路精确坐标。机构资料的明显错字、纪年冲突、未确定旧地名与宣传转述逐项记录取舍，不以“官网”作为全盘采信理由。所用原日记为在线转录，五台章仅开篇实际可读段，不声称完整版本校勘。
-
-累计215处研究阅读、216个当前人工判断；24个候选仍待研究，其中11处用于可见行程，2002个语境未在本系列逐项人工验收。马可波罗23处和Rasuwa是当前自动优先队列，不是全部问题上限。其他已有长文语境仍需后续人工评估。
-
-## 验证
-
-本地59项测试通过，生成bundle、语法、diff检查通过；三项原资料保留审计与两组DOM检查见本批校验输出。真实Chromium详情将覆盖累计215处×桌面1440×1000/手机390×844，结果以本批PR Actions及截图artifact为准，不提前宣称通过。
-
-| 点位 | 阅读 | 证据 |
-| --- | --- | --- |
-| `xu-tiantai` | 在石梁与山溪之间，读1613年的山地观察 | [国家林草局/浙江林业局：天台霞客古道的山地与石梁段](https://www.forestry.gov.cn/c/www/dfdt/542885.jhtml) |
-| `xu-yandang` | 从火山岩形状，追问大龙湫的水从哪里来 | [中国地质调查局南京中心：流纹岩地貌与大龙湫水源复核](https://www.cgs.gov.cn/ywdt/dwdt/201704/t20170406_827710.html) |
-| `xu-qiyun` | 白岳的红色崖壁，接上刻石与月华街 | [徐霞客研究会所载齐云山实地考察：丹霞、崖刻与道观](https://cnxxk.com.cn/list_15/55.html) |
-| `xu-huangshan` | 两次游黄山，读花岗岩、松林与不同视点 | [UNESCO：花岗岩、松林与山水审美](https://whc.unesco.org/en/list/547/) |
-| `xu-wuyi` | 九曲溪的红砂岩，与沿水展开的学习空间 | [UNESCO：九曲溪红砂岩与书院、保护区分区](https://whc.unesco.org/en/list/911/) |
-| `xu-lushan` | 山、江、湖之间，分开看书院与近代别墅 | [UNESCO：山江湖景观、书院与近代别墅](https://whc.unesco.org/en/list/778/) |
-| `xu-kaifeng` | 从平原视野，回看州桥下叠压的城市 | [徐霞客《游嵩山日记》原文：平原、水石、太室、少室与伊阙](https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx) |
-| `xu-zhengzhou` | 沿路水石观察之外，另读城市的夯土历史 | [徐霞客《游嵩山日记》原文：平原、水石、太室、少室与伊阙](https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx) |
-| `xu-xinmi` | 密县的古树记述，与旧城院落的后来层次 | [徐霞客《游嵩山日记》原文：平原、水石、太室、少室与伊阙](https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx) |
-| `xu-songshan` | 太室、少室与告成，把山水和测影分别读 | [徐霞客《游嵩山日记》原文：平原、水石、太室、少室与伊阙](https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx) |
-| `xu-shaolin` | 从碑刻、寺院和少室山，读三种尺度 | [徐霞客《游嵩山日记》原文：平原、水石、太室、少室与伊阙](https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx) |
-| `xu-longmen` | 伊水两岸，读山门地形与满崖造像 | [徐霞客《游嵩山日记》原文：平原、水石、太室、少室与伊阙](https://m.gushiwen.cn/guwen/bookv_a776ea1bd3d8.aspx) |
-| `xu-huashan` | 花岗岩峰形与石片如莲，读太华的观察 | [渭南地方机构所载：华山花岗岩峰形与徐霞客西峰记述](https://weinan.qinfeng.gov.cn/info/1095/36343.htm) |
-| `xu-wudang` | 在太和山，分辨铜殿、宫观与山势 | [UNESCO：多期道教建筑与山地布局](https://whc.unesco.org/en/list/705/) |
-| `xu-beijing` | 1633年出都之前，另看城市水关的层次 | [徐霞客《游五台山日记》开篇：出都与山溪辨源](https://zh.wikisource.org/zh-hans/徐霞客遊記/遊五台山日記) |
-| `xu-wutai` | 五个台顶与寺院地带，保留北游的空间差别 | [徐霞客《游五台山日记》开篇：出都与山溪辨源](https://zh.wikisource.org/zh-hans/徐霞客遊記/遊五台山日記) |
-| `xu-hengshan` | 北游名山，与后来移祀和纪念空间分开 | [恒山管理中心：1633年北游、移祀年代及古路线不确定处](https://www.byhs.net.cn/news_detial/11.html) |
-| `xu-jizu` | 山中停留，不只有登顶还有友谊与修志 | [江阴徐霞客研究会：鸡足山多次停留、静闻与修志](https://cnxxk.com.cn/list_32/1636.html) |
-| `xu-lijiang` | 与木氏往来，今日木府先认清重建层 | [云南省图书馆数字平台：木府后世毁损与1990年代重建](https://www.ynscsp.cn/nd.jsp?fromColId=2&id=28835) |
-| `xu-jianchuan` | 从金华山看盆地，再读城镇与山路 | [张建术《中国国家地理》实地重访：剑川金华山与盆地](https://www.dili360.com/cng/article/p5350c3d6a1dc906.htm) |
-| `xu-eryuan` | 茈碧湖涌泉与湿地，再看现代纪念的作者 | [云南林草局湿地处：茈碧湖湿地、涌泉与生态](https://lcj.yn.gov.cn/special/2025/0813/6962.html) |
-| `xu-dali` | 苍山的岩石，洱海的断陷与湖滨生活 | [宁德世界地质公园：苍山变质岩、冰川地貌与洱海断陷](https://www.nd-geopark.com/hezuojiaoliu/492.html) |
-| `xu-baoshan` | 桥、山顶洼地与驿铺，分清原址和迁移复制 | [保山市政府：水寨地形、平坡铺与霁虹桥迁移复制](https://www.baoshan.gov.cn/info/1015/9379394.htm) |
-| `xu-tengchong` | 沸泉、气孔和火山锥，读滇西的热与岩 | [保山市文旅局：腾冲火山、热海、泉华与喷气孔](https://baoshan.gov.cn/info/7792/2345334.htm) |
+[文档总览](docs/README.md) · [项目首页](README.md)

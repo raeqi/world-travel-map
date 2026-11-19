@@ -1,0 +1,969 @@
+{
+  "schemaVersion": 1,
+  "scope": "Production scripts loaded in index.html order; plans deduplicated by stable ID; visible plans are registered associations, not a claim of homepage featured-card count.",
+  "places": 2030,
+  "visibleThemes": 62,
+  "internalThemes": 135,
+  "uniquePlanIds": 356,
+  "planAssociations": 382,
+  "visibleUniquePlanIds": 271,
+  "missingCoordinates": [
+    {
+      "id": "wh-1567",
+      "name": "第一次世界大战（西线）的墓葬和纪念场所"
+    }
+  ],
+  "rawSnapshotMissingCoordinates": 38,
+  "supplementedRawCoordinates": 37,
+  "artworks": {
+    "impressionist": 8,
+    "vanGogh": 8
+  },
+  "themes": [
+    {
+      "id": "nature",
+      "name": "世界自然遗产",
+      "visible": true,
+      "places": 282,
+      "planAssociations": 8
+    },
+    {
+      "id": "culture",
+      "name": "世界文化遗产",
+      "visible": true,
+      "places": 1033,
+      "planAssociations": 11
+    },
+    {
+      "id": "gorges",
+      "name": "三峡古镇",
+      "visible": true,
+      "places": 6,
+      "planAssociations": 6
+    },
+    {
+      "id": "parks",
+      "name": "美国国家公园",
+      "visible": true,
+      "places": 63,
+      "planAssociations": 9
+    },
+    {
+      "id": "tea",
+      "name": "茶马古道",
+      "visible": true,
+      "places": 20,
+      "planAssociations": 9
+    },
+    {
+      "id": "silk",
+      "name": "丝绸之路",
+      "visible": true,
+      "places": 26,
+      "planAssociations": 5
+    },
+    {
+      "id": "polo",
+      "name": "马可波罗游记",
+      "visible": true,
+      "places": 23,
+      "planAssociations": 5
+    },
+    {
+      "id": "xu",
+      "name": "徐霞客全国游踪",
+      "visible": true,
+      "places": 24,
+      "planAssociations": 6
+    },
+    {
+      "id": "kumano",
+      "name": "熊野古道",
+      "visible": true,
+      "places": 6,
+      "planAssociations": 3
+    },
+    {
+      "id": "camino",
+      "name": "圣地亚哥朝圣之路",
+      "visible": true,
+      "places": 43,
+      "planAssociations": 3
+    },
+    {
+      "id": "nakasendo",
+      "name": "中山道",
+      "visible": true,
+      "places": 9,
+      "planAssociations": 3
+    },
+    {
+      "id": "francigena",
+      "name": "弗兰奇杰纳之路",
+      "visible": true,
+      "places": 16,
+      "planAssociations": 3
+    },
+    {
+      "id": "andes",
+      "name": "安第斯道路网",
+      "visible": true,
+      "places": 10,
+      "planAssociations": 3
+    },
+    {
+      "id": "buddhist",
+      "name": "佛教四大圣地",
+      "visible": true,
+      "places": 4,
+      "planAssociations": 2
+    },
+    {
+      "id": "canal",
+      "name": "中国大运河",
+      "visible": true,
+      "places": 11,
+      "planAssociations": 3
+    },
+    {
+      "id": "viking",
+      "name": "维京文化网络",
+      "visible": true,
+      "places": 8,
+      "planAssociations": 3
+    },
+    {
+      "id": "impressionism",
+      "name": "印象派的足迹",
+      "visible": true,
+      "places": 15,
+      "planAssociations": 3
+    },
+    {
+      "id": "mozart",
+      "name": "莫扎特的欧洲之旅",
+      "visible": false,
+      "places": 8,
+      "planAssociations": 3
+    },
+    {
+      "id": "route66",
+      "name": "美国 66 号公路",
+      "visible": true,
+      "places": 15,
+      "planAssociations": 3
+    },
+    {
+      "id": "nc500",
+      "name": "苏格兰北海岸 500",
+      "visible": true,
+      "places": 11,
+      "planAssociations": 2
+    },
+    {
+      "id": "vangogh",
+      "name": "梵高在法国",
+      "visible": false,
+      "places": 6,
+      "planAssociations": 2
+    },
+    {
+      "id": "hokusai",
+      "name": "北斋 · 富士山的多种看法",
+      "visible": false,
+      "places": 6,
+      "planAssociations": 3
+    },
+    {
+      "id": "vermeer",
+      "name": "荷兰黄金时代艺术：代尔夫特、海牙与阿姆斯特丹",
+      "visible": true,
+      "places": 5,
+      "planAssociations": 3
+    },
+    {
+      "id": "bach",
+      "name": "巴赫 · 中德音乐地景",
+      "visible": false,
+      "places": 6,
+      "planAssociations": 2
+    },
+    {
+      "id": "austen",
+      "name": "简·奥斯汀 · 生活与小说地景",
+      "visible": false,
+      "places": 6,
+      "planAssociations": 3
+    },
+    {
+      "id": "drive-china",
+      "name": "中国沿边沿海公路",
+      "visible": true,
+      "places": 30,
+      "planAssociations": 6
+    },
+    {
+      "id": "drive-northamerica",
+      "name": "北美公路旅行",
+      "visible": true,
+      "places": 28,
+      "planAssociations": 5
+    },
+    {
+      "id": "drive-europe",
+      "name": "欧洲海岸与环岛公路",
+      "visible": true,
+      "places": 13,
+      "planAssociations": 2
+    },
+    {
+      "id": "drive-southern",
+      "name": "南半球海岸与峡湾",
+      "visible": true,
+      "places": 17,
+      "planAssociations": 3
+    },
+    {
+      "id": "panamerican",
+      "name": "泛美公路",
+      "visible": true,
+      "places": 31,
+      "planAssociations": 7
+    },
+    {
+      "id": "gaudi",
+      "name": "高迪的建筑世界",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 1
+    },
+    {
+      "id": "wright",
+      "name": "赖特的乡野与沙漠",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "le-corbusier",
+      "name": "勒·柯布西耶的跨国建筑",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 1
+    },
+    {
+      "id": "aalto",
+      "name": "阿尔瓦·阿尔托建筑路线",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 1
+    },
+    {
+      "id": "ando",
+      "name": "安藤忠雄的直岛",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 1
+    },
+    {
+      "id": "rodin",
+      "name": "罗丹的工作室与花园",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "brancusi",
+      "name": "布朗库西的城市雕塑与工作室",
+      "visible": false,
+      "places": 4,
+      "planAssociations": 3
+    },
+    {
+      "id": "hepworth",
+      "name": "赫普沃斯的圣艾夫斯",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "noguchi",
+      "name": "野口勇的雕塑与庭园",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "giacometti",
+      "name": "贾科梅蒂的山谷与巴黎",
+      "visible": false,
+      "places": 4,
+      "planAssociations": 3
+    },
+    {
+      "id": "henry-moore",
+      "name": "亨利·摩尔的雕塑景观",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "utah-land-art",
+      "name": "犹他大地艺术：史密森与霍尔特",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "turner",
+      "name": "透纳的意大利旅行",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 1
+    },
+    {
+      "id": "cezanne",
+      "name": "塞尚的普罗旺斯",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 1
+    },
+    {
+      "id": "dali",
+      "name": "达利三角",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 1
+    },
+    {
+      "id": "matisse",
+      "name": "马蒂斯的尼斯与旺斯",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "munch",
+      "name": "蒙克的海岸与居所",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 2
+    },
+    {
+      "id": "okeeffe",
+      "name": "奥姬芙的新墨西哥",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "hiroshige",
+      "name": "广重的东海道",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "gauguin",
+      "name": "高更的地方：布列塔尼、阿尔勒与太平洋",
+      "visible": true,
+      "places": 5,
+      "planAssociations": 3
+    },
+    {
+      "id": "chagall",
+      "name": "夏加尔的故乡与南法",
+      "visible": true,
+      "places": 5,
+      "planAssociations": 3
+    },
+    {
+      "id": "sorolla",
+      "name": "索罗亚的西班牙",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "constable",
+      "name": "康斯太勃尔乡野",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 1
+    },
+    {
+      "id": "zhang-daqian",
+      "name": "张大千的游历与园林",
+      "visible": false,
+      "places": 5,
+      "planAssociations": 3
+    },
+    {
+      "id": "picasso",
+      "name": "毕加索的城市生活",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "frida",
+      "name": "弗里达的墨西哥与美国",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 1
+    },
+    {
+      "id": "wu-guanzhong",
+      "name": "吴冠中的游历与写生",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 1
+    },
+    {
+      "id": "qi-baishi",
+      "name": "齐白石的五出五归",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 2
+    },
+    {
+      "id": "huang-binhong",
+      "name": "黄宾虹的山水纪游",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "feng-zikai",
+      "name": "丰子恺的生活与迁徙",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 1
+    },
+    {
+      "id": "higashiyama",
+      "name": "东山魁夷的风景旅行",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 2
+    },
+    {
+      "id": "rivera",
+      "name": "里维拉的壁画地理",
+      "visible": false,
+      "places": 4,
+      "planAssociations": 1
+    },
+    {
+      "id": "ansel-adams",
+      "name": "安塞尔·亚当斯的国家公园摄影",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "cartier-bresson",
+      "name": "布列松的城市摄影",
+      "visible": true,
+      "places": 3,
+      "planAssociations": 2
+    },
+    {
+      "id": "lee-miller",
+      "name": "李·米勒的摄影与旅居",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "sugimoto",
+      "name": "杉本博司的观看与空间",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "christo-jeanneclaude",
+      "name": "克里斯托与珍妮-克劳德的临时作品",
+      "visible": false,
+      "places": 4,
+      "planAssociations": 2
+    },
+    {
+      "id": "turrell",
+      "name": "特瑞尔的光与天空",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "beethoven",
+      "name": "贝多芬的居住地图",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "chopin",
+      "name": "肖邦与乔治·桑",
+      "visible": false,
+      "places": 4,
+      "planAssociations": 2
+    },
+    {
+      "id": "liszt",
+      "name": "李斯特的欧洲居所",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "schumanns",
+      "name": "克拉拉与罗伯特·舒曼",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "wagner",
+      "name": "瓦格纳的琉森与拜罗伊特",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "mahler",
+      "name": "马勒的作曲小屋",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "dvorak",
+      "name": "德沃夏克的美国经历",
+      "visible": false,
+      "places": 4,
+      "planAssociations": 2
+    },
+    {
+      "id": "sibelius",
+      "name": "西贝柳斯的芬兰",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 2
+    },
+    {
+      "id": "grieg",
+      "name": "卑尔根：格里格与近郊音乐家园",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 2
+    },
+    {
+      "id": "mendelssohn",
+      "name": "门德尔松：莱比锡与苏格兰",
+      "visible": false,
+      "places": 4,
+      "planAssociations": 2
+    },
+    {
+      "id": "puccini",
+      "name": "普契尼的托斯卡纳",
+      "visible": false,
+      "places": 5,
+      "planAssociations": 1
+    },
+    {
+      "id": "handel",
+      "name": "亨德尔的音乐城市",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "su-shi",
+      "name": "苏轼的任职与贬谪",
+      "visible": true,
+      "places": 10,
+      "planAssociations": 6
+    },
+    {
+      "id": "li-bai",
+      "name": "李白的山川游历",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "du-fu",
+      "name": "杜甫的漂泊",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "wang-wei",
+      "name": "蓝田与终南：王维诗境和长安南郊",
+      "visible": true,
+      "places": 4,
+      "planAssociations": 2
+    },
+    {
+      "id": "bai-juyi",
+      "name": "白居易的城市与山水",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "lu-you",
+      "name": "陆游《入蜀记》",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "shen-congwen",
+      "name": "湘西：沈从文的故居、街巷与沅水",
+      "visible": true,
+      "places": 5,
+      "planAssociations": 3
+    },
+    {
+      "id": "xiao-hong",
+      "name": "呼兰与哈尔滨：萧红的生活、写作与纪念",
+      "visible": true,
+      "places": 5,
+      "planAssociations": 3
+    },
+    {
+      "id": "basho",
+      "name": "芭蕉《奥之细道》",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "kawabata",
+      "name": "川端康成的文学地景",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "soseki",
+      "name": "夏目漱石的迁居与留学",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 1
+    },
+    {
+      "id": "goethe",
+      "name": "歌德《意大利游记》",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "hugo",
+      "name": "雨果的巴黎与流亡",
+      "visible": false,
+      "places": 3,
+      "planAssociations": 1
+    },
+    {
+      "id": "byron",
+      "name": "拜伦的湖畔与希腊",
+      "visible": true,
+      "places": 4,
+      "planAssociations": 3
+    },
+    {
+      "id": "wordsworth",
+      "name": "华兹华斯的湖区",
+      "visible": false,
+      "places": 4,
+      "planAssociations": 1
+    },
+    {
+      "id": "dickens",
+      "name": "狄更斯的英国",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "kafka",
+      "name": "布拉格的卡夫卡：街巷、书写与墓园",
+      "visible": true,
+      "places": 5,
+      "planAssociations": 3
+    },
+    {
+      "id": "joyce",
+      "name": "乔伊斯的城市网络",
+      "visible": true,
+      "places": 4,
+      "planAssociations": 3
+    },
+    {
+      "id": "proust",
+      "name": "普鲁斯特的记忆地景",
+      "visible": false,
+      "places": 4,
+      "planAssociations": 1
+    },
+    {
+      "id": "hemingway",
+      "name": "海明威的跨国生活",
+      "visible": false,
+      "places": 4,
+      "planAssociations": 3
+    },
+    {
+      "id": "steinbeck",
+      "name": "斯坦贝克的加州与公路",
+      "visible": false,
+      "places": 4,
+      "planAssociations": 1
+    },
+    {
+      "id": "mark-twain",
+      "name": "马克·吐温：河岸、书房与文学邻居",
+      "visible": false,
+      "places": 5,
+      "planAssociations": 3
+    },
+    {
+      "id": "neruda",
+      "name": "智利中部：聂鲁达的家、港城与艺术",
+      "visible": true,
+      "places": 5,
+      "planAssociations": 4
+    },
+    {
+      "id": "marquez",
+      "name": "哥伦比亚加勒比：马尔克斯与地方生活",
+      "visible": true,
+      "places": 5,
+      "planAssociations": 4
+    },
+    {
+      "id": "tagore",
+      "name": "孟加拉的泰戈尔：城市、校园与河流庄园",
+      "visible": true,
+      "places": 5,
+      "planAssociations": 3
+    },
+    {
+      "id": "mahfouz",
+      "name": "马哈福兹的开罗",
+      "visible": false,
+      "places": 2,
+      "planAssociations": 1
+    },
+    {
+      "id": "modern-architecture",
+      "name": "现代建筑：住宅、公共空间与地方实验",
+      "visible": true,
+      "places": 10,
+      "planAssociations": 3
+    },
+    {
+      "id": "setouchi-art",
+      "name": "日本艺境：山水、光与空间",
+      "visible": true,
+      "places": 14,
+      "planAssociations": 8
+    },
+    {
+      "id": "paris-sculpture",
+      "name": "雕塑、装置与艺术空间",
+      "visible": true,
+      "places": 19,
+      "planAssociations": 9
+    },
+    {
+      "id": "southern-france-painters",
+      "name": "南法画境：普罗旺斯与蔚蓝海岸",
+      "visible": true,
+      "places": 10,
+      "planAssociations": 4
+    },
+    {
+      "id": "barcelona-art",
+      "name": "西班牙艺境：城市、海岸与家屋",
+      "visible": true,
+      "places": 12,
+      "planAssociations": 5
+    },
+    {
+      "id": "fuji-tokaido",
+      "name": "富士与东海道：版画、箱根和山海地景",
+      "visible": true,
+      "places": 9,
+      "planAssociations": 3
+    },
+    {
+      "id": "jiangnan-painting",
+      "name": "江南画家：水乡、山水与日常",
+      "visible": false,
+      "places": 6,
+      "planAssociations": 3
+    },
+    {
+      "id": "mexico-city-art",
+      "name": "墨西哥城艺术：住宅、原址与迁移的壁画",
+      "visible": true,
+      "places": 5,
+      "planAssociations": 3
+    },
+    {
+      "id": "detroit-art",
+      "name": "底特律地区：工业、艺术与设计",
+      "visible": true,
+      "places": 4,
+      "planAssociations": 3
+    },
+    {
+      "id": "european-music-cities",
+      "name": "音乐家的足迹：城市、家园与跨洋回声",
+      "visible": true,
+      "places": 37,
+      "planAssociations": 11
+    },
+    {
+      "id": "italian-art-journeys",
+      "name": "意大利：画家与作家的城市",
+      "visible": true,
+      "places": 11,
+      "planAssociations": 5
+    },
+    {
+      "id": "jiangnan-poetry",
+      "name": "江南诗路：水城与山川",
+      "visible": false,
+      "places": 5,
+      "planAssociations": 2
+    },
+    {
+      "id": "american-west-art",
+      "name": "美国西部：地貌、艺术与文学",
+      "visible": true,
+      "places": 15,
+      "planAssociations": 6
+    },
+    {
+      "id": "east-coast-art",
+      "name": "纽约与华盛顿：收藏、庭园与艺术空间",
+      "visible": true,
+      "places": 6,
+      "planAssociations": 4
+    },
+    {
+      "id": "british-sculpture",
+      "name": "英国雕塑：从约克郡到海岸与花园",
+      "visible": false,
+      "places": 6,
+      "planAssociations": 3
+    },
+    {
+      "id": "japan-literary-landscapes",
+      "name": "日本文学地景：山寺、温泉、书斋与诗馆",
+      "visible": true,
+      "places": 9,
+      "planAssociations": 4
+    },
+    {
+      "id": "southeast-england-creative",
+      "name": "英格兰东南：创作的房间、花园与海岸",
+      "visible": false,
+      "places": 7,
+      "planAssociations": 3
+    },
+    {
+      "id": "cairo-city-stories",
+      "name": "开罗街巷：文学、住宅与宗教建筑",
+      "visible": true,
+      "places": 5,
+      "planAssociations": 3
+    },
+    {
+      "id": "yangtze-writing",
+      "name": "长江与入蜀诗文：城市、祠庙与山峡",
+      "visible": true,
+      "places": 7,
+      "planAssociations": 4
+    },
+    {
+      "id": "english-landscapes",
+      "name": "英格兰风景：河谷画境与湖区诗歌",
+      "visible": false,
+      "places": 7,
+      "planAssociations": 3
+    },
+    {
+      "id": "paris-normandy-writing",
+      "name": "巴黎、诺曼底与根西岛：书房和海岸",
+      "visible": true,
+      "places": 7,
+      "planAssociations": 4
+    },
+    {
+      "id": "jiangnan-poetry-painting",
+      "name": "江南诗画：水城、山川与日常",
+      "visible": true,
+      "places": 11,
+      "planAssociations": 6
+    },
+    {
+      "id": "nordic-art-homes",
+      "name": "北欧艺术家的家园与风景",
+      "visible": true,
+      "places": 9,
+      "planAssociations": 3
+    },
+    {
+      "id": "england-literature-art",
+      "name": "英格兰文学艺术与乡野",
+      "visible": true,
+      "places": 27,
+      "planAssociations": 11
+    },
+    {
+      "id": "chinese-painters",
+      "name": "中国画家的家园、行旅与收藏",
+      "visible": true,
+      "places": 8,
+      "planAssociations": 2
+    },
+    {
+      "id": "americas-literary-geography",
+      "name": "美洲文学地理：书房、河岸与城市",
+      "visible": true,
+      "places": 10,
+      "planAssociations": 3
+    },
+    {
+      "id": "canadian-rockies",
+      "name": "加拿大落基山",
+      "visible": true,
+      "places": 8,
+      "planAssociations": 3
+    },
+    {
+      "id": "nz-great-walks",
+      "name": "新西兰南岛 · 三条 Great Walks",
+      "visible": true,
+      "places": 17,
+      "planAssociations": 3
+    },
+    {
+      "id": "patagonia-nature",
+      "name": "巴塔哥尼亚 · 冰川与塔峰",
+      "visible": true,
+      "places": 14,
+      "planAssociations": 5
+    }
+  ]
+}

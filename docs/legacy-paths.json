@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "baseline": "22cdafb613152294e05babfd9562a4bd49fc31bb",
+  "purpose": "Canonical documentation locations; root Markdown files are compatibility guides. Runtime, raw data, image and QA paths remain unchanged.",
+  "documents": {
+    "CATALOGUE-CONSOLIDATION.md": {
+      "path": "docs/reviews/catalogue-consolidation.md",
+      "title": "57 项主题优化：分批交付记录"
+    },
+    "CONTENT-QUALITY-BATCH-13.md": {
+      "path": "docs/content-quality/batches/batch-13.md",
+      "title": "全站点位质量 · 第十三批徐霞客"
+    },
+    "CONTENT-QUALITY-BATCH-15.md": {
+      "path": "docs/content-quality/batches/batch-15.md",
+      "title": "全站点位质量 · 第十四、十五批马可波罗"
+    },
+    "CONTENT-QUALITY-BATCH-16.md": {
+      "path": "docs/content-quality/batches/batch-16.md",
+      "title": "全站点位质量 · 第十六批：长文同样需要复核"
+    },
+    "CONTENT-QUALITY-BATCH-17.md": {
+      "path": "docs/content-quality/batches/batch-17.md",
+      "title": "全站点位质量 · 第十七批美国自然地景"
+    },
+    "CONTENT-QUALITY-BATCH-18.md": {
+      "path": "docs/content-quality/batches/batch-18.md",
+      "title": "全站点位质量 · 第十八批日本遗产"
+    },
+    "CONTENT-QUALITY-BATCH-19.md": {
+      "path": "docs/content-quality/batches/batch-19.md",
+      "title": "全站点位质量 · 第十九批西南国家公园"
+    },
+    "CONTENT-QUALITY-BATCH-2.md": {
+      "path": "docs/content-quality/batches/batch-2.md",
+      "title": "全站点位信息质量 · 2026-11-18第二批"
+    },
+    "CONTENT-QUALITY-BATCH-20.md": {
+      "path": "docs/content-quality/batches/batch-20.md",
+      "title": "全站点位质量 · 第二十批国家公园行程"
+    },
+    "CONTENT-QUALITY-BATCH-21.md": {
+      "path": "docs/content-quality/batches/batch-21.md",
+      "title": "全站点位质量 · 第二十一批自然遗产"
+    },
+    "CONTENT-QUALITY-BATCH-22.md": {
+      "path": "docs/content-quality/batches/batch-22.md",
+      "title": "全站点位质量 · 第二十二批埃及与印度"
+    },
+    "CONTENT-QUALITY-BATCH-23.md": {
+      "path": "docs/content-quality/batches/batch-23.md",
+      "title": "全站点位质量 · 第二十三批中国与日本"
+    },
+    "CONTENT-QUALITY-BATCH-24.md": {
+      "path": "docs/content-quality/batches/batch-24.md",
+      "title": "全站点位质量 · 第二十四批法国与意大利"
+    },
+    "CONTENT-QUALITY-BATCH-25.md": {
+      "path": "docs/content-quality/batches/batch-25.md",
+      "title": "全站点位质量 · 第二十五批西班牙、墨西哥与宗教山地"
+    },
+    "CONTENT-QUALITY-BATCH-26.md": {
+      "path": "docs/content-quality/batches/batch-26.md",
+      "title": "全站点位质量 · 第二十六批海岸与湖泊公园"
+    },
+    "CONTENT-QUALITY-BATCH-27.md": {
+      "path": "docs/content-quality/batches/batch-27.md",
+      "title": "全站点位质量 · 第二十七批阿拉斯加公园"
+    },
+    "CONTENT-QUALITY-BATCH-28.md": {
+      "path": "docs/content-quality/batches/batch-28.md",
+      "title": "全站点位质量 · 第二十八批公园目录余项"
+    },
+    "CONTENT-QUALITY-BATCH-29.md": {
+      "path": "docs/content-quality/batches/batch-29.md",
+      "title": "全站点位质量 · 第二十九批自然目录实质纠错"
+    },
+    "CONTENT-QUALITY-BATCH-3.md": {
+      "path": "docs/content-quality/batches/batch-3.md",
+      "title": "全站点位信息质量 · 持续审查"
+    },
+    "CONTENT-QUALITY-BATCH-30.md": {
+      "path": "docs/content-quality/batches/batch-30.md",
+      "title": "全站点位质量 · 第三十批欧洲文化目录"
+    },
+    "CONTENT-QUALITY-BATCH-31.md": {
+      "path": "docs/content-quality/batches/batch-31.md",
+      "title": "全站点位质量 · 第三十一批亚洲文化目录"
+    },
+    "CONTENT-QUALITY-BATCH-32.md": {
+      "path": "docs/content-quality/batches/batch-32.md",
+      "title": "全站点位质量 · 第三十二批自然目录"
+    },
+    "CONTENT-QUALITY-BATCH-4.md": {
+      "path": "docs/content-quality/batches/batch-4.md",
+      "title": "全站点位信息质量 · 持续审查"
+    },
+    "CONTENT-QUALITY-BATCH-5.md": {
+      "path": "docs/content-quality/batches/batch-5.md",
+      "title": "全站点位信息质量 · 持续审查"
+    },
+    "CONTENT-QUALITY-BATCH-6.md": {
+      "path": "docs/content-quality/batches/batch-6.md",
+      "title": "全站点位信息质量 · 持续审查"
+    },
+    "CONTENT-QUALITY-BATCH-9.md": {
+      "path": "docs/content-quality/batches/batch-9.md",
+      "title": "全站点位信息质量 · 持续审查"
+    },
+    "CONTENT-QUALITY.md": {
+      "path": "docs/content-quality/README.md",
+      "title": "全站点位信息质量 · 持续审查"
+    },
+    "EDITORIAL-DESIGN.md": {
+      "path": "docs/design/editorial.md",
+      "title": "Cultural editions: image-led editorial direction"
+    },
+    "EXPERIENCE-DESIGN.md": {
+      "path": "docs/design/discovery-and-reading.md",
+      "title": "Discovery and reading edition"
+    },
+    "NATURE-DISCOVERY.md": {
+      "path": "docs/reviews/nature-discovery.md",
+      "title": "自然风景发现与地图候选"
+    },
+    "PAN-AMERICAN.md": {
+      "path": "docs/maps/pan-american.md",
+      "title": "泛美公路：跨洲总览与区域章节"
+    },
+    "QA-REPORT.md": {
+      "path": "docs/validation/history.md",
+      "title": "Validation and handoff"
+    },
+    "REGIONAL-THEMES.md": {
+      "path": "docs/reviews/regional-themes.md",
+      "title": "单方案主题扩充与整合"
+    },
+    "REMAINING-THIRTY.md": {
+      "path": "docs/reviews/remaining-thirty.md",
+      "title": "剩余30个单行程主题：逐项处理"
+    },
+    "ROAD-TRIPS.md": {
+      "path": "docs/maps/road-trips.md",
+      "title": "世界特色公路：新增内容与核验边界"
+    },
+    "TERRA-MOSAIC-DESIGN.md": {
+      "path": "docs/design/brand.md",
+      "title": "经纬万象 · Terra Mosaic"
+    },
+    "THEME-DESIGN.md": {
+      "path": "docs/design/theme-editions.md",
+      "title": "Regional editions"
+    },
+    "THEME-REVIEW.md": {
+      "path": "docs/reviews/short-themes.md",
+      "title": "全站短主题逐项审阅"
+    }
+  }
+}
