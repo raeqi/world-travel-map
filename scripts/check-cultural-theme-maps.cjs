@@ -10,13 +10,17 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
  const overflow=async id=>assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),id+' overflow');
  const frame=async id=>{
   await page.waitForFunction(routeFrameReady);
-  const result=await page.evaluate(probeRouteFrame);if(result.native)assert.ok(result.base>0,id+' current basemap');
+  const result=await page.evaluate(probeRouteFrame);
+  if(id==='european-music-cities'){fs.writeFileSync(out+'/'+deviceName+'-music-frame.json',JSON.stringify(result,null,2));await page.screenshot({path:out+'/'+deviceName+'-music-overview.png'});}
+  if(result.native)assert.ok(result.base>0,id+' current basemap');
   // Global comparison maps need more than one hemisphere. Local maps and plans fit.
   assert.ok(result.points.every(p=>(result.native?p.rendered:p.z>0)&&p.x>0&&p.x<result.w&&p.y>0&&p.y<result.h),id+' framing '+JSON.stringify(result));
  };
+ let deviceName='unknown';
  try{
   await open('#interest=art');const ids=await page.evaluate(()=>[...culturalThemeMaps.keys()]);
   for(const device of [{name:'desktop',width:1440,height:1000},{name:'mobile',width:390,height:844}]){
+   deviceName=device.name;
    await page.setViewportSize(device);await open('#interest=art');
    assert.equal(await page.locator('[data-theme^="collection-"]').count(),0);
    for(const id of [...ids,'shen-congwen','xiao-hong','higashiyama','sibelius','grieg','wordsworth','constable']){

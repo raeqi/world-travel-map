@@ -71,7 +71,17 @@ function probeRouteFrame(){
  const native=typeof realMapActive==='function'&&realMapActive(),points=mapPoints();
  if(!native)return {native:false,w,h,points:points.map(p=>{const q=project(p.lon,p.lat),s=screen(q);return {id:p.id,z:q[2],x:s[0],y:s[1]}})};
  const map=realBasemap.map,rect=map.getContainer().getBoundingClientRect(),features=map.queryRenderedFeatures(),ids=new Set(features.filter(f=>['terra-points','terra-selected'].includes(f.layer.id)).map(f=>f.properties.id));
- return {native:true,w:rect.width,h:rect.height,base:features.filter(f=>!String(f.source).startsWith('terra-')&&f.source!=='basemap-cities').length,points:points.map(p=>{const q=map.project([p.lon,p.lat]);return {id:p.id,x:q.x,y:q.y,rendered:ids.has(p.id)}})};
+ // A globe's screen rectangle is not a four-corner geographic polygon. Its
+ // curved northern cap can lie outside that polygon even inside the viewport.
+ // Query each actual marker locally, and reject back-side projections by
+ // round-tripping its screen ray to the visible surface. Source data alone,
+ // overlapping labels and an in-bounds screen coordinate cannot pass this.
+ return {native:true,w:rect.width,h:rect.height,base:features.filter(f=>!String(f.source).startsWith('terra-')&&f.source!=='basemap-cities').length,points:points.map(p=>{
+  const q=map.project([p.lon,p.lat]),back=map.unproject(q),rad=Math.PI/180,dlon=((back.lng-p.lon+540)%360)-180;
+  const surfaceError=2*Math.asin(Math.min(1,Math.sqrt(Math.sin((back.lat-p.lat)*rad/2)**2+Math.cos(p.lat*rad)*Math.cos(back.lat*rad)*Math.sin(dlon*rad/2)**2)))/rad;
+  const circleRendered=map.queryRenderedFeatures([[q.x-8,q.y-8],[q.x+8,q.y+8]],{layers:['terra-points','terra-selected']}).some(f=>f.properties.id===p.id),onSurface=surfaceError<.0001;
+  return {id:p.id,x:q.x,y:q.y,rendered:circleRendered&&onSurface,circleRendered,onSurface,surfaceError,viewportQuery:ids.has(p.id)};
+ })};
 }
 function routeFrameReady(){
  if(typeof realMapActive==='function'&&realMapActive()){const map=realBasemap.map;return !map.isMoving()&&map.loaded()&&map.areTilesLoaded();}

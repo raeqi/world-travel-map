@@ -43,10 +43,23 @@ test('sparse or unavailable engines remain unknown in diagnostics, not fabricate
 });
 
 test('route framing uses native projected pixels and actual circle IDs, retaining orthographic fallback',()=>{
- const f=fixture();f.env.mapPoints=()=>[f.point];const run=()=>JSON.parse(JSON.stringify(vm.runInNewContext('('+probeRouteFrame.toString()+')()',f.env)));
+ const f=fixture();f.map.unproject=()=>({lng:f.point.lon,lat:f.point.lat});f.env.mapPoints=()=>[f.point];const run=()=>JSON.parse(JSON.stringify(vm.runInNewContext('('+probeRouteFrame.toString()+')()',f.env)));
  let v=run();assert.equal(v.native,true);assert.equal(v.w,1050);assert.equal(v.base,1);assert.equal(v.points[0].rendered,true);assert.equal(v.points[0].x,300);
  f.rendered.forEach(x=>{if(x.source==='terra-places')x.properties={id:'other'}});assert.equal(run().points[0].rendered,false);
  const legacy=vm.runInNewContext('('+probeRouteFrame.toString()+')()', {realMapActive:()=>false,mapPoints:()=>[f.point],w:200,h:100,project:()=>[0,0,1],screen:()=>[100,50]});assert.equal(legacy.native,false);assert.equal(legacy.points[0].z,1);
+});
+test('local circle queries retain a globe-cap point missed by a whole-viewport geographic polygon',()=>{
+ const f=fixture();f.env.mapPoints=()=>[f.point];f.map.unproject=()=>({lng:f.point.lon,lat:f.point.lat});
+ const query=f.map.queryRenderedFeatures.bind(f.map);f.map.queryRenderedFeatures=(box,options)=>box?query(box,options):f.rendered.filter(x=>x.source!=='terra-places');
+ const frame=vm.runInNewContext('('+probeRouteFrame.toString()+')()',f.env);
+ assert.equal(frame.points[0].viewportQuery,false);assert.equal(frame.points[0].circleRendered,true);assert.equal(frame.points[0].rendered,true);
+ f.map.queryRenderedFeatures=()=>f.rendered.filter(x=>x.source!=='terra-places');
+ assert.equal(vm.runInNewContext('('+probeRouteFrame.toString()+')()',f.env).points[0].rendered,false,'source/input coordinates cannot substitute for an actual circle');
+});
+test('an in-bounds back-side projection fails even if a circle query returns its ID',()=>{
+ const f=fixture();f.env.mapPoints=()=>[f.point];f.map.unproject=()=>({lng:f.point.lon+180,lat:-f.point.lat});
+ const frame=vm.runInNewContext('('+probeRouteFrame.toString()+')()',f.env),p=frame.points[0];
+ assert.ok(p.x>0&&p.x<frame.w&&p.y>0&&p.y<frame.h);assert.equal(p.circleRendered,true);assert.equal(p.onSurface,false);assert.equal(p.rendered,false);assert.ok(p.surfaceError>179);
 });
 test('route overview readiness allows no selection but excludes pending native motion and style handoff',()=>{
  const f=fixture(),run=()=>vm.runInNewContext('('+routeFrameReady.toString()+')()',f.env);assert.equal(run(),true);f.map.isMoving=()=>true;assert.equal(run(),false);
