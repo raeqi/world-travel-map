@@ -1,5 +1,7 @@
 # 真实底图接入（本地审阅稿）
 
+> 历史准备/实现记录；之后获准的测试分支与首次实际浏览器运行已执行且失败。最新状态见 [PR #60 首跑失败诊断](real-map-qa-diagnosis.md)。本页原先的“未推送/未运行”描述仅对应当时阶段。
+
 当前续轮默认使用固定版本 VersaTiles 样式与独立 OSM 矢量服务，加上本地 Natural Earth 全球城市标注；详见[候选比较、实测与单次 CI](basemap-options.md)。下文保留首轮实现与未完成验收的历史范围。两轮均未发布。
 
 基线：main `45e917fd2f8b3c92811a8eb32dc0b9626c0aaf0c`。原地图为本地 `countries.geo.json` 的 Canvas 正射地球，没有道路瓦片。
