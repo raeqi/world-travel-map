@@ -29,7 +29,7 @@ async function visibleSelection(page,id){
   // initial view. Reduced motion alone misses legacy/native camera contention.
   currentStage='normal-motion-sidebar';await page.emulateMedia({reducedMotion:'no-preference'});
   await page.goto(base+'#theme=culture&view=places',{waitUntil:'load'});await live(page);
-  for(const id of ['wh-1770','wh-1752','wh-1770','wh-1770']){await page.locator('#search').fill(id==='wh-1770'?'阿拉穆特':'阿尔托');await record(page,'normal-before-click',id);await page.locator('.place[data-place="'+id+'"]').click();await visibleSelection(page,id);}
+  for(const id of ['wh-1770','wh-1752','wh-1770','wh-1770']){if(viewport.width<=760&&await page.locator('#detail').isVisible())await page.locator('#detail .reading-close').click();await page.locator('#search').fill(id==='wh-1770'?'阿拉穆特':'阿尔托');await record(page,'normal-before-click',id);await page.locator('.place[data-place="'+id+'"]').click();await visibleSelection(page,id);}
   await page.screenshot({path:path.join(output,viewport.width+'-normal-motion-alamut.png')});await page.emulateMedia({reducedMotion:'reduce'});
   await page.goto(base+'#theme=culture&place=wh-1770',{waitUntil:'load'});await live(page);await visibleSelection(page,'wh-1770');
   for(const id of ['wh-1752','wh-1770','wh-1770']){await record(page,'before-select',id);await page.evaluate(id=>select(placesById.get(id)),id);await visibleSelection(page,id);if(id==='wh-1752')await page.screenshot({path:path.join(output,viewport.width+'-aalto.png')})}
