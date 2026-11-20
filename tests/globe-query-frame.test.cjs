@@ -53,7 +53,7 @@ test('actual native pixels preserve the 24px separation requirement for Naoshima
   // Native globe transitions to Mercator at street zoom. The old Canvas r and
   // screen(project(...)) are unrelated to these actual native pixel distances.
   c.setProjectionTransition(0);const padding={top:Math.min(70,height*.2),bottom:78,left:32,right:32};c.jumpTo({center:[points[0].lon,points[0].lat],zoom:14,padding});
-  const bounds=JSON.parse(vm.runInContext(`JSON.stringify(realMapBounds(buildPlans('${theme}',0).find(p=>p.id==='${id}').stops))`,context)),fit=c.cameraForBounds(bounds,{padding,maxZoom:14});c.jumpTo({...fit,padding});
+  const bounds=JSON.parse(vm.runInContext(`JSON.stringify(realMapBounds(buildPlans('${theme}',0).find(p=>p.id==='${id}').stops))`,context)),fit=c.cameraForBounds(bounds,{padding,maxZoom:14,absolutePadding:true});c.jumpTo({...fit,padding});
   const pixels=points.map(p=>project([p.lon,p.lat])),minimum=Math.min(...pixels.flatMap((p,i)=>pixels.slice(i+1).map(q=>Math.hypot(p.x-q.x,p.y-q.y))));assert.ok(minimum>=24,id+' '+width+' native pixels '+minimum);
  }
 });
@@ -62,8 +62,20 @@ test('original Gauguin France/Pacific comparison keeps every point on the visibl
  for(const [width,height]of [[1038,928],[390,337.109375]])for(const scope of ['plan','theme']){
   const points=JSON.parse(vm.runInContext(scope==='plan'?"JSON.stringify(buildPlans('gauguin',0).find(p=>p.id==='atlas-gauguin-places').stops)":"JSON.stringify(places.filter(p=>p.themes.includes('gauguin')))",context));
   const {c,project,unproject}=await nativeCamera(width,height),padding={top:Math.min(70,height*.2),bottom:78,left:32,right:32};c.jumpTo({center:[0,20],zoom:2,padding});
-  context.testPoints=points;const bounds=JSON.parse(vm.runInContext('JSON.stringify(realMapBounds(testPoints))',context)),candidate=c.cameraForBounds(bounds,{padding,maxZoom:14});
+  context.testPoints=points;const bounds=JSON.parse(vm.runInContext('JSON.stringify(realMapBounds(testPoints))',context)),candidate=c.cameraForBounds(bounds,{padding,maxZoom:14,absolutePadding:true});
   const adjust=typeof context.realMapGlobeCamera==='function'?context.realMapGlobeCamera(points,candidate,{width,height},padding,c.getVerticalFieldOfView()):null;c.jumpTo({...candidate,...adjust,padding});
   for(const p of points){const q=project([p.lon,p.lat]),back=unproject(q),delta=((back.lng-p.lon+540)%360)-180;assert.ok(Math.abs(delta)<.00001&&Math.abs(back.lat-p.lat)<.00001,scope+' '+width+' '+p.id+' visible surface');assert.ok(q.x>padding.left&&q.x<width-padding.right&&q.y>padding.top&&q.y<height-padding.bottom,scope+' '+width+' '+p.id+' padded viewport');}
+ }
+});
+test('actual native overview after a detail view must replace its old padding, not add it twice',async()=>{
+ for(const [width,height]of [[1038,928],[390,337.109375]]){
+  const context=runtime(),points=JSON.parse(vm.runInContext("JSON.stringify(buildPlans('gauguin',0).find(p=>p.id==='atlas-gauguin-places').stops)",context)),{c,project,unproject}=await nativeCamera(width,height);
+  c.setProjectionTransition(0);c.jumpTo({center:[points[0].lon,points[0].lat],zoom:14,padding:{top:Math.min(70,height*.2),bottom:width===390?154:78,left:32,right:width===390?32:435}});
+  const rect={left:0,top:60,right:width,bottom:height+60,width,height},host={getBoundingClientRect:()=>rect,classList:{toggle(){}}},detail={hidden:true},sources={'terra-places':{setData(data){this.data=data}},'terra-routes':{setData(data){this.data=data}}};
+  const map={getCenter:()=>c.getCenter(),getZoom:()=>c.getZoom(),getProjection:()=>({type:'globe'}),getVerticalFieldOfView:()=>c.getVerticalFieldOfView(),getContainer:()=>host,getSource:id=>sources[id],setPaintProperty(){},cameraForBounds:(bounds,opts)=>c.cameraForBounds(bounds,opts),flyTo:opts=>c.jumpTo(opts),fitBounds(bounds,opts){const fit=c.cameraForBounds(bounds,opts);if(fit)c.jumpTo({...fit,padding:opts.padding})}};
+  Object.assign(context,{testMap:map,document:{querySelector:s=>s==='.map'?host:detail},innerWidth:width===390?390:1440,selected:null,previewStops:points,previewTheme:true,trip:[],activePlan:{id:'atlas-gauguin-places',topology:'network'},camera:null,lon:points[0].lon,lat:points[0].lat,zoom:8192,targetZoom:8192,dirty:false,mapPoints:()=>points,activeTheme:vm.runInContext("themes.findIndex(t=>t.id==='gauguin')",context)});
+  vm.runInContext('realBasemap.map=testMap;realBasemap.ready=true;',context);context.realMapFit(points,false);c.setProjectionTransition(1);
+  for(const p of points){const q=project([p.lon,p.lat]),back=unproject(q),delta=((back.lng-p.lon+540)%360)-180;assert.ok(Math.abs(delta)<.00001&&Math.abs(back.lat-p.lat)<.00001,width+' '+p.id+' after detail is on visible sphere');assert.ok(q.x>32&&q.x<width-32&&q.y>Math.min(70,height*.2)&&q.y<height-78,width+' '+p.id+' after detail is in overview padding');}
+  assert.equal(sources['terra-routes'].data.features.length,0,'no invented France/Pacific travel edge');
  }
 });

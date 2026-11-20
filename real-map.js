@@ -157,8 +157,9 @@ function realMapFit(stops,animate=true){
  const options={padding,duration:animate?realMapDuration():0,bearing:0,pitch:0,roll:0};
  if(bounds[0][0]===bounds[1][0]&&bounds[0][1]===bounds[1][1])realBasemap.map.flyTo({...options,center:bounds[0],zoom:14});
  else{
-  const map=realBasemap.map,candidate=map.cameraForBounds?.(bounds,{padding,maxZoom:14,bearing:0}),globe=map.getProjection?.().type==='globe'&&candidate&&typeof map.getVerticalFieldOfView==='function'?realMapGlobeCamera(stops,candidate,map.getContainer().getBoundingClientRect(),padding,map.getVerticalFieldOfView()):null;
-  if(globe)map.flyTo({...options,...globe});else map.fitBounds(bounds,{...options,maxZoom:14});
+  const map=realBasemap.map,candidate=map.cameraForBounds?.(bounds,{padding,maxZoom:14,bearing:0,absolutePadding:true}),globe=map.getProjection?.().type==='globe'&&candidate&&typeof map.getVerticalFieldOfView==='function'?realMapGlobeCamera(stops,candidate,map.getContainer().getBoundingClientRect(),padding,map.getVerticalFieldOfView()):null;
+  // Fit the requested overview area, independent of a previous detail drawer.
+  if(globe)map.flyTo({...options,...globe});else map.fitBounds(bounds,{...options,maxZoom:14,absolutePadding:true});
  }return true;
 }
 function realMapScale(value){

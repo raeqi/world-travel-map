@@ -73,6 +73,11 @@ async function visibleSelection(page,id){
    gauguinFrames.push({scope,frame,camera});fs.writeFileSync(path.join(output,viewport.width+'-gauguin-frames.json'),JSON.stringify(gauguinFrames,null,2));await page.screenshot({path:path.join(output,viewport.width+'-gauguin-'+scope+'.png')});
    assert.ok(frame.native&&frame.base>0);assert.equal(frame.points.length,count);assert.equal(camera.projection.type,'globe');assert.ok(frame.points.every(p=>p.rendered&&p.onSurface&&p.x>camera.padding.left&&p.x<frame.w-camera.padding.right&&p.y>camera.padding.top&&p.y<frame.h-camera.padding.bottom),'Original France/Pacific places must be on the visible padded globe: '+JSON.stringify(frame));
    assert.equal(await page.evaluate(async()=>(await realBasemap.map.getSource('terra-routes').getData()).features.length),0,'Biographical comparisons remain networks without a fictitious France/Pacific travel edge');
+   if(scope==='plan'){
+    currentStage='gauguin-return-after-detail';await page.locator('.route-stops button').first().click();await visibleSelection(page,'atlas-pont-aven');await page.locator('#detail [aria-label="下一站"]').click();await visibleSelection(page,'atlas-tahiti');await page.locator('#detail .reading-close').click();await page.locator('.route-overview').click();await page.waitForFunction(routeFrameReady,true,{timeout:20000});
+    const returned=await page.evaluate(probeRouteFrame);gauguinFrames.push({scope:'plan-return-after-detail',frame:returned});fs.writeFileSync(path.join(output,viewport.width+'-gauguin-frames.json'),JSON.stringify(gauguinFrames,null,2));await page.screenshot({path:path.join(output,viewport.width+'-gauguin-return-after-detail.png')});
+    assert.ok(returned.native&&returned.base>0&&returned.points.length===2);assert.ok(returned.points.every(p=>p.rendered&&p.onSurface&&p.x>returned.camera.padding.left&&p.x<returned.w-returned.camera.padding.right&&p.y>returned.camera.padding.top&&p.y<returned.h-returned.camera.padding.bottom),'After closing details, both original comparison points must return to the visible padded globe: '+JSON.stringify(returned));
+   }
   }
   const borrowedRouteFrames=[];
   for(const id of ['spain-prado-sorolla','spain-dali-coast']){
