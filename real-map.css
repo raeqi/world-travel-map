@@ -26,3 +26,8 @@
  body:has(#detail:not([hidden])) #basemap-status{bottom:auto;top:78px;max-width:calc(100% - 65px)}
 }
 @media(prefers-reduced-motion:reduce){#real-map,#scene-art{transition:none}}
+/* Keep the existing art mode reachable with the native map. The global redesign
+   hides both controls; override it only for this geographic-map integration. */
+.real-map-active #art-toggle{display:block;left:17px;right:auto;top:70px;min-height:34px;padding:6px 12px;border-radius:5px;background:#fffffff2;color:#245a69;border-color:#ccd7da}
+.real-map-active:not(.street-map) #scene-art:not([hidden]){display:block!important}
+@media(max-width:760px){.real-map-active #art-toggle{left:13px;top:48px;min-height:40px}}
