@@ -11,8 +11,9 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
  const open=async hash=>{await page.goto(base+hash);await page.waitForFunction(()=>document.body.dataset.ready==='true')};
  const overflow=async id=>assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),id+' overflow');
  const frame=async id=>{
-  await page.waitForFunction(routeFrameReady);
-  const result=await page.evaluate(probeRouteFrame);
+  const before=await page.evaluate(probeRouteFrame);let result;
+  try{await page.waitForFunction(routeFrameReady,true);result=await page.evaluate(probeRouteFrame)}catch(error){result=await page.evaluate(probeRouteFrame);fs.writeFileSync(out+'/'+deviceName+'-frame-failure.json',JSON.stringify({id,error:error.message,before,result},null,2));await page.screenshot({path:out+'/'+deviceName+'-frame-failure.png'});throw error}
+  if(['fuji-tokaido','european-music-cities'].includes(id))fs.writeFileSync(out+'/'+deviceName+'-'+id+'-transition.json',JSON.stringify({before,result},null,2));
   if(id==='european-music-cities'){fs.writeFileSync(out+'/'+deviceName+'-music-frame.json',JSON.stringify(result,null,2));await page.screenshot({path:out+'/'+deviceName+'-music-overview.png'});}
   if(result.native)assert.ok(result.base>0,id+' current basemap');
   // Global comparison maps need more than one hemisphere. Local maps and plans fit.

@@ -20,6 +20,33 @@ function realMapBounds(points){
  let west=start,east=Math.max(...values.map(v=>v<start?v+360:v));if((west+east)/2>180){west-=360;east-=360}
  return [[west,Math.max(-85,Math.min(...valid.map(p=>p.lat)))],[east,Math.min(85,Math.max(...valid.map(p=>p.lat)))]];
 }
+// A Mercator longitude/latitude box can fit inside the screen while its far
+// point is behind a perspective globe. Keep the globe and fit a visible cap.
+// Only wide, low-zoom overviews need this; ordinary/street fits stay native.
+function realMapGlobeCamera(points,candidate,rect,padding,fov){
+ if(!candidate||candidate.zoom>3.5||rect.width<=0||rect.height<=0||!Number.isFinite(fov))return null;
+ const rad=Math.PI/180,dot=(a,b)=>a.reduce((s,x,i)=>s+x*b[i],0),unit=a=>{const n=Math.hypot(...a);return n>1e-8?a.map(x=>x/n):null},vector=p=>[Math.cos(p.lat*rad)*Math.sin(p.lon*rad),Math.sin(p.lat*rad),Math.cos(p.lat*rad)*Math.cos(p.lon*rad)];
+ const vectors=points.filter(validLocation).map(vector);if(vectors.length<2)return null;
+ const focal=rect.height/(2*Math.tan(fov*rad/2)),halfX=(rect.width-padding.left-padding.right)/2-18,halfY=(rect.height-padding.top-padding.bottom)/2-18;if(halfX<=0||halfY<=0)return null;
+ const axes=c=>{const lng=Math.atan2(c[0],c[2]),lat=Math.asin(Math.max(-1,Math.min(1,c[1])));return {lng,lat,east:[Math.cos(lng),0,-Math.sin(lng)],north:[-Math.sin(lat)*Math.sin(lng),Math.cos(lat),-Math.sin(lat)*Math.cos(lng)]}};
+ const visible=(c,z)=>{const a=axes(c),cos=Math.cos(a.lat);if(cos<1e-6)return false;const distance=1+focal/(512*2**z/(2*Math.PI*cos));return vectors.every(v=>{const d=dot(c,v),depth=distance-d;return d>1/distance+1e-7&&Math.abs(focal*dot(a.east,v)/depth)<=halfX&&Math.abs(focal*dot(a.north,v)/depth)<=halfY})};
+ const original=vector({lon:candidate.center.lng,lat:candidate.center.lat});if(visible(original,candidate.zoom))return null;
+ // Pair bisectors balance far-away chapters without letting a dense European
+ // cluster outweigh an isolated Pacific place. Never remove or relocate data.
+ const centers=[original,unit(vectors.reduce((a,v)=>a.map((x,i)=>x+v[i]),[0,0,0]))];
+ if(vectors.length<=64)for(let i=0;i<vectors.length;i++)for(let j=i+1;j<vectors.length;j++)centers.push(unit(vectors[i].map((x,k)=>x+vectors[j][k])));
+ let best=null,minimum=-1;for(const c of centers){if(!c)continue;const d=Math.min(...vectors.map(v=>dot(c,v)));if(d>minimum){minimum=d;best=c}}
+ // A global network need not fit one hemisphere. Preserve normal globe
+ // navigation when no sampled visible cap exists; never silently switch to 2D.
+ if(!best||minimum<=1e-6)return null;
+ const a=axes(best),cos=Math.cos(a.lat);if(cos<1e-6)return null;
+ let distance=1/minimum+.03;
+ for(const v of vectors){const d=dot(best,v);distance=Math.max(distance,d+focal*Math.abs(dot(a.east,v))/halfX,d+focal*Math.abs(dot(a.north,v))/halfY)}
+ distance*=1.002; // Keep fitted marker edges clear of floating-point boundaries.
+ const z=Math.min(candidate.zoom,Math.log2(focal/(distance-1)*2*Math.PI*cos/512));
+ if(z<0||!Number.isFinite(z)||!visible(best,z))return null;
+ return {center:[a.lng/rad,a.lat/rad],zoom:z};
+}
 // Great-circle samples; longitude unwrap prevents a false line across the world.
 function realMapArc(a,b){
  const rad=Math.PI/180,vector=p=>[Math.cos(p.lat*rad)*Math.cos(p.lon*rad),Math.cos(p.lat*rad)*Math.sin(p.lon*rad),Math.sin(p.lat*rad)],A=vector(a),B=vector(b);
@@ -127,9 +154,12 @@ function realMapFit(stops,animate=true){
  camera=null;realBasemap.focused=null;const padding=realMapCurrentPadding();realBasemap.paddingKey=JSON.stringify(padding);
  // Publish the current route roster before starting the native camera update.
  realMapUpdateData();realMapReadCamera();
- const options={padding,duration:animate?realMapDuration():0,bearing:0,pitch:0};
+ const options={padding,duration:animate?realMapDuration():0,bearing:0,pitch:0,roll:0};
  if(bounds[0][0]===bounds[1][0]&&bounds[0][1]===bounds[1][1])realBasemap.map.flyTo({...options,center:bounds[0],zoom:14});
- else realBasemap.map.fitBounds(bounds,{...options,maxZoom:14});return true;
+ else{
+  const map=realBasemap.map,candidate=map.cameraForBounds?.(bounds,{padding,maxZoom:14,bearing:0}),globe=map.getProjection?.().type==='globe'&&candidate&&typeof map.getVerticalFieldOfView==='function'?realMapGlobeCamera(stops,candidate,map.getContainer().getBoundingClientRect(),padding,map.getVerticalFieldOfView()):null;
+  if(globe)map.flyTo({...options,...globe});else map.fitBounds(bounds,{...options,maxZoom:14});
+ }return true;
 }
 function realMapScale(value){
  if(!realMapActive())return false;

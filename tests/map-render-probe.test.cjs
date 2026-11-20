@@ -22,7 +22,8 @@ function fixture(){
  const point={id:'wh-1752',lon:21.87,lat:61.60},feature={type:'Feature',properties:{id:point.id,selected:true},geometry:{type:'Point',coordinates:[point.lon,point.lat]}},layers=[{id:'base-land',source:'osm',type:'fill'},{id:'terra-points',source:'terra-places',type:'circle'},{id:'terra-selected',source:'terra-places',type:'circle'}];
  const rendered=layers.map(layer=>({source:layer.source,layer,properties:layer.source==='terra-places'?feature.properties:{}})),events={},gl={isContextLost:()=>false,drawingBufferWidth:1050,drawingBufferHeight:938,VERSION:1,RENDERER:2,getParameter:key=>key===1?'WebGL 2':'fixture'};
  const map={on(type,fn){events[type]=fn},isMoving:()=>false,loaded:()=>true,areTilesLoaded:()=>true,isStyleLoaded:()=>true,getCenter:()=>({lng:point.lon,lat:point.lat}),getZoom:()=>14,getBearing:()=>0,getPitch:()=>0,getProjection:()=>({type:'globe'}),getPadding:()=>({left:24,right:440,top:24,bottom:24}),getCanvas:()=>canvas,getContainer:()=>host,painter:{context:{gl}},project:()=>({x:300,y:300}),getStyle:()=>({sources:{osm:{type:'vector'},'terra-places':{type:'geojson'}},layers}),getSource:id=>({serialize:()=>({data:id==='terra-places'?{features:[feature]}:'tiles'})}),isSourceLoaded:()=>true,querySourceFeatures:id=>id==='terra-places'?[feature]:[],queryRenderedFeatures(_box,options){return options?.layers?rendered.filter(f=>options.layers.includes(f.layer.id)):rendered}};
- const env={performance:{now:()=>42},window:{},realBasemap:{map,failed:false,loading:false,baseSeen:true},realMapActive:()=>true,currentBasemapProvider:()=>({id:'fixture'}),selected:point,placesById:new Map([[point.id,point]]),document:{querySelector:selector=>selector==='#globe'?canvas:null,querySelectorAll:()=>[canvas],elementFromPoint:()=>canvas},getComputedStyle:el=>({display:el.display||'block',visibility:'visible',opacity:'1',overflow:'hidden'})};
+ map.unproject=()=>({lng:point.lon,lat:point.lat});
+ const env={performance:{now:()=>42},window:{},realBasemap:{map,failed:false,loading:false,baseSeen:true},realMapActive:()=>true,mapPoints:()=>[point],currentBasemapProvider:()=>({id:'fixture'}),selected:point,placesById:new Map([[point.id,point]]),document:{querySelector:selector=>selector==='#globe'?canvas:null,querySelectorAll:()=>[canvas],elementFromPoint:()=>canvas},getComputedStyle:el=>({display:el.display||'block',visibility:'visible',opacity:'1',overflow:'hidden'})};
  return {map,canvas,host,point,rendered,events,gl,env,probe:()=>JSON.parse(JSON.stringify(vm.runInNewContext('('+probeMapFrame.toString()+')("wh-1752")',env)))};
 }
 test('one synchronous sample captures source input, actual point layers, current base, canvas, camera and GL',()=>{
@@ -64,6 +65,15 @@ test('an in-bounds back-side projection fails even if a circle query returns its
 test('route overview readiness allows no selection but excludes pending native motion and style handoff',()=>{
  const f=fixture(),run=()=>vm.runInNewContext('('+routeFrameReady.toString()+')()',f.env);assert.equal(run(),true);f.map.isMoving=()=>true;assert.equal(run(),false);
  const legacy={realMapActive:()=>false,realBasemap:{loading:true},camera:null,zoom:1,targetZoom:1};assert.equal(vm.runInNewContext('('+routeFrameReady.toString()+')()',legacy),false);legacy.realBasemap.loading=false;assert.equal(vm.runInNewContext('('+routeFrameReady.toString()+')()',legacy),true);
+});
+test('URL-driven overview cannot finish on an idle previous route or the previous GeoJSON circle frame',()=>{
+ const f=fixture(),run=()=>vm.runInNewContext('('+routeFrameReady.toString()+')(true)',f.env);
+ Object.assign(f.env,{location:{hash:'#theme=fuji-tokaido&view=places'},URLSearchParams,themes:[{id:'fuji-tokaido'}],activeTheme:0,activePlan:{id:'previous-hakone'},previewStops:[f.point],browsePanel:'plans',selected:null});
+ assert.equal(run(),false,'a loaded previous route does not satisfy the new overview URL');
+ f.env.activePlan=null;f.env.previewStops=null;f.env.browsePanel='places';f.rendered.forEach(x=>{if(x.source==='terra-places')x.properties={id:'previous-only'}});
+ assert.equal(run(),false,'restored application state still needs current actual circles');
+ f.rendered.forEach(x=>{if(x.source==='terra-places')x.properties={id:f.point.id}});assert.equal(run(),true);
+ f.map.unproject=()=>({lng:f.point.lon+180,lat:-f.point.lat});assert.equal(run(),false,'back-side projections cannot satisfy readiness');
 });
 
 test('route data uses actual pinned GeoJSONSource getData for both tagged representations and preserves endpoints',async()=>{

@@ -90,3 +90,8 @@ test('single-stop overview publishes the route and uses an explicit native point
 test('actual Prado, repeated and near-coincident longitudes never create negative or world-wide bounds',()=>{
  const f=fixture();for(const points of [[{lon:-3.6922,lat:40.4138}],[{lon:-3.6922,lat:40.4138},{lon:-3.6922,lat:40.4138}],[{lon:-3.6922,lat:40.4138},{lon:-3.692199999,lat:40.4138}]]){const b=f.c.realMapBounds(points);assert.ok(b[1][0]>=b[0][0]);assert.ok(b[1][0]-b[0][0]<1e-6);}
 });
+test('wide Gauguin overview uses the visible globe cap and publishes all original places',()=>{
+ const f=fixture(),points=[{id:'france',lon:-3.746,lat:47.855},{id:'tahiti',lon:-149.425,lat:-17.651}];for(const p of points)f.c.placesById.set(p.id,p);
+ Object.assign(f.map,{getProjection:()=>({type:'globe'}),getContainer:()=>f.mapNode,getVerticalFieldOfView:()=>36.86989764584402,cameraForBounds:()=>({center:{lng:-76.5855,lat:17.4367948139203},zoom:3.0362800850805374})});
+ f.c.realMapFit(points);const fly=f.calls.find(c=>c.type==='fly');assert.ok(fly);assert.equal(fly.roll,0);assert.ok(fly.zoom<3.04);assert.ok(fly.center[0]<-100&&fly.center[1]>35);assert.equal(f.calls.some(c=>c.type==='fit'),false);assert.deepEqual(plain(f.sources['terra-places'].data.features.map(p=>p.id)),['france','tahiti']);
+});

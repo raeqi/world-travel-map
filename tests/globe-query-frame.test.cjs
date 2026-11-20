@@ -31,6 +31,12 @@ test('actual 6.19 globe camera reproduces the failed music frame: all 37 places 
  assert.ok(Math.max(...corners.map(p=>p.lat))<44);
  assert.ok(f.unproject([519,0]).lat>84,'curved screen top contains northern geography missed by corner polygon');
  assert.equal(f.points.filter(p=>p.lat<=Math.max(...corners.map(p=>p.lat))).length,3,'only Rome, Valldemossa and Spillville lie below that false northern edge');
+ const context=runtime();assert.equal(context.realMapGlobeCamera(f.points,f.fit,{width:1038,height:928},{top:70,bottom:78,left:32,right:32},f.c.getVerticalFieldOfView()),null,'already-visible music frame stays unchanged');
+});
+test('globe cap fitting keeps city fits and non-frameable antipodes unchanged without mutating coordinates',()=>{
+ const context=runtime(),points=[{lon:0,lat:0},{lon:180,lat:0}],before=JSON.stringify(points),rect={width:1038,height:928},padding={top:70,bottom:78,left:32,right:32};
+ assert.equal(context.realMapGlobeCamera(points,{center:{lng:90,lat:0},zoom:1},rect,padding,36.86989764584402),null);assert.equal(JSON.stringify(points),before);
+ assert.equal(context.realMapGlobeCamera([{lon:2.3,lat:48.8},{lon:2.4,lat:48.9}],{center:{lng:2.35,lat:48.85},zoom:12},rect,padding,36.86989764584402),null);
 });
 test('controlled Mercator fit has no curved northern cap while preserving the identical 37 coordinates',async()=>{
  const f=await camera('mercator'),top=f.unproject([519,0]);assert.ok(top.lat>Math.max(...f.points.map(p=>p.lat)));
@@ -49,5 +55,15 @@ test('actual native pixels preserve the 24px separation requirement for Naoshima
   c.setProjectionTransition(0);const padding={top:Math.min(70,height*.2),bottom:78,left:32,right:32};c.jumpTo({center:[points[0].lon,points[0].lat],zoom:14,padding});
   const bounds=JSON.parse(vm.runInContext(`JSON.stringify(realMapBounds(buildPlans('${theme}',0).find(p=>p.id==='${id}').stops))`,context)),fit=c.cameraForBounds(bounds,{padding,maxZoom:14});c.jumpTo({...fit,padding});
   const pixels=points.map(p=>project([p.lon,p.lat])),minimum=Math.min(...pixels.flatMap((p,i)=>pixels.slice(i+1).map(q=>Math.hypot(p.x-q.x,p.y-q.y))));assert.ok(minimum>=24,id+' '+width+' native pixels '+minimum);
+ }
+});
+test('original Gauguin France/Pacific comparison keeps every point on the visible globe and inside padding',async()=>{
+ const context=runtime();
+ for(const [width,height]of [[1038,928],[390,337.109375]])for(const scope of ['plan','theme']){
+  const points=JSON.parse(vm.runInContext(scope==='plan'?"JSON.stringify(buildPlans('gauguin',0).find(p=>p.id==='atlas-gauguin-places').stops)":"JSON.stringify(places.filter(p=>p.themes.includes('gauguin')))",context));
+  const {c,project,unproject}=await nativeCamera(width,height),padding={top:Math.min(70,height*.2),bottom:78,left:32,right:32};c.jumpTo({center:[0,20],zoom:2,padding});
+  context.testPoints=points;const bounds=JSON.parse(vm.runInContext('JSON.stringify(realMapBounds(testPoints))',context)),candidate=c.cameraForBounds(bounds,{padding,maxZoom:14});
+  const adjust=typeof context.realMapGlobeCamera==='function'?context.realMapGlobeCamera(points,candidate,{width,height},padding,c.getVerticalFieldOfView()):null;c.jumpTo({...candidate,...adjust,padding});
+  for(const p of points){const q=project([p.lon,p.lat]),back=unproject(q),delta=((back.lng-p.lon+540)%360)-180;assert.ok(Math.abs(delta)<.00001&&Math.abs(back.lat-p.lat)<.00001,scope+' '+width+' '+p.id+' visible surface');assert.ok(q.x>padding.left&&q.x<width-padding.right&&q.y>padding.top&&q.y<height-padding.bottom,scope+' '+width+' '+p.id+' padded viewport');}
  }
 });
