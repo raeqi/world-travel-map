@@ -42,7 +42,10 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
      await open('#theme='+id+'&view=plans&route='+plan);
      assert.equal(await page.evaluate(()=>activePlan?.id),plan);assert.ok(await page.locator('.route-stops button').count()>=1);
      if(ids.includes(id)||['shen-yuan-river','xiaohong-home-writing'].includes(plan))await frame(id+'/'+plan);
-     if(['naoshima-honmura','paris-sculpture-left-bank'].includes(plan))assert.ok(await page.evaluate(()=>{const ps=mapPoints().map(p=>screen(project(p.lon,p.lat)));return ps.every((p,i)=>ps.slice(i+1).every(q=>Math.hypot(p[0]-q[0],p[1]-q[1])>=24))}),'local plan points must be distinguishable');
+     if(['naoshima-honmura','paris-sculpture-left-bank'].includes(plan)){
+      const view=await page.evaluate(probeRouteFrame);fs.writeFileSync(out+'/'+deviceName+'-'+plan+'-distribution.json',JSON.stringify(view,null,2));await page.screenshot({path:out+'/'+deviceName+'-'+plan+'-distribution.png'});
+      assert.ok(view.points.every((p,i)=>view.points.slice(i+1).every(q=>Math.hypot(p.x-q.x,p.y-q.y)>=24)),'local plan points must be distinguishable in active map pixels: '+JSON.stringify(view));
+     }
      assert.equal(await page.evaluate(()=>activePlan.topology),'network');assert.equal(await page.evaluate(()=>routeEdges(previewStops,activePlan).length),0);
      await page.locator('.route-stops button').first().click();assert.ok((await page.locator('#detail').innerText()).length>100);
      await page.locator('#detail .reading-sources').click();assert.ok(await page.locator('#detail .reading-sources a').count());
