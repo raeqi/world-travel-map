@@ -38,7 +38,7 @@ function probeMapFrame(id){
  const style=read('style',()=>map.getStyle());
  result.sources=Object.entries(style?.sources||{}).map(([sourceId,s])=>{
   const input=read(sourceId+'.serialize',()=>map.getSource(sourceId)?.serialize()?.data),features=input?.features;
-  return {id:sourceId,type:s.type,loaded:read(sourceId+'.loaded',()=>map.isSourceLoaded(sourceId)),inputCount:features?.length??null,inputMatches:features?features.filter(f=>f.properties?.id===p?.id).map(f=>({id:f.properties.id,selected:f.properties.selected,geometry:f.geometry})):null,queried:read(sourceId+'.query',()=>{const f=map.querySourceFeatures(sourceId,s.type==='vector'?{sourceLayer:'boundaries'}:{});return {count:f.length,selectedMatches:f.filter(f=>p&&f.properties?.id===p.id).length}})};
+  return {id:sourceId,type:s.type,loaded:read(sourceId+'.loaded',()=>map.isSourceLoaded(sourceId)),inputCount:features?.length??null,inputMatches:features?features.filter(f=>p&&f.properties?.id===p.id).map(f=>({id:f.properties.id,selected:f.properties.selected,geometry:f.geometry})):null,queried:read(sourceId+'.query',()=>{const f=map.querySourceFeatures(sourceId,s.type==='vector'?{sourceLayer:'boundaries'}:{});return {count:f.length,selectedMatches:f.filter(f=>p&&f.properties?.id===p.id).length}})};
  });
  const rendered=read('renderedFeatures',()=>map.queryRenderedFeatures())||[];
  const byLayer={};for(const f of rendered){const key=f.layer.id;byLayer[key]=(byLayer[key]||0)+1;}
@@ -64,3 +64,18 @@ function assertSelectionFrame(frame,id){
  assert.ok(q.canvasAtPoint,'Selected marker must not be covered by a panel: '+details());
 }
 module.exports={mapViewReady,probeMapFrame,assertSelectionFrame};
+
+// Framing checks must use the active geographic projection, not the old
+// orthographic Canvas radius scaled by MapLibre's unrelated zoom units.
+function probeRouteFrame(){
+ const native=typeof realMapActive==='function'&&realMapActive(),points=mapPoints();
+ if(!native)return {native:false,w,h,points:points.map(p=>{const q=project(p.lon,p.lat),s=screen(q);return {id:p.id,z:q[2],x:s[0],y:s[1]}})};
+ const map=realBasemap.map,rect=map.getContainer().getBoundingClientRect(),features=map.queryRenderedFeatures(),ids=new Set(features.filter(f=>['terra-points','terra-selected'].includes(f.layer.id)).map(f=>f.properties.id));
+ return {native:true,w:rect.width,h:rect.height,base:features.filter(f=>!String(f.source).startsWith('terra-')&&f.source!=='basemap-cities').length,points:points.map(p=>{const q=map.project([p.lon,p.lat]);return {id:p.id,x:q.x,y:q.y,rendered:ids.has(p.id)}})};
+}
+function routeFrameReady(){
+ if(typeof realMapActive==='function'&&realMapActive()){const map=realBasemap.map;return !map.isMoving()&&map.loaded()&&map.areTilesLoaded();}
+ return !(typeof realBasemap!=='undefined'&&realBasemap.loading)&&camera===null&&Math.abs(zoom-targetZoom)<.01;
+}
+module.exports.probeRouteFrame=probeRouteFrame;
+module.exports.routeFrameReady=routeFrameReady;

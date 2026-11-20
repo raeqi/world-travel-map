@@ -58,3 +58,27 @@ test('readiness requires a loaded vector tile, not style/metadata or our own Geo
 test('every registered production itinerary retains every original edge and endpoint',()=>{
  const c=require('../scripts/theme-audit-runtime.cjs').runtime();const result=vm.runInContext(`(()=>{let plans=0,edges=0;for(const t of themes)for(const p of buildPlans(t.id,0)){const old=routeEdges(p.stops,p),data=realMapRouteData(p.stops,p);if(data.features.length!==old.length)throw Error(p.id+' lost edge');data.features.forEach((f,i)=>{if(f.properties.from!==old[i][0].id||f.properties.to!==old[i][1].id)throw Error(p.id+' wrong endpoint');if(!f.geometry.coordinates.flat().every(Number.isFinite))throw Error(p.id+' nonfinite');});plans++;edges+=old.length;}return {plans,edges};})()`,c);assert.ok(result.plans>0);assert.ok(result.edges>0);
 });
+
+function prepareActualFrame(f){
+ const start=app.indexOf('function frame(t)'),end=app.indexOf("fetch('countries.geo.json')",start);
+ Object.assign(f.c,{last:0,lastPaint:0,inTheme:true,requestAnimationFrame(){},draw(){f.c.drawRealMap()}});
+ vm.runInContext(app.slice(start,end),f.c);
+}
+test('actual app frame must not cancel a pending native flight with legacy zoom easing',()=>{
+ for(const mobile of [false,true]){
+  const f=fixture(mobile),p=heritage().find(p=>p.id==='wh-1770');f.c.placesById.set(p.id,p);prepareSelect(f);prepareActualFrame(f);
+  f.map.center={lng:105,lat:26};f.map.z=1;f.c.realMapReadCamera();
+  const applyNative=f.map.jumpTo.bind(f.map);let flight=null,interrupts=0;
+  f.map.flyTo=options=>{flight=options};
+  f.map.jumpTo=options=>{interrupts++;flight=null;applyNative(options)};
+  f.c.select(p);assert.ok(flight);assert.equal(flight.duration,650);
+  // App RAF runs before MapLibre's first animated move event. It must leave
+  // native camera ownership intact instead of jumping back to the old center.
+  f.c.frame(16);assert.equal(interrupts,0,'legacy easing must not issue a native jump');assert.ok(flight);assert.equal(f.c.zoom,1);
+  applyNative({center:[80,30],zoom:5});f.c.frame(32);assert.equal(interrupts,0);assert.ok(flight);
+  applyNative({center:[p.lon,p.lat],zoom:14});flight=null;f.c.frame(48);assert.equal(interrupts,0);assert.ok(Math.abs(f.c.lon-p.lon)<1e-9);assert.ok(Math.abs(f.c.lat-p.lat)<1e-9);assert.equal(f.c.targetZoom,2**13);
+ }
+});
+test('actual app frame retains legacy zoom easing when the offline canvas owns the map',()=>{
+ const f=fixture();prepareActualFrame(f);f.run('realBasemap.ready=false;');f.c.zoom=1;f.c.targetZoom=3;f.c.frame(16);assert.ok(f.c.zoom>1&&f.c.zoom<3);
+});

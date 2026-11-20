@@ -1,5 +1,6 @@
 'use strict';
 const fs=require('node:fs'),assert=require('node:assert/strict'),{chromium}=require('playwright');
+const {routeFrameReady,probeRouteFrame}=require('./map-render-probe.cjs');
 const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme-maps';
 (async()=>{
  fs.mkdirSync(out,{recursive:true});
@@ -8,10 +9,10 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
  const open=async hash=>{await page.goto(base+hash);await page.waitForFunction(()=>document.body.dataset.ready==='true')};
  const overflow=async id=>assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),id+' overflow');
  const frame=async id=>{
-  await page.waitForFunction(()=>camera===null&&Math.abs(zoom-targetZoom)<.01);
-  const result=await page.evaluate(()=>({w,h,points:mapPoints().map(p=>{const q=project(p.lon,p.lat),s=screen(q);return {id:p.id,z:q[2],x:s[0],y:s[1]}})}));
+  await page.waitForFunction(routeFrameReady);
+  const result=await page.evaluate(probeRouteFrame);if(result.native)assert.ok(result.base>0,id+' current basemap');
   // Global comparison maps need more than one hemisphere. Local maps and plans fit.
-  assert.ok(result.points.every(p=>p.z>0&&p.x>0&&p.x<result.w&&p.y>0&&p.y<result.h),id+' framing '+JSON.stringify(result));
+  assert.ok(result.points.every(p=>(result.native?p.rendered:p.z>0)&&p.x>0&&p.x<result.w&&p.y>0&&p.y<result.h),id+' framing '+JSON.stringify(result));
  };
  try{
   await open('#interest=art');const ids=await page.evaluate(()=>[...culturalThemeMaps.keys()]);

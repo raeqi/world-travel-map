@@ -1,6 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),vm=require('node:vm');
-const {mapViewReady,probeMapFrame,assertSelectionFrame}=require('../scripts/map-render-probe.cjs');
+const {mapViewReady,probeMapFrame,assertSelectionFrame,probeRouteFrame,routeFrameReady}=require('../scripts/map-render-probe.cjs');
 const pinned=import('../assets/vendor/maplibre-6.19.0/maplibre-gl.mjs');
 function readiness(map,active=true,loading=false){return vm.runInNewContext('('+mapViewReady.toString()+')(requireNative)',{realMapActive:()=>active,realBasemap:{map,loading},selected:{id:'a'},camera:null,requireNative:true});}
 test('actual pinned MapLibre update leaves previous tiles loaded while the new frame is pending',async()=>{
@@ -40,4 +40,15 @@ test('hidden, removed, or covered canvas and lost GL context fail independently 
 });
 test('sparse or unavailable engines remain unknown in diagnostics, not fabricated context-loss/network diagnoses',()=>{
  const frame=vm.runInNewContext('('+probeMapFrame.toString()+')()', {performance:{now:()=>0},realBasemap:{map:null,failed:false,baseSeen:true}});assert.equal(frame.fallback,false);assert.equal(frame.active,null);assert.equal(frame.baseTileSeen,true);assert.equal(frame.context,undefined);assert.equal(frame.sources,undefined);assert.deepEqual(Array.from(frame.errors),[]);
+});
+
+test('route framing uses native projected pixels and actual circle IDs, retaining orthographic fallback',()=>{
+ const f=fixture();f.env.mapPoints=()=>[f.point];const run=()=>JSON.parse(JSON.stringify(vm.runInNewContext('('+probeRouteFrame.toString()+')()',f.env)));
+ let v=run();assert.equal(v.native,true);assert.equal(v.w,1050);assert.equal(v.base,1);assert.equal(v.points[0].rendered,true);assert.equal(v.points[0].x,300);
+ f.rendered.forEach(x=>{if(x.source==='terra-places')x.properties={id:'other'}});assert.equal(run().points[0].rendered,false);
+ const legacy=vm.runInNewContext('('+probeRouteFrame.toString()+')()', {realMapActive:()=>false,mapPoints:()=>[f.point],w:200,h:100,project:()=>[0,0,1],screen:()=>[100,50]});assert.equal(legacy.native,false);assert.equal(legacy.points[0].z,1);
+});
+test('route overview readiness allows no selection but excludes pending native motion and style handoff',()=>{
+ const f=fixture(),run=()=>vm.runInNewContext('('+routeFrameReady.toString()+')()',f.env);assert.equal(run(),true);f.map.isMoving=()=>true;assert.equal(run(),false);
+ const legacy={realMapActive:()=>false,realBasemap:{loading:true},camera:null,zoom:1,targetZoom:1};assert.equal(vm.runInNewContext('('+routeFrameReady.toString()+')()',legacy),false);legacy.realBasemap.loading=false;assert.equal(vm.runInNewContext('('+routeFrameReady.toString()+')()',legacy),true);
 });

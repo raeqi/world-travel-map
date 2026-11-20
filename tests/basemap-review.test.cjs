@@ -34,3 +34,7 @@ test('one-shot review cannot deploy; existing Pages deployment accepts main only
 test('job-level env uses only server-side contexts; runner tool paths are set after allocation',()=>{
  const source=fs.readFileSync('.github/workflows/real-map-review.yml','utf8'),jobEnv=source.match(/    env:\n([\s\S]*?)    steps:/)[1];assert.doesNotMatch(jobEnv,/\$\{\{\s*(runner|steps|job)\./);assert.match(source,/echo "NODE_PATH=\$RUNNER_TEMP/);assert.match(source,/echo "PLAYWRIGHT_MODULE=\$RUNNER_TEMP/);assert.ok(source.indexOf('echo "NODE_PATH=')<source.indexOf('name: Check code and application state'));
 });
+
+test('review uses a stable runner and verifies existing CJK fonts without a redundant apt download',()=>{
+ const source=fs.readFileSync('.github/workflows/real-map-review.yml','utf8');assert.match(source,/runs-on: ubuntu-24\.04/);assert.match(source,/install --with-deps chromium/);assert.match(source,/test -n "\$\(fc-list :lang=zh family\)"/);assert.match(source,/fc-match :lang=zh/);assert.doesNotMatch(source,/apt-get install.*fonts-noto-cjk/);assert.match(source,/timeout-minutes: 20/);
+});

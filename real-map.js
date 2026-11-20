@@ -113,6 +113,10 @@ function realMapFocus(p,animate=true){
  if(!realMapActive()||!validLocation(p))return false;
  positionDetail();camera=null;realBasemap.focused=p.id;realMapUpdateData();
  const map=realBasemap.map,padding=realMapCurrentPadding();realBasemap.paddingKey=JSON.stringify(padding);
+ // select() also sets the old Canvas zoom target. Reconcile that shared target
+ // before an animated native flight, or the earlier app RAF can jumpTo the
+ // previous center and cancel MapLibre before its first move event.
+ realMapReadCamera();
  // Entries representing extensive landscapes use an area view, individual sites a street view.
  const broad=/国家公园|自然保护|山脉|群岛|沙漠|峡谷|自然遗产/.test(p.name+' '+p.type),z=Math.max(map.getZoom(),broad?9:14);
  map.flyTo({center:[p.lon,p.lat],zoom:Math.min(z,19),bearing:0,pitch:0,padding,duration:animate?realMapDuration():0});return true;
