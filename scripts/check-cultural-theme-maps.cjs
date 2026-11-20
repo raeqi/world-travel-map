@@ -1,6 +1,8 @@
 'use strict';
 const fs=require('node:fs'),assert=require('node:assert/strict'),{chromium}=require('playwright');
 const {routeFrameReady,probeRouteFrame}=require('./map-render-probe.cjs');
+const {culturalBrowserScope,culturalShardThemes}=require('./cultural-browser-scope.cjs');
+const scope=culturalBrowserScope();
 const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme-maps';
 (async()=>{
  fs.mkdirSync(out,{recursive:true});
@@ -19,11 +21,12 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
  let deviceName='unknown';
  try{
   await open('#interest=art');const ids=await page.evaluate(()=>[...culturalThemeMaps.keys()]);
-  for(const device of [{name:'desktop',width:1440,height:1000},{name:'mobile',width:390,height:844}]){
+  const reviewThemes=culturalShardThemes([...ids,'shen-congwen','xiao-hong','higashiyama','sibelius','grieg','wordsworth','constable'],scope);
+  for(const device of scope.devices){
    deviceName=device.name;
    await page.setViewportSize(device);await open('#interest=art');
    assert.equal(await page.locator('[data-theme^="collection-"]').count(),0);
-   for(const id of [...ids,'shen-congwen','xiao-hong','higashiyama','sibelius','grieg','wordsworth','constable']){
+   for(const id of reviewThemes){
     await open('#theme='+id+'&view=places');
     assert.equal(await page.locator('#cultural-collection-directory,#collection-person,#collection-region,.collection-member').count(),0);
     assert.ok(await page.locator('#places .place').count()>1,id);
@@ -64,6 +67,6 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
    await open('#theme=fuji-tokaido');assert.ok(await page.locator('.artwork-card').count()>=5);assert.equal(await page.locator('[data-art-museum="atlas-yui"]').count(),0);await page.locator('#discover-panel [data-art-museum]').first().click();assert.equal(await page.evaluate(()=>selected?.id),'impressionism-met');assert.equal(await page.evaluate(()=>themes[activeTheme].id),'hokusai');
   }
   assert.deepEqual(errors,[]);assert.deepEqual(images,[]);
-  fs.writeFileSync(out+'/result.json',JSON.stringify({passed:true,maps:ids,viewports:['1440x1000','390x844'],legacyAliases:18,retainedPersonThemes:76,errors,failedImages:images},null,2));console.log('PASS cultural theme maps: direct places, regional plans, detail, save, next/back, URL restoration, person search, image credits and legacy links on desktop/mobile.');
+  fs.writeFileSync(out+'/result.json',JSON.stringify({passed:true,maps:reviewThemes,registeredMaps:ids,viewports:scope.devices.map(d=>d.width+'x'+d.height),shard:scope.shard,shards:scope.shards,legacyAliases:18,retainedPersonThemes:76,errors,failedImages:images},null,2));console.log('PASS cultural theme maps '+scope.devices.map(d=>d.name).join('/')+' shard '+scope.shard+'/'+scope.shards+': direct places, every assigned regional plan, detail, save, next/back, URL restoration, person search, image credits and legacy links.');
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exitCode=1});

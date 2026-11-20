@@ -24,8 +24,46 @@ jobs:
             scripts: check-theme-discoverability.cjs check-short-theme-review.cjs
           - suite: regional-expansion
             scripts: check-regional-expansion.cjs
-          - suite: cultural-maps
+          - suite: cultural-maps-desktop-1
             scripts: check-cultural-theme-maps.cjs
+            viewport: desktop
+            shard: '1'
+            shards: '4'
+          - suite: cultural-maps-desktop-2
+            scripts: check-cultural-theme-maps.cjs
+            viewport: desktop
+            shard: '2'
+            shards: '4'
+          - suite: cultural-maps-desktop-3
+            scripts: check-cultural-theme-maps.cjs
+            viewport: desktop
+            shard: '3'
+            shards: '4'
+          - suite: cultural-maps-desktop-4
+            scripts: check-cultural-theme-maps.cjs
+            viewport: desktop
+            shard: '4'
+            shards: '4'
+          - suite: cultural-maps-mobile-1
+            scripts: check-cultural-theme-maps.cjs
+            viewport: mobile
+            shard: '1'
+            shards: '4'
+          - suite: cultural-maps-mobile-2
+            scripts: check-cultural-theme-maps.cjs
+            viewport: mobile
+            shard: '2'
+            shards: '4'
+          - suite: cultural-maps-mobile-3
+            scripts: check-cultural-theme-maps.cjs
+            viewport: mobile
+            shard: '3'
+            shards: '4'
+          - suite: cultural-maps-mobile-4
+            scripts: check-cultural-theme-maps.cjs
+            viewport: mobile
+            shard: '4'
+            shards: '4'
           - suite: cultural-atlas
             scripts: check-cultural-atlas-browser.cjs
     steps:
@@ -44,6 +82,10 @@ jobs:
           npm install --no-save --no-package-lock playwright
           npx playwright install --with-deps chromium
       - name: Exercise recovery and old links in actual desktop and mobile Chromium
+        env:
+          CULTURAL_QA_VIEWPORT: ${{ matrix.viewport || '' }}
+          CULTURAL_QA_SHARD: ${{ matrix.shard || '' }}
+          CULTURAL_QA_SHARDS: ${{ matrix.shards || '' }}
         run: node scripts/run-browser-suite.cjs ${{ matrix.scripts }}
       - uses: actions/upload-artifact@v4
         if: always()
