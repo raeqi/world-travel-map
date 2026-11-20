@@ -82,3 +82,7 @@ test('actual app frame must not cancel a pending native flight with legacy zoom 
 test('actual app frame retains legacy zoom easing when the offline canvas owns the map',()=>{
  const f=fixture();prepareActualFrame(f);f.run('realBasemap.ready=false;');f.c.zoom=1;f.c.targetZoom=3;f.c.frame(16);assert.ok(f.c.zoom>1&&f.c.zoom<3);
 });
+
+test('single-stop overview publishes the route and uses an explicit native point flight',()=>{
+ for(const mobile of [false,true]){const f=fixture(mobile),p={id:'prado',name:'Prado',lon:-3.692,lat:40.413,type:'museum'};f.c.placesById.set(p.id,p);f.c.previewStops=[p];f.c.activePlan={id:'one',topology:'network'};f.c.targetZoom=500;f.c.realMapFit([p]);const fly=f.calls.filter(c=>c.type==='fly').at(-1);assert.ok(fly);assert.equal(fly.zoom,14);assert.ok(Math.abs(fly.center[0]-p.lon)<1e-8);assert.equal(fly.center[1],p.lat);assert.equal(f.calls.some(c=>c.type==='fit'),false);assert.equal(f.sources['terra-places'].data.features[0].properties.id,p.id);assert.equal(f.sources['terra-routes'].data.features.length,0);}
+});

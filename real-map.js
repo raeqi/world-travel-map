@@ -125,7 +125,11 @@ function realMapFit(stops,animate=true){
  if(!realMapActive())return false;
  const bounds=realMapBounds(stops);if(!bounds)return false;
  camera=null;realBasemap.focused=null;const padding=realMapCurrentPadding();realBasemap.paddingKey=JSON.stringify(padding);
- realBasemap.map.fitBounds(bounds,{padding,maxZoom:14,duration:animate?realMapDuration():0,bearing:0,pitch:0});return true;
+ // Publish the current route roster before starting the native camera update.
+ realMapUpdateData();realMapReadCamera();
+ const options={padding,duration:animate?realMapDuration():0,bearing:0,pitch:0};
+ if(bounds[0][0]===bounds[1][0]&&bounds[0][1]===bounds[1][1])realBasemap.map.flyTo({...options,center:bounds[0],zoom:14});
+ else realBasemap.map.fitBounds(bounds,{...options,maxZoom:14});return true;
 }
 function realMapScale(value){
  if(!realMapActive())return false;

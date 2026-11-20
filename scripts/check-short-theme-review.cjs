@@ -1,4 +1,5 @@
 'use strict';
+const {routeFrameReady,probeRouteFrame}=require('./map-render-probe.cjs');
 const fs=require('node:fs'),assert=require('node:assert/strict'),{chromium}=require('playwright');
 const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/theme-review/short-browser';
 (async()=>{
@@ -21,8 +22,8 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/theme-review/s
      await page.locator('#detail img').evaluateAll(imgs=>Promise.all(imgs.map(i=>{i.loading='eager';return i.decode().catch(()=>null)})));failedImages.push(...await page.locator('#detail img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src)));
      if(await page.locator('.route-stops button').count()>1){await page.locator('#detail [aria-label="下一站"]').click();assert.equal(await page.evaluate(()=>previewStops.indexOf(selected)),1);await page.locator('#detail [aria-label="上一站"]').click();assert.equal(await page.evaluate(()=>previewStops.indexOf(selected)),0);}
      if(plan===plans[0])await page.screenshot({path:out+'/'+device.name+'-'+id+'.png'});
-     await page.locator('#detail .reading-close').click();await page.locator('.route-overview').click();await page.waitForFunction(()=>camera===null&&Math.abs(zoom-targetZoom)<.01);
-     assert.ok(await page.evaluate(()=>mapPoints().every(p=>{const q=project(p.lon,p.lat),s=screen(q);return q[2]>0&&s[0]>0&&s[0]<w&&s[1]>0&&s[1]<h})),plan+' map fit');
+     await page.locator('#detail .reading-close').click();await page.locator('.route-overview').click();await page.waitForFunction(routeFrameReady);
+     const frame=await page.evaluate(probeRouteFrame);assert.ok(frame.points.every(p=>(frame.native?p.rendered:p.z>0)&&p.x>0&&p.x<frame.w&&p.y>0&&p.y<frame.h),plan+' active map fit '+JSON.stringify(frame));if(frame.native)assert.ok(frame.base>0,plan+' current basemap');
      await page.reload();await page.waitForFunction(()=>document.body.dataset.ready==='true');assert.equal(await page.evaluate(()=>activePlan?.id),plan);await page.locator('.route-back').click();
      checks.push({device:device.name,theme:id,plan,map:true,saved:true,nextPrevious:true,refresh:true});
     }
