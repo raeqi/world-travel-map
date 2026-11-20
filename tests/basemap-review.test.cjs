@@ -30,3 +30,7 @@ test('one-shot review cannot deploy; existing Pages deployment accepts main only
  const pages=fs.readFileSync('.github/workflows/pages.yml','utf8'),conditions=[...pages.matchAll(/^\s+if: (.+)$/gm)].map(m=>m[1]);assert.equal(conditions.length,3);
  for(const expression of conditions)for(const [event,ref,expected]of [['push','refs/heads/main',true],['workflow_dispatch','refs/heads/main',true],['workflow_dispatch','refs/heads/review',false],['push','refs/heads/review',false],['pull_request','refs/pull/42/merge',false]]){const source=expression.replaceAll('github.event_name',JSON.stringify(event)).replaceAll('github.ref',JSON.stringify(ref));assert.equal(vm.runInNewContext(source),expected,event+' '+ref);}
 });
+
+test('job-level env uses only server-side contexts; runner tool paths are set after allocation',()=>{
+ const source=fs.readFileSync('.github/workflows/real-map-review.yml','utf8'),jobEnv=source.match(/    env:\n([\s\S]*?)    steps:/)[1];assert.doesNotMatch(jobEnv,/\$\{\{\s*(runner|steps|job)\./);assert.match(source,/echo "NODE_PATH=\$RUNNER_TEMP/);assert.match(source,/echo "PLAYWRIGHT_MODULE=\$RUNNER_TEMP/);assert.ok(source.indexOf('echo "NODE_PATH=')<source.indexOf('name: Check code and application state'));
+});
