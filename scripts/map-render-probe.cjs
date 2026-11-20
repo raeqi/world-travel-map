@@ -79,3 +79,11 @@ function routeFrameReady(){
 }
 module.exports.probeRouteFrame=probeRouteFrame;
 module.exports.routeFrameReady=routeFrameReady;
+
+async function probeRouteData(){
+ // MapLibre 6 stores internal GeoJSON as a tagged/updateable representation.
+ // Public getData() resolves that representation without assuming _data.features.
+ const data=await realBasemap.map.getSource('terra-routes').getData(),expected=routeEdges(previewStops.filter(validLocation),activePlan);
+ return {id:activePlan.id,place:selected.id,stops:previewStops.length,edges:data.features.length,expected:expected.length,endpoints:data.features.map(f=>[f.properties.from,f.properties.to]),expectedEndpoints:expected.map(([a,b])=>[a.id,b.id])};
+}
+module.exports.probeRouteData=probeRouteData;

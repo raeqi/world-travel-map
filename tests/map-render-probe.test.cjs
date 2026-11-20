@@ -1,6 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),vm=require('node:vm');
-const {mapViewReady,probeMapFrame,assertSelectionFrame,probeRouteFrame,routeFrameReady}=require('../scripts/map-render-probe.cjs');
+const {mapViewReady,probeMapFrame,assertSelectionFrame,probeRouteFrame,routeFrameReady,probeRouteData}=require('../scripts/map-render-probe.cjs');
 const pinned=import('../assets/vendor/maplibre-6.19.0/maplibre-gl.mjs');
 function readiness(map,active=true,loading=false){return vm.runInNewContext('('+mapViewReady.toString()+')(requireNative)',{realMapActive:()=>active,realBasemap:{map,loading},selected:{id:'a'},camera:null,requireNative:true});}
 test('actual pinned MapLibre update leaves previous tiles loaded while the new frame is pending',async()=>{
@@ -51,4 +51,13 @@ test('route framing uses native projected pixels and actual circle IDs, retainin
 test('route overview readiness allows no selection but excludes pending native motion and style handoff',()=>{
  const f=fixture(),run=()=>vm.runInNewContext('('+routeFrameReady.toString()+')()',f.env);assert.equal(run(),true);f.map.isMoving=()=>true;assert.equal(run(),false);
  const legacy={realMapActive:()=>false,realBasemap:{loading:true},camera:null,zoom:1,targetZoom:1};assert.equal(vm.runInNewContext('('+routeFrameReady.toString()+')()',legacy),false);legacy.realBasemap.loading=false;assert.equal(vm.runInNewContext('('+routeFrameReady.toString()+')()',legacy),true);
+});
+
+test('route data uses actual pinned GeoJSONSource getData for both tagged representations and preserves endpoints',async()=>{
+ const {GeoJSONSource}=await pinned,features=[{type:'Feature',properties:{from:'a',to:'b'},geometry:{type:'LineString',coordinates:[[1,2],[3,4]]}}],stops=[{id:'a'},{id:'b'}];
+ for(const tagged of [{geojson:{type:'FeatureCollection',features}},{updateable:new Map([['edge',features[0]]])}]){
+  const source={_data:tagged,getData:GeoJSONSource.prototype.getData};assert.equal(source._data.features,undefined);
+  const env={realBasemap:{map:{getSource:()=>source}},previewStops:stops,activePlan:{id:'kept'},selected:stops[0],validLocation:()=>true,routeEdges:()=>[[stops[0],stops[1]]]};
+  const result=JSON.parse(JSON.stringify(await vm.runInNewContext('('+probeRouteData.toString()+')()',env)));assert.equal(result.edges,1);assert.deepEqual(result.endpoints,[['a','b']]);assert.deepEqual(result.endpoints,result.expectedEndpoints);
+ }
 });
