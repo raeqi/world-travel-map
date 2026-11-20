@@ -15,6 +15,8 @@ test('published documents pin every classic script and stylesheet to exact conte
    assert.deepEqual(bytes,fs.readFileSync(file));
   }
   assert.ok(!html.includes('src="app.js"'));assert.ok(!html.includes('__TERRA_RELEASE__'));
+  for(const name of Object.keys(JSON.parse(fs.readFileSync('assets/vendor/maplibre-6.19.0/source.json')).files))assert.deepEqual(fs.readFileSync(path.join(output,'assets/vendor/maplibre-6.19.0',name)),fs.readFileSync(path.join('assets/vendor/maplibre-6.19.0',name)));
+  for(const folder of ['versatiles-9.1.0','natural-earth-5.1.2'])for(const name of Object.keys(JSON.parse(fs.readFileSync(path.join('assets/basemaps',folder,'source.json'))).files))assert.deepEqual(fs.readFileSync(path.join(output,'assets/basemaps',folder,name)),fs.readFileSync(path.join('assets/basemaps',folder,name)));
   assert.ok(fs.existsSync(path.join(output,'assets/cultural-atlas/atlas-yui.webp')));assert.ok(fs.existsSync(path.join(output,'assets/natural-atlas/natural-bow.webp')));
  }finally{fs.rmSync(output,{recursive:true,force:true})}
 });

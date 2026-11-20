@@ -1,0 +1,76 @@
+{
+  "project": "VersaTiles Style",
+  "version": "9.1.0",
+  "release": "https://github.com/versatiles-org/versatiles-style/releases/tag/v9.1.0",
+  "checked": "2026-11-20",
+  "archives": {
+    "styles": {
+      "source": "https://github.com/versatiles-org/versatiles-style/releases/download/v9.1.0/styles.tar.gz",
+      "sha256": "aa562b131c205332c7f8e1447381cac1b092de7e8958461683f35a098ac52d3a"
+    },
+    "sprites": {
+      "source": "https://github.com/versatiles-org/versatiles-style/releases/download/v9.1.0/sprites.tar.gz",
+      "sha256": "213786415c738338e0c95744af81d363893456e45471b06d2c8907e32be52903"
+    }
+  },
+  "originalStyle": {
+    "member": "muted/style.json",
+    "sha256": "b3044c5b624ce25c1c259b94fd35ec03c619342906c6a6b4b4da336274b3e2b7"
+  },
+  "changes": [
+    "Removed optional beta ESA landcover source and its layers; retained stable OSM vector source",
+    "Replaced sprite URL with bundled same-release base sprites",
+    "Serialized JSON compactly; no tile, glyph or sprite content changed"
+  ],
+  "removedLayers": [
+    "landcover-land-glacier",
+    "landcover-land-residential",
+    "landcover-land-agriculture",
+    "landcover-land-rock",
+    "landcover-land-forest",
+    "landcover-land-grass",
+    "landcover-land-vegetation",
+    "landcover-land-wetland",
+    "landcover-water-area"
+  ],
+  "license": {
+    "style": "MIT",
+    "sprites": "CC0-1.0",
+    "OSMData": "ODbL-1.0; © OpenStreetMap contributors",
+    "remoteGlyphs": "Hosted by VersaTiles; not redistributed"
+  },
+  "servicePolicy": "https://docs.versatiles.org/guides/use_tiles_versatiles_org",
+  "dataPolicy": "https://docs.versatiles.org/basics/tilesets.html",
+  "serviceLimit": "Public demo; no SLA; self-host or cache behind your own CDN for high traffic; honor caching and 429 Retry-After",
+  "files": {
+    "base@2x.png": {
+      "bytes": 228675,
+      "sha256": "137c9fde472f4a4b1b620ec6c90dd093fa8278e2b93144dced71f2bbe00a6d90"
+    },
+    "LICENSE.md": {
+      "bytes": 1082,
+      "sha256": "e2b5ef416c74e9d66dfa3469ee0a476fd09dd1bdd61a1f8e3e9f4885ba57ff19"
+    },
+    "base.json": {
+      "bytes": 19561,
+      "sha256": "a3a2c956aea667b21858de4a8972817fc635c5d743cb5cfcdf76167cf775bd3e"
+    },
+    "base@2x.json": {
+      "bytes": 19607,
+      "sha256": "a0b72d14e75058f4e033c239104f4107f750964cde19a66c320645fe80600d12"
+    },
+    "muted.json": {
+      "bytes": 126207,
+      "sha256": "2e53a70d118538aaf57fc7be92aa8d5b987c832b41e66e1359b2f8dc3ee5dc36"
+    },
+    "base.png": {
+      "bytes": 92077,
+      "sha256": "ab9d9f915a316e7cdab3874dc9804bb7127e8b7de837fe91b453c1a14e23e028"
+    }
+  },
+  "licenseEvidence": {
+    "style": "https://raw.githubusercontent.com/versatiles-org/versatiles-style/v9.1.0/LICENSE.md",
+    "sprites": "https://github.com/versatiles-org/versatiles-style#licenses",
+    "CC0": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
