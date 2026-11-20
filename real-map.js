@@ -151,15 +151,20 @@ function realMapFocus(p,animate=true){
 function realMapFit(stops,animate=true){
  if(!realMapActive())return false;
  const bounds=realMapBounds(stops);if(!bounds)return false;
- camera=null;realBasemap.focused=null;const padding=realMapCurrentPadding();realBasemap.paddingKey=JSON.stringify(padding);
+ camera=null;realBasemap.focused=null;const map=realBasemap.map,padding=realMapCurrentPadding();realBasemap.paddingKey=JSON.stringify(padding);
  // Publish the current route roster before starting the native camera update.
- realMapUpdateData();realMapReadCamera();
+ realMapUpdateData();
+ // Normalize the live drawer state first. Keep the native additional-fit
+ // padding path, so city/region markers retain their real screen margins.
+ if(typeof map.getPadding==='function'&&typeof map.setPadding==='function'){
+  const current=map.getPadding();if(Object.keys(padding).some(key=>current[key]!==padding[key]))map.setPadding(padding);
+ }
+ realMapReadCamera();
  const options={padding,duration:animate?realMapDuration():0,bearing:0,pitch:0,roll:0};
  if(bounds[0][0]===bounds[1][0]&&bounds[0][1]===bounds[1][1])realBasemap.map.flyTo({...options,center:bounds[0],zoom:14});
  else{
-  const map=realBasemap.map,candidate=map.cameraForBounds?.(bounds,{padding,maxZoom:14,bearing:0,absolutePadding:true}),globe=map.getProjection?.().type==='globe'&&candidate&&typeof map.getVerticalFieldOfView==='function'?realMapGlobeCamera(stops,candidate,map.getContainer().getBoundingClientRect(),padding,map.getVerticalFieldOfView()):null;
-  // Fit the requested overview area, independent of a previous detail drawer.
-  if(globe)map.flyTo({...options,...globe});else map.fitBounds(bounds,{...options,maxZoom:14,absolutePadding:true});
+  const candidate=map.cameraForBounds?.(bounds,{padding,maxZoom:14,bearing:0,absolutePadding:true}),globe=map.getProjection?.().type==='globe'&&candidate&&typeof map.getVerticalFieldOfView==='function'?realMapGlobeCamera(stops,candidate,map.getContainer().getBoundingClientRect(),padding,map.getVerticalFieldOfView()):null;
+  if(globe)map.flyTo({...options,...globe});else map.fitBounds(bounds,{...options,maxZoom:14});
  }return true;
 }
 function realMapScale(value){
