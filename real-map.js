@@ -16,8 +16,8 @@ function realMapBounds(points){
  if(!valid.length)return null;
  const values=valid.map(p=>(p.lon%360+360)%360).sort((a,b)=>a-b);
  let gap=-1,start=values[0];
- for(let i=0;i<values.length;i++){const next=values[(i+1)%values.length]+(i===values.length-1?360:0),d=next-values[i];if(d>gap){gap=d;start=next%360}}
- let west=start,east=start+360-gap;if((west+east)/2>180){west-=360;east-=360}
+ for(let i=0;i<values.length;i++){const next=values[(i+1)%values.length]+(i===values.length-1?360:0),d=next-values[i];if(d>gap){gap=d;start=values[(i+1)%values.length]}}
+ let west=start,east=Math.max(...values.map(v=>v<start?v+360:v));if((west+east)/2>180){west-=360;east-=360}
  return [[west,Math.max(-85,Math.min(...valid.map(p=>p.lat)))],[east,Math.min(85,Math.max(...valid.map(p=>p.lat)))]];
 }
 // Great-circle samples; longitude unwrap prevents a false line across the world.

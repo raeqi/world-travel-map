@@ -84,5 +84,9 @@ test('actual app frame retains legacy zoom easing when the offline canvas owns t
 });
 
 test('single-stop overview publishes the route and uses an explicit native point flight',()=>{
- for(const mobile of [false,true]){const f=fixture(mobile),p={id:'prado',name:'Prado',lon:-3.692,lat:40.413,type:'museum'};f.c.placesById.set(p.id,p);f.c.previewStops=[p];f.c.activePlan={id:'one',topology:'network'};f.c.targetZoom=500;f.c.realMapFit([p]);const fly=f.calls.filter(c=>c.type==='fly').at(-1);assert.ok(fly);assert.equal(fly.zoom,14);assert.ok(Math.abs(fly.center[0]-p.lon)<1e-8);assert.equal(fly.center[1],p.lat);assert.equal(f.calls.some(c=>c.type==='fit'),false);assert.equal(f.sources['terra-places'].data.features[0].properties.id,p.id);assert.equal(f.sources['terra-routes'].data.features.length,0);}
+ for(const mobile of [false,true]){const f=fixture(mobile),p={id:'prado',name:'Prado',lon:-3.6922,lat:40.4138,type:'museum'};f.c.placesById.set(p.id,p);f.c.previewStops=[p];f.c.activePlan={id:'one',topology:'network'};f.c.targetZoom=500;f.c.realMapFit([p]);const fly=f.calls.filter(c=>c.type==='fly').at(-1);assert.ok(fly);assert.equal(fly.zoom,14);assert.ok(Math.abs(fly.center[0]-p.lon)<1e-8);assert.equal(fly.center[1],p.lat);assert.equal(f.calls.some(c=>c.type==='fit'),false);assert.equal(f.sources['terra-places'].data.features[0].properties.id,p.id);assert.equal(f.sources['terra-routes'].data.features.length,0);}
+});
+
+test('actual Prado, repeated and near-coincident longitudes never create negative or world-wide bounds',()=>{
+ const f=fixture();for(const points of [[{lon:-3.6922,lat:40.4138}],[{lon:-3.6922,lat:40.4138},{lon:-3.6922,lat:40.4138}],[{lon:-3.6922,lat:40.4138},{lon:-3.692199999,lat:40.4138}]]){const b=f.c.realMapBounds(points);assert.ok(b[1][0]>=b[0][0]);assert.ok(b[1][0]-b[0][0]<1e-6);}
 });
