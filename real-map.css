@@ -55,3 +55,8 @@
 #raster-map .map-place-choices strong{font-size:12px;font-weight:600;margin-bottom:3px}
 #raster-map .map-place-choices button{min-height:36px;padding:7px 9px;text-align:left;white-space:normal;line-height:1.5;font-size:11px;color:#245a69;background:#fff;border:1px solid #ccd7da;border-radius:4px}
 #raster-map .map-place-choices button:hover,#raster-map .map-place-choices button:focus-visible{background:#edf3f4;border-color:#245a69}
+@media(max-width:760px){
+ /* The offline notice occupies the upper-right strip while a detail is open.
+    Place the view switch below the left route control, clear of the centre dot. */
+ body:has(#detail:not([hidden])) .map:not(.real-map-active) #map-view-switch{top:92px;left:13px;right:auto}
+}
