@@ -7,7 +7,7 @@ const realMapStyle=currentBasemapProvider().style;
 function realMapLongitude(value){return ((value+180)%360+360)%360-180}
 function realMapZoom(value){return Math.max(0,Math.min(19,1+Math.log2(Math.max(.5,value))))}
 function realMapLegacyZoom(value){return 2**(value-1)}
-function realMapActive(){return realBasemap.ready&&!!realBasemap.map}
+function realMapActive(){return (typeof rasterMapActive==='function'&&rasterMapActive())||(realBasemap.ready&&!!realBasemap.map)}
 function realMapDuration(){return typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches?0:650}
 function realMapCameraKey(){return [lon,lat,zoom].map(v=>v.toFixed(6)).join(',')}
 // Smallest longitude interval, including routes crossing the date line.
@@ -85,6 +85,7 @@ function realMapCanvas(active){
  document.querySelector('.map').classList.toggle('real-map-active',active);document.querySelector('#real-map').setAttribute('aria-hidden',String(!active));
 }
 function realMapReadCamera(){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapReadCamera();
  const map=realBasemap.map;if(!map||!realBasemap.ready)return;
  const center=map.getCenter();lon=realMapLongitude(center.lng);lat=center.lat;zoom=targetZoom=realMapLegacyZoom(map.getZoom());
  realBasemap.cameraKey=realMapCameraKey();dirty=true;
@@ -101,7 +102,7 @@ function realMapFail(reason){
  if(selected&&validLocation(selected)){lon=selected.lon;lat=selected.lat;}else if(previewStops?.length)fitRoute(previewStops);
  if(hadFocus)canvas.focus({preventScroll:true});dirty=true;
  realMapStatus('真实底图暂不可用，已使用离线地图。',true);
- console.warn('Real basemap unavailable; schematic globe retained:',reason);
+ console.warn('Real basemap unavailable; schematic globe retained.',{code:typeof safeBasemapError==='function'?safeBasemapError(reason):'basemap-unavailable'});
 }
 function realMapIcon(map,p){
  if(typeof pictogram!=='function'||typeof map.hasImage!=='function')return '';
@@ -127,6 +128,7 @@ function realMapInstallLayers(map){
  map.addLayer({id:'terra-order',type:'symbol',source:'terra-places',filter:['>',['get','order'],0],layout:{'text-field':['get','badge'],'text-font':currentBasemapProvider().labelFont,'text-size':10,'text-allow-overlap':false,'symbol-sort-key':['get','order']},paint:{'text-color':'#ffffff','text-halo-color':'#23343b','text-halo-width':1}});
 }
 function realMapUpdateData(force=false){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapUpdateData(force);
  if(!realMapActive())return;
  const map=realBasemap.map,stops=(previewStops||(!previewTheme?trip:[])).filter(validLocation),order=new Map(stops.map((p,i)=>[p.id,i+1]));
  const points=[...new Map([...mapPoints(),...(selected?[selected]:[])].filter(validLocation).map(p=>[p.id,p])).values()];
@@ -137,6 +139,7 @@ function realMapUpdateData(force=false){
  map.setPaintProperty('terra-route','line-color',themes[activeTheme].colors.route);realBasemap.dataKey=key;
 }
 function realMapFocus(p,animate=true){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapFocus(p,animate);
  if(!realMapActive()||!validLocation(p))return false;
  positionDetail();camera=null;realBasemap.focused=p.id;realMapUpdateData();
  const map=realBasemap.map,padding=realMapCurrentPadding();realBasemap.paddingKey=JSON.stringify(padding);
@@ -149,6 +152,7 @@ function realMapFocus(p,animate=true){
  map.flyTo({center:[p.lon,p.lat],zoom:Math.min(z,19),bearing:0,pitch:0,padding,duration:animate?realMapDuration():0});return true;
 }
 function realMapFit(stops,animate=true){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapFit(stops,animate);
  if(!realMapActive())return false;
  const bounds=realMapBounds(stops);if(!bounds)return false;
  camera=null;realBasemap.focused=null;const map=realBasemap.map,padding=realMapCurrentPadding();realBasemap.paddingKey=JSON.stringify(padding);
@@ -168,11 +172,13 @@ function realMapFit(stops,animate=true){
  }return true;
 }
 function realMapScale(value){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapScale(value);
  if(!realMapActive())return false;
  camera=null;realBasemap.focused=null;realBasemap.map.zoomTo(Math.max(0,Math.min(19,realBasemap.map.getZoom()+Math.log2(value))),{duration:180});return true;
 }
-function realMapStop(){if(realMapActive()){realBasemap.map.stop();realBasemap.focused=null;realMapReadCamera();}}
+function realMapStop(){if(typeof rasterMapActive==='function'&&rasterMapActive()){rasterMapStop();return;}if(realMapActive()){realBasemap.map.stop();realBasemap.focused=null;realMapReadCamera();}}
 function realMapResize(){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapResize();
  if(!realMapActive())return;
  positionDetail();realBasemap.map.resize();
  const padding=realMapCurrentPadding(),key=JSON.stringify(padding);
@@ -183,6 +189,7 @@ function realMapResize(){
  }
 }
 function drawRealMap(){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return drawRasterMap();
  if(!realMapActive())return;
  if(selected)positionDetail();realMapUpdateData();
  if(auto||playing)realBasemap.focused=null;
@@ -194,6 +201,7 @@ function drawRealMap(){
  document.querySelector('#coords').textContent=`${Math.abs(lat).toFixed(2)}° ${lat>=0?'N':'S'} / ${Math.abs(lon).toFixed(2)}° ${lon>=0?'E':'W'}`;
 }
 function realMapEnterTheme(){
+ if(typeof rasterMapPreferred==='function'&&rasterMapPreferred()){rasterMapEnterTheme();return;}
  realBasemap.focused=null;realBasemap.dataKey='';
  if(realMapActive()){
   realBasemap.map.stop();camera=null;realBasemap.map.jumpTo({center:[lon,lat],zoom:realMapZoom(zoom),padding:{top:0,bottom:0,left:0,right:0},bearing:0,pitch:0});realBasemap.paddingKey='';realMapUpdateData(true);realMapResize();
@@ -225,6 +233,7 @@ function realMapBind(map,epoch){
   map.getCanvas().addEventListener('webglcontextlost',event=>{event.preventDefault();if(epoch===realBasemap.epoch)realMapFail('WebGL context lost');},{once:true});
 }
 async function realMapStart(){
+ if(typeof rasterMapPreferred==='function'&&rasterMapPreferred()){await rasterMapStart();return;}
  if(realBasemap.loading||realBasemap.map)return;
  const epoch=++realBasemap.epoch;realBasemap.loading=true;realBasemap.failed=false;realBasemap.baseSeen=false;realBasemap.errors=[];
  realMapStatus('正在加载真实底图…');
@@ -244,12 +253,16 @@ async function realMapStart(){
  }catch(error){if(epoch===realBasemap.epoch)realMapFail(error.message);}
 }
 function initializeRealMap(){
- renderBasemapAttribution();
- const retry=document.querySelector('#basemap-retry');if(retry)retry.onclick=()=>{realBasemap.failed=false;void realMapStart();};
+ renderBasemapAttribution();if(typeof initializeRasterMap==='function')initializeRasterMap();
+ const retry=document.querySelector('#basemap-retry');if(retry)retry.onclick=()=>{realBasemap.failed=false;if(typeof rasterBasemap!=='undefined')rasterBasemap.failed=false;void realMapStart();};
  if(typeof ResizeObserver!=='undefined'){
   realBasemap.observer=new ResizeObserver(()=>{if(realMapActive()){realMapResize();dirty=true;}});
   realBasemap.observer.observe(document.querySelector('.map'));realBasemap.observer.observe(document.querySelector('#detail'));
  }
  if(inTheme&&!realBasemap.map&&!realBasemap.failed)void realMapStart();
+}
+function realMapVectorDispose(){
+ clearTimeout(realBasemap.timer);realBasemap.controller?.abort();realBasemap.controller=null;realBasemap.epoch++;
+ realMapCanvas(false);if(realBasemap.map)realBasemap.map.remove();realBasemap.map=null;realBasemap.ready=false;realBasemap.loading=false;realBasemap.failed=false;realBasemap.dataKey='';realBasemap.focused=null;realBasemap.paddingKey='';camera=null;
 }
 document.addEventListener('DOMContentLoaded',initializeRealMap);

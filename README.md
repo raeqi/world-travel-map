@@ -30,7 +30,7 @@
 python3 -m http.server 8000
 ```
 
-打开 [http://localhost:8000](http://localhost:8000)。本地浏览无需安装前端依赖或地图 API 密钥；请通过 HTTP 访问，避免直接双击 HTML 导致数据读取受限。
+打开 [http://localhost:8000](http://localhost:8000)。默认 3D/离线地图无需安装前端依赖或地图 API 密钥；可选的独立 2D 街道底图需部署方配置获批准的图源，见[兼容路径与接入条件](docs/maps/raster-compatibility.md)。请通过 HTTP 访问，避免直接双击 HTML 导致数据读取受限。
 
 ## 数据与目录
 

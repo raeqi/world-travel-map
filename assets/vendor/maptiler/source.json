@@ -1,0 +1,10 @@
+{
+  "name": "MapTiler official attribution logo",
+  "source": "https://api.maptiler.com/resources/logo.svg",
+  "guidance": "https://docs.maptiler.com/guides/map-design/attribution/add-attribution/",
+  "retrieved": "2026-11-21",
+  "usage": "Official unmodified trademark asset used only to attribute MapTiler maps, as instructed by the official attribution guide; not a general-purpose open image license.",
+  "changes": "None; original SVG bytes preserved.",
+  "bytes": 16656,
+  "sha256": "c2fef38a1e77e9ff774dc1b21a2e931c81eab12191395be726c594404e4bf332"
+}
