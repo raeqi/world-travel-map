@@ -47,12 +47,25 @@ function rasterMapLoadLibrary(){
   script.onload=()=>globalThis.L?resolve(globalThis.L):reject(Error('engine-load-failed'));script.onerror=()=>reject(Error('engine-load-failed'));document.head.append(script);
  }).catch(()=>{rasterBasemap.lib=null;throw Error('engine-load-failed')});return rasterBasemap.lib;
 }
-function rasterMapLongitude(value){const c=rasterBasemap.map.getCenter().lng;return value+Math.round((c-value)/360)*360}
+function rasterMapWrappedLongitude(value,center){return value+Math.round((center-value)/360)*360}
+function rasterMapWorldKey(points,center){return points.map(p=>[p.id,rasterMapWrappedLongitude(p.lon,center)-p.lon])}
+function rasterMapLongitude(value){return rasterMapWrappedLongitude(value,rasterBasemap.map.getCenter().lng)}
+function rasterMapChoosePlace(p,position){
+ const map=rasterBasemap.map,q=map.latLngToContainerPoint(position||[p.lat,rasterMapLongitude(p.lon)]);
+ const nearby=[...rasterBasemap.points].filter(([,layer])=>{const r=map.latLngToContainerPoint(layer.getLatLng());return Math.hypot(q.x-r.x,q.y-r.y)<=12}).map(([id])=>placesById.get(id)).filter(Boolean);
+ if(nearby.length<2){select(p);return;}
+ const content=document.createElement('div');content.className='map-place-choices';content.setAttribute('role','group');content.setAttribute('aria-label','选择此处的地点');
+ const title=document.createElement('strong');title.textContent='此处有 '+nearby.length+' 个地点';content.append(title);
+ for(const point of nearby){const button=document.createElement('button');button.dataset.mapChoice=point.id;button.textContent=point.name+' · '+point.type;button.onclick=()=>{map.closePopup();map.getContainer().focus({preventScroll:true});select(point)};content.append(button);}
+ const pad=realMapCurrentPadding(),rect=map.getContainer().getBoundingClientRect();
+ L.popup({maxWidth:280,minWidth:180,maxHeight:Math.max(80,rect.height-pad.top-pad.bottom-35),autoPanPaddingTopLeft:[16,pad.top],autoPanPaddingBottomRight:[16,pad.bottom]}).setLatLng(position||[p.lat,rasterMapLongitude(p.lon)]).setContent(content).openOn(map);
+ requestAnimationFrame(()=>content.querySelector('button')?.focus({preventScroll:true}));
+}
 function rasterMapUpdateData(force=false){
  if(!rasterMapActive())return;
  const map=rasterBasemap.map,stops=(previewStops||(!previewTheme?trip:[])).filter(validLocation),order=new Map(stops.map((p,i)=>[p.id,i+1]));
  const points=[...new Map([...mapPoints(),...(selected?[selected]:[])].filter(validLocation).map(p=>[p.id,p])).values()];
- const key=JSON.stringify([activeTheme,points.map(p=>p.id),stops.map(p=>p.id),activePlan?.id,activePlan?.topology,selected?.id,Math.round(map.getCenter().lng/360)]);
+ const key=JSON.stringify([activeTheme,points.map(p=>p.id),stops.map(p=>p.id),activePlan?.id,activePlan?.topology,selected?.id,rasterMapWorldKey(points,map.getCenter().lng)]);
  if(!force&&key===rasterBasemap.dataKey)return;
  for(const layer of rasterBasemap.points.values())layer.remove();rasterBasemap.points.clear();
  if(rasterBasemap.route)rasterBasemap.route.remove();
@@ -63,8 +76,8 @@ function rasterMapUpdateData(force=false){
  })).addTo(map);
  for(const p of points){
   const on=p===selected,n=order.get(p.id),layer=L.circleMarker([p.lat,rasterMapLongitude(p.lon)],{radius:on?9:n?7:5,color:on?'#173a46':'#ffffff',weight:on?3:2,fillColor:markerStyle(p).color,fillOpacity:1});
-  layer.on('click',()=>select(p));layer.addTo(map);const el=layer.getElement();
-  if(el){el.dataset.place=p.id;el.setAttribute('tabindex','0');el.setAttribute('role','button');el.setAttribute('aria-label',p.name);el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select(p)}});}
+  layer.on('click',event=>rasterMapChoosePlace(p,event.latlng));layer.addTo(map);const el=layer.getElement();
+  if(el){el.dataset.place=p.id;el.setAttribute('tabindex','0');el.setAttribute('role','button');el.setAttribute('aria-label',p.name);el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();rasterMapChoosePlace(p)}});}
   layer.bindTooltip(p.name,{direction:'right',offset:[9,0],permanent:on});rasterBasemap.points.set(p.id,layer);
  }
  if(selected)rasterBasemap.points.get(selected.id)?.bringToFront();
@@ -77,13 +90,13 @@ function rasterMapSetCenter(p,z,animate){
 }
 function rasterMapFocus(p,animate=true){
  if(!rasterMapActive()||!validLocation(p))return false;
- positionDetail();camera=null;auto=false;rasterBasemap.focused=p.id;rasterMapUpdateData();rasterMapReadCamera();
+ positionDetail();if(typeof detailReturnFocus!=='undefined'&&(!detailReturnFocus?.isConnected||rasterBasemap.map.getContainer().contains(detailReturnFocus)))detailReturnFocus=rasterBasemap.map.getContainer();rasterBasemap.map.closePopup();camera=null;auto=false;rasterBasemap.focused=p.id;rasterMapUpdateData();rasterMapReadCamera();
  const broad=/国家公园|自然保护|山脉|群岛|沙漠|峡谷|自然遗产/.test(p.name+' '+p.type);
  rasterMapSetCenter(p,Math.min(19,Math.max(rasterBasemap.map.getZoom(),broad?9:14)),animate);return true;
 }
 function rasterMapFit(points,animate=true){
  if(!rasterMapActive())return false;const bounds=realMapBounds(points);if(!bounds)return false;
- camera=null;auto=false;rasterBasemap.focused=null;rasterMapUpdateData();rasterMapReadCamera();const pad=realMapCurrentPadding();rasterBasemap.paddingKey=JSON.stringify(pad);
+ camera=null;auto=false;rasterBasemap.map.closePopup();rasterBasemap.focused=null;rasterMapUpdateData();rasterMapReadCamera();const pad=realMapCurrentPadding();rasterBasemap.paddingKey=JSON.stringify(pad);
  if(bounds[0][0]===bounds[1][0]&&bounds[0][1]===bounds[1][1])rasterMapSetCenter({lon:bounds[0][0],lat:bounds[0][1]},14,animate);
  else rasterBasemap.map.fitBounds([[bounds[0][1],bounds[0][0]],[bounds[1][1],bounds[1][0]]],{paddingTopLeft:[pad.left,pad.top],paddingBottomRight:[pad.right,pad.bottom],maxZoom:14,animate:animate&&realMapDuration()>0});
  return true;
@@ -102,7 +115,7 @@ function drawRasterMap(){
 }
 function rasterMapEnterTheme(){
  if(rasterMapActive()){
-  rasterBasemap.map.stop();camera=null;rasterBasemap.dataKey='';rasterMapUpdateData(true);
+  rasterBasemap.map.stop();rasterBasemap.map.closePopup();camera=null;rasterBasemap.dataKey='';rasterMapUpdateData(true);
   rasterBasemap.map.setView([lat,lon],realMapZoom(zoom),{animate:false});rasterMapResize();rasterMapReadCamera();
  }else if(!rasterBasemap.failed)void rasterMapStart();
 }
@@ -149,3 +162,5 @@ function initializeRasterMap(){
  if(globe)globe.onclick=()=>{stopTrip();rasterBasemap.mode='globe';rasterMapStop();rasterMapDispose();realBasemap.failed=false;void realMapStart()};
  rasterMapControls();
 }
+
+if(typeof module!=='undefined'&&module.exports)module.exports={rasterMapWrappedLongitude,rasterMapWorldKey};

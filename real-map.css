@@ -50,3 +50,8 @@
 #map-view-switch button:disabled{color:#7b8588;cursor:default}
 .raster-map-active #rotate{display:none}
 @media(max-width:760px){#map-view-switch{right:13px;top:8px}#map-view-switch button{min-height:36px;padding:5px 8px}}
+
+#raster-map .map-place-choices{display:grid;gap:5px;min-width:160px;color:#233f48}
+#raster-map .map-place-choices strong{font-size:12px;font-weight:600;margin-bottom:3px}
+#raster-map .map-place-choices button{min-height:36px;padding:7px 9px;text-align:left;white-space:normal;line-height:1.5;font-size:11px;color:#245a69;background:#fff;border:1px solid #ccd7da;border-radius:4px}
+#raster-map .map-place-choices button:hover,#raster-map .map-place-choices button:focus-visible{background:#edf3f4;border-color:#245a69}
