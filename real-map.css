@@ -15,7 +15,6 @@
 .basemap-provider-logo{display:flex;flex:0 0 67px;align-items:center;min-height:24px}
 .basemap-provider-logo img{display:block;width:67px;height:20px;max-width:none}
 .basemap-attribution>span{min-width:0}
-.raster-map-active .hint{bottom:34px}
 .basemap-attribution a{color:inherit;text-decoration:underline}
 .real-map-active .hint{bottom:23px}
 .real-map-active .legend{bottom:62px}
@@ -68,3 +67,6 @@
 /* The place picker is a temporary focused action. Keep zoom/view switching,
    and restore decorative/route controls when it closes. */
 .raster-choice-open #art-toggle,.raster-choice-open #clear-route{visibility:hidden;pointer-events:none}
+
+/* Reserve the complete logo/text footer height after the narrow-screen rules. */
+.raster-map-active .hint{bottom:34px}
