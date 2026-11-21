@@ -1,0 +1,42 @@
+'use strict';
+// Actual pinned Leaflet and application DOM. Synthetic image completion and
+// mocked layout: NOT a browser pixel test, live map service, or network proof.
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const {JSDOM,VirtualConsole,ResourceLoader}=require(process.env.JSDOM_MODULE||'jsdom'),root=path.resolve(__dirname,'..');
+const source=fs.readFileSync(path.join(root,'index.html'),'utf8').replace(/<script defer src="([^"]+)"><\/script>/g,(_,file)=>'<script>'+fs.readFileSync(path.join(root,file),'utf8')+'</script>');
+const wait=()=>new Promise(r=>setTimeout(r,15));
+class LocalResources extends ResourceLoader{fetch(url){const file=new URL(url).pathname.replace(/^\//,'');if(file.startsWith('assets/vendor/leaflet-1.9.4/')||file.endsWith('.css'))return Promise.resolve(fs.readFileSync(path.join(root,file)));return null}}
+async function session(width,hash,mode,scenario='success'){
+ const errors=[],warnings=[],vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message.replace(/https?:\/\/\S+/g,'[redacted-url]')));vc.on('warn',(...args)=>warnings.push(JSON.stringify(args)));
+ const height=width===390?337.109375:928,rect={left:width===390?0:402,top:60,right:width,bottom:60+height,width:width===390?390:1038,height};
+ const dom=new JSDOM(source,{url:'https://atlas.test/'+hash,runScripts:'dangerously',resources:new LocalResources(),pretendToBeVisual:true,virtualConsole:vc,beforeParse(w){
+  Object.defineProperty(w,'innerWidth',{value:width});Object.defineProperty(w,'innerHeight',{value:width===390?844:1000});w.TERRA_RASTER_CONFIG={provider:'maptiler',apiKey:'fixture-not-a-service-key',mapId:'streets-v4'};
+  w.WebGL2RenderingContext=mode==='missing'?undefined:class{};w.webglRequests=0;w.HTMLCanvasElement.prototype.getContext=function(type){if(type!=='2d'){w.webglRequests++;return null}const gradient={addColorStop(){}};return new Proxy({measureText:t=>({width:t.length*7}),createRadialGradient:()=>gradient,createLinearGradient:()=>gradient,createPattern:()=>null},{get:(o,k)=>k in o?o[k]:(()=>{}),set:(o,k,v)=>(o[k]=v,true)})};
+  w.SVGSVGElement.prototype.createSVGRect=()=>({});w.Path2D=class{constructor(){return new Proxy({},{get:()=>()=>{}})}};w.ResizeObserver=class{observe(){}};w.requestAnimationFrame=fn=>fn.name==='frame'?0:w.setTimeout(()=>fn(w.performance.now()),0);w.scrollTo=()=>{};w.Element.prototype.scrollIntoView=()=>{};w.Element.prototype.setPointerCapture=()=>{};w.matchMedia=()=>({matches:true});
+  w.HTMLDialogElement.prototype.showModal=function(){this.open=true};w.HTMLDialogElement.prototype.close=function(){this.open=false};
+  w.fetch=async url=>{if(String(url).includes('tiles.json'))return {ok:scenario!=='auth-fail',status:scenario==='auth-fail'?403:200,json:async()=>({tiles:['https://api.maptiler.com/maps/streets-v4/256/{z}/{x}/{y}.png']})};return {ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,'countries.geo.json'),'utf8'))};};
+  w.HTMLElement.prototype.getBoundingClientRect=function(){if(this.id==='detail')return {left:width===390?10:1023,top:width===390?260:138,right:width===390?380:1423,bottom:width===390?834:938,width:this.hidden?0:width===390?370:400,height:this.hidden?0:width===390?574:800};return rect};
+  for(const key of ['clientWidth','offsetWidth'])Object.defineProperty(w.HTMLElement.prototype,key,{get(){return rect.width}});for(const key of ['clientHeight','offsetHeight'])Object.defineProperty(w.HTMLElement.prototype,key,{get(){return rect.height}});
+ }}),w=dom.window,e=s=>w.eval(s);
+ for(let i=0;i<200;i++){if(e("typeof rasterBasemap!=='undefined'&&(rasterBasemap.tiles||rasterBasemap.failed)"))break;await wait()}
+ async function completeTiles(fail=false){for(let pass=0;pass<6;pass++){for(const img of [...w.document.querySelectorAll('#raster-map .leaflet-tile')]){if(img.dataset.fixtureComplete)continue;img.dataset.fixtureComplete='true';if(fail){img.dispatchEvent(new w.Event('error'));continue}Object.defineProperty(img,'complete',{value:true,configurable:true});Object.defineProperty(img,'naturalWidth',{value:256,configurable:true});Object.defineProperty(img,'naturalHeight',{value:256,configurable:true});img.dispatchEvent(new w.Event('load'));}await wait();}}
+
+ return {dom,w,e,errors,warnings,completeTiles,rect};
+}
+(async()=>{
+ const results=[];
+ const samples=[['北京','#theme=culture&place=wh-439'],['京都','#theme=culture&place=wh-688'],['巴黎','#theme=culture&place=wh-600'],['哥伦比亚','#theme=marquez']];
+ for(const width of [1440,390])for(const mode of ['missing','context-null'])for(const [city,hash]of samples){
+  const s=await session(width,hash,mode);try{
+   assert.equal(s.e('rasterMapActive()'),false,'load event is not evidence of a decoded tile');s.e("rasterBasemap.tiles.fire('load')");assert.equal(s.e('rasterMapActive()'),false);await s.completeTiles();assert.equal(s.e('rasterMapActive()'),true,city+' raster ready '+JSON.stringify({frame:JSON.parse(s.e('JSON.stringify(rasterMapFrame())')),errors:s.errors,warnings:s.warnings,tiles:s.w.document.querySelectorAll('#raster-map .leaflet-tile').length,state:s.e('JSON.stringify({ready:rasterBasemap.ready,failed:rasterBasemap.failed,loading:rasterBasemap.loading,loaded:rasterBasemap.loaded,errors:rasterBasemap.errors})')}));assert.equal(s.w.webglRequests,0,'independent path must not probe WebGL');
+   let frame=JSON.parse(s.e('JSON.stringify(rasterMapFrame())'));assert.ok(frame.tileImagesVisible>0);assert.equal(frame.sourceValidated,true);assert.equal(frame.imageryVerified,false,'fixtures never prove real roads');assert.ok(frame.points.length>0);
+   const id=frame.points.find(p=>p.inViewport)?.id||frame.points[0].id,el=s.w.document.querySelector('[data-place="'+id+'"]');el.dispatchEvent(new s.w.MouseEvent('click',{bubbles:true,clientX:100,clientY:140}));await s.completeTiles();assert.equal(s.e('selected.id'),id,city+' clickable SVG');assert.equal(new URLSearchParams(s.w.location.hash.slice(1)).get('place'),id);
+   const point=JSON.parse(s.e('JSON.stringify(rasterMapFrame().points.find(p=>p.id===selected.id))'));assert.ok(point.inViewport,city+' selected point');const pad=JSON.parse(s.e('JSON.stringify(realMapCurrentPadding())'));assert.ok(point.x>pad.left&&point.x<s.rect.width-pad.right&&point.y>pad.top&&point.y<s.rect.height-pad.bottom,city+' unobscured padded pixels');
+   const before=s.e('rasterBasemap.map.getCenter().lng');s.e('rasterBasemap.map.panBy([60,0],{animate:false})');assert.notEqual(s.e('rasterBasemap.map.getCenter().lng'),before);s.e('realMapFocus(selected,false)');await s.completeTiles();
+   const plan=s.e('buildPlans(themes[activeTheme].id,0)[0]?.id');if(plan){s.e('openPlan(buildPlans(themes[activeTheme].id,0)[0])');await s.completeTiles();const ids=s.e('JSON.stringify(previewStops.map(p=>p.id))');s.w.document.querySelector('.route-stops button').click();await s.completeTiles();s.w.document.querySelector('#detail .add-trip').click();assert.ok(s.e('trip.includes(selected)'));s.e('restoreNavigation()');await s.completeTiles();assert.equal(s.e('JSON.stringify(previewStops.map(p=>p.id))'),ids);assert.equal(s.e('activePlan.id'),plan);}
+   assert.deepEqual(s.errors,[]);results.push({city,width,webgl:mode,passed:true,engine:'actual Leaflet 1.9.4',tileEvidence:'synthetic completion with mocked layout',realImageryVerified:false});
+  }finally{s.dom.window.close()}
+ }
+ for(const scenario of ['all-tiles-fail','auth-fail']){const s=await session(390,'#theme=marquez','context-null',scenario);try{if(scenario==='all-tiles-fail')await s.completeTiles(true);assert.equal(s.e('rasterMapActive()'),false);assert.equal(s.e('rasterBasemap.failed'),true);assert.ok(!s.w.document.querySelector('.map').classList.contains('real-map-active'));assert.ok(!s.w.document.querySelector('#basemap-retry').hidden);assert.ok(s.e('places.some(p=>p.themes.includes("marquez"))'));assert.ok(s.warnings.every(x=>!x.includes('fixture-not-a-service-key')&&!x.includes('https://')));results.push({scenario,passed:true,fallback:'original canvas remains interactive'});}finally{s.dom.window.close()}}
+ const report={kind:'deterministic DOM / actual Leaflet / synthetic tiles',passed:true,layoutPixelsVerified:false,liveMapTiler:{status:'not_run',reason:'no approved key'},results};if(process.env.RASTER_QA_OUTPUT)fs.writeFileSync(process.env.RASTER_QA_OUTPUT,JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
+})().catch(e=>{console.error(e);process.exitCode=1});

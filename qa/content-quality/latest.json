@@ -282,12 +282,27 @@
     },
     {
       "file": "basemap-providers.js",
-      "sha256": "355add0958c0d543d5de5919740282b5b355349f219ec84791f7c44b68f06d7c",
+      "sha256": "54db5e2951541b89f82c7668a0b80a29ca600ea023dd39814118bf36676a637b",
+      "executed": true
+    },
+    {
+      "file": "raster-runtime.js",
+      "sha256": "492d68759840a47b279ab5b84efa183af86a827c3d61d17c61642eb553088424",
+      "executed": true
+    },
+    {
+      "file": "raster-config.js",
+      "sha256": "d98165dd9825e081aef48f945a11bc5b243c6aed0f8d5297c38115fcd65a1e27",
+      "executed": true
+    },
+    {
+      "file": "raster-map.js",
+      "sha256": "19549ea5bcfdf1d2eb2b6c809c0d611d0bdb222499a0a50fa1557f237eaff7b5",
       "executed": true
     },
     {
       "file": "real-map.js",
-      "sha256": "65e02dd51cd2e331c55935a5b095aab6b0fdc928656a68b3668e9cc6e3608acb",
+      "sha256": "d8463a0c7114f30f38574691a154e40623856b679beb80cb2ab249f66f624c36",
       "executed": true
     },
     {

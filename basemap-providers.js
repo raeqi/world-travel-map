@@ -8,7 +8,7 @@ function currentBasemapProvider(){return basemapProviders[defaultBasemapProvider
 function resolveBasemapResources(style,base){
  return {...style,sprite:Array.isArray(style.sprite)?style.sprite.map(s=>({...s,url:new URL(s.url,base).href})):style.sprite?new URL(style.sprite,base).href:undefined};
 }
-function renderBasemapAttribution(){
+function renderBasemapAttribution(provider=currentBasemapProvider()){
  const el=document.querySelector('.basemap-attribution');el.replaceChildren();
- currentBasemapProvider().attribution.forEach((item,i)=>{if(i)el.append(' · ');const link=document.createElement('a');link.href=item.url;link.textContent=item.label;link.target='_blank';link.rel='noopener';el.append(link)});
+ provider.attribution.forEach((item,i)=>{if(i)el.append(' · ');const link=document.createElement('a');link.href=item.url;link.textContent=item.label;link.target='_blank';link.rel='noopener';el.append(link)});
 }

@@ -36,3 +36,17 @@
     route-back control and the zoom toolbar while its detail drawer is open. */
  body:has(#detail:not([hidden])) .map:not(.real-map-active) #basemap-status{top:0;left:130px;right:10px;max-width:none}
 }
+
+/* Independent SVG/image engine; no WebGL canvas is used for street mode. */
+#raster-map{position:absolute;inset:0;z-index:1;visibility:hidden;width:100%;height:100%;background:#e5edef}
+.raster-map-active #raster-map{visibility:visible}
+.raster-map-active #real-map{visibility:hidden}
+.raster-map-active .schematic-globe{visibility:hidden;pointer-events:none}
+#raster-map .leaflet-interactive:focus-visible{outline:3px solid #245a69;outline-offset:4px}
+#raster-map .leaflet-tooltip{font:12px/1.4 -apple-system,BlinkMacSystemFont,sans-serif;white-space:normal;max-width:190px}
+#map-view-switch{position:absolute;right:16px;top:42px;z-index:6;display:flex;border:1px solid #ccd7da;border-radius:5px;background:#fffffff2;overflow:hidden}
+#map-view-switch button{font-family:inherit;font-size:11px;line-height:1.5;min-height:34px;border:0;border-radius:0;padding:5px 9px;color:#245a69;background:transparent;cursor:pointer}
+#map-view-switch button[aria-pressed="true"]{background:#245a69;color:white}
+#map-view-switch button:disabled{color:#7b8588;cursor:default}
+.raster-map-active #rotate{display:none}
+@media(max-width:760px){#map-view-switch{right:13px;top:8px}#map-view-switch button{min-height:36px;padding:5px 8px}}

@@ -1,0 +1,49 @@
+name: Independent raster map fixtures (no deployment)
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'raster-*.js'
+      - 'real-map.js'
+      - 'real-map.css'
+      - 'index.html'
+      - 'scripts/check-raster-*.cjs'
+      - 'tests/raster-*.test.cjs'
+      - '.github/workflows/raster-map-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: raster-review-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  fixtures:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install test-only browser tools
+        run: |
+          npm install --prefix "$RUNNER_TEMP/terra-raster-tools" --no-save --no-package-lock playwright@1.65.1 jsdom@26.1.0
+          "$RUNNER_TEMP/terra-raster-tools/node_modules/.bin/playwright" install --with-deps chromium
+          echo "NODE_PATH=$RUNNER_TEMP/terra-raster-tools/node_modules" >> "$GITHUB_ENV"
+          echo "PLAYWRIGHT_MODULE=$RUNNER_TEMP/terra-raster-tools/node_modules/playwright" >> "$GITHUB_ENV"
+      - name: Deterministic actual Leaflet DOM and config tests
+        run: |
+          node --test tests/raster-config.test.cjs
+          RASTER_QA_OUTPUT=qa-raster-dom.json node scripts/check-raster-dom.cjs
+      - name: Browser fixtures with WebGL unavailable
+        run: |
+          CHROME_PATH="$(node -p 'require(process.env.PLAYWRIGHT_MODULE).chromium.executablePath()')" node scripts/run-browser-suite.cjs check-raster-browser.cjs
+      - name: Save explicitly synthetic evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: raster-fixtures-${{ github.run_id }}
+          path: |
+            qa/raster-map/
+            qa-raster-dom.json
+          retention-days: 14
