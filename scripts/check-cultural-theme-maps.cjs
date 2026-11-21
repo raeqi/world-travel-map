@@ -1,5 +1,8 @@
 'use strict';
 const fs=require('node:fs'),assert=require('node:assert/strict'),{chromium}=require('playwright');
+const {routeFrameReady,probeRouteFrame}=require('./map-render-probe.cjs');
+const {culturalBrowserScope,culturalShardThemes}=require('./cultural-browser-scope.cjs');
+const scope=culturalBrowserScope();
 const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme-maps';
 (async()=>{
  fs.mkdirSync(out,{recursive:true});
@@ -8,17 +11,23 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
  const open=async hash=>{await page.goto(base+hash);await page.waitForFunction(()=>document.body.dataset.ready==='true')};
  const overflow=async id=>assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),id+' overflow');
  const frame=async id=>{
-  await page.waitForFunction(()=>camera===null&&Math.abs(zoom-targetZoom)<.01);
-  const result=await page.evaluate(()=>({w,h,points:mapPoints().map(p=>{const q=project(p.lon,p.lat),s=screen(q);return {id:p.id,z:q[2],x:s[0],y:s[1]}})}));
+  const before=await page.evaluate(probeRouteFrame);let result;
+  try{await page.waitForFunction(routeFrameReady,true);result=await page.evaluate(probeRouteFrame)}catch(error){result=await page.evaluate(probeRouteFrame);fs.writeFileSync(out+'/'+deviceName+'-frame-failure.json',JSON.stringify({id,error:error.message,before,result},null,2));await page.screenshot({path:out+'/'+deviceName+'-frame-failure.png'});throw error}
+  if(['fuji-tokaido','european-music-cities'].includes(id))fs.writeFileSync(out+'/'+deviceName+'-'+id+'-transition.json',JSON.stringify({before,result},null,2));
+  if(id==='european-music-cities'){fs.writeFileSync(out+'/'+deviceName+'-music-frame.json',JSON.stringify(result,null,2));await page.screenshot({path:out+'/'+deviceName+'-music-overview.png'});}
+  if(result.native)assert.ok(result.base>0,id+' current basemap');
   // Global comparison maps need more than one hemisphere. Local maps and plans fit.
-  assert.ok(result.points.every(p=>p.z>0&&p.x>0&&p.x<result.w&&p.y>0&&p.y<result.h),id+' framing '+JSON.stringify(result));
+  assert.ok(result.points.every(p=>(result.native?p.rendered:p.z>0)&&p.x>0&&p.x<result.w&&p.y>0&&p.y<result.h),id+' framing '+JSON.stringify(result));
  };
+ let deviceName='unknown';
  try{
   await open('#interest=art');const ids=await page.evaluate(()=>[...culturalThemeMaps.keys()]);
-  for(const device of [{name:'desktop',width:1440,height:1000},{name:'mobile',width:390,height:844}]){
+  const reviewThemes=culturalShardThemes([...ids,'shen-congwen','xiao-hong','higashiyama','sibelius','grieg','wordsworth','constable'],scope);
+  for(const device of scope.devices){
+   deviceName=device.name;
    await page.setViewportSize(device);await open('#interest=art');
    assert.equal(await page.locator('[data-theme^="collection-"]').count(),0);
-   for(const id of [...ids,'shen-congwen','xiao-hong','higashiyama','sibelius','grieg','wordsworth','constable']){
+   for(const id of reviewThemes){
     await open('#theme='+id+'&view=places');
     assert.equal(await page.locator('#cultural-collection-directory,#collection-person,#collection-region,.collection-member').count(),0);
     assert.ok(await page.locator('#places .place').count()>1,id);
@@ -34,7 +43,10 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
      await open('#theme='+id+'&view=plans&route='+plan);
      assert.equal(await page.evaluate(()=>activePlan?.id),plan);assert.ok(await page.locator('.route-stops button').count()>=1);
      if(ids.includes(id)||['shen-yuan-river','xiaohong-home-writing'].includes(plan))await frame(id+'/'+plan);
-     if(['naoshima-honmura','paris-sculpture-left-bank'].includes(plan))assert.ok(await page.evaluate(()=>{const ps=mapPoints().map(p=>screen(project(p.lon,p.lat)));return ps.every((p,i)=>ps.slice(i+1).every(q=>Math.hypot(p[0]-q[0],p[1]-q[1])>=24))}),'local plan points must be distinguishable');
+     if(['naoshima-honmura','paris-sculpture-left-bank'].includes(plan)){
+      const view=await page.evaluate(probeRouteFrame);fs.writeFileSync(out+'/'+deviceName+'-'+plan+'-distribution.json',JSON.stringify(view,null,2));await page.screenshot({path:out+'/'+deviceName+'-'+plan+'-distribution.png'});
+      assert.ok(view.points.every((p,i)=>view.points.slice(i+1).every(q=>Math.hypot(p.x-q.x,p.y-q.y)>=24)),'local plan points must be distinguishable in active map pixels: '+JSON.stringify(view));
+     }
      assert.equal(await page.evaluate(()=>activePlan.topology),'network');assert.equal(await page.evaluate(()=>routeEdges(previewStops,activePlan).length),0);
      await page.locator('.route-stops button').first().click();assert.ok((await page.locator('#detail').innerText()).length>100);
      await page.locator('#detail .reading-sources').click();assert.ok(await page.locator('#detail .reading-sources a').count());
@@ -59,6 +71,6 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
    await open('#theme=fuji-tokaido');assert.ok(await page.locator('.artwork-card').count()>=5);assert.equal(await page.locator('[data-art-museum="atlas-yui"]').count(),0);await page.locator('#discover-panel [data-art-museum]').first().click();assert.equal(await page.evaluate(()=>selected?.id),'impressionism-met');assert.equal(await page.evaluate(()=>themes[activeTheme].id),'hokusai');
   }
   assert.deepEqual(errors,[]);assert.deepEqual(images,[]);
-  fs.writeFileSync(out+'/result.json',JSON.stringify({passed:true,maps:ids,viewports:['1440x1000','390x844'],legacyAliases:18,retainedPersonThemes:76,errors,failedImages:images},null,2));console.log('PASS cultural theme maps: direct places, regional plans, detail, save, next/back, URL restoration, person search, image credits and legacy links on desktop/mobile.');
+  fs.writeFileSync(out+'/result.json',JSON.stringify({passed:true,maps:reviewThemes,registeredMaps:ids,viewports:scope.devices.map(d=>d.width+'x'+d.height),shard:scope.shard,shards:scope.shards,legacyAliases:18,retainedPersonThemes:76,errors,failedImages:images},null,2));console.log('PASS cultural theme maps '+scope.devices.map(d=>d.name).join('/')+' shard '+scope.shard+'/'+scope.shards+': direct places, every assigned regional plan, detail, save, next/back, URL restoration, person search, image credits and legacy links.');
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exitCode=1});

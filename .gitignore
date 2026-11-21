@@ -1,3 +1,6 @@
 /_site/
 /node_modules/
 npm-debug.log*
+
+# Ephemeral CI screenshots and network diagnostics
+qa-artifacts/

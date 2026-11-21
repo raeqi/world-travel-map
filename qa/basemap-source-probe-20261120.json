@@ -1,0 +1,218 @@
+{
+  "localGlobalCityCount": 243,
+  "kind": "http-and-mvt-decoding-only",
+  "date": "2026-11-20T14:59:10.951Z",
+  "provider": "versatiles",
+  "styleVersion": "9.1.0",
+  "policy": "https://docs.versatiles.org/guides/use_tiles_versatiles_org",
+  "attribution": "<a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>",
+  "rendered": false,
+  "requests": [
+    {
+      "url": "https://tiles.versatiles.org/tiles/osm-vector/0/0/0",
+      "status": 200,
+      "bytes": 109714,
+      "cors": "*",
+      "cacheControl": "public, max-age=21600, no-transform",
+      "etag": "W/\"de21e2d09f0de422d441933ff8b80492\"",
+      "sha256": "db2965567b60f598a84eb0ede25db9cda95c32e7e0e42e0f18453048225e9a33"
+    },
+    {
+      "url": "https://tiles.versatiles.org/tiles/osm-vector/2/2/1",
+      "status": 200,
+      "bytes": 83686,
+      "cors": "*",
+      "cacheControl": "public, max-age=21600, no-transform",
+      "etag": "W/\"cbb2bc74da257860020e65299c42bbc4\"",
+      "sha256": "9e9b7667525507afde84456e428ea94be549b01482ea46d8133061f00e8755ab"
+    },
+    {
+      "url": "https://tiles.versatiles.org/tiles/osm-vector/14/8298/5636",
+      "status": 200,
+      "bytes": 700720,
+      "cors": "*",
+      "cacheControl": "public, max-age=21600, no-transform",
+      "etag": "W/\"89094173c401f88051b8ecd02b676fe4\"",
+      "sha256": "edc8240b1491a4b5989997a3e8edb2cd86f4db45e51eb0430419c0acb60d3ab1"
+    },
+    {
+      "url": "https://tiles.versatiles.org/tiles/osm-vector/14/13489/6208",
+      "status": 200,
+      "bytes": 105455,
+      "cors": "*",
+      "cacheControl": "public, max-age=21600, no-transform",
+      "etag": "W/\"3b5bc46a86820f85e96229d0754cef27\"",
+      "sha256": "f0f8116c74d26a27b3cd1495c43f6d532cbe1594bcb96bc7a51fc5e83a4f95b1"
+    },
+    {
+      "url": "https://tiles.versatiles.org/assets/glyphs/noto_sans_regular/0-255.pbf",
+      "status": 200,
+      "bytes": 83507,
+      "cors": "*",
+      "cacheControl": "public, max-age=21600, no-transform",
+      "etag": "W/\"918084a75484539de07ba7335f81653c\"",
+      "sha256": "7fef32d0bc92617c61443289af6c1de4c690555e0f8f6b463374ff788da3b344",
+      "kind": "glyph",
+      "range": "0-255"
+    },
+    {
+      "url": "https://tiles.versatiles.org/assets/glyphs/noto_sans_regular/19968-20223.pbf",
+      "status": 200,
+      "bytes": 207404,
+      "cors": "*",
+      "cacheControl": "public, max-age=21600, no-transform",
+      "etag": "W/\"ddf99b5115ddb6f9061060e389361be7\"",
+      "sha256": "a01f81e26b0a723db71f4855dcf36ee5e87553499c3a0155b987e992fa5079a5",
+      "kind": "glyph",
+      "range": "19968-20223"
+    }
+  ],
+  "samples": [
+    {
+      "name": "planet",
+      "coord": {
+        "z": 0,
+        "x": 0,
+        "y": 0
+      },
+      "layers": {
+        "boundaries": 4,
+        "ocean": 1
+      },
+      "labels": [],
+      "borders": 4,
+      "roads": 0,
+      "placeLabels": 0,
+      "countryLabels": 0,
+      "buildings": 0
+    },
+    {
+      "name": "world",
+      "coord": {
+        "z": 2,
+        "x": 2,
+        "y": 1
+      },
+      "layers": {
+        "boundaries": 4,
+        "boundary_labels": 10,
+        "ocean": 1
+      },
+      "labels": [
+        "Қазақстан",
+        "India",
+        "ⵍⵣⵣⴰⵢⴻⵔ الجزائر",
+        "Sverige",
+        "السعودية",
+        "ایران",
+        "ⵍⵉⴱⵢⴰ ليبيا Libya",
+        "Suomi / Finland",
+        "السودان",
+        "France"
+      ],
+      "borders": 14,
+      "roads": 0,
+      "placeLabels": 0,
+      "countryLabels": 10,
+      "buildings": 0
+    },
+    {
+      "name": "paris",
+      "coord": {
+        "z": 14,
+        "x": 8298,
+        "y": 5636
+      },
+      "layers": {
+        "addresses": 4515,
+        "bridges": 12,
+        "buildings": 5106,
+        "ferries": 5,
+        "land": 11,
+        "pier_lines": 6,
+        "pier_polygons": 4,
+        "place_labels": 6,
+        "pois": 6665,
+        "public_transport": 131,
+        "sites": 90,
+        "street_labels": 635,
+        "street_polygons": 269,
+        "streets": 306,
+        "streets_polygons_labels": 87,
+        "water_lines": 1,
+        "water_lines_labels": 3,
+        "water_polygons": 28,
+        "water_polygons_labels": 14
+      },
+      "labels": [
+        "Pont du Carrousel",
+        "Pont Neuf",
+        "Pont au Change",
+        "Pont Notre-Dame",
+        "Pont d'Arcole",
+        "Pont Saint-Michel",
+        "Petit-Pont - Cardinal Lustiger",
+        "Pont au Double",
+        "Pont de l'Archevêché",
+        "Pont des Arts",
+        "Pont Royal",
+        "Paris",
+        "6e Arrondissement",
+        "1er Arrondissement"
+      ],
+      "borders": 0,
+      "roads": 306,
+      "placeLabels": 6,
+      "countryLabels": 0,
+      "buildings": 5106
+    },
+    {
+      "name": "beijing",
+      "coord": {
+        "z": 14,
+        "x": 13489,
+        "y": 6208
+      },
+      "layers": {
+        "addresses": 25,
+        "bridges": 15,
+        "buildings": 1458,
+        "land": 9,
+        "place_labels": 12,
+        "pois": 358,
+        "public_transport": 63,
+        "sites": 22,
+        "street_labels": 135,
+        "street_labels_points": 1,
+        "street_polygons": 50,
+        "streets": 91,
+        "water_lines": 5,
+        "water_lines_labels": 8,
+        "water_polygons": 7
+      },
+      "labels": [
+        "外金水桥",
+        "玉带桥",
+        "北京市",
+        "台基厂社区",
+        "正义路社区",
+        "新怡家园社区",
+        "崇文门西大街社区",
+        "新世界家园社区",
+        "兴隆都市馨园社区",
+        "草厂社区",
+        "大江社区",
+        "前门东大街社区",
+        "北深沟",
+        "北京市人民政府旧址"
+      ],
+      "borders": 0,
+      "roads": 91,
+      "placeLabels": 12,
+      "countryLabels": 0,
+      "buildings": 1458
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

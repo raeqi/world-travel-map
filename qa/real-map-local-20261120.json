@@ -1,0 +1,90 @@
+{
+  "kind": "local-code-and-mock-validation",
+  "date": "2026-11-20",
+  "baseline": "45e917fd2f8b3c92811a8eb32dc0b9626c0aaf0c",
+  "branch": "codex/real-basemap-20261120",
+  "pushed": false,
+  "deployed": false,
+  "unitTests": {
+    "passed": 89,
+    "failed": 0
+  },
+  "syntaxFiles": 129,
+  "documentationCheck": {
+    "passed": true,
+    "markdownFiles": 62,
+    "localLinks": 550,
+    "markdownAnchors": 16,
+    "migratedDocuments": 38,
+    "compatibilityGuides": 2,
+    "removedLegacyDocuments": 36,
+    "counts": {
+      "places": 2030,
+      "visibleThemes": 62,
+      "internalThemes": 135,
+      "uniquePlanIds": 356,
+      "planAssociations": 382,
+      "unlocated": 1
+    },
+    "updated": false
+  },
+  "build": {
+    "release": "f032d68155a42db3685a",
+    "versionedAssets": 56,
+    "vendoredFilesPreserved": true
+  },
+  "dataSnapshotComparedExactlyWithBaseline": true,
+  "domState": {
+    "passed": true,
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "engines": [
+      "offline Canvas mocks",
+      "native MapLibre mock"
+    ],
+    "cases": [
+      "direct wh-1770 hash",
+      "wh-1770 to wh-1752 to wh-1770",
+      "same place repeat",
+      "back and forward",
+      "saved route refresh",
+      "named route refresh"
+    ],
+    "realCssLayout": false,
+    "realCanvas": false
+  },
+  "liveVectorTiles": {
+    "passed": false,
+    "attempt": "official OpenFreeMap style HTTP request",
+    "url": "https://tiles.openfreemap.org/styles/positron",
+    "status": 403,
+    "body": "error code: 1010",
+    "blockBypassed": false
+  },
+  "realBrowser": {
+    "passed": false,
+    "chromiumVersion": 156,
+    "reason": "process_singleton_posix.cc:297 socket() failed: Operation not permitted (1)",
+    "alternativeCloudBrowserAvailable": false
+  },
+  "screenshots": [],
+  "libraryIds": [],
+  "unverified": [
+    "real WebGL globe projection and worker initialization",
+    "low zoom visible boundaries and city labels",
+    "high zoom actual streets and landmarks in Beijing and Paris",
+    "actual selected marker visibility after repeated clicks",
+    "real CSS desktop and mobile overlap, keyboard and touch interactions",
+    "rendered date line crossing",
+    "real network failure and recovery",
+    "access from mainland China"
+  ]
+}

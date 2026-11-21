@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-20",
+  "kind": "local-diagnosis-no-browser-rerun",
+  "baseLocalCommit": "4974b39ba421281a3ec3c5dbde252bcea71032b4",
+  "reviewedRemoteCommit": "b26df488eb6ecc639425e85b8043e64a38eede16",
+  "sharedBaseTree": "51359da26e00639c2d5017777c7397b2785296e7",
+  "branch": "codex/real-basemap-20261120",
+  "pr": "https://github.com/raeqi/world-travel-map/pull/60",
+  "thisRound": {
+    "pushed": false,
+    "actionsTriggered": false,
+    "browserExecuted": false,
+    "merged": false,
+    "deployed": false,
+    "productionFilesChanged": false,
+    "workflowChanged": false
+  },
+  "originalBrowserRun": {
+    "url": "https://github.com/raeqi/world-travel-map/actions/runs/44767435980",
+    "attempt": 1,
+    "conclusion": "failure",
+    "error": "Selected marker must actually be rendered",
+    "initialAlamutAssertion": "passed",
+    "firstAaltoSelectionAndCenter": "passed",
+    "firstAaltoRenderedMarker": "failed",
+    "desktopFailureScreenshot": "overall map region blank, including base and marker",
+    "fallback": false,
+    "provider": "versatiles",
+    "baseTileSeen": "historical latch, not current viewport proof",
+    "console": [],
+    "artifact": "https://github.com/raeqi/world-travel-map/actions/runs/44767435980/artifacts/14646522018",
+    "artifactSHA256": "5101afa7263fbef7e1206ffe707f961325b5a88f6a06a81267642615c98cf4b3",
+    "failurePNG_SHA256": "0a1e53c88a85f89888bd8cd73ebf69b8a5e39a9a4578c92df01ced0834a4a7ef",
+    "narrowViewportReached": false
+  },
+  "findings": {
+    "proven": "Pinned actual MapLibre _update queues new sources while areTilesLoaded can still return true for prior in-view tiles; loaded returns false. Prior QA gate lacked loaded.",
+    "productBlankMapRootCause": "unresolved; artifact lacks current source/canvas/context/frame evidence",
+    "notProven": [
+      "solely a GeoJSON marker bug",
+      "permanent GL loss",
+      "canvas removed or hidden in actual browser",
+      "new viewport/glyph network success",
+      "correct actual projected visibility/occlusion"
+    ]
+  },
+  "localChecks": {
+    "unitTests": {
+      "passed": 103,
+      "failed": 0,
+      "newTests": 7
+    },
+    "syntaxFiles": 134,
+    "domState": {
+      "passed": true,
+      "mode": "mock Canvas/layout/native map",
+      "viewports": [
+        "1440x1000",
+        "390x844"
+      ],
+      "extraGuards": [
+        "native canvas identity/parent/connectivity",
+        "unique active globe ID",
+        "selected GeoJSON original coordinates"
+      ]
+    },
+    "exactProductionSnapshotPreserved": true,
+    "baseline": "4974b39",
+    "docsPassed": true,
+    "build": {
+      "passed": true,
+      "release": "4779d12a4bc561d0cf56",
+      "versionedAssets": 57,
+      "fixedAssetsCopiedExactly": true
+    }
+  },
+  "realBrowserStatus": {
+    "desktop": "original failure only; local changes untested in WebGL browser",
+    "narrow": "not reached in original run; local changes untested",
+    "screenshots": "no new screenshots; retained original failure artifact",
+    "chinaNetwork": "not tested"
+  },
+  "remaining": [
+    "After explicit new authorization, push only local QA changes to test branch and run one review-only job on exact new SHA.",
+    "Inspect simultaneous current-base/selected-circle queries, source/event/request history, GL/canvas/padding/occlusion and actual screenshots at both widths.",
+    "Complete all previously unreached world/streets/themes/history/routes/keyboard/art/fallback cases; rerun impacted Terra UI check separately or explicitly add it to an authorized job.",
+    "Existing legacy browser harnesses beyond the two touched files are not all migrated to native map assumptions."
+  ],
+  "report": "docs/maps/real-map-qa-diagnosis.md"
+}

@@ -1,0 +1,62 @@
+name: Real basemap review (no deployment)
+
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [labeled]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: real-map-review-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    if: github.event_name == 'workflow_dispatch' || github.event.label.name == 'run-real-map-qa'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      ATLAS_CI_SOFTWARE_GL: '1'
+      ATLAS_QA_DIR: ${{ github.workspace }}/qa-artifacts/real-map
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned test-only tools
+        run: |
+          npm install --prefix "$RUNNER_TEMP/terra-real-map-tools" --no-save --no-package-lock playwright@1.65.1 jsdom@26.1.0 @mapbox/vector-tile@2.0.4 pbf@4.0.1
+          "$RUNNER_TEMP/terra-real-map-tools/node_modules/.bin/playwright" install --with-deps chromium
+          # Playwright dependencies already install CJK-capable WenQuanYi fonts.
+          # Verify coverage instead of a second large, unbounded apt download.
+          test -n "$(fc-list :lang=zh family)"
+          fc-match :lang=zh
+          echo "NODE_PATH=$RUNNER_TEMP/terra-real-map-tools/node_modules" >> "$GITHUB_ENV"
+          echo "PLAYWRIGHT_MODULE=$RUNNER_TEMP/terra-real-map-tools/node_modules/playwright" >> "$GITHUB_ENV"
+      - name: Check code and application state
+        run: |
+          node --test tests/*.test.cjs
+          node scripts/check-docs.cjs
+          node scripts/check-real-map-dom.cjs
+      - name: Probe official independent tiles and fonts
+        run: node scripts/check-basemap-source.cjs qa-artifacts/source-probe.json
+      - name: Build exact reviewed site
+        run: node scripts/build-site.cjs
+      - name: Check live globe, streets, history and fallback
+        run: |
+          echo "CHROME_PATH=$(node -p 'require(process.env.PLAYWRIGHT_MODULE).chromium.executablePath()')" >> "$GITHUB_ENV"
+          CHROME_PATH="$(node -p 'require(process.env.PLAYWRIGHT_MODULE).chromium.executablePath()')" node scripts/run-real-map-review.cjs
+      - name: Save evidence on success or failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: real-basemap-review-${{ github.run_id }}
+          path: |
+            qa-artifacts/
+            _site/release.json
+          if-no-files-found: warn
+          retention-days: 14

@@ -281,8 +281,18 @@
       "executed": true
     },
     {
+      "file": "basemap-providers.js",
+      "sha256": "355add0958c0d543d5de5919740282b5b355349f219ec84791f7c44b68f06d7c",
+      "executed": true
+    },
+    {
+      "file": "real-map.js",
+      "sha256": "65e02dd51cd2e331c55935a5b095aab6b0fdc928656a68b3668e9cc6e3608acb",
+      "executed": true
+    },
+    {
       "file": "app.js",
-      "sha256": "927acd41b209d3ca873f9167663c3aaccdb673c1336ae6a0ddf63043461e22ae",
+      "sha256": "44edcea29266f102a05d589070208116d217fdc083cfa134d9898508e6c6c336",
       "executed": false
     }
   ],

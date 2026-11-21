@@ -1,4 +1,5 @@
 'use strict';
+const {routeFrameReady,mapViewReady}=require('./map-render-probe.cjs');
 (async function checkNatureBrowser(){
  const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),{chromium}=require('playwright');
  const origin=process.env.SITE_URL||'http://127.0.0.1:8000',out=path.resolve(process.env.NATURE_SCREENSHOT_DIR||'qa/nature-discovery');
@@ -50,11 +51,11 @@
    assert.equal(await page.locator('.plan-card').count(),id==='canadian-rockies'?2:id==='nz-great-walks'?1:5,'day budget filters actual routes');
    await page.locator('#travel-days').selectOption('0');await page.locator('#travel-month').selectOption('0');
    await page.locator('.plan-actions [data-action="preview"]').first().click();
-   await page.waitForFunction(()=>activePlan!==null);
+   await page.waitForFunction(()=>activePlan!==null);await page.waitForFunction(routeFrameReady);
    assert.ok(metadata.plans.includes(await page.evaluate(()=>activePlan.id)));
    if(id!=='canadian-rockies')assert.ok(await page.evaluate(()=>targetZoom>60),'local trail route fits beyond the old global zoom cap');
    await page.locator('.route-stops button').first().click();
-   await page.waitForFunction(()=>selected!==null&&camera===null&&Math.abs(zoom-targetZoom)<.01);
+   await page.waitForFunction(mapViewReady,false);
    assert.ok(await page.locator('#detail').isVisible());
    const images=await page.locator('#detail img').count();if(images)await page.locator('#detail img').first().evaluate(img=>img.decode());
    await capture(page,label+'-'+id);
@@ -71,7 +72,7 @@
   await page.waitForFunction(()=>activePlan?.id==='roads-iceland1');
   assert.deepEqual(await page.evaluate(()=>activePlan.ids),stopIds);
   assert.ok(new URL(page.url()).hash.includes('interest=nature'));
-  await page.locator('.route-stops button').first().click();await page.waitForFunction(()=>selected!==null&&camera===null);
+  await page.locator('.route-stops button').first().click();await page.waitForFunction(mapViewReady,false);
   const place=await page.evaluate(()=>selected.id);await page.locator('#detail .add-trip').click();
   await page.reload({waitUntil:'load'});await ready(page);
   assert.equal(await page.evaluate(()=>activePlan.id),'roads-iceland1');assert.equal(await page.evaluate(()=>selected.id),place);

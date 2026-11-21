@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-20",
+  "kind": "local-followup-not-published",
+  "baseCommit": "a78e498ff414109d2a732d8df86bdc19086c30ce",
+  "branch": "codex/real-basemap-20261120",
+  "provider": "versatiles",
+  "pushed": false,
+  "merged": false,
+  "deployed": false,
+  "checks": {
+    "unitTests": {
+      "passed": 95,
+      "failed": 0
+    },
+    "syntaxFiles": 133,
+    "workflowYamlParsed": true,
+    "docsPassed": true,
+    "domStatePassed": true,
+    "exactOriginalDataPreserved": true,
+    "build": {
+      "release": "4779d12a4bc561d0cf56",
+      "versionedAssets": 57,
+      "fixedAssetCopiesIdentical": true
+    }
+  },
+  "independentSourceProbe": {
+    "passed": true,
+    "rendered": false,
+    "record": "qa/basemap-source-probe-20261120.json",
+    "requests": 6,
+    "HTTPStatus": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "localGlobalCityPoints": 243,
+    "cataloguePlacesUnchanged": 2030
+  },
+  "cloudBrowser": {
+    "available": true,
+    "officialDemo": "https://tiles.versatiles.org/",
+    "documentHTTPStatus": 200,
+    "failedRequestsObserved": [],
+    "rendered": false,
+    "error": "GPUInitializationError: WebGL2 is required to display this map",
+    "issueId": "49855f02-ea25-4f68-a603-d803cefadade",
+    "parametersChanged": false
+  },
+  "repeatedBlockedPaths": {
+    "openFreeMapRetried": false,
+    "localChromiumRetried": false,
+    "localPreviewStarted": false,
+    "userMacUsed": false
+  },
+  "ci": {
+    "prepared": true,
+    "file": ".github/workflows/real-map-review.yml",
+    "runTriggered": false,
+    "permissions": {
+      "contents": "read"
+    },
+    "deploymentSteps": false,
+    "triggers": [
+      "workflow_dispatch (after default-branch registration)",
+      "pull_request labeled run-real-map-qa"
+    ],
+    "defaultBranchRegistrationKnownNeeded": true,
+    "usesIsolatedSwANGLEDriver": true,
+    "hardwareGPUValidated": false
+  },
+  "screenshots": [],
+  "libraryIds": [],
+  "pending": [
+    "actual application WebGL globe rendering",
+    "actual global boundaries/country/city label visibility",
+    "actual street/landmark rendering",
+    "actual repeated selected marker visibility and panel overlap",
+    "real CSS mobile, touch and keyboard interactions",
+    "real network fallback pixels",
+    "GitHub workflow execution permission and successful run",
+    "mainland China connectivity",
+    "hardware GPU and physical phone verification"
+  ]
+}

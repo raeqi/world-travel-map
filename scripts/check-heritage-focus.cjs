@@ -1,5 +1,6 @@
 'use strict';
 const assert=require('node:assert/strict');
+const {mapViewReady}=require('./map-render-probe.cjs');
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 (async()=>{
  const browser=await chromium.launch({...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{}),headless:true,args:['--no-sandbox']});
@@ -14,7 +15,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
    for(const id of ['wh-1770','wh-1752','wh-1770']){
     await page.locator('#search').fill(id==='wh-1770'?'阿拉穆特':'阿尔托');
     await page.locator('.place[data-place="'+id+'"]').click();
-    await page.waitForTimeout(1000);
+    await page.waitForFunction(mapViewReady,false);
     const state=await page.evaluate(()=>({id:selected?.id,located:validLocation(selected),delta:validLocation(selected)?Math.abs(((lon-selected.lon+540)%360)-180)+Math.abs(lat-selected.lat):null,visible:hits.some(h=>h.p.id===selected?.id)}));
     assert.equal(state.id,id);assert.equal(state.located,true,JSON.stringify(state));assert.ok(state.delta<.01,JSON.stringify(state));assert.ok(state.visible,JSON.stringify(state));
     await page.locator('#detail [aria-label="关闭详情"]').click();

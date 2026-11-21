@@ -1,5 +1,6 @@
 'use strict';
 const fs=require('node:fs'),assert=require('node:assert/strict'),{chromium}=require('playwright');
+const {mapViewReady,probeMapFrame,assertSelectionFrame}=require('./map-render-probe.cjs');
 const audit=require('../qa/theme-review/recovery.json');
 const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/theme-review/browser';
 (async()=>{
@@ -19,7 +20,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/theme-review/b
     await page.locator('#search').fill(point.name);assert.ok(await page.locator('#places [data-place="'+point.id+'"]').count(),point.name+' map list');await page.locator('#places [data-place="'+point.id+'"]').click();
     assert.equal(await page.evaluate(()=>selected?.id),point.id);assert.ok((await page.locator('#detail').innerText()).length>100);assert.ok(await page.locator('#detail .reading-sources a').count());await images();
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
-    await page.waitForFunction(()=>camera===null);assert.ok(await page.evaluate(()=>project(selected.lon,selected.lat)[2]>.9),'selected map location');
+    await page.waitForFunction(mapViewReady,false);if(await page.evaluate(()=>realMapActive()))assertSelectionFrame(await page.evaluate(probeMapFrame,point.id),point.id);else assert.ok(await page.evaluate(()=>project(selected.lon,selected.lat)[2]>.9),'selected map location');
     if(['atlas-enoura','atlas-picasso-paris','atlas-detroit'].includes(point.id))await page.screenshot({path:out+'/'+device.name+'-'+point.id+'.png'});
     await page.reload();await page.waitForFunction(()=>document.body.dataset.ready==='true');assert.equal(await page.evaluate(()=>selected?.id),point.id);
     await open('#area='+encodeURIComponent(point.country==='美国'?'美洲':point.country==='日本'||point.country==='中国'?'亚洲':'欧洲'));

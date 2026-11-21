@@ -1,0 +1,21 @@
+{
+  "project": "Natural Earth",
+  "version": "5.1.2",
+  "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_110m_populated_places.geojson",
+  "originalSha256": "a86028b083182b68c7620fc6e1a8a47ee547cb9cd2fb62ccbb78bea786440899",
+  "license": "Public domain",
+  "licenseSource": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "authors": [
+    "Tom Patterson",
+    "Nathaniel Vaughn Kelso",
+    "Natural Earth contributors"
+  ],
+  "checked": "2026-11-20",
+  "changes": "Retained all 243 original point geometries; reduced properties to ID, Chinese/English name, scale rank and population. Low-zoom cartographic context only; never registered as journey destinations.",
+  "files": {
+    "cities.geo.json": {
+      "bytes": 45884,
+      "sha256": "6674510d4ac75343054c1a8dffabdc2b79dc8f2152bc2a1e948362751e22c04d"
+    }
+  }
+}
