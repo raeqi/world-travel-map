@@ -11,7 +11,11 @@
 #basemap-status button{margin-left:8px;border:0;background:transparent;color:#245a69;text-decoration:underline;cursor:pointer;font:inherit}
 #basemap-status[hidden],#basemap-status button[hidden]{display:none}
 .basemap-attribution{display:none;position:absolute;left:0;bottom:0;z-index:5;max-width:100%;padding:2px 6px;background:#ffffffed;color:#42545a;font:10px/1.5 -apple-system,BlinkMacSystemFont,sans-serif}
-.real-map-active .basemap-attribution{display:block}
+.real-map-active .basemap-attribution{display:flex;align-items:center;gap:8px}
+.basemap-provider-logo{display:flex;flex:0 0 67px;align-items:center;min-height:24px}
+.basemap-provider-logo img{display:block;width:67px;height:20px;max-width:none}
+.basemap-attribution>span{min-width:0}
+.raster-map-active .hint{bottom:34px}
 .basemap-attribution a{color:inherit;text-decoration:underline}
 .real-map-active .hint{bottom:23px}
 .real-map-active .legend{bottom:62px}

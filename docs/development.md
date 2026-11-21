@@ -83,7 +83,7 @@ node scripts/audit-catalogue-consolidation.cjs --check
 
 ## GitHub Pages 与 CI
 
-[pages.yml](../.github/workflows/pages.yml)对 PR 运行文档、语法、单元测试与构建；`main`推送还会部署 GitHub Pages，随后由 [check-published-release.cjs](../scripts/check-published-release.cjs)核验公网 manifest、首页引用及每份版本化 JS / CSS 的真实字节。当前线上地址为 https://raeqi.github.io/world-travel-map/ 。只改文档时发布资产哈希可以不变，这符合静态内容未改动的结果。
+[pages.yml](../.github/workflows/pages.yml)对 PR 运行文档、语法、单元测试与构建；`main`推送还会部署 GitHub Pages，随后由 [check-published-release.cjs](../scripts/check-published-release.cjs)从本次运行确实上传的 Pages artifact ID 下载发布包，直接读取包内 `release.json`，核验公网 manifest、首页引用及每份版本化 JS / CSS 的真实字节；不会重新构建无配置版本。脚本必须显式传入 `--pages-artifact <artifact.tar>`，缺包、重复/非普通文件清单及不安全资源路径均拒绝。带地图配置的测试只用合成值，不向 PR 注入真实凭据。当前线上地址为 https://raeqi.github.io/world-travel-map/ 。只改文档时发布资产哈希可以不变，这符合静态内容未改动的结果。
 
 其他工作流按改动路径运行：
 

@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - 'raster-*.js'
+      - 'basemap-providers.js'
+      - 'assets/vendor/maptiler/**'
       - 'real-map.js'
       - 'real-map.css'
       - 'index.html'

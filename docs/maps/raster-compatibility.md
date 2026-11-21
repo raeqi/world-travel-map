@@ -14,7 +14,7 @@
 
 - 只接文档化的 MapTiler 标准 XYZ：`https://api.maptiler.com/maps/{mapId}/256/{z}/{x}/{y}.png`。当前默认样式标识为 `streets-v4`；没有公开 demo key、任意外部 URL、OSM 标准公共瓦片默认值或自动跨服务跳转。[官方 API](https://docs.maptiler.com/cloud/api/maps/)
 - 先验证 TileJSON 的鉴权、HTTP 成功及地图结构；401/403、错误 JSON、非地图响应会被拒绝。瓦片必须是实际解码的 256×256 图片，且与地图可见区域相交，才能将引擎标记为就绪；`load` 本身、屏外成功图或全部失败不算通过。图片成功仍不代表已人工确认真实道路/地名。
-- 显示 MapTiler 与 OpenStreetMap 署名。浏览器直接请求服务，不做代理、不批量下载、不添加服务端/离线持久缓存。普通浏览器缓存遵从 HTTP 规则。部署方需确认用途符合其账户与订阅；免费计划不能泛称适用于商业生产。[Cloud 条款](https://www.maptiler.com/terms/cloud/)
+- MapTiler 2D 显示指向版权页的文字署名、OpenStreetMap 贡献者链接，以及可点击的官方原版 logo（Free 账户要求）；logo 与来源记录在 `assets/vendor/maptiler/`。[官方署名指南](https://docs.maptiler.com/guides/map-design/attribution/add-attribution/) 浏览器直接请求服务，不做代理、不批量下载、不添加服务端/离线持久缓存。普通浏览器缓存遵从 HTTP 规则。部署方需确认用途符合其账户与订阅；免费计划不能泛称适用于商业生产。[Cloud 条款](https://www.maptiler.com/terms/cloud/)
 - Leaflet 为 BSD-2-Clause，固定文件、来源和逐文件摘要在 [vendor 清单](../../assets/vendor/leaflet-1.9.4/source.json) 与 [许可](../../assets/vendor/leaflet-1.9.4/LICENSE.txt)。运行时文件随项目提供，不依赖第三方 CDN。[稳定版参考](https://leafletjs.com/reference-1.9.4.html)
 
 操作方取得**获授权、限定站点 origin 的浏览器公开 key**后，在仓库外提供 `*.raster.local.json`：
@@ -41,8 +41,8 @@ TERRA_RASTER_CONFIG_FILE=/absolute/path/approved.raster.local.json node scripts/
 
 1. `tests/raster-config.test.cjs`：无凭据/错误服务拒绝、正确 XYZ 构造、401/403/错误响应、诊断去敏、固定依赖摘要、外部配置只进入构建输出。
 2. `scripts/check-raster-dom.cjs`：实际 Leaflet 1.9.4 与完整应用 DOM；布局和图片完成事件是夹具。北京故宫、京都遗产、巴黎塞纳河、哥伦比亚马尔克斯专题，桌面与390宽，各自测试“无 WebGL 2 对象”和“有对象但取不到上下文”；点选、留白、平移、路线恢复与收藏，以及鉴权/瓦片全失败。它不是像素或真实街道验收。
-3. `scripts/check-raster-browser.cjs`：实际 Chromium 布局、拖拽和点击；拦截服务请求，返回明确写有 `SYNTHETIC TEST TILE` 的自制测试图。不会调用真实 MapTiler 服务。覆盖同样四地/两视口/两种故障，另有路线历史、刷新、3D退路切回2D和失败截图。即使通过，也只能证明独立渲染/交互，不能证明当地道路或用户网络。
-4. [不部署的分支 CI](../../.github/workflows/raster-map-review.yml) 只有 `contents: read`，无 Pages 权限、部署或推送步骤；PR 自动运行并保存夹具截图/JSON。现有 main 发布工作流未修改。
+3. `scripts/check-raster-browser.cjs`：实际 Chromium 布局、拖拽和点击；拦截服务请求，返回明确写有 `SYNTHETIC TEST TILE` 的自制测试图。不会调用真实 MapTiler 服务。仅回环主机测试入口启用 `TERRA_RASTER_QA_SYNTHETIC`，显示“合成测试图”署名，正式域名忽略此标志。MapTiler logo 的桌面/窄屏、详情打开/关闭布局另在无瓦片的中性背景中验收，不把夹具当作供应商图像。覆盖同样四地/两视口/两种故障，另有路线历史、刷新、3D退路切回2D和失败截图。即使通过，也只能证明独立渲染/交互，不能证明当地道路或用户网络。
+4. [不部署的分支 CI](../../.github/workflows/raster-map-review.yml) 只有 `contents: read`，无 Pages 权限、部署或推送步骤；PR 自动运行并保存夹具截图/JSON。PR 不部署；main 的发布后校验读取同一次运行上传的 Pages 包内 `release.json`，不再重建无配置版本。
 
 ```sh
 node --test tests/*.test.cjs

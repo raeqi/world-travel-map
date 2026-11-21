@@ -282,7 +282,7 @@
     },
     {
       "file": "basemap-providers.js",
-      "sha256": "54db5e2951541b89f82c7668a0b80a29ca600ea023dd39814118bf36676a637b",
+      "sha256": "678d05386c10dedb185a0283a26a0da2a266403c39d6e42542f45d34d7e43b2c",
       "executed": true
     },
     {
@@ -297,7 +297,7 @@
     },
     {
       "file": "raster-map.js",
-      "sha256": "f817be5be9c63b0abe64d7fa90ed189cb00908c4d945cccfbd42d0683d8a9ab5",
+      "sha256": "fa6dbf44aa8f54ebdc846a3bdadd7c77ffd04e882ec6cd240d3d6ce345df405c",
       "executed": true
     },
     {

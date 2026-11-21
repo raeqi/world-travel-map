@@ -12,11 +12,17 @@ function rasterMapControls(){
  document.querySelector('#rotate').hidden=rasterMapActive();
  const hint=document.querySelector('.hint');if(hint)hint.textContent=rasterMapActive()?'拖拽平移 · 滚轮 / 双指缩放 · 点击地点':'拖拽旋转 · 滚轮 / 双指缩放 · 点击点位探索';
 }
+function rasterMapProviderAttribution(){
+ // Explicit localhost-only QA seam: intercepted synthetic images are not
+ // MapTiler imagery. Production configuration cannot enable this via URL/build.
+ if(globalThis.TERRA_RASTER_QA_SYNTHETIC===true&&['127.0.0.1','localhost'].includes(globalThis.location?.hostname))return {attribution:[{label:'合成测试图 · 非真实地理',url:'docs/maps/raster-compatibility.md'}]};
+ return maptilerRasterAttribution();
+}
 function rasterMapCanvas(active){
  const host=document.querySelector('.map');host.classList.toggle('raster-map-active',active);if(!active)host.classList.remove('raster-choice-open');host.classList.toggle('real-map-active',active||realBasemap.ready);
  document.querySelector('#raster-map').setAttribute('aria-hidden',String(!active));
  canvas.tabIndex=active?-1:0;canvas.setAttribute('aria-hidden',String(active));
- renderBasemapAttribution(active?{attribution:[{label:'© MapTiler',url:'https://www.maptiler.com/'},{label:'© OpenStreetMap contributors',url:'https://www.openstreetmap.org/copyright'}]}:currentBasemapProvider());
+ renderBasemapAttribution(active?rasterMapProviderAttribution():currentBasemapProvider());
  rasterMapControls();
 }
 function rasterMapReadCamera(){
