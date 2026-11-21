@@ -13,7 +13,7 @@ function rasterMapControls(){
  const hint=document.querySelector('.hint');if(hint)hint.textContent=rasterMapActive()?'拖拽平移 · 滚轮 / 双指缩放 · 点击地点':'拖拽旋转 · 滚轮 / 双指缩放 · 点击点位探索';
 }
 function rasterMapCanvas(active){
- const host=document.querySelector('.map');host.classList.toggle('raster-map-active',active);host.classList.toggle('real-map-active',active||realBasemap.ready);
+ const host=document.querySelector('.map');host.classList.toggle('raster-map-active',active);if(!active)host.classList.remove('raster-choice-open');host.classList.toggle('real-map-active',active||realBasemap.ready);
  document.querySelector('#raster-map').setAttribute('aria-hidden',String(!active));
  canvas.tabIndex=active?-1:0;canvas.setAttribute('aria-hidden',String(active));
  renderBasemapAttribution(active?{attribution:[{label:'© MapTiler',url:'https://www.maptiler.com/'},{label:'© OpenStreetMap contributors',url:'https://www.openstreetmap.org/copyright'}]}:currentBasemapProvider());
@@ -58,7 +58,7 @@ function rasterMapChoosePlace(p,position){
  const title=document.createElement('strong');title.textContent='此处有 '+nearby.length+' 个地点';content.append(title);
  for(const point of nearby){const button=document.createElement('button');button.dataset.mapChoice=point.id;button.textContent=point.name+' · '+point.type;button.onclick=()=>{map.closePopup();map.getContainer().focus({preventScroll:true});select(point)};content.append(button);}
  const pad=realMapCurrentPadding(),rect=map.getContainer().getBoundingClientRect();
- L.popup({maxWidth:280,minWidth:180,maxHeight:Math.max(80,rect.height-pad.top-pad.bottom-35),autoPanPaddingTopLeft:[16,pad.top],autoPanPaddingBottomRight:[16,pad.bottom]}).setLatLng(position||[p.lat,rasterMapLongitude(p.lon)]).setContent(content).openOn(map);
+ L.popup({maxWidth:Math.max(160,Math.min(260,rect.width-110)),minWidth:160,maxHeight:Math.max(80,rect.height-pad.top-pad.bottom-35),autoPanPaddingTopLeft:[16,pad.top],autoPanPaddingBottomRight:[70,pad.bottom]}).setLatLng(position||[p.lat,rasterMapLongitude(p.lon)]).setContent(content).openOn(map);
  requestAnimationFrame(()=>content.querySelector('button')?.focus({preventScroll:true}));
 }
 function rasterMapUpdateData(force=false){
@@ -130,6 +130,7 @@ async function rasterMapStart(){
   const map=lib.map('raster-map',{center:[lat,lon],zoom:realMapZoom(zoom),minZoom:0,maxZoom:19,zoomSnap:0,zoomDelta:1,zoomControl:false,attributionControl:false,preferCanvas:false,zoomAnimation:!reduced,fadeAnimation:!reduced,markerZoomAnimation:!reduced});
   rasterBasemap.map=map;
   map.on('move',()=>{if(epoch===rasterBasemap.epoch)rasterMapReadCamera()});map.on('moveend',()=>{if(epoch===rasterBasemap.epoch)rasterMapUpdateData()});
+  map.on('popupopen',()=>document.querySelector('.map').classList.add('raster-choice-open'));map.on('popupclose',()=>document.querySelector('.map').classList.remove('raster-choice-open'));
   map.on('dragstart',()=>{stopTrip(true);auto=false;rasterBasemap.focused=null;document.querySelector('#rotate').setAttribute('aria-pressed','false')});
   const tiles=lib.tileLayer(rasterTileTemplate(config),{tileSize:256,minZoom:0,maxZoom:19,maxNativeZoom:19,keepBuffer:1,updateWhenIdle:true,noWrap:false,detectRetina:false});rasterBasemap.tiles=tiles;
   tiles.on('loading',()=>{if(epoch!==rasterBasemap.epoch)return;rasterBasemap.loaded=0;rasterBasemap.errors=0;clearTimeout(rasterBasemap.timer);rasterBasemap.timer=setTimeout(()=>{if(epoch===rasterBasemap.epoch)rasterMapFail('tiles-timeout')},18000)});
@@ -143,7 +144,7 @@ async function rasterMapStart(){
    }
    realMapStatus('');dirty=true;
   });
-  tiles.on('load',()=>{if(epoch!==rasterBasemap.epoch||tiles.isLoading())return;const rect=document.querySelector('#raster-map').getBoundingClientRect(),visible=[...document.querySelectorAll('#raster-map .leaflet-tile')].some(t=>rasterMapTileVisible(t,rect));if((!rasterBasemap.loaded&&rasterBasemap.errors)||!visible)rasterMapFail('tile-load-failed');else clearTimeout(rasterBasemap.timer)});
+  tiles.on('load',()=>{if(epoch!==rasterBasemap.epoch||tiles.isLoading())return;const rect=document.querySelector('#raster-map').getBoundingClientRect(),visible=[...document.querySelectorAll('#raster-map .leaflet-tile')].some(t=>rasterMapTileVisible(t,rect));if((!rasterBasemap.loaded&&rasterBasemap.errors)||!visible)queueMicrotask(()=>{if(epoch===rasterBasemap.epoch)rasterMapFail('tile-load-failed')});else clearTimeout(rasterBasemap.timer)});
   tiles.addTo(map);
  }catch(error){if(epoch===rasterBasemap.epoch)rasterMapFail(safeBasemapError(error?.message))}
 }

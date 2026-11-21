@@ -60,3 +60,7 @@
     Place the view switch below the left route control, clear of the centre dot. */
  body:has(#detail:not([hidden])) .map:not(.real-map-active) #map-view-switch{top:92px;left:13px;right:auto}
 }
+
+/* The place picker is a temporary focused action. Keep zoom/view switching,
+   and restore decorative/route controls when it closes. */
+.raster-choice-open #art-toggle,.raster-choice-open #clear-route{visibility:hidden;pointer-events:none}

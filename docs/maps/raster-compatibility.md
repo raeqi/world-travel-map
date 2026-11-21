@@ -35,7 +35,7 @@ TERRA_RASTER_CONFIG_FILE=/absolute/path/approved.raster.local.json node scripts/
 
 ## 日志与失败退路
 
-应用诊断只有 `source-auth`、`source-invalid`、`tile-load-failed`、`tiles-timeout` 等受控错误码；不保存原始异常、瓦片 URL、key 或 session token。TileJSON 被拒、瓦片全失败、初始/后续视图超时后移除栅格引擎，保留原图、选择、行程和详情，并可主动重试。相近或同坐标点点击时提供附近地点列表，保留每个原记录可选，不偏移源坐标；跨日期变更线重新计算各点的世界副本。2D 与 3D 由同一应用状态切换，URL 仍完全归 `flow.js` 管理。
+应用诊断只有 `source-auth`、`source-invalid`、`tile-load-failed`、`tiles-timeout` 等受控错误码；不保存原始异常、瓦片 URL、key 或 session token。TileJSON 被拒、瓦片全失败、初始/后续视图超时后移除栅格引擎；瓦片完成回调结束后再清理，避免 Leaflet 的同一事件栈继续访问已移除地图。保留原图、选择、行程和详情，并可主动重试。相近或同坐标点点击时提供附近地点列表，保留每个原记录可选，不偏移源坐标；跨日期变更线重新计算各点的世界副本。2D 与 3D 由同一应用状态切换，URL 仍完全归 `flow.js` 管理。
 
 ## 验证口径
 
