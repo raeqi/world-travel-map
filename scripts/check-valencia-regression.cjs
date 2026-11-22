@@ -14,7 +14,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa-artifacts/vale
  }
  async function open(hash){await page.goto(base+hash);await page.waitForFunction(()=>document.body.dataset.ready==='true')}
  async function replay(theme,iteration){
-  await open('#theme='+theme+'&view=places');if(theme==='barcelona-art')await frame(iteration+' initial');
+  await open('#theme='+theme+'&view=places');if(theme==='barcelona-art'||theme==='chinese-painters')await frame(iteration+' initial');
   const plans=await page.evaluate(theme=>buildPlans(theme,0).map(p=>p.id),theme);
   for(const plan of plans){
    await open('#theme='+theme+'&view=plans&route='+plan);await frame(iteration+' '+plan);
@@ -23,13 +23,13 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa-artifacts/vale
    await page.locator('#detail .reading-close').click();await page.locator('.route-overview').click();await frame(iteration+' '+plan+' overview');
    await page.reload();await page.waitForFunction(()=>document.body.dataset.ready==='true');await page.locator('.route-back').click();
   }
-  await open('#theme='+theme+'&view=places');if(theme==='barcelona-art'){await frame(iteration+' full catalogue');await page.screenshot({path:out+'/'+iteration+'-overview.png'})}
+  await open('#theme='+theme+'&view=places');if(theme==='barcelona-art'||theme==='chinese-painters'){await frame(iteration+' full catalogue');await page.screenshot({path:out+'/'+iteration+'-overview.png'})}
  }
  try{
   for(const viewport of [{width:1440,height:1000},{width:390,height:844}]){
    const context=await browser.newContext({viewport}),p=await context.newPage();page=p;page.on('pageerror',e=>errors.push(e.message));
    await page.addInitScript(()=>{window.TERRA_RASTER_CONFIG={provider:'maptiler',apiKey:''}});
-   for(let round=1;round<=3;round++){const id=viewport.width+'-'+round;await replay('modern-architecture',id+' architecture');await replay('barcelona-art',id+' barcelona')}
+   for(let round=1;round<=3;round++){const id=viewport.width+'-'+round;await replay('modern-architecture',id+' architecture');await replay('barcelona-art',id+' barcelona');await replay('chinese-painters',id+' chinese-painters')}
    await context.close();
   }
   assert.deepEqual(errors,[]);fs.writeFileSync(out+'/result.json',JSON.stringify({passed:true,renderer:process.env.VALENCIA_RENDERER||'default',reports:reports.length,viewports:[1440,390],roundsPerViewport:3,errors},null,2));

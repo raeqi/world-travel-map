@@ -1,7 +1,7 @@
 'use strict';
 // MapLibre owns geographic rendering, never navigation or application data.
 // Keep this file safe for the data-only VM loader (no eager browser access).
-const realBasemap={map:null,ready:false,loading:false,failed:false,epoch:0,timer:null,errors:[],baseSeen:false,dataKey:'',cameraKey:'',paddingKey:'',focused:null,observer:null,controller:null};
+const realBasemap={map:null,ready:false,loading:false,failed:false,epoch:0,timer:null,errors:[],baseSeen:false,dataKey:'',cameraKey:'',paddingKey:'',focused:null,observer:null,controller:null,overlayGeneration:0,overlaySources:null};
 const realMapAssets='assets/vendor/maplibre-6.19.0/';
 const realMapStyle=currentBasemapProvider().style;
 function realMapLongitude(value){return ((value+180)%360+360)%360-180}
@@ -95,7 +95,7 @@ function realMapFail(reason){
  if(!realBasemap.loading&&!realBasemap.map)return;
  clearTimeout(realBasemap.timer);realBasemap.controller?.abort();realBasemap.controller=null;realBasemap.epoch++;realBasemap.loading=false;realBasemap.ready=false;realBasemap.failed=true;
  const old=realBasemap.map,hadFocus=old&&document.activeElement===old.getCanvas();
- realMapCanvas(false);realBasemap.map=null;realBasemap.dataKey='';realBasemap.focused=null;realBasemap.paddingKey='';
+ realMapCanvas(false);realBasemap.map=null;realBasemap.overlaySources=null;realBasemap.dataKey='';realBasemap.focused=null;realBasemap.paddingKey='';
  document.querySelector('.map').classList.remove('street-map');
  if(old)old.remove();stopTrip();camera=null;
  zoom=targetZoom=Math.max(.8,Math.min(zoom,themeZoomLimit(),selected?5:2));
@@ -116,17 +116,30 @@ function realMapInstallLayers(map){
  map.addSource('basemap-cities',{type:'geojson',data:new URL(currentBasemapProvider().cities,document.baseURI).href});
  map.addLayer({id:'basemap-city-dots',type:'circle',source:'basemap-cities',maxzoom:4,paint:{'circle-radius':2,'circle-color':'#667b83','circle-stroke-color':'#ffffff','circle-stroke-width':1}});
  map.addLayer({id:'basemap-city-labels',type:'symbol',source:'basemap-cities',maxzoom:4,layout:{'text-field':['get','name'],'text-font':currentBasemapProvider().labelFont,'text-size':11,'text-anchor':'left','text-offset':[.5,0],'text-padding':5,'symbol-sort-key':['-',['get','population']]},paint:{'text-color':'#50676f','text-halo-color':'#ffffff','text-halo-width':1.5}});
- map.addSource('terra-routes',{type:'geojson',data:empty});
- map.addSource('terra-places',{type:'geojson',data:empty});
- map.addLayer({id:'terra-route-halo',type:'line',source:'terra-routes',paint:{'line-color':'#ffffff','line-width':6,'line-opacity':.8}});
- map.addLayer({id:'terra-route',type:'line',source:'terra-routes',paint:{'line-color':themes[activeTheme].colors.route,'line-width':2.8,'line-opacity':.9}});
- map.addLayer({id:'terra-points',type:'circle',source:'terra-places',paint:{'circle-radius':['case',['get','selected'],9,['>',['get','order'],0],7,4.5],'circle-color':['get','color'],'circle-stroke-color':'#ffffff','circle-stroke-width':2}});
- // Selected ring is separate so it is never suppressed by label collisions.
- map.addLayer({id:'terra-selected',type:'circle',source:'terra-places',filter:['==',['get','selected'],true],paint:{'circle-radius':14,'circle-color':'#ffffff','circle-opacity':.12,'circle-stroke-color':'#173a46','circle-stroke-width':2}});
- map.addLayer({id:'terra-icons',type:'symbol',source:'terra-places',minzoom:3,filter:['!=',['get','icon'],''],layout:{'icon-image':['get','icon'],'icon-allow-overlap':false,'symbol-sort-key':['case',['get','selected'],-10000,1000]}});
- map.addLayer({id:'terra-labels',type:'symbol',source:'terra-places',minzoom:4,layout:{'text-field':['get','name'],'text-font':currentBasemapProvider().labelFont,'text-size':12,'text-anchor':'left','text-offset':[1.2,0],'text-max-width':12,'text-optional':true,'symbol-sort-key':['case',['get','selected'],-10000,['>',['get','order'],0],['get','order'],1000]},paint:{'text-color':'#23343b','text-halo-color':'#ffffff','text-halo-width':2}});
- map.addLayer({id:'terra-order',type:'symbol',source:'terra-places',filter:['>',['get','order'],0],layout:{'text-field':['get','badge'],'text-font':currentBasemapProvider().labelFont,'text-size':10,'text-allow-overlap':false,'symbol-sort-key':['get','order']},paint:{'text-color':'#ffffff','text-halo-color':'#23343b','text-halo-width':1}});
+ realMapReplaceOverlays(map,empty,empty);
 }
+function realMapReplaceOverlays(map,points,routes){
+ // A roster change can overlap an older GeoJSON tile parse during a flight.
+ // Give each complete snapshot its own worker/cache identity. A late reply
+ // from the previous route can then only reach its removed source, never
+ // overwrite a tile in the current catalogue. Keep layer IDs and hit tests.
+ const previous=realBasemap.overlaySources,generation=++realBasemap.overlayGeneration;
+ const sources={places:'terra-places-'+generation,routes:'terra-routes-'+generation};
+ for(const id of ['terra-order','terra-labels','terra-icons','terra-selected','terra-points','terra-route','terra-route-halo'])if(map.getLayer(id))map.removeLayer(id);
+ map.addSource(sources.routes,{type:'geojson',data:routes});
+ map.addSource(sources.places,{type:'geojson',data:points});
+ map.addLayer({id:'terra-route-halo',type:'line',source:sources.routes,paint:{'line-color':'#ffffff','line-width':6,'line-opacity':.8}});
+ map.addLayer({id:'terra-route',type:'line',source:sources.routes,paint:{'line-color':themes[activeTheme].colors.route,'line-width':2.8,'line-opacity':.9}});
+ map.addLayer({id:'terra-points',type:'circle',source:sources.places,paint:{'circle-radius':['case',['get','selected'],9,['>',['get','order'],0],7,4.5],'circle-color':['get','color'],'circle-stroke-color':'#ffffff','circle-stroke-width':2}});
+ // Selected ring is separate so it is never suppressed by label collisions.
+ map.addLayer({id:'terra-selected',type:'circle',source:sources.places,filter:['==',['get','selected'],true],paint:{'circle-radius':14,'circle-color':'#ffffff','circle-opacity':.12,'circle-stroke-color':'#173a46','circle-stroke-width':2}});
+ map.addLayer({id:'terra-icons',type:'symbol',source:sources.places,minzoom:3,filter:['!=',['get','icon'],''],layout:{'icon-image':['get','icon'],'icon-allow-overlap':false,'symbol-sort-key':['case',['get','selected'],-10000,1000]}});
+ map.addLayer({id:'terra-labels',type:'symbol',source:sources.places,minzoom:4,layout:{'text-field':['get','name'],'text-font':currentBasemapProvider().labelFont,'text-size':12,'text-anchor':'left','text-offset':[1.2,0],'text-max-width':12,'text-optional':true,'symbol-sort-key':['case',['get','selected'],-10000,['>',['get','order'],0],['get','order'],1000]},paint:{'text-color':'#23343b','text-halo-color':'#ffffff','text-halo-width':2}});
+ map.addLayer({id:'terra-order',type:'symbol',source:sources.places,filter:['>',['get','order'],0],layout:{'text-field':['get','badge'],'text-font':currentBasemapProvider().labelFont,'text-size':10,'text-allow-overlap':false,'symbol-sort-key':['get','order']},paint:{'text-color':'#ffffff','text-halo-color':'#23343b','text-halo-width':1}});
+ realBasemap.overlaySources=sources;
+ if(previous)for(const id of Object.values(previous))if(map.getSource(id))map.removeSource(id);
+}
+
 function realMapUpdateData(force=false){
  if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapUpdateData(force);
  if(!realMapActive())return;
@@ -135,8 +148,7 @@ function realMapUpdateData(force=false){
  const key=JSON.stringify([activeTheme,points.map(p=>p.id),stops.map(p=>p.id),activePlan?.id,activePlan?.topology,selected?.id]);
  if(!force&&key===realBasemap.dataKey)return;
  const data={type:'FeatureCollection',features:points.map(p=>({type:'Feature',id:p.id,properties:{id:p.id,name:p.name,color:markerStyle(p).color,icon:realMapIcon(map,p),selected:p===selected,order:order.get(p.id)||0,badge:activePlan?.topology==='network'?'◇':String(order.get(p.id)||'')},geometry:{type:'Point',coordinates:[p.lon,p.lat]}}))};
- map.getSource('terra-places').setData(data);map.getSource('terra-routes').setData(realMapRouteData(stops,activePlan));
- map.setPaintProperty('terra-route','line-color',themes[activeTheme].colors.route);realBasemap.dataKey=key;
+ realMapReplaceOverlays(map,data,realMapRouteData(stops,activePlan));realBasemap.dataKey=key;
 }
 function realMapFocus(p,animate=true){
  if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapFocus(p,animate);
@@ -263,6 +275,6 @@ function initializeRealMap(){
 }
 function realMapVectorDispose(){
  clearTimeout(realBasemap.timer);realBasemap.controller?.abort();realBasemap.controller=null;realBasemap.epoch++;
- realMapCanvas(false);if(realBasemap.map)realBasemap.map.remove();realBasemap.map=null;realBasemap.ready=false;realBasemap.loading=false;realBasemap.failed=false;realBasemap.dataKey='';realBasemap.focused=null;realBasemap.paddingKey='';camera=null;
+ realMapCanvas(false);if(realBasemap.map)realBasemap.map.remove();realBasemap.map=null;realBasemap.overlaySources=null;realBasemap.ready=false;realBasemap.loading=false;realBasemap.failed=false;realBasemap.dataKey='';realBasemap.focused=null;realBasemap.paddingKey='';camera=null;
 }
 document.addEventListener('DOMContentLoaded',initializeRealMap);

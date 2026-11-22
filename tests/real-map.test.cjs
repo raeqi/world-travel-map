@@ -9,7 +9,7 @@ function fixture(mobile=false){
  const c=vm.createContext({console:{warn(){}},setTimeout,clearTimeout,Date,URL,Number,Math,Map,Set,document:{querySelector:s=>elements[s],addEventListener(){},activeElement:null,baseURI:'http://localhost/'},matchMedia:()=>({matches:false}),innerWidth:mobile?390:1440,canvas,lon:85,lat:20,zoom:1,targetZoom:1,dirty:false,camera:null,selected:null,auto:false,playing:false,w:rect.width,h:rect.height,hits:[],drawPointCount:0,previewStops:null,previewTheme:true,trip:[],activePlan:null,activeTheme:0,themes:[{id:'culture',colors:{route:'#356879'}}],placesById:new Map(),atlasThemePlaceIds:new Set(),validLocation:p=>!!p&&Number.isFinite(p.lon)&&Number.isFinite(p.lat),routeEdges:(stops,plan)=>plan?.topology==='network'?[]:[...stops.slice(1).map((p,i)=>[stops[i],p]),...(plan?.topology==='loop'&&stops.length>2?[[stops.at(-1),stops[0]]]:[])],mapPoints:()=>[...c.placesById.values()],filtered:()=>[...c.placesById.values()],markerStyle:()=>({color:'#356879'}),themeZoomLimit:()=>60,positionDetail(){},stopTrip(){c.camera=null;c.playing=false},fitRoute(){c.fallbackFit=true}});
  vm.runInContext(fs.readFileSync('basemap-providers.js','utf8'),c);vm.runInContext(source,c);
  const events={},sources={},calls=[],layers=[];
- const map={center:{lng:85,lat:20},z:1,padding:{top:0,bottom:0,left:0,right:0},on(name,fn){(events[name]||=[]).push(fn)},emit(name,event={}){for(const fn of events[name]||[])fn(event)},getCenter(){return this.center},getZoom(){return this.z},getCanvas:()=>native,setProjection(p){this.projection=p},addSource(id,s){sources[id]={...s,setData(d){this.data=d}}},getSource:id=>sources[id],addLayer(l){layers.push(l)},setPaintProperty(){},jumpTo(options){calls.push({type:'jump',...options});if(options.center)this.center={lng:options.center[0],lat:options.center[1]};if(options.zoom!==undefined)this.z=options.zoom;if(options.padding)this.padding=options.padding;this.emit('move')},flyTo(options){calls.push({type:'fly',...options});this.jumpTo(options)},fitBounds(bounds,options){calls.push({type:'fit',bounds,...options});this.jumpTo({center:[(bounds[0][0]+bounds[1][0])/2,(bounds[0][1]+bounds[1][1])/2],zoom:Math.min(14,options.maxZoom),padding:options.padding})},zoomTo(z,options){calls.push({type:'scale',z,...options});this.jumpTo({zoom:z})},resize(){calls.push({type:'resize'})},stop(){},remove(){this.removed=true},queryRenderedFeatures(){return []},project([x,y]){return {x:rect.width/2+(x-this.center.lng),y:rect.height/2-(y-this.center.lat)}}};
+ const map={center:{lng:85,lat:20},z:1,padding:{top:0,bottom:0,left:0,right:0},on(name,fn){(events[name]||=[]).push(fn)},emit(name,event={}){for(const fn of events[name]||[])fn(event)},getCenter(){return this.center},getZoom(){return this.z},getCanvas:()=>native,setProjection(p){this.projection=p},addSource(id,s){sources[id]={...s,setData(d){this.data=d}}},getSource:id=>sources[id],removeSource(id){delete sources[id]},getLayer:id=>layers.find(l=>l.id===id),removeLayer(id){const i=layers.findIndex(l=>l.id===id);if(i>=0)layers.splice(i,1)},addLayer(l){layers.push(l)},setPaintProperty(){},jumpTo(options){calls.push({type:'jump',...options});if(options.center)this.center={lng:options.center[0],lat:options.center[1]};if(options.zoom!==undefined)this.z=options.zoom;if(options.padding)this.padding=options.padding;this.emit('move')},flyTo(options){calls.push({type:'fly',...options});this.jumpTo(options)},fitBounds(bounds,options){calls.push({type:'fit',bounds,...options});this.jumpTo({center:[(bounds[0][0]+bounds[1][0])/2,(bounds[0][1]+bounds[1][1])/2],zoom:Math.min(14,options.maxZoom),padding:options.padding})},zoomTo(z,options){calls.push({type:'scale',z,...options});this.jumpTo({zoom:z})},resize(){calls.push({type:'resize'})},stop(){},remove(){this.removed=true},queryRenderedFeatures(){return []},project([x,y]){return {x:rect.width/2+(x-this.center.lng),y:rect.height/2-(y-this.center.lat)}}};
  c.testMap=map;vm.runInContext('realBasemap.map=testMap;realBasemap.ready=true;',c);c.realMapInstallLayers(map);c.realMapBind(map,1);vm.runInContext('realBasemap.epoch=1;',c);
  return {c,map,canvas,native,detail,mapNode,realNode,sources,calls,layers,status,message,retry,run:code=>vm.runInContext(code,c)};
 }
@@ -18,7 +18,7 @@ function heritage(){const c=vm.createContext({});vm.runInContext(fs.readFileSync
 function prepareSelect(f){const c=f.c;for(const name of ['rememberDetailFocus','renderPlaceDetail','renderList','renderRoutePanel','addStopNavigation','writeNavigation','focusMapOnMobile'])c[name]=()=>{};c.performance={now:()=>0};vm.runInContext(app.slice(app.indexOf('function select(p)'),app.indexOf('function renderList()')),c)}
 test('desktop and mobile repeat Alamut → Aalto → Alamut, including same-place click, using original coordinates',()=>{
  for(const mobile of [false,true]){const f=fixture(mobile),[aalto,alamut]=heritage().sort((a,b)=>a.id.localeCompare(b.id));for(const p of [aalto,alamut])f.c.placesById.set(p.id,p);prepareSelect(f);
-  for(const p of [alamut,aalto,alamut,alamut]){f.c.select(p);const fly=f.calls.filter(x=>x.type==='fly').at(-1);assert.deepEqual(plain(fly.center),[p.lon,p.lat]);assert.ok(fly.zoom>=14);assert.equal(f.c.camera,null);assert.equal(f.c.selected.id,p.id);assert.equal(f.sources['terra-places'].data.features.find(x=>x.properties.selected).id,p.id);const pad=fly.padding;assert.ok(f.c.w-pad.left-pad.right>=100);assert.ok(f.c.h-pad.top-pad.bottom>=100);if(mobile)assert.ok(pad.bottom>=550);else assert.ok(pad.right>=400);}
+  for(const p of [alamut,aalto,alamut,alamut]){f.c.select(p);const fly=f.calls.filter(x=>x.type==='fly').at(-1);assert.deepEqual(plain(fly.center),[p.lon,p.lat]);assert.ok(fly.zoom>=14);assert.equal(f.c.camera,null);assert.equal(f.c.selected.id,p.id);assert.equal(f.map.getSource(f.map.getLayer('terra-points').source).data.features.find(x=>x.properties.selected).id,p.id);const pad=fly.padding;assert.ok(f.c.w-pad.left-pad.right>=100);assert.ok(f.c.h-pad.top-pad.bottom>=100);if(mobile)assert.ok(pad.bottom>=550);else assert.ok(pad.right>=400);}
   assert.equal(f.calls.filter(x=>x.type==='fly').length,4);assert.deepEqual([alamut.lon,alamut.lat],[50.5861805555,36.4447083333]);
  }
 });
@@ -84,7 +84,7 @@ test('actual app frame retains legacy zoom easing when the offline canvas owns t
 });
 
 test('single-stop overview publishes the route and uses an explicit native point flight',()=>{
- for(const mobile of [false,true]){const f=fixture(mobile),p={id:'prado',name:'Prado',lon:-3.6922,lat:40.4138,type:'museum'};f.c.placesById.set(p.id,p);f.c.previewStops=[p];f.c.activePlan={id:'one',topology:'network'};f.c.targetZoom=500;f.c.realMapFit([p]);const fly=f.calls.filter(c=>c.type==='fly').at(-1);assert.ok(fly);assert.equal(fly.zoom,14);assert.ok(Math.abs(fly.center[0]-p.lon)<1e-8);assert.equal(fly.center[1],p.lat);assert.equal(f.calls.some(c=>c.type==='fit'),false);assert.equal(f.sources['terra-places'].data.features[0].properties.id,p.id);assert.equal(f.sources['terra-routes'].data.features.length,0);}
+ for(const mobile of [false,true]){const f=fixture(mobile),p={id:'prado',name:'Prado',lon:-3.6922,lat:40.4138,type:'museum'};f.c.placesById.set(p.id,p);f.c.previewStops=[p];f.c.activePlan={id:'one',topology:'network'};f.c.targetZoom=500;f.c.realMapFit([p]);const fly=f.calls.filter(c=>c.type==='fly').at(-1);assert.ok(fly);assert.equal(fly.zoom,14);assert.ok(Math.abs(fly.center[0]-p.lon)<1e-8);assert.equal(fly.center[1],p.lat);assert.equal(f.calls.some(c=>c.type==='fit'),false);assert.equal(f.map.getSource(f.map.getLayer('terra-points').source).data.features[0].properties.id,p.id);assert.equal(f.map.getSource(f.map.getLayer('terra-route').source).data.features.length,0);}
 });
 
 test('actual Prado, repeated and near-coincident longitudes never create negative or world-wide bounds',()=>{
@@ -93,5 +93,26 @@ test('actual Prado, repeated and near-coincident longitudes never create negativ
 test('wide Gauguin overview uses the visible globe cap and publishes all original places',()=>{
  const f=fixture(),points=[{id:'france',lon:-3.746,lat:47.855},{id:'tahiti',lon:-149.425,lat:-17.651}];for(const p of points)f.c.placesById.set(p.id,p);
  Object.assign(f.map,{getProjection:()=>({type:'globe'}),getContainer:()=>f.mapNode,getVerticalFieldOfView:()=>36.86989764584402,cameraForBounds:()=>({center:{lng:-76.5855,lat:17.4367948139203},zoom:3.0362800850805374})});
- f.c.realMapFit(points);const fly=f.calls.find(c=>c.type==='fly');assert.ok(fly);assert.equal(fly.roll,0);assert.ok(fly.zoom<3.04);assert.ok(fly.center[0]<-100&&fly.center[1]>35);assert.equal(f.calls.some(c=>c.type==='fit'),false);assert.deepEqual(plain(f.sources['terra-places'].data.features.map(p=>p.id)),['france','tahiti']);
+ f.c.realMapFit(points);const fly=f.calls.find(c=>c.type==='fly');assert.ok(fly);assert.equal(fly.roll,0);assert.ok(fly.zoom<3.04);assert.ok(fly.center[0]<-100&&fly.center[1]>35);assert.equal(f.calls.some(c=>c.type==='fit'),false);assert.deepEqual(plain(f.map.getSource(f.map.getLayer('terra-points').source).data.features.map(p=>p.id)),['france','tahiti']);
+});
+
+// Reproduce the captured sequence: a two-stop route tile completes after the
+// complete catalogue has become current. A source with reused identity allows
+// that old response to replace its current tile even though getData is correct.
+test('late route tile cannot replace a newer full catalogue or its selected point',()=>{
+ const f=fixture(),a={id:'taipei-a',name:'A',lon:121.55,lat:25.1},b={id:'taipei-b',name:'B',lon:121.54,lat:25.1},c={id:'beijing',name:'C',lon:116.37,lat:39.9};
+ for(const p of [a,b,c])f.c.placesById.set(p.id,p);
+ f.c.mapPoints=()=>[a,b];f.c.realMapUpdateData();
+ const previousId=f.map.getLayer('terra-points').source,previous=f.map.getSource(previousId),oldTile=previous.data.features;
+ // The old async reply owns this source object, as in MapLibre's tile loader.
+ const finishOldTile=()=>{previous.renderedData=oldTile};
+ f.c.mapPoints=()=>[a,b,c];f.c.selected=c;f.c.realMapUpdateData();
+ const currentId=f.map.getLayer('terra-points').source,current=f.map.getSource(currentId);current.renderedData=current.data.features;
+ finishOldTile();
+ assert.deepEqual(plain(current.renderedData.map(f=>f.id)),[a.id,b.id,c.id]);
+ assert.equal(current.renderedData.find(f=>f.id===c.id).properties.selected,true);
+ assert.notEqual(currentId,previousId);assert.equal(f.map.getSource(previousId),undefined);
+ assert.equal(Object.keys(f.sources).filter(id=>id.startsWith('terra-')).length,2,'retire old point and route sources rather than leak snapshots');
+ const generation=f.run('realBasemap.overlayGeneration');f.c.realMapUpdateData();assert.equal(f.run('realBasemap.overlayGeneration'),generation,'unchanged draws do not rebuild');
+ f.c.realMapUpdateData(true);assert.notEqual(f.map.getLayer('terra-points').source,currentId,'forced rebuilds also isolate pending old replies');
 });

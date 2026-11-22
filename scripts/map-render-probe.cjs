@@ -76,7 +76,7 @@ function probeRouteFrame(){
  // Query each actual marker locally, and reject back-side projections by
  // round-tripping its screen ray to the visible surface. Source data alone,
  // overlapping labels and an in-bounds screen coordinate cannot pass this.
- const input=map.getSource?.('terra-places')?.serialize?.()?.data;
+ const input=map.getSource?.(map.getLayer('terra-points').source)?.serialize?.()?.data;
  return {native:true,w:rect.width,h:rect.height,camera:{center:map.getCenter(),zoom:map.getZoom(),padding:map.getPadding(),projection:map.getProjection()},ready:{moving:map.isMoving(),loaded:map.loaded(),tilesLoaded:map.areTilesLoaded()},navigation:{hash:typeof location==='undefined'?null:location.hash,theme:typeof themes==='undefined'?null:themes[activeTheme]?.id,plan:typeof activePlan==='undefined'?null:activePlan?.id||null,panel:typeof browsePanel==='undefined'?null:browsePanel},inputIds:input?.features?.map(f=>f.properties.id)||null,base:features.filter(f=>!String(f.source).startsWith('terra-')&&f.source!=='basemap-cities').length,points:points.map(p=>{
   const q=map.project([p.lon,p.lat]),back=map.unproject(q),rad=Math.PI/180,dlon=((back.lng-p.lon+540)%360)-180;
   const surfaceError=2*Math.asin(Math.min(1,Math.sqrt(Math.sin((back.lat-p.lat)*rad/2)**2+Math.cos(p.lat*rad)*Math.cos(back.lat*rad)*Math.sin(dlon*rad/2)**2)))/rad;
@@ -109,7 +109,7 @@ module.exports.routeFrameReady=routeFrameReady;
 async function probeRouteData(){
  // MapLibre 6 stores internal GeoJSON as a tagged/updateable representation.
  // Public getData() resolves that representation without assuming _data.features.
- const data=await realBasemap.map.getSource('terra-routes').getData(),expected=routeEdges(previewStops.filter(validLocation),activePlan);
+ const data=await realBasemap.map.getSource(realBasemap.map.getLayer('terra-route').source).getData(),expected=routeEdges(previewStops.filter(validLocation),activePlan);
  return {id:activePlan.id,place:selected.id,stops:previewStops.length,edges:data.features.length,expected:expected.length,endpoints:data.features.map(f=>[f.properties.from,f.properties.to]),expectedEndpoints:expected.map(([a,b])=>[a.id,b.id])};
 }
 module.exports.probeRouteData=probeRouteData;
@@ -117,10 +117,10 @@ module.exports.probeRouteData=probeRouteData;
 // Passive source/tile evidence for missing circles. getData() reads the public
 // GeoJSON representation; querying loaded tiles never refreshes or repairs them.
 async function probePointSourceData(){
- const map=realBasemap.map,source=map.getSource('terra-places'),key=realBasemap.dataKey,camera=realBasemap.cameraKey;
- const input=await source.getData(),manager=map.style?.tileManagers?.['terra-places'];
+ const map=realBasemap.map,sourceId=map.getLayer('terra-points').source,source=map.getSource(sourceId),key=realBasemap.dataKey,camera=realBasemap.cameraKey;
+ const input=await source.getData(),manager=map.style?.tileManagers?.[sourceId];
  const renderedIds=manager?.getRenderableIds?.()||[],allIds=manager?.getIds?.()||[];
  const tiles=allIds.map(id=>{const tile=manager.getTileByID(id),features=[],c=tile.tileID.canonical;let queryError=null;try{tile.querySourceFeatures(features,{})}catch(error){queryError=error.message}return {id:String(id),canonical:{z:c.z,x:c.x,y:c.y},overscaledZ:tile.tileID.overscaledZ,state:tile.state,renderable:renderedIds.includes(id),queryError,points:features.map(f=>({id:f.properties.id,coordinates:f.geometry.coordinates}))}});
- return {input:input.features.map(f=>({id:f.properties.id,coordinates:f.geometry.coordinates,color:f.properties.color,selected:f.properties.selected})),sourceQuery:map.querySourceFeatures('terra-places').map(f=>({id:f.properties.id,coordinates:f.geometry.coordinates})),tiles,sourceLoaded:map.isSourceLoaded('terra-places'),unchanged:key===realBasemap.dataKey&&camera===realBasemap.cameraKey};
+ return {sourceId,input:input.features.map(f=>({id:f.properties.id,coordinates:f.geometry.coordinates,color:f.properties.color,selected:f.properties.selected})),sourceQuery:map.querySourceFeatures(sourceId).map(f=>({id:f.properties.id,coordinates:f.geometry.coordinates})),tiles,sourceLoaded:map.isSourceLoaded(sourceId),unchanged:sourceId===map.getLayer('terra-points').source&&key===realBasemap.dataKey&&camera===realBasemap.cameraKey};
 }
 module.exports.probePointSourceData=probePointSourceData;
