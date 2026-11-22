@@ -14,3 +14,5 @@
 - [PR #60 首跑失败诊断](real-map-qa-diagnosis.md)：已确认的就绪条件缺陷、空白地图的证据缺口，以及仅本地的诊断改动。
 
 - [独立 2D 栅格兼容路径](raster-compatibility.md)：无 WebGL 的实现、批准图源配置、夹具/实瓦片区别与剩余接入条件。
+
+- [2026-11-22 真实栅格人工审查](live-raster-review-20261122.md)：无 WebGL 的真实巴黎 OSM 实测、候选政策与仍未完成的上线条件。
