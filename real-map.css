@@ -11,7 +11,10 @@
 #basemap-status button{margin-left:8px;border:0;background:transparent;color:#245a69;text-decoration:underline;cursor:pointer;font:inherit}
 #basemap-status[hidden],#basemap-status button[hidden]{display:none}
 .basemap-attribution{display:none;position:absolute;left:0;bottom:0;z-index:5;max-width:100%;padding:2px 6px;background:#ffffffed;color:#42545a;font:10px/1.5 -apple-system,BlinkMacSystemFont,sans-serif}
-.real-map-active .basemap-attribution{display:block}
+.real-map-active .basemap-attribution{display:flex;align-items:center;gap:8px}
+.basemap-provider-logo{display:flex;flex:0 0 67px;align-items:center;min-height:24px}
+.basemap-provider-logo img{display:block;width:67px;height:20px;max-width:none}
+.basemap-attribution>span{min-width:0}
 .basemap-attribution a{color:inherit;text-decoration:underline}
 .real-map-active .hint{bottom:23px}
 .real-map-active .legend{bottom:62px}
@@ -35,4 +38,39 @@
  /* Keep failure/retry feedback away from the offline globe's selected point,
     route-back control and the zoom toolbar while its detail drawer is open. */
  body:has(#detail:not([hidden])) .map:not(.real-map-active) #basemap-status{top:0;left:130px;right:10px;max-width:none}
+}
+
+/* Independent SVG/image engine; no WebGL canvas is used for street mode. */
+#raster-map{position:absolute;inset:0;z-index:1;visibility:hidden;width:100%;height:100%;background:#e5edef}
+.raster-map-active #raster-map{visibility:visible}
+.raster-map-active #real-map{visibility:hidden}
+.raster-map-active .schematic-globe{visibility:hidden;pointer-events:none}
+#raster-map .leaflet-interactive:focus-visible{outline:3px solid #245a69;outline-offset:4px}
+#raster-map .leaflet-tooltip{font:12px/1.4 -apple-system,BlinkMacSystemFont,sans-serif;white-space:normal;max-width:190px}
+#map-view-switch{position:absolute;right:16px;top:42px;z-index:6;display:flex;border:1px solid #ccd7da;border-radius:5px;background:#fffffff2;overflow:hidden}
+#map-view-switch button{font-family:inherit;font-size:11px;line-height:1.5;min-height:34px;border:0;border-radius:0;padding:5px 9px;color:#245a69;background:transparent;cursor:pointer}
+#map-view-switch button[aria-pressed="true"]{background:#245a69;color:white}
+#map-view-switch button:disabled{color:#7b8588;cursor:default}
+.raster-map-active #rotate{display:none}
+@media(max-width:760px){#map-view-switch{right:13px;top:8px}#map-view-switch button{min-height:36px;padding:5px 8px}}
+
+#raster-map .map-place-choices{display:grid;gap:5px;min-width:160px;color:#233f48}
+#raster-map .map-place-choices strong{font-size:12px;font-weight:600;margin-bottom:3px}
+#raster-map .map-place-choices button{min-height:36px;padding:7px 9px;text-align:left;white-space:normal;line-height:1.5;font-size:11px;color:#245a69;background:#fff;border:1px solid #ccd7da;border-radius:4px}
+#raster-map .map-place-choices button:hover,#raster-map .map-place-choices button:focus-visible{background:#edf3f4;border-color:#245a69}
+@media(max-width:760px){
+ /* The offline notice occupies the upper-right strip while a detail is open.
+    Place the view switch below the left route control, clear of the centre dot. */
+ body:has(#detail:not([hidden])) .map:not(.real-map-active) #map-view-switch{top:92px;left:13px;right:auto}
+}
+
+/* The place picker is a temporary focused action. Keep zoom/view switching,
+   and restore decorative/route controls when it closes. */
+.raster-choice-open #art-toggle,.raster-choice-open #clear-route{visibility:hidden;pointer-events:none}
+
+/* Reserve the complete logo/text footer height after the narrow-screen rules. */
+.raster-map-active .hint{bottom:34px}
+@media(max-width:760px){
+ /* Override the existing design.css !important compact-legend offset. */
+ .raster-map-active .legend{bottom:60px!important}
 }

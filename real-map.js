@@ -1,13 +1,13 @@
 'use strict';
 // MapLibre owns geographic rendering, never navigation or application data.
 // Keep this file safe for the data-only VM loader (no eager browser access).
-const realBasemap={map:null,ready:false,loading:false,failed:false,epoch:0,timer:null,errors:[],baseSeen:false,dataKey:'',cameraKey:'',paddingKey:'',focused:null,observer:null,controller:null};
+const realBasemap={map:null,ready:false,loading:false,failed:false,epoch:0,timer:null,errors:[],baseSeen:false,dataKey:'',cameraKey:'',paddingKey:'',focused:null,observer:null,controller:null,overlayGeneration:0,overlaySources:null};
 const realMapAssets='assets/vendor/maplibre-6.19.0/';
 const realMapStyle=currentBasemapProvider().style;
 function realMapLongitude(value){return ((value+180)%360+360)%360-180}
 function realMapZoom(value){return Math.max(0,Math.min(19,1+Math.log2(Math.max(.5,value))))}
 function realMapLegacyZoom(value){return 2**(value-1)}
-function realMapActive(){return realBasemap.ready&&!!realBasemap.map}
+function realMapActive(){return (typeof rasterMapActive==='function'&&rasterMapActive())||(realBasemap.ready&&!!realBasemap.map)}
 function realMapDuration(){return typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches?0:650}
 function realMapCameraKey(){return [lon,lat,zoom].map(v=>v.toFixed(6)).join(',')}
 // Smallest longitude interval, including routes crossing the date line.
@@ -85,6 +85,7 @@ function realMapCanvas(active){
  document.querySelector('.map').classList.toggle('real-map-active',active);document.querySelector('#real-map').setAttribute('aria-hidden',String(!active));
 }
 function realMapReadCamera(){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapReadCamera();
  const map=realBasemap.map;if(!map||!realBasemap.ready)return;
  const center=map.getCenter();lon=realMapLongitude(center.lng);lat=center.lat;zoom=targetZoom=realMapLegacyZoom(map.getZoom());
  realBasemap.cameraKey=realMapCameraKey();dirty=true;
@@ -94,14 +95,14 @@ function realMapFail(reason){
  if(!realBasemap.loading&&!realBasemap.map)return;
  clearTimeout(realBasemap.timer);realBasemap.controller?.abort();realBasemap.controller=null;realBasemap.epoch++;realBasemap.loading=false;realBasemap.ready=false;realBasemap.failed=true;
  const old=realBasemap.map,hadFocus=old&&document.activeElement===old.getCanvas();
- realMapCanvas(false);realBasemap.map=null;realBasemap.dataKey='';realBasemap.focused=null;realBasemap.paddingKey='';
+ realMapCanvas(false);realBasemap.map=null;realBasemap.overlaySources=null;realBasemap.dataKey='';realBasemap.focused=null;realBasemap.paddingKey='';
  document.querySelector('.map').classList.remove('street-map');
  if(old)old.remove();stopTrip();camera=null;
  zoom=targetZoom=Math.max(.8,Math.min(zoom,themeZoomLimit(),selected?5:2));
  if(selected&&validLocation(selected)){lon=selected.lon;lat=selected.lat;}else if(previewStops?.length)fitRoute(previewStops);
  if(hadFocus)canvas.focus({preventScroll:true});dirty=true;
  realMapStatus('真实底图暂不可用，已使用离线地图。',true);
- console.warn('Real basemap unavailable; schematic globe retained:',reason);
+ console.warn('Real basemap unavailable; schematic globe retained.',{code:typeof safeBasemapError==='function'?safeBasemapError(reason):'basemap-unavailable'});
 }
 function realMapIcon(map,p){
  if(typeof pictogram!=='function'||typeof map.hasImage!=='function')return '';
@@ -115,28 +116,42 @@ function realMapInstallLayers(map){
  map.addSource('basemap-cities',{type:'geojson',data:new URL(currentBasemapProvider().cities,document.baseURI).href});
  map.addLayer({id:'basemap-city-dots',type:'circle',source:'basemap-cities',maxzoom:4,paint:{'circle-radius':2,'circle-color':'#667b83','circle-stroke-color':'#ffffff','circle-stroke-width':1}});
  map.addLayer({id:'basemap-city-labels',type:'symbol',source:'basemap-cities',maxzoom:4,layout:{'text-field':['get','name'],'text-font':currentBasemapProvider().labelFont,'text-size':11,'text-anchor':'left','text-offset':[.5,0],'text-padding':5,'symbol-sort-key':['-',['get','population']]},paint:{'text-color':'#50676f','text-halo-color':'#ffffff','text-halo-width':1.5}});
- map.addSource('terra-routes',{type:'geojson',data:empty});
- map.addSource('terra-places',{type:'geojson',data:empty});
- map.addLayer({id:'terra-route-halo',type:'line',source:'terra-routes',paint:{'line-color':'#ffffff','line-width':6,'line-opacity':.8}});
- map.addLayer({id:'terra-route',type:'line',source:'terra-routes',paint:{'line-color':themes[activeTheme].colors.route,'line-width':2.8,'line-opacity':.9}});
- map.addLayer({id:'terra-points',type:'circle',source:'terra-places',paint:{'circle-radius':['case',['get','selected'],9,['>',['get','order'],0],7,4.5],'circle-color':['get','color'],'circle-stroke-color':'#ffffff','circle-stroke-width':2}});
- // Selected ring is separate so it is never suppressed by label collisions.
- map.addLayer({id:'terra-selected',type:'circle',source:'terra-places',filter:['==',['get','selected'],true],paint:{'circle-radius':14,'circle-color':'#ffffff','circle-opacity':.12,'circle-stroke-color':'#173a46','circle-stroke-width':2}});
- map.addLayer({id:'terra-icons',type:'symbol',source:'terra-places',minzoom:3,filter:['!=',['get','icon'],''],layout:{'icon-image':['get','icon'],'icon-allow-overlap':false,'symbol-sort-key':['case',['get','selected'],-10000,1000]}});
- map.addLayer({id:'terra-labels',type:'symbol',source:'terra-places',minzoom:4,layout:{'text-field':['get','name'],'text-font':currentBasemapProvider().labelFont,'text-size':12,'text-anchor':'left','text-offset':[1.2,0],'text-max-width':12,'text-optional':true,'symbol-sort-key':['case',['get','selected'],-10000,['>',['get','order'],0],['get','order'],1000]},paint:{'text-color':'#23343b','text-halo-color':'#ffffff','text-halo-width':2}});
- map.addLayer({id:'terra-order',type:'symbol',source:'terra-places',filter:['>',['get','order'],0],layout:{'text-field':['get','badge'],'text-font':currentBasemapProvider().labelFont,'text-size':10,'text-allow-overlap':false,'symbol-sort-key':['get','order']},paint:{'text-color':'#ffffff','text-halo-color':'#23343b','text-halo-width':1}});
+ realMapReplaceOverlays(map,empty,empty);
 }
+function realMapReplaceOverlays(map,points,routes){
+ // A roster change can overlap an older GeoJSON tile parse during a flight.
+ // Give each complete snapshot its own worker/cache identity. A late reply
+ // from the previous route can then only reach its removed source, never
+ // overwrite a tile in the current catalogue. Keep layer IDs and hit tests.
+ const previous=realBasemap.overlaySources,generation=++realBasemap.overlayGeneration;
+ const sources={places:'terra-places-'+generation,routes:'terra-routes-'+generation};
+ for(const id of ['terra-order','terra-labels','terra-icons','terra-selected','terra-points','terra-route','terra-route-halo'])if(map.getLayer(id))map.removeLayer(id);
+ map.addSource(sources.routes,{type:'geojson',data:routes});
+ map.addSource(sources.places,{type:'geojson',data:points});
+ map.addLayer({id:'terra-route-halo',type:'line',source:sources.routes,paint:{'line-color':'#ffffff','line-width':6,'line-opacity':.8}});
+ map.addLayer({id:'terra-route',type:'line',source:sources.routes,paint:{'line-color':themes[activeTheme].colors.route,'line-width':2.8,'line-opacity':.9}});
+ map.addLayer({id:'terra-points',type:'circle',source:sources.places,paint:{'circle-radius':['case',['get','selected'],9,['>',['get','order'],0],7,4.5],'circle-color':['get','color'],'circle-stroke-color':'#ffffff','circle-stroke-width':2}});
+ // Selected ring is separate so it is never suppressed by label collisions.
+ map.addLayer({id:'terra-selected',type:'circle',source:sources.places,filter:['==',['get','selected'],true],paint:{'circle-radius':14,'circle-color':'#ffffff','circle-opacity':.12,'circle-stroke-color':'#173a46','circle-stroke-width':2}});
+ map.addLayer({id:'terra-icons',type:'symbol',source:sources.places,minzoom:3,filter:['!=',['get','icon'],''],layout:{'icon-image':['get','icon'],'icon-allow-overlap':false,'symbol-sort-key':['case',['get','selected'],-10000,1000]}});
+ map.addLayer({id:'terra-labels',type:'symbol',source:sources.places,minzoom:4,layout:{'text-field':['get','name'],'text-font':currentBasemapProvider().labelFont,'text-size':12,'text-anchor':'left','text-offset':[1.2,0],'text-max-width':12,'text-optional':true,'symbol-sort-key':['case',['get','selected'],-10000,['>',['get','order'],0],['get','order'],1000]},paint:{'text-color':'#23343b','text-halo-color':'#ffffff','text-halo-width':2}});
+ map.addLayer({id:'terra-order',type:'symbol',source:sources.places,filter:['>',['get','order'],0],layout:{'text-field':['get','badge'],'text-font':currentBasemapProvider().labelFont,'text-size':10,'text-allow-overlap':false,'symbol-sort-key':['get','order']},paint:{'text-color':'#ffffff','text-halo-color':'#23343b','text-halo-width':1}});
+ realBasemap.overlaySources=sources;
+ if(previous)for(const id of Object.values(previous))if(map.getSource(id))map.removeSource(id);
+}
+
 function realMapUpdateData(force=false){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapUpdateData(force);
  if(!realMapActive())return;
  const map=realBasemap.map,stops=(previewStops||(!previewTheme?trip:[])).filter(validLocation),order=new Map(stops.map((p,i)=>[p.id,i+1]));
  const points=[...new Map([...mapPoints(),...(selected?[selected]:[])].filter(validLocation).map(p=>[p.id,p])).values()];
  const key=JSON.stringify([activeTheme,points.map(p=>p.id),stops.map(p=>p.id),activePlan?.id,activePlan?.topology,selected?.id]);
  if(!force&&key===realBasemap.dataKey)return;
  const data={type:'FeatureCollection',features:points.map(p=>({type:'Feature',id:p.id,properties:{id:p.id,name:p.name,color:markerStyle(p).color,icon:realMapIcon(map,p),selected:p===selected,order:order.get(p.id)||0,badge:activePlan?.topology==='network'?'◇':String(order.get(p.id)||'')},geometry:{type:'Point',coordinates:[p.lon,p.lat]}}))};
- map.getSource('terra-places').setData(data);map.getSource('terra-routes').setData(realMapRouteData(stops,activePlan));
- map.setPaintProperty('terra-route','line-color',themes[activeTheme].colors.route);realBasemap.dataKey=key;
+ realMapReplaceOverlays(map,data,realMapRouteData(stops,activePlan));realBasemap.dataKey=key;
 }
 function realMapFocus(p,animate=true){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapFocus(p,animate);
  if(!realMapActive()||!validLocation(p))return false;
  positionDetail();camera=null;realBasemap.focused=p.id;realMapUpdateData();
  const map=realBasemap.map,padding=realMapCurrentPadding();realBasemap.paddingKey=JSON.stringify(padding);
@@ -149,6 +164,7 @@ function realMapFocus(p,animate=true){
  map.flyTo({center:[p.lon,p.lat],zoom:Math.min(z,19),bearing:0,pitch:0,padding,duration:animate?realMapDuration():0});return true;
 }
 function realMapFit(stops,animate=true){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapFit(stops,animate);
  if(!realMapActive())return false;
  const bounds=realMapBounds(stops);if(!bounds)return false;
  camera=null;realBasemap.focused=null;const map=realBasemap.map,padding=realMapCurrentPadding();realBasemap.paddingKey=JSON.stringify(padding);
@@ -168,11 +184,13 @@ function realMapFit(stops,animate=true){
  }return true;
 }
 function realMapScale(value){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapScale(value);
  if(!realMapActive())return false;
  camera=null;realBasemap.focused=null;realBasemap.map.zoomTo(Math.max(0,Math.min(19,realBasemap.map.getZoom()+Math.log2(value))),{duration:180});return true;
 }
-function realMapStop(){if(realMapActive()){realBasemap.map.stop();realBasemap.focused=null;realMapReadCamera();}}
+function realMapStop(){if(typeof rasterMapActive==='function'&&rasterMapActive()){rasterMapStop();return;}if(realMapActive()){realBasemap.map.stop();realBasemap.focused=null;realMapReadCamera();}}
 function realMapResize(){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return rasterMapResize();
  if(!realMapActive())return;
  positionDetail();realBasemap.map.resize();
  const padding=realMapCurrentPadding(),key=JSON.stringify(padding);
@@ -183,6 +201,7 @@ function realMapResize(){
  }
 }
 function drawRealMap(){
+ if(typeof rasterMapActive==='function'&&rasterMapActive())return drawRasterMap();
  if(!realMapActive())return;
  if(selected)positionDetail();realMapUpdateData();
  if(auto||playing)realBasemap.focused=null;
@@ -194,6 +213,7 @@ function drawRealMap(){
  document.querySelector('#coords').textContent=`${Math.abs(lat).toFixed(2)}° ${lat>=0?'N':'S'} / ${Math.abs(lon).toFixed(2)}° ${lon>=0?'E':'W'}`;
 }
 function realMapEnterTheme(){
+ if(typeof rasterMapPreferred==='function'&&rasterMapPreferred()){rasterMapEnterTheme();return;}
  realBasemap.focused=null;realBasemap.dataKey='';
  if(realMapActive()){
   realBasemap.map.stop();camera=null;realBasemap.map.jumpTo({center:[lon,lat],zoom:realMapZoom(zoom),padding:{top:0,bottom:0,left:0,right:0},bearing:0,pitch:0});realBasemap.paddingKey='';realMapUpdateData(true);realMapResize();
@@ -225,6 +245,7 @@ function realMapBind(map,epoch){
   map.getCanvas().addEventListener('webglcontextlost',event=>{event.preventDefault();if(epoch===realBasemap.epoch)realMapFail('WebGL context lost');},{once:true});
 }
 async function realMapStart(){
+ if(typeof rasterMapPreferred==='function'&&rasterMapPreferred()){await rasterMapStart();return;}
  if(realBasemap.loading||realBasemap.map)return;
  const epoch=++realBasemap.epoch;realBasemap.loading=true;realBasemap.failed=false;realBasemap.baseSeen=false;realBasemap.errors=[];
  realMapStatus('正在加载真实底图…');
@@ -244,12 +265,16 @@ async function realMapStart(){
  }catch(error){if(epoch===realBasemap.epoch)realMapFail(error.message);}
 }
 function initializeRealMap(){
- renderBasemapAttribution();
- const retry=document.querySelector('#basemap-retry');if(retry)retry.onclick=()=>{realBasemap.failed=false;void realMapStart();};
+ renderBasemapAttribution();if(typeof initializeRasterMap==='function')initializeRasterMap();
+ const retry=document.querySelector('#basemap-retry');if(retry)retry.onclick=()=>{realBasemap.failed=false;if(typeof rasterBasemap!=='undefined')rasterBasemap.failed=false;void realMapStart();};
  if(typeof ResizeObserver!=='undefined'){
   realBasemap.observer=new ResizeObserver(()=>{if(realMapActive()){realMapResize();dirty=true;}});
   realBasemap.observer.observe(document.querySelector('.map'));realBasemap.observer.observe(document.querySelector('#detail'));
  }
  if(inTheme&&!realBasemap.map&&!realBasemap.failed)void realMapStart();
+}
+function realMapVectorDispose(){
+ clearTimeout(realBasemap.timer);realBasemap.controller?.abort();realBasemap.controller=null;realBasemap.epoch++;
+ realMapCanvas(false);if(realBasemap.map)realBasemap.map.remove();realBasemap.map=null;realBasemap.overlaySources=null;realBasemap.ready=false;realBasemap.loading=false;realBasemap.failed=false;realBasemap.dataKey='';realBasemap.focused=null;realBasemap.paddingKey='';camera=null;
 }
 document.addEventListener('DOMContentLoaded',initializeRealMap);

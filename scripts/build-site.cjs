@@ -4,13 +4,20 @@
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const root=path.resolve(__dirname,'..');
 function digest(bytes){return crypto.createHash('sha256').update(bytes).digest('hex')}
-function buildSite(output=path.join(root,'_site')){
+function buildSite(output=path.join(root,'_site'),{rasterConfigFile=process.env.TERRA_RASTER_CONFIG_FILE}={}){
  fs.mkdirSync(output,{recursive:true});
  let html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+ let rasterRuntime=null;
+ if(rasterConfigFile){
+  const {normalizeRasterConfig}=require('../raster-config.js');
+  let config;try{config=normalizeRasterConfig(JSON.parse(fs.readFileSync(rasterConfigFile,'utf8')))}catch{throw Error('Approved raster configuration is missing or invalid')}
+  if(!config.enabled)throw Error('Approved raster configuration is missing or invalid');
+  rasterRuntime=Buffer.from("'use strict';\nglobalThis.TERRA_RASTER_CONFIG=Object.freeze("+JSON.stringify({provider:config.provider,mapId:config.mapId,apiKey:config.apiKey})+");\n");
+ }
  const assets={};
  const version=(name)=>{
   if(assets[name])return assets[name].path;
-  const bytes=fs.readFileSync(path.join(root,name)),hash=digest(bytes),extension=path.extname(name),target=name.slice(0,-extension.length)+'.'+hash.slice(0,16)+extension;
+  const bytes=name==='raster-runtime.js'&&rasterRuntime?rasterRuntime:fs.readFileSync(path.join(root,name)),hash=digest(bytes),extension=path.extname(name),target=name.slice(0,-extension.length)+'.'+hash.slice(0,16)+extension;
   fs.writeFileSync(path.join(output,target),bytes);assets[name]={path:target,sha256:hash};return target;
  };
  html=html.replace(/(<script defer src=")([^"]+\.js)("><\/script>)/g,(_,a,file,b)=>a+version(file)+b);
@@ -19,7 +26,7 @@ function buildSite(output=path.join(root,'_site')){
  const guard=fs.readFileSync(path.join(root,'startup-guard.js'),'utf8').replaceAll('__TERRA_RELEASE__',release);
  html=html.replace('</head>',`<meta name="terra-release" content="${release}"><script>${guard}</script></head>`);
  // Original paths remain for documents cached before immutable asset URLs existed.
- for(const file of fs.readdirSync(root))if(/\.(js|css)$/.test(file)||file==='countries.geo.json')fs.copyFileSync(path.join(root,file),path.join(output,file));
+ for(const file of fs.readdirSync(root))if(/\.(js|css)$/.test(file)||file==='countries.geo.json'){if(file==='raster-runtime.js'&&rasterRuntime)fs.writeFileSync(path.join(output,file),rasterRuntime);else fs.copyFileSync(path.join(root,file),path.join(output,file));}
  fs.cpSync(path.join(root,'assets'),path.join(output,'assets'),{recursive:true});
  fs.writeFileSync(path.join(output,'index.html'),html);
  fs.writeFileSync(path.join(output,'release.json'),JSON.stringify({release,assets},null,2));

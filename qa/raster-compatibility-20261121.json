@@ -1,0 +1,185 @@
+{
+  "phase": "local pre-PR validation 2026-11-21",
+  "baseMain": "0d0b22a32ee8c7cb7e996bbe5c50a4c29bd56093",
+  "scope": "independent configured Leaflet raster path; retain globe, data and fallback",
+  "credentials": "none approved; runtime default disabled; no real key committed or used",
+  "localUnitTests": 129,
+  "localDom": {
+    "kind": "deterministic DOM / actual Leaflet / synthetic tiles",
+    "passed": true,
+    "layoutPixelsVerified": false,
+    "liveMapTiler": {
+      "status": "not_run",
+      "reason": "no approved key"
+    },
+    "results": [
+      {
+        "city": "北京",
+        "width": 1440,
+        "webgl": "missing",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "京都",
+        "width": 1440,
+        "webgl": "missing",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "巴黎",
+        "width": 1440,
+        "webgl": "missing",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "哥伦比亚",
+        "width": 1440,
+        "webgl": "missing",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "北京",
+        "width": 1440,
+        "webgl": "context-null",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "京都",
+        "width": 1440,
+        "webgl": "context-null",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "巴黎",
+        "width": 1440,
+        "webgl": "context-null",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "哥伦比亚",
+        "width": 1440,
+        "webgl": "context-null",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "北京",
+        "width": 390,
+        "webgl": "missing",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "京都",
+        "width": 390,
+        "webgl": "missing",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "巴黎",
+        "width": 390,
+        "webgl": "missing",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "哥伦比亚",
+        "width": 390,
+        "webgl": "missing",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "北京",
+        "width": 390,
+        "webgl": "context-null",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "京都",
+        "width": 390,
+        "webgl": "context-null",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "巴黎",
+        "width": 390,
+        "webgl": "context-null",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "city": "哥伦比亚",
+        "width": 390,
+        "webgl": "context-null",
+        "passed": true,
+        "engine": "actual Leaflet 1.9.4",
+        "tileEvidence": "synthetic completion with mocked layout",
+        "realImageryVerified": false
+      },
+      {
+        "scenario": "all-tiles-fail",
+        "passed": true,
+        "fallback": "original canvas remains interactive"
+      },
+      {
+        "scenario": "auth-fail",
+        "passed": true,
+        "fallback": "original canvas remains interactive"
+      }
+    ]
+  },
+  "localBrowser": {
+    "status": "blocked",
+    "reason": "Chromium process_singleton socket() Operation not permitted",
+    "pixelsVerified": false
+  },
+  "browserFixtureCI": "prepared; exact PR SHA/run is authoritative after push",
+  "liveMapTiler": {
+    "status": "not_run",
+    "reason": "approved key and applicable plan not available"
+  },
+  "data": "production snapshots identical; all original places, coordinates, photos, readings, works, plans and links retained",
+  "auditChange": "script fingerprints and registration order only; human review coverage unchanged",
+  "publishing": "independent test branch / draft PR only; no main merge or production update"
+}

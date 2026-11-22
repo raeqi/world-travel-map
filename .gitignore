@@ -4,3 +4,8 @@ npm-debug.log*
 
 # Ephemeral CI screenshots and network diagnostics
 qa-artifacts/
+
+# Operator-supplied, approved browser map configuration; never commit credentials.
+*.raster.local.json
+/qa/raster-map/
+/qa-raster-dom.json

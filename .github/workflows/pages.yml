@@ -17,6 +17,8 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-latest
+    outputs:
+      pages-artifact-id: ${{ steps.pages-artifact.outputs.artifact_id }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -37,6 +39,7 @@ jobs:
       - name: Prepare public site
         run: node scripts/build-site.cjs
       - name: Upload public site
+        id: pages-artifact
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
@@ -61,7 +64,7 @@ jobs:
 
   verify-published:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
-    needs: deploy
+    needs: [test, deploy]
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -69,5 +72,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Download the exact Pages package from this run
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ needs.test.outputs.pages-artifact-id }}
+          path: release-package
+          merge-multiple: true
       - name: Verify the public document and every versioned script and stylesheet
-        run: node scripts/check-published-release.cjs
+        run: node scripts/check-published-release.cjs --pages-artifact release-package/artifact.tar
