@@ -1,6 +1,6 @@
 'use strict';
 const fs=require('node:fs'),assert=require('node:assert/strict'),{chromium}=require('playwright');
-const {routeFrameReady,probeRouteFrame}=require('./map-render-probe.cjs');
+const {routeFrameReady,probeRouteFrame,probePointSourceData}=require('./map-render-probe.cjs');
 const {culturalBrowserScope,culturalShardThemes}=require('./cultural-browser-scope.cjs');
 const scope=culturalBrowserScope();
 const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme-maps';
@@ -12,7 +12,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8000/',out='qa/cultural-theme
  const overflow=async id=>assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),id+' overflow');
  const frame=async id=>{
   const before=await page.evaluate(probeRouteFrame);let result;
-  try{await page.waitForFunction(routeFrameReady,true);result=await page.evaluate(probeRouteFrame)}catch(error){result=await page.evaluate(probeRouteFrame);fs.writeFileSync(out+'/'+deviceName+'-frame-failure.json',JSON.stringify({id,error:error.message,before,result},null,2));await page.screenshot({path:out+'/'+deviceName+'-frame-failure.png'});throw error}
+  try{await page.waitForFunction(routeFrameReady,true);result=await page.evaluate(probeRouteFrame)}catch(error){result=await page.evaluate(probeRouteFrame);fs.writeFileSync(out+'/'+deviceName+'-frame-failure.json',JSON.stringify({id,error:error.message,before,result,source:await page.evaluate(probePointSourceData)},null,2));await page.screenshot({path:out+'/'+deviceName+'-frame-failure.png'});throw error}
   if(['fuji-tokaido','european-music-cities'].includes(id))fs.writeFileSync(out+'/'+deviceName+'-'+id+'-transition.json',JSON.stringify({before,result},null,2));
   if(id==='european-music-cities'){fs.writeFileSync(out+'/'+deviceName+'-music-frame.json',JSON.stringify(result,null,2));await page.screenshot({path:out+'/'+deviceName+'-music-overview.png'});}
   if(result.native)assert.ok(result.base>0,id+' current basemap');

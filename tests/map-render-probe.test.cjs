@@ -1,6 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),vm=require('node:vm');
-const {mapViewReady,probeMapFrame,assertSelectionFrame,probeRouteFrame,routeFrameReady,probeRouteData}=require('../scripts/map-render-probe.cjs');
+const {mapViewReady,probeMapFrame,assertSelectionFrame,probeRouteFrame,routeFrameReady,probeRouteData,probePointSourceData}=require('../scripts/map-render-probe.cjs');
 const pinned=import('../assets/vendor/maplibre-6.19.0/maplibre-gl.mjs');
 function readiness(map,active=true,loading=false){return vm.runInNewContext('('+mapViewReady.toString()+')(requireNative)',{realMapActive:()=>active,realBasemap:{map,loading},selected:{id:'a'},camera:null,requireNative:true});}
 test('actual pinned MapLibre update leaves previous tiles loaded while the new frame is pending',async()=>{
@@ -83,4 +83,12 @@ test('route data uses actual pinned GeoJSONSource getData for both tagged repres
   const env={realBasemap:{map:{getSource:()=>source}},previewStops:stops,activePlan:{id:'kept'},selected:stops[0],validLocation:()=>true,routeEdges:()=>[[stops[0],stops[1]]]};
   const result=JSON.parse(JSON.stringify(await vm.runInNewContext('('+probeRouteData.toString()+')()',env)));assert.equal(result.edges,1);assert.deepEqual(result.endpoints,[['a','b']]);assert.deepEqual(result.endpoints,result.expectedEndpoints);
  }
+});
+
+
+test('passive source diagnostics distinguish a loaded but excluded tile from absent input without repairing it',async()=>{
+ const f=fixture(),feature={properties:{id:f.point.id,color:'#527b51'},geometry:{coordinates:[f.point.lon,f.point.lat]}},tile={tileID:{canonical:{z:7,x:63,y:48},overscaledZ:7},state:'loaded',querySourceFeatures(out){out.push(feature)}};
+ f.map.getSource=()=>({getData:async()=>({features:[feature]})});f.map.querySourceFeatures=()=>[];f.map.style={tileManagers:{'terra-places':{getIds:()=>['tile'],getRenderableIds:()=>[],getTileByID:()=>tile}}};
+ const result=JSON.parse(JSON.stringify(await vm.runInNewContext('('+probePointSourceData.toString()+')()',f.env)));
+ assert.equal(result.input[0].id,f.point.id);assert.equal(result.sourceQuery.length,0);assert.equal(result.tiles[0].points[0].id,f.point.id);assert.equal(result.tiles[0].renderable,false);assert.equal(result.tiles[0].state,'loaded');assert.equal(result.tiles[0].queryError,null);assert.equal(result.unchanged,true);
 });

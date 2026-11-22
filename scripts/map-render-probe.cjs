@@ -113,3 +113,14 @@ async function probeRouteData(){
  return {id:activePlan.id,place:selected.id,stops:previewStops.length,edges:data.features.length,expected:expected.length,endpoints:data.features.map(f=>[f.properties.from,f.properties.to]),expectedEndpoints:expected.map(([a,b])=>[a.id,b.id])};
 }
 module.exports.probeRouteData=probeRouteData;
+
+// Passive source/tile evidence for missing circles. getData() reads the public
+// GeoJSON representation; querying loaded tiles never refreshes or repairs them.
+async function probePointSourceData(){
+ const map=realBasemap.map,source=map.getSource('terra-places'),key=realBasemap.dataKey,camera=realBasemap.cameraKey;
+ const input=await source.getData(),manager=map.style?.tileManagers?.['terra-places'];
+ const renderedIds=manager?.getRenderableIds?.()||[],allIds=manager?.getIds?.()||[];
+ const tiles=allIds.map(id=>{const tile=manager.getTileByID(id),features=[],c=tile.tileID.canonical;let queryError=null;try{tile.querySourceFeatures(features,{})}catch(error){queryError=error.message}return {id:String(id),canonical:{z:c.z,x:c.x,y:c.y},overscaledZ:tile.tileID.overscaledZ,state:tile.state,renderable:renderedIds.includes(id),queryError,points:features.map(f=>({id:f.properties.id,coordinates:f.geometry.coordinates}))}});
+ return {input:input.features.map(f=>({id:f.properties.id,coordinates:f.geometry.coordinates,color:f.properties.color,selected:f.properties.selected})),sourceQuery:map.querySourceFeatures('terra-places').map(f=>({id:f.properties.id,coordinates:f.geometry.coordinates})),tiles,sourceLoaded:map.isSourceLoaded('terra-places'),unchanged:key===realBasemap.dataKey&&camera===realBasemap.cameraKey};
+}
+module.exports.probePointSourceData=probePointSourceData;
